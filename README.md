@@ -3,7 +3,7 @@
 A force-directed map of what the world is paying attention to right now.
 Events, not articles. Resonance, not recency.
 
-**Live demo:** https://nztdev.github.io/agoraviva
+**Live demo:** https://nztdev.github.io/agora-viva
 
 ---
 

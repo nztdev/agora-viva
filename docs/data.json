@@ -1,12 +1,46 @@
 {
-  "generated_at": "2026-06-05T20:51:24.228201+00:00",
+  "generated_at": "2026-06-05T22:16:36.127219+00:00",
   "node_count": 60,
-  "edge_count": 5,
+  "edge_count": 6,
   "nodes": [
+    {
+      "id": "179de717ca",
+      "title": "Astronauts return to ISS after sheltering during air leak repair attempt",
+      "resonance": 0.5939,
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c5y7yryg01mo?at_medium=RSS&at_campaign=rss",
+          "headline": "Astronauts return to ISS after sheltering during air leak repair attempt",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.bbc.com/news/live/c4g44ew3g1kt",
+          "headline": "Astronauts told to return to ISS after sheltering over air leak repairs",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T15:00:31+00:00",
+      "last_seen": "2026-06-05T21:35:55+00:00",
+      "platforms": [
+        "rss",
+        "hackernews"
+      ],
+      "geo_regions": []
+    },
     {
       "id": "fbd225fe81",
       "title": "Google will pay SpaceX $920M per month for compute",
-      "resonance": 0.4856,
+      "resonance": 0.4764,
       "signal_count": 3,
       "sources": [
         {
@@ -38,21 +72,21 @@
       "first_seen": "2026-06-05T18:57:20+00:00",
       "last_seen": "2026-06-05T20:06:36+00:00",
       "platforms": [
-        "hackernews",
-        "rss"
+        "rss",
+        "hackernews"
       ],
       "geo_regions": []
     },
     {
-      "id": "4ed269f55a",
-      "title": "Accidentally deleted subscriptions for chat integrations (Slack and MS Teams)",
-      "resonance": 0.4547,
+      "id": "4c7df50660",
+      "title": "Hacker News, Sans AI",
+      "resonance": 0.4566,
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://www.githubstatus.com/incidents/2nmfnbknhlnv",
-          "headline": "Accidentally deleted subscriptions for chat integrations (Slack and MS Teams)",
+          "url": "https://elijahpotter.dev/articles/hacker-news-sans-AI",
+          "headline": "Hacker News, Sans AI",
           "platform": "hackernews"
         }
       ],
@@ -63,51 +97,17 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-05T19:15:36+00:00",
-      "last_seen": "2026-06-05T19:15:36+00:00",
+      "first_seen": "2026-06-05T20:38:40+00:00",
+      "last_seen": "2026-06-05T20:38:40+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": []
     },
     {
-      "id": "179de717ca",
-      "title": "Astronauts return to ISS after sheltering during air leak repair attempt",
-      "resonance": 0.4397,
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/c5y7yryg01mo?at_medium=RSS&at_campaign=rss",
-          "headline": "Astronauts return to ISS after sheltering during air leak repair attempt",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.bbc.com/news/live/c4g44ew3g1kt",
-          "headline": "Astronauts told to return to ISS after sheltering over air leak repairs",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T15:00:31+00:00",
-      "last_seen": "2026-06-05T16:14:36+00:00",
-      "platforms": [
-        "hackernews",
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
       "id": "ad8e9823d9",
       "title": "Three of our worst VC stories",
-      "resonance": 0.4176,
+      "resonance": 0.4062,
       "signal_count": 1,
       "sources": [
         {
@@ -132,49 +132,15 @@
       "geo_regions": []
     },
     {
-      "id": "abf350b060",
-      "title": "Why Can't California Count?",
-      "resonance": 0.4122,
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/california-election-limbo-fueled-4-pressure-points-dragging-out-vote-count-expert-says",
-          "headline": "California election limbo fueled by 4 pressure points dragging out vote count, expert says",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.natesilver.net/p/why-cant-california-count",
-          "headline": "Why Can't California Count?",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.3,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-06-05T18:35:39+00:00",
-      "last_seen": "2026-06-05T20:21:56+00:00",
-      "platforms": [
-        "hackernews",
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "71eed11160",
-      "title": "Conventional Commits encourages focus on the wrong things",
-      "resonance": 0.3816,
+      "id": "4ed269f55a",
+      "title": "Accidentally deleted subscriptions for chat integrations (Slack and MS Teams)",
+      "resonance": 0.3853,
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
-          "headline": "Conventional Commits encourages focus on the wrong things",
+          "url": "https://www.githubstatus.com/incidents/2nmfnbknhlnv",
+          "headline": "Accidentally deleted subscriptions for chat integrations (Slack and MS Teams)",
           "platform": "hackernews"
         }
       ],
@@ -185,8 +151,8 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-05T15:39:38+00:00",
-      "last_seen": "2026-06-05T15:39:38+00:00",
+      "first_seen": "2026-06-05T19:15:36+00:00",
+      "last_seen": "2026-06-05T19:15:36+00:00",
       "platforms": [
         "hackernews"
       ],
@@ -195,7 +161,7 @@
     {
       "id": "a06a0936d3",
       "title": "Gov.uk has replaced Stripe with Dutch provider Adyen",
-      "resonance": 0.379,
+      "resonance": 0.3536,
       "signal_count": 1,
       "sources": [
         {
@@ -222,7 +188,7 @@
     {
       "id": "c04c8a2bf7",
       "title": "India's surprise baby bust",
-      "resonance": 0.3757,
+      "resonance": 0.3477,
       "signal_count": 1,
       "sources": [
         {
@@ -247,9 +213,36 @@
       "geo_regions": []
     },
     {
+      "id": "71eed11160",
+      "title": "Conventional Commits encourages focus on the wrong things",
+      "resonance": 0.3414,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
+          "headline": "Conventional Commits encourages focus on the wrong things",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T15:39:38+00:00",
+      "last_seen": "2026-06-05T15:39:38+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": []
+    },
+    {
       "id": "001dd3de0d",
       "title": "Ask HN: What is your (AI) dev tech stack / workflow?",
-      "resonance": 0.3621,
+      "resonance": 0.3325,
       "signal_count": 2,
       "sources": [
         {
@@ -280,9 +273,36 @@
       "geo_regions": []
     },
     {
+      "id": "c50fde1e7f",
+      "title": "Transformers Are Inherently Succinct",
+      "resonance": 0.3212,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://openreview.net/pdf?id=Yxz92UuPLQ",
+          "headline": "Transformers Are Inherently Succinct",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T18:50:26+00:00",
+      "last_seen": "2026-06-05T18:50:26+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": []
+    },
+    {
       "id": "3050448656",
       "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
-      "resonance": 0.3517,
+      "resonance": 0.321,
       "signal_count": 1,
       "sources": [
         {
@@ -309,7 +329,7 @@
     {
       "id": "fc5da4f5e4",
       "title": "pg_durable: Microsoft open sources in-database durable execution",
-      "resonance": 0.3497,
+      "resonance": 0.3191,
       "signal_count": 1,
       "sources": [
         {
@@ -334,90 +354,9 @@
       "geo_regions": []
     },
     {
-      "id": "c50fde1e7f",
-      "title": "Transformers Are Inherently Succinct",
-      "resonance": 0.3468,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://openreview.net/pdf?id=Yxz92UuPLQ",
-          "headline": "Transformers Are Inherently Succinct",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T18:50:26+00:00",
-      "last_seen": "2026-06-05T18:50:26+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "fbc0603452",
-      "title": "U.S. Military Turned GPS into a Global \"Numbers Station\"",
-      "resonance": 0.3266,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.404media.co/the-u-s-military-quietly-turned-gps-into-a-global-numbers-station-evidence-suggests/",
-          "headline": "U.S. Military Turned GPS into a Global \"Numbers Station\"",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T16:06:36+00:00",
-      "last_seen": "2026-06-05T16:06:36+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "2e7c6f7e6c",
-      "title": "Dutch gov't will only allow European company to operate DigiD platform",
-      "resonance": 0.3215,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://nltimes.nl/2026/06/05/dutch-govt-will-allow-european-company-operate-digid-platform",
-          "headline": "Dutch gov't will only allow European company to operate DigiD platform",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T14:48:44+00:00",
-      "last_seen": "2026-06-05T14:48:44+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": []
-    },
-    {
       "id": "17b3570df9",
       "title": "New method turns ocean water into drinking water, without waste",
-      "resonance": 0.3126,
+      "resonance": 0.2909,
       "signal_count": 1,
       "sources": [
         {
@@ -442,15 +381,15 @@
       "geo_regions": []
     },
     {
-      "id": "5adb3947ac",
-      "title": "I tested every IP KVM in my Homelab",
-      "resonance": 0.3002,
+      "id": "2e7c6f7e6c",
+      "title": "Dutch gov't will only allow European company to operate DigiD platform",
+      "resonance": 0.2888,
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://www.jeffgeerling.com/blog/2026/i-tested-every-ip-kvm/",
-          "headline": "I tested every IP KVM in my Homelab",
+          "url": "https://nltimes.nl/2026/06/05/dutch-govt-will-allow-european-company-operate-digid-platform",
+          "headline": "Dutch gov't will only allow European company to operate DigiD platform",
           "platform": "hackernews"
         }
       ],
@@ -461,35 +400,8 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-05T14:30:50+00:00",
-      "last_seen": "2026-06-05T14:30:50+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "1f109fa3f3",
-      "title": "Sakana AI's Recursive Self-Improvement (RSI) Lab",
-      "resonance": 0.2997,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://sakana.ai/rsi-lab/",
-          "headline": "Sakana AI's Recursive Self-Improvement (RSI) Lab",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T17:27:39+00:00",
-      "last_seen": "2026-06-05T17:27:39+00:00",
+      "first_seen": "2026-06-05T14:48:44+00:00",
+      "last_seen": "2026-06-05T14:48:44+00:00",
       "platforms": [
         "hackernews"
       ],
@@ -498,7 +410,7 @@
     {
       "id": "e3b30766fc",
       "title": "Did Claude increase bugs in rsync?",
-      "resonance": 0.2989,
+      "resonance": 0.2758,
       "signal_count": 1,
       "sources": [
         {
@@ -523,15 +435,15 @@
       "geo_regions": []
     },
     {
-      "id": "4587e6aa90",
-      "title": "Mantine-datatable (and others) compromised – owner account suspended",
-      "resonance": 0.2914,
+      "id": "5adb3947ac",
+      "title": "I tested every IP KVM in my Homelab",
+      "resonance": 0.2711,
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://github.com/icflorescu/mantine-datatable/discussions/813",
-          "headline": "Mantine-datatable (and others) compromised – owner account suspended",
+          "url": "https://www.jeffgeerling.com/blog/2026/i-tested-every-ip-kvm/",
+          "headline": "I tested every IP KVM in my Homelab",
           "platform": "hackernews"
         }
       ],
@@ -542,8 +454,62 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-05T16:39:57+00:00",
-      "last_seen": "2026-06-05T16:39:57+00:00",
+      "first_seen": "2026-06-05T14:30:50+00:00",
+      "last_seen": "2026-06-05T14:30:50+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "f7401655fb",
+      "title": "Microsoft Compromised Again. Shuts Down Azure Function GitHub Actions",
+      "resonance": 0.2701,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://opensourcemalware.com/blog/miasma-reaches-azure",
+          "headline": "Microsoft Compromised Again. Shuts Down Azure Function GitHub Actions",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T21:08:39+00:00",
+      "last_seen": "2026-06-05T21:08:39+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "8856f29f46",
+      "title": "Let's celebrate work that is 100% human-made",
+      "resonance": 0.2598,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.human-made.work/",
+          "headline": "Let's celebrate work that is 100% human-made",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T16:17:13+00:00",
+      "last_seen": "2026-06-05T16:17:13+00:00",
       "platforms": [
         "hackernews"
       ],
@@ -552,7 +518,7 @@
     {
       "id": "6a0537f6c2",
       "title": "Programmers will document for Claude, but not for each other",
-      "resonance": 0.283,
+      "resonance": 0.254,
       "signal_count": 1,
       "sources": [
         {
@@ -577,9 +543,36 @@
       "geo_regions": []
     },
     {
+      "id": "4587e6aa90",
+      "title": "Mantine-datatable (and others) compromised – owner account suspended",
+      "resonance": 0.2535,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://github.com/icflorescu/mantine-datatable/discussions/813",
+          "headline": "Mantine-datatable (and others) compromised – owner account suspended",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T16:39:57+00:00",
+      "last_seen": "2026-06-05T16:39:57+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": []
+    },
+    {
       "id": "ddee458ec1",
       "title": "Neocities domain suspended by Namecheap for unrelated court case",
-      "resonance": 0.2705,
+      "resonance": 0.2388,
       "signal_count": 1,
       "sources": [
         {
@@ -606,7 +599,7 @@
     {
       "id": "177dd29e2c",
       "title": "Launch HN: General Instinct (YC P26) – Frontier models on edge devices",
-      "resonance": 0.2529,
+      "resonance": 0.2279,
       "signal_count": 1,
       "sources": [
         {
@@ -633,7 +626,7 @@
     {
       "id": "0793607082",
       "title": "Changing how we develop Ladybird",
-      "resonance": 0.248,
+      "resonance": 0.2261,
       "signal_count": 1,
       "sources": [
         {
@@ -658,63 +651,9 @@
       "geo_regions": []
     },
     {
-      "id": "f94064b7c5",
-      "title": "SVG of a Hamster Playing Table-Tennis",
-      "resonance": 0.2441,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://aibenchy.com/ro/showcase/hamster-playing-table-tennis-svg/",
-          "headline": "SVG of a Hamster Playing Table-Tennis",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T16:56:52+00:00",
-      "last_seen": "2026-06-05T16:56:52+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "8856f29f46",
-      "title": "Let's celebrate work that is 100% human-made",
-      "resonance": 0.2327,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.human-made.work/",
-          "headline": "Let's celebrate work that is 100% human-made",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T16:17:13+00:00",
-      "last_seen": "2026-06-05T16:17:13+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": []
-    },
-    {
       "id": "fd0872195c",
       "title": "Tracing a powerful GNSS interference source over Europe",
-      "resonance": 0.2262,
+      "resonance": 0.206,
       "signal_count": 1,
       "sources": [
         {
@@ -741,7 +680,7 @@
     {
       "id": "19198faa19",
       "title": "Entanglement Builds Space-Time. Now \"Magic\" Gives It Gravity",
-      "resonance": 0.2096,
+      "resonance": 0.1919,
       "signal_count": 1,
       "sources": [
         {
@@ -768,7 +707,7 @@
     {
       "id": "9e4c529ea6",
       "title": "Lee Kuan Yew's Singapore Story (2023)",
-      "resonance": 0.1905,
+      "resonance": 0.1731,
       "signal_count": 1,
       "sources": [
         {
@@ -795,7 +734,7 @@
     {
       "id": "e76f886f03",
       "title": "C++: The Documentary",
-      "resonance": 0.1796,
+      "resonance": 0.1651,
       "signal_count": 1,
       "sources": [
         {
@@ -822,7 +761,7 @@
     {
       "id": "15dd13b18b",
       "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
-      "resonance": 0.1784,
+      "resonance": 0.1639,
       "signal_count": 1,
       "sources": [
         {
@@ -847,9 +786,117 @@
       "geo_regions": []
     },
     {
+      "id": "4c531b15d4",
+      "title": "James Carville endorses 'f---ed up' Platner, compares him to US allying with Stalin to win WWII",
+      "resonance": 0.1549,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/james-carville-endorses-f-ed-up-platner-compares-him-us-allying-stalin-win-wwii",
+          "headline": "James Carville endorses 'f---ed up' Platner, compares him to US allying with Stalin to win WWII",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-05T21:58:34+00:00",
+      "last_seen": "2026-06-05T21:58:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "4067c3b585",
+      "title": "Washington father arrested after allegedly killing 4-year-old son and burying body under his house: reports",
+      "resonance": 0.1543,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/washington-father-arrested-allegedly-killing-4-year-old-son-burying-body-house-reports",
+          "headline": "Washington father arrested after allegedly killing 4-year-old son and burying body under his house: reports",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-05T21:57:10+00:00",
+      "last_seen": "2026-06-05T21:57:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "1546f614a7",
+      "title": "Eric Schmitt rips Hirono over denaturalization bill: 'You're damn right we're deporting' criminals",
+      "resonance": 0.1528,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/eric-schmitt-rips-hirono-denaturalization-bill-youre-damn-right-were-deporting-criminals",
+          "headline": "Eric Schmitt rips Hirono over denaturalization bill: 'You're damn right we're deporting' criminals",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-05T21:53:18+00:00",
+      "last_seen": "2026-06-05T21:53:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "cac00636a3",
+      "title": "Show HN: On-device transcriber that's 97% accurate at identifying speakers",
+      "resonance": 0.1527,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://mimicscribe.app/",
+          "headline": "Show HN: On-device transcriber that's 97% accurate at identifying speakers",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T17:33:41+00:00",
+      "last_seen": "2026-06-05T17:33:41+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": []
+    },
+    {
       "id": "318e2cf294",
       "title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
-      "resonance": 0.1683,
+      "resonance": 0.1521,
       "signal_count": 1,
       "sources": [
         {
@@ -874,9 +921,204 @@
       "geo_regions": []
     },
     {
+      "id": "654f9b4d04",
+      "title": "Breakthrough pancreatic cancer drug shows survival gains that surprise experts",
+      "resonance": 0.152,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/health/breakthrough-pancreatic-cancer-drug-shows-survival-gains-surprise-experts",
+          "headline": "Breakthrough pancreatic cancer drug shows survival gains that surprise experts",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-05T21:51:16+00:00",
+      "last_seen": "2026-06-05T21:51:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "5d12c3dd79",
+      "title": "President Donald Trump reacts to Spurs star Victor Wembanyama folding his arms during the anthem",
+      "resonance": 0.1516,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/president-donald-trump-reacts-spurs-star-victor-wembanyama-folding-arms-anthem",
+          "headline": "President Donald Trump reacts to Spurs star Victor Wembanyama folding his arms during the anthem",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-05T21:50:20+00:00",
+      "last_seen": "2026-06-05T21:50:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "32165b8960",
+      "title": "Founders share VC horror stories, and some are naming names",
+      "resonance": 0.1506,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/05/founders-share-vc-horror-stories-and-some-are-naming-names/",
+          "headline": "Founders share VC horror stories, and some are naming names",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T21:47:56+00:00",
+      "last_seen": "2026-06-05T21:47:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "6291415109",
+      "title": "Buffy and Ted Lasso star Anthony Head dies at 72",
+      "resonance": 0.1505,
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cd0p0rz4n0mo?at_medium=RSS&at_campaign=rss",
+          "headline": "Buffy and Ted Lasso star Anthony Head dies at 72",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cy42428yx8go?at_medium=RSS&at_campaign=rss",
+          "headline": "From Nescafe to Ted Lasso: Anthony Head's life in pictures",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T19:17:48+00:00",
+      "last_seen": "2026-06-05T21:39:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "23b2e2d61c",
+      "title": "Control Resonant is a sequel — and also a starting point",
+      "resonance": 0.1498,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/games/944151/control-resonant-hands-on",
+          "headline": "Control Resonant is a sequel — and also a starting point",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T21:45:44+00:00",
+      "last_seen": "2026-06-05T21:45:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "582849a5ad",
+      "title": "Aging and Eye Problems",
+      "resonance": 0.1496,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://ldstephens.net/posts/aging-and-eye-problems/",
+          "headline": "Aging and Eye Problems",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T18:30:31+00:00",
+      "last_seen": "2026-06-05T18:30:31+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "92a8f9ea32",
+      "title": "The Empty Field That Wasn't: GPS, OTAD and Two Decades of Encrypted Broadcasts",
+      "resonance": 0.1496,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://lsc-pagepro.mydigitalpublication.com/publication/?i=865273&p=62&view=issueViewer",
+          "headline": "The Empty Field That Wasn't: GPS, OTAD and Two Decades of Encrypted Broadcasts",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T12:56:44+00:00",
+      "last_seen": "2026-06-05T12:56:44+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": []
+    },
+    {
       "id": "ad834fd5b2",
       "title": "Downing Street hits out at 'people seeking to stir division' after Vance's Nowak post",
-      "resonance": 0.1608,
+      "resonance": 0.1455,
       "signal_count": 1,
       "sources": [
         {
@@ -893,8 +1135,332 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-05T20:47:26+00:00",
-      "last_seen": "2026-06-05T20:47:26+00:00",
+      "first_seen": "2026-06-05T21:34:31+00:00",
+      "last_seen": "2026-06-05T21:34:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "bf3c1f7c80",
+      "title": "Cadillac F1 team's new motorhome is so nice, it was worth demolishing an elementary school",
+      "resonance": 0.1431,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/cadillac-f1-teams-new-motorhome-nice-worth-demolishing-elementary-school",
+          "headline": "Cadillac F1 team's new motorhome is so nice, it was worth demolishing an elementary school",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-05T21:28:16+00:00",
+      "last_seen": "2026-06-05T21:28:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "e94962eb54",
+      "title": "Driver accused of killing 82-year-old in head-on crash claims her dog seized the steering wheel beforehand",
+      "resonance": 0.1412,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/driver-accused-killing-82-year-old-head-crash-claims-dog-seized-steering-wheel-beforehand",
+          "headline": "Driver accused of killing 82-year-old in head-on crash claims her dog seized the steering wheel beforehand",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-05T21:22:55+00:00",
+      "last_seen": "2026-06-05T21:22:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "ebc07b9992",
+      "title": "Fine-tuning an LLM to write docs like it's 1995",
+      "resonance": 0.1401,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://passo.uno/fine-tuning-docs-llm/",
+          "headline": "Fine-tuning an LLM to write docs like it's 1995",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T05:46:06+00:00",
+      "last_seen": "2026-06-05T05:46:06+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "5720cd8a15",
+      "title": "Congress still can’t decide what to do about warrantless surveillance",
+      "resonance": 0.1386,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/policy/944615/section-702-senate-vote-fails-pulte",
+          "headline": "Congress still can’t decide what to do about warrantless surveillance",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T21:15:48+00:00",
+      "last_seen": "2026-06-05T21:15:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "dfee94711d",
+      "title": "Stephen A Smith begs Trump not to attend NBA Finals Game 3 at MSG: 'I don't want him there'",
+      "resonance": 0.1367,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/stephen-smith-begs-trump-attend-nba-finals-game-3-msg-dont-want",
+          "headline": "Stephen A Smith begs Trump not to attend NBA Finals Game 3 at MSG: 'I don't want him there'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-05T21:10:26+00:00",
+      "last_seen": "2026-06-05T21:10:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "ce13492fe2",
+      "title": "Trump makes pitch to farmers hard-hit by tariffs, high prices in Wisconsin",
+      "resonance": 0.1341,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/5/trump-makes-pitch-to-farmers-hard-hit-by-tariffs-high-prices-in-wisconsin?traffic_source=rss",
+          "headline": "Trump makes pitch to farmers hard-hit by tariffs, high prices in Wisconsin",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T21:02:52+00:00",
+      "last_seen": "2026-06-05T21:02:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "ba95420193",
+      "title": "How a USB-connected speaker can infect a PC without ever being touched",
+      "resonance": 0.1333,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/06/highly-reviewed-speaker-can-be-hacked-over-the-air-to-infect-connected-devices/",
+          "headline": "How a USB-connected speaker can infect a PC without ever being touched",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T21:00:29+00:00",
+      "last_seen": "2026-06-05T21:00:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "005b31349f",
+      "title": "Americans warned World Cup travel routes could carry crime and kidnapping risks",
+      "resonance": 0.1328,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/travel/americans-warned-world-cup-travel-routes-could-carry-crime-kidnapping-risks",
+          "headline": "Americans warned World Cup travel routes could carry crime and kidnapping risks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-05T20:58:54+00:00",
+      "last_seen": "2026-06-05T20:58:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "e2ebc7f4db",
+      "title": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
+      "resonance": 0.1324,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/",
+          "headline": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T03:14:28+00:00",
+      "last_seen": "2026-06-05T03:14:28+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "c0ac367742",
+      "title": "Ex-Florida Gators coach Billy Napier ripped to shreds by former player during podcast appearance",
+      "resonance": 0.1317,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/ex-florida-gators-coach-billy-napier-ripped-shreds-former-player-podcast-appearance",
+          "headline": "Ex-Florida Gators coach Billy Napier ripped to shreds by former player during podcast appearance",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-05T20:55:43+00:00",
+      "last_seen": "2026-06-05T20:55:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "6e74ecb544",
+      "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
+      "resonance": 0.1298,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
+          "headline": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-04T22:48:19+00:00",
+      "last_seen": "2026-06-04T22:48:19+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": []
+    },
+    {
+      "id": "cfc140aa4b",
+      "title": "Iran footballers issued US visas for World Cup, says White House",
+      "resonance": 0.1297,
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/6/5/iran-footballers-issued-us-visas-for-world-cup-says-white-house?traffic_source=rss",
+          "headline": "Iran footballers issued US visas for World Cup, says White House",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-05T20:49:40+00:00",
+      "last_seen": "2026-06-05T20:49:40+00:00",
       "platforms": [
         "rss"
       ],
@@ -903,7 +1469,7 @@
     {
       "id": "ab8dd2650d",
       "title": "Richard Gere says US is in 'darkest moment' he's experienced",
-      "resonance": 0.1583,
+      "resonance": 0.1271,
       "signal_count": 1,
       "sources": [
         {
@@ -930,7 +1496,7 @@
     {
       "id": "765905eb1e",
       "title": "Summer Game Fest Live 2026: The biggest news, trailers, and announcements",
-      "resonance": 0.1576,
+      "resonance": 0.1266,
       "signal_count": 1,
       "sources": [
         {
@@ -957,7 +1523,7 @@
     {
       "id": "923afa28e5",
       "title": "Zelenskyy: Putin choosing war by rejecting offer for in-person talks",
-      "resonance": 0.1563,
+      "resonance": 0.1256,
       "signal_count": 1,
       "sources": [
         {
@@ -984,7 +1550,7 @@
     {
       "id": "fba3053b86",
       "title": "Trump hails jobs surge, says Iran talks ‘going well’",
-      "resonance": 0.1562,
+      "resonance": 0.1255,
       "signal_count": 1,
       "sources": [
         {
@@ -1011,7 +1577,7 @@
     {
       "id": "7b63ec6c00",
       "title": "New York Times reporter under scrutiny as Biden accuser says she had similar experience as Graham Platner's ex",
-      "resonance": 0.1557,
+      "resonance": 0.1252,
       "signal_count": 1,
       "sources": [
         {
@@ -1038,7 +1604,7 @@
     {
       "id": "aeddc9b9ae",
       "title": "Thursday Night Mowing League wants 40 million Americans to stop wasting weekends on their lawns",
-      "resonance": 0.1549,
+      "resonance": 0.1246,
       "signal_count": 1,
       "sources": [
         {
@@ -1063,36 +1629,9 @@
       "geo_regions": []
     },
     {
-      "id": "ebc07b9992",
-      "title": "Fine-tuning an LLM to write docs like it's 1995",
-      "resonance": 0.1547,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://passo.uno/fine-tuning-docs-llm/",
-          "headline": "Fine-tuning an LLM to write docs like it's 1995",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T05:46:06+00:00",
-      "last_seen": "2026-06-05T05:46:06+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": []
-    },
-    {
       "id": "8421efc155",
       "title": "Cobolli into final as virus-struck Arnaldi pulls out of French Open",
-      "resonance": 0.1544,
+      "resonance": 0.1242,
       "signal_count": 1,
       "sources": [
         {
@@ -1115,558 +1654,6 @@
         "rss"
       ],
       "geo_regions": []
-    },
-    {
-      "id": "29c335c8ff",
-      "title": "Broncos star Jonathan Cooper arrested on domestic violence charges",
-      "resonance": 0.1542,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/broncos-star-jonathan-cooper-arrested-domestic-violence-charges",
-          "headline": "Broncos star Jonathan Cooper arrested on domestic violence charges",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-05T20:31:32+00:00",
-      "last_seen": "2026-06-05T20:31:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "872ab793d1",
-      "title": "Former cyber executive turned whistleblower accuses IBM of covering up several data breaches",
-      "resonance": 0.154,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/05/former-cyber-executive-turned-whistleblower-accuses-ibm-of-covering-up-several-data-breaches/",
-          "headline": "Former cyber executive turned whistleblower accuses IBM of covering up several data breaches",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T20:31:04+00:00",
-      "last_seen": "2026-06-05T20:31:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "11a06d7442",
-      "title": "Reporter's Notebook: GOP bets on fraud crackdown as economic woes surge ahead of midterms",
-      "resonance": 0.153,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/reporters-notebook-gop-bets-fraud-crackdown-economic-woes-surge-ahead-midterms",
-          "headline": "Reporter's Notebook: GOP bets on fraud crackdown as economic woes surge ahead of midterms",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-05T20:28:46+00:00",
-      "last_seen": "2026-06-05T20:28:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "74bb70c22b",
-      "title": "‘Pervasive fear’ grips Gaza as Israeli attacks persist despite ceasefire",
-      "resonance": 0.1486,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/5/pervasive-fear-grips-gaza-as-israeli-attacks-persist-despite-ceasefire?traffic_source=rss",
-          "headline": "‘Pervasive fear’ grips Gaza as Israeli attacks persist despite ceasefire",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T20:17:35+00:00",
-      "last_seen": "2026-06-05T20:17:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "e40433ae48",
-      "title": "Karen Read says she gets free meals and discounts everywhere after not guilty verdict",
-      "resonance": 0.1481,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/karen-read-says-gets-free-meals-discounts-everywhere-guilty-verdict",
-          "headline": "Karen Read says she gets free meals and discounts everywhere after not guilty verdict",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-05T20:16:13+00:00",
-      "last_seen": "2026-06-05T20:16:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "338a1cbbb4",
-      "title": "Democrat Hakeem Jeffries rips Trump for \"ruining\" Knicks' first NBA Finals game in 27 years",
-      "resonance": 0.1472,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/democrat-hakeem-jeffries-rips-trump-ruining-knicks-first-nba-finals-game-27-years",
-          "headline": "Democrat Hakeem Jeffries rips Trump for \"ruining\" Knicks' first NBA Finals game in 27 years",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-05T20:13:58+00:00",
-      "last_seen": "2026-06-05T20:13:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "822fcd6c6c",
-      "title": "Knicks-Spurs NBA Finals Game 3 at Madison Square Garden could become most expensive sporting event on record",
-      "resonance": 0.1464,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/knicks-spurs-nba-finals-game-3-madison-square-garden-could-become-expensive-sporting-event-record",
-          "headline": "Knicks-Spurs NBA Finals Game 3 at Madison Square Garden could become most expensive sporting event on record",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-05T20:11:55+00:00",
-      "last_seen": "2026-06-05T20:11:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "e2ebc7f4db",
-      "title": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
-      "resonance": 0.145,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/",
-          "headline": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T03:14:28+00:00",
-      "last_seen": "2026-06-05T03:14:28+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "54665e86cb",
-      "title": "Startup Battlefield 200 applications officially close in 3 days",
-      "resonance": 0.142,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
-          "headline": "Startup Battlefield 200 applications officially close in 3 days",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T20:00:00+00:00",
-      "last_seen": "2026-06-05T20:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "6e74ecb544",
-      "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
-      "resonance": 0.1419,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
-          "headline": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-04T22:48:19+00:00",
-      "last_seen": "2026-06-04T22:48:19+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "5ab3856255",
-      "title": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war",
-      "resonance": 0.1415,
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cpqpqx5qe40o?at_medium=RSS&at_campaign=rss",
-          "headline": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/5/russias-putin-says-no-point-meeting-ukraines-zelenskyy-for-now?traffic_source=rss",
-          "headline": "Russia’s Putin says ‘no point’ meeting Ukraine’s Zelenskyy for now",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T18:04:27+00:00",
-      "last_seen": "2026-06-05T18:16:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "6291415109",
-      "title": "Buffy and Ted Lasso star Anthony Head dies at 72",
-      "resonance": 0.1403,
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cd0p0rz4n0mo?at_medium=RSS&at_campaign=rss",
-          "headline": "Buffy and Ted Lasso star Anthony Head dies at 72",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cy42428yx8go?at_medium=RSS&at_campaign=rss",
-          "headline": "From Nescafe to Ted Lasso: Anthony Head's life in pictures",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T19:17:48+00:00",
-      "last_seen": "2026-06-05T19:53:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "7396f696db",
-      "title": "Everest guide survived six-day ordeal by eating chocolate and 'chewing ice'",
-      "resonance": 0.1398,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cn9p91295q8o?at_medium=RSS&at_campaign=rss",
-          "headline": "Everest guide survived six-day ordeal by eating chocolate and 'chewing ice'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T19:53:51+00:00",
-      "last_seen": "2026-06-05T19:53:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "50468c4d31",
-      "title": "France opens ‘war crimes’ probe into Israel’s treatment of Gaza activists",
-      "resonance": 0.1389,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/5/france-opens-war-crimes-probe-into-israels-treatment-of-gaza-activists?traffic_source=rss",
-          "headline": "France opens ‘war crimes’ probe into Israel’s treatment of Gaza activists",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T19:51:23+00:00",
-      "last_seen": "2026-06-05T19:51:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "226141797e",
-      "title": "Families clear rubble after overnight Israeli strikes in Gaza",
-      "resonance": 0.1351,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/5/families-clear-rubble-after-overnight-israeli-strikes-in-gaza?traffic_source=rss",
-          "headline": "Families clear rubble after overnight Israeli strikes in Gaza",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T19:40:41+00:00",
-      "last_seen": "2026-06-05T19:40:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "db51cdfb5b",
-      "title": "Sophie Cunningham turned heads off the court before dominating Angel Reese, Spurs-Knicks ticket price & Saban!",
-      "resonance": 0.135,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/sophie-cunningham-turned-heads-court-dominating-angel-reese-spurs-knicks-ticket-price-saban",
-          "headline": "Sophie Cunningham turned heads off the court before dominating Angel Reese, Spurs-Knicks ticket price & Saban!",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-05T19:40:21+00:00",
-      "last_seen": "2026-06-05T19:40:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "879982b16b",
-      "title": "Video shows Marine veteran wrestle armed teen to ground after alleged robbery attempt",
-      "resonance": 0.135,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/video-shows-marine-veteran-wrestle-armed-teen-ground-alleged-robbery-attempt-",
-          "headline": "Video shows Marine veteran wrestle armed teen to ground after alleged robbery attempt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-05T19:40:21+00:00",
-      "last_seen": "2026-06-05T19:40:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "26de1a17d6",
-      "title": "'Love Island USA' contestant slammed by Pennsylvania mayor after he quit police force to join the reality show",
-      "resonance": 0.134,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/love-island-usa-contestant-slammed-pennsylvania-mayor-after-he-quit-police-force-join-reality-show",
-          "headline": "'Love Island USA' contestant slammed by Pennsylvania mayor after he quit police force to join the reality show",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-05T19:37:18+00:00",
-      "last_seen": "2026-06-05T19:37:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "2c62af7926",
-      "title": "NASCAR Hall of Famer Ned Jarrett, legendary driver and broadcaster, dies at 93",
-      "resonance": 0.1311,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/nascar-hall-famer-ned-jarrett-legendary-driver-broadcaster-dies-93-natural-causes",
-          "headline": "NASCAR Hall of Famer Ned Jarrett, legendary driver and broadcaster, dies at 93",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-05T19:28:49+00:00",
-      "last_seen": "2026-06-05T19:28:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": []
-    },
-    {
-      "id": "4ddaaa5753",
-      "title": "The IsUpMap lets you check the status of over 100 major sites at once",
-      "resonance": 0.1307,
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://isupmap.com/",
-          "headline": "The IsUpMap lets you check the status of over 100 major sites at once",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-05T04:44:48+00:00",
-      "last_seen": "2026-06-05T04:44:48+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": []
     }
   ],
   "edges": [
@@ -1683,21 +1670,27 @@
       "type": "thematic"
     },
     {
-      "source": "923afa28e5",
-      "target": "5ab3856255",
-      "weight": 0.089,
+      "source": "f7401655fb",
+      "target": "e2ebc7f4db",
+      "weight": 0.031,
       "type": "thematic"
     },
     {
-      "source": "74bb70c22b",
-      "target": "226141797e",
-      "weight": 0.15,
+      "source": "4067c3b585",
+      "target": "e94962eb54",
+      "weight": 0.03,
       "type": "thematic"
     },
     {
-      "source": "338a1cbbb4",
-      "target": "822fcd6c6c",
-      "weight": 0.766,
+      "source": "005b31349f",
+      "target": "cfc140aa4b",
+      "weight": 0.086,
+      "type": "thematic"
+    },
+    {
+      "source": "cfc140aa4b",
+      "target": "fba3053b86",
+      "weight": 0.029,
       "type": "thematic"
     }
   ]

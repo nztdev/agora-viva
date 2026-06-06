@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Agora Viva — The Living Field</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=Syne:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #07090d;
+  --border: rgba(255,255,255,0.07);
+  --text: #cdd8e8;
+  --muted: rgba(205,216,232,0.42);
+  --accent: #4af4c2;
+  --warm: #f4884a;
+  --violet: #b09dfc;
+  --left: #6ea8fe;
+  --right: #f4764a;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;background:var(--bg);color:var(--text);font-family:'Syne',sans-serif;overflow:hidden;-webkit-tap-highlight-color:transparent}
+
+/* BG */
+#bgc{position:fixed;inset:0;z-index:0;pointer-events:none}
+
+/* HEADER */
+#hdr{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:flex-start;justify-content:space-between;padding:18px 22px;background:linear-gradient(to bottom,rgba(7,9,13,0.97) 50%,transparent);pointer-events:none}
+#wordmark{font-size:14px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:var(--text);line-height:1}
+#wordmark em{color:var(--accent);font-style:normal}
+#tagline{font-size:9px;color:var(--muted);font-family:'DM Mono',monospace;letter-spacing:0.08em;margin-top:3px}
+#live{display:flex;align-items:center;gap:7px;pointer-events:all}
+.ldot{width:6px;height:6px;border-radius:50%;background:var(--accent);flex-shrink:0;animation:ldot 2.4s ease-in-out infinite}
+@keyframes ldot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.3;transform:scale(0.6)}}
+#ltext{font-size:9px;color:var(--muted);font-family:'DM Mono',monospace}
+
+/* GRAPH */
+#canvas{position:fixed;inset:0;z-index:1}
+svg#graph{width:100%;height:100%;overflow:visible}
+
+/* EDGES — plain strokes, no SVG filters needed */
+.edge{fill:none;transition:stroke-opacity 0.3s}
+
+/* NODES — all rendering via Canvas2D overlay for iOS compatibility */
+#node-canvas{position:fixed;inset:0;z-index:2;pointer-events:none}
+
+/* Hit targets (transparent SVG circles) */
+.nh{fill:transparent;cursor:pointer}
+
+/* Labels — SVG text, shown only for large nodes */
+.nlabel{font-family:'Syne',sans-serif;font-weight:500;fill:rgba(205,216,232,0.72);pointer-events:none;text-anchor:middle;dominant-baseline:hanging}
+.nlabel.sel,.nlabel.hov{fill:#fff}
+
+/* PANEL */
+#panel{position:fixed;right:0;top:0;bottom:0;width:min(360px,100vw);background:rgba(9,12,18,0.98);border-left:1px solid var(--border);transform:translateX(100%);transition:transform 0.38s cubic-bezier(0.16,1,0.3,1);display:flex;flex-direction:column;z-index:300;overflow:hidden}
+#panel.open{transform:translateX(0)}
+#phead{padding:50px 20px 16px;border-bottom:1px solid var(--border);flex-shrink:0}
+#pevent{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.14em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+#ptitle{font-size:16px;font-weight:700;line-height:1.38;color:var(--text);margin-bottom:12px}
+#pmeta{display:flex;gap:6px;flex-wrap:wrap}
+.pill{font-family:'DM Mono',monospace;font-size:9px;padding:3px 8px;border-radius:20px;border:1px solid var(--border);color:var(--muted);white-space:nowrap}
+.pill.ac{border-color:rgba(74,244,194,0.3);color:var(--accent)}
+#pclose{position:absolute;top:14px;right:14px;background:none;border:1px solid var(--border);color:var(--muted);width:28px;height:28px;border-radius:50%;cursor:pointer;font-size:13px;transition:all 0.2s;display:flex;align-items:center;justify-content:center}
+#pclose:hover{border-color:rgba(255,255,255,0.2);color:var(--text)}
+
+#pres{padding:14px 20px;border-bottom:1px solid var(--border);flex-shrink:0}
+.slabel{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+.rtrack{height:3px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden;margin-bottom:4px}
+.rfill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--violet),var(--accent));transition:width 0.8s cubic-bezier(0.16,1,0.3,1)}
+#rscore{font-family:'DM Mono',monospace;font-size:10px;color:var(--accent)}
+
+#pbias{padding:12px 20px;border-bottom:1px solid var(--border);flex-shrink:0}
+.btrack{position:relative;height:4px;background:linear-gradient(90deg,var(--left) 0%,rgba(255,255,255,0.07) 50%,var(--right) 100%);border-radius:2px;margin:7px 0 5px}
+.bmark{position:absolute;top:50%;transform:translate(-50%,-50%);width:10px;height:10px;border-radius:50%;background:#fff;border:2px solid var(--bg);transition:left 0.5s cubic-bezier(0.16,1,0.3,1)}
+.brow{display:flex;justify-content:space-between;align-items:center}
+.bside{font-family:'DM Mono',monospace;font-size:9px}
+#bverdict{font-family:'DM Mono',monospace;font-size:9px;color:var(--muted)}
+
+#pgeo{padding:12px 20px;border-bottom:1px solid var(--border);flex-shrink:0}
+#geobar{display:flex;gap:5px;margin-top:7px;flex-wrap:wrap}
+.georegion{font-family:'DM Mono',monospace;font-size:9px;padding:2px 7px;border-radius:10px;border:1px solid var(--border);color:var(--muted)}
+.georegion.global{border-color:rgba(74,244,194,0.3);color:var(--accent)}
+
+#psrc{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:12px 20px 28px}
+#psrc::-webkit-scrollbar{width:3px}
+#psrc::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.08);border-radius:2px}
+.si{display:flex;gap:10px;align-items:flex-start;padding:11px 0;border-bottom:1px solid var(--border);text-decoration:none;transition:opacity 0.18s}
+.si:last-child{border-bottom:none}
+.si:active{opacity:0.6}
+.sdot{width:7px;height:7px;border-radius:50%;flex-shrink:0;margin-top:4px}
+.sb{flex:1;min-width:0}
+.sout{font-family:'DM Mono',monospace;font-size:9px;color:var(--muted);margin-bottom:3px}
+.shed{font-size:12px;color:var(--text);line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* FILTERS */
+#filters{position:fixed;bottom:env(safe-area-inset-bottom, 0px);left:0;right:0;display:flex;justify-content:center;padding:12px 16px calc(16px + env(safe-area-inset-bottom,0px));background:linear-gradient(to top,rgba(7,9,13,0.96) 60%,transparent);z-index:100;pointer-events:none}
+#fbar{display:flex;gap:4px;align-items:center;background:rgba(12,16,22,0.95);border:1px solid var(--border);border-radius:40px;padding:5px 8px;pointer-events:all}
+.fb{background:none;border:1px solid transparent;color:var(--muted);padding:6px 14px;border-radius:20px;cursor:pointer;transition:all 0.18s;font-family:'DM Mono',monospace;font-size:10px;-webkit-tap-highlight-color:transparent}
+.fb:active{transform:scale(0.95)}
+.fb.on{color:var(--accent);border-color:rgba(74,244,194,0.28)}
+.fsep{width:1px;height:14px;background:var(--border);margin:0 2px;flex-shrink:0}
+
+/* LEGEND */
+#legend{position:fixed;bottom:80px;left:20px;font-family:'DM Mono',monospace;font-size:9px;color:var(--muted);z-index:100;line-height:2.4;pointer-events:none}
+.lr{display:flex;align-items:center;gap:7px}
+.ld{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.ll{width:16px;height:1px;flex-shrink:0}
+
+/* TOOLTIP */
+#tt{position:fixed;z-index:400;pointer-events:none;background:rgba(9,12,18,0.97);border:1px solid var(--border);border-radius:10px;padding:10px 14px;max-width:220px;opacity:0;transition:opacity 0.12s}
+#tt.on{opacity:1}
+#ttt{font-size:12px;color:var(--text);line-height:1.4;margin-bottom:4px}
+#ttr{font-family:'DM Mono',monospace;font-size:10px;color:var(--accent)}
+
+/* LOADING */
+#loading{position:fixed;inset:0;z-index:1000;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;transition:opacity 0.6s}
+#loading.gone{opacity:0;pointer-events:none}
+#lbrand{font-size:13px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;color:var(--text)}
+#lbrand em{color:var(--accent);font-style:normal}
+.lbar{width:140px;height:1px;background:rgba(255,255,255,0.07);overflow:hidden;border-radius:1px}
+.lfill{height:100%;background:var(--accent);animation:lsweep 1.8s ease-in-out infinite}
+@keyframes lsweep{0%{width:0;margin-left:0}50%{width:100%;margin-left:0}100%{width:0;margin-left:100%}}
+#lsub{font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:0.1em}
+</style>
+</head>
+<body>
+
+<canvas id="bgc"></canvas>
+<canvas id="node-canvas"></canvas>
+
+<div id="loading">
+  <div id="lbrand">Agora <em>Viva</em></div>
+  <div class="lbar"><div class="lfill"></div></div>
+  <div id="lsub">reading the field…</div>
+</div>
+
+<div id="hdr">
+  <div>
+    <div id="wordmark">Agora <em>Viva</em></div>
+    <div id="tagline">the field is alive · v0.1</div>
+  </div>
+  <div id="live"><div class="ldot"></div><span id="ltext">connecting…</span></div>
+</div>
+
+<div id="canvas">
+  <svg id="graph"><g id="el"></g><g id="hl"></g><g id="ll2"></g></svg>
+</div>
+
+<div id="legend">
+  <div class="lr"><div class="ld" style="background:var(--accent)"></div>high resonance</div>
+  <div class="lr"><div class="ld" style="background:var(--violet)"></div>moderate</div>
+  <div class="lr"><div class="ld" style="background:rgba(205,216,232,0.22)"></div>low resonance</div>
+  <div class="lr"><div class="ll" style="background:rgba(205,216,232,0.1)"></div>related events</div>
+</div>
+
+<div id="filters">
+  <div id="fbar">
+    <button class="fb on" data-f="all">the field</button>
+    <div class="fsep"></div>
+    <button class="fb" data-f="rss">press</button>
+    <button class="fb" data-f="hn">tech</button>
+    <div class="fsep"></div>
+    <button class="fb" data-f="top">top 20</button>
+  </div>
+</div>
+
+<div id="tt"><div id="ttt"></div><div id="ttr"></div></div>
+
+<div id="panel">
+  <button id="pclose" onclick="closePanel()">✕</button>
+  <div id="phead">
+    <div id="pevent">Event</div>
+    <div id="ptitle">—</div>
+    <div id="pmeta"></div>
+  </div>
+  <div id="pres">
+    <div class="slabel">Resonance</div>
+    <div class="rtrack"><div class="rfill" id="rbar" style="width:0%"></div></div>
+    <div id="rscore">—</div>
+  </div>
+  <div id="pbias">
+    <div class="slabel">Coverage spectrum</div>
+    <div class="btrack"><div class="bmark" id="bmark" style="left:50%"></div></div>
+    <div class="brow">
+      <span class="bside" style="color:var(--left)">left</span>
+      <span id="bverdict">—</span>
+      <span class="bside" style="color:var(--right)">right</span>
+    </div>
+  </div>
+  <div id="pgeo">
+    <div class="slabel">Geographic reach</div>
+    <div id="geobar"></div>
+  </div>
+  <div id="psrc">
+    <div class="slabel" style="margin-bottom:10px">Sources (<span id="scount">0</span>)</div>
+    <div id="slist"></div>
+  </div>
+</div>
+
+<script>
+// ── CONSTANTS ─────────────────────────────────────────────────────────────────
+const PC = {rss:'#4af4c2', hackernews:'#f4884a', default:'#b09dfc'};
+const ALPHA_START=1.0, ALPHA_MIN=0.003, ALPHA_DECAY=0.016, ALPHA_REHEAT=0.26, DAMPING=0.74;
+
+// Node color tiers — returned as {core, glow, ring} plain CSS colors
+// No SVG filters — all glow rendered via Canvas2D shadow, works on iOS
+function nodeColors(res) {
+  if (res > 0.60) return {core:'#4af4c2', glow:'rgba(74,244,194,0.35)', ring:'rgba(74,244,194,0.5)', label:true};
+  if (res > 0.35) return {core:'#b09dfc', glow:'rgba(176,157,252,0.28)', ring:'rgba(176,157,252,0.45)', label:true};
+  return        {core:'rgba(205,216,232,0.32)', glow:'rgba(205,216,232,0.08)', ring:'rgba(205,216,232,0.25)', label:false};
+}
+
+// ── STATE ─────────────────────────────────────────────────────────────────────
+let nodes=[], edges=[], fnodes=[], fedges=[];
+let pos={}, vel={}, W, H, DPR=1;
+let alpha=ALPHA_START, af=null, selId=null, hovId=null, _lastGen=null;
+
+// ── BACKGROUND PARTICLES ──────────────────────────────────────────────────────
+const bgEl = document.getElementById('bgc');
+const bgx = bgEl.getContext('2d');
+let particles=[];
+
+function initBg() {
+  DPR = window.devicePixelRatio || 1;
+  bgEl.width = window.innerWidth * DPR; bgEl.height = window.innerHeight * DPR;
+  bgEl.style.width = window.innerWidth+'px'; bgEl.style.height = window.innerHeight+'px';
+  bgx.scale(DPR, DPR);
+  particles = Array.from({length:40}, ()=>({
+    x: Math.random()*window.innerWidth, y: Math.random()*window.innerHeight,
+    r: Math.random()*0.9+0.3,
+    vx:(Math.random()-.5)*0.09, vy:(Math.random()-.5)*0.09,
+    o: Math.random()*0.18+0.04
+  }));
+}
+
+function drawBg() {
+  const W=window.innerWidth, H=window.innerHeight;
+  bgx.clearRect(0,0,W,H);
+  particles.forEach(p=>{
+    p.x+=p.vx; p.y+=p.vy;
+    if(p.x<0)p.x=W; if(p.x>W)p.x=0;
+    if(p.y<0)p.y=H; if(p.y>H)p.y=0;
+    bgx.beginPath(); bgx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    bgx.fillStyle=`rgba(74,244,194,${p.o})`; bgx.fill();
+  });
+  requestAnimationFrame(drawBg);
+}
+
+// ── NODE CANVAS (iOS-compatible glow via Canvas2D shadow) ─────────────────────
+const nc = document.getElementById('node-canvas');
+const nx = nc.getContext('2d');
+// Pulse state per node
+const pulsePhase = {};
+
+function initNC() {
+  nc.width = window.innerWidth * DPR; nc.height = window.innerHeight * DPR;
+  nc.style.width = window.innerWidth+'px'; nc.style.height = window.innerHeight+'px';
+}
+
+function drawNodes() {
+  nx.clearRect(0, 0, nc.width, nc.height);
+  nx.save(); nx.scale(DPR, DPR);
+
+  fnodes.forEach(n => {
+    const p=pos[n.id]; if(!p) return;
+    const r = nr(n);
+    const col = nodeColors(n.resonance||0);
+    const isSel = n.id===selId;
+    const isHov = n.id===hovId;
+
+    // Pulse ring for high-resonance nodes
+    if (n.resonance > 0.38) {
+      if (!pulsePhase[n.id]) pulsePhase[n.id] = Math.random()*Math.PI*2;
+      pulsePhase[n.id] += 0.018;
+      const pAlpha = (Math.sin(pulsePhase[n.id])*0.5+0.5)*0.3+0.05;
+      const pR = r + 8 + Math.sin(pulsePhase[n.id]*0.7)*6;
+      nx.beginPath(); nx.arc(p.x, p.y, pR, 0, Math.PI*2);
+      nx.strokeStyle = col.ring.replace(/[\d.]+\)$/, `${pAlpha})`);
+      nx.lineWidth = 1.2;
+      nx.stroke();
+
+      // Second ring for very high resonance
+      if (n.resonance > 0.65) {
+        const p2A = (Math.sin(pulsePhase[n.id]+1.8)*0.5+0.5)*0.2+0.03;
+        const p2R = r + 18 + Math.sin(pulsePhase[n.id]*0.5+1)*10;
+        nx.beginPath(); nx.arc(p.x, p.y, p2R, 0, Math.PI*2);
+        nx.strokeStyle = col.ring.replace(/[\d.]+\)$/, `${p2A})`);
+        nx.lineWidth = 0.8; nx.stroke();
+      }
+    }
+
+    // Hover / select ring
+    if (isSel || isHov) {
+      nx.beginPath(); nx.arc(p.x, p.y, r+7, 0, Math.PI*2);
+      nx.strokeStyle = isSel ? 'rgba(74,244,194,0.55)' : 'rgba(205,216,232,0.25)';
+      nx.lineWidth = 1.5; nx.stroke();
+    }
+
+    // Glow (shadowBlur — works on all browsers including iOS Safari)
+    nx.save();
+    nx.shadowBlur = isSel ? 22 : (n.resonance>0.5 ? 14 : 6);
+    nx.shadowColor = col.glow;
+
+    // Core circle
+    nx.beginPath(); nx.arc(p.x, p.y, r, 0, Math.PI*2);
+    nx.fillStyle = col.core;
+    if (isSel) nx.fillStyle = col.core; // brightness handled by shadow
+    nx.fill();
+    nx.restore();
+
+    // Inner specular highlight
+    if (r > 10) {
+      const hx2 = p.x - r*0.3, hy2 = p.y - r*0.3;
+      const hg = nx.createRadialGradient(hx2,hy2,0,hx2,hy2,r*0.6);
+      hg.addColorStop(0,'rgba(255,255,255,0.18)');
+      hg.addColorStop(1,'rgba(255,255,255,0)');
+      nx.beginPath(); nx.arc(p.x,p.y,r,0,Math.PI*2);
+      nx.fillStyle=hg; nx.fill();
+    }
+  });
+
+  nx.restore();
+}
+
+// ── NODE RADIUS ───────────────────────────────────────────────────────────────
+function nr(n) { return 5 + (n.resonance||0)*40; }
+
+// ── SIMULATION ────────────────────────────────────────────────────────────────
+function initPos() {
+  W=window.innerWidth; H=window.innerHeight;
+  pos={}; vel={};
+  fnodes.forEach((n,i)=>{
+    const a=(i/fnodes.length)*Math.PI*2+(Math.random()-.5)*0.5;
+    const maxR=Math.min(W,H)*0.36;
+    const rd=maxR*(1-(n.resonance||0)*0.7);
+    pos[n.id]={x:W/2+rd*Math.cos(a)+(Math.random()-.5)*25, y:H/2+rd*Math.sin(a)+(Math.random()-.5)*25};
+    vel[n.id]={x:0,y:0};
+  });
+}
+
+function tick() {
+  if(alpha<=0) return;
+  const em={};
+  fedges.forEach(e=>{
+    (em[e.source]||(em[e.source]=[])).push({id:e.target,w:e.weight});
+    (em[e.target]||(em[e.target]=[])).push({id:e.source,w:e.weight});
+  });
+  fnodes.forEach(a=>{
+    const pa=pos[a.id]; if(!pa) return;
+    let fx=0,fy=0;
+    const res=a.resonance||0;
+    // Resonance gravity — high res → strong center pull
+    const g=0.005+res*0.026;
+    fx+=(W/2-pa.x)*g; fy+=(H/2-pa.y)*g;
+    // Repulsion
+    fnodes.forEach(b=>{
+      if(a.id===b.id) return;
+      const pb=pos[b.id]; if(!pb) return;
+      const dx=pa.x-pb.x,dy=pa.y-pb.y,d=Math.sqrt(dx*dx+dy*dy)||1;
+      const md=(nr(a)+nr(b))*2.8+48;
+      if(d<md){const f=(md-d)/d*0.32;fx+=dx*f;fy+=dy*f;}
+    });
+    // Edge attraction
+    (em[a.id]||[]).forEach(({id,w})=>{
+      const pb=pos[id]; if(!pb) return;
+      const dx=pb.x-pa.x,dy=pb.y-pa.y,d=Math.sqrt(dx*dx+dy*dy)||1;
+      const f=(d-(100+w*80))/d*w*0.05;
+      fx+=dx*f;fy+=dy*f;
+    });
+    const v=vel[a.id];
+    v.x=(v.x+fx*alpha)*DAMPING; v.y=(v.y+fy*alpha)*DAMPING;
+    pa.x=Math.max(55,Math.min(W-55,pa.x+v.x));
+    pa.y=Math.max(55,Math.min(H-55,pa.y+v.y));
+  });
+  alpha=Math.max(0,alpha-ALPHA_DECAY);
+}
+
+function reheat(){alpha=Math.max(alpha,ALPHA_REHEAT);}
+
+// ── RENDER ────────────────────────────────────────────────────────────────────
+function render() {
+  if(af) cancelAnimationFrame(af);
+  alpha=ALPHA_START;
+  initPos();
+  for(let i=0;i<200;i++) tick();
+  alpha=ALPHA_START;
+  drawSVGLayer();
+  initNC();
+  (function loop(){
+    if(alpha>ALPHA_MIN) tick();
+    updateSVGPositions();
+    drawNodes(); // canvas redraws every frame (handles pulse animation)
+    af=requestAnimationFrame(loop);
+  })();
+}
+
+// ── SVG LAYER (edges + hit targets + labels) ──────────────────────────────────
+function drawSVGLayer() {
+  const NS='http://www.w3.org/2000/svg';
+  const el=document.getElementById('el');
+  const hl=document.getElementById('hl');
+  const ll=document.getElementById('ll2');
+  el.innerHTML=''; hl.innerHTML=''; ll.innerHTML='';
+
+  // Edges
+  fedges.forEach(e=>{
+    const pa=pos[e.source],pb=pos[e.target]; if(!pa||!pb) return;
+    const ln=document.createElementNS(NS,'line');
+    ln.id='e-'+e.source+'-'+e.target; ln.classList.add('edge');
+    ln.setAttribute('x1',pa.x);ln.setAttribute('y1',pa.y);
+    ln.setAttribute('x2',pb.x);ln.setAttribute('y2',pb.y);
+    ln.style.stroke='rgba(74,244,194,'+(0.05+e.weight*0.15)+')';
+    ln.style.strokeWidth='1';
+    el.appendChild(ln);
+  });
+
+  // Hit targets + labels
+  fnodes.forEach(n=>{
+    const p=pos[n.id],r=nr(n);
+    const col=nodeColors(n.resonance||0);
+
+    // Transparent hit circle (larger than visual for easier tap)
+    const hit=document.createElementNS(NS,'circle');
+    hit.classList.add('nh'); hit.id='h-'+n.id;
+    hit.setAttribute('cx',p.x);hit.setAttribute('cy',p.y);
+    hit.setAttribute('r',Math.max(r+8,20));
+    hit.addEventListener('mouseenter',()=>{hovId=n.id;showTip(n,null);});
+    hit.addEventListener('mouseleave',()=>{hovId=null;document.getElementById('tt').classList.remove('on');});
+    hit.addEventListener('click',()=>selectNode(n));
+    hit.addEventListener('touchend',e=>{e.preventDefault();selectNode(n);});
+    hl.appendChild(hit);
+
+    // Labels — only for nodes with r > threshold
+    // Mobile: higher threshold to avoid crowding
+    const isMobile = window.innerWidth < 600;
+    const labelThreshold = isMobile ? 18 : 12;
+    if (r > labelThreshold && col.label) {
+      const maxChars = isMobile ? 18 : 22;
+      const words=n.title.split(' ');
+      let l1='',l2='';
+      words.forEach(w=>{
+        if((l1+w).length<=maxChars) l1+=(l1?' ':'')+w;
+        else l2+=(l2?' ':'')+w;
+      });
+      if(l2.length>maxChars) l2=l2.slice(0,maxChars-1)+'…';
+
+      const lbl=document.createElementNS(NS,'text');
+      lbl.classList.add('nlabel'); lbl.id='lbl-'+n.id;
+      lbl.setAttribute('x',p.x); lbl.setAttribute('y',p.y+r+6);
+      lbl.style.fontSize = r>22 ? '11px' : '9.5px';
+
+      const t1=document.createElementNS(NS,'tspan');
+      t1.setAttribute('x',p.x); t1.textContent=l1; lbl.appendChild(t1);
+      if(l2){
+        const t2=document.createElementNS(NS,'tspan');
+        t2.setAttribute('x',p.x); t2.setAttribute('dy','1.3em'); t2.textContent=l2; lbl.appendChild(t2);
+      }
+      ll.appendChild(lbl);
+    }
+  });
+}
+
+function updateSVGPositions() {
+  fnodes.forEach(n=>{
+    const p=pos[n.id]; if(!p) return;
+    const r=nr(n);
+    const hit=document.getElementById('h-'+n.id);
+    if(hit){hit.setAttribute('cx',p.x);hit.setAttribute('cy',p.y);}
+    const lbl=document.getElementById('lbl-'+n.id);
+    if(lbl){
+      lbl.setAttribute('x',p.x); lbl.setAttribute('y',p.y+r+6);
+      lbl.querySelectorAll('tspan').forEach(t=>t.setAttribute('x',p.x));
+      if(n.id===selId||n.id===hovId) lbl.classList.add('sel'); else lbl.classList.remove('sel');
+    }
+  });
+  fedges.forEach(e=>{
+    const ln=document.getElementById('e-'+e.source+'-'+e.target);
+    const pa=pos[e.source],pb=pos[e.target];
+    if(ln&&pa&&pb){
+      ln.setAttribute('x1',pa.x);ln.setAttribute('y1',pa.y);
+      ln.setAttribute('x2',pb.x);ln.setAttribute('y2',pb.y);
+    }
+  });
+}
+
+// ── TOOLTIP (desktop only — touch uses panel directly) ────────────────────────
+function showTip(n,e){
+  if('ontouchstart' in window) return; // skip on touch devices
+  document.getElementById('ttt').textContent=n.title;
+  document.getElementById('ttr').textContent=
+    `resonance ${(n.resonance*100).toFixed(0)}  ·  ${n.signal_count} source${n.signal_count!==1?'s':''}`;
+  document.getElementById('tt').classList.add('on');
+}
+document.addEventListener('mousemove',e=>{
+  const t=document.getElementById('tt');
+  if(!t.classList.contains('on')) return;
+  let x=e.clientX+16,y=e.clientY+12;
+  if(x+240>W)x=e.clientX-240;
+  if(y+90>H)y=e.clientY-80;
+  t.style.left=x+'px';t.style.top=y+'px';
+});
+
+// ── SELECTION ─────────────────────────────────────────────────────────────────
+function selectNode(n){
+  if(selId===n.id){selId=null;closePanel();return;}
+  selId=n.id;
+  // Highlight edges
+  document.querySelectorAll('.edge').forEach(e=>{
+    const id=e.id;
+    const active=id.includes(n.id);
+    e.style.stroke=active?'rgba(74,244,194,0.5)':'rgba(74,244,194,'+(0.05+0.15*0)+')';
+    e.style.strokeWidth=active?'1.8':'1';
+  });
+  openPanel(n);
+}
+
+// ── PANEL ─────────────────────────────────────────────────────────────────────
+function openPanel(n){
+  document.getElementById('ptitle').textContent=n.title;
+  const m=document.getElementById('pmeta'); m.innerHTML='';
+  const ago=Math.round((Date.now()-new Date(n.last_seen))/60000);
+  addPill(m,ago<2?'just now':ago<60?`${ago}m ago`:`${Math.round(ago/60)}h ago`,'ac');
+  addPill(m,`${n.signal_count} source${n.signal_count!==1?'s':''}`);
+  (n.platforms||[]).forEach(p=>addPill(m,p));
+
+  document.getElementById('rbar').style.width=(n.resonance*100)+'%';
+  document.getElementById('rscore').textContent=
+    `${(n.resonance*100).toFixed(0)} / 100`;
+
+  const bpos=((n.bias?.mean||0)+1)/2*100;
+  document.getElementById('bmark').style.left=bpos+'%';
+  const sp=n.bias?.spread||0;
+  document.getElementById('bverdict').textContent=
+    sp>0.45?'⚡ contested':sp>0.22?'varied':'consensus';
+
+  const geo=document.getElementById('geobar'); geo.innerHTML='';
+  const regions=n.geo_regions||[];
+  if(!regions.length){
+    const d=document.createElement('span');
+    d.className='georegion';d.textContent='—';geo.appendChild(d);
+  } else {
+    const isGlobal=regions.includes('Global');
+    regions.filter(r=>r!=='Global').forEach(r=>{
+      const d=document.createElement('span');d.className='georegion';d.textContent=r;geo.appendChild(d);
+    });
+    if(isGlobal){const d=document.createElement('span');d.className='georegion global';d.textContent='global';geo.appendChild(d);}
+  }
+
+  const list=document.getElementById('slist'); list.innerHTML='';
+  document.getElementById('scount').textContent=(n.sources||[]).length;
+  (n.sources||[]).slice(0,10).forEach(s=>{
+    const a=document.createElement('a');
+    a.className='si';a.href=s.url||'#';a.target='_blank';a.rel='noopener noreferrer';
+    const dot=document.createElement('div');
+    dot.className='sdot';dot.style.background=PC[s.platform]||PC.default;
+    const body=document.createElement('div');body.className='sb';
+    body.innerHTML=`<div class="sout">${s.outlet}</div><div class="shed">${s.headline}</div>`;
+    a.appendChild(dot);a.appendChild(body);list.appendChild(a);
+  });
+
+  document.getElementById('panel').classList.add('open');
+}
+
+function addPill(parent,text,cls){
+  const el=document.createElement('div');
+  el.className='pill'+(cls?' '+cls:'');el.textContent=text;parent.appendChild(el);
+}
+
+function closePanel(){
+  document.getElementById('panel').classList.remove('open');
+  selId=null;
+  // Reset edge styles
+  fedges.forEach(e=>{
+    const ln=document.getElementById('e-'+e.source+'-'+e.target);
+    if(ln){ln.style.stroke='rgba(74,244,194,'+(0.05+e.weight*0.15)+')';ln.style.strokeWidth='1';}
+  });
+}
+
+// ── FILTER ────────────────────────────────────────────────────────────────────
+function applyFilter(f){
+  let n=nodes;
+  if(f==='rss') n=n.filter(x=>x.platforms?.includes('rss')&&!x.platforms?.includes('hackernews'));
+  else if(f==='hn') n=n.filter(x=>x.platforms?.includes('hackernews'));
+  else if(f==='top') n=[...n].sort((a,b)=>b.resonance-a.resonance).slice(0,20);
+  const ids=new Set(n.map(x=>x.id));
+  fnodes=n; fedges=edges.filter(e=>ids.has(e.source)&&ids.has(e.target));
+  render();
+}
+
+document.querySelectorAll('.fb').forEach(b=>{
+  b.addEventListener('click',()=>{
+    document.querySelectorAll('.fb').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on'); closePanel(); applyFilter(b.dataset.f);
+  });
+});
+
+// ── DEMO DATA ─────────────────────────────────────────────────────────────────
+function makeDemoData(){
+  const ev=[
+    ['Global protests surge over economic inequality',0.95,['BBC News','Guardian','Al Jazeera','Reuters','Fox News'],-0.12,0.58,['rss'],['Global','Europe','Americas']],
+    ['Central banks signal coordinated rate policy shift',0.78,['Reuters','WSJ','BBC News'],0.08,0.19,['rss','hackernews'],['Global','Americas','Europe']],
+    ['AI regulation framework proposed by coalition',0.71,['The Verge','Ars Technica','TechCrunch','Guardian'],-0.08,0.24,['rss','hackernews'],['Global','Americas']],
+    ['Tech giants face antitrust scrutiny in three jurisdictions',0.64,['WSJ','Guardian','TechCrunch'],0.04,0.36,['rss','hackernews'],['Americas','Europe']],
+    ['Solid-state battery breakthrough announced',0.58,['Ars Technica','The Verge','Nature'],-0.04,0.10,['rss','hackernews'],['Americas','Asia']],
+    ['Middle East peace process enters critical phase',0.52,['BBC News','Al Jazeera','Reuters','Fox News'],0.18,0.62,['rss'],['Middle East','Europe','Americas']],
+    ['Crewed lunar mission destination revealed',0.46,['Ars Technica','BBC News'],-0.04,0.11,['rss','hackernews'],['Americas']],
+    ['Food security report warns of supply disruptions',0.40,['Guardian','BBC News','Al Jazeera'],-0.18,0.16,['rss'],['Africa','Asia','Global']],
+    ['Cybersecurity incident hits financial infrastructure',0.36,['Ars Technica','WSJ'],0.0,0.14,['rss','hackernews'],['Americas','Europe']],
+    ['Open-source model outperforms closed alternatives',0.30,['Ars Technica','TechCrunch'],0.0,0.08,['hackernews'],['Global']],
+    ['Cancer immunotherapy advance announced',0.25,['Guardian','Nature'],-0.08,0.07,['rss'],['Global']],
+    ['Platform overhauls content moderation policy',0.20,['TechCrunch','Guardian','Fox News'],-0.08,0.44,['rss','hackernews'],['Americas']],
+    ['Clean energy investment hits annual record',0.14,['Guardian','Reuters'],-0.14,0.09,['rss'],['Global','Europe']],
+    ['Digital currency pilot expands internationally',0.10,['Reuters','WSJ'],0.08,0.13,['rss'],['Asia','Americas']],
+  ];
+  nodes=ev.map(([t,res,srcs,bm,bs,plat,geo],i)=>({
+    id:'d'+i,title:t,resonance:res,signal_count:srcs.length,platforms:plat,geo_regions:geo,
+    bias:{mean:bm,spread:bs},
+    sources:srcs.map((o,j)=>({outlet:o,headline:t+(j?'':' — live updates'),url:'#',platform:j===0&&plat.includes('hackernews')?'hackernews':'rss'})),
+    last_seen:new Date(Date.now()-Math.random()*7200000).toISOString(),
+  }));
+  edges=[];
+  [[0,5],[0,7],[1,8],[2,3],[2,9],[3,9],[4,13],[5,7],[6,4],[10,7],[11,2],[12,0],[13,1]].forEach(([a,b])=>{
+    if(a<nodes.length&&b<nodes.length)
+      edges.push({source:nodes[a].id,target:nodes[b].id,weight:+(Math.random()*0.4+0.15).toFixed(3)});
+  });
+}
+
+// ── BOOT ──────────────────────────────────────────────────────────────────────
+async function boot(){
+  initBg(); drawBg();
+  try{
+    const r=await fetch('data.json');
+    if(!r.ok) throw 0;
+    const d=await r.json();
+    nodes=d.nodes||[]; edges=d.edges||[]; _lastGen=d.generated_at;
+    const ago=Math.round((Date.now()-new Date(d.generated_at))/60000);
+    document.getElementById('ltext').textContent=`${nodes.length} events · ${ago<2?'just now':ago+'m ago'}`;
+  }catch{
+    makeDemoData();
+    document.getElementById('ltext').textContent='demo mode';
+  }
+  applyFilter('all');
+  document.getElementById('loading').classList.add('gone');
+
+  // Poll for fresh data every 5 minutes
+  setInterval(async()=>{
+    try{
+      const r=await fetch('data.json?t='+Date.now());
+      if(!r.ok) return;
+      const d=await r.json();
+      if(d.generated_at===_lastGen) return;
+      _lastGen=d.generated_at; nodes=d.nodes||[]; edges=d.edges||[];
+      const ago=Math.round((Date.now()-new Date(d.generated_at))/60000);
+      document.getElementById('ltext').textContent=`${nodes.length} events · ${ago}m ago`;
+      applyFilter(document.querySelector('.fb.on')?.dataset?.f||'all');
+      reheat();
+    }catch{}
+  },5*60*1000);
+}
+
+window.addEventListener('resize',()=>{initBg();initNC();if(fnodes.length)render();});
+
+boot();
+</script>
+</body>
+</html>

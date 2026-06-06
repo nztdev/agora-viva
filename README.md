@@ -17,56 +17,6 @@ Events, not articles. Resonance, not recency.
 
 ---
 
-## Deploy in 5 minutes
-
-### 1. Fork or clone this repo
-
-```bash
-git clone https://github.com/your-username/agora-viva
-cd agora-viva
-```
-
-### 2. Enable GitHub Pages
-
-Go to **Settings → Pages → Source** and set it to:
-- Branch: `main`
-- Folder: `/docs`
-
-Save. Your site will be live at `https://your-username.github.io/agora-viva`.
-
-### 3. Enable GitHub Actions
-
-The workflow lives at `.github/workflows/refresh.yml` and runs automatically.
-No secrets or API keys needed — it uses only public RSS feeds and the open HN API.
-
-To trigger it manually the first time:
-**Actions → Refresh news data → Run workflow**
-
-This writes `docs/data.json` and commits it. The page immediately shows real data.
-
-### 4. Done
-
-The workflow runs every 30 minutes, updating `data.json` automatically.
-The page always loads — if no `data.json` exists yet, it shows built-in demo data.
-
----
-
-## File structure
-
-```
-agora-viva/
-├── .github/
-│   └── workflows/
-│       └── refresh.yml       # runs every 30 min, writes data.json
-├── scripts/
-│   └── fetch.py              # fetches RSS + HN, clusters, scores
-└── docs/                     # GitHub Pages serves from here
-    ├── index.html            # the entire interface (one file)
-    └── data.json             # auto-generated, committed by the workflow
-```
-
----
-
 ## How resonance is scored
 
 ```

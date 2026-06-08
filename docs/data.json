@@ -1,24 +1,70 @@
 {
-  "generated_at": "2026-06-08T17:44:54.066586+00:00",
+  "generated_at": "2026-06-08T20:03:07.360227+00:00",
   "node_count": 35,
-  "edge_count": 4,
+  "edge_count": 2,
   "nodes": [
     {
-      "id": "fe2dd5de6c",
-      "title": "WWDC 2026: All the news from Apple’s developers conference",
+      "id": "61b2d879b9",
+      "title": "Apple announces watchOS 27, now with Siri AI",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/943145/apple-watch-watchos-27-wwdc-2026",
+          "headline": "Apple announces watchOS 27, now with Siri AI",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/944129/apple-visionos-updates-wwdc-2026",
+          "headline": "Apple announces visionOS 27 with Siri AI",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.apple.com/apple-intelligence/",
+          "headline": "Siri AI",
+          "platform": "hackernews"
+        },
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
+          "headline": "Apple announces Siri AI and its next generation of Apple Intelligence",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.075,
+        "spread": 0.043,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T17:34:24+00:00",
+      "last_seen": "2026-06-08T19:34:10+00:00",
+      "platforms": [
+        "hackernews",
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 1.0
+    },
+    {
+      "id": "0fb654983a",
+      "title": "Apple WWDC 2026: The 7 biggest announcements",
       "signal_count": 2,
       "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/945693/apple-wwdc-2026-biggest-announcements-ios-27",
+          "headline": "Apple WWDC 2026: The 7 biggest announcements",
+          "platform": "rss"
+        },
         {
           "outlet": "Hacker News",
           "url": "https://www.apple.com/apple-events/event-stream/",
           "headline": "Apple WWDC 2026 Livestream",
           "platform": "hackernews"
-        },
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/944110/wwdc-2026-news-announcements",
-          "headline": "WWDC 2026: All the news from Apple’s developers conference",
-          "platform": "rss"
         }
       ],
       "bias": {
@@ -28,14 +74,68 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-06-08T16:00:00+00:00",
-      "last_seen": "2026-06-08T17:14:24+00:00",
+      "first_seen": "2026-06-08T17:14:24+00:00",
+      "last_seen": "2026-06-08T18:43:56+00:00",
       "platforms": [
-        "rss",
+        "hackernews",
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.9927
+    },
+    {
+      "id": "8225851e6b",
+      "title": "Switzerland wil have a referendum to cap population at 10M",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.admin.ch/en/sustainability-initiative",
+          "headline": "Switzerland wil have a referendum to cap population at 10M",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T19:09:48+00:00",
+      "last_seen": "2026-06-08T19:09:48+00:00",
+      "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 1.0
+      "resonance": 0.8698
+    },
+    {
+      "id": "9b28e5cf55",
+      "title": "Stop the Apple Music app from launching",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://lowtechguys.com/musicdecoy/",
+          "headline": "Stop the Apple Music app from launching",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T17:01:43+00:00",
+      "last_seen": "2026-06-08T17:01:43+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "resonance": 0.711
     },
     {
       "id": "11f64aaadd",
@@ -62,7 +162,34 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.828
+      "resonance": 0.619
+    },
+    {
+      "id": "68c113e04d",
+      "title": "AI Is Slowing Down",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+          "headline": "AI Is Slowing Down",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T15:46:37+00:00",
+      "last_seen": "2026-06-08T15:46:37+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "resonance": 0.6051
     },
     {
       "id": "6678e31218",
@@ -89,41 +216,7 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.7843
-    },
-    {
-      "id": "5ecf8ce1d0",
-      "title": "Eventbrite and Vimeo owner Bending Spoons files to go public",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.reuters.com/legal/transactional/italys-bending-spoons-files-us-ipo-2026-06-08/",
-          "headline": "Italy's Bending Spoons, Owner of AOL and Vimeo, Files for Nasdaq IPO",
-          "platform": "hackernews"
-        },
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/08/eventbrite-and-vimeo-owner-bending-spoons-files-to-go-public/",
-          "headline": "Eventbrite and Vimeo owner Bending Spoons files to go public",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T13:57:00+00:00",
-      "last_seen": "2026-06-08T15:04:17+00:00",
-      "platforms": [
-        "rss",
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "resonance": 0.7074
+      "resonance": 0.5771
     },
     {
       "id": "ad0f064072",
@@ -150,7 +243,7 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.661
+      "resonance": 0.4767
     },
     {
       "id": "72d2861574",
@@ -177,29 +270,95 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.5643
+      "resonance": 0.3982
     },
     {
-      "id": "ec9ca173aa",
-      "title": "Apple announces Siri AI and its next generation of Apple Intelligence",
+      "id": "e06b933f0e",
+      "title": "At least 35 dead after major earthquake strikes southern Philippines",
       "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/gallery/2026/6/8/southern-philippines-hit-by-7-8-magnitude-earthquake?traffic_source=rss",
+          "headline": "Southern Philippines hit by 7.8-magnitude earthquake",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/clyel78e6p5o?at_medium=RSS&at_campaign=rss",
+          "headline": "At least 35 dead after major earthquake strikes southern Philippines",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/8/7-8-magnitude-earthquake-leaves-dozens-dead-in-the-philippines?traffic_source=rss",
+          "headline": "7.8 magnitude earthquake leaves dozens dead in the Philippines",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jun/08/philippines-earthquake-mindanao-tsunami-warnings",
+          "headline": "Powerful earthquake in southern Philippines leaves at least 35 dead",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.109,
+        "left": 1,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T14:01:08+00:00",
+      "last_seen": "2026-06-08T19:10:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.2171
+    },
+    {
+      "id": "683540827f",
+      "title": "Xi Jinping arrives in Pyongyang on trip to revitalise China-North Korea ties",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/8/chinas-xi-jinping-and-north-koreas-kim-jong-un-meet-in-pyongyang?traffic_source=rss",
+          "headline": "China’s Xi Jinping and North Korea’s Kim Jong Un meet in Pyongyang",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jun/08/xi-jinping-kim-jong-un-meeting-north-korea",
+          "headline": "Xi Jinping arrives in Pyongyang on trip to revitalise China-North Korea ties",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T10:46:17+00:00",
+      "last_seen": "2026-06-08T19:36:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.1995
+    },
+    {
+      "id": "020031ecea",
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "TechCrunch",
           "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
           "headline": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
-          "headline": "Apple announces Siri AI and its next generation of Apple Intelligence",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/941202/apple-ios-27-wwdc-2026",
-          "headline": "Apple announces iOS 27",
           "platform": "rss"
         },
         {
@@ -213,113 +372,32 @@
         "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 4,
+        "center": 2,
         "right": 0
       },
       "first_seen": "2026-06-08T15:34:59+00:00",
-      "last_seen": "2026-06-08T17:42:26+00:00",
+      "last_seen": "2026-06-08T19:41:32+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.2166
+      "resonance": 0.1043
     },
     {
-      "id": "e06b933f0e",
-      "title": "At least 35 dead after major earthquake strikes southern Philippines",
+      "id": "a28c1d23ec",
+      "title": "Amazon is launching AI-generated custom merch",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/clyel78e6p5o?at_medium=RSS&at_campaign=rss",
-          "headline": "At least 35 dead after major earthquake strikes southern Philippines",
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/news/945905/amazon-alexa-shopping-ai-generated-custom-merch-design-printing",
+          "headline": "Amazon is launching AI-generated custom merch",
           "platform": "rss"
         },
         {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jun/08/philippines-earthquake-mindanao-tsunami-warnings",
-          "headline": "Powerful earthquake in southern Philippines leaves at least 35 dead",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.15,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T14:01:08+00:00",
-      "last_seen": "2026-06-08T17:28:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.2094
-    },
-    {
-      "id": "edc9179583",
-      "title": "Stokes & Atkinson investigated over nightclub incident",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/sport/cricket/articles/c0ry801k2geo?at_medium=RSS&at_campaign=rss",
-          "headline": "Stokes & Atkinson investigated over nightclub incident",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T17:35:05+00:00",
-      "last_seen": "2026-06-08T17:35:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.1146
-    },
-    {
-      "id": "3461baa679",
-      "title": "You're not getting away with watering your grass with your 'crank' out on Sheriff Grady Judd's watch",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-culture/youre-getting-away-watering-grass-crank-sheriff-grady-judds-watch",
-          "headline": "You're not getting away with watering your grass with your 'crank' out on Sheriff Grady Judd's watch",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T17:33:04+00:00",
-      "last_seen": "2026-06-08T17:33:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.1129
-    },
-    {
-      "id": "13c26fdce3",
-      "title": "Apple is tweaking its controversial Liquid Glass design",
-      "signal_count": 1,
-      "sources": [
-        {
           "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/08/apple-is-tweaking-its-controversial-liquid-glass-design/",
-          "headline": "Apple is tweaking its controversial Liquid Glass design",
+          "url": "https://techcrunch.com/2026/06/08/amazon-now-lets-you-design-custom-merch-using-ai/",
+          "headline": "Amazon now lets you design custom merch using AI",
           "platform": "rss"
         }
       ],
@@ -327,134 +405,26 @@
         "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-06-08T17:24:33+00:00",
-      "last_seen": "2026-06-08T17:24:33+00:00",
+      "first_seen": "2026-06-08T15:49:12+00:00",
+      "last_seen": "2026-06-08T17:52:51+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.1059
+      "resonance": 0.0937
     },
     {
-      "id": "ef16af1bc0",
-      "title": "Man jailed for a month despite Flock showing he was 5 miles from crime scene",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/06/man-jailed-for-a-month-despite-flock-showing-he-was-5-miles-from-crime-scene/",
-          "headline": "Man jailed for a month despite Flock showing he was 5 miles from crime scene",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T17:20:30+00:00",
-      "last_seen": "2026-06-08T17:20:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.1027
-    },
-    {
-      "id": "3526d8e222",
-      "title": "FCC chair Brendan Carr rips Scott Pelley as ‘completely out of touch’ after CBS firing",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/fcc-chair-brendan-carr-rips-scott-pelley-completely-touch-cbs-firing",
-          "headline": "FCC chair Brendan Carr rips Scott Pelley as ‘completely out of touch’ after CBS firing",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T17:15:54+00:00",
-      "last_seen": "2026-06-08T17:15:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.099
-    },
-    {
-      "id": "b7232b2de9",
-      "title": "2026 NBA Finals Game 3: San Antonio Spurs at New York Knicks best bets for the total and two player props",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/2026-nba-finals-game-3-san-antonio-spurs-new-york-knicks-best-bets-total-two-player-props",
-          "headline": "2026 NBA Finals Game 3: San Antonio Spurs at New York Knicks best bets for the total and two player props",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T17:11:52+00:00",
-      "last_seen": "2026-06-08T17:11:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0958
-    },
-    {
-      "id": "b06206a26e",
-      "title": "Stunningly low percentage of adults in US think America stands above every other nation: poll",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/stunningly-low-percentage-adults-us-think-america-stands-every-nation-poll",
-          "headline": "Stunningly low percentage of adults in US think America stands above every other nation: poll",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T17:11:11+00:00",
-      "last_seen": "2026-06-08T17:11:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0953
-    },
-    {
-      "id": "1cb739aa5d",
-      "title": "Apple announces macOS Golden Gate 27",
+      "id": "f9d1263d35",
+      "title": "Apple drops support for a long list of iPads and Apple Watches with latest OS updates",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/943695/apple-wwdc-2026-macos-27-macbook-mac-announcement-features",
-          "headline": "Apple announces macOS Golden Gate 27",
+          "url": "https://www.theverge.com/news/946147/apple-watchos-27-ipados-27-supported-devices-dropped",
+          "headline": "Apple drops support for a long list of iPads and Apple Watches with latest OS updates",
           "platform": "rss"
         }
       ],
@@ -465,23 +435,23 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T17:07:30+00:00",
-      "last_seen": "2026-06-08T17:07:30+00:00",
+      "first_seen": "2026-06-08T19:45:00+00:00",
+      "last_seen": "2026-06-08T19:45:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0924
+      "resonance": 0.0901
     },
     {
-      "id": "3b93337088",
-      "title": "SEE IT: Maine voters sound off on Platner's divisive campaign as crucial primary nears: 'He's a disgrace'",
+      "id": "33b43eecd3",
+      "title": "Whoopi Goldberg defends Trump attending Knicks NBA Finals game",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/see-maine-voters-sound-platners-divisive-campaign-crucial-primary-nears-hes-disgrace",
-          "headline": "SEE IT: Maine voters sound off on Platner's divisive campaign as crucial primary nears: 'He's a disgrace'",
+          "url": "https://www.foxnews.com/media/whoopi-goldberg-defends-trump-attending-knicks-nba-finals-game",
+          "headline": "Whoopi Goldberg defends Trump attending Knicks NBA Finals game",
           "platform": "rss"
         }
       ],
@@ -492,35 +462,8 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-06-08T17:03:40+00:00",
-      "last_seen": "2026-06-08T17:03:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0895
-    },
-    {
-      "id": "a4531353cc",
-      "title": "Care worker who helped boss with child abuse jailed for 25 years",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cddq2971qzlo?at_medium=RSS&at_campaign=rss",
-          "headline": "Care worker who helped boss with child abuse jailed for 25 years",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T17:03:20+00:00",
-      "last_seen": "2026-06-08T17:03:20+00:00",
+      "first_seen": "2026-06-08T19:43:50+00:00",
+      "last_seen": "2026-06-08T19:43:50+00:00",
       "platforms": [
         "rss"
       ],
@@ -528,41 +471,68 @@
       "resonance": 0.0892
     },
     {
-      "id": "c2e39533fe",
-      "title": "Sikh group calls for inquiry into Henry Nowak death",
+      "id": "033308fa37",
+      "title": "Outcry over YouTuber's Down syndrome abortion proves Americans are 'repulsed by eugenics,' activist says",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cj0g4qmmry7o?at_medium=RSS&at_campaign=rss",
-          "headline": "Sikh group calls for inquiry into Henry Nowak death",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/outcry-youtubers-syndrome-abortion-proves-americans-reject-eugenics-activist-says",
+          "headline": "Outcry over YouTuber's Down syndrome abortion proves Americans are 'repulsed by eugenics,' activist says",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": 0.6,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
-        "right": 0
+        "center": 0,
+        "right": 1
       },
-      "first_seen": "2026-06-08T17:02:16+00:00",
-      "last_seen": "2026-06-08T17:02:16+00:00",
+      "first_seen": "2026-06-08T19:41:09+00:00",
+      "last_seen": "2026-06-08T19:41:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0884
+      "resonance": 0.0871
     },
     {
-      "id": "b26cf7fcf9",
-      "title": "F1 in Monaco: Finally, the cars were flat-out in qualifying",
+      "id": "f64f2f31c3",
+      "title": "Songwriter behind hits for Britney Spears and Dua Lipa fatally stabbed at 35, three arrested",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/songwriter-behind-hits-britney-spears-dua-lipa-fatally-stabbed-35-three-arrested",
+          "headline": "Songwriter behind hits for Britney Spears and Dua Lipa fatally stabbed at 35, three arrested",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-08T19:40:09+00:00",
+      "last_seen": "2026-06-08T19:40:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0863
+    },
+    {
+      "id": "c031d11b8c",
+      "title": "The fastest humans in the galaxy just got a spiffy patch to prove it",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/cars/2026/06/f1-in-monaco-finally-the-cars-were-flat-out-in-qualifying/",
-          "headline": "F1 in Monaco: Finally, the cars were flat-out in qualifying",
+          "url": "https://arstechnica.com/space/2026/06/artemis-ii-crew-flew-fast-earned-new-patch-astronauts-mach-39-emblem/",
+          "headline": "The fastest humans in the galaxy just got a spiffy patch to prove it",
           "platform": "rss"
         }
       ],
@@ -573,77 +543,23 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T16:56:21+00:00",
-      "last_seen": "2026-06-08T16:56:21+00:00",
+      "first_seen": "2026-06-08T19:40:05+00:00",
+      "last_seen": "2026-06-08T19:40:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0839
+      "resonance": 0.0863
     },
     {
-      "id": "12074d4193",
-      "title": "How Christian Eriksen's heart device kicked into action",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cewq1g7z4qzo?at_medium=RSS&at_campaign=rss",
-          "headline": "How Christian Eriksen's heart device kicked into action",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T16:55:15+00:00",
-      "last_seen": "2026-06-08T16:55:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0831
-    },
-    {
-      "id": "ce6c998122",
-      "title": "Nottingham attacks inquiry revealed miscarriage of justice, victim's mother says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cy8d932zl27o?at_medium=RSS&at_campaign=rss",
-          "headline": "Nottingham attacks inquiry revealed miscarriage of justice, victim's mother says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T16:53:36+00:00",
-      "last_seen": "2026-06-08T16:53:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0819
-    },
-    {
-      "id": "da015e7093",
-      "title": "12 surprisingly useful Amazon gadgets under $50 to buy before Prime Day",
+      "id": "25aa3d5dd5",
+      "title": "Fever vs Mystics betting preview: Why the over 170.5 looks like the smart play",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/deals/best-cheap-amazon-gadgets-prime-day",
-          "headline": "12 surprisingly useful Amazon gadgets under $50 to buy before Prime Day",
+          "url": "https://www.foxnews.com/outkick-sports/fever-vs-mystics-betting-preview-1705-looks-like-smart-play",
+          "headline": "Fever vs Mystics betting preview: Why the over 170.5 looks like the smart play",
           "platform": "rss"
         }
       ],
@@ -654,23 +570,77 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-06-08T16:50:59+00:00",
-      "last_seen": "2026-06-08T16:50:59+00:00",
+      "first_seen": "2026-06-08T19:33:26+00:00",
+      "last_seen": "2026-06-08T19:33:26+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0799
+      "resonance": 0.0813
     },
     {
-      "id": "b35f9aa03c",
-      "title": "Three rescued, one killed in Russian drone strike on Ukraine block",
+      "id": "ada41bdab1",
+      "title": "'City's gonna be crazy:' Knicks run electrifies NYC, as Trump's attendance locks down arena",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/ceqd5jgded8o?at_medium=RSS&at_campaign=rss",
+          "headline": "'City's gonna be crazy:' Knicks run electrifies NYC, as Trump's attendance locks down arena",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T19:32:26+00:00",
+      "last_seen": "2026-06-08T19:32:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0805
+    },
+    {
+      "id": "8ba7b39e23",
+      "title": "Knicks fan sends OnlyFans model a Patrick Ewing jersey and pays for her to twerk in it",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/knicks-fan-sends-onlyfans-model-patrick-ewing-jersey-pays-twerk",
+          "headline": "Knicks fan sends OnlyFans model a Patrick Ewing jersey and pays for her to twerk in it",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-08T19:31:09+00:00",
+      "last_seen": "2026-06-08T19:31:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0795
+    },
+    {
+      "id": "c98648a865",
+      "title": "Albanian PM Rama vows to push on with Kushner-linked luxury resort",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/8/three-rescued-one-killed-in-russian-drone-strike-on-ukraine-block?traffic_source=rss",
-          "headline": "Three rescued, one killed in Russian drone strike on Ukraine block",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/8/albanian-pm-rama-vows-to-push-on-with-kushner-linked-luxury-resort?traffic_source=rss",
+          "headline": "Albanian PM Rama vows to push on with Kushner-linked luxury resort",
           "platform": "rss"
         }
       ],
@@ -681,50 +651,191 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T16:48:18+00:00",
-      "last_seen": "2026-06-08T16:48:18+00:00",
+      "first_seen": "2026-06-08T19:30:37+00:00",
+      "last_seen": "2026-06-08T19:30:37+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.078
+      "resonance": 0.0791
     },
     {
-      "id": "153778378b",
-      "title": "Two US pilots killed after plane bound to pick up former MLB star crashes",
+      "id": "4f3f176a2e",
+      "title": "Say hi to \"Siri AI\"—Apple announces new, more \"conversational\" voice assistant",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jun/08/us-pilots-killed-plane-crash-dominican-republic",
-          "headline": "Two US pilots killed after plane bound to pick up former MLB star crashes",
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/apple/2026/06/say-hi-to-siri-ai-apple-announces-new-more-conversational-voice-assistant/",
+          "headline": "Say hi to \"Siri AI\"—Apple announces new, more \"conversational\" voice assistant",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.4,
+        "mean": -0.1,
         "spread": 0.0,
-        "left": 1,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T19:30:05+00:00",
+      "last_seen": "2026-06-08T19:30:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0787
+    },
+    {
+      "id": "febd325e4a",
+      "title": "New video shows Coast Guard's Bahamas hunt as team dives into forensics exam of seized Lynette Hooker dinghy",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/new-video-shows-coast-guards-bahamas-hunt-team-dives-forensics-exam-seized-lynette-hooker-dinghy",
+          "headline": "New video shows Coast Guard's Bahamas hunt as team dives into forensics exam of seized Lynette Hooker dinghy",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
         "center": 0,
-        "right": 0
+        "right": 1
       },
-      "first_seen": "2026-06-08T16:44:08+00:00",
-      "last_seen": "2026-06-08T16:44:08+00:00",
+      "first_seen": "2026-06-08T19:15:24+00:00",
+      "last_seen": "2026-06-08T19:15:24+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0749
+      "resonance": 0.068
     },
     {
-      "id": "3eeb3cbc86",
-      "title": "WWDC protesters want Apple to ban Elon Musk’s apps",
+      "id": "0ae0b78042",
+      "title": "Best early Prime Day clothing deals under $50: Hanes, Levi's, Carhartt and more",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/deals/amazon-prime-day-clothing-deals-under-50",
+          "headline": "Best early Prime Day clothing deals under $50: Hanes, Levi's, Carhartt and more",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/deals/amazon-prime-day-under-50",
+          "headline": "Best Amazon deals under $50 before Prime Day: Skechers, Sony, Blink and more",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 2
+      },
+      "first_seen": "2026-06-08T19:09:17+00:00",
+      "last_seen": "2026-06-08T19:11:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0654
+    },
+    {
+      "id": "9fc112ccb9",
+      "title": "LIV Golf could reportedly run out of money before wrapping up 2026 season after Saudis pull funding",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/945813/apple-wwdc-protesters-deepfake-nude-apps-ultraviolet-heat-initiative",
-          "headline": "WWDC protesters want Apple to ban Elon Musk’s apps",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/liv-golf-could-reportedly-run-money-wrapping-2026-season-saudis-pull-funding",
+          "headline": "LIV Golf could reportedly run out of money before wrapping up 2026 season after Saudis pull funding",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-08T19:08:08+00:00",
+      "last_seen": "2026-06-08T19:08:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0629
+    },
+    {
+      "id": "9f93292dcb",
+      "title": "Bella Hadid stuns in striking blue one-piece swimsuit during yacht day with friends",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/bella-hadid-stuns-striking-blue-one-piece-swimsuit-during-yacht-day-friends",
+          "headline": "Bella Hadid stuns in striking blue one-piece swimsuit during yacht day with friends",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-08T19:07:37+00:00",
+      "last_seen": "2026-06-08T19:07:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0625
+    },
+    {
+      "id": "66ebb340d8",
+      "title": "College athletics integrity 'left the building' after judge lets Sorsby play despite gambling admission",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/college-athletics-integrity-left-building-judge-lets-sorsby-play-despite-gambling-admission",
+          "headline": "College athletics integrity 'left the building' after judge lets Sorsby play despite gambling admission",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-08T19:06:14+00:00",
+      "last_seen": "2026-06-08T19:06:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0616
+    },
+    {
+      "id": "e96de25b2c",
+      "title": "Gemini 3.5 and Antigravity come to Google NotebookLM",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/06/gemini-3-5-and-antigravity-come-to-google-notebooklm/",
+          "headline": "Gemini 3.5 and Antigravity come to Google NotebookLM",
           "platform": "rss"
         }
       ],
@@ -735,50 +846,23 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T16:37:09+00:00",
-      "last_seen": "2026-06-08T16:37:09+00:00",
+      "first_seen": "2026-06-08T19:00:30+00:00",
+      "last_seen": "2026-06-08T19:00:30+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0699
+      "resonance": 0.0576
     },
     {
-      "id": "ae428adf00",
-      "title": "WWDC 2026 live blog: On the ground at Apple’s keynote",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/942572/wwdc-2026-live-blog-ios27-macos27-watchos27-ipados27-visionos27-siri-apple-intelligence",
-          "headline": "WWDC 2026 live blog: On the ground at Apple’s keynote",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T16:30:00+00:00",
-      "last_seen": "2026-06-08T16:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0649
-    },
-    {
-      "id": "ee764d7403",
-      "title": "Christian Eriksen at home and 'doing well' after collapse",
+      "id": "4c37cb3737",
+      "title": "Watch: Southern Lights timelapse filmed from space",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "BBC News",
-          "url": "https://www.bbc.com/sport/football/articles/c9w2kpyx58no?at_medium=RSS&at_campaign=rss",
-          "headline": "Christian Eriksen at home and 'doing well' after collapse",
+          "url": "https://www.bbc.com/news/videos/cr5j4e4r3v9o?at_medium=RSS&at_campaign=rss",
+          "headline": "Watch: Southern Lights timelapse filmed from space",
           "platform": "rss"
         }
       ],
@@ -789,104 +873,50 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T16:29:19+00:00",
-      "last_seen": "2026-06-08T16:29:19+00:00",
+      "first_seen": "2026-06-08T18:58:57+00:00",
+      "last_seen": "2026-06-08T18:58:57+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0644
+      "resonance": 0.0565
     },
     {
-      "id": "506fc2b91d",
-      "title": "7.8 magnitude earthquake leaves dozens dead in the Philippines",
+      "id": "899e852cc4",
+      "title": "Stokes and Atkinson investigated over nightclub incident",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/8/7-8-magnitude-earthquake-leaves-dozens-dead-in-the-philippines?traffic_source=rss",
-          "headline": "7.8 magnitude earthquake leaves dozens dead in the Philippines",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/sport/cricket/articles/c0ry801k2geo?at_medium=RSS&at_campaign=rss",
+          "headline": "Stokes and Atkinson investigated over nightclub incident",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.2,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T16:24:19+00:00",
-      "last_seen": "2026-06-08T16:24:19+00:00",
+      "first_seen": "2026-06-08T18:58:44+00:00",
+      "last_seen": "2026-06-08T18:58:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.061
+      "resonance": 0.0564
     },
     {
-      "id": "a2f96bfc33",
-      "title": "'You're destroying your countries': Is Europe finally heeding Trump's warning on illegal immigration?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/world/youre-destroying-your-countries-europe-finally-heeding-trumps-warning-illegal-immigration",
-          "headline": "'You're destroying your countries': Is Europe finally heeding Trump's warning on illegal immigration?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T16:19:33+00:00",
-      "last_seen": "2026-06-08T16:19:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0577
-    },
-    {
-      "id": "586c2a1ffe",
-      "title": "Early Prime Day fishing and hunting deals worth grabbing now, starting at $18",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/deals/amazon-fishing-hunting-deals-prime-day",
-          "headline": "Early Prime Day fishing and hunting deals worth grabbing now, starting at $18",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T16:17:19+00:00",
-      "last_seen": "2026-06-08T16:17:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0562
-    },
-    {
-      "id": "de0b24e378",
-      "title": "How to apply to Startup Battlefield 2026, what you need ahead of today’s June 8 deadline",
+      "id": "805e7c485e",
+      "title": "Pentagon says Alibaba, Baidu, BYD and Unitree support China’s military",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/08/how-to-apply-to-startup-battlefield-2026-what-you-need-ahead-of-todays-june-8-deadline/",
-          "headline": "How to apply to Startup Battlefield 2026, what you need ahead of today’s June 8 deadline",
+          "url": "https://techcrunch.com/2026/06/08/pentagon-says-alibaba-baidu-byd-and-unitree-support-chinas-military/",
+          "headline": "Pentagon says Alibaba, Baidu, BYD and Unitree support China’s military",
           "platform": "rss"
         }
       ],
@@ -897,23 +927,23 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T16:14:14+00:00",
-      "last_seen": "2026-06-08T16:14:14+00:00",
+      "first_seen": "2026-06-08T18:57:49+00:00",
+      "last_seen": "2026-06-08T18:57:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0541
+      "resonance": 0.0558
     },
     {
-      "id": "da115896e5",
-      "title": "How Lebanon became the breaking point for the Iran war ceasefire",
+      "id": "074fa62121",
+      "title": "NATO jets shoot down drone over Latvia, extending Ukraine spillover fears",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/8/how-lebanon-became-the-breaking-point-for-the-iran-war-ceasefire?traffic_source=rss",
-          "headline": "How Lebanon became the breaking point for the Iran war ceasefire",
+          "url": "https://www.aljazeera.com/news/2026/6/8/nato-jets-shoot-down-drone-over-latvia-extending-ukraine-spillover-fears?traffic_source=rss",
+          "headline": "NATO jets shoot down drone over Latvia, extending Ukraine spillover fears",
           "platform": "rss"
         }
       ],
@@ -924,62 +954,62 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T16:13:03+00:00",
-      "last_seen": "2026-06-08T16:13:03+00:00",
+      "first_seen": "2026-06-08T18:54:59+00:00",
+      "last_seen": "2026-06-08T18:54:59+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0534
+      "resonance": 0.0538
     },
     {
-      "id": "e4ab3efc02",
-      "title": "Platner calls Fetterman ‘a--hole’ at town hall as Democratic feud heats up",
+      "id": "6d197b448c",
+      "title": "Your empty cuppa could capture carbon",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/platner-calls-fetterman-a-hole-town-hall-democratic-feud-heats-up",
-          "headline": "Platner calls Fetterman ‘a--hole’ at town hall as Democratic feud heats up",
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/06/your-empty-cuppa-could-capture-carbon/",
+          "headline": "Your empty cuppa could capture carbon",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-06-08T16:09:14+00:00",
-      "last_seen": "2026-06-08T16:09:14+00:00",
+      "first_seen": "2026-06-08T18:50:10+00:00",
+      "last_seen": "2026-06-08T18:50:10+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0508
+      "resonance": 0.0506
     },
     {
-      "id": "ef843019fa",
-      "title": "HelloFresh draws backlash over suggestive Pride Month message",
+      "id": "6692d7894f",
+      "title": "US imposes restrictions on 100 Nicaraguan officials after activist’s death",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/hellofresh-draws-backlash-over-suggestive-pride-month-message",
-          "headline": "HelloFresh draws backlash over suggestive Pride Month message",
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/8/us-imposes-restrictions-on-100-nicaraguan-officials-after-activists-death?traffic_source=rss",
+          "headline": "US imposes restrictions on 100 Nicaraguan officials after activist’s death",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-06-08T16:07:58+00:00",
-      "last_seen": "2026-06-08T16:07:58+00:00",
+      "first_seen": "2026-06-08T18:49:15+00:00",
+      "last_seen": "2026-06-08T18:49:15+00:00",
       "platforms": [
         "rss"
       ],
@@ -989,27 +1019,15 @@
   ],
   "edges": [
     {
-      "source": "fe2dd5de6c",
-      "target": "ae428adf00",
-      "weight": 0.595,
+      "source": "61b2d879b9",
+      "target": "020031ecea",
+      "weight": 0.128,
       "type": "thematic"
     },
     {
-      "source": "ec9ca173aa",
-      "target": "1cb739aa5d",
-      "weight": 0.562,
-      "type": "thematic"
-    },
-    {
-      "source": "e06b933f0e",
-      "target": "506fc2b91d",
-      "weight": 0.95,
-      "type": "thematic"
-    },
-    {
-      "source": "12074d4193",
-      "target": "ee764d7403",
-      "weight": 0.32,
+      "source": "0fb654983a",
+      "target": "020031ecea",
+      "weight": 0.817,
       "type": "thematic"
     }
   ]

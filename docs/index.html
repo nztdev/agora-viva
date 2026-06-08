@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,6 @@
   --text: #cdd8e8;
   --muted: rgba(205,216,232,0.42);
   --accent: #4af4c2;
-  --warm: #f4884a;
   --violet: #b09dfc;
   --left: #6ea8fe;
   --right: #f4764a;
@@ -21,8 +21,8 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html,body{width:100%;height:100%;background:var(--bg);color:var(--text);font-family:'Syne',sans-serif;overflow:hidden;-webkit-tap-highlight-color:transparent}
 
-/* BG */
 #bgc{position:fixed;inset:0;z-index:0;pointer-events:none}
+#node-canvas{position:fixed;inset:0;z-index:2;pointer-events:none}
 
 /* HEADER */
 #hdr{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:flex-start;justify-content:space-between;padding:18px 22px;background:linear-gradient(to bottom,rgba(7,9,13,0.97) 50%,transparent);pointer-events:none}
@@ -37,19 +37,10 @@ html,body{width:100%;height:100%;background:var(--bg);color:var(--text);font-fam
 /* GRAPH */
 #canvas{position:fixed;inset:0;z-index:1}
 svg#graph{width:100%;height:100%;overflow:visible}
-
-/* EDGES — plain strokes, no SVG filters needed */
-.edge{fill:none;transition:stroke-opacity 0.3s}
-
-/* NODES — all rendering via Canvas2D overlay for iOS compatibility */
-#node-canvas{position:fixed;inset:0;z-index:2;pointer-events:none}
-
-/* Hit targets (transparent SVG circles) */
+.edge{fill:none;transition:stroke 0.3s,stroke-width 0.3s,stroke-opacity 0.3s}
 .nh{fill:transparent;cursor:pointer}
-
-/* Labels — SVG text, shown only for large nodes */
-.nlabel{font-family:'Syne',sans-serif;font-weight:500;fill:rgba(205,216,232,0.72);pointer-events:none;text-anchor:middle;dominant-baseline:hanging}
-.nlabel.sel,.nlabel.hov{fill:#fff}
+.nlabel{font-family:'Syne',sans-serif;font-weight:500;fill:rgba(205,216,232,0.75);pointer-events:none;text-anchor:middle;dominant-baseline:hanging}
+.nlabel.hi{fill:#fff}
 
 /* PANEL */
 #panel{position:fixed;right:0;top:0;bottom:0;width:min(360px,100vw);background:rgba(9,12,18,0.98);border-left:1px solid var(--border);transform:translateX(100%);transition:transform 0.38s cubic-bezier(0.16,1,0.3,1);display:flex;flex-direction:column;z-index:300;overflow:hidden}
@@ -62,25 +53,21 @@ svg#graph{width:100%;height:100%;overflow:visible}
 .pill.ac{border-color:rgba(74,244,194,0.3);color:var(--accent)}
 #pclose{position:absolute;top:14px;right:14px;background:none;border:1px solid var(--border);color:var(--muted);width:28px;height:28px;border-radius:50%;cursor:pointer;font-size:13px;transition:all 0.2s;display:flex;align-items:center;justify-content:center}
 #pclose:hover{border-color:rgba(255,255,255,0.2);color:var(--text)}
-
 #pres{padding:14px 20px;border-bottom:1px solid var(--border);flex-shrink:0}
 .slabel{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
 .rtrack{height:3px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden;margin-bottom:4px}
 .rfill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--violet),var(--accent));transition:width 0.8s cubic-bezier(0.16,1,0.3,1)}
 #rscore{font-family:'DM Mono',monospace;font-size:10px;color:var(--accent)}
-
 #pbias{padding:12px 20px;border-bottom:1px solid var(--border);flex-shrink:0}
 .btrack{position:relative;height:4px;background:linear-gradient(90deg,var(--left) 0%,rgba(255,255,255,0.07) 50%,var(--right) 100%);border-radius:2px;margin:7px 0 5px}
 .bmark{position:absolute;top:50%;transform:translate(-50%,-50%);width:10px;height:10px;border-radius:50%;background:#fff;border:2px solid var(--bg);transition:left 0.5s cubic-bezier(0.16,1,0.3,1)}
 .brow{display:flex;justify-content:space-between;align-items:center}
 .bside{font-family:'DM Mono',monospace;font-size:9px}
 #bverdict{font-family:'DM Mono',monospace;font-size:9px;color:var(--muted)}
-
 #pgeo{padding:12px 20px;border-bottom:1px solid var(--border);flex-shrink:0}
 #geobar{display:flex;gap:5px;margin-top:7px;flex-wrap:wrap}
 .georegion{font-family:'DM Mono',monospace;font-size:9px;padding:2px 7px;border-radius:10px;border:1px solid var(--border);color:var(--muted)}
 .georegion.global{border-color:rgba(74,244,194,0.3);color:var(--accent)}
-
 #psrc{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:12px 20px 28px}
 #psrc::-webkit-scrollbar{width:3px}
 #psrc::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.08);border-radius:2px}
@@ -93,7 +80,7 @@ svg#graph{width:100%;height:100%;overflow:visible}
 .shed{font-size:12px;color:var(--text);line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 
 /* FILTERS */
-#filters{position:fixed;bottom:env(safe-area-inset-bottom, 0px);left:0;right:0;display:flex;justify-content:center;padding:12px 16px calc(16px + env(safe-area-inset-bottom,0px));background:linear-gradient(to top,rgba(7,9,13,0.96) 60%,transparent);z-index:100;pointer-events:none}
+#filters{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:center;padding:12px 16px calc(16px + env(safe-area-inset-bottom,0px));background:linear-gradient(to top,rgba(7,9,13,0.97) 55%,transparent);z-index:100;pointer-events:none}
 #fbar{display:flex;gap:4px;align-items:center;background:rgba(12,16,22,0.95);border:1px solid var(--border);border-radius:40px;padding:5px 8px;pointer-events:all}
 .fb{background:none;border:1px solid transparent;color:var(--muted);padding:6px 14px;border-radius:20px;cursor:pointer;transition:all 0.18s;font-family:'DM Mono',monospace;font-size:10px;-webkit-tap-highlight-color:transparent}
 .fb:active{transform:scale(0.95)}
@@ -198,43 +185,61 @@ svg#graph{width:100%;height:100%;overflow:visible}
 </div>
 
 <script>
-// ── CONSTANTS ─────────────────────────────────────────────────────────────────
+// ── PLATFORM COLORS ───────────────────────────────────────────────────────────
 const PC = {rss:'#4af4c2', hackernews:'#f4884a', default:'#b09dfc'};
-const ALPHA_START=1.0, ALPHA_MIN=0.003, ALPHA_DECAY=0.016, ALPHA_REHEAT=0.26, DAMPING=0.74;
 
-// Node color tiers — returned as {core, glow, ring} plain CSS colors
-// No SVG filters — all glow rendered via Canvas2D shadow, works on iOS
-function nodeColors(res) {
-  if (res > 0.60) return {core:'#4af4c2', glow:'rgba(74,244,194,0.35)', ring:'rgba(74,244,194,0.5)', label:true};
-  if (res > 0.35) return {core:'#b09dfc', glow:'rgba(176,157,252,0.28)', ring:'rgba(176,157,252,0.45)', label:true};
-  return        {core:'rgba(205,216,232,0.32)', glow:'rgba(205,216,232,0.08)', ring:'rgba(205,216,232,0.25)', label:false};
-}
+// ── SIMULATION CONSTANTS ──────────────────────────────────────────────────────
+// Alpha cooling — simulation heats up on load then settles to near-still
+const ALPHA_START  = 1.0;
+const ALPHA_MIN    = 0.003;
+const ALPHA_DECAY  = 0.014;  // ~5s settle at 60fps
+const ALPHA_REHEAT = 0.26;
+const DAMPING      = 0.72;
+
+// FIX 1: GRAVITY DOMINANCE
+// Resonance gravity is now much stronger relative to repulsion.
+// High-resonance nodes are pulled hard to center; small nodes repel each other
+// but can't overpower a large node's gravity. This creates the solar system
+// layout: dominant events at center, small ones scattered at the periphery.
+const GRAVITY_BASE  = 0.012;  // was 0.005 — 2.4× stronger baseline
+const GRAVITY_RES   = 0.048;  // was 0.026 — resonance multiplier
+const REPULSION_K   = 0.22;   // was 0.32 — repulsion slightly softer
+const EDGE_ATTRACT  = 0.065;  // slightly stronger edge pull
+
+// FIX 2: EDGE VISIBILITY
+// Edges now render at meaningful opacity with a minimum floor.
+// strokeWidth scales with weight so stronger relationships are visible.
+const EDGE_OPACITY_MIN  = 0.18;  // was ~0.05 — now always visible
+const EDGE_OPACITY_MAX  = 0.55;
+const EDGE_WIDTH_MIN    = 0.8;
+const EDGE_WIDTH_MAX    = 2.0;
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let nodes=[], edges=[], fnodes=[], fedges=[];
 let pos={}, vel={}, W, H, DPR=1;
 let alpha=ALPHA_START, af=null, selId=null, hovId=null, _lastGen=null;
+const pulsePhase={};
 
-// ── BACKGROUND PARTICLES ──────────────────────────────────────────────────────
-const bgEl = document.getElementById('bgc');
-const bgx = bgEl.getContext('2d');
+// ── BACKGROUND ────────────────────────────────────────────────────────────────
+const bgEl=document.getElementById('bgc');
+const bgx=bgEl.getContext('2d');
 let particles=[];
 
-function initBg() {
-  DPR = window.devicePixelRatio || 1;
-  bgEl.width = window.innerWidth * DPR; bgEl.height = window.innerHeight * DPR;
-  bgEl.style.width = window.innerWidth+'px'; bgEl.style.height = window.innerHeight+'px';
-  bgx.scale(DPR, DPR);
-  particles = Array.from({length:40}, ()=>({
-    x: Math.random()*window.innerWidth, y: Math.random()*window.innerHeight,
-    r: Math.random()*0.9+0.3,
-    vx:(Math.random()-.5)*0.09, vy:(Math.random()-.5)*0.09,
-    o: Math.random()*0.18+0.04
+function initBg(){
+  DPR=window.devicePixelRatio||1;
+  W=window.innerWidth; H=window.innerHeight;
+  bgEl.width=W*DPR; bgEl.height=H*DPR;
+  bgEl.style.width=W+'px'; bgEl.style.height=H+'px';
+  bgx.scale(DPR,DPR);
+  particles=Array.from({length:40},()=>({
+    x:Math.random()*W, y:Math.random()*H,
+    r:Math.random()*0.9+0.3,
+    vx:(Math.random()-.5)*0.08, vy:(Math.random()-.5)*0.08,
+    o:Math.random()*0.15+0.04
   }));
 }
 
-function drawBg() {
-  const W=window.innerWidth, H=window.innerHeight;
+function drawBg(){
   bgx.clearRect(0,0,W,H);
   particles.forEach(p=>{
     p.x+=p.vx; p.y+=p.vy;
@@ -246,221 +251,253 @@ function drawBg() {
   requestAnimationFrame(drawBg);
 }
 
-// ── NODE CANVAS (iOS-compatible glow via Canvas2D shadow) ─────────────────────
-const nc = document.getElementById('node-canvas');
-const nx = nc.getContext('2d');
-// Pulse state per node
-const pulsePhase = {};
+// ── NODE CANVAS ───────────────────────────────────────────────────────────────
+const nc=document.getElementById('node-canvas');
+const nx=nc.getContext('2d');
 
-function initNC() {
-  nc.width = window.innerWidth * DPR; nc.height = window.innerHeight * DPR;
-  nc.style.width = window.innerWidth+'px'; nc.style.height = window.innerHeight+'px';
+function initNC(){
+  nc.width=W*DPR; nc.height=H*DPR;
+  nc.style.width=W+'px'; nc.style.height=H+'px';
 }
 
-function drawNodes() {
-  nx.clearRect(0, 0, nc.width, nc.height);
-  nx.save(); nx.scale(DPR, DPR);
+function nodeColors(res){
+  if(res>0.60) return {core:'#4af4c2',glow:'rgba(74,244,194,0.4)',ring:'rgba(74,244,194,0.55)',showLabel:true};
+  if(res>0.32) return {core:'#b09dfc',glow:'rgba(176,157,252,0.3)',ring:'rgba(176,157,252,0.48)',showLabel:true};
+  return              {core:'rgba(205,216,232,0.30)',glow:'rgba(205,216,232,0.08)',ring:'rgba(205,216,232,0.22)',showLabel:false};
+}
 
-  fnodes.forEach(n => {
+function nr(n){return 5+(n.resonance||0)*40;}
+
+function drawNodes(){
+  nx.clearRect(0,0,nc.width,nc.height);
+  nx.save(); nx.scale(DPR,DPR);
+
+  fnodes.forEach(n=>{
     const p=pos[n.id]; if(!p) return;
-    const r = nr(n);
-    const col = nodeColors(n.resonance||0);
-    const isSel = n.id===selId;
-    const isHov = n.id===hovId;
+    const r=nr(n), res=n.resonance||0;
+    const col=nodeColors(res);
+    const isSel=n.id===selId, isHov=n.id===hovId;
 
-    // Pulse ring for high-resonance nodes
-    if (n.resonance > 0.38) {
-      if (!pulsePhase[n.id]) pulsePhase[n.id] = Math.random()*Math.PI*2;
-      pulsePhase[n.id] += 0.018;
-      const pAlpha = (Math.sin(pulsePhase[n.id])*0.5+0.5)*0.3+0.05;
-      const pR = r + 8 + Math.sin(pulsePhase[n.id]*0.7)*6;
-      nx.beginPath(); nx.arc(p.x, p.y, pR, 0, Math.PI*2);
-      nx.strokeStyle = col.ring.replace(/[\d.]+\)$/, `${pAlpha})`);
-      nx.lineWidth = 1.2;
-      nx.stroke();
-
-      // Second ring for very high resonance
-      if (n.resonance > 0.65) {
-        const p2A = (Math.sin(pulsePhase[n.id]+1.8)*0.5+0.5)*0.2+0.03;
-        const p2R = r + 18 + Math.sin(pulsePhase[n.id]*0.5+1)*10;
-        nx.beginPath(); nx.arc(p.x, p.y, p2R, 0, Math.PI*2);
-        nx.strokeStyle = col.ring.replace(/[\d.]+\)$/, `${p2A})`);
-        nx.lineWidth = 0.8; nx.stroke();
+    // Animated pulse rings — high resonance only
+    if(res>0.38){
+      if(!pulsePhase[n.id]) pulsePhase[n.id]=Math.random()*Math.PI*2;
+      pulsePhase[n.id]+=0.016;
+      const ph=pulsePhase[n.id];
+      const pA=(Math.sin(ph)*0.5+0.5)*0.28+0.04;
+      const pR=r+9+Math.sin(ph*0.7)*5;
+      nx.beginPath(); nx.arc(p.x,p.y,pR,0,Math.PI*2);
+      nx.strokeStyle=col.ring.replace(/[\d.]+\)$/,`${pA})`);
+      nx.lineWidth=1.2; nx.stroke();
+      if(res>0.65){
+        const p2A=(Math.sin(ph+1.8)*0.5+0.5)*0.18+0.02;
+        const p2R=r+20+Math.sin(ph*0.5+1)*8;
+        nx.beginPath(); nx.arc(p.x,p.y,p2R,0,Math.PI*2);
+        nx.strokeStyle=col.ring.replace(/[\d.]+\)$/,`${p2A})`);
+        nx.lineWidth=0.8; nx.stroke();
       }
     }
 
-    // Hover / select ring
-    if (isSel || isHov) {
-      nx.beginPath(); nx.arc(p.x, p.y, r+7, 0, Math.PI*2);
-      nx.strokeStyle = isSel ? 'rgba(74,244,194,0.55)' : 'rgba(205,216,232,0.25)';
-      nx.lineWidth = 1.5; nx.stroke();
+    // Hover/select ring
+    if(isSel||isHov){
+      nx.beginPath(); nx.arc(p.x,p.y,r+7,0,Math.PI*2);
+      nx.strokeStyle=isSel?'rgba(74,244,194,0.6)':'rgba(205,216,232,0.28)';
+      nx.lineWidth=1.5; nx.stroke();
     }
 
-    // Glow (shadowBlur — works on all browsers including iOS Safari)
+    // Core with glow
     nx.save();
-    nx.shadowBlur = isSel ? 22 : (n.resonance>0.5 ? 14 : 6);
-    nx.shadowColor = col.glow;
-
-    // Core circle
-    nx.beginPath(); nx.arc(p.x, p.y, r, 0, Math.PI*2);
-    nx.fillStyle = col.core;
-    if (isSel) nx.fillStyle = col.core; // brightness handled by shadow
-    nx.fill();
+    nx.shadowBlur=isSel?24:(res>0.5?16:7);
+    nx.shadowColor=col.glow;
+    nx.beginPath(); nx.arc(p.x,p.y,r,0,Math.PI*2);
+    nx.fillStyle=col.core; nx.fill();
     nx.restore();
 
-    // Inner specular highlight
-    if (r > 10) {
-      const hx2 = p.x - r*0.3, hy2 = p.y - r*0.3;
-      const hg = nx.createRadialGradient(hx2,hy2,0,hx2,hy2,r*0.6);
-      hg.addColorStop(0,'rgba(255,255,255,0.18)');
+    // Specular highlight
+    if(r>10){
+      const hg=nx.createRadialGradient(p.x-r*0.3,p.y-r*0.3,0,p.x-r*0.3,p.y-r*0.3,r*0.65);
+      hg.addColorStop(0,'rgba(255,255,255,0.2)');
       hg.addColorStop(1,'rgba(255,255,255,0)');
       nx.beginPath(); nx.arc(p.x,p.y,r,0,Math.PI*2);
       nx.fillStyle=hg; nx.fill();
     }
   });
-
   nx.restore();
 }
 
-// ── NODE RADIUS ───────────────────────────────────────────────────────────────
-function nr(n) { return 5 + (n.resonance||0)*40; }
-
 // ── SIMULATION ────────────────────────────────────────────────────────────────
-function initPos() {
+function initPos(){
   W=window.innerWidth; H=window.innerHeight;
   pos={}; vel={};
+  // Start nodes at radius = (1 - resonance) * maxR so high-res start central
   fnodes.forEach((n,i)=>{
-    const a=(i/fnodes.length)*Math.PI*2+(Math.random()-.5)*0.5;
-    const maxR=Math.min(W,H)*0.36;
-    const rd=maxR*(1-(n.resonance||0)*0.7);
-    pos[n.id]={x:W/2+rd*Math.cos(a)+(Math.random()-.5)*25, y:H/2+rd*Math.sin(a)+(Math.random()-.5)*25};
+    const a=(i/fnodes.length)*Math.PI*2+(Math.random()-.5)*0.6;
+    const maxR=Math.min(W,H)*0.38;
+    const rd=maxR*(1-(n.resonance||0)*0.72);
+    pos[n.id]={x:W/2+rd*Math.cos(a)+(Math.random()-.5)*20, y:H/2+rd*Math.sin(a)+(Math.random()-.5)*20};
     vel[n.id]={x:0,y:0};
   });
 }
 
-function tick() {
+function tick(){
   if(alpha<=0) return;
+
+  // Build edge map once per tick
   const em={};
   fedges.forEach(e=>{
     (em[e.source]||(em[e.source]=[])).push({id:e.target,w:e.weight});
     (em[e.target]||(em[e.target]=[])).push({id:e.source,w:e.weight});
   });
+
   fnodes.forEach(a=>{
     const pa=pos[a.id]; if(!pa) return;
     let fx=0,fy=0;
     const res=a.resonance||0;
-    // Resonance gravity — high res → strong center pull
-    const g=0.005+res*0.026;
-    fx+=(W/2-pa.x)*g; fy+=(H/2-pa.y)*g;
-    // Repulsion
+
+    // FIX 1: Strong resonance gravity
+    // High-res nodes pulled hard to center — they can't be pushed aside
+    // by a cluster of small nodes. Low-res nodes feel only weak gravity,
+    // so repulsion naturally pushes them to the periphery.
+    const g=GRAVITY_BASE+res*GRAVITY_RES;
+    fx+=(W/2-pa.x)*g;
+    fy+=(H/2-pa.y)*g;
+
+    // Repulsion — softened so it can't overpower large-node gravity
     fnodes.forEach(b=>{
       if(a.id===b.id) return;
       const pb=pos[b.id]; if(!pb) return;
-      const dx=pa.x-pb.x,dy=pa.y-pb.y,d=Math.sqrt(dx*dx+dy*dy)||1;
-      const md=(nr(a)+nr(b))*2.8+48;
-      if(d<md){const f=(md-d)/d*0.32;fx+=dx*f;fy+=dy*f;}
+      const dx=pa.x-pb.x, dy=pa.y-pb.y;
+      const d=Math.sqrt(dx*dx+dy*dy)||1;
+      const minD=(nr(a)+nr(b))*2.6+44;
+      if(d<minD){
+        const f=(minD-d)/d*REPULSION_K;
+        fx+=dx*f; fy+=dy*f;
+      }
     });
+
     // Edge attraction
     (em[a.id]||[]).forEach(({id,w})=>{
       const pb=pos[id]; if(!pb) return;
-      const dx=pb.x-pa.x,dy=pb.y-pa.y,d=Math.sqrt(dx*dx+dy*dy)||1;
-      const f=(d-(100+w*80))/d*w*0.05;
-      fx+=dx*f;fy+=dy*f;
+      const dx=pb.x-pa.x, dy=pb.y-pa.y;
+      const d=Math.sqrt(dx*dx+dy*dy)||1;
+      const ideal=90+w*80;
+      const f=(d-ideal)/d*w*EDGE_ATTRACT;
+      fx+=dx*f; fy+=dy*f;
     });
+
     const v=vel[a.id];
-    v.x=(v.x+fx*alpha)*DAMPING; v.y=(v.y+fy*alpha)*DAMPING;
-    pa.x=Math.max(55,Math.min(W-55,pa.x+v.x));
-    pa.y=Math.max(55,Math.min(H-55,pa.y+v.y));
+    v.x=(v.x+fx*alpha)*DAMPING;
+    v.y=(v.y+fy*alpha)*DAMPING;
+    pa.x=Math.max(52,Math.min(W-52,pa.x+v.x));
+    pa.y=Math.max(52,Math.min(H-52,pa.y+v.y));
   });
+
   alpha=Math.max(0,alpha-ALPHA_DECAY);
 }
 
 function reheat(){alpha=Math.max(alpha,ALPHA_REHEAT);}
 
 // ── RENDER ────────────────────────────────────────────────────────────────────
-function render() {
+function render(){
   if(af) cancelAnimationFrame(af);
   alpha=ALPHA_START;
   initPos();
-  for(let i=0;i<200;i++) tick();
+  // Headless pre-settle so nodes arrive at their positions, not fly in
+  for(let i=0;i<220;i++) tick();
   alpha=ALPHA_START;
   drawSVGLayer();
   initNC();
   (function loop(){
     if(alpha>ALPHA_MIN) tick();
     updateSVGPositions();
-    drawNodes(); // canvas redraws every frame (handles pulse animation)
+    drawNodes();
     af=requestAnimationFrame(loop);
   })();
 }
 
-// ── SVG LAYER (edges + hit targets + labels) ──────────────────────────────────
-function drawSVGLayer() {
+// ── SVG LAYER: edges, hit targets, labels ─────────────────────────────────────
+function edgeOpacity(w){return EDGE_OPACITY_MIN+w*(EDGE_OPACITY_MAX-EDGE_OPACITY_MIN);}
+function edgeWidth(w){return EDGE_WIDTH_MIN+w*(EDGE_WIDTH_MAX-EDGE_WIDTH_MIN);}
+
+// FIX 3: WORD-BOUNDARY LABEL TRUNCATION
+// Builds up to two label lines by word, never cutting mid-word.
+// maxChars is a soft limit — we finish the current word before wrapping.
+function makeLines(title, maxChars){
+  const words=title.split(' ');
+  let l1='',l2='';
+  for(const w of words){
+    if(!l1){l1=w; continue;}
+    if((l1+' '+w).length<=maxChars) l1+=' '+w;
+    else if(!l2){l2=w;}
+    else if((l2+' '+w).length<=maxChars) l2+=' '+w;
+    // else: word doesn't fit on line 2, stop adding
+  }
+  // If l2 is still too long (one very long word), truncate with ellipsis
+  if(l2.length>maxChars) l2=l2.slice(0,maxChars-1)+'…';
+  return [l1,l2];
+}
+
+function drawSVGLayer(){
   const NS='http://www.w3.org/2000/svg';
   const el=document.getElementById('el');
   const hl=document.getElementById('hl');
   const ll=document.getElementById('ll2');
   el.innerHTML=''; hl.innerHTML=''; ll.innerHTML='';
 
-  // Edges
+  // FIX 2: Edges with visible opacity and weight-scaled width
   fedges.forEach(e=>{
     const pa=pos[e.source],pb=pos[e.target]; if(!pa||!pb) return;
     const ln=document.createElementNS(NS,'line');
-    ln.id='e-'+e.source+'-'+e.target; ln.classList.add('edge');
+    ln.id='e-'+e.source+'-'+e.target;
+    ln.classList.add('edge');
     ln.setAttribute('x1',pa.x);ln.setAttribute('y1',pa.y);
     ln.setAttribute('x2',pb.x);ln.setAttribute('y2',pb.y);
-    ln.style.stroke='rgba(74,244,194,'+(0.05+e.weight*0.15)+')';
-    ln.style.strokeWidth='1';
+    ln.style.stroke=`rgba(74,244,194,${edgeOpacity(e.weight).toFixed(2)})`;
+    ln.style.strokeWidth=edgeWidth(e.weight).toFixed(1);
     el.appendChild(ln);
   });
 
   // Hit targets + labels
+  const isMobile=W<600;
   fnodes.forEach(n=>{
     const p=pos[n.id],r=nr(n);
     const col=nodeColors(n.resonance||0);
 
-    // Transparent hit circle (larger than visual for easier tap)
+    // Invisible hit circle — generously sized for touch
     const hit=document.createElementNS(NS,'circle');
     hit.classList.add('nh'); hit.id='h-'+n.id;
     hit.setAttribute('cx',p.x);hit.setAttribute('cy',p.y);
-    hit.setAttribute('r',Math.max(r+8,20));
-    hit.addEventListener('mouseenter',()=>{hovId=n.id;showTip(n,null);});
+    hit.setAttribute('r',Math.max(r+10,22));
+    hit.addEventListener('mouseenter',()=>{hovId=n.id;showTip(n);});
     hit.addEventListener('mouseleave',()=>{hovId=null;document.getElementById('tt').classList.remove('on');});
     hit.addEventListener('click',()=>selectNode(n));
-    hit.addEventListener('touchend',e=>{e.preventDefault();selectNode(n);});
+    hit.addEventListener('touchend',e=>{e.preventDefault();selectNode(n);},{passive:false});
     hl.appendChild(hit);
 
-    // Labels — only for nodes with r > threshold
-    // Mobile: higher threshold to avoid crowding
-    const isMobile = window.innerWidth < 600;
-    const labelThreshold = isMobile ? 18 : 12;
-    if (r > labelThreshold && col.label) {
-      const maxChars = isMobile ? 18 : 22;
-      const words=n.title.split(' ');
-      let l1='',l2='';
-      words.forEach(w=>{
-        if((l1+w).length<=maxChars) l1+=(l1?' ':'')+w;
-        else l2+=(l2?' ':'')+w;
-      });
-      if(l2.length>maxChars) l2=l2.slice(0,maxChars-1)+'…';
+    // Labels — only for labelled tier, only above radius threshold
+    const labelR = isMobile ? 16 : 11;
+    if(r>labelR && col.showLabel){
+      const maxC=isMobile?17:21;
+      const [l1,l2]=makeLines(n.title,maxC);
 
       const lbl=document.createElementNS(NS,'text');
       lbl.classList.add('nlabel'); lbl.id='lbl-'+n.id;
-      lbl.setAttribute('x',p.x); lbl.setAttribute('y',p.y+r+6);
-      lbl.style.fontSize = r>22 ? '11px' : '9.5px';
+      lbl.setAttribute('x',p.x);lbl.setAttribute('y',p.y+r+6);
+      lbl.style.fontSize=r>22?'11px':'9.5px';
 
       const t1=document.createElementNS(NS,'tspan');
       t1.setAttribute('x',p.x); t1.textContent=l1; lbl.appendChild(t1);
       if(l2){
         const t2=document.createElementNS(NS,'tspan');
-        t2.setAttribute('x',p.x); t2.setAttribute('dy','1.3em'); t2.textContent=l2; lbl.appendChild(t2);
+        t2.setAttribute('x',p.x);t2.setAttribute('dy','1.3em');t2.textContent=l2;
+        lbl.appendChild(t2);
       }
       ll.appendChild(lbl);
     }
   });
 }
 
-function updateSVGPositions() {
+function updateSVGPositions(){
+  const isMobile=W<600;
   fnodes.forEach(n=>{
     const p=pos[n.id]; if(!p) return;
     const r=nr(n);
@@ -468,9 +505,9 @@ function updateSVGPositions() {
     if(hit){hit.setAttribute('cx',p.x);hit.setAttribute('cy',p.y);}
     const lbl=document.getElementById('lbl-'+n.id);
     if(lbl){
-      lbl.setAttribute('x',p.x); lbl.setAttribute('y',p.y+r+6);
+      lbl.setAttribute('x',p.x);lbl.setAttribute('y',p.y+r+6);
       lbl.querySelectorAll('tspan').forEach(t=>t.setAttribute('x',p.x));
-      if(n.id===selId||n.id===hovId) lbl.classList.add('sel'); else lbl.classList.remove('sel');
+      if(n.id===selId||n.id===hovId) lbl.classList.add('hi'); else lbl.classList.remove('hi');
     }
   });
   fedges.forEach(e=>{
@@ -483,20 +520,22 @@ function updateSVGPositions() {
   });
 }
 
-// ── TOOLTIP (desktop only — touch uses panel directly) ────────────────────────
-function showTip(n,e){
-  if('ontouchstart' in window) return; // skip on touch devices
+// ── TOOLTIP ───────────────────────────────────────────────────────────────────
+let tipX=0,tipY=0;
+function showTip(n){
+  if('ontouchstart' in window) return;
   document.getElementById('ttt').textContent=n.title;
   document.getElementById('ttr').textContent=
     `resonance ${(n.resonance*100).toFixed(0)}  ·  ${n.signal_count} source${n.signal_count!==1?'s':''}`;
   document.getElementById('tt').classList.add('on');
 }
 document.addEventListener('mousemove',e=>{
+  tipX=e.clientX; tipY=e.clientY;
   const t=document.getElementById('tt');
   if(!t.classList.contains('on')) return;
-  let x=e.clientX+16,y=e.clientY+12;
-  if(x+240>W)x=e.clientX-240;
-  if(y+90>H)y=e.clientY-80;
+  let x=tipX+16,y=tipY+12;
+  if(x+240>W)x=tipX-240;
+  if(y+90>H)y=tipY-80;
   t.style.left=x+'px';t.style.top=y+'px';
 });
 
@@ -504,14 +543,29 @@ document.addEventListener('mousemove',e=>{
 function selectNode(n){
   if(selId===n.id){selId=null;closePanel();return;}
   selId=n.id;
-  // Highlight edges
-  document.querySelectorAll('.edge').forEach(e=>{
-    const id=e.id;
-    const active=id.includes(n.id);
-    e.style.stroke=active?'rgba(74,244,194,0.5)':'rgba(74,244,194,'+(0.05+0.15*0)+')';
-    e.style.strokeWidth=active?'1.8':'1';
-  });
+  highlightEdges(n.id);
   openPanel(n);
+}
+
+function highlightEdges(nodeId){
+  fedges.forEach(e=>{
+    const ln=document.getElementById('e-'+e.source+'-'+e.target);
+    if(!ln) return;
+    const active=(e.source===nodeId||e.target===nodeId);
+    ln.style.stroke=active
+      ?'rgba(74,244,194,0.75)'
+      :`rgba(74,244,194,${edgeOpacity(e.weight).toFixed(2)})`;
+    ln.style.strokeWidth=active?'2':(edgeWidth(e.weight).toFixed(1));
+  });
+}
+
+function resetEdges(){
+  fedges.forEach(e=>{
+    const ln=document.getElementById('e-'+e.source+'-'+e.target);
+    if(!ln) return;
+    ln.style.stroke=`rgba(74,244,194,${edgeOpacity(e.weight).toFixed(2)})`;
+    ln.style.strokeWidth=edgeWidth(e.weight).toFixed(1);
+  });
 }
 
 // ── PANEL ─────────────────────────────────────────────────────────────────────
@@ -524,8 +578,7 @@ function openPanel(n){
   (n.platforms||[]).forEach(p=>addPill(m,p));
 
   document.getElementById('rbar').style.width=(n.resonance*100)+'%';
-  document.getElementById('rscore').textContent=
-    `${(n.resonance*100).toFixed(0)} / 100`;
+  document.getElementById('rscore').textContent=`${(n.resonance*100).toFixed(0)} / 100`;
 
   const bpos=((n.bias?.mean||0)+1)/2*100;
   document.getElementById('bmark').style.left=bpos+'%';
@@ -536,8 +589,7 @@ function openPanel(n){
   const geo=document.getElementById('geobar'); geo.innerHTML='';
   const regions=n.geo_regions||[];
   if(!regions.length){
-    const d=document.createElement('span');
-    d.className='georegion';d.textContent='—';geo.appendChild(d);
+    const d=document.createElement('span');d.className='georegion';d.textContent='—';geo.appendChild(d);
   } else {
     const isGlobal=regions.includes('Global');
     regions.filter(r=>r!=='Global').forEach(r=>{
@@ -551,13 +603,11 @@ function openPanel(n){
   (n.sources||[]).slice(0,10).forEach(s=>{
     const a=document.createElement('a');
     a.className='si';a.href=s.url||'#';a.target='_blank';a.rel='noopener noreferrer';
-    const dot=document.createElement('div');
-    dot.className='sdot';dot.style.background=PC[s.platform]||PC.default;
+    const dot=document.createElement('div');dot.className='sdot';dot.style.background=PC[s.platform]||PC.default;
     const body=document.createElement('div');body.className='sb';
     body.innerHTML=`<div class="sout">${s.outlet}</div><div class="shed">${s.headline}</div>`;
     a.appendChild(dot);a.appendChild(body);list.appendChild(a);
   });
-
   document.getElementById('panel').classList.add('open');
 }
 
@@ -569,11 +619,7 @@ function addPill(parent,text,cls){
 function closePanel(){
   document.getElementById('panel').classList.remove('open');
   selId=null;
-  // Reset edge styles
-  fedges.forEach(e=>{
-    const ln=document.getElementById('e-'+e.source+'-'+e.target);
-    if(ln){ln.style.stroke='rgba(74,244,194,'+(0.05+e.weight*0.15)+')';ln.style.strokeWidth='1';}
-  });
+  resetEdges();
 }
 
 // ── FILTER ────────────────────────────────────────────────────────────────────
@@ -600,7 +646,7 @@ function makeDemoData(){
     ['Global protests surge over economic inequality',0.95,['BBC News','Guardian','Al Jazeera','Reuters','Fox News'],-0.12,0.58,['rss'],['Global','Europe','Americas']],
     ['Central banks signal coordinated rate policy shift',0.78,['Reuters','WSJ','BBC News'],0.08,0.19,['rss','hackernews'],['Global','Americas','Europe']],
     ['AI regulation framework proposed by coalition',0.71,['The Verge','Ars Technica','TechCrunch','Guardian'],-0.08,0.24,['rss','hackernews'],['Global','Americas']],
-    ['Tech giants face antitrust scrutiny in three jurisdictions',0.64,['WSJ','Guardian','TechCrunch'],0.04,0.36,['rss','hackernews'],['Americas','Europe']],
+    ['Tech giants face antitrust scrutiny',0.64,['WSJ','Guardian','TechCrunch'],0.04,0.36,['rss','hackernews'],['Americas','Europe']],
     ['Solid-state battery breakthrough announced',0.58,['Ars Technica','The Verge','Nature'],-0.04,0.10,['rss','hackernews'],['Americas','Asia']],
     ['Middle East peace process enters critical phase',0.52,['BBC News','Al Jazeera','Reuters','Fox News'],0.18,0.62,['rss'],['Middle East','Europe','Americas']],
     ['Crewed lunar mission destination revealed',0.46,['Ars Technica','BBC News'],-0.04,0.11,['rss','hackernews'],['Americas']],
@@ -615,24 +661,26 @@ function makeDemoData(){
   nodes=ev.map(([t,res,srcs,bm,bs,plat,geo],i)=>({
     id:'d'+i,title:t,resonance:res,signal_count:srcs.length,platforms:plat,geo_regions:geo,
     bias:{mean:bm,spread:bs},
-    sources:srcs.map((o,j)=>({outlet:o,headline:t+(j?'':' — live updates'),url:'#',platform:j===0&&plat.includes('hackernews')?'hackernews':'rss'})),
+    sources:srcs.map((o,j)=>({outlet:o,headline:t+(j?'':' — latest'),url:'#',platform:j===0&&plat.includes('hackernews')?'hackernews':'rss'})),
     last_seen:new Date(Date.now()-Math.random()*7200000).toISOString(),
   }));
   edges=[];
   [[0,5],[0,7],[1,8],[2,3],[2,9],[3,9],[4,13],[5,7],[6,4],[10,7],[11,2],[12,0],[13,1]].forEach(([a,b])=>{
     if(a<nodes.length&&b<nodes.length)
-      edges.push({source:nodes[a].id,target:nodes[b].id,weight:+(Math.random()*0.4+0.15).toFixed(3)});
+      edges.push({source:nodes[a].id,target:nodes[b].id,weight:+(Math.random()*0.45+0.2).toFixed(3)});
   });
 }
 
 // ── BOOT ──────────────────────────────────────────────────────────────────────
+let _lastGenerated=null;
+
 async function boot(){
   initBg(); drawBg();
   try{
     const r=await fetch('data.json');
     if(!r.ok) throw 0;
     const d=await r.json();
-    nodes=d.nodes||[]; edges=d.edges||[]; _lastGen=d.generated_at;
+    nodes=d.nodes||[]; edges=d.edges||[]; _lastGenerated=d.generated_at;
     const ago=Math.round((Date.now()-new Date(d.generated_at))/60000);
     document.getElementById('ltext').textContent=`${nodes.length} events · ${ago<2?'just now':ago+'m ago'}`;
   }catch{
@@ -642,14 +690,14 @@ async function boot(){
   applyFilter('all');
   document.getElementById('loading').classList.add('gone');
 
-  // Poll for fresh data every 5 minutes
   setInterval(async()=>{
     try{
       const r=await fetch('data.json?t='+Date.now());
       if(!r.ok) return;
       const d=await r.json();
-      if(d.generated_at===_lastGen) return;
-      _lastGen=d.generated_at; nodes=d.nodes||[]; edges=d.edges||[];
+      if(d.generated_at===_lastGenerated) return;
+      _lastGenerated=d.generated_at;
+      nodes=d.nodes||[]; edges=d.edges||[];
       const ago=Math.round((Date.now()-new Date(d.generated_at))/60000);
       document.getElementById('ltext').textContent=`${nodes.length} events · ${ago}m ago`;
       applyFilter(document.querySelector('.fb.on')?.dataset?.f||'all');
@@ -659,7 +707,6 @@ async function boot(){
 }
 
 window.addEventListener('resize',()=>{initBg();initNC();if(fnodes.length)render();});
-
 boot();
 </script>
 </body>

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-08T20:03:07.360227+00:00",
+  "generated_at": "2026-06-08T21:50:13.400364+00:00",
   "node_count": 35,
-  "edge_count": 2,
+  "edge_count": 6,
   "nodes": [
     {
       "id": "61b2d879b9",
       "title": "Apple announces watchOS 27, now with Siri AI",
-      "signal_count": 4,
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "The Verge",
@@ -25,26 +25,20 @@
           "url": "https://www.apple.com/apple-intelligence/",
           "headline": "Siri AI",
           "platform": "hackernews"
-        },
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
-          "headline": "Apple announces Siri AI and its next generation of Apple Intelligence",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.075,
-        "spread": 0.043,
+        "mean": -0.067,
+        "spread": 0.047,
         "left": 0,
-        "center": 4,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-06-08T17:34:24+00:00",
+      "first_seen": "2026-06-08T18:17:53+00:00",
       "last_seen": "2026-06-08T19:34:10+00:00",
       "platforms": [
-        "hackernews",
-        "rss"
+        "rss",
+        "hackernews"
       ],
       "geo_regions": [],
       "resonance": 1.0
@@ -63,7 +57,7 @@
         {
           "outlet": "Hacker News",
           "url": "https://www.apple.com/apple-events/event-stream/",
-          "headline": "Apple WWDC 2026 Livestream",
+          "headline": "Apple WWDC 2026",
           "platform": "hackernews"
         }
       ],
@@ -77,11 +71,11 @@
       "first_seen": "2026-06-08T17:14:24+00:00",
       "last_seen": "2026-06-08T18:43:56+00:00",
       "platforms": [
-        "hackernews",
-        "rss"
+        "rss",
+        "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.9927
+      "resonance": 0.9748
     },
     {
       "id": "8225851e6b",
@@ -108,7 +102,61 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.8698
+      "resonance": 0.9303
+    },
+    {
+      "id": "bee807444b",
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+          "headline": "Apple reveals new AI architecture built around Google Gemini models",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T19:14:47+00:00",
+      "last_seen": "2026-06-08T19:14:47+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "resonance": 0.9009
+    },
+    {
+      "id": "66f4b5c598",
+      "title": "Surveillance Is Not Safety: A statement on the UK's latest threat to privacy [pdf]",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://signal.org/blog/pdfs/2026-06-08-uk-surveillance-is-not-safety.pdf",
+          "headline": "Surveillance Is Not Safety: A statement on the UK's latest threat to privacy [pdf]",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T19:42:28+00:00",
+      "last_seen": "2026-06-08T19:42:28+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "resonance": 0.7
     },
     {
       "id": "9b28e5cf55",
@@ -135,7 +183,34 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.711
+      "resonance": 0.6967
+    },
+    {
+      "id": "e97739f181",
+      "title": "AI is slowing down",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+          "headline": "AI is slowing down",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T15:46:37+00:00",
+      "last_seen": "2026-06-08T15:46:37+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "resonance": 0.5915
     },
     {
       "id": "11f64aaadd",
@@ -162,34 +237,7 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.619
-    },
-    {
-      "id": "68c113e04d",
-      "title": "AI Is Slowing Down",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
-          "headline": "AI Is Slowing Down",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T15:46:37+00:00",
-      "last_seen": "2026-06-08T15:46:37+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "resonance": 0.6051
+      "resonance": 0.5768
     },
     {
       "id": "6678e31218",
@@ -216,17 +264,44 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.5771
+      "resonance": 0.5298
     },
     {
-      "id": "ad0f064072",
-      "title": "Show HN: Performative-UI – a react component library of design tropes",
+      "id": "e6366b8870",
+      "title": "xAI is looking more like a datacentre REIT than a frontier lab",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://martinalderson.com/posts/xais-new-rental-business/",
+          "headline": "xAI is looking more like a datacentre REIT than a frontier lab",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T15:13:43+00:00",
+      "last_seen": "2026-06-08T15:13:43+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "resonance": 0.5184
+    },
+    {
+      "id": "e3eee5146d",
+      "title": "Show HN: Performative-UI – A react component library of design tropes",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
           "url": "https://vorpus.github.io/performativeUI/",
-          "headline": "Show HN: Performative-UI – a react component library of design tropes",
+          "headline": "Show HN: Performative-UI – A react component library of design tropes",
           "platform": "hackernews"
         }
       ],
@@ -243,7 +318,7 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.4767
+      "resonance": 0.4354
     },
     {
       "id": "72d2861574",
@@ -270,12 +345,45 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.3982
+      "resonance": 0.3589
+    },
+    {
+      "id": "7201ce726a",
+      "title": "Friendship or leverage: Why is Xi Jinping in North Korea?",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/6/8/how-significant-is-xi-jinpings-visit-to-north-korea?traffic_source=rss",
+          "headline": "How significant is Xi Jinping’s visit to North Korea?",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cdep497r256o?at_medium=RSS&at_campaign=rss",
+          "headline": "Friendship or leverage: Why is Xi Jinping in North Korea?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T14:22:38+00:00",
+      "last_seen": "2026-06-08T20:42:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.1642
     },
     {
       "id": "e06b933f0e",
       "title": "At least 35 dead after major earthquake strikes southern Philippines",
-      "signal_count": 4,
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "Al Jazeera",
@@ -290,12 +398,6 @@
           "platform": "rss"
         },
         {
-          "outlet": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/8/7-8-magnitude-earthquake-leaves-dozens-dead-in-the-philippines?traffic_source=rss",
-          "headline": "7.8 magnitude earthquake leaves dozens dead in the Philippines",
-          "platform": "rss"
-        },
-        {
           "outlet": "The Guardian",
           "url": "https://www.theguardian.com/world/2026/jun/08/philippines-earthquake-mindanao-tsunami-warnings",
           "headline": "Powerful earthquake in southern Philippines leaves at least 35 dead",
@@ -303,10 +405,10 @@
         }
       ],
       "bias": {
-        "mean": -0.225,
-        "spread": 0.109,
+        "mean": -0.233,
+        "spread": 0.125,
         "left": 1,
-        "center": 3,
+        "center": 2,
         "right": 0
       },
       "first_seen": "2026-06-08T14:01:08+00:00",
@@ -315,7 +417,7 @@
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.2171
+      "resonance": 0.1385
     },
     {
       "id": "683540827f",
@@ -348,299 +450,17 @@
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.1995
+      "resonance": 0.1163
     },
     {
-      "id": "020031ecea",
-      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
-          "headline": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
-          "platform": "rss"
-        },
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/08/wwdc-2026-what-to-expect-from-siris-highly-anticipated-revamp-to-apple-intelligence-and-ios-27/",
-          "headline": "WWDC 2026: What to expect, from Siri’s highly anticipated revamp to Apple Intelligence and iOS 27",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T15:34:59+00:00",
-      "last_seen": "2026-06-08T19:41:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.1043
-    },
-    {
-      "id": "a28c1d23ec",
-      "title": "Amazon is launching AI-generated custom merch",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/news/945905/amazon-alexa-shopping-ai-generated-custom-merch-design-printing",
-          "headline": "Amazon is launching AI-generated custom merch",
-          "platform": "rss"
-        },
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/08/amazon-now-lets-you-design-custom-merch-using-ai/",
-          "headline": "Amazon now lets you design custom merch using AI",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T15:49:12+00:00",
-      "last_seen": "2026-06-08T17:52:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0937
-    },
-    {
-      "id": "f9d1263d35",
-      "title": "Apple drops support for a long list of iPads and Apple Watches with latest OS updates",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/news/946147/apple-watchos-27-ipados-27-supported-devices-dropped",
-          "headline": "Apple drops support for a long list of iPads and Apple Watches with latest OS updates",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T19:45:00+00:00",
-      "last_seen": "2026-06-08T19:45:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0901
-    },
-    {
-      "id": "33b43eecd3",
-      "title": "Whoopi Goldberg defends Trump attending Knicks NBA Finals game",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/whoopi-goldberg-defends-trump-attending-knicks-nba-finals-game",
-          "headline": "Whoopi Goldberg defends Trump attending Knicks NBA Finals game",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T19:43:50+00:00",
-      "last_seen": "2026-06-08T19:43:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0892
-    },
-    {
-      "id": "033308fa37",
-      "title": "Outcry over YouTuber's Down syndrome abortion proves Americans are 'repulsed by eugenics,' activist says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/outcry-youtubers-syndrome-abortion-proves-americans-reject-eugenics-activist-says",
-          "headline": "Outcry over YouTuber's Down syndrome abortion proves Americans are 'repulsed by eugenics,' activist says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T19:41:09+00:00",
-      "last_seen": "2026-06-08T19:41:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0871
-    },
-    {
-      "id": "f64f2f31c3",
-      "title": "Songwriter behind hits for Britney Spears and Dua Lipa fatally stabbed at 35, three arrested",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/songwriter-behind-hits-britney-spears-dua-lipa-fatally-stabbed-35-three-arrested",
-          "headline": "Songwriter behind hits for Britney Spears and Dua Lipa fatally stabbed at 35, three arrested",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T19:40:09+00:00",
-      "last_seen": "2026-06-08T19:40:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0863
-    },
-    {
-      "id": "c031d11b8c",
-      "title": "The fastest humans in the galaxy just got a spiffy patch to prove it",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/space/2026/06/artemis-ii-crew-flew-fast-earned-new-patch-astronauts-mach-39-emblem/",
-          "headline": "The fastest humans in the galaxy just got a spiffy patch to prove it",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T19:40:05+00:00",
-      "last_seen": "2026-06-08T19:40:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0863
-    },
-    {
-      "id": "25aa3d5dd5",
-      "title": "Fever vs Mystics betting preview: Why the over 170.5 looks like the smart play",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/fever-vs-mystics-betting-preview-1705-looks-like-smart-play",
-          "headline": "Fever vs Mystics betting preview: Why the over 170.5 looks like the smart play",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T19:33:26+00:00",
-      "last_seen": "2026-06-08T19:33:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0813
-    },
-    {
-      "id": "ada41bdab1",
-      "title": "'City's gonna be crazy:' Knicks run electrifies NYC, as Trump's attendance locks down arena",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/ceqd5jgded8o?at_medium=RSS&at_campaign=rss",
-          "headline": "'City's gonna be crazy:' Knicks run electrifies NYC, as Trump's attendance locks down arena",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T19:32:26+00:00",
-      "last_seen": "2026-06-08T19:32:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0805
-    },
-    {
-      "id": "8ba7b39e23",
-      "title": "Knicks fan sends OnlyFans model a Patrick Ewing jersey and pays for her to twerk in it",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/knicks-fan-sends-onlyfans-model-patrick-ewing-jersey-pays-twerk",
-          "headline": "Knicks fan sends OnlyFans model a Patrick Ewing jersey and pays for her to twerk in it",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T19:31:09+00:00",
-      "last_seen": "2026-06-08T19:31:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0795
-    },
-    {
-      "id": "c98648a865",
-      "title": "Albanian PM Rama vows to push on with Kushner-linked luxury resort",
+      "id": "445d6e44ce",
+      "title": "UN human rights leader calls for Cuba sanctions to be ‘lifted immediately’",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/8/albanian-pm-rama-vows-to-push-on-with-kushner-linked-luxury-resort?traffic_source=rss",
-          "headline": "Albanian PM Rama vows to push on with Kushner-linked luxury resort",
+          "url": "https://www.aljazeera.com/news/2026/6/8/un-human-rights-leader-calls-for-cuba-sanctions-to-be-lifted-immediately?traffic_source=rss",
+          "headline": "UN human rights leader calls for Cuba sanctions to be ‘lifted immediately’",
           "platform": "rss"
         }
       ],
@@ -651,23 +471,131 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T19:30:37+00:00",
-      "last_seen": "2026-06-08T19:30:37+00:00",
+      "first_seen": "2026-06-08T21:43:25+00:00",
+      "last_seen": "2026-06-08T21:43:25+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0791
+      "resonance": 0.096
     },
     {
-      "id": "4f3f176a2e",
-      "title": "Say hi to \"Siri AI\"—Apple announces new, more \"conversational\" voice assistant",
+      "id": "5b083e599d",
+      "title": "Washington school removes testosterone vials from Pride display after district says they were not approved",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/apple/2026/06/say-hi-to-siri-ai-apple-announces-new-more-conversational-voice-assistant/",
-          "headline": "Say hi to \"Siri AI\"—Apple announces new, more \"conversational\" voice assistant",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/washington-school-removes-testosterone-vials-pride-display-district-says-approved",
+          "headline": "Washington school removes testosterone vials from Pride display after district says they were not approved",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-08T21:39:16+00:00",
+      "last_seen": "2026-06-08T21:39:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.092
+    },
+    {
+      "id": "48f5e35802",
+      "title": "Repeat offender on probation allegedly kills father who tracked his stolen truck using GPS",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/repeat-offender-probation-allegedly-kills-father-tracked-stolen-truck-using-gps",
+          "headline": "Repeat offender on probation allegedly kills father who tracked his stolen truck using GPS",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-08T21:37:32+00:00",
+      "last_seen": "2026-06-08T21:37:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0903
+    },
+    {
+      "id": "f8a5a52331",
+      "title": "Australia news live: poll piles pressure on Jacinta Allan; women ‘biggest losers from NDIS cuts’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jun/09/anthony-albanese-labor-one-nation-pauline-hanson-coalition-angus-taylor-ndis-jacinta-allan-victoria-ntwnfb",
+          "headline": "Australia news live: poll piles pressure on Jacinta Allan; women ‘biggest losers from NDIS cuts’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.4,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T21:33:32+00:00",
+      "last_seen": "2026-06-08T21:33:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0865
+    },
+    {
+      "id": "ab6245f630",
+      "title": "US confirms it denied entry to Somali referee set to take part in World Cup",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/8/us-confirms-denying-entry-to-somali-referee-set-to-take-part-in-world-cup?traffic_source=rss",
+          "headline": "US confirms it denied entry to Somali referee set to take part in World Cup",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T21:30:58+00:00",
+      "last_seen": "2026-06-08T21:30:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0841
+    },
+    {
+      "id": "1d6cd34939",
+      "title": "Following Anthropic, OpenAI files confidentially for IPO",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+          "headline": "Following Anthropic, OpenAI files confidentially for IPO",
           "platform": "rss"
         }
       ],
@@ -678,8 +606,62 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T19:30:05+00:00",
-      "last_seen": "2026-06-08T19:30:05+00:00",
+      "first_seen": "2026-06-08T21:29:57+00:00",
+      "last_seen": "2026-06-08T21:29:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0831
+    },
+    {
+      "id": "6669479071",
+      "title": "Pope Leo makes visit to Spain’s Almudena Cathedral",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/8/pope-leo-makes-visit-to-spains-almudena-cathedral?traffic_source=rss",
+          "headline": "Pope Leo makes visit to Spain’s Almudena Cathedral",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T21:28:33+00:00",
+      "last_seen": "2026-06-08T21:28:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0818
+    },
+    {
+      "id": "fbe53dcbb2",
+      "title": "EU planning to add to $1.5 trillion sanctions hit on Russia",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/8/eu-planning-to-add-to-1-5-trillion-sanctions-hit-on-russia?traffic_source=rss",
+          "headline": "EU planning to add to $1.5 trillion sanctions hit on Russia",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T21:25:10+00:00",
+      "last_seen": "2026-06-08T21:25:10+00:00",
       "platforms": [
         "rss"
       ],
@@ -687,236 +669,41 @@
       "resonance": 0.0787
     },
     {
-      "id": "febd325e4a",
-      "title": "New video shows Coast Guard's Bahamas hunt as team dives into forensics exam of seized Lynette Hooker dinghy",
+      "id": "b59876ef1f",
+      "title": "Italian prosecutors to probe Israeli minister Ben-Gvir over flotilla abuse",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/new-video-shows-coast-guards-bahamas-hunt-team-dives-forensics-exam-seized-lynette-hooker-dinghy",
-          "headline": "New video shows Coast Guard's Bahamas hunt as team dives into forensics exam of seized Lynette Hooker dinghy",
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/8/italian-prosecutors-to-probe-israeli-minister-ben-gvir-over-flotilla-abuse?traffic_source=rss",
+          "headline": "Italian prosecutors to probe Israeli minister Ben-Gvir over flotilla abuse",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T19:15:24+00:00",
-      "last_seen": "2026-06-08T19:15:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.068
-    },
-    {
-      "id": "0ae0b78042",
-      "title": "Best early Prime Day clothing deals under $50: Hanes, Levi's, Carhartt and more",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/deals/amazon-prime-day-clothing-deals-under-50",
-          "headline": "Best early Prime Day clothing deals under $50: Hanes, Levi's, Carhartt and more",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/deals/amazon-prime-day-under-50",
-          "headline": "Best Amazon deals under $50 before Prime Day: Skechers, Sony, Blink and more",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 2
-      },
-      "first_seen": "2026-06-08T19:09:17+00:00",
-      "last_seen": "2026-06-08T19:11:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0654
-    },
-    {
-      "id": "9fc112ccb9",
-      "title": "LIV Golf could reportedly run out of money before wrapping up 2026 season after Saudis pull funding",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/liv-golf-could-reportedly-run-money-wrapping-2026-season-saudis-pull-funding",
-          "headline": "LIV Golf could reportedly run out of money before wrapping up 2026 season after Saudis pull funding",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T19:08:08+00:00",
-      "last_seen": "2026-06-08T19:08:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0629
-    },
-    {
-      "id": "9f93292dcb",
-      "title": "Bella Hadid stuns in striking blue one-piece swimsuit during yacht day with friends",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/bella-hadid-stuns-striking-blue-one-piece-swimsuit-during-yacht-day-friends",
-          "headline": "Bella Hadid stuns in striking blue one-piece swimsuit during yacht day with friends",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T19:07:37+00:00",
-      "last_seen": "2026-06-08T19:07:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0625
-    },
-    {
-      "id": "66ebb340d8",
-      "title": "College athletics integrity 'left the building' after judge lets Sorsby play despite gambling admission",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/college-athletics-integrity-left-building-judge-lets-sorsby-play-despite-gambling-admission",
-          "headline": "College athletics integrity 'left the building' after judge lets Sorsby play despite gambling admission",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-08T19:06:14+00:00",
-      "last_seen": "2026-06-08T19:06:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0616
-    },
-    {
-      "id": "e96de25b2c",
-      "title": "Gemini 3.5 and Antigravity come to Google NotebookLM",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/06/gemini-3-5-and-antigravity-come-to-google-notebooklm/",
-          "headline": "Gemini 3.5 and Antigravity come to Google NotebookLM",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T19:00:30+00:00",
-      "last_seen": "2026-06-08T19:00:30+00:00",
+      "first_seen": "2026-06-08T21:19:36+00:00",
+      "last_seen": "2026-06-08T21:19:36+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0576
+      "resonance": 0.0736
     },
     {
-      "id": "4c37cb3737",
-      "title": "Watch: Southern Lights timelapse filmed from space",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/videos/cr5j4e4r3v9o?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: Southern Lights timelapse filmed from space",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T18:58:57+00:00",
-      "last_seen": "2026-06-08T18:58:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0565
-    },
-    {
-      "id": "899e852cc4",
-      "title": "Stokes and Atkinson investigated over nightclub incident",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/sport/cricket/articles/c0ry801k2geo?at_medium=RSS&at_campaign=rss",
-          "headline": "Stokes and Atkinson investigated over nightclub incident",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-08T18:58:44+00:00",
-      "last_seen": "2026-06-08T18:58:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0564
-    },
-    {
-      "id": "805e7c485e",
-      "title": "Pentagon says Alibaba, Baidu, BYD and Unitree support China’s military",
+      "id": "91220041c4",
+      "title": "Apple plays catch-up at WWDC",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/08/pentagon-says-alibaba-baidu-byd-and-unitree-support-chinas-military/",
-          "headline": "Pentagon says Alibaba, Baidu, BYD and Unitree support China’s military",
+          "url": "https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/",
+          "headline": "Apple plays catch-up at WWDC",
           "platform": "rss"
         }
       ],
@@ -927,23 +714,50 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T18:57:49+00:00",
-      "last_seen": "2026-06-08T18:57:49+00:00",
+      "first_seen": "2026-06-08T21:15:42+00:00",
+      "last_seen": "2026-06-08T21:15:42+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0558
+      "resonance": 0.07
     },
     {
-      "id": "074fa62121",
-      "title": "NATO jets shoot down drone over Latvia, extending Ukraine spillover fears",
+      "id": "b8fa4dfad4",
+      "title": "Cleveland Browns players publicly baptized at Cleveland for Christ event in powerful display of faith",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/cleveland-browns-players-publicly-baptized-cleveland-christ-event-powerful-display-faith",
+          "headline": "Cleveland Browns players publicly baptized at Cleveland for Christ event in powerful display of faith",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-08T21:15:37+00:00",
+      "last_seen": "2026-06-08T21:15:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0699
+    },
+    {
+      "id": "339ed758d8",
+      "title": "Could Iran and the US play each other at the World Cup?",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/8/nato-jets-shoot-down-drone-over-latvia-extending-ukraine-spillover-fears?traffic_source=rss",
-          "headline": "NATO jets shoot down drone over Latvia, extending Ukraine spillover fears",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/8/could-iran-and-the-us-play-each-other-at-the-world-cup?traffic_source=rss",
+          "headline": "Could Iran and the US play each other at the World Cup?",
           "platform": "rss"
         }
       ],
@@ -954,23 +768,23 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T18:54:59+00:00",
-      "last_seen": "2026-06-08T18:54:59+00:00",
+      "first_seen": "2026-06-08T21:15:13+00:00",
+      "last_seen": "2026-06-08T21:15:13+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0538
+      "resonance": 0.0696
     },
     {
-      "id": "6d197b448c",
-      "title": "Your empty cuppa could capture carbon",
+      "id": "2d45d18a2e",
+      "title": "macOS 27 requires Apple Silicon, as Apple draws down the Intel Mac era",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/science/2026/06/your-empty-cuppa-could-capture-carbon/",
-          "headline": "Your empty cuppa could capture carbon",
+          "url": "https://arstechnica.com/gadgets/2026/06/macos-27-requires-apple-silicon-as-apple-draws-down-the-intel-mac-era/",
+          "headline": "macOS 27 requires Apple Silicon, as Apple draws down the Intel Mac era",
           "platform": "rss"
         }
       ],
@@ -981,23 +795,131 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T18:50:10+00:00",
-      "last_seen": "2026-06-08T18:50:10+00:00",
+      "first_seen": "2026-06-08T21:03:56+00:00",
+      "last_seen": "2026-06-08T21:03:56+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0506
+      "resonance": 0.0596
     },
     {
-      "id": "6692d7894f",
-      "title": "US imposes restrictions on 100 Nicaraguan officials after activist’s death",
+      "id": "19ec08bca4",
+      "title": "Obama-appointed judge who blocked Trump birthright citizenship order strikes again, throws out visa overhaul",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/obama-appointed-judge-blocked-trump-birthright-citizenship-order-strikes-throws-visa-overhaul",
+          "headline": "Obama-appointed judge who blocked Trump birthright citizenship order strikes again, throws out visa overhaul",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-08T21:02:49+00:00",
+      "last_seen": "2026-06-08T21:02:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0586
+    },
+    {
+      "id": "c2e39533fe",
+      "title": "Sikh group calls for inquiry into Henry Nowak death",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cj0g4qmmry7o?at_medium=RSS&at_campaign=rss",
+          "headline": "Sikh group calls for inquiry into Henry Nowak death",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T20:58:12+00:00",
+      "last_seen": "2026-06-08T20:58:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0546
+    },
+    {
+      "id": "4c2e5976a8",
+      "title": "iOS 27 and iPadOS 27 don't drop support for any iPhones—and just a few iPads",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/06/ios-27-and-ipados-27-dont-drop-support-for-any-iphones-and-just-a-few-ipads/",
+          "headline": "iOS 27 and iPadOS 27 don't drop support for any iPhones—and just a few iPads",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T20:55:58+00:00",
+      "last_seen": "2026-06-08T20:55:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0527
+    },
+    {
+      "id": "3dca298ff0",
+      "title": "Minnesota fraud report accuses state AG of 'incompetence, willful blindness or worse'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/minnesota-fraud-report-accuses-state-ag-incompetence-willful-blindness-worse",
+          "headline": "Minnesota fraud report accuses state AG of 'incompetence, willful blindness or worse'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-08T20:55:01+00:00",
+      "last_seen": "2026-06-08T20:55:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0519
+    },
+    {
+      "id": "50c88f30be",
+      "title": "‘We basically lost’: Tel Aviv residents react after Israel-Iran strikes",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/8/us-imposes-restrictions-on-100-nicaraguan-officials-after-activists-death?traffic_source=rss",
-          "headline": "US imposes restrictions on 100 Nicaraguan officials after activist’s death",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/8/we-basically-lost-tel-aviv-residents-react-after-israel-iran-strikes?traffic_source=rss",
+          "headline": "‘We basically lost’: Tel Aviv residents react after Israel-Iran strikes",
           "platform": "rss"
         }
       ],
@@ -1008,8 +930,62 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-08T18:49:15+00:00",
-      "last_seen": "2026-06-08T18:49:15+00:00",
+      "first_seen": "2026-06-08T20:54:57+00:00",
+      "last_seen": "2026-06-08T20:54:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0519
+    },
+    {
+      "id": "8427a0b058",
+      "title": "Apple bets cheaper AI will woo small developers",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+          "headline": "Apple bets cheaper AI will woo small developers",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-08T20:53:55+00:00",
+      "last_seen": "2026-06-08T20:53:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.051
+    },
+    {
+      "id": "ecf91b1cdd",
+      "title": "Alex Murdaugh murder case gets new judge as retrial looms following Supreme Court reversal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/alex-murdaugh-murder-case-gets-new-judge-retrial-looms-following-supreme-court-reversal",
+          "headline": "Alex Murdaugh murder case gets new judge as retrial looms following Supreme Court reversal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-08T20:52:45+00:00",
+      "last_seen": "2026-06-08T20:52:45+00:00",
       "platforms": [
         "rss"
       ],
@@ -1019,15 +995,39 @@
   ],
   "edges": [
     {
-      "source": "61b2d879b9",
-      "target": "020031ecea",
-      "weight": 0.128,
+      "source": "0fb654983a",
+      "target": "91220041c4",
+      "weight": 0.709,
       "type": "thematic"
     },
     {
-      "source": "0fb654983a",
-      "target": "020031ecea",
-      "weight": 0.817,
+      "source": "e97739f181",
+      "target": "2d45d18a2e",
+      "weight": 0.194,
+      "type": "thematic"
+    },
+    {
+      "source": "7201ce726a",
+      "target": "683540827f",
+      "weight": 0.912,
+      "type": "thematic"
+    },
+    {
+      "source": "ab6245f630",
+      "target": "339ed758d8",
+      "weight": 0.502,
+      "type": "thematic"
+    },
+    {
+      "source": "91220041c4",
+      "target": "2d45d18a2e",
+      "weight": 0.036,
+      "type": "thematic"
+    },
+    {
+      "source": "339ed758d8",
+      "target": "50c88f30be",
+      "weight": 0.04,
       "type": "thematic"
     }
   ]

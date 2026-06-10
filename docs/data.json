@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-10T14:33:19.163951+00:00",
+  "generated_at": "2026-06-10T17:52:41.600301+00:00",
   "node_count": 35,
-  "edge_count": 3,
+  "edge_count": 4,
   "nodes": [
     {
-      "id": "82c496da5b",
-      "title": "I Hate (Most) Keyboard 'Fn' Keys",
+      "id": "fe20e7ff83",
+      "title": "The Case for Free Online Books (2014)",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://danq.me/2026/06/09/fn-keys/",
-          "headline": "I Hate (Most) Keyboard 'Fn' Keys",
+          "url": "http://from-a-to-remzi.blogspot.com/2014/01/the-case-for-free-online-books-fobs.html",
+          "headline": "The Case for Free Online Books (2014)",
           "platform": "hackernews"
         }
       ],
@@ -22,13 +22,67 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-10T13:22:52+00:00",
-      "last_seen": "2026-06-10T13:22:52+00:00",
+      "first_seen": "2026-06-10T16:54:29+00:00",
+      "last_seen": "2026-06-10T16:54:29+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
       "resonance": 1.0
+    },
+    {
+      "id": "d0d9d93d8c",
+      "title": "US Consumer Price Index up 4.2%",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+          "headline": "US Consumer Price Index up 4.2%",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T15:10:40+00:00",
+      "last_seen": "2026-06-10T15:10:40+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "resonance": 0.9691
+    },
+    {
+      "id": "e8f6797ba6",
+      "title": "I'm Eric Ries, author of \"The Lean Startup\" and new book \"Incorruptible\" – AMA",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48477135",
+          "headline": "I'm Eric Ries, author of \"The Lean Startup\" and new book \"Incorruptible\" – AMA",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T14:47:52+00:00",
+      "last_seen": "2026-06-10T14:47:52+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "resonance": 0.9201
     },
     {
       "id": "ca07e2665a",
@@ -55,7 +109,100 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.9179
+      "resonance": 0.7889
+    },
+    {
+      "id": "e4d458835d",
+      "title": "PgDog is funded and coming to a database near you",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://pgdog.dev/blog/our-funding-announcement",
+          "headline": "PgDog is funded and coming to a database near you",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T14:02:59+00:00",
+      "last_seen": "2026-06-10T14:02:59+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "resonance": 0.7623
+    },
+    {
+      "id": "4fce542c89",
+      "title": "Trump says US will hit Iran 'hard' again today",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/ce371kw2ex2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump says US will hit Iran 'hard' again today",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/trump-says-us-strike-iran-very-hard-again-today",
+          "headline": "Trump says US will strike Iran 'very hard' again today",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.25,
+        "spread": 0.35,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-06-10T16:08:26+00:00",
+      "last_seen": "2026-06-10T17:33:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.2167
+    },
+    {
+      "id": "56c9aac174",
+      "title": "Valve kills its retail gift card program due to scammers",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/gaming/2026/06/valve-kills-its-retail-gift-card-program-due-to-scammers/",
+          "headline": "Valve kills its retail gift card program due to scammers",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/games/947741/valve-steam-physical-gift-cards-scammers",
+          "headline": "Valve is phasing out physical Steam gift cards due to scammers",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T14:10:38+00:00",
+      "last_seen": "2026-06-10T16:39:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.1629
     },
     {
       "id": "a646f7a0ec",
@@ -82,7 +229,142 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.2517
+      "resonance": 0.1365
+    },
+    {
+      "id": "80a94069b9",
+      "title": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft",
+          "headline": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T17:45:11+00:00",
+      "last_seen": "2026-06-10T17:45:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.1119
+    },
+    {
+      "id": "f77ad2072c",
+      "title": "The future of AI regulation is courting the strangest, most anxious bedfellows",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms",
+          "headline": "The future of AI regulation is courting the strangest, most anxious bedfellows",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T17:38:00+00:00",
+      "last_seen": "2026-06-10T17:38:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.1042
+    },
+    {
+      "id": "5a80e96d3b",
+      "title": "Is Fortress Europe becoming more strict?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/10/is-fortress-europe-becoming-more-strict?traffic_source=rss",
+          "headline": "Is Fortress Europe becoming more strict?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T17:33:44+00:00",
+      "last_seen": "2026-06-10T17:33:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0996
+    },
+    {
+      "id": "a98f0fc04c",
+      "title": "We managed to glean some interesting details about the Artemis III mission",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/06/we-managed-to-glean-some-interesting-details-about-the-artemis-iii-mission/",
+          "headline": "We managed to glean some interesting details about the Artemis III mission",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T17:31:13+00:00",
+      "last_seen": "2026-06-10T17:31:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.097
+    },
+    {
+      "id": "60cb9b4491",
+      "title": "'Whalefall' trailer is here to add getting swallowed by a sperm whale while SCUBA diving to your list of fears",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-culture/whalefall-trailer-add-getting-swallowed-sperm-whale-scuba-diving-list-fears",
+          "headline": "'Whalefall' trailer is here to add getting swallowed by a sperm whale while SCUBA diving to your list of fears",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-10T17:22:32+00:00",
+      "last_seen": "2026-06-10T17:22:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.088
     },
     {
       "id": "141aff35ed",
@@ -109,40 +391,223 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.194
+      "resonance": 0.0869
     },
     {
-      "id": "9ca87eee77",
-      "title": "Three arrested over Glasgow unrest and racist assaults after Belfast knife attack",
-      "signal_count": 2,
+      "id": "d6f6bb67f5",
+      "title": "Google won’t just admit it’s feeding YouTube creators to its music AI",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cr5jme6ld54o?at_medium=RSS&at_campaign=rss",
-          "headline": "Three arrested over Glasgow unrest and racist assaults after Belfast knife attack",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/world/belfast-burns-sudanese-migrant-arrested-brutal-knife-attack",
-          "headline": "Belfast burns after Sudanese migrant arrested in brutal knife attack",
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube",
+          "headline": "Google won’t just admit it’s feeding YouTube creators to its music AI",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.25,
-        "spread": 0.35,
+        "mean": -0.1,
+        "spread": 0.0,
         "left": 0,
         "center": 1,
-        "right": 1
+        "right": 0
       },
-      "first_seen": "2026-06-10T11:58:37+00:00",
-      "last_seen": "2026-06-10T13:57:18+00:00",
+      "first_seen": "2026-06-10T17:20:36+00:00",
+      "last_seen": "2026-06-10T17:20:36+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.1894
+      "resonance": 0.0861
+    },
+    {
+      "id": "760cb5fcdd",
+      "title": "Nobody needs AI to search the Internet, court says in ruling against Google",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/06/nobody-needs-ai-to-search-the-internet-court-says-in-ruling-against-google/",
+          "headline": "Nobody needs AI to search the Internet, court says in ruling against Google",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T17:19:31+00:00",
+      "last_seen": "2026-06-10T17:19:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.085
+    },
+    {
+      "id": "9f1a6b071e",
+      "title": "Netflix expands revamped mobile app across Asia and doubles down on kids’ gaming",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/10/netflix-expands-revamped-mobile-app-across-asia-and-doubles-down-on-kids-gaming/",
+          "headline": "Netflix expands revamped mobile app across Asia and doubles down on kids’ gaming",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T17:13:02+00:00",
+      "last_seen": "2026-06-10T17:13:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0785
+    },
+    {
+      "id": "aabf8d7cf1",
+      "title": "Belfast knife attack disorder 'destabilising', says terror adviser",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cm2r0783x4go?at_medium=RSS&at_campaign=rss",
+          "headline": "Belfast knife attack disorder 'destabilising', says terror adviser",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T17:11:55+00:00",
+      "last_seen": "2026-06-10T17:11:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0774
+    },
+    {
+      "id": "97cf281f9c",
+      "title": "‘AI-pilled’ firms spend $7,500 per employee each month on AI",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
+          "headline": "‘AI-pilled’ firms spend $7,500 per employee each month on AI",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T17:07:35+00:00",
+      "last_seen": "2026-06-10T17:07:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0731
+    },
+    {
+      "id": "7671280d28",
+      "title": "You can just tell the Instagram algorithm what you want now",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/947898/meta-instagram-your-algorithm-main-feed-tell",
+          "headline": "You can just tell the Instagram algorithm what you want now",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T17:06:10+00:00",
+      "last_seen": "2026-06-10T17:06:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0717
+    },
+    {
+      "id": "e3176a11e8",
+      "title": "Vets advise ban on over the counter flea treatment for pets",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cp9pd4d3m5ko?at_medium=RSS&at_campaign=rss",
+          "headline": "Vets advise ban on over the counter flea treatment for pets",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T17:06:00+00:00",
+      "last_seen": "2026-06-10T17:06:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0715
+    },
+    {
+      "id": "da048db15f",
+      "title": "Cheap Iranian drone downed $25 million US Army helicopter—maybe by chance",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/06/cheap-iranian-drone-downed-25-million-us-army-helicopter-maybe-by-chance/",
+          "headline": "Cheap Iranian drone downed $25 million US Army helicopter—maybe by chance",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T17:04:47+00:00",
+      "last_seen": "2026-06-10T17:04:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0704
     },
     {
       "id": "f927f6ec7d",
@@ -175,17 +640,98 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "resonance": 0.1699
+      "resonance": 0.0698
     },
     {
-      "id": "8282d4948e",
-      "title": "Warner Music acquires AI attribution startup Sureel AI",
+      "id": "41702e9910",
+      "title": "Texas mom jailed over dirty water Facebook post",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/",
-          "headline": "Warner Music acquires AI attribution startup Sureel AI",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/tech/texas-mom-jailed-dirty-water-facebook-post",
+          "headline": "Texas mom jailed over dirty water Facebook post",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-10T17:00:11+00:00",
+      "last_seen": "2026-06-10T17:00:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0659
+    },
+    {
+      "id": "7aa167a036",
+      "title": "The Chicago Cubs and the ‘rooftop wars’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/sports/2026-06-10/the-chicago-cubs-and-the-rooftop-wars.html",
+          "headline": "The Chicago Cubs and the ‘rooftop wars’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T16:58:28+00:00",
+      "last_seen": "2026-06-10T16:58:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0643
+    },
+    {
+      "id": "2d2ef15ed8",
+      "title": "UFO whistleblower claims billions in secret spending hidden from Congress",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/ufo-whistleblower-claims-billions-secret-spending-hidden-from-congress",
+          "headline": "UFO whistleblower claims billions in secret spending hidden from Congress",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-10T16:57:58+00:00",
+      "last_seen": "2026-06-10T16:57:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0638
+    },
+    {
+      "id": "b1bce48e87",
+      "title": "Amazon’s Echo speakers can now help kids wind down and fall asleep",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/947871/amazon-sleep-studio-echo-kids-smart-speakers-calm-moshi-headspace",
+          "headline": "Amazon’s Echo speakers can now help kids wind down and fall asleep",
           "platform": "rss"
         }
       ],
@@ -196,23 +742,131 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-10T14:31:30+00:00",
-      "last_seen": "2026-06-10T14:31:30+00:00",
+      "first_seen": "2026-06-10T16:54:17+00:00",
+      "last_seen": "2026-06-10T16:54:17+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.1142
+      "resonance": 0.0603
     },
     {
-      "id": "77ea4b3b23",
-      "title": "Tucson woman wanted for kidnapping and assault has no connection to Nancy Guthrie case, authorities say",
+      "id": "ddb75f7d16",
+      "title": "US inflation hits new three-year high amid energy price surge",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/6/10/us-inflation-hits-new-three-year-high-amid-energy-price-surge?traffic_source=rss",
+          "headline": "US inflation hits new three-year high amid energy price surge",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T16:53:32+00:00",
+      "last_seen": "2026-06-10T16:53:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0596
+    },
+    {
+      "id": "f390f9d78e",
+      "title": "OB-GYNs release their own vaccine schedule, rejecting RFK Jr.'s meddling",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/health/2026/06/bucking-rfk-jr-ob-gyns-release-vaccine-guidance-that-conflicts-with-cdc/",
+          "headline": "OB-GYNs release their own vaccine schedule, rejecting RFK Jr.'s meddling",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T16:52:36+00:00",
+      "last_seen": "2026-06-10T16:52:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0587
+    },
+    {
+      "id": "39d8e8f3b8",
+      "title": "Destruction after Belfast unrest shows torched homes and vehicles",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/videos/cj9gnrr2k0ro?at_medium=RSS&at_campaign=rss",
+          "headline": "Destruction after Belfast unrest shows torched homes and vehicles",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T16:52:27+00:00",
+      "last_seen": "2026-06-10T16:52:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0586
+    },
+    {
+      "id": "2210ef1ffd",
+      "title": "Microsoft restricts Claude Fable for employees over data retention concerns",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
+          "headline": "Microsoft restricts Claude Fable for employees over data retention concerns",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-10T16:50:23+00:00",
+      "last_seen": "2026-06-10T16:50:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "resonance": 0.0566
+    },
+    {
+      "id": "c9a8a868c0",
+      "title": "Texas Tech cannot play the victim in Brendan Sorsby saga, it could’ve dealt with PR mess months ago",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/tucson-woman-wanted-kidnapping-assault-connection-nancy-guthrie-case-authorities-say",
-          "headline": "Tucson woman wanted for kidnapping and assault has no connection to Nancy Guthrie case, authorities say",
+          "url": "https://www.foxnews.com/outkick-sports/texas-tech-cannot-play-victim-brendan-sorsby-saga-couldve-dealt-pr-mess-months-ago",
+          "headline": "Texas Tech cannot play the victim in Brendan Sorsby saga, it could’ve dealt with PR mess months ago",
           "platform": "rss"
         }
       ],
@@ -223,40 +877,40 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-06-10T14:29:44+00:00",
-      "last_seen": "2026-06-10T14:29:44+00:00",
+      "first_seen": "2026-06-10T16:49:32+00:00",
+      "last_seen": "2026-06-10T16:49:32+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.1124
+      "resonance": 0.0559
     },
     {
-      "id": "5e76c9ca8d",
-      "title": "Ella Langley goes viral with passionate comments about her Christian faith, God, love and religion",
+      "id": "6a22fd2006",
+      "title": "LIVE: Portugal vs Nigeria – World Cup 2026 international friendly",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-culture/ella-langley-goes-viral-passionate-comments-christian-faith-god-love-religion",
-          "headline": "Ella Langley goes viral with passionate comments about her Christian faith, God, love and religion",
+          "outlet": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/6/10/live-portugal-vs-nigeria-world-cup-2026-international-friendly?traffic_source=rss",
+          "headline": "LIVE: Portugal vs Nigeria – World Cup 2026 international friendly",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-06-10T14:28:40+00:00",
-      "last_seen": "2026-06-10T14:28:40+00:00",
+      "first_seen": "2026-06-10T16:45:34+00:00",
+      "last_seen": "2026-06-10T16:45:34+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.1113
+      "resonance": 0.0522
     },
     {
       "id": "dc6e05b609",
@@ -277,185 +931,23 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-10T14:20:45+00:00",
-      "last_seen": "2026-06-10T14:20:45+00:00",
+      "first_seen": "2026-06-10T16:44:14+00:00",
+      "last_seen": "2026-06-10T16:44:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.1035
+      "resonance": 0.051
     },
     {
-      "id": "5124a22747",
-      "title": "Orioles' Leody Taveras suffers most embarrassing strikeout of the pitch clock era against his former team",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/orioles-leody-taveras-suffers-embarrassing-strikeout-pitch-clock-era-former-team",
-          "headline": "Orioles' Leody Taveras suffers most embarrassing strikeout of the pitch clock era against his former team",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-10T14:20:41+00:00",
-      "last_seen": "2026-06-10T14:20:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.1034
-    },
-    {
-      "id": "cb718fac16",
-      "title": "Lacey Turner confirmed as first Strictly contestant",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cg74gvy8lgjo?at_medium=RSS&at_campaign=rss",
-          "headline": "Lacey Turner confirmed as first Strictly contestant",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T14:20:38+00:00",
-      "last_seen": "2026-06-10T14:20:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.1033
-    },
-    {
-      "id": "ab6c7b7d01",
-      "title": "What we know about Belfast attack and disorder",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cly0d13e4geo?at_medium=RSS&at_campaign=rss",
-          "headline": "What we know about Belfast attack and disorder",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T14:18:16+00:00",
-      "last_seen": "2026-06-10T14:18:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.101
-    },
-    {
-      "id": "d86f83b6da",
-      "title": "Trump and Iran trade new threats after strikes exchanged",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/ce371kw2ex2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump and Iran trade new threats after strikes exchanged",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T14:15:39+00:00",
-      "last_seen": "2026-06-10T14:15:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0985
-    },
-    {
-      "id": "75834ce4b1",
-      "title": "Three questions Bill Gates could face as he testifies to Congress on Epstein",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/crr892qp255o?at_medium=RSS&at_campaign=rss",
-          "headline": "Three questions Bill Gates could face as he testifies to Congress on Epstein",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T14:14:16+00:00",
-      "last_seen": "2026-06-10T14:14:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0972
-    },
-    {
-      "id": "601b4e3dc3",
-      "title": "'I'll never get over watching my home burn': Belfast residents reel after night of unrest",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cevl9j9y8dmo?at_medium=RSS&at_campaign=rss",
-          "headline": "'I'll never get over watching my home burn': Belfast residents reel after night of unrest",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T14:14:12+00:00",
-      "last_seen": "2026-06-10T14:14:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0971
-    },
-    {
-      "id": "d2dd7c6a19",
-      "title": "ServiceNow tells customers a bug left some of their data exposed to the internet",
+      "id": "8842be38f7",
+      "title": "The Indian government got cold feet on Starlink just before SpaceX’s IPO",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/10/servicenow-tells-customers-a-bug-left-some-of-their-data-exposed-to-the-internet/",
-          "headline": "ServiceNow tells customers a bug left some of their data exposed to the internet",
+          "url": "https://techcrunch.com/2026/06/10/the-indian-government-got-cold-feet-on-starlink-just-before-spacexs-ipo/",
+          "headline": "The Indian government got cold feet on Starlink just before SpaceX’s IPO",
           "platform": "rss"
         }
       ],
@@ -466,494 +958,8 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-10T14:13:02+00:00",
-      "last_seen": "2026-06-10T14:13:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.096
-    },
-    {
-      "id": "f91b4faebb",
-      "title": "'World's Best Ex-Girlfriend' Morgan Riddle done dating athletes, Nikki Spoelstra's selfies for haters & malls",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/worlds-best-ex-girlfriend-morgan-riddle-done-dating-athletes-nikki-spoelstras-selfies-haters-malls",
-          "headline": "'World's Best Ex-Girlfriend' Morgan Riddle done dating athletes, Nikki Spoelstra's selfies for haters & malls",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-10T14:11:55+00:00",
-      "last_seen": "2026-06-10T14:11:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0949
-    },
-    {
-      "id": "1d857e64a9",
-      "title": "Valve is phasing out physical Steam gift cards due to scammers",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/games/947741/valve-steam-physical-gift-cards-scammers",
-          "headline": "Valve is phasing out physical Steam gift cards due to scammers",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T14:10:38+00:00",
-      "last_seen": "2026-06-10T14:10:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0937
-    },
-    {
-      "id": "6a693e02dd",
-      "title": "Five questions for the duo behind The Pelley Minutes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/report/947472/five-questions-for-the-duo-behind-the-pelley-minutes",
-          "headline": "Five questions for the duo behind The Pelley Minutes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T14:06:17+00:00",
-      "last_seen": "2026-06-10T14:06:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0896
-    },
-    {
-      "id": "ea29522d75",
-      "title": "The Social Reckoning trailer gives us our first look at Jeremy Strong as Zuck",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/entertainment/947682/social-reckoning-trailer-aaron-sorkin-jeremy-strong-allen-white-facebook",
-          "headline": "The Social Reckoning trailer gives us our first look at Jeremy Strong as Zuck",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T14:02:44+00:00",
-      "last_seen": "2026-06-10T14:02:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0863
-    },
-    {
-      "id": "211a54dda1",
-      "title": "Country singer Alana Springsteen felt like a 'black sheep' growing up for wanting to leave her hometown",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/country-singer-alana-springsteen-felt-like-black-sheep-growing-up-wanting-leave-her-hometown",
-          "headline": "Country singer Alana Springsteen felt like a 'black sheep' growing up for wanting to leave her hometown",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-10T14:00:54+00:00",
-      "last_seen": "2026-06-10T14:00:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0845
-    },
-    {
-      "id": "3b8d2b7261",
-      "title": "The AirPods Pro 3 are $179 at Walmart, their best-ever price",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/947719/airpods-pro-3-walmart-deal-sale",
-          "headline": "The AirPods Pro 3 are $179 at Walmart, their best-ever price",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T14:00:06+00:00",
-      "last_seen": "2026-06-10T14:00:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0838
-    },
-    {
-      "id": "8dc270ec6c",
-      "title": "I’m relieved Siri AI isn’t trying to be a health coach",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/column/947005/optimizer-siri-ai-wwdc-2026-health-coaches",
-          "headline": "I’m relieved Siri AI isn’t trying to be a health coach",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T14:00:00+00:00",
-      "last_seen": "2026-06-10T14:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0837
-    },
-    {
-      "id": "0bcad85212",
-      "title": "Google’s Nest Cam with Floodlight is selling at its lowest price yet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/947264/google-nest-cam-floodlight-deal-sale",
-          "headline": "Google’s Nest Cam with Floodlight is selling at its lowest price yet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T14:00:00+00:00",
-      "last_seen": "2026-06-10T14:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0837
-    },
-    {
-      "id": "606810c365",
-      "title": "AT&#038;T is launching $3 ‘unlimited’ day passes for iPads",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/947574/att-unlimited-day-pass-ipad-data-plan",
-          "headline": "AT&#038;T is launching $3 ‘unlimited’ day passes for iPads",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T14:00:00+00:00",
-      "last_seen": "2026-06-10T14:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0837
-    },
-    {
-      "id": "565f493d4b",
-      "title": "Do not click fake 'account recovery' Amazon email",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/tech/fake-account-recovery-amazon-email",
-          "headline": "Do not click fake 'account recovery' Amazon email",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-10T13:43:56+00:00",
-      "last_seen": "2026-06-10T13:43:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0692
-    },
-    {
-      "id": "511d26e7dc",
-      "title": "Two migrants jailed under new small boats law",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cjrg4031nglo?at_medium=RSS&at_campaign=rss",
-          "headline": "Two migrants jailed under new small boats law",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T13:42:42+00:00",
-      "last_seen": "2026-06-10T13:42:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0681
-    },
-    {
-      "id": "a58f27a52d",
-      "title": "Cubs World Series hero embracing Chicago in retirement as 10-year anniversary of broken curse approaches",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/cubs-world-series-hero-embracing-chicago-retirement-10-year-anniversary-broken-curse-approaches",
-          "headline": "Cubs World Series hero embracing Chicago in retirement as 10-year anniversary of broken curse approaches",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-10T13:37:25+00:00",
-      "last_seen": "2026-06-10T13:37:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0635
-    },
-    {
-      "id": "9d8199e48b",
-      "title": "Eight red cards shown to Brazil in fiery friendly against US women",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/6/10/eight-red-cards-shown-to-brazil-in-fiery-friendly-against-us-women?traffic_source=rss",
-          "headline": "Eight red cards shown to Brazil in fiery friendly against US women",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T13:36:58+00:00",
-      "last_seen": "2026-06-10T13:36:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0631
-    },
-    {
-      "id": "9ecb79e365",
-      "title": "Jedify raises $24M to help companies arm AI agents with context on their business",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
-          "headline": "Jedify raises $24M to help companies arm AI agents with context on their business",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T13:33:09+00:00",
-      "last_seen": "2026-06-10T13:33:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0598
-    },
-    {
-      "id": "d75fd6dd9c",
-      "title": "Racist comments targeting politicians tripled since Meta relaxed its rules",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/06/racist-comments-targeting-politicians-tripled-since-meta-relaxed-its-rules/",
-          "headline": "Racist comments targeting politicians tripled since Meta relaxed its rules",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T13:31:37+00:00",
-      "last_seen": "2026-06-10T13:31:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0585
-    },
-    {
-      "id": "86631d018c",
-      "title": "US bombs Iran’s water facilities: Why that’s so significant",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/10/us-bombs-irans-water-facilities-why-thats-so-significant?traffic_source=rss",
-          "headline": "US bombs Iran’s water facilities: Why that’s so significant",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T13:27:27+00:00",
-      "last_seen": "2026-06-10T13:27:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.055
-    },
-    {
-      "id": "e293e27cab",
-      "title": "A World Cup of opulence and records: Soaring ticket prices and officials denied entry",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/sports/2026-06-10/a-world-cup-of-opulence-and-records-soaring-ticket-prices-and-officials-denied-entry.html",
-          "headline": "A World Cup of opulence and records: Soaring ticket prices and officials denied entry",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-10T13:23:50+00:00",
-      "last_seen": "2026-06-10T13:23:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0519
-    },
-    {
-      "id": "f4b5028181",
-      "title": "We found 10 patriotic deals in Amazon's America 250 shop — all under $50",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/deals/amazon-america-250-shop",
-          "headline": "We found 10 patriotic deals in Amazon's America 250 shop — all under $50",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-10T13:21:32+00:00",
-      "last_seen": "2026-06-10T13:21:32+00:00",
+      "first_seen": "2026-06-10T16:43:11+00:00",
+      "last_seen": "2026-06-10T16:43:11+00:00",
       "platforms": [
         "rss"
       ],
@@ -963,21 +969,27 @@
   ],
   "edges": [
     {
-      "source": "9ca87eee77",
-      "target": "ab6c7b7d01",
-      "weight": 0.563,
+      "source": "d0d9d93d8c",
+      "target": "ddb75f7d16",
+      "weight": 0.156,
       "type": "thematic"
     },
     {
-      "source": "9ca87eee77",
-      "target": "601b4e3dc3",
-      "weight": 0.181,
+      "source": "a646f7a0ec",
+      "target": "760cb5fcdd",
+      "weight": 0.206,
       "type": "thematic"
     },
     {
-      "source": "d86f83b6da",
-      "target": "86631d018c",
-      "weight": 0.043,
+      "source": "9f1a6b071e",
+      "target": "b1bce48e87",
+      "weight": 0.056,
+      "type": "thematic"
+    },
+    {
+      "source": "7671280d28",
+      "target": "b1bce48e87",
+      "weight": 0.265,
       "type": "thematic"
     }
   ]

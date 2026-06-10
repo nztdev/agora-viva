@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -562,10 +563,13 @@ function nodeLatLng(n){
   return[latSum/count+jLat, lngSum/count+jLng];
 }
 
+// globeGroup is the single parent that holds the sphere, nodes, and halos.
+// Rotating globeGroup rotates everything together — nodes always stick to the surface.
+let globeGroup=null;
+
 function initGlobe(){
-  const layer=document.getElementById('globe-layer');
   const canvas=document.getElementById('globe-canvas');
-  W=window.innerWidth;H=window.innerHeight;
+  W=window.innerWidth; H=window.innerHeight;
 
   globeScene=new THREE.Scene();
   globeCamera=new THREE.PerspectiveCamera(45,W/H,0.1,100);
@@ -576,60 +580,83 @@ function initGlobe(){
   globeRenderer.setSize(W,H);
   globeRenderer.setClearColor(0x000000,0);
 
-  // Ambient + directional light
-  globeScene.add(new THREE.AmbientLight(0x4af4c2,0.15));
-  const dLight=new THREE.DirectionalLight(0xffffff,0.6);
-  dLight.position.set(5,3,5);globeScene.add(dLight);
-  const dLight2=new THREE.DirectionalLight(0x4af4c2,0.2);
-  dLight2.position.set(-5,-3,-5);globeScene.add(dLight2);
+  // Lighting — fixed in scene, not part of globeGroup
+  globeScene.add(new THREE.AmbientLight(0xffffff,0.5));
+  const sun=new THREE.DirectionalLight(0xfff5e0,1.1);
+  sun.position.set(5,3,5); globeScene.add(sun);
+  const fill=new THREE.DirectionalLight(0x4af4c2,0.18);
+  fill.position.set(-5,-3,-5); globeScene.add(fill);
 
-  // Globe sphere
+  // FIX 1: Single parent group — everything that should rotate lives here
+  globeGroup=new THREE.Group();
+  globeScene.add(globeGroup);
+
+  // FIX 2: Earth texture from NASA Blue Marble (public domain, CDN-hosted)
+  const loader=new THREE.TextureLoader();
+  const earthTex=loader.load(
+    'https://cdn.jsdelivr.net/gh/mrdoob/three.js@r128/examples/textures/planets/earth_atmos_2048.jpg',
+    ()=>{},(p)=>{},(err)=>{
+      // Fallback: procedural dark-ocean look if texture fails to load
+      globeMesh.material.color.setHex(0x1a3a5c);
+      globeMesh.material.needsUpdate=true;
+    }
+  );
+  const bumpTex=loader.load('https://cdn.jsdelivr.net/gh/mrdoob/three.js@r128/examples/textures/planets/earth_normal_2048.jpg');
+  const specTex=loader.load('https://cdn.jsdelivr.net/gh/mrdoob/three.js@r128/examples/textures/planets/earth_specular_2048.jpg');
+
   const geo=new THREE.SphereGeometry(GLOBE_R,64,64);
   const mat=new THREE.MeshPhongMaterial({
-    color:0x0a1525,
-    emissive:0x020810,
-    specular:0x4af4c2,
-    shininess:8,
-    transparent:true,
-    opacity:0.92,
+    map:earthTex,
+    bumpMap:bumpTex, bumpScale:0.012,
+    specularMap:specTex,
+    specular:new THREE.Color(0x4af4c2),
+    shininess:18,
   });
   globeMesh=new THREE.Mesh(geo,mat);
-  globeScene.add(globeMesh);
+  globeGroup.add(globeMesh);  // ← child of group, not scene
 
-  // Wireframe overlay (latitude/longitude lines)
-  const wGeo=new THREE.SphereGeometry(GLOBE_R*1.001,24,24);
-  const wMat=new THREE.MeshBasicMaterial({color:0x4af4c2,wireframe:true,transparent:true,opacity:0.04});
-  globeScene.add(new THREE.Mesh(wGeo,wMat));
-
-  // Atmosphere glow
-  const atmGeo=new THREE.SphereGeometry(GLOBE_R*1.06,32,32);
+  // Subtle atmosphere glow (BackSide so it wraps the sphere)
+  const atmGeo=new THREE.SphereGeometry(GLOBE_R*1.04,32,32);
   const atmMat=new THREE.MeshPhongMaterial({
-    color:0x4af4c2,transparent:true,opacity:0.06,side:THREE.FrontSide
+    color:0x4af4c2,transparent:true,opacity:0.07,side:THREE.BackSide
   });
-  globeScene.add(new THREE.Mesh(atmGeo,atmMat));
+  globeGroup.add(new THREE.Mesh(atmGeo,atmMat));
 
-  // Place nodes
+  // Place nodes — all added to globeGroup so they rotate with the earth
   globeNodes=[];
   fnodes.forEach(n=>{
     const[lat,lng]=nodeLatLng(n);
     const res=n.resonance||0;
-    const nodeR=0.015+res*0.055;
+    const nodeR=0.018+res*0.052;
     const col=res>0.6?0x4af4c2:res>0.32?0xb09dfc:0x88a0b8;
-    const nGeo=new THREE.SphereGeometry(nodeR,12,12);
-    const nMat=new THREE.MeshPhongMaterial({color:col,emissive:col,emissiveIntensity:0.4,shininess:40});
-    const mesh=new THREE.Mesh(nGeo,nMat);
-    const v=latLngToVec3(lat,lng,GLOBE_R*1.012);
-    mesh.position.copy(v);
-    // Add glow halo for high-resonance
-    if(res>0.38){
-      const hGeo=new THREE.SphereGeometry(nodeR*2.2,8,8);
-      const hMat=new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:0.12});
-      const halo=new THREE.Mesh(hGeo,hMat);
-      halo.position.copy(v);
-      globeScene.add(halo);
+
+    const nMesh=new THREE.Mesh(
+      new THREE.SphereGeometry(nodeR,12,12),
+      new THREE.MeshPhongMaterial({color:col,emissive:col,emissiveIntensity:0.5,shininess:60})
+    );
+    nMesh.position.copy(latLngToVec3(lat,lng,GLOBE_R*1.014));
+    globeGroup.add(nMesh);  // ← child of group
+
+    // Glow halo
+    if(res>0.35){
+      const halo=new THREE.Mesh(
+        new THREE.SphereGeometry(nodeR*2.4,8,8),
+        new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:0.14})
+      );
+      halo.position.copy(nMesh.position);
+      globeGroup.add(halo);  // ← child of group
     }
-    globeScene.add(mesh);
-    globeNodes.push({node:n,mesh,lat,lng});
+
+    // Spike/pin pointing outward from surface for visibility
+    const spike=new THREE.Mesh(
+      new THREE.CylinderGeometry(nodeR*0.3,nodeR*0.3,nodeR*3,6),
+      new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:0.5})
+    );
+    spike.position.copy(nMesh.position);
+    spike.lookAt(0,0,0); spike.rotateX(Math.PI/2);
+    globeGroup.add(spike);
+
+    globeNodes.push({node:n,mesh:nMesh,lat,lng});
   });
 
   setupGlobeInteraction(canvas);
@@ -637,34 +664,32 @@ function initGlobe(){
 }
 
 function animateGlobe(){
-  if(viewMode!=='globe'){return;}
+  if(viewMode!=='globe') return;
   globeAf=requestAnimationFrame(animateGlobe);
+  // FIX: rotate the GROUP, not individual meshes — everything moves together
   if(globeAutoRotate&&!isDragging){
     const rot=new THREE.Quaternion();
-    rot.setFromAxisAngle(new THREE.Vector3(0,1,0),0.0015);
+    rot.setFromAxisAngle(new THREE.Vector3(0,1,0),0.0012);
     globeQuat.premultiply(rot);
   }
-  globeMesh.quaternion.copy(globeQuat);
-  globeNodes.forEach(({mesh})=>mesh.quaternion.copy(globeQuat));
-  // Apply same rotation to all children (halos)
-  globeScene.children.forEach(c=>{
-    if(c!==globeMesh&&c.isMesh&&!globeNodes.find(gn=>gn.mesh===c)){
-      c.quaternion.copy(globeQuat);
-    }
-  });
+  globeGroup.quaternion.copy(globeQuat);
   globeRenderer.render(globeScene,globeCamera);
 }
 
-// Touch/mouse interaction for globe
 function setupGlobeInteraction(canvas){
-  let prevX=0,prevY=0;
+  let prevX=0,prevY=0,startX=0,startY=0;
 
-  function onStart(x,y){isDragging=true;globeAutoRotate=false;prevX=x;prevY=y;}
+  function onStart(x,y){
+    isDragging=true;globeAutoRotate=false;
+    prevX=x;prevY=y;startX=x;startY=y;
+  }
   function onMove(x,y){
     if(!isDragging)return;
     const dx=x-prevX,dy=y-prevY;
-    const axis=new THREE.Vector3(-dy,dx,0).normalize();
-    const angle=Math.sqrt(dx*dx+dy*dy)*0.004;
+    // FIX: dy positive (drag down) → rotate toward viewer (positive X axis)
+    // dx positive (drag right) → rotate right (positive Y axis)
+    const axis=new THREE.Vector3(dy,dx,0).normalize();
+    const angle=Math.sqrt(dx*dx+dy*dy)*0.005;
     if(angle>0){
       const rot=new THREE.Quaternion();
       rot.setFromAxisAngle(axis,angle);
@@ -672,51 +697,57 @@ function setupGlobeInteraction(canvas){
     }
     prevX=x;prevY=y;
   }
-  function onEnd(){
+  function onEnd(x,y){
     isDragging=false;
     setTimeout(()=>{globeAutoRotate=true;},3000);
   }
 
   canvas.addEventListener('mousedown',e=>onStart(e.clientX,e.clientY));
   window.addEventListener('mousemove',e=>{if(isDragging)onMove(e.clientX,e.clientY);});
-  window.addEventListener('mouseup',onEnd);
-  canvas.addEventListener('touchstart',e=>{e.preventDefault();const t=e.touches[0];onStart(t.clientX,t.clientY);},{passive:false});
-  canvas.addEventListener('touchmove',e=>{e.preventDefault();const t=e.touches[0];onMove(t.clientX,t.clientY);},{passive:false});
+  window.addEventListener('mouseup',e=>onEnd(e.clientX,e.clientY));
+
+  canvas.addEventListener('touchstart',e=>{
+    e.preventDefault();
+    const t=e.touches[0];onStart(t.clientX,t.clientY);
+  },{passive:false});
+  canvas.addEventListener('touchmove',e=>{
+    e.preventDefault();
+    const t=e.touches[0];onMove(t.clientX,t.clientY);
+  },{passive:false});
   canvas.addEventListener('touchend',e=>{
     e.preventDefault();
-    onEnd();
-    // Tap detection — if barely moved, treat as tap
-    if(Math.abs(e.changedTouches[0].clientX-prevX)<8&&Math.abs(e.changedTouches[0].clientY-prevY)<8){
-      handleGlobeTap(e.changedTouches[0].clientX,e.changedTouches[0].clientY);
+    const t=e.changedTouches[0];
+    onEnd(t.clientX,t.clientY);
+    // Tap: if finger barely moved from start, treat as tap
+    if(Math.abs(t.clientX-startX)<12&&Math.abs(t.clientY-startY)<12){
+      handleGlobeTap(t.clientX,t.clientY);
     }
   },{passive:false});
-  canvas.addEventListener('click',e=>handleGlobeTap(e.clientX,e.clientY));
+  canvas.addEventListener('click',e=>{
+    // Only fire click tap if not a drag
+    if(Math.abs(e.clientX-startX)<8&&Math.abs(e.clientY-startY)<8){
+      handleGlobeTap(e.clientX,e.clientY);
+    }
+  });
 }
 
 function handleGlobeTap(cx,cy){
-  // Raycast against node meshes
+  if(!globeRenderer||!globeNodes.length) return;
+  // FIX: use Three.js Raycaster against actual mesh objects — reliable hit detection
   const raycaster=new THREE.Raycaster();
+  raycaster.params.Points={threshold:0.05};
   const mouse=new THREE.Vector2((cx/W)*2-1,-(cy/H)*2+1);
   raycaster.setFromCamera(mouse,globeCamera);
-  // Build list of transformed mesh positions
-  const meshes=globeNodes.map(gn=>{
-    const worldPos=gn.mesh.position.clone().applyQuaternion(globeQuat);
-    return{node:gn.node,worldPos};
-  });
-  // Find nearest to ray
-  let best=null,bestD=0.08;
-  meshes.forEach(({node,worldPos})=>{
-    const proj=worldPos.clone().project(globeCamera);
-    const dx=(proj.x+1)/2*W-cx;
-    const dy=-(proj.y-1)/2*H-cy;
-    const d=Math.sqrt(dx*dx+dy*dy);
-    // Only pick if on front face (z < 1 when projected)
-    if(d<bestD&&worldPos.clone().project(globeCamera).z<1){
-      bestD=d;best=node;
-    }
-  });
-  if(best){selectNode(best);}
-  else{
+
+  const meshes=globeNodes.map(gn=>gn.mesh);
+  const hits=raycaster.intersectObjects(meshes,false);
+
+  if(hits.length>0){
+    const hitMesh=hits[0].object;
+    const gn=globeNodes.find(g=>g.mesh===hitMesh);
+    if(gn)selectNode(gn.node);
+  } else {
+    closePanel();
     document.getElementById('globe-tip').classList.remove('on');
     closePanel();
   }
@@ -726,7 +757,7 @@ function destroyGlobe(){
   if(globeAf)cancelAnimationFrame(globeAf);
   if(globeRenderer){globeRenderer.dispose();}
   globeNodes=[];
-  globeScene=globeCamera=globeRenderer=globeMesh=null;
+  globeScene=globeCamera=globeRenderer=globeMesh=globeGroup=null;
 }
 
 // ── VIEW TOGGLE ───────────────────────────────────────────────────────────────

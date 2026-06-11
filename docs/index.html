@@ -266,16 +266,19 @@ const OUTLET_BIAS = {
 };
 
 // Region → [lat, lng] centroids
+// Spread deliberately across all hemispheres so nodes don't cluster
 const REGION_COORDS = {
-  'Global':       [20,  0],
-  'Americas':     [15,-90],
-  'North America':[45,-100],
-  'South America':[-15,-60],
-  'Europe':       [50, 15],
-  'Middle East':  [30, 45],
-  'Asia':         [35, 90],
-  'Africa':       [ 5, 20],
-  'Oceania':      [-25,135],
+  'Global':        null,          // special: distribute across globe using seed
+  'Americas':      [ 10, -80],
+  'North America': [ 45,-100],
+  'South America': [-15, -60],
+  'Europe':        [ 52,  15],
+  'Middle East':   [ 30,  42],
+  'Asia':          [ 35,  95],
+  'East Asia':     [ 35, 115],
+  'South Asia':    [ 22,  80],
+  'Africa':        [  2,  22],
+  'Oceania':       [-28, 135],
 };
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
@@ -548,18 +551,32 @@ function latLngToVec3(lat,lng,r){
 }
 
 function nodeLatLng(n){
-  const regions=n.geo_regions||[];
-  // Seed jitter from node id so it's stable across field↔globe switches
+  const regions=(n.geo_regions||[]).filter(r=>r!=='Global');
+  // Deterministic pseudo-random from node id — stable across view switches
   const seed=n.id.split('').reduce((a,c)=>a+c.charCodeAt(0),0);
-  const jLat=((seed*7919)%1000)/1000*16-8;
-  const jLng=((seed*6271)%1000)/1000*22-11;
-  if(!regions.length) return[jLat,jLng]; // no geo: scatter near centre
+  // Hash into a wider, more uniform spread across the globe
+  const h1=((seed*2654435761)>>>0)/4294967295; // 0–1
+  const h2=((seed*2246822519)>>>0)/4294967295; // 0–1
+  const globalLat=(h1*140)-70;   // −70 to +70
+  const globalLng=(h2*360)-180;  // −180 to +180
+
+  // Jitter: ±12° lat, ±18° lng — enough to separate nodes in same region
+  const h3=((seed*3266489917)>>>0)/4294967295;
+  const h4=((seed*668265263 )>>>0)/4294967295;
+  const jLat=(h3-0.5)*24;
+  const jLng=(h4-0.5)*36;
+
+  // No specific regions (or only 'Global') → spread across globe
+  if(!regions.length) return[globalLat, globalLng];
+
   let latSum=0,lngSum=0,count=0;
   regions.forEach(r=>{
     const c=REGION_COORDS[r];
     if(c){latSum+=c[0];lngSum+=c[1];count++;}
   });
-  if(!count) return[jLat,jLng];
+  // No recognised region coords → global spread
+  if(!count) return[globalLat, globalLng];
+
   return[latSum/count+jLat, lngSum/count+jLng];
 }
 

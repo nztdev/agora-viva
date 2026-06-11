@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -550,16 +549,17 @@ function latLngToVec3(lat,lng,r){
 
 function nodeLatLng(n){
   const regions=n.geo_regions||[];
-  if(!regions.length)return[0,0];
+  // Seed jitter from node id so it's stable across field↔globe switches
+  const seed=n.id.split('').reduce((a,c)=>a+c.charCodeAt(0),0);
+  const jLat=((seed*7919)%1000)/1000*16-8;
+  const jLng=((seed*6271)%1000)/1000*22-11;
+  if(!regions.length) return[jLat,jLng]; // no geo: scatter near centre
   let latSum=0,lngSum=0,count=0;
   regions.forEach(r=>{
     const c=REGION_COORDS[r];
     if(c){latSum+=c[0];lngSum+=c[1];count++;}
   });
-  if(!count)return[0,0];
-  // Add small jitter so nodes in same region don't overlap exactly
-  const jLat=(Math.random()-.5)*18;
-  const jLng=(Math.random()-.5)*22;
+  if(!count) return[jLat,jLng];
   return[latSum/count+jLat, lngSum/count+jLng];
 }
 
@@ -768,16 +768,20 @@ function toggleGlobe(){
     document.getElementById('field-layer').style.display='none';
     document.getElementById('node-canvas').style.display='none';
     document.getElementById('globe-layer').style.display='block';
-    if(af)cancelAnimationFrame(af);
+    if(af){cancelAnimationFrame(af);af=null;}
     initGlobe();
   } else {
+    // Set viewMode FIRST — animateGlobe checks this and exits its own loop
     viewMode='field';
     document.getElementById('globe-btn').classList.remove('on');
-    document.getElementById('globe-layer').style.display='none';
-    document.getElementById('field-layer').style.display='block';
-    document.getElementById('node-canvas').style.display='block';
-    destroyGlobe();
-    renderField();
+    // Let the current globe rAF finish, then destroy and switch
+    setTimeout(()=>{
+      destroyGlobe();
+      document.getElementById('globe-layer').style.display='none';
+      document.getElementById('field-layer').style.display='block';
+      document.getElementById('node-canvas').style.display='block';
+      renderField();
+    }, 32); // two frames — enough for animateGlobe to see viewMode!=='globe' and stop
   }
 }
 

@@ -121,6 +121,9 @@ svg#graph{width:100%;height:100%;overflow:visible}
 .src-outlet{font-size:13px;font-weight:600;color:var(--text);margin-bottom:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .src-spectrum{position:relative;height:3px;background:linear-gradient(90deg,var(--left),rgba(255,255,255,0.1) 50%,var(--right));border-radius:2px;width:100%}
 .src-spec-dot{position:absolute;top:50%;transform:translate(-50%,-50%);width:7px;height:7px;border-radius:50%;background:#fff;border:1.5px solid var(--bg)}
+.src-health{width:6px;height:6px;border-radius:50%;flex-shrink:0;margin-right:8px}
+.src-health.ok{background:var(--accent)}
+.src-health.down{background:var(--right);opacity:0.6}
 .src-row-right{text-align:right;flex-shrink:0}
 .src-count{font-family:'DM Mono',monospace;font-size:13px;font-weight:700;color:var(--accent)}
 .src-count-lbl{font-family:'DM Mono',monospace;font-size:9px;color:var(--muted);margin-top:1px}
@@ -146,6 +149,37 @@ svg#graph{width:100%;height:100%;overflow:visible}
 .lfill{height:100%;background:var(--accent);animation:lsweep 1.8s ease-in-out infinite}
 @keyframes lsweep{0%{width:0;margin-left:0}50%{width:100%;margin-left:0}100%{width:0;margin-left:100%}}
 #lsub{font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:0.1em}
+
+/* ── ONBOARDING ── */
+#onboard{position:fixed;inset:0;z-index:2000;background:var(--bg);display:flex;flex-direction:column;transition:opacity 0.5s,transform 0.5s}
+#onboard.hidden{opacity:0;pointer-events:none;transform:scale(1.03)}
+.ob-slide{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px;text-align:center;opacity:0;transition:opacity 0.45s ease;pointer-events:none}
+.ob-slide.active{opacity:1;pointer-events:all}
+.ob-stage{width:100%;max-width:420px;height:min(38vh,280px);position:relative;margin-bottom:8px}
+.ob-title{font-size:22px;font-weight:800;color:var(--text);margin-bottom:14px;line-height:1.3}
+.ob-title em{color:var(--accent);font-style:normal}
+.ob-body{font-size:14px;color:var(--muted);line-height:1.6;max-width:340px;margin:0 auto}
+.ob-body b{color:var(--text);font-weight:600}
+#ob-skip{position:fixed;top:20px;right:20px;z-index:2001;background:none;border:1px solid var(--border);color:var(--muted);font-family:'DM Mono',monospace;font-size:10px;letter-spacing:0.08em;padding:7px 14px;border-radius:20px;cursor:pointer;transition:all 0.2s}
+#ob-skip:hover{color:var(--text);border-color:rgba(255,255,255,0.2)}
+#ob-nav{position:fixed;bottom:0;left:0;right:0;z-index:2001;display:flex;flex-direction:column;align-items:center;gap:18px;padding:0 24px calc(40px + env(safe-area-inset-bottom,0px))}
+#ob-dots{display:flex;gap:8px}
+.ob-dot{width:6px;height:6px;border-radius:50%;background:rgba(205,216,232,0.18);transition:all 0.3s;cursor:pointer}
+.ob-dot.on{background:var(--accent);width:18px;border-radius:3px}
+#ob-next{background:var(--accent);color:#04140f;border:none;font-family:'Syne',sans-serif;font-weight:700;font-size:13px;padding:13px 38px;border-radius:30px;cursor:pointer;transition:transform 0.15s,opacity 0.2s;letter-spacing:0.02em}
+#ob-next:active{transform:scale(0.96)}
+
+/* Slide 1 — live demo canvas */
+#ob-demo-canvas{width:100%;height:100%}
+
+/* Slide 2/3 — illustrative svg */
+.ob-stage svg{width:100%;height:100%}
+.ob-ring{fill:none;stroke:var(--accent);stroke-width:1;opacity:0.3}
+.ob-node{fill:var(--accent)}
+.ob-node.violet{fill:var(--violet)}
+.ob-node.dim{fill:rgba(205,216,232,0.25)}
+.ob-line{stroke:rgba(74,244,194,0.35);stroke-width:1}
+.ob-label{font-family:'DM Mono',monospace;font-size:9px;fill:var(--muted);letter-spacing:0.08em}
 </style>
 </head>
 <body>
@@ -157,6 +191,67 @@ svg#graph{width:100%;height:100%;overflow:visible}
   <div id="lbrand">Agora <em>Viva</em></div>
   <div class="lbar"><div class="lfill"></div></div>
   <div id="lsub">reading the field…</div>
+</div>
+
+<!-- ONBOARDING -->
+<div id="onboard" class="hidden">
+  <button id="ob-skip" onclick="closeOnboarding()">skip ✕</button>
+
+  <div class="ob-slide active" data-slide="0">
+    <div class="ob-stage"><canvas id="ob-demo-canvas"></canvas></div>
+    <div class="ob-title">News, <em>alive</em>.</div>
+    <div class="ob-body">Every story on the web, <b>condensing into one living point</b> — sized by how much the world is paying attention.</div>
+  </div>
+
+  <div class="ob-slide" data-slide="1">
+    <div class="ob-stage">
+      <svg viewBox="0 0 400 280">
+        <circle class="ob-ring" cx="200" cy="140" r="70"/>
+        <circle class="ob-ring" cx="200" cy="140" r="100"/>
+        <circle class="ob-node" cx="200" cy="140" r="34"/>
+        <circle class="ob-node violet" cx="320" cy="80" r="14"/>
+        <circle class="ob-node dim" cx="90" cy="60" r="8"/>
+        <circle class="ob-node dim" cx="70" cy="190" r="7"/>
+        <circle class="ob-node violet" cx="310" cy="210" r="12"/>
+        <circle class="ob-node dim" cx="330" cy="150" r="6"/>
+        <line class="ob-line" x1="200" y1="140" x2="320" y2="80"/>
+        <text class="ob-label" x="200" y="195" text-anchor="middle">RESONANCE = ATTENTION</text>
+        <text class="ob-label" x="320" y="105" text-anchor="middle">related</text>
+      </svg>
+    </div>
+    <div class="ob-title">Size means <em>resonance</em></div>
+    <div class="ob-body">Bigger, brighter nodes are getting more coverage <b>right now</b>. Lines connect events that share people, places, or themes.</div>
+  </div>
+
+  <div class="ob-slide" data-slide="2">
+    <div class="ob-stage">
+      <svg viewBox="0 0 400 280">
+        <circle class="ob-ring" cx="130" cy="140" r="46"/>
+        <circle class="ob-node" cx="130" cy="140" r="32"/>
+        <rect x="220" y="60" width="150" height="34" rx="8" fill="none" stroke="rgba(205,216,232,0.18)"/>
+        <rect x="220" y="104" width="150" height="34" rx="8" fill="none" stroke="rgba(205,216,232,0.18)"/>
+        <rect x="220" y="148" width="150" height="34" rx="8" fill="none" stroke="rgba(74,244,194,0.35)"/>
+        <circle cx="232" cy="77" r="3" fill="#6ea8fe"/>
+        <circle cx="232" cy="121" r="3" fill="#f4764a"/>
+        <circle cx="232" cy="165" r="3" fill="#4af4c2"/>
+        <text class="ob-label" x="246" y="81">left-leaning source</text>
+        <text class="ob-label" x="246" y="125">right-leaning source</text>
+        <text class="ob-label" x="246" y="169">tech / social signal</text>
+        <text class="ob-label" x="130" y="240" text-anchor="middle">TAP A NODE →</text>
+      </svg>
+    </div>
+    <div class="ob-title">Tap to <em>compare</em></div>
+    <div class="ob-body">See every outlet covering a story side by side — and how differently they frame it. Spin the <b>globe</b> to see where attention is in the world.</div>
+  </div>
+
+  <div id="ob-nav">
+    <div id="ob-dots">
+      <div class="ob-dot on" data-dot="0"></div>
+      <div class="ob-dot" data-dot="1"></div>
+      <div class="ob-dot" data-dot="2"></div>
+    </div>
+    <button id="ob-next" onclick="nextOnboarding()">Enter the field</button>
+  </div>
 </div>
 
 <div id="hdr">
@@ -259,10 +354,23 @@ const PC = {rss:'#4af4c2', hackernews:'#f4884a', default:'#b09dfc'};
 
 // Bias scores for known outlets (used in sources dashboard)
 const OUTLET_BIAS = {
-  'BBC News':-0.1,'The Guardian':-0.4,'Reuters':0,'Al Jazeera':-0.2,
-  'Wall Street Journal':0.3,'Fox News':0.6,'TechCrunch':-0.1,
-  'The Verge':-0.1,'Ars Technica':-0.1,'El País (EN)':-0.2,
-  'Hacker News':0,'Financial Times':0.1,'The Atlantic':-0.3,
+  'BBC World Service':0,'The Guardian World':-0.3,'Al Jazeera English':-0.2,
+  'BBC News':-0.1,'Sky News':0.1,'The Economist':0.05,
+  'NPR News':-0.15,'New York Times':-0.3,'Washington Post':-0.3,'The Atlantic':-0.25,
+  'Wall Street Journal':0.3,'Fox News':0.6,
+  'Deutsche Welle':-0.1,'France 24':-0.1,'Le Monde (EN)':-0.2,'Der Spiegel (EN)':-0.15,'Euronews':-0.1,
+  'Times of Israel':0.05,'Middle East Eye':-0.25,
+  'South China Morning Post':0.1,'The Hindu':-0.1,'Japan Times':0,'ABC Australia':-0.1,
+  'El País (EN)':-0.2,
+  'TechCrunch':-0.1,'The Verge':-0.1,'Ars Technica':-0.1,'MIT Tech Review':-0.05,'WIRED':-0.1,
+  'Hacker News':0,
+};
+
+// Topic → accent color (used for small topic chip above nodes)
+const TOPIC_COLORS = {
+  politics:'#f4a64a', tech:'#4af4c2', economy:'#f4d24a', conflict:'#f4604a',
+  climate:'#4ad6f4', health:'#f44a8c', science:'#a78bfa', society:'#8cf4a6',
+  sport:'#4a9ef4', world:'#9aa8bc',
 };
 
 // Region → [lat, lng] centroids
@@ -283,6 +391,7 @@ const REGION_COORDS = {
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let nodes=[], edges=[], fnodes=[], fedges=[];
+let sourcesStatus={};
 let pos={}, vel={}, W, H, DPR=1;
 const ALPHA_START=1.0,ALPHA_MIN=0.003,ALPHA_DECAY=0.014,ALPHA_REHEAT=0.26,DAMPING=0.72;
 let alpha=ALPHA_START, af=null, selId=null, hovId=null, _lastGen=null;
@@ -503,6 +612,24 @@ function drawSVGLayer(){
       t1.setAttribute('x',p.x);t1.textContent=l1;lbl.appendChild(t1);
       if(l2){const t2=document.createElementNS(NS,'tspan');t2.setAttribute('x',p.x);t2.setAttribute('dy','1.3em');t2.textContent=l2;lbl.appendChild(t2);}
       ll.appendChild(lbl);
+
+      // Topic chip — small label above the node
+      if(n.topic && r>14){
+        const chip=document.createElementNS(NS,'text');
+        chip.classList.add('ntopic');
+        chip.setAttribute('x',p.x);chip.setAttribute('y',p.y-r-8);
+        chip.setAttribute('text-anchor','middle');
+        chip.style.fontFamily="'DM Mono',monospace";
+        chip.style.fontSize='8px';
+        chip.style.letterSpacing='0.12em';
+        chip.style.textTransform='uppercase';
+        chip.style.fill=TOPIC_COLORS[n.topic]||TOPIC_COLORS.world;
+        chip.style.opacity='0.75';
+        chip.style.pointerEvents='none';
+        chip.textContent=n.topic;
+        chip.id='topic-'+n.id;
+        ll.appendChild(chip);
+      }
     }
   });
 }
@@ -519,6 +646,8 @@ function updateSVGPositions(){
       lbl.querySelectorAll('tspan').forEach(t=>t.setAttribute('x',p.x));
       if(n.id===selId||n.id===hovId)lbl.classList.add('hi');else lbl.classList.remove('hi');
     }
+    const chip=document.getElementById('topic-'+n.id);
+    if(chip){chip.setAttribute('x',p.x);chip.setAttribute('y',p.y-r-8);}
   });
   fedges.forEach(e=>{
     const ln=document.getElementById('e-'+e.source+'-'+e.target);
@@ -823,7 +952,10 @@ function buildSourcesSheet(){
   sorted.forEach(([outlet,info])=>{
     const row=document.createElement('div');
     row.className='src-row';
+    const health=sourcesStatus[outlet];
+    const healthOk=health?health.ok:true; // unknown = assume ok, don't alarm
     row.innerHTML=`
+      <div class="src-health ${healthOk?'ok':'down'}" title="${healthOk?'feed healthy':'feed returned no items last run'}"></div>
       <div class="src-row-left">
         <div class="src-outlet">${outlet}</div>
         <div class="src-spectrum">
@@ -924,6 +1056,7 @@ function openPanel(n){
   const ago=Math.round((Date.now()-new Date(n.last_seen))/60000);
   addPill(m,ago<2?'just now':ago<60?`${ago}m ago`:`${Math.round(ago/60)}h ago`,'ac');
   addPill(m,`${n.signal_count} source${n.signal_count!==1?'s':''}`);
+  if(n.topic) addPill(m,n.topic);
   (n.platforms||[]).forEach(p=>addPill(m,p));
   document.getElementById('rbar').style.width=(n.resonance*100)+'%';
   document.getElementById('rscore').textContent=`${(n.resonance*100).toFixed(0)} / 100`;
@@ -994,9 +1127,20 @@ function makeDemoData(){
     ['Clean energy investment hits annual record',0.14,['Guardian','Reuters'],-0.14,0.09,['rss'],['Global','Europe']],
     ['Digital currency pilot expands internationally',0.10,['Reuters','WSJ'],0.08,0.13,['rss'],['Asia','Americas']],
   ];
+  const topicGuess=(t)=>{
+    const s=t.toLowerCase();
+    if(/ai|tech|model|chip|software|cyber|crypto/.test(s))return'tech';
+    if(/bank|market|trade|currency|invest|economic/.test(s))return'economy';
+    if(/war|military|peace|conflict|troops/.test(s))return'conflict';
+    if(/climate|emissions|energy|renewable/.test(s))return'climate';
+    if(/cancer|immunotherapy|health|medical/.test(s))return'health';
+    if(/nasa|lunar|space|research/.test(s))return'science';
+    if(/protest|rights|policy|election/.test(s))return'politics';
+    return'world';
+  };
   nodes=ev.map(([t,res,srcs,bm,bs,plat,geo],i)=>({
     id:'d'+i,title:t,resonance:res,signal_count:srcs.length,platforms:plat,geo_regions:geo,
-    bias:{mean:bm,spread:bs},
+    bias:{mean:bm,spread:bs},topic:topicGuess(t),
     sources:srcs.map((o,j)=>({outlet:o,headline:t+(j?'':' — latest'),url:'#',platform:j===0&&plat.includes('hackernews')?'hackernews':'rss'})),
     last_seen:new Date(Date.now()-Math.random()*7200000).toISOString(),
   }));
@@ -1015,14 +1159,23 @@ async function boot(){
     if(!r.ok)throw 0;
     const d=await r.json();
     nodes=d.nodes||[];edges=d.edges||[];_lastGen=d.generated_at;
+    sourcesStatus=d.sources_status||{};
     const ago=Math.round((Date.now()-new Date(d.generated_at))/60000);
     document.getElementById('ltext').textContent=`${nodes.length} events · ${ago<2?'just now':ago+'m ago'}`;
   }catch{
     makeDemoData();
     document.getElementById('ltext').textContent='demo mode';
   }
-  applyFilter('all');
+  // FIX: on small screens default to "top 20" — 35 nodes is too dense for a phone
+  if(window.innerWidth<600){
+    document.querySelectorAll('.fb').forEach(b=>b.classList.remove('on'));
+    document.querySelector('.fb[data-f="top"]')?.classList.add('on');
+    applyFilter('top');
+  } else {
+    applyFilter('all');
+  }
   document.getElementById('loading').classList.add('gone');
+  maybeShowOnboarding();
 
   setInterval(async()=>{
     try{
@@ -1031,6 +1184,7 @@ async function boot(){
       const d=await r.json();
       if(d.generated_at===_lastGen)return;
       _lastGen=d.generated_at;nodes=d.nodes||[];edges=d.edges||[];
+      sourcesStatus=d.sources_status||{};
       const ago=Math.round((Date.now()-new Date(d.generated_at))/60000);
       document.getElementById('ltext').textContent=`${nodes.length} events · ${ago}m ago`;
       applyFilter(document.querySelector('.fb.on')?.dataset?.f||'all');
@@ -1044,6 +1198,142 @@ window.addEventListener('resize',()=>{
   if(viewMode==='field'&&fnodes.length)renderField();
   else if(globeRenderer){globeCamera.aspect=window.innerWidth/window.innerHeight;globeCamera.updateProjectionMatrix();globeRenderer.setSize(window.innerWidth,window.innerHeight);}
 });
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// ONBOARDING
+// ═══════════════════════════════════════════════════════════════════════════════
+
+let obSlide=0;
+let obDemoAf=null;
+
+function maybeShowOnboarding(){
+  if(localStorage.getItem('av_onboarded')==='1') return;
+  document.getElementById('onboard').classList.remove('hidden');
+  startOnboardDemo();
+}
+
+function nextOnboarding(){
+  if(obSlide<2){
+    showSlide(obSlide+1);
+  } else {
+    closeOnboarding();
+  }
+}
+
+function showSlide(i){
+  obSlide=i;
+  document.querySelectorAll('.ob-slide').forEach(s=>s.classList.toggle('active',+s.dataset.slide===i));
+  document.querySelectorAll('.ob-dot').forEach(d=>d.classList.toggle('on',+d.dataset.dot===i));
+  document.getElementById('ob-next').textContent = i===2 ? 'Enter the field' : 'Next';
+}
+
+document.querySelectorAll('.ob-dot').forEach(d=>{
+  d.addEventListener('click',()=>showSlide(+d.dataset.dot));
+});
+
+function closeOnboarding(){
+  localStorage.setItem('av_onboarded','1');
+  document.getElementById('onboard').classList.add('hidden');
+  if(obDemoAf)cancelAnimationFrame(obDemoAf);
+  setTimeout(()=>{document.getElementById('onboard').style.display='none';},520);
+}
+
+// Slide 1: small live demo — fragments fly in and merge into a resonant node
+function startOnboardDemo(){
+  const canvas=document.getElementById('ob-demo-canvas');
+  const ctx=canvas.getContext('2d');
+  const dpr=window.devicePixelRatio||1;
+
+  function resize(){
+    const rect=canvas.getBoundingClientRect();
+    canvas.width=rect.width*dpr; canvas.height=rect.height*dpr;
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+  }
+  resize();
+
+  const W=()=>canvas.getBoundingClientRect().width;
+  const H=()=>canvas.getBoundingClientRect().height;
+
+  // Fragments: small dots that travel inward and merge into the central node
+  let fragments=[];
+  let centralR=8;
+  let pulsePh=0;
+  let lastSpawn=0;
+  const start=performance.now();
+
+  function spawnFragment(){
+    const cx=W()/2, cy=H()/2;
+    const angle=Math.random()*Math.PI*2;
+    const dist=Math.max(W(),H())*0.55;
+    fragments.push({
+      x:cx+Math.cos(angle)*dist, y:cy+Math.sin(angle)*dist,
+      tx:cx,ty:cy,
+      progress:0, speed:0.012+Math.random()*0.01,
+      r:2+Math.random()*1.5,
+    });
+  }
+
+  function frame(now){
+    const cx=W()/2, cy=H()/2;
+    ctx.clearRect(0,0,W(),H());
+
+    // Spawn new fragments periodically
+    if(now-lastSpawn>420 && fragments.length<14){
+      spawnFragment(); lastSpawn=now;
+    }
+
+    // Update + draw fragments
+    fragments=fragments.filter(f=>f.progress<1);
+    fragments.forEach(f=>{
+      f.progress=Math.min(1,f.progress+f.speed);
+      const ease=1-Math.pow(1-f.progress,3);
+      const x=f.x+(f.tx-f.x)*ease;
+      const y=f.y+(f.ty-f.y)*ease;
+      const alpha=1-f.progress*0.3;
+      ctx.beginPath();ctx.arc(x,y,f.r*(1-f.progress*0.4),0,Math.PI*2);
+      ctx.fillStyle=`rgba(74,244,194,${(0.5*alpha).toFixed(2)})`;
+      ctx.fill();
+      // Grow central node slightly as fragments arrive
+      if(f.progress>0.97 && !f._counted){
+        f._counted=true;
+        centralR=Math.min(centralR+0.7, 40);
+      }
+    });
+
+    // Pulse rings
+    pulsePh+=0.02;
+    for(let k=0;k<2;k++){
+      const ph=(pulsePh+k*1.6)%3.2;
+      const rr=centralR+8+ph*22;
+      const op=Math.max(0,0.35-ph*0.11);
+      ctx.beginPath();ctx.arc(cx,cy,rr,0,Math.PI*2);
+      ctx.strokeStyle=`rgba(74,244,194,${op.toFixed(2)})`;
+      ctx.lineWidth=1.2;ctx.stroke();
+    }
+
+    // Central node with glow
+    ctx.save();
+    ctx.shadowBlur=18; ctx.shadowColor='rgba(74,244,194,0.5)';
+    ctx.beginPath();ctx.arc(cx,cy,centralR,0,Math.PI*2);
+    ctx.fillStyle='#4af4c2';ctx.fill();
+    ctx.restore();
+    // Specular highlight
+    const hg=ctx.createRadialGradient(cx-centralR*0.3,cy-centralR*0.3,0,cx-centralR*0.3,cy-centralR*0.3,centralR*0.7);
+    hg.addColorStop(0,'rgba(255,255,255,0.25)');hg.addColorStop(1,'rgba(255,255,255,0)');
+    ctx.beginPath();ctx.arc(cx,cy,centralR,0,Math.PI*2);ctx.fillStyle=hg;ctx.fill();
+
+    // Slowly shrink back and restart cycle for a breathing effect
+    if(now-start>9000 && centralR>30){
+      centralR-=0.15;
+      if(centralR<=10){fragments=[];lastSpawn=now;}
+    }
+
+    obDemoAf=requestAnimationFrame(frame);
+  }
+  obDemoAf=requestAnimationFrame(frame);
+
+  window.addEventListener('resize',resize);
+}
 
 boot();
 </script>

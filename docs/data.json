@@ -1,8 +1,43 @@
 {
-  "generated_at": "2026-06-13T17:52:44.448209+00:00",
+  "generated_at": "2026-06-13T19:21:21.783141+00:00",
   "node_count": 35,
-  "edge_count": 3,
+  "edge_count": 9,
   "nodes": [
+    {
+      "id": "88c0c23638",
+      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+          "headline": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
+          "headline": "Amazon CEO's Talks with U.S. Officials Triggered Crackdown on Anthropic Models",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T16:57:49+00:00",
+      "last_seen": "2026-06-13T19:11:41+00:00",
+      "platforms": [
+        "rss",
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.8962
+    },
     {
       "id": "a0ec6210d7",
       "title": "AI Coding at Home Without Going Broke",
@@ -32,60 +67,62 @@
       "resonance": 0.28
     },
     {
-      "id": "def8c7f70f",
-      "title": "Amazon CEO's Talks with U.S. Officials Triggered Crackdown on Anthropic Models",
-      "signal_count": 1,
+      "id": "7b0ec52ec5",
+      "title": "US-Iran deal scheduled to be signed on Sunday, says Trump",
+      "signal_count": 6,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
-          "headline": "Amazon CEO's Talks with U.S. Officials Triggered Crackdown on Anthropic Models",
-          "platform": "hackernews"
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/pakistan-pm-shehbaz-says-final-text-of-us-iran-peace-deal-agreed-upon/article71096649.ece",
+          "headline": "Trump says Iran deal to be signed on Sunday; Tehran sets no timeline",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.com/news/articles/cvglmn49xz0o?at_medium=RSS&at_campaign=rss",
+          "headline": "US-Iran deal scheduled to be signed on Sunday, says Trump",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/13/trump-says-us-iran-deal-to-be-signed-sunday-hormuz-to-open-afterwards_6754446_4.html",
+          "headline": "Trump says US-Iran deal to be signed Sunday, Hormuz to open afterwards",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/06/13/world/iran-war-trump-us-israel",
+          "headline": "Iran War Live Updates: Trump Says Peace Deal Will be Signed Sunday, But Iran Disputes Timeline",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3357026/trump-says-deal-end-war-be-signed-sunday-iran-questions-timing?utm_source=rss_feed",
+          "headline": "Trump says deal to end war to be signed on Sunday, but Iran questions timing",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/iran-war-trump-says-deal-with-iran-to-be-signed-on-sunday/live-77535647?maca=en-rss-en-all-1573-rdf",
+          "headline": "Iran war: Trump says deal with Iran to be signed on Sunday",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "mean": -0.1,
+        "spread": 0.129,
+        "left": 1,
+        "center": 5,
         "right": 0
       },
-      "first_seen": "2026-06-13T16:57:49+00:00",
-      "last_seen": "2026-06-13T16:57:49+00:00",
+      "first_seen": "2026-06-13T09:27:00+00:00",
+      "last_seen": "2026-06-13T18:57:35+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.28
-    },
-    {
-      "id": "585f4a1a10",
-      "title": "US bans differential privacy in Census data",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://desfontain.es/blog/banning-noise.html",
-          "headline": "US bans differential privacy in Census data",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T13:54:56+00:00",
-      "last_seen": "2026-06-13T13:54:56+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.28
+      "topic": "conflict",
+      "resonance": 0.3574
     },
     {
       "id": "e66491200f",
@@ -125,65 +162,143 @@
         "right": 0
       },
       "first_seen": "2026-06-13T15:34:24+00:00",
-      "last_seen": "2026-06-13T16:36:26+00:00",
+      "last_seen": "2026-06-13T19:13:20+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.4683
+      "resonance": 0.3327
     },
     {
-      "id": "118b5a24ef",
-      "title": "Iran War Live Updates: Trump Says Peace Deal Will be Signed Sunday, But Iran Disputes Timeline",
-      "signal_count": 5,
+      "id": "585f4a1a10",
+      "title": "US bans differential privacy in Census data",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/13/world/iran-war-trump-us-israel",
-          "headline": "Iran War Live Updates: Trump Says Peace Deal Will be Signed Sunday, But Iran Disputes Timeline",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3357026/trump-says-deal-end-war-be-signed-sunday-iran-questions-timing?utm_source=rss_feed",
-          "headline": "Trump says deal to end war to be signed on Sunday, but Iran questions timing",
-          "platform": "rss"
-        },
+          "outlet": "Hacker News",
+          "url": "https://desfontain.es/blog/banning-noise.html",
+          "headline": "US bans differential privacy in Census data",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T13:54:56+00:00",
+      "last_seen": "2026-06-13T13:54:56+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.28
+    },
+    {
+      "id": "0705790f7a",
+      "title": "Qatar vs Switzerland LIVE, FIFA World Cup 2026: Group B match gets underway",
+      "signal_count": 2,
+      "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/west-asia-war-donald-trump-usa-iran-ceasefire-israel-lebanon-attacks-strait-of-hormuz-june-13-2026/article71096410.ece",
-          "headline": "West Asia war LIVE: Trump says Iran peace deal to be signed on June 14; Iran counters",
+          "url": "https://www.thehindu.com/sport/football/qatar-vs-switzerland-live-score-fifa-world-cup-2026-goal-updates/article71098781.ece",
+          "headline": "Qatar vs Switzerland LIVE, FIFA World Cup 2026: Group B match gets underway",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/6/13/live-qatar-vs-switzerland-world-cup-2026?traffic_source=rss",
+          "headline": "Qatar vs Switzerland live: World Cup 2026",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T17:31:36+00:00",
+      "last_seen": "2026-06-13T19:16:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.2161
+    },
+    {
+      "id": "c51f5bab41",
+      "title": "U.S. and Iran to close deal within a day, Trump says, but Tehran yet to confirm",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/06/13/us-iran-close-finalizing-deal-mediator-pakistan-says/",
+          "headline": "U.S. and Iran to close deal within a day, Trump says, but Tehran yet to confirm",
           "platform": "rss"
         },
         {
           "outlet": "Middle East Eye",
           "url": "https://www.middleeasteye.net/news/trump-says-iran-deal-be-signed-weekend",
-          "headline": "Trump says Iran agreement due to be signed on Sunday",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/iran-war-trump-says-deal-with-iran-to-be-signed-on-sunday/live-77535647?maca=en-rss-en-all-1573-rdf",
-          "headline": "Iran war: Trump says deal with Iran to be signed on Sunday",
+          "headline": "Trump says Iran deal set for Sunday, but Tehran has yet to confirm",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.13,
-        "spread": 0.14,
+        "mean": -0.275,
+        "spread": 0.025,
         "left": 2,
-        "center": 3,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-13T09:27:00+00:00",
-      "last_seen": "2026-06-13T17:48:10+00:00",
+      "first_seen": "2026-06-13T17:15:34+00:00",
+      "last_seen": "2026-06-13T19:14:50+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.4382
+      "topic": "world",
+      "resonance": 0.2009
+    },
+    {
+      "id": "e384c737a7",
+      "title": "Brazil vs Morocco live: World Cup 2026",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/6/13/live-brazil-vs-morocco-fifa-world-cup-2026-group-c-match?traffic_source=rss",
+          "headline": "Brazil vs Morocco live: World Cup 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/world-cup-picks-brazil-vs-morocco-norway-vs-japan-bets-draw-prediction",
+          "headline": "World Cup picks for Brazil vs Morocco and Norway vs Japan with over bets and a draw prediction",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.4,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-06-13T17:46:34+00:00",
+      "last_seen": "2026-06-13T18:01:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.174
     },
     {
       "id": "f80bd2f611",
@@ -229,7 +344,483 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.29
+      "resonance": 0.127
+    },
+    {
+      "id": "7a3c141f96",
+      "title": "MAWS Secretary reviews various Metrowater’s ongoing infrastructure projects",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/chennai/maws-secretary-reviews-various-metrowaters-ongoing-infrastructure-projects/article71097770.ece",
+          "headline": "MAWS Secretary reviews various Metrowater’s ongoing infrastructure projects",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T19:17:23+00:00",
+      "last_seen": "2026-06-13T19:17:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1008
+    },
+    {
+      "id": "4b80a26203",
+      "title": "Army’s legendary tanks now at Marina",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/chennai/armys-legendary-tanks-now-at-marina/article71098637.ece",
+          "headline": "Army’s legendary tanks now at Marina",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T19:15:35+00:00",
+      "last_seen": "2026-06-13T19:15:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0986
+    },
+    {
+      "id": "6126ab8693",
+      "title": "Father of three seized by ICE at FIFA match last summer warns immigrant fans of danger",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260613-immigrant-seized-by-ice-at-fifa-football-match-last-summer-warns-fans-of-danger-metlife-world-cup-usa-soccer",
+          "headline": "Father of three seized by ICE at FIFA match last summer warns immigrant fans of danger",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T19:15:25+00:00",
+      "last_seen": "2026-06-13T19:15:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0984
+    },
+    {
+      "id": "2056691cba",
+      "title": "What to know if you're jumping on the Socceroos bandwagon",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-14/pocket-guide-to-the-fifa-world-cup-2026/106758222",
+          "headline": "What to know if you're jumping on the Socceroos bandwagon",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T19:15:15+00:00",
+      "last_seen": "2026-06-13T19:15:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0982
+    },
+    {
+      "id": "438b26724e",
+      "title": "Molly Russell's dad says PM rushing social media restrictions 'deplorable'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cwykw759v3po?at_medium=RSS&at_campaign=rss",
+          "headline": "Molly Russell's dad says PM rushing social media restrictions 'deplorable'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T19:15:02+00:00",
+      "last_seen": "2026-06-13T19:15:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0979
+    },
+    {
+      "id": "6f6f232772",
+      "title": "Teaching fellows of constituent colleges of Anna University demand reinstatement of services",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/teaching-fellows-of-constituent-colleges-of-anna-university-demand-reinstatement-of-services/article71097495.ece",
+          "headline": "Teaching fellows of constituent colleges of Anna University demand reinstatement of services",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T19:11:06+00:00",
+      "last_seen": "2026-06-13T19:11:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0932
+    },
+    {
+      "id": "3380ef1607",
+      "title": "While the US marks defeating a king, Trump makes Washington his own",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-14/donald-trump-washington-dc-projects-250-year-anniversary/106771456",
+          "headline": "While the US marks defeating a king, Trump makes Washington his own",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T19:10:43+00:00",
+      "last_seen": "2026-06-13T19:10:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0927
+    },
+    {
+      "id": "ac7f07acbb",
+      "title": "Multiple people wounded in shooting at South Carolina's largest mall, authorities detain suspects: report",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/multiple-people-wounded-shooting-south-carolinas-largest-mall-authorities-detain-suspects",
+          "headline": "Multiple people wounded in shooting at South Carolina's largest mall, authorities detain suspects: report",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-13T19:10:31+00:00",
+      "last_seen": "2026-06-13T19:10:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0925
+    },
+    {
+      "id": "b212a242c8",
+      "title": "BRS demands multiple-agency probe into residential schools’ procurement",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/telangana/brs-demands-multiple-agency-probe-into-residential-schools-procurement/article71098415.ece",
+          "headline": "BRS demands multiple-agency probe into residential schools’ procurement",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T19:10:05+00:00",
+      "last_seen": "2026-06-13T19:10:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0919
+    },
+    {
+      "id": "9fda13e68d",
+      "title": "Some think Britain's 'broken', and they are looking to Australia for inspiration",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-14/reform-uk-rising-popularity-sparks-question-if-it-can-deliver/106774178",
+          "headline": "Some think Britain's 'broken', and they are looking to Australia for inspiration",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T19:09:11+00:00",
+      "last_seen": "2026-06-13T19:09:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0909
+    },
+    {
+      "id": "7011ade43f",
+      "title": "One goal, many journeys — the incredible story of our Socceroos",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-14/one-goal-many-journeys/106684994",
+          "headline": "One goal, many journeys — the incredible story of our Socceroos",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T19:07:15+00:00",
+      "last_seen": "2026-06-13T19:07:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0886
+    },
+    {
+      "id": "49178cc502",
+      "title": "Major fire breaks out at paint and eye-drop manufacturing units",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/major-fire-breaks-out-at-paint-and-eye-drop-manufacturing-units/article71098160.ece",
+          "headline": "Major fire breaks out at paint and eye-drop manufacturing units",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T19:06:06+00:00",
+      "last_seen": "2026-06-13T19:06:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0872
+    },
+    {
+      "id": "dde0bedd37",
+      "title": "UK Defence spending under scrutiny as former minister warns \"Putin will be watching this carefully\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20260613-uk-defence-spending-under-scrutiny-as-former-minister-warns-putin-will-be-watching-this-carefully",
+          "headline": "UK Defence spending under scrutiny as former minister warns \"Putin will be watching this carefully\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T19:00:58+00:00",
+      "last_seen": "2026-06-13T19:00:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0811
+    },
+    {
+      "id": "8ab4f38b82",
+      "title": "Thousands march through Rome in rival anti- and pro-migration rallies",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/thousands-march-through-rome-in-rival-anti-and-pro-migration-rallies/",
+          "headline": "Thousands march through Rome in rival anti- and pro-migration rallies",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T18:57:47+00:00",
+      "last_seen": "2026-06-13T18:57:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0774
+    },
+    {
+      "id": "feb99b78e5",
+      "title": "Starmer tells Trump Iran deal must secure lasting peace",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/starmer-tells-trump-iran-deal-must-secure-lasting-peace",
+          "headline": "Starmer tells Trump Iran deal must secure lasting peace",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T18:57:35+00:00",
+      "last_seen": "2026-06-13T18:57:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0772
+    },
+    {
+      "id": "431ae19f8a",
+      "title": "World Cup fans fall in love with American culture, comfort food classics",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/lifestyle/world-cup-fans-fall-love-american-culture-comfort-food-classics",
+          "headline": "World Cup fans fall in love with American culture, comfort food classics",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-13T18:57:32+00:00",
+      "last_seen": "2026-06-13T18:57:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.0771
+    },
+    {
+      "id": "1b47970dfc",
+      "title": "Karipur gold case unveils smuggling, dacoity network",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/karipur-gold-case-unveils-rival-smuggling-dacoity-network/article71098249.ece",
+          "headline": "Karipur gold case unveils smuggling, dacoity network",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T18:55:54+00:00",
+      "last_seen": "2026-06-13T18:55:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0752
     },
     {
       "id": "52c0005bc4",
@@ -263,157 +854,17 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2151
+      "resonance": 0.0745
     },
     {
-      "id": "73b1c3306f",
-      "title": "PM Modi arrives in France for first leg of two-nation visit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/pm-modi-arrives-france-two-nation-visit-g7-summit/article71098755.ece",
-          "headline": "PM Modi arrives in France for first leg of two-nation visit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:47:20+00:00",
-      "last_seen": "2026-06-13T17:47:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1055
-    },
-    {
-      "id": "06bd738b1b",
-      "title": "Rangoli Metro Art Centre to celebrate World Music Day with open stage for artists",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/bangalore/rangoli-metro-art-centre-to-celebrate-world-music-day-with-open-stage-for-artists/article71098444.ece",
-          "headline": "Rangoli Metro Art Centre to celebrate World Music Day with open stage for artists",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:45:16+00:00",
-      "last_seen": "2026-06-13T17:45:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.102
-    },
-    {
-      "id": "5d62352221",
-      "title": "Helen Mirren receives prestigious British royal honor alongside Jewish recipients",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/helen-mirren-receives-prestigious-british-royal-honor-alongside-jewish-recipients/",
-          "headline": "Helen Mirren receives prestigious British royal honor alongside Jewish recipients",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:44:36+00:00",
-      "last_seen": "2026-06-13T17:44:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1009
-    },
-    {
-      "id": "438b26724e",
-      "title": "Molly Russell's dad says PM rushing social media restrictions 'deplorable'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cwykw759v3po?at_medium=RSS&at_campaign=rss",
-          "headline": "Molly Russell's dad says PM rushing social media restrictions 'deplorable'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:41:51+00:00",
-      "last_seen": "2026-06-13T17:41:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0963
-    },
-    {
-      "id": "0b9b37f2d1",
-      "title": "M.A. Baby accuses Rahul Gandhi of double standards",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/you-can-hug-modi-but-not-pinarayi-cpim-general-secretary-ma-baby-asks-rahul-gandhi/article71097926.ece",
-          "headline": "M.A. Baby accuses Rahul Gandhi of double standards",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:40:00+00:00",
-      "last_seen": "2026-06-13T17:40:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0933
-    },
-    {
-      "id": "2d8b3ebc74",
-      "title": "Houston Astros star Yordan Alvarez crushes home run, grand slam in historic first inning",
+      "id": "6946bd2f9a",
+      "title": "Beware of hackers showing up pretending to be IT",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/houston-astros-star-yordan-alvarez-crushes-home-run-grand-slam-historic-first-inning",
-          "headline": "Houston Astros star Yordan Alvarez crushes home run, grand slam in historic first inning",
+          "url": "https://www.foxnews.com/tech/beware-hackers-showing-pretending",
+          "headline": "Beware of hackers showing up pretending to be IT",
           "platform": "rss"
         }
       ],
@@ -424,80 +875,24 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-06-13T17:37:18+00:00",
-      "last_seen": "2026-06-13T17:37:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0888
-    },
-    {
-      "id": "940f4f6bac",
-      "title": "FIFA World Cup 2026 | Ecuador’s rock-solid defence faces the power and panache of Ivory Coast",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/fifa-world-cup-2026-ecuadors-rock-solid-defence-faces-the-power-and-panache-of-ivory-coast/article71098759.ece",
-          "headline": "FIFA World Cup 2026 | Ecuador’s rock-solid defence faces the power and panache of Ivory Coast",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:37:03+00:00",
-      "last_seen": "2026-06-13T17:37:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0884
-    },
-    {
-      "id": "17f65ce3eb",
-      "title": "Vijayawada airport records 1,370% revenue growth in 12 years, says Director",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/vijayawada-airport-records-1370-revenue-growth-in-12-years-says-director/article71098566.ece",
-          "headline": "Vijayawada airport records 1,370% revenue growth in 12 years, says Director",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:36:46+00:00",
-      "last_seen": "2026-06-13T17:36:46+00:00",
+      "first_seen": "2026-06-13T18:45:14+00:00",
+      "last_seen": "2026-06-13T18:45:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0879
+      "resonance": 0.063
     },
     {
-      "id": "3c6e58dd3c",
-      "title": "Mamata’s most trusted aide Sudip Bandyopadhyay may join camp of rebel Trinamool MPs",
+      "id": "f13aa05fc0",
+      "title": "TNPCB issues show-cause notice to electronics firm on water contamination",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/mamatas-most-trusted-aide-sudip-bandyopadhyay-may-join-camp-of-rebel-trinamool-mps/article71098253.ece",
-          "headline": "Mamata’s most trusted aide Sudip Bandyopadhyay may join camp of rebel Trinamool MPs",
+          "url": "https://www.thehindu.com/news/cities/Coimbatore/tnpcb-issues-show-cause-notice-to-electronics-firm-on-water-contamination/article71097986.ece",
+          "headline": "TNPCB issues show-cause notice to electronics firm on water contamination",
           "platform": "rss"
         }
       ],
@@ -508,248 +903,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-13T17:33:16+00:00",
-      "last_seen": "2026-06-13T17:33:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0822
-    },
-    {
-      "id": "418129b6ed",
-      "title": "Violence amid PSG celebrations was not gang-driven, but acts by 'varied profiles'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/france/article/2026/06/13/violence-amid-psg-celebrations-was-not-gang-driven-but-acts-by-varied-profiles_6754444_7.html",
-          "headline": "Violence amid PSG celebrations was not gang-driven, but acts by 'varied profiles'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:32:54+00:00",
-      "last_seen": "2026-06-13T17:32:54+00:00",
+      "first_seen": "2026-06-13T18:43:18+00:00",
+      "last_seen": "2026-06-13T18:43:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0816
+      "resonance": 0.0608
     },
     {
-      "id": "ed0d3b6fe1",
-      "title": "Here’s the latest.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/13/world/iran-war-trump-us-israel/heres-the-latest",
-          "headline": "Here’s the latest.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:32:35+00:00",
-      "last_seen": "2026-06-13T17:32:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0811
-    },
-    {
-      "id": "dc3b3dfb76",
-      "title": "Woman killed, daughter injured after scooter skids on water-logged road",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/karnataka/woman-killed-daughter-injured-after-scooter-skids-on-marathahallisiddapura-road/article71097868.ece",
-          "headline": "Woman killed, daughter injured after scooter skids on water-logged road",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:31:10+00:00",
-      "last_seen": "2026-06-13T17:31:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0788
-    },
-    {
-      "id": "df36be1fcc",
-      "title": "On a day of Gs, India cruises past Afghanistan in a rain-hit game",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/cricket/on-a-day-of-gs-india-cruises-past-afghanistan-in-a-rain-hit-game/article71098744.ece",
-          "headline": "On a day of Gs, India cruises past Afghanistan in a rain-hit game",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:31:05+00:00",
-      "last_seen": "2026-06-13T17:31:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0787
-    },
-    {
-      "id": "1b1ed4c97a",
-      "title": "Samiti calls for annual observance of Article 371(J) Day across seven districts of Kalyana Karnataka",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/karnataka/samiti-calls-for-annual-observance-of-article-371j-day-across-seven-districts-of-kalyana-karnataka/article71098101.ece",
-          "headline": "Samiti calls for annual observance of Article 371(J) Day across seven districts of Kalyana Karnataka",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:29:15+00:00",
-      "last_seen": "2026-06-13T17:29:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0757
-    },
-    {
-      "id": "fc0be0af79",
-      "title": "Botcha opposes govt.’s move to allow ‘beach shacks’ in Vizag",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Visakhapatnam/botcha-opposes-govts-move-to-allow-beach-shacks-in-vizag/article71098436.ece",
-          "headline": "Botcha opposes govt.’s move to allow ‘beach shacks’ in Vizag",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:29:07+00:00",
-      "last_seen": "2026-06-13T17:29:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0755
-    },
-    {
-      "id": "cd009acd29",
-      "title": "156 MBBS students conferred degrees at Gulbarga Institute of Medical Sciences graduation ceremony",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/karnataka/156-mbbs-students-conferred-degrees-at-gulbarga-institute-of-medical-sciences-graduation-ceremony/article71098214.ece",
-          "headline": "156 MBBS students conferred degrees at Gulbarga Institute of Medical Sciences graduation ceremony",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:27:55+00:00",
-      "last_seen": "2026-06-13T17:27:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.0736
-    },
-    {
-      "id": "dec980828a",
-      "title": "Will not allow illegal oil shipments from Iran, U.S. tells India",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/violations-of-us-blockade-in-strait-of-hormuz-will-not-be-tolerated-rubio-tells-jaishankar/article71098045.ece",
-          "headline": "Will not allow illegal oil shipments from Iran, U.S. tells India",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:27:24+00:00",
-      "last_seen": "2026-06-13T17:27:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0728
-    },
-    {
-      "id": "36c4a89360",
-      "title": "2026 NBA Finals: New York Knicks at San Antonio Spurs Game 5 best bets for side, total and player props",
+      "id": "336b3d9292",
+      "title": "James Harden arrested in Houston on misdemeanor weapons charge after NBA playoff exit: report",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/2026-nba-finals-new-york-knicks-san-antonio-spurs-game-5-best-bets-side-total-player-props",
-          "headline": "2026 NBA Finals: New York Knicks at San Antonio Spurs Game 5 best bets for side, total and player props",
+          "url": "https://www.foxnews.com/sports/james-harden-arrested-houston-misdemeanor-weapons-charge-nba-playoff",
+          "headline": "James Harden arrested in Houston on misdemeanor weapons charge after NBA playoff exit: report",
           "platform": "rss"
         }
       ],
@@ -760,108 +931,24 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-06-13T17:26:12+00:00",
-      "last_seen": "2026-06-13T17:26:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0708
-    },
-    {
-      "id": "f97ca58549",
-      "title": "Macron to meet Trump at the Palace of Versailles after G7 summit in France",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/france/20260613-macron-to-meet-trump-at-the-palace-of-versailles-after-g7-summit-in-france",
-          "headline": "Macron to meet Trump at the Palace of Versailles after G7 summit in France",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:24:24+00:00",
-      "last_seen": "2026-06-13T17:24:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.068
-    },
-    {
-      "id": "08fdeb1d65",
-      "title": "Gold rush atmosphere at Berlin's military air trade show",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/gold-rush-atmosphere-at-berlin-s-military-air-trade-show/a-77538303?maca=en-rss-en-all-1573-rdf",
-          "headline": "Gold rush atmosphere at Berlin's military air trade show",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:21:00+00:00",
-      "last_seen": "2026-06-13T17:21:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0626
-    },
-    {
-      "id": "b62774703d",
-      "title": "Pat McAfee wages war on Omaha's famous Jell-o shot bar after crew gets cold reception at College World Series",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/pat-mcafee-wages-war-omahas-famous-jell-o-shot-bar-crew-gets-cold-reception-college-world-series",
-          "headline": "Pat McAfee wages war on Omaha's famous Jell-o shot bar after crew gets cold reception at College World Series",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-13T17:20:13+00:00",
-      "last_seen": "2026-06-13T17:20:13+00:00",
+      "first_seen": "2026-06-13T18:40:37+00:00",
+      "last_seen": "2026-06-13T18:40:37+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0613
+      "resonance": 0.0578
     },
     {
-      "id": "9aca1dd805",
-      "title": "Two nurses at AIIMS Bhopal booked for giving wrong injection to child cancer patient that caused his death",
+      "id": "ce0c99fbc7",
+      "title": "T20 Mumbai: Royals defend title with a thrilling win",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/madhya-pradesh/two-nurses-at-aiims-bhopal-booked-for-giving-wrong-injection-to-child-cancer-patient-that-caused-his-death/article71098576.ece",
-          "headline": "Two nurses at AIIMS Bhopal booked for giving wrong injection to child cancer patient that caused his death",
+          "url": "https://www.thehindu.com/sport/cricket/t20-mumbai-royals-defend-title-with-a-thrilling-win/article71098870.ece",
+          "headline": "T20 Mumbai: Royals defend title with a thrilling win",
           "platform": "rss"
         }
       ],
@@ -872,108 +959,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-13T17:19:22+00:00",
-      "last_seen": "2026-06-13T17:19:22+00:00",
+      "first_seen": "2026-06-13T18:40:18+00:00",
+      "last_seen": "2026-06-13T18:40:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.06
-    },
-    {
-      "id": "0cf8d01f8f",
-      "title": "Review: Disclosure Day is big on action, light on ideas",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
-          "headline": "Review: Disclosure Day is big on action, light on ideas",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:17:44+00:00",
-      "last_seen": "2026-06-13T17:17:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
       "resonance": 0.0574
     },
     {
-      "id": "2a5a2f4748",
-      "title": "Flooding and fallen trees lead to heavy traffic across Bengaluru",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/bangalore/flooding-and-fallen-trees-lead-to-heavy-traffic-across-bengaluru/article71098434.ece",
-          "headline": "Flooding and fallen trees lead to heavy traffic across Bengaluru",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:17:30+00:00",
-      "last_seen": "2026-06-13T17:17:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.0571
-    },
-    {
-      "id": "fb578db690",
-      "title": "At the Canadian Screen Awards, the Industry Steps Outside Hollywood’s Shadow",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/13/world/canada/canadian-screen-awards-heated-rivalry-toronto.html",
-          "headline": "At the Canadian Screen Awards, the Industry Steps Outside Hollywood’s Shadow",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T17:16:44+00:00",
-      "last_seen": "2026-06-13T17:16:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0559
-    },
-    {
-      "id": "35a8a136f1",
-      "title": "Super Bowl MVP Kenneth Walker misses Seahawks' ring ceremony after signing $45M deal with Chiefs",
+      "id": "cecf0db704",
+      "title": "Mexican authorities discover body in trunk near Iranian soccer team's World Cup training grounds: report",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/super-bowl-mvp-kenneth-walker-misses-seahawks-ring-ceremony-signing-45m-deal-chiefs",
-          "headline": "Super Bowl MVP Kenneth Walker misses Seahawks' ring ceremony after signing $45M deal with Chiefs",
+          "url": "https://www.foxnews.com/world/mexican-authorities-discover-body-trunk-near-iranian-soccer-teams-world-cup-training-grounds-report",
+          "headline": "Mexican authorities discover body in trunk near Iranian soccer team's World Cup training grounds: report",
           "platform": "rss"
         }
       ],
@@ -984,52 +987,80 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-06-13T17:14:48+00:00",
-      "last_seen": "2026-06-13T17:14:48+00:00",
+      "first_seen": "2026-06-13T18:37:51+00:00",
+      "last_seen": "2026-06-13T18:37:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0547
+    },
+    {
+      "id": "15856f3524",
+      "title": "Sealed Super Mario Bros. sells for a record $3 million",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/games/949593/super-mario-bros-3-million-auction",
+          "headline": "Sealed Super Mario Bros. sells for a record $3 million",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T18:37:21+00:00",
+      "last_seen": "2026-06-13T18:37:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0528
+      "resonance": 0.0541
     },
     {
-      "id": "b1e6ce3b49",
-      "title": "Centre to provide ₹10 crore rice aid for refugees in Mizoram",
+      "id": "33823b7ead",
+      "title": "Anger over planned luxury resorts in Albania, including one linked to Trump's son-in-law",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/centre-to-provide-10-crore-rice-aid-for-refugees-in-mizoram/article71098587.ece",
-          "headline": "Centre to provide ₹10 crore rice aid for refugees in Mizoram",
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/anger-over-planned-luxury-resorts-in-albania-including-one-linked-to-donald-trumps-son-in-law-jared-kushner-13553712",
+          "headline": "Anger over planned luxury resorts in Albania, including one linked to Trump's son-in-law",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": 0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-13T17:13:04+00:00",
-      "last_seen": "2026-06-13T17:13:04+00:00",
+      "first_seen": "2026-06-13T18:34:00+00:00",
+      "last_seen": "2026-06-13T18:34:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0502
+      "topic": "politics",
+      "resonance": 0.0504
     },
     {
-      "id": "dc727d4cd4",
-      "title": "Trump to meet Modi on the sidelines of the G-7 summit, U.S. officials say",
+      "id": "baefc9c110",
+      "title": "Five students from Adi Dravidar, Tribal Welfare schools enter NITs",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/trump-to-meet-modi-onthe-sidelines-of-the-g-7-summit-us-officials-say/article71098389.ece",
-          "headline": "Trump to meet Modi on the sidelines of the G-7 summit, U.S. officials say",
+          "url": "https://www.thehindu.com/news/cities/chennai/five-students-from-adi-dravidar-tribal-welfare-schools-enter-nits/article71098456.ece",
+          "headline": "Five students from Adi Dravidar, Tribal Welfare schools enter NITs",
           "platform": "rss"
         }
       ],
@@ -1040,8 +1071,8 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-13T17:12:58+00:00",
-      "last_seen": "2026-06-13T17:12:58+00:00",
+      "first_seen": "2026-06-13T18:33:36+00:00",
+      "last_seen": "2026-06-13T18:33:36+00:00",
       "platforms": [
         "rss"
       ],
@@ -1052,21 +1083,57 @@
   ],
   "edges": [
     {
-      "source": "118b5a24ef",
-      "target": "dec980828a",
-      "weight": 0.143,
+      "source": "7b0ec52ec5",
+      "target": "c51f5bab41",
+      "weight": 0.63,
       "type": "thematic"
     },
     {
-      "source": "73b1c3306f",
-      "target": "dc727d4cd4",
-      "weight": 0.053,
+      "source": "7b0ec52ec5",
+      "target": "feb99b78e5",
+      "weight": 0.555,
       "type": "thematic"
     },
     {
-      "source": "f97ca58549",
-      "target": "dc727d4cd4",
-      "weight": 0.959,
+      "source": "e66491200f",
+      "target": "8ab4f38b82",
+      "weight": 0.26,
+      "type": "thematic"
+    },
+    {
+      "source": "0705790f7a",
+      "target": "e384c737a7",
+      "weight": 0.98,
+      "type": "thematic"
+    },
+    {
+      "source": "0705790f7a",
+      "target": "6126ab8693",
+      "weight": 0.117,
+      "type": "thematic"
+    },
+    {
+      "source": "c51f5bab41",
+      "target": "feb99b78e5",
+      "weight": 0.387,
+      "type": "thematic"
+    },
+    {
+      "source": "e384c737a7",
+      "target": "431ae19f8a",
+      "weight": 0.138,
+      "type": "thematic"
+    },
+    {
+      "source": "e384c737a7",
+      "target": "cecf0db704",
+      "weight": 0.052,
+      "type": "thematic"
+    },
+    {
+      "source": "2056691cba",
+      "target": "7011ade43f",
+      "weight": 0.063,
       "type": "thematic"
     }
   ],

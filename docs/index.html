@@ -1207,7 +1207,6 @@ let obSlide=0;
 let obDemoAf=null;
 
 function maybeShowOnboarding(){
-  if(localStorage.getItem('av_onboarded')==='1') return;
   document.getElementById('onboard').classList.remove('hidden');
   startOnboardDemo();
 }
@@ -1232,7 +1231,6 @@ document.querySelectorAll('.ob-dot').forEach(d=>{
 });
 
 function closeOnboarding(){
-  localStorage.setItem('av_onboarded','1');
   document.getElementById('onboard').classList.add('hidden');
   if(obDemoAf)cancelAnimationFrame(obDemoAf);
   setTimeout(()=>{document.getElementById('onboard').style.display='none';},520);

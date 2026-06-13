@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-13T14:38:24.609544+00:00",
+  "generated_at": "2026-06-13T15:14:11.711270+00:00",
   "node_count": 35,
-  "edge_count": 5,
+  "edge_count": 6,
   "nodes": [
     {
       "id": "56e770b1dc",
@@ -35,18 +35,25 @@
         "right": 0
       },
       "first_seen": "2026-06-13T13:08:02+00:00",
-      "last_seen": "2026-06-13T14:29:18+00:00",
+      "last_seen": "2026-06-13T14:58:48+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.6902
+      "topic": "conflict",
+      "resonance": 0.6742
     },
     {
       "id": "e56a2833f4",
       "title": "Trump's name being removed from Kennedy Center after judge order",
-      "signal_count": 3,
+      "signal_count": 4,
       "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/13/workers-remove-trumps-name-from-kennedy-center-after-court-ruling?traffic_source=rss",
+          "headline": "Workers remove Trump’s name from Kennedy Center after court ruling",
+          "platform": "rss"
+        },
         {
           "outlet": "Le Monde (EN)",
           "url": "https://www.lemonde.fr/en/international/article/2026/06/13/workers-start-removing-trump-s-name-from-kennedy-center-after-court-ruling_6754440_4.html",
@@ -67,29 +74,36 @@
         }
       ],
       "bias": {
-        "mean": -0.083,
-        "spread": 0.103,
+        "mean": -0.113,
+        "spread": 0.102,
         "left": 0,
-        "center": 3,
+        "center": 4,
         "right": 0
       },
       "first_seen": "2026-06-13T11:08:02+00:00",
-      "last_seen": "2026-06-13T14:04:54+00:00",
+      "last_seen": "2026-06-13T14:48:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.4197
+      "topic": "politics",
+      "resonance": 0.6728
     },
     {
       "id": "fe2f4fef5f",
       "title": "Iran war: Pakistan PM says peace deal expected in 24 hours",
-      "signal_count": 4,
+      "signal_count": 5,
       "sources": [
         {
           "outlet": "Times of Israel",
           "url": "https://www.timesofisrael.com/pakistan-claims-us-iran-deal-to-be-signed-within-24-hours-tehran-pushes-back/",
           "headline": "Pakistan claims US-Iran deal to be signed within 24 hours; Tehran pushes back",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-13/lebanon-israeli-strikes-pakistan-peace-deal-iran-united-states/106794956",
+          "headline": "Pakistan says Iran-US peace deal is within 24 hours, Tehran urges caution",
           "platform": "rss"
         },
         {
@@ -112,10 +126,10 @@
         }
       ],
       "bias": {
-        "mean": -0.05,
-        "spread": 0.137,
+        "mean": -0.06,
+        "spread": 0.124,
         "left": 1,
-        "center": 3,
+        "center": 4,
         "right": 0
       },
       "first_seen": "2026-06-13T05:25:45+00:00",
@@ -124,7 +138,8 @@
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.3839
+      "topic": "tech",
+      "resonance": 0.4863
     },
     {
       "id": "dac3afafb6",
@@ -157,7 +172,764 @@
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.2792
+      "topic": "world",
+      "resonance": 0.2235
+    },
+    {
+      "id": "83739327e8",
+      "title": "Senior US official says Washington might have 'strong deal' with Iran",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/senior-us-official-says-washington-might-have-strong-deal-iran",
+          "headline": "Senior US official says Washington might have 'strong deal' with Iran",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:12:26+00:00",
+      "last_seen": "2026-06-13T15:12:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1496
+    },
+    {
+      "id": "397d7bd5d2",
+      "title": "SHABD-26 art, literary fest under way at JSS STU",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/shabd-26-art-literary-fest-under-way-at-jss-stu/article71097500.ece",
+          "headline": "SHABD-26 art, literary fest under way at JSS STU",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:11:24+00:00",
+      "last_seen": "2026-06-13T15:11:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1463
+    },
+    {
+      "id": "bba6f2aef2",
+      "title": "Centre suspends Cell Broadcasting Services",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/centre-suspends-cell-broadcasting-services/article71096691.ece",
+          "headline": "Centre suspends Cell Broadcasting Services",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:10:54+00:00",
+      "last_seen": "2026-06-13T15:10:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1447
+    },
+    {
+      "id": "237818c1dd",
+      "title": "Puducherry Airport to observe June 15 as Yatri Suvidha Diwas",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/puducherry/puducherry-airport-to-observe-june-15-as-yatri-suvidha-diwas/article71097648.ece",
+          "headline": "Puducherry Airport to observe June 15 as Yatri Suvidha Diwas",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:10:10+00:00",
+      "last_seen": "2026-06-13T15:10:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1424
+    },
+    {
+      "id": "4a2c733fbc",
+      "title": "500 indigenous seed varieties on display",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/500-indigenous-seed-varieties-on-display/article71097994.ece",
+          "headline": "500 indigenous seed varieties on display",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:09:22+00:00",
+      "last_seen": "2026-06-13T15:09:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1399
+    },
+    {
+      "id": "7144212b9a",
+      "title": "Heavy rains lash parts of Cyberabad; waterlogging and traffic snarls reported from several areas",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/heavy-rains-lash-parts-of-cyberabad-waterlogging-and-traffic-snarls-reported-from-several-areas/article71097873.ece",
+          "headline": "Heavy rains lash parts of Cyberabad; waterlogging and traffic snarls reported from several areas",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:08:41+00:00",
+      "last_seen": "2026-06-13T15:08:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1378
+    },
+    {
+      "id": "e6576018c0",
+      "title": "Shigella cases detected in Wadakkanchery municipality",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/shigella-cases-detected-in-wadakkanchery-municipality/article71098266.ece",
+          "headline": "Shigella cases detected in Wadakkanchery municipality",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:08:36+00:00",
+      "last_seen": "2026-06-13T15:08:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1375
+    },
+    {
+      "id": "9a7cb1e7ca",
+      "title": "Centre urges State to probe alleged irregularities in SCCL",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/telangana/centre-urges-state-to-probe-alleged-irregularities-in-sccl/article71098190.ece",
+          "headline": "Centre urges State to probe alleged irregularities in SCCL",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:07:39+00:00",
+      "last_seen": "2026-06-13T15:07:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1345
+    },
+    {
+      "id": "54d1870684",
+      "title": "Benefits of ‘Jivamrit’ highlighted at farmers’ workshop in Tirupati",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/benefits-of-jivamrit-highlighted-at-farmers-workshop-in-tirupati/article71098250.ece",
+          "headline": "Benefits of ‘Jivamrit’ highlighted at farmers’ workshop in Tirupati",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:07:34+00:00",
+      "last_seen": "2026-06-13T15:07:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1343
+    },
+    {
+      "id": "b9770dd950",
+      "title": "Departed for another sanctuary: a tribute to V. Guruswami the naturalist",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/chennai/departed-for-another-sanctuary-a-tribute-to-v-guruswami-the-naturalist/article71098339.ece",
+          "headline": "Departed for another sanctuary: a tribute to V. Guruswami the naturalist",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:07:21+00:00",
+      "last_seen": "2026-06-13T15:07:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1336
+    },
+    {
+      "id": "48e8a6955d",
+      "title": "iVP Semi planning to set up semiconductor facility in Coimbatore",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Coimbatore/ivp-semi-planning-to-set-up-semiconductor-facility-in-coimbatore/article71097632.ece",
+          "headline": "iVP Semi planning to set up semiconductor facility in Coimbatore",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:06:10+00:00",
+      "last_seen": "2026-06-13T15:06:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1299
+    },
+    {
+      "id": "91da4cdb0e",
+      "title": "Death toll in Lebanon rises to 3,756, health ministry says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/death-toll-lebanon-rises-3756-health-ministry-says",
+          "headline": "Death toll in Lebanon rises to 3,756, health ministry says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:05:38+00:00",
+      "last_seen": "2026-06-13T15:05:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.1282
+    },
+    {
+      "id": "9ef4e860dc",
+      "title": "Economic justice central to resisting neo-fascism: Patnaik",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/economic-justice-central-to-resisting-neo-fascism-patnaik/article71098182.ece",
+          "headline": "Economic justice central to resisting neo-fascism: Patnaik",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:04:14+00:00",
+      "last_seen": "2026-06-13T15:04:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1239
+    },
+    {
+      "id": "23c215d437",
+      "title": "KSHDCL revives 50% sandalwood subsidy scheme for artisans after 6 years",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/kshdcl-revives-50-sandalwood-subsidy-scheme-for-artisans-after-6-years/article71093721.ece",
+          "headline": "KSHDCL revives 50% sandalwood subsidy scheme for artisans after 6 years",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:03:33+00:00",
+      "last_seen": "2026-06-13T15:03:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1217
+    },
+    {
+      "id": "3102d47435",
+      "title": "Despite merger with Nagercoil Corporation, Kadettri awaits civic amenities",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Madurai/despite-merger-with-nagercoil-corporation-kadettri-awaits-civic-amenities/article71098168.ece",
+          "headline": "Despite merger with Nagercoil Corporation, Kadettri awaits civic amenities",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:02:58+00:00",
+      "last_seen": "2026-06-13T15:02:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1199
+    },
+    {
+      "id": "175a72e44a",
+      "title": "Global HIV prevention declined drastically after Trump aid cuts, U.N. finds",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/06/13/global-hiv-prevention-declined-drastically-after-trump-aid-cuts-un-finds/",
+          "headline": "Global HIV prevention declined drastically after Trump aid cuts, U.N. finds",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:02:05+00:00",
+      "last_seen": "2026-06-13T15:02:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1172
+    },
+    {
+      "id": "78bf13728e",
+      "title": "Eluru IGP urges use of AI in policing for efficiency",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/eluru-igp-urges-use-of-ai-in-policing-for-efficiency/article71098090.ece",
+          "headline": "Eluru IGP urges use of AI in policing for efficiency",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:01:48+00:00",
+      "last_seen": "2026-06-13T15:01:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1163
+    },
+    {
+      "id": "e222fa40bb",
+      "title": "Depleted field for Indian Athletics Series-10",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/athletics/depleted-field-for-indian-athletics-series-10/article71098308.ece",
+          "headline": "Depleted field for Indian Athletics Series-10",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:01:28+00:00",
+      "last_seen": "2026-06-13T15:01:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1153
+    },
+    {
+      "id": "29e8412ff2",
+      "title": "Inquiry to find the responsible in Meenakshi episode: Mahesh Kumar Goud",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/telangana/inquiry-to-find-the-responsible-in-meenakshi-episode-mahesh-kumar-goud/article71098234.ece",
+          "headline": "Inquiry to find the responsible in Meenakshi episode: Mahesh Kumar Goud",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:01:28+00:00",
+      "last_seen": "2026-06-13T15:01:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1153
+    },
+    {
+      "id": "fb97c7d9dd",
+      "title": "San Francisco Giants host gay couples renewing vows with drag queen in virtue-signaling Pride Night ceremony",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/san-francisco-giants-host-gay-couples-renewing-vows-drag-queen-virtue-signaling-pride-night-ceremony",
+          "headline": "San Francisco Giants host gay couples renewing vows with drag queen in virtue-signaling Pride Night ceremony",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-13T15:01:08+00:00",
+      "last_seen": "2026-06-13T15:01:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1143
+    },
+    {
+      "id": "cd689b6acb",
+      "title": "Over 480 healthcare graduates receive degrees",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/over-480-healthcare-graduates-receive-degrees/article71097781.ece",
+          "headline": "Over 480 healthcare graduates receive degrees",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:00:58+00:00",
+      "last_seen": "2026-06-13T15:00:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.1137
+    },
+    {
+      "id": "0bba78f00b",
+      "title": "Joan Collins shares her simple secrets to aging gracefully at 93",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/joan-collins-shares-simple-secrets-aging-gracefully-93",
+          "headline": "Joan Collins shares her simple secrets to aging gracefully at 93",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-13T15:00:39+00:00",
+      "last_seen": "2026-06-13T15:00:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1128
+    },
+    {
+      "id": "a348f46f9a",
+      "title": "NASCAR legend Tony Stewart calls mourning fans 'a--holes' in tone-deaf rant about Kyle Busch",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/nascar-tony-stewart-fans-tone-deaf-rant-kyle-busch",
+          "headline": "NASCAR legend Tony Stewart calls mourning fans 'a--holes' in tone-deaf rant about Kyle Busch",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-13T15:00:18+00:00",
+      "last_seen": "2026-06-13T15:00:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1117
+    },
+    {
+      "id": "babecf0ed8",
+      "title": "My first 24 hours with Siri AI on the Mac",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/949502/apple-macos-27-golden-gate-siri-ai-apple-intelligence",
+          "headline": "My first 24 hours with Siri AI on the Mac",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T15:00:00+00:00",
+      "last_seen": "2026-06-13T15:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1108
+    },
+    {
+      "id": "bd86923fb1",
+      "title": "Mix-up in reporting Cholera cases exposes communication lapse in Kerala’s Health dept.",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/mix-up-in-reporting-cholera-cases-exposes-communication-lapse-in-keralas-health-dept/article71098142.ece",
+          "headline": "Mix-up in reporting Cholera cases exposes communication lapse in Kerala’s Health dept.",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T14:58:17+00:00",
+      "last_seen": "2026-06-13T14:58:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.1055
+    },
+    {
+      "id": "4962db7b65",
+      "title": "Vandalism of Ambedkar’s statue sparks anger in U.P.’s Hapur",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/vandalism-of-ambedkars-statue-sparks-anger-in-ups-hapur/article71097864.ece",
+          "headline": "Vandalism of Ambedkar’s statue sparks anger in U.P.’s Hapur",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T14:56:44+00:00",
+      "last_seen": "2026-06-13T14:56:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1007
+    },
+    {
+      "id": "fea6963c00",
+      "title": "In pictures: Trooping the Colour marks King's official birthday",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cpv3mmlg872o?at_medium=RSS&at_campaign=rss",
+          "headline": "In pictures: Trooping the Colour marks King's official birthday",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-13T14:46:35+00:00",
+      "last_seen": "2026-06-13T14:46:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0701
     },
     {
       "id": "4fe1cf9094",
@@ -190,34 +962,36 @@
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.1204
+      "topic": "science",
+      "resonance": 0.0697
     },
     {
-      "id": "627fb5620e",
-      "title": "Anthropic suspends new AI tools over US government security concerns",
+      "id": "fb578db690",
+      "title": "At the Canadian Screen Awards, the Industry Steps Outside Hollywood’s Shadow",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.com/news/articles/c932g3v3e13o?at_medium=RSS&at_campaign=rss",
-          "headline": "Anthropic suspends new AI tools over US government security concerns",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/13/world/canada/canadian-screen-awards-heated-rivalry-toronto.html",
+          "headline": "At the Canadian Screen Awards, the Industry Steps Outside Hollywood’s Shadow",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": -0.3,
         "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "left": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-13T14:36:03+00:00",
-      "last_seen": "2026-06-13T14:36:03+00:00",
+      "first_seen": "2026-06-13T14:41:50+00:00",
+      "last_seen": "2026-06-13T14:41:50+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.1048
+      "topic": "conflict",
+      "resonance": 0.056
     },
     {
       "id": "40185b4d9c",
@@ -238,712 +1012,14 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-13T14:35:31+00:00",
-      "last_seen": "2026-06-13T14:35:31+00:00",
+      "first_seen": "2026-06-13T14:39:48+00:00",
+      "last_seen": "2026-06-13T14:39:48+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.1032
-    },
-    {
-      "id": "bc5ecb94b2",
-      "title": "Teachers’ body seeks TET exemption for pre-RTE recruits",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/teachers-body-seeks-tet-exemption-for-pre-rte-recruits/article71098035.ece",
-          "headline": "Teachers’ body seeks TET exemption for pre-RTE recruits",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:34:04+00:00",
-      "last_seen": "2026-06-13T14:34:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.099
-    },
-    {
-      "id": "f9ab7b8962",
-      "title": "I survived the genocide in Gaza, but still carry its scars within me",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/opinion/i-survived-genocide-gaza-war-still-carry-scars-within-me",
-          "headline": "I survived the genocide in Gaza, but still carry its scars within me",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:32:27+00:00",
-      "last_seen": "2026-06-13T14:32:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0944
-    },
-    {
-      "id": "112b0b853d",
-      "title": "Protests in Jammu against killing of civilians in PoK",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/protests-in-jammu-against-killing-of-civilians-in-pok/article71098114.ece",
-          "headline": "Protests in Jammu against killing of civilians in PoK",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:32:17+00:00",
-      "last_seen": "2026-06-13T14:32:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0939
-    },
-    {
-      "id": "6386962735",
-      "title": "Bharath urges youth to seize opportunities at job melas",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/bharath-urges-youth-to-seize-opportunities-at-job-melas/article71097704.ece",
-          "headline": "Bharath urges youth to seize opportunities at job melas",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:31:43+00:00",
-      "last_seen": "2026-06-13T14:31:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0922
-    },
-    {
-      "id": "fe6ccee8ab",
-      "title": "Cyber fraudsters scam man of ₹80,000 by impersonating Former Minister",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Visakhapatnam/cyber-fraudsters-scam-man-of-80000-by-impersonating-former-minister/article71097934.ece",
-          "headline": "Cyber fraudsters scam man of ₹80,000 by impersonating Former Minister",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:31:20+00:00",
-      "last_seen": "2026-06-13T14:31:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0911
-    },
-    {
-      "id": "32903b2b55",
-      "title": "Violations of U.S. blockade in Strait of Hormuz will not be tolerated: Rubio tells Jaishankar",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/violations-of-us-blockade-in-strait-of-hormuz-will-not-be-tolerated-rubio-tells-jaishankar/article71098045.ece",
-          "headline": "Violations of U.S. blockade in Strait of Hormuz will not be tolerated: Rubio tells Jaishankar",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:31:08+00:00",
-      "last_seen": "2026-06-13T14:31:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0906
-    },
-    {
-      "id": "37eccc8f0d",
-      "title": "Switzerland to vote on plan to cap population at 10 million",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/13/world/europe/switzerland-population-referendum-10-million.html",
-          "headline": "Should Switzerland Cap Its Population at 10 Million? Voters Will Decide.",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.com/news/articles/cx23kz7e76po?at_medium=RSS&at_campaign=rss",
-          "headline": "Switzerland to vote on plan to cap population at 10 million",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/swiss-to-vote-on-whether-to-cap-population-at-10-million/a-77492750?maca=en-rss-en-all-1573-rdf",
-          "headline": "Swiss to vote on whether to cap population at 10 million",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.133,
-        "spread": 0.125,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T05:35:00+00:00",
-      "last_seen": "2026-06-13T13:04:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0857
-    },
-    {
-      "id": "3048dcfb1b",
-      "title": "Royal Family watch Red Arrows flypast on Buckingham Palace balcony",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cn07y41kn2wo?at_medium=RSS&at_campaign=rss",
-          "headline": "Royal Family watch Red Arrows flypast on Buckingham Palace balcony",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:27:57+00:00",
-      "last_seen": "2026-06-13T14:27:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0814
-    },
-    {
-      "id": "7136c96d6a",
-      "title": "Konkan Railway implements comprehensive monsoon action plan to ensure safe operations",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Mangalore/konkan-railway-implements-comprehensive-monsoon-action-plan-to-ensure-safe-operations/article71097803.ece",
-          "headline": "Konkan Railway implements comprehensive monsoon action plan to ensure safe operations",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:27:35+00:00",
-      "last_seen": "2026-06-13T14:27:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0804
-    },
-    {
-      "id": "024d1a8ba9",
-      "title": "State cancels Kerala Waqf Board CEO posting",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/state-cancels-kerala-waqf-board-ceo-posting/article71094538.ece",
-          "headline": "State cancels Kerala Waqf Board CEO posting",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:27:21+00:00",
-      "last_seen": "2026-06-13T14:27:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0797
-    },
-    {
-      "id": "6ad111686c",
-      "title": "National Lok Adalat resolves 4,782 cases involving ₹41.11 crore settlement in Coimbatore",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Coimbatore/national-lok-adalat-resolves-4782-cases-involving-4111-crore-settlement-in-coimbatore/article71097720.ece",
-          "headline": "National Lok Adalat resolves 4,782 cases involving ₹41.11 crore settlement in Coimbatore",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:26:52+00:00",
-      "last_seen": "2026-06-13T14:26:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0783
-    },
-    {
-      "id": "4755456a00",
-      "title": "Nipah containment steps gather pace in Ramanattukara",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/nipah-containment-steps-gather-pace-in-ramanattukara/article71097987.ece",
-          "headline": "Nipah containment steps gather pace in Ramanattukara",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:25:14+00:00",
-      "last_seen": "2026-06-13T14:25:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0737
-    },
-    {
-      "id": "9b6fa30b55",
-      "title": "Three close contacts of Nipah-infected person in Kozhikode test negative for virus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/central-team-reaches-kozhikode-three-contacts-of-nipah-infected-person-test-negative-for-virus/article71097266.ece",
-          "headline": "Three close contacts of Nipah-infected person in Kozhikode test negative for virus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:24:52+00:00",
-      "last_seen": "2026-06-13T14:24:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0727
-    },
-    {
-      "id": "f4ff3143e8",
-      "title": "No new Aadhaar cards for adults in Assam without special verification process",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/assam/assam-cabinet-decides-to-stop-aadhaar-issuance-to-those-aged-above-18-cm/article71097116.ece",
-          "headline": "No new Aadhaar cards for adults in Assam without special verification process",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:23:37+00:00",
-      "last_seen": "2026-06-13T14:23:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0691
-    },
-    {
-      "id": "f235f06919",
-      "title": "With a Deal Seemingly Close, the U.S. Faces an Iran More Willing to Withstand Pressure",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/13/world/middleeast/iran-united-states-israel-lebanon.html",
-          "headline": "With a Deal Seemingly Close, the U.S. Faces an Iran More Willing to Withstand Pressure",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:23:36+00:00",
-      "last_seen": "2026-06-13T14:23:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0691
-    },
-    {
-      "id": "4e6bfe2f63",
-      "title": "Workshop to foster English newspaper reading among students held in Visakhapatnam",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Visakhapatnam/workshop-to-foster-english-newspaper-reading-among-students-held-in-visakhapatnam/article71097978.ece",
-          "headline": "Workshop to foster English newspaper reading among students held in Visakhapatnam",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:23:23+00:00",
-      "last_seen": "2026-06-13T14:23:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0685
-    },
-    {
-      "id": "56cb316cc3",
-      "title": "11 Indian sailors convicted, ship fined $5.3 million for cocaine trafficking in Nigeria",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/11-indian-sailors-convicted-ship-fined-53-million-for-cocaine-trafficking-in-nigeria/article71098052.ece",
-          "headline": "11 Indian sailors convicted, ship fined $5.3 million for cocaine trafficking in Nigeria",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:23:08+00:00",
-      "last_seen": "2026-06-13T14:23:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0678
-    },
-    {
-      "id": "229be137fd",
-      "title": "Healey wanted UK to join global defence bank, BBC told",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/ce8jyd85ejeo?at_medium=RSS&at_campaign=rss",
-          "headline": "Healey wanted UK to join global defence bank, BBC told",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:23:02+00:00",
-      "last_seen": "2026-06-13T14:23:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0675
-    },
-    {
-      "id": "a27f34bf1e",
-      "title": "Funeral for slain Iranian supreme leader Khamenei set for July",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3357015/funeral-slain-iranian-supreme-leader-khamenei-set-july?utm_source=rss_feed",
-          "headline": "Funeral for slain Iranian supreme leader Khamenei set for July",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/funeral-preparations-irans-former-supreme-leader-set-4-9-july",
-          "headline": "Funeral preparations for Iran's former Supreme Leader set for 4 to 9 July",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-slain-supreme-leader-ali-khamenei-be-buried-9-july",
-          "headline": "Iran's slain supreme leader Ali Khamenei to be buried 9 July",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.133,
-        "spread": 0.165,
-        "left": 2,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T11:01:20+00:00",
-      "last_seen": "2026-06-13T12:35:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0638
-    },
-    {
-      "id": "c28eb37aa4",
-      "title": "A roadmap for Kerala’s agricultural transformation",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/a-roadmap-for-keralas-agricultural-transformation/article71097621.ece",
-          "headline": "A roadmap for Kerala’s agricultural transformation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:21:06+00:00",
-      "last_seen": "2026-06-13T14:21:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.062
-    },
-    {
-      "id": "d0d2ae65ea",
-      "title": "No fresh shigellosis cases reported in Wayanad",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/no-fresh-shigellosis-cases-reported-in-wayanad/article71098008.ece",
-          "headline": "No fresh shigellosis cases reported in Wayanad",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:21:03+00:00",
-      "last_seen": "2026-06-13T14:21:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0619
-    },
-    {
-      "id": "596b91cbbc",
-      "title": "Rowdy-sheeter found murdered in Shivamogga",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/karnataka/rowdy-sheeter-found-murdered-in-shivamogga/article71097478.ece",
-          "headline": "Rowdy-sheeter found murdered in Shivamogga",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:20:25+00:00",
-      "last_seen": "2026-06-13T14:20:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0601
-    },
-    {
-      "id": "01c9dc10b9",
-      "title": "Sabarimala gold theft case: SIT issues notice to former TDB president P.S. Prashanth",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/sabarimala-gold-theft-case-sit-issues-notice-to-former-tdb-president-ps-prashanth/article71097983.ece",
-          "headline": "Sabarimala gold theft case: SIT issues notice to former TDB president P.S. Prashanth",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:19:53+00:00",
-      "last_seen": "2026-06-13T14:19:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0586
-    },
-    {
-      "id": "01f52c355a",
-      "title": "Passengers seek extension of two trains from north Karnataka districts to KSR Bengaluru station",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/karnataka/passengers-seek-extension-of-two-trains-from-north-karnataka-districts-to-ksr-bengaluru-station/article71085643.ece",
-          "headline": "Passengers seek extension of two trains from north Karnataka districts to KSR Bengaluru station",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:19:27+00:00",
-      "last_seen": "2026-06-13T14:19:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0574
-    },
-    {
-      "id": "977bdc20b3",
-      "title": "KSCA plans year-long training for moffusil cricketers, Maharaja Trophy matches in Hubballi from June 27",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/karnataka/ksca-plans-year-long-training-for-moffusil-cricketers-maharaja-trophy-matches-in-hubballi-from-june-27/article71097941.ece",
-          "headline": "KSCA plans year-long training for moffusil cricketers, Maharaja Trophy matches in Hubballi from June 27",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:19:24+00:00",
-      "last_seen": "2026-06-13T14:19:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.0573
+      "topic": "conflict",
+      "resonance": 0.05
     },
     {
       "id": "ed0d3b6fe1",
@@ -964,66 +1040,13 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-13T14:19:23+00:00",
-      "last_seen": "2026-06-13T14:19:23+00:00",
+      "first_seen": "2026-06-13T14:39:47+00:00",
+      "last_seen": "2026-06-13T14:39:47+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "resonance": 0.0572
-    },
-    {
-      "id": "31ff8f72e8",
-      "title": "Bill Maher urges Maine voters to elect Graham Platner, despite the candidate’s ‘scary’ issues",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/bill-maher-urges-maine-voters-elect-graham-platner-despite-candidates-scary-issues",
-          "headline": "Bill Maher urges Maine voters to elect Graham Platner, despite the candidate’s ‘scary’ issues",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-13T14:17:10+00:00",
-      "last_seen": "2026-06-13T14:17:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "resonance": 0.051
-    },
-    {
-      "id": "0038fbc261",
-      "title": "Brazil v Morocco: where is the under-16s curfew enforced in France?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/06/13/brazil-v-morocco-where-is-the-under-16s-curfew-enforced-in-france",
-          "headline": "Brazil v Morocco: where is the under-16s curfew enforced in France?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-13T14:16:48+00:00",
-      "last_seen": "2026-06-13T14:16:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
+      "topic": "world",
       "resonance": 0.05
     }
   ],
@@ -1031,32 +1054,185 @@
     {
       "source": "56e770b1dc",
       "target": "40185b4d9c",
-      "weight": 0.107,
+      "weight": 0.105,
       "type": "thematic"
     },
     {
       "source": "fe2f4fef5f",
-      "target": "f235f06919",
-      "weight": 0.18,
+      "target": "83739327e8",
+      "weight": 0.313,
       "type": "thematic"
     },
     {
-      "source": "dac3afafb6",
-      "target": "a27f34bf1e",
-      "weight": 0.279,
+      "source": "fe2f4fef5f",
+      "target": "babecf0ed8",
+      "weight": 0.131,
       "type": "thematic"
     },
     {
-      "source": "40185b4d9c",
-      "target": "f235f06919",
-      "weight": 0.061,
+      "source": "83739327e8",
+      "target": "40185b4d9c",
+      "weight": 0.161,
       "type": "thematic"
     },
     {
-      "source": "024d1a8ba9",
-      "target": "c28eb37aa4",
-      "weight": 0.063,
+      "source": "bba6f2aef2",
+      "target": "9a7cb1e7ca",
+      "weight": 0.009,
+      "type": "thematic"
+    },
+    {
+      "source": "babecf0ed8",
+      "target": "40185b4d9c",
+      "weight": 0.013,
       "type": "thematic"
     }
-  ]
+  ],
+  "sources_status": {
+    "BBC World Service": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "The Guardian World": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "Al Jazeera English": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "BBC News": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "Sky News": {
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    "The Economist": {
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    "NPR News": {
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    "New York Times": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "Washington Post": {
+      "ok": true,
+      "count": 8,
+      "error": null
+    },
+    "The Atlantic": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "Wall Street Journal": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "Fox News": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "Deutsche Welle": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "France 24": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "Le Monde (EN)": {
+      "ok": true,
+      "count": 18,
+      "error": null
+    },
+    "Der Spiegel (EN)": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "Euronews": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "Times of Israel": {
+      "ok": true,
+      "count": 13,
+      "error": null
+    },
+    "Middle East Eye": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "South China Morning Post": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "The Hindu": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "Japan Times": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "ABC Australia": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "El País (EN)": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "TechCrunch": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "The Verge": {
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    "Ars Technica": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    "MIT Tech Review": {
+      "ok": true,
+      "count": 10,
+      "error": null
+    },
+    "WIRED": {
+      "ok": true,
+      "count": 20,
+      "error": null
+    }
+  }
 }

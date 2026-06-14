@@ -1,19 +1,13 @@
 {
-  "generated_at": "2026-06-14T20:05:36.156668+00:00",
+  "generated_at": "2026-06-14T21:51:20.020535+00:00",
   "node_count": 35,
-  "edge_count": 21,
+  "edge_count": 22,
   "nodes": [
     {
       "id": "7bf3a1a6dc",
       "title": "Swiss voters reject 10 million population cap",
-      "signal_count": 6,
+      "signal_count": 4,
       "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-15/swiss-population-cap-referendum-results/106796794",
-          "headline": "Swiss voters set to reject population cap in referendum",
-          "platform": "rss"
-        },
         {
           "outlet": "BBC World Service",
           "url": "https://www.bbc.com/news/articles/c20ygjem17zo?at_medium=RSS&at_campaign=rss",
@@ -37,30 +31,104 @@
           "url": "https://www.scmp.com/news/world/europe/article/3357070/swiss-voters-reject-right-wing-plan-cap-population-10-million?utm_source=rss_feed",
           "headline": "Swiss voters reject right-wing plan to cap population at 10 million",
           "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.025,
+        "spread": 0.109,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T12:58:38+00:00",
+      "last_seen": "2026-06-14T18:23:52+00:00",
+      "platforms": [
+        "rss",
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.7821
+    },
+    {
+      "id": "b4c02b9e5d",
+      "title": "Iran War Live Updates: Trump Announces Cease-Fire Agreement",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/06/14/world/iran-war-trump-us",
+          "headline": "Iran War Live Updates: Trump Announces Cease-Fire Agreement",
+          "platform": "rss"
         },
         {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/swiss-voters-reject-population-cap-proposal/a-77543868?maca=en-rss-en-all-1573-rdf",
-          "headline": "Swiss voters reject population cap proposal",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-15/trump-iran-say-agreement-to-end-war-finalised/106715420",
+          "headline": "Live: Trump says agreement with Iran over end of war is finalised",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/israeli-us-war-iran-over-after-trump-announces-deal-signed",
+          "headline": "Trump announces agreement with Tehran to end US-Israeli war on all fronts",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.05,
-        "spread": 0.096,
-        "left": 0,
-        "center": 6,
+        "mean": -0.217,
+        "spread": 0.085,
+        "left": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T11:19:00+00:00",
-      "last_seen": "2026-06-14T19:20:09+00:00",
+      "first_seen": "2026-06-14T21:37:40+00:00",
+      "last_seen": "2026-06-14T21:50:11+00:00",
       "platforms": [
-        "hackernews",
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.5098
+    },
+    {
+      "id": "d5ebc294e1",
+      "title": "Iran war: Pakistan announces US-Iran peace deal reached",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260614-middle-east-war-live-trump-says-iran-deal-to-be-signed-sunday",
+          "headline": "Pakistan's prime minister says US and Iran have reached ceasefire deal",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-15/pakistan-say-peace-deal-between-us-iran-reached/106735740",
+          "headline": "Breaking: US and Iran have reached peace deal, Pakistan says",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/iran-war-pakistan-announces-us-iran-peace-deal-reached/live-77540182?maca=en-rss-en-all-1573-rdf",
+          "headline": "Iran war: Pakistan announces US-Iran peace deal reached",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:28:00+00:00",
+      "last_seen": "2026-06-14T21:41:47+00:00",
+      "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.9325
+      "resonance": 0.4925
     },
     {
       "id": "cbb2bbd467",
@@ -91,14 +159,54 @@
       "resonance": 0.28
     },
     {
-      "id": "b588c16e82",
-      "title": "No, everyone is not using AI for everything",
+      "id": "791be45c8d",
+      "title": "Skydiving plane crash kills 12 in Missouri",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/14/skydiving-plane-crash-kills-12-in-missouri_6754474_4.html",
+          "headline": "Skydiving plane crash kills 12 in Missouri",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3357085/12-dead-after-plane-skydiving-outing-crashes-missouri-authorities-say?utm_source=rss_feed",
+          "headline": "12 dead after plane on skydiving outing crashes in Missouri, authorities say",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/06/14/nx-s1-5857729/skydiving-plane-crash-missouri",
+          "headline": "12 dead after skydiving plane crashes in Missouri, authorities say",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.083,
+        "spread": 0.131,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T19:49:23+00:00",
+      "last_seen": "2026-06-14T20:43:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.3829
+    },
+    {
+      "id": "a4575c9c39",
+      "title": "Not everyone is using AI for everything",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
           "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "headline": "No, everyone is not using AI for everything",
+          "headline": "Not everyone is using AI for everything",
           "platform": "hackernews"
         }
       ],
@@ -116,7 +224,93 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.28
+      "resonance": 0.2779
+    },
+    {
+      "id": "3467d4f0d7",
+      "title": "Singer Oliver Tree and YouTuber Gaspi among six killed as two helicopters collide in Brazil",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/06/14/singer-oliver-tree-and-youtuber-gaspi-among-six-killed-as-two-helicopters-collide-in-brazi",
+          "headline": "Singer Oliver Tree and YouTuber Gaspi among six killed as two helicopters collide in Brazil",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/14/six-people-killed-as-helicopters-collide-over-brazils-rio-de-janeiro?traffic_source=rss",
+          "headline": "Six people killed as helicopters collide over Brazil’s Rio de Janeiro",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/americas/article/3357082/6-killed-after-helicopters-collide-rio-de-janeiro-crashing-car-park?utm_source=rss_feed",
+          "headline": "6 killed after helicopters collide in Rio de Janeiro, crashing into car park",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.067,
+        "spread": 0.125,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T18:43:49+00:00",
+      "last_seen": "2026-06-14T20:17:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2775
+    },
+    {
+      "id": "338e80ade3",
+      "title": "Germany start 2026 World Cup with win over Curacao",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/germany-vs-curacao-live-score-fifa-world-cup-2026-live-updates/article71101921.ece",
+          "headline": "FIFA World Cup 2026 highlights | Germany vs Curaçao LIVE updates: Germany thrash Curacao 7-1",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260614-world-cup-2026-german-giants-overpower-tournament-debutant-cura%C3%A7ao",
+          "headline": "World Cup 2026: Germany overpower tournament debutant Curaçao",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/germany-start-2026-world-cup-with-win-over-curacao/a-77538843?maca=en-rss-en-all-1573-rdf",
+          "headline": "Germany start 2026 World Cup with win over Curacao",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/06/14/football-curacao-scores-its-first-ever-fifa-world-cup-goal-equalising-against-germany",
+          "headline": "Germany wins 7-1 after Curaçao scores its first-ever FIFA World Cup goal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T17:41:35+00:00",
+      "last_seen": "2026-06-14T19:11:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.2745
     },
     {
       "id": "9af90e34f8",
@@ -150,201 +344,25 @@
         "right": 1
       },
       "first_seen": "2026-06-14T18:27:12+00:00",
-      "last_seen": "2026-06-14T19:45:10+00:00",
+      "last_seen": "2026-06-14T20:32:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.3126
+      "resonance": 0.2643
     },
     {
-      "id": "338e80ade3",
-      "title": "Germany start 2026 World Cup with win over Curacao",
+      "id": "98c272bc39",
+      "title": "Protesters clash with police ahead of G7 summit in Geneva",
       "signal_count": 3,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/germany-vs-curacao-live-score-fifa-world-cup-2026-live-updates/article71101921.ece",
-          "headline": "FIFA World Cup 2026 highlights | Germany vs Curaçao LIVE updates: Germany thrash Curacao 7-1",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.com/news/videos/crkvek3dnrgo?at_medium=RSS&at_campaign=rss",
+          "headline": "Protesters clash with police ahead of G7 summit in Geneva",
           "platform": "rss"
         },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260614-world-cup-2026-german-giants-overpower-tournament-debutant-cura%C3%A7ao",
-          "headline": "World Cup 2026: Germany overpower tournament debutant Curaçao",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/germany-start-2026-world-cup-with-win-over-curacao/a-77538843?maca=en-rss-en-all-1573-rdf",
-          "headline": "Germany start 2026 World Cup with win over Curacao",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T19:00:00+00:00",
-      "last_seen": "2026-06-14T19:11:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.2896
-    },
-    {
-      "id": "822b2a570a",
-      "title": "How to earn a billion dollars",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://paulgraham.com/earn.html",
-          "headline": "How to earn a billion dollars",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T11:50:48+00:00",
-      "last_seen": "2026-06-14T11:50:48+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1869
-    },
-    {
-      "id": "d0e849510d",
-      "title": "Putin and Zelensky hold separate calls with Trump on his birthday",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3357081/putin-and-zelensky-hold-phone-calls-trump-us-president-marks-his-80th-birthday?utm_source=rss_feed",
-          "headline": "Putin and Zelensky hold phone calls with Trump as US president marks his 80th birthday",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260614-putin-zelensky-separate-phonecalls-trump-birthday-ukraine-war-russia-president",
-          "headline": "Putin and Zelensky hold separate calls with Trump on his birthday",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.1,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T18:03:46+00:00",
-      "last_seen": "2026-06-14T18:16:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1262
-    },
-    {
-      "id": "772def8278",
-      "title": "Royal Marines board Russian shadow fleet oil tanker in English Channel",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/clyek039l2vo?at_medium=RSS&at_campaign=rss",
-          "headline": "Royal Marines board Russian shadow fleet oil tanker in English Channel",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/uk-seizes-suspected-russian-shadow-fleet-tanker/a-77545832?maca=en-rss-en-all-1573-rdf",
-          "headline": "UK seizes suspected Russian shadow fleet tanker",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260614-uk-intercepts-russian-shadow-fleet-vessel-in-channel-ministry",
-          "headline": "UK intercepts Russian shadow fleet vessel in Channel: ministry",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/14/world/europe/uk-russia-shadow-fleet-oil-tanker-channel.html",
-          "headline": "UK Forces Seize Russian Shadow Fleet Oil Tanker",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.087,
-        "left": 1,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T13:42:53+00:00",
-      "last_seen": "2026-06-14T17:25:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1246
-    },
-    {
-      "id": "d104016377",
-      "title": "FIFA World Cup 2026 | Netherlands vs Japan LIVE updates: Group F match gets underway",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/netherlands-vs-japan-live-score-fifa-world-cup-2026-live-match-updates/article71102318.ece",
-          "headline": "FIFA World Cup 2026 | Netherlands vs Japan LIVE updates: Group F match gets underway",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/6/14/netherlands-vs-japan-live-world-cup-2026?traffic_source=rss",
-          "headline": "LIVE: Netherlands vs Japan – World Cup 2026",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T16:04:44+00:00",
-      "last_seen": "2026-06-14T19:51:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1195
-    },
-    {
-      "id": "d23b68b5f6",
-      "title": "Police fire tear gas at anti-G7 protesters in Geneva",
-      "signal_count": 2,
-      "sources": [
         {
           "outlet": "Deutsche Welle",
           "url": "https://www.dw.com/en/police-fire-tear-gas-at-anti-g7-protesters-in-geneva/a-77548464?maca=en-rss-en-all-1573-rdf",
@@ -359,116 +377,20 @@
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
+        "mean": -0.067,
+        "spread": 0.047,
         "left": 0,
-        "center": 2,
+        "center": 3,
         "right": 0
       },
       "first_seen": "2026-06-14T17:03:36+00:00",
-      "last_seen": "2026-06-14T18:14:00+00:00",
+      "last_seen": "2026-06-14T19:46:36+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "society",
-      "resonance": 0.1125
-    },
-    {
-      "id": "36703b1f86",
-      "title": "Trump condemns Israel’s attack on Beirut, says Iran deal still close",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-condemns-israeli-beirut-strike-terrorist-crime",
-          "headline": "Iran condemns Israeli Beirut strike as ‘terrorist crime’",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-chief-condemns-israeli-attack-beirut",
-          "headline": "UN chief condemns Israeli attack on Beirut",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/14/trump-condemns-israel-attack-on-beirut-says-iran-deal-still-close?traffic_source=rss",
-          "headline": "Trump condemns Israel’s attack on Beirut, says Iran deal still close",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.233,
-        "spread": 0.024,
-        "left": 2,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T15:22:36+00:00",
-      "last_seen": "2026-06-14T19:52:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1088
-    },
-    {
-      "id": "ea928c42e9",
-      "title": "Iran War Live Updates: Trump Calls for Restraint After Israel Strikes Beirut Suburbs",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/14/world/iran-war-trump-us",
-          "headline": "Iran War Live Updates: Trump Calls for Restraint After Israel Strikes Beirut Suburbs",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T20:02:57+00:00",
-      "last_seen": "2026-06-14T20:02:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0908
-    },
-    {
-      "id": "1287a8de0d",
-      "title": "In Israel, Broad Discontent Over the Emerging U.S. Deal With Iran",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/14/world/middleeast/israel-us-iran-deal.html",
-          "headline": "In Israel, Broad Discontent Over the Emerging U.S. Deal With Iran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T20:02:55+00:00",
-      "last_seen": "2026-06-14T20:02:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0908
+      "resonance": 0.16
     },
     {
       "id": "ed0d3b6fe1",
@@ -489,64 +411,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-14T20:02:08+00:00",
-      "last_seen": "2026-06-14T20:02:08+00:00",
+      "first_seen": "2026-06-14T21:45:08+00:00",
+      "last_seen": "2026-06-14T21:45:08+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0899
+      "resonance": 0.1148
     },
     {
-      "id": "a428ae4e9f",
-      "title": "Trump insists Iran deal 'hours' away, despite Israeli strike on Beirut",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/14/trump-insists-iran-deal-hours-away-despite-israeli-strike-on-beirut_6754472_4.html",
-          "headline": "Trump insists Iran deal 'hours' away, despite Israeli strike on Beirut",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-israeli-strike-delayed-us-iran-deal-hours",
-          "headline": "Trump says Israeli strike delayed US-Iran deal by hours",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-iran-deal-expected-within-hours",
-          "headline": "Trump says Iran deal expected within hours",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.233,
-        "spread": 0.024,
-        "left": 2,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T16:29:56+00:00",
-      "last_seen": "2026-06-14T18:44:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.087
-    },
-    {
-      "id": "76e9723662",
-      "title": "Farage vows to ban foreign nationals from social housing",
+      "id": "82a1a71176",
+      "title": "Assisted dying returns to parliament as MP urges peers to 'finish the job'",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cdjkd4mp93zo?at_medium=RSS&at_campaign=rss",
-          "headline": "Farage vows to ban foreign nationals from social housing",
+          "url": "https://www.bbc.com/news/articles/c4gyxgwkyxyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Assisted dying returns to parliament as MP urges peers to 'finish the job'",
           "platform": "rss"
         }
       ],
@@ -557,120 +439,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T19:57:28+00:00",
-      "last_seen": "2026-06-14T19:57:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0845
-    },
-    {
-      "id": "af9bb1c180",
-      "title": "12 dead after skydiving plane crashes in Missouri, authorities say",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/06/14/nx-s1-5857729/skydiving-plane-crash-missouri",
-          "headline": "12 dead after skydiving plane crashes in Missouri, authorities say",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T19:49:23+00:00",
-      "last_seen": "2026-06-14T19:49:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0754
-    },
-    {
-      "id": "87dd45f7ba",
-      "title": "Watch: Protesters clash with police ahead of G7 summit in Geneva",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/videos/crkvek3dnrgo?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: Protesters clash with police ahead of G7 summit in Geneva",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T19:46:36+00:00",
-      "last_seen": "2026-06-14T19:46:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0723
-    },
-    {
-      "id": "6383b40e43",
-      "title": "Israel welcomes Somaliland president in ‘historic’ visit",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/14/israel-welcomes-somaliland-president-in-historic-visit?traffic_source=rss",
-          "headline": "Israel welcomes Somaliland president in ‘historic’ visit",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/somaliland-president-meets-israeli-counterpart-first-visit-jerusalem",
-          "headline": "Somaliland president meets Israeli counterpart in first Jerusalem visit",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/somalilands-president-visits-israel-first-time",
-          "headline": "Somaliland's president visits Israel for the first time",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.233,
-        "spread": 0.024,
-        "left": 2,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T14:23:58+00:00",
-      "last_seen": "2026-06-14T19:23:04+00:00",
+      "first_seen": "2026-06-14T21:43:48+00:00",
+      "last_seen": "2026-06-14T21:43:48+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.0688
+      "resonance": 0.1127
     },
     {
-      "id": "d07a711fe1",
-      "title": "Four held in Tughlakabad fire; an ‘act of arson’: police",
+      "id": "5649e3bb5f",
+      "title": "Roy Hattersley, former Labour deputy leader, dies aged 93",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/todays-paper/tp-national/tp-newdelhi/four-held-in-tughlakabad-fire-an-act-of-arson-police/article71102372.ece",
-          "headline": "Four held in Tughlakabad fire; an ‘act of arson’: police",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cvgq1egykr9o?at_medium=RSS&at_campaign=rss",
+          "headline": "Roy Hattersley, former Labour deputy leader, dies aged 93",
           "platform": "rss"
         }
       ],
@@ -681,52 +467,136 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T19:40:59+00:00",
-      "last_seen": "2026-06-14T19:40:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0661
-    },
-    {
-      "id": "268e909fd5",
-      "title": "The ‘seven-point IQ opportunity’ for Indian children",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/opinion/op-ed/the-seven-point-iq-opportunity-for-indian-children/article71101819.ece",
-          "headline": "The ‘seven-point IQ opportunity’ for Indian children",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T19:40:49+00:00",
-      "last_seen": "2026-06-14T19:40:49+00:00",
+      "first_seen": "2026-06-14T21:39:02+00:00",
+      "last_seen": "2026-06-14T21:39:02+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0659
+      "resonance": 0.1049
     },
     {
-      "id": "b7062b3328",
-      "title": "US Senator Mitch McConnell admitted to hospital for second time this year, spokesman says",
+      "id": "fb5828bc01",
+      "title": "De Minaur falls short in Dutch ATP final as Wimbledon preparation continues",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-15/alex-de-minaur-runner-up-in-he-rosmalen-championships/106797572",
+          "headline": "De Minaur falls short in Dutch ATP final as Wimbledon preparation continues",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:35:41+00:00",
+      "last_seen": "2026-06-14T21:35:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0995
+    },
+    {
+      "id": "d279b44f76",
+      "title": "India beat Pakistan by 64 runs to open Women’s T20 World Cup campaign",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/6/14/india-beat-pakistan-by-64-runs-to-open-womens-t20-world-cup-campaign?traffic_source=rss",
+          "headline": "India beat Pakistan by 64 runs to open Women’s T20 World Cup campaign",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:34:29+00:00",
+      "last_seen": "2026-06-14T21:34:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0976
+    },
+    {
+      "id": "35d2b85b74",
+      "title": "'Let them talk': Socceroos hero bites back at claim Türkiye 'dominated'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-15/world-cup-socceroos-nestory-irankunda-respond-turkiye-dominated/106797546",
+          "headline": "'Let them talk': Socceroos hero bites back at claim Türkiye 'dominated'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:33:18+00:00",
+      "last_seen": "2026-06-14T21:33:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0957
+    },
+    {
+      "id": "12b2856a6f",
+      "title": "New social media restrictions will end 'system failing our kids', PM says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cly7njlw95qo?at_medium=RSS&at_campaign=rss",
+          "headline": "New social media restrictions will end 'system failing our kids', PM says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:32:21+00:00",
+      "last_seen": "2026-06-14T21:32:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0942
+    },
+    {
+      "id": "95f5da0ac5",
+      "title": "Time for US wishful thinking on North Korean denuclearisation is over",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3357084/us-senator-mitch-mcconnell-admitted-hospital-second-time-year-spokesman-says?utm_source=rss_feed",
-          "headline": "US Senator Mitch McConnell admitted to hospital for second time this year, spokesman says",
+          "url": "https://www.scmp.com/opinion/asia-opinion/article/3356668/time-us-wishful-thinking-north-korean-denuclearisation-over?utm_source=rss_feed",
+          "headline": "Time for US wishful thinking on North Korean denuclearisation is over",
           "platform": "rss"
         }
       ],
@@ -737,24 +607,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T19:40:18+00:00",
-      "last_seen": "2026-06-14T19:40:18+00:00",
+      "first_seen": "2026-06-14T21:30:05+00:00",
+      "last_seen": "2026-06-14T21:30:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.0653
+      "topic": "world",
+      "resonance": 0.0906
     },
     {
-      "id": "1249717f45",
-      "title": "VCs attending RSS event is unacceptable, says Minister",
+      "id": "851ee361fd",
+      "title": "Roy Hattersley: Labour politician who helped start the party's modernisation",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/vcs-attending-rss-event-is-unacceptable-says-minister/article71101980.ece",
-          "headline": "VCs attending RSS event is unacceptable, says Minister",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c7224g41x1po?at_medium=RSS&at_campaign=rss",
+          "headline": "Roy Hattersley: Labour politician who helped start the party's modernisation",
           "platform": "rss"
         }
       ],
@@ -765,80 +635,164 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T19:39:04+00:00",
-      "last_seen": "2026-06-14T19:39:04+00:00",
+      "first_seen": "2026-06-14T21:29:25+00:00",
+      "last_seen": "2026-06-14T21:29:25+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.064
+      "resonance": 0.0896
     },
     {
-      "id": "028b046cef",
-      "title": "Trump says Netanyahu ‘has no f**king judgment’ after Beirut strike – report",
+      "id": "fbbf88a16b",
+      "title": "UK anti-Islam activist Tommy Robinson says he was detained under terrorism laws",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/trump-says-netanyahu-has-no-fking-judgment-after-beirut-strike-report/",
-          "headline": "Trump says Netanyahu ‘has no f**king judgment’ after Beirut strike – report",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3357086/uk-anti-islam-activist-tommy-robinson-says-he-was-detained-under-terrorism-laws?utm_source=rss_feed",
+          "headline": "UK anti-Islam activist Tommy Robinson says he was detained under terrorism laws",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.05,
+        "mean": 0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T19:38:51+00:00",
-      "last_seen": "2026-06-14T19:38:51+00:00",
+      "first_seen": "2026-06-14T21:28:50+00:00",
+      "last_seen": "2026-06-14T21:28:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0887
+    },
+    {
+      "id": "2b9bef6188",
+      "title": "Pakistan says US-Iran deal ends war on all fronts",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-says-us-iran-deal-ends-war-all-fronts",
+          "headline": "Pakistan says US-Iran deal ends war on all fronts",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:28:26+00:00",
+      "last_seen": "2026-06-14T21:28:26+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0637
+      "resonance": 0.088
     },
     {
-      "id": "f40e15671a",
-      "title": "Lewis Hamilton wins first F1 race with Ferrari in Barcelona",
+      "id": "64401f39fd",
+      "title": "The Athletic bewilderingly celebrates 'Zohran Mamdani sports summer' after New York Knicks win NBA Finals",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/6/14/lewis-hamilton-wins-first-f1-race-with-ferrari-in-barcelona?traffic_source=rss",
-          "headline": "Lewis Hamilton wins first F1 race with Ferrari in Barcelona",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/athletic-bewilderingly-celebrates-zohran-mamdani-sports-summer-new-york-knicks-win-nba-finals",
+          "headline": "The Athletic bewilderingly celebrates 'Zohran Mamdani sports summer' after New York Knicks win NBA Finals",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.2,
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-14T21:28:22+00:00",
+      "last_seen": "2026-06-14T21:28:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0879
+    },
+    {
+      "id": "84b0176f41",
+      "title": "FIFA World Cup 2026 | Netherlands vs Japan LIVE updates: Netherlands, Japan score 1 each",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/netherlands-vs-japan-live-score-fifa-world-cup-2026-live-match-updates/article71102318.ece",
+          "headline": "FIFA World Cup 2026 | Netherlands vs Japan LIVE updates: Netherlands, Japan score 1 each",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T19:37:30+00:00",
-      "last_seen": "2026-06-14T19:37:30+00:00",
+      "first_seen": "2026-06-14T21:26:53+00:00",
+      "last_seen": "2026-06-14T21:26:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0856
+    },
+    {
+      "id": "43a1ea6188",
+      "title": "Trump says US has agreed to Iran deal, WSJ reports",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-us-has-agreed-iran-deal-wsj-reports",
+          "headline": "Trump says US has agreed to Iran deal, WSJ reports",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:23:45+00:00",
+      "last_seen": "2026-06-14T21:23:45+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0622
+      "resonance": 0.0807
     },
     {
-      "id": "0c7c1ff923",
-      "title": "The president, the billionaires and the news",
+      "id": "c0960cf207",
+      "title": "LIVE: Ilia Topuria vs Justin Gaethje title fight at UFC Freedom 250",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/the-listening-post/2026/6/14/the-president-the-billionaires-and-the-news?traffic_source=rss",
-          "headline": "The president, the billionaires and the news",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/6/14/live-ilia-topuria-vs-justin-gaethje-title-fight-at-ufc-freedom-250?traffic_source=rss",
+          "headline": "LIVE: Ilia Topuria vs Justin Gaethje title fight at UFC Freedom 250",
           "platform": "rss"
         }
       ],
@@ -849,24 +803,192 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T19:36:39+00:00",
-      "last_seen": "2026-06-14T19:36:39+00:00",
+      "first_seen": "2026-06-14T21:21:43+00:00",
+      "last_seen": "2026-06-14T21:21:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0776
+    },
+    {
+      "id": "d1d99c8163",
+      "title": "Manuel Neuer: The aura of a record-breaking goalkeeper",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/manuel-neuer-the-aura-of-a-record-breaking-goalkeeper/a-77538894?maca=en-rss-en-all-1573-rdf",
+          "headline": "Manuel Neuer: The aura of a record-breaking goalkeeper",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:20:00+00:00",
+      "last_seen": "2026-06-14T21:20:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0749
+    },
+    {
+      "id": "4de09d5d3f",
+      "title": "Chemicals in Antarctic huts pose 'potential explosive' risk",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-15/explosive-hazards-at-shackleton-and-scotts-huts-antarctica/106793256",
+          "headline": "Chemicals in Antarctic huts pose 'potential explosive' risk",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:19:42+00:00",
+      "last_seen": "2026-06-14T21:19:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0744
+    },
+    {
+      "id": "482b593f8b",
+      "title": "PM Modi arrives in Slovakia for second leg of his two-nation visit",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/pm-modi-arrives-in-slovakia-for-second-leg-of-his-two-nation-visit/article71102393.ece",
+          "headline": "PM Modi arrives in Slovakia for second leg of his two-nation visit",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:17:44+00:00",
+      "last_seen": "2026-06-14T21:17:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0714
+    },
+    {
+      "id": "474112ae8a",
+      "title": "Khamenei's 'target-rich' funeral is Iran’s biggest security gamble, sends message to US: expert",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/khameneis-target-rich-funeral-irans-biggest-security-gamble-sends-message-us-expert",
+          "headline": "Khamenei's 'target-rich' funeral is Iran’s biggest security gamble, sends message to US: expert",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-14T21:16:01+00:00",
+      "last_seen": "2026-06-14T21:16:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0688
+    },
+    {
+      "id": "05487994e9",
+      "title": "Woman dies in rope jump fall in Brazil",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-15/woman-dies-in-rope-jump-fall-brazil/106797514",
+          "headline": "Woman dies in rope jump fall in Brazil",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:15:57+00:00",
+      "last_seen": "2026-06-14T21:15:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0687
+    },
+    {
+      "id": "1ee02c4c03",
+      "title": "Live: Joyce says he's not worried Hanson reportedly could want daughter as party leader",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-15/federal-politics-live-blog-barnaby-joyce/106797478",
+          "headline": "Live: Joyce says he's not worried Hanson reportedly could want daughter as party leader",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:15:53+00:00",
+      "last_seen": "2026-06-14T21:15:53+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.0613
+      "resonance": 0.0686
     },
     {
-      "id": "a9e5bde045",
-      "title": "Israel Strikes Beirut Outskirts as Fighting With Hezbollah Escalates",
+      "id": "f795d59d15",
+      "title": "War and the World Cup",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/14/world/middleeast/israel-strikes-beirut-hezbollah.html",
-          "headline": "Israel Strikes Beirut Outskirts as Fighting With Hezbollah Escalates",
+          "url": "https://www.nytimes.com/2026/06/14/world/world-cup-iran-lebanon-trump-birthday.html",
+          "headline": "War and the World Cup",
           "platform": "rss"
         }
       ],
@@ -877,19 +999,47 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-14T19:35:51+00:00",
-      "last_seen": "2026-06-14T19:35:51+00:00",
+      "first_seen": "2026-06-14T21:11:16+00:00",
+      "last_seen": "2026-06-14T21:11:16+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0604
+      "resonance": 0.0616
     },
     {
-      "id": "f7b3d556ac",
-      "title": "Thousands protest as Trump, other world leaders set to meet for G7 summit",
-      "signal_count": 2,
+      "id": "1287a8de0d",
+      "title": "In Israel, Broad Discontent Over the Emerging U.S. Deal With Iran",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/14/world/middleeast/israel-us-iran-deal.html",
+          "headline": "In Israel, Broad Discontent Over the Emerging U.S. Deal With Iran",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:06:48+00:00",
+      "last_seen": "2026-06-14T21:06:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0549
+    },
+    {
+      "id": "b0ea623e49",
+      "title": "Clashes as thousands protest in Geneva ahead of G7 in neighboring France",
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "South China Morning Post",
@@ -902,33 +1052,39 @@
           "url": "https://www.aljazeera.com/news/2026/6/14/thousands-protest-as-trump-other-world-leaders-set-to-meet-for-g7-summit?traffic_source=rss",
           "headline": "Thousands protest as Trump, other world leaders set to meet for G7 summit",
           "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/14/thousands-protest-in-geneva-ahead-of-g7-in-neighboring-france_6754467_4.html",
+          "headline": "Clashes as thousands protest in Geneva ahead of G7 in neighboring France",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.05,
-        "spread": 0.15,
+        "mean": -0.1,
+        "spread": 0.141,
         "left": 0,
-        "center": 2,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-06-14T16:49:25+00:00",
+      "first_seen": "2026-06-14T16:02:09+00:00",
       "last_seen": "2026-06-14T17:08:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "society",
-      "resonance": 0.0591
+      "resonance": 0.0518
     },
     {
-      "id": "27fa4f9218",
-      "title": "Iran says flights continue as normal across the country",
+      "id": "228e7a4902",
+      "title": "Trump says Strait of Hormuz will reopen ‘very shortly’",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-flights-continue-normal-across-country",
-          "headline": "Iran says flights continue as normal across the country",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-strait-hormuz-will-reopen-very-shortly",
+          "headline": "Trump says Strait of Hormuz will reopen ‘very shortly’",
           "platform": "rss"
         }
       ],
@@ -939,315 +1095,147 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-14T19:33:53+00:00",
-      "last_seen": "2026-06-14T19:33:53+00:00",
+      "first_seen": "2026-06-14T21:03:32+00:00",
+      "last_seen": "2026-06-14T21:03:32+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0583
-    },
-    {
-      "id": "61bd986ec1",
-      "title": "When Irankunda ran to the corner to emulate Cahill, it was a pre-planned tribute",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-15/nestory-irankunda-knew-how-he-was-going-to-celebrate/106797358",
-          "headline": "When Irankunda ran to the corner to emulate Cahill, it was a pre-planned tribute",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T19:32:25+00:00",
-      "last_seen": "2026-06-14T19:32:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0567
-    },
-    {
-      "id": "cbe35563a1",
-      "title": "Thunderstorms threaten Trump's UFC cage fight on the White House lawn",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/c892xnwg5vlo?at_medium=RSS&at_campaign=rss",
-          "headline": "Thunderstorms threaten Trump's UFC cage fight on the White House lawn",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260614-donald-trump-turns-80-and-celebrates-with-ufc-cage-fighting-on-the-white-house-lawn",
-          "headline": "Donald Trump turns 80 and celebrates with UFC cage fighting on the White House lawn",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T15:57:13+00:00",
-      "last_seen": "2026-06-14T18:09:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0528
-    },
-    {
-      "id": "c75d3a1159",
-      "title": "Stalked, intimidated, but Annie couldn't break her lease without paying",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-15/tas-breaking-a-lease-when-safety-is-at-risk/106773368",
-          "headline": "Stalked, intimidated, but Annie couldn't break her lease without paying",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T19:28:16+00:00",
-      "last_seen": "2026-06-14T19:28:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0523
-    },
-    {
-      "id": "2e27e68168",
-      "title": "India, France adopt Innovation Roadmap 2030, Economic Security Dialogue",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/india-france-adopt-innovation-roadmap-2030-economic-security-dialogue/article71102259.ece",
-          "headline": "India, France adopt Innovation Roadmap 2030, Economic Security Dialogue",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T19:27:20+00:00",
-      "last_seen": "2026-06-14T19:27:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0513
-    },
-    {
-      "id": "76e4c55799",
-      "title": "​Series of gaps: on underreporting of child sexual abuse",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/opinion/editorial/series-of-gaps-on-underreporting-of-child-sexual-abuse/article71101211.ece",
-          "headline": "​Series of gaps: on underreporting of child sexual abuse",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T19:26:15+00:00",
-      "last_seen": "2026-06-14T19:26:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0501
-    },
-    {
-      "id": "f7f90731a3",
-      "title": "Germany hit Curacao for seven to open their World Cup",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/6/14/germany-hit-curacao-for-seven-to-open-their-world-cup?traffic_source=rss",
-          "headline": "Germany hit Curacao for seven to open their World Cup",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T19:26:07+00:00",
-      "last_seen": "2026-06-14T19:26:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
+      "topic": "tech",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "cbb2bbd467",
-      "target": "338e80ade3",
-      "weight": 0.035,
+      "source": "b4c02b9e5d",
+      "target": "d5ebc294e1",
+      "weight": 0.73,
       "type": "thematic"
     },
     {
-      "source": "9af90e34f8",
-      "target": "af9bb1c180",
-      "weight": 0.043,
+      "source": "b4c02b9e5d",
+      "target": "2b9bef6188",
+      "weight": 0.184,
+      "type": "thematic"
+    },
+    {
+      "source": "b4c02b9e5d",
+      "target": "84b0176f41",
+      "weight": 0.018,
+      "type": "thematic"
+    },
+    {
+      "source": "b4c02b9e5d",
+      "target": "43a1ea6188",
+      "weight": 0.21,
+      "type": "thematic"
+    },
+    {
+      "source": "b4c02b9e5d",
+      "target": "f795d59d15",
+      "weight": 0.1,
+      "type": "thematic"
+    },
+    {
+      "source": "d5ebc294e1",
+      "target": "43a1ea6188",
+      "weight": 0.471,
+      "type": "thematic"
+    },
+    {
+      "source": "d5ebc294e1",
+      "target": "f795d59d15",
+      "weight": 0.119,
+      "type": "thematic"
+    },
+    {
+      "source": "d5ebc294e1",
+      "target": "1287a8de0d",
+      "weight": 0.439,
+      "type": "thematic"
+    },
+    {
+      "source": "cbb2bbd467",
+      "target": "338e80ade3",
+      "weight": 0.039,
+      "type": "thematic"
+    },
+    {
+      "source": "791be45c8d",
+      "target": "9af90e34f8",
+      "weight": 0.772,
       "type": "thematic"
     },
     {
       "source": "338e80ade3",
-      "target": "d104016377",
-      "weight": 0.404,
+      "target": "d279b44f76",
+      "weight": 0.101,
       "type": "thematic"
     },
     {
-      "source": "d0e849510d",
-      "target": "ea928c42e9",
-      "weight": 0.066,
+      "source": "338e80ade3",
+      "target": "84b0176f41",
+      "weight": 0.276,
       "type": "thematic"
     },
     {
-      "source": "d104016377",
-      "target": "ea928c42e9",
-      "weight": 0.118,
+      "source": "338e80ade3",
+      "target": "f795d59d15",
+      "weight": 0.851,
       "type": "thematic"
     },
     {
-      "source": "d104016377",
-      "target": "f7f90731a3",
-      "weight": 0.037,
+      "source": "98c272bc39",
+      "target": "b0ea623e49",
+      "weight": 0.442,
       "type": "thematic"
     },
     {
-      "source": "d23b68b5f6",
-      "target": "87dd45f7ba",
-      "weight": 0.839,
+      "source": "5649e3bb5f",
+      "target": "851ee361fd",
+      "weight": 0.726,
       "type": "thematic"
     },
     {
-      "source": "d23b68b5f6",
-      "target": "d07a711fe1",
-      "weight": 0.341,
+      "source": "d279b44f76",
+      "target": "f795d59d15",
+      "weight": 0.56,
       "type": "thematic"
     },
     {
-      "source": "36703b1f86",
-      "target": "ea928c42e9",
-      "weight": 0.45,
+      "source": "2b9bef6188",
+      "target": "43a1ea6188",
+      "weight": 0.327,
       "type": "thematic"
     },
     {
-      "source": "36703b1f86",
+      "source": "2b9bef6188",
+      "target": "f795d59d15",
+      "weight": 0.26,
+      "type": "thematic"
+    },
+    {
+      "source": "2b9bef6188",
       "target": "1287a8de0d",
-      "weight": 0.59,
+      "weight": 0.3,
       "type": "thematic"
     },
     {
-      "source": "36703b1f86",
-      "target": "a428ae4e9f",
-      "weight": 0.544,
+      "source": "84b0176f41",
+      "target": "f795d59d15",
+      "weight": 0.367,
       "type": "thematic"
     },
     {
-      "source": "36703b1f86",
-      "target": "028b046cef",
-      "weight": 0.092,
-      "type": "thematic"
-    },
-    {
-      "source": "36703b1f86",
-      "target": "a9e5bde045",
-      "weight": 0.091,
-      "type": "thematic"
-    },
-    {
-      "source": "ea928c42e9",
+      "source": "43a1ea6188",
       "target": "1287a8de0d",
-      "weight": 0.093,
+      "weight": 0.264,
       "type": "thematic"
     },
     {
-      "source": "ea928c42e9",
-      "target": "a428ae4e9f",
-      "weight": 0.141,
-      "type": "thematic"
-    },
-    {
-      "source": "ea928c42e9",
-      "target": "028b046cef",
-      "weight": 0.034,
-      "type": "thematic"
-    },
-    {
-      "source": "ea928c42e9",
-      "target": "a9e5bde045",
-      "weight": 0.448,
-      "type": "thematic"
-    },
-    {
-      "source": "1287a8de0d",
-      "target": "a428ae4e9f",
-      "weight": 0.196,
-      "type": "thematic"
-    },
-    {
-      "source": "a428ae4e9f",
-      "target": "028b046cef",
-      "weight": 0.51,
-      "type": "thematic"
-    },
-    {
-      "source": "6383b40e43",
-      "target": "0c7c1ff923",
-      "weight": 0.242,
-      "type": "thematic"
-    },
-    {
-      "source": "268e909fd5",
-      "target": "f7f90731a3",
-      "weight": 0.006,
+      "source": "43a1ea6188",
+      "target": "228e7a4902",
+      "weight": 0.014,
       "type": "thematic"
     }
   ],

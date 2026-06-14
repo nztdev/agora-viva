@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-14T23:06:42.356619+00:00",
+  "generated_at": "2026-06-14T23:41:16.946854+00:00",
   "node_count": 35,
-  "edge_count": 31,
+  "edge_count": 19,
   "nodes": [
     {
       "id": "e91e4141a3",
@@ -60,96 +60,16 @@
       "resonance": 0.28
     },
     {
-      "id": "d5ebc294e1",
-      "title": "Iran war: Pakistan announces US-Iran peace deal reached",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/iran-war-pakistan-announces-us-iran-peace-deal-reached/live-77540182?maca=en-rss-en-all-1573-rdf",
-          "headline": "Iran war: Pakistan announces US-Iran peace deal reached",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3357088/us-pakistan-announce-peace-deal-iran-complete?utm_source=rss_feed",
-          "headline": "US, Pakistan announce peace deal with Iran is ‘complete’",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260614-middle-east-war-live-trump-says-iran-deal-to-be-signed-sunday",
-          "headline": "Pakistan's prime minister says US and Iran have reached ceasefire deal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.033,
-        "spread": 0.094,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T21:41:47+00:00",
-      "last_seen": "2026-06-14T22:31:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.4212
-    },
-    {
-      "id": "b3b0de1d9d",
-      "title": "Japan strikes late to earn thrilling draw with Netherlands in World Cup opener",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/6/14/japan-deny-netherlands-by-fighting-back-twice-in-world-cup-opener?traffic_source=rss",
-          "headline": "Japan deny Netherlands by fighting back twice in World Cup opener",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/netherlands-vs-japan-live-score-fifa-world-cup-2026-live-match-updates/article71102318.ece",
-          "headline": "FIFA World Cup 2026 | Netherlands vs Japan highlights: Japan battle back to draw 2-2 with Netherlands",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/japan-battle-back-to-draw-2-2-with-netherlands-in-texas-thriller/article71102538.ece",
-          "headline": "Japan battle back to draw 2-2 with Netherlands in Texas thriller",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/sports/2026/06/15/soccer/world-cup/japan-netherlands-world-cup/",
-          "headline": "Japan strikes late to earn thrilling draw with Netherlands in World Cup opener",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.071,
-        "left": 0,
-        "center": 4,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T21:54:00+00:00",
-      "last_seen": "2026-06-14T22:16:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.3932
-    },
-    {
       "id": "cead18fe31",
       "title": "U.S. singer Oliver Tree among six killed in helicopter crash in Brazil",
-      "signal_count": 5,
+      "signal_count": 6,
       "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/singer-oliver-tree-presumed-dead-after-helicopter-collision-rio-de-janeiro-brazil",
+          "headline": "Singer Oliver Tree presumed dead after helicopter collision in Rio de Janeiro, Brazil",
+          "platform": "rss"
+        },
         {
           "outlet": "Washington Post",
           "url": "https://www.washingtonpost.com/world/2026/06/14/us-singer-oliver-tree-among-six-killed-helicopter-crash-brazil/",
@@ -182,26 +102,32 @@
         }
       ],
       "bias": {
-        "mean": -0.14,
-        "spread": 0.15,
+        "mean": -0.017,
+        "spread": 0.308,
         "left": 2,
         "center": 3,
-        "right": 0
+        "right": 1
       },
       "first_seen": "2026-06-14T16:21:12+00:00",
-      "last_seen": "2026-06-14T22:17:16+00:00",
+      "last_seen": "2026-06-14T23:13:19+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.3677
+      "resonance": 0.4678
     },
     {
       "id": "86ea1ca3e1",
       "title": "The U.S. and Iran announce a deal to end the war",
-      "signal_count": 7,
+      "signal_count": 8,
       "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/us-iran-reach-deal-to-end-war",
+          "headline": "US, Iran reach deal to end war",
+          "platform": "rss"
+        },
         {
           "outlet": "NPR News",
           "url": "https://www.npr.org/2026/06/14/nx-s1-5858099/us-iran-trump-deal-end-war-hormuz",
@@ -246,20 +172,66 @@
         }
       ],
       "bias": {
-        "mean": -0.207,
-        "spread": 0.056,
+        "mean": -0.194,
+        "spread": 0.063,
         "left": 4,
-        "center": 3,
+        "center": 4,
         "right": 0
       },
       "first_seen": "2026-06-14T18:44:06+00:00",
-      "last_seen": "2026-06-14T22:30:42+00:00",
+      "last_seen": "2026-06-14T23:29:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.358
+      "resonance": 0.4654
+    },
+    {
+      "id": "3673b4cba3",
+      "title": "Japan come from behind twice to draw with Netherlands",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/sport/football/videos/cnv9dzl62g6o?at_medium=RSS&at_campaign=rss",
+          "headline": "Japan come from behind twice to draw with Netherlands",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/netherlands-vs-japan-live-score-fifa-world-cup-2026-live-match-updates/article71102318.ece",
+          "headline": "FIFA World Cup 2026 | Netherlands vs Japan highlights: Japan battle back to draw 2-2 with Netherlands",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/japan-battle-back-to-draw-2-2-with-netherlands-in-texas-thriller/article71102538.ece",
+          "headline": "Japan battle back to draw 2-2 with Netherlands in Texas thriller",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/sports/2026/06/15/soccer/world-cup/japan-netherlands-world-cup/",
+          "headline": "Japan strikes late to earn thrilling draw with Netherlands in World Cup opener",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.075,
+        "spread": 0.043,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:54:00+00:00",
+      "last_seen": "2026-06-14T22:45:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.3927
     },
     {
       "id": "7bf3a1a6dc",
@@ -305,17 +277,23 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.3403
+      "resonance": 0.281
     },
     {
       "id": "2e0a5d6e14",
       "title": "U.S., Iran reach peace deal, signing set for Friday, Pakistan says",
-      "signal_count": 2,
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "South China Morning Post",
           "url": "https://www.scmp.com/news/world/middle-east/article/3357087/us-and-iran-reach-peace-deal-signing-set-friday-pakistan-says?utm_source=rss_feed",
           "headline": "US and Iran reach peace deal with signing set for Friday, Pakistan says",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3357088/us-pakistan-announce-peace-deal-iran-complete?utm_source=rss_feed",
+          "headline": "US, Pakistan announce peace deal with Iran is ‘complete’",
           "platform": "rss"
         },
         {
@@ -326,10 +304,10 @@
         }
       ],
       "bias": {
-        "mean": 0.05,
-        "spread": 0.05,
+        "mean": 0.067,
+        "spread": 0.047,
         "left": 0,
-        "center": 2,
+        "center": 3,
         "right": 0
       },
       "first_seen": "2026-06-14T22:02:00+00:00",
@@ -339,7 +317,7 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2859
+      "resonance": 0.2246
     },
     {
       "id": "cbb2bbd467",
@@ -367,7 +345,7 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2707
+      "resonance": 0.2217
     },
     {
       "id": "791be45c8d",
@@ -407,17 +385,17 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2539
+      "resonance": 0.1959
     },
     {
-      "id": "418b8fd107",
-      "title": "US-Iran ceasefire deal announced, Trump says Strait of Hormuz reopening",
+      "id": "7e578920c7",
+      "title": "US-Iran ‘peace deal’ announced, Trump says Strait of Hormuz reopening",
       "signal_count": 4,
       "sources": [
         {
           "outlet": "Al Jazeera English",
           "url": "https://www.aljazeera.com/news/2026/6/14/us-iran-ceasefire-deal-announced-trump-says-strait-of-hormuz-reopening?traffic_source=rss",
-          "headline": "US-Iran ceasefire deal announced, Trump says Strait of Hormuz reopening",
+          "headline": "US-Iran ‘peace deal’ announced, Trump says Strait of Hormuz reopening",
           "platform": "rss"
         },
         {
@@ -452,8 +430,36 @@
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.2477
+      "topic": "tech",
+      "resonance": 0.1835
+    },
+    {
+      "id": "abeaca2be2",
+      "title": "Recap: US and Iran declare peace accord",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/recap-us-and-iran-declare-peace-accord",
+          "headline": "Recap: US and Iran declare peace accord",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T23:40:56+00:00",
+      "last_seen": "2026-06-14T23:40:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1206
     },
     {
       "id": "291140d17f",
@@ -487,63 +493,73 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1866
+      "resonance": 0.1206
     },
     {
-      "id": "a4575c9c39",
-      "title": "Not everyone is using AI for everything",
+      "id": "5f648f627d",
+      "title": "'Medieval fortresses are regaining their military role in the Middle East'",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
-          "headline": "Not everyone is using AI for everything",
-          "platform": "hackernews"
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/15/medieval-fortresses-are-regaining-their-military-role-in-the-middle-east_6754476_4.html",
+          "headline": "'Medieval fortresses are regaining their military role in the Middle East'",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T14:44:29+00:00",
-      "last_seen": "2026-06-14T14:44:29+00:00",
+      "first_seen": "2026-06-14T23:34:43+00:00",
+      "last_seen": "2026-06-14T23:34:43+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1831
+      "resonance": 0.1107
     },
     {
-      "id": "338e80ade3",
-      "title": "Germany start 2026 World Cup with win over Curacao",
-      "signal_count": 4,
+      "id": "a77db79cfa",
+      "title": "US to release $12bn of Iran's frozen assets, state media reports",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-release-12bn-irans-frozen-assets-state-media-reports",
+          "headline": "US to release $12bn of Iran's frozen assets, state media reports",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T23:34:14+00:00",
+      "last_seen": "2026-06-14T23:34:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1099
+    },
+    {
+      "id": "86d6cb21dd",
+      "title": "FIFA World Cup 2026 | Ivory Coast vs Ecuador LIVE updates: Group E match gets underway",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/germany-vs-curacao-live-score-fifa-world-cup-2026-live-updates/article71101921.ece",
-          "headline": "FIFA World Cup 2026 highlights | Germany vs Curaçao LIVE updates: Germany thrash Curacao 7-1",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260614-world-cup-2026-german-giants-overpower-tournament-debutant-cura%C3%A7ao",
-          "headline": "World Cup 2026: Germany overpower tournament debutant Curaçao",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/germany-start-2026-world-cup-with-win-over-curacao/a-77538843?maca=en-rss-en-all-1573-rdf",
-          "headline": "Germany start 2026 World Cup with win over Curacao",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/06/14/football-curacao-scores-its-first-ever-fifa-world-cup-goal-equalising-against-germany",
-          "headline": "Germany wins 7-1 after Curaçao scores its first-ever FIFA World Cup goal",
+          "url": "https://www.thehindu.com/sport/football/ivory-coast-vs-ecuador-live-score-fifa-world-cup-2026-live-match-updates/article71102518.ece",
+          "headline": "FIFA World Cup 2026 | Ivory Coast vs Ecuador LIVE updates: Group E match gets underway",
           "platform": "rss"
         }
       ],
@@ -551,17 +567,17 @@
         "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 4,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T17:41:35+00:00",
-      "last_seen": "2026-06-14T19:11:21+00:00",
+      "first_seen": "2026-06-14T23:31:14+00:00",
+      "last_seen": "2026-06-14T23:31:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.1735
+      "resonance": 0.1052
     },
     {
       "id": "98c272bc39",
@@ -607,7 +623,35 @@
       ],
       "geo_regions": [],
       "topic": "society",
-      "resonance": 0.1663
+      "resonance": 0.1051
+    },
+    {
+      "id": "5dfa13b116",
+      "title": "Jurors, lawyers and social workers face 'resilience test' in inaccessible courts",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/ckg701z0p01o?at_medium=RSS&at_campaign=rss",
+          "headline": "Jurors, lawyers and social workers face 'resilience test' in inaccessible courts",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T23:29:55+00:00",
+      "last_seen": "2026-06-14T23:29:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1031
     },
     {
       "id": "b4c02b9e5d",
@@ -628,14 +672,362 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-14T23:03:22+00:00",
-      "last_seen": "2026-06-14T23:03:22+00:00",
+      "first_seen": "2026-06-14T23:29:46+00:00",
+      "last_seen": "2026-06-14T23:29:46+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1345
+      "resonance": 0.1029
+    },
+    {
+      "id": "68bd345fbd",
+      "title": "In Israel, Broad Discontent Even Before Deal’s Details Are Known",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/14/world/middleeast/israel-us-iran-deal.html",
+          "headline": "In Israel, Broad Discontent Even Before Deal’s Details Are Known",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T23:29:45+00:00",
+      "last_seen": "2026-06-14T23:29:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1029
+    },
+    {
+      "id": "f93834b8a0",
+      "title": "Australia news live: Wong welcomes US-Iran peace deal; Joyce says fundraised millions to pay for One Nation ads",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jun/15/australia-news-live-experts-push-back-at-call-for-shark-cull-after-attack-university-students-report-freedom-of-speech-fears",
+          "headline": "Australia news live: Wong welcomes US-Iran peace deal; Joyce says fundraised millions to pay for One Nation ads",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T23:29:05+00:00",
+      "last_seen": "2026-06-14T23:29:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1018
+    },
+    {
+      "id": "9722c59f0b",
+      "title": "China's ability to hit Australia with missiles 'real and growing'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-15/lowy-analysis-china-ability-hit-australia-missiles/106797712",
+          "headline": "China's ability to hit Australia with missiles 'real and growing'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T23:29:01+00:00",
+      "last_seen": "2026-06-14T23:29:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1017
+    },
+    {
+      "id": "15ec2549ea",
+      "title": "As more US business owners retire many are selling up to their staff",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c0ey87z1ggjo?at_medium=RSS&at_campaign=rss",
+          "headline": "As more US business owners retire many are selling up to their staff",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T23:26:01+00:00",
+      "last_seen": "2026-06-14T23:26:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.097
+    },
+    {
+      "id": "9af90e34f8",
+      "title": "11 skydivers and pilot killed in US plane crash",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c74ym4j40gpo?at_medium=RSS&at_campaign=rss",
+          "headline": "11 skydivers and pilot killed in US plane crash",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/14/twelve-killed-in-plane-crash-in-us-state-of-missouri?traffic_source=rss",
+          "headline": "Twelve killed in plane crash in US state of Missouri",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/11-skydivers-one-pilot-killed-missouri-plane-crash-near-airport",
+          "headline": "11 skydivers, one pilot killed in Missouri plane crash near airport",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.356,
+        "left": 0,
+        "center": 2,
+        "right": 1
+      },
+      "first_seen": "2026-06-14T18:27:12+00:00",
+      "last_seen": "2026-06-14T20:32:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0961
+    },
+    {
+      "id": "294a9a1f5d",
+      "title": "Police treating deaths of man and girl at Sydney bay as murder-suicide",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-15/concord-bay-drowning-of-man-and-child-suspected-murder-suicide/106797768",
+          "headline": "Police treating deaths of man and girl at Sydney bay as murder-suicide",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T23:23:44+00:00",
+      "last_seen": "2026-06-14T23:23:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.0935
+    },
+    {
+      "id": "94e3dd4b34",
+      "title": "Boston police arrest 14-year-old after masked suspects allegedly rob siblings’ lemonade stand",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/boston-police-arrest-14-year-old-after-masked-suspects-allegedly-rob-siblings-lemonade-stand",
+          "headline": "Boston police arrest 14-year-old after masked suspects allegedly rob siblings’ lemonade stand",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-14T23:22:31+00:00",
+      "last_seen": "2026-06-14T23:22:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.0916
+    },
+    {
+      "id": "931729c17c",
+      "title": "Thierry Henry and Zlatan Ibrahimović get emotional watching FOX coworker Alexi Lalas react to National Anthem",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/thiery-henry-zlatan-ibrahimovi-get-emotional-watching-fox-coworker-alexi-lalas-react-national-anthem",
+          "headline": "Thierry Henry and Zlatan Ibrahimović get emotional watching FOX coworker Alexi Lalas react to National Anthem",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-14T23:16:57+00:00",
+      "last_seen": "2026-06-14T23:16:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0831
+    },
+    {
+      "id": "8440c299d1",
+      "title": "G7 protest turns from carnival to violent stand-off",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/06/15/world/g7-protest-geneva/",
+          "headline": "G7 protest turns from carnival to violent stand-off",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T23:11:00+00:00",
+      "last_seen": "2026-06-14T23:11:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.0741
+    },
+    {
+      "id": "a4fcfed595",
+      "title": "Why you might not be buying the right pain relief for period cramps",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c932pex1vpwo?at_medium=RSS&at_campaign=rss",
+          "headline": "Why you might not be buying the right pain relief for period cramps",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T23:10:57+00:00",
+      "last_seen": "2026-06-14T23:10:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.074
+    },
+    {
+      "id": "39700c1681",
+      "title": "Live: 'Chaotic weather' forecast for White House UFC event",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-15/ufc-freedom-250-live-white-house-donald-trump/106797824",
+          "headline": "Live: 'Chaotic weather' forecast for White House UFC event",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T23:06:40+00:00",
+      "last_seen": "2026-06-14T23:06:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0677
+    },
+    {
+      "id": "d48ff2a750",
+      "title": "World Cup nations slam UEFA chief for ‘disappointing’ 48-team criticism",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/6/14/world-cup-nations-slam-uefa-chief-for-disappointing-48-team-criticism?traffic_source=rss",
+          "headline": "World Cup nations slam UEFA chief for ‘disappointing’ 48-team criticism",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T23:04:26+00:00",
+      "last_seen": "2026-06-14T23:04:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0644
     },
     {
       "id": "7a1482e41c",
@@ -663,35 +1055,7 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1338
-    },
-    {
-      "id": "1d457ace26",
-      "title": "Property tycoon Alan Bond's former island getaway to anchor mining logistics hub",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-15/kimberley-islands-to-become-transport-hubs-alan-bond/106790116",
-          "headline": "Property tycoon Alan Bond's former island getaway to anchor mining logistics hub",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:02:28+00:00",
-      "last_seen": "2026-06-14T23:02:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1332
+      "resonance": 0.0621
     },
     {
       "id": "65d846e35a",
@@ -712,14 +1076,14 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-14T23:00:44+00:00",
-      "last_seen": "2026-06-14T23:00:44+00:00",
+      "first_seen": "2026-06-14T23:00:45+00:00",
+      "last_seen": "2026-06-14T23:00:45+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1307
+      "resonance": 0.0589
     },
     {
       "id": "6c897a7a8d",
@@ -747,35 +1111,7 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1299
-    },
-    {
-      "id": "db31b22047",
-      "title": "A lost Sam Pang went looking for something. He found comedy",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-15/a-lost-sam-pang-found-comedy/106746704",
-          "headline": "A lost Sam Pang went looking for something. He found comedy",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:00:00+00:00",
-      "last_seen": "2026-06-14T23:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1296
+      "resonance": 0.0582
     },
     {
       "id": "daaa1ea4ea",
@@ -803,219 +1139,17 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1255
+      "resonance": 0.0537
     },
     {
-      "id": "f19aa5789c",
-      "title": "US vice president expected to attend Iran deal signing in Geneva",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-vice-president-expected-attend-iran-deal-signing-geneva",
-          "headline": "US vice president expected to attend Iran deal signing in Geneva",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T22:51:13+00:00",
-      "last_seen": "2026-06-14T22:51:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.117
-    },
-    {
-      "id": "9f845e0480",
-      "title": "‘Bring light to the world’: Journalist preserves slain Bondi rabbi’s mission in joint book",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/bring-light-to-the-world-journalist-preserves-slain-bondi-rabbis-mission-in-joint-book/",
-          "headline": "‘Bring light to the world’: Journalist preserves slain Bondi rabbi’s mission in joint book",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T22:51:01+00:00",
-      "last_seen": "2026-06-14T22:51:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1168
-    },
-    {
-      "id": "3c2e2f4b20",
-      "title": "Rod Stewart called 'tone-deaf' for attending World Cup game a day canceling concert due to health issues",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/rod-stewart-called-tone-deaf-attending-world-cup-game-day-canceling-concert-due-health-issues",
-          "headline": "Rod Stewart called 'tone-deaf' for attending World Cup game a day canceling concert due to health issues",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-14T22:43:41+00:00",
-      "last_seen": "2026-06-14T22:43:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1065
-    },
-    {
-      "id": "375034faf8",
-      "title": "Australia news live: Debate over shark cull after Coogee attack; Joyce says fundraised millions to pay for One Nation ad campaign",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jun/15/australia-news-live-experts-push-back-at-call-for-shark-cull-after-attack-university-students-report-freedom-of-speech-fears",
-          "headline": "Australia news live: Debate over shark cull after Coogee attack; Joyce says fundraised millions to pay for One Nation ad campaign",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T22:43:35+00:00",
-      "last_seen": "2026-06-14T22:43:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1063
-    },
-    {
-      "id": "64aa08e130",
-      "title": "Hiking etiquette rules that should be common sense but apparently need to be spelled out for some people",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-analysis/hiking-etiquette-rules-common-sense-apparently-need-spelled-people",
-          "headline": "Hiking etiquette rules that should be common sense but apparently need to be spelled out for some people",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-14T22:33:23+00:00",
-      "last_seen": "2026-06-14T22:33:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0924
-    },
-    {
-      "id": "65f9b8fa58",
-      "title": "Marco Rubio marks Trump birthday with praise for Iran deal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/marco-rubio-marks-trump-birthday-praise-iran-deal",
-          "headline": "Marco Rubio marks Trump birthday with praise for Iran deal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T22:31:27+00:00",
-      "last_seen": "2026-06-14T22:31:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0897
-    },
-    {
-      "id": "0d77aa0c60",
-      "title": "West Asia war LIVE: U.S.-Iran peace deal announced with 'permanent' end to military action",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-israel-iran-war-live-updates-ceasefire-peace-deal-donald-trump-mojtaba-khamenei-benjamin-netanyahu-june-14-2026/article71100124.ece",
-          "headline": "West Asia war LIVE: U.S.-Iran peace deal announced with 'permanent' end to military action",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-iran-reach-peace-deal-signing-set-for-friday-pakistan-says/article71102525.ece",
-          "headline": "U.S.-Iran peace deal announced with ‘permanent’ end to military action",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T22:17:26+00:00",
-      "last_seen": "2026-06-14T22:23:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.08
-    },
-    {
-      "id": "7d156ae86e",
-      "title": "Lamine Yamal fit to start on bench for Spain vs Cape Verde at World Cup",
+      "id": "8596796518",
+      "title": "BREAKING: US, Iran announce ceasefire agreement",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/6/14/lamine-yamal-fit-to-start-on-bench-for-spain-vs-cape-verde-at-world-cup?traffic_source=rss",
-          "headline": "Lamine Yamal fit to start on bench for Spain vs Cape Verde at World Cup",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/14/breaking-us-iran-announce-ceasefire-agreement?traffic_source=rss",
+          "headline": "BREAKING: US, Iran announce ceasefire agreement",
           "platform": "rss"
         }
       ],
@@ -1026,159 +1160,13 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T22:15:48+00:00",
-      "last_seen": "2026-06-14T22:15:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.069
-    },
-    {
-      "id": "1287a8de0d",
-      "title": "In Israel, Broad Discontent Over the Emerging U.S. Deal With Iran",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/14/world/middleeast/israel-us-iran-deal.html",
-          "headline": "In Israel, Broad Discontent Over the Emerging U.S. Deal With Iran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T22:13:36+00:00",
-      "last_seen": "2026-06-14T22:13:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0662
-    },
-    {
-      "id": "872dddb142",
-      "title": "Iran halted planned Israel strikes after Trump intervention: Report",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-halted-planned-israel-strikes-after-trump-intervention-report",
-          "headline": "Iran halted planned Israel strikes after Trump intervention: Report",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T22:11:45+00:00",
-      "last_seen": "2026-06-14T22:11:45+00:00",
+      "first_seen": "2026-06-14T22:54:36+00:00",
+      "last_seen": "2026-06-14T22:54:36+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0638
-    },
-    {
-      "id": "d233e7eecc",
-      "title": "Six people killed as helicopters collide over Brazil’s Rio de Janeiro",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/14/six-people-killed-as-helicopters-collide-over-brazils-rio-de-janeiro?traffic_source=rss",
-          "headline": "Six people killed as helicopters collide over Brazil’s Rio de Janeiro",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/americas/article/3357082/6-killed-after-helicopters-collide-rio-de-janeiro-crashing-car-park?utm_source=rss_feed",
-          "headline": "6 killed after helicopters collide in Rio de Janeiro, crashing into car park",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.15,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T18:43:49+00:00",
-      "last_seen": "2026-06-14T20:10:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0606
-    },
-    {
-      "id": "86d6cb21dd",
-      "title": "FIFA World Cup 2026 | Ivory Coast vs Ecuador LIVE updates: Group E match gets underway",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/ivory-coast-vs-ecuador-live-score-fifa-world-cup-2026-live-match-updates/article71102518.ece",
-          "headline": "FIFA World Cup 2026 | Ivory Coast vs Ecuador LIVE updates: Group E match gets underway",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T22:07:39+00:00",
-      "last_seen": "2026-06-14T22:07:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0585
-    },
-    {
-      "id": "c5d21260ea",
-      "title": "WA needle exchanges report 'astronomical' rise in peptide use",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-15/rise-in-injectable-peptides-needle-exchanges-western-australia/106762668",
-          "headline": "WA needle exchanges report 'astronomical' rise in peptide use",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T22:00:56+00:00",
-      "last_seen": "2026-06-14T22:00:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
       "resonance": 0.05
     }
   ],
@@ -1186,187 +1174,115 @@
     {
       "source": "8940fdcafc",
       "target": "cbb2bbd467",
-      "weight": 0.645,
-      "type": "thematic"
-    },
-    {
-      "source": "d5ebc294e1",
-      "target": "86ea1ca3e1",
-      "weight": 0.833,
-      "type": "thematic"
-    },
-    {
-      "source": "d5ebc294e1",
-      "target": "418b8fd107",
-      "weight": 0.09,
-      "type": "thematic"
-    },
-    {
-      "source": "d5ebc294e1",
-      "target": "b4c02b9e5d",
-      "weight": 0.682,
-      "type": "thematic"
-    },
-    {
-      "source": "d5ebc294e1",
-      "target": "f19aa5789c",
-      "weight": 0.067,
-      "type": "thematic"
-    },
-    {
-      "source": "d5ebc294e1",
-      "target": "65f9b8fa58",
-      "weight": 0.071,
-      "type": "thematic"
-    },
-    {
-      "source": "d5ebc294e1",
-      "target": "0d77aa0c60",
-      "weight": 0.617,
-      "type": "thematic"
-    },
-    {
-      "source": "d5ebc294e1",
-      "target": "1287a8de0d",
-      "weight": 0.172,
-      "type": "thematic"
-    },
-    {
-      "source": "b3b0de1d9d",
-      "target": "338e80ade3",
-      "weight": 0.013,
+      "weight": 0.624,
       "type": "thematic"
     },
     {
       "source": "cead18fe31",
-      "target": "d233e7eecc",
-      "weight": 0.617,
+      "target": "9af90e34f8",
+      "weight": 0.376,
       "type": "thematic"
     },
     {
       "source": "86ea1ca3e1",
       "target": "2e0a5d6e14",
-      "weight": 0.053,
+      "weight": 0.142,
       "type": "thematic"
     },
     {
       "source": "86ea1ca3e1",
-      "target": "418b8fd107",
-      "weight": 0.051,
+      "target": "7e578920c7",
+      "weight": 0.159,
       "type": "thematic"
     },
     {
       "source": "86ea1ca3e1",
       "target": "b4c02b9e5d",
+      "weight": 0.323,
+      "type": "thematic"
+    },
+    {
+      "source": "86ea1ca3e1",
+      "target": "8596796518",
+      "weight": 0.606,
+      "type": "thematic"
+    },
+    {
+      "source": "2e0a5d6e14",
+      "target": "7e578920c7",
+      "weight": 0.335,
+      "type": "thematic"
+    },
+    {
+      "source": "2e0a5d6e14",
+      "target": "abeaca2be2",
+      "weight": 0.153,
+      "type": "thematic"
+    },
+    {
+      "source": "2e0a5d6e14",
+      "target": "f93834b8a0",
+      "weight": 0.09,
+      "type": "thematic"
+    },
+    {
+      "source": "791be45c8d",
+      "target": "9af90e34f8",
+      "weight": 0.706,
+      "type": "thematic"
+    },
+    {
+      "source": "7e578920c7",
+      "target": "abeaca2be2",
+      "weight": 0.171,
+      "type": "thematic"
+    },
+    {
+      "source": "7e578920c7",
+      "target": "b4c02b9e5d",
+      "weight": 0.057,
+      "type": "thematic"
+    },
+    {
+      "source": "7e578920c7",
+      "target": "f93834b8a0",
+      "weight": 0.106,
+      "type": "thematic"
+    },
+    {
+      "source": "7e578920c7",
+      "target": "65d846e35a",
+      "weight": 0.479,
+      "type": "thematic"
+    },
+    {
+      "source": "86d6cb21dd",
+      "target": "b4c02b9e5d",
+      "weight": 0.051,
+      "type": "thematic"
+    },
+    {
+      "source": "86d6cb21dd",
+      "target": "d48ff2a750",
+      "weight": 0.069,
+      "type": "thematic"
+    },
+    {
+      "source": "b4c02b9e5d",
+      "target": "65d846e35a",
+      "weight": 0.343,
+      "type": "thematic"
+    },
+    {
+      "source": "b4c02b9e5d",
+      "target": "8596796518",
       "weight": 0.194,
       "type": "thematic"
     },
     {
-      "source": "86ea1ca3e1",
-      "target": "f19aa5789c",
-      "weight": 0.03,
-      "type": "thematic"
-    },
-    {
-      "source": "86ea1ca3e1",
-      "target": "65f9b8fa58",
-      "weight": 0.033,
-      "type": "thematic"
-    },
-    {
-      "source": "86ea1ca3e1",
-      "target": "0d77aa0c60",
-      "weight": 0.882,
-      "type": "thematic"
-    },
-    {
-      "source": "86ea1ca3e1",
-      "target": "1287a8de0d",
-      "weight": 0.128,
-      "type": "thematic"
-    },
-    {
-      "source": "2e0a5d6e14",
-      "target": "f19aa5789c",
-      "weight": 0.364,
-      "type": "thematic"
-    },
-    {
-      "source": "2e0a5d6e14",
-      "target": "0d77aa0c60",
-      "weight": 0.154,
-      "type": "thematic"
-    },
-    {
-      "source": "cbb2bbd467",
-      "target": "338e80ade3",
-      "weight": 0.064,
-      "type": "thematic"
-    },
-    {
-      "source": "418b8fd107",
-      "target": "65d846e35a",
-      "weight": 0.38,
-      "type": "thematic"
-    },
-    {
-      "source": "418b8fd107",
-      "target": "65f9b8fa58",
-      "weight": 0.195,
-      "type": "thematic"
-    },
-    {
-      "source": "418b8fd107",
-      "target": "0d77aa0c60",
-      "weight": 0.214,
-      "type": "thematic"
-    },
-    {
-      "source": "418b8fd107",
-      "target": "872dddb142",
-      "weight": 0.002,
-      "type": "thematic"
-    },
-    {
-      "source": "338e80ade3",
-      "target": "7a1482e41c",
-      "weight": 0.007,
-      "type": "thematic"
-    },
-    {
-      "source": "338e80ade3",
-      "target": "7d156ae86e",
-      "weight": 0.435,
-      "type": "thematic"
-    },
-    {
-      "source": "338e80ade3",
-      "target": "86d6cb21dd",
-      "weight": 0.274,
-      "type": "thematic"
-    },
-    {
-      "source": "b4c02b9e5d",
-      "target": "65d846e35a",
-      "weight": 0.338,
-      "type": "thematic"
-    },
-    {
-      "source": "b4c02b9e5d",
-      "target": "0d77aa0c60",
-      "weight": 0.175,
-      "type": "thematic"
-    },
-    {
-      "source": "b4c02b9e5d",
-      "target": "86d6cb21dd",
-      "weight": 0.091,
-      "type": "thematic"
-    },
-    {
-      "source": "1287a8de0d",
-      "target": "872dddb142",
-      "weight": 0.282,
+      "source": "65d846e35a",
+      "target": "8596796518",
+      "weight": 0.174,
       "type": "thematic"
     }
   ],

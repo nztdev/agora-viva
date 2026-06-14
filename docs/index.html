@@ -936,37 +936,76 @@ function toggleGlobe(){
 // ═══════════════════════════════════════════════════════════════════════════════
 
 function buildSourcesSheet(){
-  // Aggregate outlet → event count + bias
-  const outletMap={};
+  // Build map from nodes in the field
+  const inFieldMap={};
   nodes.forEach(n=>{
     (n.sources||[]).forEach(s=>{
-      if(!outletMap[s.outlet]) outletMap[s.outlet]={count:0,platform:s.platform,bias:OUTLET_BIAS[s.outlet]??0};
-      outletMap[s.outlet].count++;
+      if(!inFieldMap[s.outlet]) inFieldMap[s.outlet]={count:0,bias:OUTLET_BIAS[s.outlet]??0};
+      inFieldMap[s.outlet].count++;
     });
   });
-  const sorted=Object.entries(outletMap).sort((a,b)=>b[1].count-a[1].count);
-  const total=nodes.length||1;
+
+  // All monitored outlets come from sourcesStatus (pipeline tracked)
+  // Fall back to OUTLET_BIAS keys so demo mode still works
+  const allOutlets=new Set([
+    ...Object.keys(sourcesStatus),
+    ...Object.keys(inFieldMap),
+  ]);
+
+  // Sort: outlets in the field first (by event count), then monitored-but-not-in-field
+  const sorted=[...allOutlets].sort((a,b)=>{
+    const ca=inFieldMap[a]?.count||0, cb=inFieldMap[b]?.count||0;
+    return cb-ca;
+  });
+
+  // Header subtitle shows full picture
+  const inFieldCount=Object.keys(inFieldMap).length;
+  const totalMonitored=allOutlets.size;
+  document.getElementById('src-sheet-sub').textContent=
+    `${inFieldCount} of ${totalMonitored} sources in current field · tap to highlight`;
 
   const list=document.getElementById('src-list');
   list.innerHTML='';
-  sorted.forEach(([outlet,info])=>{
+
+  let lastSection='';
+  sorted.forEach(outlet=>{
+    const info=inFieldMap[outlet];
+    const health=sourcesStatus[outlet];
+    const inField=!!info;
+    const healthOk=health ? health.ok : (inField ? true : null);
+    const section=inField?'in-field':'monitoring';
+
+    // Section divider
+    if(section!==lastSection){
+      lastSection=section;
+      const div=document.createElement('div');
+      div.style.cssText='padding:10px 22px 4px;font-family:"DM Mono",monospace;font-size:9px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(205,216,232,0.25)';
+      div.textContent=inField?'in the field':'monitored · not in current field';
+      list.appendChild(div);
+    }
+
     const row=document.createElement('div');
     row.className='src-row';
-    const health=sourcesStatus[outlet];
-    const healthOk=health?health.ok:true; // unknown = assume ok, don't alarm
+    if(!inField) row.style.opacity='0.45';
+
+    // Health dot: green=ok, red=down, grey=unknown/not-in-status
+    const healthColor = healthOk===true ? '#4af4c2' : healthOk===false ? '#f4764a' : 'rgba(205,216,232,0.2)';
+    const healthTitle = healthOk===true ? 'feed healthy' : healthOk===false ? 'feed returned 0 items last run' : 'status unknown';
+
+    const bias=OUTLET_BIAS[outlet]??0;
     row.innerHTML=`
-      <div class="src-health ${healthOk?'ok':'down'}" title="${healthOk?'feed healthy':'feed returned no items last run'}"></div>
+      <div class="src-health" style="background:${healthColor}" title="${healthTitle}"></div>
       <div class="src-row-left">
         <div class="src-outlet">${outlet}</div>
         <div class="src-spectrum">
-          <div class="src-spec-dot" style="left:${((info.bias+1)/2*100).toFixed(1)}%"></div>
+          <div class="src-spec-dot" style="left:${((bias+1)/2*100).toFixed(1)}%"></div>
         </div>
       </div>
       <div class="src-row-right">
-        <div class="src-count">${info.count}</div>
-        <div class="src-count-lbl">event${info.count!==1?'s':''}</div>
+        <div class="src-count" style="color:${inField?'var(--accent)':'rgba(205,216,232,0.3)'}">${info?.count||'—'}</div>
+        <div class="src-count-lbl">${inField?`event${info.count!==1?'s':''}`:''}</div>
       </div>`;
-    row.addEventListener('click',()=>highlightOutlet(outlet,row));
+    if(inField) row.addEventListener('click',()=>highlightOutlet(outlet,row));
     list.appendChild(row);
   });
 }

@@ -1,23 +1,79 @@
 {
-  "generated_at": "2026-06-14T13:13:28.452822+00:00",
+  "generated_at": "2026-06-14T15:24:33.504204+00:00",
   "node_count": 35,
-  "edge_count": 6,
+  "edge_count": 3,
   "nodes": [
+    {
+      "id": "725b87e0aa",
+      "title": "UK set to announce social media ban for under-16s",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.manchestereveningnews.co.uk/news/uk-news/uk-set-announce-social-media-34119132",
+          "headline": "UK set to announce social media ban for under-16s",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T14:51:03+00:00",
+      "last_seen": "2026-06-14T14:51:03+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.28
+    },
+    {
+      "id": "8c6001126a",
+      "title": "How to Earn a Billion Dollars",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://paulgraham.com/earn.html",
+          "headline": "How to Earn a Billion Dollars",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T11:50:48+00:00",
+      "last_seen": "2026-06-14T11:50:48+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.28
+    },
     {
       "id": "772def8278",
       "title": "Royal Marines board Russian shadow fleet oil tanker in English Channel",
-      "signal_count": 9,
+      "signal_count": 8,
       "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/clyek039l2vo?at_medium=RSS&at_campaign=rss",
-          "headline": "Royal Marines board Russian shadow fleet oil tanker in English Channel",
-          "platform": "rss"
-        },
         {
           "outlet": "New York Times",
           "url": "https://www.nytimes.com/2026/06/14/world/europe/uk-russia-shadow-fleet-oil-tanker-channel.html",
           "headline": "UK Forces Seize Russian Shadow Fleet Oil Tanker",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/clyek039l2vo?at_medium=RSS&at_campaign=rss",
+          "headline": "Royal Marines board Russian shadow fleet oil tanker in English Channel",
           "platform": "rss"
         },
         {
@@ -30,12 +86,6 @@
           "outlet": "South China Morning Post",
           "url": "https://www.scmp.com/news/world/europe/article/3357059/british-commandos-board-russian-shadow-fleet-tanker-zelensky-grateful?utm_source=rss_feed",
           "headline": "British commandos board Russian shadow fleet tanker, Zelensky grateful",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/videos/ce8k5kj64lgo?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: MOD video shows Russian shadow fleet tanker interception",
           "platform": "rss"
         },
         {
@@ -55,23 +105,29 @@
           "url": "https://www.japantimes.co.jp/news/2026/06/14/world/uk-russian-shadow-fleet-channel/",
           "headline": "U.K. intercepts Russian shadow fleet vessel in Channel: ministry",
           "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/14/uk-boards-and-seizes-russian-shadow-fleet-tanker-in-english-channel?traffic_source=rss",
+          "headline": "UK forces seize suspected Russian shadow fleet tanker in English Channel",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.111,
-        "spread": 0.11,
+        "mean": -0.112,
+        "spread": 0.117,
         "left": 1,
-        "center": 8,
+        "center": 7,
         "right": 0
       },
       "first_seen": "2026-06-14T07:38:58+00:00",
-      "last_seen": "2026-06-14T12:56:15+00:00",
+      "last_seen": "2026-06-14T13:42:53+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.7452
+      "resonance": 0.4124
     },
     {
       "id": "c1c37a0d35",
@@ -117,111 +173,7 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.4553
-    },
-    {
-      "id": "63d48ecaf7",
-      "title": "Iran says draft U.S. deal includes oil sanctions waiver, nuclear limits and asset release",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/iran-says-draft-us-deal-includes-oil-sanctions-waiver-nuclear-limits-and-asset-release/article71101083.ece",
-          "headline": "Iran says draft U.S. deal includes oil sanctions waiver, nuclear limits and asset release",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-official-says-draft-us-deal-includes-nuclear-limits-and-asset",
-          "headline": "Iranian official says draft US deal includes nuclear limits and asset release: Report",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.175,
-        "spread": 0.075,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T11:01:01+00:00",
-      "last_seen": "2026-06-14T12:33:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2349
-    },
-    {
-      "id": "ae0b1852e8",
-      "title": "New York Knicks win NBA championship for first time in over 50 years",
-      "signal_count": 8,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260614-us-new-york-knicks-win-first-nba-championship-since-1973",
-          "headline": "US: New York Knicks win first NBA championship since 1973",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/new-york-knicks-win-first-nba-championship-in-53-years/a-77543316?maca=en-rss-en-all-1573-rdf",
-          "headline": "New York Knicks win first NBA championship in 53 years",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/video/2026/06/14/new-york-erupts-as-knicks-win-first-nba-title-since-1973",
-          "headline": "New York erupts as Knicks win first NBA title since 1973",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.com/news/articles/c78yw4zw19do?at_medium=RSS&at_campaign=rss",
-          "headline": "New York Knicks win NBA championship for first time in over 50 years",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/06/14/new-york-knicks-win-nba-championship-for-first-time-in-more-than-50-years",
-          "headline": "New York Knicks win NBA Championship for first time in more than 50 years",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/live-news/20260614-new-york-knicks-beat-spurs-to-claim-first-nba-title-in-53-years",
-          "headline": "New York Knicks beat Spurs to claim first NBA title in 53 years",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260614-new-york-knicks-beat-spurs-to-claim-first-nba-title-in-53-years",
-          "headline": "New York Knicks beat Spurs to claim first NBA title in 53 years",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-14/nba-finals-new-york-knicks-san-antonio-spurs-game-5/106796264",
-          "headline": "Knicks end 53-year drought to win NBA championship",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.087,
-        "spread": 0.033,
-        "left": 0,
-        "center": 8,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T03:36:38+00:00",
-      "last_seen": "2026-06-14T10:55:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.2173
+      "resonance": 0.1642
     },
     {
       "id": "df6ff97be7",
@@ -255,29 +207,315 @@
         "right": 0
       },
       "first_seen": "2026-06-14T07:33:56+00:00",
-      "last_seen": "2026-06-14T12:08:19+00:00",
+      "last_seen": "2026-06-14T14:06:55+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1946
+      "resonance": 0.1267
     },
     {
-      "id": "8ba867f47a",
-      "title": "West Asia war LIVE: Iran media says Tehran 'not yet' taken final decision on U.S. peace deal",
+      "id": "0daf22b7f3",
+      "title": "Lebanon death toll climbs to 3,783 as Israeli continues to target country",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-death-toll-climbs-3783-israeli-continues-target-country",
+          "headline": "Lebanon death toll climbs to 3,783 as Israeli continues to target country",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T15:23:20+00:00",
+      "last_seen": "2026-06-14T15:23:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1072
+    },
+    {
+      "id": "a97bb0b8d8",
+      "title": "Rebel Trinamool Congress MPs announce merger with Nationalist Citizen Party",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/trinamool-congress-party-split-west-bengal-nationalist-citizen-party-june-14-2026/article71101822.ece",
+          "headline": "Rebel Trinamool Congress MPs announce merger with Nationalist Citizen Party",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T15:19:55+00:00",
+      "last_seen": "2026-06-14T15:19:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1021
+    },
+    {
+      "id": "8d2462dcb1",
+      "title": "Jakkur–Rachenahalli lake run draws thousands",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/bangalore/jakkurrachenahalli-lake-run-draws-thousands/article71101624.ece",
+          "headline": "Jakkur–Rachenahalli lake run draws thousands",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T15:19:36+00:00",
+      "last_seen": "2026-06-14T15:19:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1017
+    },
+    {
+      "id": "ea928c42e9",
+      "title": "Iran War Live Updates: Trump Calls for Restraint After Israel Strikes Beirut Suburbs",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/06/14/world/iran-war-trump-us",
+          "headline": "Iran War Live Updates: Trump Calls for Restraint After Israel Strikes Beirut Suburbs",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T15:19:12+00:00",
+      "last_seen": "2026-06-14T15:19:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1011
+    },
+    {
+      "id": "71d3d5c99b",
+      "title": "EU says to resume membership talks with Ukraine on Monday",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/14/eu-set-to-hold-membership-talks-with-ukraine?traffic_source=rss",
+          "headline": "EU set to hold membership talks with Ukraine",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260614-eu-says-to-resume-membership-talks-with-ukraine-on-monday",
+          "headline": "EU says to resume membership talks with Ukraine on Monday",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T11:02:01+00:00",
+      "last_seen": "2026-06-14T14:39:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1007
+    },
+    {
+      "id": "629bfbe81b",
+      "title": "Forest department set to launch 100-day action plan to reduce human-wildlife conflict",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/forest-department-set-to-launch-100-day-action-plan-to-reduce-human-wildlife-conflict/article71101744.ece",
+          "headline": "Forest department set to launch 100-day action plan to reduce human-wildlife conflict",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T15:18:06+00:00",
+      "last_seen": "2026-06-14T15:18:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0995
+    },
+    {
+      "id": "71bdd7e355",
+      "title": "Kerala HC dismisses plea for probe into irregularities in Byju’s insolvency",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/kerala-hc-dismisses-plea-for-probe-into-irregularities-in-byjus-insolvency/article71100927.ece",
+          "headline": "Kerala HC dismisses plea for probe into irregularities in Byju’s insolvency",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T15:17:07+00:00",
+      "last_seen": "2026-06-14T15:17:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.098
+    },
+    {
+      "id": "0d8fe27c70",
+      "title": "Lewis Hamilton wins first grand prix for Ferrari",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/sport/formula1/articles/cn8k5n737p4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Lewis Hamilton wins first grand prix for Ferrari",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T15:17:01+00:00",
+      "last_seen": "2026-06-14T15:17:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0979
+    },
+    {
+      "id": "97685075b0",
+      "title": "Free travel for women and transgender persons on KSRTC ‘ordinary’ services from June 15, 2026",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/free-travel-for-women-and-transgender-persons-on-ksrtc-ordinary-services-from-june-15-2026/article71101743.ece",
+          "headline": "Free travel for women and transgender persons on KSRTC ‘ordinary’ services from June 15, 2026",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T15:14:48+00:00",
+      "last_seen": "2026-06-14T15:14:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0946
+    },
+    {
+      "id": "4f1aa93ee6",
+      "title": "IIT Roorkee professor proposes bio-bitumen road trial in Karnataka",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/bangalore/iit-roorkee-professor-proposes-bio-bitumen-road-trial-in-karnataka/article71097957.ece",
+          "headline": "IIT Roorkee professor proposes bio-bitumen road trial in Karnataka",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T15:12:10+00:00",
+      "last_seen": "2026-06-14T15:12:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0908
+    },
+    {
+      "id": "8baea56f68",
+      "title": "Nirmala Sitharaman attributes rupee fluctuations to global, domestic factors",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-israel-iran-war-live-updates-ceasefire-peace-deal-donald-trump-mojtaba-khamenei-benjamin-netanyahu-june-14-2026/article71100124.ece",
-          "headline": "West Asia war LIVE: Iran media says Tehran 'not yet' taken final decision on U.S. peace deal",
+          "url": "https://www.thehindu.com/business/Economy/nirmala-sitharaman-attributes-rupee-fluctuations-to-global-domestic-factors/article71101569.ece",
+          "headline": "Nirmala Sitharaman attributes rupee fluctuations to global, domestic factors",
           "platform": "rss"
         },
         {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/06/14/iranian-media-says-tehran-is-yet-to-make-a-final-decision-on-us-peace-deal",
-          "headline": "Iranian media says Tehran is yet to make a final decision on US peace deal",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/business/Economy/rupee-dollar-fluctuations-driven-by-global-domestic-factors-sitharaman/article71101205.ece",
+          "headline": "Nirmala Sitharaman attributes rupee fluctuations to global, domestic factors",
           "platform": "rss"
         }
       ],
@@ -288,114 +526,24 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-06-14T09:18:45+00:00",
-      "last_seen": "2026-06-14T13:04:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1632
-    },
-    {
-      "id": "eb063f675a",
-      "title": "Japan Is Running Out of Royals. Are More Men the Answer?",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/14/world/asia/japan-royal-family-adoption-male.html",
-          "headline": "Japan Is Running Out of Royals. Are More Men the Answer?",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/06/14/japan/politics/japan-running-out-of-royals/",
-          "headline": "Japan is running out of royals. Are more men the answer?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.15,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T07:38:00+00:00",
-      "last_seen": "2026-06-14T13:00:37+00:00",
+      "first_seen": "2026-06-14T15:12:03+00:00",
+      "last_seen": "2026-06-14T15:12:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.114
+      "resonance": 0.0907
     },
     {
-      "id": "57c862ebc4",
-      "title": "These 11 upcoming Supreme Court decisions could make or break Trump's second term agenda",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/11-upcoming-supreme-court-decisions-could-make-break-trumps-second-term-agenda",
-          "headline": "These 11 upcoming Supreme Court decisions could make or break Trump's second term agenda",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-14T13:07:08+00:00",
-      "last_seen": "2026-06-14T13:07:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0954
-    },
-    {
-      "id": "b47404e564",
-      "title": "Iran War Live Updates: Israel and Hezbollah Exchange Strikes, Complicating Possible Iran Peace Agreement",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/14/world/iran-war-trump-us",
-          "headline": "Iran War Live Updates: Israel and Hezbollah Exchange Strikes, Complicating Possible Iran Peace Agreement",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T13:05:41+00:00",
-      "last_seen": "2026-06-14T13:05:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0926
-    },
-    {
-      "id": "5c07a03a51",
-      "title": "Gajuwaka youth drowns at Yarada Beach in Visakhapatnam",
+      "id": "8d0cc259ac",
+      "title": "Illicit liquor, illegally stored liquor bottles seized in Nandyal dist.",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Visakhapatnam/gajuwaka-youth-drowns-at-yarada-beach-in-visakhapatnam/article71101132.ece",
-          "headline": "Gajuwaka youth drowns at Yarada Beach in Visakhapatnam",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/illicit-liquor-illegally-stored-liquor-bottles-seized-in-nandyal-dist/article71100656.ece",
+          "headline": "Illicit liquor, illegally stored liquor bottles seized in Nandyal dist.",
           "platform": "rss"
         }
       ],
@@ -406,80 +554,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T13:04:26+00:00",
-      "last_seen": "2026-06-14T13:04:26+00:00",
+      "first_seen": "2026-06-14T15:11:23+00:00",
+      "last_seen": "2026-06-14T15:11:23+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0901
+      "resonance": 0.0897
     },
     {
-      "id": "053a87c24a",
-      "title": "Vice President JD Vance opens up about his Catholic faith and relationship with God: 'I felt at home'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/vice-president-jd-vance-opens-catholic-faith-relationship-god-felt-home",
-          "headline": "Vice President JD Vance opens up about his Catholic faith and relationship with God: 'I felt at home'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-14T13:00:51+00:00",
-      "last_seen": "2026-06-14T13:00:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0831
-    },
-    {
-      "id": "5ee7fd83c3",
-      "title": "Mother hopes to get justice for murdered daughter in retrial in Dominican Republic",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/uk-news/2026/jun/14/mother-hopes-to-get-justice-for-murdered-daughter-in-retrial-in-dominican-republic",
-          "headline": "Mother hopes to get justice for murdered daughter in retrial in Dominican Republic",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T13:00:44+00:00",
-      "last_seen": "2026-06-14T13:00:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0828
-    },
-    {
-      "id": "af0362a05d",
-      "title": "CJP protest in Bengaluru LIVE: Dipke, Wangchuk join; 'Wish Wangchuk was our Education Minister,' says Prakash Raj",
+      "id": "7a6f61b2a4",
+      "title": "Jagan alleges blocking of YSRCP’s Facebook page",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/karnataka/cjp-protest-in-bengaluru-live-updates-karnataka-on-june-14-2026/article71100627.ece",
-          "headline": "CJP protest in Bengaluru LIVE: Dipke, Wangchuk join; 'Wish Wangchuk was our Education Minister,' says Prakash Raj",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/jagan-alleges-blocking-of-ysrcps-facebook-page/article71101620.ece",
+          "headline": "Jagan alleges blocking of YSRCP’s Facebook page",
           "platform": "rss"
         }
       ],
@@ -490,108 +582,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T13:00:40+00:00",
-      "last_seen": "2026-06-14T13:00:40+00:00",
+      "first_seen": "2026-06-14T15:10:06+00:00",
+      "last_seen": "2026-06-14T15:10:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0827
+      "topic": "world",
+      "resonance": 0.0878
     },
     {
-      "id": "1848bab708",
-      "title": "Weekly weightlifting sweet spot may be linked to longer life, study finds",
+      "id": "94ffc6b8f7",
+      "title": "Coimbatore Range DIG inspects field operation of Singappen force",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/health/weekly-weightlifting-sweet-spot-may-linked-longer-life-study-finds",
-          "headline": "Weekly weightlifting sweet spot may be linked to longer life, study finds",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Coimbatore/coimbatore-range-dig-inspects-field-operation-of-singappen-force/article71101687.ece",
+          "headline": "Coimbatore Range DIG inspects field operation of Singappen force",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-06-14T13:00:27+00:00",
-      "last_seen": "2026-06-14T13:00:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.0823
-    },
-    {
-      "id": "590d2bd1c4",
-      "title": "Open borders were insane, but politicians didn’t care. Families like mine paid the price",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/opinion/open-borders-insane-politicians-didnt-care-families-like-mine-paid-price",
-          "headline": "Open borders were insane, but politicians didn’t care. Families like mine paid the price",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-14T13:00:22+00:00",
-      "last_seen": "2026-06-14T13:00:22+00:00",
+      "first_seen": "2026-06-14T15:07:44+00:00",
+      "last_seen": "2026-06-14T15:07:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0821
+      "resonance": 0.0844
     },
     {
-      "id": "7a98ad238f",
-      "title": "At World Cup, Mexico leans on China tech and transport to keep the tournament kicking",
+      "id": "dfe48f9f3e",
+      "title": "Can Tunisia finally break through at the World Cup?",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/economy/global-economy/article/3356946/world-cup-mexico-leans-china-tech-and-transport-keep-tournament-kicking?utm_source=rss_feed",
-          "headline": "At World Cup, Mexico leans on China tech and transport to keep the tournament kicking",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/can-tunisia-finally-break-through-world-cup-2026",
+          "headline": "Can Tunisia finally break through at the World Cup?",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
+        "mean": -0.25,
         "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "left": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-14T13:00:06+00:00",
-      "last_seen": "2026-06-14T13:00:06+00:00",
+      "first_seen": "2026-06-14T15:02:02+00:00",
+      "last_seen": "2026-06-14T15:02:02+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.0816
+      "resonance": 0.0763
     },
     {
-      "id": "81cf020bb0",
-      "title": "Gandhi Memorial Museum renovation almost over, says  Minister",
+      "id": "29a099d2f0",
+      "title": "Thiruvananthapuram Corporation BJP councillor \nR. Sugathan faces 19 criminal cases",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Madurai/gandhi-memorial-museum-renovation-almost-over-says-minister/article71100910.ece",
-          "headline": "Gandhi Memorial Museum renovation almost over, says  Minister",
+          "url": "https://www.thehindu.com/news/national/kerala/thiruvananthapuram-corporation-bjp-councillor-r-sugathan-faces-19-criminal-cases/article71101593.ece",
+          "headline": "Thiruvananthapuram Corporation BJP councillor \nR. Sugathan faces 19 criminal cases",
           "platform": "rss"
         }
       ],
@@ -602,52 +666,136 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T12:58:56+00:00",
-      "last_seen": "2026-06-14T12:58:56+00:00",
+      "first_seen": "2026-06-14T15:00:49+00:00",
+      "last_seen": "2026-06-14T15:00:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0793
+      "topic": "world",
+      "resonance": 0.0746
     },
     {
-      "id": "a9e5bde045",
-      "title": "Israel Strikes Beirut Outskirts as Fighting With Hezbollah Escalates",
+      "id": "f56d69b7cc",
+      "title": "Dean Martin's brutal one-word response to young John Stamos changed his life forever",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/14/world/middleeast/israel-strikes-beirut-hezbollah.html",
-          "headline": "Israel Strikes Beirut Outskirts as Fighting With Hezbollah Escalates",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/dean-martins-brutal-one-word-response-young-john-stamos-changed-life-forever",
+          "headline": "Dean Martin's brutal one-word response to young John Stamos changed his life forever",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
+        "mean": 0.6,
         "spread": 0.0,
-        "left": 1,
+        "left": 0,
         "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-14T15:00:08+00:00",
+      "last_seen": "2026-06-14T15:00:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0736
+    },
+    {
+      "id": "aaffdaab08",
+      "title": "Four, including two children, drown as boat capsizes in the Krishna in Palnadu district; six others rescued",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/four-including-two-children-drown-as-boat-capsizes-in-the-krishna-in-palnadu-district-of-andhra-pradesh/article71101243.ece",
+          "headline": "Four, including two children, drown as boat capsizes in the Krishna in Palnadu district; six others rescued",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T12:58:43+00:00",
-      "last_seen": "2026-06-14T12:58:43+00:00",
+      "first_seen": "2026-06-14T14:58:08+00:00",
+      "last_seen": "2026-06-14T14:58:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0708
+    },
+    {
+      "id": "421250bd8d",
+      "title": "Inflows to twin reservoirs begin; Water Board steps up monsoon preparedness",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/telangana/inflows-to-twin-reservoirs-begin-water-board-steps-up-monsoon-preparedness/article71101636.ece",
+          "headline": "Inflows to twin reservoirs begin; Water Board steps up monsoon preparedness",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T14:57:30+00:00",
+      "last_seen": "2026-06-14T14:57:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0699
+    },
+    {
+      "id": "1fc2181394",
+      "title": "Swarga Foundation in Coimbatore launches four differently abled friendly initiatives",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Coimbatore/swarga-foundation-in-coimbatore-launches-four-differently-abled-friendly-initiatives/article71093018.ece",
+          "headline": "Swarga Foundation in Coimbatore launches four differently abled friendly initiatives",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T14:56:21+00:00",
+      "last_seen": "2026-06-14T14:56:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0789
+      "resonance": 0.0683
     },
     {
-      "id": "f17b17f24b",
-      "title": "Anticipation, pushback in Iran as mediators work to finalise deal with US",
+      "id": "335d4d2a70",
+      "title": "Paul Seixas pulls out of Tour Auvergne-Rhône-Alpes due to crash, weeks before Tour de France",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/14/anticipation-pushback-in-iran-as-mediators-work-to-finalise-deal-with-us?traffic_source=rss",
-          "headline": "Anticipation, pushback in Iran as mediators work to finalise deal with US",
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/06/14/paul-seixas-pulls-out-of-tour-auvergne-rhone-alpes-due-to-crash-weeks-before-tour-de-france_6754463_9.html",
+          "headline": "Paul Seixas pulls out of Tour Auvergne-Rhône-Alpes due to crash, weeks before Tour de France",
           "platform": "rss"
         }
       ],
@@ -658,14 +806,98 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T12:58:08+00:00",
-      "last_seen": "2026-06-14T12:58:08+00:00",
+      "first_seen": "2026-06-14T14:56:14+00:00",
+      "last_seen": "2026-06-14T14:56:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0778
+      "resonance": 0.0682
+    },
+    {
+      "id": "2905d38349",
+      "title": "CJP protest in Bengaluru LIVE: 'When we try to expose the broken system, we are called cockroaches,' Abhijeet Dipke says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/cjp-protest-in-bengaluru-live-updates-karnataka-on-june-14-2026/article71100627.ece",
+          "headline": "CJP protest in Bengaluru LIVE: 'When we try to expose the broken system, we are called cockroaches,' Abhijeet Dipke says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T14:54:19+00:00",
+      "last_seen": "2026-06-14T14:54:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.0655
+    },
+    {
+      "id": "545a7a2ade",
+      "title": "CITU warns of stir over Health Department policies",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/citu-warns-of-stir-over-health-department-policies/article71101689.ece",
+          "headline": "CITU warns of stir over Health Department policies",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T14:53:51+00:00",
+      "last_seen": "2026-06-14T14:53:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0649
+    },
+    {
+      "id": "0df4c1d28a",
+      "title": "'Boyfriend duties call,' Trudeau says after skipping Canada match to watch Perry",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.com/news/articles/cly9eljexnno?at_medium=RSS&at_campaign=rss",
+          "headline": "'Boyfriend duties call,' Trudeau says after skipping Canada match to watch Perry",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T14:52:35+00:00",
+      "last_seen": "2026-06-14T14:52:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0631
     },
     {
       "id": "ba242cd9a1",
@@ -686,24 +918,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T12:58:06+00:00",
-      "last_seen": "2026-06-14T12:58:06+00:00",
+      "first_seen": "2026-06-14T14:51:50+00:00",
+      "last_seen": "2026-06-14T14:51:50+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0777
+      "resonance": 0.0621
     },
     {
-      "id": "67bf6efad4",
-      "title": "Rebel AIADMK leader C.Ve. Shanmugam accuses Edappadi Palaniswami of suppressing dissent",
+      "id": "4d44625577",
+      "title": "Loco failure delays train at Nidamangalam",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/rebel-aiadmk-leader-cve-shanmugam-accuses-edappadi-palaniswami-of-suppressing-dissent/article71100709.ece",
-          "headline": "Rebel AIADMK leader C.Ve. Shanmugam accuses Edappadi Palaniswami of suppressing dissent",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/loco-failure-delays-train-at-nidamangalam/article71101688.ece",
+          "headline": "Loco failure delays train at Nidamangalam",
           "platform": "rss"
         }
       ],
@@ -714,344 +946,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T12:57:26+00:00",
-      "last_seen": "2026-06-14T12:57:26+00:00",
+      "first_seen": "2026-06-14T14:50:38+00:00",
+      "last_seen": "2026-06-14T14:50:38+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0764
-    },
-    {
-      "id": "77b0a80d69",
-      "title": "Rupee-dollar fluctuations driven by global, domestic factors: Sitharaman",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/business/Economy/rupee-dollar-fluctuations-driven-by-global-domestic-factors-sitharaman/article71101205.ece",
-          "headline": "Rupee-dollar fluctuations driven by global, domestic factors: Sitharaman",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T12:55:14+00:00",
-      "last_seen": "2026-06-14T12:55:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0721
-    },
-    {
-      "id": "f487c01bed",
-      "title": "Centre sanctions ₹57 crore for 14 road projects in Dakshina Kannada, says MP Brijesh Chowta",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Mangalore/centre-sanctions-57-crore-for-14-road-projects-in-dakshina-kannada-says-mp-brijesh-chowta/article71101129.ece",
-          "headline": "Centre sanctions ₹57 crore for 14 road projects in Dakshina Kannada, says MP Brijesh Chowta",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T12:54:30+00:00",
-      "last_seen": "2026-06-14T12:54:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0707
-    },
-    {
-      "id": "33a9efaa6d",
-      "title": "Why is Bulgaria banning arms supplies to Ukraine?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/why-is-bulgaria-banning-arms-supplies-to-ukraine/a-77523515?maca=en-rss-en-all-1573-rdf",
-          "headline": "Why is Bulgaria banning arms supplies to Ukraine?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T12:54:00+00:00",
-      "last_seen": "2026-06-14T12:54:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0698
-    },
-    {
-      "id": "3bf4fd73ac",
-      "title": "Visakhapatnam airport passenger traffic rose 170% since 2014-15, says Director",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/visakhapatnam-airport-passenger-traffic-rose-170-since-2014-15-says-director/article71101039.ece",
-          "headline": "Visakhapatnam airport passenger traffic rose 170% since 2014-15, says Director",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T12:51:07+00:00",
-      "last_seen": "2026-06-14T12:51:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0642
-    },
-    {
-      "id": "03dba1c8b3",
-      "title": "Signature forgery case: Abhishek Banerjee, Kunal Ghosh at CID headquarters for questioning",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/west-bengal/signature-forgery-case-abhishek-banerjee-cid-questioning-on-june-14/article71100521.ece",
-          "headline": "Signature forgery case: Abhishek Banerjee, Kunal Ghosh at CID headquarters for questioning",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T12:50:10+00:00",
-      "last_seen": "2026-06-14T12:50:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0624
-    },
-    {
-      "id": "364728218c",
-      "title": "Squash | Joshna set for record seventh Asian Games appearance",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/other-sports/squash-joshna-set-for-record-seventh-asian-games-appearance/article71100955.ece",
-          "headline": "Squash | Joshna set for record seventh Asian Games appearance",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T12:50:04+00:00",
-      "last_seen": "2026-06-14T12:50:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0622
-    },
-    {
-      "id": "ae1aa1604c",
-      "title": "Trump says US-Iran deal to be signed on Sunday as Tehran casts doubt on timing",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.com/news/articles/cvglmn49xz0o?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump says US-Iran deal to be signed on Sunday as Tehran casts doubt on timing",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/14/will-the-us-iran-deal-be-signed-on-sunday-what-we-know-so-far?traffic_source=rss",
-          "headline": "Will the US-Iran deal be signed on Sunday? What we know so far",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/06/13/nx-s1-5857149/trump-iran-war-peace-deal",
-          "headline": "Trump says deal to end Iran war will be signed Sunday, as Iran disagrees on timing",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.117,
-        "spread": 0.085,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T03:46:07+00:00",
-      "last_seen": "2026-06-14T11:23:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0611
-    },
-    {
-      "id": "20265394cc",
-      "title": "Tirunelveli reader’s mail",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Madurai/tirunelveli-readers-mail/article71101082.ece",
-          "headline": "Tirunelveli reader’s mail",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T12:49:25+00:00",
-      "last_seen": "2026-06-14T12:49:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.061
-    },
-    {
-      "id": "c63b5dfdf4",
-      "title": "Trump hypes Jalen Brunson after Knicks secure NBA championship: 'A superstar was born'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/trump-hypes-jalen-brunson-knicks-secure-nba-championship-superstar-born",
-          "headline": "Trump hypes Jalen Brunson after Knicks secure NBA championship: 'A superstar was born'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-14T12:49:07+00:00",
-      "last_seen": "2026-06-14T12:49:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
       "resonance": 0.0604
     },
     {
-      "id": "e6eced03ad",
-      "title": "Diamondbacks vs Reds betting preview: Why one pitcher makes Cincinnati the play through five innings",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/diamondbacks-vs-reds-betting-preview-one-pitcher-makes-cincinnati-play-five-innings",
-          "headline": "Diamondbacks vs Reds betting preview: Why one pitcher makes Cincinnati the play through five innings",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-14T12:48:04+00:00",
-      "last_seen": "2026-06-14T12:48:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0584
-    },
-    {
-      "id": "272a249958",
-      "title": "Thousands of Palestinians buried under rubble in Gaza 'may never be identified', says Red Cross",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/thousands-palestinians-buried-under-rubble-gaza-may-never-be-identified-says-red-cross",
-          "headline": "Thousands of Palestinians buried under rubble in Gaza 'may never be identified', says Red Cross",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T12:45:34+00:00",
-      "last_seen": "2026-06-14T12:45:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0537
-    },
-    {
-      "id": "a765187746",
-      "title": "NUPPL’s Ghatampur plant Unit-3 begins commercial operations",
+      "id": "c65fc13a06",
+      "title": "Rebellion forces structural rejig in Trinamool; three MPs removed from organisational roles",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/nuppls-ghatampur-plant-unit-3-begins-commercial-operations/article71100263.ece",
-          "headline": "NUPPL’s Ghatampur plant Unit-3 begins commercial operations",
+          "url": "https://www.thehindu.com/news/national/west-bengal/mamata-rejigs-tmcs-youth-women-wings-removes-saayoni-mala-roy-from-key-positions/article71100330.ece",
+          "headline": "Rebellion forces structural rejig in Trinamool; three MPs removed from organisational roles",
           "platform": "rss"
         }
       ],
@@ -1062,52 +974,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T12:45:26+00:00",
-      "last_seen": "2026-06-14T12:45:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0534
-    },
-    {
-      "id": "34a89fb00d",
-      "title": "China direct strike threat to Australia ‘growing’: report",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/06/14/asia-pacific/china-australia-missile-threat-grows/",
-          "headline": "China direct strike threat to Australia ‘growing’: report",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T12:44:00+00:00",
-      "last_seen": "2026-06-14T12:44:00+00:00",
+      "first_seen": "2026-06-14T14:49:58+00:00",
+      "last_seen": "2026-06-14T14:49:58+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0508
+      "resonance": 0.0595
     },
     {
-      "id": "f6a33b2465",
-      "title": "Shoolagiri wetland turns into toxic bed of industrial waste",
+      "id": "5904d63e60",
+      "title": "HK$751,000 worth of jewellery stolen while owners dine at Hong Kong luxury home",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/shoolagiri-wetland-turns-into-toxic-bed-of-industrial-waste/article71100359.ece",
-          "headline": "Shoolagiri wetland turns into toxic bed of industrial waste",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3357076/hk751000-worth-jewellery-stolen-while-owners-dine-hong-kong-luxury-home?utm_source=rss_feed",
+          "headline": "HK$751,000 worth of jewellery stolen while owners dine at Hong Kong luxury home",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T14:46:07+00:00",
+      "last_seen": "2026-06-14T14:46:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0542
+    },
+    {
+      "id": "a767c67d70",
+      "title": "The week in pictures: World Cup 2026 kicks off, the Pope visits Spain and the White House prepares for a cage fight showdown",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/culture/20260614-the-week-in-pictures-world-cup-2026-kicks-off-the-pope-visits-spain-and-the-white-house-prepares-for-a-cage-fight-showdown",
+          "headline": "The week in pictures: World Cup 2026 kicks off, the Pope visits Spain and the White House prepares for a cage fight showdown",
           "platform": "rss"
         }
       ],
@@ -1118,8 +1030,36 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T12:43:36+00:00",
-      "last_seen": "2026-06-14T12:43:36+00:00",
+      "first_seen": "2026-06-14T14:44:35+00:00",
+      "last_seen": "2026-06-14T14:44:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0521
+    },
+    {
+      "id": "810b230556",
+      "title": "British 1-2-3 at Barcelona-Catalunya Grand Prix - first since 1968",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/hamilton-russell-and-norris-complete-all-british-podium-at-barcelona-catalunya-grand-prix-13554030",
+          "headline": "British 1-2-3 at Barcelona-Catalunya Grand Prix - first since 1968",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T14:43:00+00:00",
+      "last_seen": "2026-06-14T14:43:00+00:00",
       "platforms": [
         "rss"
       ],
@@ -1130,39 +1070,21 @@
   ],
   "edges": [
     {
-      "source": "63d48ecaf7",
-      "target": "f17b17f24b",
-      "weight": 0.01,
+      "source": "a97bb0b8d8",
+      "target": "c65fc13a06",
+      "weight": 0.174,
       "type": "thematic"
     },
     {
-      "source": "ae0b1852e8",
-      "target": "c63b5dfdf4",
-      "weight": 0.727,
+      "source": "0d8fe27c70",
+      "target": "810b230556",
+      "weight": 0.442,
       "type": "thematic"
     },
     {
-      "source": "8ba867f47a",
-      "target": "b47404e564",
-      "weight": 0.531,
-      "type": "thematic"
-    },
-    {
-      "source": "8ba867f47a",
-      "target": "ae1aa1604c",
-      "weight": 0.238,
-      "type": "thematic"
-    },
-    {
-      "source": "b47404e564",
-      "target": "a9e5bde045",
-      "weight": 0.491,
-      "type": "thematic"
-    },
-    {
-      "source": "f17b17f24b",
-      "target": "ae1aa1604c",
-      "weight": 0.078,
+      "source": "dfe48f9f3e",
+      "target": "a767c67d70",
+      "weight": 0.088,
       "type": "thematic"
     }
   ],
@@ -1209,7 +1131,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 6,
+      "count": 5,
       "error": null
     },
     "The Atlantic": {
@@ -1298,8 +1220,8 @@
       "error": null
     },
     "Ars Technica": {
-      "ok": false,
-      "count": 0,
+      "ok": true,
+      "count": 20,
       "error": null
     },
     "MIT Tech Review": {

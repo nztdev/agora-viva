@@ -1,36 +1,8 @@
 {
-  "generated_at": "2026-06-14T23:41:16.946854+00:00",
+  "generated_at": "2026-06-15T01:59:19.713312+00:00",
   "node_count": 35,
-  "edge_count": 19,
+  "edge_count": 27,
   "nodes": [
-    {
-      "id": "e91e4141a3",
-      "title": "Why Is Claude Turning into an a**Hole?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
-          "headline": "Why Is Claude Turning into an a**Hole?",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T22:04:01+00:00",
-      "last_seen": "2026-06-14T22:04:01+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.28
-    },
     {
       "id": "8940fdcafc",
       "title": "Did Anthropic ask for this?",
@@ -60,10 +32,16 @@
       "resonance": 0.28
     },
     {
-      "id": "cead18fe31",
-      "title": "U.S. singer Oliver Tree among six killed in helicopter crash in Brazil",
-      "signal_count": 6,
+      "id": "4bf4711bf0",
+      "title": "Singer Oliver Tree Is Said to Have Died in Collision of Helicopters in Brazil",
+      "signal_count": 7,
       "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/14/arts/music/oliver-tree-dead-brazil-helicopter-crash.html",
+          "headline": "Singer Oliver Tree Is Said to Have Died in Collision of Helicopters in Brazil",
+          "platform": "rss"
+        },
         {
           "outlet": "Fox News",
           "url": "https://www.foxnews.com/entertainment/singer-oliver-tree-presumed-dead-after-helicopter-collision-rio-de-janeiro-brazil",
@@ -102,26 +80,84 @@
         }
       ],
       "bias": {
-        "mean": -0.017,
-        "spread": 0.308,
-        "left": 2,
+        "mean": -0.057,
+        "spread": 0.302,
+        "left": 3,
         "center": 3,
         "right": 1
       },
       "first_seen": "2026-06-14T16:21:12+00:00",
-      "last_seen": "2026-06-14T23:13:19+00:00",
+      "last_seen": "2026-06-15T01:10:56+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.4678
+      "topic": "tech",
+      "resonance": 0.677
+    },
+    {
+      "id": "3266b40abc",
+      "title": "Oil prices slide after Pakistan announces deal between US and Iran",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&at_campaign=rss",
+          "headline": "Oil prices slide after Pakistan announces deal between US and Iran",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/iran-war-pakistan-announces-us-iran-peace-deal-reached/live-77540182?maca=en-rss-en-all-1573-rdf",
+          "headline": "Iran war: Pakistan announces US-Iran peace deal reached",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3357088/us-pakistan-announce-peace-deal-iran-complete?utm_source=rss_feed",
+          "headline": "US, Pakistan announce peace deal with Iran is ‘complete’",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260614-middle-east-war-live-trump-says-iran-deal-to-be-signed-sunday",
+          "headline": "Pakistan's prime minister says US and Iran have reached ceasefire deal",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-says-us-iran-deal-ends-war-all-fronts",
+          "headline": "Pakistan says US-Iran deal ends war on all fronts",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.09,
+        "spread": 0.111,
+        "left": 1,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T21:28:26+00:00",
+      "last_seen": "2026-06-15T01:33:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.6627
     },
     {
       "id": "86ea1ca3e1",
       "title": "The U.S. and Iran announce a deal to end the war",
-      "signal_count": 8,
+      "signal_count": 6,
       "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/us-iran-reach-deal-to-end-war-reportedly-including-lebanon-conflict-trump-hormuz-to-open/",
+          "headline": "US, Iran reach deal to end war, reportedly including Lebanon conflict; Trump: Hormuz to open",
+          "platform": "rss"
+        },
         {
           "outlet": "France 24",
           "url": "https://www.france24.com/en/us-iran-reach-deal-to-end-war",
@@ -147,24 +183,6 @@
           "platform": "rss"
         },
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/iran-trump-announces-deal-end-us-israel-war",
-          "headline": "War on Iran: Trump says deal to end US-Israeli war on all fronts is 'now complete'",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-15/pakistan-say-peace-deal-between-us-iran-reached/106735740",
-          "headline": "US and Iran reach peace deal to end war and re-open Strait of Hormuz",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-says-us-iran-deal-ends-war-all-fronts",
-          "headline": "Pakistan says US-Iran deal ends war on all fronts",
-          "platform": "rss"
-        },
-        {
           "outlet": "Le Monde (EN)",
           "url": "https://www.lemonde.fr/en/international/article/2026/06/14/trump-insists-iran-deal-hours-away-despite-israeli-strike-on-beirut_6754472_4.html",
           "headline": "Trump declares US-Iran peace deal 'now complete,' as Iran confirms 'immediate end' to the war",
@@ -172,30 +190,42 @@
         }
       ],
       "bias": {
-        "mean": -0.194,
-        "spread": 0.063,
-        "left": 4,
+        "mean": -0.15,
+        "spread": 0.104,
+        "left": 2,
         "center": 4,
         "right": 0
       },
       "first_seen": "2026-06-14T18:44:06+00:00",
-      "last_seen": "2026-06-14T23:29:05+00:00",
+      "last_seen": "2026-06-15T01:44:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.4654
+      "topic": "conflict",
+      "resonance": 0.6149
     },
     {
       "id": "3673b4cba3",
       "title": "Japan come from behind twice to draw with Netherlands",
-      "signal_count": 4,
+      "signal_count": 6,
       "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/06/14/g-s1-128102/japan-netherlands-world-cup-opener-dallas-arlington",
+          "headline": "2-2 draw for Japan and the Netherlands in World Cup opener for both",
+          "platform": "rss"
+        },
         {
           "outlet": "BBC News",
           "url": "https://www.bbc.com/sport/football/videos/cnv9dzl62g6o?at_medium=RSS&at_campaign=rss",
           "headline": "Japan come from behind twice to draw with Netherlands",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/6/14/japan-deny-netherlands-by-fighting-back-twice-in-world-cup-opener?traffic_source=rss",
+          "headline": "Japan deny Netherlands by fighting back twice in World Cup opener",
           "platform": "rss"
         },
         {
@@ -218,20 +248,450 @@
         }
       ],
       "bias": {
-        "mean": -0.075,
-        "spread": 0.043,
+        "mean": -0.108,
+        "spread": 0.061,
         "left": 0,
-        "center": 4,
+        "center": 6,
         "right": 0
       },
       "first_seen": "2026-06-14T21:54:00+00:00",
-      "last_seen": "2026-06-14T22:45:02+00:00",
+      "last_seen": "2026-06-15T00:14:26+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.3927
+      "resonance": 0.5531
+    },
+    {
+      "id": "888f101921",
+      "title": "US and Iran announce ceasefire and plans to reopen Strait of Hormuz",
+      "signal_count": 6,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/trump-announces-peace-deal-iran-declares-strait-hormuz-reopen-let-oil-flow",
+          "headline": "Trump announces peace deal with Iran, declares Strait of Hormuz will reopen: 'Let the oil flow!'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/14/us-iran-ceasefire-deal-announced-trump-says-strait-of-hormuz-reopening?traffic_source=rss",
+          "headline": "US-Iran ‘peace deal’ announced; Trump says Strait of Hormuz reopening",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-gives-conflicting-timeline-strait-hormuz-reopening",
+          "headline": "Trump gives conflicting timeline for Strait of Hormuz reopening",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/g7-discuss-us-iran-deal-and-strait-hormuz-reopening",
+          "headline": "G7 to discuss US-Iran deal and Strait of Hormuz reopening",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-15/pakistan-say-peace-deal-between-us-iran-reached/106735740",
+          "headline": "US and Iran announce ceasefire and plans to reopen Strait of Hormuz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-strait-hormuz-will-reopen-very-shortly",
+          "headline": "Trump says Strait of Hormuz will reopen ‘very shortly’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.075,
+        "spread": 0.307,
+        "left": 3,
+        "center": 2,
+        "right": 1
+      },
+      "first_seen": "2026-06-14T21:03:32+00:00",
+      "last_seen": "2026-06-15T01:13:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.4913
+    },
+    {
+      "id": "f9a8258483",
+      "title": "World Cup: Ivory Coast beats Ecuador with late strike from Amad Diallo",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/fifa-world-cup-ivory-coast-vs-ecuador-amad-diallo-scores-in-90th-minute-to-lift-ivory-coast/article71103263.ece",
+          "headline": "FIFA World Cup, Ivory Coast vs Ecuador: Amad Diallo scores in 90th minute to lift Ivory Coast",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260615-diallo-stuns-ecuador-late-as-ivory-coast-open-world-cup-with-1-0-win",
+          "headline": "World Cup: Ivory Coast beats Ecuador with late strike from Amad Diallo",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/ivory-coast-vs-ecuador-live-score-fifa-world-cup-2026-live-match-updates/article71102518.ece",
+          "headline": "FIFA World Cup 2026 | Ivory Coast vs Ecuador highlights: Amad Diallo scores late in Ivory Coast's 1-0 win",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:12:50+00:00",
+      "last_seen": "2026-06-15T01:43:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.4738
+    },
+    {
+      "id": "cbe35563a1",
+      "title": "Thunderstorms threaten Trump's UFC cage fight on the White House lawn",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c892xnwg5vlo?at_medium=RSS&at_campaign=rss",
+          "headline": "Thunderstorms threaten Trump's UFC cage fight on the White House lawn",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-15/ufc-freedom-250-live-white-house-donald-trump/106797824",
+          "headline": "Live: Trump ring-side as first White House UFC fight ends in dramatic KO",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260614-donald-trump-turns-80-and-celebrates-with-ufc-cage-fighting-on-the-white-house-lawn",
+          "headline": "Donald Trump turns 80 and celebrates with UFC cage fighting on the White House lawn",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T15:57:13+00:00",
+      "last_seen": "2026-06-15T00:46:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2072
+    },
+    {
+      "id": "b80b0c6efd",
+      "title": "West Asia LIVE: Oil prices down more than 4% after U.S.-Iran 'permanent' peace deal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-israel-iran-war-live-updates-peace-ceasefire-deal-oil-price-hike-donald-trump-mojtaba-khamenei-netanyahu-june-15-2026/article71103253.ece",
+          "headline": "West Asia LIVE: Oil prices down more than 4% after U.S.-Iran 'permanent' peace deal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:54:24+00:00",
+      "last_seen": "2026-06-15T01:54:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1858
+    },
+    {
+      "id": "4591d32db3",
+      "title": "Railway Board likely to give approval for CMRL takeover of MRTS in four to six weeks",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/chennai/railway-board-likely-to-give-approval-for-cmrl-takeover-of-mrts-in-four-to-six-weeks/article71101198.ece",
+          "headline": "Railway Board likely to give approval for CMRL takeover of MRTS in four to six weeks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:51:58+00:00",
+      "last_seen": "2026-06-15T01:51:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1804
+    },
+    {
+      "id": "1d304e727b",
+      "title": "Australia news live: share market welcomes peace deal as banks and BHP bounce; tax experts back budget reforms",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jun/15/australia-news-live-experts-push-back-at-call-for-shark-cull-after-attack-university-students-report-freedom-of-speech-fears",
+          "headline": "Australia news live: share market welcomes peace deal as banks and BHP bounce; tax experts back budget reforms",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:46:17+00:00",
+      "last_seen": "2026-06-15T01:46:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.168
+    },
+    {
+      "id": "772def8278",
+      "title": "Royal Marines board Russian shadow fleet oil tanker in English Channel",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/clyek039l2vo?at_medium=RSS&at_campaign=rss",
+          "headline": "Royal Marines board Russian shadow fleet oil tanker in English Channel",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/uk-seizes-suspected-russian-shadow-fleet-tanker/a-77545832?maca=en-rss-en-all-1573-rdf",
+          "headline": "UK seizes suspected Russian shadow fleet tanker",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260614-uk-intercepts-russian-shadow-fleet-vessel-in-channel-ministry",
+          "headline": "UK intercepts Russian shadow fleet vessel in Channel: ministry",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-14T16:00:36+00:00",
+      "last_seen": "2026-06-15T00:22:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1616
+    },
+    {
+      "id": "5aa2d44d43",
+      "title": "Iran War Live Updates: U.S. and Iran Reach Cease-Fire Agreement",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/06/14/world/iran-war-trump-us",
+          "headline": "Iran War Live Updates: U.S. and Iran Reach Cease-Fire Agreement",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:41:19+00:00",
+      "last_seen": "2026-06-15T01:41:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1573
+    },
+    {
+      "id": "3ddba9553c",
+      "title": "Trump Claims Strait Will Be ‘Permanently Toll-Free’ Under Agreement With Iran",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/14/us/politics/trump-iran-deal-strait-of-hormuz.html",
+          "headline": "Trump Claims Strait Will Be ‘Permanently Toll-Free’ Under Agreement With Iran",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:41:17+00:00",
+      "last_seen": "2026-06-15T01:41:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1572
+    },
+    {
+      "id": "ef1c9e8403",
+      "title": "US-Iran to sign a ‘peace deal’ on Friday: What we know so far",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/15/us-iran-to-sign-a-peace-deal-on-friday-what-we-know-so-far?traffic_source=rss",
+          "headline": "US-Iran to sign a ‘peace deal’ on Friday: What we know so far",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:40:47+00:00",
+      "last_seen": "2026-06-15T01:40:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1561
+    },
+    {
+      "id": "3f3f0d6717",
+      "title": "Crude oil futures drop after Trump promises an Iran deal will be signed Friday",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/06/14/nx-s1-5858115/oil-prices-trump-iran-deal",
+          "headline": "Crude oil futures drop after Trump promises an Iran deal will be signed Friday",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:33:09+00:00",
+      "last_seen": "2026-06-15T01:33:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1399
+    },
+    {
+      "id": "5b8b240ae2",
+      "title": "Starmer to confirm social media ban for U.K. teens ahead of G7 meet",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/06/15/world/politics/starmer-social-media-ban-uk-teens/",
+          "headline": "Starmer to confirm social media ban for U.K. teens ahead of G7 meet",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:33:00+00:00",
+      "last_seen": "2026-06-15T01:33:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1396
+    },
+    {
+      "id": "0702b28247",
+      "title": "Trump Celebrates While America Capitulates",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/ideas/2026/06/trump-iran-deal/687547/?utm_source=feed",
+          "headline": "Trump Celebrates While America Capitulates",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:32:45+00:00",
+      "last_seen": "2026-06-15T01:32:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1391
     },
     {
       "id": "7bf3a1a6dc",
@@ -277,58 +737,74 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.281
+      "resonance": 0.1363
     },
     {
-      "id": "2e0a5d6e14",
-      "title": "U.S., Iran reach peace deal, signing set for Friday, Pakistan says",
-      "signal_count": 3,
+      "id": "fc85b3b86c",
+      "title": "Pursuit of academic excellence in Hong Kong shouldn’t be a deadly race",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3357087/us-and-iran-reach-peace-deal-signing-set-friday-pakistan-says?utm_source=rss_feed",
-          "headline": "US and Iran reach peace deal with signing set for Friday, Pakistan says",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3357088/us-pakistan-announce-peace-deal-iran-complete?utm_source=rss_feed",
-          "headline": "US, Pakistan announce peace deal with Iran is ‘complete’",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/06/15/world/politics/us-iran-peace-signing-pakistan/",
-          "headline": "U.S., Iran reach peace deal, signing set for Friday, Pakistan says",
+          "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3356922/pursuit-academic-excellence-hong-kong-shouldnt-be-deadly-race?utm_source=rss_feed",
+          "headline": "Pursuit of academic excellence in Hong Kong shouldn’t be a deadly race",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.067,
-        "spread": 0.047,
+        "mean": 0.1,
+        "spread": 0.0,
         "left": 0,
-        "center": 3,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T22:02:00+00:00",
-      "last_seen": "2026-06-14T22:29:11+00:00",
+      "first_seen": "2026-06-15T01:30:05+00:00",
+      "last_seen": "2026-06-15T01:30:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2246
+      "resonance": 0.1335
     },
     {
-      "id": "cbb2bbd467",
-      "title": "Ask HN: What are you working on? (June 2026)",
+      "id": "971027ca69",
+      "title": "US and Iran agree to memorandum of understanding and immediate end to military operations",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48528779",
-          "headline": "Ask HN: What are you working on? (June 2026)",
-          "platform": "hackernews"
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260615-us-and-iran-agree-to-memorandum-of-understanding-and-immediate-end-to-military-operations",
+          "headline": "US and Iran agree to memorandum of understanding and immediate end to military operations",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:19:08+00:00",
+      "last_seen": "2026-06-15T01:19:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1109
+    },
+    {
+      "id": "1fdf219fe0",
+      "title": "Nikkei average surges above 69,000 to record high",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/business/2026/06/15/markets/nikkei-surge-69000-iran-deal/",
+          "headline": "Nikkei average surges above 69,000 to record high",
+          "platform": "rss"
         }
       ],
       "bias": {
@@ -338,14 +814,328 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-14T16:05:28+00:00",
-      "last_seen": "2026-06-14T16:05:28+00:00",
+      "first_seen": "2026-06-15T01:17:00+00:00",
+      "last_seen": "2026-06-15T01:17:00+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2217
+      "resonance": 0.1065
+    },
+    {
+      "id": "e9cbcbf50b",
+      "title": "Cult musician Oliver Tree presumed dead after chopper crash",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-15/oliver-tree-brazil-helicopter-crash/106798184",
+          "headline": "Cult musician Oliver Tree presumed dead after chopper crash",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:13:50+00:00",
+      "last_seen": "2026-06-15T01:13:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1002
+    },
+    {
+      "id": "0bc24345e0",
+      "title": "Trump allies cheer Iran deal announcement as Democrats call for clarity",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/15/trump-allies-cheer-iran-deal-announcement-as-democrats-call-for-clarity?traffic_source=rss",
+          "headline": "Trump allies cheer Iran deal announcement as Democrats call for clarity",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:13:29+00:00",
+      "last_seen": "2026-06-15T01:13:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0994
+    },
+    {
+      "id": "ce2e739c5f",
+      "title": "Morning Digest: U.S., Iran reach peace deal, signing set for June 19; India, France adopt Innovation Roadmap 2030, and more",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/the-hindu-morning-digest-june-15-2026/article71102385.ece",
+          "headline": "Morning Digest: U.S., Iran reach peace deal, signing set for June 19; India, France adopt Innovation Roadmap 2030, and more",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:13:16+00:00",
+      "last_seen": "2026-06-15T01:13:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.099
+    },
+    {
+      "id": "f1dc17516d",
+      "title": "U.S.-Iran peace deal announced with ‘permanent’ end to military action",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-iran-reach-peace-deal-signing-set-for-friday-pakistan-says/article71102525.ece",
+          "headline": "U.S.-Iran peace deal announced with ‘permanent’ end to military action",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-israel-iran-war-live-updates-ceasefire-peace-deal-donald-trump-mojtaba-khamenei-benjamin-netanyahu-june-14-2026/article71100124.ece",
+          "headline": "West Asia war highlights: U.S.-Iran peace deal announced with 'permanent' end to military action",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T00:12:20+00:00",
+      "last_seen": "2026-06-15T01:50:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0978
+    },
+    {
+      "id": "2f03d60a07",
+      "title": "Trump tells Putin he is ready to help end Ukraine conflict, Kremlin adviser says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/06/15/world/politics/trump-putin-ukraine-kremlin-adviser/",
+          "headline": "Trump tells Putin he is ready to help end Ukraine conflict, Kremlin adviser says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:10:00+00:00",
+      "last_seen": "2026-06-15T01:10:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0925
+    },
+    {
+      "id": "54b1cdf46f",
+      "title": "Chinese boy, 7, ends up in ICU with severe abdominal pain after drinking iced beverages",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/people-culture/trending-china/article/3356872/chinese-boy-7-ends-icu-severe-abdominal-pain-after-drinking-iced-beverages?utm_source=rss_feed",
+          "headline": "Chinese boy, 7, ends up in ICU with severe abdominal pain after drinking iced beverages",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T01:00:11+00:00",
+      "last_seen": "2026-06-15T01:00:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0731
+    },
+    {
+      "id": "de3df4b2f9",
+      "title": "Mamdani parties with Knicks champion Jose Alvarado on Puerto Rican Day Parade float in New York",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/mamdani-parties-knicks-champion-jose-alvarado-puerto-rican-day-parade-float-new-york",
+          "headline": "Mamdani parties with Knicks champion Jose Alvarado on Puerto Rican Day Parade float in New York",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-15T00:59:29+00:00",
+      "last_seen": "2026-06-15T00:59:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0718
+    },
+    {
+      "id": "3b58dfdf15",
+      "title": "Australia welcomes US-Iran agreement and calls for lasting peace",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/australia-welcomes-us-iran-agreement-and-calls-lasting-peace",
+          "headline": "Australia welcomes US-Iran agreement and calls for lasting peace",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T00:57:23+00:00",
+      "last_seen": "2026-06-15T00:57:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0677
+    },
+    {
+      "id": "3f2fe794f0",
+      "title": "Japan, Germany and New Zealand welcome US-Iran agreement",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/japan-germany-and-new-zealand-welcome-us-iran-agreement",
+          "headline": "Japan, Germany and New Zealand welcome US-Iran agreement",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T00:56:54+00:00",
+      "last_seen": "2026-06-15T00:56:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0668
+    },
+    {
+      "id": "9b423ec72c",
+      "title": "Iran World Cup coach says 'impacted' by politics but ignoring 'hype'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/06/15/iran-world-cup-coach-says-impacted-by-politics-but-ignoring-hype_6754478_9.html",
+          "headline": "Iran World Cup coach says 'impacted' by politics but ignoring 'hype'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T00:54:48+00:00",
+      "last_seen": "2026-06-15T00:54:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0627
+    },
+    {
+      "id": "13c2830d3f",
+      "title": "Zimbabwe’s climate migrants fear eviction as crackdown intensifies",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/15/zimbabwes-climate-migrants-fear-eviction-as-crackdown-intensifies?traffic_source=rss",
+          "headline": "Zimbabwe’s climate migrants fear eviction as crackdown intensifies",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-15T00:54:32+00:00",
+      "last_seen": "2026-06-15T00:54:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.0622
     },
     {
       "id": "791be45c8d",
@@ -385,491 +1175,17 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1959
+      "resonance": 0.0595
     },
     {
-      "id": "7e578920c7",
-      "title": "US-Iran ‘peace deal’ announced, Trump says Strait of Hormuz reopening",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/14/us-iran-ceasefire-deal-announced-trump-says-strait-of-hormuz-reopening?traffic_source=rss",
-          "headline": "US-Iran ‘peace deal’ announced, Trump says Strait of Hormuz reopening",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-gives-conflicting-timeline-strait-hormuz-reopening",
-          "headline": "Trump gives conflicting timeline for Strait of Hormuz reopening",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/g7-discuss-us-iran-deal-and-strait-hormuz-reopening",
-          "headline": "G7 to discuss US-Iran deal and Strait of Hormuz reopening",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-strait-hormuz-will-reopen-very-shortly",
-          "headline": "Trump says Strait of Hormuz will reopen ‘very shortly’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.237,
-        "spread": 0.022,
-        "left": 3,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T21:03:32+00:00",
-      "last_seen": "2026-06-14T22:43:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1835
-    },
-    {
-      "id": "abeaca2be2",
-      "title": "Recap: US and Iran declare peace accord",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/recap-us-and-iran-declare-peace-accord",
-          "headline": "Recap: US and Iran declare peace accord",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:40:56+00:00",
-      "last_seen": "2026-06-14T23:40:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1206
-    },
-    {
-      "id": "291140d17f",
-      "title": "Starmer set to ban under-16s from major social media platforms",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cly7njlw95qo?at_medium=RSS&at_campaign=rss",
-          "headline": "Starmer set to ban under-16s from major social media platforms",
-          "platform": "rss"
-        },
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/14/uk-may-ban-social-media-for-children-under-16/",
-          "headline": "UK may ban social media for children under 16",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T20:17:00+00:00",
-      "last_seen": "2026-06-14T22:16:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1206
-    },
-    {
-      "id": "5f648f627d",
-      "title": "'Medieval fortresses are regaining their military role in the Middle East'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/15/medieval-fortresses-are-regaining-their-military-role-in-the-middle-east_6754476_4.html",
-          "headline": "'Medieval fortresses are regaining their military role in the Middle East'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:34:43+00:00",
-      "last_seen": "2026-06-14T23:34:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1107
-    },
-    {
-      "id": "a77db79cfa",
-      "title": "US to release $12bn of Iran's frozen assets, state media reports",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-release-12bn-irans-frozen-assets-state-media-reports",
-          "headline": "US to release $12bn of Iran's frozen assets, state media reports",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:34:14+00:00",
-      "last_seen": "2026-06-14T23:34:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1099
-    },
-    {
-      "id": "86d6cb21dd",
-      "title": "FIFA World Cup 2026 | Ivory Coast vs Ecuador LIVE updates: Group E match gets underway",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/ivory-coast-vs-ecuador-live-score-fifa-world-cup-2026-live-match-updates/article71102518.ece",
-          "headline": "FIFA World Cup 2026 | Ivory Coast vs Ecuador LIVE updates: Group E match gets underway",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:31:14+00:00",
-      "last_seen": "2026-06-14T23:31:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1052
-    },
-    {
-      "id": "98c272bc39",
-      "title": "Protesters clash with police ahead of G7 summit in Geneva",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Sky News",
-          "url": "https://news.sky.com/story/protesters-clash-with-police-in-geneva-ahead-of-g7-summit-in-france-13554132",
-          "headline": "Geneva police clash with anti-G7 protesters ahead of summit",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.com/news/videos/crkvek3dnrgo?at_medium=RSS&at_campaign=rss",
-          "headline": "Protesters clash with police ahead of G7 summit in Geneva",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/police-fire-tear-gas-at-anti-g7-protesters-in-geneva/a-77548464?maca=en-rss-en-all-1573-rdf",
-          "headline": "Police fire tear gas at anti-G7 protesters in Geneva",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260614-switzerland-police-tear-gas-as-anti-g7-protesters-target-un-buildings-geneva-united-nations",
-          "headline": "Swiss police fire tear gas as anti-G7 protesters target UN buildings",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.025,
-        "spread": 0.083,
-        "left": 0,
-        "center": 4,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T17:03:36+00:00",
-      "last_seen": "2026-06-14T20:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1051
-    },
-    {
-      "id": "5dfa13b116",
-      "title": "Jurors, lawyers and social workers face 'resilience test' in inaccessible courts",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/ckg701z0p01o?at_medium=RSS&at_campaign=rss",
-          "headline": "Jurors, lawyers and social workers face 'resilience test' in inaccessible courts",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:29:55+00:00",
-      "last_seen": "2026-06-14T23:29:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1031
-    },
-    {
-      "id": "b4c02b9e5d",
-      "title": "Iran War Live Updates: Trump Announces Cease-Fire Agreement",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/14/world/iran-war-trump-us",
-          "headline": "Iran War Live Updates: Trump Announces Cease-Fire Agreement",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:29:46+00:00",
-      "last_seen": "2026-06-14T23:29:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1029
-    },
-    {
-      "id": "68bd345fbd",
-      "title": "In Israel, Broad Discontent Even Before Deal’s Details Are Known",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/14/world/middleeast/israel-us-iran-deal.html",
-          "headline": "In Israel, Broad Discontent Even Before Deal’s Details Are Known",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:29:45+00:00",
-      "last_seen": "2026-06-14T23:29:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1029
-    },
-    {
-      "id": "f93834b8a0",
-      "title": "Australia news live: Wong welcomes US-Iran peace deal; Joyce says fundraised millions to pay for One Nation ads",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jun/15/australia-news-live-experts-push-back-at-call-for-shark-cull-after-attack-university-students-report-freedom-of-speech-fears",
-          "headline": "Australia news live: Wong welcomes US-Iran peace deal; Joyce says fundraised millions to pay for One Nation ads",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:29:05+00:00",
-      "last_seen": "2026-06-14T23:29:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1018
-    },
-    {
-      "id": "9722c59f0b",
-      "title": "China's ability to hit Australia with missiles 'real and growing'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-15/lowy-analysis-china-ability-hit-australia-missiles/106797712",
-          "headline": "China's ability to hit Australia with missiles 'real and growing'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:29:01+00:00",
-      "last_seen": "2026-06-14T23:29:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1017
-    },
-    {
-      "id": "15ec2549ea",
-      "title": "As more US business owners retire many are selling up to their staff",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/c0ey87z1ggjo?at_medium=RSS&at_campaign=rss",
-          "headline": "As more US business owners retire many are selling up to their staff",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:26:01+00:00",
-      "last_seen": "2026-06-14T23:26:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.097
-    },
-    {
-      "id": "9af90e34f8",
-      "title": "11 skydivers and pilot killed in US plane crash",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/c74ym4j40gpo?at_medium=RSS&at_campaign=rss",
-          "headline": "11 skydivers and pilot killed in US plane crash",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/14/twelve-killed-in-plane-crash-in-us-state-of-missouri?traffic_source=rss",
-          "headline": "Twelve killed in plane crash in US state of Missouri",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/11-skydivers-one-pilot-killed-missouri-plane-crash-near-airport",
-          "headline": "11 skydivers, one pilot killed in Missouri plane crash near airport",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.356,
-        "left": 0,
-        "center": 2,
-        "right": 1
-      },
-      "first_seen": "2026-06-14T18:27:12+00:00",
-      "last_seen": "2026-06-14T20:32:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0961
-    },
-    {
-      "id": "294a9a1f5d",
-      "title": "Police treating deaths of man and girl at Sydney bay as murder-suicide",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-15/concord-bay-drowning-of-man-and-child-suspected-murder-suicide/106797768",
-          "headline": "Police treating deaths of man and girl at Sydney bay as murder-suicide",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:23:44+00:00",
-      "last_seen": "2026-06-14T23:23:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0935
-    },
-    {
-      "id": "94e3dd4b34",
-      "title": "Boston police arrest 14-year-old after masked suspects allegedly rob siblings’ lemonade stand",
+      "id": "d51eeb0f9e",
+      "title": "Scottish fan has priceless reaction after seeing New England Patriots cheerleaders at World Cup game",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/boston-police-arrest-14-year-old-after-masked-suspects-allegedly-rob-siblings-lemonade-stand",
-          "headline": "Boston police arrest 14-year-old after masked suspects allegedly rob siblings’ lemonade stand",
+          "url": "https://www.foxnews.com/outkick-sports/scottish-fan-priceless-reaction-seeing-new-england-patriots-cheerleaders-world-cup-game",
+          "headline": "Scottish fan has priceless reaction after seeing New England Patriots cheerleaders at World Cup game",
           "platform": "rss"
         }
       ],
@@ -880,409 +1196,177 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-06-14T23:22:31+00:00",
-      "last_seen": "2026-06-14T23:22:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0916
-    },
-    {
-      "id": "931729c17c",
-      "title": "Thierry Henry and Zlatan Ibrahimović get emotional watching FOX coworker Alexi Lalas react to National Anthem",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/thiery-henry-zlatan-ibrahimovi-get-emotional-watching-fox-coworker-alexi-lalas-react-national-anthem",
-          "headline": "Thierry Henry and Zlatan Ibrahimović get emotional watching FOX coworker Alexi Lalas react to National Anthem",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-14T23:16:57+00:00",
-      "last_seen": "2026-06-14T23:16:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0831
-    },
-    {
-      "id": "8440c299d1",
-      "title": "G7 protest turns from carnival to violent stand-off",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/06/15/world/g7-protest-geneva/",
-          "headline": "G7 protest turns from carnival to violent stand-off",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:11:00+00:00",
-      "last_seen": "2026-06-14T23:11:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0741
-    },
-    {
-      "id": "a4fcfed595",
-      "title": "Why you might not be buying the right pain relief for period cramps",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/c932pex1vpwo?at_medium=RSS&at_campaign=rss",
-          "headline": "Why you might not be buying the right pain relief for period cramps",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:10:57+00:00",
-      "last_seen": "2026-06-14T23:10:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.074
-    },
-    {
-      "id": "39700c1681",
-      "title": "Live: 'Chaotic weather' forecast for White House UFC event",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-15/ufc-freedom-250-live-white-house-donald-trump/106797824",
-          "headline": "Live: 'Chaotic weather' forecast for White House UFC event",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:06:40+00:00",
-      "last_seen": "2026-06-14T23:06:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0677
-    },
-    {
-      "id": "d48ff2a750",
-      "title": "World Cup nations slam UEFA chief for ‘disappointing’ 48-team criticism",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/6/14/world-cup-nations-slam-uefa-chief-for-disappointing-48-team-criticism?traffic_source=rss",
-          "headline": "World Cup nations slam UEFA chief for ‘disappointing’ 48-team criticism",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:04:26+00:00",
-      "last_seen": "2026-06-14T23:04:26+00:00",
+      "first_seen": "2026-06-15T00:48:09+00:00",
+      "last_seen": "2026-06-15T00:48:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.0644
-    },
-    {
-      "id": "7a1482e41c",
-      "title": "The UK, France, Germany and Italy say they are ready to lift Iran sanctions",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-france-germany-and-italy-say-they-are-ready-lift-iran-sanctions",
-          "headline": "The UK, France, Germany and Italy say they are ready to lift Iran sanctions",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:02:53+00:00",
-      "last_seen": "2026-06-14T23:02:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0621
-    },
-    {
-      "id": "65d846e35a",
-      "title": "Trump Claims Strait Will be ‘Permanently Toll Free’ Under Agreement With Iran",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/14/us/politics/trump-iran-deal-strait-of-hormuz.html",
-          "headline": "Trump Claims Strait Will be ‘Permanently Toll Free’ Under Agreement With Iran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:00:45+00:00",
-      "last_seen": "2026-06-14T23:00:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0589
-    },
-    {
-      "id": "6c897a7a8d",
-      "title": "HKEX, Kazakhstan’s AIFC ‘engaging’ with miners for dual listings after landmark debut",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3356973/hkex-kazakhstans-aifc-engaging-miners-dual-listings-after-landmark-debut?utm_source=rss_feed",
-          "headline": "HKEX, Kazakhstan’s AIFC ‘engaging’ with miners for dual listings after landmark debut",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T23:00:13+00:00",
-      "last_seen": "2026-06-14T23:00:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0582
-    },
-    {
-      "id": "daaa1ea4ea",
-      "title": "US imposes its domination on part of Latin America",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/15/us-imposes-its-domination-on-part-of-latin-america_6754475_4.html",
-          "headline": "US imposes its domination on part of Latin America",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T22:57:08+00:00",
-      "last_seen": "2026-06-14T22:57:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0537
-    },
-    {
-      "id": "8596796518",
-      "title": "BREAKING: US, Iran announce ceasefire agreement",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/14/breaking-us-iran-announce-ceasefire-agreement?traffic_source=rss",
-          "headline": "BREAKING: US, Iran announce ceasefire agreement",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-14T22:54:36+00:00",
-      "last_seen": "2026-06-14T22:54:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "8940fdcafc",
-      "target": "cbb2bbd467",
-      "weight": 0.624,
+      "source": "4bf4711bf0",
+      "target": "e9cbcbf50b",
+      "weight": 0.319,
       "type": "thematic"
     },
     {
-      "source": "cead18fe31",
-      "target": "9af90e34f8",
-      "weight": 0.376,
+      "source": "3266b40abc",
+      "target": "b80b0c6efd",
+      "weight": 0.587,
       "type": "thematic"
     },
     {
-      "source": "86ea1ca3e1",
-      "target": "2e0a5d6e14",
-      "weight": 0.142,
-      "type": "thematic"
-    },
-    {
-      "source": "86ea1ca3e1",
-      "target": "7e578920c7",
-      "weight": 0.159,
+      "source": "3266b40abc",
+      "target": "3f3f0d6717",
+      "weight": 0.116,
       "type": "thematic"
     },
     {
       "source": "86ea1ca3e1",
-      "target": "b4c02b9e5d",
-      "weight": 0.323,
+      "target": "888f101921",
+      "weight": 0.41,
       "type": "thematic"
     },
     {
       "source": "86ea1ca3e1",
-      "target": "8596796518",
-      "weight": 0.606,
+      "target": "5aa2d44d43",
+      "weight": 0.526,
       "type": "thematic"
     },
     {
-      "source": "2e0a5d6e14",
-      "target": "7e578920c7",
-      "weight": 0.335,
+      "source": "86ea1ca3e1",
+      "target": "ef1c9e8403",
+      "weight": 0.05,
       "type": "thematic"
     },
     {
-      "source": "2e0a5d6e14",
-      "target": "abeaca2be2",
-      "weight": 0.153,
-      "type": "thematic"
-    },
-    {
-      "source": "2e0a5d6e14",
-      "target": "f93834b8a0",
-      "weight": 0.09,
-      "type": "thematic"
-    },
-    {
-      "source": "791be45c8d",
-      "target": "9af90e34f8",
-      "weight": 0.706,
-      "type": "thematic"
-    },
-    {
-      "source": "7e578920c7",
-      "target": "abeaca2be2",
+      "source": "86ea1ca3e1",
+      "target": "971027ca69",
       "weight": 0.171,
       "type": "thematic"
     },
     {
-      "source": "7e578920c7",
-      "target": "b4c02b9e5d",
-      "weight": 0.057,
+      "source": "86ea1ca3e1",
+      "target": "f1dc17516d",
+      "weight": 0.58,
       "type": "thematic"
     },
     {
-      "source": "7e578920c7",
-      "target": "f93834b8a0",
-      "weight": 0.106,
+      "source": "3673b4cba3",
+      "target": "3f2fe794f0",
+      "weight": 0.054,
       "type": "thematic"
     },
     {
-      "source": "7e578920c7",
-      "target": "65d846e35a",
-      "weight": 0.479,
+      "source": "888f101921",
+      "target": "3ddba9553c",
+      "weight": 0.068,
       "type": "thematic"
     },
     {
-      "source": "86d6cb21dd",
-      "target": "b4c02b9e5d",
-      "weight": 0.051,
+      "source": "f9a8258483",
+      "target": "9b423ec72c",
+      "weight": 0.116,
       "type": "thematic"
     },
     {
-      "source": "86d6cb21dd",
-      "target": "d48ff2a750",
-      "weight": 0.069,
+      "source": "b80b0c6efd",
+      "target": "1d304e727b",
+      "weight": 0.056,
       "type": "thematic"
     },
     {
-      "source": "b4c02b9e5d",
-      "target": "65d846e35a",
-      "weight": 0.343,
+      "source": "b80b0c6efd",
+      "target": "5aa2d44d43",
+      "weight": 0.082,
       "type": "thematic"
     },
     {
-      "source": "b4c02b9e5d",
-      "target": "8596796518",
-      "weight": 0.194,
+      "source": "b80b0c6efd",
+      "target": "ef1c9e8403",
+      "weight": 0.132,
       "type": "thematic"
     },
     {
-      "source": "65d846e35a",
-      "target": "8596796518",
-      "weight": 0.174,
+      "source": "b80b0c6efd",
+      "target": "3f3f0d6717",
+      "weight": 0.073,
+      "type": "thematic"
+    },
+    {
+      "source": "b80b0c6efd",
+      "target": "f1dc17516d",
+      "weight": 0.587,
+      "type": "thematic"
+    },
+    {
+      "source": "1d304e727b",
+      "target": "3b58dfdf15",
+      "weight": 0.424,
+      "type": "thematic"
+    },
+    {
+      "source": "5aa2d44d43",
+      "target": "3ddba9553c",
+      "weight": 0.027,
+      "type": "thematic"
+    },
+    {
+      "source": "5aa2d44d43",
+      "target": "3b58dfdf15",
+      "weight": 0.135,
+      "type": "thematic"
+    },
+    {
+      "source": "5aa2d44d43",
+      "target": "3f2fe794f0",
+      "weight": 0.153,
+      "type": "thematic"
+    },
+    {
+      "source": "3ddba9553c",
+      "target": "3f2fe794f0",
+      "weight": 0.002,
+      "type": "thematic"
+    },
+    {
+      "source": "ef1c9e8403",
+      "target": "3f3f0d6717",
+      "weight": 0.314,
+      "type": "thematic"
+    },
+    {
+      "source": "ef1c9e8403",
+      "target": "f1dc17516d",
+      "weight": 0.227,
+      "type": "thematic"
+    },
+    {
+      "source": "3f3f0d6717",
+      "target": "0bc24345e0",
+      "weight": 0.005,
+      "type": "thematic"
+    },
+    {
+      "source": "971027ca69",
+      "target": "f1dc17516d",
+      "weight": 0.476,
+      "type": "thematic"
+    },
+    {
+      "source": "3b58dfdf15",
+      "target": "3f2fe794f0",
+      "weight": 0.105,
+      "type": "thematic"
+    },
+    {
+      "source": "9b423ec72c",
+      "target": "d51eeb0f9e",
+      "weight": 0.085,
       "type": "thematic"
     }
   ],

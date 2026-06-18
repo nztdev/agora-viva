@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T22:56:49.277539+00:00",
+  "generated_at": "2026-06-18T00:16:56.757739+00:00",
   "node_count": 35,
-  "edge_count": 30,
+  "edge_count": 24,
   "nodes": [
     {
       "id": "b61e48fa43",
@@ -32,6 +32,58 @@
       "resonance": 0.28
     },
     {
+      "id": "300d10e0ab",
+      "title": "Trump and Iran's president sign deal to end the war",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260617-middle-east-live-trump-iran-s-president-sign-deal-to-end-mideast-war",
+          "headline": "Middle East live: Trump, Iran's president sign deal to end Mideast war",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/18/trump-and-iran-s-president-sign-deal-to-end-the-war_6754610_4.html",
+          "headline": "Trump and Iran's president sign deal to end the war",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-iran-confirm-deal-signed-to-end-west-asia-war/article71115548.ece",
+          "headline": "Trump, Iran’s President sign deal to end West Asia war",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-18/us-iran-sign-memorandum-to-end-war-live-updates/106812140",
+          "headline": "Live: US and Iran sign agreement to end war",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/17/world/middleeast/trump-iran-deal-obama.html",
+          "headline": "Trump Defends Deal to End the War With Iran as Details Emerge",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.16,
+        "spread": 0.08,
+        "left": 1,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-06-17T22:04:41+00:00",
+      "last_seen": "2026-06-17T23:45:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.6734
+    },
+    {
       "id": "2a9a2a8f4d",
       "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
       "signal_count": 1,
@@ -58,6 +110,74 @@
       "geo_regions": [],
       "topic": "tech",
       "resonance": 0.28
+    },
+    {
+      "id": "e462de1a3e",
+      "title": "Live Updates: U.S. Details Agreement With Iran as Trump Departs G7 Summit",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/06/17/world/g7-summit-trump-france",
+          "headline": "Live Updates: U.S. Details Agreement With Iran as Trump Departs G7 Summit",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/live-updates-trump-signs-interim-agreement-to-end-iran-war/live-77596195?maca=en-rss-en-all-1573-rdf",
+          "headline": "Live updates: Trump signs interim agreement to end Iran war",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-17T23:19:00+00:00",
+      "last_seen": "2026-06-18T00:01:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.404
+    },
+    {
+      "id": "c4ee2160c3",
+      "title": "Trump says it’s ‘unfair’ for Iran to lack ballistic missiles",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/17/trump-says-its-unfair-for-iran-to-lack-ballistic-missiles?traffic_source=rss",
+          "headline": "Trump says it’s ‘unfair’ for Iran to lack ballistic missiles",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/as-deal-takes-force-trump-says-its-okay-for-iran-to-have-some-ballistic-missiles/",
+          "headline": "As deal takes force, Trump says ‘it’s okay’ for Iran to have some ballistic missiles",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.075,
+        "spread": 0.125,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-17T23:40:43+00:00",
+      "last_seen": "2026-06-17T23:56:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.3913
     },
     {
       "id": "0c7f167d5b",
@@ -91,7 +211,7 @@
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.3274
+      "resonance": 0.2136
     },
     {
       "id": "f482b7f5e2",
@@ -125,23 +245,17 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.3049
+      "resonance": 0.1925
     },
     {
-      "id": "a8a1a5ac25",
-      "title": "Read: US officials release 14-point initial agreement to end war with Iran",
-      "signal_count": 2,
+      "id": "dc07720ecb",
+      "title": "What's in the US-Iran agreement that's now in effect",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-18/us-iran-sign-memorandum-to-end-war-live-updates/106812140",
-          "headline": "Live: US and Iran sign agreement to end war",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/read-us-officials-release-14-point-initial-agreement-to-end-war-with-iran/a-77595563?maca=en-rss-en-all-1573-rdf",
-          "headline": "Read: US officials release 14-point initial agreement to end war with Iran",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cvgmqzr6p9mo?at_medium=RSS&at_campaign=rss",
+          "headline": "What's in the US-Iran agreement that's now in effect",
           "platform": "rss"
         }
       ],
@@ -149,17 +263,331 @@
         "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-17T21:01:00+00:00",
-      "last_seen": "2026-06-17T22:21:56+00:00",
+      "first_seen": "2026-06-18T00:14:28+00:00",
+      "last_seen": "2026-06-18T00:14:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1714
+    },
+    {
+      "id": "bb750c68c7",
+      "title": "U.S.-Iran deal takes effect as focus turns to Strait of Hormuz",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/06/18/world/politics/us-iran-deal-strait-of-hormuz/",
+          "headline": "U.S.-Iran deal takes effect as focus turns to Strait of Hormuz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-18T00:12:00+00:00",
+      "last_seen": "2026-06-18T00:12:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.167
+    },
+    {
+      "id": "b1af3c2bce",
+      "title": "Raul Castro backs sweeping Cuba reforms to revive struggling economy",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260618-raul-castro-backs-sweeping-cuba-reforms-to-revive-struggling-economy",
+          "headline": "Raul Castro backs sweeping Cuba reforms to revive struggling economy",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-18T00:10:10+00:00",
+      "last_seen": "2026-06-18T00:10:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.1636
+    },
+    {
+      "id": "3fdf6a7507",
+      "title": "Australia news live: nonstop Sydney-London flights delayed again; Virginia Trioli to leave ABC after 27 years",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jun/18/australia-news-live-non-stop-sydney-london-flights-qantas-one-nation-pauline-hanson-labor-anthony-albanese-economy-cost-of-living-ntwnfb",
+          "headline": "Australia news live: nonstop Sydney-London flights delayed again; Virginia Trioli to leave ABC after 27 years",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-18T00:09:05+00:00",
+      "last_seen": "2026-06-18T00:09:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1617
+    },
+    {
+      "id": "1c387fb138",
+      "title": "FIFA World Cup 2026 | Ghana vs Panama LIVE updates: Group L match gets underway",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/ghana-vs-panama-live-score-fifa-world-cup-2026-live-match-updates/article71115520.ece",
+          "headline": "FIFA World Cup 2026 | Ghana vs Panama LIVE updates: Group L match gets underway",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-18T00:05:34+00:00",
+      "last_seen": "2026-06-18T00:05:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1554
+    },
+    {
+      "id": "586e2e56c9",
+      "title": "Olivia Wilde speaks out about the exact moment she knew relationship with Jason Sudeikis was over",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/olivia-wilde-speaks-out-about-exact-moment-she-knew-relationship-jason-sudeikis-over",
+          "headline": "Olivia Wilde speaks out about the exact moment she knew relationship with Jason Sudeikis was over",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-18T00:04:15+00:00",
+      "last_seen": "2026-06-18T00:04:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1531
+    },
+    {
+      "id": "4cb445bc13",
+      "title": "Pakistan's Prime Minister says US-Iran MoU will enter into force immediately",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistans-sharif-says-us-iran-mou-will-enter-force-immediately",
+          "headline": "Pakistan's Prime Minister says US-Iran MoU will enter into force immediately",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-18T00:03:10+00:00",
+      "last_seen": "2026-06-18T00:03:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1512
+    },
+    {
+      "id": "fce64ca4e3",
+      "title": "Trump to Netanyahu: Use a ‘softer’ touch on Lebanon",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/17/trump-to-netanyahu-use-a-softer-touch-on-lebanon?traffic_source=rss",
+          "headline": "Trump to Netanyahu: Use a ‘softer’ touch on Lebanon",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-netanyahu-could-use-softer-touch-lebanon",
+          "headline": "Trump says Netanyahu could use 'softer touch' in Lebanon",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.025,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-17T17:10:55+00:00",
+      "last_seen": "2026-06-17T23:57:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1497
+    },
+    {
+      "id": "efbc31441a",
+      "title": "Finland's parliament votes to lift decades-old ban on nuclear weapons in historic NATO defense shift",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/finlands-parliament-votes-lift-decades-old-ban-nuclear-weapons-historic-nato-defense-shift",
+          "headline": "Finland's parliament votes to lift decades-old ban on nuclear weapons in historic NATO defense shift",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-18T00:01:47+00:00",
+      "last_seen": "2026-06-18T00:01:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1487
+    },
+    {
+      "id": "a580312d34",
+      "title": "Japan failed to build its own airliner. Now it’s turning to Boeing",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/week-asia/economics/article/3357407/japan-failed-build-its-own-airliner-now-its-turning-boeing?utm_source=rss_feed",
+          "headline": "Japan failed to build its own airliner. Now it’s turning to Boeing",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-18T00:00:09+00:00",
+      "last_seen": "2026-06-18T00:00:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1458
+    },
+    {
+      "id": "7195156408",
+      "title": "Hillary Clinton dodges endorsing Graham Platner, calls his scandals 'bumps on the road'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/hillary-clinton-dodges-endorsing-graham-platner-calls-scandals-bumps-road",
+          "headline": "Hillary Clinton dodges endorsing Graham Platner, calls his scandals 'bumps on the road'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-18T00:00:06+00:00",
+      "last_seen": "2026-06-18T00:00:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1457
+    },
+    {
+      "id": "2eedbf08c5",
+      "title": "Iran war live: Trump, Pezeshkian sign MoU to end fighting, reopen Hormuz",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/6/18/iran-war-live-trump-pezeshkian-sign-mou-to-end-fighting-reopen-hormuz?traffic_source=rss",
+          "headline": "Iran war live: Trump, Pezeshkian sign MoU to end fighting, reopen Hormuz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-18T00:00:00+00:00",
+      "last_seen": "2026-06-18T00:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.2939
+      "resonance": 0.1456
     },
     {
       "id": "ca56c13625",
@@ -193,7 +621,35 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2501
+      "resonance": 0.1418
+    },
+    {
+      "id": "0a15f3a852",
+      "title": "Breaking: Vodafone network crash potentially affecting millions of Australians",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-18/vodafone-mobile-network-outage/106812502",
+          "headline": "Breaking: Vodafone network crash potentially affecting millions of Australians",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-17T23:54:27+00:00",
+      "last_seen": "2026-06-17T23:54:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1359
     },
     {
       "id": "639f70bdac",
@@ -233,157 +689,17 @@
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.232
+      "resonance": 0.1334
     },
     {
-      "id": "e462de1a3e",
-      "title": "Live Updates: U.S. Details Agreement With Iran as Trump Departs G7 Summit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/17/world/g7-summit-trump-france",
-          "headline": "Live Updates: U.S. Details Agreement With Iran as Trump Departs G7 Summit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T22:53:00+00:00",
-      "last_seen": "2026-06-17T22:53:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.156
-    },
-    {
-      "id": "722659c1b8",
-      "title": "The Korean Telecom Giant at the Center of Anthropic’s Mythos Controversy",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/",
-          "headline": "The Korean Telecom Giant at the Center of Anthropic’s Mythos Controversy",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T22:52:00+00:00",
-      "last_seen": "2026-06-17T22:52:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1543
-    },
-    {
-      "id": "1d99d8f210",
-      "title": "First Australian hantavirus cruise ship passenger speaks from quarantine",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-18/australian-hantavirus-cruise-passenger-speaks-from-quarantine/106811692",
-          "headline": "First Australian hantavirus cruise ship passenger speaks from quarantine",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T22:51:00+00:00",
-      "last_seen": "2026-06-17T22:51:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1527
-    },
-    {
-      "id": "aac7927afa",
-      "title": "Australia news live: nonstop Sydney-London flights delayed again; anti-abortion bill blocked in SA",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jun/18/australia-news-live-non-stop-sydney-london-flights-qantas-one-nation-pauline-hanson-labor-anthony-albanese-economy-cost-of-living-ntwnfb",
-          "headline": "Australia news live: nonstop Sydney-London flights delayed again; anti-abortion bill blocked in SA",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T22:50:25+00:00",
-      "last_seen": "2026-06-17T22:50:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1517
-    },
-    {
-      "id": "7c1bf6b76c",
-      "title": "The US and Iran publish their official agreement. Here’s what’s in it",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/us/diplomacy/article/3357480/us-and-iran-publish-their-official-agreement-heres-whats-it?utm_source=rss_feed",
-          "headline": "The US and Iran publish their official agreement. Here’s what’s in it",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T22:50:07+00:00",
-      "last_seen": "2026-06-17T22:50:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1512
-    },
-    {
-      "id": "73726cc1b9",
-      "title": "France shuts down clandestine Chinese 'police stations' operating on its territory",
+      "id": "920d946fe7",
+      "title": "Appointed by Trump to lead the Fed, Kevin Warsh vows to reshape the institution",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/france/article/2026/06/18/france-shuts-down-clandestine-chinese-police-stations-operating-on-its-territory_6754608_7.html",
-          "headline": "France shuts down clandestine Chinese 'police stations' operating on its territory",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/06/18/appointed-by-trump-to-lead-the-fed-kevin-warsh-vows-to-reshape-the-institution_6754611_19.html",
+          "headline": "Appointed by Trump to lead the Fed, Kevin Warsh vows to reshape the institution",
           "platform": "rss"
         }
       ],
@@ -394,80 +710,108 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-17T22:48:26+00:00",
-      "last_seen": "2026-06-17T22:48:26+00:00",
+      "first_seen": "2026-06-17T23:45:18+00:00",
+      "last_seen": "2026-06-17T23:45:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1485
+      "topic": "tech",
+      "resonance": 0.1202
     },
     {
-      "id": "1ee5137718",
-      "title": "FTC alleges influential transgender health organization misled parents about safety of youth treatments",
+      "id": "016a1fc2a0",
+      "title": "Cycling star to miss Tour de France in major blow to Vingegaard's hopes",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/ftc-alleges-influential-transgender-health-organization-misled-parents-safety-youth-treatments",
-          "headline": "FTC alleges influential transgender health organization misled parents about safety of youth treatments",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-18/tour-de-france-wout-van-aert-confirmed-out-with-elbow-injury/106812318",
+          "headline": "Cycling star to miss Tour de France in major blow to Vingegaard's hopes",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-06-17T22:48:12+00:00",
-      "last_seen": "2026-06-17T22:48:12+00:00",
+      "first_seen": "2026-06-17T23:32:49+00:00",
+      "last_seen": "2026-06-17T23:32:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1481
+      "topic": "world",
+      "resonance": 0.0993
     },
     {
-      "id": "0c7c5d9dd6",
-      "title": "France Assembled an African Dream Team. Senegal Could Not Stop Them.",
+      "id": "bf0f4be41d",
+      "title": "Farming and film the perfect pairing on this remote country property",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/17/world/africa/france-senegal-world-cup-africa.html",
-          "headline": "France Assembled an African Dream Team. Senegal Could Not Stop Them.",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-18/brianna-jones-combines-farming-filmmaking-gairdner-wa/106803564",
+          "headline": "Farming and film the perfect pairing on this remote country property",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
+        "mean": -0.1,
         "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-17T22:47:03+00:00",
-      "last_seen": "2026-06-17T22:47:03+00:00",
+      "first_seen": "2026-06-17T23:30:15+00:00",
+      "last_seen": "2026-06-17T23:30:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1463
+      "topic": "tech",
+      "resonance": 0.0951
     },
     {
-      "id": "9ec65c6348",
-      "title": "UN warns Israeli settlers could join blacklist for violations against children",
+      "id": "a74c4bb74b",
+      "title": "AI is hurting Apple in more ways than one: it may force iPhone price increases",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/17/ai-is-hurting-apple-in-more-ways-than-one-it-may-force-iphone-price-increases/",
+          "headline": "AI is hurting Apple in more ways than one: it may force iPhone price increases",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-17T23:28:21+00:00",
+      "last_seen": "2026-06-17T23:28:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.092
+    },
+    {
+      "id": "b2f74ff22b",
+      "title": "Trump signs US-Iran memorandum of understanding",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-warns-israeli-settlers-could-join-blacklist-violations-against",
-          "headline": "UN warns Israeli settlers could join blacklist for violations against children",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-signs-us-iran-memorandum-understanding",
+          "headline": "Trump signs US-Iran memorandum of understanding",
           "platform": "rss"
         }
       ],
@@ -478,24 +822,108 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-17T22:45:07+00:00",
-      "last_seen": "2026-06-17T22:45:07+00:00",
+      "first_seen": "2026-06-17T23:27:35+00:00",
+      "last_seen": "2026-06-17T23:27:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0908
+    },
+    {
+      "id": "5b1bf8afa3",
+      "title": "Trump says partnership with Netanyahu 'amazing', but 'little dispute' over Lebanon",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-partnership-netanyahu-amazing-little-dispute-over-lebanon",
+          "headline": "Trump says partnership with Netanyahu 'amazing', but 'little dispute' over Lebanon",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-17T23:23:24+00:00",
+      "last_seen": "2026-06-17T23:23:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.084
+    },
+    {
+      "id": "75aa25e974",
+      "title": "America, not so great again: This war has been a waste of time",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/trumps-war-with-iran-has-been-a-tragic-and-expensive-waste-of-time-13555179",
+          "headline": "America, not so great again: This war has been a waste of time",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-17T23:18:00+00:00",
+      "last_seen": "2026-06-17T23:18:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1431
+      "resonance": 0.0753
     },
     {
-      "id": "dc07720ecb",
-      "title": "What's in the US-Iran agreement that's now in effect",
+      "id": "09749b2c70",
+      "title": "‘I’m the boss’, Trump says at G7, as he warms to Ukraine’s war aims",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/06/18/world/politics/trump-boss-g7-ukraine-war/",
+          "headline": "‘I’m the boss’, Trump says at G7, as he warms to Ukraine’s war aims",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-17T23:16:00+00:00",
+      "last_seen": "2026-06-17T23:16:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0722
+    },
+    {
+      "id": "424984feec",
+      "title": "Simpler, older version of Stonehenge found three miles from famous site",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cvgmqzr6p9mo?at_medium=RSS&at_campaign=rss",
-          "headline": "What's in the US-Iran agreement that's now in effect",
+          "url": "https://www.bbc.com/news/articles/clyxw8550y8o?at_medium=RSS&at_campaign=rss",
+          "headline": "Simpler, older version of Stonehenge found three miles from famous site",
           "platform": "rss"
         }
       ],
@@ -506,542 +934,120 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-17T22:44:35+00:00",
-      "last_seen": "2026-06-17T22:44:35+00:00",
+      "first_seen": "2026-06-17T23:11:29+00:00",
+      "last_seen": "2026-06-17T23:11:29+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1423
+      "resonance": 0.0651
     },
     {
-      "id": "eb516f3724",
-      "title": "The rise and fall of Australian theatre-restaurants",
+      "id": "1538f1c9b0",
+      "title": "Warsh kicks off Fed chief era with sweeping review as rates remain unchanged",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-18/theatre-restaurants-australia/106803148",
-          "headline": "The rise and fall of Australian theatre-restaurants",
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/business/2026/06/18/markets/warsh-fed-chief-era-rates/",
+          "headline": "Warsh kicks off Fed chief era with sweeping review as rates remain unchanged",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": 0.0,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-17T22:40:27+00:00",
-      "last_seen": "2026-06-17T22:40:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1356
-    },
-    {
-      "id": "9bd2858052",
-      "title": "U.S., Iran confirm deal signed to end West Asia war",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-iran-confirm-deal-signed-to-end-west-asia-war/article71115548.ece",
-          "headline": "U.S., Iran confirm deal signed to end West Asia war",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T22:39:39+00:00",
-      "last_seen": "2026-06-17T22:39:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1344
-    },
-    {
-      "id": "687605955f",
-      "title": "The whipping tree went from a place of pain to one of healing",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-18/whipping-tree-warmun-healing/106803618",
-          "headline": "The whipping tree went from a place of pain to one of healing",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T22:32:32+00:00",
-      "last_seen": "2026-06-17T22:32:32+00:00",
+      "first_seen": "2026-06-17T23:08:00+00:00",
+      "last_seen": "2026-06-17T23:08:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1231
+      "resonance": 0.0596
     },
     {
-      "id": "27545357f1",
-      "title": "Trump Angrily Defends Iran Deal and Reveals, Again, His Obsession With Obama",
+      "id": "e0c6b9f15c",
+      "title": "ChatGPT can be made to generate sexualised and violent images, researchers find",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/17/us/politics/trump-iran-peace-deal-obama.html",
-          "headline": "Trump Angrily Defends Iran Deal and Reveals, Again, His Obsession With Obama",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c802ldjdklzo?at_medium=RSS&at_campaign=rss",
+          "headline": "ChatGPT can be made to generate sexualised and violent images, researchers find",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
+        "mean": -0.1,
         "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-17T22:30:59+00:00",
-      "last_seen": "2026-06-17T22:30:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1207
-    },
-    {
-      "id": "4b6b55d6d6",
-      "title": "Cannabis commercialisation not decriminalisation drives up usage, study finds",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/society/2026/jun/17/cannabis-commercialisation-not-decriminalisation-drives-up-usage-study",
-          "headline": "Cannabis commercialisation not decriminalisation drives up usage, study finds",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T22:30:46+00:00",
-      "last_seen": "2026-06-17T22:30:46+00:00",
+      "first_seen": "2026-06-17T23:07:40+00:00",
+      "last_seen": "2026-06-17T23:07:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "science",
-      "resonance": 0.1203
+      "resonance": 0.0591
     },
     {
-      "id": "b383ba0125",
-      "title": "NYC Mayor Zohran Mamdani needles Trae Young after past feud over Knicks playoff ticket prices",
+      "id": "075da314f5",
+      "title": "Diplomat confirms that US and Iran have signed MoU electronically",
       "signal_count": 1,
       "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/nyc-mayor-zohran-mamdani-needles-trae-young-past-feud-knicks-playoff-ticket-prices",
-          "headline": "NYC Mayor Zohran Mamdani needles Trae Young after past feud over Knicks playoff ticket prices",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-17T22:21:42+00:00",
-      "last_seen": "2026-06-17T22:21:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1063
-    },
-    {
-      "id": "a452510001",
-      "title": "England beat Croatia 4-2 as Kane scores twice",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/england-beat-croatia-4-2-as-kane-scores-twice/article71115540.ece",
-          "headline": "England beat Croatia 4-2 as Kane scores twice",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T22:18:15+00:00",
-      "last_seen": "2026-06-17T22:18:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1011
-    },
-    {
-      "id": "4fd43c2998",
-      "title": "Tehran says considering plan for Iran, US presidents to sign deal",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tehran-says-considering-plan-iran-us-presidents-sign-deal",
-          "headline": "Tehran says considering plan for Iran, US presidents to sign deal",
-          "platform": "rss"
-        },
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/17/tehran-says-considering-plan-for-iran-us-presidents-to-sign-deal?traffic_source=rss",
-          "headline": "Tehran says considering plan for Iran, US presidents to sign deal",
+          "url": "https://www.aljazeera.com/news/2026/6/17/iran-confirms-that-mou-has-been-signed-electronically-by-both-sides?traffic_source=rss",
+          "headline": "Diplomat confirms that US and Iran have signed MoU electronically",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T18:53:38+00:00",
-      "last_seen": "2026-06-17T20:38:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1007
-    },
-    {
-      "id": "6f060ddcd7",
-      "title": "Vance rejects claims Trump-Iran deal echoes Obama-era logic as hawks raise alarm",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/vance-rejects-claims-trump-iran-deal-uses-obama-era-logic-hawks-raise-alarm",
-          "headline": "Vance rejects claims Trump-Iran deal echoes Obama-era logic as hawks raise alarm",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-17T22:11:31+00:00",
-      "last_seen": "2026-06-17T22:11:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.091
-    },
-    {
-      "id": "af0cc41025",
-      "title": "Second carcass-eating fly species cleared by FDA for maggot wound therapy",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/health/2026/06/second-carcass-eating-fly-species-cleared-by-fda-for-maggot-wound-therapy/",
-          "headline": "Second carcass-eating fly species cleared by FDA for maggot wound therapy",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-17T22:11:20+00:00",
-      "last_seen": "2026-06-17T22:11:20+00:00",
+      "first_seen": "2026-06-17T23:02:47+00:00",
+      "last_seen": "2026-06-17T23:02:47+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.0907
+      "topic": "world",
+      "resonance": 0.0516
     },
     {
-      "id": "1255e0e9ec",
-      "title": "How Does Trump’s Deal With Iran Compare to Obama’s?",
-      "signal_count": 2,
+      "id": "f5d8d7ae7f",
+      "title": "Sydney’s UNSW overtakes University of Melbourne in global rankings for first time",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/17/world/middleeast/trump-obama-iran-deals.html",
-          "headline": "How Does Trump’s Deal With Iran Compare to Obama’s?",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/17/world/europe/trump-obama-iran-deal-money.html",
-          "headline": "Trump Criticized Obama’s Iran Deal, but New Deal Would Also Offer Tehran Relief",
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/2026/jun/18/world-university-rankings-global-sydney-unsw-overtakes-melbourne-australian-universities",
+          "headline": "Sydney’s UNSW overtakes University of Melbourne in global rankings for first time",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.3,
         "spread": 0.0,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T21:11:09+00:00",
-      "last_seen": "2026-06-17T22:35:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0891
-    },
-    {
-      "id": "38b298f06d",
-      "title": "FIFA World Cup 2026 | England vs Croatia highlights: Second half ends with England leading with 4-2",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/england-vs-croatia-fifa-world-cup-2026-live-match-updates/article71115231.ece",
-          "headline": "FIFA World Cup 2026 | England vs Croatia highlights: Second half ends with England leading with 4-2",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T22:05:54+00:00",
-      "last_seen": "2026-06-17T22:05:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0826
-    },
-    {
-      "id": "6ee7d24cf6",
-      "title": "‘Climate change in trade’: battlelines drawn on Europe’s new China strategy",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3357388/climate-change-trade-battlelines-drawn-europes-new-china-strategy?utm_source=rss_feed",
-          "headline": "‘Climate change in trade’: battlelines drawn on Europe’s new China strategy",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T22:00:15+00:00",
-      "last_seen": "2026-06-17T22:00:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0744
-    },
-    {
-      "id": "39e18f2999",
-      "title": "Iran's Baghaei says text of MoU has officially been signed by Iran and US",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-baghaei-says-text-mou-has-officially-been-signed-iran-and-us",
-          "headline": "Iran's Baghaei says text of MoU has officially been signed by Iran and US",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-17T21:55:54+00:00",
-      "last_seen": "2026-06-17T21:55:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0681
-    },
-    {
-      "id": "cc5b9ae7ce",
-      "title": "Settlers set fire to two West Bank mosques overnight",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-torch-two-west-bank-mosques-palestinian-officials-say",
-          "headline": "Israeli settlers torch two West Bank mosques, Palestinian officials say",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/settlers-set-fire-to-two-west-bank-mosques-overnight/",
-          "headline": "Settlers set fire to two West Bank mosques overnight",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.15,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T16:44:28+00:00",
-      "last_seen": "2026-06-17T21:24:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0596
-    },
-    {
-      "id": "fe22c862b9",
-      "title": "Serial killer who murdered eight women in Long Island town imprisoned for life",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-18/rex-heuermann-gilgo-beach-sentencing/106804600",
-          "headline": "Serial killer jailed for life over eight Long Island murders",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.com/news/articles/clyw29kvlydo?at_medium=RSS&at_campaign=rss",
-          "headline": "Serial killer who murdered eight women in Long Island town imprisoned for life",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T17:45:54+00:00",
-      "last_seen": "2026-06-17T20:57:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.059
-    },
-    {
-      "id": "60178b0dc6",
-      "title": "Trump likes Canada’s Chinese EV deal, Carney says after chat caught on hot mic",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3357479/trump-likes-canadas-chinese-ev-deal-carney-says-after-chat-caught-hot-mic?utm_source=rss_feed",
-          "headline": "Trump likes Canada’s Chinese EV deal, Carney says after chat caught on hot mic",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T21:44:55+00:00",
-      "last_seen": "2026-06-17T21:44:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0525
-    },
-    {
-      "id": "f08fcf0c49",
-      "title": "Gilgo Beach killer sentenced to life without parole",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/17/gilgo-beach-killer-sentenced-to-life-without-parole?traffic_source=rss",
-          "headline": "Gilgo Beach killer sentenced to life without parole",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3357472/new-yorks-gilgo-beach-serial-killer-rex-heuermann-sentenced-life-prison?utm_source=rss_feed",
-          "headline": "New York’s Gilgo Beach serial killer Rex Heuermann sentenced to life in prison",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.15,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-17T17:06:32+00:00",
-      "last_seen": "2026-06-17T21:07:26+00:00",
+      "first_seen": "2026-06-17T23:01:46+00:00",
+      "last_seen": "2026-06-17T23:01:46+00:00",
       "platforms": [
         "rss"
       ],
@@ -1052,183 +1058,147 @@
   ],
   "edges": [
     {
+      "source": "300d10e0ab",
+      "target": "f482b7f5e2",
+      "weight": 0.748,
+      "type": "thematic"
+    },
+    {
+      "source": "300d10e0ab",
+      "target": "bb750c68c7",
+      "weight": 0.15,
+      "type": "thematic"
+    },
+    {
+      "source": "300d10e0ab",
+      "target": "b2f74ff22b",
+      "weight": 0.058,
+      "type": "thematic"
+    },
+    {
+      "source": "300d10e0ab",
+      "target": "09749b2c70",
+      "weight": 0.185,
+      "type": "thematic"
+    },
+    {
+      "source": "e462de1a3e",
+      "target": "f482b7f5e2",
+      "weight": 0.03,
+      "type": "thematic"
+    },
+    {
+      "source": "e462de1a3e",
+      "target": "dc07720ecb",
+      "weight": 0.503,
+      "type": "thematic"
+    },
+    {
+      "source": "e462de1a3e",
+      "target": "1c387fb138",
+      "weight": 0.136,
+      "type": "thematic"
+    },
+    {
+      "source": "e462de1a3e",
+      "target": "2eedbf08c5",
+      "weight": 0.141,
+      "type": "thematic"
+    },
+    {
+      "source": "c4ee2160c3",
+      "target": "f482b7f5e2",
+      "weight": 0.094,
+      "type": "thematic"
+    },
+    {
+      "source": "c4ee2160c3",
+      "target": "b2f74ff22b",
+      "weight": 0.05,
+      "type": "thematic"
+    },
+    {
+      "source": "0c7f167d5b",
+      "target": "1c387fb138",
+      "weight": 0.246,
+      "type": "thematic"
+    },
+    {
       "source": "0c7f167d5b",
       "target": "639f70bdac",
-      "weight": 0.363,
-      "type": "thematic"
-    },
-    {
-      "source": "0c7f167d5b",
-      "target": "a452510001",
-      "weight": 0.714,
+      "weight": 0.311,
       "type": "thematic"
     },
     {
       "source": "f482b7f5e2",
-      "target": "e462de1a3e",
-      "weight": 0.166,
+      "target": "bb750c68c7",
+      "weight": 0.282,
       "type": "thematic"
     },
     {
       "source": "f482b7f5e2",
-      "target": "7c1bf6b76c",
-      "weight": 0.611,
+      "target": "b2f74ff22b",
+      "weight": 0.171,
       "type": "thematic"
     },
     {
       "source": "f482b7f5e2",
-      "target": "9bd2858052",
-      "weight": 0.761,
-      "type": "thematic"
-    },
-    {
-      "source": "f482b7f5e2",
-      "target": "27545357f1",
-      "weight": 0.426,
-      "type": "thematic"
-    },
-    {
-      "source": "f482b7f5e2",
-      "target": "4fd43c2998",
-      "weight": 0.149,
-      "type": "thematic"
-    },
-    {
-      "source": "f482b7f5e2",
-      "target": "6f060ddcd7",
-      "weight": 0.277,
-      "type": "thematic"
-    },
-    {
-      "source": "f482b7f5e2",
-      "target": "39e18f2999",
-      "weight": 0.643,
-      "type": "thematic"
-    },
-    {
-      "source": "f482b7f5e2",
-      "target": "60178b0dc6",
-      "weight": 0.152,
-      "type": "thematic"
-    },
-    {
-      "source": "a8a1a5ac25",
-      "target": "7c1bf6b76c",
-      "weight": 0.029,
-      "type": "thematic"
-    },
-    {
-      "source": "a8a1a5ac25",
-      "target": "dc07720ecb",
-      "weight": 0.174,
-      "type": "thematic"
-    },
-    {
-      "source": "a8a1a5ac25",
-      "target": "9bd2858052",
-      "weight": 0.529,
-      "type": "thematic"
-    },
-    {
-      "source": "639f70bdac",
-      "target": "38b298f06d",
-      "weight": 0.22,
-      "type": "thematic"
-    },
-    {
-      "source": "e462de1a3e",
-      "target": "7c1bf6b76c",
-      "weight": 0.083,
-      "type": "thematic"
-    },
-    {
-      "source": "e462de1a3e",
-      "target": "dc07720ecb",
-      "weight": 0.244,
-      "type": "thematic"
-    },
-    {
-      "source": "e462de1a3e",
-      "target": "1255e0e9ec",
-      "weight": 0.142,
-      "type": "thematic"
-    },
-    {
-      "source": "1d99d8f210",
-      "target": "eb516f3724",
-      "weight": 0.001,
-      "type": "thematic"
-    },
-    {
-      "source": "7c1bf6b76c",
-      "target": "dc07720ecb",
-      "weight": 0.352,
+      "target": "075da314f5",
+      "weight": 0.534,
       "type": "thematic"
     },
     {
       "source": "dc07720ecb",
-      "target": "39e18f2999",
-      "weight": 0.007,
+      "target": "bb750c68c7",
+      "weight": 0.442,
       "type": "thematic"
     },
     {
-      "source": "9bd2858052",
-      "target": "1255e0e9ec",
-      "weight": 0.121,
+      "source": "dc07720ecb",
+      "target": "a580312d34",
+      "weight": 0.122,
       "type": "thematic"
     },
     {
-      "source": "9bd2858052",
-      "target": "39e18f2999",
-      "weight": 0.272,
+      "source": "bb750c68c7",
+      "target": "2eedbf08c5",
+      "weight": 0.054,
       "type": "thematic"
     },
     {
-      "source": "27545357f1",
-      "target": "6f060ddcd7",
-      "weight": 0.222,
+      "source": "1c387fb138",
+      "target": "639f70bdac",
+      "weight": 0.255,
       "type": "thematic"
     },
     {
-      "source": "27545357f1",
-      "target": "1255e0e9ec",
-      "weight": 0.911,
+      "source": "4cb445bc13",
+      "target": "075da314f5",
+      "weight": 0.079,
       "type": "thematic"
     },
     {
-      "source": "a452510001",
-      "target": "38b298f06d",
-      "weight": 0.452,
+      "source": "fce64ca4e3",
+      "target": "5b1bf8afa3",
+      "weight": 0.771,
       "type": "thematic"
     },
     {
-      "source": "4fd43c2998",
-      "target": "1255e0e9ec",
-      "weight": 0.126,
+      "source": "2eedbf08c5",
+      "target": "09749b2c70",
+      "weight": 0.017,
       "type": "thematic"
     },
     {
-      "source": "6f060ddcd7",
-      "target": "1255e0e9ec",
-      "weight": 0.685,
+      "source": "2eedbf08c5",
+      "target": "075da314f5",
+      "weight": 0.076,
       "type": "thematic"
     },
     {
-      "source": "1255e0e9ec",
-      "target": "39e18f2999",
-      "weight": 0.01,
-      "type": "thematic"
-    },
-    {
-      "source": "1255e0e9ec",
-      "target": "60178b0dc6",
-      "weight": 0.129,
-      "type": "thematic"
-    },
-    {
-      "source": "fe22c862b9",
-      "target": "f08fcf0c49",
-      "weight": 0.22,
+      "source": "920d946fe7",
+      "target": "1538f1c9b0",
+      "weight": 0.137,
       "type": "thematic"
     }
   ],
@@ -1275,7 +1245,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     "The Atlantic": {

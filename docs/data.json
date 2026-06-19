@@ -1,8 +1,36 @@
 {
-  "generated_at": "2026-06-19T20:14:06.135065+00:00",
+  "generated_at": "2026-06-19T21:43:22.162360+00:00",
   "node_count": 35,
-  "edge_count": 6,
+  "edge_count": 14,
   "nodes": [
+    {
+      "id": "3f79db284d",
+      "title": "Amazon drops Sam Altman movie after announcing OpenAI partnership",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.the-independent.com/arts-entertainment/films/news/sam-altman-biopic-amazon-openai-deal-b2999321.html",
+          "headline": "Amazon drops Sam Altman movie after announcing OpenAI partnership",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T20:03:16+00:00",
+      "last_seen": "2026-06-19T20:03:16+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.28
+    },
     {
       "id": "ecbafd2390",
       "title": "Is AI ruining our skills? Early results are in – and they're not good",
@@ -30,6 +58,52 @@
       "geo_regions": [],
       "topic": "tech",
       "resonance": 0.28
+    },
+    {
+      "id": "2fb66e1e69",
+      "title": "Trains Collide in UK, Killing at Least One and Injuring Others",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260619-one-dead-and-dozens-injured-after-passenger-trains-collide-north-of-london",
+          "headline": "One dead and dozens injured after passenger trains collide north of London",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3357749/2-trains-collide-north-london-killing-least-1-person?utm_source=rss_feed",
+          "headline": "2 trains collide north of London, killing 1 and injuring dozens",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/19/world/europe/uk-trains-collide-bedford-england.html",
+          "headline": "Trains Collide in UK, Killing at Least One and Injuring Others",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/19/two-trains-collide-near-bedford-north-of-london?traffic_source=rss",
+          "headline": "One person killed, several injured as two trains collide north of London",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.125,
+        "spread": 0.148,
+        "left": 1,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T18:32:03+00:00",
+      "last_seen": "2026-06-19T21:40:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.5347
     },
     {
       "id": "4d3d731142",
@@ -60,37 +134,43 @@
       "resonance": 0.28
     },
     {
-      "id": "73ca90e026",
-      "title": "Google workspace threatening to block Firefox access",
-      "signal_count": 1,
+      "id": "4e27e441a9",
+      "title": "Air Force One, gifted to Trump from Qatar, arrives at Joint Base Andrews",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://tales.fromprod.com/2026/169/google-workspace-threatening-to-block-firefox.html",
-          "headline": "Google workspace threatening to block Firefox access",
-          "platform": "hackernews"
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/06/19/nx-s1-5864503/air-force-one-trump-qatar",
+          "headline": "Air Force One, gifted to Trump from Qatar, arrives at Joint Base Andrews",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3357748/trump-unveils-new-air-force-one-gifted-him-qatar?utm_source=rss_feed",
+          "headline": "Trump unveils new Air Force One gifted to him by Qatar",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
+        "mean": -0.025,
+        "spread": 0.125,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-06-19T16:30:49+00:00",
-      "last_seen": "2026-06-19T16:30:49+00:00",
+      "first_seen": "2026-06-19T20:00:28+00:00",
+      "last_seen": "2026-06-19T21:01:21+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.28
+      "resonance": 0.3419
     },
     {
       "id": "2cfae6e797",
       "title": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
-      "signal_count": 7,
+      "signal_count": 5,
       "sources": [
         {
           "outlet": "BBC World Service",
@@ -99,15 +179,15 @@
           "platform": "rss"
         },
         {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/06/19/four-israeli-soldiers-killed-combat-lebanon-imperils-us-iran-deal/",
-          "headline": "After 4 Israeli soldiers’ deaths, Israel and Hezbollah agree to renew ceasefire",
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/19/lebanon-says-47-killed-in-strikes-israel-reports-deaths-of-four-soldiers_6754676_4.html",
+          "headline": "Israel and Hezbollah agree to ceasefire after 47 Lebanese killed in Israeli airstrikes",
           "platform": "rss"
         },
         {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/israel-and-hezbollah-renew-ceasefire-after-flare-up-but-idf-to-stay-in-southern-lebanon/",
-          "headline": "Israel and Hezbollah renew ceasefire after flare-up, but IDF to stay in southern Lebanon",
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/06/19/four-israeli-soldiers-killed-combat-lebanon-imperils-us-iran-deal/",
+          "headline": "After 4 Israeli soldiers’ deaths, Israel and Hezbollah agree to renew ceasefire",
           "platform": "rss"
         },
         {
@@ -121,51 +201,73 @@
           "url": "https://www.middleeasteye.net/news/israel-hezbollah-agree-ceasefire-escalation-threatens-us-iran-deal",
           "headline": "Israel and Hezbollah agree ceasefire after escalation threatens US-Iran deal",
           "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-20/lebanon-israel-united-states-iran-deal/106821978",
-          "headline": "Israel and Hezbollah agree ceasefire as US-Iran deal under strain",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-and-hezbollah-agree-ceasefire-deal",
-          "headline": "Israel and Hezbollah agree to ceasefire deal",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.136,
-        "spread": 0.125,
-        "left": 3,
-        "center": 4,
+        "mean": -0.17,
+        "spread": 0.108,
+        "left": 2,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-06-19T13:46:36+00:00",
+      "first_seen": "2026-06-19T15:17:10+00:00",
       "last_seen": "2026-06-19T19:27:12+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.4843
+      "resonance": 0.325
     },
     {
-      "id": "97a7d8b42a",
-      "title": "UK: Two trains collide north of London, injuries reported",
+      "id": "22b6b8f5e0",
+      "title": "Poland's president strips Zelenskyy of top honor",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/uk-two-trains-collide-north-of-london-injuries-reported/a-77632526?maca=en-rss-en-all-1573-rdf",
-          "headline": "UK: Two trains collide north of London, injuries reported",
+          "url": "https://www.dw.com/en/poland-s-president-strips-zelenskyy-of-top-honor/a-77632926?maca=en-rss-en-all-1573-rdf",
+          "headline": "Poland's president strips Zelenskyy of top honor",
           "platform": "rss"
         },
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/19/two-trains-collide-near-bedford-north-of-london?traffic_source=rss",
-          "headline": "Two trains collide near Bedford, north of London",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3357747/polands-president-strips-ukraines-zelensky-top-award?utm_source=rss_feed",
+          "headline": "Poland’s president strips Ukraine’s Zelensky of top award",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T19:29:44+00:00",
+      "last_seen": "2026-06-19T21:28:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2912
+    },
+    {
+      "id": "cf2d5869c6",
+      "title": "Poland strips Zelensky of Warsaw's top award amidst escalating row over WWII memory",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260619-poland-strips-zelensky-of-highest-honour-escalating-world-war-ii-era-row",
+          "headline": "Poland strips Zelensky of country's highest honour, escalating World War II-era row",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/19/poland-strips-zelensky-of-warsaw-s-top-award-amidst-escalating-row-over-wwii-memory_6754680_4.html",
+          "headline": "Poland strips Zelensky of Warsaw's top award amidst escalating row over WWII memory",
           "platform": "rss"
         }
       ],
@@ -176,20 +278,118 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-06-19T18:32:03+00:00",
-      "last_seen": "2026-06-19T19:24:00+00:00",
+      "first_seen": "2026-06-19T20:17:15+00:00",
+      "last_seen": "2026-06-19T20:20:56+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2974
+      "topic": "conflict",
+      "resonance": 0.2618
+    },
+    {
+      "id": "303391f6ec",
+      "title": "World Cup 2026: Hosts USA qualify for knockout round after beating Australia",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/us-advance-to-world-cup-round-of-32-with-dominant-2-0-win-over-australia/article71123812.ece",
+          "headline": "U.S. advance to World Cup round of 32 with dominant 2-0 win over Australia",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/fifa-world-cup/united-states-of-america-vs-australia-score-fifa-world-cup-2026-live-match-updates/article71123599.ece",
+          "headline": "FIFA World Cup 2026 | United States of America vs Australia highlights: U.S. advance to World Cup round of 32 with dominant 2-0 win over Australia",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260619-world-cup-2026-hosts-usa-book-knockout-spot-with-defeat-of-australia",
+          "headline": "World Cup 2026: Hosts USA qualify for knockout round after beating Australia",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260619-usa-vs-australia-live-match-minute-by-minute-commentary-world-cup-injured-pulisic-socceroos",
+          "headline": "USA vs Australia live: World Cup hosts reach knockouts with dominant win over Socceroos",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T18:48:07+00:00",
+      "last_seen": "2026-06-19T21:35:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.2562
+    },
+    {
+      "id": "959aa80a20",
+      "title": "Norway readies bill to ban all trade with Israeli settlements",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/norway-readies-bill-to-ban-all-trade-with-israeli-settlements/",
+          "headline": "Norway readies bill to ban all trade with Israeli settlements",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/norway-moves-cut-trade-ties-israels-illegal-settlement-economy",
+          "headline": "'This must end': Norway moves to cut trade with illegal Israeli settlements",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/19/norway-seeks-to-ban-trade-with-illegal-israeli-settlements-in-palestine?traffic_source=rss",
+          "headline": "Norway seeks to ban trade with illegal Israeli settlements in Palestine",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/norway-moves-ban-trade-israeli-settlements",
+          "headline": "Norway moves to ban trade with Israeli settlements",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.163,
+        "spread": 0.124,
+        "left": 2,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T15:55:15+00:00",
+      "last_seen": "2026-06-19T20:44:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2504
     },
     {
       "id": "eef12da0c6",
       "title": "Italy's Meloni says Trump 'made up' story that she 'begged' him for photo at G7",
       "signal_count": 3,
       "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/06/19/nx-s1-5864264/meloni-trump-fight-beg",
+          "headline": "Italy's Meloni, once Trump's closest ally in Europe, says he made up a story about her",
+          "platform": "rss"
+        },
         {
           "outlet": "BBC World Service",
           "url": "https://www.bbc.com/news/articles/c20y1ygn707o?at_medium=RSS&at_campaign=rss",
@@ -201,63 +401,639 @@
           "url": "https://www.france24.com/en/video/20260619-italy-meloni-says-trump-made-up-story-that-she-begged-him-for-photo",
           "headline": "Italy: Meloni says Trump 'made up' story that she 'begged' him for photo",
           "platform": "rss"
-        },
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/06/19/trump-said-italys-prime-minister-begged-photo-she-says-thats-false/",
-          "headline": "Trump said Italy’s prime minister ‘begged’ for a photo. She says that’s false.",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.133,
-        "spread": 0.125,
-        "left": 1,
-        "center": 2,
+        "mean": -0.083,
+        "spread": 0.062,
+        "left": 0,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-06-19T13:47:29+00:00",
-      "last_seen": "2026-06-19T19:36:10+00:00",
+      "first_seen": "2026-06-19T15:58:41+00:00",
+      "last_seen": "2026-06-19T20:32:35+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2457
+      "topic": "world",
+      "resonance": 0.2347
     },
     {
-      "id": "72f0a73ce6",
-      "title": "US to end funding of South Africa's HIV programmes over claims of Afrikaner persecution",
-      "signal_count": 2,
+      "id": "557d582834",
+      "title": "Scotland vs Morocco live: Scots eye historic World Cup knockout berth against Atlas Lions",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/19/world/africa/southafrica-aids-pepfar.html",
-          "headline": "U.S. to End AIDS Funding for South Africa",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.com/news/articles/cdr457lxr71o?at_medium=RSS&at_campaign=rss",
-          "headline": "US to end funding of South Africa's HIV programmes over claims of Afrikaner persecution",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260619-scotland-vs-morocco-live-scots-eye-historic-world-cup-knockout-berth-against-atlas-lions",
+          "headline": "Scotland vs Morocco live: Scots eye historic World Cup knockout berth against Atlas Lions",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.15,
-        "left": 1,
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-19T17:02:02+00:00",
-      "last_seen": "2026-06-19T19:07:41+00:00",
+      "first_seen": "2026-06-19T21:41:27+00:00",
+      "last_seen": "2026-06-19T21:41:27+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1749
+      "resonance": 0.1627
+    },
+    {
+      "id": "83355fc5d3",
+      "title": "Mideast Live Updates: Israel Commits to New Lebanon Cease-Fire, Ambassador Says, but Troops Will Remain",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/06/19/world/iran-trump-deal",
+          "headline": "Mideast Live Updates: Israel Commits to New Lebanon Cease-Fire, Ambassador Says, but Troops Will Remain",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:37:28+00:00",
+      "last_seen": "2026-06-19T21:37:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1554
+    },
+    {
+      "id": "9db6d1d8ed",
+      "title": "Two-train crash leaves victims bloodied as emergency crews rush to chaotic scene: report",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/two-train-crash-leaves-victims-bloodied-emergency-crews-rush-chaotic-scene",
+          "headline": "Two-train crash leaves victims bloodied as emergency crews rush to chaotic scene: report",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-19T21:34:07+00:00",
+      "last_seen": "2026-06-19T21:34:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1494
+    },
+    {
+      "id": "ef85fb154c",
+      "title": "De Minaur and Hijikata bundled out of Queen's Club quarterfinals",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-20/tennis-alex-de-minaur-goes-down-in-queens-club-championships/106822548",
+          "headline": "De Minaur and Hijikata bundled out of Queen's Club quarterfinals",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:32:45+00:00",
+      "last_seen": "2026-06-19T21:32:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.147
+    },
+    {
+      "id": "f346244037",
+      "title": "PM under pressure from Labour MPs and ministers to set timetable for exit",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cqx1ev0wn87o?at_medium=RSS&at_campaign=rss",
+          "headline": "PM under pressure from Labour MPs and ministers to set timetable for exit",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:31:41+00:00",
+      "last_seen": "2026-06-19T21:31:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1451
+    },
+    {
+      "id": "a8266e8f6b",
+      "title": "As populations fall, nations that can tap human potential will succeed",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/opinion/world-opinion/article/3357296/populations-fall-nations-can-tap-human-potential-will-succeed?utm_source=rss_feed",
+          "headline": "As populations fall, nations that can tap human potential will succeed",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:30:05+00:00",
+      "last_seen": "2026-06-19T21:30:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1423
+    },
+    {
+      "id": "338111cc08",
+      "title": "Nothing cancels this year&#8217;s CMF phone due to RAM prices",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/gadgets/953066/nothing-cmf-phone-delayed-ram-prices",
+          "headline": "Nothing cancels this year&#8217;s CMF phone due to RAM prices",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:28:39+00:00",
+      "last_seen": "2026-06-19T21:28:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1397
+    },
+    {
+      "id": "4a4046a926",
+      "title": "Los Angeles proposal to allow noncitizens to vote in local elections sparks online backlash",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/los-angeles-proposal-allow-noncitizens-vote-local-elections-sparks-online-backlash",
+          "headline": "Los Angeles proposal to allow noncitizens to vote in local elections sparks online backlash",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-19T21:27:51+00:00",
+      "last_seen": "2026-06-19T21:27:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1383
+    },
+    {
+      "id": "75c3ee197a",
+      "title": "What we know so far about Bedford train crash",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cn75z3nl048o?at_medium=RSS&at_campaign=rss",
+          "headline": "What we know so far about Bedford train crash",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:26:27+00:00",
+      "last_seen": "2026-06-19T21:26:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1359
+    },
+    {
+      "id": "bc688ca564",
+      "title": "'Mystery being unfurled': Remarkable histories of 225yo Sydney home",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-20/history-behind-chelsea-farm-orange-orchard-baulkham-hills/106676700",
+          "headline": "'Mystery being unfurled': Remarkable histories of 225yo Sydney home",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:21:28+00:00",
+      "last_seen": "2026-06-19T21:21:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1272
+    },
+    {
+      "id": "524af61eb3",
+      "title": "Schiff silent on Biden-era Newsom probe report as California AG claims DOJ 'weaponization'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/schiff-silent-biden-era-newsom-probe-report-california-ag-claims-doj-weaponization",
+          "headline": "Schiff silent on Biden-era Newsom probe report as California AG claims DOJ 'weaponization'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-19T21:21:02+00:00",
+      "last_seen": "2026-06-19T21:21:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1264
+    },
+    {
+      "id": "5a68e0ffc9",
+      "title": "Trump warns Iran must reach deal within 60 days",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-warns-iran-must-reach-deal-within-60-days",
+          "headline": "Trump warns Iran must reach deal within 60 days",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:20:34+00:00",
+      "last_seen": "2026-06-19T21:20:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1256
+    },
+    {
+      "id": "2a55b0343a",
+      "title": "Canada’s Kone undergoes major leg surgery; to miss rest of World Cup",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/6/19/canadas-kone-undergoes-major-leg-surgery-to-miss-rest-of-world-cup?traffic_source=rss",
+          "headline": "Canada’s Kone undergoes major leg surgery; to miss rest of World Cup",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:20:21+00:00",
+      "last_seen": "2026-06-19T21:20:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1252
+    },
+    {
+      "id": "c794f2a918",
+      "title": "Zelensky stripped of highest Polish honour over WW2 name of army unit",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.com/news/articles/cr7xzg3dmj8o?at_medium=RSS&at_campaign=rss",
+          "headline": "Zelensky stripped of highest Polish honour over WW2 name of army unit",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:18:47+00:00",
+      "last_seen": "2026-06-19T21:18:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1225
+    },
+    {
+      "id": "5303a932ec",
+      "title": "James Burrows, director of classic shows 'Cheers' and 'Friends,' dies at 85",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/06/19/g-s1-129137/james-burrows-death-obit-cheers-friends",
+          "headline": "James Burrows, director of classic shows 'Cheers' and 'Friends,' dies at 85",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:16:15+00:00",
+      "last_seen": "2026-06-19T21:16:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1182
+    },
+    {
+      "id": "ee139ff35d",
+      "title": "Women postpone going into safe houses until pets have homes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-20/rspca-dv-pet-support-helps-victims-leave-abusers/106797672",
+          "headline": "Women postpone going into safe houses until pets have homes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:13:09+00:00",
+      "last_seen": "2026-06-19T21:13:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1129
+    },
+    {
+      "id": "4836a8ad59",
+      "title": "Does Trump have to submit the Iran memorandum of understanding to Congress?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/19/does-trump-have-to-submit-the-iran-memorandum-of-understanding-to-congress?traffic_source=rss",
+          "headline": "Does Trump have to submit the Iran memorandum of understanding to Congress?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:10:56+00:00",
+      "last_seen": "2026-06-19T21:10:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1091
+    },
+    {
+      "id": "55b1a66823",
+      "title": "US announces new round of Israel-Lebanon talks in Washington next week",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/19/us-announces-new-round-of-israel-lebanon-talks-in-washington-next-week?traffic_source=rss",
+          "headline": "US announces new round of Israel-Lebanon talks in Washington next week",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:02:25+00:00",
+      "last_seen": "2026-06-19T21:02:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0949
+    },
+    {
+      "id": "094d5c5f90",
+      "title": "Aura’s impressive e-ink photo frame doesn’t even look digital",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/19/auras-impressive-e-ink-photo-frame-doesnt-even-look-digital/",
+          "headline": "Aura’s impressive e-ink photo frame doesn’t even look digital",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T21:00:34+00:00",
+      "last_seen": "2026-06-19T21:00:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0918
+    },
+    {
+      "id": "f6ff0a0cae",
+      "title": "Lebanon Emerges as Weak Link in U.S.-Iran Deal to End War",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/19/world/middleeast/lebanon-us-iran-deal-ceasefire.html",
+          "headline": "Lebanon Emerges as Weak Link in U.S.-Iran Deal to End War",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T20:58:25+00:00",
+      "last_seen": "2026-06-19T20:58:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0883
+    },
+    {
+      "id": "3c41c76c79",
+      "title": "Trump boasts of Iran attacks at Air Force One event",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-boasts-iran-attacks-air-force-one-event",
+          "headline": "Trump boasts of Iran attacks at Air Force One event",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T20:52:59+00:00",
+      "last_seen": "2026-06-19T20:52:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0794
+    },
+    {
+      "id": "e47c1385c3",
+      "title": "West Asia war highlights: Latest Israeli strikes killed 47 in Lebanon, Health Ministry says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-israel-conflict-strait-of-hormuz-tehran-washington-peace-deal-live-updates-june-19-2026/article71120545.ece",
+          "headline": "West Asia war highlights: Latest Israeli strikes killed 47 in Lebanon, Health Ministry says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-19T20:44:06+00:00",
+      "last_seen": "2026-06-19T20:44:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0651
     },
     {
       "id": "79765028a3",
@@ -297,818 +1073,126 @@
       ],
       "geo_regions": [],
       "topic": "science",
-      "resonance": 0.1689
+      "resonance": 0.0548
     },
     {
-      "id": "83355fc5d3",
-      "title": "Mideast Live Updates: Israel Commits to New Lebanon Cease-Fire, Ambassador Says, but Troops Will Remain",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/19/world/iran-trump-deal",
-          "headline": "Mideast Live Updates: Israel Commits to New Lebanon Cease-Fire, Ambassador Says, but Troops Will Remain",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T20:07:57+00:00",
-      "last_seen": "2026-06-19T20:07:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1443
-    },
-    {
-      "id": "2fa8ec0c29",
-      "title": "Vivek Aggarwal appointed Financial Action Task Force vice-president",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/vivek-aggarwal-appointed-financial-action-task-force-vice-president/article71123587.ece",
-          "headline": "Vivek Aggarwal appointed Financial Action Task Force vice-president",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T20:05:13+00:00",
-      "last_seen": "2026-06-19T20:05:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.14
-    },
-    {
-      "id": "1299114fd5",
-      "title": "Russell Crowe says 'Gladiator II' failed because it lacked original film's 'moral core'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/russell-crowe-says-gladiator-ii-failed-because-lacked-original-films-moral-core",
-          "headline": "Russell Crowe says 'Gladiator II' failed because it lacked original film's 'moral core'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-19T20:04:15+00:00",
-      "last_seen": "2026-06-19T20:04:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1384
-    },
-    {
-      "id": "7d48fafe50",
-      "title": "City gets first police station only for women, POCSO cases",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-police-opens-first-police-station-dedicated-to-crimes-against-women-in-north-district/article71123648.ece",
-          "headline": "City gets first police station only for women, POCSO cases",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T20:04:08+00:00",
-      "last_seen": "2026-06-19T20:04:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1383
-    },
-    {
-      "id": "071b92a742",
-      "title": "Norway seeks to ban trade with illegal Israeli settlements in Palestine",
+      "id": "72f0a73ce6",
+      "title": "US to end funding of South Africa's HIV programmes over claims of Afrikaner persecution",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/19/norway-seeks-to-ban-trade-with-illegal-israeli-settlements-in-palestine?traffic_source=rss",
-          "headline": "Norway seeks to ban trade with illegal Israeli settlements in Palestine",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/norway-moves-ban-trade-israeli-settlements",
-          "headline": "Norway moves to ban trade with Israeli settlements",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T15:55:15+00:00",
-      "last_seen": "2026-06-19T19:18:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.1367
-    },
-    {
-      "id": "a5beb6825c",
-      "title": "Fox News True Crime Newsletter: Gilgo sentencing, a warning from 'Happy Face,' Mangione psychs himself out",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/fox-news-true-crime-newsletter-gilgo-sentencing-warning-from-happy-face-mangione-psychs-himself-out",
-          "headline": "Fox News True Crime Newsletter: Gilgo sentencing, a warning from 'Happy Face,' Mangione psychs himself out",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-19T20:00:49+00:00",
-      "last_seen": "2026-06-19T20:00:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.133
-    },
-    {
-      "id": "c6141cc36e",
-      "title": "Lebanon Cease-Fire Bolsters U.S.-Iran Truce, After a Shaky Start",
-      "signal_count": 1,
-      "sources": [
-        {
           "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/19/world/middleeast/lebanon-ceasefire-iran-truce.html",
-          "headline": "Lebanon Cease-Fire Bolsters U.S.-Iran Truce, After a Shaky Start",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T20:00:48+00:00",
-      "last_seen": "2026-06-19T20:00:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.133
-    },
-    {
-      "id": "91db857676",
-      "title": "Palantir objects to France ending domestic security contract: 'You can't do this on Instagram. This is a very serious matter.'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/economy/article/2026/06/19/palantir-objects-to-france-ending-domestic-security-contract-you-can-t-do-this-on-instagram-this-is-a-very-serious-matter_6754679_19.html",
-          "headline": "Palantir objects to France ending domestic security contract: 'You can't do this on Instagram. This is a very serious matter.'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T20:00:40+00:00",
-      "last_seen": "2026-06-19T20:00:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1328
-    },
-    {
-      "id": "a6c97780a8",
-      "title": "Trump unveils new Air Force One gifted to him by Qatar",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3357748/trump-unveils-new-air-force-one-gifted-him-qatar?utm_source=rss_feed",
-          "headline": "Trump unveils new Air Force One gifted to him by Qatar",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T20:00:28+00:00",
-      "last_seen": "2026-06-19T20:00:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1325
-    },
-    {
-      "id": "75a87df994",
-      "title": "Emotional Uddhav offers to step down as Shiv Sena (UBT) president, Eknath Shinde hints at more defections",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/maharashtra/emotional-uddhav-offers-to-step-down-as-shiv-sena-ubt-president-eknath-shinde-hints-at-more-defections/article71123429.ece",
-          "headline": "Emotional Uddhav offers to step down as Shiv Sena (UBT) president, Eknath Shinde hints at more defections",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T20:00:26+00:00",
-      "last_seen": "2026-06-19T20:00:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1324
-    },
-    {
-      "id": "2cd7c46861",
-      "title": "Gold Coast council reconsiders return of ocean pools",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-20/gold-coast-council-reconsiders-return-of-ocean-pools/106776868",
-          "headline": "Gold Coast council reconsiders return of ocean pools",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T20:00:00+00:00",
-      "last_seen": "2026-06-19T20:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1317
-    },
-    {
-      "id": "90202477ce",
-      "title": "USMNT takes early lead over Australia after second straight match featuring an own goal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/usmnt-early-lead-australia-second-straight-match-own-goal",
-          "headline": "USMNT takes early lead over Australia after second straight match featuring an own goal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-19T19:59:28+00:00",
-      "last_seen": "2026-06-19T19:59:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1309
-    },
-    {
-      "id": "c40cfb8fd8",
-      "title": "DR Congo's deadly Ebola outbreak is 'evolving fast', WHO warns",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/africa/20260619-dr-congo-ebola-outbreak-evolving-fast-who-warns",
-          "headline": "DR Congo's deadly Ebola outbreak is 'evolving fast', WHO warns",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T19:55:58+00:00",
-      "last_seen": "2026-06-19T19:55:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1255
-    },
-    {
-      "id": "09621fc9e6",
-      "title": "Andy Burnham hopes Makerfield by-election win paves his way to Downing Street",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/19/andy-burnham-hopes-makerfield-by-election-win-paves-his-way-to-downing-street_6754678_4.html",
-          "headline": "Andy Burnham hopes Makerfield by-election win paves his way to Downing Street",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T19:50:58+00:00",
-      "last_seen": "2026-06-19T19:50:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1177
-    },
-    {
-      "id": "75c3ee197a",
-      "title": "What we know so far about Bedford train crash",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cn75z3nl048o?at_medium=RSS&at_campaign=rss",
-          "headline": "What we know so far about Bedford train crash",
+          "url": "https://www.nytimes.com/2026/06/19/world/africa/southafrica-aids-pepfar.html",
+          "headline": "U.S. to End AIDS Funding for South Africa",
           "platform": "rss"
         },
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/videos/c8d21z2q77do?at_medium=RSS&at_campaign=rss",
-          "headline": "Video shows scene of Bedford train crash as passenger describes aftermath",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.com/news/articles/cdr457lxr71o?at_medium=RSS&at_campaign=rss",
+          "headline": "US to end funding of South Africa's HIV programmes over claims of Afrikaner persecution",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
+        "mean": -0.15,
+        "spread": 0.15,
+        "left": 1,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-19T19:21:10+00:00",
-      "last_seen": "2026-06-19T19:48:19+00:00",
+      "first_seen": "2026-06-19T17:02:02+00:00",
+      "last_seen": "2026-06-19T19:07:41+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1169
-    },
-    {
-      "id": "c71eb0c3a4",
-      "title": "Tests of the Reflecting Pool Turn Up a Surprise",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/politics/2026/06/reflecting-pool-algae-scientific-testing-trump/687649/?utm_source=feed",
-          "headline": "Tests of the Reflecting Pool Turn Up a Surprise",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T19:50:00+00:00",
-      "last_seen": "2026-06-19T19:50:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1163
-    },
-    {
-      "id": "762d674ad2",
-      "title": "Iran floats insurance fees and asserts control over Hormuz",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/iran-plans-charge-insurance-fee-vessels-transiting-hormuz-after-us-deal-expires",
-          "headline": "Iran plans to charge insurance fees to vessels in Hormuz after US deal expires",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3357744/iran-floats-insurance-fees-and-asserts-control-over-hormuz?utm_source=rss_feed",
-          "headline": "Iran floats insurance fees and asserts control over Hormuz",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.175,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T17:12:16+00:00",
-      "last_seen": "2026-06-19T17:21:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1102
-    },
-    {
-      "id": "e9441765ef",
-      "title": "Mexican authorities capture ‘El Virus,’ linked to several murders in Mexico City",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/international/2026-06-19/mexican-authorities-capture-el-virus-linked-to-several-murders-in-mexico-city.html",
-          "headline": "Mexican authorities capture ‘El Virus,’ linked to several murders in Mexico City",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T19:43:35+00:00",
-      "last_seen": "2026-06-19T19:43:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1065
-    },
-    {
-      "id": "512ac4b249",
-      "title": "Switzerland moves to ban all use of Nazi symbols amid rise in antisemitism",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/switzerland-moves-to-ban-all-use-of-nazi-symbols-amid-rise-in-antisemitism/",
-          "headline": "Switzerland moves to ban all use of Nazi symbols amid rise in antisemitism",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T19:39:04+00:00",
-      "last_seen": "2026-06-19T19:39:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0997
-    },
-    {
-      "id": "67bb68a4b8",
-      "title": "The women planting the seeds of a flower farm movement",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-20/flower-industry-tackles-pricing-challenge-with-national-guide/106798148",
-          "headline": "The women planting the seeds of a flower farm movement",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T19:30:00+00:00",
-      "last_seen": "2026-06-19T19:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0864
-    },
-    {
-      "id": "f75d92ca71",
-      "title": "Poland’s president strips Ukraine’s Zelensky of top award",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3357747/polands-president-strips-ukraines-zelensky-top-award?utm_source=rss_feed",
-          "headline": "Poland’s president strips Ukraine’s Zelensky of top award",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T19:29:44+00:00",
-      "last_seen": "2026-06-19T19:29:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.086
-    },
-    {
-      "id": "f346244037",
-      "title": "PM under pressure from Labour MPs and ministers to set timetable for exit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cqx1ev0wn87o?at_medium=RSS&at_campaign=rss",
-          "headline": "PM under pressure from Labour MPs and ministers to set timetable for exit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T19:22:40+00:00",
-      "last_seen": "2026-06-19T19:22:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0757
-    },
-    {
-      "id": "e9ae639a61",
-      "title": "What is 'monoculturalism' and what does it look like in practice?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-20/what-is-monoculturalism-and-what-does-it-look-like-in-practice/106818222",
-          "headline": "What is 'monoculturalism' and what does it look like in practice?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T19:17:05+00:00",
-      "last_seen": "2026-06-19T19:17:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0678
-    },
-    {
-      "id": "c886a194a6",
-      "title": "Iran war mediators set to meet in Egypt Sunday, as talks in Switzerland still on hold",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/iran-war-mediators-set-to-meet-in-egypt-sunday-as-talks-in-switzerland-still-on-hold/",
-          "headline": "Iran war mediators set to meet in Egypt Sunday, as talks in Switzerland still on hold",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T19:17:03+00:00",
-      "last_seen": "2026-06-19T19:17:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0677
-    },
-    {
-      "id": "01fdf350fa",
-      "title": "Trump heads to Camp David as Iran talks stall",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-heads-camp-david-iran-talks-stall",
-          "headline": "Trump heads to Camp David as Iran talks stall",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T19:15:14+00:00",
-      "last_seen": "2026-06-19T19:15:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0652
-    },
-    {
-      "id": "ea760c029f",
-      "title": "Iran war: Success or disaster? Mehdi Hasan and David Des Roches",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/head-to-head/2026/6/19/iran-war-success-or-disaster-mehdi-hasan-and-david-des-roches?traffic_source=rss",
-          "headline": "Iran war: Success or disaster? Mehdi Hasan and David Des Roches",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T19:05:08+00:00",
-      "last_seen": "2026-06-19T19:05:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0511
-    },
-    {
-      "id": "2ed21d10b9",
-      "title": "Canadian Billionaire Frank Stronach Is Convicted of Sexual and Indecent Assault",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/19/world/canada/frank-stronach-trial-guilty-sex-charges.html",
-          "headline": "Canadian Billionaire Frank Stronach Is Convicted of Sexual and Indecent Assault",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-19T19:04:21+00:00",
-      "last_seen": "2026-06-19T19:04:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "2cfae6e797",
-      "target": "83355fc5d3",
-      "weight": 0.163,
+      "source": "4e27e441a9",
+      "target": "3c41c76c79",
+      "weight": 0.612,
       "type": "thematic"
     },
     {
-      "source": "eef12da0c6",
-      "target": "a6c97780a8",
-      "weight": 0.27,
+      "source": "2cfae6e797",
+      "target": "83355fc5d3",
+      "weight": 0.049,
+      "type": "thematic"
+    },
+    {
+      "source": "2cfae6e797",
+      "target": "55b1a66823",
+      "weight": 0.209,
+      "type": "thematic"
+    },
+    {
+      "source": "2cfae6e797",
+      "target": "e47c1385c3",
+      "weight": 0.11,
+      "type": "thematic"
+    },
+    {
+      "source": "22b6b8f5e0",
+      "target": "cf2d5869c6",
+      "weight": 0.657,
+      "type": "thematic"
+    },
+    {
+      "source": "303391f6ec",
+      "target": "557d582834",
+      "weight": 0.243,
+      "type": "thematic"
+    },
+    {
+      "source": "303391f6ec",
+      "target": "2a55b0343a",
+      "weight": 0.027,
       "type": "thematic"
     },
     {
       "source": "83355fc5d3",
-      "target": "c6141cc36e",
-      "weight": 0.484,
+      "target": "55b1a66823",
+      "weight": 0.049,
       "type": "thematic"
     },
     {
-      "source": "c886a194a6",
-      "target": "01fdf350fa",
-      "weight": 0.127,
+      "source": "9db6d1d8ed",
+      "target": "75c3ee197a",
+      "weight": 0.362,
       "type": "thematic"
     },
     {
-      "source": "c886a194a6",
-      "target": "ea760c029f",
-      "weight": 0.029,
+      "source": "5a68e0ffc9",
+      "target": "4836a8ad59",
+      "weight": 0.162,
       "type": "thematic"
     },
     {
-      "source": "01fdf350fa",
-      "target": "ea760c029f",
-      "weight": 0.186,
+      "source": "5a68e0ffc9",
+      "target": "f6ff0a0cae",
+      "weight": 0.239,
+      "type": "thematic"
+    },
+    {
+      "source": "5a68e0ffc9",
+      "target": "3c41c76c79",
+      "weight": 0.126,
+      "type": "thematic"
+    },
+    {
+      "source": "4836a8ad59",
+      "target": "3c41c76c79",
+      "weight": 0.228,
+      "type": "thematic"
+    },
+    {
+      "source": "f6ff0a0cae",
+      "target": "e47c1385c3",
+      "weight": 0.086,
       "type": "thematic"
     }
   ],
@@ -1200,7 +1284,7 @@
     },
     "Times of Israel": {
       "ok": true,
-      "count": 13,
+      "count": 14,
       "error": null
     },
     "Middle East Eye": {

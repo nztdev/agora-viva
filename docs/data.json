@@ -1,13 +1,19 @@
 {
-  "generated_at": "2026-06-20T20:49:23.260210+00:00",
+  "generated_at": "2026-06-20T22:03:59.311538+00:00",
   "node_count": 35,
-  "edge_count": 24,
+  "edge_count": 10,
   "nodes": [
     {
-      "id": "34959bb9eb",
-      "title": "Ubisoft co-founder Claude Guillemot dies in plane crash in France",
-      "signal_count": 2,
+      "id": "4f740c1e2a",
+      "title": "Ubisoft’s co-founder Claude Guillemot dies in plane crash in France",
+      "signal_count": 3,
       "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/ubisofts-co-founder-claude-guillemot-dies-in-plane-crash-in-france/article71127205.ece",
+          "headline": "Ubisoft’s co-founder Claude Guillemot dies in plane crash in France",
+          "platform": "rss"
+        },
         {
           "outlet": "South China Morning Post",
           "url": "https://www.scmp.com/news/world/europe/article/3357796/ubisoft-co-founder-claude-guillemot-dies-plane-crash-france?utm_source=rss_feed",
@@ -22,21 +28,21 @@
         }
       ],
       "bias": {
-        "mean": 0.05,
-        "spread": 0.05,
+        "mean": 0.0,
+        "spread": 0.082,
         "left": 0,
-        "center": 2,
+        "center": 3,
         "right": 0
       },
       "first_seen": "2026-06-20T14:12:50+00:00",
-      "last_seen": "2026-06-20T19:37:51+00:00",
+      "last_seen": "2026-06-20T20:05:45+00:00",
       "platforms": [
-        "hackernews",
-        "rss"
+        "rss",
+        "hackernews"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.7718
+      "resonance": 0.7651
     },
     {
       "id": "6e72a0a6e0",
@@ -69,8 +75,14 @@
     {
       "id": "043a74acf5",
       "title": "World Cup 2026: Brobbey, Gakpo score braces as rampant Netherlands crush Sweden",
-      "signal_count": 3,
+      "signal_count": 4,
       "sources": [
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/06/20/world-cup-netherlands-bounces-back-to-lead-group-f-with-5-1-win-against-sweden",
+          "headline": "World Cup: Netherlands bounces back to lead Group F with 5-1 win against Sweden",
+          "platform": "rss"
+        },
         {
           "outlet": "The Hindu",
           "url": "https://www.thehindu.com/sport/football/fifa-world-cup-brobbey-gakpo-strike-twice-each-as-netherlands-routs-sweden-5-1-to-lead-group-f/article71127203.ece",
@@ -91,36 +103,110 @@
         }
       ],
       "bias": {
-        "mean": -0.133,
-        "spread": 0.047,
+        "mean": -0.125,
+        "spread": 0.043,
         "left": 0,
-        "center": 3,
+        "center": 4,
         "right": 0
       },
       "first_seen": "2026-06-20T19:01:03+00:00",
-      "last_seen": "2026-06-20T20:12:47+00:00",
+      "last_seen": "2026-06-20T20:29:52+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.4627
+      "resonance": 0.4383
     },
     {
-      "id": "b396787d03",
-      "title": "Iran says Strait of Hormuz will be closed over Israel attacks on Lebanon",
-      "signal_count": 8,
+      "id": "e2709428ce",
+      "title": "West Asia war LIVE updates: Trump threatens to charge U.S. tolls in Hormuz strait if final Iran deal not reached in 60 days",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/20/trump-vows-iran-will-not-charge-strait-of-hormuz-tolls-but-says-us-might?traffic_source=rss",
+          "headline": "Trump vows Iran will not charge Strait of Hormuz tolls, but says US might",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-israel-lebanon-strikes-strait-of-hormuz-tehran-washington-peace-deal-live-updates-june-20-2026/article71124892.ece",
+          "headline": "West Asia war LIVE updates: Trump threatens to charge U.S. tolls in Hormuz strait if final Iran deal not reached in 60 days",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-threatens-us-tolls-hormuz-strait-if-iran-talks-fail",
+          "headline": "Trump threatens US tolls on Hormuz strait if Iran talks fail",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3357792/tehran-closes-strait-hormuz-ahead-us-iran-talks-switzerland?utm_source=rss_feed",
+          "headline": "Trump threatens US tolls on Hormuz after Iran says strait is closed",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.113,
+        "spread": 0.134,
+        "left": 1,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T15:35:56+00:00",
+      "last_seen": "2026-06-20T21:54:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.4204
+    },
+    {
+      "id": "c277c1dfec",
+      "title": "Israeli strikes kill six people in Gaza including Al Jazeera cameraman, officials say",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.com/news/articles/c4gy26p6pwzo?at_medium=RSS&at_campaign=rss",
+          "headline": "Israeli strikes kill six people in Gaza including Al Jazeera cameraman, officials say",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/idf-strikes-in-gaza-said-to-kill-at-least-9-including-al-jazeera-cameraman/",
+          "headline": "IDF strikes in Gaza said to kill at least 11, including Al Jazeera cameraman",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.025,
+        "spread": 0.025,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T18:58:09+00:00",
+      "last_seen": "2026-06-20T21:57:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2573
+    },
+    {
+      "id": "6160fb60bd",
+      "title": "Iran says it has closed Strait of Hormuz over Israeli attacks in Lebanon",
+      "signal_count": 5,
       "sources": [
         {
           "outlet": "BBC World Service",
           "url": "https://www.bbc.com/news/articles/cwyekkwm1mmo?at_medium=RSS&at_campaign=rss",
-          "headline": "Iran says Strait of Hormuz will be closed over Israel attacks on Lebanon",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/20/iran-shuts-strait-of-hormuz-as-israel-tests-mou-with-lebanon-strikes?traffic_source=rss",
-          "headline": "Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes",
+          "headline": "Iran says it has closed Strait of Hormuz over Israeli attacks in Lebanon",
           "platform": "rss"
         },
         {
@@ -142,85 +228,27 @@
           "platform": "rss"
         },
         {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/20/iran-says-strait-of-hormuz-closed-again-after-israel-strikes-lebanon_6754700_4.html",
-          "headline": "Iran says Strait of Hormuz closed again after Israel strikes Lebanon",
-          "platform": "rss"
-        },
-        {
           "outlet": "Middle East Eye",
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-closes-hormuz-over-lebanon-ceasefire-violations",
           "headline": "Iran closes Hormuz over Lebanon ceasefire violations",
           "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260620-israeli-strike-in-southern-lebanon-kills-five-hours-after-ceasefire-agreement",
-          "headline": "🔴 Live: Hormuz Strait closed over Israel attacks on Lebanon, Iran says",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.169,
-        "spread": 0.086,
+        "mean": -0.17,
+        "spread": 0.103,
         "left": 3,
-        "center": 5,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-06-20T13:26:42+00:00",
-      "last_seen": "2026-06-20T18:39:55+00:00",
+      "first_seen": "2026-06-20T13:33:27+00:00",
+      "last_seen": "2026-06-20T21:11:57+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.3123
-    },
-    {
-      "id": "31a893d65e",
-      "title": "Bolivian president declares state of emergency",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/20/bolivia-declares-state-of-emergency-to-clear-protest-blockades?traffic_source=rss",
-          "headline": "Bolivia declares state of emergency to clear protest blockades",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/20/bolivia-declares-state-of-emergency-amid-blockade-crisis?traffic_source=rss",
-          "headline": "Bolivia declares state of emergency amid blockade crisis",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.com/news/articles/cr47wn92zdgo?at_medium=RSS&at_campaign=rss",
-          "headline": "Bolivian president declares state of emergency",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/20/bolivia-s-president-declares-state-of-emergency-after-six-weeks-of-protests_6754694_4.html",
-          "headline": "Bolivia's president declares state of emergency after six weeks of protests",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.087,
-        "left": 0,
-        "center": 4,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T10:12:03+00:00",
-      "last_seen": "2026-06-20T20:42:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2899
+      "resonance": 0.2305
     },
     {
       "id": "1f150d9b4f",
@@ -228,15 +256,15 @@
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/terror-police-probe-suspected-anti-muslim-attacks-in-edinburgh/a-77639385?maca=en-rss-en-all-1573-rdf",
-          "headline": "Terror police probe suspected anti-Muslim attacks in Edinburgh",
-          "platform": "rss"
-        },
-        {
           "outlet": "BBC News",
           "url": "https://www.bbc.com/news/articles/cx2xg6lwz5jo?at_medium=RSS&at_campaign=rss",
           "headline": "Five injured in suspected anti-Muslim attacks after armed man roamed Edinburgh streets",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/terror-police-probe-suspected-anti-muslim-attacks-in-edinburgh/a-77639385?maca=en-rss-en-all-1573-rdf",
+          "headline": "Terror police probe suspected anti-Muslim attacks in Edinburgh",
           "platform": "rss"
         }
       ],
@@ -247,42 +275,76 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-06-20T17:27:34+00:00",
-      "last_seen": "2026-06-20T18:59:00+00:00",
+      "first_seen": "2026-06-20T18:59:00+00:00",
+      "last_seen": "2026-06-20T21:15:46+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1822
+      "resonance": 0.2212
     },
     {
-      "id": "aa62824922",
-      "title": "Mideast Live Updates: Strait of Hormuz Re-emerges as Point of Tension After Iran Says It’s Closed",
-      "signal_count": 1,
+      "id": "caaadbe93b",
+      "title": "Undav the hero as Germany battle back from a goal down to beat the Ivory Coast in Toronto at the 2026 World Cup",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/20/world/iran-trump-israel-lebanon",
-          "headline": "Mideast Live Updates: Strait of Hormuz Re-emerges as Point of Tension After Iran Says It’s Closed",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/undav-the-hero-as-germany-battle-back-from-a-goal-down-to-beat-the-ivory-coast-in-toronto-at-the-2026-world-cup/a-77639564?maca=en-rss-en-all-1573-rdf",
+          "headline": "Undav the hero as Germany battle back from a goal down to beat the Ivory Coast in Toronto at the 2026 World Cup",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/6/20/germany-vs-ivory-coast-live-world-cup-2026?traffic_source=rss",
+          "headline": "LIVE: Germany vs Ivory Coast – World Cup 2026",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-06-20T20:44:08+00:00",
-      "last_seen": "2026-06-20T20:44:08+00:00",
+      "first_seen": "2026-06-20T16:01:49+00:00",
+      "last_seen": "2026-06-20T22:02:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1962
+    },
+    {
+      "id": "581c865c07",
+      "title": "How ‘lying flat’ went from a niche subculture to mainstream phenomenon",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/politics/article/3357771/how-lying-flat-went-niche-subculture-mainstream-phenomenon?utm_source=rss_feed",
+          "headline": "How ‘lying flat’ went from a niche subculture to mainstream phenomenon",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T22:00:15+00:00",
+      "last_seen": "2026-06-20T22:00:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1791
+      "resonance": 0.1766
     },
     {
       "id": "4b24f2c97e",
@@ -303,14 +365,632 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-20T20:41:54+00:00",
-      "last_seen": "2026-06-20T20:41:54+00:00",
+      "first_seen": "2026-06-20T22:00:03+00:00",
+      "last_seen": "2026-06-20T22:00:03+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.1757
+      "resonance": 0.1762
+    },
+    {
+      "id": "a55a90fb9f",
+      "title": "Racism, bias led to 'superficial investigation' of teen's death",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-21/family-of-mark-haines-continue-fight-after-inquest-findings/106815636",
+          "headline": "Racism, bias led to 'superficial investigation' of teen's death",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T22:00:01+00:00",
+      "last_seen": "2026-06-20T22:00:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1762
+    },
+    {
+      "id": "a6ec47a4d1",
+      "title": "U.K. PM Starmer expected to resign on June 22 and set out orderly exit, British media reports",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/united-kingdom-prime-minister-keir-starmer-resignation-reports-june-21-2026/article71127365.ece",
+          "headline": "U.K. PM Starmer expected to resign on June 22 and set out orderly exit, British media reports",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T21:57:59+00:00",
+      "last_seen": "2026-06-20T21:57:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1729
+    },
+    {
+      "id": "0e2c1bf8a9",
+      "title": "Mideast Live Updates: Vance Heads to Talks as Strait of Hormuz Re-emerges as Point of Tension",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/06/20/world/iran-trump-israel-lebanon",
+          "headline": "Mideast Live Updates: Vance Heads to Talks as Strait of Hormuz Re-emerges as Point of Tension",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T21:56:12+00:00",
+      "last_seen": "2026-06-20T21:56:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1701
+    },
+    {
+      "id": "c8392c5141",
+      "title": "Mona Kahlil, Defender of Sea Turtles, Killed in an Israel Strike in Lebanon",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/20/world/middleeast/mona-kahlil-turtles-lebanon-conservation.html",
+          "headline": "Mona Kahlil, Defender of Sea Turtles, Killed in an Israel Strike in Lebanon",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T21:56:10+00:00",
+      "last_seen": "2026-06-20T21:56:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.17
+    },
+    {
+      "id": "4cd651a71b",
+      "title": "Kamala Harris says 'hope should be a verb' as viral podcast clip draws 'word salad' mockery",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/kamala-harris-says-hope-verb-viral-podcast-clip-draws-word-salad-mockery",
+          "headline": "Kamala Harris says 'hope should be a verb' as viral podcast clip draws 'word salad' mockery",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-20T21:54:10+00:00",
+      "last_seen": "2026-06-20T21:54:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1668
+    },
+    {
+      "id": "5f159b1f13",
+      "title": "Uncertain World Cup for Paraguay’s Almiron, sent off for covering his mouth",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/6/20/uncertain-world-cup-for-paraguays-almiron-sent-off-for-covering-his-mouth?traffic_source=rss",
+          "headline": "Uncertain World Cup for Paraguay’s Almiron, sent off for covering his mouth",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T21:52:28+00:00",
+      "last_seen": "2026-06-20T21:52:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1642
+    },
+    {
+      "id": "f55e1361bf",
+      "title": "Six years on, officers relive one of Victoria Police's darkest days",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-21/victoria-police-eastern-freeway-tragedy-pusey-singh/104919372",
+          "headline": "Six years on, officers relive one of Victoria Police's darkest days",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T21:50:21+00:00",
+      "last_seen": "2026-06-20T21:50:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.1608
+    },
+    {
+      "id": "351e300bd9",
+      "title": "Children among 6 wounded in Maryland mass shooting as detectives work to determine what occurred",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/children-among-6-wounded-maryland-mass-shooting-detectives-work-determine-occurred",
+          "headline": "Children among 6 wounded in Maryland mass shooting as detectives work to determine what occurred",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-20T21:45:08+00:00",
+      "last_seen": "2026-06-20T21:45:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1527
+    },
+    {
+      "id": "6d6ede1db5",
+      "title": "The adoption centre helping lab rats like find their forever homes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-21/adoption-centre-rehomes-lab-research-rats-nsw/106802306",
+          "headline": "The adoption centre helping lab rats like find their forever homes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T21:35:02+00:00",
+      "last_seen": "2026-06-20T21:35:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1372
+    },
+    {
+      "id": "9c5de93d27",
+      "title": "No decision yet on low-alcohol beverages, says Liju",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/no-decision-yet-on-low-alcohol-beverages-says-liju/article71126980.ece",
+          "headline": "No decision yet on low-alcohol beverages, says Liju",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T21:32:09+00:00",
+      "last_seen": "2026-06-20T21:32:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1328
+    },
+    {
+      "id": "3322ec02e8",
+      "title": "Carrie Underwood shares patriotic video of American flag display near her Tennessee property",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/carrie-underwood-shares-patriotic-video-american-flag-display-near-tennessee-property",
+          "headline": "Carrie Underwood shares patriotic video of American flag display near her Tennessee property",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-20T21:27:40+00:00",
+      "last_seen": "2026-06-20T21:27:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1261
+    },
+    {
+      "id": "b47d8d78d8",
+      "title": "Farewell, Scotland: Boston won’t forget the Tartan Army",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/farewell-scotland-boston-won-t-forget-the-tartan-army",
+          "headline": "Farewell, Scotland: Boston won’t forget the Tartan Army",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T21:20:49+00:00",
+      "last_seen": "2026-06-20T21:20:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.116
+    },
+    {
+      "id": "fe31863efa",
+      "title": "Iranian delegation arrives in Switzerland",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-delegation-arrives-switzerland",
+          "headline": "Iranian delegation arrives in Switzerland",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T21:16:07+00:00",
+      "last_seen": "2026-06-20T21:16:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1092
+    },
+    {
+      "id": "1fdb9fd5ee",
+      "title": "Chaotic run-up to U.S.-Iran talks signals steep hurdles ahead",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/06/20/diplomats-expect-hurdles-us-iran-talks-which-are-already-delayed/",
+          "headline": "Chaotic run-up to U.S.-Iran talks signals steep hurdles ahead",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T21:10:10+00:00",
+      "last_seen": "2026-06-20T21:10:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1006
+    },
+    {
+      "id": "3952cb8b94",
+      "title": "Iran says closed Strait of Hormuz as US deal hits obstacle ahead of Swiss talks",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260620-iran-says-closed-strait-of-hormuz-as-us-deal-hits-obstacle-ahead-of-swiss-talks",
+          "headline": "Iran says closed Strait of Hormuz as US deal hits obstacle ahead of Swiss talks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T21:05:53+00:00",
+      "last_seen": "2026-06-20T21:05:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0945
+    },
+    {
+      "id": "e97ff5eaab",
+      "title": "Man Is Arrested in Scotland After Rampage Leaves 5 Hurt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/20/world/europe/edinburgh-stabbing-arrest-injuries.html",
+          "headline": "Man Is Arrested in Scotland After Rampage Leaves 5 Hurt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T21:04:26+00:00",
+      "last_seen": "2026-06-20T21:04:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0924
+    },
+    {
+      "id": "ac43537377",
+      "title": "King Charles to reveal personal tax bill for first time as monarch",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c5yzlk582pzo?at_medium=RSS&at_campaign=rss",
+          "headline": "King Charles to reveal personal tax bill for first time as monarch",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T21:04:00+00:00",
+      "last_seen": "2026-06-20T21:04:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0918
+    },
+    {
+      "id": "31a893d65e",
+      "title": "Bolivian president declares state of emergency",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/20/bolivia-declares-state-of-emergency-to-clear-protest-blockades?traffic_source=rss",
+          "headline": "Bolivia declares state of emergency to clear protest blockades",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/20/bolivia-declares-state-of-emergency-amid-blockade-crisis?traffic_source=rss",
+          "headline": "Bolivia declares state of emergency amid blockade crisis",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.com/news/articles/cr47wn92zdgo?at_medium=RSS&at_campaign=rss",
+          "headline": "Bolivian president declares state of emergency",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.133,
+        "spread": 0.094,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T15:27:09+00:00",
+      "last_seen": "2026-06-20T20:42:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0876
+    },
+    {
+      "id": "0b6e85fb83",
+      "title": "Caitlin Clark appears emotional after Fever's collapse to Angel Reese's Dream: 'All we do is foul'",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/caitlin-clark-appears-emotional-fevers-collapse-angel-reeses-dream-foul",
+          "headline": "Caitlin Clark appears emotional after Fever's collapse to Angel Reese's Dream: 'All we do is foul'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/angel-reese-caitlin-clark-exchange-words-second-dream-fever-meeting-three-days",
+          "headline": "Angel Reese and Caitlin Clark exchange words in second Dream-Fever meeting in three days",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 2
+      },
+      "first_seen": "2026-06-20T19:54:00+00:00",
+      "last_seen": "2026-06-20T21:21:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0756
+    },
+    {
+      "id": "42a5c2131d",
+      "title": "Wife of Spanish Prime Minister to Stand Trial for Corruption",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/20/world/europe/gomez-spain-trial-corruption.html",
+          "headline": "Wife of Spanish Prime Minister to Stand Trial for Corruption",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/20/court-bans-spanish-pm-s-wife-from-leaving-country-before-corruption-trial_6754697_4.html",
+          "headline": "Court bans Spanish PM's wife from leaving country before corruption trial",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3357786/spanish-court-bans-pms-wife-leaving-country?utm_source=rss_feed",
+          "headline": "Spanish court bans PM’s wife from leaving country",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.133,
+        "spread": 0.17,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T12:38:56+00:00",
+      "last_seen": "2026-06-20T19:11:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0722
+    },
+    {
+      "id": "ea61a23d4f",
+      "title": "Thousands rally in Albania amid growing opposition to Kushner-linked resort project",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/thousands-rally-in-albania-amid-growing-opposition-to-kushner-linked-resort-project/",
+          "headline": "Thousands rally in Albania amid growing opposition to Kushner-linked resort project",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-20T20:45:18+00:00",
+      "last_seen": "2026-06-20T20:45:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0661
     },
     {
       "id": "f3dce9acd5",
@@ -340,12 +1020,12 @@
       "first_seen": "2026-06-20T14:32:15+00:00",
       "last_seen": "2026-06-20T16:39:57+00:00",
       "platforms": [
-        "hackernews",
-        "rss"
+        "rss",
+        "hackernews"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1726
+      "resonance": 0.0621
     },
     {
       "id": "05d5fdf702",
@@ -373,17 +1053,17 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1725
+      "resonance": 0.0588
     },
     {
-      "id": "e2709428ce",
-      "title": "West Asia war LIVE updates: Trump threatens to charge U.S. tolls in Hormuz strait if final Iran deal not reached in 60 days",
+      "id": "00157019ba",
+      "title": "Meet Osito, the rescue dog winning hearts at the World Cup",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-israel-lebanon-strikes-strait-of-hormuz-tehran-washington-peace-deal-live-updates-june-20-2026/article71124892.ece",
-          "headline": "West Asia war LIVE updates: Trump threatens to charge U.S. tolls in Hormuz strait if final Iran deal not reached in 60 days",
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/video/2026/06/20/meet-osito-the-rescue-dog-winning-hearts-at-the-world-cup",
+          "headline": "Meet Osito, the rescue dog winning hearts at the World Cup",
           "platform": "rss"
         }
       ],
@@ -394,14 +1074,14 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-20T20:36:19+00:00",
-      "last_seen": "2026-06-20T20:36:19+00:00",
+      "first_seen": "2026-06-20T20:36:34+00:00",
+      "last_seen": "2026-06-20T20:36:34+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1671
+      "topic": "sport",
+      "resonance": 0.0544
     },
     {
       "id": "3366d1d7bf",
@@ -429,856 +1109,68 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1625
-    },
-    {
-      "id": "0e96617ded",
-      "title": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
-          "headline": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T20:32:29+00:00",
-      "last_seen": "2026-06-20T20:32:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1613
-    },
-    {
-      "id": "217ea51a3c",
-      "title": "Insuring the informal worker against the heat",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/insuring-the-informal-worker-against-the-heat/article71125184.ece",
-          "headline": "Insuring the informal worker against the heat",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T20:31:23+00:00",
-      "last_seen": "2026-06-20T20:31:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1597
-    },
-    {
-      "id": "17cf4e10e4",
-      "title": "Counterterrorism police investigate Edinburgh attacks",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-21/police-investigate-violent-attack-near-edinburgh-mosque/106824162",
-          "headline": "Counterterrorism police investigate Edinburgh attacks",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T20:24:12+00:00",
-      "last_seen": "2026-06-20T20:24:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.149
-    },
-    {
-      "id": "048bbc8420",
-      "title": "Trump threatens US tolls on Hormuz after Iran says strait is closed",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-threatens-us-tolls-hormuz-strait-if-iran-talks-fail",
-          "headline": "Trump threatens US tolls on Hormuz strait if Iran talks fail",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3357792/tehran-closes-strait-hormuz-ahead-us-iran-talks-switzerland?utm_source=rss_feed",
-          "headline": "Trump threatens US tolls on Hormuz after Iran says strait is closed",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.175,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T15:35:56+00:00",
-      "last_seen": "2026-06-20T19:51:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1448
-    },
-    {
-      "id": "ec431c9cc7",
-      "title": "Israeli strike kills children in Gaza despite ceasefire claims",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/israeli-strike-kills-journalist-central-gaza",
-          "headline": "Israeli strike kills journalist in central Gaza",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-kills-journalist-central-gaza",
-          "headline": "Israeli strike kills Al Jazeera cameraman in central Gaza",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/20/israeli-strike-kills-children-in-gaza-despite-ceasefire-claims?traffic_source=rss",
-          "headline": "Israeli strike kills children in Gaza despite ceasefire claims",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.233,
-        "spread": 0.024,
-        "left": 2,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T16:39:03+00:00",
-      "last_seen": "2026-06-20T19:03:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1362
-    },
-    {
-      "id": "4cfd9be59c",
-      "title": "Extreme heat warning expanded as 37C heatwave approaches UK",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/weather/articles/cp8lye61jk6o?at_medium=RSS&at_campaign=rss",
-          "headline": "Extreme heat warning expanded as 37C heatwave approaches UK",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T20:10:28+00:00",
-      "last_seen": "2026-06-20T20:10:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1291
-    },
-    {
-      "id": "8870c1aef2",
-      "title": "More missiles and ditch the UN: What One Nation’s foreign policy looks like",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-21/one-nation-foreign-policy-revealed/106822090",
-          "headline": "More missiles and ditch the UN: What One Nation’s foreign policy looks like",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T20:10:17+00:00",
-      "last_seen": "2026-06-20T20:10:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1288
-    },
-    {
-      "id": "c35465bcd0",
-      "title": "Germany vs Ivory Coast live: Kessie strike puts Ivorians ahead in Group E showdown",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260620-germany-vs-ivory-coast-live-updates-commentary-world-cup-group-e-knockouts",
-          "headline": "Germany vs Ivory Coast live: Kessie strike puts Ivorians ahead in Group E showdown",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/6/20/germany-vs-ivory-coast-live-world-cup-2026?traffic_source=rss",
-          "headline": "LIVE: Germany vs Ivory Coast – World Cup 2026",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T16:01:49+00:00",
-      "last_seen": "2026-06-20T19:14:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1213
-    },
-    {
-      "id": "0d7eeb7735",
-      "title": "IDF soldier killed, 13 injured during overnight Hezbollah attack in southern Lebanon",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/idf-soldier-killed-13-injured-during-overnight-hezbollah-attack-in-southern-lebanon/",
-          "headline": "IDF soldier killed, 13 injured during overnight Hezbollah attack in southern Lebanon",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T20:01:41+00:00",
-      "last_seen": "2026-06-20T20:01:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1167
-    },
-    {
-      "id": "3572b49224",
-      "title": "Pauline Hanson’s stance on paid parental leave and childcare could turn clock back by decades, economists warn",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/2026/jun/21/pauline-hanson-women-working-mothers-paid-parental-leave-childcare-income-gender-gap-economy-one-nation-ntwnfb",
-          "headline": "Pauline Hanson’s stance on paid parental leave and childcare could turn clock back by decades, economists warn",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T20:00:11+00:00",
-      "last_seen": "2026-06-20T20:00:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1146
-    },
-    {
-      "id": "b0ee2f784a",
-      "title": "Angel Reese and Caitlin Clark exchange words in second Dream-Fever meeting in three days",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/angel-reese-caitlin-clark-exchange-words-second-dream-fever-meeting-three-days",
-          "headline": "Angel Reese and Caitlin Clark exchange words in second Dream-Fever meeting in three days",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-20T19:54:00+00:00",
-      "last_seen": "2026-06-20T19:54:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.106
-    },
-    {
-      "id": "b333c27bee",
-      "title": "Trump blames reflecting pool woes on vandalism, but offers no proof",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3357797/trump-blames-reflecting-pool-woes-vandalism-offers-no-proof?utm_source=rss_feed",
-          "headline": "Trump blames reflecting pool woes on vandalism, but offers no proof",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T19:53:18+00:00",
-      "last_seen": "2026-06-20T19:53:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1051
-    },
-    {
-      "id": "d1afad6f4b",
-      "title": "Overplaying Strait of Hormuz card will turn Iran into a pariah state",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/20/overplaying-strait-of-hormuz-card-will-turn-iran-into-a-pariah-state?traffic_source=rss",
-          "headline": "Overplaying Strait of Hormuz card will turn Iran into a pariah state",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T19:43:47+00:00",
-      "last_seen": "2026-06-20T19:43:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0922
-    },
-    {
-      "id": "f95dc9a1ad",
-      "title": "In the Weights is your new AI-centric vanity search",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
-          "headline": "In the Weights is your new AI-centric vanity search",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T19:41:11+00:00",
-      "last_seen": "2026-06-20T19:41:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0887
-    },
-    {
-      "id": "b48e0f7422",
-      "title": "Trump claims he can control IDF actions in Lebanon because Israelis respect him",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/trump-claims-he-can-control-idf-actions-in-lebanon-because-israelis-respect-him/",
-          "headline": "Trump claims he can control IDF actions in Lebanon because Israelis respect him",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T19:37:10+00:00",
-      "last_seen": "2026-06-20T19:37:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0834
-    },
-    {
-      "id": "6172e8f9cd",
-      "title": "Ukraine says Russian attack kills five people in Zaporizhzhia",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/20/ukraine-says-russian-attack-kills-five-people-in-zaporizhzhia?traffic_source=rss",
-          "headline": "Ukraine says Russian attack kills five people in Zaporizhzhia",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T19:31:55+00:00",
-      "last_seen": "2026-06-20T19:31:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0765
-    },
-    {
-      "id": "0d72096d3d",
-      "title": "Trump's peace deal may not stop Iran casting America as the enemy",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-21/iran-and-us-sign-deal-but-regime-still-paints-america-as-enemy/106814584",
-          "headline": "Trump's peace deal may not stop Iran casting America as the enemy",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T19:31:46+00:00",
-      "last_seen": "2026-06-20T19:31:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0763
-    },
-    {
-      "id": "f4b0ace2ef",
-      "title": "Carolina Hurricanes hit the streets, coach Rod Brind'Amour goes tarps off at Stanley Cup parade",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/carolina-hurricanes-hit-streets-coach-rod-brindamour-goes-tarps-stanley-cup-parade",
-          "headline": "Carolina Hurricanes hit the streets, coach Rod Brind'Amour goes tarps off at Stanley Cup parade",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-20T19:31:01+00:00",
-      "last_seen": "2026-06-20T19:31:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0753
-    },
-    {
-      "id": "59d5a65756",
-      "title": "Israel strikes Lebanon despite ceasefire, at least 16 killed",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-kill-least-20-lebanon-hours-after-ceasefire",
-          "headline": "Israeli strikes kill at least 20 in Lebanon hours after ceasefire",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/israel-strikes-lebanon-despite-ceasefire-at-least-16-killed",
-          "headline": "Israel strikes Lebanon despite ceasefire, at least 16 killed",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-kills-least-29-lebanon-one-day-after-ceasefire-deal",
-          "headline": "Israel kills at least 29 in Lebanon, one day after ceasefire deal",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/israel-kills-29-lebanon-one-day-after-ceasefire-deal",
-          "headline": "Israel kills at least 29 in Lebanon, one day after ceasefire deal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.212,
-        "spread": 0.065,
-        "left": 3,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T12:26:50+00:00",
-      "last_seen": "2026-06-20T19:22:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.07
-    },
-    {
-      "id": "16cae45f7d",
-      "title": "Holly Ramsay and Adam Peaty announce they are expecting first child",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/c5yzkp30kwxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Holly Ramsay and Adam Peaty announce they are expecting first child",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T19:23:39+00:00",
-      "last_seen": "2026-06-20T19:23:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0658
-    },
-    {
-      "id": "e0472f000d",
-      "title": "France issues red heatwave alert on Sunday for third of country, bans public alcohol consumption at music festival",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/france-bans-alcohol-at-music-festival-events-amid-heatwave-alert/a-77639233?maca=en-rss-en-all-1573-rdf",
-          "headline": "France bans alcohol at music festival events amid heatwave alert",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/france/article/2026/06/20/france-issues-red-heatwave-alert-on-sunday-for-third-of-country-bans-alcohol-at-music-festival_6754702_7.html",
-          "headline": "France issues red heatwave alert on Sunday for third of country, bans public alcohol consumption at music festival",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T15:10:29+00:00",
-      "last_seen": "2026-06-20T18:20:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.0542
-    },
-    {
-      "id": "8260c41ee6",
-      "title": "Iran says Strait of Hormuz shut as U.S.-Iran talks set for Sunday in Switzerland",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/20/us-iran-talks-to-kick-off-sunday-in-switzerland-says?traffic_source=rss",
-          "headline": "US-Iran talks to kick off Sunday in Switzerland, says Pakistan",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-says-us-iran-follow-talks-take-place-switzerland-sunday",
-          "headline": "Pakistan says US-Iran talks to take place in Switzerland on Sunday",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/06/20/nx-s1-5865006/fighting-lebanon-despite-ceasefire",
-          "headline": "Iran says Strait of Hormuz shut as U.S.-Iran talks set for Sunday in Switzerland",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.041,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T10:02:05+00:00",
-      "last_seen": "2026-06-20T17:39:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0515
-    },
-    {
-      "id": "42a5c2131d",
-      "title": "Wife of Spanish Prime Minister to Stand Trial for Corruption",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/20/world/europe/gomez-spain-trial-corruption.html",
-          "headline": "Wife of Spanish Prime Minister to Stand Trial for Corruption",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-20T19:11:09+00:00",
-      "last_seen": "2026-06-20T19:11:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
       "source": "043a74acf5",
+      "target": "caaadbe93b",
+      "weight": 0.076,
+      "type": "thematic"
+    },
+    {
+      "source": "043a74acf5",
       "target": "4b24f2c97e",
-      "weight": 0.325,
-      "type": "thematic"
-    },
-    {
-      "source": "b396787d03",
-      "target": "aa62824922",
-      "weight": 0.808,
-      "type": "thematic"
-    },
-    {
-      "source": "b396787d03",
-      "target": "e2709428ce",
-      "weight": 0.169,
-      "type": "thematic"
-    },
-    {
-      "source": "b396787d03",
-      "target": "17cf4e10e4",
-      "weight": 0.065,
-      "type": "thematic"
-    },
-    {
-      "source": "b396787d03",
-      "target": "d1afad6f4b",
-      "weight": 0.396,
-      "type": "thematic"
-    },
-    {
-      "source": "b396787d03",
-      "target": "59d5a65756",
-      "weight": 0.52,
-      "type": "thematic"
-    },
-    {
-      "source": "b396787d03",
-      "target": "8260c41ee6",
-      "weight": 0.639,
-      "type": "thematic"
-    },
-    {
-      "source": "1f150d9b4f",
-      "target": "17cf4e10e4",
-      "weight": 0.293,
-      "type": "thematic"
-    },
-    {
-      "source": "aa62824922",
-      "target": "e2709428ce",
-      "weight": 0.513,
-      "type": "thematic"
-    },
-    {
-      "source": "aa62824922",
-      "target": "048bbc8420",
-      "weight": 0.798,
-      "type": "thematic"
-    },
-    {
-      "source": "aa62824922",
-      "target": "d1afad6f4b",
-      "weight": 0.165,
-      "type": "thematic"
-    },
-    {
-      "source": "aa62824922",
-      "target": "8260c41ee6",
-      "weight": 0.345,
-      "type": "thematic"
-    },
-    {
-      "source": "4b24f2c97e",
-      "target": "c35465bcd0",
-      "weight": 0.304,
+      "weight": 0.145,
       "type": "thematic"
     },
     {
       "source": "e2709428ce",
-      "target": "d1afad6f4b",
-      "weight": 0.013,
+      "target": "6160fb60bd",
+      "weight": 0.256,
       "type": "thematic"
     },
     {
       "source": "e2709428ce",
-      "target": "0d72096d3d",
-      "weight": 0.176,
+      "target": "0e2c1bf8a9",
+      "weight": 0.332,
       "type": "thematic"
     },
     {
       "source": "e2709428ce",
-      "target": "8260c41ee6",
-      "weight": 0.151,
+      "target": "3952cb8b94",
+      "weight": 0.377,
       "type": "thematic"
     },
     {
-      "source": "217ea51a3c",
-      "target": "4cfd9be59c",
-      "weight": 0.009,
+      "source": "6160fb60bd",
+      "target": "0e2c1bf8a9",
+      "weight": 0.114,
       "type": "thematic"
     },
     {
-      "source": "048bbc8420",
-      "target": "d1afad6f4b",
-      "weight": 0.39,
+      "source": "6160fb60bd",
+      "target": "3952cb8b94",
+      "weight": 0.964,
       "type": "thematic"
     },
     {
-      "source": "048bbc8420",
-      "target": "0d72096d3d",
-      "weight": 0.13,
+      "source": "caaadbe93b",
+      "target": "4b24f2c97e",
+      "weight": 0.371,
       "type": "thematic"
     },
     {
-      "source": "048bbc8420",
-      "target": "8260c41ee6",
-      "weight": 0.631,
+      "source": "0e2c1bf8a9",
+      "target": "3952cb8b94",
+      "weight": 0.271,
       "type": "thematic"
     },
     {
-      "source": "ec431c9cc7",
-      "target": "59d5a65756",
-      "weight": 0.399,
-      "type": "thematic"
-    },
-    {
-      "source": "0d7eeb7735",
-      "target": "b48e0f7422",
-      "weight": 0.036,
-      "type": "thematic"
-    },
-    {
-      "source": "0d7eeb7735",
-      "target": "59d5a65756",
-      "weight": 0.194,
-      "type": "thematic"
-    },
-    {
-      "source": "d1afad6f4b",
-      "target": "8260c41ee6",
-      "weight": 0.372,
+      "source": "1fdb9fd5ee",
+      "target": "3952cb8b94",
+      "weight": 0.49,
       "type": "thematic"
     }
   ],

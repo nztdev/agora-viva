@@ -1,17 +1,63 @@
 {
-  "generated_at": "2026-06-21T18:04:06.976564+00:00",
+  "generated_at": "2026-06-21T20:11:51.787955+00:00",
   "node_count": 35,
-  "edge_count": 15,
+  "edge_count": 14,
   "nodes": [
     {
-      "id": "286518257b",
-      "title": "Code duplication is far cheaper than the wrong abstraction (2016)",
+      "id": "e68723760a",
+      "title": "Serena Williams to make singles comeback at Wimbledon",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/serena-williams-return-wimbledon-singles-44-year-old-legend-chases-grand-slam-record",
+          "headline": "Serena Williams will return to Wimbledon singles as 44-year-old legend chases Grand Slam record",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-22/serena-williams-wimbledon-singles-wildcard-tennis/106825948",
+          "headline": "Serena Williams to make Wimbledon singles comeback",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260621-serena-williams-handed-wimbledon-singles-wildcard-in-grand-slam-comeback",
+          "headline": "Serena Williams handed Wimbledon singles wildcard in grand slam comeback",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/sport/tennis/articles/cn8kz0vm4d2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Serena Williams to make singles comeback at Wimbledon",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.075,
+        "spread": 0.303,
+        "left": 0,
+        "center": 3,
+        "right": 1
+      },
+      "first_seen": "2026-06-21T18:51:57+00:00",
+      "last_seen": "2026-06-21T19:51:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.7281
+    },
+    {
+      "id": "e372da4d96",
+      "title": "Prefer duplication over the wrong abstraction (2016)",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
           "url": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
-          "headline": "Code duplication is far cheaper than the wrong abstraction (2016)",
+          "headline": "Prefer duplication over the wrong abstraction (2016)",
           "platform": "hackernews"
         }
       ],
@@ -32,32 +78,78 @@
       "resonance": 0.28
     },
     {
-      "id": "70470f61ea",
-      "title": "Tell HN: Happy Fathers Day",
-      "signal_count": 1,
+      "id": "650120e7b5",
+      "title": "Lamine Yamal shows why this could be his World Cup",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48620502",
-          "headline": "Tell HN: Happy Fathers Day",
-          "platform": "hackernews"
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/sport/football/articles/cj0gy46d5vro?at_medium=RSS&at_campaign=rss",
+          "headline": "Lamine Yamal shows why this could be his World Cup",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/6/21/spain-thrash-saudi-arabia-as-lamine-yamal-off-mark-at-world-cup-2026?traffic_source=rss",
+          "headline": "Lamine Yamal scores first World Cup goal as Spain thrash Saudi Arabia",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260621-world-cup-2026-spain-bounce-back-with-thumping-win-over-saudi-arabia-yamal",
+          "headline": "Yamal scores first World Cup goal as Spain bounce back with thumping win over Saudi Arabia",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.133,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T18:02:41+00:00",
+      "last_seen": "2026-06-21T19:27:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.4934
+    },
+    {
+      "id": "efb6e6eb13",
+      "title": "West Asia war LIVE updates: Iranians walk out of talks venue after Trump threat",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-israel-lebanon-strikes-strait-of-hormuz-tehran-washington-peace-talks-in-switzerland-live-updates-june-21-2026/article71128366.ece",
+          "headline": "West Asia war LIVE updates: Iranians walk out of talks venue after Trump threat",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3357843/iran-vows-forces-are-ready-respond-after-trumps-threat-hit-iran-very-hard-again?utm_source=rss_feed",
+          "headline": "Iranians walk out of Swiss talks venue after Trump threat to ‘hit Iran very hard again’",
+          "platform": "rss"
         }
       ],
       "bias": {
         "mean": 0.0,
-        "spread": 0.0,
+        "spread": 0.1,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-06-21T17:00:26+00:00",
-      "last_seen": "2026-06-21T17:00:26+00:00",
+      "first_seen": "2026-06-21T18:26:05+00:00",
+      "last_seen": "2026-06-21T19:44:52+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.28
+      "resonance": 0.3776
     },
     {
       "id": "67c31a6d62",
@@ -91,7 +183,63 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.3673
+      "resonance": 0.2176
+    },
+    {
+      "id": "20a124126f",
+      "title": "Dancing grandmothers, wastelands and rug making as we Race Around The World",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-22/race-around-the-world-documentary-wrap/106727776",
+          "headline": "Dancing grandmothers, wastelands and rug making as we Race Around The World",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T20:03:38+00:00",
+      "last_seen": "2026-06-21T20:03:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.196
+    },
+    {
+      "id": "c68baa4bf7",
+      "title": "Concertgoer dies after apparent fall from upper level at Madison Square Garden",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/concertgoer-dies-after-apparent-fall-from-upper-level-madison-square-garden",
+          "headline": "Concertgoer dies after apparent fall from upper level at Madison Square Garden",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-21T20:01:43+00:00",
+      "last_seen": "2026-06-21T20:01:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1925
     },
     {
       "id": "655a43c844",
@@ -125,87 +273,613 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.3372
+      "resonance": 0.1913
     },
     {
-      "id": "650fc5db2b",
-      "title": "West Asia war LIVE updates: Iran warns U.S. to 'be careful' after Trump threat",
-      "signal_count": 2,
+      "id": "e65892ae9e",
+      "title": "Loud boom heard in Doha as explosion at factory reported",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-israel-lebanon-strikes-strait-of-hormuz-tehran-washington-peace-talks-in-switzerland-live-updates-june-21-2026/article71128366.ece",
-          "headline": "West Asia war LIVE updates: Iran warns U.S. to 'be careful' after Trump threat",
-          "platform": "rss"
-        },
-        {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-warns-us-be-careful-after-trump-threat",
-          "headline": "Iran warns US to 'be careful' after Trump threat",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/loud-boom-heard-doha-factory-explosion-reported",
+          "headline": "Loud boom heard in Doha as explosion at factory reported",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.175,
-        "spread": 0.075,
+        "mean": -0.25,
+        "spread": 0.0,
         "left": 1,
-        "center": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-21T16:55:45+00:00",
-      "last_seen": "2026-06-21T17:34:47+00:00",
+      "first_seen": "2026-06-21T19:58:36+00:00",
+      "last_seen": "2026-06-21T19:58:36+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.3336
+      "topic": "world",
+      "resonance": 0.1869
     },
     {
-      "id": "1b5b62ca08",
-      "title": "Starmer considers political future as pressure to quit mounts",
-      "signal_count": 4,
+      "id": "f76c807efc",
+      "title": "Queensland charity closes 'life-changing' NDIS employment support program",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/cn8k1my75gno?at_medium=RSS&at_campaign=rss",
-          "headline": "Starmer considers political future as pressure to quit mounts",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/21/world/europe/keir-starmer-andy-burnham-uk.html",
-          "headline": "Keir Starmer Reflects on ‘Political Challenges’ as Pressure to Resign Mounts",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/21/pressure-mounts-on-starmer-to-quit-after-burnhams-by-election-win?traffic_source=rss",
-          "headline": "Pressure mounts on UK PM Starmer to quit after Burnham’s by-election win",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260621-uk-s-starmer-mulling-political-realities-senior-minister",
-          "headline": "Pressure mounts on UK Prime Minister Starmer amid reports he could resign within days",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-22/wesley-mission-queensland-ndis-employment-support-orca-project/106799504",
+          "headline": "Queensland charity closes 'life-changing' NDIS employment support program",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.175,
-        "spread": 0.083,
-        "left": 1,
-        "center": 3,
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-21T10:25:12+00:00",
-      "last_seen": "2026-06-21T16:56:17+00:00",
+      "first_seen": "2026-06-21T19:58:09+00:00",
+      "last_seen": "2026-06-21T19:58:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1861
+    },
+    {
+      "id": "6179e6dbf5",
+      "title": "Colombia elections take place as Abelardo de la Espriella leads polls",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/21/colombia-elections-take-place-as-abelardo-de-la-espriella-leads-polls?traffic_source=rss",
+          "headline": "Colombia elections take place as Abelardo de la Espriella leads polls",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:58:00+00:00",
+      "last_seen": "2026-06-21T19:58:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.2884
+      "resonance": 0.1858
+    },
+    {
+      "id": "e74562879e",
+      "title": "Ridglan Farms rescue beagles find new life helping veterans overcome war trauma with Paws of War",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/ridglan-farms-rescue-beagles-find-new-life-helping-veterans-overcome-war-trauma-paws-war",
+          "headline": "Ridglan Farms rescue beagles find new life helping veterans overcome war trauma with Paws of War",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-21T19:56:39+00:00",
+      "last_seen": "2026-06-21T19:56:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1834
+    },
+    {
+      "id": "ac404be756",
+      "title": "Japan fans celebrate 4-0 World Cup win in Tokyo",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/21/japan-fans-celebrate-4-0-world-cup-win-in-tokyo?traffic_source=rss",
+          "headline": "Japan fans celebrate 4-0 World Cup win in Tokyo",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:54:29+00:00",
+      "last_seen": "2026-06-21T19:54:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1795
+    },
+    {
+      "id": "686a9ccf58",
+      "title": "Dry day observed across Ernakulam",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/dry-day-observed-in-ernakulam/article71129960.ece",
+          "headline": "Dry day observed across Ernakulam",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:54:02+00:00",
+      "last_seen": "2026-06-21T19:54:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1787
+    },
+    {
+      "id": "3690dbc1b4",
+      "title": "FIFA World Cup, Belgium vs Iran LIVE: Group G match under way",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/belgium-vs-iran-live-fifa-world-cup-2026-live-match-updates/article71130443.ece",
+          "headline": "FIFA World Cup, Belgium vs Iran LIVE: Group G match under way",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:53:33+00:00",
+      "last_seen": "2026-06-21T19:53:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1779
+    },
+    {
+      "id": "20e322c57d",
+      "title": "Police initiate school safety analysis using 12-point  questionnaire in Kochi",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/police-initiate-school-safety-analysis-using-12-point-questionnaire/article71128957.ece",
+          "headline": "Police initiate school safety analysis using 12-point  questionnaire in Kochi",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:52:00+00:00",
+      "last_seen": "2026-06-21T19:52:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1751
+    },
+    {
+      "id": "6b23fc8192",
+      "title": "Mideast Live Updates: Strains Quickly Emerge on First Day of U.S.-Iran Talks",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/06/21/world/iran-us-trump-lebanon",
+          "headline": "Mideast Live Updates: Strains Quickly Emerge on First Day of U.S.-Iran Talks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:51:37+00:00",
+      "last_seen": "2026-06-21T19:51:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1745
+    },
+    {
+      "id": "1772de30f0",
+      "title": "Ramiro Valdes, one of Cuba’s last living revolutionary figures, dies at 94",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/21/ramiro-valdes-one-of-cubas-last-living-revolutionary-figures-dies-at-94?traffic_source=rss",
+          "headline": "Ramiro Valdes, one of Cuba’s last living revolutionary figures, dies at 94",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:51:03+00:00",
+      "last_seen": "2026-06-21T19:51:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1735
+    },
+    {
+      "id": "e25481d37f",
+      "title": "Iran delegation 'remains engaged' in Switzerland talks, report says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-delegation-remains-engaged-switzerland-talks-report-says",
+          "headline": "Iran delegation 'remains engaged' in Switzerland talks, report says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:49:21+00:00",
+      "last_seen": "2026-06-21T19:49:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1705
+    },
+    {
+      "id": "87f5e733cf",
+      "title": "Castro ally Ramiro Valdes, lauded as a hero of Cuban revolution, dies at 94",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/americas/article/3357845/castro-ally-ramiro-valdes-lauded-hero-cuban-revolution-dies-94?utm_source=rss_feed",
+          "headline": "Castro ally Ramiro Valdes, lauded as a hero of Cuban revolution, dies at 94",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:44:24+00:00",
+      "last_seen": "2026-06-21T19:44:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1618
+    },
+    {
+      "id": "f14f1def00",
+      "title": "Netanyahu vows to maintain IDF presence in Lebanon even as issue rocks US-Iran talks",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/netanyahu-vows-to-maintain-idf-presence-in-lebanon-even-as-issue-rocks-us-iran-talks/",
+          "headline": "Netanyahu vows to maintain IDF presence in Lebanon even as issue rocks US-Iran talks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:42:00+00:00",
+      "last_seen": "2026-06-21T19:42:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1577
+    },
+    {
+      "id": "1ee8c2c16c",
+      "title": "Israeli defence minister says Israel has 'no intention of withdrawing' from southern Lebanon",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-defense-minister-says-israel-has-no-intention-withdrawing",
+          "headline": "Israeli defence minister says Israel has 'no intention of withdrawing' from southern Lebanon",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:41:08+00:00",
+      "last_seen": "2026-06-21T19:41:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1562
+    },
+    {
+      "id": "77aa832298",
+      "title": "How Australia's World Cup chef knows the players like his food",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-22/inside-the-socceroos-luxury-home-away-from-home/106807110",
+          "headline": "How Australia's World Cup chef knows the players like his food",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:36:42+00:00",
+      "last_seen": "2026-06-21T19:36:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1486
+    },
+    {
+      "id": "adb60ba37f",
+      "title": "Trump and Iran's negotiator trade warnings as talks held in Switzerland",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.com/news/articles/cwy0q41v1lzo?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump and Iran's negotiator trade warnings as talks held in Switzerland",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:33:09+00:00",
+      "last_seen": "2026-06-21T19:33:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.1426
+    },
+    {
+      "id": "99f15b192f",
+      "title": "Europe heatwave scorches cities and wildlife",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/21/europe-heatwave-scorches-cities-and-wildlife?traffic_source=rss",
+          "headline": "Europe heatwave scorches cities and wildlife",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3357840/europe-hits-40oc-heatwave-threatens-tourism-industry-wildlife?utm_source=rss_feed",
+          "headline": "Europe hits 40ºC as heatwave threatens tourism industry, wildlife",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.15,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T15:21:44+00:00",
+      "last_seen": "2026-06-21T18:47:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.1416
+    },
+    {
+      "id": "0a21a02ffc",
+      "title": "Four-day extreme heat warning to begin on Monday as temperatures could hit 38C",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/weather/articles/c932k0lewygo?at_medium=RSS&at_campaign=rss",
+          "headline": "Four-day extreme heat warning to begin on Monday as temperatures could hit 38C",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:26:22+00:00",
+      "last_seen": "2026-06-21T19:26:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1312
+    },
+    {
+      "id": "d54928139f",
+      "title": "Iran's unprecedented 'whole-regime' delegation at US deal talks signals one goal: expert",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/irans-unprecedented-whole-regime-delegation-us-deal-talks-signals-one-goal-expert",
+          "headline": "Iran's unprecedented 'whole-regime' delegation at US deal talks signals one goal: expert",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-21T19:16:23+00:00",
+      "last_seen": "2026-06-21T19:16:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1148
+    },
+    {
+      "id": "7d4e537f3b",
+      "title": "Trump threatens to strike Iran over support for Hezbollah",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/trump-threatens-to-strike-iran-over-support-for-hezbollah-as-fighting-continues-in-lebanon",
+          "headline": "Trump threatens to strike Iran over support for Hezbollah as fighting continues in Lebanon",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/21/trump-threatens-to-strike-iran-over-support-for-hezbollah_6754722_4.html",
+          "headline": "Trump threatens to strike Iran over support for Hezbollah",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-threatens-strike-iran-over-support-hezbollah",
+          "headline": "Trump threatens to strike Iran over support for Hezbollah",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.183,
+        "spread": 0.062,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T14:07:49+00:00",
+      "last_seen": "2026-06-21T16:10:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1103
+    },
+    {
+      "id": "d49c3e2923",
+      "title": "Wowcher sorry for 'unacceptable' crocodile attack email",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c17ynlek5djo?at_medium=RSS&at_campaign=rss",
+          "headline": "Wowcher sorry for 'unacceptable' crocodile attack email",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T19:12:32+00:00",
+      "last_seen": "2026-06-21T19:12:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1086
     },
     {
       "id": "426fa93fe8",
@@ -245,143 +919,7 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2388
-    },
-    {
-      "id": "027f7bc76c",
-      "title": "FIFA World Cup ESP vs KSA LIVE: Cucurella forces an own goal, Spain 4 - 0 Saudi Arabia",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/spain-vs-saudi-arabia-live-fifa-world-cup-2026-live-match-updates/article71129850.ece",
-          "headline": "FIFA World Cup ESP vs KSA LIVE: Cucurella forces an own goal, Spain 4 - 0 Saudi Arabia",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/6/21/spain-vs-saudi-arabia-live-world-cup-2026?traffic_source=rss",
-          "headline": "LIVE: Spain vs Saudi Arabia – World Cup 2026",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T13:00:00+00:00",
-      "last_seen": "2026-06-21T17:58:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1815
-    },
-    {
-      "id": "3fe594bb6f",
-      "title": "Vance hopes U.S., Iran can turn ‘new leaf’ with talks",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/iran-us-switzerland-talks-qatar-mediator-obbuergen-high-level-meeting-updates/article71129232.ece",
-          "headline": "Vance hopes U.S., Iran can turn ‘new leaf’ with talks",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-hopes-turn-over-new-leaf-iran-trump-threatens-resume-bombing",
-          "headline": "US hopes to turn over 'new leaf' with Iran, but Trump threatens to resume bombing",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/us-hopes-turn-over-new-leaf-iran-trump-threatens-resume-bombing",
-          "headline": "US hopes to turn over 'new leaf' with Iran, but Trump threatens to resume bombing",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/vance-trump-asked-us-turn-over-new-leaf-ties-iran",
-          "headline": "Vance: Trump asked us to turn over 'a new leaf' in ties with Iran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.212,
-        "spread": 0.065,
-        "left": 3,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T13:16:11+00:00",
-      "last_seen": "2026-06-21T17:28:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1496
-    },
-    {
-      "id": "c2c9ffe9d5",
-      "title": "Political parties condole death in ammonia leak at seafood processing unit in Tiruvallur district",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/political-parties-condole-death-in-ammonia-leak-at-seafood-processing-unit-in-tiruvallur-district/article71130271.ece",
-          "headline": "Political parties condole death in ammonia leak at seafood processing unit in Tiruvallur district",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:57:42+00:00",
-      "last_seen": "2026-06-21T17:57:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1488
-    },
-    {
-      "id": "f7819a8589",
-      "title": "Private college teacher held for ‘sexually harassing’ girl in Erode",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Coimbatore/private-college-teacher-held-for-sexually-harassing-girl-in-erode/article71129129.ece",
-          "headline": "Private college teacher held for ‘sexually harassing’ girl in Erode",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:56:44+00:00",
-      "last_seen": "2026-06-21T17:56:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1473
+      "resonance": 0.1054
     },
     {
       "id": "70c41cf209",
@@ -402,428 +940,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-21T17:56:05+00:00",
-      "last_seen": "2026-06-21T17:56:05+00:00",
+      "first_seen": "2026-06-21T19:01:30+00:00",
+      "last_seen": "2026-06-21T19:01:30+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1463
+      "resonance": 0.091
     },
     {
-      "id": "91ee9abea2",
-      "title": "Raiders' Fernando Mendoza shares Tom Brady's advice as he begins NFL career",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/raiders-fernando-mendoza-shares-tom-bradys-advice-begins-nfl-career",
-          "headline": "Raiders' Fernando Mendoza shares Tom Brady's advice as he begins NFL career",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-21T17:55:54+00:00",
-      "last_seen": "2026-06-21T17:55:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.146
-    },
-    {
-      "id": "6b23fc8192",
-      "title": "Mideast Live Updates: Strains Quickly Emerge on First Day of U.S.-Iran Talks",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/21/world/iran-us-trump-lebanon",
-          "headline": "Mideast Live Updates: Strains Quickly Emerge on First Day of U.S.-Iran Talks",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:55:10+00:00",
-      "last_seen": "2026-06-21T17:55:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1449
-    },
-    {
-      "id": "eaeb0eb283",
-      "title": "'Twisted Face,' the French Gestapo collaborator who arrested historian and resistance fighter Marc Bloch",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/m-le-mag/article/2026/06/21/twisted-face-the-french-gestapo-collaborator-who-arrested-historian-and-resistance-fighter-marc-bloch_6754724_117.html",
-          "headline": "'Twisted Face,' the French Gestapo collaborator who arrested historian and resistance fighter Marc Bloch",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:53:56+00:00",
-      "last_seen": "2026-06-21T17:53:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1429
-    },
-    {
-      "id": "05827c094c",
-      "title": "CISF to be deployed at five more prisons in Jammu and Kashmir",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/cisf-to-be-deployed-at-five-more-prisons-in-jammu-and-kashmir/article71130295.ece",
-          "headline": "CISF to be deployed at five more prisons in Jammu and Kashmir",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:53:39+00:00",
-      "last_seen": "2026-06-21T17:53:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1425
-    },
-    {
-      "id": "74e3a0e9e9",
-      "title": "Polymarket reportedly paid people to post fake videos of themselves placing bets",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/21/polymarket-reportedly-paid-creators-to-post-deceptive-videos-about-fake-bets/",
-          "headline": "Polymarket reportedly paid creators to post deceptive videos about fake bets",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/953285/polymarket-fake-viral-video-bets",
-          "headline": "Polymarket reportedly paid people to post fake videos of themselves placing bets",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T14:19:46+00:00",
-      "last_seen": "2026-06-21T16:35:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1376
-    },
-    {
-      "id": "b1f2d46ba2",
-      "title": "Trump admin’s coal investments assist plants with repeated violations",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/science/2026/06/trump-admins-coal-investments-assist-plants-with-repeated-violations/",
-          "headline": "Trump admin’s coal investments assist plants with repeated violations",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:49:35+00:00",
-      "last_seen": "2026-06-21T17:49:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.1362
-    },
-    {
-      "id": "033158c008",
-      "title": "This one question may reveal whether your body is getting the rest it needs, study finds",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/health/one-question-may-reveal-whether-your-body-getting-rest-needs-study-finds",
-          "headline": "This one question may reveal whether your body is getting the rest it needs, study finds",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-21T17:47:40+00:00",
-      "last_seen": "2026-06-21T17:47:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.1333
-    },
-    {
-      "id": "a619b9030f",
-      "title": "The sum-of-all-fears election - Sponsored Content",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/spotlight/the-sum-of-all-fears-election/",
-          "headline": "The sum-of-all-fears election - Sponsored Content",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:43:44+00:00",
-      "last_seen": "2026-06-21T17:43:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1273
-    },
-    {
-      "id": "934bff182b",
-      "title": "From Chaplin to Ben-Gurion, Swiss venue of US-Iran talks has a star-studded history",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/from-chaplin-to-ben-gurion-swiss-venue-of-us-iran-talks-has-a-star-studded-history/",
-          "headline": "From Chaplin to Ben-Gurion, Swiss venue of US-Iran talks has a star-studded history",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:40:44+00:00",
-      "last_seen": "2026-06-21T17:40:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1227
-    },
-    {
-      "id": "bb87b3bc21",
-      "title": "Thriving Survivors - Sponsored Content",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/spotlight/thriving-survivors/",
-          "headline": "Thriving Survivors - Sponsored Content",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:38:41+00:00",
-      "last_seen": "2026-06-21T17:38:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1196
-    },
-    {
-      "id": "d231969689",
-      "title": "CCTV shows moments leading up to arrest in anti-Muslim attacks probe",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.com/news/articles/c8j21zvkd20o?at_medium=RSS&at_campaign=rss",
-          "headline": "CCTV shows moments leading up to arrest in anti-Muslim attacks probe",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:37:35+00:00",
-      "last_seen": "2026-06-21T17:37:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.118
-    },
-    {
-      "id": "7d4e537f3b",
-      "title": "Trump threatens to strike Iran over support for Hezbollah",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/21/trump-threatens-to-strike-iran-over-support-for-hezbollah_6754722_4.html",
-          "headline": "Trump threatens to strike Iran over support for Hezbollah",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-threatens-strike-iran-over-support-hezbollah",
-          "headline": "Trump threatens to strike Iran over support for Hezbollah",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T14:07:49+00:00",
-      "last_seen": "2026-06-21T15:15:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1117
-    },
-    {
-      "id": "b75f1ba75d",
-      "title": "Trump threatens Iran over Hormuz as JD Vance holds peace talks",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/06/21/us-iranian-meet-switzerland-hash-out-peace-plan/",
-          "headline": "Trump threatens Iran over Hormuz as JD Vance holds peace talks",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:30:40+00:00",
-      "last_seen": "2026-06-21T17:30:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1077
-    },
-    {
-      "id": "f9f6644797",
-      "title": "Trump threatens to 'hit Iran very hard again' while Vance in Switzerland for talks",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/06/21/g-s1-129222/us-iran-deal-lebanon-israel-strait-hormuz-jd-vance",
-          "headline": "Trump threatens to 'hit Iran very hard again' while Vance in Switzerland for talks",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:29:57+00:00",
-      "last_seen": "2026-06-21T17:29:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1067
-    },
-    {
-      "id": "0fac2a9824",
-      "title": "Pope Leo exalts first American saint as a model for Christians for her care of migrants",
+      "id": "a27906e952",
+      "title": "Thousands rally in Prague against government’s public broadcasting overhaul plan",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3357842/pope-leo-exalts-first-american-saint-model-christians-her-care-migrants?utm_source=rss_feed",
-          "headline": "Pope Leo exalts first American saint as a model for Christians for her care of migrants",
+          "url": "https://www.scmp.com/news/world/europe/article/3357844/thousands-rally-prague-against-governments-public-broadcasting-overhaul-plan?utm_source=rss_feed",
+          "headline": "Thousands rally in Prague against government’s public broadcasting overhaul plan",
           "platform": "rss"
         }
       ],
@@ -834,192 +968,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-21T17:29:07+00:00",
-      "last_seen": "2026-06-21T17:29:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1055
-    },
-    {
-      "id": "2e4f2084fa",
-      "title": "Sanctions waivers for Iranian oil to be issued soon, says Iranian negotiator",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/sanctions-waivers-iranian-oil-be-issued-soon-says-iranian-negotiator",
-          "headline": "Sanctions waivers for Iranian oil to be issued soon, says Iranian negotiator",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:27:10+00:00",
-      "last_seen": "2026-06-21T17:27:10+00:00",
+      "first_seen": "2026-06-21T19:00:06+00:00",
+      "last_seen": "2026-06-21T19:00:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1026
+      "resonance": 0.0889
     },
     {
-      "id": "d7e7225a22",
-      "title": "Romania's Dan taps new PM, breaks democratic norms",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/romania-s-dan-taps-new-pm-breaks-democratic-norms/a-77618469?maca=en-rss-en-all-1573-rdf",
-          "headline": "Romania's Dan taps new PM, breaks democratic norms",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:27:00+00:00",
-      "last_seen": "2026-06-21T17:27:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1024
-    },
-    {
-      "id": "e831d73551",
-      "title": "Father and Uncle of Slain New York Girl Given Life Sentences in Pakistan",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/21/world/asia/pakistan-yonkers-hira-anwar.html",
-          "headline": "Father and Uncle of Slain New York Girl Given Life Sentences in Pakistan",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:14:11+00:00",
-      "last_seen": "2026-06-21T17:14:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0839
-    },
-    {
-      "id": "507b024dcc",
-      "title": "Ethiopian prime minister’s party easily wins parliamentary election",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/21/ethiopian-prime-ministers-party-easily-wins-parliamentary-election?traffic_source=rss",
-          "headline": "Ethiopian prime minister’s party easily wins parliamentary election",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:07:52+00:00",
-      "last_seen": "2026-06-21T17:07:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0751
-    },
-    {
-      "id": "6f414ca95e",
-      "title": "As Vance Offers Iran ‘Outstretched Hand’ in Talks, Trump Threatens Bombing",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/21/world/middleeast/vance-iran-talks-trump.html",
-          "headline": "As Vance Offers Iran ‘Outstretched Hand’ in Talks, Trump Threatens Bombing",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:04:26+00:00",
-      "last_seen": "2026-06-21T17:04:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0703
-    },
-    {
-      "id": "79e81d0427",
-      "title": "Khamenei’s MoU stance stirs debate as Iran and US meet in Switzerland",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/21/khameneis-mou-stance-stirs-debate-as-iran-and-us-meet-in-switzerland?traffic_source=rss",
-          "headline": "Khamenei’s MoU stance stirs debate as Iran and US meet in Switzerland",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T17:01:50+00:00",
-      "last_seen": "2026-06-21T17:01:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0667
-    },
-    {
-      "id": "54aee80cbf",
-      "title": "Cold Court’s debut EP is an infectious, glitchy genre mashup",
+      "id": "bc941166fd",
+      "title": "Bose thinks it can be a media company for some reason",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Verge",
-          "url": "https://www.theverge.com/entertainment/953303/cold-court-hands-up-ep-music-review",
-          "headline": "Cold Court’s debut EP is an infectious, glitchy genre mashup",
+          "url": "https://www.theverge.com/entertainment/953324/bose-studios-record-label-media-company",
+          "headline": "Bose thinks it can be a media company for some reason",
           "platform": "rss"
         }
       ],
@@ -1030,133 +996,167 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-21T17:00:33+00:00",
-      "last_seen": "2026-06-21T17:00:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0649
-    },
-    {
-      "id": "e7b7c3c8a0",
-      "title": "Iran, US, Israel: Memorandum of misunderstanding?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/the-bottom-line/2026/6/21/iran-us-israel-memorandum-of-misunderstanding?traffic_source=rss",
-          "headline": "Iran, US, Israel: Memorandum of misunderstanding?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-21T16:49:31+00:00",
-      "last_seen": "2026-06-21T16:49:31+00:00",
+      "first_seen": "2026-06-21T18:53:50+00:00",
+      "last_seen": "2026-06-21T18:53:50+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
+      "resonance": 0.0791
+    },
+    {
+      "id": "1b5b62ca08",
+      "title": "Starmer considers political future as pressure to quit mounts",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cn8k1my75gno?at_medium=RSS&at_campaign=rss",
+          "headline": "Starmer considers political future as pressure to quit mounts",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/21/world/europe/keir-starmer-andy-burnham-uk.html",
+          "headline": "Keir Starmer Reflects on ‘Political Challenges’ as Pressure to Resign Mounts",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260621-uk-s-starmer-mulling-political-realities-senior-minister",
+          "headline": "Pressure mounts on UK Prime Minister Starmer amid reports he could resign within days",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.167,
+        "spread": 0.094,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T10:25:12+00:00",
+      "last_seen": "2026-06-21T16:56:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0541
+    },
+    {
+      "id": "2ea645dd81",
+      "title": "Ubisoft co-founder Claude Guillemot dies in plane crash",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/21/ubisoft-co-founder-claude-guillemot-dies-in-plane-crash/",
+          "headline": "Ubisoft co-founder Claude Guillemot dies in plane crash",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-21T18:34:31+00:00",
+      "last_seen": "2026-06-21T18:34:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "67c31a6d62",
-      "target": "b75f1ba75d",
-      "weight": 0.144,
+      "source": "650120e7b5",
+      "target": "ac404be756",
+      "weight": 0.23,
       "type": "thematic"
     },
     {
-      "source": "655a43c844",
-      "target": "507b024dcc",
-      "weight": 0.619,
+      "source": "650120e7b5",
+      "target": "3690dbc1b4",
+      "weight": 0.12,
       "type": "thematic"
     },
     {
-      "source": "650fc5db2b",
+      "source": "650120e7b5",
+      "target": "77aa832298",
+      "weight": 0.591,
+      "type": "thematic"
+    },
+    {
+      "source": "efb6e6eb13",
       "target": "6b23fc8192",
-      "weight": 0.392,
+      "weight": 0.395,
       "type": "thematic"
     },
     {
-      "source": "426fa93fe8",
-      "target": "d231969689",
-      "weight": 0.325,
+      "source": "efb6e6eb13",
+      "target": "adb60ba37f",
+      "weight": 0.024,
       "type": "thematic"
     },
     {
-      "source": "3fe594bb6f",
-      "target": "b75f1ba75d",
-      "weight": 0.419,
+      "source": "67c31a6d62",
+      "target": "e25481d37f",
+      "weight": 0.21,
       "type": "thematic"
     },
     {
-      "source": "3fe594bb6f",
-      "target": "f9f6644797",
-      "weight": 0.281,
+      "source": "ac404be756",
+      "target": "3690dbc1b4",
+      "weight": 0.065,
       "type": "thematic"
     },
     {
-      "source": "3fe594bb6f",
-      "target": "6f414ca95e",
-      "weight": 0.329,
+      "source": "ac404be756",
+      "target": "77aa832298",
+      "weight": 0.075,
       "type": "thematic"
     },
     {
-      "source": "a619b9030f",
-      "target": "bb87b3bc21",
-      "weight": 0.959,
+      "source": "3690dbc1b4",
+      "target": "6b23fc8192",
+      "weight": 0.04,
       "type": "thematic"
     },
     {
-      "source": "7d4e537f3b",
-      "target": "b75f1ba75d",
-      "weight": 0.519,
+      "source": "6b23fc8192",
+      "target": "e25481d37f",
+      "weight": 0.099,
       "type": "thematic"
     },
     {
-      "source": "7d4e537f3b",
-      "target": "f9f6644797",
-      "weight": 0.366,
+      "source": "1772de30f0",
+      "target": "87f5e733cf",
+      "weight": 0.598,
       "type": "thematic"
     },
     {
-      "source": "7d4e537f3b",
-      "target": "6f414ca95e",
-      "weight": 0.419,
+      "source": "e25481d37f",
+      "target": "adb60ba37f",
+      "weight": 0.648,
       "type": "thematic"
     },
     {
-      "source": "b75f1ba75d",
-      "target": "f9f6644797",
-      "weight": 0.902,
+      "source": "e25481d37f",
+      "target": "d54928139f",
+      "weight": 0.482,
       "type": "thematic"
     },
     {
-      "source": "b75f1ba75d",
-      "target": "6f414ca95e",
-      "weight": 0.987,
-      "type": "thematic"
-    },
-    {
-      "source": "f9f6644797",
-      "target": "6f414ca95e",
-      "weight": 0.764,
-      "type": "thematic"
-    },
-    {
-      "source": "f9f6644797",
-      "target": "79e81d0427",
-      "weight": 0.058,
+      "source": "adb60ba37f",
+      "target": "7d4e537f3b",
+      "weight": 0.198,
       "type": "thematic"
     }
   ],

@@ -1,11 +1,46 @@
 {
-  "generated_at": "2026-06-23T16:06:34.007852+00:00",
+  "generated_at": "2026-06-23T18:11:05.176512+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
   "edge_count": 3,
   "nodes": [
+    {
+      "id": "0c5163e9ab",
+      "title": "Frankfurt am Main: Polizei schießt am Frankfurter Hauptbahnhof auf Mann",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/23/polizei-schiesst-am-frankfurter-hauptbahnhof-auf-mann",
+          "headline": "Frankfurt am Main: Polizei schießt am Frankfurter Hauptbahnhof auf Mann",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/vermischtes/article6a3aa8b17b0e6c975b0926c1/frankfurter-bahnhofsviertel-polizeischuesse-bei-kontrollaktion.html",
+          "headline": "Polizei schießt bei Drogenkontrolle am Frankfurter Hauptbahnhof auf Mann",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.3,
+        "left": 1,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-23T16:31:12+00:00",
+      "last_seen": "2026-06-23T17:46:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "de",
+      "resonance": 0.6505
+    },
     {
       "id": "2fdb11b86d",
       "title": "Tag der Industrie: Merz will den »Wohlstand für die Jugend«",
@@ -39,52 +74,17 @@
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.6668
+      "resonance": 0.2847
     },
     {
-      "id": "8c692e1ff7",
-      "title": "Fall Ulmen Fernandes: Oberlandesgericht untersagt weitere Teile der Ulmen-Berichterstattung",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-06/christian-ulmen-collien-fernandes-spiegel-oberlandesgericht-entscheidung",
-          "headline": "Fall Ulmen Fernandes: Oberlandesgericht untersagt weitere Teile der Ulmen-Berichterstattung",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/article6a3a89e17b0e6c975b0923ce/fall-fernandes-ulmen-gericht-untersagt-dem-spiegel-weitere-textpassagen-in-ulmen-berichten.html",
-          "headline": "Gericht untersagt dem „Spiegel“ weitere Textpassagen in Ulmen-Berichten",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.3,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-23T14:42:33+00:00",
-      "last_seen": "2026-06-23T15:41:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.608
-    },
-    {
-      "id": "09f32c086b",
-      "title": "Europäische Außenpolitik: EU-Vertreter empfangen Taliban-Delegation in Brüssel",
+      "id": "51632e5cc0",
+      "title": "Afghanistan: EU-Vertreter empfangen Taliban-Delegation in Brüssel",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "Die Zeit",
           "url": "https://www.zeit.de/politik/ausland/2026-06/taliban-delegation-bruessel-eu-gespraeche-rueckfuehrungen-menschenrechte",
-          "headline": "Europäische Außenpolitik: EU-Vertreter empfangen Taliban-Delegation in Brüssel",
+          "headline": "Afghanistan: EU-Vertreter empfangen Taliban-Delegation in Brüssel",
           "platform": "rss"
         },
         {
@@ -102,471 +102,24 @@
         "right": 1
       },
       "first_seen": "2026-06-23T14:42:51+00:00",
-      "last_seen": "2026-06-23T15:53:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.6066
-    },
-    {
-      "id": "5190ee96be",
-      "title": "Putin wirft der Nato Kriegsvorbereitungen gegen Russland vor",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Putin-wirft-Nato-Kriegsvorbereitungen-gegen-Russland-vor-id31003122.html",
-          "headline": "Schrille Töne aus dem Kreml: Putin wirft Nato Kriegsvorbereitungen gegen Russland vor",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/ausland/article6a3a800cbee7c015a23d8600/krieg-in-der-ukraine-putin-wirft-der-nato-kriegsvorbereitungen-gegen-russland-vor.html",
-          "headline": "Putin wirft der Nato Kriegsvorbereitungen gegen Russland vor",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.15,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-06-23T14:09:42+00:00",
-      "last_seen": "2026-06-23T15:54:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.4878
-    },
-    {
-      "id": "5925e32e87",
-      "title": "Russlands Krieg gegen die Ukraine: Wie die Ukraine die Krim von Russland isoliert",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/international/ukraine-ukraine-zerstoert-wohl-wichtige-eisenbahnbruecke-auf-krim/27982126.html",
-          "headline": "+++ Ukraine-Krieg +++: Ukraine zerstört wohl wichtige Eisenbahnbrücke auf Krim",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/politik/russland-ukraine-krim-isolation-angriffe-ferienlager-li.3503612",
-          "headline": "Russlands Krieg gegen die Ukraine: Wie die Ukraine die Krim von Russland isoliert",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.025,
-        "spread": 0.175,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T12:45:14+00:00",
-      "last_seen": "2026-06-23T14:00:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.1772
-    },
-    {
-      "id": "c3856a1a9c",
-      "title": "„Befreiung von der Mafia“: Magyar räumt mit der Brechstange auf",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Befreiung-von-der-Mafia/!6189965/",
-          "headline": "„Befreiung von der Mafia“: Magyar räumt mit der Brechstange auf",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T16:02:00+00:00",
-      "last_seen": "2026-06-23T16:02:00+00:00",
+      "last_seen": "2026-06-23T16:47:02+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1548
+      "resonance": 0.2544
     },
     {
-      "id": "211de45f5b",
-      "title": "Irankrieg: 11.000 Seeleute sollen durch die Straße von Hormus evakuiert werden",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-05/iran-krieg-donald-trump-hormus-live",
-          "headline": "Irankrieg: 11.000 Seeleute sollen durch die Straße von Hormus evakuiert werden",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T16:01:20+00:00",
-      "last_seen": "2026-06-23T16:01:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.1524
-    },
-    {
-      "id": "1e93403846",
-      "title": "Menschenrechtsurteil in Libyen: Folter im Sinne der europäischen Flüchtlingsabwehr",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Menschenrechtsurteil-in-Libyen/!6189963/",
-          "headline": "Menschenrechtsurteil in Libyen: Folter im Sinne der europäischen Flüchtlingsabwehr",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T16:00:00+00:00",
-      "last_seen": "2026-06-23T16:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1476
-    },
-    {
-      "id": "eea1d42ce0",
-      "title": "Lebensmittel: Bauerntag in Freiburg in kritischer Branchenlage",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/23/bauerntag-in-freiburg-in-kritischer-branchenlage",
-          "headline": "Lebensmittel: Bauerntag in Freiburg in kritischer Branchenlage",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:59:43+00:00",
-      "last_seen": "2026-06-23T15:59:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1466
-    },
-    {
-      "id": "91a11e9fa8",
-      "title": "Unfall im Dienst: Polizist stirbt bei Fahrtraining auf dem Hockenheimring",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/23/polizist-stirbt-bei-fahrtraining-auf-dem-hockenheimring",
-          "headline": "Unfall im Dienst: Polizist stirbt bei Fahrtraining auf dem Hockenheimring",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:59:42+00:00",
-      "last_seen": "2026-06-23T15:59:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1465
-    },
-    {
-      "id": "1d83135a26",
-      "title": "Dax aktuell: Dax schließt unter 25.000-Punkte-Marke – Tech-Aktie größter Verlierer",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unter-25.000-punkte-marke-volatile-tech-aktien/100235095.html",
-          "headline": "Dax aktuell: Dax schließt unter 25.000-Punkte-Marke – Tech-Aktie größter Verlierer",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:59:05+00:00",
-      "last_seen": "2026-06-23T15:59:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1443
-    },
-    {
-      "id": "11b2c33073",
-      "title": "Islamistischer Anschlag: Neubaur wegen Aktenherausgabe in der Kritik",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/23/neubaur-wegen-aktenherausgabe-in-der-kritik",
-          "headline": "Islamistischer Anschlag: Neubaur wegen Aktenherausgabe in der Kritik",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:58:11+00:00",
-      "last_seen": "2026-06-23T15:58:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1411
-    },
-    {
-      "id": "1d7299824b",
-      "title": "Schwerer Verkehrsunfall: Fußgänger stirbt nach Unfall in Berlin-Moabit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/23/fussgaenger-stirbt-nach-unfall-in-berlin-moabit",
-          "headline": "Schwerer Verkehrsunfall: Fußgänger stirbt nach Unfall in Berlin-Moabit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:56:10+00:00",
-      "last_seen": "2026-06-23T15:56:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1339
-    },
-    {
-      "id": "8ba4827dd5",
-      "title": "„Faschismus“-Vorwurf des Linken-Chefs: Theaterdonner gegen Pantisano",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Empoerung-ueber-Faschismus-Vorwurf-des-Linken-Chefs-Wovon-die-Union-damit-ablenken-will/!6189956/",
-          "headline": "„Faschismus“-Vorwurf des Linken-Chefs: Theaterdonner gegen Pantisano",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:56:00+00:00",
-      "last_seen": "2026-06-23T15:56:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1333
-    },
-    {
-      "id": "d943298812",
-      "title": "Wetter: Festumzug auf Hussiten Kirschfest in Naumburg abgesagt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/23/festumzug-auf-hussiten-kirschfest-in-naumburg-abgesagt",
-          "headline": "Wetter: Festumzug auf Hussiten Kirschfest in Naumburg abgesagt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:54:04+00:00",
-      "last_seen": "2026-06-23T15:54:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.1264
-    },
-    {
-      "id": "42c93815db",
-      "title": "Fußball-Nationalmannschaft: Erst Regen, dann Sonne: Nagelsmann startet Ecuador-Countdown",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/23/erst-regen-dann-sonne-nagelsmann-startet-ecuador-countdown",
-          "headline": "Fußball-Nationalmannschaft: Erst Regen, dann Sonne: Nagelsmann startet Ecuador-Countdown",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:53:32+00:00",
-      "last_seen": "2026-06-23T15:53:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1245
-    },
-    {
-      "id": "00c89b8745",
-      "title": "Zweite Fußball-Liga: Dynamo verpflichtet Wagner fest und holt zwei Spieler",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/23/dynamo-verpflichtet-wagner-fest-straudi-kommt-aus-cottbus",
-          "headline": "Zweite Fußball-Liga: Dynamo verpflichtet Wagner fest und holt zwei Spieler",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:52:33+00:00",
-      "last_seen": "2026-06-23T15:52:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.121
-    },
-    {
-      "id": "09a0ff6155",
-      "title": "Alternativen von Sony & Co.: Sind die Airpods Max 2 besser als andere Top-Kopfhörer?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/technik/Sind-die-Airpods-Max-2-besser-als-andere-Top-Kopfhoerer-id31001506.html",
-          "headline": "Alternativen von Sony & Co.: Sind die Airpods Max 2 besser als andere Top-Kopfhörer?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:51:07+00:00",
-      "last_seen": "2026-06-23T15:51:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1159
-    },
-    {
-      "id": "853e44be63",
-      "title": "Fußball-WM 2026: Wer Felix Nmecha zusieht, der erkennt, was Deutschland kann und was nicht",
+      "id": "e80b21b1d1",
+      "title": "Korsika: Eine autonome Insel? Frankreichs Unterhaus billigt Pläne",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/fussball-wm-2026-wer-felix-nmecha-zusieht-der-erkennt-was-deutschland-kann-und-was-nicht-a-9bbd0a33-f8bb-49bf-8e3f-3ab6d5ddb22f#ref=rss",
-          "headline": "Fußball-WM 2026: Wer Felix Nmecha zusieht, der erkennt, was Deutschland kann und was nicht",
+          "url": "https://www.spiegel.de/ausland/korsika-eine-autonome-insel-frankreichs-unterhaus-billigt-plaene-a-407ce69d-0746-403f-9416-0b9bbe0b5fae#ref=rss",
+          "headline": "Korsika: Eine autonome Insel? Frankreichs Unterhaus billigt Pläne",
           "platform": "rss"
         }
       ],
@@ -577,112 +130,228 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-23T15:51:00+00:00",
-      "last_seen": "2026-06-23T15:51:00+00:00",
+      "first_seen": "2026-06-23T18:06:00+00:00",
+      "last_seen": "2026-06-23T18:06:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
+      "topic": "world",
       "language": "de",
-      "resonance": 0.1155
+      "resonance": 0.2272
     },
     {
-      "id": "342de0ce67",
-      "title": "Sachsen-Anhalt: Bürgerarbeit soll Einstieg in reguläre Jobs erleichtern",
+      "id": "84d7e5bdb4",
+      "title": "Völkermordvorwurf gegen Israel: UN: Israel nahm gezielt Kinder im Gazastreifen ins Visier",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/23/buergerarbeit-soll-einstieg-in-regulaere-jobs-erleichtern",
-          "headline": "Sachsen-Anhalt: Bürgerarbeit soll Einstieg in reguläre Jobs erleichtern",
+          "outlet": "taz",
+          "url": "https://taz.de/Voelkermordvorwurf-gegen-Israel/!6190189/",
+          "headline": "Völkermordvorwurf gegen Israel: UN: Israel nahm gezielt Kinder im Gazastreifen ins Visier",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
+        "mean": -0.55,
         "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-23T15:50:51+00:00",
-      "last_seen": "2026-06-23T15:50:51+00:00",
+      "first_seen": "2026-06-23T18:06:00+00:00",
+      "last_seen": "2026-06-23T18:06:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "tech",
       "language": "de",
-      "resonance": 0.115
+      "resonance": 0.2272
     },
     {
-      "id": "afdf683ab5",
-      "title": "„Dunja Hayali Lügen oder Antisemitismus vorzuwerfen, ist absolut nicht in Ordnung“",
+      "id": "6de10222c9",
+      "title": "Belgiens Babyproblem: Kein echter Mann",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/videos/video6a3a9609e880869d9f53417d/kritik-an-israel-bericht-im-zdf-dunja-hayali-luegen-oder-antisemitismus-vorzuwerfen-ist-absolut-nicht-in-ordnung.html",
-          "headline": "„Dunja Hayali Lügen oder Antisemitismus vorzuwerfen, ist absolut nicht in Ordnung“",
+          "outlet": "taz",
+          "url": "https://taz.de/Belgiens-Babyproblem/!6189929/",
+          "headline": "Belgiens Babyproblem: Kein echter Mann",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.3,
+        "mean": -0.55,
         "spread": 0.0,
-        "left": 0,
+        "left": 1,
         "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-23T15:49:24+00:00",
-      "last_seen": "2026-06-23T15:49:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1099
-    },
-    {
-      "id": "2b82327940",
-      "title": "Rentenreform soll kommen - echt!: Junge legen den Alten den Ball auf den Elfmeterpunkt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Junge-legen-den-Alten-den-Ball-auf-den-Elfmeterpunkt-id31002964.html",
-          "headline": "Rentenreform soll kommen - echt!: Junge legen den Alten den Ball auf den Elfmeterpunkt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-23T15:48:39+00:00",
-      "last_seen": "2026-06-23T15:48:39+00:00",
+      "first_seen": "2026-06-23T17:59:00+00:00",
+      "last_seen": "2026-06-23T17:59:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1073
+      "resonance": 0.1998
     },
     {
-      "id": "9c75fb3827",
-      "title": "Null-Toleranz-Kurs: Frankreichs Minister müssen jetzt zum Drogentest",
+      "id": "a4436468e3",
+      "title": "Sci-Fi-Film „Resurrection“: China sehen … und sterben?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Sci-Fi-Film-Resurrection-von-Bi-Gan-Cannes-Gewinner-der-das-Kino-selbst-aufs-Podest-hebt/!6189845/",
+          "headline": "Sci-Fi-Film „Resurrection“: China sehen … und sterben?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.55,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:58:00+00:00",
+      "last_seen": "2026-06-23T17:58:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1959
+    },
+    {
+      "id": "c24afb5cba",
+      "title": "Beraterin über Rassismus unter Migranten: „Das ist ein blinder Fleck“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Beraterin-ueber-Rassismus-unter-Migranten/!6184209/",
+          "headline": "Beraterin über Rassismus unter Migranten: „Das ist ein blinder Fleck“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.55,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:57:00+00:00",
+      "last_seen": "2026-06-23T17:57:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.192
+    },
+    {
+      "id": "27f4c0048c",
+      "title": "Umgang mit der Naturkrise: Der Umweltminister groovt mit dem Zeitgeist",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Umgang-mit-der-Naturkrise/!6189954/",
+          "headline": "Umgang mit der Naturkrise: Der Umweltminister groovt mit dem Zeitgeist",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.55,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:56:00+00:00",
+      "last_seen": "2026-06-23T17:56:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.1882
+    },
+    {
+      "id": "a317083e67",
+      "title": "Linke zu Rentenplänen: „Die Leute arbeiten jetzt schon zu lange“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Rentenpolitische-Sprecherin-der-Linkspartei-Die-Leute-arbeiten-jetzt-schon-zu-lange/!6190022/",
+          "headline": "Linke zu Rentenplänen: „Die Leute arbeiten jetzt schon zu lange“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.55,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:55:00+00:00",
+      "last_seen": "2026-06-23T17:55:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1843
+    },
+    {
+      "id": "17d8aa2aa5",
+      "title": "Rekordhitze in Italien: Der Fluch der Klimaanlage",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Rekordhitze-in-Italien/!6190101/",
+          "headline": "Rekordhitze in Italien: Der Fluch der Klimaanlage",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.55,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:55:00+00:00",
+      "last_seen": "2026-06-23T17:55:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "de",
+      "resonance": 0.1843
+    },
+    {
+      "id": "add2ed67ca",
+      "title": "Michelin-Sterne 2026: Höchste Weihen für Daniel Schimkowtisch",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/ausland/frankreich-sebastien-lecornu-ordnet-drogentests-an-200957801.html",
-          "headline": "Null-Toleranz-Kurs: Frankreichs Minister müssen jetzt zum Drogentest",
+          "url": "https://www.faz.net/aktuell/gesellschaft/guide-michelin-2026-die-neuen-sterne-fuer-deutschland-200943689.html",
+          "headline": "Michelin-Sterne 2026: Höchste Weihen für Daniel Schimkowtisch",
           "platform": "rss"
         }
       ],
@@ -693,141 +362,54 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-23T15:46:30+00:00",
-      "last_seen": "2026-06-23T15:46:30+00:00",
+      "first_seen": "2026-06-23T17:53:20+00:00",
+      "last_seen": "2026-06-23T17:53:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1779
+    },
+    {
+      "id": "ad999ef969",
+      "title": "Islamistischer Anschlag: Ausschuss-Chef rügt Regierung: «Schleppende Aktenherausgabe»",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/23/ausschuss-chef-ruegt-regierung-schleppende-aktenherausgabe",
+          "headline": "Islamistischer Anschlag: Ausschuss-Chef rügt Regierung: «Schleppende Aktenherausgabe»",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:50:10+00:00",
+      "last_seen": "2026-06-23T17:50:10+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.0997
+      "resonance": 0.1658
     },
     {
-      "id": "55738820a3",
-      "title": "Altersversorgung: Loblieder mit Zwischentönen – Woran die Rentenreform jetzt noch scheitern könnte",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/altersversorgung-woran-die-rentenreform-trotz-aller-lobeshymnen-scheitern-koennte/100235247.html",
-          "headline": "Altersversorgung: Loblieder mit Zwischentönen – Woran die Rentenreform jetzt noch scheitern könnte",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:46:29+00:00",
-      "last_seen": "2026-06-23T15:46:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0997
-    },
-    {
-      "id": "a329f10aa4",
-      "title": "Ebola: Ebola breitet sich im Kongo ungewöhnlich schnell aus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/gesundheit/2026-06/ebola-ausbruch-kongo-bundibugyo-virus-bunia-mongbwalu",
-          "headline": "Ebola: Ebola breitet sich im Kongo ungewöhnlich schnell aus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:38:58+00:00",
-      "last_seen": "2026-06-23T15:38:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0737
-    },
-    {
-      "id": "b3b5b87b00",
-      "title": "Finanzierung von Öl und Gas: Fossile Investitionen bis ins nächste Jahrhundert",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Vermoegensverwalter-und-Staatsfonds-Fossile-Investments-bis-ins-naechste-Jahrhundert/!6189940/",
-          "headline": "Finanzierung von Öl und Gas: Fossile Investitionen bis ins nächste Jahrhundert",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:37:00+00:00",
-      "last_seen": "2026-06-23T15:37:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
-      "resonance": 0.067
-    },
-    {
-      "id": "8edf16a2fb",
-      "title": "Therme: »Ich möchte überhaupt nicht genauer wissen, was unter Wasser passiert«",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/zeit-magazin/leben/2026-06/arbeit-therme-mitarbeiter-sauna-spa-kunden",
-          "headline": "Therme: »Ich möchte überhaupt nicht genauer wissen, was unter Wasser passiert«",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-23T15:35:50+00:00",
-      "last_seen": "2026-06-23T15:35:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.063
-    },
-    {
-      "id": "4314ce6db4",
-      "title": "„Dann kämen die Leute nicht um acht Uhr, sondern um halb sieben, weil sie das Geld brauchen“",
+      "id": "08e2c75769",
+      "title": "„Man sollte die Drohungen schon ernst nehmen“",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/videos/video6a3a943984d1ec4a45f9a1c3/teilnahme-an-integrationskursen-dann-kaemen-die-leute-nicht-um-acht-uhr-sondern-um-halb-sieben-weil-sie-das-geld-brauchen.html",
-          "headline": "„Dann kämen die Leute nicht um acht Uhr, sondern um halb sieben, weil sie das Geld brauchen“",
+          "url": "https://www.welt.de/videos/video6a3ab7cfbee7c015a23d8a7e/krieg-in-der-ukraine-man-sollte-die-drohungen-schon-ernst-nehmen.html",
+          "headline": "„Man sollte die Drohungen schon ernst nehmen“",
           "platform": "rss"
         }
       ],
@@ -838,25 +420,402 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-06-23T15:32:41+00:00",
-      "last_seen": "2026-06-23T15:32:41+00:00",
+      "first_seen": "2026-06-23T17:48:09+00:00",
+      "last_seen": "2026-06-23T17:48:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0523
+      "resonance": 0.1581
     },
     {
-      "id": "18524f7024",
-      "title": "Tourismus: Mehr als zwei Stunden Wartezeit: Das neue EU-Einreisesystem sorgt für Chaos",
+      "id": "7898c0c2d1",
+      "title": "WM 2026 Live: Portugal gegen Usbekistan im Liveticker",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/fussball/wm-2026-live-portugal-gegen-usbekistan-im-liveticker-a-112a8112-0048-44de-968c-b8611617fd7e#ref=rss",
+          "headline": "WM 2026 Live: Portugal gegen Usbekistan im Liveticker",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:42:00+00:00",
+      "last_seen": "2026-06-23T17:42:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.135
+    },
+    {
+      "id": "02770e8a7b",
+      "title": "Infantino wehrt sich gegen die Kritik an den Trinkpausen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/article6a16c606bd0d0e58e09d9530/fussball-wm-2026-paraguays-torschuetze-spielte-mit-der-uhr-des-schiedsrichters-am-arm.html",
+          "headline": "Infantino wehrt sich gegen die Kritik an den Trinkpausen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-23T17:42:00+00:00",
+      "last_seen": "2026-06-23T17:42:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.135
+    },
+    {
+      "id": "00fef090d2",
+      "title": "Tore bei sechs Turnieren: Besser als Messi: Ronaldo sichert sich alleinigen WM-Rekord",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball-wm/Besser-als-Messi-Ronaldo-sichert-sich-alleinigen-WM-Rekord-id31003819.html",
+          "headline": "Tore bei sechs Turnieren: Besser als Messi: Ronaldo sichert sich alleinigen WM-Rekord",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:41:00+00:00",
+      "last_seen": "2026-06-23T17:41:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1312
+    },
+    {
+      "id": "540623e2c7",
+      "title": "Fahndung ohne Erfolg: Mann soll Schüler in Zug ins Gesicht gespuckt haben",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/23/mann-soll-schueler-in-zug-ins-gesicht-gepuckt-haben",
+          "headline": "Fahndung ohne Erfolg: Mann soll Schüler in Zug ins Gesicht gespuckt haben",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:40:03+00:00",
+      "last_seen": "2026-06-23T17:40:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1277
+    },
+    {
+      "id": "965f73863e",
+      "title": "Hassliebe: Wenn der Sommer ein Liebhaber wäre",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/rhein-main/kultur/warum-der-sommer-nervt-stereotype-ueber-sommerliebhaber-200874757.html",
+          "headline": "Hassliebe: Wenn der Sommer ein Liebhaber wäre",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:38:53+00:00",
+      "last_seen": "2026-06-23T17:38:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1234
+    },
+    {
+      "id": "0ecbc77b58",
+      "title": "Kinderlose Frauen: Was schuldet eine kinderlose Frau der Gesellschaft?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/familie/2026-06/kinderlose-frauen-erklaerung-freiheit-mutterschaft",
+          "headline": "Kinderlose Frauen: Was schuldet eine kinderlose Frau der Gesellschaft?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:38:35+00:00",
+      "last_seen": "2026-06-23T17:38:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.1223
+    },
+    {
+      "id": "5506f70431",
+      "title": "Mit zwei Minuten Verspätung setzt Ronaldo zum „Siuuuu“-Jubel an",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/article6a3abd81bee7c015a23d8ab5/tor-gegen-usbekistan-mit-zwei-minuten-verspaetung-setzt-ronaldo-zum-siuuuu-jubel-an.html",
+          "headline": "Mit zwei Minuten Verspätung setzt Ronaldo zum „Siuuuu“-Jubel an",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-23T17:38:28+00:00",
+      "last_seen": "2026-06-23T17:38:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1218
+    },
+    {
+      "id": "f278f2fbdf",
+      "title": "Vier neue Zwänge: Ist die Reform des Wohlfahrtsstaats wirklich so drängend?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Ist-die-Reform-des-Wohlfahrtsstaats-wirklich-so-draengend-id31003399.html",
+          "headline": "Vier neue Zwänge: Ist die Reform des Wohlfahrtsstaats wirklich so drängend?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:36:40+00:00",
+      "last_seen": "2026-06-23T17:36:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1152
+    },
+    {
+      "id": "686c0391be",
+      "title": "Neue \"Angreifer\"-Mentalität: Premium-Autobauer dürften Tausende Jobs streichen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/wirtschaft/Premium-Autobauer-duerften-Tausende-Jobs-streichen-id31002993.html",
+          "headline": "Neue \"Angreifer\"-Mentalität: Premium-Autobauer dürften Tausende Jobs streichen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:34:59+00:00",
+      "last_seen": "2026-06-23T17:34:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.109
+    },
+    {
+      "id": "f89e8453fc",
+      "title": "Unfälle: 18-Jähriger stirbt bei Badeunfall in Höxter",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/23/18-jaehriger-stirbt-bei-badeunfall-in-hoexter",
+          "headline": "Unfälle: 18-Jähriger stirbt bei Badeunfall in Höxter",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:31:04+00:00",
+      "last_seen": "2026-06-23T17:31:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0946
+    },
+    {
+      "id": "dcef5e4a79",
+      "title": "Fußball-WM 2026: Ronaldo trifft und stellt WM-Rekord auf",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/sport/2026-05/fussball-wm-2026-liveblog",
+          "headline": "Fußball-WM 2026: Ronaldo trifft und stellt WM-Rekord auf",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:30:51+00:00",
+      "last_seen": "2026-06-23T17:30:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.0938
+    },
+    {
+      "id": "f7c1dc6257",
+      "title": "Demokratisches Engagement: Johannes-Stelling-Preis für Schweriner Schule",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/23/johannes-stelling-preis-fuer-schweriner-schule",
+          "headline": "Demokratisches Engagement: Johannes-Stelling-Preis für Schweriner Schule",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:30:07+00:00",
+      "last_seen": "2026-06-23T17:30:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0912
+    },
+    {
+      "id": "5f10fdf094",
+      "title": "2. Bundesliga: Darmstadt holt belgischen U21-Nationalspieler",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/23/darmstadt-holt-belgischen-u21-nationalspieler",
+          "headline": "2. Bundesliga: Darmstadt holt belgischen U21-Nationalspieler",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-23T17:25:59+00:00",
+      "last_seen": "2026-06-23T17:25:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.0762
+    },
+    {
+      "id": "e9812f0f22",
+      "title": "Top 500: Amerikas „Big Six“ verdienen so viel wie die 500 größten Konzerne in Europa",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/unternehmen/dienstleister/tourismus-das-neue-eu-einreisesystem-verursacht-chaos/100233143.html",
-          "headline": "Tourismus: Mehr als zwei Stunden Wartezeit: Das neue EU-Einreisesystem sorgt für Chaos",
+          "url": "https://www.handelsblatt.com/unternehmen/industrie/unternehmen-big-six-der-usa-verdienen-so-viel-wie-europas-500-groesste-konzerne/100231652.html",
+          "headline": "Top 500: Amerikas „Big Six“ verdienen so viel wie die 500 größten Konzerne in Europa",
           "platform": "rss"
         }
       ],
@@ -867,37 +826,66 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-23T15:32:40+00:00",
-      "last_seen": "2026-06-23T15:32:40+00:00",
+      "first_seen": "2026-06-23T17:23:16+00:00",
+      "last_seen": "2026-06-23T17:23:16+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0523
+      "resonance": 0.0665
     },
     {
-      "id": "4f714ead40",
-      "title": "Rentenpläne der Regierung: Ein Kunstwerk mit leeren Stellen",
+      "id": "c2b5d7aeca",
+      "title": "Börse: US-Aktien sind überbewertet, haben aber im Vergleich zu Europa einen Vorteil",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "taz",
-          "url": "https://taz.de/Rentenplaene-der-Regierung/!6190021/",
-          "headline": "Rentenpläne der Regierung: Ein Kunstwerk mit leeren Stellen",
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/finanzen/maerkte/aktien/boerse-us-aktien-sind-ueberbewertet-haben-aber-einen-vorteil/100233365.html",
+          "headline": "Börse: US-Aktien sind überbewertet, haben aber im Vergleich zu Europa einen Vorteil",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.55,
+        "mean": 0.15,
         "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-23T15:32:00+00:00",
-      "last_seen": "2026-06-23T15:32:00+00:00",
+      "first_seen": "2026-06-23T17:19:44+00:00",
+      "last_seen": "2026-06-23T17:19:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.0539
+    },
+    {
+      "id": "1e6c3edbc8",
+      "title": "„Mich regt es auf, dass die Politik nullkommanull vorhat, etwas dagegen zu machen“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/videos/video6a3ab3d284d1ec4a45f9a46f/drogenhandel-in-grossstaedten-mich-regt-es-auf-dass-die-politik-nullkommanull-vorhat-etwas-dagegen-zu-machen.html",
+          "headline": "„Mich regt es auf, dass die Politik nullkommanull vorhat, etwas dagegen zu machen“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-23T17:18:38+00:00",
+      "last_seen": "2026-06-23T17:18:38+00:00",
       "platforms": [
         "rss"
       ],
@@ -909,21 +897,21 @@
   ],
   "edges": [
     {
-      "source": "5190ee96be",
-      "target": "5925e32e87",
-      "weight": 0.179,
+      "source": "84d7e5bdb4",
+      "target": "7898c0c2d1",
+      "weight": 0.008,
       "type": "thematic"
     },
     {
-      "source": "91a11e9fa8",
-      "target": "1d7299824b",
-      "weight": 0.375,
+      "source": "7898c0c2d1",
+      "target": "dcef5e4a79",
+      "weight": 0.464,
       "type": "thematic"
     },
     {
-      "source": "853e44be63",
-      "target": "8edf16a2fb",
-      "weight": 0.262,
+      "source": "00fef090d2",
+      "target": "dcef5e4a79",
+      "weight": 0.61,
       "type": "thematic"
     }
   ],

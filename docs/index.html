@@ -145,7 +145,16 @@ svg#graph{width:100%;height:100%;overflow:visible}
 #globe-tip-title{font-size:12px;color:var(--text);margin-bottom:3px;font-weight:600}
 #globe-tip-res{font-family:'DM Mono',monospace;font-size:10px;color:var(--accent)}
 
-/* ── LOADING ── */
+/* ── COUNTRY SELECTOR ── */
+#country-bar{position:fixed;top:56px;left:0;right:0;z-index:190;display:flex;justify-content:center;padding:6px 16px;pointer-events:none;transition:opacity 0.3s}
+#country-wrap{display:flex;align-items:center;gap:8px;background:rgba(9,12,18,0.92);border:1px solid var(--border);border-radius:30px;padding:5px 8px 5px 12px;pointer-events:all;backdrop-filter:blur(12px)}
+#country-label{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+#country-select{background:none;border:none;color:var(--accent);font-family:'DM Mono',monospace;font-size:10px;cursor:pointer;outline:none;padding:0 20px 0 6px;appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%234af4c2' opacity='.6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 2px center}
+#country-select option{background:#09120a;color:var(--text)}
+#country-back{background:none;border:1px solid rgba(74,244,194,0.3);color:var(--accent);font-family:'DM Mono',monospace;font-size:9px;padding:4px 10px;border-radius:20px;cursor:pointer;display:none;-webkit-tap-highlight-color:transparent}
+#country-back.show{display:block}
+#country-name{font-family:'Syne',sans-serif;font-size:10px;font-weight:700;color:var(--accent);display:none}
+#country-name.show{display:block}
 #loading{position:fixed;inset:0;z-index:1000;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;transition:opacity 0.6s}
 #loading.gone{opacity:0;pointer-events:none}
 #lbrand{font-size:13px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;color:var(--text)}
@@ -270,7 +279,28 @@ svg#graph{width:100%;height:100%;overflow:visible}
   </div>
 </div>
 
-<!-- FIELD VIEW -->
+<!-- COUNTRY SELECTOR -->
+<div id="country-bar">
+  <div id="country-wrap">
+    <span id="country-label">edition</span>
+    <select id="country-select" onchange="selectCountry(this.value)">
+      <option value="">🌍 Global</option>
+      <option value="gb">🇬🇧 United Kingdom</option>
+      <option value="es">🇪🇸 España</option>
+      <option value="fr">🇫🇷 France</option>
+      <option value="de">🇩🇪 Deutschland</option>
+      <option value="it">🇮🇹 Italia</option>
+      <option value="br">🇧🇷 Brasil</option>
+      <option value="jp">🇯🇵 日本</option>
+      <option value="in">🇮🇳 India</option>
+      <option value="au">🇦🇺 Australia</option>
+    </select>
+    <span id="country-name"></span>
+    <button id="country-back" onclick="selectCountry('')">← global</button>
+  </div>
+</div>
+
+
 <div id="field-layer">
   <svg id="graph"><g id="el"></g><g id="hl"></g><g id="ll2"></g></svg>
 </div>
@@ -397,6 +427,7 @@ const REGION_COORDS = {
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let nodes=[], edges=[], fnodes=[], fedges=[];
 let sourcesStatus={};
+let currentCountry=''; // '' = global, 'gb'/'es'/etc = national
 let pos={}, vel={}, W, H, DPR=1;
 const ALPHA_START=1.0,ALPHA_MIN=0.003,ALPHA_DECAY=0.014,ALPHA_REHEAT=0.26,DAMPING=0.72;
 let alpha=ALPHA_START, af=null, selId=null, hovId=null, _lastGen=null;
@@ -773,42 +804,71 @@ function initGlobe(){
   });
   globeGroup.add(new THREE.Mesh(atmGeo,atmMat));
 
-  // Place nodes — all added to globeGroup so they rotate with the earth
+  // Place nodes — two modes:
+  // 1. Global (no country): show country markers, each tappable to enter national field
+  // 2. National (country selected): show event nodes as before
   globeNodes=[];
-  fnodes.forEach(n=>{
-    const[lat,lng]=nodeLatLng(n);
-    const res=n.resonance||0;
-    const nodeR=0.018+res*0.052;
-    const col=res>0.6?0x4af4c2:res>0.32?0xb09dfc:0x88a0b8;
 
-    const nMesh=new THREE.Mesh(
-      new THREE.SphereGeometry(nodeR,12,12),
-      new THREE.MeshPhongMaterial({color:col,emissive:col,emissiveIntensity:0.5,shininess:60})
-    );
-    nMesh.position.copy(latLngToVec3(lat,lng,GLOBE_R*1.014));
-    globeGroup.add(nMesh);  // ← child of group
+  if(!currentCountry){
+    // GLOBE NAVIGATION MODE — one marker per supported country
+    Object.entries(COUNTRY_MARKERS).forEach(([cc,m])=>{
+      const nodeR=0.038;
+      const nMesh=new THREE.Mesh(
+        new THREE.SphereGeometry(nodeR,14,14),
+        new THREE.MeshPhongMaterial({color:0x4af4c2,emissive:0x4af4c2,emissiveIntensity:0.6,shininess:80})
+      );
+      nMesh.position.copy(latLngToVec3(m.lat,m.lng,GLOBE_R*1.016));
+      globeGroup.add(nMesh);
 
-    // Glow halo
-    if(res>0.35){
+      // Pulse halo ring
       const halo=new THREE.Mesh(
-        new THREE.SphereGeometry(nodeR*2.4,8,8),
-        new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:0.14})
+        new THREE.SphereGeometry(nodeR*2.2,8,8),
+        new THREE.MeshBasicMaterial({color:0x4af4c2,transparent:true,opacity:0.12})
       );
       halo.position.copy(nMesh.position);
-      globeGroup.add(halo);  // ← child of group
-    }
+      globeGroup.add(halo);
 
-    // Spike/pin pointing outward from surface for visibility
-    const spike=new THREE.Mesh(
-      new THREE.CylinderGeometry(nodeR*0.3,nodeR*0.3,nodeR*3,6),
-      new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:0.5})
-    );
-    spike.position.copy(nMesh.position);
-    spike.lookAt(0,0,0); spike.rotateX(Math.PI/2);
-    globeGroup.add(spike);
+      // Store as a synthetic "node" with cc as id so tap handler can call selectCountry
+      globeNodes.push({
+        node:{id:cc,title:m.name,_isCountryMarker:true,_cc:cc,resonance:0.7},
+        mesh:nMesh,lat:m.lat,lng:m.lng
+      });
+    });
+  } else {
+    // NATIONAL EVENT MODE — show events from loaded national data
+    fnodes.forEach(n=>{
+      const[lat,lng]=nodeLatLng(n);
+      const res=n.resonance||0;
+      const nodeR=0.018+res*0.052;
+      const col=res>0.6?0x4af4c2:res>0.32?0xb09dfc:0x88a0b8;
 
-    globeNodes.push({node:n,mesh:nMesh,lat,lng});
-  });
+      const nMesh=new THREE.Mesh(
+        new THREE.SphereGeometry(nodeR,12,12),
+        new THREE.MeshPhongMaterial({color:col,emissive:col,emissiveIntensity:0.5,shininess:60})
+      );
+      nMesh.position.copy(latLngToVec3(lat,lng,GLOBE_R*1.014));
+      globeGroup.add(nMesh);
+
+      if(res>0.35){
+        const halo=new THREE.Mesh(
+          new THREE.SphereGeometry(nodeR*2.4,8,8),
+          new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:0.14})
+        );
+        halo.position.copy(nMesh.position);
+        globeGroup.add(halo);
+      }
+
+      const spike=new THREE.Mesh(
+        new THREE.CylinderGeometry(nodeR*0.3,nodeR*0.3,nodeR*3,6),
+        new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:0.5})
+      );
+      spike.position.copy(nMesh.position);
+      spike.lookAt(0,0,0); spike.rotateX(Math.PI/2);
+      globeGroup.add(spike);
+
+      globeNodes.push({node:n,mesh:nMesh,lat,lng});
+    });
+  }
 
   setupGlobeInteraction(canvas);
   animateGlobe();
@@ -896,7 +956,14 @@ function handleGlobeTap(cx,cy){
   if(hits.length>0){
     const hitMesh=hits[0].object;
     const gn=globeNodes.find(g=>g.mesh===hitMesh);
-    if(gn)selectNode(gn.node);
+    if(gn){
+      if(gn.node._isCountryMarker){
+        // Country marker tapped — load national field
+        selectCountry(gn.node._cc);
+      } else {
+        selectNode(gn.node);
+      }
+    }
   } else {
     closePanel();
     document.getElementById('globe-tip').classList.remove('on');
@@ -912,6 +979,73 @@ function destroyGlobe(){
 }
 
 // ── VIEW TOGGLE ───────────────────────────────────────────────────────────────
+// Country marker positions for globe navigation view
+const COUNTRY_MARKERS = {
+  gb: {lat:54,  lng:-2,   flag:'🇬🇧', name:'United Kingdom'},
+  es: {lat:40,  lng:-3.5, flag:'🇪🇸', name:'España'},
+  fr: {lat:46,  lng:2,    flag:'🇫🇷', name:'France'},
+  de: {lat:51,  lng:10,   flag:'🇩🇪', name:'Deutschland'},
+  it: {lat:42,  lng:12,   flag:'🇮🇹', name:'Italia'},
+  br: {lat:-14, lng:-51,  flag:'🇧🇷', name:'Brasil'},
+  jp: {lat:36,  lng:138,  flag:'🇯🇵', name:'日本'},
+  in: {lat:21,  lng:78,   flag:'🇮🇳', name:'India'},
+  au: {lat:-25, lng:133,  flag:'🇦🇺', name:'Australia'},
+};
+
+async function selectCountry(cc){
+  currentCountry=cc;
+  closePanel();
+
+  // Update selector UI
+  document.getElementById('country-select').value=cc;
+  const nameEl=document.getElementById('country-name');
+  const backEl=document.getElementById('country-back');
+  if(cc){
+    const m=COUNTRY_MARKERS[cc];
+    nameEl.textContent=m?`${m.flag} ${m.name}`:'';
+    nameEl.classList.add('show');
+    backEl.classList.add('show');
+    document.getElementById('country-label').style.display='none';
+    document.getElementById('country-select').style.display='none';
+  } else {
+    nameEl.classList.remove('show');
+    backEl.classList.remove('show');
+    document.getElementById('country-label').style.display='';
+    document.getElementById('country-select').style.display='';
+  }
+
+  // Load appropriate data
+  try{
+    const url=cc?`data/${cc}.json`:'data.json';
+    const r=await fetch(url+'?t='+Date.now());
+    if(!r.ok) throw new Error(`${r.status}`);
+    const d=await r.json();
+    nodes=d.nodes||[];edges=d.edges||[];
+    sourcesStatus=d.sources_status||{};
+    _lastGen=d.generated_at;
+    const ago=Math.round((Date.now()-new Date(d.generated_at))/60000);
+    const label=cc?`${COUNTRY_MARKERS[cc]?.flag||''} ${nodes.length} events`:`${nodes.length} events`;
+    document.getElementById('ltext').textContent=`${label} · ${ago<2?'just now':ago+'m ago'}`;
+  }catch(e){
+    console.warn('Country data load failed:',e);
+    document.getElementById('ltext').textContent=cc?`${cc} · no data yet`:'global';
+    nodes=[];edges=[];
+  }
+
+  // Reset filter to 'all' for national, restore for global
+  document.querySelectorAll('.fb').forEach(b=>b.classList.remove('on'));
+  const defaultF=(!cc&&window.innerWidth<600)?'top':'all';
+  document.querySelector(`.fb[data-f="${defaultF}"]`)?.classList.add('on');
+
+  // Re-render current view
+  if(viewMode==='globe'){
+    destroyGlobe();
+    setTimeout(()=>initGlobe(),32);
+  } else {
+    applyFilter(defaultF);
+  }
+}
+
 function toggleGlobe(){
   if(viewMode==='field'){
     viewMode='globe';
@@ -1223,7 +1357,8 @@ async function boot(){
 
   setInterval(async()=>{
     try{
-      const r=await fetch('data.json?t='+Date.now());
+      const url=currentCountry?`data/${currentCountry}.json`:'data.json';
+      const r=await fetch(url+'?t='+Date.now());
       if(!r.ok)return;
       const d=await r.json();
       if(d.generated_at===_lastGen)return;

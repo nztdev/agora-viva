@@ -810,25 +810,42 @@ function initGlobe(){
   globeNodes=[];
 
   if(!currentCountry){
-    // GLOBE NAVIGATION MODE — one marker per supported country
+    // GLOBE NAVIGATION MODE — one marker per supported country with flag texture
     Object.entries(COUNTRY_MARKERS).forEach(([cc,m])=>{
-      const nodeR=0.038;
+      // Draw flag emoji onto a canvas → Three.js texture
+      const size=128;
+      const fc=document.createElement('canvas');
+      fc.width=size; fc.height=size;
+      const fx=fc.getContext('2d');
+      // Background circle
+      fx.fillStyle='rgba(9,18,14,0.85)';
+      fx.beginPath(); fx.arc(size/2,size/2,size/2,0,Math.PI*2); fx.fill();
+      // Accent border
+      fx.strokeStyle='rgba(74,244,194,0.7)';
+      fx.lineWidth=6;
+      fx.beginPath(); fx.arc(size/2,size/2,size/2-3,0,Math.PI*2); fx.stroke();
+      // Flag emoji
+      fx.font=`${size*0.52}px serif`;
+      fx.textAlign='center'; fx.textBaseline='middle';
+      fx.fillText(m.flag, size/2, size/2+2);
+
+      const tex=new THREE.CanvasTexture(fc);
+      const nodeR=0.055;
       const nMesh=new THREE.Mesh(
-        new THREE.SphereGeometry(nodeR,14,14),
-        new THREE.MeshPhongMaterial({color:0x4af4c2,emissive:0x4af4c2,emissiveIntensity:0.6,shininess:80})
+        new THREE.SphereGeometry(nodeR,20,20),
+        new THREE.MeshBasicMaterial({map:tex,transparent:true})
       );
-      nMesh.position.copy(latLngToVec3(m.lat,m.lng,GLOBE_R*1.016));
+      nMesh.position.copy(latLngToVec3(m.lat,m.lng,GLOBE_R*1.018));
       globeGroup.add(nMesh);
 
-      // Pulse halo ring
+      // Pulse halo
       const halo=new THREE.Mesh(
-        new THREE.SphereGeometry(nodeR*2.2,8,8),
-        new THREE.MeshBasicMaterial({color:0x4af4c2,transparent:true,opacity:0.12})
+        new THREE.SphereGeometry(nodeR*1.8,8,8),
+        new THREE.MeshBasicMaterial({color:0x4af4c2,transparent:true,opacity:0.10})
       );
       halo.position.copy(nMesh.position);
       globeGroup.add(halo);
 
-      // Store as a synthetic "node" with cc as id so tap handler can call selectCountry
       globeNodes.push({
         node:{id:cc,title:m.name,_isCountryMarker:true,_cc:cc,resonance:0.7},
         mesh:nMesh,lat:m.lat,lng:m.lng
@@ -1032,18 +1049,24 @@ async function selectCountry(cc){
     nodes=[];edges=[];
   }
 
-  // Reset filter to 'all' for national, restore for global
-  document.querySelectorAll('.fb').forEach(b=>b.classList.remove('on'));
-  const defaultF=(!cc&&window.innerWidth<600)?'top':'all';
-  document.querySelector(`.fb[data-f="${defaultF}"]`)?.classList.add('on');
-
-  // Re-render current view
+  // Re-render — always switch to field view when entering a national edition
+  // (globe is navigation only; once you tap a country you land in the field)
   if(viewMode==='globe'){
+    // Switch to field first, then render with new data already loaded
+    viewMode='field';
+    document.getElementById('globe-btn').classList.remove('on');
+    if(globeAf){cancelAnimationFrame(globeAf);globeAf=null;}
     destroyGlobe();
-    setTimeout(()=>initGlobe(),32);
-  } else {
-    applyFilter(defaultF);
+    document.getElementById('globe-layer').style.display='none';
+    document.getElementById('field-layer').style.display='block';
+    document.getElementById('node-canvas').style.display='block';
   }
+
+  // Now render field with the already-loaded data
+  const defaultF=(!cc&&window.innerWidth<600)?'top':'all';
+  document.querySelectorAll('.fb').forEach(b=>b.classList.remove('on'));
+  document.querySelector(`.fb[data-f="${defaultF}"]`)?.classList.add('on');
+  applyFilter(defaultF);
 }
 
 function toggleGlobe(){

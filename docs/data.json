@@ -1,8 +1,144 @@
 {
-  "generated_at": "2026-06-24T22:45:54.053784+00:00",
+  "generated_at": "2026-06-25T00:08:43.061721+00:00",
   "node_count": 35,
-  "edge_count": 18,
+  "edge_count": 15,
   "nodes": [
+    {
+      "id": "11490ff8ca",
+      "title": "Elastic lays off 7% of employees",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees",
+          "headline": "Elastic lays off 7% of employees",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T21:57:30+00:00",
+      "last_seen": "2026-06-24T21:57:30+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.28
+    },
+    {
+      "id": "87b8975e46",
+      "title": "Two strong earthquakes strike Venezuela, buildings collapse in Caracas",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/americas/article/3358263/buildings-collapse-earthquake-rocks-venezuela?utm_source=rss_feed",
+          "headline": "Buildings collapse as earthquake rocks Venezuela",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/25/two-strong-earthquakes-strike-venezuela-buildings-collapse-in-caracas_6754847_4.html",
+          "headline": "Two strong earthquakes strike Venezuela, buildings collapse in Caracas",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/7-1-magnitude-earthquake-strikes-venezuela-shaking-buildings-in-the-capital-of-caracas/a-77698995?maca=en-rss-en-all-1573-rdf",
+          "headline": "7.1-magnitude earthquake strikes Venezuela, shaking buildings in the capital of Caracas",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.067,
+        "spread": 0.125,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T23:21:00+00:00",
+      "last_seen": "2026-06-24T23:59:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.5819
+    },
+    {
+      "id": "5881a2db5c",
+      "title": "Venezuela Hit by 7.1-Magnitude Earthquake",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/06/24/world/venezuela-earthquake/earthquake-venezuela",
+          "headline": "Venezuela Hit by 7.1-Magnitude Earthquake",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/venezuela-earthquake-toll-damage-updates-june-25-2026/article71143760.ece",
+          "headline": "Magnitude 7.1 earthquake strikes Venezuela",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T23:03:15+00:00",
+      "last_seen": "2026-06-25T00:03:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.4181
+    },
+    {
+      "id": "0b7b574a64",
+      "title": "Magnitude 6.9 quake hits northern Japan",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/06/25/japan/tohoku-strong-earthquake/",
+          "headline": "Magnitude 6.9 quake hits northern Japan",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/japan-earthquake-damage-toll-updates-on-june-25-2026/article71143775.ece",
+          "headline": "No tsunami warning after magnitude 6.9 quake strikes Japan's northeast",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T23:25:48+00:00",
+      "last_seen": "2026-06-24T23:43:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.369
+    },
     {
       "id": "6d303435a2",
       "title": "Scotland fans take over Miami ahead of Brazil World Cup clash",
@@ -35,23 +171,17 @@
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.6461
+      "resonance": 0.1952
     },
     {
       "id": "17cae4da1e",
       "title": "World Cup 2026: Switzerland edge past Canada in Group B decider",
-      "signal_count": 3,
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "The Hindu",
           "url": "https://www.thehindu.com/sport/football/fifa-world-cup-switzerland-wraps-up-first-place-in-group-b-with-2-1-victory-over-canada/article71143694.ece",
           "headline": "FIFA World Cup: Switzerland wraps up first place in Group B with 2-1 victory over Canada",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/switzerland-vs-canada-fifa-world-cup-match-live-updates-june-24-2026/article71143238.ece",
-          "headline": "FIFA World Cup | Swiss beat Canada 2-1 to clinch top spot in World Cup Group B",
           "platform": "rss"
         },
         {
@@ -65,7 +195,7 @@
         "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 3,
+        "center": 2,
         "right": 0
       },
       "first_seen": "2026-06-24T20:57:16+00:00",
@@ -75,7 +205,7 @@
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.5891
+      "resonance": 0.1666
     },
     {
       "id": "ab44b001f8",
@@ -109,85 +239,17 @@
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.5534
+      "resonance": 0.1564
     },
     {
-      "id": "44df81ca3e",
-      "title": "UN nuclear chief says Iran inspections will happen, Tehran says after deal",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-nuclear-chief-says-inspections-iran-will-go-ahead-despite-tehrans",
-          "headline": "UN nuclear chief says inspections in Iran will go ahead despite Tehran's caution",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/24/un-nuclear-chief-says-iran-inspections-will-happen-tehran-says-after-deal?traffic_source=rss",
-          "headline": "UN nuclear chief says Iran inspections will happen, Tehran says after deal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T19:33:17+00:00",
-      "last_seen": "2026-06-24T21:34:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2939
-    },
-    {
-      "id": "773a3d028b",
-      "title": "Rubio assures Gulf allies US will protect interests in Iran peace talks",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260624-rubio-gulf-allies-us-iran-peace-talks",
-          "headline": "Rubio assures Gulf allies US will protect interests in Iran peace talks",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/rubio-says-us-will-coordinate-closely-gulf-allies-iran-talks",
-          "headline": "Rubio says US will coordinate closely with Gulf allies on Iran talks",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.175,
-        "spread": 0.075,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T17:34:40+00:00",
-      "last_seen": "2026-06-24T22:36:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.2915
-    },
-    {
-      "id": "0b98b0131a",
-      "title": "Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood",
+      "id": "2fbd001b35",
+      "title": "Europe is pushing back on Washington’s chip war",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
-          "headline": "Cerebras stock plunges after earnings as CEO says margin outlook was misunderstood",
+          "url": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/",
+          "headline": "Europe is pushing back on Washington’s chip war",
           "platform": "rss"
         }
       ],
@@ -198,131 +260,19 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-24T22:41:41+00:00",
-      "last_seen": "2026-06-24T22:41:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.2362
-    },
-    {
-      "id": "bae0980819",
-      "title": "97 Prime Day Deals on Gear We Stand By, Up To 50% Off (2026)",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/amazon-prime-day-absolute-best-deals-06-24-2026/",
-          "headline": "97 Prime Day Deals on Gear We Stand By, Up To 50% Off (2026)",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T22:36:32+00:00",
-      "last_seen": "2026-06-24T22:36:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2167
-    },
-    {
-      "id": "6e6a397203",
-      "title": "How to Opt Out of Google Search’s New AI Data Training Feature",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/how-to-opt-out-of-google-search-new-ai-data-training/",
-          "headline": "How to Opt Out of Google Search’s New AI Data Training Feature",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T22:36:16+00:00",
-      "last_seen": "2026-06-24T22:36:16+00:00",
+      "first_seen": "2026-06-25T00:08:36+00:00",
+      "last_seen": "2026-06-25T00:08:36+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2157
-    },
-    {
-      "id": "20cae53967",
-      "title": "Trump, Republicans clash after president scraps housing bill signing",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/06/25/world/politics/trump-gop-clash/",
-          "headline": "Trump, Republicans clash after president scraps housing bill signing",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T22:32:00+00:00",
-      "last_seen": "2026-06-24T22:32:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1998
-    },
-    {
-      "id": "4b6a3cf4d4",
-      "title": "European heatwave, scorching weather triggers UK ‘red’ warning",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/24/european-heatwave-scorching-weather-triggers-uk-red-warning?traffic_source=rss",
-          "headline": "European heatwave, scorching weather triggers UK ‘red’ warning",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T22:31:21+00:00",
-      "last_seen": "2026-06-24T22:31:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1974
+      "resonance": 0.155
     },
     {
       "id": "b86145124a",
       "title": "FIFA World Cup | Morocco vs Haiti LIVE updates: Group C match gets underway",
-      "signal_count": 2,
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "The Hindu",
@@ -335,33 +285,135 @@
           "url": "https://www.thehindu.com/sport/football/brazil-vs-scotland-world-cup-match-live-updates-june-24-2026/article71143487.ece",
           "headline": "FIFA World Cup | Scotland vs Brazil LIVE updates: Group C match gets underway",
           "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/czechia-vs-mexico-world-cup-match-live-updates-june-24-2026/article71144404.ece",
+          "headline": "FIFA World Cup | Czechia vs Mexico LIVE updates: Group A match to start shortly",
+          "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-06-24T22:29:43+00:00",
-      "last_seen": "2026-06-24T22:29:53+00:00",
+      "first_seen": "2026-06-24T23:50:49+00:00",
+      "last_seen": "2026-06-25T00:02:34+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.192
+      "resonance": 0.1453
     },
     {
-      "id": "956bc10811",
-      "title": "OpenAI and Broadcom announce chip designed for LLM inference at scale",
+      "id": "07a756dc6b",
+      "title": "Zali Steggall and Allegra Spender launch new party aimed at political centre, promising ‘reason over rage’",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-25/allegra-spender-and-zali-steggall-form-centrist-party/106839026",
+          "headline": "Teals Allegra Spender and Zali Steggall form new political party",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/2026/jun/25/zali-steggall-and-allegra-spender-launch-new-party-aimed-at-political-centre-promising-reason-over-rage",
+          "headline": "Zali Steggall and Allegra Spender launch new party aimed at political centre, promising ‘reason over rage’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T20:33:27+00:00",
+      "last_seen": "2026-06-24T22:45:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1428
+    },
+    {
+      "id": "2e12c7c833",
+      "title": "Hong Kong prime office vacancy hits 7-month low on Central spillover demand",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/06/openai-and-broadcom-announce-chip-designed-for-llm-inference-at-scale/",
-          "headline": "OpenAI and Broadcom announce chip designed for LLM inference at scale",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/business/article/3358242/hong-kong-prime-office-vacancy-hits-7-month-low-central-spillover-demand?utm_source=rss_feed",
+          "headline": "Hong Kong prime office vacancy hits 7-month low on Central spillover demand",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-25T00:00:12+00:00",
+      "last_seen": "2026-06-25T00:00:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1391
+    },
+    {
+      "id": "83d6aded95",
+      "title": "ICC judges sue Trump administration over US sanctions",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/25/icc-judges-sue-trump-administration-over-us-sanctions_6754846_4.html",
+          "headline": "ICC judges sue Trump administration over US sanctions",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/24/world/europe/trump-sanctions-judges-lawsuit.html",
+          "headline": "ICC Judges Sue Trump Administration Over Sanctions",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.05,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T18:59:31+00:00",
+      "last_seen": "2026-06-24T23:32:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1343
+    },
+    {
+      "id": "69935039db",
+      "title": "Olympian arrested at reflecting pool is Trump 'scapegoat', lawyer says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-25/man-arrested-at-reflecting-pool-is-trump-scapegoat-lawyer-says/106839384",
+          "headline": "Olympian arrested at reflecting pool is Trump 'scapegoat', lawyer says",
           "platform": "rss"
         }
       ],
@@ -372,52 +424,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-24T22:28:18+00:00",
-      "last_seen": "2026-06-24T22:28:18+00:00",
+      "first_seen": "2026-06-24T23:55:55+00:00",
+      "last_seen": "2026-06-24T23:55:55+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1861
+      "topic": "politics",
+      "resonance": 0.1312
     },
     {
-      "id": "09113332bb",
-      "title": "Trump casts doubt on US responsibility for deadly Iran school strike",
+      "id": "6c37f7f9b4",
+      "title": "Lincoln Memorial's hidden 15,000-square-foot undercroft opens to the public after a century underground",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-casts-doubt-us-responsibility-deadly-iran-school-strike",
-          "headline": "Trump casts doubt on US responsibility for deadly Iran school strike",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/travel/lincoln-memorials-hidden-15000-square-foot-undercroft-opens-public-century-underground",
+          "headline": "Lincoln Memorial's hidden 15,000-square-foot undercroft opens to the public after a century underground",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.25,
+        "mean": 0.6,
         "spread": 0.0,
-        "left": 1,
+        "left": 0,
         "center": 0,
-        "right": 0
+        "right": 1
       },
-      "first_seen": "2026-06-24T22:26:48+00:00",
-      "last_seen": "2026-06-24T22:26:48+00:00",
+      "first_seen": "2026-06-24T23:55:07+00:00",
+      "last_seen": "2026-06-24T23:55:07+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1806
+      "topic": "world",
+      "resonance": 0.1297
     },
     {
-      "id": "81a6271510",
-      "title": "Australia politics live: Woman held in Syrian detention camp issued permit to return to Australia, Tony Burke says",
+      "id": "422267174d",
+      "title": "Venezuela rocked by powerful back-to-back earthquakes",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jun/25/australia-politics-live-aemo-power-grid-teal-independent-labor-coalition-question-time-anthony-albanese-angus-taylor-pauline-hanson-one-nation-ntwnfb",
-          "headline": "Australia politics live: Woman held in Syrian detention camp issued permit to return to Australia, Tony Burke says",
+          "url": "https://www.theguardian.com/world/2026/jun/25/earthquake-venezuela-caracas-tremors-aftershocks",
+          "headline": "Venezuela rocked by powerful back-to-back earthquakes",
           "platform": "rss"
         }
       ],
@@ -428,58 +480,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-24T22:26:17+00:00",
-      "last_seen": "2026-06-24T22:26:17+00:00",
+      "first_seen": "2026-06-24T23:50:05+00:00",
+      "last_seen": "2026-06-24T23:50:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1787
+      "resonance": 0.1204
     },
     {
-      "id": "0eb8f7a577",
-      "title": "FIFA World Cup: Bosnia-Herzegovina boosts chances of advancing with 3-1 win over Qatar",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/fifa-world-cup-bosnia-herzegovina-boosts-chances-of-advancing-with-3-1-win-over-qatar/article71143721.ece",
-          "headline": "FIFA World Cup: Bosnia-Herzegovina boosts chances of advancing with 3-1 win over Qatar",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/bosnia-and-herzegovina-vs-qatar-world-cup-match-live-updates-june-24-2026/article71143258.ece",
-          "headline": "FIFA World Cup | Bosnia end Qatar’s World Cup dream",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T21:18:16+00:00",
-      "last_seen": "2026-06-24T22:25:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1563
-    },
-    {
-      "id": "f5b5ed4f7a",
-      "title": "Modigliani nude sets European auction record at London art sale",
+      "id": "457568ed81",
+      "title": "The top tech Prime Day deals to shop on day two",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/culture/20260624-modigliani-nude-european-auction-record-london",
-          "headline": "Modigliani nude sets European auction record at London art sale",
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/gadgets/955366/best-prime-day-2026-tech-deals-day-two-sale",
+          "headline": "The top tech Prime Day deals to shop on day two",
           "platform": "rss"
         }
       ],
@@ -490,52 +508,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-24T22:18:32+00:00",
-      "last_seen": "2026-06-24T22:18:32+00:00",
+      "first_seen": "2026-06-24T23:48:19+00:00",
+      "last_seen": "2026-06-24T23:48:19+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1506
+      "topic": "tech",
+      "resonance": 0.1172
     },
     {
-      "id": "5bb387f36a",
-      "title": "Trump’s Shameless Iran Reversals",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/ideas/2026/06/trump-iran-foreign-policy/687683/?utm_source=feed",
-          "headline": "Trump’s Shameless Iran Reversals",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T22:16:44+00:00",
-      "last_seen": "2026-06-24T22:16:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1441
-    },
-    {
-      "id": "7e087add04",
-      "title": "Ronaldinho makes surprise return to football at 46",
+      "id": "9bf222c1d4",
+      "title": "Trump slams NATO over lax participation in Iran war in talk with Mark Rutte",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/24/ronaldinho-makes-surprise-return-to-football-at-46?traffic_source=rss",
-          "headline": "Ronaldinho makes surprise return to football at 46",
+          "url": "https://www.aljazeera.com/news/2026/6/24/trump-slams-nato-over-lax-participation-in-iran-war-in-talk-with-mark-rutte?traffic_source=rss",
+          "headline": "Trump slams NATO over lax participation in Iran war in talk with Mark Rutte",
           "platform": "rss"
         }
       ],
@@ -546,108 +536,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-24T22:15:59+00:00",
-      "last_seen": "2026-06-24T22:15:59+00:00",
+      "first_seen": "2026-06-24T23:47:48+00:00",
+      "last_seen": "2026-06-24T23:47:48+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1415
+      "topic": "conflict",
+      "resonance": 0.1163
     },
     {
-      "id": "8206a574da",
-      "title": "Last Islamic State-linked Australian woman from Syrian camp to return despite previous ban",
+      "id": "9e912f0593",
+      "title": "The Papers: 'Never again' and 'No 10 of the north'",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/jun/25/last-is-linked-australian-woman-from-syrian-camp-to-return-despite-previous-ban",
-          "headline": "Last Islamic State-linked Australian woman from Syrian camp to return despite previous ban",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T22:13:16+00:00",
-      "last_seen": "2026-06-24T22:13:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1318
-    },
-    {
-      "id": "9efcb04739",
-      "title": "US delegation snubs Apec meeting in Macau due to China visa requirements row",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3358259/us-delegation-snubs-apec-meeting-macau-due-china-visa-requirements-row?utm_source=rss_feed",
-          "headline": "US delegation snubs Apec meeting in Macau due to China visa requirements row",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T22:12:32+00:00",
-      "last_seen": "2026-06-24T22:12:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1292
-    },
-    {
-      "id": "f5eff5c416",
-      "title": "Whistleblower lawsuit says neurosurgeons left patients anesthetized and safety concerns ignored",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/whistleblower-lawsuit-says-neurosurgeons-left-patients-anesthetized-safety-concerns-ignored",
-          "headline": "Whistleblower lawsuit says neurosurgeons left patients anesthetized and safety concerns ignored",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-24T22:09:44+00:00",
-      "last_seen": "2026-06-24T22:09:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1193
-    },
-    {
-      "id": "672561820f",
-      "title": "Wildlife carers did not expect to be 'ground zero' for third H5 bird flu case",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-25/wildlife-carer-speaks-after-h5-bird-flu-case-recorded-in-sa/106837480",
-          "headline": "Wildlife carers did not expect to be 'ground zero' for third H5 bird flu case",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cj4gy79x9g7o?at_medium=RSS&at_campaign=rss",
+          "headline": "The Papers: 'Never again' and 'No 10 of the north'",
           "platform": "rss"
         }
       ],
@@ -658,248 +564,276 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-24T22:09:09+00:00",
-      "last_seen": "2026-06-24T22:09:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1172
-    },
-    {
-      "id": "3cc7df8886",
-      "title": "Trump’s No-Limits Presidency",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/newsletters/2026/06/trump-no-limits-power-iran/687690/?utm_source=feed",
-          "headline": "Trump’s No-Limits Presidency",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T22:04:00+00:00",
-      "last_seen": "2026-06-24T22:04:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0992
-    },
-    {
-      "id": "b2f55b81a9",
-      "title": "'ISIS bride' barred from Australia issued permit to return home",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-25/isis-bride-syria-return-home-security/106839208",
-          "headline": "'ISIS bride' barred from Australia issued permit to return home",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T22:04:00+00:00",
-      "last_seen": "2026-06-24T22:04:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0992
-    },
-    {
-      "id": "e2e80f02c1",
-      "title": "Vance says US reviewing conditions for Türkiye's F-35 purchase",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/vance-says-us-reviewing-conditions-turkiyes-f-35-purchase",
-          "headline": "Vance says US reviewing conditions for Türkiye's F-35 purchase",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T22:01:20+00:00",
-      "last_seen": "2026-06-24T22:01:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.09
-    },
-    {
-      "id": "a7be949dee",
-      "title": "Four in five under-16s in Australia using social media despite ban, study shows",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/media/2026/jun/24/australia-under-16-social-media-ban-no-substantial-effects-study",
-          "headline": "Four in five under-16s in Australia using social media despite ban, study shows",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T22:00:56+00:00",
-      "last_seen": "2026-06-24T22:00:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.0886
-    },
-    {
-      "id": "d545b2c0be",
-      "title": "Why the Vietnam ‘detour’ for US-bound Chinese goods hit a dead end",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/economy/global-economy/article/3358194/why-vietnam-detour-us-bound-chinese-goods-hit-dead-end?utm_source=rss_feed",
-          "headline": "Why the Vietnam ‘detour’ for US-bound Chinese goods hit a dead end",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T22:00:15+00:00",
-      "last_seen": "2026-06-24T22:00:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0862
-    },
-    {
-      "id": "485bd4ed44",
-      "title": "Obama claims he occupies 'a suite' in Trump's mind, questions the president's focus on Americans",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/obama-claims-he-occupies-a-suite-trumps-mind-questions-presidents-focus-americans",
-          "headline": "Obama claims he occupies 'a suite' in Trump's mind, questions the president's focus on Americans",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-24T22:00:08+00:00",
-      "last_seen": "2026-06-24T22:00:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0858
-    },
-    {
-      "id": "fe5ab96b60",
-      "title": "Fox News Poll: Looking ahead to America's 250th anniversary",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/fox-news-poll-looking-ahead-americas-250th-anniversary",
-          "headline": "Fox News Poll: Looking ahead to America's 250th anniversary",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-24T22:00:05+00:00",
-      "last_seen": "2026-06-24T22:00:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0857
-    },
-    {
-      "id": "ae2037b9ce",
-      "title": "This year’s Prime Day deals on Apple products are the best I’ve seen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/949350/amazon-prime-day-sale-best-apple-deals-2026",
-          "headline": "This year’s Prime Day deals on Apple products are the best I’ve seen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-24T21:58:59+00:00",
-      "last_seen": "2026-06-24T21:58:59+00:00",
+      "first_seen": "2026-06-24T23:47:27+00:00",
+      "last_seen": "2026-06-24T23:47:27+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0819
+      "resonance": 0.1156
     },
     {
-      "id": "fd7484dedb",
-      "title": "Haredi convoys spark clashes, traffic chaos; most protesters fail to reach IDF prison",
+      "id": "6f12004fc9",
+      "title": "Australia politics live: Angus Taylor rejects Japan comparison amid multiculturalism debate; Hanson offers Stefanovic a post-Nine job",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jun/25/australia-politics-live-aemo-power-grid-teal-independent-labor-coalition-question-time-anthony-albanese-angus-taylor-pauline-hanson-one-nation-ntwnfb",
+          "headline": "Australia politics live: Angus Taylor rejects Japan comparison amid multiculturalism debate; Hanson offers Stefanovic a post-Nine job",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T23:47:08+00:00",
+      "last_seen": "2026-06-24T23:47:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1151
+    },
+    {
+      "id": "733051c534",
+      "title": "FIFA World Cup | South Koreans expecting a home-game feel for Group A match against South Africa",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/south-korea-vs-south-africa-world-cup-match-live-updates-june-24-2026/article71144363.ece",
+          "headline": "FIFA World Cup | South Koreans expecting a home-game feel for Group A match against South Africa",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T23:46:31+00:00",
+      "last_seen": "2026-06-24T23:46:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.114
+    },
+    {
+      "id": "dbca7b13a0",
+      "title": "FIFA revokes commentator's credentials after on-air crash-out for the ages over player's ejection",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/fifa-revokes-commentators-credentials-air-crash-ages-players-ejection",
+          "headline": "FIFA revokes commentator's credentials after on-air crash-out for the ages over player's ejection",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-24T23:44:51+00:00",
+      "last_seen": "2026-06-24T23:44:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1109
+    },
+    {
+      "id": "b07331e47f",
+      "title": "Olympic athletes to get cash grants from new $100m fund created by IOC",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/6/24/olympic-athletes-to-get-cash-grants-from-new-100m-fund-created-by-ioc?traffic_source=rss",
+          "headline": "Olympic athletes to get cash grants from new $100m fund created by IOC",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T23:44:25+00:00",
+      "last_seen": "2026-06-24T23:44:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1102
+    },
+    {
+      "id": "0aa64b229f",
+      "title": "Knicks fan’s trash can grab ends with fines, firing and walk of shame return trip for JPMorgan Chase exec",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/knicks-fan-trash-can-grab-ends-fines-firing-walk-shame-return-trip-jpmorgan-chase-exec",
+          "headline": "Knicks fan’s trash can grab ends with fines, firing and walk of shame return trip for JPMorgan Chase exec",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-24T23:41:00+00:00",
+      "last_seen": "2026-06-24T23:41:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.104
+    },
+    {
+      "id": "ef591b12f2",
+      "title": "Women’s T20 World Cup | England storms into  semifinals at sweltering Lord’s",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/cricket/womens-t20-world-cup-england-storms-into-semifinals-at-sweltering-lords/article71144184.ece",
+          "headline": "Women’s T20 World Cup | England storms into  semifinals at sweltering Lord’s",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T23:39:57+00:00",
+      "last_seen": "2026-06-24T23:39:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1022
+    },
+    {
+      "id": "caeef59fc7",
+      "title": "Trump asks Congress for $87bn, mostly for 'urgent' Iran war costs",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c1eydwldzdjo?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump asks Congress for $87bn, mostly for 'urgent' Iran war costs",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T23:37:04+00:00",
+      "last_seen": "2026-06-24T23:37:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.097
+    },
+    {
+      "id": "103143167a",
+      "title": "General who was last US soldier out of Afghanistan suddenly steps down",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3358262/general-who-was-last-us-soldier-out-afghanistan-suddenly-steps-down?utm_source=rss_feed",
+          "headline": "General who was last US soldier out of Afghanistan suddenly steps down",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T23:34:34+00:00",
+      "last_seen": "2026-06-24T23:34:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0926
+    },
+    {
+      "id": "369d95b783",
+      "title": "White House asks Congress for $87.6 billion for Iran war, aid to U.S. farmers, tackling Ebola crisis",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/white-house-asks-congress-for-876-billion-for-iran-war-aid-to-us-farmers-tackling-ebola-crisis/article71143693.ece",
+          "headline": "White House asks Congress for $87.6 billion for Iran war, aid to U.S. farmers, tackling Ebola crisis",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T23:31:37+00:00",
+      "last_seen": "2026-06-24T23:31:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0874
+    },
+    {
+      "id": "5b416597ca",
+      "title": "Current round of US-led talks between Israel, Lebanon the least productive yet — sources",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/haredi-convoys-spark-clashes-traffic-chaos-most-protesters-fail-to-reach-idf-prison/",
-          "headline": "Haredi convoys spark clashes, traffic chaos; most protesters fail to reach IDF prison",
+          "url": "https://www.timesofisrael.com/liveblog-june-25-2026/",
+          "headline": "Current round of US-led talks between Israel, Lebanon the least productive yet — sources",
           "platform": "rss"
         }
       ],
@@ -910,24 +844,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-24T21:58:07+00:00",
-      "last_seen": "2026-06-24T21:58:07+00:00",
+      "first_seen": "2026-06-24T23:29:47+00:00",
+      "last_seen": "2026-06-24T23:29:47+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0789
+      "topic": "world",
+      "resonance": 0.0842
     },
     {
-      "id": "9321ad1401",
-      "title": "AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
+      "id": "35aceafb05",
+      "title": "Former Infosys chief has a new startup that wants to challenge the IT services world",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
-          "headline": "AI was supposed to kill engineering jobs, but new data suggests they’re the most resilient",
+          "url": "https://techcrunch.com/2026/06/24/former-infosys-chief-has-a-new-startup-that-wants-to-challenge-the-it-services-world/",
+          "headline": "Former Infosys chief has a new startup that wants to challenge the IT services world",
           "platform": "rss"
         }
       ],
@@ -938,52 +872,108 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-24T21:56:41+00:00",
-      "last_seen": "2026-06-24T21:56:41+00:00",
+      "first_seen": "2026-06-24T23:26:52+00:00",
+      "last_seen": "2026-06-24T23:26:52+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.074
+      "resonance": 0.0792
     },
     {
-      "id": "f4842e3f0d",
-      "title": "Trump says NATO allies ‘let down’ US by not backing Iran war",
+      "id": "054dd8895f",
+      "title": "Trump White House requests $87.6bn in spending, including for Iran war",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260624-trump-nato-allies-let-down-us-not-backing-iran-war",
-          "headline": "Trump says NATO allies ‘let down’ US by not backing Iran war",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/24/trump-white-house-requests-87-6bn-in-spending-including-for-iran-war?traffic_source=rss",
+          "headline": "Trump White House requests $87.6bn in spending, including for Iran war",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-24T21:55:23+00:00",
-      "last_seen": "2026-06-24T21:55:23+00:00",
+      "first_seen": "2026-06-24T23:25:01+00:00",
+      "last_seen": "2026-06-24T23:25:01+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0696
+      "resonance": 0.076
     },
     {
-      "id": "5c0e62d05d",
-      "title": "The 16 best robot vacuum deals available during Prime Day",
+      "id": "29d5e816c3",
+      "title": "More records fall as Europe’s deadly heat wave persists",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/951081/robot-vacuum-mop-deals-amazon-prime-day-2026",
-          "headline": "The 16 best robot vacuum deals available during Prime Day",
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/06/25/world/europe-heat-wave-records/",
+          "headline": "More records fall as Europe’s deadly heat wave persists",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T23:17:00+00:00",
+      "last_seen": "2026-06-24T23:17:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0623
+    },
+    {
+      "id": "ca4a81fe12",
+      "title": "Defense Ministry civilian contractor killed in Gaza building collapse",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/defense-ministry-civilian-contractor-killed-in-gaza-building-collapse/",
+          "headline": "Defense Ministry civilian contractor killed in Gaza building collapse",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T23:14:51+00:00",
+      "last_seen": "2026-06-24T23:14:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0587
+    },
+    {
+      "id": "ee7f08cb0f",
+      "title": "Obesity cases rising fastest in young adults",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c8j2m2zrrxko?at_medium=RSS&at_campaign=rss",
+          "headline": "Obesity cases rising fastest in young adults",
           "platform": "rss"
         }
       ],
@@ -994,30 +984,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-24T21:51:09+00:00",
-      "last_seen": "2026-06-24T21:51:09+00:00",
+      "first_seen": "2026-06-24T23:11:14+00:00",
+      "last_seen": "2026-06-24T23:11:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0552
+      "topic": "world",
+      "resonance": 0.0526
     },
     {
-      "id": "0bbced7cab",
-      "title": "Best Prime Day Deals on LED Masks and Hair Growth Tools That Actually Work",
-      "signal_count": 2,
+      "id": "2942407440",
+      "title": "France records its hottest day with relief on the horizon",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/best-led-devices-prime-day-deals-2026/",
-          "headline": "Best Prime Day Deals on LED Masks and Hair Growth Tools That Actually Work",
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/environment/article/2026/06/25/france-records-its-hottest-day-with-relief-on-the-horizon_6754845_114.html",
+          "headline": "France records its hottest day with relief on the horizon",
           "platform": "rss"
-        },
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-24T23:11:12+00:00",
+      "last_seen": "2026-06-24T23:11:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0526
+    },
+    {
+      "id": "e23763302a",
+      "title": "Elon suffers another day short of trillionaire status",
+      "signal_count": 1,
+      "sources": [
         {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/prime-day-dyson-deals-2026/",
-          "headline": "Best Dyson Deals for Prime Day: Vacuums, Hair Tools, and More (2026)",
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/24/elon-suffers-another-day-short-of-trillionaire-status/",
+          "headline": "Elon suffers another day short of trillionaire status",
           "platform": "rss"
         }
       ],
@@ -1025,11 +1037,11 @@
         "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-24T20:46:41+00:00",
-      "last_seen": "2026-06-24T22:38:22+00:00",
+      "first_seen": "2026-06-24T23:09:39+00:00",
+      "last_seen": "2026-06-24T23:09:39+00:00",
       "platforms": [
         "rss"
       ],
@@ -1040,111 +1052,93 @@
   ],
   "edges": [
     {
+      "source": "87b8975e46",
+      "target": "5881a2db5c",
+      "weight": 0.016,
+      "type": "thematic"
+    },
+    {
+      "source": "87b8975e46",
+      "target": "422267174d",
+      "weight": 0.629,
+      "type": "thematic"
+    },
+    {
+      "source": "5881a2db5c",
+      "target": "0b7b574a64",
+      "weight": 0.232,
+      "type": "thematic"
+    },
+    {
+      "source": "5881a2db5c",
+      "target": "422267174d",
+      "weight": 0.194,
+      "type": "thematic"
+    },
+    {
       "source": "17cae4da1e",
       "target": "ab44b001f8",
-      "weight": 0.28,
+      "weight": 0.25,
       "type": "thematic"
     },
     {
       "source": "17cae4da1e",
       "target": "b86145124a",
-      "weight": 0.277,
+      "weight": 0.187,
       "type": "thematic"
     },
     {
-      "source": "773a3d028b",
-      "target": "f4842e3f0d",
-      "weight": 0.127,
+      "source": "17cae4da1e",
+      "target": "733051c534",
+      "weight": 0.045,
       "type": "thematic"
     },
     {
-      "source": "bae0980819",
-      "target": "ae2037b9ce",
-      "weight": 0.362,
-      "type": "thematic"
-    },
-    {
-      "source": "bae0980819",
-      "target": "5c0e62d05d",
-      "weight": 0.285,
-      "type": "thematic"
-    },
-    {
-      "source": "bae0980819",
-      "target": "0bbced7cab",
-      "weight": 0.138,
-      "type": "thematic"
-    },
-    {
-      "source": "20cae53967",
-      "target": "485bd4ed44",
-      "weight": 0.057,
+      "source": "2fbd001b35",
+      "target": "29d5e816c3",
+      "weight": 0.037,
       "type": "thematic"
     },
     {
       "source": "b86145124a",
-      "target": "0eb8f7a577",
-      "weight": 0.242,
+      "target": "733051c534",
+      "weight": 0.471,
       "type": "thematic"
     },
     {
-      "source": "09113332bb",
-      "target": "5bb387f36a",
-      "weight": 0.264,
+      "source": "9bf222c1d4",
+      "target": "caeef59fc7",
+      "weight": 0.231,
       "type": "thematic"
     },
     {
-      "source": "09113332bb",
-      "target": "f4842e3f0d",
-      "weight": 0.006,
+      "source": "9bf222c1d4",
+      "target": "054dd8895f",
+      "weight": 0.231,
       "type": "thematic"
     },
     {
-      "source": "81a6271510",
-      "target": "8206a574da",
-      "weight": 0.453,
+      "source": "caeef59fc7",
+      "target": "369d95b783",
+      "weight": 0.62,
       "type": "thematic"
     },
     {
-      "source": "81a6271510",
-      "target": "b2f55b81a9",
-      "weight": 0.833,
+      "source": "caeef59fc7",
+      "target": "054dd8895f",
+      "weight": 0.299,
       "type": "thematic"
     },
     {
-      "source": "5bb387f36a",
-      "target": "3cc7df8886",
-      "weight": 0.107,
+      "source": "369d95b783",
+      "target": "054dd8895f",
+      "weight": 0.62,
       "type": "thematic"
     },
     {
-      "source": "5bb387f36a",
-      "target": "f4842e3f0d",
-      "weight": 0.275,
-      "type": "thematic"
-    },
-    {
-      "source": "8206a574da",
-      "target": "a7be949dee",
-      "weight": 0.051,
-      "type": "thematic"
-    },
-    {
-      "source": "ae2037b9ce",
-      "target": "5c0e62d05d",
-      "weight": 0.738,
-      "type": "thematic"
-    },
-    {
-      "source": "ae2037b9ce",
-      "target": "0bbced7cab",
-      "weight": 0.506,
-      "type": "thematic"
-    },
-    {
-      "source": "5c0e62d05d",
-      "target": "0bbced7cab",
-      "weight": 0.416,
+      "source": "29d5e816c3",
+      "target": "2942407440",
+      "weight": 0.009,
       "type": "thematic"
     }
   ],

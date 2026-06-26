@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-26T21:16:29.105318+00:00",
+  "generated_at": "2026-06-26T22:43:53.378313+00:00",
   "node_count": 35,
-  "edge_count": 9,
+  "edge_count": 15,
   "nodes": [
     {
       "id": "0e9a8a99a9",
@@ -32,32 +32,50 @@
       "resonance": 0.28
     },
     {
-      "id": "5c36a5b377",
-      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
-      "signal_count": 1,
+      "id": "cf2610084d",
+      "title": "Burkina Faso cuts diplomatic ties with former colonial ruler France",
+      "signal_count": 4,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
-          "headline": "Previewing GPT‑5.6 Sol: a next-generation model",
-          "platform": "hackernews"
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/27/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france_6754917_4.html",
+          "headline": "Burkina Faso cuts diplomatic ties with former colonial ruler France",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/africa/20260626-burkina-faso-ruling-junta-cuts-diplomatic-ties-with-ex-ruler-france",
+          "headline": "Burkina Faso ruling junta cuts diplomatic ties with ex-ruler France",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france?traffic_source=rss",
+          "headline": "Burkina Faso cuts diplomatic ties with former colonial ruler France",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/africa/article/3358571/burkina-faso-cuts-diplomatic-ties-ex-ruler-france?utm_source=rss_feed",
+          "headline": "Burkina Faso cuts diplomatic ties with ex-ruler France",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
+        "mean": -0.1,
+        "spread": 0.122,
         "left": 0,
-        "center": 1,
+        "center": 4,
         "right": 0
       },
-      "first_seen": "2026-06-26T17:06:55+00:00",
-      "last_seen": "2026-06-26T17:06:55+00:00",
+      "first_seen": "2026-06-26T20:02:48+00:00",
+      "last_seen": "2026-06-26T22:39:56+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.28
+      "topic": "politics",
+      "resonance": 0.5692
     },
     {
       "id": "7cedbfee36",
@@ -65,15 +83,21 @@
       "signal_count": 9,
       "sources": [
         {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/26/lebanon-israel-us-sign-trilateral-framework-agreement-in-washington_6754914_4.html",
-          "headline": "Lebanon, Israel, US sign trilateral framework agreement in Washington",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-and-israel-sign-framework-agreement-end-war",
+          "headline": "Lebanon and Israel sign 'framework agreement' to end war",
           "platform": "rss"
         },
         {
           "outlet": "BBC World Service",
           "url": "https://www.bbc.co.uk/news/articles/cg5315n1v5go?at_medium=RSS&at_campaign=rss",
           "headline": "Israel and Lebanon sign framework agreement after US-brokered talks",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/26/lebanon-israel-us-sign-trilateral-framework-agreement-in-washington_6754914_4.html",
+          "headline": "Lebanon, Israel, US sign trilateral framework agreement in Washington",
           "platform": "rss"
         },
         {
@@ -105,34 +129,188 @@
           "url": "https://www.dw.com/en/us-lebanon-israel-sign-framework-agreement/a-77729374?maca=en-rss-en-all-1573-rdf",
           "headline": "US, Lebanon, Israel sign framework agreement",
           "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/26/us-announces-framework-agreement-between-israel-and-lebanon?traffic_source=rss",
-          "headline": "US announces framework agreement between Israel and Lebanon",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.172,
-        "spread": 0.082,
-        "left": 3,
-        "center": 6,
+        "mean": -0.178,
+        "spread": 0.085,
+        "left": 4,
+        "center": 5,
         "right": 0
       },
       "first_seen": "2026-06-26T17:25:44+00:00",
-      "last_seen": "2026-06-26T19:30:32+00:00",
+      "last_seen": "2026-06-26T21:41:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.4647
+      "resonance": 0.5474
+    },
+    {
+      "id": "5c36a5b377",
+      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+          "headline": "Previewing GPT‑5.6 Sol: a next-generation model",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T17:06:55+00:00",
+      "last_seen": "2026-06-26T17:06:55+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.28
+    },
+    {
+      "id": "0ae37e92fa",
+      "title": "World Cup 2026: Senegal crush 10-man Iraq to remain in hunt for knockout spot",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/6/26/senegal-score-5-0-win-over-10-man-iraq-keep-world-cup-knockout-hopes-alive?traffic_source=rss",
+          "headline": "Senegal score 5-0 win over 10-man Iraq, keep World Cup knockout hopes alive",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260626-world-cup-2026-senegal-crush-10-man-iraq-remain-in-hunt-for-knockout-round",
+          "headline": "World Cup 2026: Senegal crush 10-man Iraq to remain in hunt for knockout spot",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/senegal-vs-iraq-fifa-world-cup-match-june-26-2026/article71152175.ece",
+          "headline": "FIFA World Cup: Senegal rout 10-man Iraq to stay in World Cup hunt",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/iraq-vs-senegal-world-cup-match-live-updates-june-26-2026/article71151938.ece",
+          "headline": "FIFA World Cup, Iraq vs Senegal | Senegal rout 10-man Iraq to stay in World Cup hunt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.125,
+        "spread": 0.043,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T21:12:28+00:00",
+      "last_seen": "2026-06-26T22:05:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.5169
+    },
+    {
+      "id": "aaa42b10d5",
+      "title": "US conducts strikes on Iran after attack on cargo ship",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/ckg590wqxwpo?at_medium=RSS&at_campaign=rss",
+          "headline": "US conducts strikes on Iran after attack on cargo ship",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/iran-war-us-military-hits-iran-over-cargo-vessel-attack/live-77729995?maca=en-rss-en-all-1573-rdf",
+          "headline": "Iran war: US military hits Iran over cargo vessel attack",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T20:50:00+00:00",
+      "last_seen": "2026-06-26T22:32:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.31
+    },
+    {
+      "id": "06602ac7ac",
+      "title": "World Cup 2026: Dembélé scores sensational hat-trick as France beat Norway to top Group I",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/6/26/dembele-scores-hat-trick-as-france-beat-norway-4-1-at-world-cup-2026?traffic_source=rss",
+          "headline": "Dembele scores hat-trick as France beat Norway 4-1 at World Cup 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/france-vs-norway-fifa-world-cup-updates-june-26-2026/article71152174.ece",
+          "headline": "FIFA World Cup | Dembele hat-trick helps France beat second-string Norway 4-1 to top group",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/france-vs-norway-world-cup-match-live-updates-june-26-2026/article71151930.ece",
+          "headline": "FIFA World Cup | France beat Norway 4-1 to win Group I",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260626-world-cup-2026-dembele-scores-sensational-hat-trick-france-beat-norway-to-top-group",
+          "headline": "World Cup 2026: Dembélé scores sensational hat-trick as France beat Norway to top Group I",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260626-france-vs-norway-live-world-cup-group-i-decider-mbappe-haaland-chase-golden-boot",
+          "headline": "France top World Cup group as Dembélé's first-half treble downs second-string Norway",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.12,
+        "spread": 0.04,
+        "left": 0,
+        "center": 5,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T18:16:26+00:00",
+      "last_seen": "2026-06-26T21:25:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.2497
     },
     {
       "id": "de38526b26",
       "title": "Debris falls after plane hits Beijing's tallest building",
-      "signal_count": 5,
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "Euronews",
@@ -151,167 +329,23 @@
           "url": "https://www.bbc.co.uk/news/videos/c8j2rjrzjero?at_medium=RSS&at_campaign=rss",
           "headline": "Debris falls after plane hits Beijing's tallest building",
           "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/26/small-plane-crashes-into-beijing-s-tallest-building_6754908_4.html",
-          "headline": "Small plane crashes into Beijing's tallest building",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/06/26/g-s1-130388/beijings-tallest-building-is-damaged-after-small-airplane-reportedly-crashed-into-it",
-          "headline": "Plane crashes into Beijing's tallest building; damage reported",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.17,
-        "spread": 0.075,
+        "mean": -0.167,
+        "spread": 0.094,
         "left": 1,
-        "center": 4,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-06-26T15:05:48+00:00",
+      "first_seen": "2026-06-26T18:36:42+00:00",
       "last_seen": "2026-06-26T20:44:53+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.4161
-    },
-    {
-      "id": "06602ac7ac",
-      "title": "World Cup 2026: Dembélé scores sensational hat-trick as France beat Norway to top Group I",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/france-vs-norway-world-cup-match-live-updates-june-26-2026/article71151930.ece",
-          "headline": "FIFA World Cup | France beat Norway 4-1 to win Group I",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260626-world-cup-2026-dembele-scores-sensational-hat-trick-france-beat-norway-to-top-group",
-          "headline": "World Cup 2026: Dembélé scores sensational hat-trick as France beat Norway to top Group I",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T21:01:15+00:00",
-      "last_seen": "2026-06-26T21:12:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.343
-    },
-    {
-      "id": "1e2c92cca6",
-      "title": "Ex-Trump adviser John Bolton pleads guilty to mishandling classified documents",
-      "signal_count": 6,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/ex-us-national-security-adviser-bolton-pleads-guilty-in-classified-information-case/",
-          "headline": "Ex-US national security adviser Bolton pleads guilty in classified information case",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/trump-foe-john-bolton-pleads-guilty-in-classified-docs-case/a-77728826?maca=en-rss-en-all-1573-rdf",
-          "headline": "Trump foe John Bolton pleads guilty in classified docs case",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/czxqwg4nrvlo?at_medium=RSS&at_campaign=rss",
-          "headline": "Ex-Trump adviser John Bolton pleads guilty to mishandling classified documents",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/americas/20260626-former-trump-national-security-adviser-bolton-pleads-guilty-in-classified-files-case",
-          "headline": "Former Trump national security adviser Bolton pleads guilty in classified files case",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3358563/former-us-national-security-adviser-john-bolton-pleads-guilty-illegally-having-top-secret-info?utm_source=rss_feed",
-          "headline": "Former US national security adviser John Bolton pleads guilty to illegally keeping secret info",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/06/26/nx-s1-5871292/john-bolton-national-security-classified-documents",
-          "headline": "John Bolton, former Trump national security adviser, pleads guilty in classified documents case",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.033,
-        "spread": 0.09,
-        "left": 0,
-        "center": 6,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T15:00:18+00:00",
-      "last_seen": "2026-06-26T19:04:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.3355
-    },
-    {
-      "id": "aaa42b10d5",
-      "title": "US conducts strikes on Iran after attack on cargo ship",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ckg590wqxwpo?at_medium=RSS&at_campaign=rss",
-          "headline": "US conducts strikes on Iran after attack on cargo ship",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/iran-war-us-military-hits-iran-over-cargo-vessel-attack/live-77729995?maca=en-rss-en-all-1573-rdf",
-          "headline": "Iran war: US military hits Iran over cargo vessel attack",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3358568/trump-says-iran-struck-ship-hormuz-calls-it-foolish-ceasefire-violation?utm_source=rss_feed",
-          "headline": "US strikes Iran after Trump says cargo ship attack violated ceasefire",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.033,
-        "spread": 0.094,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T17:10:05+00:00",
-      "last_seen": "2026-06-26T21:05:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.2982
+      "resonance": 0.2281
     },
     {
       "id": "fa116db887",
@@ -351,231 +385,51 @@
       ],
       "geo_regions": [],
       "topic": "economy",
-      "resonance": 0.2764
+      "resonance": 0.166
     },
     {
-      "id": "58cda423b5",
-      "title": "Trump accuses Iran of ceasefire breach after Strait of Hormuz attack",
-      "signal_count": 3,
+      "id": "563f198d04",
+      "title": "Marco Rubio announces Israel-Lebanon framework deal, hailing it as first step toward peace",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/trump-accuses-iran-of-foolish-ceasefire-violation-by-firing-on-ships-in-hormuz/",
-          "headline": "Trump accuses Iran of ‘foolish’ ceasefire violation by firing on ships in Hormuz",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/rubio-announces-framework-deal-between-israel-lebanon-experts-warn-iran-fight-sabotage",
+          "headline": "Rubio announces framework deal between Israel and Lebanon as experts warn Iran will fight to sabotage it",
           "platform": "rss"
         },
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/ckg54g0ry0vo?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump accuses Iran of ceasefire breach after Strait of Hormuz attack",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-iran-attacks-ships-violation-ceasefire",
-          "headline": "Trump says Iran attacks on ships violation of ceasefire",
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/06/26/marco-rubio-announces-israel-lebanon-framework-deal-hailing-it-as-first-step-toward-peace",
+          "headline": "Marco Rubio announces Israel-Lebanon framework deal, hailing it as first step toward peace",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.067,
-        "spread": 0.131,
-        "left": 1,
-        "center": 2,
-        "right": 0
+        "mean": 0.25,
+        "spread": 0.35,
+        "left": 0,
+        "center": 1,
+        "right": 1
       },
-      "first_seen": "2026-06-26T17:30:37+00:00",
-      "last_seen": "2026-06-26T19:47:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.2278
-    },
-    {
-      "id": "bcda74247c",
-      "title": "Venezuela Live Updates: Hospitals Overwhelmed as International Rescue Teams Arrive",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/26/world/venezuela-earthquake",
-          "headline": "Venezuela Live Updates: Hospitals Overwhelmed as International Rescue Teams Arrive",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T21:15:04+00:00",
-      "last_seen": "2026-06-26T21:15:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1119
-    },
-    {
-      "id": "3383feb985",
-      "title": "A floating convenience store appears in Toronto",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/26/world/canada/world-cup-toronto-convenience-store-rescue.html",
-          "headline": "A floating convenience store appears in Toronto",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T21:14:35+00:00",
-      "last_seen": "2026-06-26T21:14:35+00:00",
+      "first_seen": "2026-06-26T18:46:04+00:00",
+      "last_seen": "2026-06-26T22:13:23+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.111
+      "resonance": 0.1653
     },
     {
-      "id": "9b85b9c231",
-      "title": "A tiny pest has decimated WA trees, experts warn it could do the same in Qld",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-27/brisbane-shot-hole-borer-moreton-bay-figs-biosecurity/106771802",
-          "headline": "A tiny pest has decimated WA trees, experts warn it could do the same in Qld",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T21:12:38+00:00",
-      "last_seen": "2026-06-26T21:12:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1078
-    },
-    {
-      "id": "9c0467404f",
-      "title": "FIFA World Cup, Iraq vs Senegal | Senegal rout 10-man Iraq to stay in World Cup hunt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/iraq-vs-senegal-world-cup-match-live-updates-june-26-2026/article71151938.ece",
-          "headline": "FIFA World Cup, Iraq vs Senegal | Senegal rout 10-man Iraq to stay in World Cup hunt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T21:12:28+00:00",
-      "last_seen": "2026-06-26T21:12:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1075
-    },
-    {
-      "id": "8a686a8715",
-      "title": "Streaming services’ obnoxiously loud ads become illegal on July 1 in California",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/06/streaming-services-obnoxiously-loud-ads-become-illegal-on-july-1-in-california/",
-          "headline": "Streaming services’ obnoxiously loud ads become illegal on July 1 in California",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T21:12:07+00:00",
-      "last_seen": "2026-06-26T21:12:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1069
-    },
-    {
-      "id": "765f1fc226",
-      "title": "Israeli attack on car in central Gaza kills three Palestinians",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/26/israeli-attack-on-car-in-central-gaza-kills-three-palestinians?traffic_source=rss",
-          "headline": "Israeli attack on car in central Gaza kills three Palestinians",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-kills-three-civilians-central-strip",
-          "headline": "Israeli strike kills three civilians in central Gaza",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T17:44:58+00:00",
-      "last_seen": "2026-06-26T19:49:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1049
-    },
-    {
-      "id": "ff8ecd7f05",
-      "title": "U.S. Says It Struck Iran in Retaliation for Attack on Vessel in Strait of Hormuz",
+      "id": "16074bd7a2",
+      "title": "U.S. Strikes Iran in Retaliation for Attack on Vessel in Strait of Hormuz",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "New York Times",
           "url": "https://www.nytimes.com/2026/06/26/world/middleeast/strait-of-hormuz-iran-attack.html",
-          "headline": "U.S. Says It Struck Iran in Retaliation for Attack on Vessel in Strait of Hormuz",
+          "headline": "U.S. Strikes Iran in Retaliation for Attack on Vessel in Strait of Hormuz",
           "platform": "rss"
         }
       ],
@@ -586,248 +440,52 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-26T21:09:59+00:00",
-      "last_seen": "2026-06-26T21:09:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1034
-    },
-    {
-      "id": "ebba23915c",
-      "title": "Queensland gears up for a potential bird flu battle",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-27/queensland-preparing-for-bird-flu-arrival/106842296",
-          "headline": "Queensland gears up for a potential bird flu battle",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T21:09:30+00:00",
-      "last_seen": "2026-06-26T21:09:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1026
-    },
-    {
-      "id": "2d6d702d91",
-      "title": "Olive industry 'buzzing' as diets fuel demand, farmers diversify",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-27/olive-industry-booms-amid-interest-growing-consuming-produce/106805614",
-          "headline": "Olive industry 'buzzing' as diets fuel demand, farmers diversify",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T21:08:18+00:00",
-      "last_seen": "2026-06-26T21:08:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1006
-    },
-    {
-      "id": "c42d6005a1",
-      "title": "Congress appoints Rajendra Pal Gautam, Sanjay Dutt as AICC in-charge for UP, Haryana",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/congress-appoints-rajendra-pal-gautam-sanjay-dutt-as-aicc-in-charge-for-up-haryana/article71152141.ece",
-          "headline": "Congress appoints Rajendra Pal Gautam, Sanjay Dutt as AICC in-charge for UP, Haryana",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T21:06:42+00:00",
-      "last_seen": "2026-06-26T21:06:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0979
-    },
-    {
-      "id": "47a4f5a5eb",
-      "title": "Sanctioned ICC judges sue Trump in US over 'attack on judicial independence'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/sanctioned-icc-judges-sue-trump-us-over-attack-judicial-independence",
-          "headline": "Sanctioned ICC judges sue Trump in US over 'attack on judicial independence'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T21:04:46+00:00",
-      "last_seen": "2026-06-26T21:04:46+00:00",
+      "first_seen": "2026-06-26T22:35:16+00:00",
+      "last_seen": "2026-06-26T22:35:16+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0948
+      "resonance": 0.1251
     },
     {
-      "id": "46c83223f0",
-      "title": "Cops drop murder probe after coroner rules man’s bloody stabbing death was freak accident",
+      "id": "0f594ef6b0",
+      "title": "In Venezuela’s Rubble, Listening for Whispers And Longing for Help",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/world/cops-drop-murder-probe-after-coroner-rules-mans-bloody-stabbing-death-freak-accident",
-          "headline": "Cops drop murder probe after coroner rules man’s bloody stabbing death was freak accident",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/26/world/americas/venezuela-earthquakes-rescues.html",
+          "headline": "In Venezuela’s Rubble, Listening for Whispers And Longing for Help",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
+        "mean": -0.3,
         "spread": 0.0,
-        "left": 0,
+        "left": 1,
         "center": 0,
-        "right": 1
+        "right": 0
       },
-      "first_seen": "2026-06-26T21:04:02+00:00",
-      "last_seen": "2026-06-26T21:04:02+00:00",
+      "first_seen": "2026-06-26T22:31:55+00:00",
+      "last_seen": "2026-06-26T22:31:55+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0936
+      "resonance": 0.1186
     },
     {
-      "id": "3a992f76f1",
-      "title": "How People in China Keep Outsmarting Anthropic’s Geolocation Restrictions",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/how-people-in-china-keep-outsmarting-anthropics-geolocation-restrictions/",
-          "headline": "How People in China Keep Outsmarting Anthropic’s Geolocation Restrictions",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T21:02:54+00:00",
-      "last_seen": "2026-06-26T21:02:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0917
-    },
-    {
-      "id": "61fba147c4",
-      "title": "Samsung’s Excellent OLED Monitors Are Up to 36 Percent Off for Prime Day",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/samsungs-odyssey-oled-monitors-prime-day-2026/",
-          "headline": "Samsung’s Excellent OLED Monitors Are Up to 36 Percent Off for Prime Day",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T21:02:31+00:00",
-      "last_seen": "2026-06-26T21:02:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0911
-    },
-    {
-      "id": "e0006d7925",
-      "title": "House Democrat lashes out when grilled on whether socialist victories would threaten Dem unity",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/house-democrat-lashes-out-when-grilled-whether-socialist-victories-would-threaten-dem-unity",
-          "headline": "House Democrat lashes out when grilled on whether socialist victories would threaten Dem unity",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-26T21:01:55+00:00",
-      "last_seen": "2026-06-26T21:01:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0901
-    },
-    {
-      "id": "c41260521f",
-      "title": "Conservatives offer tax incentive as part of 50,000 reservist pledge",
+      "id": "a1f60e2d67",
+      "title": "Madonna was 'jealous of Kylie' - and more things we learned in her Graham Norton interview",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c9v219gx79wo?at_medium=RSS&at_campaign=rss",
-          "headline": "Conservatives offer tax incentive as part of 50,000 reservist pledge",
+          "url": "https://www.bbc.co.uk/news/articles/cn07rpn0rkxo?at_medium=RSS&at_campaign=rss",
+          "headline": "Madonna was 'jealous of Kylie' - and more things we learned in her Graham Norton interview",
           "platform": "rss"
         }
       ],
@@ -838,24 +496,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-26T21:00:56+00:00",
-      "last_seen": "2026-06-26T21:00:56+00:00",
+      "first_seen": "2026-06-26T22:30:20+00:00",
+      "last_seen": "2026-06-26T22:30:20+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0885
+      "resonance": 0.1156
     },
     {
-      "id": "a581c8fa66",
-      "title": "Minnesota school board member under fire after saying dogs should urinate on 'White corpses' in cemeteries",
+      "id": "d2c86f13eb",
+      "title": "New limited-edition US passport features Trump's image and a warning",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/minnesota-school-board-member-under-fire-after-saying-dogs-should-urinate-white-corpses-cemeteries",
-          "headline": "Minnesota school board member under fire after saying dogs should urinate on 'White corpses' in cemeteries",
+          "url": "https://www.foxnews.com/politics/new-limited-edition-us-passport-features-trumps-image-warning",
+          "headline": "New limited-edition US passport features Trump's image and a warning",
           "platform": "rss"
         }
       ],
@@ -866,98 +524,14 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-06-26T21:00:31+00:00",
-      "last_seen": "2026-06-26T21:00:31+00:00",
+      "first_seen": "2026-06-26T22:30:17+00:00",
+      "last_seen": "2026-06-26T22:30:17+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0878
-    },
-    {
-      "id": "50653b6310",
-      "title": "UN rights chief calls for probe into migrant deaths in US detention centres",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/26/un-rights-chief-calls-for-probe-into-migrant-deaths-in-us-detention-centres?traffic_source=rss",
-          "headline": "UN rights chief calls for probe into migrant deaths in US detention centres",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T20:58:19+00:00",
-      "last_seen": "2026-06-26T20:58:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0843
-    },
-    {
-      "id": "35f66794d1",
-      "title": "Russian citizens told \"switch to Android\" after Apple blocks key Russian apps",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/06/russian-citizens-told-switch-to-android-after-apple-blocks-key-russian-apps/",
-          "headline": "Russian citizens told \"switch to Android\" after Apple blocks key Russian apps",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T20:58:02+00:00",
-      "last_seen": "2026-06-26T20:58:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0838
-    },
-    {
-      "id": "d3cfc8bec2",
-      "title": "Best Ninja Prime Day Deals (2026) Slushi, Creami, Crispi, Cafe Luxe",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/ninja-creami-slushi-prime-day-deals-2026/",
-          "headline": "Best Ninja Prime Day Deals (2026) Slushi, Creami, Crispi, Cafe Luxe",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T20:55:48+00:00",
-      "last_seen": "2026-06-26T20:55:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0802
+      "topic": "conflict",
+      "resonance": 0.1155
     },
     {
       "id": "a5817792b6",
@@ -978,52 +552,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-26T20:54:42+00:00",
-      "last_seen": "2026-06-26T20:54:42+00:00",
+      "first_seen": "2026-06-26T22:27:20+00:00",
+      "last_seen": "2026-06-26T22:27:20+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0784
+      "resonance": 0.1098
     },
     {
-      "id": "3bd92c8121",
-      "title": "Mistrial declared in federal arson case related to California wildfires",
+      "id": "7fea60f90e",
+      "title": "Ireland stuns India in T20 to record historic first win over champions",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/26/mistrial-declared-in-federal-arson-case-related-to-california-wildfires?traffic_source=rss",
-          "headline": "Mistrial declared in federal arson case related to California wildfires",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T20:51:08+00:00",
-      "last_seen": "2026-06-26T20:51:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0728
-    },
-    {
-      "id": "1782f60c23",
-      "title": "UK search team joins Venezuela earthquake rescue effort",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cr7xlr2ndxno?at_medium=RSS&at_campaign=rss",
-          "headline": "UK search team joins Venezuela earthquake rescue effort",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-27/t20-international-ireland-beats-india-in-historic-win/106850488",
+          "headline": "Ireland stuns India in T20 to record historic first win over champions",
           "platform": "rss"
         }
       ],
@@ -1034,80 +580,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-26T20:50:33+00:00",
-      "last_seen": "2026-06-26T20:50:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0718
-    },
-    {
-      "id": "fef5901206",
-      "title": "Hezbollah will not support Israel-Lebanon framework deal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/26/aje-onl-nf_hezbollah-rejects-israel-lebanon-framework-deal-260626?traffic_source=rss",
-          "headline": "Hezbollah will not support Israel-Lebanon framework deal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T20:46:43+00:00",
-      "last_seen": "2026-06-26T20:46:43+00:00",
+      "first_seen": "2026-06-26T22:26:40+00:00",
+      "last_seen": "2026-06-26T22:26:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0658
+      "resonance": 0.1086
     },
     {
-      "id": "330595d81e",
-      "title": "It’s the last day of Prime Day — here are over 140 great deals to choose from",
+      "id": "0d54178035",
+      "title": "Iranian official condemns US attack as ‘reckless violation of ceasefire’",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/957435/prime-day-2026-best-tech-deals-sale-day-four",
-          "headline": "It’s the last day of Prime Day — here are over 140 great deals to choose from",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T20:38:57+00:00",
-      "last_seen": "2026-06-26T20:38:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0537
-    },
-    {
-      "id": "17124c849b",
-      "title": "William Barr’s Dangerous Endorsement of Todd Blanche",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/ideas/2026/06/trump-justice-department-barr-blanche-endorsement/687722/?utm_source=feed",
-          "headline": "William Barr’s Dangerous Endorsement of Todd Blanche",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-official-condemns-us-attack-reckless-violation-ceasefire",
+          "headline": "Iranian official condemns US attack as ‘reckless violation of ceasefire’",
           "platform": "rss"
         }
       ],
@@ -1118,8 +608,536 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-26T20:36:33+00:00",
-      "last_seen": "2026-06-26T20:36:33+00:00",
+      "first_seen": "2026-06-26T22:21:08+00:00",
+      "last_seen": "2026-06-26T22:21:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0981
+    },
+    {
+      "id": "9607234d50",
+      "title": "'You can hear them': Thousands of dung beetles exchanged via post",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-27/dung-beetle-exchange-between-south-australia-and-tasmania/106840364",
+          "headline": "'You can hear them': Thousands of dung beetles exchanged via post",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T22:20:56+00:00",
+      "last_seen": "2026-06-26T22:20:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0977
+    },
+    {
+      "id": "edcfb293a9",
+      "title": "South Korea plans to train entire military as \"drone warriors\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/06/south-korea-plans-to-train-entire-military-as-drone-warriors/",
+          "headline": "South Korea plans to train entire military as \"drone warriors\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T22:19:05+00:00",
+      "last_seen": "2026-06-26T22:19:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0943
+    },
+    {
+      "id": "e318f46c86",
+      "title": "Venezuela deadly earthquake: 'Countless lives lost that in a normal country would have been rescued'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20260626-venezuela-deadly-earthquake-countless-lives-lost-that-in-a-normal-country-would-have-been-rescued",
+          "headline": "Venezuela deadly earthquake: 'Countless lives lost that in a normal country would have been rescued'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T22:16:29+00:00",
+      "last_seen": "2026-06-26T22:16:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0894
+    },
+    {
+      "id": "97f2402118",
+      "title": "San Francisco Giants president panders to LGBTQ in letter to fans regarding Pride Night | Jon Root",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/san-francisco-giants-president-panders-lgbtq-letter-fans-regarding-pride-night-jon-root",
+          "headline": "San Francisco Giants president panders to LGBTQ in letter to fans regarding Pride Night | Jon Root",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-26T22:15:37+00:00",
+      "last_seen": "2026-06-26T22:15:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0878
+    },
+    {
+      "id": "f50c32a151",
+      "title": "Israel and Lebanon ink framework deal for minor IDF withdrawal, after 4 days of DC talks",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/israel-and-lebanon-ink-framework-deal-for-minor-idf-withdrawal-after-4-days-of-dc-talks/",
+          "headline": "Israel and Lebanon ink framework deal for minor IDF withdrawal, after 4 days of DC talks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T22:14:09+00:00",
+      "last_seen": "2026-06-26T22:14:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0851
+    },
+    {
+      "id": "0fdb25e761",
+      "title": "After covering Prime Day for 36 hours over four days, this is the one thing I bought",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/gadgets/958179/prime-day-what-i-bought-vampliers-stripped-screw-extractor",
+          "headline": "After covering Prime Day for 36 hours over four days, this is the one thing I bought",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T22:09:46+00:00",
+      "last_seen": "2026-06-26T22:09:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.077
+    },
+    {
+      "id": "27c7f569ca",
+      "title": "Venezuela Live Updates: Trump’s Vow to ‘Run’ Venezuela Is Tested After Quakes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/06/26/world/venezuela-earthquake",
+          "headline": "Venezuela Live Updates: Trump’s Vow to ‘Run’ Venezuela Is Tested After Quakes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T22:09:17+00:00",
+      "last_seen": "2026-06-26T22:09:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0761
+    },
+    {
+      "id": "03281b7366",
+      "title": "Woman stalked by charging bear on morning dog walk captures terrifying encounter on camera",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/woman-stalked-charging-bear-morning-dog-walk-captures-terrifying-encounter-camera",
+          "headline": "Woman stalked by charging bear on morning dog walk captures terrifying encounter on camera",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-26T22:08:54+00:00",
+      "last_seen": "2026-06-26T22:08:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0754
+    },
+    {
+      "id": "c0f4562ccb",
+      "title": "Young Americans feel more threatened by AI than young Chinese. Why?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/opinion/china-opinion/article/3358093/young-americans-feel-more-threatened-ai-young-chinese-why?utm_source=rss_feed",
+          "headline": "Young Americans feel more threatened by AI than young Chinese. Why?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T22:08:34+00:00",
+      "last_seen": "2026-06-26T22:08:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0748
+    },
+    {
+      "id": "731abfaf5c",
+      "title": "Middle East War:  US strikes Iran after Trump says ceasefire was violated",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260626-middle-east-war-us-strikes-iran-trump-ceasefire-violated",
+          "headline": "Middle East War:  US strikes Iran after Trump says ceasefire was violated",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/live-news/20260626-us-strikes-iran-after-trump-says-ceasefire-was-violated",
+          "headline": "US strikes Iran after Trump says ceasefire was violated",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3358568/trump-says-iran-struck-ship-hormuz-calls-it-foolish-ceasefire-violation?utm_source=rss_feed",
+          "headline": "US strikes Iran after Trump says cargo ship attack violated ceasefire",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.033,
+        "spread": 0.094,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T17:10:05+00:00",
+      "last_seen": "2026-06-26T21:39:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0706
+    },
+    {
+      "id": "a35199006d",
+      "title": "Prime Day Deal 2026: Fellow Espresso Series 1 Is $200 Off",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/amazon-prime-day-deal-2026-fellow-series-1/",
+          "headline": "Prime Day Deal 2026: Fellow Espresso Series 1 Is $200 Off",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T22:04:47+00:00",
+      "last_seen": "2026-06-26T22:04:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0679
+    },
+    {
+      "id": "aac9a98077",
+      "title": "Corgi, the buzzy Y Combinator-backed insurance tech startup, says it didn’t steal an open source product",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/26/corgi-the-buzzy-y-combinator-backed-insurance-tech-startup-says-it-didnt-steal-an-open-source-product/",
+          "headline": "Corgi, the buzzy Y Combinator-backed insurance tech startup, says it didn’t steal an open source product",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T22:00:37+00:00",
+      "last_seen": "2026-06-26T22:00:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0604
+    },
+    {
+      "id": "c3994cbebd",
+      "title": "Is the US trying to sway Taiwan’s KMT by receiving its legislative speaker?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/politics/article/3358539/us-trying-sway-taiwans-kmt-receiving-its-legislative-speaker?utm_source=rss_feed",
+          "headline": "Is the US trying to sway Taiwan’s KMT by receiving its legislative speaker?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T22:00:12+00:00",
+      "last_seen": "2026-06-26T22:00:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0597
+    },
+    {
+      "id": "8ea9909f6a",
+      "title": "Jean-Pierre Farandou, French labor minister: 'We cannot bring France to a halt every time it hits 30°C'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/politics/article/2026/06/27/jean-pierre-farandou-french-labor-minister-we-cannot-bring-france-to-a-halt-every-time-it-hits-30-c_6754916_5.html",
+          "headline": "Jean-Pierre Farandou, French labor minister: 'We cannot bring France to a halt every time it hits 30°C'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T22:00:05+00:00",
+      "last_seen": "2026-06-26T22:00:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0595
+    },
+    {
+      "id": "53e2efd28d",
+      "title": "Farewell: 27 things Virginia Trioli learned at the ABC",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-27/27-lessons-journalism-last-weekend-reads-column/106839830",
+          "headline": "Farewell: 27 things Virginia Trioli learned at the ABC",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T22:00:00+00:00",
+      "last_seen": "2026-06-26T22:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0593
+    },
+    {
+      "id": "f72d09fcfe",
+      "title": "Best Prime Day Vacuum Deals Offer Up to 42% Off (2026): Shark, Dyson, Bissell",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/prime-day-vacuum-deals-06-26-2026/",
+          "headline": "Best Prime Day Vacuum Deals Offer Up to 42% Off (2026): Shark, Dyson, Bissell",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T22:00:00+00:00",
+      "last_seen": "2026-06-26T22:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0593
+    },
+    {
+      "id": "12e0bb8db1",
+      "title": "Palaniswami appoints a few more for party posts in AIADMK",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/palaniswami-appoints-a-few-more-for-party-posts-in-aiadmk/article71150784.ece",
+          "headline": "Palaniswami appoints a few more for party posts in AIADMK",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T21:58:01+00:00",
+      "last_seen": "2026-06-26T21:58:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0558
+    },
+    {
+      "id": "1e2c92cca6",
+      "title": "Ex-Trump adviser John Bolton pleads guilty to mishandling classified documents",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/ex-us-national-security-adviser-bolton-pleads-guilty-in-classified-information-case/",
+          "headline": "Ex-US national security adviser Bolton pleads guilty in classified information case",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/trump-foe-john-bolton-pleads-guilty-in-classified-docs-case/a-77728826?maca=en-rss-en-all-1573-rdf",
+          "headline": "Trump foe John Bolton pleads guilty in classified docs case",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/czxqwg4nrvlo?at_medium=RSS&at_campaign=rss",
+          "headline": "Ex-Trump adviser John Bolton pleads guilty to mishandling classified documents",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.017,
+        "spread": 0.062,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-06-26T16:45:21+00:00",
+      "last_seen": "2026-06-26T19:04:05+00:00",
       "platforms": [
         "rss"
       ],
@@ -1137,50 +1155,86 @@
     },
     {
       "source": "7cedbfee36",
-      "target": "fef5901206",
-      "weight": 0.961,
+      "target": "563f198d04",
+      "weight": 0.462,
       "type": "thematic"
     },
     {
-      "source": "06602ac7ac",
-      "target": "9c0467404f",
-      "weight": 0.242,
+      "source": "7cedbfee36",
+      "target": "f50c32a151",
+      "weight": 0.952,
+      "type": "thematic"
+    },
+    {
+      "source": "0ae37e92fa",
+      "target": "06602ac7ac",
+      "weight": 0.211,
       "type": "thematic"
     },
     {
       "source": "aaa42b10d5",
-      "target": "58cda423b5",
-      "weight": 0.222,
-      "type": "thematic"
-    },
-    {
-      "source": "aaa42b10d5",
-      "target": "ff8ecd7f05",
-      "weight": 0.258,
+      "target": "16074bd7a2",
+      "weight": 0.764,
       "type": "thematic"
     },
     {
       "source": "aaa42b10d5",
       "target": "a5817792b6",
-      "weight": 0.775,
+      "weight": 0.702,
       "type": "thematic"
     },
     {
-      "source": "58cda423b5",
-      "target": "47a4f5a5eb",
-      "weight": 0.088,
+      "source": "aaa42b10d5",
+      "target": "731abfaf5c",
+      "weight": 0.272,
       "type": "thematic"
     },
     {
-      "source": "bcda74247c",
-      "target": "1782f60c23",
-      "weight": 0.269,
+      "source": "563f198d04",
+      "target": "f50c32a151",
+      "weight": 0.575,
       "type": "thematic"
     },
     {
-      "source": "d3cfc8bec2",
-      "target": "330595d81e",
-      "weight": 0.24,
+      "source": "16074bd7a2",
+      "target": "a5817792b6",
+      "weight": 0.136,
+      "type": "thematic"
+    },
+    {
+      "source": "16074bd7a2",
+      "target": "731abfaf5c",
+      "weight": 0.189,
+      "type": "thematic"
+    },
+    {
+      "source": "0f594ef6b0",
+      "target": "27c7f569ca",
+      "weight": 0.174,
+      "type": "thematic"
+    },
+    {
+      "source": "a1f60e2d67",
+      "target": "53e2efd28d",
+      "weight": 0.325,
+      "type": "thematic"
+    },
+    {
+      "source": "a5817792b6",
+      "target": "731abfaf5c",
+      "weight": 0.534,
+      "type": "thematic"
+    },
+    {
+      "source": "e318f46c86",
+      "target": "27c7f569ca",
+      "weight": 0.045,
+      "type": "thematic"
+    },
+    {
+      "source": "a35199006d",
+      "target": "f72d09fcfe",
+      "weight": 0.443,
       "type": "thematic"
     }
   ],
@@ -1207,7 +1261,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 6,
+      "count": 5,
       "error": null
     },
     "The Economist": {

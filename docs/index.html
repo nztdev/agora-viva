@@ -57,22 +57,49 @@ html[data-theme="light"] #src-sheet { background: var(--panel-bg); }
 html[data-theme="light"] .si:hover { background: rgba(0,0,0,0.04); }
 html[data-theme="light"] #onboard { background: var(--bg); }
 
-/* ── LARGE TEXT ── */
-html[data-textsize="large"] .slabel { font-size: 11px; }
-html[data-textsize="large"] .pill { font-size: 11px; padding: 4px 10px; }
-html[data-textsize="large"] #ptitle { font-size: 20px; }
-html[data-textsize="large"] #rscore { font-size: 13px; }
-html[data-textsize="large"] .src-outlet { font-size: 15px; }
-html[data-textsize="large"] .src-count { font-size: 15px; }
-html[data-textsize="large"] .shed { font-size: 14px; }
-html[data-textsize="large"] .sout { font-size: 11px; }
-html[data-textsize="large"] .fb { font-size: 12px; padding: 8px 16px; }
-html[data-textsize="large"] #ltext { font-size: 11px; }
-html[data-textsize="large"] #wordmark { font-size: 16px; }
-html[data-textsize="large"] #tagline { font-size: 11px; }
-html[data-textsize="large"] .ob-title { font-size: 26px; }
-html[data-textsize="large"] .ob-body { font-size: 16px; }
-html[data-textsize="large"] .nlabel { font-size: 13px !important; }
+/* ── TEXT SIZE — three tiers ── */
+/* small = original base (default, no attribute needed) */
+/* normal = slightly larger */
+html[data-textsize="normal"] .slabel { font-size: 11px; }
+html[data-textsize="normal"] .pill { font-size: 11px; padding: 4px 10px; }
+html[data-textsize="normal"] #ptitle { font-size: 20px; }
+html[data-textsize="normal"] #rscore { font-size: 13px; }
+html[data-textsize="normal"] .src-outlet { font-size: 15px; }
+html[data-textsize="normal"] .src-count { font-size: 15px; }
+html[data-textsize="normal"] .shed { font-size: 14px; }
+html[data-textsize="normal"] .sout { font-size: 11px; }
+html[data-textsize="normal"] .fb { font-size: 12px; padding: 8px 16px; }
+html[data-textsize="normal"] #ltext { font-size: 11px; }
+html[data-textsize="normal"] #wordmark { font-size: 16px; }
+html[data-textsize="normal"] #tagline { font-size: 11px; }
+html[data-textsize="normal"] .ob-title { font-size: 26px; }
+html[data-textsize="normal"] .ob-body { font-size: 16px; }
+html[data-textsize="normal"] .nlabel { font-size: 13px !important; }
+html[data-textsize="normal"] #country-label { font-size: 11px; }
+html[data-textsize="normal"] #country-select { font-size: 12px; }
+html[data-textsize="normal"] .lr { font-size: 11px; line-height: 2.6; }
+html[data-textsize="normal"] #legend { font-size: 11px; }
+
+/* large = even bigger */
+html[data-textsize="large"] .slabel { font-size: 13px; }
+html[data-textsize="large"] .pill { font-size: 13px; padding: 5px 12px; }
+html[data-textsize="large"] #ptitle { font-size: 24px; }
+html[data-textsize="large"] #rscore { font-size: 15px; }
+html[data-textsize="large"] .src-outlet { font-size: 17px; }
+html[data-textsize="large"] .src-count { font-size: 17px; }
+html[data-textsize="large"] .shed { font-size: 16px; }
+html[data-textsize="large"] .sout { font-size: 13px; }
+html[data-textsize="large"] .fb { font-size: 14px; padding: 10px 18px; }
+html[data-textsize="large"] #ltext { font-size: 13px; }
+html[data-textsize="large"] #wordmark { font-size: 18px; }
+html[data-textsize="large"] #tagline { font-size: 13px; }
+html[data-textsize="large"] .ob-title { font-size: 30px; }
+html[data-textsize="large"] .ob-body { font-size: 18px; }
+html[data-textsize="large"] .nlabel { font-size: 15px !important; }
+html[data-textsize="large"] #country-label { font-size: 13px; }
+html[data-textsize="large"] #country-select { font-size: 14px; }
+html[data-textsize="large"] .lr { font-size: 13px; line-height: 2.8; }
+html[data-textsize="large"] #legend { font-size: 13px; }
 
 /* ── SETTINGS BUTTON ── */
 #settings-btn{background:none;border:1px solid var(--border);color:var(--muted);width:28px;height:28px;border-radius:50%;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;transition:all 0.2s;-webkit-tap-highlight-color:transparent;pointer-events:all}
@@ -357,7 +384,8 @@ svg#graph{width:100%;height:100%;overflow:visible}
   <div class="set-row">
     <span class="set-label">Text size</span>
     <div class="set-toggle">
-      <button class="set-opt on" data-size="normal" onclick="setTextSize('normal')">normal</button>
+      <button class="set-opt on" data-size="small" onclick="setTextSize('small')">small</button>
+      <button class="set-opt" data-size="normal" onclick="setTextSize('normal')">normal</button>
       <button class="set-opt" data-size="large" onclick="setTextSize('large')">large</button>
     </div>
   </div>
@@ -930,25 +958,34 @@ function initGlobe(){
       }
 
       const tex=new THREE.CanvasTexture(fc);
-      const nodeR=0.055;
-      const nMesh=new THREE.Mesh(
-        new THREE.SphereGeometry(nodeR,20,20),
-        new THREE.MeshBasicMaterial({map:tex,transparent:true})
-      );
-      nMesh.position.copy(latLngToVec3(m.lat,m.lng,GLOBE_R*1.018));
-      globeGroup.add(nMesh);
+      // Use Sprite instead of sphere mesh — sprites always face the camera
+      // so the flag/code is always readable regardless of globe rotation
+      const spriteMat=new THREE.SpriteMaterial({map:tex,transparent:true,depthTest:false});
+      const sprite=new THREE.Sprite(spriteMat);
+      const spriteScale=0.18;
+      sprite.scale.set(spriteScale,spriteScale,1);
+      sprite.position.copy(latLngToVec3(m.lat,m.lng,GLOBE_R*1.06));
+      globeGroup.add(sprite);
 
-      // Pulse halo
+      // Invisible hit sphere at same position for raycasting (sprites aren't raycasted reliably)
+      const hitMesh=new THREE.Mesh(
+        new THREE.SphereGeometry(0.07,8,8),
+        new THREE.MeshBasicMaterial({transparent:true,opacity:0})
+      );
+      hitMesh.position.copy(latLngToVec3(m.lat,m.lng,GLOBE_R*1.06));
+      globeGroup.add(hitMesh);
+
+      // Subtle pulse halo behind sprite
       const halo=new THREE.Mesh(
-        new THREE.SphereGeometry(nodeR*1.8,8,8),
+        new THREE.SphereGeometry(0.055,8,8),
         new THREE.MeshBasicMaterial({color:0x4af4c2,transparent:true,opacity:0.10})
       );
-      halo.position.copy(nMesh.position);
+      halo.position.copy(latLngToVec3(m.lat,m.lng,GLOBE_R*1.01));
       globeGroup.add(halo);
 
       globeNodes.push({
         node:{id:cc,title:m.name,_isCountryMarker:true,_cc:cc,resonance:0.7},
-        mesh:nMesh,lat:m.lat,lng:m.lng
+        mesh:hitMesh,lat:m.lat,lng:m.lng
       });
     });
   } else {
@@ -1690,20 +1727,20 @@ function setTheme(t){
 }
 
 function setTextSize(s){
-  document.documentElement.setAttribute('data-textsize', s==='large'?'large':'');
+  if(s==='small') document.documentElement.removeAttribute('data-textsize');
+  else document.documentElement.setAttribute('data-textsize', s);
   localStorage.setItem('av_textsize',s);
   document.querySelectorAll('.set-opt[data-size]').forEach(b=>{
     b.classList.toggle('on',b.dataset.size===s);
   });
-  // Re-render field labels at new size if active
   if(viewMode==='field'&&fnodes.length) drawSVGLayer();
 }
 
 function applyStoredSettings(){
   const t=localStorage.getItem('av_theme')||'dark';
-  const s=localStorage.getItem('av_textsize')||'normal';
+  const s=localStorage.getItem('av_textsize')||'small';
   if(t!=='dark') setTheme(t);
-  if(s!=='normal') setTextSize(s);
+  if(s!=='small') setTextSize(s);
 }
 
 // Adapt node colours to current theme

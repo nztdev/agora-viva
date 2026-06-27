@@ -1,17 +1,51 @@
 {
-  "generated_at": "2026-06-27T19:41:04.184374+00:00",
+  "generated_at": "2026-06-27T20:59:34.741291+00:00",
   "node_count": 35,
-  "edge_count": 7,
+  "edge_count": 17,
   "nodes": [
     {
-      "id": "bf18e2681f",
-      "title": "Zuckerberg's Increasingly Bizarre War on Whistleblowers",
+      "id": "75e2a889b1",
+      "title": "Former Oklahoma state trooper Lance Schroyer nominated as ICE Director: Trump",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/trump-nominates-oklahoma-law-enforcement-veteran-lance-schroyer-lead-ice-permanent-director",
+          "headline": "Trump nominates Oklahoma law enforcement veteran Lance Schroyer to lead ICE as permanent director",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/former-oklahoma-state-trooper-lance-schroyer-nominated-as-ice-director-trump/article71155596.ece",
+          "headline": "Former Oklahoma state trooper Lance Schroyer nominated as ICE Director: Trump",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.25,
+        "spread": 0.35,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T20:36:23+00:00",
+      "last_seen": "2026-06-27T20:48:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.6578
+    },
+    {
+      "id": "bf3bb9237b",
+      "title": "Zuckerberg's war on whistleblowers",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
           "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2/",
-          "headline": "Zuckerberg's Increasingly Bizarre War on Whistleblowers",
+          "headline": "Zuckerberg's war on whistleblowers",
           "platform": "hackernews"
         }
       ],
@@ -60,14 +94,48 @@
       "resonance": 0.28
     },
     {
-      "id": "33f11881bc",
-      "title": "Terrorists storm paramilitary compound in Pakistan’s Karachi; four personnel killed",
+      "id": "d578a6b2fb",
+      "title": "Netanyahu hails Lebanon deal as Hezbollah rejects agreement",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260627-netanyahu-hails-lebanon-deal-as-hezbollah-rejects-agreement",
+          "headline": "Netanyahu hails Lebanon deal as Hezbollah rejects agreement",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-hails-lebanon-deal-blow-iran-and-hezbollah",
+          "headline": "Netanyahu hails Lebanon deal as ‘blow’ to Iran and Hezbollah",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.175,
+        "spread": 0.075,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T18:53:42+00:00",
+      "last_seen": "2026-06-27T20:08:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.4864
+    },
+    {
+      "id": "9f0d4e9ab2",
+      "title": "Six terrorists killed, one captured after Rangers’ base attack in Pakistan’s Karachi",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "The Hindu",
           "url": "https://www.thehindu.com/news/international/pakistan-karachi-explosion-gunfire-updates/article71155477.ece",
-          "headline": "Terrorists storm paramilitary compound in Pakistan’s Karachi; four personnel killed",
+          "headline": "Six terrorists killed, one captured after Rangers’ base attack in Pakistan’s Karachi",
           "platform": "rss"
         },
         {
@@ -85,13 +153,181 @@
         "right": 0
       },
       "first_seen": "2026-06-27T17:04:34+00:00",
-      "last_seen": "2026-06-27T19:20:51+00:00",
+      "last_seen": "2026-06-27T20:54:38+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.4159
+      "resonance": 0.3737
+    },
+    {
+      "id": "eff4322b4f",
+      "title": "Trump congratulates Lebanese president on Israel framework deal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-congratulates-lebanese-president-israel-framework-deal",
+          "headline": "Trump congratulates Lebanese president on Israel framework deal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:57:14+00:00",
+      "last_seen": "2026-06-27T20:57:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2776
+    },
+    {
+      "id": "02060930c3",
+      "title": "Heatwave breaks more records in northern and central Europe",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cx2vdydz31no?at_medium=RSS&at_campaign=rss",
+          "headline": "Heatwave breaks more records in northern and central Europe",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:48:16+00:00",
+      "last_seen": "2026-06-27T20:48:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.2518
+    },
+    {
+      "id": "f28375d571",
+      "title": "Venezuela Live Updates: Window Narrowing to Find Survivors as Quake Death Toll Surpasses 1,400",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/06/27/world/venezuela-earthquake",
+          "headline": "Venezuela Live Updates: Window Narrowing to Find Survivors as Quake Death Toll Surpasses 1,400",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:46:37+00:00",
+      "last_seen": "2026-06-27T20:46:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2472
+    },
+    {
+      "id": "6c4d795c38",
+      "title": "Elevated corridor on NH5 likely if T.N. waives GST on construction materials",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/chennai/elevated-corridor-on-nh5-likely-if-tn-waives-gst-on-construction-materials/article71155200.ece",
+          "headline": "Elevated corridor on NH5 likely if T.N. waives GST on construction materials",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:43:14+00:00",
+      "last_seen": "2026-06-27T20:43:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2376
+    },
+    {
+      "id": "279abf935a",
+      "title": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+          "headline": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:42:36+00:00",
+      "last_seen": "2026-06-27T20:42:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2358
+    },
+    {
+      "id": "26b960ac0c",
+      "title": "Israel’s far-right finance minister boasts of army’s destruction of Lebanese infrastructure",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israels-far-right-finance-minister-boasts-armys-destruction-lebanese",
+          "headline": "Israel’s far-right finance minister boasts of army’s destruction of Lebanese infrastructure",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:40:18+00:00",
+      "last_seen": "2026-06-27T20:40:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2294
     },
     {
       "id": "2f84ea5c98",
@@ -125,7 +361,231 @@
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.4121
+      "resonance": 0.2279
+    },
+    {
+      "id": "1accef9318",
+      "title": "Panama vs England: Saka, Rashford start for Three Lions in final World Cup group match",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260627-panama-vs-england-three-lions-target-top-spot-final-world-cup-group-match",
+          "headline": "Panama vs England: Saka, Rashford start for Three Lions in final World Cup group match",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:37:10+00:00",
+      "last_seen": "2026-06-27T20:37:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.2207
+    },
+    {
+      "id": "5651f65ac1",
+      "title": "DAVID MARCUS: As the nation bickers, small-town America still loves a parade",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/opinion/david-marcus-nation-bickers-small-town-america-still-loves-parade",
+          "headline": "DAVID MARCUS: As the nation bickers, small-town America still loves a parade",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T20:31:27+00:00",
+      "last_seen": "2026-06-27T20:31:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2049
+    },
+    {
+      "id": "bb9fec9b8c",
+      "title": "Housing shortage does not deter town from embracing migrants",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-28/naracoorte-migrant-economy-volunteerism-multiculturism/106798482",
+          "headline": "Housing shortage does not deter town from embracing migrants",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:30:46+00:00",
+      "last_seen": "2026-06-27T20:30:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.2031
+    },
+    {
+      "id": "b86fe3f34f",
+      "title": "12 Hours With Venezuelan Doctors Searching for Earthquake Survivors",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/27/world/americas/venezuela-earthquakes-doctors-rescues.html",
+          "headline": "12 Hours With Venezuelan Doctors Searching for Earthquake Survivors",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:30:22+00:00",
+      "last_seen": "2026-06-27T20:30:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.202
+    },
+    {
+      "id": "bdfcc70a89",
+      "title": "In the Ruins of Venezuela’s Earthquake, Civilians Volunteers Fill the Gaps",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/27/world/americas/venezuela-civilians-volunteers-earthquakes.html",
+          "headline": "In the Ruins of Venezuela’s Earthquake, Civilians Volunteers Fill the Gaps",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:30:17+00:00",
+      "last_seen": "2026-06-27T20:30:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2018
+    },
+    {
+      "id": "88c3bb74a8",
+      "title": "Mercury coach claims Alyssa Thomas suspension was based on 'social media screenshots' after Caitlin Clark foul",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/mercury-coach-claims-alyssa-thomas-suspension-based-social-media-screenshots-caitlin-clark-foul",
+          "headline": "Mercury coach claims Alyssa Thomas suspension was based on 'social media screenshots' after Caitlin Clark foul",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T20:30:13+00:00",
+      "last_seen": "2026-06-27T20:30:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2016
+    },
+    {
+      "id": "07ec76fad9",
+      "title": "Colombia vs Portugal LIVE: FIFA World Cup 2026",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/6/27/colombia-vs-portugal-live-fifa-world-cup-2026?traffic_source=rss",
+          "headline": "Colombia vs Portugal LIVE: FIFA World Cup 2026",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:30:00+00:00",
+      "last_seen": "2026-06-27T20:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.201
+    },
+    {
+      "id": "e5f8ae57e1",
+      "title": "West Asia war LIVE: Netanyahu says deal with Lebanon 'historic' for Israel",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-washington-tehran-ceasefire-strait-of-hormuz-israel-lebanon-peace-deal-live-updates-june-27-2026/article71153161.ece",
+          "headline": "West Asia war LIVE: Netanyahu says deal with Lebanon 'historic' for Israel",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:28:27+00:00",
+      "last_seen": "2026-06-27T20:28:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1968
     },
     {
       "id": "f67d8e0939",
@@ -171,73 +631,73 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.3774
+      "resonance": 0.1925
     },
     {
-      "id": "89f69097ad",
-      "title": "Police flag over 30 safety issues lurking on city roads",
+      "id": "4cada6059c",
+      "title": "Heather Graham sizzles in white bikini during South of France getaway",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/police-flag-over-30-safety-issues-lurking-on-city-roads/article71154921.ece",
-          "headline": "Police flag over 30 safety issues lurking on city roads",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/heather-graham-sizzles-white-bikini-during-south-france-getaway",
+          "headline": "Heather Graham sizzles in white bikini during South of France getaway",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": 0.6,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
-        "right": 0
+        "center": 0,
+        "right": 1
       },
-      "first_seen": "2026-06-27T19:35:24+00:00",
-      "last_seen": "2026-06-27T19:35:24+00:00",
+      "first_seen": "2026-06-27T20:25:56+00:00",
+      "last_seen": "2026-06-27T20:25:56+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.28
+      "topic": "world",
+      "resonance": 0.19
     },
     {
-      "id": "84b3f2c606",
-      "title": "Amid row, revised low-alcoholic beverages tax rates included in Finance Bill",
+      "id": "2a07b47ace",
+      "title": "Serbia’s President Aleksandar Vucic says will resign within ‘weeks’",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/amid-row-revised-low-alcoholic-beverages-tax-rates-included-in-finance-bill/article71155142.ece",
-          "headline": "Amid row, revised low-alcoholic beverages tax rates included in Finance Bill",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/27/serbias-president-aleksandar-vucic-says-will-resign-within-weeks?traffic_source=rss",
+          "headline": "Serbia’s President Aleksandar Vucic says will resign within ‘weeks’",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-27T19:33:52+00:00",
-      "last_seen": "2026-06-27T19:33:52+00:00",
+      "first_seen": "2026-06-27T20:23:44+00:00",
+      "last_seen": "2026-06-27T20:23:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.28
+      "resonance": 0.184
     },
     {
-      "id": "1c695da092",
-      "title": "Doctors hold HPV vaccine awareness rally",
+      "id": "d6a5257fb4",
+      "title": "Israel's Netanyahu welcomes US-brokered Lebanon agreement as far right condemns it",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/chennai/doctors-hold-hpv-vaccine-awareness-rally/article71154944.ece",
-          "headline": "Doctors hold HPV vaccine awareness rally",
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/06/27/israels-netanyahu-welcomes-us-brokered-lebanon-agreement-as-far-right-condemns-it",
+          "headline": "Israel's Netanyahu welcomes US-brokered Lebanon agreement as far right condemns it",
           "platform": "rss"
         }
       ],
@@ -248,14 +708,294 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-27T19:32:08+00:00",
-      "last_seen": "2026-06-27T19:32:08+00:00",
+      "first_seen": "2026-06-27T20:22:33+00:00",
+      "last_seen": "2026-06-27T20:22:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1809
+    },
+    {
+      "id": "9fa02a42bd",
+      "title": "Supreme Infra rebuilds itself, transitions from highly leveraged BOT player to EPC contractor",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/business/supreme-infra-rebuilds-itself-transitions-from-highly-leveraged-bot-player-to-epc-contractor/article71154510.ece",
+          "headline": "Supreme Infra rebuilds itself, transitions from highly leveraged BOT player to EPC contractor",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:16:18+00:00",
+      "last_seen": "2026-06-27T20:16:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1643
+    },
+    {
+      "id": "64edadc0c6",
+      "title": "Live: England takes on Panama with top spot on the line",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-28/world-cup-live-eng-pan-cro-gha-col-por-ronaldo-messi-arg-jor/106851162",
+          "headline": "Live: England takes on Panama with top spot on the line",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:15:00+00:00",
+      "last_seen": "2026-06-27T20:15:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1608
+    },
+    {
+      "id": "720f11803a",
+      "title": "Racist far-right Israeli lawmaker’s visit sparks school strike in Palestinian city",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/racist-far-right-israeli-lawmakers-visit-sparks-school-strike",
+          "headline": "Racist far-right Israeli lawmaker’s visit sparks school strike in Palestinian city",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:14:27+00:00",
+      "last_seen": "2026-06-27T20:14:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1594
+    },
+    {
+      "id": "4463662315",
+      "title": "Family's emotional message after fight against motor neuron disease",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-28/queensland-family-shares-experience-of-motor-neuron-disease/106762980",
+          "headline": "Family's emotional message after fight against motor neuron disease",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:03:50+00:00",
+      "last_seen": "2026-06-27T20:03:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1319
+    },
+    {
+      "id": "66d3872899",
+      "title": "Trump's face is added to select US passports for America's 250th birthday",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/ce3ewkdgw9ro?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump's face is added to select US passports for America's 250th birthday",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T20:03:26+00:00",
+      "last_seen": "2026-06-27T20:03:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1308
+    },
+    {
+      "id": "7752630bdb",
+      "title": "Venezuela earthquakes: death toll rises again to more than 1,400",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/jun/27/venezuela-earthquakes-death-toll-rises-jorge-rodriguez",
+          "headline": "Venezuela earthquakes: death toll rises again to more than 1,400",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T19:52:15+00:00",
+      "last_seen": "2026-06-27T19:52:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1026
+    },
+    {
+      "id": "977a1dcf08",
+      "title": "Two 13-year-old girls found dead after being swept away by Jordan River",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/two-13-year-old-girls-found-dead-after-being-swept-away-by-jordan-river/",
+          "headline": "Two 13-year-old girls found dead after being swept away by Jordan River",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T19:44:35+00:00",
+      "last_seen": "2026-06-27T19:44:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0836
+    },
+    {
+      "id": "e2a59c5324",
+      "title": "IDF says strike killed Oct. 7 terrorist commander, nephew of ex-Hamas chief Haniyeh",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/idf-says-strike-killed-oct-7-terrorist-commander-nephew-of-ex-hamas-chief-haniyeh/",
+          "headline": "IDF says strike killed Oct. 7 terrorist commander, nephew of ex-Hamas chief Haniyeh",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T19:42:40+00:00",
+      "last_seen": "2026-06-27T19:42:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.28
+      "resonance": 0.0789
+    },
+    {
+      "id": "34c4d0f873",
+      "title": "Critical fire weather complicates firefighting efforts in massive Utah wildfire",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/06/27/nx-s1-5873445/utah-wildfire-cottonwood-dry-weather",
+          "headline": "Critical fire weather complicates firefighting efforts in massive Utah wildfire",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T19:40:06+00:00",
+      "last_seen": "2026-06-27T19:40:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.0727
+    },
+    {
+      "id": "ed94376214",
+      "title": "Another powerful 4.8 magnitude earthquake hits near Venezuela",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/27/another-powerful-4-8-magnitude-earthquake-hits-near-venezuela?traffic_source=rss",
+          "headline": "Another powerful 4.8 magnitude earthquake hits near Venezuela",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T19:38:14+00:00",
+      "last_seen": "2026-06-27T19:38:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0682
     },
     {
       "id": "06d561e628",
@@ -283,820 +1023,110 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.28
-    },
-    {
-      "id": "2197c8279f",
-      "title": "Two killed, dozens injured in Israeli strike on displacement tents in Gaza",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/two-killed-dozens-injured-in-israeli-strike-on-displacement-tents-in-gaza?traffic_source=rss",
-          "headline": "Two killed, dozens injured in Israeli strike on displacement tents in Gaza",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/several-palestinians-injured-israeli-drone-strike-gaza-city-tent",
-          "headline": "Several Palestinians injured in Israeli drone strike on Gaza City tent",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T15:12:34+00:00",
-      "last_seen": "2026-06-27T18:50:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.2802
-    },
-    {
-      "id": "5a03962254",
-      "title": "Bedbug warning puts summer travelers on alert as top U.S. hot spots are revealed",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/travel/bedbug-warning-puts-summer-travelers-alert-top-us-hot-spots-revealed",
-          "headline": "Bedbug warning puts summer travelers on alert as top U.S. hot spots are revealed",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T19:28:14+00:00",
-      "last_seen": "2026-06-27T19:28:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.2752
-    },
-    {
-      "id": "2e03622148",
-      "title": "Thunderstorms delay hundreds of Heathrow and Gatwick flights",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cjwgynnwyw2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Thunderstorms delay hundreds of Heathrow and Gatwick flights",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T19:23:02+00:00",
-      "last_seen": "2026-06-27T19:23:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2643
-    },
-    {
-      "id": "c66cb5b64c",
-      "title": "Why is Crimea critical to the Russia–Ukraine war?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/6/27/why-is-crimea-critical-to-the-russia-ukraine?traffic_source=rss",
-          "headline": "Why is Crimea critical to the Russia–Ukraine war?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T19:22:00+00:00",
-      "last_seen": "2026-06-27T19:22:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2622
-    },
-    {
-      "id": "f28375d571",
-      "title": "Venezuela Live Updates: Window Narrowing to Find Survivors as Quake Death Toll Surpasses 1,400",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/27/world/venezuela-earthquake",
-          "headline": "Venezuela Live Updates: Window Narrowing to Find Survivors as Quake Death Toll Surpasses 1,400",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T19:17:05+00:00",
-      "last_seen": "2026-06-27T19:17:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2521
-    },
-    {
-      "id": "4b418824e9",
-      "title": "Israel orders troops to prepare for ‘extended stay’ in Lebanon",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/israel-orders-troops-to-prepare-for-extended-stay-in-lebanon?traffic_source=rss",
-          "headline": "Israel orders troops to prepare for ‘extended stay’ in Lebanon",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T19:12:39+00:00",
-      "last_seen": "2026-06-27T19:12:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.243
-    },
-    {
-      "id": "14d2e954a9",
-      "title": "Volunteers Are Risking Their Lives to Stop Ebola. They Aren’t Always Welcome.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/27/world/africa/ebola-outbreak-congo-volunteers-burials-backlash.html",
-          "headline": "Volunteers Are Risking Their Lives to Stop Ebola. They Aren’t Always Welcome.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T19:09:30+00:00",
-      "last_seen": "2026-06-27T19:09:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2366
-    },
-    {
-      "id": "70bcf4402c",
-      "title": "Live Updates: Mideast Hostilities Flare, Testing Fragile U.S.-Iran Truce",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/27/world/us-iran-strikes-hormuz",
-          "headline": "Live Updates: Mideast Hostilities Flare, Testing Fragile U.S.-Iran Truce",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T19:07:15+00:00",
-      "last_seen": "2026-06-27T19:07:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2321
-    },
-    {
-      "id": "2105952f46",
-      "title": "US Senate challenger, incumbent with same name to appear on Alaska ballot",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/27/us-senate-challenger-incumbent-with-same-name-to-appear-on-alaska-ballot?traffic_source=rss",
-          "headline": "US Senate challenger, incumbent with same name to appear on Alaska ballot",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T19:05:26+00:00",
-      "last_seen": "2026-06-27T19:05:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2285
-    },
-    {
-      "id": "3a02aa1448",
-      "title": "Venezuela quakes kill almost 1,500, with millions more in need",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/americas/article/3358619/venezuela-quakes-kill-almost-1500-millions-more-need?utm_source=rss_feed",
-          "headline": "Venezuela quakes kill almost 1,500, with millions more in need",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T19:02:52+00:00",
-      "last_seen": "2026-06-27T19:02:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2234
-    },
-    {
-      "id": "43cd54383e",
-      "title": "Georgia district quietly trained teachers to blame 'Whiteness,' 'decolonize' under federal crackdown: report",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/georgia-district-quietly-trained-teachers-blame-whiteness-decolonize-under-federal-crackdown-report",
-          "headline": "Georgia district quietly trained teachers to blame 'Whiteness,' 'decolonize' under federal crackdown: report",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T19:00:39+00:00",
-      "last_seen": "2026-06-27T19:00:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.219
-    },
-    {
-      "id": "2fff5d7ea9",
-      "title": "Egypt Manager Hossam Hassan Addresses Concerns Over Mohamed Salah's Left Knee Injury",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/egypt-manager-hossam-hassan-addresses-concerns-over-mohamed-salahs-left-knee-injury",
-          "headline": "Egypt Manager Hossam Hassan Addresses Concerns Over Mohamed Salah's Left Knee Injury",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T18:55:36+00:00",
-      "last_seen": "2026-06-27T18:55:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2091
-    },
-    {
-      "id": "c880d2da26",
-      "title": "Netanyahu hails Lebanon deal as ‘blow’ to Iran and Hezbollah",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-hails-lebanon-deal-blow-iran-and-hezbollah",
-          "headline": "Netanyahu hails Lebanon deal as ‘blow’ to Iran and Hezbollah",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T18:53:42+00:00",
-      "last_seen": "2026-06-27T18:53:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2054
-    },
-    {
-      "id": "d597a407a8",
-      "title": "Margaret Atwood says the problem with AI is &#8216;garbage in, garbage out&#8217;",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
-          "headline": "Margaret Atwood says the problem with AI is &#8216;garbage in, garbage out&#8217;",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T18:39:32+00:00",
-      "last_seen": "2026-06-27T18:39:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1784
-    },
-    {
-      "id": "cce617b27d",
-      "title": "Israeli far-right minister Ben-Gvir attacks Lebanon deal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-far-right-minister-ben-gvir-attacks-lebanon-deal",
-          "headline": "Israeli far-right minister Ben-Gvir attacks Lebanon deal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T18:29:10+00:00",
-      "last_seen": "2026-06-27T18:29:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1592
-    },
-    {
-      "id": "d5f242a372",
-      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
-          "headline": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:18:52+00:00",
-      "last_seen": "2026-06-27T09:18:52+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1565
-    },
-    {
-      "id": "c770f6bc0a",
-      "title": "Venezuela earthquakes: Nearly 7 million may be impacted — UN",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/venezuela-earthquakes-nearly-7-million-may-be-impacted-un/live-77699720?maca=en-rss-en-all-1573-rdf",
-          "headline": "Venezuela earthquakes: Nearly 7 million may be impacted — UN",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/americas/20260627-nearly-6-8-mn-people-may-be-affected-by-venezuela-quakes-un-says",
-          "headline": "🔴Nearly 6.8 million people may be affected by Venezuela quakes, UN says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T14:07:28+00:00",
-      "last_seen": "2026-06-27T17:43:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1546
-    },
-    {
-      "id": "793adb27a1",
-      "title": "Hungary holds first post-Orban Budapest Pride march",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/hungary-holds-first-post-orban-budapest-pride-march/a-77736596?maca=en-rss-en-all-1573-rdf",
-          "headline": "Hungary holds first post-Orban Budapest Pride march",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T18:23:00+00:00",
-      "last_seen": "2026-06-27T18:23:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1479
-    },
-    {
-      "id": "b557a61a84",
-      "title": "More than a gift, a lasting bond - Sponsored Content",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://toi.li/i58TPa",
-          "headline": "More than a gift, a lasting bond - Sponsored Content",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T18:12:09+00:00",
-      "last_seen": "2026-06-27T18:12:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1286
-    },
-    {
-      "id": "1dc10e608f",
-      "title": "62 Last Minute Prime Day Weekend Deals: Up to 45% Off (2026)",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/amazon-prime-day-absolute-best-deals-06-27-2026/",
-          "headline": "62 Last Minute Prime Day Weekend Deals: Up to 45% Off (2026)",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T18:01:21+00:00",
-      "last_seen": "2026-06-27T18:01:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1098
-    },
-    {
-      "id": "858bb21970",
-      "title": "John Bolton pleads guilty: Former US national security advisor misused classified information",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/trump-unloads-lunatic-john-bolton-ex-aide-pleads-guilty-classified-docs-case",
-          "headline": "Trump unloads on 'lunatic' John Bolton after ex-aide pleads guilty in classified docs case",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/john-bolton-pleads-guilty-former-us-national-security-advisor-misused-classified-information",
-          "headline": "John Bolton pleads guilty: Former US national security advisor misused classified information",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.25,
-        "spread": 0.35,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T12:31:32+00:00",
-      "last_seen": "2026-06-27T17:40:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.109
-    },
-    {
-      "id": "0d719152b0",
-      "title": "Israeli drone attack kills young girl in Gaza ‘safe zone’",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/6/27/israeli-drone-attack-kills-young-girl-in-gaza-safe-zone?traffic_source=rss",
-          "headline": "Israeli drone attack kills young girl in Gaza ‘safe zone’",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-attack-gaza-refugee-camp-kills-two-including-young-girl",
-          "headline": "Israel attack on Gaza refugee camp kills two, including a young girl",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T14:00:31+00:00",
-      "last_seen": "2026-06-27T15:53:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0669
-    },
-    {
-      "id": "0e9636cca4",
-      "title": "Rome celebrates 80 years of Italy's iconic Vespa scooter",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/rome-celebrates-80-years-of-italy-s-iconic-vespa-scooter/a-77735061?maca=en-rss-en-all-1573-rdf",
-          "headline": "Rome celebrates 80 years of Italy's iconic Vespa scooter",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260627-vespa-is-a-way-of-life-thousands-ride-through-rome-as-italy-s-iconic-scooter-turns-80",
-          "headline": "‘Vespa is a way of life’: Thousands ride through Rome as Italy’s iconic scooter turns 80",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T14:25:05+00:00",
-      "last_seen": "2026-06-27T14:51:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0628
-    },
-    {
-      "id": "ca85856527",
-      "title": "Apple wants permission to buy memory from a blacklisted Chinese supplier",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt",
-          "headline": "Apple wants permission to buy memory from a blacklisted Chinese supplier",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T17:28:18+00:00",
-      "last_seen": "2026-06-27T17:28:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0551
-    },
-    {
-      "id": "18e38856c4",
-      "title": "Venezuela twin quakes death toll tops 1,400 as tens of thousands remain missing",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/americas/20260625-venezuela-earthquakes-kill-nearly-1000-as-tens-of-thousands-missing",
-          "headline": "Venezuela twin quakes death toll tops 1,400 as tens of thousands remain missing",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/venezuela-tens-of-thousands-still-missing-after-twin-earthquakes",
-          "headline": "Venezuela: Tens of thousands still missing after twin earthquakes",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/americas/article/3358598/time-runs-out-thousands-missing-after-venezuela-earthquakes?utm_source=rss_feed",
-          "headline": "Time runs out for thousands missing after Venezuela earthquakes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.033,
-        "spread": 0.094,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T08:24:48+00:00",
-      "last_seen": "2026-06-27T17:32:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0539
-    },
-    {
-      "id": "d47f4b8faa",
-      "title": "In the shadow of Minab: Inside the US testing of 'new missiles' on Iran’s Lamerd",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-army-chief-holds-uk-talks-ceasefire-and-border-security",
-          "headline": "In the shadow of Minab: Inside the US testing of 'new missiles' on Iran’s Lamerd",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T17:25:07+00:00",
-      "last_seen": "2026-06-27T17:25:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "bf18e2681f",
-      "target": "c66cb5b64c",
-      "weight": 0.097,
+      "source": "bf3bb9237b",
+      "target": "e5f8ae57e1",
+      "weight": 0.155,
       "type": "thematic"
     },
     {
-      "source": "2197c8279f",
-      "target": "0d719152b0",
-      "weight": 0.172,
+      "source": "d578a6b2fb",
+      "target": "e5f8ae57e1",
+      "weight": 0.604,
+      "type": "thematic"
+    },
+    {
+      "source": "d578a6b2fb",
+      "target": "d6a5257fb4",
+      "weight": 0.712,
+      "type": "thematic"
+    },
+    {
+      "source": "eff4322b4f",
+      "target": "26b960ac0c",
+      "weight": 0.135,
+      "type": "thematic"
+    },
+    {
+      "source": "eff4322b4f",
+      "target": "2f84ea5c98",
+      "weight": 0.651,
+      "type": "thematic"
+    },
+    {
+      "source": "eff4322b4f",
+      "target": "e5f8ae57e1",
+      "weight": 0.155,
       "type": "thematic"
     },
     {
       "source": "f28375d571",
-      "target": "70bcf4402c",
-      "weight": 0.119,
+      "target": "7752630bdb",
+      "weight": 0.855,
       "type": "thematic"
     },
     {
-      "source": "f28375d571",
-      "target": "18e38856c4",
-      "weight": 0.549,
+      "source": "26b960ac0c",
+      "target": "2f84ea5c98",
+      "weight": 0.105,
       "type": "thematic"
     },
     {
-      "source": "70bcf4402c",
-      "target": "d47f4b8faa",
-      "weight": 0.229,
+      "source": "26b960ac0c",
+      "target": "d6a5257fb4",
+      "weight": 0.361,
       "type": "thematic"
     },
     {
-      "source": "3a02aa1448",
-      "target": "18e38856c4",
-      "weight": 0.126,
+      "source": "26b960ac0c",
+      "target": "720f11803a",
+      "weight": 0.018,
       "type": "thematic"
     },
     {
-      "source": "c880d2da26",
-      "target": "cce617b27d",
-      "weight": 0.194,
+      "source": "2f84ea5c98",
+      "target": "e5f8ae57e1",
+      "weight": 0.125,
+      "type": "thematic"
+    },
+    {
+      "source": "1accef9318",
+      "target": "07ec76fad9",
+      "weight": 0.221,
+      "type": "thematic"
+    },
+    {
+      "source": "1accef9318",
+      "target": "64edadc0c6",
+      "weight": 0.221,
+      "type": "thematic"
+    },
+    {
+      "source": "bdfcc70a89",
+      "target": "ed94376214",
+      "weight": 0.219,
+      "type": "thematic"
+    },
+    {
+      "source": "88c3bb74a8",
+      "target": "f67d8e0939",
+      "weight": 0.182,
+      "type": "thematic"
+    },
+    {
+      "source": "e5f8ae57e1",
+      "target": "d6a5257fb4",
+      "weight": 0.462,
+      "type": "thematic"
+    },
+    {
+      "source": "d6a5257fb4",
+      "target": "720f11803a",
+      "weight": 0.071,
       "type": "thematic"
     }
   ],
@@ -1212,8 +1242,8 @@
       "error": null
     },
     "ABC Australia": {
-      "ok": false,
-      "count": 0,
+      "ok": true,
+      "count": 20,
       "error": null
     },
     "El País (EN)": {

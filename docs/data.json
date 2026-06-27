@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-27T10:04:44.715774+00:00",
+  "generated_at": "2026-06-27T11:52:53.096240+00:00",
   "node_count": 35,
-  "edge_count": 6,
+  "edge_count": 2,
   "nodes": [
     {
       "id": "376824b74e",
@@ -30,6 +30,92 @@
       "geo_regions": [],
       "topic": "world",
       "resonance": 0.28
+    },
+    {
+      "id": "f8b7624bd1",
+      "title": "Iran says it hit US-linked targets as Bahrain reports drone attack",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-27/brk-iran-latest/106851316",
+          "headline": "Iran says it hit US-linked targets as Bahrain reports drone attack",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/iran-says-it-hits-us-linked-targets-as-bahrain-reports-drone-attack/article71154002.ece",
+          "headline": "Iran says it hit U.S.-linked targets as Bahrain reports drone attack",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:37:11+00:00",
+      "last_seen": "2026-06-27T11:49:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.4204
+    },
+    {
+      "id": "5b603ac98c",
+      "title": "US strikes Iran after attack on cargo ship",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/ckg590wqxwpo?at_medium=RSS&at_campaign=rss",
+          "headline": "US strikes Iran after attack on cargo ship",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/a-cargo-ship-in-the-strait-of-hormuz-targeted-by-iran",
+          "headline": "A cargo ship in the Strait of Hormuz targeted by Iran",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/06/27/nx-s1-5872954/us-strikes-iran",
+          "headline": "U.S. strikes Iran in response to a drone attack on a ship",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/26/world/middleeast/strait-of-hormuz-iran-attack.html",
+          "headline": "U.S. Strikes Iran in Retaliation for Attack on Vessel in Strait of Hormuz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/us-strikes-iran-after-attack-on-cargo-ship-vance-vows-violence-will-be-met-with-violence/",
+          "headline": "US strikes Iran after attack on cargo ship; Vance vows ‘violence will be met with violence’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.122,
+        "left": 1,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T01:32:18+00:00",
+      "last_seen": "2026-06-27T10:40:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.3727
     },
     {
       "id": "4775882e79",
@@ -69,379 +155,51 @@
       ],
       "geo_regions": [],
       "topic": "climate",
-      "resonance": 0.49
+      "resonance": 0.2623
     },
     {
-      "id": "5b603ac98c",
-      "title": "US strikes Iran after attack on cargo ship",
-      "signal_count": 6,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/a-cargo-ship-in-the-strait-of-hormuz-targeted-by-iran",
-          "headline": "A cargo ship in the Strait of Hormuz targeted by Iran",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/ckg590wqxwpo?at_medium=RSS&at_campaign=rss",
-          "headline": "US strikes Iran after attack on cargo ship",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/06/27/us-launches-strikes-against-iran-following-drone-attack-on-cargo-ship",
-          "headline": "US launches strikes against Iran following drone attack on cargo ship",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/06/27/nx-s1-5872954/us-strikes-iran",
-          "headline": "U.S. strikes Iran in response to a drone attack on a ship",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/26/world/middleeast/strait-of-hormuz-iran-attack.html",
-          "headline": "U.S. Strikes Iran in Retaliation for Attack on Vessel in Strait of Hormuz",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/us-strikes-iran-after-attack-on-cargo-ship-vance-vows-violence-will-be-met-with-violence/",
-          "headline": "US strikes Iran after attack on cargo ship; Vance vows ‘violence will be met with violence’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.112,
-        "left": 1,
-        "center": 5,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T01:32:18+00:00",
-      "last_seen": "2026-06-27T08:44:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.4794
-    },
-    {
-      "id": "b5d9bfcbe9",
-      "title": "US allows partial release of Anthropic's Mythos AI model",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/us-allows-partial-release-of-anthropic-s-mythos-ai-model/a-77732252?maca=en-rss-en-all-1573-rdf",
-          "headline": "US allows partial release of Anthropic's Mythos AI model",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/business/2026/06/27/tech/anthropic-mythos-ai-us-use/",
-          "headline": "Anthropic’s Mythos 5 AI model cleared by U.S. for wider use",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations",
-          "headline": "Anthropic&#8217;s Mythos 5 is back",
-          "platform": "rss"
-        },
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/anthropic-restores-access-to-mythos/",
-          "headline": "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.043,
-        "left": 0,
-        "center": 4,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T00:26:14+00:00",
-      "last_seen": "2026-06-27T09:52:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.4232
-    },
-    {
-      "id": "99ab4f1a08",
-      "title": "Discovery of fish-eating raptor in Argentina points to prehistoric links with China",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/science/article/3358595/discovery-fish-eating-raptor-argentina-points-prehistoric-links-china?utm_source=rss_feed",
-          "headline": "Discovery of fish-eating raptor in Argentina points to prehistoric links with China",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T10:00:06+00:00",
-      "last_seen": "2026-06-27T10:00:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.1694
-    },
-    {
-      "id": "98630dc5d1",
-      "title": "As Supreme Court expands Trump's immigration power, experts warn of steeper U.S. population decline",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/06/27/nx-s1-5871338/tps-population-scotus-immigration-trump",
-          "headline": "As Supreme Court expands Trump's immigration power, experts warn of steeper U.S. population decline",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T10:00:00+00:00",
-      "last_seen": "2026-06-27T10:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1692
-    },
-    {
-      "id": "fee10b09cd",
-      "title": "West Asia war LIVE: Bahrain accuses Iran of launching a drone attack targeting the island kingdom",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-washington-tehran-ceasefire-strait-of-hormuz-israel-lebanon-peace-deal-live-updates-june-27-2026/article71153161.ece",
-          "headline": "West Asia war LIVE: Bahrain accuses Iran of launching a drone attack targeting the island kingdom",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:59:41+00:00",
-      "last_seen": "2026-06-27T09:59:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1685
-    },
-    {
-      "id": "0d848af6d6",
-      "title": "Former Kolkata councillor Tarakeswar Chakraborty arrested on cheating, forgery charges",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/kolkata/former-kolkata-councillor-tarakeswar-chakraborty-arrested-on-cheating-forgery-charges/article71154000.ece",
-          "headline": "Former Kolkata councillor Tarakeswar Chakraborty arrested on cheating, forgery charges",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:58:15+00:00",
-      "last_seen": "2026-06-27T09:58:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1658
-    },
-    {
-      "id": "ed0d3b6fe1",
-      "title": "Here’s the latest.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/27/world/us-iran-strikes-hormuz/heres-the-latest",
-          "headline": "Here’s the latest.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:57:31+00:00",
-      "last_seen": "2026-06-27T09:57:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1643
-    },
-    {
-      "id": "dc8735c2f5",
-      "title": "Warehouse collapse: Mazdoor Cell seeks FIR against former mayor Firhad Hakim, two ex-councillors",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/kolkata/warehouse-collapse-mazdoor-cell-seeks-fir-against-former-mayor-firhad-hakim-two-ex-councillors/article71153990.ece",
-          "headline": "Warehouse collapse: Mazdoor Cell seeks FIR against former mayor Firhad Hakim, two ex-councillors",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:57:28+00:00",
-      "last_seen": "2026-06-27T09:57:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1642
-    },
-    {
-      "id": "d47f4b8faa",
-      "title": "In the shadow of Minab: Inside the US testing of 'new missiles' on Iran’s Lamerd",
+      "id": "f46b353beb",
+      "title": "Venezuela: Tens of thousands still missing after twin earthquakes",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/shadow-minab-inside-us-testing-new-missiles-irans-lamerd",
-          "headline": "In the shadow of Minab: Inside the US testing of 'new missiles' on Iran’s Lamerd",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/venezuela-tens-of-thousands-still-missing-after-twin-earthquakes",
+          "headline": "Venezuela: Tens of thousands still missing after twin earthquakes",
           "platform": "rss"
         },
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/shadow-minab-inside-us-testing-new-missiles-irans-lamerd",
-          "headline": "In the shadow of Minab: Inside the US testing of 'new missiles' on Iran’s Lamerd",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:15:37+00:00",
-      "last_seen": "2026-06-27T09:54:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1635
-    },
-    {
-      "id": "436a288f86",
-      "title": "Tanker hit by unidentified projectile in Strait of Hormuz",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-hit-unidentified-projectile-strait-hormuz",
-          "headline": "Tanker hit by unidentified projectile in Strait of Hormuz",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:52:11+00:00",
-      "last_seen": "2026-06-27T09:52:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1541
-    },
-    {
-      "id": "bdb23f5ad8",
-      "title": "Should we fear an AI bubble bust?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/business/2026/06/27/markets/ai-bubble-fears/",
-          "headline": "Should we fear an AI bubble bust?",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/americas/article/3358598/time-runs-out-thousands-missing-after-venezuela-earthquakes?utm_source=rss_feed",
+          "headline": "Time runs out for thousands missing after Venezuela earthquakes",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": 0.0,
-        "spread": 0.0,
+        "spread": 0.1,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-06-27T09:49:00+00:00",
-      "last_seen": "2026-06-27T09:49:00+00:00",
+      "first_seen": "2026-06-27T08:24:48+00:00",
+      "last_seen": "2026-06-27T10:33:23+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.148
+      "topic": "world",
+      "resonance": 0.1793
     },
     {
-      "id": "87fd86e313",
-      "title": "Military-age Ukrainian men could lose EU protection",
+      "id": "f4dad1c086",
+      "title": "Ram Temple donation row: Champat Rai, Anil Mishra resign",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/military-age-ukrainian-men-could-lose-eu-protection/a-77729285?maca=en-rss-en-all-1573-rdf",
-          "headline": "Military-age Ukrainian men could lose EU protection",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/ram-temple-donation-row-champat-rai-anil-mishra-resign/article71154173.ece",
+          "headline": "Ram Temple donation row: Champat Rai, Anil Mishra resign",
           "platform": "rss"
         }
       ],
@@ -452,24 +210,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-27T09:45:00+00:00",
-      "last_seen": "2026-06-27T09:45:00+00:00",
+      "first_seen": "2026-06-27T11:50:42+00:00",
+      "last_seen": "2026-06-27T11:50:42+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1404
+      "resonance": 0.1774
     },
     {
-      "id": "79aa19eea1",
-      "title": "Austria coach dismisses conspiracy talk ahead of Algeria World Cup match",
+      "id": "b8bf31ced6",
+      "title": "When K. Bhagyaraj reimagined an MGR movie: The origin of ‘Avasara Police 100’",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260627-world-cup-2026-austria-coach-dismisses-conspiracy-talk-ahead-of-algeria-world-cup-match",
-          "headline": "Austria coach dismisses conspiracy talk ahead of Algeria World Cup match",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/entertainment/movies/k-bhagyaraj-death-bhagjyaraj-obit-bhagyaraj-mgr-film-avasara-police-100-bhagyaraj-tributes/article71154174.ece",
+          "headline": "When K. Bhagyaraj reimagined an MGR movie: The origin of ‘Avasara Police 100’",
           "platform": "rss"
         }
       ],
@@ -480,24 +238,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-27T09:43:54+00:00",
-      "last_seen": "2026-06-27T09:43:54+00:00",
+      "first_seen": "2026-06-27T11:49:59+00:00",
+      "last_seen": "2026-06-27T11:49:59+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1384
+      "topic": "society",
+      "resonance": 0.1762
     },
     {
-      "id": "600ed901b2",
-      "title": "Is Andy Burnham Labour's saviour, or just its best bet?",
+      "id": "6c77cd67da",
+      "title": "24-year old woman dies after falling from  hilltop in Kalugumalai",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c621e13n2dvo?at_medium=RSS&at_campaign=rss",
-          "headline": "Is Andy Burnham Labour's saviour, or just its best bet?",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Madurai/24-year-old-woman-dies-after-falling-from-hilltop-in-kalugumalai/article71153933.ece",
+          "headline": "24-year old woman dies after falling from  hilltop in Kalugumalai",
           "platform": "rss"
         }
       ],
@@ -508,468 +266,14 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-27T09:43:41+00:00",
-      "last_seen": "2026-06-27T09:43:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.138
-    },
-    {
-      "id": "c3a14c6fdd",
-      "title": "New US-Lebanon-Israel agreement signed",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/new-us-lebanon-israel-agreement-signed",
-          "headline": "New US-Lebanon-Israel agreement signed",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/what-the14-point-lebanon-israel-framework-agreement-actually-says",
-          "headline": "What the 14-point Lebanon-Israel framework agreement actually says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.175,
-        "spread": 0.075,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T05:53:10+00:00",
-      "last_seen": "2026-06-27T08:46:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.137
-    },
-    {
-      "id": "31ab7075da",
-      "title": "French heatwave packs hotels as city dwellers struggle to sleep",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3358605/french-heatwave-packs-hotels-city-dwellers-struggle-sleep?utm_source=rss_feed",
-          "headline": "French heatwave packs hotels as city dwellers struggle to sleep",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:42:48+00:00",
-      "last_seen": "2026-06-27T09:42:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.1363
-    },
-    {
-      "id": "2d0b28dda2",
-      "title": "Why are Hong Kong, mainland China universities gaining ground in global rankings?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/education/article/3358602/why-are-hong-kong-mainland-china-universities-gaining-ground-global-rankings?utm_source=rss_feed",
-          "headline": "Why are Hong Kong, mainland China universities gaining ground in global rankings?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:37:33+00:00",
-      "last_seen": "2026-06-27T09:37:33+00:00",
+      "first_seen": "2026-06-27T11:49:37+00:00",
+      "last_seen": "2026-06-27T11:49:37+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1265
-    },
-    {
-      "id": "958d3dee65",
-      "title": "Trump’s Vow to ‘Run’ Venezuela Is Tested After Quakes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/06/26/world/venezuela-earthquake",
-          "headline": "Trump’s Vow to ‘Run’ Venezuela Is Tested After Quakes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:35:02+00:00",
-      "last_seen": "2026-06-27T09:35:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1219
-    },
-    {
-      "id": "6da5e5cc37",
-      "title": "FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/6/27/fifa-world-cup-2026-saturday-schedule-round-of-32-standings-predictions?traffic_source=rss",
-          "headline": "FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:35:01+00:00",
-      "last_seen": "2026-06-27T09:35:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1219
-    },
-    {
-      "id": "2820187d16",
-      "title": "Child succumbs to injuries from Israeli attack on Gaza as death toll rises to 73,043",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/child-succumbs-injuries-israeli-attack-gaza-death-toll-rises-73043",
-          "headline": "Child succumbs to injuries from Israeli attack on Gaza as death toll rises to 73,043",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:29:22+00:00",
-      "last_seen": "2026-06-27T09:29:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1115
-    },
-    {
-      "id": "b333ab9697",
-      "title": "Live: Vixens and Fever meet for place in Super Netball grand final",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-27/super-netball-live-melbourne-vixens-west-coast-fever-finals/106847510",
-          "headline": "Live: Vixens and Fever meet for place in Super Netball grand final",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:24:02+00:00",
-      "last_seen": "2026-06-27T09:24:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1019
-    },
-    {
-      "id": "f08bf94a4c",
-      "title": "Two tropical storms bring heavy rains to parts of Japan",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/06/27/japan/tropical-storm-higos-mekkhala/",
-          "headline": "Two tropical storms bring heavy rains to parts of Japan",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:23:00+00:00",
-      "last_seen": "2026-06-27T09:23:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1001
-    },
-    {
-      "id": "b3f428f80c",
-      "title": "Iran says any violation of shipping instructions through strait will be met decisively",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-any-violation-shipping-instructions-through-strait-will-be-met",
-          "headline": "Iran says any violation of shipping instructions through strait will be met decisively",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:20:14+00:00",
-      "last_seen": "2026-06-27T09:20:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0952
-    },
-    {
-      "id": "01cc74f304",
-      "title": "Lebanon and Israel sign framework agreement in Washington for 'lasting peace and security'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/06/27/lebanon-and-israel-sign-framework-agreement-in-washington-for-lasting-peace-and-security_6754926_4.html",
-          "headline": "Lebanon and Israel sign framework agreement in Washington for 'lasting peace and security'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:12:28+00:00",
-      "last_seen": "2026-06-27T09:12:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0815
-    },
-    {
-      "id": "123244494e",
-      "title": "Venezuela’s Economy Was On the Rise. Then the Earthquakes Struck.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/27/world/americas/venezuelas-economy-earthquake.html",
-          "headline": "Venezuela’s Economy Was On the Rise. Then the Earthquakes Struck.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:02:39+00:00",
-      "last_seen": "2026-06-27T09:02:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0646
-    },
-    {
-      "id": "83d79d8ed8",
-      "title": "Inside a secretive Ukrainian team launching deep drone strikes at Russia",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/06/27/g-s1-129704/ukraine-long-range-drones-russia-war",
-          "headline": "Inside a secretive Ukrainian team launching deep drone strikes at Russia",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:02:00+00:00",
-      "last_seen": "2026-06-27T09:02:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0635
-    },
-    {
-      "id": "6359b41357",
-      "title": "Trump's endorsement power faces new test in Louisiana Republican Senate showdown",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/trumps-endorsement-power-faces-new-test-louisiana-republican-senate-showdown",
-          "headline": "Trump's endorsement power faces new test in Louisiana Republican Senate showdown",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T09:00:20+00:00",
-      "last_seen": "2026-06-27T09:00:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0607
-    },
-    {
-      "id": "b5579afa89",
-      "title": "What would George Washington say? It's a busy year for people who portray him",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/06/27/nx-s1-5816415/america-250-george-washington-reenactors",
-          "headline": "What would George Washington say? It's a busy year for people who portray him",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:00:00+00:00",
-      "last_seen": "2026-06-27T09:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0601
-    },
-    {
-      "id": "b3ef30625c",
-      "title": "Unease deepens in Russia as Ukraine steps up long-range strikes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/06/27/unease-deepens-russia-ukraine-steps-up-long-range-strikes/",
-          "headline": "Unease deepens in Russia as Ukraine steps up long-range strikes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:00:00+00:00",
-      "last_seen": "2026-06-27T09:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0601
-    },
-    {
-      "id": "5dd0cdac9c",
-      "title": "Why Venezuela’s Second Earthquake Was So Damaging to Buildings",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/why-venezuelas-second-earthquake-so-damaging-to-buildings/",
-          "headline": "Why Venezuela’s Second Earthquake Was So Damaging to Buildings",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T09:00:00+00:00",
-      "last_seen": "2026-06-27T09:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0601
+      "resonance": 0.1756
     },
     {
       "id": "9d45fb6a02",
@@ -990,107 +294,761 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-27T08:56:49+00:00",
-      "last_seen": "2026-06-27T08:56:49+00:00",
+      "first_seen": "2026-06-27T11:37:57+00:00",
+      "last_seen": "2026-06-27T11:37:57+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0547
+      "resonance": 0.1557
     },
     {
-      "id": "10b654bdd9",
-      "title": "Venezuela earthquakes kill 920 people as international rescue teams arrive",
+      "id": "75896c32e1",
+      "title": "Hundreds of Heathrow and Gatwick flights delayed due to thunderstorms",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c39y79g7gzko?at_medium=RSS&at_campaign=rss",
-          "headline": "Venezuela earthquakes kill 920 people as international rescue teams arrive",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cjwgynnwyw2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Hundreds of Heathrow and Gatwick flights delayed due to thunderstorms",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-27T08:56:30+00:00",
-      "last_seen": "2026-06-27T08:56:30+00:00",
+      "first_seen": "2026-06-27T11:33:02+00:00",
+      "last_seen": "2026-06-27T11:33:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1474
+    },
+    {
+      "id": "ae582152b9",
+      "title": "The Strange American State Fair",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/culture/2026/06/great-state-fair-trump/687719/?utm_source=feed",
+          "headline": "The Strange American State Fair",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:30:00+00:00",
+      "last_seen": "2026-06-27T11:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1424
+    },
+    {
+      "id": "70bcf4402c",
+      "title": "Live Updates: Mideast Hostilities Flare, Testing Fragile U.S.-Iran Truce",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/06/27/world/us-iran-strikes-hormuz",
+          "headline": "Live Updates: Mideast Hostilities Flare, Testing Fragile U.S.-Iran Truce",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:26:17+00:00",
+      "last_seen": "2026-06-27T11:26:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1363
+    },
+    {
+      "id": "6251c51e6e",
+      "title": "Body found in search for teenage swimmer in lake",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c74yjm3jdmvo?at_medium=RSS&at_campaign=rss",
+          "headline": "Body found in search for teenage swimmer in lake",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:23:57+00:00",
+      "last_seen": "2026-06-27T11:23:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1325
+    },
+    {
+      "id": "be79bca5d5",
+      "title": "Hezbollah supporters protest in Beirut against Israel deal",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-supporters-protest-beirut-against-israel-deal",
+          "headline": "Hezbollah supporters protest in Beirut against Israel deal",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/hezbollah-supporters-protest-beirut-against-israel-deal",
+          "headline": "Hezbollah supporters protest in Beirut against Israel deal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 2,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:13:12+00:00",
+      "last_seen": "2026-06-27T11:21:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1299
+    },
+    {
+      "id": "88b1fa859c",
+      "title": "U.S.-Iran Deal’s Vague Language Comes Back to Haunt Peace Efforts",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/27/world/middleeast/us-iran-deal-vague-language.html",
+          "headline": "U.S.-Iran Deal’s Vague Language Comes Back to Haunt Peace Efforts",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:19:31+00:00",
+      "last_seen": "2026-06-27T11:19:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1253
+    },
+    {
+      "id": "ff9ec462b1",
+      "title": "Iran says more ships seek Hormuz transit permits after warning shots fired",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-more-ships-seek-hormuz-transit-permits-after-warning-shots",
+          "headline": "Iran says more ships seek Hormuz transit permits after warning shots fired",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:19:15+00:00",
+      "last_seen": "2026-06-27T11:19:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1249
+    },
+    {
+      "id": "ac4d46086c",
+      "title": "Ronaldo, Portugal play Colombia in World Cup: Prediction, kickoff, schedule",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/6/27/colombia-portugal-fifa-world-cup-2026-schedule-ronaldo-prediction?traffic_source=rss",
+          "headline": "Ronaldo, Portugal play Colombia in World Cup: Prediction, kickoff, schedule",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:13:32+00:00",
+      "last_seen": "2026-06-27T11:13:32+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.0542
+      "resonance": 0.1157
     },
     {
-      "id": "30ca1a7cae",
-      "title": "Japan to draw up energy-related package by end of August",
+      "id": "d98d10f6c2",
+      "title": "Israeli media: Israel’s ‘goal from the start’ was leading Lebanon into civil war",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/06/27/japan/japan-energy-risk-package/",
-          "headline": "Japan to draw up energy-related package by end of August",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-media-leading-lebanon-civil-war-israels-goal-start",
+          "headline": "Israeli media: Israel’s ‘goal from the start’ was leading Lebanon into civil war",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:10:39+00:00",
+      "last_seen": "2026-06-27T11:10:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1112
+    },
+    {
+      "id": "5594cb0a7e",
+      "title": "Apple and Audi alumni have made a luxe EV based on the moon buggy",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/cars/2026/06/apple-and-audi-alumni-have-made-a-luxe-ev-based-on-the-moon-buggy/",
+          "headline": "Apple and Audi alumni have made a luxe EV based on the moon buggy",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-27T08:54:00+00:00",
-      "last_seen": "2026-06-27T08:54:00+00:00",
+      "first_seen": "2026-06-27T11:07:05+00:00",
+      "last_seen": "2026-06-27T11:07:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1056
+    },
+    {
+      "id": "52c88e4ee6",
+      "title": "Germany news: Heat soars as political reforms split opinion",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/germany-news-heat-soars-as-political-reforms-split-opinion/live-77733670?maca=en-rss-en-all-1573-rdf",
+          "headline": "Germany news: Heat soars as political reforms split opinion",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:04:00+00:00",
+      "last_seen": "2026-06-27T11:04:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
+      "resonance": 0.1008
+    },
+    {
+      "id": "ed0d3b6fe1",
+      "title": "Here’s the latest.",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/06/27/world/us-iran-strikes-hormuz/heres-the-latest",
+          "headline": "Here’s the latest.",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:02:59+00:00",
+      "last_seen": "2026-06-27T11:02:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0992
+    },
+    {
+      "id": "16b415d58a",
+      "title": "Duer’s Wear-Everywhere Pants Are on Sale This Weekend",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/save-on-some-stellar-pants-during-a-rare-duer-sale/",
+          "headline": "Duer’s Wear-Everywhere Pants Are on Sale This Weekend",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:01:00+00:00",
+      "last_seen": "2026-06-27T11:01:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0961
+    },
+    {
+      "id": "5547bd261d",
+      "title": "Firefighter brother of 9/11 victim incensed by 'radical' Muslims winning key Dem primaries",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/firefighter-brother-911-victim-incensed-radical-muslims-winning-key-dem-primaries",
+          "headline": "Firefighter brother of 9/11 victim incensed by 'radical' Muslims winning key Dem primaries",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T11:00:24+00:00",
+      "last_seen": "2026-06-27T11:00:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0952
+    },
+    {
+      "id": "d40dfbe0c2",
+      "title": "YouTuber's online friend recalls graphic video threatening her before supermarket shooting",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/youtubers-online-friend-recalls-graphic-video-threatening-supermarket-shooting",
+          "headline": "YouTuber's online friend recalls graphic video threatening her before supermarket shooting",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T11:00:21+00:00",
+      "last_seen": "2026-06-27T11:00:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.0951
+    },
+    {
+      "id": "f2b2526219",
+      "title": "UK maritime agency raises Strait of Hormuz threat level after oil tanker reports being struck",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/06/27/uk-maritime-agency-raises-strait-of-hormuz-threat-level-after-oil-tanker-reports-being-str",
+          "headline": "UK maritime agency raises Strait of Hormuz threat level after oil tanker reports being struck",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:00:11+00:00",
+      "last_seen": "2026-06-27T11:00:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0949
+    },
+    {
+      "id": "1b51c76127",
+      "title": "Broadcast networks tout Mamdani’s victories, proclaim socialism is ‘resonating’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/opinion/broadcast-networks-tout-mamdanis-victories-proclaim-socialism-resonating",
+          "headline": "Broadcast networks tout Mamdani’s victories, proclaim socialism is ‘resonating’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T11:00:02+00:00",
+      "last_seen": "2026-06-27T11:00:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0946
+    },
+    {
+      "id": "d73c866728",
+      "title": "Vance vs. Rubio: Iran Edition",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/national-security/2026/06/lebanon-israel-us-mou-vance-rubio/687715/?utm_source=feed",
+          "headline": "Vance vs. Rubio: Iran Edition",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:00:00+00:00",
+      "last_seen": "2026-06-27T11:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0946
+    },
+    {
+      "id": "e0320776d3",
+      "title": "Higher Ed Is Very Sorry",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/ideas/2026/06/higher-education-universities-public-trust/687714/?utm_source=feed",
+          "headline": "Higher Ed Is Very Sorry",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T11:00:00+00:00",
+      "last_seen": "2026-06-27T11:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0946
+    },
+    {
+      "id": "0a2acaf243",
+      "title": "Settler and masked soldier allegedly break into Hebron mosque, disrupt call to prayer",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/settler-and-masked-soldier-allegedly-break-into-hebron-mosque-disrupt-call-to-prayer/",
+          "headline": "Settler and masked soldier allegedly break into Hebron mosque, disrupt call to prayer",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T10:51:32+00:00",
+      "last_seen": "2026-06-27T10:51:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0817
+    },
+    {
+      "id": "0db8a7a984",
+      "title": "US Navy: Oman route through Hormuz expanding to facilitate traffic",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-navy-oman-route-through-hormuz-expanding-facilitate-traffic",
+          "headline": "US Navy: Oman route through Hormuz expanding to facilitate traffic",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T10:41:00+00:00",
+      "last_seen": "2026-06-27T10:41:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.066
+    },
+    {
+      "id": "ee0e22ea64",
+      "title": "Could Israel’s coming election see an end to Netanyahu’s political career?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/27/could-israels-coming-election-see-an-end-to-netanyahus-political-career?traffic_source=rss",
+          "headline": "Could Israel’s coming election see an end to Netanyahu’s political career?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T10:35:08+00:00",
+      "last_seen": "2026-06-27T10:35:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0574
+    },
+    {
+      "id": "55a57941a7",
+      "title": "US, Iran trade strikes: What to know, will it unravel the MoU?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/27/us-iran-trade-strikes-what-to-know-will-it-unravel-the-mou?traffic_source=rss",
+          "headline": "US, Iran trade strikes: What to know, will it unravel the MoU?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T10:32:24+00:00",
+      "last_seen": "2026-06-27T10:32:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.0535
+    },
+    {
+      "id": "07ba9576ba",
+      "title": "Does DeleteMe Actually Get Your Info off the Internet? I Tried It",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/i-tried-deleteme-the-original-data-broker-removal-service/",
+          "headline": "Does DeleteMe Actually Get Your Info off the Internet? I Tried It",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T10:31:00+00:00",
+      "last_seen": "2026-06-27T10:31:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0514
+    },
+    {
+      "id": "e35b346c24",
+      "title": "France cruise past Norway 4-1",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/france-cruise-past-norway-4-1",
+          "headline": "France cruise past Norway 4-1",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T10:30:46+00:00",
+      "last_seen": "2026-06-27T10:30:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0511
+    },
+    {
+      "id": "ace6783bdf",
+      "title": "If a Lyme disease vaccine gets approved, how would it go over? We asked hunters",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/06/27/nx-s1-5859907/lyme-disease-vaccine-hesitancy-rural-hunters",
+          "headline": "If a Lyme disease vaccine gets approved, how would it go over? We asked hunters",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T10:30:00+00:00",
+      "last_seen": "2026-06-27T10:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
+      "source": "f8b7624bd1",
+      "target": "5b603ac98c",
+      "weight": 0.318,
+      "type": "thematic"
+    },
+    {
       "source": "5b603ac98c",
-      "target": "fee10b09cd",
-      "weight": 0.164,
-      "type": "thematic"
-    },
-    {
-      "source": "98630dc5d1",
-      "target": "6359b41357",
-      "weight": 0.06,
-      "type": "thematic"
-    },
-    {
-      "source": "fee10b09cd",
-      "target": "83d79d8ed8",
-      "weight": 0.105,
-      "type": "thematic"
-    },
-    {
-      "source": "79aa19eea1",
-      "target": "6da5e5cc37",
-      "weight": 0.13,
-      "type": "thematic"
-    },
-    {
-      "source": "123244494e",
-      "target": "10b654bdd9",
-      "weight": 0.246,
-      "type": "thematic"
-    },
-    {
-      "source": "83d79d8ed8",
-      "target": "b3ef30625c",
-      "weight": 0.196,
+      "target": "55a57941a7",
+      "weight": 0.449,
       "type": "thematic"
     }
   ],

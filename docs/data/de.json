@@ -1,38 +1,102 @@
 {
-  "generated_at": "2026-06-27T08:04:12.729974+00:00",
+  "generated_at": "2026-06-27T10:20:27.607381+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 4,
+  "edge_count": 3,
   "nodes": [
     {
-      "id": "846171b854",
-      "title": "Fußball-WM: Deutschland spielt im WM-Sechzehntelfinale gegen Paraguay",
-      "signal_count": 5,
+      "id": "6d3be41104",
+      "title": "Irankrieg: Bahrain meldet iranischen Drohnenangriff",
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-06/deutschland-paraguay-wm-sechzehntelfinale",
-          "headline": "Fußball-WM: Deutschland spielt im WM-Sechzehntelfinale gegen Paraguay",
+          "url": "https://www.zeit.de/politik/ausland/2026-05/iran-krieg-donald-trump-hormus-live",
+          "headline": "Irankrieg: Bahrain meldet iranischen Drohnenangriff",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/bahrain-meldet-iranischen-drohnenangriff-a-a329731e-6bcd-46e2-b390-e84c136b3d77#ref=rss",
+          "headline": "Bahrain meldet iranischen Drohnenangriff",
+          "platform": "rss"
+        },
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/-Nachrichten-im-Iran-Krieg-/!6191408/",
+          "headline": "+++ Nachrichten im Irankrieg +++: Bahrain meldet Drohnenangriffe",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.333,
+        "spread": 0.165,
+        "left": 2,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T07:31:00+00:00",
+      "last_seen": "2026-06-27T09:59:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.6692
+    },
+    {
+      "id": "f82f9f94d9",
+      "title": "»Patrioten-Pass«: Trump stellt neuen US-Reisepass mit Bild von sich selbst vor",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/patrioten-pass-trump-stellt-neuen-us-reisepass-mit-bild-von-sich-selbst-vor-a-f90378eb-c24f-4187-9d38-8da711ae6e4a#ref=rss",
+          "headline": "»Patrioten-Pass«: Trump stellt neuen US-Reisepass mit Bild von sich selbst vor",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-06/us-reisepass-donald-trump-250-jahrestag-limitierte-ausgabe",
+          "headline": "USA: Donald Trump stellt neuen Reisepass mit eigener Abbildung vor",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.075,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T08:46:51+00:00",
+      "last_seen": "2026-06-27T08:54:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "de",
+      "resonance": 0.387
+    },
+    {
+      "id": "29f75be1ac",
+      "title": "Liveblog Fußball-WM 2026: Paraguay freut sich auf Deutschland: „Unmöglich gibt es nicht“",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/sport/fussball-wm/liveblog-zur-fussball-wm-2026-paraguay-freut-sich-auf-deutschland-unmoeglich-gibt-es-nicht-faz-200749933.html",
+          "headline": "Liveblog Fußball-WM 2026: Paraguay freut sich auf Deutschland: „Unmöglich gibt es nicht“",
           "platform": "rss"
         },
         {
           "outlet": "Süddeutsche",
           "url": "https://www.sueddeutsche.de/sport/wm-2026-liveblog-news-deutschland-schweinsteiger-rassismus-vorwurf-afrika-li.3492650",
           "headline": "Fußball-WM 2026: Jetzt sicher: Deutschland trifft im Sechzehntelfinale auf Paraguay",
-          "platform": "rss"
-        },
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/sport/fussball-wm/liveblog-zur-fussball-wm-2026-deutschland-trifft-im-wm-sechzehntelfinale-auf-paraguay-faz-200749933.html",
-          "headline": "Liveblog Fußball-WM 2026: Deutschland trifft im Sechzehntelfinale auf Paraguay",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/fussball-wm/DFB-Elf-trifft-im-WM-Sechzehntelfinale-auf-Paraguay-id31020246.html",
-          "headline": "Spanien entscheidet es: DFB-Elf trifft im WM-Sechzehntelfinale auf Paraguay",
           "platform": "rss"
         },
         {
@@ -43,263 +107,101 @@
         }
       ],
       "bias": {
-        "mean": -0.03,
-        "spread": 0.194,
-        "left": 1,
-        "center": 4,
+        "mean": 0.05,
+        "spread": 0.178,
+        "left": 0,
+        "center": 3,
         "right": 0
       },
       "first_seen": "2026-06-27T02:16:00+00:00",
-      "last_seen": "2026-06-27T07:42:43+00:00",
+      "last_seen": "2026-06-27T09:27:27+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "de",
-      "resonance": 0.7001
+      "resonance": 0.3455
     },
     {
-      "id": "92d158257f",
-      "title": "Wochentaz-Podcast: Wie die AfD den deutschen Fußball ruiniert",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Wochentaz-Podcast/!6190932/",
-          "headline": "Wochentaz-Podcast: Wie die AfD den deutschen Fußball ruiniert",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T07:59:00+00:00",
-      "last_seen": "2026-06-27T07:59:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1397
-    },
-    {
-      "id": "894b1653d1",
-      "title": "Wetter: Neuer Hitzerekord am Wochenende erwartet – zahlreiche Veranstaltungen abgesagt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/panorama/wetter-hitze-news-liveblog-temperaturrekord-veranstaltungen-absage-li.3502376",
-          "headline": "Wetter: Neuer Hitzerekord am Wochenende erwartet – zahlreiche Veranstaltungen abgesagt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T07:55:43+00:00",
-      "last_seen": "2026-06-27T07:55:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1312
-    },
-    {
-      "id": "4b51f86f11",
-      "title": "Raumfahrt: SpaceX rückt in US-Indizes auf – hohe Nachfrage erwartet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/unternehmen/start-ups/raumfahrt-spacex-rueckt-in-us-indizes-auf-hohe-nachfrage-erwartet/100236273.html",
-          "headline": "Raumfahrt: SpaceX rückt in US-Indizes auf – hohe Nachfrage erwartet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T07:51:23+00:00",
-      "last_seen": "2026-06-27T07:51:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.12
-    },
-    {
-      "id": "af9de82e8b",
-      "title": "Historiker über mögliches AfD-Verbot: „Unsere Generation ist kleinmütig“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Historiker-ueber-moegliches-AfD-Verbot/!6191004/",
-          "headline": "Historiker über mögliches AfD-Verbot: „Unsere Generation ist kleinmütig“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T07:51:00+00:00",
-      "last_seen": "2026-06-27T07:51:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.119
-    },
-    {
-      "id": "330d7d0bb6",
-      "title": "Hörfunk: Schluss mit lustig",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/medien/arno-mueller-arno-und-die-morgenshow-104-6-rtl-berlin-klaus-wowereit-hoerfunk-li.3504635",
-          "headline": "Hörfunk: Schluss mit lustig",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T07:50:38+00:00",
-      "last_seen": "2026-06-27T07:50:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1181
-    },
-    {
-      "id": "e608adae3e",
-      "title": "Mecklenburg-Vorpommern: Zuletzt etwas Entspannung bei Großbrand bei Neustrelitz",
-      "signal_count": 1,
+      "id": "e4cb56b3ef",
+      "title": "Westafrika: Burkina Faso bricht diplomatische Beziehungen zu Frankreich ab",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/27/zuletzt-etwas-entspannung-bei-grossbrand-bei-neustrelitz",
-          "headline": "Mecklenburg-Vorpommern: Zuletzt etwas Entspannung bei Großbrand bei Neustrelitz",
+          "url": "https://www.zeit.de/politik/ausland/2026-06/burkina-faso-frankreich-diplomatische-beziehungen-abbruch",
+          "headline": "Westafrika: Burkina Faso bricht diplomatische Beziehungen zu Frankreich ab",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T07:50:32+00:00",
-      "last_seen": "2026-06-27T07:50:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1178
-    },
-    {
-      "id": "0126ad36db",
-      "title": "Gastkommentar: Die einzige Lösung ist eine Rente mit 70 – und zwar viel früher als geplant",
-      "signal_count": 1,
-      "sources": [
+        },
         {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-die-einzige-loesung-ist-eine-rente-mit-70-und-zwar-viel-frueher-als-geplant/100235569.html",
-          "headline": "Gastkommentar: Die einzige Lösung ist eine Rente mit 70 – und zwar viel früher als geplant",
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/burkina-faso-bricht-diplomatische-beziehungen-zu-frankreich-ab-a-8da5c932-5b9b-4938-9022-f651256d447a#ref=rss",
+          "headline": "Burkina Faso bricht diplomatische Beziehungen zu Frankreich ab",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
+        "mean": -0.225,
+        "spread": 0.075,
+        "left": 1,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-27T07:49:54+00:00",
-      "last_seen": "2026-06-27T07:49:54+00:00",
+      "first_seen": "2026-06-27T06:12:00+00:00",
+      "last_seen": "2026-06-27T09:52:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "tech",
       "language": "de",
-      "resonance": 0.1162
+      "resonance": 0.2686
     },
     {
-      "id": "3cbda59928",
-      "title": "Essen in der Hitzewelle: Die besten Rezepte für heiße Tage",
-      "signal_count": 1,
+      "id": "746fa50271",
+      "title": "China schließt hochrangige Funktionäre und Generäle aus dem Volkskongress aus",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/zeit-magazin/wochenmarkt/2026-06/hitze-beste-rezepte-heisse-tage",
-          "headline": "Essen in der Hitzewelle: Die besten Rezepte für heiße Tage",
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/international/korruption-china-schliesst-hochrangige-generaele-aus-volkskongress-aus/100236276.html",
+          "headline": "Korruption: China schließt hochrangige Generäle aus Volkskongress aus",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/china-schliesst-hochrangige-funktionaere-und-generaele-aus-dem-volkskongress-aus-a-752b4257-2bbf-4680-8570-e65249be91d2#ref=rss",
+          "headline": "China schließt hochrangige Funktionäre und Generäle aus dem Volkskongress aus",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "mean": 0.0,
+        "spread": 0.15,
+        "left": 0,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-06-27T07:48:27+00:00",
-      "last_seen": "2026-06-27T07:48:27+00:00",
+      "first_seen": "2026-06-27T07:06:00+00:00",
+      "last_seen": "2026-06-27T08:27:53+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1125
+      "resonance": 0.2416
     },
     {
-      "id": "9e868cbb99",
-      "title": "Der Körper glüht. 7 Tipps zur Linderung",
+      "id": "fdcaae9618",
+      "title": "Milo Rau muss sich endlich mal etwas Neues einfallen lassen",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/gesundheit/article6a3e203eafe845031b3aecff/hitzewelle-in-deutschland-der-koerper-glueht-7-tipps-zur-linderung.html",
-          "headline": "Der Körper glüht. 7 Tipps zur Linderung",
+          "url": "https://www.welt.de/kultur/plus6a3cf5f8507c0ee6f17a790b/wiener-festwochen-milo-rau-muss-sich-endlich-mal-etwas-neues-einfallen-lassen.html",
+          "headline": "Milo Rau muss sich endlich mal etwas Neues einfallen lassen",
           "platform": "rss"
         }
       ],
@@ -310,25 +212,89 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-06-27T07:47:52+00:00",
-      "last_seen": "2026-06-27T07:47:52+00:00",
+      "first_seen": "2026-06-27T10:14:39+00:00",
+      "last_seen": "2026-06-27T10:14:39+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.111
+      "resonance": 0.2002
     },
     {
-      "id": "d2de64dece",
-      "title": "USA: US-Bundesstaat Texas führt Bibel-Lesepflicht in Schulen ein",
+      "id": "96d0a35ba8",
+      "title": "Wettergefahren: Erhöhte Ozon-Konzentration in Rheinland-Pfalz",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/27/erhoehte-ozon-konzentration-in-rheinland-pfalz",
+          "headline": "Wettergefahren: Erhöhte Ozon-Konzentration in Rheinland-Pfalz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/27/erhoehte-ozon-konzentration-gemessen",
+          "headline": "Wettergefahren: Erhöhte Ozon-Konzentration gemessen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 2,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T10:01:30+00:00",
+      "last_seen": "2026-06-27T10:12:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1968
+    },
+    {
+      "id": "35f42387ed",
+      "title": "Warum wir unseren Eltern ähneln, auch wenn wir es nicht wollen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/gesundheit/article6a3e23e77c842e3a731b64ff/wie-eltern-das-unbewusste-verhalten-ihrer-kinder-fuers-leben-praegen.html",
+          "headline": "Warum wir unseren Eltern ähneln, auch wenn wir es nicht wollen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T10:13:30+00:00",
+      "last_seen": "2026-06-27T10:13:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1966
+    },
+    {
+      "id": "901473a007",
+      "title": "Besitzer von Knall geweckt: Korianderlager brennt komplett ab - 400.000 Euro Schaden",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-06/usa-bundesstaat-texas-bibel-pflichtlektuere-schule",
-          "headline": "USA: US-Bundesstaat Texas führt Bibel-Lesepflicht in Schulen ein",
+          "url": "https://www.zeit.de/news/2026-06/27/korianderlager-brennt-komplett-ab-400-000-euro-schaden",
+          "headline": "Besitzer von Knall geweckt: Korianderlager brennt komplett ab - 400.000 Euro Schaden",
           "platform": "rss"
         }
       ],
@@ -339,25 +305,25 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-27T07:47:07+00:00",
-      "last_seen": "2026-06-27T07:47:07+00:00",
+      "first_seen": "2026-06-27T10:07:36+00:00",
+      "last_seen": "2026-06-27T10:07:36+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1091
+      "resonance": 0.1781
     },
     {
-      "id": "71ba7a679f",
-      "title": "Christian Lindner kritisiert Aussagen von Friedrich Merz zur Kapitalrente",
+      "id": "b4226ece2c",
+      "title": "Quiz des Tages beim SPIEGEL: 7 Fragen zum Allgemeinwissen pro Tag",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/wirtschaft/service/christian-lindner-kritisiert-aussagen-von-friedrich-merz-zur-kapitalrente-a-78f3ff7c-bd99-4ee9-88ce-d54895133bf6#ref=rss",
-          "headline": "Christian Lindner kritisiert Aussagen von Friedrich Merz zur Kapitalrente",
+          "url": "https://www.spiegel.de/games/taegliches-quiz-beim-spiegel-7-fragen-zum-allgemeinwissen-pro-tag-a-8a9692b2-4462-4192-942c-fd7809c7519c#ref=rss",
+          "headline": "Quiz des Tages beim SPIEGEL: 7 Fragen zum Allgemeinwissen pro Tag",
           "platform": "rss"
         }
       ],
@@ -368,54 +334,83 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-27T07:46:00+00:00",
-      "last_seen": "2026-06-27T07:46:00+00:00",
+      "first_seen": "2026-06-27T10:07:00+00:00",
+      "last_seen": "2026-06-27T10:07:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1062
+      "resonance": 0.1762
     },
     {
-      "id": "068ba698e8",
-      "title": "Wie Schlafmangel unsere Gehirnzellen verändert",
+      "id": "d234f5e550",
+      "title": "Dua Lipa: Sängerin eröffnet Buchladen in Porto",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/gesundheit/article6a3a33c6e880869d9f533331/schlaflosigkeit-im-schlaf-werden-die-synapsen-des-tages-wieder-aufgetrennt.html",
-          "headline": "Wie Schlafmangel unsere Gehirnzellen verändert",
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/kultur/dua-lipa-saengerin-eroeffnet-buchladen-in-porto-a-351185e4-8b63-4896-acf3-60c131586f4c#ref=rss",
+          "headline": "Dua Lipa: Sängerin eröffnet Buchladen in Porto",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.3,
+        "mean": -0.15,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-06-27T07:45:20+00:00",
-      "last_seen": "2026-06-27T07:45:20+00:00",
+      "first_seen": "2026-06-27T10:07:00+00:00",
+      "last_seen": "2026-06-27T10:07:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1045
+      "resonance": 0.1762
     },
     {
-      "id": "76de0eb7f0",
-      "title": "Vier Plätze noch offen: Wer ist weiter? Die Übersicht der fixen K.-o.-Duelle",
+      "id": "004407e444",
+      "title": "Vinted: Was es mit den Gerüchten über Kinderhandel bei Vinted auf sich hat",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/gesellschaft/2026-06/vinted-kinderhandel-tiktok-frankreich-polizei",
+          "headline": "Vinted: Was es mit den Gerüchten über Kinderhandel bei Vinted auf sich hat",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T10:04:48+00:00",
+      "last_seen": "2026-06-27T10:04:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.1694
+    },
+    {
+      "id": "22ce6c7738",
+      "title": "Juristin über \"Feine Risse\": Wenn das Recht unerträglich wird",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/fussball-wm/Wer-ist-weiter-Die-Uebersicht-der-fixen-K-o-Duelle-id31020623.html",
-          "headline": "Vier Plätze noch offen: Wer ist weiter? Die Übersicht der fixen K.-o.-Duelle",
+          "url": "https://www.n-tv.de/leute/hoerbuecher/Wenn-das-Recht-unertraeglich-wird-id30995385.html",
+          "headline": "Juristin über \"Feine Risse\": Wenn das Recht unerträglich wird",
           "platform": "rss"
         }
       ],
@@ -426,373 +421,25 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-27T07:41:37+00:00",
-      "last_seen": "2026-06-27T07:41:37+00:00",
+      "first_seen": "2026-06-27T10:03:07+00:00",
+      "last_seen": "2026-06-27T10:03:07+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0952
+      "resonance": 0.1642
     },
     {
-      "id": "96165422a5",
-      "title": "„Wir können gerade aus der Geschichte des Widerstandes viel lernen“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/videos/video6a3f7b2c113e90346dc4eb59/umgang-mit-der-afd-wir-koennen-gerade-aus-der-geschichte-des-widerstandes-viel-lernen.html",
-          "headline": "„Wir können gerade aus der Geschichte des Widerstandes viel lernen“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T07:40:52+00:00",
-      "last_seen": "2026-06-27T07:40:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0933
-    },
-    {
-      "id": "24c4a96d72",
-      "title": "Unfall im Ostalbkreis: Frau fährt in den Gegenverkehr und verletzt sich schwer",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/27/frau-faehrt-in-den-gegenverkehr-und-verletzt-sich-schwer",
-          "headline": "Unfall im Ostalbkreis: Frau fährt in den Gegenverkehr und verletzt sich schwer",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T07:40:43+00:00",
-      "last_seen": "2026-06-27T07:40:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0929
-    },
-    {
-      "id": "bacd59e149",
-      "title": "„Ich fahre, rede mir nicht ständig rein“ – Wenn Rechthaben wichtiger wird als die Liebe",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/plus6a3e218a2bb1afe8aa3cbc17/machtkaempfe-in-der-liebe-ich-fahre-rede-mir-nicht-staendig-rein-wenn-rechthaben-wichtiger-wird-als-die-liebe.html",
-          "headline": "„Ich fahre, rede mir nicht ständig rein“ – Wenn Rechthaben wichtiger wird als die Liebe",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T07:39:26+00:00",
-      "last_seen": "2026-06-27T07:39:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0897
-    },
-    {
-      "id": "42ff2ac96b",
-      "title": "Alkoholsteuer: Lars Klingbeil will Alkoholsteuer laut Bericht um 20 Prozent erhöhen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-06/alkoholsteuer-erhoehung-lars-klingbeil-spirituosen",
-          "headline": "Alkoholsteuer: Lars Klingbeil will Alkoholsteuer laut Bericht um 20 Prozent erhöhen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T07:39:11+00:00",
-      "last_seen": "2026-06-27T07:39:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
-      "resonance": 0.0891
-    },
-    {
-      "id": "fd60323727",
-      "title": "Die größte Wette des Bundestrainers",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a3e3c9d113e90346dc4d964/wm-2026-manuel-neuer-die-groesste-wette-des-bundestrainers.html",
-          "headline": "Die größte Wette des Bundestrainers",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T07:38:38+00:00",
-      "last_seen": "2026-06-27T07:38:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0877
-    },
-    {
-      "id": "95e8e07788",
-      "title": "Bei Hitze rächt sich das verquere Verhältnis der Deutschen zum Klimawandel",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/wirtschaft/plus6a3e4623113e90346dc4da75/klimaanlagen-phobie-bei-hitze-raecht-sich-das-verquere-verhaeltnis-der-deutschen-zum-klimawandel.html",
-          "headline": "Bei Hitze rächt sich das verquere Verhältnis der Deutschen zum Klimawandel",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T07:36:56+00:00",
-      "last_seen": "2026-06-27T07:36:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "de",
-      "resonance": 0.0835
-    },
-    {
-      "id": "5782928eaf",
-      "title": "Das E-Auto wird zum Stromspeicher – und so verdienen Sie damit Geld",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/wirtschaft/plus6a3a8c1ae880869d9f534062/vehicle-to-grid-das-e-auto-wird-zum-stromspeicher-und-so-verdienen-sie-damit-geld.html",
-          "headline": "Das E-Auto wird zum Stromspeicher – und so verdienen Sie damit Geld",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T07:34:49+00:00",
-      "last_seen": "2026-06-27T07:34:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0782
-    },
-    {
-      "id": "1d61072ca2",
-      "title": "Die heiklen Lücken der großen Rentenreform",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/wirtschaft/plus6a3e961c113e90346dc4e253/alterssicherung-die-heiklen-luecken-der-grossen-rentenreform.html",
-          "headline": "Die heiklen Lücken der großen Rentenreform",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T07:34:38+00:00",
-      "last_seen": "2026-06-27T07:34:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0778
-    },
-    {
-      "id": "cee5306348",
-      "title": "Energieversorgung gestört: Brände an Trafostationen in Bonn und Kerpen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/27/braende-an-trafostationen-in-bonn-und-kerpen",
-          "headline": "Energieversorgung gestört: Brände an Trafostationen in Bonn und Kerpen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T07:32:38+00:00",
-      "last_seen": "2026-06-27T07:32:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0728
-    },
-    {
-      "id": "ac940fb084",
-      "title": "Inside Austria: So arbeiten wir im Podcast-Team",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/inside-austria-so-arbeiten-wir-im-podcast-team-a-72794c84-2789-41ce-8aac-eadde9f90bb7#ref=rss",
-          "headline": "Inside Austria: So arbeiten wir im Podcast-Team",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T07:32:00+00:00",
-      "last_seen": "2026-06-27T07:32:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0713
-    },
-    {
-      "id": "e0021e6216",
-      "title": "Kap Verde: Die muss man erst mal schlagen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-06/kap-verde-fussball-wm-sechzehntelfinale-underdog",
-          "headline": "Kap Verde: Die muss man erst mal schlagen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T07:31:44+00:00",
-      "last_seen": "2026-06-27T07:31:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0706
-    },
-    {
-      "id": "83de8f6640",
-      "title": "+++ Nachrichten im Irankrieg +++: Iran und USA greifen einander trotz Waffenruhe erneut an",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/-Nachrichten-im-Iran-Krieg-/!6191408/",
-          "headline": "+++ Nachrichten im Irankrieg +++: Iran und USA greifen einander trotz Waffenruhe erneut an",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T07:31:00+00:00",
-      "last_seen": "2026-06-27T07:31:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.0688
-    },
-    {
-      "id": "22260fcfae",
-      "title": "Kommentar: Wann platzt die Börsenblase?",
+      "id": "f17f1877dd",
+      "title": "+++ Iran-Krieg +++: Britisches Militär meldet Angriff auf Tanker in Straße von Hormus",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/meinung/kommentare/kommentar-wann-platzt-die-boersenblase/100235863.html",
-          "headline": "Kommentar: Wann platzt die Börsenblase?",
+          "url": "https://www.handelsblatt.com/politik/international/iran-krieg-britisches-militaer-meldet-angriff-auf-tanker-in-strasse-von-hormus/100136895.html",
+          "headline": "+++ Iran-Krieg +++: Britisches Militär meldet Angriff auf Tanker in Straße von Hormus",
           "platform": "rss"
         }
       ],
@@ -803,25 +450,25 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-27T07:29:40+00:00",
-      "last_seen": "2026-06-27T07:29:40+00:00",
+      "first_seen": "2026-06-27T10:03:04+00:00",
+      "last_seen": "2026-06-27T10:03:04+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "economy",
+      "topic": "conflict",
       "language": "de",
-      "resonance": 0.0656
+      "resonance": 0.1641
     },
     {
-      "id": "38fc0ab1f6",
-      "title": "Fußball-WM: Nach 1:1 im «Pride Match»: Irans Kapitän wird emotional",
+      "id": "647930bd8a",
+      "title": "Unfälle: 45-Jähriger stirbt bei Badeunfall in Lünen",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/27/1-1-im-pride-match-aegypten-weiter-iran-muss-warten",
-          "headline": "Fußball-WM: Nach 1:1 im «Pride Match»: Irans Kapitän wird emotional",
+          "url": "https://www.zeit.de/news/2026-06/27/45-jaehriger-stirbt-bei-badeunfall-in-luenen",
+          "headline": "Unfälle: 45-Jähriger stirbt bei Badeunfall in Lünen",
           "platform": "rss"
         }
       ],
@@ -832,25 +479,257 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-27T07:27:13+00:00",
-      "last_seen": "2026-06-27T07:27:13+00:00",
+      "first_seen": "2026-06-27T10:02:20+00:00",
+      "last_seen": "2026-06-27T10:02:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1618
+    },
+    {
+      "id": "632ca788ee",
+      "title": "Transfers: Augsburg leiht Dardari an Drittligist Rot-Weiss Essen aus",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/27/augsburg-leiht-dardari-an-drittligist-rot-weiss-essen-aus",
+          "headline": "Transfers: Augsburg leiht Dardari an Drittligist Rot-Weiss Essen aus",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T10:02:02+00:00",
+      "last_seen": "2026-06-27T10:02:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1609
+    },
+    {
+      "id": "7bba814422",
+      "title": "Wetteraussichten: Extreme Hitze bleibt - teils heftige Unwetter angekündigt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/27/nach-temperaturrekord-so-heiss-wird-das-wochenende",
+          "headline": "Wetteraussichten: Extreme Hitze bleibt - teils heftige Unwetter angekündigt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T10:01:26+00:00",
+      "last_seen": "2026-06-27T10:01:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1591
+    },
+    {
+      "id": "ce0bf6a66a",
+      "title": "Notfälle: Behörden bestätigten Flugzeugabsturz in Peking - Pilot tot",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/27/behoerden-bestaetigten-flugzeugabsturz-in-peking-pilot-tot",
+          "headline": "Notfälle: Behörden bestätigten Flugzeugabsturz in Peking - Pilot tot",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T10:00:01+00:00",
+      "last_seen": "2026-06-27T10:00:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.1547
+    },
+    {
+      "id": "02c3bc659f",
+      "title": "«Bundesliga-Ultramarathon»: 70 km um jedes Bundesligastadion: Hitze-Start für Projekt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/27/70-km-um-jedes-bundesligastadion-hitze-start-fuer-projekt",
+          "headline": "«Bundesliga-Ultramarathon»: 70 km um jedes Bundesligastadion: Hitze-Start für Projekt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T09:59:27+00:00",
+      "last_seen": "2026-06-27T09:59:27+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "de",
-      "resonance": 0.0596
+      "resonance": 0.153
     },
     {
-      "id": "599a66e660",
-      "title": "„Dann wäre das eine Schwächung des Iran“",
+      "id": "b1421a9440",
+      "title": "Starnberger See, Bayern: 23-Jähriger ertrinkt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/starnberger-see-bayern-23-jaehriger-ertrinkt-a-910b5881-33fb-4e58-a6bb-adab53b07e04#ref=rss",
+          "headline": "Starnberger See, Bayern: 23-Jähriger ertrinkt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T09:54:00+00:00",
+      "last_seen": "2026-06-27T09:54:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1365
+    },
+    {
+      "id": "c9afa1bf2d",
+      "title": "Das bringt der WM-Tag: Harry Kane könnte Englands neuer WM-Rekordtorschütze werden",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/sport/fussball-wm/fussball-wm-2026-heute-harry-kane-moechte-englands-neuer-wm-rekordtorschuetze-werden-accg-200973130.html",
+          "headline": "Das bringt der WM-Tag: Harry Kane könnte Englands neuer WM-Rekordtorschütze werden",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T09:50:52+00:00",
+      "last_seen": "2026-06-27T09:50:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1271
+    },
+    {
+      "id": "615d0218ff",
+      "title": "Jung-Investor: Mit 14 Aktionär: „Mir geht es um Kapitalvermehrung“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/mit-14-aktionaer-mir-geht-es-um-kapitalvermehrung/100233563.html",
+          "headline": "Jung-Investor: Mit 14 Aktionär: „Mir geht es um Kapitalvermehrung“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T09:47:36+00:00",
+      "last_seen": "2026-06-27T09:47:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1174
+    },
+    {
+      "id": "2875be1d5f",
+      "title": "Fußball-WM 2026: Irans Kapitän Taremi kritisiert Reiseeinschränkungen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/sport/2026-05/fussball-wm-2026-liveblog",
+          "headline": "Fußball-WM 2026: Irans Kapitän Taremi kritisiert Reiseeinschränkungen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T09:46:07+00:00",
+      "last_seen": "2026-06-27T09:46:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.113
+    },
+    {
+      "id": "1b79922cc6",
+      "title": "Ex-Freund greift 18-Jährige mit Axt an – Beide schweben in Lebensgefahr",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/videos/video6a3f782182418ea28aa6dae2/rahmenabkommen-unterzeichnet-dann-waere-das-eine-schwaechung-des-iran.html",
-          "headline": "„Dann wäre das eine Schwächung des Iran“",
+          "url": "https://www.welt.de/vermischtes/article6a3f8c06fe0ffc3b4df8f53a/hannover-ex-freund-greift-18-jaehrige-mit-axt-an-beide-schweben-in-lebensgefahr.html",
+          "headline": "Ex-Freund greift 18-Jährige mit Axt an – Beide schweben in Lebensgefahr",
           "platform": "rss"
         }
       ],
@@ -861,69 +740,214 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-06-27T07:26:56+00:00",
-      "last_seen": "2026-06-27T07:26:56+00:00",
+      "first_seen": "2026-06-27T09:40:26+00:00",
+      "last_seen": "2026-06-27T09:40:26+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0589
+      "resonance": 0.0963
     },
     {
-      "id": "2102e51b3c",
-      "title": "Brände: Brand in Lagerhalle: Feuerwehr kämpft Stunden gegen Flammen",
+      "id": "eda36ca034",
+      "title": "\"Niederträchtig!\": Als Kaiser Franz Bundestrainer Vogts öffentlich demütigte",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/27/brand-in-lagerhalle-feuerwehr-kaempft-stunden-gegen-flammen",
-          "headline": "Brände: Brand in Lagerhalle: Feuerwehr kämpft Stunden gegen Flammen",
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball/redelings_nachspielzeit/Als-Kaiser-Franz-Bundestrainer-Vogts-oeffentlich-demuetigte-id31017933.html",
+          "headline": "\"Niederträchtig!\": Als Kaiser Franz Bundestrainer Vogts öffentlich demütigte",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
+        "mean": 0.0,
         "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-27T07:23:15+00:00",
-      "last_seen": "2026-06-27T07:23:15+00:00",
+      "first_seen": "2026-06-27T09:37:40+00:00",
+      "last_seen": "2026-06-27T09:37:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
+      "language": "de",
+      "resonance": 0.0882
+    },
+    {
+      "id": "baeb09e06a",
+      "title": "„Es gab von linker Seite eine Hemmung, Antisemitismus von muslimischer Seite anzusprechen“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/article6a3f8a36afe845031b3b0166/felix-klein-es-gab-von-linker-seite-eine-hemmung-antisemitismus-von-muslimischer-seite-anzusprechen.html",
+          "headline": "„Es gab von linker Seite eine Hemmung, Antisemitismus von muslimischer Seite anzusprechen“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T09:37:08+00:00",
+      "last_seen": "2026-06-27T09:37:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0867
+    },
+    {
+      "id": "e2794c9424",
+      "title": "Auffällige Anzeigen und Preise: Verdacht auf Kinderhandel bei Vinted - französische Justiz ermittelt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/panorama/Verdacht-auf-Kinderhandel-bei-Vinted-franzoesische-Justiz-ermittelt-id31020752.html",
+          "headline": "Auffällige Anzeigen und Preise: Verdacht auf Kinderhandel bei Vinted - französische Justiz ermittelt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T09:33:16+00:00",
+      "last_seen": "2026-06-27T09:33:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.0755
+    },
+    {
+      "id": "d3ea2b0088",
+      "title": "Klimawandel: Wenn Frankfurt in Kroatien liegt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/rhein-main/frankfurt/klimawandel-wenn-frankfurt-in-kroatien-liegt-accg-200963498.html",
+          "headline": "Klimawandel: Wenn Frankfurt in Kroatien liegt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T09:30:48+00:00",
+      "last_seen": "2026-06-27T09:30:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "de",
+      "resonance": 0.0685
+    },
+    {
+      "id": "4512a21ddd",
+      "title": "Sommerferien: Wie Eltern mit ihren Kindern spielerisch lernen können",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/familie/sommerferien-wie-eltern-mit-ihren-kindern-spielerisch-lernen-koennen-a-3f09a9d8-e07e-4316-8f88-9e8020bb0ff5#ref=rss",
+          "headline": "Sommerferien: Wie Eltern mit ihren Kindern spielerisch lernen können",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T09:25:00+00:00",
+      "last_seen": "2026-06-27T09:25:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.052
+    },
+    {
+      "id": "93bee82c29",
+      "title": "Deutschland-Liveblog: SPD-Politikerin Giffey gegen Abschaffung der „Rente mit 63“",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-spd-politikerin-giffey-gegen-abschaffung-der-rente-mit-63-faz-110093143.html",
+          "headline": "Deutschland-Liveblog: SPD-Politikerin Giffey gegen Abschaffung der „Rente mit 63“",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/politik/deutschland/franziska-giffey-spricht-sich-gegen-abschaffung-der-rente-mit-63-aus-a-4ce7ed51-aee3-4e8e-ac04-9897f54b8f4a#ref=rss",
+          "headline": "Franziska Giffey spricht sich gegen Abschaffung der »Rente mit 63« aus",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.025,
+        "spread": 0.175,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T05:54:00+00:00",
+      "last_seen": "2026-06-27T07:16:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
       "language": "de",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "846171b854",
-      "target": "92d158257f",
-      "weight": 0.144,
+      "source": "29f75be1ac",
+      "target": "2875be1d5f",
+      "weight": 0.648,
       "type": "thematic"
     },
     {
-      "source": "846171b854",
-      "target": "38fc0ab1f6",
-      "weight": 0.982,
+      "source": "29f75be1ac",
+      "target": "93bee82c29",
+      "weight": 0.096,
       "type": "thematic"
     },
     {
-      "source": "92d158257f",
-      "target": "38fc0ab1f6",
-      "weight": 0.235,
-      "type": "thematic"
-    },
-    {
-      "source": "cee5306348",
-      "target": "2102e51b3c",
-      "weight": 0.238,
+      "source": "004407e444",
+      "target": "e2794c9424",
+      "weight": 0.447,
       "type": "thematic"
     }
   ],

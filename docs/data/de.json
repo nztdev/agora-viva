@@ -1,15 +1,382 @@
 {
-  "generated_at": "2026-06-27T22:14:25.605600+00:00",
+  "generated_at": "2026-06-28T00:12:54.155410+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 8,
+  "edge_count": 17,
   "nodes": [
     {
-      "id": "ad0cd5abfc",
-      "title": "Wahlkampf ohne Wahltermin: Serbiens Präsident Vucic kündigt taktischen Rücktritt an",
-      "signal_count": 4,
+      "id": "c349bfd821",
+      "title": "US-Migrationspolitik: Trump nominiert neue Spitze der Einwanderungsbehörde ICE",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/28/trump-nominiert-neue-spitze-der-einwanderungsbehoerde-ice",
+          "headline": "US-Migrationspolitik: Trump nominiert neue Spitze der Einwanderungsbehörde ICE",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6a405cb5113e90346dc4f62c/donald-trump-nominiert-neuen-chef-der-umstrittenen-ice-behoerde.html",
+          "headline": "Trump nominiert neuen Chef der umstrittenen ICE-Behörde",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.3,
+        "left": 1,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T23:47:04+00:00",
+      "last_seen": "2026-06-27T23:59:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.664
+    },
+    {
+      "id": "2236846b66",
+      "title": "Fußball-WM: England und Kroatien jubeln",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/sport/england-kroatien-fussball-wm-kane-li.3506496",
+          "headline": "Fußball-WM: England und Kroatien jubeln",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/28/modric-mit-kroatien-in-der-k-o-runde-auch-ghana-weiter",
+          "headline": "Fußball-WM: Modric mit Kroatien in der K.-o.-Runde - Auch Ghana weiter",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.05,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T22:58:46+00:00",
+      "last_seen": "2026-06-27T23:03:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.511
+    },
+    {
+      "id": "84a8a654f7",
+      "title": "Hitzewelle: Mehrere Menschen seit Freitag bei Badeunfällen gestorben",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/hitzewelle-mehrere-menschen-seit-freitag-bei-badeunfaellen-gestorben-a-9ea3843b-83bd-4d17-acd9-b8ab2c9943c3#ref=rss",
+          "headline": "Hitzewelle: Mehrere Menschen seit Freitag bei Badeunfällen gestorben",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/28/mehrere-menschen-sterben-bei-badeunfaellen",
+          "headline": "Notfälle: Mehrere Menschen sterben bei Badeunfällen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.075,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T22:03:54+00:00",
+      "last_seen": "2026-06-27T22:45:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.4714
+    },
+    {
+      "id": "2288ee97bf",
+      "title": "Iran-Krieg: Erneut US-Angriffe auf den Iran",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/28/erneut-us-angriffe-auf-den-iran",
+          "headline": "Iran-Krieg: Erneut US-Angriffe auf den Iran",
+          "platform": "rss"
+        },
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/US-Militaer-greift-erneut-im-Iran-an-id31022168.html",
+          "headline": "Reaktion auf Tanker-Attacke: US-Militär greift erneut im Iran an",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-bestaetigt-us-angriffe-und-droht-iran-mit-vernichtung/100136895.html",
+          "headline": "+++ Iran-Krieg +++: Trump bestätigt US-Angriffe und droht Iran mit Vernichtung",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.187,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T10:03:04+00:00",
+      "last_seen": "2026-06-27T23:48:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.4707
+    },
+    {
+      "id": "396ce2a934",
+      "title": "England müht sich zum Gruppensieg – Bellingham erlöst Tuchel",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a40628bafe845031b3b0c0d/highlights-im-video-england-mueht-sich-zum-gruppensieg-bellingham-erloest-tuchel.html",
+          "headline": "England müht sich zum Gruppensieg – Bellingham erlöst Tuchel",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a405916113e90346dc4f5ec/england-panama-bellingham-erloest-england-das-1-0-im-video.html",
+          "headline": "Bellingham erlöst England – Das 1:0 im Video",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 2
+      },
+      "first_seen": "2026-06-27T23:42:38+00:00",
+      "last_seen": "2026-06-28T00:04:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.3184
+    },
+    {
+      "id": "0461c04ef5",
+      "title": "WM 2026: England gewinnt Gruppe L dank Jude Bellingham und Harry Kane",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/fussball/wm-2026-england-gewinnt-gruppe-l-dank-jude-bellingham-und-harry-kane-a-0c063e1d-e837-4105-b009-2321913a6007#ref=rss",
+          "headline": "WM 2026: England gewinnt Gruppe L dank Jude Bellingham und Harry Kane",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/fussball/wm-2026-live-england-gegen-panama-im-liveticker-a-461861ed-b288-43d2-81ed-944e9e4b0dd0#ref=rss",
+          "headline": "WM 2026: Jude Bellingahm und Harry Kane erlösen England – Drei Erkenntnisse zum Sieg gegen Panama",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T23:28:00+00:00",
+      "last_seen": "2026-06-28T00:02:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.3155
+    },
+    {
+      "id": "b2dca92cd3",
+      "title": "Venezuela: Die Zahl der Todesopfer steigt, die Wut auf die Regierung wächst",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/venezuela-die-zahl-der-todesopfer-steigt-die-wut-auf-die-regierung-waechst-a-d1014834-54dd-468c-9ce5-10614705369c#ref=rss",
+          "headline": "Venezuela: Die Zahl der Todesopfer steigt, die Wut auf die Regierung wächst",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T23:57:00+00:00",
+      "last_seen": "2026-06-27T23:57:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "62b990ac5c",
+      "title": "Sechzehntelfinale der WM 2026: Wer steht im Sechzehntelfinale, wer ist raus?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/sport/2026-06/wm-2026-sechzehntelfinale-fussball-gxe",
+          "headline": "Sechzehntelfinale der WM 2026: Wer steht im Sechzehntelfinale, wer ist raus?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T23:54:55+00:00",
+      "last_seen": "2026-06-27T23:54:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "7bf46ce548",
+      "title": "WM 2026: Harry Kane führt England zum Gruppensieg, Ghana sichert Platz zwei",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/sport/2026-06/wm-2026-england-kroatien-ghana-kolumbien-portugal-algerien-oesterreich-argentinien",
+          "headline": "WM 2026: Harry Kane führt England zum Gruppensieg, Ghana sichert Platz zwei",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T23:53:48+00:00",
+      "last_seen": "2026-06-27T23:53:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "7dde3dbfd8",
+      "title": "„Fast chirurgisch präzise“ – Kroatien trifft aus der Distanz",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a405983113e90346dc4f5fd/kroatien-ghana-fast-chirurgisch-praezise-kroatien-trifft-aus-der-distanz.html",
+          "headline": "„Fast chirurgisch präzise“ – Kroatien trifft aus der Distanz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T23:52:13+00:00",
+      "last_seen": "2026-06-27T23:52:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "d9be2804c5",
+      "title": "Fans rufen nach dem VAR – Ghanas Ausgleichstreffer nach Zitterpartie",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a4059d0113e90346dc4f606/kroatien-ghana-fans-rufen-nach-dem-var-ghanas-ausgleichstreffer-nach-zitterpartie.html",
+          "headline": "Fans rufen nach dem VAR – Ghanas Ausgleichstreffer nach Zitterpartie",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/article6a40549e113e90346dc4f5c1/wm-2026-ghanas-fans-feiern-den-var-mit-sprechchoeren-kroaten-den-sieg.html",
+          "headline": "Ghanas Fans feiern den „VAR“, Kroaten den Sieg",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 2
+      },
+      "first_seen": "2026-06-27T23:34:50+00:00",
+      "last_seen": "2026-06-27T23:36:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2487
+    },
+    {
+      "id": "9ba8f5e2cc",
+      "title": "Serbiens Präsident kündigt Rücktritt an – sein politisches Ende bedeutet das aber wohl nicht",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "Welt",
@@ -18,32 +385,20 @@
           "platform": "rss"
         },
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/27/serbiens-praesident-vucic-kuendigt-taktischen-ruecktritt-an",
-          "headline": "Wahlkampf ohne Wahltermin: Serbiens Präsident Vucic kündigt taktischen Rücktritt an",
-          "platform": "rss"
-        },
-        {
           "outlet": "n-tv",
           "url": "https://www.n-tv.de/politik/Serbiens-Praesident-Vucic-kuendigt-Ruecktritt-und-Neuwahlen-an-id31021928.html",
           "headline": "Termine für beides noch offen: Serbiens Präsident Vucic kündigt Rücktritt und Neuwahlen an",
           "platform": "rss"
-        },
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-06/aleksandar-vucic-ruecktritt-serbien-praesident-wahlen",
-          "headline": "Serbien: Serbiens Präsident Vučić kündigt Rücktritt und Neuwahlen an",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.075,
-        "spread": 0.249,
-        "left": 2,
+        "mean": 0.15,
+        "spread": 0.15,
+        "left": 0,
         "center": 1,
         "right": 1
       },
-      "first_seen": "2026-06-27T18:45:49+00:00",
+      "first_seen": "2026-06-27T20:02:18+00:00",
       "last_seen": "2026-06-27T22:07:57+00:00",
       "platforms": [
         "rss"
@@ -51,7 +406,477 @@
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.666
+      "resonance": 0.2483
+    },
+    {
+      "id": "0bcdb7f4fa",
+      "title": "Nach Angriffen auf Handelsschiffe: USA haben erneut Ziele im Iran angegriffen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-06/us-luftangriffe-iran-drohnenangriff-frachtschiff-strasse-von-hormus",
+          "headline": "Nach Angriffen auf Handelsschiffe: USA haben erneut Ziele im Iran angegriffen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T23:36:32+00:00",
+      "last_seen": "2026-06-27T23:36:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.2481
+    },
+    {
+      "id": "6f408a0c06",
+      "title": "Nach Vorlage von Modrić – Kroatiens Kopfball ins Glück",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a405997113e90346dc4f601/kroatien-ghana-nach-vorlage-von-modric-kroatiens-kopfball-ins-glueck.html",
+          "headline": "Nach Vorlage von Modrić – Kroatiens Kopfball ins Glück",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T23:28:09+00:00",
+      "last_seen": "2026-06-27T23:28:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2288
+    },
+    {
+      "id": "24b7e88e14",
+      "title": "Fußball-WM 2026: Auch Philipp Lahm fordert Joshua Kimmichs Rückkehr ins Mittelfeld",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/sport/2026-05/fussball-wm-2026-liveblog",
+          "headline": "Fußball-WM 2026: Auch Philipp Lahm fordert Joshua Kimmichs Rückkehr ins Mittelfeld",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/fussball/wm-2026-news-heute-toni-kroos-kritisiert-deutschlands-fussballer-a-bb5233a1-9adc-4975-8062-1a4047a4c0a5#ref=rss",
+          "headline": "WM 2026 News heute: Philipp Lahm fordert Joshua Kimmich im DFB-Mittelfeld gegen Paraguay",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.075,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T16:50:00+00:00",
+      "last_seen": "2026-06-27T23:13:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.2273
+    },
+    {
+      "id": "d2fc88ec56",
+      "title": "Nach perfekter Flanke – Kopfball-Knaller von Kane",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a405907113e90346dc4f5e8/england-panama-nach-perfekter-flanke-kopfball-knaller-von-kane.html",
+          "headline": "Nach perfekter Flanke – Kopfball-Knaller von Kane",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T23:22:00+00:00",
+      "last_seen": "2026-06-27T23:22:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2149
+    },
+    {
+      "id": "a0ab449b28",
+      "title": "Mehrere Tote bei Badeunfällen – Sechsjähriger Junge ertrinkt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/vermischtes/article6a40498563599560cfc28b6c/hitzewelle-mehrere-tote-bei-badeunfaellen-sechsjaehriger-junge-ertrinkt.html",
+          "headline": "Mehrere Tote bei Badeunfällen – Sechsjähriger Junge ertrinkt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T23:19:46+00:00",
+      "last_seen": "2026-06-27T23:19:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2099
+    },
+    {
+      "id": "5d15d892c3",
+      "title": "Viel Mühe mit Panama: Erst nach Tuchels Ärger kämpft England die Blamage weg",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball-wm/Erst-nach-Tuchels-Aerger-kaempft-England-die-Blamage-weg-id31022184.html",
+          "headline": "Viel Mühe mit Panama: Erst nach Tuchels Ärger kämpft England die Blamage weg",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T23:05:51+00:00",
+      "last_seen": "2026-06-27T23:05:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1793
+    },
+    {
+      "id": "0bd298ca46",
+      "title": "„Unmenschliche Bedingungen“ – Vier Abgeordnete fordern Überstellung von Maja T. nach Deutschland",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/article6a4052c0afe845031b3b0b96/maja-t-unmenschliche-bedingungen-vier-abgeordnete-richten-offenen-brief-an-wadephul.html",
+          "headline": "„Unmenschliche Bedingungen“ – Vier Abgeordnete fordern Überstellung von Maja T. nach Deutschland",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T22:58:53+00:00",
+      "last_seen": "2026-06-27T22:58:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1644
+    },
+    {
+      "id": "6508f5a3ca",
+      "title": "Fußball-WM: Gruppensieg und Kane-Rekord: England schlägt Panama",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/28/gruppensieg-und-kane-rekord-england-schlaegt-panama",
+          "headline": "Fußball-WM: Gruppensieg und Kane-Rekord: England schlägt Panama",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T22:55:14+00:00",
+      "last_seen": "2026-06-27T22:55:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.1566
+    },
+    {
+      "id": "44d3ad7e99",
+      "title": "Davies vor Comeback – So sehen Sie Kanada gegen Südafrika live",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/article6a4020a9e855a8087523f1c2/wm-2026-erstes-sechzehntelfinale-so-sehen-sie-kanada-suedafrika-live-im-tv.html",
+          "headline": "Davies vor Comeback – So sehen Sie Kanada gegen Südafrika live",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T22:39:26+00:00",
+      "last_seen": "2026-06-27T22:39:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1239
+    },
+    {
+      "id": "f75c02ced4",
+      "title": "Krieg in Nahost: USA greifen iranische Militärstellungen an – Trump droht mit Vernichtung",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/politik/liveblog-nahost-iran-news-usa-israel-libanon-li.3505461",
+          "headline": "Krieg in Nahost: USA greifen iranische Militärstellungen an – Trump droht mit Vernichtung",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T22:36:00+00:00",
+      "last_seen": "2026-06-27T22:36:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.1169
+    },
+    {
+      "id": "02333eb542",
+      "title": "„Einer der schlimmsten Tage meines Lebens“ – verletzter Nico Williams klagt Gegenspieler an",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/article6a4048cfafe845031b3b0b56/wm-2026-einer-der-schlimmsten-tage-spaniens-nico-williams-klagt-gegenspieler-an.html",
+          "headline": "„Einer der schlimmsten Tage meines Lebens“ – verletzter Nico Williams klagt Gegenspieler an",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T22:34:07+00:00",
+      "last_seen": "2026-06-27T22:34:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.1131
+    },
+    {
+      "id": "fee51d2384",
+      "title": "„Sollte das geschehen, wird die Islamische Republik Iran nicht mehr existieren“, droht Trump",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6a404838113e90346dc4f550/usa-verueben-neuen-vergeltungsschlag-dann-wird-der-iran-nicht-mehr-existieren-droht-trump.html",
+          "headline": "„Sollte das geschehen, wird die Islamische Republik Iran nicht mehr existieren“, droht Trump",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T22:24:38+00:00",
+      "last_seen": "2026-06-27T22:24:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0943
+    },
+    {
+      "id": "f2d5d2e3f0",
+      "title": "Waldbrand: Erneut Waldbrand in der Gohrischheide ausgebrochen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/27/erneut-feuer-in-der-gohrischheide-lage-noch-unklar",
+          "headline": "Waldbrand: Erneut Waldbrand in der Gohrischheide ausgebrochen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T22:23:04+00:00",
+      "last_seen": "2026-06-27T22:23:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "de",
+      "resonance": 0.0912
+    },
+    {
+      "id": "66118a8c66",
+      "title": "„Da wurde sogar das Training abgebrochen!“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a40411cafe845031b3b0b0c/fussball-wm-stress-mit-kevin-grosskreutz-da-wurde-sogar-das-training-abgebrochen.html",
+          "headline": "„Da wurde sogar das Training abgebrochen!“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T22:19:34+00:00",
+      "last_seen": "2026-06-27T22:19:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0843
+    },
+    {
+      "id": "d4c4bb10a7",
+      "title": "Hitzewelle: Ungarn drosselt wegen warmer Donau Atomkraftwerk",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-06/hitzewelle-sommer-temperaturen-rekord-gefahr",
+          "headline": "Hitzewelle: Ungarn drosselt wegen warmer Donau Atomkraftwerk",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T22:19:21+00:00",
+      "last_seen": "2026-06-27T22:19:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0839
+    },
+    {
+      "id": "fdbd840665",
+      "title": "Kriminalität: Schüsse in Berlin - 17-Jähriger schwer verletzt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-06/28/schuesse-in-berlin-17-jaehriger-schwer-verletzt",
+          "headline": "Kriminalität: Schüsse in Berlin - 17-Jähriger schwer verletzt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T22:16:30+00:00",
+      "last_seen": "2026-06-27T22:16:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "de",
+      "resonance": 0.0784
     },
     {
       "id": "4efdbfb988",
@@ -60,7 +885,7 @@
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/video6a404159afe845031b3b0b14/kimmich-in-der-verteidigung-julian-denkt-gar-nicht-darueber-nach.html",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a404159afe845031b3b0b14/fussball-wm-kimmich-in-die-verteidigung-julian-nagelsmann-denkt-gar-nicht-darueber-nach.html",
           "headline": "„Julian denkt gar nicht darüber nach“",
           "platform": "rss"
         }
@@ -80,65 +905,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "b26a697a36",
-      "title": "Notfälle: Mehrere Menschen sterben bei Badeunfällen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/28/mehrere-menschen-sterben-bei-badeunfaellen",
-          "headline": "Notfälle: Mehrere Menschen sterben bei Badeunfällen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T22:03:54+00:00",
-      "last_seen": "2026-06-27T22:03:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "2288ee97bf",
-      "title": "Iran-Krieg: Erneut US-Angriffe auf den Iran",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/28/erneut-us-angriffe-auf-den-iran",
-          "headline": "Iran-Krieg: Erneut US-Angriffe auf den Iran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T22:03:39+00:00",
-      "last_seen": "2026-06-27T22:03:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.28
+      "resonance": 0.0631
     },
     {
       "id": "6127176c85",
@@ -167,811 +934,110 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "af4728de0f",
-      "title": "„Wäre auch nichts Schlimmes gewesen“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/video6a4040efafe845031b3b0b05/nagelsmann-kommunikation-waere-auch-nichts-schlimmes-gewesen.html",
-          "headline": "„Wäre auch nichts Schlimmes gewesen“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T21:59:08+00:00",
-      "last_seen": "2026-06-27T21:59:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "fd74fbf29b",
-      "title": "Konzerte: Kraftklub feiert Stadionpremiere bei großer Sommerhitze",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/27/kraftklub-feiert-stadionpremiere-bei-grosser-sommerhitze",
-          "headline": "Konzerte: Kraftklub feiert Stadionpremiere bei großer Sommerhitze",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T21:55:53+00:00",
-      "last_seen": "2026-06-27T21:55:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "28fa59cb87",
-      "title": "Kalenderblatt: Was geschah am 28. Juni?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/27/was-geschah-am-28-juni",
-          "headline": "Kalenderblatt: Was geschah am 28. Juni?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T21:55:04+00:00",
-      "last_seen": "2026-06-27T21:55:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "24b7e88e14",
-      "title": "Fußball-WM 2026: Auch Philipp Lahm fordert Joshua Kimmichs Rückkehr ins Mittelfeld",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-05/fussball-wm-2026-liveblog",
-          "headline": "Fußball-WM 2026: Auch Philipp Lahm fordert Joshua Kimmichs Rückkehr ins Mittelfeld",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/wm-2026-news-heute-toni-kroos-kritisiert-deutschlands-fussballer-a-bb5233a1-9adc-4975-8062-1a4047a4c0a5#ref=rss",
-          "headline": "WM 2026 News heute: Philipp Lahm fordert Joshua Kimmich im DFB-Mittelfeld gegen Paraguay",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.075,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T16:50:00+00:00",
-      "last_seen": "2026-06-27T21:20:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.343
-    },
-    {
-      "id": "d8a26da43e",
-      "title": "Taucher im Einsatz: 27-jähriger Mann ertrinkt im Neckar",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/27/27-jaehriger-mann-ertrinkt-im-neckar",
-          "headline": "Taucher im Einsatz: 27-jähriger Mann ertrinkt im Neckar",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T21:32:39+00:00",
-      "last_seen": "2026-06-27T21:32:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "e065222dd1",
-      "title": "Als Pflegerin verkleidet: Frau entführt Baby aus Neugeborenenstation",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Frau-entfuehrt-Baby-aus-Neugeborenenstation-id31022106.html",
-          "headline": "Als Pflegerin verkleidet: Frau entführt Baby aus Neugeborenenstation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T21:30:12+00:00",
-      "last_seen": "2026-06-27T21:30:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "366f2d53e7",
-      "title": "Donald Trump: Trump will Lance Schroyer zum neuen ICE-Direktor machen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/donald-trump-trump-will-lance-schroyer-zum-neuen-ice-direktor-machen-a-6c15f7bc-1580-445b-9b40-3a3c55b631b2#ref=rss",
-          "headline": "Donald Trump: Trump will Lance Schroyer zum neuen ICE-Direktor machen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T21:29:00+00:00",
-      "last_seen": "2026-06-27T21:29:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "d4c4bb10a7",
-      "title": "Hitzewelle: Ungarn drosselt wegen warmer Donau Atomkraftwerk",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-06/hitzewelle-sommer-temperaturen-rekord-gefahr",
-          "headline": "Hitzewelle: Ungarn drosselt wegen warmer Donau Atomkraftwerk",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T21:25:25+00:00",
-      "last_seen": "2026-06-27T21:25:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "557eb64bc5",
-      "title": "„Ihr habt die Chance Weltmeister zu werden“",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/video6a404186afe845031b3b0b18/fussball-wm-john-terry-ueber-deutschland-ihr-habt-die-chance-weltmeister-zu-werden.html",
-          "headline": "„Ihr habt die Chance Weltmeister zu werden“",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/video6a402d86afe845031b3b0a63/hildebrand-ueber-neuer-ihr-habt-alle-keine-ahnung.html",
-          "headline": "„Ihr habt alle keine Ahnung!“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 2
-      },
-      "first_seen": "2026-06-27T20:22:08+00:00",
-      "last_seen": "2026-06-27T21:47:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2829
-    },
-    {
-      "id": "8233fc6b95",
-      "title": "Gute Nachrichten aus Winston-Salem – Brown zurück im Mannschaftstraining",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a16c606bd0d0e58e09d9530/fussball-wm-2026-paraguays-torschuetze-spielte-mit-der-uhr-des-schiedsrichters-am-arm.html",
-          "headline": "Gute Nachrichten aus Winston-Salem – Brown zurück im Mannschaftstraining",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T21:19:00+00:00",
-      "last_seen": "2026-06-27T21:19:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.2786
-    },
-    {
-      "id": "e018f88d87",
-      "title": "Ein Klub will ihn unbedingt: Alexander Nübel ist beim FC Bayern nicht mehr willkommen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/fussball/Alexander-Nuebel-ist-beim-FC-Bayern-nicht-mehr-willkommen-id31022099.html",
-          "headline": "Ein Klub will ihn unbedingt: Alexander Nübel ist beim FC Bayern nicht mehr willkommen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T21:13:14+00:00",
-      "last_seen": "2026-06-27T21:13:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2681
-    },
-    {
-      "id": "02f17f719d",
-      "title": "Notfälle: Mann stürzt beim Klettern in den Alpen ab und stirbt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-06/27/mann-stuerzt-beim-klettern-in-den-alpen-ab-und-stirbt",
-          "headline": "Notfälle: Mann stürzt beim Klettern in den Alpen ab und stirbt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T21:11:06+00:00",
-      "last_seen": "2026-06-27T21:11:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2642
-    },
-    {
-      "id": "6acada2ea9",
-      "title": "Erdbeben in Venezuela: Zahl der Toten steigt nach Erdbeben auf mehr als 1.400",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-06/erdbeben-venezuela-tote-verletzte-jorge-rodriguez",
-          "headline": "Erdbeben in Venezuela: Zahl der Toten steigt nach Erdbeben auf mehr als 1.400",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/panorama/Zahl-der-Toten-nach-Erdbeben-in-Venezuela-steigt-auf-mehr-als-1400-id31021851.html",
-          "headline": "\"Ein Wettlauf gegen die Zeit\": Zahl der Toten nach Erdbeben in Venezuela steigt auf mehr als 1400",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.15,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T17:31:15+00:00",
-      "last_seen": "2026-06-27T18:46:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2527
-    },
-    {
-      "id": "490af1fec6",
-      "title": "Profiboxen: Erster deutscher Boxweltmeister im Schwergewicht seit fast 100 Jahren",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-06/agit-kabayel-weltmeister-boxen-schwergewicht-max-schmeling",
-          "headline": "Profiboxen: Erster deutscher Boxweltmeister im Schwergewicht seit fast 100 Jahren",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T20:56:41+00:00",
-      "last_seen": "2026-06-27T20:56:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2387
-    },
-    {
-      "id": "bb9c156a6f",
-      "title": "England bislang torlos gegen Panama – Kroatien aktuell Gruppensieger",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/article6a3ffc24291c205ad345baca/wm-ticker-konferenz-england-kroatien-und-ghana-im-spannenden-gruppenfinale-live.html",
-          "headline": "England bislang torlos gegen Panama – Kroatien aktuell Gruppensieger",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T20:50:31+00:00",
-      "last_seen": "2026-06-27T20:50:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2281
-    },
-    {
-      "id": "c3b78be5b9",
-      "title": "Krieg in der Ukraine: Bürgermeister: Fast zwei Dutzend Drohnen vor Moskau abgeschossen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-russland-moskau-drohnen-li.3500126",
-          "headline": "Krieg in der Ukraine: Bürgermeister: Fast zwei Dutzend Drohnen vor Moskau abgeschossen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T20:24:13+00:00",
-      "last_seen": "2026-06-27T20:24:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.1842
-    },
-    {
-      "id": "e0e65664fd",
-      "title": "„Haben das Messer am Hals“",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/video6a40137d113e90346dc4f326/deutschland-paraguay-haben-das-messer-am-hals.html",
-          "headline": "„Haben das Messer am Hals“",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/fussball-wm/Messer-am-Hals-DFB-packt-den-Voeller-Trick-aus-id31021628.html",
-          "headline": "Der Nagelsmann-Widerspruch: \"Messer am Hals\"? DFB packt den Völler-Trick aus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.15,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T16:37:42+00:00",
-      "last_seen": "2026-06-27T18:44:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1778
-    },
-    {
-      "id": "ef0db58d85",
-      "title": "WM 2026 live: England gegen Panama im Liveticker",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/wm-2026-live-england-gegen-panama-im-liveticker-a-461861ed-b288-43d2-81ed-944e9e4b0dd0#ref=rss",
-          "headline": "WM 2026 live: England gegen Panama im Liveticker",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T20:12:00+00:00",
-      "last_seen": "2026-06-27T20:12:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1648
-    },
-    {
-      "id": "7a6d5efc47",
-      "title": "Hisbollah gegen 14-Punkte-Plan: Israels Militär greift kurz nach Abkommen Ziele im Südlibanon an",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Israels-Militaer-greift-kurz-nach-Abkommen-Ziele-im-Suedlibanon-an-id31021981.html",
-          "headline": "Hisbollah gegen 14-Punkte-Plan: Israels Militär greift kurz nach Abkommen Ziele im Südlibanon an",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T20:00:55+00:00",
-      "last_seen": "2026-06-27T20:00:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.1475
-    },
-    {
-      "id": "c2c87b632b",
-      "title": "Hitze in Deutschland und Europa: Hitzeschäden an Autobahnen – Neuer Temperaturhöchstwert gemessen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-06/hitze-deutschland-europa-folgen-wetterrekorde",
-          "headline": "Hitze in Deutschland und Europa: Hitzeschäden an Autobahnen – Neuer Temperaturhöchstwert gemessen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T19:48:35+00:00",
-      "last_seen": "2026-06-27T19:48:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1289
-    },
-    {
-      "id": "4e0160024b",
-      "title": "Erdbeben in Venezuela: Familie nach 26 Stunden lebend aus Trümmern gerettet",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/ausland/article6a4008ddafe845031b3b08a0/erdbeben-in-venezuela-zahl-der-toten-steigt-auf-ueber-1400-baby-nach-32-stunden-lebend-aus-truemmern-gerettet.html",
-          "headline": "Zahl der Toten steigt auf über 1400 – Baby nach 32 Stunden lebend aus Trümmern gerettet",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/panorama/erdbeben-in-venezuela-familie-nach-26-stunden-lebend-aus-truemmern-gerettet-a-ef025226-5763-4e2c-9d8f-f2505243a33e#ref=rss",
-          "headline": "Erdbeben in Venezuela: Familie nach 26 Stunden lebend aus Trümmern gerettet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.075,
-        "spread": 0.225,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T16:06:00+00:00",
-      "last_seen": "2026-06-27T17:55:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1282
-    },
-    {
-      "id": "2103cc2edc",
-      "title": "Bielsa vs. Uruguay: \"Atmosphäre vergiftet\": Ex-Star gibt Trainer Schuld am WM-Aus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/fussball-wm/Atmosphaere-vergiftet-Ex-Star-gibt-Trainer-Schuld-am-WM-Aus-id31022002.html",
-          "headline": "Bielsa vs. Uruguay: \"Atmosphäre vergiftet\": Ex-Star gibt Trainer Schuld am WM-Aus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T19:33:30+00:00",
-      "last_seen": "2026-06-27T19:33:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1067
-    },
-    {
-      "id": "a5de371fef",
-      "title": "Wetter: Erneut Temperaturrekord in Deutschland: 41,5 Grad gemessen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/panorama/wetter-hitze-news-liveblog-temperaturrekord-deutschland-sachsen-anhalt-li.3502376",
-          "headline": "Wetter: Erneut Temperaturrekord in Deutschland: 41,5 Grad gemessen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T19:29:01+00:00",
-      "last_seen": "2026-06-27T19:29:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1003
-    },
-    {
-      "id": "e8e81f3586",
-      "title": "Boxen: WBC erklärt Agit Kabayel zum Weltmeister im Schwergewicht",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/boxen/boxen-wbc-erklaert-agit-kabayel-zum-weltmeister-im-schwergewicht-a-b882d276-fdf3-4573-8141-11a9a2d37344#ref=rss",
-          "headline": "Boxen: WBC erklärt Agit Kabayel zum Weltmeister im Schwergewicht",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T19:01:00+00:00",
-      "last_seen": "2026-06-27T19:01:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0615
-    },
-    {
-      "id": "41ab97481c",
-      "title": "Kampflos Weltmeister – erster deutscher Schwergewichts-Champion seit 1932",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/boxen/article6a401825113e90346dc4f385/boxen-agit-kabayel-kampflos-weltmeister-erster-deutscher-schwergewichts-champion-seit-1932.html",
-          "headline": "Kampflos Weltmeister – erster deutscher Schwergewichts-Champion seit 1932",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T18:52:24+00:00",
-      "last_seen": "2026-06-27T18:52:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "b26a697a36",
-      "target": "02f17f719d",
-      "weight": 0.248,
+      "source": "2236846b66",
+      "target": "0461c04ef5",
+      "weight": 0.078,
       "type": "thematic"
     },
     {
-      "source": "28fa59cb87",
-      "target": "e0e65664fd",
-      "weight": 0.119,
+      "source": "2236846b66",
+      "target": "7bf46ce548",
+      "weight": 0.02,
+      "type": "thematic"
+    },
+    {
+      "source": "2236846b66",
+      "target": "7dde3dbfd8",
+      "weight": 0.057,
+      "type": "thematic"
+    },
+    {
+      "source": "2236846b66",
+      "target": "24b7e88e14",
+      "weight": 0.53,
+      "type": "thematic"
+    },
+    {
+      "source": "84a8a654f7",
+      "target": "a0ab449b28",
+      "weight": 0.739,
+      "type": "thematic"
+    },
+    {
+      "source": "2288ee97bf",
+      "target": "0bcdb7f4fa",
+      "weight": 0.659,
+      "type": "thematic"
+    },
+    {
+      "source": "2288ee97bf",
+      "target": "fee51d2384",
+      "weight": 0.214,
+      "type": "thematic"
+    },
+    {
+      "source": "396ce2a934",
+      "target": "0461c04ef5",
+      "weight": 0.083,
+      "type": "thematic"
+    },
+    {
+      "source": "396ce2a934",
+      "target": "7bf46ce548",
+      "weight": 0.327,
+      "type": "thematic"
+    },
+    {
+      "source": "396ce2a934",
+      "target": "6508f5a3ca",
+      "weight": 0.031,
+      "type": "thematic"
+    },
+    {
+      "source": "0461c04ef5",
+      "target": "7bf46ce548",
+      "weight": 0.752,
+      "type": "thematic"
+    },
+    {
+      "source": "0461c04ef5",
+      "target": "6508f5a3ca",
+      "weight": 0.215,
+      "type": "thematic"
+    },
+    {
+      "source": "7bf46ce548",
+      "target": "6508f5a3ca",
+      "weight": 0.456,
+      "type": "thematic"
+    },
+    {
+      "source": "6f408a0c06",
+      "target": "d2fc88ec56",
+      "weight": 0.032,
       "type": "thematic"
     },
     {
       "source": "24b7e88e14",
-      "target": "ef0db58d85",
+      "target": "6508f5a3ca",
+      "weight": 0.256,
+      "type": "thematic"
+    },
+    {
+      "source": "5d15d892c3",
+      "target": "6508f5a3ca",
+      "weight": 0.043,
+      "type": "thematic"
+    },
+    {
+      "source": "f75c02ced4",
+      "target": "fee51d2384",
       "weight": 0.13,
-      "type": "thematic"
-    },
-    {
-      "source": "6acada2ea9",
-      "target": "4e0160024b",
-      "weight": 0.57,
-      "type": "thematic"
-    },
-    {
-      "source": "490af1fec6",
-      "target": "e8e81f3586",
-      "weight": 0.018,
-      "type": "thematic"
-    },
-    {
-      "source": "490af1fec6",
-      "target": "41ab97481c",
-      "weight": 0.652,
-      "type": "thematic"
-    },
-    {
-      "source": "bb9c156a6f",
-      "target": "ef0db58d85",
-      "weight": 0.759,
-      "type": "thematic"
-    },
-    {
-      "source": "c2c87b632b",
-      "target": "a5de371fef",
-      "weight": 0.287,
       "type": "thematic"
     }
   ],

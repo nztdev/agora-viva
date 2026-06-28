@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-27T22:14:23.218624+00:00",
+  "generated_at": "2026-06-28T00:12:53.043525+00:00",
   "country_code": "gb",
   "country_name": "United Kingdom",
   "language": "en",
   "node_count": 30,
-  "edge_count": 5,
+  "edge_count": 7,
   "nodes": [
     {
       "id": "9a421e490b",
@@ -26,7 +26,7 @@
         {
           "outlet": "The Guardian",
           "url": "https://www.theguardian.com/uk-news/2026/jun/27/man-arrested-on-suspicion-of-attempted-after-vehicle-hits-pedestrians-in-london",
-          "headline": "Man arrested on suspicion of attempted murder after vehicle hits pedestrians in London",
+          "headline": "Man arrested on suspicion of attempted murder after car hits pedestrians in London",
           "platform": "rss"
         },
         {
@@ -57,7 +57,48 @@
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.7098
+      "resonance": 0.6499
+    },
+    {
+      "id": "237cc2da52",
+      "title": "Boy, 17, dies and three seriously injured in crash",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/boy-17-dies-eastbourne-crash-37357654",
+          "headline": "Boy, 17, dies and three seriously injured in horror Eastbourne crash",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39569018/teenage-boy-dead-crash-men-injured-beachy-head/",
+          "headline": "Teenage boy, 17, dies in horror crash and three men seriously injured as cops appeal for dashcam footage",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/c07y5pe9d4yo?at_medium=RSS&at_campaign=rss",
+          "headline": "Boy, 17, dies and three seriously injured in crash",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.067,
+        "spread": 0.386,
+        "left": 1,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T11:33:22+00:00",
+      "last_seen": "2026-06-27T23:49:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.5444
     },
     {
       "id": "f4875ef831",
@@ -104,7 +145,257 @@
       "geo_regions": [],
       "topic": "tech",
       "language": "en",
-      "resonance": 0.6179
+      "resonance": 0.5393
+    },
+    {
+      "id": "0f1ebc4935",
+      "title": "Met Office issues new UK three hours of thunderstorms for millions warning",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39570223/uk-cool-down-amber-warning-extreme-heat-extended-thunderstorms/",
+          "headline": "UK to cool down in 25C – but amber weather warning for extreme heat extended by Met Office after thunderstorms",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/met-office-issues-new-uk-37357243",
+          "headline": "Met Office issues new UK three hours of thunderstorms for millions warning",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.45,
+        "left": 1,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T19:46:31+00:00",
+      "last_seen": "2026-06-27T23:55:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "en",
+      "resonance": 0.4619
+    },
+    {
+      "id": "dd4dc088a4",
+      "title": "117 dead dogs found at California 'no-kill' animal rescue - many with gunshot wounds",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cj4gqz5lx1eo?at_medium=RSS&at_campaign=rss",
+          "headline": "117 dead dogs found at California 'no-kill' animal rescue - many with gunshot wounds",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-28T00:06:19+00:00",
+      "last_seen": "2026-06-28T00:06:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.28
+    },
+    {
+      "id": "3a3d2e1517",
+      "title": "US conducts retaliatory strikes on Iran after second shipping attack",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
+          "headline": "US conducts retaliatory strikes on Iran after second shipping attack",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T23:56:26+00:00",
+      "last_seen": "2026-06-27T23:56:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "en",
+      "resonance": 0.28
+    },
+    {
+      "id": "ed4ae2fbe9",
+      "title": "Welsh teens arrested in Thailand prompting police probe",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/two-british-teens-arrested-thailand-37357525",
+          "headline": "Two British teenagers arrested in Thailand as police probe 'circumstances' of their trip",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/crkv7jn8nd7o?at_medium=RSS&at_campaign=rss",
+          "headline": "Welsh teens arrested in Thailand prompting police probe",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Evening Standard",
+          "url": "https://www.standard.co.uk/news/uk/thailand-south-wales-police-welsh-thai-cardiff-b1287845.html",
+          "headline": "Welsh teenagers arrested in Thailand as police probe reason for their trip",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.163,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T13:03:57+00:00",
+      "last_seen": "2026-06-27T22:28:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.378
+    },
+    {
+      "id": "7d600c14cb",
+      "title": "US strikes ‘multiple targets’ in Iran and Trump says regime will ‘no longer exist’ in threat to fragile ceasefire",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39571273/us-strikes-iran-trump-threatens-regime-ceasefire/",
+          "headline": "US strikes ‘multiple targets’ in Iran and Trump says regime will ‘no longer exist’ in threat to fragile ceasefire",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T23:46:42+00:00",
+      "last_seen": "2026-06-27T23:46:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "en",
+      "resonance": 0.28
+    },
+    {
+      "id": "1676d34ad1",
+      "title": "Lib Dems face call for inquiry into deselection of election candidate",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/c4gypnyk788o?at_medium=RSS&at_campaign=rss",
+          "headline": "Lib Dems face call for inquiry into deselection of election candidate",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T23:43:34+00:00",
+      "last_seen": "2026-06-27T23:43:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "en",
+      "resonance": 0.28
+    },
+    {
+      "id": "fb3387d041",
+      "title": "Clarke steps down as Scotland boss after World Cup exit",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c5yzq73x1p7o?at_medium=RSS&at_campaign=rss",
+          "headline": "Clarke steps down as Scotland boss after World Cup exit",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T23:37:18+00:00",
+      "last_seen": "2026-06-27T23:37:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "en",
+      "resonance": 0.28
+    },
+    {
+      "id": "a54feb5387",
+      "title": "Parents arrested for murder after letting son, 7, get to 18 stone before he died",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/us-news/parents-arrested-murder-son-7-37357613",
+          "headline": "Parents arrested for murder after letting son, 7, get to 18 stone before he died",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T23:34:06+00:00",
+      "last_seen": "2026-06-27T23:34:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.28
     },
     {
       "id": "7752630bdb",
@@ -139,17 +430,75 @@
       "geo_regions": [],
       "topic": "tech",
       "language": "en",
-      "resonance": 0.3904
+      "resonance": 0.3092
     },
     {
-      "id": "2c8e2efd99",
-      "title": "Panama v England: World Cup 2026 – live",
+      "id": "da82e9ef23",
+      "title": "Guards at Monster Mansion 'on high alert' as hitman who shot dead two gangsters has 'nothing to lose'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/monster-mansion-guards-high-alert-37357519",
+          "headline": "Guards at Monster Mansion 'on high alert' as hitman who shot dead two gangsters has 'nothing to lose'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T23:05:10+00:00",
+      "last_seen": "2026-06-27T23:05:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.2731
+    },
+    {
+      "id": "2552b463cf",
+      "title": "Who could England face in last 32 after qualifying for next round?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c1wylljn12xo?at_medium=RSS&at_campaign=rss",
+          "headline": "Who could England face in last 32 after qualifying for next round?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T23:03:28+00:00",
+      "last_seen": "2026-06-27T23:03:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.2697
+    },
+    {
+      "id": "372882b933",
+      "title": "Fatboy Slim says he felt paralysed at prospect of DJing sober after rehab",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/football/live/2026/jun/27/panama-v-england-world-cup-2026-live-updates",
-          "headline": "Panama v England: World Cup 2026 – live",
+          "url": "https://www.theguardian.com/music/2026/jun/28/fatboy-slim-djing-sober-rehab-alcoholism-desert-island-discs",
+          "headline": "Fatboy Slim says he felt paralysed at prospect of DJing sober after rehab",
           "platform": "rss"
         }
       ],
@@ -160,15 +509,102 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-27T22:02:36+00:00",
-      "last_seen": "2026-06-27T22:02:36+00:00",
+      "first_seen": "2026-06-27T23:01:16+00:00",
+      "last_seen": "2026-06-27T23:01:16+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
+      "topic": "world",
       "language": "en",
-      "resonance": 0.2617
+      "resonance": 0.2654
+    },
+    {
+      "id": "2c6146fee3",
+      "title": "Bellingham and Kane strike as England seal top spot with World Cup win over Panama",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/football/2026/jun/27/england-panama-world-cup-group-l-match-report",
+          "headline": "Bellingham and Kane strike as England seal top spot with World Cup win over Panama",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.4,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T22:56:26+00:00",
+      "last_seen": "2026-06-27T22:56:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "en",
+      "resonance": 0.2559
+    },
+    {
+      "id": "4c149f58f3",
+      "title": "Fears for missing five-star hotel worker, 35, who vanished without a trace and has not contacted family in months",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39569482/missing-person-hotel-worker-vanished/",
+          "headline": "Fears for missing five-star hotel worker, 35, who vanished without a trace and has not contacted family in months",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-27T22:38:39+00:00",
+      "last_seen": "2026-06-27T22:38:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.222
+    },
+    {
+      "id": "3c48e183e6",
+      "title": "Australia to double maximum penalty for platforms in breach of social media ban",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c78yv5g74e9o?at_medium=RSS&at_campaign=rss",
+          "headline": "Australia to double maximum penalty for platforms in breach of social media ban",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T22:34:11+00:00",
+      "last_seen": "2026-06-27T22:34:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.2137
     },
     {
       "id": "b799881a78",
@@ -221,7 +657,36 @@
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.2537
+      "resonance": 0.192
+    },
+    {
+      "id": "67e9f441e4",
+      "title": "US says it struck targets in Iran over ‘continued aggression’ against shipping",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jun/27/us-iran-strikes",
+          "headline": "US says it struck targets in Iran over ‘continued aggression’ against shipping",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.4,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-27T22:16:55+00:00",
+      "last_seen": "2026-06-27T22:16:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.1824
     },
     {
       "id": "d046c00a42",
@@ -256,7 +721,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.2514
+      "resonance": 0.1767
     },
     {
       "id": "99bc527e98",
@@ -285,7 +750,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.241
+      "resonance": 0.1378
     },
     {
       "id": "9391fd4beb",
@@ -314,7 +779,7 @@
       "geo_regions": [],
       "topic": "health",
       "language": "en",
-      "resonance": 0.2343
+      "resonance": 0.1315
     },
     {
       "id": "5188a051e1",
@@ -343,7 +808,7 @@
       "geo_regions": [],
       "topic": "conflict",
       "language": "en",
-      "resonance": 0.2203
+      "resonance": 0.1182
     },
     {
       "id": "f56717e185",
@@ -372,7 +837,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.2131
+      "resonance": 0.1114
     },
     {
       "id": "72c9dca085",
@@ -401,7 +866,7 @@
       "geo_regions": [],
       "topic": "tech",
       "language": "en",
-      "resonance": 0.2047
+      "resonance": 0.1035
     },
     {
       "id": "c7fe5774f2",
@@ -430,42 +895,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.1971
-    },
-    {
-      "id": "237cc2da52",
-      "title": "Boy, 17, dies and three seriously injured in crash",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39569018/teenage-boy-dead-crash-men-injured-beachy-head/",
-          "headline": "Teenage boy, 17, dies in horror crash and three men seriously injured as cops appeal for dashcam footage",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/c07y5pe9d4yo?at_medium=RSS&at_campaign=rss",
-          "headline": "Boy, 17, dies and three seriously injured in crash",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.25,
-        "spread": 0.35,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T11:33:22+00:00",
-      "last_seen": "2026-06-27T21:22:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.1921
+      "resonance": 0.0962
     },
     {
       "id": "1782f60c23",
@@ -500,7 +930,7 @@
       "geo_regions": [],
       "topic": "tech",
       "language": "en",
-      "resonance": 0.1882
+      "resonance": 0.0919
     },
     {
       "id": "342e959ced",
@@ -529,7 +959,7 @@
       "geo_regions": [],
       "topic": "tech",
       "language": "en",
-      "resonance": 0.176
+      "resonance": 0.0763
     },
     {
       "id": "2229e64016",
@@ -558,450 +988,50 @@
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.1484
-    },
-    {
-      "id": "76ffe0e826",
-      "title": "Wanted Kinahan cartel ‘key lieutenent’ Ian Dixon, 36, spotted playing padel in Dubai – despite being sanctioned",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39568161/kinahan-kingpin-playing-padel-dubai/",
-          "headline": "Wanted Kinahan cartel ‘key lieutenent’ Ian Dixon, 36, spotted playing padel in Dubai – despite being sanctioned",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T20:50:08+00:00",
-      "last_seen": "2026-06-27T20:50:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.1401
-    },
-    {
-      "id": "65fad4b487",
-      "title": "Morrisons recalls popular snack in urgent Saturday alert warning 'do not eat'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/lifestyle/food-drink/morrisons-recalls-popular-snack-urgent-37357336",
-          "headline": "Morrisons recalls popular snack in urgent Saturday alert warning 'do not eat'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T20:44:40+00:00",
-      "last_seen": "2026-06-27T20:44:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "en",
-      "resonance": 0.1317
-    },
-    {
-      "id": "87604d60f2",
-      "title": "Man, 57, stabbed to death in horror attack as two men & woman arrested – and family praises his ‘unforgettable kindness’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39568448/man-stabbed-death-neck-men-woman-arrested-tribute/",
-          "headline": "Man, 57, stabbed to death in horror attack as two men & woman arrested – and family praises his ‘unforgettable kindness’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T20:43:50+00:00",
-      "last_seen": "2026-06-27T20:43:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.1304
-    },
-    {
-      "id": "bc20a47089",
-      "title": "Firms fined for employing illegal migrants dodge paying by closing down & re-opening under new names, Sun probe finds",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39568716/firms-dodge-fines-illegal-migrants-sun-probe/",
-          "headline": "Firms fined for employing illegal migrants dodge paying by closing down & re-opening under new names, Sun probe finds",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T20:32:33+00:00",
-      "last_seen": "2026-06-27T20:32:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1135
-    },
-    {
-      "id": "462a87991f",
-      "title": "Labour is scraping the barrel with hollow careerist Burnham… he has no mandate – and no idea what he believes in",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39566847/labour-scraping-barrel-hollow-careerist-burnham-tony-parsons/",
-          "headline": "Labour is scraping the barrel with hollow careerist Burnham… he has no mandate – and no idea what he believes in",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T20:22:38+00:00",
-      "last_seen": "2026-06-27T20:22:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.099
-    },
-    {
-      "id": "a198b1d008",
-      "title": "Grooming gang victim’s fury after she’s told seven abusers could walk free after serving just a third of their sentence",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39567073/grooming-gang-victim-fury-abusers-walk-free/",
-          "headline": "Grooming gang victim’s fury after she’s told seven abusers could walk free after serving just a third of their sentence",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T20:18:22+00:00",
-      "last_seen": "2026-06-27T20:18:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0928
-    },
-    {
-      "id": "84f9005323",
-      "title": "Preston Davey murder… Nottingham maternity deaths – why do we reward public sector staff when people die on their watch?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39566811/jane-atkinson-public-sector-failings-deaths-preston-davey/",
-          "headline": "Preston Davey murder… Nottingham maternity deaths – why do we reward public sector staff when people die on their watch?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T20:15:06+00:00",
-      "last_seen": "2026-06-27T20:15:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "en",
-      "resonance": 0.0881
-    },
-    {
-      "id": "3e0e57a0ea",
-      "title": "Cop left covered in blood in Manchester Airport brawl recalls moment crowds ‘were laughing’ as she was punched in face",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39568005/cop-covered-blood-manchester-airport-recalls-moment-crowds-laughing/",
-          "headline": "Cop left covered in blood in Manchester Airport brawl recalls moment crowds ‘were laughing’ as she was punched in face",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T20:13:18+00:00",
-      "last_seen": "2026-06-27T20:13:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.0856
-    },
-    {
-      "id": "29476350cd",
-      "title": "Epstein survivor ‘to meet Burnham next week’ as she demands PM-in-waiting launch inquiry into Andrew and Mandelson",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39567764/epstein-survivor-meet-burnham-demand-andrew-mandelson-inquiry/",
-          "headline": "Epstein survivor ‘to meet Burnham next week’ as she demands PM-in-waiting launch inquiry into Andrew and Mandelson",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T20:12:44+00:00",
-      "last_seen": "2026-06-27T20:12:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.0848
-    },
-    {
-      "id": "6e7c9e06d2",
-      "title": "Female police officer punched in Manchester airport assault urges attacker to ‘show remorse’",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/crime/manchester-airport-mohammed-fahir-amaaz-broken-nose-lydia-ward-b3004309.html",
-          "headline": "Female police officer punched in Manchester airport assault urges attacker to ‘show remorse’",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Sky News UK",
-          "url": "https://news.sky.com/story/mohammed-fahir-amaaz-jailed-after-assaulting-two-female-police-officers-at-manchester-airport-13557933",
-          "headline": "Man jailed after 'cowardly' assault on two female police officers at Manchester Airport",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.15,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-26T15:52:00+00:00",
-      "last_seen": "2026-06-27T19:31:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "en",
-      "resonance": 0.0738
-    },
-    {
-      "id": "cab6a80780",
-      "title": "The last continent: how deadly bird flu travelled the world before landing on a remote Australian beach",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jun/28/bird-flu-travelled-world-remote-australian-beach",
-          "headline": "The last continent: how deadly bird flu travelled the world before landing on a remote Australian beach",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T20:00:14+00:00",
-      "last_seen": "2026-06-27T20:00:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0673
-    },
-    {
-      "id": "e8d501d5c3",
-      "title": "‘Really good flatmate’: what happens when the love is gone but it costs too much to move out?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/lifeandstyle/2026/jun/28/love-gone-but-costs-too-much-to-move-out-ntwnfb",
-          "headline": "‘Really good flatmate’: what happens when the love is gone but it costs too much to move out?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T20:00:13+00:00",
-      "last_seen": "2026-06-27T20:00:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.0673
-    },
-    {
-      "id": "c4b3969c4a",
-      "title": "Lottery results and numbers: Lotto and Thunderball draw tonight, June 27, 2026",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39562399/lottery-results-lotto-thunderball-draw-27-june-2026/",
-          "headline": "Lottery results and numbers: Lotto and Thunderball draw tonight, June 27, 2026",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-27T19:53:19+00:00",
-      "last_seen": "2026-06-27T19:53:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0579
-    },
-    {
-      "id": "7cfa97f7d5",
-      "title": "England fans confident of topping group after booking knockout travel months ago",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Evening Standard",
-          "url": "https://www.standard.co.uk/news/uk/england-new-jersey-fans-new-york-city-b1287865.html",
-          "headline": "England fans confident of topping group after booking knockout travel months ago",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-27T19:47:29+00:00",
-      "last_seen": "2026-06-27T19:47:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
       "source": "9a421e490b",
-      "target": "b799881a78",
-      "weight": 0.318,
+      "target": "a54feb5387",
+      "weight": 0.168,
       "type": "thematic"
     },
     {
       "source": "9a421e490b",
-      "target": "87604d60f2",
-      "weight": 0.059,
+      "target": "b799881a78",
+      "weight": 0.379,
       "type": "thematic"
     },
     {
-      "source": "b799881a78",
-      "target": "87604d60f2",
-      "weight": 0.111,
+      "source": "3a3d2e1517",
+      "target": "7d600c14cb",
+      "weight": 0.401,
       "type": "thematic"
     },
     {
-      "source": "f56717e185",
-      "target": "c4b3969c4a",
-      "weight": 0.809,
+      "source": "3a3d2e1517",
+      "target": "67e9f441e4",
+      "weight": 0.642,
       "type": "thematic"
     },
     {
-      "source": "3e0e57a0ea",
-      "target": "6e7c9e06d2",
-      "weight": 0.319,
+      "source": "7d600c14cb",
+      "target": "67e9f441e4",
+      "weight": 0.401,
+      "type": "thematic"
+    },
+    {
+      "source": "fb3387d041",
+      "target": "2c6146fee3",
+      "weight": 0.157,
+      "type": "thematic"
+    },
+    {
+      "source": "4c149f58f3",
+      "target": "99bc527e98",
+      "weight": 0.527,
       "type": "thematic"
     }
   ],
@@ -1023,12 +1053,12 @@
     },
     "The Independent": {
       "ok": true,
-      "count": 16,
+      "count": 15,
       "error": null
     },
     "Sky News UK": {
       "ok": true,
-      "count": 9,
+      "count": 8,
       "error": null
     },
     "Daily Mail": {

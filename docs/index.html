@@ -101,7 +101,21 @@ html[data-textsize="large"] #country-select { font-size: 14px; }
 html[data-textsize="large"] .lr { font-size: 13px; line-height: 2.8; }
 html[data-textsize="large"] #legend { font-size: 13px; }
 
-/* ── SETTINGS BUTTON ── */
+/* ── SEARCH ── */
+#search-btn{background:none;border:1px solid var(--border);color:var(--muted);width:28px;height:28px;border-radius:50%;cursor:pointer;font-size:13px;display:flex;align-items:center;justify-content:center;transition:all 0.2s;-webkit-tap-highlight-color:transparent;flex-shrink:0}
+#search-btn:hover,#search-btn.on{border-color:rgba(74,244,194,0.35);color:var(--accent)}
+#search-bar{position:fixed;top:0;left:0;right:0;z-index:201;display:flex;align-items:center;gap:10px;padding:14px 18px;background:var(--bg);border-bottom:1px solid var(--border);transform:translateY(-100%);transition:transform 0.28s cubic-bezier(0.16,1,0.3,1);backdrop-filter:blur(20px)}
+#search-bar.open{transform:translateY(0)}
+#search-input{flex:1;background:none;border:none;outline:none;font-family:'Syne',sans-serif;font-size:15px;color:var(--text);caret-color:var(--accent)}
+#search-input::placeholder{color:var(--muted)}
+#search-count{font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);white-space:nowrap;min-width:60px;text-align:right}
+#search-close{background:none;border:none;color:var(--muted);cursor:pointer;font-size:16px;padding:0 2px;line-height:1;-webkit-tap-highlight-color:transparent}
+#search-close:hover{color:var(--text)}
+
+/* ── SEEN EVENTS ── */
+/* Applied via canvas globalAlpha + filter in drawNodes, plus SVG label class */
+.nlabel.seen{fill:rgba(150,160,175,0.45) !important}
+
 #settings-btn{background:none;border:1px solid var(--border);color:var(--muted);width:28px;height:28px;border-radius:50%;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;transition:all 0.2s;-webkit-tap-highlight-color:transparent;pointer-events:all}
 #settings-btn:hover,#settings-btn.on{border-color:rgba(74,244,194,0.35);color:var(--accent)}
 
@@ -366,10 +380,20 @@ svg#graph{width:100%;height:100%;overflow:visible}
     <div id="tagline">the field is alive · v0.1</div>
   </div>
   <div id="hdr-right">
+    <button id="search-btn" title="Search" onclick="toggleSearch()">⌕</button>
     <button id="settings-btn" title="Settings" onclick="toggleSettings()">⚙</button>
     <button id="src-btn" title="Sources" onclick="toggleSources()">◉</button>
     <div id="live"><div class="ldot"></div><span id="ltext">connecting…</span></div>
   </div>
+</div>
+
+<!-- SEARCH BAR -->
+<div id="search-bar">
+  <span style="color:var(--muted);font-size:15px;flex-shrink:0">⌕</span>
+  <input id="search-input" type="search" placeholder="search events, sources, topics…"
+         oninput="onSearch(this.value)" autocomplete="off" autocorrect="off" spellcheck="false">
+  <span id="search-count"></span>
+  <button id="search-close" onclick="closeSearch()">✕</button>
 </div>
 
 <!-- SETTINGS POPOVER -->
@@ -387,6 +411,13 @@ svg#graph{width:100%;height:100%;overflow:visible}
       <button class="set-opt on" data-size="small" onclick="setTextSize('small')">small</button>
       <button class="set-opt" data-size="normal" onclick="setTextSize('normal')">normal</button>
       <button class="set-opt" data-size="large" onclick="setTextSize('large')">large</button>
+    </div>
+  </div>
+  <div class="set-row">
+    <span class="set-label">Mark seen</span>
+    <div class="set-toggle">
+      <button class="set-opt on" data-seen="on" onclick="setSeenMode('on')">on</button>
+      <button class="set-opt" data-seen="off" onclick="setSeenMode('off')">off</button>
     </div>
   </div>
 </div>
@@ -602,14 +633,29 @@ function drawNodes(){
   fnodes.forEach(n=>{
     const p=pos[n.id];if(!p)return;
     const r=nr(n),res=n.resonance||0;
-    const col=currentNodeColors(res);
     const isSel=n.id===selId,isHov=n.id===hovId;
-    const dimmed=highlightedOutlet&&!n.sources?.some(s=>s.outlet===highlightedOutlet);
 
-    nx.globalAlpha=dimmed?0.18:1;
+    // Dimming priority: outlet highlight > search filter > seen desaturation
+    const outletDimmed=highlightedOutlet&&!n.sources?.some(s=>s.outlet===highlightedOutlet);
+    const searchDimmed=searchQuery.length>=2&&!nodeMatchesSearch(n,searchQuery);
+    const isSeen=seenMode&&seenIds.has(n.id)&&!isSel&&!isHov;
 
-    // Pulse rings
-    if(res>0.38){
+    if(outletDimmed||searchDimmed){
+      nx.globalAlpha=0.12;
+    } else if(isSeen){
+      // Seen: desaturate by reducing alpha and switching to greyscale colours
+      nx.globalAlpha=0.38;
+      // Apply greyscale filter via canvas filter if supported
+      if(typeof nx.filter!=='undefined') nx.filter='grayscale(1)';
+    } else {
+      nx.globalAlpha=1;
+      if(typeof nx.filter!=='undefined') nx.filter='none';
+    }
+
+    const col=currentNodeColors(res);
+
+    // Pulse rings — skip for seen/dimmed nodes
+    if(res>0.38&&!outletDimmed&&!searchDimmed&&!isSeen){
       if(!pulsePhase[n.id])pulsePhase[n.id]=Math.random()*Math.PI*2;
       pulsePhase[n.id]+=0.016;
       const ph=pulsePhase[n.id];
@@ -630,17 +676,19 @@ function drawNodes(){
       nx.lineWidth=1.5;nx.stroke();
     }
     nx.save();
-    nx.shadowBlur=isSel?24:(res>0.5?16:7);
-    nx.shadowColor=col.glow;
+    nx.shadowBlur=isSel?24:(res>0.5&&!isSeen?16:4);
+    nx.shadowColor=isSeen?'rgba(150,155,165,0.2)':col.glow;
     nx.beginPath();nx.arc(p.x,p.y,r,0,Math.PI*2);
-    nx.fillStyle=col.core;nx.fill();
+    nx.fillStyle=isSeen?'rgba(140,148,160,0.6)':col.core;
+    nx.fill();
     nx.restore();
-    if(r>10){
+    if(r>10&&!isSeen){
       const hg=nx.createRadialGradient(p.x-r*0.3,p.y-r*0.3,0,p.x-r*0.3,p.y-r*0.3,r*0.65);
       hg.addColorStop(0,'rgba(255,255,255,0.2)');hg.addColorStop(1,'rgba(255,255,255,0)');
       nx.beginPath();nx.arc(p.x,p.y,r,0,Math.PI*2);nx.fillStyle=hg;nx.fill();
     }
     nx.globalAlpha=1;
+    if(typeof nx.filter!=='undefined') nx.filter='none';
   });
   nx.restore();
 }
@@ -1385,6 +1433,7 @@ document.addEventListener('mousemove',e=>{
 function selectNode(n){
   if(selId===n.id){selId=null;closePanel();return;}
   selId=n.id;
+  markSeen(n.id);
   if(viewMode==='field')highlightEdges(n.id);
   openPanel(n);
 }
@@ -1690,6 +1739,106 @@ function startOnboardDemo(){
   window.addEventListener('resize',resize);
 }
 
+// ── SEARCH ────────────────────────────────────────────────────────────────────
+
+let searchQuery='';
+let searchOpen=false;
+
+function toggleSearch(){
+  searchOpen=!searchOpen;
+  const bar=document.getElementById('search-bar');
+  const btn=document.getElementById('search-btn');
+  bar.classList.toggle('open',searchOpen);
+  btn.classList.toggle('on',searchOpen);
+  if(searchOpen){
+    setTimeout(()=>document.getElementById('search-input').focus(),280);
+  } else {
+    closeSearch();
+  }
+}
+
+function closeSearch(){
+  searchOpen=false;
+  searchQuery='';
+  document.getElementById('search-bar').classList.remove('open');
+  document.getElementById('search-btn').classList.remove('on');
+  document.getElementById('search-input').value='';
+  document.getElementById('search-count').textContent='';
+  // Restore all nodes
+  document.querySelectorAll('.nh').forEach(h=>h.style.opacity='');
+  document.querySelectorAll('.nlabel,.ntopic').forEach(l=>l.style.opacity='');
+  drawNodes();
+}
+
+function onSearch(q){
+  searchQuery=q.trim().toLowerCase();
+  if(searchQuery.length<2){
+    document.getElementById('search-count').textContent='';
+    document.querySelectorAll('.nh').forEach(h=>h.style.opacity='');
+    document.querySelectorAll('.nlabel,.ntopic').forEach(l=>l.style.opacity='');
+    drawNodes();
+    return;
+  }
+  let matchCount=0;
+  fnodes.forEach(n=>{
+    const match=nodeMatchesSearch(n,searchQuery);
+    if(match) matchCount++;
+    // Dim hit target opacity (affects hover/click area visually via canvas redraw)
+    const hit=document.getElementById('h-'+n.id);
+    const lbl=document.getElementById('lbl-'+n.id);
+    const topic=document.getElementById('topic-'+n.id);
+    if(hit) hit.style.opacity=match?'1':'0.15';
+    if(lbl) lbl.style.opacity=match?'1':'0.1';
+    if(topic) topic.style.opacity=match?'1':'0.08';
+  });
+  document.getElementById('search-count').textContent=
+    matchCount===0?'no matches':`${matchCount} match${matchCount!==1?'es':''}`;
+  drawNodes(); // redraw with search dimming
+}
+
+function nodeMatchesSearch(n,q){
+  if(!q||q.length<2) return true;
+  if(n.title.toLowerCase().includes(q)) return true;
+  if(n.topic&&n.topic.toLowerCase().includes(q)) return true;
+  if((n.sources||[]).some(s=>
+    s.outlet.toLowerCase().includes(q)||
+    s.headline.toLowerCase().includes(q)
+  )) return true;
+  return false;
+}
+
+// ── SEEN EVENTS ───────────────────────────────────────────────────────────────
+
+let seenIds=new Set();
+let seenMode=true; // whether to show seen desaturation
+
+function loadSeen(){
+  try{
+    const stored=JSON.parse(localStorage.getItem('av_seen')||'[]');
+    seenIds=new Set(stored);
+  }catch{seenIds=new Set();}
+}
+
+function markSeen(id){
+  if(!seenMode||seenIds.has(id)) return;
+  seenIds.add(id);
+  // Prune to last 500 to avoid unbounded growth
+  if(seenIds.size>500){
+    const arr=[...seenIds];
+    seenIds=new Set(arr.slice(arr.length-500));
+  }
+  try{localStorage.setItem('av_seen',JSON.stringify([...seenIds]));}catch{}
+}
+
+function setSeenMode(m){
+  seenMode=(m==='on');
+  localStorage.setItem('av_seenmode',m);
+  document.querySelectorAll('.set-opt[data-seen]').forEach(b=>{
+    b.classList.toggle('on',b.dataset.seen===m);
+  });
+  drawNodes();
+}
+
 // ── SETTINGS ──────────────────────────────────────────────────────────────────
 
 let settingsOpen=false;
@@ -1739,8 +1888,11 @@ function setTextSize(s){
 function applyStoredSettings(){
   const t=localStorage.getItem('av_theme')||'dark';
   const s=localStorage.getItem('av_textsize')||'small';
+  const sm=localStorage.getItem('av_seenmode')||'on';
   if(t!=='dark') setTheme(t);
   if(s!=='small') setTextSize(s);
+  if(sm!=='on') setSeenMode(sm);
+  loadSeen();
 }
 
 // Adapt node colours to current theme

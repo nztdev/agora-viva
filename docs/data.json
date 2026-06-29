@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-29T21:23:46.944230+00:00",
+  "generated_at": "2026-06-29T22:36:00.698714+00:00",
   "node_count": 35,
-  "edge_count": 5,
+  "edge_count": 7,
   "nodes": [
     {
       "id": "12192686c6",
@@ -60,48 +60,156 @@
       "resonance": 0.28
     },
     {
-      "id": "40a73dd640",
-      "title": "US Supreme Court rules geofence warrants require constitutional protections",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision",
-          "headline": "US Supreme Court rules geofence warrants require constitutional protections",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T15:54:24+00:00",
-      "last_seen": "2026-06-29T15:54:24+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.28
-    },
-    {
-      "id": "fd79587735",
-      "title": "Israel’s Smotrich calls for settlements, ‘conquest’ of Gaza Strip",
+      "id": "81b56b07f3",
+      "title": "Trump says Iran meeting to take place in Qatar",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/israels-smotrich-calls-for-settlements-conquest-of-gaza-strip?traffic_source=rss",
-          "headline": "Israel’s Smotrich calls for settlements, ‘conquest’ of Gaza Strip",
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/30/trump-says-iran-meeting-to-take-place-in-qatar_6754991_4.html",
+          "headline": "Trump says Iran meeting to take place in Qatar",
           "platform": "rss"
         },
         {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/trump-says-meeting-with-iran-to-take-place-in-qatar/article71163181.ece",
+          "headline": "Trump says U.S.-Iran meeting to take place in Qatar as Tehran denies any sit-down in coming days",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T21:28:27+00:00",
+      "last_seen": "2026-06-29T22:07:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.3795
+    },
+    {
+      "id": "4be2cefe16",
+      "title": "6 Killed in Shooting in Northern Germany After Family Dispute, Police Say",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/29/world/europe/germany-shooting-stade.html",
+          "headline": "6 Killed in Shooting in Northern Germany After Family Dispute, Police Say",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/germany-at-least-6-killed-in-shooting-in-stade/a-77754951?maca=en-rss-en-all-1573-rdf",
+          "headline": "Germany: At least 6 killed in shooting in Stade",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T21:32:00+00:00",
+      "last_seen": "2026-06-29T21:59:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.3597
+    },
+    {
+      "id": "e40bd1867b",
+      "title": "In Peru’s Presidential Election, Keiko Fujimori Gives the Right in Latin America Another Win",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/29/world/americas/peru-presidential-election-keiko-fujimori-conservative.html",
+          "headline": "In Peru’s Presidential Election, Keiko Fujimori Gives the Right in Latin America Another Win",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/peru-fujimori-declared-winner-of-presidential-election/a-77760522?maca=en-rss-en-all-1573-rdf",
+          "headline": "Peru: Fujimori declared winner of presidential election",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T20:33:00+00:00",
+      "last_seen": "2026-06-29T21:45:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.3028
+    },
+    {
+      "id": "8351234a1a",
+      "title": "Israeli attacks kill eight people in Gaza and a teenager in the West Bank",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-official-condemns-israeli-attacks-gaza-occupied-west-bank",
+          "headline": "UN official condemns Israeli attacks on Gaza, occupied West Bank",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/6/29/israeli-attacks-kill-four-men-and-a-boy-in-gaza-and-a-teenager-in-west-bank?traffic_source=rss",
+          "headline": "Israeli attacks kill eight people in Gaza and a teenager in the West Bank",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.025,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T19:08:43+00:00",
+      "last_seen": "2026-06-29T22:19:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.2214
+    },
+    {
+      "id": "7f4e2ae692",
+      "title": "US Supreme Court upholds Trump sexual assault judgment",
+      "signal_count": 2,
+      "sources": [
+        {
           "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/smotrich-says-plans-drawn-up-to-establish-3-israeli-settlements-in-gaza/",
-          "headline": "Smotrich says plans drawn up to establish 3 Israeli settlements in Gaza",
+          "url": "https://www.timesofisrael.com/us-supreme-court-rejects-trumps-attempt-to-overturn-sexual-assault-judgment/",
+          "headline": "US Supreme Court rejects Trump’s attempt to overturn sexual assault judgment",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/29/us-supreme-court-upholds-trump-sexual-assault-judgment_6754984_4.html",
+          "headline": "US Supreme Court upholds Trump sexual assault judgment",
           "platform": "rss"
         }
       ],
@@ -112,14 +220,14 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-06-29T19:21:18+00:00",
-      "last_seen": "2026-06-29T21:01:38+00:00",
+      "first_seen": "2026-06-29T17:35:30+00:00",
+      "last_seen": "2026-06-29T22:28:31+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2667
+      "topic": "politics",
+      "resonance": 0.1857
     },
     {
       "id": "d9c8ca9828",
@@ -159,7 +267,203 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2564
+      "resonance": 0.1607
+    },
+    {
+      "id": "ce650a4429",
+      "title": "Abdul Ahad Momand, Only Afghan to Fly in Space, Is Dead",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/06/29/world/middleeast/abdul-ahad-momand-dead.html",
+          "headline": "Abdul Ahad Momand, Only Afghan to Fly in Space, Is Dead",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T22:32:52+00:00",
+      "last_seen": "2026-06-29T22:32:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "resonance": 0.1529
+    },
+    {
+      "id": "e27485b034",
+      "title": "Germany vs Paraguay, FIFA World Cup LIVE updates: Third Round of 32 clash under way",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/germany-vs-paraguay-fifa-world-cup-knockout-match-live-score-updates-june-29-2026/article71163066.ece",
+          "headline": "Germany vs Paraguay, FIFA World Cup LIVE updates: Third Round of 32 clash under way",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T22:28:34+00:00",
+      "last_seen": "2026-06-29T22:28:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1445
+    },
+    {
+      "id": "eebcfa1c88",
+      "title": "Peruvian political heir Keiko Fujimori wins presidency",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/americas/article/3358817/peruvian-political-heir-keiko-fujimori-wins-presidency?utm_source=rss_feed",
+          "headline": "Peruvian political heir Keiko Fujimori wins presidency",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T22:26:28+00:00",
+      "last_seen": "2026-06-29T22:26:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1404
+    },
+    {
+      "id": "fc3286b2ba",
+      "title": "French Open champion Andreeva beats Linette in Wimbledon first round",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/tennis/french-open-champion-andreeva-beats-linette-in-wimbledon-first-round/article71163378.ece",
+          "headline": "French Open champion Andreeva beats Linette in Wimbledon first round",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T22:19:51+00:00",
+      "last_seen": "2026-06-29T22:19:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1276
+    },
+    {
+      "id": "e214783f09",
+      "title": "Australia politics live: McIntosh doubles down on call for Liberal ‘rebrand’; PM backs Hogan on Hanson",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jun/30/australia-politics-live-anthony-albanese-tax-reform-pauline-hanson-one-nation-multiculturalism-question-time-angus-taylor-coalition-royal-commission-ntwnfb",
+          "headline": "Australia politics live: McIntosh doubles down on call for Liberal ‘rebrand’; PM backs Hogan on Hanson",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T22:19:39+00:00",
+      "last_seen": "2026-06-29T22:19:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1272
+    },
+    {
+      "id": "0951d94c8d",
+      "title": "WWE's Sami Zayn talks Kevin Owens as star wrestler recovers from serious neck injury",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/wwes-sami-zayn-talks-kevin-owens-star-wrestler-recovers-serious-neck-injury",
+          "headline": "WWE's Sami Zayn talks Kevin Owens as star wrestler recovers from serious neck injury",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-29T22:12:47+00:00",
+      "last_seen": "2026-06-29T22:12:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1142
+    },
+    {
+      "id": "b82f3e29bf",
+      "title": "West Asia war LIVE: Trump says meeting with Iran this week 'perhaps' important",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-israel-lebanon-strikes-ceasefire-live-updates-june-29-2026/article71159879.ece",
+          "headline": "West Asia war LIVE: Trump says meeting with Iran this week 'perhaps' important",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T22:10:17+00:00",
+      "last_seen": "2026-06-29T22:10:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1096
     },
     {
       "id": "bdd85b5114",
@@ -205,213 +509,17 @@
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.1934
+      "resonance": 0.1036
     },
     {
-      "id": "9d2c5065f5",
-      "title": "The Ring and Lilo & Stitch actress Daveigh Chase died of Aids",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cx2xyx1qjnyo?at_medium=RSS&at_campaign=rss",
-          "headline": "The Ring and Lilo & Stitch actress Daveigh Chase died of Aids",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T21:21:15+00:00",
-      "last_seen": "2026-06-29T21:21:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1211
-    },
-    {
-      "id": "1bac973287",
-      "title": "'No one move!': The agonising silence as Venezuela rescuers listen for survivors",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c78yvq72dg7o?at_medium=RSS&at_campaign=rss",
-          "headline": "'No one move!': The agonising silence as Venezuela rescuers listen for survivors",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T21:19:28+00:00",
-      "last_seen": "2026-06-29T21:19:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1178
-    },
-    {
-      "id": "7efe78c90b",
-      "title": "Israeli strikes kill at least five people in Gaza on Monday",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-kill-least-five-people-gaza-monday",
-          "headline": "Israeli strikes kill at least five people in Gaza on Monday",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T21:17:56+00:00",
-      "last_seen": "2026-06-29T21:17:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.115
-    },
-    {
-      "id": "01995fa314",
-      "title": "Australia politics live: Anthony Albanese says tax reforms ‘make system fairer’ and backs Paul Hogan on Pauline Hanson",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jun/30/australia-politics-live-anthony-albanese-tax-reform-pauline-hanson-one-nation-multiculturalism-question-time-angus-taylor-coalition-royal-commission-ntwnfb",
-          "headline": "Australia politics live: Anthony Albanese says tax reforms ‘make system fairer’ and backs Paul Hogan on Pauline Hanson",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T21:17:17+00:00",
-      "last_seen": "2026-06-29T21:17:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1137
-    },
-    {
-      "id": "4be2cefe16",
-      "title": "6 Killed in Shooting in Northern Germany After Family Dispute, Police Say",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/29/world/europe/germany-shooting-stade.html",
-          "headline": "6 Killed in Shooting in Northern Germany After Family Dispute, Police Say",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T21:14:11+00:00",
-      "last_seen": "2026-06-29T21:14:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.108
-    },
-    {
-      "id": "e27485b034",
-      "title": "Germany vs Paraguay, FIFA World Cup LIVE updates: Third Round of 32 clash under way",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/germany-vs-paraguay-fifa-world-cup-knockout-match-live-score-updates-june-29-2026/article71163066.ece",
-          "headline": "Germany vs Paraguay, FIFA World Cup LIVE updates: Third Round of 32 clash under way",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T21:13:03+00:00",
-      "last_seen": "2026-06-29T21:13:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1059
-    },
-    {
-      "id": "b981b2fb6b",
-      "title": "Surveillance boost: Army to raise ‘Baaz Battalions’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/surveillance-boost-army-to-raise-baaz-battalions/article71162729.ece",
-          "headline": "Surveillance boost: Army to raise ‘Baaz Battalions’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T21:12:38+00:00",
-      "last_seen": "2026-06-29T21:12:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1052
-    },
-    {
-      "id": "4018de73ab",
-      "title": "Live: Liberal McIntosh denies 'blunt' call a demand for leadership change",
+      "id": "aedf788eaf",
+      "title": "How will one of WA's most famous river systems be managed into the future?",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-30/federal-politics-live-blog-june-30/106858094",
-          "headline": "Live: Liberal McIntosh denies 'blunt' call a demand for leadership change",
+          "url": "https://www.abc.net.au/news/2026-06-30/fitzroy-derby-water-plan-explained/106835708",
+          "headline": "How will one of WA's most famous river systems be managed into the future?",
           "platform": "rss"
         }
       ],
@@ -422,138 +530,14 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-29T21:10:09+00:00",
-      "last_seen": "2026-06-29T21:10:09+00:00",
+      "first_seen": "2026-06-29T22:06:47+00:00",
+      "last_seen": "2026-06-29T22:06:47+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1006
-    },
-    {
-      "id": "7bfe63597b",
-      "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
-          "headline": "South Korea to spend $1T on more memory chip production and humanoid robots",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T21:09:43+00:00",
-      "last_seen": "2026-06-29T21:09:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0998
-    },
-    {
-      "id": "20712fee21",
-      "title": "Pakistani strikes kill at least 28 civilians in Afghanistan, UN says",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/pakistani-strikes-kill-dozens-of-afghan-villagers?traffic_source=rss",
-          "headline": "Pakistani strikes kill dozens of Afghan villagers",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260629-pakistani-airstrikes-kill-dozens-of-civilians-in-afghanistan-officials-say",
-          "headline": "Pakistani airstrikes kill dozens of civilians in Afghanistan, officials say",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo?at_medium=RSS&at_campaign=rss",
-          "headline": "Pakistani strikes kill at least 28 civilians in Afghanistan, UN says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.082,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T15:46:50+00:00",
-      "last_seen": "2026-06-29T18:44:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0986
-    },
-    {
-      "id": "2427c92d69",
-      "title": "'Loving' mum remembered after Airbnb guest found guilty of killing her",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-30/maree-vermont-family-react-to-timothy-loosemore-verdict/106840318",
-          "headline": "'Loving' mum remembered after Airbnb guest found guilty of killing her",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T21:06:18+00:00",
-      "last_seen": "2026-06-29T21:06:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0936
-    },
-    {
-      "id": "adadc3af3e",
-      "title": "T-Mobile is booting customers from its oldest plans",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/959144/t-mobile-legacy-plan-retire-sprint",
-          "headline": "T-Mobile is booting customers from its oldest plans",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T21:06:14+00:00",
-      "last_seen": "2026-06-29T21:06:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0935
+      "resonance": 0.103
     },
     {
       "id": "008bc6aee1",
@@ -574,24 +558,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-29T21:05:27+00:00",
-      "last_seen": "2026-06-29T21:05:27+00:00",
+      "first_seen": "2026-06-29T22:05:55+00:00",
+      "last_seen": "2026-06-29T22:05:55+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0921
+      "resonance": 0.1014
     },
     {
-      "id": "eb9200b981",
-      "title": "Buying a Mattress in 2026? We Tested 100+ and These Were the Standouts",
+      "id": "541d967252",
+      "title": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/gallery/best-mattresses/",
-          "headline": "Buying a Mattress in 2026? We Tested 100+ and These Were the Standouts",
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/",
+          "headline": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
           "platform": "rss"
         }
       ],
@@ -602,216 +586,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-29T21:05:17+00:00",
-      "last_seen": "2026-06-29T21:05:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0918
-    },
-    {
-      "id": "8e4a64e9a1",
-      "title": "Iran leaves World Cup with dignity despite unprecedented political pressure and logistical hurdles",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-leaves-world-cup-dignity-despite-unprecedented-political-pressure",
-          "headline": "Iran leaves World Cup with dignity despite unprecedented political pressure and logistical hurdles",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/trending/iran-leaves-world-cup-despite-political-logistical-hurdles",
-          "headline": "Iran leaves World Cup with dignity despite unprecedented political  pressure and logistical hurdles",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T20:03:19+00:00",
-      "last_seen": "2026-06-29T20:59:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0886
-    },
-    {
-      "id": "a45e37b78a",
-      "title": "After a great start, DC’s new cinematic universe is already slowing down",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/entertainment/958953/supergirl-dcu-warner-bros-discovery-box-office-flop",
-          "headline": "After a great start, DC’s new cinematic universe is already slowing down",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T21:00:00+00:00",
-      "last_seen": "2026-06-29T21:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0823
-    },
-    {
-      "id": "ff450f5ba8",
-      "title": "EU sets up three months of talks with China over €360bn trade deficit",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/jun/29/eu-sets-up-three-months-of-talks-with-china-over-360bn-trade-deficit",
-          "headline": "EU sets up three months of talks with China over €360bn trade deficit",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3358808/eu-sets-october-deadline-tangible-results-china-imbalances-after-key-trade-talks?utm_source=rss_feed",
-          "headline": "EU sets October deadline for ‘tangible results’ on China imbalances after key trade talks",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.2,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T18:12:07+00:00",
-      "last_seen": "2026-06-29T18:33:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0804
-    },
-    {
-      "id": "70c90c4f1a",
-      "title": "South African leader warns anti-migrant protesters ahead of unofficial deadline",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/south-africa-s-anti-migrant-deadline-looms",
-          "headline": "South Africa's anti-migrant deadline looms",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cy4eq1l184po?at_medium=RSS&at_campaign=rss",
-          "headline": "South African leader warns anti-migrant protesters ahead of unofficial deadline",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260629-south-africa-thousands-of-foreigners-flee-ahead-of-anti-immigration-deadline",
-          "headline": "South Africa: Thousands of foreigners flee ahead of anti-immigration 'deadline'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.067,
-        "spread": 0.047,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T16:27:08+00:00",
-      "last_seen": "2026-06-29T20:23:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0794
-    },
-    {
-      "id": "9f4c4110d6",
-      "title": "Collin Gosselin sends cryptic signal to mom Kate after claims she's 'spiraling' over his upcoming memoir",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/collin-gosselin-sends-cryptic-signal-mom-kate-after-claims-shes-spiraling-over-his-upcoming-memoir",
-          "headline": "Collin Gosselin sends cryptic signal to mom Kate after claims she's 'spiraling' over his upcoming memoir",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-29T20:57:14+00:00",
-      "last_seen": "2026-06-29T20:57:14+00:00",
+      "first_seen": "2026-06-29T22:05:33+00:00",
+      "last_seen": "2026-06-29T22:05:33+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0774
+      "resonance": 0.1008
     },
     {
-      "id": "8afdc83944",
-      "title": "Board of Peace finalizing plans for Gaza, but implementation timeline up in the air",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/board-of-peace-finalizing-plans-for-gaza-but-implementation-timeline-up-in-the-air/",
-          "headline": "Board of Peace finalizing plans for Gaza, but implementation timeline up in the air",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T20:57:08+00:00",
-      "last_seen": "2026-06-29T20:57:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0772
-    },
-    {
-      "id": "c98429f8f0",
-      "title": "What the U.S. Owes Venezuela",
+      "id": "c37049cffa",
+      "title": "Europe Heat Wave: Forecasts, Warnings and How to Stay Cool",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/06/29/world/venezuela-earthquake-trump-aid.html",
-          "headline": "What the U.S. Owes Venezuela",
+          "url": "https://www.nytimes.com/2026/06/29/weather/heat-wave-eastern-europe-forecasts.html",
+          "headline": "Europe Heat Wave: Forecasts, Warnings and How to Stay Cool",
           "platform": "rss"
         }
       ],
@@ -822,24 +614,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-06-29T20:56:26+00:00",
-      "last_seen": "2026-06-29T20:56:26+00:00",
+      "first_seen": "2026-06-29T22:05:23+00:00",
+      "last_seen": "2026-06-29T22:05:23+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.076
+      "topic": "conflict",
+      "resonance": 0.1004
     },
     {
-      "id": "8c2ec4df63",
-      "title": "Chamath Palihapitiya raises $135M Series A for his AI coding startup, takes CEO role",
+      "id": "b2897a1040",
+      "title": "Stokes backs Brook but coach stops short of captaincy endorsement",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/",
-          "headline": "Chamath Palihapitiya raises $135M Series A for his AI coding startup, takes CEO role",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-06-30/ben-stokes-backs-harry-brook-as-england-captain/106859254",
+          "headline": "Stokes backs Brook but coach stops short of captaincy endorsement",
           "platform": "rss"
         }
       ],
@@ -850,24 +642,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-29T20:55:50+00:00",
-      "last_seen": "2026-06-29T20:55:50+00:00",
+      "first_seen": "2026-06-29T22:04:41+00:00",
+      "last_seen": "2026-06-29T22:04:41+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0749
+      "resonance": 0.0992
     },
     {
-      "id": "8250cf4e9b",
-      "title": "U.P. Congress chief Ajay Rai placed under house arrest in Ayodhya ahead of party delegation’s visit",
+      "id": "6779685e0d",
+      "title": "Sinner and Sabalenka answer doubters on Wimbledon Day one",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/up-congress-chief-ajay-rai-placed-under-house-arrest-in-ayodhya/article71163158.ece",
-          "headline": "U.P. Congress chief Ajay Rai placed under house arrest in Ayodhya ahead of party delegation’s visit",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/6/29/sinner-and-sabalenka-answer-doubters-on-wimbledon-day-one?traffic_source=rss",
+          "headline": "Sinner and Sabalenka answer doubters on Wimbledon Day one",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T22:04:24+00:00",
+      "last_seen": "2026-06-29T22:04:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0986
+    },
+    {
+      "id": "e9a3791661",
+      "title": "Peru president-elect Fujimori vows 'order and hope' after narrow election victory",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260629-peru-keiko-fujimori-election-victory",
+          "headline": "Peru president-elect Fujimori vows 'order and hope' after narrow election victory",
           "platform": "rss"
         }
       ],
@@ -878,52 +698,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-29T20:55:31+00:00",
-      "last_seen": "2026-06-29T20:55:31+00:00",
+      "first_seen": "2026-06-29T22:04:17+00:00",
+      "last_seen": "2026-06-29T22:04:17+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.0744
+      "resonance": 0.0984
     },
     {
-      "id": "b4f9bd3b46",
-      "title": "The Temporary Protected Status program may effectively be over. Here's what we know.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/06/29/g-s1-130942/temporary-protected-status-program-explainer-supreme-court",
-          "headline": "The Temporary Protected Status program may effectively be over. Here's what we know.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T20:54:23+00:00",
-      "last_seen": "2026-06-29T20:54:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0724
-    },
-    {
-      "id": "604086047c",
-      "title": "Alex Murdaugh returns to US court for murder retrial hearing as true-crime saga continues",
+      "id": "41605e650b",
+      "title": "Over 100 Venezuelans deported from the US hours before the earthquakes are missing",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3358812/true-crime-saga-continues-alex-murdaugh-returns-court-murder-retrial-hearing?utm_source=rss_feed",
-          "headline": "Alex Murdaugh returns to US court for murder retrial hearing as true-crime saga continues",
+          "url": "https://www.scmp.com/news/world/americas/article/3358816/over-100-venezuelans-deported-us-hours-earthquakes-are-missing?utm_source=rss_feed",
+          "headline": "Over 100 Venezuelans deported from the US hours before the earthquakes are missing",
           "platform": "rss"
         }
       ],
@@ -934,114 +726,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-29T20:53:28+00:00",
-      "last_seen": "2026-06-29T20:53:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0708
-    },
-    {
-      "id": "6cfe504095",
-      "title": "Supreme Court rejects Trump’s push to throw out Carroll sex abuse verdict",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/trump-says-he-continue-fight-after-supreme-court-declines-review-carroll-abuse-verdict",
-          "headline": "Trump says he will 'continue the fight' after Supreme Court declines to review Carroll abuse verdict",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3358800/us-supreme-court-rejects-trumps-push-reject-e-jean-carroll-sex-abuse-verdict?utm_source=rss_feed",
-          "headline": "Supreme Court rejects Trump’s push to throw out Carroll sex abuse verdict",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.35,
-        "spread": 0.25,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-06-29T15:43:06+00:00",
-      "last_seen": "2026-06-29T20:27:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0662
-    },
-    {
-      "id": "c46b5aaf18",
-      "title": "New York Times blames 'misogyny,' fans for 'Supergirl' flop after disastrous opening weekend",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-analysis/new-york-times-blames-misogyny-fans-supergirl-flop-disastrous-opening-weekend",
-          "headline": "New York Times blames 'misogyny,' fans for 'Supergirl' flop after disastrous opening weekend",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-29T20:43:14+00:00",
-      "last_seen": "2026-06-29T20:43:14+00:00",
+      "first_seen": "2026-06-29T22:02:53+00:00",
+      "last_seen": "2026-06-29T22:02:53+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.053
+      "resonance": 0.0958
     },
     {
-      "id": "632f578256",
-      "title": "Grizzlies trade Ja Morant to Trail Blazers, ending tumultuous tenure in Memphis: report",
+      "id": "127165263c",
+      "title": "Further TV poll shows Eisenkot’s Yashar party gaining strength",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/grizzlies-trade-ja-morant-trail-blazers-ending-tumultuous-tenure-memphis-report",
-          "headline": "Grizzlies trade Ja Morant to Trail Blazers, ending tumultuous tenure in Memphis: report",
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-june-30-2026/",
+          "headline": "Further TV poll shows Eisenkot’s Yashar party gaining strength",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
+        "mean": 0.05,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-06-29T20:42:17+00:00",
-      "last_seen": "2026-06-29T20:42:17+00:00",
+      "first_seen": "2026-06-29T22:01:31+00:00",
+      "last_seen": "2026-06-29T22:01:31+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0514
+      "topic": "politics",
+      "resonance": 0.0933
     },
     {
-      "id": "22a6369c66",
-      "title": "Australian Kasatkina finally wins on grass to kick-off Wimbledon run",
+      "id": "40e706af2f",
+      "title": "Live: ASX headed for cautious start, Wall Street jumps as AI-related stocks rebound",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-06-30/daria-kasatkina-reverses-australian-fortunes-at-wimbledon/106859134",
-          "headline": "Australian Kasatkina finally wins on grass to kick-off Wimbledon run",
+          "url": "https://www.abc.net.au/news/2026-06-30/asx-markets-business-live-news/106859328",
+          "headline": "Live: ASX headed for cautious start, Wall Street jumps as AI-related stocks rebound",
           "platform": "rss"
         }
       ],
@@ -1052,8 +782,260 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-06-29T20:41:27+00:00",
-      "last_seen": "2026-06-29T20:41:27+00:00",
+      "first_seen": "2026-06-29T22:00:54+00:00",
+      "last_seen": "2026-06-29T22:00:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0922
+    },
+    {
+      "id": "0bae70271c",
+      "title": "Why Chinese-American success stories still provoke prejudice and fear",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3358796/why-chinese-american-success-stories-still-provoke-prejudice-and-fear?utm_source=rss_feed",
+          "headline": "Why Chinese-American success stories still provoke prejudice and fear",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T22:00:22+00:00",
+      "last_seen": "2026-06-29T22:00:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0912
+    },
+    {
+      "id": "8c7cdec489",
+      "title": "Three people injured after explosion in Monaco, French media report",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cpv37wx03v7o?at_medium=RSS&at_campaign=rss",
+          "headline": "Three people injured after explosion in Monaco, French media report",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T21:59:56+00:00",
+      "last_seen": "2026-06-29T21:59:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0904
+    },
+    {
+      "id": "fca6f9a775",
+      "title": "Meta Contractors Posed as Teens to Prompt Rival Chatbots About Suicide, Sex, and Drugs",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/",
+          "headline": "Meta Contractors Posed as Teens to Prompt Rival Chatbots About Suicide, Sex, and Drugs",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T21:49:26+00:00",
+      "last_seen": "2026-06-29T21:49:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0715
+    },
+    {
+      "id": "2a9ad949e2",
+      "title": "Is tennis' relentless nature causing injury crisis?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c3eyd24pk75o?at_medium=RSS&at_campaign=rss",
+          "headline": "Is tennis' relentless nature causing injury crisis?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T21:45:02+00:00",
+      "last_seen": "2026-06-29T21:45:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0638
+    },
+    {
+      "id": "5de5dd301b",
+      "title": "Gunman kills 6 at youth welfare facility in suspected child custody dispute: reports",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/gunman-kills-6-youth-welfare-facility-suspected-child-custody-dispute-reports",
+          "headline": "Gunman kills 6 at youth welfare facility in suspected child custody dispute: reports",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-29T21:42:36+00:00",
+      "last_seen": "2026-06-29T21:42:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0595
+    },
+    {
+      "id": "c642cf0835",
+      "title": "High Court rules state comptroller exceeded his authority in several Oct. 7 probes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/high-court-rules-state-comptroller-exceeded-his-authority-in-several-oct-7-probes/",
+          "headline": "High Court rules state comptroller exceeded his authority in several Oct. 7 probes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T21:41:56+00:00",
+      "last_seen": "2026-06-29T21:41:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0583
+    },
+    {
+      "id": "9764e38948",
+      "title": "Keiko Fujimori narrowly wins Peru's presidential runoff",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/06/29/keiko-fujimori-narrowly-wins-peru-s-presidential-runoff_6754990_4.html",
+          "headline": "Keiko Fujimori narrowly wins Peru's presidential runoff",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T21:40:19+00:00",
+      "last_seen": "2026-06-29T21:40:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0555
+    },
+    {
+      "id": "3da5300b27",
+      "title": "CPJ board member removed as it undertakes review of journalists killed in Gaza",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/cpj-board-member-removed-undertakes-review-journalists-killed-gaza",
+          "headline": "CPJ board member removed as it undertakes review of journalists killed in Gaza",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T21:38:08+00:00",
+      "last_seen": "2026-06-29T21:38:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0517
+    },
+    {
+      "id": "35dbb1586b",
+      "title": "Domestic killers could face extra 10 years in prison under new plans",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cvgqnzpwrpzo?at_medium=RSS&at_campaign=rss",
+          "headline": "Domestic killers could face extra 10 years in prison under new plans",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-29T21:37:09+00:00",
+      "last_seen": "2026-06-29T21:37:09+00:00",
       "platforms": [
         "rss"
       ],
@@ -1064,33 +1046,45 @@
   ],
   "edges": [
     {
-      "source": "40a73dd640",
-      "target": "6cfe504095",
-      "weight": 0.127,
+      "source": "81b56b07f3",
+      "target": "b82f3e29bf",
+      "weight": 0.78,
       "type": "thematic"
     },
     {
-      "source": "d9c8ca9828",
-      "target": "c98429f8f0",
-      "weight": 0.102,
+      "source": "e40bd1867b",
+      "target": "eebcfa1c88",
+      "weight": 0.092,
       "type": "thematic"
     },
     {
-      "source": "1bac973287",
-      "target": "c98429f8f0",
-      "weight": 0.146,
+      "source": "e40bd1867b",
+      "target": "e9a3791661",
+      "weight": 0.292,
       "type": "thematic"
     },
     {
-      "source": "7efe78c90b",
-      "target": "20712fee21",
-      "weight": 0.889,
+      "source": "e40bd1867b",
+      "target": "9764e38948",
+      "weight": 0.845,
       "type": "thematic"
     },
     {
-      "source": "008bc6aee1",
-      "target": "c98429f8f0",
-      "weight": 0.146,
+      "source": "e27485b034",
+      "target": "bdd85b5114",
+      "weight": 0.068,
+      "type": "thematic"
+    },
+    {
+      "source": "eebcfa1c88",
+      "target": "9764e38948",
+      "weight": 0.771,
+      "type": "thematic"
+    },
+    {
+      "source": "e9a3791661",
+      "target": "9764e38948",
+      "weight": 0.135,
       "type": "thematic"
     }
   ],
@@ -1167,7 +1161,7 @@
     },
     "Le Monde (EN)": {
       "ok": true,
-      "count": 18,
+      "count": 19,
       "error": null
     },
     "Der Spiegel (EN)": {

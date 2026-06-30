@@ -1,22 +1,57 @@
 {
-  "generated_at": "2026-06-30T05:16:16.067577+00:00",
+  "generated_at": "2026-06-30T09:58:23.253333+00:00",
   "country_code": "fr",
   "country_name": "France",
   "language": "fr",
   "node_count": 30,
-  "edge_count": 10,
+  "edge_count": 5,
   "nodes": [
+    {
+      "id": "5b51ae4a2e",
+      "title": "88 000 plaintes pour violences sexuelles contre des enfants recensées par les magistrats après les annonces de Gérald Darmanin",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/faits-divers/violences-sexuelles-contre-les-enfants-gerald-darmanin-annonce-que-88-000-plaintes-ont-ete-recensees-30-06-2026-S6PJN2UAXFCSZMKR6TATEL2LLE.php",
+          "headline": "Violences sexuelles contre les enfants : Gérald Darmanin annonce que 88 000 plaintes ont été recensées",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Libération",
+          "url": "https://www.liberation.fr/societe/police-justice/88-000-plaintes-pour-violences-sexuelles-contre-des-enfants-recensees-par-les-magistrats-apres-les-annonces-de-gerald-darmanin-20260630_6VQ7ZQI3LVHD3LRV4D5R5ZSHZM/",
+          "headline": "88 000 plaintes pour violences sexuelles contre des enfants recensées par les magistrats après les annonces de Gérald Darmanin",
+          "platform": "rss"
+        },
+        {
+          "outlet": "CNews",
+          "url": "https://www.cnews.fr/france/2026-06-30/violences-sexuelles-contre-les-enfants-88000-plaintes-sont-reexaminees-par-les",
+          "headline": "Violences sexuelles contre les enfants : 88.000 plaintes sont réexaminées par les services d'enquête, annonce Gérald Darmanin",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.43,
+        "left": 1,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-06-30T07:55:16+00:00",
+      "last_seen": "2026-06-30T09:58:26.520845+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.6878
+    },
     {
       "id": "f07398962e",
       "title": "Monaco : trois blessés dont deux graves dans l’explosion d’un « colis piégé »",
       "signal_count": 5,
       "sources": [
-        {
-          "outlet": "Libération",
-          "url": "https://www.liberation.fr/international/europe/une-explosion-retentit-a-monaco-la-police-evoque-des-victimes-probables-20260629_Q6I2O6HP4NB6THQ4JWOIZKTGP4/",
-          "headline": "«C’est arrivé à Monaco même ? !» : l’explosioin d’un colis piégé fait trois blessés, dont un oligarque ukrainien",
-          "platform": "rss"
-        },
         {
           "outlet": "Le Figaro",
           "url": "https://www.lefigaro.fr/nice/une-forte-explosion-retentit-au-coeur-de-monaco-plusieurs-blesses-20260629",
@@ -25,8 +60,20 @@
         },
         {
           "outlet": "France 24 FR",
-          "url": "https://www.france24.com/fr/europe/20260629-explosion-volontaire-plusieurs-blesses-monaco-gouvernement-evoque-attentat-suspect",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260630-explosion-d-un-colis-pi%C3%A9g%C3%A9-%C3%A0-monaco-un-oligarque-ukrainien-et-deux-personnes-bless%C3%A9s",
           "headline": "Une explosion volontaire fait trois blessés à Monaco, dont un oligarque ukrainien",
+          "platform": "rss"
+        },
+        {
+          "outlet": "L'Express",
+          "url": "https://www.lexpress.fr/societe/colis-piege-et-oligarque-ukrainien-blesse-ce-que-lon-sait-de-lexplosion-a-monaco-OEPOQBALRFC77M3KVSL7SMBVDQ/",
+          "headline": "Colis piégé et oligarque ukrainien blessé : ce que l’on sait de l’explosion à Monaco",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Libération",
+          "url": "https://www.liberation.fr/societe/police-justice/monaco-colis-piege-oligarque-ukrainien-suspect-en-fuite-ce-que-lon-sait-de-lexplosion-qui-a-fait-trois-blesses-20260630_RKQ74PAUOVHGPPT273JFABCP3Q/",
+          "headline": "Monaco : colis piégé, oligarque ukrainien, chasse à l’homme… Ce que l’on sait de l’explosion qui a fait trois blessés",
           "platform": "rss"
         },
         {
@@ -34,99 +81,755 @@
           "url": "https://www.lemonde.fr/societe/article/2026/06/29/monaco-trois-blesses-dont-deux-graves-dans-une-explosion-volontaire_6716980_3224.html",
           "headline": "Monaco : trois blessés dont deux graves dans l’explosion d’un « colis piégé »",
           "platform": "rss"
-        },
-        {
-          "outlet": "CNews",
-          "url": "https://www.cnews.fr/faits-divers/2026-06-29/monaco-une-forte-explosion-retentit-dans-la-principaute-trois-blesses-dont",
-          "headline": "Monaco : une forte explosion retentit dans la Principauté, trois blessés dont deux graves",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.03,
-        "spread": 0.389,
+        "mean": -0.06,
+        "spread": 0.301,
         "left": 1,
-        "center": 2,
-        "right": 2
+        "center": 3,
+        "right": 1
       },
-      "first_seen": "2026-06-29T20:25:02+00:00",
-      "last_seen": "2026-06-30T05:00:47+00:00",
+      "first_seen": "2026-06-29T20:42:45+00:00",
+      "last_seen": "2026-06-30T09:44:31+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "fr",
-      "resonance": 0.6919
+      "resonance": 0.6801
     },
     {
-      "id": "be61896c52",
-      "title": "Mondial 2026 : le Maroc écarte les Pays-Bas après une séance de tirs au but haletante et file en 8es",
-      "signal_count": 5,
+      "id": "b91069e0a2",
+      "title": "Livret A : le taux d’intérêt va augmenter à la mi-juillet, annonce Roland Lescure, le ministre de l’économie",
+      "signal_count": 4,
       "sources": [
         {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/coupe-du-monde-au-bout-de-la-nuit-et-dune-seance-folle-le-maroc-elimine-les-pays-bas-aux-tirs-au-but-30-06-2026-YFEAKXJGTBAI3K4NMHWBBOQ7RU.php",
-          "headline": "Coupe du monde : au bout de la nuit et d’une séance folle, le Maroc élimine les Pays-Bas aux tirs au but",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Libération",
-          "url": "https://www.liberation.fr/sports/football/coupe-du-monde-2026-le-maroc-renverse-les-pays-bas-au-bout-dun-match-dingue-20260630_ZSO36Q4XV5B3ZCEM4ZFNIX4LM4/",
-          "headline": "Coupe du monde 2026 : le Maroc renverse les Pays-Bas au bout d’un match dingue",
+          "outlet": "Le Monde",
+          "url": "https://www.lemonde.fr/economie/article/2026/06/30/livret-a-le-taux-d-interet-va-augmenter-a-la-mi-juillet-annonce-le-ministre-de-l-economie_6717230_3234.html",
+          "headline": "Livret A : le taux d’intérêt va augmenter à la mi-juillet, annonce Roland Lescure, le ministre de l’économie",
           "platform": "rss"
         },
         {
           "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/en-direct-coupe-du-monde-2026-le-bresil-attendu-face-au-japon-sans-neymar-les-sud-africains-decus-apres-leur-elimination-en-16e-20260629",
-          "headline": "EN DIRECT - Coupe du monde 2026 : le Maroc se qualifie en huitièmes après une séance de tirs au but face aux Pays-Bas, l’Allemagne éliminée par le Paraguay",
+          "url": "https://www.lefigaro.fr/conjoncture/le-taux-du-livret-a-sera-oriente-a-la-hausse-en-juillet-annonce-le-ministre-de-l-economie-20260630",
+          "headline": "Le taux du livret A «sera orienté à la hausse» en juillet, annonce le ministre de l’Économie",
           "platform": "rss"
         },
         {
-          "outlet": "France 24 FR",
-          "url": "https://www.france24.com/fr/sports/20260630-mondial-2026-le-maroc-%C3%A9carte-les-pays-bas-au-bout-des-tirs-au-but-et-file-en-8es-de-finale",
-          "headline": "Mondial 2026 : le Maroc écarte les Pays-Bas après une séance de tirs au but haletante et file en 8es",
+          "outlet": "Libération",
+          "url": "https://www.liberation.fr/economie/conso/livret-a-le-taux-va-augmenter-a-la-mi-juillet-annonce-roland-lescure-20260630_T2YWVPUXUBC3ZKNWY4QO6XMPEM/",
+          "headline": "Livret A : le taux «va augmenter» à la mi-juillet, annonce Roland Lescure",
           "platform": "rss"
         },
         {
-          "outlet": "France 24 FR",
-          "url": "https://www.france24.com/fr/sports/20260630-pays-bas-maroc-direct-choc-16es-finale-coupe-du-monde",
-          "headline": "Pays-Bas - Maroc : revivez la qualification marocaine et la séance de tirs au but haletante",
+          "outlet": "CNews",
+          "url": "https://www.cnews.fr/france/2026-06-30/livret-le-taux-va-augmenter-la-mi-juillet-annonce-le-ministre-de-leconomie-roland",
+          "headline": "Livret A : le taux «va augmenter» à la mi-juillet, annonce le ministre de l'Économie Roland Lescure",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.04,
-        "spread": 0.294,
+        "mean": 0.063,
+        "spread": 0.429,
         "left": 1,
-        "center": 3,
+        "center": 1,
+        "right": 2
+      },
+      "first_seen": "2026-06-30T07:31:18+00:00",
+      "last_seen": "2026-06-30T08:05:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "fr",
+      "resonance": 0.6743
+    },
+    {
+      "id": "20da3d4fef",
+      "title": "EN DIRECT - Explosion à Monaco : une enquête ouverte pour tentative d’assassinat, pas de qualification «terroriste» à ce stade selon le procureur",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/faits-divers/explosion-a-monaco-il-ne-sagit-pas-dun-attentat-terroriste-le-procureur-general-fait-le-point-sur-lenquete-30-06-2026-C6LEAYIJZZGVNIUIZ5LB3J3PXE.php",
+          "headline": "Explosion à Monaco : « Il ne s’agit pas d’un attentat terroriste », le procureur général fait le point sur l’enquête",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Figaro",
+          "url": "https://www.lefigaro.fr/nice/en-direct-explosion-a-monaco-le-suspect-semble-etre-parti-vers-la-france-selon-le-ministre-d-etat-monegasque-une-conference-de-presse-a-venir-20260630",
+          "headline": "EN DIRECT - Explosion à Monaco : une enquête ouverte pour tentative d’assassinat, pas de qualification «terroriste» à ce stade selon le procureur",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.25,
+        "spread": 0.15,
+        "left": 0,
+        "center": 1,
         "right": 1
       },
-      "first_seen": "2026-06-30T00:00:07+00:00",
-      "last_seen": "2026-06-30T05:16:19.910925+00:00",
+      "first_seen": "2026-06-30T09:51:28+00:00",
+      "last_seen": "2026-06-30T09:58:26.520719+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.5654
+    },
+    {
+      "id": "affe28237e",
+      "title": "Brevet de maths 2026 : découvrez le sujet corrigé",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/etudiant/college/brevet/brevet-serie-pro-2026-le-corrige-du-sujet-de-mathematiques-EZJPDEGM35A33POPPQ7RK56MX4.php",
+          "headline": "Brevet série pro 2026 : le corrigé du sujet de mathématiques",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Figaro",
+          "url": "https://etudiant.lefigaro.fr/article/college/brevet/brevet-de-maths-2026-decouvrez-le-sujet-tombe-cette-annee-20260630/",
+          "headline": "Brevet de maths 2026 : découvrez le sujet corrigé",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.25,
+        "spread": 0.15,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-06-30T09:56:04+00:00",
+      "last_seen": "2026-06-30T09:58:26.520824+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.5642
+    },
+    {
+      "id": "e04d269022",
+      "title": "Plan de régularisation des sans-papiers en Espagne :  Pedro Sanchez annonce plus d’un million de demandes",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Le Monde",
+          "url": "https://www.lemonde.fr/international/article/2026/06/30/plan-de-regularisation-de-sans-papiers-en-espagne-pedro-sanchez-annonce-plus-d-un-million-de-demandes_6717241_3210.html",
+          "headline": "Plan de régularisation des sans-papiers en Espagne :  Pedro Sanchez annonce plus d’un million de demandes",
+          "platform": "rss"
+        },
+        {
+          "outlet": "CNews",
+          "url": "https://www.cnews.fr/monde/2026-06-30/espagne-plus-dun-million-de-sans-papiers-ont-depose-leur-dossier-pour-leur",
+          "headline": "Espagne : plus d'un million de sans-papiers ont déposé leur dossier pour leur régularisation, annonce Pedro Sánchez",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.175,
+        "spread": 0.375,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-06-30T08:18:30+00:00",
+      "last_seen": "2026-06-30T09:12:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.4016
+    },
+    {
+      "id": "4557547c08",
+      "title": "Valence : un incendie criminel fait 14 blessés, la piste du narcotrafic évoquée par les autorités",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "CNews",
+          "url": "https://www.cnews.fr/faits-divers/2026-06-30/valence-14-blesses-legers-dans-lincendie-criminel-dun-immeuble-le-maire",
+          "headline": "Valence : 14 blessés légers dans l’incendie criminel d’un immeuble, le maire dénonce des «actes inqualifiables»",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Libération",
+          "url": "https://www.liberation.fr/societe/police-justice/valence-un-incendie-criminel-fait-14-blesses-la-piste-du-narcotrafic-evoquee-par-les-autorites-20260630_VRRF4ZJVMFBHRGGY45KIJJFVEI/",
+          "headline": "Valence : un incendie criminel fait 14 blessés, la piste du narcotrafic évoquée par les autorités",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.025,
+        "spread": 0.525,
+        "left": 1,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-06-30T08:37:53+00:00",
+      "last_seen": "2026-06-30T09:06:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "fr",
+      "resonance": 0.3764
+    },
+    {
+      "id": "50f15c2cea",
+      "title": "Présidentielle 2027 : plusieurs figures de la gauche appellent à dialoguer avec Jean-Luc Mélenchon",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Valeurs Actuelles",
+          "url": "https://www.valeursactuelles.com/politique/presidentielle-2027-jean-luc-melenchon-simpose-a-gauche-jordan-bardella-domine-toujours-selon-un-sondage",
+          "headline": "Présidentielle 2027 : Jean-Luc Mélenchon s’impose à gauche, Jordan Bardella domine toujours, selon un sondage",
+          "platform": "rss"
+        },
+        {
+          "outlet": "CNews",
+          "url": "https://www.cnews.fr/france/2026-06-30/presidentielle-2027-plusieurs-figures-de-la-gauche-appellent-dialoguer-avec-jean",
+          "headline": "Présidentielle 2027 : plusieurs figures de la gauche appellent à dialoguer avec Jean-Luc Mélenchon",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.65,
+        "spread": 0.1,
+        "left": 0,
+        "center": 0,
+        "right": 2
+      },
+      "first_seen": "2026-06-30T08:06:58+00:00",
+      "last_seen": "2026-06-30T09:00:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "fr",
+      "resonance": 0.3605
+    },
+    {
+      "id": "7384e4115d",
+      "title": "« Là, c’est pas pratique » : à Chartres, la fan zone installée à la Madeleine pour la Coupe du monde fait débat",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/eure-et-loir-28/la-cest-pas-pratique-a-chartres-la-fan-zone-installee-a-la-madeleine-pour-la-coupe-du-monde-fait-debat-30-06-2026-IVWQF77EIRGIRBFVCEGOKWL6GU.php",
+          "headline": "« Là, c’est pas pratique » : à Chartres, la fan zone installée à la Madeleine pour la Coupe du monde fait débat",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520852+00:00",
+      "last_seen": "2026-06-30T09:58:26.520852+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "fr",
-      "resonance": 0.6656
+      "resonance": 0.0709
     },
     {
-      "id": "0979886513",
-      "title": "La taxe française de 2 euros sur les « petits colis » va être suspendue, remplacée par un droit de douane européen",
+      "id": "836777877e",
+      "title": "Un enfant de trois ans retrouvé mort par son beau-père au sud de Toulouse, une enquête ouverte",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/faits-divers/un-enfant-de-trois-ans-retrouve-mort-par-son-beau-pere-au-domicile-familial-au-sud-de-toulouse-une-enquete-ouverte-30-06-2026-5CAM3GSFFRCGLAU4SVVATLNHFA.php",
+          "headline": "Un enfant de trois ans retrouvé mort par son beau-père au sud de Toulouse, une enquête ouverte",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520838+00:00",
+      "last_seen": "2026-06-30T09:58:26.520838+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "2273270332",
+      "title": "Il avait vendu ses maillots pour soigner son fils malade : qui est Orlando Gill, le gardien du Paraguay héroïque contre l’Allemagne ?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/il-avait-vendu-ses-maillots-pour-soigner-son-fils-malade-qui-est-orlando-gill-le-gardien-heros-du-paraguay-pour-eliminer-lallemagne-30-06-2026-YRCXEJTGVVBKTIG333R5OCP4ZA.php",
+          "headline": "Il avait vendu ses maillots pour soigner son fils malade : qui est Orlando Gill, le gardien du Paraguay héroïque contre l’Allemagne ?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520831+00:00",
+      "last_seen": "2026-06-30T09:58:26.520831+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "b4a9b31c6f",
+      "title": "Paul Bocuse au Panthéon ? C’est le vœu de l’ancien chef de l’Élysée Guillaume Gomez",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/rhone-69/paul-bocuse-au-pantheon-cest-le-voeu-de-lancien-chef-de-lelysee-guillaume-gomez-30-06-2026-ABUC25DAP5F3VMBP4U6BLVPJXY.php",
+          "headline": "Paul Bocuse au Panthéon ? C’est le vœu de l’ancien chef de l’Élysée Guillaume Gomez",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520817+00:00",
+      "last_seen": "2026-06-30T09:58:26.520817+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "73ace7fe0d",
+      "title": "« C’est la folie » : des scènes de liesse et quelques incidents aux Pays-Bas après la qualification du Maroc face aux Oranje",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/cest-la-folie-des-scenes-de-liesse-et-quelques-incidents-aux-pays-bas-apres-la-qualification-du-maroc-face-aux-oranje-30-06-2026-XV4ES2IQQNGQTDIWTUIBJ64EH4.php",
+          "headline": "« C’est la folie » : des scènes de liesse et quelques incidents aux Pays-Bas après la qualification du Maroc face aux Oranje",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520810+00:00",
+      "last_seen": "2026-06-30T09:58:26.520810+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "4926e46f75",
+      "title": "Yvelines : sur l’A13, un homme de 70 ans décède dans un accident avec un engin de balisage",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/yvelines-78/yvelines-sur-la13-un-homme-de-70-ans-decede-dans-un-accident-avec-un-engin-de-balisage-30-06-2026-6W4FQTNFL5EMZCMNTRZOHL5MRI.php",
+          "headline": "Yvelines : sur l’A13, un homme de 70 ans décède dans un accident avec un engin de balisage",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520803+00:00",
+      "last_seen": "2026-06-30T09:58:26.520803+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "938ab343d4",
+      "title": "« Tant qu’il était en vie, j’étais en vie » : une mère et son nouveau-né survivent 32 heures sous les décombres après les séismes au Venezuela",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/faits-divers/tant-quil-etait-en-vie-jetais-en-vie-une-mere-et-son-nouveau-ne-survivent-32-heures-sous-les-decombres-apres-les-seismes-au-venezuela-30-06-2026-DBRW5WRFCFGOHEPAJTH3LOCR5E.php",
+          "headline": "« Tant qu’il était en vie, j’étais en vie » : une mère et son nouveau-né survivent 32 heures sous les décombres après les séismes au Venezuela",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520795+00:00",
+      "last_seen": "2026-06-30T09:58:26.520795+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "bbb7ffbd63",
+      "title": "Baignade, cinéma et théâtre en plein air… Cinq façons de (bien) profiter de l’été à Paris",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/culture-loisirs/sortir-region-parisienne/baignade-cinema-et-theatre-en-plein-air-cinq-facons-de-bien-profiter-de-lete-a-paris-30-06-2026-PBFHMYOTHNCXBOKF2PNQCZVTTE.php",
+          "headline": "Baignade, cinéma et théâtre en plein air… Cinq façons de (bien) profiter de l’été à Paris",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520788+00:00",
+      "last_seen": "2026-06-30T09:58:26.520788+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "9f35e4e79d",
+      "title": "Prix de l’électricité, taxes, infrastructures… Des lignes de ferries bien chères à « verdir »",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/calvados-14/prix-de-lelectricite-taxes-infrastructures-des-lignes-de-ferries-bien-cheres-a-verdir-30-06-2026-OLQPFPYQURCM5PFP573PTDXVB4.php",
+          "headline": "Prix de l’électricité, taxes, infrastructures… Des lignes de ferries bien chères à « verdir »",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520781+00:00",
+      "last_seen": "2026-06-30T09:58:26.520781+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "efdf28ca96",
+      "title": "« Une situation financière fragile » : la chambre régionale des comptes met en garde le lycée Maximilien-Perret d’Alfortville",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/val-de-marne-94/une-situation-financiere-fragile-la-chambre-regionale-des-comptes-met-en-garde-le-lycee-maximilien-perret-dalfortville-30-06-2026-X7VZUANS2BGX5AMH2JIC2ZOIRE.php",
+          "headline": "« Une situation financière fragile » : la chambre régionale des comptes met en garde le lycée Maximilien-Perret d’Alfortville",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520774+00:00",
+      "last_seen": "2026-06-30T09:58:26.520774+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "56f368e3f0",
+      "title": "Quiz brevet 2026 : auriez-vous 10/10 à l’épreuve de maths ?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/etudiant/college/brevet/quiz-brevet-2026-auriez-vous-la-moyenne-a-lepreuve-de-maths-WFFGFEPZDZELFB7DDCVJFDCJE4.php",
+          "headline": "Quiz brevet 2026 : auriez-vous 10/10 à l’épreuve de maths ?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520767+00:00",
+      "last_seen": "2026-06-30T09:58:26.520767+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "81ff9b2c8d",
+      "title": "« Il n’avait que 58 ans… » : décès du double champion olympique russe de patinage artistique Artur Dmitriev",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/sports/JO/il-navait-que-58-ans-deces-du-double-champion-olympique-russe-de-patinage-artistique-artur-dmitriev-30-06-2026-6TGVVEE57FDYDGLE7S7PIRIEQA.php",
+          "headline": "« Il n’avait que 58 ans… » : décès du double champion olympique russe de patinage artistique Artur Dmitriev",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520759+00:00",
+      "last_seen": "2026-06-30T09:58:26.520759+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "b9a486883a",
+      "title": "Ligue 1 : Liam Rosenior va devenir le nouvel entraîneur du Paris FC",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/sports/football/ligue-1/ligue-1-liam-rosenior-va-devenir-le-nouvel-entraineur-du-paris-fc-30-06-2026-ZC4AX72RWZC27BMMX6IBBW5K2E.php",
+          "headline": "Ligue 1 : Liam Rosenior va devenir le nouvel entraîneur du Paris FC",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520752+00:00",
+      "last_seen": "2026-06-30T09:58:26.520752+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "d4fd0c8dd7",
+      "title": "MotoGP : « Une part de mon histoire », le pilote français Fabio Quartararo officialise avec émotion son départ de l’écurie Yamaha",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/sports/motogp-une-part-de-mon-histoire-le-pilote-francais-fabio-quartararo-officialise-avec-emotion-son-depart-de-lecurie-yamaha-30-06-2026-NEAQJZMKHVDR3OV4ZIUKM67MLM.php",
+          "headline": "MotoGP : « Une part de mon histoire », le pilote français Fabio Quartararo officialise avec émotion son départ de l’écurie Yamaha",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520744+00:00",
+      "last_seen": "2026-06-30T09:58:26.520744+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "dc706b6e4e",
+      "title": "Explosion d’un colis piégé à Monaco, Livret A, France-Suède : les infos à retenir ce midi",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/societe/explosion-dun-colis-piege-a-monaco-livret-a-france-suede-les-infos-a-retenir-ce-midi-30-06-2026-5SR2I7K4YFC6JJIMZC336LH7QU.php",
+          "headline": "Explosion d’un colis piégé à Monaco, Livret A, France-Suède : les infos à retenir ce midi",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520736+00:00",
+      "last_seen": "2026-06-30T09:58:26.520736+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "8cdd7d486c",
+      "title": "« Aidez-moi s’il vous plaît » : l’influenceur Michou partage des images de lui avec la lèvre très gonflée",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/culture-loisirs/aidez-moi-sil-vous-plait-linfluenceur-michou-partage-des-images-de-lui-avec-la-levre-tres-gonflee-30-06-2026-7242D4RBNRDKNFEE2NU2PGUT3Y.php",
+          "headline": "« Aidez-moi s’il vous plaît » : l’influenceur Michou partage des images de lui avec la lèvre très gonflée",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520728+00:00",
+      "last_seen": "2026-06-30T09:58:26.520728+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "cfbd9b7343",
+      "title": "« Pour moi, l’eau, c’est de la couleur » : « In Waves », ce chef-d’œuvre animé français en route pour les Oscars ?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/culture-loisirs/cinema/pour-moi-leau-cest-de-la-couleur-in-waves-ce-chef-doeuvre-anime-francais-en-route-pour-les-oscars-30-06-2026-BRLP2FSDOVHX5BW2VYYLE2B2ZI.php",
+          "headline": "« Pour moi, l’eau, c’est de la couleur » : « In Waves », ce chef-d’œuvre animé français en route pour les Oscars ?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:58:26.520684+00:00",
+      "last_seen": "2026-06-30T09:58:26.520684+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0709
+    },
+    {
+      "id": "2263a0a4e2",
+      "title": "L’inflation en France revient à 1,8 % sur un an en juin, après 2,4 % en mai, selon l’Insee",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/06/30/la-taxe-francaise-de-2-euros-sur-les-petits-colis-va-etre-suspendue-remplacee-par-un-droit-de-douane-europeen_6717212_3234.html",
-          "headline": "La taxe française de 2 euros sur les « petits colis » va être suspendue, remplacée par un droit de douane européen",
+          "url": "https://www.lemonde.fr/economie-francaise/article/2026/06/30/l-inflation-en-france-revient-a-1-8-sur-un-an-en-juin-apres-2-4-en-mai-selon-l-insee_6717228_1656968.html",
+          "headline": "L’inflation en France revient à 1,8 % sur un an en juin, après 2,4 % en mai, selon l’Insee",
           "platform": "rss"
         },
         {
           "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/conso/la-taxe-francaise-sur-les-petits-colis-instauree-en-mars-mais-contournee-par-les-plateformes-va-etre-suspendue-mercredi-20260630",
-          "headline": "La taxe française sur les petits colis, instaurée en mars mais contournée par les plateformes, va être «suspendue» mercredi",
+          "url": "https://www.lefigaro.fr/conjoncture/l-inflation-ralentit-fortement-en-juin-sur-un-an-a-1-8-selon-l-insee-20260630",
+          "headline": "Carburants, alimentation... L’inflation ralentit fortement en juin sur un an, à 1,8%, selon l’Insee",
           "platform": "rss"
         }
       ],
@@ -137,768 +840,83 @@
         "center": 1,
         "right": 1
       },
-      "first_seen": "2026-06-30T04:48:52+00:00",
-      "last_seen": "2026-06-30T04:50:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.4832
-    },
-    {
-      "id": "299f99ba90",
-      "title": "Loi d’urgence agricole : le Sénat approuve la réintroduction encadrée de deux insecticides interdits, dont l’acétamipride",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/politique/loi-durgence-agricole-le-senat-vote-pour-la-reintroduction-de-lacetamipride-et-du-flupyradifurone-des-pesticides-interdits-30-06-2026-UVBIW2NUDZH4VLKQU2JJFAPV4Q.php",
-          "headline": "Loi d’urgence agricole : le Sénat vote pour la réintroduction de l’acétamipride et du flupyradifurone, des pesticides interdits",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde",
-          "url": "https://www.lemonde.fr/planete/article/2026/06/30/loi-d-urgence-agricole-le-senat-approuve-la-reintroduction-encadree-de-deux-insecticides-interdits-dont-l-acetamipride_6717117_3244.html",
-          "headline": "Loi d’urgence agricole : le Sénat approuve la réintroduction encadrée de deux insecticides interdits, dont l’acétamipride",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.15,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T01:31:03+00:00",
-      "last_seen": "2026-06-30T05:16:19.910883+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "fr",
-      "resonance": 0.2814
-    },
-    {
-      "id": "b8bda845cc",
-      "title": "France-Suède : l’aventure, c’est l’aventure… L’analyse de Dominique Sévérac",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/france-suede-laventure-cest-laventure-lanalyse-de-dominique-severac-30-06-2026-3VG6AU3VPBBSFF6E77NIGUYBV4.php",
-          "headline": "France-Suède : l’aventure, c’est l’aventure… L’analyse de Dominique Sévérac",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910931+00:00",
-      "last_seen": "2026-06-30T05:16:19.910931+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "85835f37f9",
-      "title": "« Surtout ne touchez rien, ni personne » : en Ituri, au cœur de l’épidémie d’Ebola",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/international/surtout-ne-touchez-rien-ni-personne-en-ituri-au-coeur-de-lepidemie-debola-30-06-2026-WKK3DFAYIZDCZHHUM2JBLNXTHU.php",
-          "headline": "« Surtout ne touchez rien, ni personne » : en Ituri, au cœur de l’épidémie d’Ebola",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910920+00:00",
-      "last_seen": "2026-06-30T05:16:19.910920+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "d4d9d653b8",
-      "title": "Du peloton aux contrats : le cyclisme, une clé du succès en affaires",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/economie/entreprise/du-peloton-aux-contrats-le-cyclisme-une-cle-du-succes-en-affaires-30-06-2026-QNSEO5OLIFHTJHSFDMFJCR5D4M.php",
-          "headline": "Du peloton aux contrats : le cyclisme, une clé du succès en affaires",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910915+00:00",
-      "last_seen": "2026-06-30T05:16:19.910915+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "63f776a54c",
-      "title": "« Il porte un coup et part en courant comme un lâche » : au procès de la mort du Dr Glandières, le profil trouble de l’accusé",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/val-d-oise-95/il-porte-un-coup-et-part-en-courant-comme-un-lache-au-proces-de-la-mort-du-dr-glandieres-le-profil-trouble-de-laccuse-30-06-2026-WMHYZADKRFHXPPOMBZCAPH4ITY.php",
-          "headline": "« Il porte un coup et part en courant comme un lâche » : au procès de la mort du Dr Glandières, le profil trouble de l’accusé",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910910+00:00",
-      "last_seen": "2026-06-30T05:16:19.910910+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "a9abadff2c",
-      "title": "Trafic de visas entre le Maroc et la France : une ex-agente de la préfecture de police jugée à Paris",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/faits-divers/trafic-de-visas-entre-le-maroc-et-la-france-une-ex-agente-de-la-prefecture-de-police-jugee-a-paris-30-06-2026-UELJ43EY5FEG3FENJ7FAJV5OB4.php",
-          "headline": "Trafic de visas entre le Maroc et la France : une ex-agente de la préfecture de police jugée à Paris",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910904+00:00",
-      "last_seen": "2026-06-30T05:16:19.910904+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "a9b951e140",
-      "title": "Une première depuis 1982 : la folle statistique derrière l’élimination de l’Allemagne en Coupe du monde",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/une-premiere-depuis-1982-la-folle-statistique-derriere-lelimination-de-lallemagne-en-coupe-du-monde-30-06-2026-WFA3NTBYIJCEVORZBMWYM2W4RU.php",
-          "headline": "Une première depuis 1982 : la folle statistique derrière l’élimination de l’Allemagne en Coupe du monde",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910899+00:00",
-      "last_seen": "2026-06-30T05:16:19.910899+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "6257556192",
-      "title": "Malédiction, poison, « Ebola business » : quand la désinformation freine la lutte contre l’épidémie",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/international/malediction-poison-ebola-business-quand-la-desinformation-freine-la-lutte-contre-lepidemie-30-06-2026-UNTWZ4J775AK7OSCDYLDPX5IZI.php",
-          "headline": "Malédiction, poison, « Ebola business » : quand la désinformation freine la lutte contre l’épidémie",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910894+00:00",
-      "last_seen": "2026-06-30T05:16:19.910894+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "001cd2e19a",
-      "title": "« J’y ai vu des personnes retrouver leur dignité » : comment un centre de l’Oise qui aidait 4 000 femmes par an a disparu",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/oise-60/jy-ai-vu-des-personnes-retrouver-leur-dignite-comment-un-centre-de-loise-qui-aidait-4-000-femmes-par-an-a-disparu-30-06-2026-BPYFAQHTCRC3ZFB2VOWDH4N52Q.php",
-          "headline": "« J’y ai vu des personnes retrouver leur dignité » : comment un centre de l’Oise qui aidait 4 000 femmes par an a disparu",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910888+00:00",
-      "last_seen": "2026-06-30T05:16:19.910888+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "26466ea787",
-      "title": "« J’ai posé deux bons mois…  » Ces entreprises vont encore plus loin que le nouveau congé supplémentaire de naissance",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/economie/jai-pose-deux-bons-mois-ces-entreprises-vont-encore-plus-loin-que-le-nouveau-conge-supplementaire-de-naissance-30-06-2026-OHIV7FK7P5AVPMFZEAO5MPUQRA.php",
-          "headline": "« J’ai posé deux bons mois…  » Ces entreprises vont encore plus loin que le nouveau congé supplémentaire de naissance",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910878+00:00",
-      "last_seen": "2026-06-30T05:16:19.910878+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "a1bdc9ee14",
-      "title": "Le parquet de Paris classe le signalement contre Adriana Karembeu par son ex-mari",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/faits-divers/le-parquet-de-paris-classe-le-signalement-contre-adriana-karembeu-par-son-ex-mari-30-06-2026-FZJQ5EUUHBA3BIMIRTWFQ67TEI.php",
-          "headline": "Le parquet de Paris classe le signalement contre Adriana Karembeu par son ex-mari",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910872+00:00",
-      "last_seen": "2026-06-30T05:16:19.910872+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "02a0c2bf0a",
-      "title": "Le Maroc héroïque, les Pays-Bas et l’Allemagne déjà à la maison : ce que vous avez raté cette nuit à la Coupe du monde",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/le-maroc-heroique-les-pays-bas-et-lallemagne-deja-a-la-maison-ce-que-vous-avez-rate-cette-nuit-a-la-coupe-du-monde-30-06-2026-LZSFJ4DIYFDVTC4TBY3LWP6RRY.php",
-          "headline": "Le Maroc héroïque, les Pays-Bas et l’Allemagne déjà à la maison : ce que vous avez raté cette nuit à la Coupe du monde",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910867+00:00",
-      "last_seen": "2026-06-30T05:16:19.910867+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "9f3c8dd030",
-      "title": "Pays-Bas - Maroc (1-1, 2 t.a.b. à 3) : nos tops et nos flops du match, avec la main ferme de Bounou et la tête du patron Issa Diop",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/pays-bas-maroc-1-1-2-tab-a-3-nos-tops-et-nos-flops-du-match-avec-la-main-ferme-de-bounou-et-la-tete-du-patron-issa-diop-30-06-2026-HOQLSJVPBFCMJNJTCTBLMMJTCM.php",
-          "headline": "Pays-Bas - Maroc (1-1, 2 t.a.b. à 3) : nos tops et nos flops du match, avec la main ferme de Bounou et la tête du patron Issa Diop",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910861+00:00",
-      "last_seen": "2026-06-30T05:16:19.910861+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "c38def59db",
-      "title": "« Parler de ce que papa m’a fait » : plongée dans ce service où l’on écoute les enfants victimes de maltraitance et de viols",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/societe/parler-de-ce-que-papa-ma-fait-plongee-dans-ce-service-ou-lon-ecoute-les-enfants-victimes-de-maltraitance-et-de-viols-30-06-2026-UIFLRXZ53VAWZI2NCX2O64FM44.php",
-          "headline": "« Parler de ce que papa m’a fait » : plongée dans ce service où l’on écoute les enfants victimes de maltraitance et de viols",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910855+00:00",
-      "last_seen": "2026-06-30T05:16:19.910855+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "3cbda59ce2",
-      "title": "Micros, capteurs et bâches acoustiques… Les trucs et astuces de Vincennes pour surveiller les bruits de chantier",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/val-de-marne-94/micros-capteurs-et-baches-acoustiques-les-trucs-et-astuces-de-vincennes-pour-surveiller-les-bruits-de-chantier-30-06-2026-DGOT7QU6TJDRNJ65T77V6ZLREQ.php",
-          "headline": "Micros, capteurs et bâches acoustiques… Les trucs et astuces de Vincennes pour surveiller les bruits de chantier",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910849+00:00",
-      "last_seen": "2026-06-30T05:16:19.910849+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "6a64460391",
-      "title": "Shein, Temu, AliExpress… Le gouvernement annonce suspendre la taxe de deux euros sur les « petits colis » à partir de mercredi",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/economie/shein-temu-aliexpress-le-gouvernement-annonce-suspendre-la-taxe-de-deux-euros-sur-les-petits-colis-a-partir-de-mercredi-30-06-2026-QKTKG7R66NBWNNFT6IWHZOPX3M.php",
-          "headline": "Shein, Temu, AliExpress… Le gouvernement annonce suspendre la taxe de deux euros sur les « petits colis » à partir de mercredi",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910844+00:00",
-      "last_seen": "2026-06-30T05:16:19.910844+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "a7b99c0855",
-      "title": "Passion Coupe du monde… en Suède : « Isak et Gyökeres, nos vraies stars, peuvent punir la France »",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/passion-coupe-du-monde-en-suede-isak-et-gyokeres-nos-vraies-stars-peuvent-punir-la-france-30-06-2026-ZHBEOZGCQBBEBJTJQ4I3TMR42E.php",
-          "headline": "Passion Coupe du monde… en Suède : « Isak et Gyökeres, nos vraies stars, peuvent punir la France »",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910837+00:00",
-      "last_seen": "2026-06-30T05:16:19.910837+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "6bca252735",
-      "title": "Chez Amazon, « pour les agents logistiques, il n’y a ni condition de diplôme, ni besoin de CV »",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/economie/emploi/chez-amazon-pour-les-agents-logistiques-il-ny-a-ni-condition-de-diplome-ni-besoin-de-cv-30-06-2026-J7Y5PGDPINAK3G5VU6TOGUC4OE.php",
-          "headline": "Chez Amazon, « pour les agents logistiques, il n’y a ni condition de diplôme, ni besoin de CV »",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910829+00:00",
-      "last_seen": "2026-06-30T05:16:19.910829+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "4bed3e83b8",
-      "title": "« Là, je n’ai rien à lui reprocher » : ces anti-Mbappé séduits par le capitaine des Bleus avant France-Suède",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/la-je-nai-rien-a-lui-reprocher-ces-anti-mbappe-seduits-par-le-capitaine-des-bleus-avant-france-suede-30-06-2026-3ONHFDYGSZCLHI52P4MHOX3GVY.php",
-          "headline": "« Là, je n’ai rien à lui reprocher » : ces anti-Mbappé séduits par le capitaine des Bleus avant France-Suède",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:16:19.910798+00:00",
-      "last_seen": "2026-06-30T05:16:19.910798+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1624
-    },
-    {
-      "id": "964f9e999a",
-      "title": "En Afrique du Sud, l’ultimatum anti-immigrés et la montée des violences poussent 25 000 personnes à quitter le pays",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "France 24 FR",
-          "url": "https://www.france24.com/fr/%C3%A9missions/dans-la-presse/20260630-ultimatum-anti-immigr%C3%A9s-en-afrique-du-sud-une-nation-sur-le-fil-du-rasoir",
-          "headline": "Ultimatum anti-immigrés en Afrique du Sud: \"Une nation sur le fil du rasoir\"",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24 FR",
-          "url": "https://www.france24.com/fr/afrique/20260630-25000-personnes-ont-quitte-afrique-du-sud-ultimatum-anti-immigres-immigration-natjoints",
-          "headline": "Face à un ultimatum officieux anti-immigrés, plus de 25 000 personnes ont quitté l'Afrique du Sud",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde",
-          "url": "https://www.lemonde.fr/afrique/article/2026/06/30/en-afrique-du-sud-l-ultimatum-anti-immigres-et-la-montee-des-violences-poussent-25-000-personnes-a-quitter-le-pays_6717082_3212.html",
-          "headline": "En Afrique du Sud, l’ultimatum anti-immigrés et la montée des violences poussent 25 000 personnes à quitter le pays",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.133,
-        "spread": 0.047,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-06-29T23:32:42+00:00",
-      "last_seen": "2026-06-30T04:47:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1469
-    },
-    {
-      "id": "499d8c5b73",
-      "title": "Fortune en millions, empire du vin et soupçons de blanchiment : qui est Vadim Ermolaev, entre la vie et la mort après l’explosion à Monaco ?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/nice/fortune-en-millions-empire-du-vin-et-soupcons-de-blanchiment-qui-est-vadim-ermolaev-entre-la-vie-et-la-mort-apres-l-explosion-a-monaco-20260630",
-          "headline": "Fortune en millions, empire du vin et soupçons de blanchiment : qui est Vadim Ermolaev, entre la vie et la mort après l’explosion à Monaco ?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.4,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-30T05:10:00+00:00",
-      "last_seen": "2026-06-30T05:10:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.145
-    },
-    {
-      "id": "829cf2112c",
-      "title": "EN DIRECT - Guerre au Moyen-Orient : les hostilités en pause entre l’Iran et les États-Unis, Donald Trump annonce une réunion ce mardi au Qatar",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/en-direct-guerre-au-moyen-orient-les-hostilites-en-pause-entre-l-iran-et-les-etats-unis-donald-trump-annonce-une-reunion-ce-mardi-au-qatar-20260630",
-          "headline": "EN DIRECT - Guerre au Moyen-Orient : les hostilités en pause entre l’Iran et les États-Unis, Donald Trump annonce une réunion ce mardi au Qatar",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.4,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-30T05:05:11+00:00",
-      "last_seen": "2026-06-30T05:05:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "fr",
-      "resonance": 0.1317
-    },
-    {
-      "id": "91a6b472e4",
-      "title": "Coupe du monde 2026 : les Bleus favoris face à la Suède, la Côte d’Ivoire défie Haaland et la Norvège... Les rendez-vous à ne pas manquer ce mardi",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-les-bleus-favoris-face-a-la-suede-la-cote-d-ivoire-defie-haaland-et-la-norvege-les-rendez-vous-a-ne-pas-manquer-ce-mardi-20260630",
-          "headline": "Coupe du monde 2026 : les Bleus favoris face à la Suède, la Côte d’Ivoire défie Haaland et la Norvège... Les rendez-vous à ne pas manquer ce mardi",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.4,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-30T05:00:00+00:00",
-      "last_seen": "2026-06-30T05:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "fr",
-      "resonance": 0.1177
-    },
-    {
-      "id": "a2a7e0e5e6",
-      "title": "«Mes enfants passent la journée avec des inconnus» : à Versailles, des parents s’inquiètent de dysfonctionnements graves au sein d’une crèche",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/actualite-france/mes-enfants-passent-la-journee-avec-des-inconnus-a-versailles-des-parents-s-inquietent-de-dysfonctionnements-graves-au-sein-d-une-creche-20260630",
-          "headline": "«Mes enfants passent la journée avec des inconnus» : à Versailles, des parents s’inquiètent de dysfonctionnements graves au sein d’une crèche",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.4,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-06-30T05:00:00+00:00",
-      "last_seen": "2026-06-30T05:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1177
-    },
-    {
-      "id": "ba3fb03b7e",
-      "title": "SpaceX en Bourse : avant de vous moquer d’Elon Musk, souvenez-vous des frères Wright",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "L'Express",
-          "url": "https://www.lexpress.fr/idees-et-debats/spacex-en-bourse-avant-de-vous-moquer-delon-musk-souvenez-vous-des-freres-wright-ZQDBLWFU7ZBCVMWREEPJ65XIYI/",
-          "headline": "SpaceX en Bourse : avant de vous moquer d’Elon Musk, souvenez-vous des frères Wright",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-06-30T05:00:00+00:00",
-      "last_seen": "2026-06-30T05:00:00+00:00",
+      "first_seen": "2026-06-30T07:22:15+00:00",
+      "last_seen": "2026-06-30T07:30:34+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "economy",
       "language": "fr",
-      "resonance": 0.1177
+      "resonance": 0.0598
     },
     {
-      "id": "e2c9b03dd3",
-      "title": "«Humiliation», «prestation désastreuse»... La presse allemande sans pitié avec la Mannschaft éliminée du Mondial",
+      "id": "d7d23448f6",
+      "title": "\"Tellement fou\" : la Nasa à la rescousse du télescope Swift, dans l'espace depuis 2004",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24 FR",
+          "url": "https://www.france24.com/fr/am%C3%A9riques/20260630-tellement-fou-la-nasa-%C3%A0-la-rescousse-du-t%C3%A9lescope-swift-dans-l-espace-depuis-2004",
+          "headline": "\"Tellement fou\" : la Nasa à la rescousse du télescope Swift, dans l'espace depuis 2004",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:54:50+00:00",
+      "last_seen": "2026-06-30T09:54:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "language": "fr",
+      "resonance": 0.0587
+    },
+    {
+      "id": "efe1ff54b5",
+      "title": "Déminage d'Ormuz : l'Iran somme la France de \"ne pas compliquer davantage\" la situation",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260630-d%C3%A9minage-d-ormuz-l-iran-somme-la-france-de-ne-pas-compliquer-davantage-la-situation",
+          "headline": "Déminage d'Ormuz : l'Iran somme la France de \"ne pas compliquer davantage\" la situation",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-06-30T09:53:10+00:00",
+      "last_seen": "2026-06-30T09:53:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0531
+    },
+    {
+      "id": "3848946e4d",
+      "title": "La Baule veut s’équiper en drones pour renforcer sa sécurité",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/sports/football/humiliation-prestation-desastreuse-la-presse-allemande-sans-pitie-avec-la-mannschaft-eliminee-du-mondial-20260630",
-          "headline": "«Humiliation», «prestation désastreuse»... La presse allemande sans pitié avec la Mannschaft éliminée du Mondial",
+          "url": "https://www.lefigaro.fr/nantes/la-baule-veut-s-equiper-en-drones-pour-renforcer-sa-securite-20260630",
+          "headline": "La Baule veut s’équiper en drones pour renforcer sa sécurité",
           "platform": "rss"
         }
       ],
@@ -909,37 +927,37 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-06-30T04:49:18+00:00",
-      "last_seen": "2026-06-30T04:49:18+00:00",
+      "first_seen": "2026-06-30T09:53:01+00:00",
+      "last_seen": "2026-06-30T09:53:01+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "sport",
       "language": "fr",
-      "resonance": 0.0892
+      "resonance": 0.0526
     },
     {
-      "id": "328471ca9e",
-      "title": "Ille-et-Vilaine : France Travail organise ce mardi une journée de recrutement insolite",
+      "id": "145e30cc7a",
+      "title": "Visite du sultan d’Oman à Paris : l’ambassadeur Nabil Hajlaoui en détaille les enjeux",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "CNews",
-          "url": "https://www.cnews.fr/france/2026-06-30/ille-et-vilaine-france-travail-organise-ce-mardi-une-journee-de-recrutement",
-          "headline": "Ille-et-Vilaine : France Travail organise ce mardi une journée de recrutement insolite",
+          "outlet": "France 24 FR",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260630-visite-du-sultan-d-oman-%C3%A0-paris-l-ambassadeur-nabil-hajlaoui-en-d%C3%A9taille-les-enjeux",
+          "headline": "Visite du sultan d’Oman à Paris : l’ambassadeur Nabil Hajlaoui en détaille les enjeux",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.55,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-06-30T04:34:08+00:00",
-      "last_seen": "2026-06-30T04:34:08+00:00",
+      "first_seen": "2026-06-30T09:52:15+00:00",
+      "last_seen": "2026-06-30T09:52:15+00:00",
       "platforms": [
         "rss"
       ],
@@ -952,62 +970,32 @@
   "edges": [
     {
       "source": "f07398962e",
-      "target": "6a64460391",
-      "weight": 0.008,
+      "target": "20da3d4fef",
+      "weight": 0.04,
       "type": "thematic"
     },
     {
       "source": "f07398962e",
-      "target": "499d8c5b73",
-      "weight": 0.1,
+      "target": "dc706b6e4e",
+      "weight": 0.925,
       "type": "thematic"
     },
     {
-      "source": "be61896c52",
-      "target": "02a0c2bf0a",
-      "weight": 0.144,
+      "source": "20da3d4fef",
+      "target": "836777877e",
+      "weight": 0.258,
       "type": "thematic"
     },
     {
-      "source": "be61896c52",
-      "target": "9f3c8dd030",
-      "weight": 0.001,
+      "source": "20da3d4fef",
+      "target": "dc706b6e4e",
+      "weight": 0.198,
       "type": "thematic"
     },
     {
-      "source": "0979886513",
-      "target": "6a64460391",
-      "weight": 0.461,
-      "type": "thematic"
-    },
-    {
-      "source": "85835f37f9",
-      "target": "6257556192",
-      "weight": 0.467,
-      "type": "thematic"
-    },
-    {
-      "source": "a9abadff2c",
-      "target": "a1bdc9ee14",
-      "weight": 0.083,
-      "type": "thematic"
-    },
-    {
-      "source": "a9b951e140",
-      "target": "02a0c2bf0a",
-      "weight": 0.142,
-      "type": "thematic"
-    },
-    {
-      "source": "02a0c2bf0a",
-      "target": "9f3c8dd030",
-      "weight": 0.055,
-      "type": "thematic"
-    },
-    {
-      "source": "02a0c2bf0a",
-      "target": "91a6b472e4",
-      "weight": 0.011,
+      "source": "affe28237e",
+      "target": "56f368e3f0",
+      "weight": 0.752,
       "type": "thematic"
     }
   ],
@@ -1019,7 +1007,7 @@
     },
     "Le Figaro": {
       "ok": true,
-      "count": 17,
+      "count": 20,
       "error": null
     },
     "Libération": {

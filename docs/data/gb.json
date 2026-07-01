@@ -1,16 +1,28 @@
 {
-  "generated_at": "2026-07-01T15:51:49.923997+00:00",
+  "generated_at": "2026-07-01T18:09:14.279350+00:00",
   "country_code": "gb",
   "country_name": "United Kingdom",
   "language": "en",
   "node_count": 30,
-  "edge_count": 8,
+  "edge_count": 12,
   "nodes": [
     {
-      "id": "573c08f066",
-      "title": "June was the hottest on record for England, says Met Office",
-      "signal_count": 3,
+      "id": "9c0ae6a6ae",
+      "title": "England has just had its hottest June on record, Met Office data shows",
+      "signal_count": 5,
       "sources": [
+        {
+          "outlet": "Sky News UK",
+          "url": "https://news.sky.com/story/yellow-health-alert-issued-as-england-records-hottest-june-on-record-13559537",
+          "headline": "New health alert issued - as England records hottest June on record",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/jul/01/england-hottest-june-on-record-met-office-data",
+          "headline": "England has just had its hottest June on record, Met Office data shows",
+          "platform": "rss"
+        },
         {
           "outlet": "The Independent",
           "url": "https://www.independent.co.uk/news/uk/home-news/june-2026-hottest-on-record-england-met-office-heatwave-b3006783.html",
@@ -31,21 +43,21 @@
         }
       ],
       "bias": {
-        "mean": 0.367,
-        "spread": 0.403,
-        "left": 0,
-        "center": 1,
+        "mean": 0.16,
+        "spread": 0.432,
+        "left": 1,
+        "center": 2,
         "right": 2
       },
       "first_seen": "2026-07-01T14:25:42+00:00",
-      "last_seen": "2026-07-01T15:07:12+00:00",
+      "last_seen": "2026-07-01T16:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
       "language": "en",
-      "resonance": 0.6915
+      "resonance": 0.685
     },
     {
       "id": "a6ff2062bb",
@@ -53,15 +65,15 @@
       "signal_count": 3,
       "sources": [
         {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/sport/football/article-15944461/England-vs-DR-Congo-World-Cup-LIVE.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "England vs DR Congo - World Cup LIVE: Leaked line-up is CONFIRMED as Thomas Tuchel settles his right-back dilemma - and fans get set to bunk off work and head to the pub to watch Round of 32 clash",
-          "platform": "rss"
-        },
-        {
           "outlet": "The Guardian",
           "url": "https://www.theguardian.com/football/live/2026/jul/01/england-v-dr-congo-world-cup-2026-last-32-live",
           "headline": "England v DR Congo: World Cup 2026 last 32 – live",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Evening Standard",
+          "url": "https://www.standard.co.uk/news/uk/england-atlanta-harry-kane-african-georgia-b1288389.html",
+          "headline": "England fans slip away from work to watch World Cup battle with DR Congo",
           "platform": "rss"
         },
         {
@@ -72,21 +84,300 @@
         }
       ],
       "bias": {
-        "mean": 0.333,
-        "spread": 0.519,
+        "mean": 0.133,
+        "spread": 0.45,
         "left": 1,
-        "center": 0,
-        "right": 2
+        "center": 1,
+        "right": 1
       },
       "first_seen": "2026-07-01T14:30:35+00:00",
-      "last_seen": "2026-07-01T15:45:33+00:00",
+      "last_seen": "2026-07-01T18:06:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "en",
-      "resonance": 0.4981
+      "resonance": 0.5741
+    },
+    {
+      "id": "445a8152e9",
+      "title": "Watch: Two people climb to highest point of Empire State Building",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/us-news/masked-couple-empire-state-banner-37374417",
+          "headline": "Masked couple propose atop Empire State Building after terrifying climb",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World",
+          "url": "https://www.bbc.co.uk/news/videos/cz75gz79pl2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Watch: Two people climb to highest point of Empire State Building",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T17:08:56+00:00",
+      "last_seen": "2026-07-01T17:37:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.5108
+    },
+    {
+      "id": "5c399b7514",
+      "title": "Burnham calls for grooming gang ringleader to be deported",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/c0jy53n8q1do?at_medium=RSS&at_campaign=rss",
+          "headline": "Burnham calls for grooming gang ringleader to be deported",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Independent",
+          "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-rochdale-grooming-gang-deport-shabir-ahmed-b3006866.html",
+          "headline": "Andy Burnham to ask ministers to ‘review all possible options’ as grooming gang ringleader avoids deportation",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T15:37:31+00:00",
+      "last_seen": "2026-07-01T16:56:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "en",
+      "resonance": 0.3405
+    },
+    {
+      "id": "b6b6359f20",
+      "title": "Riad Bouchaker found guilty of attempting to murder three children in Dublin",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Evening Standard",
+          "url": "https://www.standard.co.uk/news/uk/dublin-central-criminal-court-ireland-cctv-french-b1288375.html",
+          "headline": "Riad Bouchaker found guilty of attempting to murder three children in Dublin",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39611649/riad-bouchaker-guilty-attempted-murder/",
+          "headline": "Man, 52, found guilty of attempted murder of three children in Parnell Square attack that sparked Dublin riots",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.35,
+        "spread": 0.25,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-07-01T14:58:00+00:00",
+      "last_seen": "2026-07-01T17:13:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "en",
+      "resonance": 0.2727
+    },
+    {
+      "id": "431658421b",
+      "title": "Boy, 3, miraculously pulled from rubble 6 days after Venezuela earthquakes as death toll nears grim 2,000 milestone",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39612702/boy-miraculously-pulled-rubble-grim-milestone/",
+          "headline": "Boy, 3, miraculously pulled from rubble 6 days after Venezuela earthquakes as death toll nears grim 2,000 milestone",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-01T18:08:00+00:00",
+      "last_seen": "2026-07-01T18:08:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.2095
+    },
+    {
+      "id": "4b3cfc5bf1",
+      "title": "England vs DR Congo - World Cup LIVE: Three Lions set up tie against co-hosts Mexico as Harry Kane drags his side through with late second-half double after nation's first half to forget",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/sport/football/article-15944461/England-vs-DR-Congo-World-Cup-LIVE.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "England vs DR Congo - World Cup LIVE: Three Lions set up tie against co-hosts Mexico as Harry Kane drags his side through with late second-half double after nation's first half to forget",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.7,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-01T18:05:08+00:00",
+      "last_seen": "2026-07-01T18:05:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.2017
+    },
+    {
+      "id": "5de4bb0b0d",
+      "title": "Andy Burnham says ‘nothing off table’ in case of Rochdale grooming gang leader",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/jul/01/andy-burnham-says-nothing-off-table-in-case-of-rochdale-grooming-gang-leader",
+          "headline": "Andy Burnham says ‘nothing off table’ in case of Rochdale grooming gang leader",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.4,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T18:02:09+00:00",
+      "last_seen": "2026-07-01T18:02:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1938
+    },
+    {
+      "id": "58918ceba3",
+      "title": "England vs DR Congo LIVE: Harry Kane scores brilliant second to put Three Lions ahead",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/sport/football/news/england-world-cup-congo-live-37368029",
+          "headline": "England vs DR Congo LIVE: Harry Kane scores brilliant second to put Three Lions ahead",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T18:01:02+00:00",
+      "last_seen": "2026-07-01T18:01:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1908
+    },
+    {
+      "id": "4c46a761c8",
+      "title": "England player ratings vs DR Congo as 2/10 stars flop in humiliating World Cup exit",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/sport/football/news/england-player-ratings-dr-congo-37374505",
+          "headline": "England player ratings vs DR Congo as 2/10 stars flop in humiliating World Cup exit",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T18:01:02+00:00",
+      "last_seen": "2026-07-01T18:01:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "en",
+      "resonance": 0.1908
+    },
+    {
+      "id": "41332b0bf2",
+      "title": "England sneak through - but who had a nightmare start? Player ratings",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ckg5x35zx04o?at_medium=RSS&at_campaign=rss",
+          "headline": "England sneak through - but who had a nightmare start? Player ratings",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T18:00:16+00:00",
+      "last_seen": "2026-07-01T18:00:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "en",
+      "resonance": 0.1888
     },
     {
       "id": "0212e064dd",
@@ -121,7 +412,42 @@
       "geo_regions": [],
       "topic": "politics",
       "language": "en",
-      "resonance": 0.4961
+      "resonance": 0.1806
+    },
+    {
+      "id": "ac9a1949dc",
+      "title": "Is Andy Burnham facing a £5bn defence 'black hole'?",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Independent",
+          "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-defence-black-hole-welfare-cuts-labour-mps-b3006719.html",
+          "headline": "Burnham under pressure to rule out welfare cuts to fill £5bn defence budget black hole",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/c14ymy41v5go?at_medium=RSS&at_campaign=rss",
+          "headline": "Is Andy Burnham facing a £5bn defence 'black hole'?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T13:55:01+00:00",
+      "last_seen": "2026-07-01T16:50:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "en",
+      "resonance": 0.1656
     },
     {
       "id": "aa775123d5",
@@ -156,186 +482,46 @@
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.4456
+      "resonance": 0.1452
     },
     {
-      "id": "3c1e7edfb5",
-      "title": "Tens of thousands rush for tickets to see Bayeux Tapestry in UK",
-      "signal_count": 2,
+      "id": "5ce98e126f",
+      "title": "Sophie goes short for summer! Duchess of Edinburgh debuts new bob haircut as she visits agricultural festival in Hertfordshire",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/c4g49q5qyjxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Tens of thousands rush for tickets to see Bayeux Tapestry in UK",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/home-news/bayeux-tapestry-tickets-british-museum-london-b3006659.html",
-          "headline": "‘Glastonbury-style’ rush for tickets as tens of thousands try to bag chance to see Bayeux Tapestry in London",
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/news/royals/article-15944329/sophie-new-haircut-summer.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "Sophie goes short for summer! Duchess of Edinburgh debuts new bob haircut as she visits agricultural festival in Hertfordshire",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
+        "mean": 0.7,
+        "spread": 0.0,
         "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T13:59:40+00:00",
-      "last_seen": "2026-07-01T14:23:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.2971
-    },
-    {
-      "id": "9464bb79f5",
-      "title": "New heat health alert issued as another UK heatwave approaches",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39609956/met-office-day-30c-heat-returns-uk-new-alert/",
-          "headline": "Met Office reveals exact day 31C heat will return to UK as new alert issued",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/home-news/heat-health-alert-ukhsa-uk-heatwave-weather-b3006694.html",
-          "headline": "New heat health alert issued as another UK heatwave approaches",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.4,
-        "left": 0,
-        "center": 1,
+        "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-01T13:06:40+00:00",
-      "last_seen": "2026-07-01T14:32:21+00:00",
+      "first_seen": "2026-07-01T17:38:57+00:00",
+      "last_seen": "2026-07-01T17:38:57+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
       "language": "en",
-      "resonance": 0.2449
+      "resonance": 0.1336
     },
     {
-      "id": "7d99ddf6d0",
-      "title": "Badenoch accuses Starmer of leaving defence spending 'mess' for Burnham",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/cy9rgg9ddw2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Badenoch accuses Starmer of leaving defence spending 'mess' for Burnham",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/politics/kemi-badenoch-keir-starmer-defence-spending-plan-b3006639.html",
-          "headline": "Badenoch accuses Starmer of leaving defence spending ‘mess to his successor’ amid concern over £5bn black hole",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T12:40:10+00:00",
-      "last_seen": "2026-07-01T14:55:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.2086
-    },
-    {
-      "id": "4e03586590",
-      "title": "Two dead after plane crashed during flight experience",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/cn8k7p74z31o?at_medium=RSS&at_campaign=rss",
-          "headline": "Two dead after plane crashed during flight experience",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Sky News UK",
-          "url": "https://news.sky.com/story/two-dead-after-light-aircraft-crashes-during-short-flight-experience-in-essex-13559487",
-          "headline": "Two dead after light aircraft crashes during 'short flight experience'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.1,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T11:05:00+00:00",
-      "last_seen": "2026-07-01T15:30:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.1761
-    },
-    {
-      "id": "705b6368bb",
-      "title": "England vs DR Congo LIVE: Thomas Tuchel makes Declan Rice call after injury update",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/sport/football/news/england-congo-world-cup-live-37368029",
-          "headline": "England vs DR Congo LIVE: Thomas Tuchel makes Declan Rice call after injury update",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T15:50:14+00:00",
-      "last_seen": "2026-07-01T15:50:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1412
-    },
-    {
-      "id": "63d69b525e",
-      "title": "Crypto tycoon ‘murdered and dumped in suitcase before being found by children killed by 3 men who owed him £37,000′",
+      "id": "8c53e4831d",
+      "title": "Huge blaze breaks out at ‘heritage asset’ as flames engulf building and locals warned to ‘close doors & windows’",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39611021/crypto-tycoon-murdered-suitcase-children-found/",
-          "headline": "Crypto tycoon ‘murdered and dumped in suitcase before being found by children killed by 3 men who owed him £37,000′",
+          "url": "https://www.thesun.co.uk/news/39613881/huge-blaze-engulfs-building-locals-warned/",
+          "headline": "Huge blaze breaks out at ‘heritage asset’ as flames engulf building and locals warned to ‘close doors & windows’",
           "platform": "rss"
         }
       ],
@@ -346,15 +532,102 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-01T15:50:01+00:00",
-      "last_seen": "2026-07-01T15:50:01+00:00",
+      "first_seen": "2026-07-01T17:37:50+00:00",
+      "last_seen": "2026-07-01T17:37:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "en",
+      "resonance": 0.1308
+    },
+    {
+      "id": "a6251c0f66",
+      "title": "Vitor Pereira sacked by Nottingham Forest 'without warning' as news announced during England game",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/sport/football/news/vitor-pereira-forest-sacking-surprise-37374488",
+          "headline": "Vitor Pereira sacked by Nottingham Forest 'without warning' as news announced during England game",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T17:33:28+00:00",
+      "last_seen": "2026-07-01T17:33:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "en",
+      "resonance": 0.1199
+    },
+    {
+      "id": "354cfdde52",
+      "title": "Two people unfold banner atop Empire State Building in apparent marriage proposal stunt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/01/empire-state-building-banner-proposal",
+          "headline": "Two people unfold banner atop Empire State Building in apparent marriage proposal stunt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.4,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T17:30:58+00:00",
+      "last_seen": "2026-07-01T17:30:58+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
       "language": "en",
-      "resonance": 0.1405
+      "resonance": 0.1137
+    },
+    {
+      "id": "66d3ad292e",
+      "title": "Student, 25, ‘raped & murdered by obsessed brother-in-law’ shared gushing tribute to him on day he married her sister",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39613935/student-raped-murdered-obsessed-brother-in-law/",
+          "headline": "Student, 25, ‘raped & murdered by obsessed brother-in-law’ shared gushing tribute to him on day he married her sister",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-01T17:25:38+00:00",
+      "last_seen": "2026-07-01T17:25:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "en",
+      "resonance": 0.1005
     },
     {
       "id": "1ac9d0c641",
@@ -375,15 +648,73 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-01T15:47:32+00:00",
-      "last_seen": "2026-07-01T15:47:32+00:00",
+      "first_seen": "2026-07-01T17:23:49+00:00",
+      "last_seen": "2026-07-01T17:23:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.1334
+      "resonance": 0.0961
+    },
+    {
+      "id": "276b065ca3",
+      "title": "Bibles, Home Alone and perfume: Six surprising ways Trump made money in 2025",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cy9rg133lrjo?at_medium=RSS&at_campaign=rss",
+          "headline": "Bibles, Home Alone and perfume: Six surprising ways Trump made money in 2025",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T17:22:25+00:00",
+      "last_seen": "2026-07-01T17:22:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.0927
+    },
+    {
+      "id": "61ebf0f405",
+      "title": "BREAKING: England fans fume as BBC coverage cuts out during DR Congo match",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/sport/football/news/bbc-world-cup-world-cup-37374482",
+          "headline": "BREAKING: England fans fume as BBC coverage cuts out during DR Congo match",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T17:21:58+00:00",
+      "last_seen": "2026-07-01T17:21:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "en",
+      "resonance": 0.0916
     },
     {
       "id": "805aa4a24c",
@@ -404,25 +735,25 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-01T15:45:41+00:00",
-      "last_seen": "2026-07-01T15:45:41+00:00",
+      "first_seen": "2026-07-01T17:20:46+00:00",
+      "last_seen": "2026-07-01T17:20:46+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
       "language": "en",
-      "resonance": 0.1281
+      "resonance": 0.0887
     },
     {
-      "id": "b5c2ebfea1",
-      "title": "Nottingham neighbours 'annoyed and upset' after Royal Mail postman seen urinating on house",
+      "id": "3aad3acdcc",
+      "title": "Long Covid treatment breakthrough as scientists find simple ways to reverse ‘brain fog’",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/uk-news/nottingham-neighbours-annoying-urinating-postman-37373338",
-          "headline": "Nottingham neighbours 'annoyed and upset' after Royal Mail postman seen urinating on house",
+          "url": "https://www.mirror.co.uk/news/health/long-covid-symptoms-brain-fog-37370739",
+          "headline": "Long Covid treatment breakthrough as scientists find simple ways to reverse ‘brain fog’",
           "platform": "rss"
         }
       ],
@@ -433,25 +764,54 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-01T15:41:29+00:00",
-      "last_seen": "2026-07-01T15:41:29+00:00",
+      "first_seen": "2026-07-01T17:20:22+00:00",
+      "last_seen": "2026-07-01T17:20:22+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
       "language": "en",
-      "resonance": 0.1161
+      "resonance": 0.0877
     },
     {
-      "id": "67b6feb94a",
-      "title": "Bombing that left Ukrainian oligarch fighting for life & ‘maimed mistress’ was ‘orchestrated by own country as warning’",
+      "id": "9e584f0d06",
+      "title": "Disney dream comes true for family after £1m EuroMillions Win",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/euromillions-win-disney-trip-family-37374331",
+          "headline": "Disney dream comes true for family after £1m EuroMillions Win",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T17:18:10+00:00",
+      "last_seen": "2026-07-01T17:18:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.0824
+    },
+    {
+      "id": "6a148dca6e",
+      "title": "My daughter, 7, was left with agonising blisters & burns after popular squishy toy exploded in her hands",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39611499/ukrainian-oligarch-bombing-orchestrated-country-warning/",
-          "headline": "Bombing that left Ukrainian oligarch fighting for life & ‘maimed mistress’ was ‘orchestrated by own country as warning’",
+          "url": "https://www.thesun.co.uk/news/39612228/daughter-burns-squishy-toy-explodes/",
+          "headline": "My daughter, 7, was left with agonising blisters & burns after popular squishy toy exploded in her hands",
           "platform": "rss"
         }
       ],
@@ -462,170 +822,89 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-01T15:40:47+00:00",
-      "last_seen": "2026-07-01T15:40:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.1141
-    },
-    {
-      "id": "02f1e2a6d4",
-      "title": "Teachers across the country are set to strike as schools are told they face cuts to fund 3.5 per cent pay rise",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15944967/Teachers-strike-cuts-new-pay-deal.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Teachers across the country are set to strike as schools are told they face cuts to fund 3.5 per cent pay rise",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.7,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-01T15:38:15+00:00",
-      "last_seen": "2026-07-01T15:38:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "en",
-      "resonance": 0.107
-    },
-    {
-      "id": "b66bfa4e44",
-      "title": "Bayeux tapestry tickets generate nine-hour online queues as public scramble for access",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/01/bayeux-tapestry-ticket-sales-british-museum-art",
-          "headline": "Bayeux tapestry tickets generate nine-hour online queues as public scramble for access",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T15:37:39+00:00",
-      "last_seen": "2026-07-01T15:37:39+00:00",
+      "first_seen": "2026-07-01T17:13:29+00:00",
+      "last_seen": "2026-07-01T17:13:29+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.1053
+      "resonance": 0.0712
     },
     {
-      "id": "d811edbd6f",
-      "title": "Andy Burnham to ask ministers to ‘review all possible options’ as grooming gang ringleader avoids deportation",
+      "id": "65c7383b6b",
+      "title": "Prince Harry ‘jumped the gun’ when planning to have police protection for UK visit",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-rochdale-grooming-gang-deport-shabir-ahmed-b3006866.html",
-          "headline": "Andy Burnham to ask ministers to ‘review all possible options’ as grooming gang ringleader avoids deportation",
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/royals/prince-harry-uk-trip-security-37373955",
+          "headline": "Prince Harry ‘jumped the gun’ when planning to have police protection for UK visit",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.2,
+        "mean": -0.3,
         "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "left": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-01T15:37:31+00:00",
-      "last_seen": "2026-07-01T15:37:31+00:00",
+      "first_seen": "2026-07-01T17:13:28+00:00",
+      "last_seen": "2026-07-01T17:13:28+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
+      "topic": "society",
       "language": "en",
-      "resonance": 0.1049
+      "resonance": 0.0712
     },
     {
-      "id": "446c309577",
-      "title": "Watch: Man seen climbing from balcony during Antwerp fire",
-      "signal_count": 1,
+      "id": "d86338d544",
+      "title": "Halifax brand to be scrapped after 173 years",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "BBC World",
-          "url": "https://www.bbc.co.uk/news/videos/c39yweeennno?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: Man seen climbing from balcony during Antwerp fire",
+          "url": "https://www.bbc.co.uk/news/articles/c24ydy4q0nzo?at_medium=RSS&at_campaign=rss",
+          "headline": "Halifax brand to be scrapped after 173 years",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/money/saving/article-15944531/Halifax-disappear-173-years-Lloyds-Bank-scraps-brand.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "Halifax name to disappear after 173 years as Lloyds Bank scraps the brand",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
+        "mean": 0.3,
+        "spread": 0.4,
         "left": 0,
         "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T15:37:30+00:00",
-      "last_seen": "2026-07-01T15:37:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1049
-    },
-    {
-      "id": "72f9ccea85",
-      "title": "Legendary Sun royal photographer Arthur Edwards wins lifetime achievement gong at UK Picture Editors’ Awards",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39610595/sun-photographer-arthur-edwards-wins-lifetime-achievement-award/",
-          "headline": "Legendary Sun royal photographer Arthur Edwards wins lifetime achievement gong at UK Picture Editors’ Awards",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-01T15:35:47+00:00",
-      "last_seen": "2026-07-01T15:35:47+00:00",
+      "first_seen": "2026-07-01T14:19:48+00:00",
+      "last_seen": "2026-07-01T14:34:23+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
+      "topic": "tech",
       "language": "en",
-      "resonance": 0.1001
+      "resonance": 0.0602
     },
     {
-      "id": "1e899c9d2b",
-      "title": "At least 3.3m people were victims of Dutch enslavement, research claims",
+      "id": "81e8c141b3",
+      "title": "There is no immediate military threat to Britain. We should spend less on defence | Simon Jenkins",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/news/2026/jul/01/dutch-enslavement-slavery-figure-research",
-          "headline": "At least 3.3m people were victims of Dutch enslavement, research claims",
+          "url": "https://www.theguardian.com/commentisfree/2026/jul/01/britain-military-spending-defence-keir-starmer",
+          "headline": "There is no immediate military threat to Britain. We should spend less on defence | Simon Jenkins",
           "platform": "rss"
         }
       ],
@@ -636,247 +915,15 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-01T15:34:27+00:00",
-      "last_seen": "2026-07-01T15:34:27+00:00",
+      "first_seen": "2026-07-01T17:05:30+00:00",
+      "last_seen": "2026-07-01T17:05:30+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
       "language": "en",
-      "resonance": 0.0964
-    },
-    {
-      "id": "247ff84ac4",
-      "title": "Influencer and dad-of-four dies suddenly aged 35 as heartbroken girlfriend pays tribute to ‘incredible partner’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39611362/influencer-dad-four-dies-girlfriend-pays-tribute/",
-          "headline": "Influencer and dad-of-four dies suddenly aged 35 as heartbroken girlfriend pays tribute to ‘incredible partner’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-01T15:32:58+00:00",
-      "last_seen": "2026-07-01T15:32:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0922
-    },
-    {
-      "id": "0cf6855b7a",
-      "title": "NHS vaccine on offer to millions from September 1 to combat virus - eligibility",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/health/nhs-vaccine-offer-millions-september-37373553",
-          "headline": "NHS vaccine on offer to millions from September 1 to combat virus - eligibility",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T15:32:14+00:00",
-      "last_seen": "2026-07-01T15:32:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "language": "en",
-      "resonance": 0.0902
-    },
-    {
-      "id": "1fa85ce64c",
-      "title": "Asylum seeker family say they 'hate' living in their £250,000 newbuild home in Britain's Migrant Street and want to move out",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15944283/Asylum-seeker-family-hate-living-newbuild-Migrant-Street.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Asylum seeker family say they 'hate' living in their £250,000 newbuild home in Britain's Migrant Street and want to move out",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.7,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-01T15:31:37+00:00",
-      "last_seen": "2026-07-01T15:31:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.0885
-    },
-    {
-      "id": "e5e58faeba",
-      "title": "Girl, 16, ‘stabs mum to death after dreaming she was being strangled in her sleep’ before calling cops",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39610394/girl-stabs-mum-death-thinking-strangled-sleep/",
-          "headline": "Girl, 16, ‘stabs mum to death after dreaming she was being strangled in her sleep’ before calling cops",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-01T15:31:13+00:00",
-      "last_seen": "2026-07-01T15:31:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0874
-    },
-    {
-      "id": "631ac4d731",
-      "title": "Grandson wins £850k battle after grandad who paid for wedding wanted money back",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/uk-news/stokes-tiles-robert-sebastian-court-37373415",
-          "headline": "Grandson wins £850k battle after grandad who paid for wedding wanted money back",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T15:30:05+00:00",
-      "last_seen": "2026-07-01T15:30:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.0843
-    },
-    {
-      "id": "9ba7561f8e",
-      "title": "King holds rare 'family dinner' with senior royals amid drama over Prince Harry's imminent visit to Britain",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15944371/King-family-dinner-amid-Prince-Harrys-visit-Britain.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "King holds rare 'family dinner' with senior royals amid drama over Prince Harry's imminent visit to Britain",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.7,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-01T15:24:31+00:00",
-      "last_seen": "2026-07-01T15:24:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.069
-    },
-    {
-      "id": "c1f9fa5710",
-      "title": "Badenoch urges Burnham to condemn defence investment plan as No 10 says funding is ‘credible’ – UK politics live",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/politics/live/2026/jul/01/keir-starmer-andy-burnham-labour-defence-investment-plan-pmqs-kemi-badenoch",
-          "headline": "Badenoch urges Burnham to condemn defence investment plan as No 10 says funding is ‘credible’ – UK politics live",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T15:24:16+00:00",
-      "last_seen": "2026-07-01T15:24:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "en",
-      "resonance": 0.0683
-    },
-    {
-      "id": "74ad04960d",
-      "title": "Trump accused of ‘disgusting’ crypto greed after earning over $1bn since return to office",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/01/trump-accused-one-billion-dollars-crypto-venture",
-          "headline": "Trump accused of ‘disgusting’ crypto greed after earning over $1bn since return to office",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T15:23:45+00:00",
-      "last_seen": "2026-07-01T15:23:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.0669
+      "resonance": 0.0524
     },
     {
       "id": "7e56495bcf",
@@ -897,93 +944,88 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-01T15:23:17+00:00",
-      "last_seen": "2026-07-01T15:23:17+00:00",
+      "first_seen": "2026-07-01T17:04:27+00:00",
+      "last_seen": "2026-07-01T17:04:27+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.0657
-    },
-    {
-      "id": "ca1e449db7",
-      "title": "Putin suffers fresh humiliating blow as tyrant loses 26,000 troops within one month in biggest toll of Ukraine war yet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39609304/putin-suffers-worst-death-toll-ukraine-war/",
-          "headline": "Putin suffers fresh humiliating blow as tyrant loses 26,000 troops within one month in biggest toll of Ukraine war yet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-01T15:17:28+00:00",
-      "last_seen": "2026-07-01T15:17:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "en",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "573c08f066",
-      "target": "0212e064dd",
-      "weight": 0.019,
+      "source": "a6ff2062bb",
+      "target": "4b3cfc5bf1",
+      "weight": 0.576,
       "type": "thematic"
     },
     {
       "source": "a6ff2062bb",
-      "target": "705b6368bb",
-      "weight": 0.681,
+      "target": "58918ceba3",
+      "weight": 0.526,
       "type": "thematic"
     },
     {
-      "source": "0212e064dd",
-      "target": "02f1e2a6d4",
-      "weight": 0.939,
+      "source": "a6ff2062bb",
+      "target": "4c46a761c8",
+      "weight": 0.866,
       "type": "thematic"
     },
     {
-      "source": "aa775123d5",
-      "target": "247ff84ac4",
-      "weight": 0.05,
+      "source": "a6ff2062bb",
+      "target": "61ebf0f405",
+      "weight": 0.192,
       "type": "thematic"
     },
     {
-      "source": "3c1e7edfb5",
-      "target": "b66bfa4e44",
-      "weight": 0.541,
+      "source": "445a8152e9",
+      "target": "354cfdde52",
+      "weight": 0.816,
       "type": "thematic"
     },
     {
-      "source": "7d99ddf6d0",
-      "target": "c1f9fa5710",
-      "weight": 0.411,
+      "source": "5c399b7514",
+      "target": "5de4bb0b0d",
+      "weight": 0.719,
       "type": "thematic"
     },
     {
-      "source": "805aa4a24c",
-      "target": "ca1e449db7",
-      "weight": 0.06,
+      "source": "4b3cfc5bf1",
+      "target": "58918ceba3",
+      "weight": 0.88,
       "type": "thematic"
     },
     {
-      "source": "1fa85ce64c",
-      "target": "7e56495bcf",
-      "weight": 0.081,
+      "source": "4b3cfc5bf1",
+      "target": "4c46a761c8",
+      "weight": 0.278,
+      "type": "thematic"
+    },
+    {
+      "source": "5de4bb0b0d",
+      "target": "ac9a1949dc",
+      "weight": 0.207,
+      "type": "thematic"
+    },
+    {
+      "source": "58918ceba3",
+      "target": "4c46a761c8",
+      "weight": 0.241,
+      "type": "thematic"
+    },
+    {
+      "source": "58918ceba3",
+      "target": "61ebf0f405",
+      "weight": 0.002,
+      "type": "thematic"
+    },
+    {
+      "source": "4c46a761c8",
+      "target": "41332b0bf2",
+      "weight": 0.441,
       "type": "thematic"
     }
   ],

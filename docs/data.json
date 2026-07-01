@@ -1,17 +1,23 @@
 {
-  "generated_at": "2026-07-01T20:23:04.889452+00:00",
+  "generated_at": "2026-07-01T21:58:48.154044+00:00",
   "node_count": 35,
-  "edge_count": 5,
+  "edge_count": 9,
   "nodes": [
     {
       "id": "d097e94bdc",
       "title": "Fable 5 Is Back",
-      "signal_count": 1,
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "Hacker News",
           "url": "https://twitter.com/claudeai/status/2072402636813607381",
           "headline": "Fable 5 Is Back",
+          "platform": "hackernews"
+        },
+        {
+          "outlet": "Hacker News",
+          "url": "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
+          "headline": "Claude Fable 5 Promotional Access",
           "platform": "hackernews"
         }
       ],
@@ -19,17 +25,17 @@
         "mean": 0.0,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-01T19:35:57+00:00",
+      "first_seen": "2026-07-01T19:31:46+00:00",
       "last_seen": "2026-07-01T19:35:57+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
+      "topic": "tech",
+      "resonance": 0.7795
     },
     {
       "id": "d4c64443ff",
@@ -65,6 +71,12 @@
       "signal_count": 5,
       "sources": [
         {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/01/world/americas/world-cup-mexico-city-crowd-deaths.html",
+          "headline": "4 People Die During World Cup Celebrations in Mexico City",
+          "platform": "rss"
+        },
+        {
           "outlet": "BBC World Service",
           "url": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o?at_medium=RSS&at_campaign=rss",
           "headline": "Four die in Mexico City World Cup celebrations",
@@ -74,12 +86,6 @@
           "outlet": "The Guardian World",
           "url": "https://www.theguardian.com/football/2026/jul/01/deaths-mexico-world-cup-fan-celebrations",
           "headline": "Four people die in mass fan celebrations in Mexico City after World Cup victory",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/01/world/americas/world-cup-mexico-city-crowd-deaths.html",
-          "headline": "3 People Die During World Cup Celebrations in Mexico City",
           "platform": "rss"
         },
         {
@@ -103,13 +109,167 @@
         "right": 0
       },
       "first_seen": "2026-07-01T17:16:00+00:00",
-      "last_seen": "2026-07-01T20:15:59+00:00",
+      "last_seen": "2026-07-01T21:47:23+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.4963
+      "resonance": 0.4877
+    },
+    {
+      "id": "7be95ca932",
+      "title": "Kane rescues England after DR Congo scare",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/harry-kane-rescues-england-shock-world-cup-exit-two-goals-11-minutes-dr-congo",
+          "headline": "Harry Kane rescues England from shock World Cup exit with two goals in 11 minutes against DR Congo",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/kane-rescues-england-after-dr-congo-scare",
+          "headline": "Kane rescues England after DR Congo scare",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/07/01/englands-superstar-harry-kane-the-hero-as-three-lions-survive-shock-against-dr-congo",
+          "headline": "'England's superstar': Harry Kane the hero as Three Lions survive shock against DR Congo",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.133,
+        "spread": 0.33,
+        "left": 0,
+        "center": 2,
+        "right": 1
+      },
+      "first_seen": "2026-07-01T19:12:44+00:00",
+      "last_seen": "2026-07-01T21:40:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.3481
+    },
+    {
+      "id": "1dbb8c0524",
+      "title": "Australia politics live: Labor makes partial u-turn on controversial automated aged-care assessment tool",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/02/australia-politics-live-defence-aukus-conroy-national-press-club-anthony-albanese-labor-question-time-angus-taylor-coalition-tax-reform-one-nation-pauline-hanson-ntwnfb",
+          "headline": "Australia politics live: Labor makes partial u-turn on controversial automated aged-care assessment tool",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-02/federal-politics-live-blog-july-2/106867206",
+          "headline": "Live: Minister announces tweak to controversial aged care assessment tool",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T21:04:49+00:00",
+      "last_seen": "2026-07-01T21:49:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.3422
+    },
+    {
+      "id": "7da1d69d6a",
+      "title": "US signs agreement to build permanent embassy in Jerusalem",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/us-signs-1-lease-with-israel-to-build-permanent-embassy-in-west-jerusalem?traffic_source=rss",
+          "headline": "US signs $1 lease with Israel to build permanent embassy in West Jerusalem",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/01/us-signs-agreement-to-build-permanent-embassy-in-jerusalem_6755057_4.html",
+          "headline": "US signs agreement to build permanent embassy in Jerusalem",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-signs-agreement-construction-permanent-embassy-jerusalem",
+          "headline": "US signs agreement for construction of permanent embassy in Jerusalem",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.217,
+        "spread": 0.024,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T19:14:13+00:00",
+      "last_seen": "2026-07-01T21:09:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.3238
+    },
+    {
+      "id": "bc7689f583",
+      "title": "2 arrested after apparent Empire State Building proposal",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/russian-couple-arrested-after-climbing-empire-state-building?traffic_source=rss",
+          "headline": "Russian couple arrested after climbing Empire State Building",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/2-arrested-after-apparent-empire-state-building-proposal/a-77792914?maca=en-rss-en-all-1573-rdf",
+          "headline": "2 arrested after apparent Empire State Building proposal",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3359079/2-arrested-after-hanging-power-love-banner-top-empire-state-building?utm_source=rss_feed",
+          "headline": "Russian daredevils arrested for proposal stunt atop Empire State Building",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.067,
+        "spread": 0.125,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T18:09:40+00:00",
+      "last_seen": "2026-07-01T20:54:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2504
     },
     {
       "id": "e2c7c51403",
@@ -149,143 +309,143 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.3544
+      "resonance": 0.2248
     },
     {
-      "id": "bc7689f583",
-      "title": "2 arrested after apparent Empire State Building proposal",
-      "signal_count": 3,
+      "id": "6e7a64a31c",
+      "title": "Taylor Swift and Travis Kelce to celebrate wedding Friday at Madison Square Garden",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/two-people-hang-banner-about-the-power-of-love-on-empire-state-building-antenna/article71171559.ece",
-          "headline": "Two arrested for hanging banner about 'power of love' on Empire State Building antenna",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/2-arrested-after-apparent-empire-state-building-proposal/a-77792914?maca=en-rss-en-all-1573-rdf",
-          "headline": "2 arrested after apparent Empire State Building proposal",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260701-taylor-swift-and-travis-kelce-to-celebrate-wedding-friday-at-madison-square-garden",
+          "headline": "Taylor Swift and Travis Kelce to celebrate wedding Friday at Madison Square Garden",
           "platform": "rss"
         },
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3359079/2-arrested-after-hanging-power-love-banner-top-empire-state-building?utm_source=rss_feed",
-          "headline": "Russian daredevils arrested for proposal stunt atop Empire State Building",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3359083/taylor-swift-and-travis-kelce-wed-madison-square-garden-insider-says?utm_source=rss_feed",
+          "headline": "Taylor Swift and Travis Kelce to wed at Madison Square Garden, insider says",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.033,
-        "spread": 0.094,
+        "mean": 0.0,
+        "spread": 0.1,
         "left": 0,
-        "center": 3,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-01T18:09:40+00:00",
-      "last_seen": "2026-07-01T19:57:09+00:00",
+      "first_seen": "2026-07-01T20:27:31+00:00",
+      "last_seen": "2026-07-01T20:40:59+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.3437
+      "topic": "world",
+      "resonance": 0.2154
     },
     {
-      "id": "0a10e85d38",
-      "title": "Ask HN: Who wants to be hired? (July 2026)",
+      "id": "b35dc69c2a",
+      "title": "Russian daredevils climb Empire State Building to unfurl 'love' banner",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48747976",
-          "headline": "Ask HN: Who is hiring? (July 2026)",
-          "platform": "hackernews"
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-02/russian-daredevils-climb-empire-state-building-in-banner-stunt/106867956",
+          "headline": "Russian daredevils climb Empire State Building to unfurl 'love' banner",
+          "platform": "rss"
         },
         {
-          "outlet": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=48747975",
-          "headline": "Ask HN: Who wants to be hired? (July 2026)",
-          "platform": "hackernews"
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/07/01/two-arrested-after-unfurling-power-of-love-banner-on-empire-state-building-antenna",
+          "headline": "Two arrested after unfurling 'power of love' banner on Empire State Building antenna",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-01T15:01:21+00:00",
-      "last_seen": "2026-07-01T15:01:21+00:00",
+      "first_seen": "2026-07-01T20:17:18+00:00",
+      "last_seen": "2026-07-01T20:39:14+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2892
+      "resonance": 0.2135
     },
     {
-      "id": "f29b782eff",
-      "title": "Sony Deletes 551 Movies PlayStation Owners Paid For",
-      "signal_count": 1,
+      "id": "d4a1c9e27e",
+      "title": "US says it won’t agree to renew USMCA",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://reclaimthenet.org/sony-deletes-551-studiocanal-movies-playstation-owners-paid-for",
-          "headline": "Sony Deletes 551 Movies PlayStation Owners Paid For",
-          "platform": "hackernews"
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/us/diplomacy/article/3359084/us-wont-renew-north-american-trade-pact-greer-targets-canadas-china-ties?utm_source=rss_feed",
+          "headline": "US won’t renew USMCA trade pact as Greer targets Canada’s China ties",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/economy/2026/7/1/us-says-it-wont-agree-to-renew-usmca?traffic_source=rss",
+          "headline": "US says it won’t agree to renew USMCA",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
+        "mean": -0.05,
+        "spread": 0.15,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-01T14:26:07+00:00",
-      "last_seen": "2026-07-01T14:26:07+00:00",
+      "first_seen": "2026-07-01T17:59:05+00:00",
+      "last_seen": "2026-07-01T21:33:25+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.276
+      "topic": "economy",
+      "resonance": 0.1424
     },
     {
-      "id": "13e6c19cbc",
-      "title": "World Cup 2026: England survive DR Congo scare as Kane’s late double sinks heroic Mpasi",
+      "id": "fa4470f4da",
+      "title": "Iran to open ‘communication channel’ on MoU with US after talks in Qatar",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/1/kane-double-fires-england-to-comeback-win-over-dr-congo-at-world-cup-2026?traffic_source=rss",
-          "headline": "Kane double fires England to comeback win over DR Congo at World Cup 2026",
+          "url": "https://www.aljazeera.com/news/2026/7/1/iran-to-open-communication-channel-on-mou-with-us-after-talks-in-qatar?traffic_source=rss",
+          "headline": "Iran to open ‘communication channel’ on MoU with US after talks in Qatar",
           "platform": "rss"
         },
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260701-world-cup-2026-england-survive-dr-congo-scare-as-kane-s-late-double-sinks-heroic-mpasi",
-          "headline": "World Cup 2026: England survive DR Congo scare as Kane’s late double sinks heroic Mpasi",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-talks-qatar-concluded",
+          "headline": "Iran says talks in Qatar have concluded",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
+        "mean": -0.225,
+        "spread": 0.025,
+        "left": 1,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-01T18:06:08+00:00",
-      "last_seen": "2026-07-01T18:23:52+00:00",
+      "first_seen": "2026-07-01T18:28:52+00:00",
+      "last_seen": "2026-07-01T20:55:04+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1411
+      "topic": "world",
+      "resonance": 0.1248
     },
     {
       "id": "53db3c7a4d",
@@ -306,114 +466,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-01T20:17:33+00:00",
-      "last_seen": "2026-07-01T20:17:33+00:00",
+      "first_seen": "2026-07-01T21:56:33+00:00",
+      "last_seen": "2026-07-01T21:56:33+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.1042
+      "resonance": 0.1139
     },
     {
-      "id": "7059e75fec",
-      "title": "Six tourists killed, three others missing after boat capsizes in Pakistan's Swat Valley",
+      "id": "1cb5977b77",
+      "title": "Fireworks light up the NT's skies on annual cracker night",
       "signal_count": 1,
       "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/six-tourists-killed-three-others-missing-after-boat-capsizes-in-pakistans-swat-valley/article71171763.ece",
-          "headline": "Six tourists killed, three others missing after boat capsizes in Pakistan's Swat Valley",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T20:15:36+00:00",
-      "last_seen": "2026-07-01T20:15:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1013
-    },
-    {
-      "id": "3166fde79d",
-      "title": "Live: Kane saves England after DR Congo scare, Belgium faces Senegal",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/kane-rescues-england-after-dr-congo-scare",
-          "headline": "Kane rescues England after DR Congo scare",
-          "platform": "rss"
-        },
         {
           "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-02/world-cup-live-england-drc-belgium-senegal-usa-bosnia/106867650",
-          "headline": "Live: Kane saves England after DR Congo scare, Belgium faces Senegal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T15:33:17+00:00",
-      "last_seen": "2026-07-01T19:43:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0996
-    },
-    {
-      "id": "6bd4263a7e",
-      "title": "Why Are So Many Cubans Migrating to Guyana?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/video/world/americas/100000010968903/cuba-guyana-immigrants.html",
-          "headline": "Why Are So Many Cubans Migrating to Guyana?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T20:14:10+00:00",
-      "last_seen": "2026-07-01T20:14:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0992
-    },
-    {
-      "id": "e4febb3f33",
-      "title": "The case for building India’s coal chemistry capability",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/opinion/lead/the-case-for-building-indias-coal-chemistry-capability/article71170834.ece",
-          "headline": "The case for building India’s coal chemistry capability",
+          "url": "https://www.abc.net.au/news/2026-07-02/territory-day-cracker-night-nt-fireworks/106860856",
+          "headline": "Fireworks light up the NT's skies on annual cracker night",
           "platform": "rss"
         }
       ],
@@ -424,52 +494,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-01T20:13:50+00:00",
-      "last_seen": "2026-07-01T20:13:50+00:00",
+      "first_seen": "2026-07-01T21:55:03+00:00",
+      "last_seen": "2026-07-01T21:55:03+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0987
+      "resonance": 0.1114
     },
     {
-      "id": "20a16b6252",
-      "title": "Report: Harris calls Mamdani, meets pro-Palestinian activists as she weighs 2028 bid",
+      "id": "2356050833",
+      "title": "Iranian parliament speaker says IAEA barred from bombed nuclear sites",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/report-harris-calls-mamdani-meets-pro-palestinian-activists-as-she-weighs-2028-bid/",
-          "headline": "Report: Harris calls Mamdani, meets pro-Palestinian activists as she weighs 2028 bid",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T20:10:57+00:00",
-      "last_seen": "2026-07-01T20:10:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0945
-    },
-    {
-      "id": "b474f79932",
-      "title": "The Democrats Are Blowing Things Up",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/politics/2026/07/democrats-colorado-primary-results-socialist-kiros/687762/?utm_source=feed",
-          "headline": "The Democrats Are Blowing Things Up",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-parliament-speaker-says-iaea-barred-bombed-nuclear-sites",
+          "headline": "Iranian parliament speaker says IAEA barred from bombed nuclear sites",
           "platform": "rss"
         }
       ],
@@ -480,24 +522,52 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-01T20:10:48+00:00",
-      "last_seen": "2026-07-01T20:10:48+00:00",
+      "first_seen": "2026-07-01T21:54:10+00:00",
+      "last_seen": "2026-07-01T21:54:10+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.0943
+      "resonance": 0.1099
     },
     {
-      "id": "88b63ef477",
-      "title": "Elon Musk denies a report about SpaceX&#8217;s AI phone prototype",
+      "id": "f733c7d1cf",
+      "title": "Music teacher accused of luring, killing PhD student sister-in-law after years-long obsession: report",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk",
-          "headline": "Elon Musk denies a report about SpaceX&#8217;s AI phone prototype",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/music-teacher-accused-luring-killing-phd-student-sister-in-law-years-long-obsession-report",
+          "headline": "Music teacher accused of luring, killing PhD student sister-in-law after years-long obsession: report",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-01T21:53:05+00:00",
+      "last_seen": "2026-07-01T21:53:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1081
+    },
+    {
+      "id": "bdf5a5dcd1",
+      "title": "Ireland pretty hopeful of signing of EU-India FTA by year end: Irish Ambassador Kevin Kelly",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/business/ireland-pretty-hopeful-of-signing-of-eu-india-fta-by-year-end-irish-ambassador-kevin-kelly/article71171379.ece",
+          "headline": "Ireland pretty hopeful of signing of EU-India FTA by year end: Irish Ambassador Kevin Kelly",
           "platform": "rss"
         }
       ],
@@ -508,24 +578,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-01T20:10:21+00:00",
-      "last_seen": "2026-07-01T20:10:21+00:00",
+      "first_seen": "2026-07-01T21:52:57+00:00",
+      "last_seen": "2026-07-01T21:52:57+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0936
+      "topic": "world",
+      "resonance": 0.1079
     },
     {
-      "id": "d86338d544",
-      "title": "Halifax brand to be scrapped after 173 years",
+      "id": "ea3a5e2b4e",
+      "title": "US Navy crew member missing as chopper goes down in Arabian Sea",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c24ydy4q0nzo?at_medium=RSS&at_campaign=rss",
-          "headline": "Halifax brand to be scrapped after 173 years",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-02/us-navy-helicopter-goes-down-in-arabian-sea/106868126",
+          "headline": "US Navy crew member missing as chopper goes down in Arabian Sea",
           "platform": "rss"
         }
       ],
@@ -536,24 +606,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-01T20:09:05+00:00",
-      "last_seen": "2026-07-01T20:09:05+00:00",
+      "first_seen": "2026-07-01T21:51:34+00:00",
+      "last_seen": "2026-07-01T21:51:34+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0918
+      "topic": "world",
+      "resonance": 0.1056
     },
     {
-      "id": "89de3e05fa",
-      "title": "Trump refuses to renew US-Canada-Mexico trade pact he once championed",
+      "id": "ca767e0f2b",
+      "title": "¿Y Si Sí? The World Cup Delivers Hope to Mexico",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/us-news/2026/jul/01/trump-usmca-trade-treaty",
-          "headline": "Trump refuses to renew US-Canada-Mexico trade pact he once championed",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/01/world/americas/mexico-world-cup-celebrations.html",
+          "headline": "¿Y Si Sí? The World Cup Delivers Hope to Mexico",
           "platform": "rss"
         }
       ],
@@ -564,80 +634,220 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-01T20:09:01+00:00",
-      "last_seen": "2026-07-01T20:09:01+00:00",
+      "first_seen": "2026-07-01T21:46:41+00:00",
+      "last_seen": "2026-07-01T21:46:41+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0917
+      "topic": "sport",
+      "resonance": 0.0975
     },
     {
-      "id": "05050b03ea",
-      "title": "West Nile virus detected in southern state as health officials warn residents about mosquitoes",
+      "id": "bccd324d77",
+      "title": "Fire breaks out in central Kyiv after explosion during air raid alert",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/health/west-nile-virus-detected-southern-state-health-officials-warn-residents-mosquitoes",
-          "headline": "West Nile virus detected in southern state as health officials warn residents about mosquitoes",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260701-fire-breaks-out-in-central-kyiv-after-explosion-during-air-raid-alert",
+          "headline": "Fire breaks out in central Kyiv after explosion during air raid alert",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-07-01T20:06:15+00:00",
-      "last_seen": "2026-07-01T20:06:15+00:00",
+      "first_seen": "2026-07-01T21:41:54+00:00",
+      "last_seen": "2026-07-01T21:41:54+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.0876
+      "topic": "tech",
+      "resonance": 0.0896
     },
     {
-      "id": "5e4d157e59",
-      "title": "Mamdani walks back plan to increase NYPD headcount following DSA pressure",
+      "id": "3f9afa11f4",
+      "title": "More than 300 arrests in organised immigration crime crackdown",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/mamdani-walks-back-plan-increase-nypd-headcount-following-dsa-pressure",
-          "headline": "Mamdani walks back plan to increase NYPD headcount following DSA pressure",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cgev8ey9wrwo?at_medium=RSS&at_campaign=rss",
+          "headline": "More than 300 arrests in organised immigration crime crackdown",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-07-01T20:03:59+00:00",
-      "last_seen": "2026-07-01T20:03:59+00:00",
+      "first_seen": "2026-07-01T21:41:40+00:00",
+      "last_seen": "2026-07-01T21:41:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.0892
+    },
+    {
+      "id": "d89d7cf0ae",
+      "title": "Starlink pushes back against EU-imposed restrictions on satellite telephony",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/07/01/starlink-pushes-back-against-eu-imposed-restrictions-on-satellite-telephony_6755058_19.html",
+          "headline": "Starlink pushes back against EU-imposed restrictions on satellite telephony",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T21:39:46+00:00",
+      "last_seen": "2026-07-01T21:39:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0862
+    },
+    {
+      "id": "d520002bc0",
+      "title": "Alice Springs drug and alcohol rehab curbed due to flooding",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-02/alice-springs-drug-and-alcohol-rehab-curbed/106826620",
+          "headline": "Alice Springs drug and alcohol rehab curbed due to flooding",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T21:36:28+00:00",
+      "last_seen": "2026-07-01T21:36:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.0808
+    },
+    {
+      "id": "c768bc45f9",
+      "title": "Controversial anti-Israel rap group Kneecap plays secret gig in Berlin",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/controversial-anti-israel-rap-group-kneecap-plays-secret-gig-in-berlin/",
+          "headline": "Controversial anti-Israel rap group Kneecap plays secret gig in Berlin",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T21:36:27+00:00",
+      "last_seen": "2026-07-01T21:36:27+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0844
+      "resonance": 0.0808
     },
     {
-      "id": "be9db6afd0",
-      "title": "China’s pressure campaign tests Trump’s commitment to Japan",
+      "id": "e04a81d411",
+      "title": "Mexico’s Victory Over Ecuador Made the Ground Shake. Was It an Artificial Earthquake?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/mexicos-victory-over-ecuador-artificial-earthquake/",
+          "headline": "Mexico’s Victory Over Ecuador Made the Ground Shake. Was It an Artificial Earthquake?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T21:34:03+00:00",
+      "last_seen": "2026-07-01T21:34:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0769
+    },
+    {
+      "id": "d574586c50",
+      "title": "US-Iran Qatar talks show progress, Trump says, as both sides set up hotline",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260701-us-iran-doha-talks-end-without-breakthrough-strait-of-hormuz",
+          "headline": "US-Iran Qatar talks show progress, Trump says, as both sides set up hotline",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T21:33:40+00:00",
+      "last_seen": "2026-07-01T21:33:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0763
+    },
+    {
+      "id": "f36f5c7352",
+      "title": "Central Asia’s republics are no longer the chess pieces of empires",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/us/article/3359082/chinas-pressure-campaign-tests-trumps-commitment-japan?utm_source=rss_feed",
-          "headline": "China’s pressure campaign tests Trump’s commitment to Japan",
+          "url": "https://www.scmp.com/opinion/asia-opinion/article/3358700/central-asias-republics-are-no-longer-chess-pieces-empires?utm_source=rss_feed",
+          "headline": "Central Asia’s republics are no longer the chess pieces of empires",
           "platform": "rss"
         }
       ],
@@ -648,24 +858,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-01T20:03:54+00:00",
-      "last_seen": "2026-07-01T20:03:54+00:00",
+      "first_seen": "2026-07-01T21:30:07+00:00",
+      "last_seen": "2026-07-01T21:30:07+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0842
+      "topic": "world",
+      "resonance": 0.0707
     },
     {
-      "id": "6538cfe409",
-      "title": "Spanish government ‘quietly bans’ use of Palantir over national security concerns",
+      "id": "f018734455",
+      "title": "Centcom leads regional security dialogue with Middle East military officials",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/spanish-government-quietly-bans-use-palantir-over-national-security",
-          "headline": "Spanish government ‘quietly bans’ use of Palantir over national security concerns",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-leads-regional-security-dialogue-middle-east-military-officials",
+          "headline": "Centcom leads regional security dialogue with Middle East military officials",
           "platform": "rss"
         }
       ],
@@ -676,80 +886,136 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-01T20:01:43+00:00",
-      "last_seen": "2026-07-01T20:01:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0811
-    },
-    {
-      "id": "c04fca262e",
-      "title": "As main street shops vanish, could they help solve housing shortages?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-02/plan-to-turn-empty-regional-shops-into-houses/106859536",
-          "headline": "As main street shops vanish, could they help solve housing shortages?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T20:00:59+00:00",
-      "last_seen": "2026-07-01T20:00:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0801
-    },
-    {
-      "id": "339266a2bb",
-      "title": "Dwayne 'The Rock' Johnson branded a coward by Hollywood stars after refusing to speak out on politics",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/dwayne-the-rock-johnson-branded-coward-hollywood-stars-after-refusing-speak-out-politics",
-          "headline": "Dwayne 'The Rock' Johnson branded a coward by Hollywood stars after refusing to speak out on politics",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-01T20:00:57+00:00",
-      "last_seen": "2026-07-01T20:00:57+00:00",
+      "first_seen": "2026-07-01T21:29:07+00:00",
+      "last_seen": "2026-07-01T21:29:07+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.08
+      "resonance": 0.0691
     },
     {
-      "id": "2ced5d9772",
-      "title": "NASA chief praises progress Blue Origin is making after launch failure",
+      "id": "adbcb1785d",
+      "title": "Wimbledon 2026 | No chinks in Djokovic’s armour, rolls over Tsitsipas to reach third round",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/tennis/wimbledon-2026-no-chinks-in-djokovics-armour-rolls-over-tsitsipas-to-reach-third-round/article71171800.ece",
+          "headline": "Wimbledon 2026 | No chinks in Djokovic’s armour, rolls over Tsitsipas to reach third round",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T21:27:17+00:00",
+      "last_seen": "2026-07-01T21:27:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0662
+    },
+    {
+      "id": "ef27dae07d",
+      "title": "Aunt of Venezuelan boy pulled from rubble tells BBC she will give him 'mother's warmth'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c05yv34qlnlo?at_medium=RSS&at_campaign=rss",
+          "headline": "Aunt of Venezuelan boy pulled from rubble tells BBC she will give him 'mother's warmth'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T21:27:04+00:00",
+      "last_seen": "2026-07-01T21:27:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0659
+    },
+    {
+      "id": "cf313445e3",
+      "title": "RSF committed crimes against humanity in Sudan's el-Fasher, Amnesty says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/rsf-committed-crimes-against-humanity-and-ethnic-cleansing-sudans-el-fasher-amnesty-concludes",
+          "headline": "RSF committed crimes against humanity in Sudan's el-Fasher, Amnesty says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T21:24:03+00:00",
+      "last_seen": "2026-07-01T21:24:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0611
+    },
+    {
+      "id": "d8542a8af1",
+      "title": "As Earthquake Death Toll Mounts, Venezuela Grapples With Recovering and Burying Bodies",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/01/world/americas/venezuela-earthquakes-bodies-morgues.html",
+          "headline": "As Earthquake Death Toll Mounts, Venezuela Grapples With Recovering and Burying Bodies",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T21:21:29+00:00",
+      "last_seen": "2026-07-01T21:21:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0571
+    },
+    {
+      "id": "560a8a5023",
+      "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/space/2026/07/nasa-chief-praises-progress-blue-origin-is-making-after-launch-failure/",
-          "headline": "NASA chief praises progress Blue Origin is making after launch failure",
+          "url": "https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/",
+          "headline": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
           "platform": "rss"
         }
       ],
@@ -760,325 +1026,125 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-01T19:57:36+00:00",
-      "last_seen": "2026-07-01T19:57:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0752
-    },
-    {
-      "id": "62251ac3b0",
-      "title": "Michael Solomonov and Steve Cook: The Israeli food we serve tells our story",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/michael-solomonov-and-steve-cook-the-israeli-food-we-serve-tells-our-story/",
-          "headline": "Michael Solomonov and Steve Cook: The Israeli food we serve tells our story",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T19:54:05+00:00",
-      "last_seen": "2026-07-01T19:54:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0703
-    },
-    {
-      "id": "6a02bff1a6",
-      "title": "Fact-checking Donald Trump's birthright citizenship claims",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/fact-checking-donald-trump-s-birthright-citizenship-claims",
-          "headline": "Fact-checking Donald Trump's birthright citizenship claims",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T19:53:52+00:00",
-      "last_seen": "2026-07-01T19:53:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.07
-    },
-    {
-      "id": "c3dac69790",
-      "title": "Explosion in Monaco: Who is Vadym Yermolaiev?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/explosion-in-monaco-who-is-vadym-yermolaiev/a-77792178?maca=en-rss-en-all-1573-rdf",
-          "headline": "Explosion in Monaco: Who is Vadym Yermolaiev?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T19:53:00+00:00",
-      "last_seen": "2026-07-01T19:53:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0687
-    },
-    {
-      "id": "613f4c8ccf",
-      "title": "Ivory Coast: Nearly 60 people killed in flooding since May",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ivory-coast-nearly-60-people-killed-in-flooding-since-may/a-77793180?maca=en-rss-en-all-1573-rdf",
-          "headline": "Ivory Coast: Nearly 60 people killed in flooding since May",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T19:52:00+00:00",
-      "last_seen": "2026-07-01T19:52:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.0673
-    },
-    {
-      "id": "a718cfedc8",
-      "title": "Gaza interim administration says talks in Cyprus ‘highly productive’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/gaza-interim-administration-says-talks-cyprus-highly-productive",
-          "headline": "Gaza interim administration says talks in Cyprus ‘highly productive’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T19:49:56+00:00",
-      "last_seen": "2026-07-01T19:49:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0645
-    },
-    {
-      "id": "921a66277c",
-      "title": "How TikTok’s algorithm is affecting you, from the content you see to what you can do to regain control",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/technology/2026-07-01/how-tiktoks-algorithm-is-affecting-you-from-the-content-you-see-to-what-you-can-do-to-regain-control.html",
-          "headline": "How TikTok’s algorithm is affecting you, from the content you see to what you can do to regain control",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T19:48:08+00:00",
-      "last_seen": "2026-07-01T19:48:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.062
-    },
-    {
-      "id": "adea628f01",
-      "title": "Extremists using 'codes' to evade detection online, royal commission hears",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-02/royal-commission-antisemitism-social-media-detection/106865546",
-          "headline": "Extremists using 'codes' to evade detection online, royal commission hears",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T19:46:39+00:00",
-      "last_seen": "2026-07-01T19:46:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.0599
-    },
-    {
-      "id": "88eff366aa",
-      "title": "Police investigate death of teenage boy found outside Melbourne hospital",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-02/victoria-police-craigieburn-teenage-death/106867928",
-          "headline": "Police investigate death of teenage boy found outside Melbourne hospital",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T19:43:14+00:00",
-      "last_seen": "2026-07-01T19:43:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.0552
-    },
-    {
-      "id": "e9f3afe017",
-      "title": "Seven more sentenced over Texas ICE detention centre shooting",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/1/seven-more-sentenced-over-texas-ice-detention-centre-shooting?traffic_source=rss",
-          "headline": "Seven more sentenced over Texas ICE detention centre shooting",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T19:41:18+00:00",
-      "last_seen": "2026-07-01T19:41:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0525
-    },
-    {
-      "id": "db32ca7594",
-      "title": "Israeli Knesset passes bill limiting mosque loudspeakers",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-knesset-passes-bill-limiting-mosque-loudspeakers",
-          "headline": "Israeli Knesset passes bill limiting mosque loudspeakers",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T19:39:26+00:00",
-      "last_seen": "2026-07-01T19:39:26+00:00",
+      "first_seen": "2026-07-01T21:21:21+00:00",
+      "last_seen": "2026-07-01T21:21:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
+      "resonance": 0.0569
+    },
+    {
+      "id": "f042f9f4d4",
+      "title": "So Long to America’s Favorite Everymensch",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/technology/2026/07/freddy-world-cup-viral-fan/687771/?utm_source=feed",
+          "headline": "So Long to America’s Favorite Everymensch",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T21:20:00+00:00",
+      "last_seen": "2026-07-01T21:20:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0548
+    },
+    {
+      "id": "2dd671d317",
+      "title": "Celebrating the World Cup, the English Ask: Who Owns the Flag?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/01/world/europe/england-world-cup-flags.html",
+          "headline": "Celebrating the World Cup, the English Ask: Who Owns the Flag?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-01T21:16:52+00:00",
+      "last_seen": "2026-07-01T21:16:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
       "source": "ba58c1364c",
-      "target": "13e6c19cbc",
-      "weight": 0.077,
+      "target": "53db3c7a4d",
+      "weight": 0.052,
       "type": "thematic"
     },
     {
       "source": "ba58c1364c",
-      "target": "53db3c7a4d",
-      "weight": 0.123,
+      "target": "ca767e0f2b",
+      "weight": 0.89,
+      "type": "thematic"
+    },
+    {
+      "source": "ba58c1364c",
+      "target": "2dd671d317",
+      "weight": 0.195,
       "type": "thematic"
     },
     {
       "source": "bc7689f583",
-      "target": "e4febb3f33",
-      "weight": 0.003,
+      "target": "b35dc69c2a",
+      "weight": 0.775,
       "type": "thematic"
     },
     {
-      "source": "13e6c19cbc",
-      "target": "3166fde79d",
-      "weight": 0.732,
+      "source": "e2c7c51403",
+      "target": "ea3a5e2b4e",
+      "weight": 0.775,
+      "type": "thematic"
+    },
+    {
+      "source": "fa4470f4da",
+      "target": "d574586c50",
+      "weight": 0.748,
       "type": "thematic"
     },
     {
       "source": "53db3c7a4d",
-      "target": "3166fde79d",
-      "weight": 0.497,
+      "target": "ca767e0f2b",
+      "weight": 0.181,
+      "type": "thematic"
+    },
+    {
+      "source": "53db3c7a4d",
+      "target": "2dd671d317",
+      "weight": 0.038,
+      "type": "thematic"
+    },
+    {
+      "source": "ca767e0f2b",
+      "target": "2dd671d317",
+      "weight": 0.357,
       "type": "thematic"
     }
   ],

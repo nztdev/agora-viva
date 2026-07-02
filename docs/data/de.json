@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T18:45:26.279754+00:00",
+  "generated_at": "2026-07-02T20:36:42.528688+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
@@ -7,20 +7,61 @@
   "edge_count": 6,
   "nodes": [
     {
-      "id": "93cbc0c448",
-      "title": "Albanien: Festnahmen bei »Flamingo-Protesten« in Tirana",
+      "id": "ae782cd0cf",
+      "title": "Koalitionsausschuss: »Niemand soll wirklich ab dem ersten Tag zum Arzt müssen«",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/deutschland/2026-07/union-spd-koalitionsausschuss-reformpaket-liveblog",
+          "headline": "Koalitionsausschuss: »Niemand soll wirklich ab dem ersten Tag zum Arzt müssen«",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/article6a458c791f5535004df2670a/reformpaket-niemand-soll-wirklich-ab-dem-ersten-tag-zum-arzt-muessen-spd-relativiert-krankschreibungsregeln-liveticker.html",
+          "headline": "„Niemand soll wirklich ab dem ersten Tag zum Arzt müssen“ – SPD relativiert Krankschreibungsregeln",
+          "platform": "rss"
+        },
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Klingbeil-zur-Attestpflicht-Niemand-soll-ab-dem-ersten-Tag-zum-Arzt-muessen-id31041910.html",
+          "headline": "SPD-Spitzen rudern zurück: Klingbeil zur Attestpflicht: \"Niemand soll ab dem ersten Tag zum Arzt müssen\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.245,
+        "left": 1,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-07-02T18:36:24+00:00",
+      "last_seen": "2026-07-02T20:06:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "language": "de",
+      "resonance": 0.6834
+    },
+    {
+      "id": "3c1051cc1b",
+      "title": "WM 2026 Live: Spanien gegen Österreich im Liveticker",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/albanien-festnahmen-bei-flamingo-protesten-in-tirana-a-378741a4-eccf-4c82-a3a4-73b7bf779ce2#ref=rss",
-          "headline": "Albanien: Festnahmen bei »Flamingo-Protesten« in Tirana",
+          "url": "https://www.spiegel.de/sport/fussball/wm-2026-live-spanien-gegen-oesterreich-im-liveticker-a-03ff8dfe-87b3-436c-a236-5eac4c27ceec#ref=rss",
+          "headline": "WM 2026 Live: Spanien gegen Österreich im Liveticker",
           "platform": "rss"
         },
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-07/proteste-tirana-albanien-jared-kushner-lagune-narta",
-          "headline": "Proteste in Tirana: Zusammenstöße bei Protesten gegen Bau von Kushner-Firma in Albanien",
+          "url": "https://www.zeit.de/sport/2026-05/fussball-wm-2026-liveblog",
+          "headline": "Fußball-WM 2026: Spanien führt zur Pause gegen Österreich",
           "platform": "rss"
         }
       ],
@@ -31,15 +72,781 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-02T17:54:16+00:00",
-      "last_seen": "2026-07-02T18:02:00+00:00",
+      "first_seen": "2026-07-02T20:05:41+00:00",
+      "last_seen": "2026-07-02T20:31:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.6108
+    },
+    {
+      "id": "a5c32a42f0",
+      "title": "USA: Trump bezeichnet Deutschlands Nato-Ausgaben als „lächerlich“",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/politik/usa-news-donald-trump-nato-deutschland-li.3506498",
+          "headline": "USA: Trump bezeichnet Deutschlands Nato-Ausgaben als „lächerlich“",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6a4697ec2a7c6edbda63d69d/vor-nato-gipfel-trump-nennt-deutschlands-nato-ausgaben-laecherlich.html",
+          "headline": "Trump nennt Deutschlands Nato-Ausgaben „lächerlich“",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/trump-bezeichnet-deutschlands-nato-ausgaben-als-laecherlich-a-34433357-3850-4c84-90fd-b5362dad84db#ref=rss",
+          "headline": "Donald Trump bezeichnet Deutschlands Nato-Ausgaben als »lächerlich«",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.017,
+        "spread": 0.225,
+        "left": 0,
+        "center": 2,
+        "right": 1
+      },
+      "first_seen": "2026-07-02T17:45:00+00:00",
+      "last_seen": "2026-07-02T18:55:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.5526
+    },
+    {
+      "id": "256b7adc77",
+      "title": "Mount Everest: Indien will 30 Jahre alte Leiche bergen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/mount-everest-indien-will-30-jahre-alte-leiche-bergen-a-1c26cfdd-42fb-437e-9f44-00a446f30b4b#ref=rss",
+          "headline": "Mount Everest: Indien will 30 Jahre alte Leiche bergen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T20:32:00+00:00",
+      "last_seen": "2026-07-02T20:32:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "f16d9621a1",
+      "title": "Reformvorschläge: Koalitionsspitzen wollen Attestpflicht praxistauglich gestalten",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/deutschland/2026-07/krankschreibung-erster-tag-arbeitsunfaehigkeitsbescheinigung-koalition",
+          "headline": "Reformvorschläge: Koalitionsspitzen wollen Attestpflicht praxistauglich gestalten",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T20:18:35+00:00",
+      "last_seen": "2026-07-02T20:18:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2507
+    },
+    {
+      "id": "4f21a7a637",
+      "title": "Einsatz: Großbrand in Recyclingbetrieb in Dresden",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/02/grossbrand-in-recyclingbetrieb-in-dresden",
+          "headline": "Einsatz: Großbrand in Recyclingbetrieb in Dresden",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T20:14:17+00:00",
+      "last_seen": "2026-07-02T20:14:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2413
+    },
+    {
+      "id": "c265e0093e",
+      "title": "Reformvorhaben der Regierung: Merz lobt das nächste \"Gesamtkunstwerk\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Merz-lobt-das-naechste-Gesamtkunstwerk-id31042041.html",
+          "headline": "Reformvorhaben der Regierung: Merz lobt das nächste \"Gesamtkunstwerk\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T20:08:58+00:00",
+      "last_seen": "2026-07-02T20:08:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.2298
+    },
+    {
+      "id": "3399803023",
+      "title": "Ukraine-Krieg: Russischer Raketenhagel auf Kiew - viele Tote und Verletzte",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/02/russland-fliegt-heftige-luftangriffe-auf-ukrainische-staedte",
+          "headline": "Ukraine-Krieg: Russischer Raketenhagel auf Kiew - viele Tote und Verletzte",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T20:08:04+00:00",
+      "last_seen": "2026-07-02T20:08:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.2278
+    },
+    {
+      "id": "83c5fcaf7b",
+      "title": "Polen will Auslieferung von in USA geflüchtetem Ex-Justizminister – ihm drohen 25 Jahre Haft",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6a46bbe600c4befb7b0f1479/polen-will-auslieferung-von-in-usa-gefluechtetem-ex-justizminister-ihm-drohen-25-jahre-haft.html",
+          "headline": "Polen will Auslieferung von in USA geflüchtetem Ex-Justizminister – ihm drohen 25 Jahre Haft",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-02T19:59:04+00:00",
+      "last_seen": "2026-07-02T19:59:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.2087
+    },
+    {
+      "id": "194e676542",
+      "title": "Venezuela: Rettungskräfte bergen Verschütteten acht Tage nach Erdbeben",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-07/venezuela-erdbeben-rettung-acht-tage",
+          "headline": "Venezuela: Rettungskräfte bergen Verschütteten acht Tage nach Erdbeben",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T19:58:32+00:00",
+      "last_seen": "2026-07-02T19:58:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2076
+    },
+    {
+      "id": "466740447c",
+      "title": "Nahost: 1.000 Tage nach Hamas-Überfall: Israel erinnert an Massaker",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/02/israel-gedenkt-1-000-tagen-nach-hamas-massaker-mit-protesten",
+          "headline": "Nahost: 1.000 Tage nach Hamas-Überfall: Israel erinnert an Massaker",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T19:58:23+00:00",
+      "last_seen": "2026-07-02T19:58:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2073
+    },
+    {
+      "id": "e9e7934be9",
+      "title": "Reformpaket: Opposition und Verbände kritisieren Beschlüsse – Merz und Klingbeil verteidigen es",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/politik/reformpaket-opposition-und-verbaende-kritisieren-beschluesse-merz-und-klingbeil-verteidigen-es-a-f79e1a0b-f37d-4d33-ba71-c48ec41935a7#ref=rss",
+          "headline": "Reformpaket: Opposition und Verbände kritisieren Beschlüsse – Merz und Klingbeil verteidigen es",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T19:52:00+00:00",
+      "last_seen": "2026-07-02T19:52:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.194
+    },
+    {
+      "id": "87153e96f4",
+      "title": "Der „Tele-Ski“- und „Tele-Gym“-Erfinder ist tot",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/article6a46b8d817e758bbd23e228b/sportschau-legende-manfred-vorderwuelbecke-der-tele-ski-und-tele-gym-erfinder-ist-tot.html",
+          "headline": "Der „Tele-Ski“- und „Tele-Gym“-Erfinder ist tot",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-02T19:50:28+00:00",
+      "last_seen": "2026-07-02T19:50:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.1908
+    },
+    {
+      "id": "520e7c53b7",
+      "title": "Ermittlungen: Frau tot aufgefunden - 36-Jähriger in Untersuchungshaft",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/02/frau-tot-aufgefunden-36-jaehriger-in-untersuchungshaft",
+          "headline": "Ermittlungen: Frau tot aufgefunden - 36-Jähriger in Untersuchungshaft",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T19:49:20+00:00",
+      "last_seen": "2026-07-02T19:49:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1885
+    },
+    {
+      "id": "bfbe1d0734",
+      "title": "Washington: Ex-Olympiasportler David Hearn wegen Vandalismus am Reflecting Pool angeklagt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/washington-ex-olympiasportler-david-hearn-wegen-vandalismus-am-reflecting-pool-angeklagt-a-a363f7db-17ab-4d90-9efb-ecce55192eed#ref=rss",
+          "headline": "Washington: Ex-Olympiasportler David Hearn wegen Vandalismus am Reflecting Pool angeklagt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T19:46:00+00:00",
+      "last_seen": "2026-07-02T19:46:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1817
+    },
+    {
+      "id": "bcb0cff33e",
+      "title": "TV-Kritik „Maybrit Illner“: Merz belehrt Illner beim Rechnen – und blamiert sich beim Dienstwagen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/feuilleton/medien-und-film/talkshow/merz-bei-illner-in-der-tv-kritik-die-selektive-rechenschwaeche-des-kanzlers-200993314.html",
+          "headline": "TV-Kritik „Maybrit Illner“: Merz belehrt Illner beim Rechnen – und blamiert sich beim Dienstwagen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T19:36:52+00:00",
+      "last_seen": "2026-07-02T19:36:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1633
+    },
+    {
+      "id": "e2edb3d863",
+      "title": "Gewalttat mit sechs Toten: Stade: Schwiegermutter von Politiker fuhr Fluchtwagen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/02/stade-schwiegermutter-von-politiker-fuhr-fluchtwagen",
+          "headline": "Gewalttat mit sechs Toten: Stade: Schwiegermutter von Politiker fuhr Fluchtwagen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T19:35:03+00:00",
+      "last_seen": "2026-07-02T19:35:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.1597
+    },
+    {
+      "id": "f77f9d12ca",
+      "title": "Feuerwehr: Mensch stirbt bei Brand in Lichterfelde",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/02/mensch-stirbt-bei-brand-in-lichterfelde",
+          "headline": "Feuerwehr: Mensch stirbt bei Brand in Lichterfelde",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T19:33:19+00:00",
+      "last_seen": "2026-07-02T19:33:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1562
+    },
+    {
+      "id": "07f68e26c4",
+      "title": "+++ Iran-Krieg +++: Datenfirma: Schiffsverkehr in der Straße von Hormus erholt sich",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/international/iran-krieg-schiffsverkehr-in-der-strasse-von-hormus-erholt-sich/100136895.html",
+          "headline": "+++ Iran-Krieg +++: Datenfirma: Schiffsverkehr in der Straße von Hormus erholt sich",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T19:30:00+00:00",
+      "last_seen": "2026-07-02T19:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.1497
+    },
+    {
+      "id": "0adc95e512",
+      "title": "Duisburg: Leiche im Bertasee entdeckt - Polizei ermittelt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/02/leiche-im-bertasee-entdeckt-polizei-ermittelt",
+          "headline": "Duisburg: Leiche im Bertasee entdeckt - Polizei ermittelt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T19:29:26+00:00",
+      "last_seen": "2026-07-02T19:29:26+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "society",
       "language": "de",
-      "resonance": 0.6484
+      "resonance": 0.1486
+    },
+    {
+      "id": "271a368822",
+      "title": "Reformpaket der Bundesregierung: Rettet das Reformpaket die deutsche Wirtschaft?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/wirtschaft/2026-07/reformpaket-bundesregierung-wirtschaft-buerokratieabbau-steuern",
+          "headline": "Reformpaket der Bundesregierung: Rettet das Reformpaket die deutsche Wirtschaft?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T19:26:49+00:00",
+      "last_seen": "2026-07-02T19:26:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.1435
+    },
+    {
+      "id": "07aa0fbed4",
+      "title": "Mutmaßlicher Rechtsextremismus: Mahnwache nach mutmaßlich rechten Angriffen in Cottbus",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/02/mahnwache-nach-mutmasslich-rechten-angriffen-in-cottbus",
+          "headline": "Mutmaßlicher Rechtsextremismus: Mahnwache nach mutmaßlich rechten Angriffen in Cottbus",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T19:14:35+00:00",
+      "last_seen": "2026-07-02T19:14:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.12
+    },
+    {
+      "id": "48b1986cbd",
+      "title": "Für das Achtelfinale lockert Englands Regierung ein Gesetz",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/article6a46a1982a7c6edbda63d72c/gegen-gastgeber-mexiko-fuer-das-achtelfinale-lockert-englands-regierung-ein-gesetz.html",
+          "headline": "Für das Achtelfinale lockert Englands Regierung ein Gesetz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-02T19:08:57+00:00",
+      "last_seen": "2026-07-02T19:08:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.1094
+    },
+    {
+      "id": "729156cd61",
+      "title": "Verdi kündigt Warnstreiks im Handel an – Tausende sollen am Freitag ihre Arbeit niederlegen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/wirtschaft/article6a469f9017e758bbd23e21a4/verdi-kuendigt-warnstreiks-im-handel-an-tausende-sollen-am-freitag-ihre-arbeit-niederlegen.html",
+          "headline": "Verdi kündigt Warnstreiks im Handel an – Tausende sollen am Freitag ihre Arbeit niederlegen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-02T19:08:25+00:00",
+      "last_seen": "2026-07-02T19:08:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.1084
+    },
+    {
+      "id": "adfabdcd9d",
+      "title": "„Steuerpolitisch ist das weniger als nichts“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/videos/video6a46b1bf396d6d1a967b8e79/neues-reformpaket-steuerpolitisch-ist-das-weniger-als-nichts.html",
+          "headline": "„Steuerpolitisch ist das weniger als nichts“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-02T18:56:43+00:00",
+      "last_seen": "2026-07-02T18:56:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.0868
+    },
+    {
+      "id": "c18d4c0574",
+      "title": "Kein Höchstwert in Brandenburg: Wetterdienst muss deutschen Hitzerekord gleich doppelt korrigieren",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/panorama/Wetterdienst-muss-deutschen-Hitzerekord-gleich-doppelt-korrigieren-id31041927.html",
+          "headline": "Kein Höchstwert in Brandenburg: Wetterdienst muss deutschen Hitzerekord gleich doppelt korrigieren",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T18:52:59+00:00",
+      "last_seen": "2026-07-02T18:52:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0801
+    },
+    {
+      "id": "93181737de",
+      "title": "Protest gegen Kushner-Projekt: \"Flamingo-Revolution\" in Albanien schlägt in Gewalt um",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Flamingo-Revolution-in-Albanien-schlaegt-in-Gewalt-um-id31041791.html",
+          "headline": "Protest gegen Kushner-Projekt: \"Flamingo-Revolution\" in Albanien schlägt in Gewalt um",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T18:52:03+00:00",
+      "last_seen": "2026-07-02T18:52:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "de",
+      "resonance": 0.0784
+    },
+    {
+      "id": "ea499a5223",
+      "title": "Das war überfällig – dominante Spanier erhöhen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/article6a46a5952a7c6edbda63d765/sechzehntelfinale-das-war-ueberfaellig-dominante-spanier-erhoehen.html",
+          "headline": "Das war überfällig – dominante Spanier erhöhen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-02T18:51:22+00:00",
+      "last_seen": "2026-07-02T18:51:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0771
     },
     {
       "id": "1872049e9a",
@@ -68,36 +875,7 @@
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.2238
-    },
-    {
-      "id": "3d28328e18",
-      "title": "SPD-Spitzen rudern zurück: Klingbeil zur Attestpflicht: \"Niemand soll ab dem ersten Tag zum Arzt müssen\"",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Klingbeil-zur-Attestpflicht-Niemand-soll-ab-dem-ersten-Tag-zum-Arzt-muessen-id31041910.html",
-          "headline": "SPD-Spitzen rudern zurück: Klingbeil zur Attestpflicht: \"Niemand soll ab dem ersten Tag zum Arzt müssen\"",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:36:24+00:00",
-      "last_seen": "2026-07-02T18:36:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "language": "de",
-      "resonance": 0.2174
+      "resonance": 0.0535
     },
     {
       "id": "00d64f30cb",
@@ -126,798 +904,44 @@
       "geo_regions": [],
       "topic": "conflict",
       "language": "de",
-      "resonance": 0.2158
-    },
-    {
-      "id": "a1cb0b212b",
-      "title": "Informationsfreiheitsgesetz: Bundesdatenschutzbeauftragte nennt Koalitionspläne »undemokratisch«",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-07/informationsfreiheitsgesetz-louisa-specht-transparenz-buergerrechte",
-          "headline": "Informationsfreiheitsgesetz: Bundesdatenschutzbeauftragte nennt Koalitionspläne »undemokratisch«",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:34:41+00:00",
-      "last_seen": "2026-07-02T18:34:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.2105
-    },
-    {
-      "id": "c7e1569a3d",
-      "title": "Wall Street: US-Börsen liegen uneinheitlich – Dow Jones erreicht Rekord",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/wall-street-us-boersen-liegen-uneinheitlich-dowjones-erreicht-rekord/100237512.html",
-          "headline": "Wall Street: US-Börsen liegen uneinheitlich – Dow Jones erreicht Rekord",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:31:00+00:00",
-      "last_seen": "2026-07-02T18:31:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
-      "resonance": 0.1959
-    },
-    {
-      "id": "40a5cc96e0",
-      "title": "Hollywood: Franka Potentes Freunde sind arbeitslos",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/panorama/hollywood-franka-potentes-freunde-sind-arbeitslos-a-1c143afe-7f88-4a9c-88f5-47876c539cab#ref=rss",
-          "headline": "Hollywood: Franka Potentes Freunde sind arbeitslos",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:29:00+00:00",
-      "last_seen": "2026-07-02T18:29:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.188
-    },
-    {
-      "id": "6c77b9b7d5",
-      "title": "AfD Thüringen: Insa-Umfrage: AfD mit bisher höchstem Wert in Thüringen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/02/insa-umfrage-afd-mit-bisher-hoechstem-wert-in-thueringen",
-          "headline": "AfD Thüringen: Insa-Umfrage: AfD mit bisher höchstem Wert in Thüringen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:28:59+00:00",
-      "last_seen": "2026-07-02T18:28:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1879
-    },
-    {
-      "id": "3c1051cc1b",
-      "title": "WM 2026 Live: Spanien gegen Österreich im Liveticker",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/wm-2026-spanien-gegen-oesterreich-im-liveticker-a-03ff8dfe-87b3-436c-a236-5eac4c27ceec#ref=rss",
-          "headline": "WM 2026 Live: Spanien gegen Österreich im Liveticker",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:28:00+00:00",
-      "last_seen": "2026-07-02T18:28:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.184
-    },
-    {
-      "id": "271a368822",
-      "title": "Reformpaket der Bundesregierung: Rettet das Reformpaket die deutsche Wirtschaft?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/wirtschaft/2026-07/reformpaket-bundesregierung-wirtschaft-buerokratieabbau-steuern",
-          "headline": "Reformpaket der Bundesregierung: Rettet das Reformpaket die deutsche Wirtschaft?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:27:55+00:00",
-      "last_seen": "2026-07-02T18:27:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.1837
-    },
-    {
-      "id": "4b9a88118d",
-      "title": "Fußball-Nationalmannschaft: Rasches Ende, großes Aufräumen: Nagelsmann-Aus steht bevor",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/02/schnelle-fakten-so-ist-der-stand-bei-nagelsmann-und-klopp",
-          "headline": "Fußball-Nationalmannschaft: Rasches Ende, großes Aufräumen: Nagelsmann-Aus steht bevor",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:22:05+00:00",
-      "last_seen": "2026-07-02T18:22:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1609
-    },
-    {
-      "id": "ba362ecf24",
-      "title": "Fußball-WM 2026: Spanien startet mit Dani Olmo, Österreich mit Gregoritsch",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-05/fussball-wm-2026-liveblog",
-          "headline": "Fußball-WM 2026: Spanien startet mit Dani Olmo, Österreich mit Gregoritsch",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:19:02+00:00",
-      "last_seen": "2026-07-02T18:19:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1491
-    },
-    {
-      "id": "41ef83c8da",
-      "title": "Tennis in Wimbledon: «Beinahe perfektes Match»: Zverev kraftsparend in Runde drei",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/02/zverev-zieht-ueberzeugend-in-die-dritte-wimbledon-runde-ein",
-          "headline": "Tennis in Wimbledon: «Beinahe perfektes Match»: Zverev kraftsparend in Runde drei",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:16:43+00:00",
-      "last_seen": "2026-07-02T18:16:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1402
-    },
-    {
-      "id": "fa9610e6e3",
-      "title": "Wechsel in die 2. Bundesliga: Stürmer Copado kehrt aus Paderborn nach Cottbus zurück",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/02/stuermer-copado-kehrt-aus-paderborn-nach-cottbus-zurueck",
-          "headline": "Wechsel in die 2. Bundesliga: Stürmer Copado kehrt aus Paderborn nach Cottbus zurück",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:16:19+00:00",
-      "last_seen": "2026-07-02T18:16:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1387
-    },
-    {
-      "id": "d000d87856",
-      "title": "Europol-Ermittlungen: Endlich bröckelt die Anonymität",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/inland/europol-zerschlaegt-netzwerke-betaeubender-vergewaltiger-200991551.html",
-          "headline": "Europol-Ermittlungen: Endlich bröckelt die Anonymität",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:15:42+00:00",
-      "last_seen": "2026-07-02T18:15:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1363
-    },
-    {
-      "id": "8879211042",
-      "title": "Liveblog Fußball-WM 2026: Britischer Premierminister verlängert Ausschankzeiten in Pubs",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/sport/fussball-wm/liveblog-zur-fussball-wm-2026-britischer-premierminister-verlaengert-ausschankzeiten-in-pubs-faz-200749933.html",
-          "headline": "Liveblog Fußball-WM 2026: Britischer Premierminister verlängert Ausschankzeiten in Pubs",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:15:00+00:00",
-      "last_seen": "2026-07-02T18:15:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.1336
-    },
-    {
-      "id": "26d424ca1b",
-      "title": "„Die Gefahr von Cyberattacken ist mit der Nutzung von KI viel dramatischer geworden“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/videos/video6a46a6452a7c6edbda63d775/schutz-vor-hybrider-kriegsfuehrung-die-gefahr-von-cyberattacken-ist-mit-der-nutzung-von-ki-viel-dramatischer-geworden.html",
-          "headline": "„Die Gefahr von Cyberattacken ist mit der Nutzung von KI viel dramatischer geworden“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-02T18:14:38+00:00",
-      "last_seen": "2026-07-02T18:14:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.1322
-    },
-    {
-      "id": "5cb8cb06ea",
-      "title": "\"Haben das pure Böse gesehen\": 16 verwahrloste Kinder in den USA aus Elternhaus befreit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/panorama/16-verwahrloste-Kinder-in-den-USA-aus-Elternhaus-befreit-id31041756.html",
-          "headline": "\"Haben das pure Böse gesehen\": 16 verwahrloste Kinder in den USA aus Elternhaus befreit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:14:26+00:00",
-      "last_seen": "2026-07-02T18:14:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.1315
-    },
-    {
-      "id": "b01cb5441b",
-      "title": "Historischer Kassenschlager: Als der Sport die erste Million seiner Geschichte umsetzte",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/Als-der-Sport-die-erste-Million-seiner-Geschichte-umsetzte-id31041368.html",
-          "headline": "Historischer Kassenschlager: Als der Sport die erste Million seiner Geschichte umsetzte",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:13:10+00:00",
-      "last_seen": "2026-07-02T18:13:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1267
-    },
-    {
-      "id": "86e01b5d1f",
-      "title": "Aufstieg in die Bundesliga: Verteidiger Lotschoschwili wechselt von Nürnberg nach Köln",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/02/verteidiger-lotschoschwili-wechselt-von-nuernberg-nach-koeln",
-          "headline": "Aufstieg in die Bundesliga: Verteidiger Lotschoschwili wechselt von Nürnberg nach Köln",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:11:34+00:00",
-      "last_seen": "2026-07-02T18:11:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1206
-    },
-    {
-      "id": "1f45fc9013",
-      "title": "Alkohol: Schulbus-Fahrer mit 2,73 Promille gestoppt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/02/schulbus-fahrer-mit-2-73-promille-gestoppt",
-          "headline": "Alkohol: Schulbus-Fahrer mit 2,73 Promille gestoppt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:11:25+00:00",
-      "last_seen": "2026-07-02T18:11:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.12
-    },
-    {
-      "id": "5db5bea992",
-      "title": "Turnier bei München: Deutsche starten mäßig in München - Kaymer bangt um Cut",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/02/deutsche-starten-maessig-in-muenchen-kaymer-bangt-um-cut",
-          "headline": "Turnier bei München: Deutsche starten mäßig in München - Kaymer bangt um Cut",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:11:07+00:00",
-      "last_seen": "2026-07-02T18:11:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1189
-    },
-    {
-      "id": "27a98b513c",
-      "title": "Neue Beschlüsse für Arbeitsverträge: Wer einen Job will, muss jetzt maximal flexibel sein",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/arbeit/2026-07/neue-beschluesse-arbeitsvertraege-arbeitgeber-entlassung-jobsuche",
-          "headline": "Neue Beschlüsse für Arbeitsverträge: Wer einen Job will, muss jetzt maximal flexibel sein",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:07:01+00:00",
-      "last_seen": "2026-07-02T18:07:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1035
-    },
-    {
-      "id": "e4c9d985d6",
-      "title": "Rüstung: Absage von Fregatten-Projekt belastet Ausblick von Rheinmetall",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/unternehmen/industrie/ruestung-absage-von-fregatten-projekt-belastet-ausblick-von-rheinmetall/100237578.html",
-          "headline": "Rüstung: Absage von Fregatten-Projekt belastet Ausblick von Rheinmetall",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:04:14+00:00",
-      "last_seen": "2026-07-02T18:04:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0931
-    },
-    {
-      "id": "25dbe1a7df",
-      "title": "Interviewpodcast »Alles gesagt?«: Lavinia Heisenberg, müssen wir Einstein neu denken?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/wissenschaft/2026-07/lavinia-heisenberg-interviewpodcast-alles-gesagt",
-          "headline": "Interviewpodcast »Alles gesagt?«: Lavinia Heisenberg, müssen wir Einstein neu denken?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:03:58+00:00",
-      "last_seen": "2026-07-02T18:03:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0921
-    },
-    {
-      "id": "b68c67df0e",
-      "title": "Unfall mit drei Toten: Bewährung nach Crash mit Toten - Gericht sieht keine Raserei",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/02/drei-tote-nach-ueberholmanoever-autofahrer-vor-gericht",
-          "headline": "Unfall mit drei Toten: Bewährung nach Crash mit Toten - Gericht sieht keine Raserei",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T18:00:46+00:00",
-      "last_seen": "2026-07-02T18:00:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0802
-    },
-    {
-      "id": "f266e68e51",
-      "title": "Punk-Ausstellung im dänischen Aarhus: Zwei Herzen, eine Radikalität",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Ausstellung-im-Aros-Museum-Aarhus-Die-Aktualitaet-der-Punk-Aesthetik/!6192411/",
-          "headline": "Punk-Ausstellung im dänischen Aarhus: Zwei Herzen, eine Radikalität",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T17:55:00+00:00",
-      "last_seen": "2026-07-02T17:55:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0591
-    },
-    {
-      "id": "64ee917b98",
-      "title": "Finale Staffel von „The Bear“: Das letzte Mahl",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Die-letzte-Staffel-von-The-Bear-Ein-gelungener-Abschied/!6192448/",
-          "headline": "Finale Staffel von „The Bear“: Das letzte Mahl",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T17:54:00+00:00",
-      "last_seen": "2026-07-02T17:54:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0554
-    },
-    {
-      "id": "236bb95492",
-      "title": "Julian Reichelt: Rechts-außen-Portal gewinnt an Einfluss - Podcast Firewall",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/julian-reichelt-rechts-aussen-portal-gewinnt-an-einfluss-podcast-firewall-a-55a05405-e4d2-4379-94da-e4c07b0d4bc7#ref=rss",
-          "headline": "Julian Reichelt: Rechts-außen-Portal gewinnt an Einfluss - Podcast Firewall",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T17:53:00+00:00",
-      "last_seen": "2026-07-02T17:53:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0518
-    },
-    {
-      "id": "185327258f",
-      "title": "Handelsblatt-Auswertung: Nicht nur Rheinmetall: Bei diesen Aktien halten Insider an ihren Überzeugungen fest",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-bei-welchen-aktien-insider-eingestiegen-sind-und-wo-nicht/100234869.html",
-          "headline": "Handelsblatt-Auswertung: Nicht nur Rheinmetall: Bei diesen Aktien halten Insider an ihren Überzeugungen fest",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T17:52:30+00:00",
-      "last_seen": "2026-07-02T17:52:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "1872049e9a",
+      "source": "256b7adc77",
+      "target": "83c5fcaf7b",
+      "weight": 0.074,
+      "type": "thematic"
+    },
+    {
+      "source": "4f21a7a637",
+      "target": "f77f9d12ca",
+      "weight": 0.099,
+      "type": "thematic"
+    },
+    {
+      "source": "c265e0093e",
+      "target": "48b1986cbd",
+      "weight": 0.071,
+      "type": "thematic"
+    },
+    {
+      "source": "3399803023",
+      "target": "00d64f30cb",
+      "weight": 0.27,
+      "type": "thematic"
+    },
+    {
+      "source": "e9e7934be9",
       "target": "271a368822",
-      "weight": 0.835,
+      "weight": 0.12,
       "type": "thematic"
     },
     {
-      "source": "3d28328e18",
-      "target": "fa9610e6e3",
-      "weight": 0.193,
-      "type": "thematic"
-    },
-    {
-      "source": "3c1051cc1b",
-      "target": "ba362ecf24",
-      "weight": 0.97,
-      "type": "thematic"
-    },
-    {
-      "source": "3c1051cc1b",
-      "target": "8879211042",
-      "weight": 0.096,
-      "type": "thematic"
-    },
-    {
-      "source": "4b9a88118d",
-      "target": "ba362ecf24",
-      "weight": 0.015,
-      "type": "thematic"
-    },
-    {
-      "source": "ba362ecf24",
-      "target": "8879211042",
-      "weight": 0.606,
+      "source": "271a368822",
+      "target": "1872049e9a",
+      "weight": 0.747,
       "type": "thematic"
     }
   ],

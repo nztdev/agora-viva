@@ -1,17 +1,51 @@
 {
-  "generated_at": "2026-07-02T05:56:55.036164+00:00",
+  "generated_at": "2026-07-02T09:15:25.508468+00:00",
   "node_count": 35,
-  "edge_count": 10,
+  "edge_count": 3,
   "nodes": [
     {
-      "id": "552f5b449e",
-      "title": "Global review confirms mRNA vaccines are safe, effective and full of promise ",
+      "id": "cabc306695",
+      "title": "Vatican declares Society of St. Pius X in schism, excommunicates bishops",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/02/nx-s1-5878916/vatican-society-of-st-pius-x-in-schism",
+          "headline": "Vatican declares Society of St. Pius X in schism, excommunicates bishops",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3359157/vatican-excommunicates-6-bishops-rebel-catholic-group?utm_source=rss_feed",
+          "headline": "Vatican excommunicates 6 bishops from rebel Catholic group",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.025,
+        "spread": 0.125,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T07:58:43+00:00",
+      "last_seen": "2026-07-02T08:54:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.6544
+    },
+    {
+      "id": "7adf6009f0",
+      "title": "A new Android malware from Google",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://news.ubc.ca/2026/06/mrna-vaccines-are-safe-effective-and-full-of-promise/",
-          "headline": "Global review confirms mRNA vaccines are safe, effective and full of promise ",
+          "url": "https://f-droid.org/2026/07/01/adv-malware.html",
+          "headline": "A new Android malware from Google",
           "platform": "hackernews"
         }
       ],
@@ -22,53 +56,19 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-02T00:40:14+00:00",
-      "last_seen": "2026-07-02T00:40:14+00:00",
+      "first_seen": "2026-07-02T03:00:15+00:00",
+      "last_seen": "2026-07-02T03:00:15+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "health",
+      "topic": "tech",
       "resonance": 0.28
     },
     {
-      "id": "9dffb2ba06",
-      "title": "Russian missiles and drones kill 11 and cause damage across Ukraine capital",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/02/g-s1-131681/russian-attack-ukraine",
-          "headline": "Russian missiles and drones kill 11 and cause damage across Ukraine capital",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/russia-strikes-ukraine-capital-with-missiles-and-drones/article71172816.ece",
-          "headline": "Russian missiles and drones kill eight and cause damage across Ukraine capital",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.125,
-        "spread": 0.025,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:24:15+00:00",
-      "last_seen": "2026-07-02T05:47:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.5886
-    },
-    {
-      "id": "713e62792f",
-      "title": "Google faces EU top court ruling on record €4.1 billion fine",
-      "signal_count": 2,
+      "id": "8fcd7ade5e",
+      "title": "Google must pay record €4.1 billion fine, top EU court rules",
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "The Hindu",
@@ -78,8 +78,14 @@
         },
         {
           "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/google-faces-eu-top-court-ruling-on-record-€4-1-billion-fine/a-77794948?maca=en-rss-en-all-1573-rdf",
-          "headline": "Google faces EU top court ruling on record €4.1 billion fine",
+          "url": "https://www.dw.com/en/google-must-pay-record-€4-1-billion-fine-top-eu-court-rules/a-77794948?maca=en-rss-en-all-1573-rdf",
+          "headline": "Google must pay record €4.1 billion fine, top EU court rules",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/business/20260702-eu-top-court-rejects-google-s-appeal-against-record-%E2%82%AC4-1-billion-antitrust-fine",
+          "headline": "EU top court rejects Google's appeal against record €4.1 billion antitrust fine",
           "platform": "rss"
         }
       ],
@@ -87,79 +93,33 @@
         "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-07-02T05:30:00+00:00",
-      "last_seen": "2026-07-02T05:42:21+00:00",
+      "first_seen": "2026-07-02T01:57:11+00:00",
+      "last_seen": "2026-07-02T08:49:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.5678
+      "topic": "tech",
+      "resonance": 0.4232
     },
     {
-      "id": "c916abc86f",
-      "title": "Co-hosts USA beat Bosnia-Herzegovina to reach World Cup last 16",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/2/usa-beat-bosnia-2-0-despite-balogun-red-card-enter-world-cup-last-16?traffic_source=rss",
-          "headline": "USA beat Bosnia 2-0 despite Balogun red card, enter World Cup last 16",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260702-co-hosts-usa-beat-bosnia-herzegovina-to-reach-world-cup-last-16",
-          "headline": "Co-hosts USA beat Bosnia-Herzegovina to reach World Cup last 16",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/usa-advances-world-cup-controversial-red-card-vs-bosnia-herzegovina",
-          "headline": "USA advances in World Cup after controversial red card vs Bosnia and Herzegovina",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/usa-world-cup-star-folarin-balogun-receives-controversial-red-card-during-round-32-match",
-          "headline": "USA World Cup star Folarin Balogun receives controversial red card during Round of 32 match",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.225,
-        "spread": 0.377,
-        "left": 0,
-        "center": 2,
-        "right": 2
-      },
-      "first_seen": "2026-07-02T01:37:47+00:00",
-      "last_seen": "2026-07-02T02:52:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.2786
-    },
-    {
-      "id": "437f2d34fd",
-      "title": "2026 World Cup: England survive scare, Belgium stage stunning comeback, USA reach last 16",
+      "id": "670804b35a",
+      "title": "Hospital fire in northern Germany kills two",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/07/02/us-belgium-and-england-all-survive-tough-tests-to-reach-world-cup-round-of-16",
-          "headline": "US, Belgium and England all survive tough tests to reach World Cup Round of 16",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/2/two-reported-killed-dozens-hurt-in-hospital-fire-in-germany?traffic_source=rss",
+          "headline": "Two reported killed, dozens hurt in hospital fire in Germany",
           "platform": "rss"
         },
         {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/sports/article/2026/07/02/2026-world-cup-england-survive-scare-belgium-stage-stunning-comeback-usa-reach-last-16_6755066_9.html",
-          "headline": "2026 World Cup: England survive scare, Belgium stage stunning comeback, USA reach last 16",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/hospital-fire-in-northern-germany-kills-two/a-77795154?maca=en-rss-en-all-1573-rdf",
+          "headline": "Hospital fire in northern Germany kills two",
           "platform": "rss"
         }
       ],
@@ -170,232 +130,58 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-02T03:05:53+00:00",
-      "last_seen": "2026-07-02T04:22:36+00:00",
+      "first_seen": "2026-07-02T05:40:00+00:00",
+      "last_seen": "2026-07-02T08:36:50+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.2784
+      "topic": "health",
+      "resonance": 0.2492
     },
     {
-      "id": "1b32307efc",
-      "title": "Iran tells UN Israel is normalising ‘state terrorism’",
-      "signal_count": 1,
+      "id": "9dffb2ba06",
+      "title": "Russian missiles and drones kill 11 and cause damage across Ukraine capital",
+      "signal_count": 2,
       "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-tells-un-israel-normalising-state-terrorism",
-          "headline": "Iran tells UN Israel is normalising ‘state terrorism’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:55:17+00:00",
-      "last_seen": "2026-07-02T05:55:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2008
-    },
-    {
-      "id": "397a50fa2a",
-      "title": "Watch: Couple scale Empire State Building, get engaged and are arrested",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/videos/cz75gz79pl2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: Couple scale Empire State Building, get engaged and are arrested",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/1/couple-arrested-after-daring-empire-state-marriage-proposal-stunt?traffic_source=rss",
-          "headline": "Couple arrested after daring Empire State marriage proposal stunt",
-          "platform": "rss"
-        },
         {
           "outlet": "France 24",
-          "url": "https://www.france24.com/en/americas/20260701-two-arrested-after-scaling-empire-state-building-antenna-for-marriage-proposal",
-          "headline": "Two arrested after climbing Empire State Building antenna for marriage proposal",
+          "url": "https://www.france24.com/en/europe/20260702-ukraine-live-russian-missiles-drones-kill-massive-attack-kyiv-war",
+          "headline": "🔴 Ukraine live: Russian missiles, drones kill residents, rip buildings in massive attack on Kyiv",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.082,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-07-01T22:39:07+00:00",
-      "last_seen": "2026-07-02T04:16:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2004
-    },
-    {
-      "id": "cba09a0661",
-      "title": "'Immense breach of human rights': WA strip searches double in three years",
-      "signal_count": 1,
-      "sources": [
+        },
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-02/advocates-slam-doubling-of-wa-strip-searches/106870788",
-          "headline": "'Immense breach of human rights': WA strip searches double in three years",
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/02/g-s1-131681/russian-attack-ukraine",
+          "headline": "Russian missiles and drones kill 11 and cause damage across Ukraine capital",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
+        "mean": -0.125,
+        "spread": 0.025,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-02T05:53:04+00:00",
-      "last_seen": "2026-07-02T05:53:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1944
-    },
-    {
-      "id": "6830e6ef4c",
-      "title": "Our Government Will Give Ramgarh’s Historical, Cultural and Archaeological Heritage a New Global Identity: Chief Minister Shri Vishnu Deo Sai",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/brandhub/pr-release/our-government-will-give-ramgarhs-historical-cultural-and-archaeological-heritage-a-new-global-identity-chief-minister-shri-vishnu-deo-sai/article71173146.ece",
-          "headline": "Our Government Will Give Ramgarh’s Historical, Cultural and Archaeological Heritage a New Global Identity: Chief Minister Shri Vishnu Deo Sai",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:52:49+00:00",
-      "last_seen": "2026-07-02T05:52:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1936
-    },
-    {
-      "id": "8d63532be9",
-      "title": "A year of momentum: why Lingnan University’s rise matters beyond the rankings",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/presented/news/hong-kong/education/topics/milestone-year-lingnan/article/3358862/year-momentum-why-lingnan-universitys-rise-matters-beyond-rankings?utm_source=rss_feed",
-          "headline": "A year of momentum: why Lingnan University’s rise matters beyond the rankings",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:52:40+00:00",
-      "last_seen": "2026-07-02T05:52:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1932
-    },
-    {
-      "id": "e3493c33c1",
-      "title": "KNAV Launches its AI-Powered Platform KNAV Tara, to Support Assurance, Tax and Advisory",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/brandhub/pr-release/knav-launches-its-ai-powered-platform-knav-tara-to-support-assurance-tax-and-advisory/article71173121.ece",
-          "headline": "KNAV Launches its AI-Powered Platform KNAV Tara, to Support Assurance, Tax and Advisory",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:52:06+00:00",
-      "last_seen": "2026-07-02T05:52:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1916
-    },
-    {
-      "id": "0e6c40f516",
-      "title": "No more warnings for litterbugs as Malaysia’s Penang deploys bodycams",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/week-asia/health-environment/article/3359128/no-more-warnings-litterbugs-malaysias-penang-deploys-bodycams?utm_source=rss_feed",
-          "headline": "No more warnings for litterbugs as Malaysia’s Penang deploys bodycams",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:51:55+00:00",
-      "last_seen": "2026-07-02T05:51:55+00:00",
+      "first_seen": "2026-07-02T05:47:53+00:00",
+      "last_seen": "2026-07-02T07:59:32+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.191
+      "resonance": 0.1953
     },
     {
-      "id": "0200a939ac",
-      "title": "Bharat Life Sciences Award 2026 Opens Applications, Backed by INR 7 Crore Grant Support Across Categories",
+      "id": "e92562522a",
+      "title": "Fact check: No petition against migrant national team players",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/brandhub/pr-release/bharat-life-sciences-award-2026-opens-applications-backed-by-inr-7-crore-grant-support-across-categories/article71173068.ece",
-          "headline": "Bharat Life Sciences Award 2026 Opens Applications, Backed by INR 7 Crore Grant Support Across Categories",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/fact-check-no-petition-against-migrant-national-team-players/a-77796700?maca=en-rss-en-all-1573-rdf",
+          "headline": "Fact check: No petition against migrant national team players",
           "platform": "rss"
         }
       ],
@@ -406,80 +192,108 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-02T05:51:41+00:00",
-      "last_seen": "2026-07-02T05:51:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1904
-    },
-    {
-      "id": "c2afd3773d",
-      "title": "World Cup: Are Americans real soccer fans?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/world-cup-are-americans-real-soccer-fans",
-          "headline": "World Cup: Are Americans real soccer fans?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:50:53+00:00",
-      "last_seen": "2026-07-02T05:50:53+00:00",
+      "first_seen": "2026-07-02T09:13:00+00:00",
+      "last_seen": "2026-07-02T09:13:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.1881
+      "resonance": 0.1841
     },
     {
-      "id": "8b5fe1a4ff",
-      "title": "Man arrested after his ex-wife and daughter found dead in Nagano",
+      "id": "19826e847b",
+      "title": "China food-security risks worsen as extreme weather becomes more common",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/07/02/japan/crime-legal/man-arrest-wife-daughter-dead/",
-          "headline": "Man arrested after his ex-wife and daughter found dead in Nagano",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/plus/economy/china-economy/article/3359177/china-food-security-risks-worsen-extreme-weather-becomes-more-common?utm_source=rss_feed",
+          "headline": "China food-security risks worsen as extreme weather becomes more common",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": 0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-02T05:50:00+00:00",
-      "last_seen": "2026-07-02T05:50:00+00:00",
+      "first_seen": "2026-07-02T09:11:53+00:00",
+      "last_seen": "2026-07-02T09:11:53+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1855
+      "resonance": 0.1799
     },
     {
-      "id": "2da7745473",
-      "title": "Australia politics live: Albanese trashes Taylor’s Midwinter Ball speech saying ‘I would pretend it was all a bad dream’",
+      "id": "421c779c42",
+      "title": "Two policewomen arrested for accepting ₹20,000 bribe in Thirumullaivoyal",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/02/australia-politics-live-defence-aukus-conroy-national-press-club-anthony-albanese-labor-question-time-angus-taylor-coalition-tax-reform-one-nation-pauline-hanson-ntwnfb",
-          "headline": "Australia politics live: Albanese trashes Taylor’s Midwinter Ball speech saying ‘I would pretend it was all a bad dream’",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/chennai/two-policewomen-arrested-for-accepting-20000-bribe-in-thirumullaivoyal/article71173388.ece",
+          "headline": "Two policewomen arrested for accepting ₹20,000 bribe in Thirumullaivoyal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T09:08:09+00:00",
+      "last_seen": "2026-07-02T09:08:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1658
+    },
+    {
+      "id": "495d4ed7eb",
+      "title": "Victims of forced adoption to get formal apology after years of campaigning",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c20yq332018o?at_medium=RSS&at_campaign=rss",
+          "headline": "Victims of forced adoption to get formal apology after years of campaigning",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T09:06:52+00:00",
+      "last_seen": "2026-07-02T09:06:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.161
+    },
+    {
+      "id": "ed0d3b6fe1",
+      "title": "Here’s the latest.",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/07/02/world/ukraine-kyiv-russia-attack/heres-the-latest",
+          "headline": "Here’s the latest.",
           "platform": "rss"
         }
       ],
@@ -490,24 +304,80 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-02T05:47:47+00:00",
-      "last_seen": "2026-07-02T05:47:47+00:00",
+      "first_seen": "2026-07-02T09:06:41+00:00",
+      "last_seen": "2026-07-02T09:06:41+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1792
+      "resonance": 0.1603
     },
     {
-      "id": "98987f83f5",
-      "title": "Iran puts military on alert for Khamenei funeral",
+      "id": "601ee7e848",
+      "title": "‘MAVIGUN’ is YSRCP’s election plank in 2029, says Jagan",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/mavigun-is-ysrcps-election-plank-in-2029-says-jagan/article71170550.ece",
+          "headline": "‘MAVIGUN’ is YSRCP’s election plank in 2029, says Jagan",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T09:06:11+00:00",
+      "last_seen": "2026-07-02T09:06:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1584
+    },
+    {
+      "id": "162c35fe12",
+      "title": "Former AIADMK Minister C. Vijayabaskar, senior leaders join TVK",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/former-aiadmk-minister-c-vijayabaskar-senior-leaders-join-tvk/article71173282.ece",
+          "headline": "Former AIADMK Minister C. Vijayabaskar, senior leaders join TVK",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T09:06:05+00:00",
+      "last_seen": "2026-07-02T09:06:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.158
+    },
+    {
+      "id": "f8c9f326a7",
+      "title": "Israel arrests five women activists in the occupied West Bank",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-puts-military-alert-khamenei-funeral",
-          "headline": "Iran puts military on alert for Khamenei funeral",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-arrests-five-women-activists-occupied-west-bank-0",
+          "headline": "Israel arrests five women activists in the occupied West Bank",
           "platform": "rss"
         }
       ],
@@ -518,108 +388,58 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-02T05:43:23+00:00",
-      "last_seen": "2026-07-02T05:43:23+00:00",
+      "first_seen": "2026-07-02T09:04:48+00:00",
+      "last_seen": "2026-07-02T09:04:48+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1666
+      "topic": "economy",
+      "resonance": 0.1532
     },
     {
-      "id": "670804b35a",
-      "title": "Hospital fire in northern Germany kills two",
-      "signal_count": 1,
+      "id": "8e224d9626",
+      "title": "Taiwan needs a ‘hornet’s nest’ of drones to deter conflict, U.S. diplomat says",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/hospital-fire-in-northern-germany-kills-two/a-77795154?maca=en-rss-en-all-1573-rdf",
-          "headline": "Hospital fire in northern Germany kills two",
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/07/02/asia-pacific/taiwan-drones-us-china/",
+          "headline": "Taiwan needs a ‘hornet’s nest’ of drones to deter conflict, U.S. diplomat says",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/2/taiwan-needs-to-become-a-hornets-nest-of-drones-us-diplomat-says?traffic_source=rss",
+          "headline": "Taiwan needs to become a ‘hornet’s nest’ of drones, US diplomat says",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.1,
-        "spread": 0.0,
+        "spread": 0.1,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-02T05:40:00+00:00",
-      "last_seen": "2026-07-02T05:40:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1571
-    },
-    {
-      "id": "f1da49370a",
-      "title": "World Cup 2026: England struggled against DR Congo, Belgium beat Senegal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/tv-shows/sports/20260702-world-cup-2026-england-struggled-against-dr-congo-belgium-beat-senegal",
-          "headline": "World Cup 2026: England struggled against DR Congo, Belgium beat Senegal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:36:59+00:00",
-      "last_seen": "2026-07-02T05:36:59+00:00",
+      "first_seen": "2026-07-02T05:40:48+00:00",
+      "last_seen": "2026-07-02T06:38:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1487
+      "resonance": 0.149
     },
     {
-      "id": "478aab1957",
-      "title": "Police in Japan work to crack down on fraud-linked social media posts",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/07/02/japan/crime-legal/social-media-fraud/",
-          "headline": "Police in Japan work to crack down on fraud-linked social media posts",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:36:00+00:00",
-      "last_seen": "2026-07-02T05:36:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1459
-    },
-    {
-      "id": "6457c113bb",
-      "title": "Beijing’s liaison office in Hong Kong restructured, stressing youth, district work",
+      "id": "fb1bd561ac",
+      "title": "Hong Kong retail sales grow 7.9% in May, extending winning streak to 13 months",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/politics/article/3359127/beijings-liaison-office-hong-kong-restructured-stressing-youth-district-work?utm_source=rss_feed",
-          "headline": "Beijing’s liaison office in Hong Kong restructured, stressing youth, district work",
+          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359172/hong-kong-retail-sales-grow-79-may-extending-winning-streak-13-months?utm_source=rss_feed",
+          "headline": "Hong Kong retail sales grow 7.9% in May, extending winning streak to 13 months",
           "platform": "rss"
         }
       ],
@@ -630,24 +450,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-02T05:31:22+00:00",
-      "last_seen": "2026-07-02T05:31:22+00:00",
+      "first_seen": "2026-07-02T09:00:52+00:00",
+      "last_seen": "2026-07-02T09:00:52+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1331
+      "resonance": 0.1386
     },
     {
-      "id": "1b46cb960a",
-      "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+      "id": "bbd57e55ea",
+      "title": "America’s next 250 years depend on passing faith and freedom to our children",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
-          "headline": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/opinion/americas-next-250-years-depend-passing-faith-freedom-children",
+          "headline": "America’s next 250 years depend on passing faith and freedom to our children",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-02T09:00:46+00:00",
+      "last_seen": "2026-07-02T09:00:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1383
+    },
+    {
+      "id": "1bfa8e16c3",
+      "title": "Live: Cats face Lions in blockbuster clash at Kardinia Park",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-02/afl-round17-geelong-cats-brisbane-lions-live-blog-updates/106869572",
+          "headline": "Live: Cats face Lions in blockbuster clash at Kardinia Park",
           "platform": "rss"
         }
       ],
@@ -658,24 +506,388 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-02T05:30:00+00:00",
-      "last_seen": "2026-07-02T05:30:00+00:00",
+      "first_seen": "2026-07-02T09:00:21+00:00",
+      "last_seen": "2026-07-02T09:00:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1367
+    },
+    {
+      "id": "c5842c5b67",
+      "title": "SEN TIM SCOTT: My family's journey shows America's founding promise is alive and strong",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/opinion/sen-tim-scott-family-journey-shows-americas-founding-promise-alive-strong",
+          "headline": "SEN TIM SCOTT: My family's journey shows America's founding promise is alive and strong",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-02T09:00:17+00:00",
+      "last_seen": "2026-07-02T09:00:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1365
+    },
+    {
+      "id": "21907fe64b",
+      "title": "MORNING GLORY: Celebrate the Supreme Court, our Constitution and America at 250",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/opinion/morning-glory-celebrate-supreme-court-constitution-america-250",
+          "headline": "MORNING GLORY: Celebrate the Supreme Court, our Constitution and America at 250",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-02T09:00:12+00:00",
+      "last_seen": "2026-07-02T09:00:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1362
+    },
+    {
+      "id": "7f50bef3aa",
+      "title": "China can help Ukraine recover from war and advance industry, ambassador says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3359167/china-can-help-ukraine-recover-war-and-advance-industry-ambassador-says?utm_source=rss_feed",
+          "headline": "China can help Ukraine recover from war and advance industry, ambassador says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T09:00:08+00:00",
+      "last_seen": "2026-07-02T09:00:08+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1294
+      "resonance": 0.1359
     },
     {
-      "id": "51b89a762a",
-      "title": "Pro-Palestine immigrant ousts 30-year veteran in Colorado Democratic primary",
+      "id": "6f77648834",
+      "title": "Understanding Ebola’s wildlife origins is crucial to preventing next big outbreak",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/environment/2026/jul/02/understanding-ebola-wildlife-origins-crucial-preventing-next-big-outbreak",
+          "headline": "Understanding Ebola’s wildlife origins is crucial to preventing next big outbreak",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T09:00:00+00:00",
+      "last_seen": "2026-07-02T09:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1354
+    },
+    {
+      "id": "0d411c2e0b",
+      "title": "Federal civil rights data holds schools accountable. Under Trump, it's 6 months late",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/02/nx-s1-5859422/civil-rights-data-students-education",
+          "headline": "Federal civil rights data holds schools accountable. Under Trump, it's 6 months late",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T09:00:00+00:00",
+      "last_seen": "2026-07-02T09:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1354
+    },
+    {
+      "id": "ebebbbba00",
+      "title": "The heroism and humanity of ‘Ultraman’: Documentary looks back on 60 years",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/culture/2026/07/02/film/origin-of-ultraman/",
+          "headline": "The heroism and humanity of ‘Ultraman’: Documentary looks back on 60 years",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T09:00:00+00:00",
+      "last_seen": "2026-07-02T09:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1354
+    },
+    {
+      "id": "7438ea2c5f",
+      "title": "Why California’s carbon manure math doesn’t add up",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "MIT Tech Review",
+          "url": "https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/",
+          "headline": "Why California’s carbon manure math doesn’t add up",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T09:00:00+00:00",
+      "last_seen": "2026-07-02T09:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.1354
+    },
+    {
+      "id": "fef9ddc36a",
+      "title": "Heat Domes Are Dangerous. July Fourth Activities Will Make Things Worse",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/heat-domes-are-dangerous-july-fourth-activities-make-things-worse/",
+          "headline": "Heat Domes Are Dangerous. July Fourth Activities Will Make Things Worse",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T09:00:00+00:00",
+      "last_seen": "2026-07-02T09:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1354
+    },
+    {
+      "id": "37ec7e10d5",
+      "title": "Imprisoned Chinese Journalist Seeks Medical Parole for Lung Tumor",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/02/world/asia/jailed-chinese-journalist-dong-yuyu-lung-tumor.html",
+          "headline": "Imprisoned Chinese Journalist Seeks Medical Parole for Lung Tumor",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T08:58:31+00:00",
+      "last_seen": "2026-07-02T08:58:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.13
+    },
+    {
+      "id": "139dfc6ba2",
+      "title": "Mass Mournings,6 Days and 2 Countries: Iran Prepares to Bury Supreme Leader",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/02/world/middleeast/iran-funeral-ali-khamenei-preparations.html",
+          "headline": "Mass Mournings,6 Days and 2 Countries: Iran Prepares to Bury Supreme Leader",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T08:56:49+00:00",
+      "last_seen": "2026-07-02T08:56:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1237
+    },
+    {
+      "id": "d249177ad2",
+      "title": "Thailand: Child crashes vehicle into group of monks",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/thailand-child-crashes-vehicle-into-group-of-monks/a-77796829?maca=en-rss-en-all-1573-rdf",
+          "headline": "Thailand: Child crashes vehicle into group of monks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T08:56:00+00:00",
+      "last_seen": "2026-07-02T08:56:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1207
+    },
+    {
+      "id": "aeafa0dcc8",
+      "title": "Government signals flexibility on ¥1,500 minimum wage target",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/business/2026/07/02/economy/minimum-wage-focus-july-2026/",
+          "headline": "Government signals flexibility on ¥1,500 minimum wage target",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T08:56:00+00:00",
+      "last_seen": "2026-07-02T08:56:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1207
+    },
+    {
+      "id": "a2a4a5f493",
+      "title": "Alibaba to pay $600m to settle illegal drug sales allegations in US probe",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/2/alibaba-to-pay-600mn-to-settle-illegal-drug-sales-allegations-in-us-probe?traffic_source=rss",
+          "headline": "Alibaba to pay $600m to settle illegal drug sales allegations in US probe",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T08:54:26+00:00",
+      "last_seen": "2026-07-02T08:54:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.115
+    },
+    {
+      "id": "5f94004523",
+      "title": "Iran's Ghalibaf calls to avenge Khamenei death with massive funeral turnout",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pro-palestine-immigrant-ousts-30-year-veteran-colorado-democratic-0",
-          "headline": "Pro-Palestine immigrant ousts 30-year veteran in Colorado Democratic primary",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-ghalibaf-calls-avenge-khamenei-death-massive-funeral-turnout",
+          "headline": "Iran's Ghalibaf calls to avenge Khamenei death with massive funeral turnout",
           "platform": "rss"
         }
       ],
@@ -686,24 +898,80 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-02T05:28:43+00:00",
-      "last_seen": "2026-07-02T05:28:43+00:00",
+      "first_seen": "2026-07-02T08:46:50+00:00",
+      "last_seen": "2026-07-02T08:46:50+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1259
+      "topic": "world",
+      "resonance": 0.0876
     },
     {
-      "id": "8327577820",
-      "title": "WTA Finals moves to Indian Wells after early end of deal with Saudi Arabia",
+      "id": "7211ab5646",
+      "title": "Race Across the World winner's car smashed into and laptop stolen before kids' mental health talk",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ce37gd41gx1o?at_medium=RSS&at_campaign=rss",
+          "headline": "Race Across the World winner's car smashed into and laptop stolen before kids' mental health talk",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T08:46:22+00:00",
+      "last_seen": "2026-07-02T08:46:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.0859
+    },
+    {
+      "id": "8d1ca86556",
+      "title": "Russia rocks Ukrainian capital with massive assault, killing at least 13",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/07/02/russia-rocks-kyiv-with-massive-missile-drone-attack/",
+          "headline": "Russia rocks Ukrainian capital with massive assault, killing at least 13",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-02T08:44:07+00:00",
+      "last_seen": "2026-07-02T08:44:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0779
+    },
+    {
+      "id": "888530f5e1",
+      "title": "Eight Thai monks killed after boy drives truck into procession, police say",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/sports/2026/07/02/tennis/wta-finals-moves-indian-wells/",
-          "headline": "WTA Finals moves to Indian Wells after early end of deal with Saudi Arabia",
+          "url": "https://www.japantimes.co.jp/news/2026/07/02/asia-pacific/thai-monks-boy-truck-killed/",
+          "headline": "Eight Thai monks killed after boy drives truck into procession, police say",
           "platform": "rss"
         }
       ],
@@ -714,24 +982,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-02T05:26:00+00:00",
-      "last_seen": "2026-07-02T05:26:00+00:00",
+      "first_seen": "2026-07-02T08:38:00+00:00",
+      "last_seen": "2026-07-02T08:38:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1185
+      "topic": "tech",
+      "resonance": 0.0563
     },
     {
-      "id": "5ecf78d33e",
-      "title": "‘Excited’ Trump inaugurates Qatar-gifted Air Force One with first flight",
+      "id": "89f8de5644",
+      "title": "Debate returns to Old Knesset building for first time in 60 years",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/excited-trump-inaugurates-qatar-gifted-air-force-one-with-first-flight/",
-          "headline": "‘Excited’ Trump inaugurates Qatar-gifted Air Force One with first flight",
+          "url": "https://www.timesofisrael.com/debate-returns-to-old-knesset-building-for-first-time-in-60-years/",
+          "headline": "Debate returns to Old Knesset building for first time in 60 years",
           "platform": "rss"
         }
       ],
@@ -742,397 +1010,33 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-02T05:23:08+00:00",
-      "last_seen": "2026-07-02T05:23:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1107
-    },
-    {
-      "id": "bc18e83c97",
-      "title": "Belgium fans erupt after latest-ever goal seals place in last 16",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/2/belgium-fans-erupt-after-latest-ever-goal-seals-place-in-last-16?traffic_source=rss",
-          "headline": "Belgium fans erupt after latest-ever goal seals place in last 16",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:21:01+00:00",
-      "last_seen": "2026-07-02T05:21:01+00:00",
+      "first_seen": "2026-07-02T08:36:11+00:00",
+      "last_seen": "2026-07-02T08:36:11+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.105
-    },
-    {
-      "id": "cf8305bdd2",
-      "title": "Oil prices fall to levels not seen since start of US-Israel war on Iran",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/economy/2026/7/2/oil-prices-fall-to-levels-not-seen-since-start-of-us-israel-war-on-iran?traffic_source=rss",
-          "headline": "Oil prices fall to levels not seen since start of US-Israel war on Iran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:17:25+00:00",
-      "last_seen": "2026-07-02T05:17:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0954
-    },
-    {
-      "id": "86d12d7147",
-      "title": "Pictures show interior of Trump's new Air Force One jet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-02/look-inside-trump-s-new-air-force-one/106868656",
-          "headline": "Pictures show interior of Trump's new Air Force One jet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:15:26+00:00",
-      "last_seen": "2026-07-02T05:15:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0901
-    },
-    {
-      "id": "db3d796a6d",
-      "title": "Watch: People smuggler tracked down and confronted by BBC",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cnv9648nd5vo?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: People smuggler tracked down and confronted by BBC",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:08:30+00:00",
-      "last_seen": "2026-07-02T05:08:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0719
-    },
-    {
-      "id": "bc2f679b12",
-      "title": "Solomon expects 'tap on shoulder' in Bombers coach race",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-02/afl-essendon-bombers-dean-solomon-coach-james-hird/106870714",
-          "headline": "Solomon expects 'tap on shoulder' in Bombers coach race",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:05:49+00:00",
-      "last_seen": "2026-07-02T05:05:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.065
-    },
-    {
-      "id": "486bca9ad6",
-      "title": "At least 10 killed in large-scale Russian missile and drone strikes on Kyiv",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
-          "headline": "At least 10 killed in large-scale Russian missile and drone strikes on Kyiv",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:00:57+00:00",
-      "last_seen": "2026-07-02T05:00:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0524
-    },
-    {
-      "id": "ae363ae027",
-      "title": "Latest news bulletin | July 2nd, 2026 – Morning",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/video/2026/07/02/latest-news-bulletin-july-2nd-2026-morning",
-          "headline": "Latest news bulletin | July 2nd, 2026 – Morning",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:00:33+00:00",
-      "last_seen": "2026-07-02T05:00:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0514
-    },
-    {
-      "id": "612beec9a9",
-      "title": "Russia's petrol crisis worsens as citizens feel the bite of Moscow's war in Ukraine",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/07/02/russias-petrol-crisis-worsens-as-citizens-feel-the-bite-of-moscows-war-in-ukraine",
-          "headline": "Russia's petrol crisis worsens as citizens feel the bite of Moscow's war in Ukraine",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:00:14+00:00",
-      "last_seen": "2026-07-02T05:00:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0506
-    },
-    {
-      "id": "4e8aaaed4b",
-      "title": "People smuggler convicted in France now seeking asylum in UK, BBC discovers",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/clye9zn0y1ro?at_medium=RSS&at_campaign=rss",
-          "headline": "People smuggler convicted in France now seeking asylum in UK, BBC discovers",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:00:03+00:00",
-      "last_seen": "2026-07-02T05:00:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0501
-    },
-    {
-      "id": "705f3beb99",
-      "title": "Paramount+ Coupon Codes and Deals for July 2026",
-      "signal_count": 11,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-          "headline": "Paramount+ Coupon Codes and Deals for July 2026",
-          "platform": "rss"
-        },
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/dell-coupon-code/",
-          "headline": "Dell Coupon Codes: 20% Off for July 2026",
-          "platform": "rss"
-        },
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/booking-com-promo-code/",
-          "headline": "Booking.com Promo Codes: 20% Off | July 2026",
-          "platform": "rss"
-        },
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/bh-photo-coupon/",
-          "headline": "B&H Photo Promo Codes and Deals This July 2026",
-          "platform": "rss"
-        },
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/canon-promo-code/",
-          "headline": "30% Off Canon Promo Codes | July 2026",
-          "platform": "rss"
-        },
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/top-walmart-promo-codes/",
-          "headline": "Walmart Promo Codes: Up to 65% Off for July 2026",
-          "platform": "rss"
-        },
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/hostinger-coupon-code/",
-          "headline": "Hostinger Promo Code: 79% Off for July 2026",
-          "platform": "rss"
-        },
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/squarespace-promo-code/",
-          "headline": "Squarespace Promo Codes: 20% Off in July 2026",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 11,
-        "right": 0
-      },
-      "first_seen": "2026-07-02T05:00:00+00:00",
-      "last_seen": "2026-07-02T05:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "c916abc86f",
-      "target": "437f2d34fd",
-      "weight": 0.736,
+      "source": "7adf6009f0",
+      "target": "8fcd7ade5e",
+      "weight": 0.09,
       "type": "thematic"
     },
     {
-      "source": "c916abc86f",
-      "target": "c2afd3773d",
-      "weight": 0.23,
+      "source": "bbd57e55ea",
+      "target": "21907fe64b",
+      "weight": 0.52,
       "type": "thematic"
     },
     {
-      "source": "c916abc86f",
-      "target": "f1da49370a",
-      "weight": 0.473,
-      "type": "thematic"
-    },
-    {
-      "source": "437f2d34fd",
-      "target": "c2afd3773d",
-      "weight": 0.099,
-      "type": "thematic"
-    },
-    {
-      "source": "437f2d34fd",
-      "target": "f1da49370a",
-      "weight": 0.78,
-      "type": "thematic"
-    },
-    {
-      "source": "1b32307efc",
-      "target": "cf8305bdd2",
-      "weight": 0.254,
-      "type": "thematic"
-    },
-    {
-      "source": "c2afd3773d",
-      "target": "f1da49370a",
-      "weight": 0.163,
-      "type": "thematic"
-    },
-    {
-      "source": "5ecf78d33e",
-      "target": "86d12d7147",
-      "weight": 0.858,
-      "type": "thematic"
-    },
-    {
-      "source": "db3d796a6d",
-      "target": "4e8aaaed4b",
-      "weight": 0.709,
-      "type": "thematic"
-    },
-    {
-      "source": "ae363ae027",
-      "target": "705f3beb99",
-      "weight": 0.325,
+      "source": "d249177ad2",
+      "target": "888530f5e1",
+      "weight": 0.174,
       "type": "thematic"
     }
   ],
@@ -1179,7 +1083,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null
     },
     "The Atlantic": {

@@ -1,26 +1,131 @@
 {
-  "generated_at": "2026-07-03T11:40:26.296680+00:00",
+  "generated_at": "2026-07-03T14:29:15.052007+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 4,
+  "edge_count": 6,
   "nodes": [
     {
-      "id": "ce45d619fe",
-      "title": "USA: 85-jähriger Deutscher stirbt in ICE-Gewahrsam – Mann war in Pflegeheim untergebracht",
-      "signal_count": 4,
+      "id": "c6e315dbd3",
+      "title": "Russlands Angriffskrieg: Ukraine soll bei Nato-Gipfel Milliarden bekommen",
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/usa-85-jaehriger-deutscher-stirbt-in-ice-gewahrsam-mann-war-in-pflegeheim-untergebracht-a-0fc7e67a-a743-4bea-8a40-c8985a3354d1#ref=rss",
-          "headline": "USA: 85-jähriger Deutscher stirbt in ICE-Gewahrsam – Mann war in Pflegeheim untergebracht",
+          "url": "https://www.spiegel.de/ausland/russlands-angriffskrieg-ukraine-soll-bei-nato-gipfel-milliarden-bekommen-a-386dc46c-1d13-459b-9e44-29cff88105b2#ref=rss",
+          "headline": "Russlands Angriffskrieg: Ukraine soll bei Nato-Gipfel Milliarden bekommen",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-russland-nato-milliarden-militaerhilfe-bruessel-li.3500126",
+          "headline": "Krieg in der Ukraine: Nato-Länder wollen Ukraine auf Gipfel wohl weitere Milliarden zusagen",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/international/ukraine-ukraine-soll-bei-nato-gipfel-milliardenversprechen-erhalten/27982126.html",
+          "headline": "+++ Ukraine-Krieg +++: Ukraine soll bei Nato-Gipfel Milliardenversprechen erhalten",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.067,
+        "spread": 0.155,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T12:32:00+00:00",
+      "last_seen": "2026-07-03T13:54:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.6845
+    },
+    {
+      "id": "4e90fd5723",
+      "title": "Stade: Kinder nach Tat von Stade Vollwaisen – mehr als 600.000 Euro Spenden",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/stade-kinder-nach-tat-von-stade-vollwaisen-mehr-als-600-000-euro-spenden-a-694a938d-62f3-49d8-8682-98e2b2deadb5#ref=rss",
+          "headline": "Stade: Kinder nach Tat von Stade Vollwaisen – mehr als 600.000 Euro Spenden",
           "platform": "rss"
         },
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/article6a478161ad32e994f8759da1/usa-deutscher-stirbt-in-ice-gewahrsam-in-texas-obduktion-angeordnet.html",
-          "headline": "Deutscher stirbt in ICE-Gewahrsam in den USA – Obduktion angeordnet",
+          "url": "https://www.welt.de/vermischtes/article6a46080bc154597ea93e450d/stade-kinder-wurden-zu-vollwaisen-bereits-mehr-als-630-000-euro-an-spenden-gesammelt.html",
+          "headline": "Kinder wurden zu Vollwaisen – bereits mehr als 630.000 Euro an Spenden gesammelt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.075,
+        "spread": 0.225,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-07-03T13:18:00+00:00",
+      "last_seen": "2026-07-03T14:21:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.5632
+    },
+    {
+      "id": "c207812b95",
+      "title": "Explosion in Monaco – Interpol veröffentlicht Fahndungsfoto von Ukrainerin aus Deutschland",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/panorama/Interpol-sucht-Ukrainerin-nach-Anschlag-auf-Oligarchen-in-Monaco-id31044376.html",
+          "headline": "Sie lebt in Deutschland: Interpol sucht Ukrainerin nach Anschlag auf Oligarchen in Monaco",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6a47939c2e8f13ca8ed2ada0/explosion-in-monaco-interpol-veroeffentlicht-fahndungsfoto-von-ukrainerin-aus-deutschland.html",
+          "headline": "Explosion in Monaco – Interpol veröffentlicht Fahndungsfoto von Ukrainerin aus Deutschland",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.15,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-07-03T12:39:04+00:00",
+      "last_seen": "2026-07-03T13:59:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.4218
+    },
+    {
+      "id": "d4829bf592",
+      "title": "USA: Deutscher stirbt in ICE-Gewahrsam in den USA",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Deutscher-stirbt-in-Texas-in-ICE-Gewahrsam-id31044825.html",
+          "headline": "Mit Erkrankungen in Klinik: Deutscher stirbt in Texas in ICE-Gewahrsam",
           "platform": "rss"
         },
         {
@@ -37,381 +142,31 @@
         }
       ],
       "bias": {
-        "mean": 0.037,
-        "spread": 0.216,
+        "mean": 0.0,
+        "spread": 0.163,
         "left": 0,
         "center": 3,
-        "right": 1
+        "right": 0
       },
       "first_seen": "2026-07-03T09:30:22+00:00",
-      "last_seen": "2026-07-03T10:09:00+00:00",
+      "last_seen": "2026-07-03T12:10:50+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.6973
+      "resonance": 0.1936
     },
     {
-      "id": "e753f7515c",
-      "title": "Deutsche Nationalmannschaft: Nagelsmann tritt zurück, Klopp steht bereit",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/sport/nagelsmann-dfb-ruecktritt-bundestrainer-klopp-nationalmannschaft-li.3509745",
-          "headline": "Deutsche Nationalmannschaft: Nagelsmann tritt zurück, Klopp steht bereit",
-          "platform": "rss"
-        },
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Julian-Nagelsmann-tritt-zurueck/!6193175/",
-          "headline": "Julian Nagelsmann tritt zurück: Dirigent eines Panikorchesters",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a461b2a3f5c38e2aa5a6387/wm-debakel-nagelsmann-tritt-als-bundestrainer-zurueck-klopp-will-uebernehmen.html",
-          "headline": "Nagelsmann tritt als Bundestrainer zurück – Klopp will übernehmen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.349,
-        "left": 1,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-07-03T09:56:23+00:00",
-      "last_seen": "2026-07-03T10:35:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.5949
-    },
-    {
-      "id": "8843f379bc",
-      "title": "WM 2026 News heute: Julian Nagelsmann ist nicht mehr Bundestrainer - und bittet Fans um Verzeihung",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/wm-2026-news-heute-portugal-rettet-sich-nach-nachspielzeit-drama-gegen-kroatien-ins-achtelfinale-a-092a2cef-31fd-444b-a020-1e2564403886#ref=rss",
-          "headline": "WM 2026 News heute: Julian Nagelsmann ist nicht mehr Bundestrainer - und bittet Fans um Verzeihung",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/fussball-wm-2026-julian-nagelsmann-nicht-mehr-bundestrainer-juergen-klopp-soll-uebernehmen-a-dfd83710-2dd6-43d1-86bb-2971de53bf2b#ref=rss",
-          "headline": "Fußball-WM 2026: Julian Nagelsmann nicht mehr Bundestrainer, Jürgen Klopp soll übernehmen",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-07/nagelsmann-tritt-als-bundestrainer-zurueck-klopp-soll-uebernehmen",
-          "headline": "Julian Nagelsmann: DFB löst Vertrag mit Julian Nagelsmann auf – Jürgen Klopp soll kommen",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/dfb-juergen-klopp-soll-auf-julian-nagelsmann-folgen-aber-das-reicht-noch-nicht-a-32888cf0-576c-461e-a5ff-e6a797f159b7#ref=rss",
-          "headline": "DFB: Jürgen Klopp soll auf Julian Nagelsmann folgen – aber das reicht noch nicht",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.188,
-        "spread": 0.065,
-        "left": 1,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T11:06:00+00:00",
-      "last_seen": "2026-07-03T11:26:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.4936
-    },
-    {
-      "id": "b96ebbcbfa",
-      "title": "Liveblog Fußball-WM 2026: Merz dankt Nagelsmann für „Engagement und Einsatz“",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/sport/fussball-wm/liveblog-zur-fussball-wm-2026-nagelsmann-tritt-zurueck-das-statement-im-wortlaut-faz-200749933.html",
-          "headline": "Liveblog Fußball-WM 2026: Merz dankt Nagelsmann für „Engagement und Einsatz“",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/sport/wm-2026-liveblog-news-nagelsmann-heute-ruecktritt-klopp-nachfolger-li.3492650",
-          "headline": "Fußball-WM 2026: Merz dankt Nagelsmann",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.2,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T10:50:55+00:00",
-      "last_seen": "2026-07-03T11:23:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.4865
-    },
-    {
-      "id": "5bfe29e337",
-      "title": "Nach frühem WM-Aus: DFB: Nagelsmann geht, Klopp soll kommen",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/sport/fussball-wm/deutsches-team/dfb-nagelsmann-geht-klopp-soll-kommen-accg-200994672.html",
-          "headline": "Nach frühem WM-Aus: DFB: Nagelsmann geht, Klopp soll kommen",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/fussball-wm/DFB-bestaetigt-Nagelsmann-Ruecktritt-Klopp-soll-kommen-id31044004.html",
-          "headline": "Offizielles Statement: DFB bestätigt Nagelsmann-Rücktritt - Klopp soll kommen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.1,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T09:54:59+00:00",
-      "last_seen": "2026-07-03T11:29:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.4013
-    },
-    {
-      "id": "839543eee3",
-      "title": "Neuzulassungen von E-Autos steigen um fast 80 Prozent",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/wirtschaft/Deutsche-kaufen-deutlich-mehr-E-Autos-id31044005.html",
-          "headline": "Fast 80 Prozent mehr Zulassungen: Deutsche kaufen deutlich mehr E-Autos",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/wirtschaft/article6a477d38ad32e994f8759d06/e-autos-neuzulassungen-steigen-um-fast-80-prozent.html",
-          "headline": "Neuzulassungen von E-Autos steigen um fast 80 Prozent",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.15,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-07-03T09:49:04+00:00",
-      "last_seen": "2026-07-03T11:30:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.3877
-    },
-    {
-      "id": "654c9abb28",
-      "title": "Reformpaket der Regierung: Warum die Attestpflicht ab Tag eins so umstritten ist",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/wirtschaft/krankschreibung-deutschland-ende-regeln-attest-krankheitstag-li.3509787",
-          "headline": "Reformpaket der Regierung: Warum die Attestpflicht ab Tag eins so umstritten ist",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/reformpaket-was-bringt-die-krankschreibung-ab-tag-eins-wirklich/100237518.html",
-          "headline": "Reformpaket: Was bringt die Krankschreibung ab Tag eins wirklich?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.025,
-        "spread": 0.175,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T09:29:29+00:00",
-      "last_seen": "2026-07-03T10:08:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.2662
-    },
-    {
-      "id": "d3e79a55d7",
-      "title": "Alexandru Munteanu: Ministerpräsident von Moldau tritt zurück",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-07/alexandru-munteanu-ruecktritt-ministerpraesident-moldau-maia-sandu-gxe",
-          "headline": "Alexandru Munteanu: Ministerpräsident von Moldau tritt zurück",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/international/osteuropa-moldauischer-ministerpraesident-tritt-ueberraschend-zurueck/100237718.html",
-          "headline": "Osteuropa: Moldauischer Ministerpräsident tritt überraschend zurück",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.225,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T09:42:56+00:00",
-      "last_seen": "2026-07-03T10:08:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.2639
-    },
-    {
-      "id": "aeeb1478ed",
-      "title": "„Diese linke sozialdemokratische Steuerpolitik ist einfach der Schlag ins Gesicht“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/wirtschaft/plus6a4754b580a38cbeb7ec112f/make-economy-great-again-diese-linke-sozialdemokratische-steuerpolitik-ist-einfach-der-schlag-ins-gesicht.html",
-          "headline": "„Diese linke sozialdemokratische Steuerpolitik ist einfach der Schlag ins Gesicht“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-03T11:37:26+00:00",
-      "last_seen": "2026-07-03T11:37:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.1185
-    },
-    {
-      "id": "156e54150c",
-      "title": "Prozess in Stuttgart: Tagesvater wegen Missbrauchs zu langer Haftstrafe verurteilt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/03/tagesvater-wegen-missbrauchs-zu-langer-haftstrafe-verurteilt",
-          "headline": "Prozess in Stuttgart: Tagesvater wegen Missbrauchs zu langer Haftstrafe verurteilt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T11:33:49+00:00",
-      "last_seen": "2026-07-03T11:33:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1084
-    },
-    {
-      "id": "73b3395c7e",
-      "title": "Leichenfund: Leiche nach Hausbrand in Schwaben gefunden",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/03/leiche-nach-hausbrand-in-schwaben-gefunden",
-          "headline": "Leichenfund: Leiche nach Hausbrand in Schwaben gefunden",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T11:30:59+00:00",
-      "last_seen": "2026-07-03T11:30:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1004
-    },
-    {
-      "id": "b4721f7d0e",
-      "title": "Hessen: Polizei durchsucht Wohnung von Ukrainerin wegen Bombenanschlag in Monaco",
+      "id": "9cd37980a6",
+      "title": "Penélope Cruz will Führerschein machen",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/panorama/justiz/hessen-polizei-durchsucht-wohnung-von-ukrainerin-wegen-bombenanschlag-in-monaco-a-f73812d7-40de-4da4-b1e0-6a847bcb9b92#ref=rss",
-          "headline": "Hessen: Polizei durchsucht Wohnung von Ukrainerin wegen Bombenanschlag in Monaco",
+          "url": "https://www.spiegel.de/panorama/leute/penelope-cruz-will-fuehrerschein-machen-a-862a89a0-0230-43bd-a353-81cc8a8a56b5#ref=rss",
+          "headline": "Penélope Cruz will Führerschein machen",
           "platform": "rss"
         }
       ],
@@ -422,25 +177,25 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-03T11:30:00+00:00",
-      "last_seen": "2026-07-03T11:30:00+00:00",
+      "first_seen": "2026-07-03T14:25:00+00:00",
+      "last_seen": "2026-07-03T14:25:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
+      "topic": "world",
       "language": "de",
-      "resonance": 0.0977
+      "resonance": 0.1271
     },
     {
-      "id": "96b67b2abf",
-      "title": "Er ist der Mann, der jetzt über die Klopp-Freigabe entscheidet",
+      "id": "c4f663c7cf",
+      "title": "Meine ersten Begegnungen mit Maradona und Messi werde ich nie vergessen",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a460abac154597ea93e4976/wm-2026-oliver-mintzlaffer-ist-der-mann-der-jetzt-ueber-die-klopp-freigabe-entscheidet.html",
-          "headline": "Er ist der Mann, der jetzt über die Klopp-Freigabe entscheidet",
+          "url": "https://www.welt.de/sport/fussball/wm/article6a47be3580a38cbeb7ec1ba7/lothar-matthaeus-meine-ersten-begegnungen-mit-maradona-und-messi-werde-ich-nie-vergessen.html",
+          "headline": "Meine ersten Begegnungen mit Maradona und Messi werde ich nie vergessen",
           "platform": "rss"
         }
       ],
@@ -451,54 +206,112 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-03T11:29:39+00:00",
-      "last_seen": "2026-07-03T11:29:39+00:00",
+      "first_seen": "2026-07-03T14:21:59+00:00",
+      "last_seen": "2026-07-03T14:21:59+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0967
+      "resonance": 0.1178
     },
     {
-      "id": "a2d6cdc719",
-      "title": "\"Auskunftsrechte fokussieren\": Punkt 32 der Koalitionsbeschlüsse hat es in sich",
+      "id": "74b5265ffb",
+      "title": "WM 2026 heute: Das sollten Sie vor den Spielen am Abend und in der Nacht wissen",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Punkt-32-der-Koalitionsbeschluesse-hat-es-in-sich-id31044592.html",
-          "headline": "\"Auskunftsrechte fokussieren\": Punkt 32 der Koalitionsbeschlüsse hat es in sich",
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/fussball/wm-2026-heute-das-sollten-sie-vor-den-spielen-am-abend-und-in-der-nacht-wissen-a-ef2d9e8b-4308-4a36-9351-b9d7fa7e2b50#ref=rss",
+          "headline": "WM 2026 heute: Das sollten Sie vor den Spielen am Abend und in der Nacht wissen",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": -0.15,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-03T11:28:50+00:00",
-      "last_seen": "2026-07-03T11:28:50+00:00",
+      "first_seen": "2026-07-03T14:19:00+00:00",
+      "last_seen": "2026-07-03T14:19:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
+      "topic": "sport",
       "language": "de",
-      "resonance": 0.0945
+      "resonance": 0.1086
     },
     {
-      "id": "9c0951580b",
-      "title": "Nagelsmanns Rücktritt: Der deutsche Fußball ist führungslos im Mittelmaß",
+      "id": "ae7fb8ec74",
+      "title": "Welternährungsprogramm der Vereinten Nationen: »Wir erwarten, dass noch sehr viel mehr Menschen hungern werden«",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-07/carl-skau-welternaehrungsprogramm-vereinten-nationen-hunger-iran",
+          "headline": "Welternährungsprogramm der Vereinten Nationen: »Wir erwarten, dass noch sehr viel mehr Menschen hungern werden«",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:18:51+00:00",
+      "last_seen": "2026-07-03T14:18:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1081
+    },
+    {
+      "id": "516f65df05",
+      "title": "AfD-Bundesparteitag: Polizei in Erfurt bereitet sich auf bis zu 50.000 Demonstrierende vor",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/deutschland/2026-07/afd-bundesparteitag-erfurt-proteste-polizei-blockaden",
+          "headline": "AfD-Bundesparteitag: Polizei in Erfurt bereitet sich auf bis zu 50.000 Demonstrierende vor",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:18:40+00:00",
+      "last_seen": "2026-07-03T14:18:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.1076
+    },
+    {
+      "id": "d8c21120ba",
+      "title": "BörsenRekord: Der Dax läuft und läuft",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/sport/fussball-wm/deutsches-wm-aus-der-dfb-ist-fuehrungsschwach-auf-allen-ebenen-accg-200982839.html",
-          "headline": "Nagelsmanns Rücktritt: Der deutsche Fußball ist führungslos im Mittelmaß",
+          "url": "https://www.faz.net/aktuell/finanzen/dax-bricht-rekord-was-treibt-die-boerse-ueber-25-000-punkte-200995351.html",
+          "headline": "BörsenRekord: Der Dax läuft und läuft",
           "platform": "rss"
         }
       ],
@@ -509,54 +322,54 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-03T11:28:12+00:00",
-      "last_seen": "2026-07-03T11:28:12+00:00",
+      "first_seen": "2026-07-03T14:18:31+00:00",
+      "last_seen": "2026-07-03T14:18:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.1071
+    },
+    {
+      "id": "b256865b87",
+      "title": "Fußball-WM 2026: Thomas Müller fordert vom DFB moderne Spielidee und Spielerausbildung",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/sport/2026-05/fussball-wm-2026-liveblog",
+          "headline": "Fußball-WM 2026: Thomas Müller fordert vom DFB moderne Spielidee und Spielerausbildung",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:17:44+00:00",
+      "last_seen": "2026-07-03T14:17:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "de",
-      "resonance": 0.0927
+      "resonance": 0.1047
     },
     {
-      "id": "7c494d492b",
-      "title": "Koalitionspläne: Sachsens Ärzte warnen vor weiten Wegen in volle Praxen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/03/sachsens-aerzte-warnen-vor-weiten-wegen-in-volle-praxen",
-          "headline": "Koalitionspläne: Sachsens Ärzte warnen vor weiten Wegen in volle Praxen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T11:27:54+00:00",
-      "last_seen": "2026-07-03T11:27:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0919
-    },
-    {
-      "id": "12e51f6559",
-      "title": "Offiziell eigentlich verboten : Plastikstrohhalme werden trotz Verbots weiter verkauft",
+      "id": "2fc457604d",
+      "title": "Tödliche Eskalation: Warum die Warnsignale in Stade nicht reichten",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "n-tv",
-          "url": "https://www.n-tv.de/panorama/Plastikstrohhalme-werden-trotz-Verbots-weiter-verkauf-id31044015.html",
-          "headline": "Offiziell eigentlich verboten : Plastikstrohhalme werden trotz Verbots weiter verkauft",
+          "url": "https://www.n-tv.de/panorama/Warum-die-Warnsignale-in-Stade-nicht-reichten-id31044571.html",
+          "headline": "Tödliche Eskalation: Warum die Warnsignale in Stade nicht reichten",
           "platform": "rss"
         }
       ],
@@ -567,25 +380,25 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-03T11:27:36+00:00",
-      "last_seen": "2026-07-03T11:27:36+00:00",
+      "first_seen": "2026-07-03T14:17:39+00:00",
+      "last_seen": "2026-07-03T14:17:39+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0911
+      "resonance": 0.1045
     },
     {
-      "id": "fe4b803d33",
-      "title": "250 Jahre USA: Regenbogenfahnen wehen zum US-Jubiläum an Nationalgalerie",
+      "id": "4fdb2b99e9",
+      "title": "Insekten: Feuchte Sommer fördern Mücken - Fiese Plagegeister im Garten",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/03/regenbogenfahnen-wehen-zum-us-jubilaeum-an-nationalgalerie",
-          "headline": "250 Jahre USA: Regenbogenfahnen wehen zum US-Jubiläum an Nationalgalerie",
+          "url": "https://www.zeit.de/news/2026-07/03/feuchte-sommer-foerdern-muecken-fiese-plagegeister-im-garten",
+          "headline": "Insekten: Feuchte Sommer fördern Mücken - Fiese Plagegeister im Garten",
           "platform": "rss"
         }
       ],
@@ -596,25 +409,25 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-03T11:26:12+00:00",
-      "last_seen": "2026-07-03T11:26:12+00:00",
+      "first_seen": "2026-07-03T14:16:43+00:00",
+      "last_seen": "2026-07-03T14:16:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0872
+      "resonance": 0.1016
     },
     {
-      "id": "95c0cf02df",
-      "title": "Alexej Nawalny: Einer gegen Putin",
+      "id": "5863f2641f",
+      "title": "Tödlicher Brand: Landrat nach Klinikbrand: Brandschutzanlage hat funktioniert",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/gesellschaft/2026-07/alexej-nawalny-wladimir-putin-russland-bibelpodcast",
-          "headline": "Alexej Nawalny: Einer gegen Putin",
+          "url": "https://www.zeit.de/news/2026-07/03/landrat-nach-klinikbrand-brandschutzanlage-hat-funktioniert",
+          "headline": "Tödlicher Brand: Landrat nach Klinikbrand: Brandschutzanlage hat funktioniert",
           "platform": "rss"
         }
       ],
@@ -625,315 +438,54 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-03T11:25:43+00:00",
-      "last_seen": "2026-07-03T11:25:43+00:00",
+      "first_seen": "2026-07-03T14:16:14+00:00",
+      "last_seen": "2026-07-03T14:16:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0859
+      "resonance": 0.1001
     },
     {
-      "id": "ff8c2759f8",
-      "title": "Belgiens Coach erklärt sich: WM-Trainer wehrt Rassismus-Vorwürfe ab",
+      "id": "567ba91023",
+      "title": "Heftige Kritik an geplanter Einschränkung der Informationsfreiheit",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/fussball-wm/WM-Trainer-wehrt-Rassismus-Vorwuerfe-ab-id31043936.html",
-          "headline": "Belgiens Coach erklärt sich: WM-Trainer wehrt Rassismus-Vorwürfe ab",
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/heftige-kritik-an-geplanter-einschraenkung-der-informationsfreiheit-a-15ad8e7e-2334-464e-b3c2-d5996e74ec7e#ref=rss",
+          "headline": "Heftige Kritik an geplanter Einschränkung der Informationsfreiheit",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": -0.15,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-03T11:24:59+00:00",
-      "last_seen": "2026-07-03T11:24:59+00:00",
+      "first_seen": "2026-07-03T14:16:00+00:00",
+      "last_seen": "2026-07-03T14:16:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0839
+      "resonance": 0.0994
     },
     {
-      "id": "790ccf7b3c",
-      "title": "Wege aus der Krise: Ökonomen: Reformpaket zu wenig",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/03/oekonomen-reformpaket-zu-wenig",
-          "headline": "Wege aus der Krise: Ökonomen: Reformpaket zu wenig",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T11:24:57+00:00",
-      "last_seen": "2026-07-03T11:24:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0838
-    },
-    {
-      "id": "019aa8e445",
-      "title": "Clueso: »Angst ist unbequem«",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/2026/29/clueso-musiker-erfurt-domplatz-afd-parteitag",
-          "headline": "Clueso: »Angst ist unbequem«",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T11:24:07+00:00",
-      "last_seen": "2026-07-03T11:24:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0815
-    },
-    {
-      "id": "6e5e09af95",
-      "title": "SEK-Einsatz: Polizei hebt Sperrung nach Brandstiftung in Ingersheim auf",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/03/polizei-hebt-sperrung-nach-brandstiftung-in-ingersheim-auf",
-          "headline": "SEK-Einsatz: Polizei hebt Sperrung nach Brandstiftung in Ingersheim auf",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T11:23:47+00:00",
-      "last_seen": "2026-07-03T11:23:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.0806
-    },
-    {
-      "id": "fbf2abbd1e",
-      "title": "Krankschreibung: Umsetzung von erschwerter Krankschreibung noch offen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-07/krankschreibung-regeln-telefon-arbeitsunfaehigkeitsbescheinigung",
-          "headline": "Krankschreibung: Umsetzung von erschwerter Krankschreibung noch offen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T11:23:20+00:00",
-      "last_seen": "2026-07-03T11:23:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0794
-    },
-    {
-      "id": "2d79ff9b52",
-      "title": "Stadionumbau: Pläne für Vollumbau des Nürnberger Max-Morlock-Stadions",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/03/plaene-fuer-vollumbau-des-nuernberger-max-morlock-stadions",
-          "headline": "Stadionumbau: Pläne für Vollumbau des Nürnberger Max-Morlock-Stadions",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T11:22:41+00:00",
-      "last_seen": "2026-07-03T11:22:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0776
-    },
-    {
-      "id": "73f114b2c4",
-      "title": "\"Schulnote vier\": Schlechtes Zeugnis: Matthäus rechnet mit Nagelsmann ab",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/fussball-wm/Schlechtes-Zeugnis-Matthaeus-rechnet-mit-Nagelsmann-ab-id31044630.html",
-          "headline": "\"Schulnote vier\": Schlechtes Zeugnis: Matthäus rechnet mit Nagelsmann ab",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T11:22:20+00:00",
-      "last_seen": "2026-07-03T11:22:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0766
-    },
-    {
-      "id": "b0979601d4",
-      "title": "Unfälle: Unfall mit sechs Autos – mehrere Verletzte in Hamburg",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/03/unfall-mit-sechs-autos-mehrere-verletzte-in-hamburg",
-          "headline": "Unfälle: Unfall mit sechs Autos – mehrere Verletzte in Hamburg",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T11:20:36+00:00",
-      "last_seen": "2026-07-03T11:20:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0719
-    },
-    {
-      "id": "ead3d645c1",
-      "title": "„Putin hat 1,5 Millionen Soldaten unter Waffen. Er baut neue Strukturen gen Westen auf“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/plus6a42268e113e90346dc50b97/generalinspekteur-breuer-putin-hat-1-5-millionen-soldaten-unter-waffen-er-baut-neue-strukturen-gen-westen-auf.html",
-          "headline": "„Putin hat 1,5 Millionen Soldaten unter Waffen. Er baut neue Strukturen gen Westen auf“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-03T11:17:09+00:00",
-      "last_seen": "2026-07-03T11:17:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0626
-    },
-    {
-      "id": "d62823477d",
-      "title": "Flucht aus türkischem Gefängnis: Schütze von Stade soll eigene Tochter sexuell missbraucht haben",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/panorama/Schuetze-von-Stade-soll-eigene-Tochter-sexuell-missbraucht-haben-id31044126.html",
-          "headline": "Flucht aus türkischem Gefängnis: Schütze von Stade soll eigene Tochter sexuell missbraucht haben",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T11:15:03+00:00",
-      "last_seen": "2026-07-03T11:15:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.0569
-    },
-    {
-      "id": "ae9e903aba",
-      "title": "Kommentar: Wer die AfD blockiert, macht sie noch stärker",
+      "id": "a3f0033e90",
+      "title": "KI-Briefing: Grevenbroich und der KI-Boom in der Provinz",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/meinung/kommentare/kommentar-wer-die-afd-blockiert-macht-sie-noch-staerker/100237396.html",
-          "headline": "Kommentar: Wer die AfD blockiert, macht sie noch stärker",
+          "url": "https://www.handelsblatt.com/technik/ki/ki-briefing/ki-briefing-grevenbroich-und-der-ki-boom-in-der-provinz/100237526.html",
+          "headline": "KI-Briefing: Grevenbroich und der KI-Boom in der Provinz",
           "platform": "rss"
         }
       ],
@@ -944,40 +496,458 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-03T11:12:27+00:00",
-      "last_seen": "2026-07-03T11:12:27+00:00",
+      "first_seen": "2026-07-03T14:12:14+00:00",
+      "last_seen": "2026-07-03T14:12:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
       "language": "de",
+      "resonance": 0.088
+    },
+    {
+      "id": "1b2358fc2c",
+      "title": "Fahrerflucht: Frau soll mit Kind auf Schoß Autounfall verursacht haben",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/03/frau-soll-mit-kind-auf-schoss-autounfall-verursacht-haben",
+          "headline": "Fahrerflucht: Frau soll mit Kind auf Schoß Autounfall verursacht haben",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:10:14+00:00",
+      "last_seen": "2026-07-03T14:10:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.082
+    },
+    {
+      "id": "c2a6d61017",
+      "title": "Fußball-WM heute: Gegen Messi spielen, ohne an Messi zu denken",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/sport/2026-07/fussball-wm-heute-kap-verde-argentinien-messi-nagelsmann-klopp",
+          "headline": "Fußball-WM heute: Gegen Messi spielen, ohne an Messi zu denken",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:10:00+00:00",
+      "last_seen": "2026-07-03T14:10:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.0813
+    },
+    {
+      "id": "47cde42995",
+      "title": "„Steuerpolitisch ist es weit hinter den Erwartungen zurückgeblieben“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/videos/video6a47b7e9ad32e994f875a36d/reformpaket-steuerpolitisch-ist-es-weit-hinter-den-erwartungen-zurueckgeblieben.html",
+          "headline": "„Steuerpolitisch ist es weit hinter den Erwartungen zurückgeblieben“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-03T14:09:27+00:00",
+      "last_seen": "2026-07-03T14:09:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.0796
+    },
+    {
+      "id": "b6f2a72cfd",
+      "title": "Nach Schlichtung: Tarifeinigung beim Nahverkehr – wie der Kompromiss aussieht",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/03/tarifeinigung-beim-nahverkehr-wie-der-kompromiss-aussieht",
+          "headline": "Nach Schlichtung: Tarifeinigung beim Nahverkehr – wie der Kompromiss aussieht",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:09:18+00:00",
+      "last_seen": "2026-07-03T14:09:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0792
+    },
+    {
+      "id": "846516f2f8",
+      "title": "Fußballstatistiken: Ein Spiel mit Zahlen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/2026/29/fussballstatistiken-daten-sportec-wm-bundesliga",
+          "headline": "Fußballstatistiken: Ein Spiel mit Zahlen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:09:17+00:00",
+      "last_seen": "2026-07-03T14:09:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.0791
+    },
+    {
+      "id": "fc74df7005",
+      "title": "Start der tour de France: Pogačar ist der König unter den Versteckspielern",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/sport/tour-de-france/tadej-pogaar-der-unantastbare-favorit-der-tour-de-france-200994623.html",
+          "headline": "Start der tour de France: Pogačar ist der König unter den Versteckspielern",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:07:13+00:00",
+      "last_seen": "2026-07-03T14:07:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.073
+    },
+    {
+      "id": "fe3e37394e",
+      "title": "Reformen: Ändert was! Aber nicht bei mir",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/deutschland/2026-07/reformen-politik-buerger-ablehnung",
+          "headline": "Reformen: Ändert was! Aber nicht bei mir",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:06:37+00:00",
+      "last_seen": "2026-07-03T14:06:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0712
+    },
+    {
+      "id": "852aabfcac",
+      "title": "Debatte um hohen Krankenstand: Krankschreibung: Arzt fürchtet «massiven Mehransturm»",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/03/krankschreibung-arzt-fuerchtet-massiven-mehransturm",
+          "headline": "Debatte um hohen Krankenstand: Krankschreibung: Arzt fürchtet «massiven Mehransturm»",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:02:21+00:00",
+      "last_seen": "2026-07-03T14:02:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "language": "de",
+      "resonance": 0.0585
+    },
+    {
+      "id": "296533c586",
+      "title": "Handball-Bundesliga: Noch ein Talent: ThSV Eisenach holt Torhüter Gupe",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/03/noch-ein-talent-thsv-eisenach-holt-torhueter-gupe",
+          "headline": "Handball-Bundesliga: Noch ein Talent: ThSV Eisenach holt Torhüter Gupe",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:01:46+00:00",
+      "last_seen": "2026-07-03T14:01:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.0568
+    },
+    {
+      "id": "cc12f14443",
+      "title": "Jetzt droht der Grünen-Spitze „Klage vor ordentlichen Gerichten“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/plus6a47b49cad32e994f875a33c/parteireform-jetzt-droht-der-gruenen-spitze-klage-vor-ordentlichen-gerichten.html",
+          "headline": "Jetzt droht der Grünen-Spitze „Klage vor ordentlichen Gerichten“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-03T14:01:36+00:00",
+      "last_seen": "2026-07-03T14:01:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.0563
+    },
+    {
+      "id": "f25b40f745",
+      "title": "Energiepreise: Woidke: Strompreiszone mit polnischen Regionen prüfen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/03/woidke-strompreiszone-mit-polnischen-regionen-pruefen",
+          "headline": "Energiepreise: Woidke: Strompreiszone mit polnischen Regionen prüfen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:01:29+00:00",
+      "last_seen": "2026-07-03T14:01:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.056
+    },
+    {
+      "id": "050ff021da",
+      "title": "«Richter Alexander Hold»: Alexander Hold: TV-Comeback und Landtagsarbeit vereinbar",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/03/alexander-hold-tv-comeback-und-landtagsarbeit-vereinbar",
+          "headline": "«Richter Alexander Hold»: Alexander Hold: TV-Comeback und Landtagsarbeit vereinbar",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:01:02+00:00",
+      "last_seen": "2026-07-03T14:01:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0546
+    },
+    {
+      "id": "fb8fcc7543",
+      "title": "Steuererklärung 2025: So gibt’s zu viel bezahlte Quellensteuer auf ausländische Dividenden zurück",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/dividenden-so-gibts-die-quellensteuer-auf-auslands-aktien-zurueck-01/100124798.html",
+          "headline": "Steuererklärung 2025: So gibt’s zu viel bezahlte Quellensteuer auf ausländische Dividenden zurück",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:00:00+00:00",
+      "last_seen": "2026-07-03T14:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.0516
+    },
+    {
+      "id": "9edb99f710",
+      "title": "Migration: Zahl der Asylanträge sinkt deutlich",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-07/asylantraege-deutschland-zahl-rueckgang-bamf",
+          "headline": "Migration: Zahl der Asylanträge sinkt deutlich",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T13:59:27+00:00",
+      "last_seen": "2026-07-03T13:59:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "e753f7515c",
-      "target": "5bfe29e337",
-      "weight": 0.063,
+      "source": "4e90fd5723",
+      "target": "2fc457604d",
+      "weight": 0.216,
       "type": "thematic"
     },
     {
-      "source": "e753f7515c",
-      "target": "d3e79a55d7",
-      "weight": 0.707,
+      "source": "c4f663c7cf",
+      "target": "c2a6d61017",
+      "weight": 0.207,
       "type": "thematic"
     },
     {
-      "source": "8843f379bc",
-      "target": "b96ebbcbfa",
-      "weight": 0.256,
+      "source": "74b5265ffb",
+      "target": "b256865b87",
+      "weight": 0.037,
       "type": "thematic"
     },
     {
-      "source": "b96ebbcbfa",
-      "target": "9c0951580b",
-      "weight": 0.245,
+      "source": "74b5265ffb",
+      "target": "c2a6d61017",
+      "weight": 0.395,
+      "type": "thematic"
+    },
+    {
+      "source": "b256865b87",
+      "target": "c2a6d61017",
+      "weight": 0.247,
+      "type": "thematic"
+    },
+    {
+      "source": "2fc457604d",
+      "target": "fe3e37394e",
+      "weight": 0.005,
       "type": "thematic"
     }
   ],

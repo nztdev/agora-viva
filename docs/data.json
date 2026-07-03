@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-03T15:33:03.619110+00:00",
+  "generated_at": "2026-07-03T17:22:11.133766+00:00",
   "node_count": 35,
-  "edge_count": 2,
+  "edge_count": 6,
   "nodes": [
     {
-      "id": "f1acded1c0",
-      "title": "Please stop the AI confidence theater",
+      "id": "8c5eac9822",
+      "title": "Markets are competitive if and only if P = NP",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater",
-          "headline": "Please stop the AI confidence theater",
+          "url": "https://arxiv.org/abs/2602.20415",
+          "headline": "Markets are competitive if and only if P = NP",
           "platform": "hackernews"
         }
       ],
@@ -22,13 +22,13 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-03T12:51:17+00:00",
-      "last_seen": "2026-07-03T12:51:17+00:00",
+      "first_seen": "2026-07-03T15:41:44+00:00",
+      "last_seen": "2026-07-03T15:41:44+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "tech",
+      "topic": "economy",
       "resonance": 0.28
     },
     {
@@ -88,6 +88,80 @@
       "resonance": 0.28
     },
     {
+      "id": "0e418ae7d5",
+      "title": "FIFA World Cup Round of 32 LIVE: Egypt vs Australia match underway",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/egypt-vs-australia-fifa-world-cup-match-live-score-updates-july-3-2026/article71180087.ece",
+          "headline": "FIFA World Cup Round of 32 LIVE: Egypt vs Australia match underway",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/argentina-over-2-5-goals-draw-australia-vs-egypt-top-world-cup-2026-round-16-bets",
+          "headline": "Argentina over 2.5 goals and the draw in Australia vs Egypt are the top World Cup 2026 Round of 16 bets",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.25,
+        "spread": 0.35,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-07-03T14:27:38+00:00",
+      "last_seen": "2026-07-03T17:14:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.2305
+    },
+    {
+      "id": "e161552d39",
+      "title": "Ukrainian woman suspected of Monaco bombing still on the run",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/03/ukrainian-woman-suspected-of-monaco-bombing-still-on-the-run_6755119_4.html",
+          "headline": "Ukrainian woman suspected of Monaco bombing still on the run",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/3/interpol-names-ukrainian-woman-as-suspect-in-monaco-bombing?traffic_source=rss",
+          "headline": "Interpol names Ukrainian woman as suspect in Monaco bombing",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-03/monaco-bomb-interpol-red-wanted-notice-anastasiia-berezovska/106878772",
+          "headline": "Interpol issues wanted notice for Monaco bombing suspect",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.167,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T13:02:37+00:00",
+      "last_seen": "2026-07-03T15:50:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2293
+    },
+    {
       "id": "9d6c3cb21e",
       "title": "Ukrainian suspect hunted by police after Monaco bomb attack was 'disguised as a man'",
       "signal_count": 4,
@@ -131,7 +205,199 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.4249
+      "resonance": 0.2231
+    },
+    {
+      "id": "804f3ca542",
+      "title": "Elderly man said injured as settlers attack Palestinians, foreign volunteers in West Bank",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-injure-five-palestinians-occupied-west-bank",
+          "headline": "Israeli settlers injure five Palestinians in occupied West Bank",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/elderly-man-said-injured-as-settlers-attack-palestinians-foreign-volunteers-in-west-bank/",
+          "headline": "Elderly man said injured as settlers attack Palestinians, foreign volunteers in West Bank",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.15,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:26:44+00:00",
+      "last_seen": "2026-07-03T16:43:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2029
+    },
+    {
+      "id": "f0ae4dbb59",
+      "title": "Mourners in Damascus bury cafe bomb blast victims as officials promise justice",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/07/03/mourners-in-damascus-bury-cafe-bomb-blast-victims-as-officials-promise-justice",
+          "headline": "Mourners in Damascus bury cafe bomb blast victims as officials promise justice",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/3/mourners-bury-victims-of-damascus-cafe-bombing-with-six-lawyers-among-dead?traffic_source=rss",
+          "headline": "Mourners bury victims of Damascus cafe bombing with six lawyers among dead",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:28:45+00:00",
+      "last_seen": "2026-07-03T15:36:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1886
+    },
+    {
+      "id": "b355cec5c8",
+      "title": "France records 2,025 excess deaths from heatwave, but data remains incomplete",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/environment/article/2026/07/03/france-records-2-025-excess-deaths-from-heatwave-but-data-remains-incomplete_6755118_114.html",
+          "headline": "France records 2,025 excess deaths from heatwave, but data remains incomplete",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260703-france-saw-2-025-excess-deaths-in-june-heatwave",
+          "headline": "France saw 2,025 excess deaths in June heatwave",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T14:01:15+00:00",
+      "last_seen": "2026-07-03T15:40:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1463
+    },
+    {
+      "id": "5a4509c389",
+      "title": "Germany’s Merz defends NATO spending after Trump calls it ‘ridiculous’",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/3/germanys-merz-defends-nato-spending-after-trump-calls-it-ridiculous?traffic_source=rss",
+          "headline": "Germany’s Merz defends NATO spending after Trump calls it ‘ridiculous’",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3359369/merz-hits-back-trump-ridiculing-germanys-defence-spending-drive?utm_source=rss_feed",
+          "headline": "Merz hits back at Trump for ridiculing Germany’s defence spending drive",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.15,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T13:43:12+00:00",
+      "last_seen": "2026-07-03T16:05:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1396
+    },
+    {
+      "id": "08f74d028d",
+      "title": "Mamdani blasts ICE agents, Elon Musk and 'supremacy' in America 250 speech ahead of July 4 weekend",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/mamdani-blasts-ice-agents-elon-musk-supremacy-america-250-speech-ahead-july-4-weekend",
+          "headline": "Mamdani blasts ICE agents, Elon Musk and 'supremacy' in America 250 speech ahead of July 4 weekend",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-03T17:15:19+00:00",
+      "last_seen": "2026-07-03T17:15:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1381
+    },
+    {
+      "id": "942a175bdb",
+      "title": "Tamil Nadu govt. fixes issues with non-subdivision online patta transfers",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-govt-fixes-issues-with-non-subdivision-online-patta-transfers/article71179320.ece",
+          "headline": "Tamil Nadu govt. fixes issues with non-subdivision online patta transfers",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T17:15:07+00:00",
+      "last_seen": "2026-07-03T17:15:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1377
     },
     {
       "id": "631af81bcd",
@@ -171,12 +437,488 @@
       ],
       "geo_regions": [],
       "topic": "society",
-      "resonance": 0.2926
+      "resonance": 0.1358
     },
     {
-      "id": "f70b342183",
-      "title": "At least 32 dead after overcrowded bus plunges into ravine in Pakistan",
-      "signal_count": 4,
+      "id": "831ded3732",
+      "title": "F1: Antonelli is something else, says Hill",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/motorsport/f1-antonelli-is-something-else-says-hill/article71179630.ece",
+          "headline": "F1: Antonelli is something else, says Hill",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T17:13:36+00:00",
+      "last_seen": "2026-07-03T17:13:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1353
+    },
+    {
+      "id": "3a8e1f147e",
+      "title": "Nationals pitcher forced to apologize for perceived racism after opponent threw his helmet at him",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/nationals-pitcher-forced-apologize-perceived-racism-opponent-threw-helmet",
+          "headline": "Nationals pitcher forced to apologize for perceived racism after opponent threw his helmet at him",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-03T17:12:20+00:00",
+      "last_seen": "2026-07-03T17:12:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1333
+    },
+    {
+      "id": "4c5944e821",
+      "title": "Netanyahu and Trump held phone call on Friday, Israeli leader's office says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-and-trump-held-phone-call-friday-israeli-leaders-office-says",
+          "headline": "Netanyahu and Trump held phone call on Friday, Israeli leader's office says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T17:10:21+00:00",
+      "last_seen": "2026-07-03T17:10:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1302
+    },
+    {
+      "id": "838845698a",
+      "title": "U.S. withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-withdrew-forces-from-nigeria-after-operation-against-isis-africom-chief-says/article71180128.ece",
+          "headline": "U.S. withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T17:08:23+00:00",
+      "last_seen": "2026-07-03T17:08:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1271
+    },
+    {
+      "id": "0aa23e76a4",
+      "title": "IDF shells Hezbollah sites after soldier hurt in clash with gunman in south Lebanon",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/idf-shells-hezbollah-sites-after-soldier-hurt-in-clash-with-gunman-in-south-lebanon/",
+          "headline": "IDF shells Hezbollah sites after soldier hurt in clash with gunman in south Lebanon",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T17:08:02+00:00",
+      "last_seen": "2026-07-03T17:08:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1265
+    },
+    {
+      "id": "848d1a9b45",
+      "title": "Two Romanians jailed for stabbing journalist on behalf of Iran regime",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c24y2pr3dvyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Two Romanians jailed for stabbing journalist on behalf of Iran regime",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T17:06:38+00:00",
+      "last_seen": "2026-07-03T17:06:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1244
+    },
+    {
+      "id": "f61e2f21d5",
+      "title": "Cole Hauser says his family helped shape Montana as fans follow Taylor Sheridan from Treasure State to Texas",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/cole-hauser-says-his-family-helped-shape-montana-fans-follow-taylor-sheridan-from-treasure-state-texas",
+          "headline": "Cole Hauser says his family helped shape Montana as fans follow Taylor Sheridan from Treasure State to Texas",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-03T17:00:59+00:00",
+      "last_seen": "2026-07-03T17:00:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1156
+    },
+    {
+      "id": "b6a938387e",
+      "title": "How Elon Musk Became More Powerful Than Ever",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/podcasts/2026/07/how-elon-musk-became-more-powerful-ever/687807/?utm_source=feed",
+          "headline": "How Elon Musk Became More Powerful Than Ever",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T17:00:00+00:00",
+      "last_seen": "2026-07-03T17:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1141
+    },
+    {
+      "id": "713fbec571",
+      "title": "Pope calls for 'moderation' in US public discourse on 250th anniversary of independence",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260703-pope-calls-for-moderation-in-us-public-discourse-on-250th-anniversary-of-independence",
+          "headline": "Pope calls for 'moderation' in US public discourse on 250th anniversary of independence",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T16:53:00+00:00",
+      "last_seen": "2026-07-03T16:53:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1034
+    },
+    {
+      "id": "a7b7fa3cdc",
+      "title": "Live: Socceroos unchanged, Salah starts in historic clash",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-04/world-cup-live-blog-2026-socceroos-australia-vs-egypt/106877594",
+          "headline": "Live: Socceroos unchanged, Salah starts in historic clash",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T16:51:15+00:00",
+      "last_seen": "2026-07-03T16:51:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1008
+    },
+    {
+      "id": "8c7a3cadec",
+      "title": "William talks World Cup football fever on Travis Kelce's podcast",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cdx7dxrwg7ro?at_medium=RSS&at_campaign=rss",
+          "headline": "William talks World Cup football fever on Travis Kelce's podcast",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T16:46:23+00:00",
+      "last_seen": "2026-07-03T16:46:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0935
+    },
+    {
+      "id": "bf4bc0963a",
+      "title": "Polish PM warns critical months ahead in face of Russian threat",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cj0gp88q4l4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Polish PM warns critical months ahead in face of Russian threat",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T16:41:00+00:00",
+      "last_seen": "2026-07-03T16:41:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0855
+    },
+    {
+      "id": "d4dfff1535",
+      "title": "Zuma showing South Africa 'middle finger' by meeting Gupta brother - minister",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cvge0gd6lnqo?at_medium=RSS&at_campaign=rss",
+          "headline": "Zuma showing South Africa 'middle finger' by meeting Gupta brother - minister",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T16:39:00+00:00",
+      "last_seen": "2026-07-03T16:39:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0826
+    },
+    {
+      "id": "e260b82422",
+      "title": "Dissident Hong Kong bookseller Lam Wing-kee dies aged 70",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cwy0wy0nenvo?at_medium=RSS&at_campaign=rss",
+          "headline": "Dissident Hong Kong bookseller Lam Wing-kee dies aged 70",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T16:31:40+00:00",
+      "last_seen": "2026-07-03T16:31:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.072
+    },
+    {
+      "id": "1a5191babb",
+      "title": "Iran gets ready for Khamenei's funeral",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260703-iran-gets-ready-for-khamenei-s-funeral-1",
+          "headline": "Iran gets ready for Khamenei's funeral",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T16:31:05+00:00",
+      "last_seen": "2026-07-03T16:31:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0711
+    },
+    {
+      "id": "809d3261e4",
+      "title": "Chevy built an all-American EV truck — why is nobody buying it?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/",
+          "headline": "Chevy built an all-American EV truck — why is nobody buying it?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T16:30:00+00:00",
+      "last_seen": "2026-07-03T16:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0696
+    },
+    {
+      "id": "7c3e1c12d3",
+      "title": "Google DeepMind Unionization Talks Are Off to a Rocky Start",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/",
+          "headline": "Google DeepMind Unionization Talks Are Off to a Rocky Start",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-03T16:30:00+00:00",
+      "last_seen": "2026-07-03T16:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0696
+    },
+    {
+      "id": "9313ce1b84",
+      "title": "Bus Plunges 70 Feet Into a Ravine in Pakistan, Killing 40",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "Euronews",
@@ -189,455 +931,89 @@
           "url": "https://www.nytimes.com/2026/07/03/world/asia/pakistan-bus-crash.html",
           "headline": "Bus Plunges 70 Feet Into a Ravine in Pakistan, Killing 40",
           "platform": "rss"
-        },
-        {
-          "outlet": "Sky News",
-          "url": "https://news.sky.com/story/bus-plunges-into-ravine-in-pakistan-killing-40-13560085",
-          "headline": "Bus plunges into ravine, killing 40",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/czrxezg60x1o?at_medium=RSS&at_campaign=rss",
-          "headline": "At least 32 dead after overcrowded bus plunges into ravine in Pakistan",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.075,
-        "spread": 0.148,
+        "mean": -0.2,
+        "spread": 0.1,
         "left": 1,
-        "center": 3,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-03T09:56:57+00:00",
+      "first_seen": "2026-07-03T13:38:27+00:00",
       "last_seen": "2026-07-03T13:59:02+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.279
+      "resonance": 0.0677
     },
     {
-      "id": "aeb047cf02",
-      "title": "It’s Day 1 of the Supreme Leader’s Funeral, and Allies Gather in Iran",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/03/world/middleeast/iran-funeral-supreme-leader.html",
-          "headline": "It’s Day 1 of the Supreme Leader’s Funeral, and Allies Gather in Iran",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/07/03/iran-begins-funeral-rites-ali-khamenei-supreme-leader-killed-war/",
-          "headline": "Iran begins funeral rites for Ali Khamenei, supreme leader killed in war",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T12:41:39+00:00",
-      "last_seen": "2026-07-03T15:02:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1951
-    },
-    {
-      "id": "a2c2d9ba2e",
-      "title": "Interpol issues wanted notice for Monaco bombing suspect",
-      "signal_count": 2,
+      "id": "fa556cb67e",
+      "title": "Heavy rain floods Mumbai during intense monsoon spell",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/3/interpol-names-ukrainian-woman-as-suspect-in-monaco-bombing?traffic_source=rss",
-          "headline": "Interpol names Ukrainian woman as suspect in Monaco bombing",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-03/monaco-bomb-interpol-red-wanted-notice-anastasiia-berezovska/106878772",
-          "headline": "Interpol issues wanted notice for Monaco bombing suspect",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/heavy-rain-floods-mumbai-during-intense-monsoon-spell?traffic_source=rss",
+          "headline": "Heavy rain floods Mumbai during intense monsoon spell",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
+        "mean": -0.2,
+        "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-03T13:02:37+00:00",
-      "last_seen": "2026-07-03T13:25:55+00:00",
+      "first_seen": "2026-07-03T16:27:20+00:00",
+      "last_seen": "2026-07-03T16:27:20+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1442
+      "resonance": 0.0658
     },
     {
-      "id": "f8defd453f",
-      "title": "Syrian foreign minister's visit opens cautious channel to Hezbollah amid US pressure",
-      "signal_count": 2,
+      "id": "5fc420ff5e",
+      "title": "Saudi deputy foreign minister in Tehran for Khamenei funeral",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syrian-foreign-ministers-visit-opens-cautious-channel-hezbollah-amid-us",
-          "headline": "Syrian foreign minister's visit opens cautious channel to Hezbollah amid US pressure",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/syrian-fms-visit-opens-cautious-channel-hezbollah-amid-us-pressure",
-          "headline": "Syrian foreign minister's visit opens cautious channel to Hezbollah amid US pressure",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-deputy-foreign-minister-tehran-khamenei-funeral",
+          "headline": "Saudi deputy foreign minister in Tehran for Khamenei funeral",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.25,
         "spread": 0.0,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T14:38:05+00:00",
-      "last_seen": "2026-07-03T15:26:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1155
-    },
-    {
-      "id": "a07cc0273c",
-      "title": "Escaped POCSO accused rearrested; three policemen suspended",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/karnataka/escaped-pocso-accused-rearrested-three-policemen-suspended/article71179129.ece",
-          "headline": "Escaped POCSO accused rearrested; three policemen suspended",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:25:10+00:00",
-      "last_seen": "2026-07-03T15:25:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1061
-    },
-    {
-      "id": "04dfe4607d",
-      "title": "REPLAY: Mamdani gives speech as US marks 250th birthday",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260703-replay-mamdani-gives-speech-as-us-marks-250th-birthday",
-          "headline": "REPLAY: Mamdani gives speech as US marks 250th birthday",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:23:03+00:00",
-      "last_seen": "2026-07-03T15:23:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1021
-    },
-    {
-      "id": "95b127b9cd",
-      "title": "DMK functionary held for allegedly demanding money from builder in Tiruvottiyur",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/chennai/dmk-functionary-held-for-allegedly-demanding-money-from-builder-in-tiruvottiyur/article71178976.ece",
-          "headline": "DMK functionary held for allegedly demanding money from builder in Tiruvottiyur",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:22:58+00:00",
-      "last_seen": "2026-07-03T15:22:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.102
-    },
-    {
-      "id": "688b0ace9c",
-      "title": "Quarry owners increase prices of m-sand and p-sand",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/quarry-owners-increase-prices-of-m-sand-and-p-sand/article71179493.ece",
-          "headline": "Quarry owners increase prices of m-sand and p-sand",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:21:43+00:00",
-      "last_seen": "2026-07-03T15:21:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0996
-    },
-    {
-      "id": "c8d268cc51",
-      "title": "Iran FM confirms reports Israel planned to target Tehran's negotiators",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/07/03/iran-fm-confirms-reports-israel-planned-to-target-tehrans-negotiators",
-          "headline": "Iran FM confirms reports Israel planned to target Tehran's negotiators",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:21:13+00:00",
-      "last_seen": "2026-07-03T15:21:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0987
-    },
-    {
-      "id": "ce6f8b29f2",
-      "title": "Madonna takes over Paris as Bad Bunny arrives for his French concerts",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/tv-shows/arts24/20260703-madonna-takes-over-paris-as-bad-bunny-arrives-for-his-french-concerts",
-          "headline": "Madonna takes over Paris as Bad Bunny arrives for his French concerts",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:20:33+00:00",
-      "last_seen": "2026-07-03T15:20:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0975
-    },
-    {
-      "id": "ef041d75c1",
-      "title": "Trump calls out NATO ahead of summit, calling it 'ridiculous' for US to persist on 'one sided path'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/trump-calls-out-nato-ahead-summit-calling-ridiculous-us-persist-one-sided-path",
-          "headline": "Trump calls out NATO ahead of summit, calling it 'ridiculous' for US to persist on 'one sided path'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-03T15:19:22+00:00",
-      "last_seen": "2026-07-03T15:19:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0953
-    },
-    {
-      "id": "191fd427b0",
-      "title": "Spring-Summer 2027 menswear: The planet is burning",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/tv-shows/fashion/20260703-spring-summer-2027-menswear-the-planet-is-burning-1",
-          "headline": "Spring-Summer 2027 menswear: The planet is burning",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:16:25+00:00",
-      "last_seen": "2026-07-03T15:16:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0899
-    },
-    {
-      "id": "8c26e5e258",
-      "title": "Matthew McConaughey fires up Americans with patriotic speech for Independence Day 250th celebration",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-culture/matthew-mcconaughey-fires-americans-patriotic-speech-independence-day-250th-celebration",
-          "headline": "Matthew McConaughey fires up Americans with patriotic speech for Independence Day 250th celebration",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-03T15:11:07+00:00",
-      "last_seen": "2026-07-03T15:11:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0802
-    },
-    {
-      "id": "9fe473a486",
-      "title": "Dylan Cease gives Toronto Blue Jays a clear edge as Luis Castillo struggles at home for Seatt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/dylan-cease-gives-toronto-blue-jays-clear-edge-luis-castillo-struggles-home-seattle",
-          "headline": "Dylan Cease gives Toronto Blue Jays a clear edge as Luis Castillo struggles at home for Seatt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-03T15:06:56+00:00",
-      "last_seen": "2026-07-03T15:06:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0727
-    },
-    {
-      "id": "7edccb4dd6",
-      "title": "Denmark Has a Big Fourth of July Party. This Year, the U.S. Is Uninvited.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/03/world/europe/denmark-fourth-of-july-trump-us.html",
-          "headline": "Denmark Has a Big Fourth of July Party. This Year, the U.S. Is Uninvited.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-03T15:03:16+00:00",
-      "last_seen": "2026-07-03T15:03:16+00:00",
+      "first_seen": "2026-07-03T16:24:28+00:00",
+      "last_seen": "2026-07-03T16:24:28+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.0662
+      "resonance": 0.0617
     },
     {
-      "id": "b546146f5a",
-      "title": "Nigeria: US pulls some troops after anti-IS operation",
+      "id": "c14e53de36",
+      "title": "EU sanctions Russian researchers involved in Navalny's death",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/nigeria-us-pulls-some-troops-after-anti-is-operation/a-77824484?maca=en-rss-en-all-1573-rdf",
-          "headline": "Nigeria: US pulls some troops after anti-IS operation",
+          "url": "https://www.dw.com/en/eu-sanctions-russian-researchers-involved-in-navalny-s-death/a-77825077?maca=en-rss-en-all-1573-rdf",
+          "headline": "EU sanctions Russian researchers involved in Navalny's death",
           "platform": "rss"
         }
       ],
@@ -648,388 +1024,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-03T15:03:00+00:00",
-      "last_seen": "2026-07-03T15:03:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0657
-    },
-    {
-      "id": "c6202d7b83",
-      "title": "Instagram running ads promoting child sexual abuse material in India, BBC finds",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cvgm4e0316zo?at_medium=RSS&at_campaign=rss",
-          "headline": "Instagram running ads promoting child sexual abuse material in India, BBC finds",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:01:27+00:00",
-      "last_seen": "2026-07-03T15:01:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.063
-    },
-    {
-      "id": "3c7bde8dc2",
-      "title": "US national studying at Jerusalem’s Mir yeshiva charged with spying for Iran",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/us-national-studying-at-jerusalems-mir-yeshiva-charged-with-spying-for-iran/",
-          "headline": "US national studying at Jerusalem’s Mir yeshiva charged with spying for Iran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:00:53+00:00",
-      "last_seen": "2026-07-03T15:00:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.062
-    },
-    {
-      "id": "c155374513",
-      "title": "Cold feet and cooling prices: Australia’s property market is transforming – and first home buyers aren’t biting",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/04/australia-property-market-transforming-first-home-buyers-cold-feet",
-          "headline": "Cold feet and cooling prices: Australia’s property market is transforming – and first home buyers aren’t biting",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:00:33+00:00",
-      "last_seen": "2026-07-03T15:00:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0614
-    },
-    {
-      "id": "ab23aa8506",
-      "title": "America’s first sphere of influence becomes the test of its power at 250",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3359298/americas-first-sphere-influence-becomes-test-its-power-250?utm_source=rss_feed",
-          "headline": "America’s first sphere of influence becomes the test of its power at 250",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:00:07+00:00",
-      "last_seen": "2026-07-03T15:00:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0606
-    },
-    {
-      "id": "5f83dc8d56",
-      "title": "It Wasn’t Just the Founders",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/ideas/2026/07/american-revolution-history-founders/687800/?utm_source=feed",
-          "headline": "It Wasn’t Just the Founders",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:00:00+00:00",
-      "last_seen": "2026-07-03T15:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0604
-    },
-    {
-      "id": "dd5ae87e1d",
-      "title": "The ‘Have It Both Ways’ Theory of Great Books",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/newsletters/2026/07/the-books-briefing-david-thomson-book-classics-literature/687783/?utm_source=feed",
-          "headline": "The ‘Have It Both Ways’ Theory of Great Books",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:00:00+00:00",
-      "last_seen": "2026-07-03T15:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0604
-    },
-    {
-      "id": "7828394783",
-      "title": "The Strange History of the Word <em>Equal</em>",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/ideas/2026/07/history-word-equal-rights-declaration/687777/?utm_source=feed",
-          "headline": "The Strange History of the Word <em>Equal</em>",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:00:00+00:00",
-      "last_seen": "2026-07-03T15:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0604
-    },
-    {
-      "id": "f1c2c98c70",
-      "title": "While you’re watching the World Cup, the feds may be watching you",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/policy/961004/world-cup-america-250-surveillance-drones-cameras",
-          "headline": "While you’re watching the World Cup, the feds may be watching you",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T15:00:00+00:00",
-      "last_seen": "2026-07-03T15:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0604
-    },
-    {
-      "id": "800ab9a352",
-      "title": "Tibetan Man Dies After Self-Immolation Protest in New York",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/03/world/asia/tibet-self-immolation-united-nations-china.html",
-          "headline": "Tibetan Man Dies After Self-Immolation Protest in New York",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T14:58:23+00:00",
-      "last_seen": "2026-07-03T14:58:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0576
-    },
-    {
-      "id": "cb30092761",
-      "title": "One Nation is campaigning directly to Christians. But will party policies rub against worshippers’ conscience?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/03/one-nation-christians-christian-voters-churchgoers-ntwnfb",
-          "headline": "One Nation is campaigning directly to Christians. But will party policies rub against worshippers’ conscience?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T14:57:34+00:00",
-      "last_seen": "2026-07-03T14:57:34+00:00",
+      "first_seen": "2026-07-03T16:18:00+00:00",
+      "last_seen": "2026-07-03T16:18:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.0561
+      "resonance": 0.0526
     },
     {
-      "id": "1a5718397a",
-      "title": "German row over plan for workers to need sick note on first day of illness",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c4gyxnj38m1o?at_medium=RSS&at_campaign=rss",
-          "headline": "German row over plan for workers to need sick note on first day of illness",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T14:56:30+00:00",
-      "last_seen": "2026-07-03T14:56:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0543
-    },
-    {
-      "id": "0e95cb4490",
-      "title": "Three men found not guilty of journalist Lyra McKee's murder",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cpd357j7020o?at_medium=RSS&at_campaign=rss",
-          "headline": "Three men found not guilty of journalist Lyra McKee's murder",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T14:56:23+00:00",
-      "last_seen": "2026-07-03T14:56:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0541
-    },
-    {
-      "id": "2fade5dd7a",
-      "title": "NSW government ‘absolutely thrilled’ to welcome OpenAI ... until someone mentioned the Terminator films",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/technology/2026/jul/03/nsw-government-openai-arrives-sydney-terminator-films",
-          "headline": "NSW government ‘absolutely thrilled’ to welcome OpenAI ... until someone mentioned the Terminator films",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-03T14:54:59+00:00",
-      "last_seen": "2026-07-03T14:54:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0516
-    },
-    {
-      "id": "bec969db56",
-      "title": "Four Reasons Crimea Has Become Crucial in the Ukraine War",
+      "id": "728a672b27",
+      "title": "U.S. Officials Believed Israel Was Plotting to Kill Iranian Negotiators",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/02/world/europe/russia-crimea-ukraine.html",
-          "headline": "Four Reasons Crimea Has Become Crucial in the Ukraine War",
+          "url": "https://www.nytimes.com/2026/07/02/us/politics/israel-iran-negotiators-plot.html",
+          "headline": "U.S. Officials Believed Israel Was Plotting to Kill Iranian Negotiators",
           "platform": "rss"
         }
       ],
@@ -1040,27 +1052,51 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-03T14:54:03+00:00",
-      "last_seen": "2026-07-03T14:54:03+00:00",
+      "first_seen": "2026-07-03T16:16:06+00:00",
+      "last_seen": "2026-07-03T16:16:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
+      "topic": "world",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "9d6c3cb21e",
-      "target": "a2c2d9ba2e",
-      "weight": 0.269,
+      "source": "0e418ae7d5",
+      "target": "8c7a3cadec",
+      "weight": 0.182,
       "type": "thematic"
     },
     {
-      "source": "04dfe4607d",
-      "target": "8c26e5e258",
-      "weight": 0.272,
+      "source": "e161552d39",
+      "target": "9d6c3cb21e",
+      "weight": 0.288,
+      "type": "thematic"
+    },
+    {
+      "source": "9d6c3cb21e",
+      "target": "804f3ca542",
+      "weight": 0.16,
+      "type": "thematic"
+    },
+    {
+      "source": "08f74d028d",
+      "target": "b6a938387e",
+      "weight": 0.258,
+      "type": "thematic"
+    },
+    {
+      "source": "848d1a9b45",
+      "target": "1a5191babb",
+      "weight": 0.023,
+      "type": "thematic"
+    },
+    {
+      "source": "1a5191babb",
+      "target": "5fc420ff5e",
+      "weight": 0.596,
       "type": "thematic"
     }
   ],
@@ -1137,7 +1173,7 @@
     },
     "Le Monde (EN)": {
       "ok": true,
-      "count": 16,
+      "count": 18,
       "error": null
     },
     "Der Spiegel (EN)": {

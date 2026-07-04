@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-04T17:01:14.274554+00:00",
+  "generated_at": "2026-07-04T18:30:49.512692+00:00",
   "node_count": 35,
-  "edge_count": 6,
+  "edge_count": 7,
   "nodes": [
     {
-      "id": "7d181d024f",
-      "title": "Potential session/cache leakage between workspace instances or consumer accounts",
+      "id": "3a43138887",
+      "title": "Leaking YouTube creators' private videos",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://github.com/anthropics/claude-code/issues/74066",
-          "headline": "Potential session/cache leakage between workspace instances or consumer accounts",
+          "url": "https://javoriuski.com/post/youtube",
+          "headline": "Leaking YouTube creators' private videos",
           "platform": "hackernews"
         }
       ],
@@ -22,112 +22,398 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-04T14:03:40+00:00",
-      "last_seen": "2026-07-04T14:03:40+00:00",
+      "first_seen": "2026-07-04T16:45:10+00:00",
+      "last_seen": "2026-07-04T16:45:10+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "science",
+      "topic": "world",
       "resonance": 0.28
     },
     {
-      "id": "8badaf6842",
-      "title": "The Funeral of Iran’s Supreme Leader, Ali Khamenei",
-      "signal_count": 6,
+      "id": "b912e97280",
+      "title": "Injury ends Williams' Wimbledon comeback",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/04/world/middleeast/the-funeral-of-irans-supreme-leader-ali-khamenei.html",
-          "headline": "The Funeral of Iran’s Supreme Leader, Ali Khamenei",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/ce95mxn1rlmo?at_medium=RSS&at_campaign=rss",
+          "headline": "Injury ends Williams' Wimbledon comeback",
           "platform": "rss"
         },
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/iran-begins-six-day-state-funeral-ali-khamenei",
-          "headline": "Iran begins six-day state funeral for Ali Khamenei",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-05/serena-williams-knee-wimbledon/106881012",
+          "headline": "Knee 'tweak' ends Serena Williams Wimbledon comeback",
           "platform": "rss"
         },
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/04/world/middleeast/iran-supreme-leader-khamenei-son.html",
-          "headline": "Will Iran’s New Supreme Leader, Mojtaba Khamenei, Attend His Father’s Funeral?",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/04/world/middleeast/iran-funeral-supreme-leader-ali-khamenei.html",
-          "headline": "What to Know About Ayatollah Ali Khamenei as His Funeral Services Begin in Iran",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/gallery/2026/7/4/millions-mourn-irans-ali-khamenei-amid-historic-funeral-procession?traffic_source=rss",
-          "headline": "Millions mourn Iran’s Ali Khamenei amid historic funeral procession",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/04/nx-s1-5882083/iran-funeral-ayatollah-ali-khamenei",
-          "headline": "Dayslong funeral for slain Supreme Leader Ayatollah Ali Khamenei begins in Tehran",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/williams-sisters-withdraw-wimbledon-doubles-serena-suffers-knee-injury",
+          "headline": "Williams sisters withdraw from Wimbledon doubles after Serena suffers knee injury",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.25,
-        "spread": 0.058,
-        "left": 4,
+        "mean": 0.167,
+        "spread": 0.309,
+        "left": 0,
+        "center": 2,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T16:45:57+00:00",
+      "last_seen": "2026-07-04T17:22:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.442
+    },
+    {
+      "id": "cd7ab65ca2",
+      "title": "Ukraine hits major oil terminal in Russia's St Petersburg",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ukraine-strikes-oil-terminals-near-st-petersburg-in-russia/a-77830574?maca=en-rss-en-all-1573-rdf",
+          "headline": "Ukraine strikes oil terminals near St. Petersburg in Russia",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukraine hits major oil terminal in Russia's St Petersburg",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/4/ukraine-hits-oil-and-military-facilities-near-russias-st-petersburg?traffic_source=rss",
+          "headline": "Ukraine hits oil and military facilities near Russia’s St Petersburg",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.082,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T10:29:19+00:00",
+      "last_seen": "2026-07-04T17:48:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.2697
+    },
+    {
+      "id": "b38dd79f8f",
+      "title": "Canada vs Morocco, FIFA World Cup LIVE Round of 16: Morocco Azzedine Ounahi scores goal",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/canada-vs-morocco-fifa-world-cup-live-round-of-16/article71183507.ece",
+          "headline": "Canada vs Morocco, FIFA World Cup LIVE Round of 16: Morocco Azzedine Ounahi scores goal",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/4/canada-vs-morocco-live-fifa-world-cup-2026-last-16?traffic_source=rss",
+          "headline": "Canada vs Morocco LIVE: FIFA World Cup 2026 last 16",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-04T05:04:16+00:00",
-      "last_seen": "2026-07-04T16:12:23+00:00",
+      "first_seen": "2026-07-04T14:00:00+00:00",
+      "last_seen": "2026-07-04T18:26:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.2414
+    },
+    {
+      "id": "e7bf6c7f12",
+      "title": "France to face Paraguay as World Cup last 16 gets under way",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/4/france-vs-paraguay-live-fifa-world-cup-2026?traffic_source=rss",
+          "headline": "France vs Paraguay LIVE: FIFA World Cup 2026 last 16",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/france-to-face-paraguay-as-world-cup-last-16-gets-under-way",
+          "headline": "France to face Paraguay as World Cup last 16 gets under way",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T14:41:13+00:00",
+      "last_seen": "2026-07-04T17:51:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.2218
+    },
+    {
+      "id": "369ebcffed",
+      "title": "Maharashtra TET scam: Three more persons arrested from Punjab, Bihar",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/three-held-in-up-in-maharashtra-tet-paper-leak-case/article71177289.ece",
+          "headline": "Maharashtra TET scam: Three more persons arrested from Punjab, Bihar",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T18:25:57+00:00",
+      "last_seen": "2026-07-04T18:25:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2012
+    },
+    {
+      "id": "ea08aae007",
+      "title": "Streetlights on Container Road to be commissioned by July 15",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Kochi/streetlights-on-container-road-to-be-commissioned-by-july-15/article71183619.ece",
+          "headline": "Streetlights on Container Road to be commissioned by July 15",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T18:23:13+00:00",
+      "last_seen": "2026-07-04T18:23:13+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.3729
+      "resonance": 0.1971
     },
     {
-      "id": "0a71336c42",
-      "title": "Far-right Alternative for Germany party re-elects leaders as protesters, police clash",
-      "signal_count": 3,
+      "id": "73cd7e738e",
+      "title": "SIR: Political parties save the day as BLOs navigate unfamiliar territories to decide the electors’ fate",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/far-right-alternative-for-germany-party-re-elects-leaders-as-protesters-police-clash/article71183630.ece",
-          "headline": "Far-right Alternative for Germany party re-elects leaders as protesters, police clash",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/4/thousands-protest-in-germany-as-far-right-afd-party-meets?traffic_source=rss",
-          "headline": "Thousands protest in Germany as far-right AfD party meets",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/german-police-clash-with-protesters-trying-to-disrupt-far-right-afd-party-convention/",
-          "headline": "German police clash with protesters trying to disrupt far-right AfD party convention",
+          "url": "https://www.thehindu.com/news/national/telangana/sir-political-parties-save-the-day-as-blos-navigate-unfamiliar-territories-to-decide-the-electors-fate/article71183482.ece",
+          "headline": "SIR: Political parties save the day as BLOs navigate unfamiliar territories to decide the electors’ fate",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.083,
-        "spread": 0.103,
+        "mean": -0.1,
+        "spread": 0.0,
         "left": 0,
-        "center": 3,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-04T10:16:18+00:00",
-      "last_seen": "2026-07-04T16:25:46+00:00",
+      "first_seen": "2026-07-04T18:18:34+00:00",
+      "last_seen": "2026-07-04T18:18:34+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.3219
+      "topic": "world",
+      "resonance": 0.1903
+    },
+    {
+      "id": "b72e110bea",
+      "title": "Trump hints Israel’s Benjamin Netanyahu may visit US as early as next week",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/4/trump-hints-israels-benjamin-netanyahu-may-visit-us-as-early-as-next-week?traffic_source=rss",
+          "headline": "Trump hints Israel’s Benjamin Netanyahu may visit US as early as next week",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T18:17:58+00:00",
+      "last_seen": "2026-07-04T18:17:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1894
+    },
+    {
+      "id": "3678d6861f",
+      "title": "Turkiye’s Erdogan says Israel must not be able to ‘dynamite’ US-Iran deal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/4/turkiyes-erdogan-says-israel-must-not-be-able-to-dynamite-us-iran-deal?traffic_source=rss",
+          "headline": "Turkiye’s Erdogan says Israel must not be able to ‘dynamite’ US-Iran deal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T18:09:20+00:00",
+      "last_seen": "2026-07-04T18:09:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1769
+    },
+    {
+      "id": "6b55514ab2",
+      "title": "Illegal immigrant truck driver charged in death of trooper who moved home to care for mom with cancer",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/illegal-immigrant-truck-driver-charged-death-trooper-who-moved-home-care-mom-cancer",
+          "headline": "Illegal immigrant truck driver charged in death of trooper who moved home to care for mom with cancer",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T18:06:03+00:00",
+      "last_seen": "2026-07-04T18:06:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.1722
+    },
+    {
+      "id": "5365e7fe72",
+      "title": "BBC in Tehran as mourners gather for former supreme leader's funeral",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/videos/c5yz9jn0xkko?at_medium=RSS&at_campaign=rss",
+          "headline": "BBC in Tehran as mourners gather for former supreme leader's funeral",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/thousands-of-mourners-gather-for-funeral-of-irans-assassinated-supreme-leader-ali-khamenei-13560339",
+          "headline": "Thousands gather for funeral of Iran's assassinated supreme leader",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/07/04/world/funeral-ceremonies-iran-ali-khamenei/",
+          "headline": "Huge crowds gather as funeral ceremonies for Iranian supreme leader Khamenei begin",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.033,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T06:49:00+00:00",
+      "last_seen": "2026-07-04T16:49:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1719
+    },
+    {
+      "id": "06f4b018cb",
+      "title": "Trump’s Travel Crackdown Has a Winner: Mexican Tourism",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/04/world/americas/world-cup-mexico-tourism-trump.html",
+          "headline": "Trump’s Travel Crackdown Has a Winner: Mexican Tourism",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T18:03:09+00:00",
+      "last_seen": "2026-07-04T18:03:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.168
     },
     {
       "id": "4529706141",
@@ -161,199 +447,457 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.3204
+      "resonance": 0.1676
     },
     {
-      "id": "83cc3f1680",
-      "title": "Canada vs Morocco, FIFA World Cup LIVE Round of 16",
-      "signal_count": 2,
+      "id": "34aaf5d80a",
+      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/canada-vs-morocco-fifa-world-cup-live-round-of-16/article71183507.ece",
-          "headline": "Canada vs Morocco, FIFA World Cup LIVE Round of 16",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/4/canada-vs-morocco-live-fifa-world-cup-2026-last-16?traffic_source=rss",
-          "headline": "Canada vs Morocco LIVE: FIFA World Cup 2026 last 16",
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+          "headline": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
+        "mean": -0.1,
+        "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-04T14:00:00+00:00",
-      "last_seen": "2026-07-04T16:56:54+00:00",
+      "first_seen": "2026-07-04T18:00:05+00:00",
+      "last_seen": "2026-07-04T18:00:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.3077
+      "topic": "tech",
+      "resonance": 0.1637
     },
     {
-      "id": "2481dc59d4",
-      "title": "Mali rebels target army bases, prison in fresh attacks",
-      "signal_count": 3,
+      "id": "974c46bdcf",
+      "title": "Supporting Pride London 'more important than ever'",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/mali-rebels-target-army-bases-prison-in-fresh-attacks/a-77833144?maca=en-rss-en-all-1573-rdf",
-          "headline": "Mali rebels target army bases, prison in fresh attacks",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/4/armed-fighters-attack-multiple-towns-across-mali?traffic_source=rss",
-          "headline": "Mali’s army says rebels launch new attacks on towns and cities",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/africa/20260704-mali-insurgents-attack-prison-and-multiple-towns-army-says",
-          "headline": "Mali insurgents attack multiple towns and a prison, army says",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cvgqlplpyyqo?at_medium=RSS&at_campaign=rss",
+          "headline": "Supporting Pride London 'more important than ever'",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.133,
-        "spread": 0.047,
+        "mean": -0.1,
+        "spread": 0.0,
         "left": 0,
-        "center": 3,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-04T08:50:10+00:00",
-      "last_seen": "2026-07-04T16:04:00+00:00",
+      "first_seen": "2026-07-04T17:56:50+00:00",
+      "last_seen": "2026-07-04T17:56:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1592
+    },
+    {
+      "id": "2cc0e3ff98",
+      "title": "Egypt says it uncovered lost Byzantine-era residential city in western desert",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/egypt-says-it-uncovered-lost-byzantine-era-residential-city-in-western-desert/",
+          "headline": "Egypt says it uncovered lost Byzantine-era residential city in western desert",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T17:54:31+00:00",
+      "last_seen": "2026-07-04T17:54:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1559
+    },
+    {
+      "id": "8badaf6842",
+      "title": "The Funeral of Iran’s Supreme Leader, Ali Khamenei",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/04/world/middleeast/the-funeral-of-irans-supreme-leader-ali-khamenei.html",
+          "headline": "The Funeral of Iran’s Supreme Leader, Ali Khamenei",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/iran-begins-six-day-state-funeral-ali-khamenei",
+          "headline": "Iran begins six-day state funeral for Ali Khamenei",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/04/world/middleeast/iran-supreme-leader-khamenei-son.html",
+          "headline": "Will Iran’s New Supreme Leader, Mojtaba Khamenei, Attend His Father’s Funeral?",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/04/world/middleeast/iran-funeral-supreme-leader-ali-khamenei.html",
+          "headline": "What to Know About Ayatollah Ali Khamenei as His Funeral Services Begin in Iran",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/gallery/2026/7/4/millions-mourn-irans-ali-khamenei-amid-historic-funeral-procession?traffic_source=rss",
+          "headline": "Millions mourn Iran’s Ali Khamenei amid historic funeral procession",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.27,
+        "spread": 0.04,
+        "left": 4,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T10:16:31+00:00",
+      "last_seen": "2026-07-04T16:12:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1531
+    },
+    {
+      "id": "9b728091c5",
+      "title": "Dior dress, Adam Sandler and a man of honour: What we know about Taylor and Travis's wedding",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cvg5zn58nj2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Dior dress, Adam Sandler and a man of honour: What we know about Taylor and Travis's wedding",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T17:51:04+00:00",
+      "last_seen": "2026-07-04T17:51:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1512
+    },
+    {
+      "id": "80ec59bbe9",
+      "title": "Hollywood celebrities crash America's 250th birthday with a grim holiday warning about Trump",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/hollywood-celebrities-crash-americas-250th-birthday-grim-holiday-warning-trump",
+          "headline": "Hollywood celebrities crash America's 250th birthday with a grim holiday warning about Trump",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T17:46:18+00:00",
+      "last_seen": "2026-07-04T17:46:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.2605
+      "resonance": 0.1446
     },
     {
-      "id": "fc44b428a7",
-      "title": "Zelensky denies Russian capture of key eastern city",
-      "signal_count": 2,
+      "id": "ea65284625",
+      "title": "Armenia’s defiant drag scene braves pushback",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/zelenskyy-denies-russian-capture-of-key-eastern-city-kostiantynivka/article71183680.ece",
-          "headline": "Zelenskyy denies Russian capture of key eastern city Kostiantynivka",
-          "platform": "rss"
-        },
-        {
           "outlet": "France 24",
-          "url": "https://www.france24.com/en/zelensky-denies-russian-capture-of-key-eastern-city",
-          "headline": "Zelensky denies Russian capture of key eastern city",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20260704-armenia-s-defiant-drag-scene-braves-pushback",
+          "headline": "Armenia’s defiant drag scene braves pushback",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.1,
         "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T17:44:41+00:00",
+      "last_seen": "2026-07-04T17:44:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1424
+    },
+    {
+      "id": "a04c8f6f6e",
+      "title": "Vingegaard takes early Tour de France lead as Visma win opening stage in Barcelona",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260704-vingegaard-takes-early-tour-de-france-lead-as-visma-win-opening-stage-in-barcelona",
+          "headline": "Vingegaard takes early Tour de France lead as Visma win opening stage in Barcelona",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T17:37:31+00:00",
+      "last_seen": "2026-07-04T17:37:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1328
+    },
+    {
+      "id": "1bfdb28ef9",
+      "title": "Tens of thousands of far-left protesters clash with police in anti-conservative party riots",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/tens-thousands-far-left-protesters-clash-police-anti-conservative-party-riots",
+          "headline": "Tens of thousands of far-left protesters clash with police in anti-conservative party riots",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T17:37:02+00:00",
+      "last_seen": "2026-07-04T17:37:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.1322
+    },
+    {
+      "id": "018076f5fe",
+      "title": "Curtis Young on America's \"diffcult moment in the mirror\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20260704-curtis-young-on-the-america-s-diffcult-moment-in-the-mirror",
+          "headline": "Curtis Young on America's \"diffcult moment in the mirror\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T17:36:25+00:00",
+      "last_seen": "2026-07-04T17:36:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1313
+    },
+    {
+      "id": "d6930eadaa",
+      "title": "Momentary Unity at a Funeral Masks Deep Divisions Among Iran’s Leaders",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/04/world/middleeast/iran-supreme-leader-funeral-divisions.html",
+          "headline": "Momentary Unity at a Funeral Masks Deep Divisions Among Iran’s Leaders",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T17:28:50+00:00",
+      "last_seen": "2026-07-04T17:28:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1213
+    },
+    {
+      "id": "655520232b",
+      "title": "Trump seeks to put himself centre stage for US Independence Day",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3359440/trump-seeks-put-himself-centre-stage-us-independence-day?utm_source=rss_feed",
+          "headline": "Trump seeks to put himself centre stage for US Independence Day",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T17:20:46+00:00",
+      "last_seen": "2026-07-04T17:20:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1109
+    },
+    {
+      "id": "aa2e8abc44",
+      "title": "Police clash with protesters outside AfD meeting",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/4/police-clash-with-protesters-outside-afd-meeting?traffic_source=rss",
+          "headline": "Police clash with protesters outside AfD meeting",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/german-police-clash-with-protesters-trying-to-disrupt-far-right-afd-party-convention/",
+          "headline": "German police clash with protesters trying to disrupt far-right AfD party convention",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.075,
+        "spread": 0.125,
         "left": 0,
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-04T11:53:03+00:00",
-      "last_seen": "2026-07-04T16:49:05+00:00",
+      "first_seen": "2026-07-04T10:16:18+00:00",
+      "last_seen": "2026-07-04T17:13:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.1067
+    },
+    {
+      "id": "aacc6af9cd",
+      "title": "Putin Visits Battlefield and Vows to Take More of Ukraine",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/03/world/europe/putin-ukraine-donbas-battlefield-visit.html",
+          "headline": "Putin Visits Battlefield and Vows to Take More of Ukraine",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T17:11:14+00:00",
+      "last_seen": "2026-07-04T17:11:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0988
+    },
+    {
+      "id": "f0b0bee4c9",
+      "title": "Sachiko Kazama’s art bites back at a cruel society",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/culture/2026/07/05/art/sachiko-kazama-exhibition-aomori/",
+          "headline": "Sachiko Kazama’s art bites back at a cruel society",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T17:00:00+00:00",
+      "last_seen": "2026-07-04T17:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2213
-    },
-    {
-      "id": "28eeeafe43",
-      "title": "OMCs executives, analysts emphasise E20 compliant, thoroughly tested amid raging concerns",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/business/Industry/automakers-analysts-emphasise-e20-safe-thoroughly-tested-amid-raging-concerns/article71183627.ece",
-          "headline": "OMCs executives, analysts emphasise E20 compliant, thoroughly tested amid raging concerns",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T16:54:15+00:00",
-      "last_seen": "2026-07-04T16:54:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1895
-    },
-    {
-      "id": "0ff4fa9d5f",
-      "title": "Minister challenges YSRCP for debate on Rayalaseema development claims",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/minister-dares-ysrcp-for-debate-on-development-of-rayalaseema/article71183325.ece",
-          "headline": "Minister challenges YSRCP for debate on Rayalaseema development claims",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T16:53:46+00:00",
-      "last_seen": "2026-07-04T16:53:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1885
-    },
-    {
-      "id": "262787924b",
-      "title": "Finance Ministry notifies rules for determination of origin of goods under India-U.K. trade pact",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/business/finance-ministry-notifies-rules-for-determination-of-origin-of-goods-under-india-uk-trade-pact/article71183697.ece",
-          "headline": "Finance Ministry notifies rules for determination of origin of goods under India-U.K. trade pact",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T16:52:10+00:00",
-      "last_seen": "2026-07-04T16:52:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.1852
+      "resonance": 0.0849
     },
     {
       "id": "c309ae98d6",
@@ -381,35 +925,7 @@
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.1835
-    },
-    {
-      "id": "5365e7fe72",
-      "title": "BBC in Tehran as mourners gather for former supreme leader's funeral",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/videos/c5yz9jn0xkko?at_medium=RSS&at_campaign=rss",
-          "headline": "BBC in Tehran as mourners gather for former supreme leader's funeral",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T16:49:36+00:00",
-      "last_seen": "2026-07-04T16:49:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1799
+      "resonance": 0.0744
     },
     {
       "id": "20de45c3bb",
@@ -437,63 +953,7 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1792
-    },
-    {
-      "id": "9092b4db53",
-      "title": "Williams sisters withdraw from Wimbledon doubles after Serena suffers knee injury",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/williams-sisters-withdraw-wimbledon-doubles-serena-suffers-knee-injury",
-          "headline": "Williams sisters withdraw from Wimbledon doubles after Serena suffers knee injury",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T16:45:57+00:00",
-      "last_seen": "2026-07-04T16:45:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1725
-    },
-    {
-      "id": "9b728091c5",
-      "title": "Dior dress, Adam Sandler and a man of honour: What we know about Taylor and Travis's wedding",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cvg5zn58nj2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Dior dress, Adam Sandler and a man of honour: What we know about Taylor and Travis's wedding",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T16:43:46+00:00",
-      "last_seen": "2026-07-04T16:43:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1681
+      "resonance": 0.0719
     },
     {
       "id": "e21d31919b",
@@ -521,7 +981,7 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1648
+      "resonance": 0.0635
     },
     {
       "id": "35075f0bfc",
@@ -549,41 +1009,7 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1645
-    },
-    {
-      "id": "3a1884266b",
-      "title": "On July Fourth, Pope Leo urges U.S. to welcome, protect and assist immigrants",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/pope-leo-urges-us-welcome-immigrants-america-250-speech-before-visiting-global-migrant-hotspot",
-          "headline": "Pope Leo urges US to welcome immigrants in America 250 speech before visiting global migrant hotspot",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/07/04/lampedusa-island-gateway-europe-pope-leo-calls-protecting-migrants/",
-          "headline": "On July Fourth, Pope Leo urges U.S. to welcome, protect and assist immigrants",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.45,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T12:28:18+00:00",
-      "last_seen": "2026-07-04T15:47:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1491
+      "resonance": 0.0633
     },
     {
       "id": "5f39133cec",
@@ -611,7 +1037,7 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1449
+      "resonance": 0.0519
     },
     {
       "id": "aef91d7be5",
@@ -639,488 +1065,50 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1417
-    },
-    {
-      "id": "e7af443bb0",
-      "title": "Opinion: Sports is one of America's greatest traditions and a powerful force that unites us",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/opinion-sports-one-americas-greatest-traditions-powerful-force-unites-us",
-          "headline": "Opinion: Sports is one of America's greatest traditions and a powerful force that unites us",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T16:27:12+00:00",
-      "last_seen": "2026-07-04T16:27:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1352
-    },
-    {
-      "id": "604c1281c0",
-      "title": "Mike Lawler predicts voters will soundly reject radical socialist 'politics of envy' in midterms",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/mike-lawler-predicts-voters-soundly-reject-radical-socialist-politics-envy-midterms",
-          "headline": "Mike Lawler predicts voters will soundly reject radical socialist 'politics of envy' in midterms",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T16:27:10+00:00",
-      "last_seen": "2026-07-04T16:27:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1352
-    },
-    {
-      "id": "dcea80dd44",
-      "title": "At least 7 Palestinians killed by Israeli forces over past 48 hours in Gaza",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/4/at-least-7-palestinians-killed-by-israeli-forces-over-past-48-hours-in-gaza?traffic_source=rss",
-          "headline": "At least 7 Palestinians killed by Israeli forces over past 48 hours in Gaza",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T16:23:48+00:00",
-      "last_seen": "2026-07-04T16:23:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1287
-    },
-    {
-      "id": "4664ca3731",
-      "title": "Live: Canada meets Morocco for quarterfinal spot ahead of Paraguay-France clash",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-05/world-cup-live-blog-2026-canada-morocco-paraguay-france/106879810",
-          "headline": "Live: Canada meets Morocco for quarterfinal spot ahead of Paraguay-France clash",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T16:19:54+00:00",
-      "last_seen": "2026-07-04T16:19:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1212
-    },
-    {
-      "id": "ca34739513",
-      "title": "White House deletes thousands of web pages about energy conservation as heatwave slams US",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
-          "headline": "White House deletes thousands of web pages about energy conservation as heatwave slams US",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T16:19:06+00:00",
-      "last_seen": "2026-07-04T16:19:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.1197
-    },
-    {
-      "id": "997e5d6a3e",
-      "title": "Matic’s robot vacuum is getting a $250 price hike in September",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/960753/matic-robot-vacuum-mop-price-increase-cost-buy",
-          "headline": "Matic’s robot vacuum is getting a $250 price hike in September",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T16:00:00+00:00",
-      "last_seen": "2026-07-04T16:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0841
-    },
-    {
-      "id": "4eac68af54",
-      "title": "Submit Your Questions: Inside The World of Online Romance Scams",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/livestream-book-club-inside-the-world-of-online-romance-scams/",
-          "headline": "Submit Your Questions: Inside The World of Online Romance Scams",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T16:00:00+00:00",
-      "last_seen": "2026-07-04T16:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0841
-    },
-    {
-      "id": "cd7ab65ca2",
-      "title": "Ukraine hits major oil terminal in Russia's St Petersburg",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukraine hits major oil terminal in Russia's St Petersburg",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/4/ukraine-hits-oil-and-military-facilities-near-russias-st-petersburg?traffic_source=rss",
-          "headline": "Ukraine hits oil and military facilities near Russia’s St Petersburg",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ukraine-strikes-oil-terminals-near-st-petersburg-in-russia/a-77830574?maca=en-rss-en-all-1573-rdf",
-          "headline": "Ukraine strikes oil terminals near St. Petersburg in Russia",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.082,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T09:02:00+00:00",
-      "last_seen": "2026-07-04T14:07:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0835
-    },
-    {
-      "id": "eaa45f2f18",
-      "title": "The bottleneck might be the air in the room",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
-          "headline": "The bottleneck might be the air in the room",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T06:32:28+00:00",
-      "last_seen": "2026-07-04T06:32:28+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0714
-    },
-    {
-      "id": "84b3f667da",
-      "title": "Move over Chutes & Ladders: Schisto & Ladders has educational value plus worms",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/04/g-s1-129679/chutes-ladders-schistosomiasis-worms-parasites",
-          "headline": "Move over Chutes & Ladders: Schisto & Ladders has educational value plus worms",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:51:49+00:00",
-      "last_seen": "2026-07-04T15:51:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0693
-    },
-    {
-      "id": "4cfcd43634",
-      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-          "headline": "What is Mistral AI? Everything to know about the OpenAI competitor",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:51:32+00:00",
-      "last_seen": "2026-07-04T15:51:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0688
-    },
-    {
-      "id": "a933aae850",
-      "title": "Iran promotes message of continuity and revenge at Khamenei commemoration",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/4/iran-promotes-message-of-continuity-and-revenge-at-khamenei-commemoration?traffic_source=rss",
-          "headline": "Iran promotes message of continuity and revenge at Khamenei commemoration",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:49:39+00:00",
-      "last_seen": "2026-07-04T15:49:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0654
-    },
-    {
-      "id": "7ed9c4c88b",
-      "title": "Former chess champion Kramnik banned over cheating remarks",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cd6epx607dqo?at_medium=RSS&at_campaign=rss",
-          "headline": "Former chess champion Kramnik banned over cheating remarks",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:45:15+00:00",
-      "last_seen": "2026-07-04T15:45:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0576
-    },
-    {
-      "id": "fdd509acd2",
-      "title": "Rebel attacks in northern Mali: Some targets meant as 'diversions', expert says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/rebel-attacks-in-northern-mali-some-targets-meant-as-diversions-expert-says",
-          "headline": "Rebel attacks in northern Mali: Some targets meant as 'diversions', expert says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:44:25+00:00",
-      "last_seen": "2026-07-04T15:44:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0562
-    },
-    {
-      "id": "1326e8935b",
-      "title": "In Tehran, huge throngs mourn assassinated supreme leader Ali Khamenei",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/07/04/tehran-huge-throngs-mourn-assassinated-supreme-leader-ali-khamenei/",
-          "headline": "In Tehran, huge throngs mourn assassinated supreme leader Ali Khamenei",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/thousands-flock-tehran-mourn-slain-supreme-leader",
-          "headline": "Thousands flock to Tehran to mourn slain Supreme Leader",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Sky News",
-          "url": "https://news.sky.com/story/thousands-of-mourners-gather-for-funeral-of-irans-assassinated-supreme-leader-ali-khamenei-13560339",
-          "headline": "Thousands gather for funeral of Iran's assassinated supreme leader",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.178,
-        "left": 2,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T09:20:00+00:00",
-      "last_seen": "2026-07-04T13:33:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "8badaf6842",
-      "target": "5365e7fe72",
-      "weight": 0.905,
+      "source": "b38dd79f8f",
+      "target": "c309ae98d6",
+      "weight": 0.517,
       "type": "thematic"
     },
     {
-      "source": "8badaf6842",
-      "target": "a933aae850",
-      "weight": 0.485,
+      "source": "e7bf6c7f12",
+      "target": "c309ae98d6",
+      "weight": 0.104,
       "type": "thematic"
     },
     {
-      "source": "4529706141",
-      "target": "35075f0bfc",
-      "weight": 0.022,
-      "type": "thematic"
-    },
-    {
-      "source": "83cc3f1680",
-      "target": "4664ca3731",
-      "weight": 0.719,
-      "type": "thematic"
-    },
-    {
-      "source": "2481dc59d4",
-      "target": "fdd509acd2",
-      "weight": 0.254,
+      "source": "ea08aae007",
+      "target": "e21d31919b",
+      "weight": 0.043,
       "type": "thematic"
     },
     {
       "source": "5365e7fe72",
-      "target": "1326e8935b",
-      "weight": 0.571,
+      "target": "8badaf6842",
+      "weight": 0.856,
+      "type": "thematic"
+    },
+    {
+      "source": "4529706141",
+      "target": "80ec59bbe9",
+      "weight": 0.313,
+      "type": "thematic"
+    },
+    {
+      "source": "8badaf6842",
+      "target": "d6930eadaa",
+      "weight": 0.259,
+      "type": "thematic"
+    },
+    {
+      "source": "1bfdb28ef9",
+      "target": "aa2e8abc44",
+      "weight": 0.646,
       "type": "thematic"
     }
   ],
@@ -1147,7 +1135,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 7,
+      "count": 6,
       "error": null
     },
     "The Economist": {

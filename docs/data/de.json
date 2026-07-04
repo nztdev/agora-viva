@@ -1,20 +1,102 @@
 {
-  "generated_at": "2026-07-04T16:14:02.030441+00:00",
+  "generated_at": "2026-07-04T20:15:41.214660+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 20,
+  "edge_count": 15,
   "nodes": [
     {
-      "id": "15c47056f8",
-      "title": "AfD: Tausende protestieren gegen AfD-Parteitag in Erfurt",
+      "id": "43c5de1e18",
+      "title": "Türkei: Türkei verweigert LGBTQ-Kreuzfahrtschiff das Anlegen",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/vermischtes/article6a4953eb44ae5595894c9543/schiff-scarlet-lady-tuerkei-verweigert-kreuzfahrtschiff-fuer-lgbtq-gaeste-das-anlegen.html",
+          "headline": "Türkei verweigert Kreuzfahrtschiff für LGBTQ-Gäste das Anlegen",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-07/tuerkei-lgbtq-kreuzfahrtschiff-verbot-scarlet-lady",
+          "headline": "Türkei: Türkei verweigert LGBTQ-Kreuzfahrtschiff das Anlegen",
+          "platform": "rss"
+        },
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/panorama/Tuerkei-laesst-LGBTQ-Kreuzfahrtschiff-nicht-anlegen-id31048617.html",
+          "headline": "\"Mit Werten unvereinbar\": Türkei lässt LGBTQ-Kreuzfahrtschiff nicht anlegen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.245,
+        "left": 1,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T18:11:40+00:00",
+      "last_seen": "2026-07-04T19:29:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.6807
+    },
+    {
+      "id": "c17e977d6a",
+      "title": "Stade: Zahlreiche Menschen nehmen an Gedenken für Opfer teil",
       "signal_count": 2,
       "sources": [
         {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/vermischtes/article6a494759ad32e994f875b885/bluttat-in-stade-eine-unglaubliche-tat-brutal-grausam-unbegreiflich-zahlreiche-menschen-gedenken-der-opfer.html",
+          "headline": "„Eine unglaubliche Tat. Brutal. Grausam. Unbegreiflich“ – Zahlreiche Menschen gedenken der Opfer",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/justiz/stade-zahlreiche-menschen-nehmen-an-gedenken-fuer-opfer-teil-a-3b4cbc52-8bff-4f75-9ab2-d50b490f1cc2#ref=rss",
+          "headline": "Stade: Zahlreiche Menschen nehmen an Gedenken für Opfer teil",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.075,
+        "spread": 0.225,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T17:36:00+00:00",
+      "last_seen": "2026-07-04T18:26:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.3126
+    },
+    {
+      "id": "5b1a94c514",
+      "title": "AfD-Parteitag in Erfurt: Alice Weidels Rache",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/politik/deutschland/afd-parteitag-in-erfurt-alice-weidels-rache-a-fe6359b6-c667-493a-8743-c739a33fb9f1#ref=rss",
+          "headline": "AfD-Parteitag in Erfurt: Alice Weidels Rache",
+          "platform": "rss"
+        },
+        {
           "outlet": "taz",
-          "url": "https://taz.de/Liveticker-zum-AfD-Parteitag-und-den-Gegenprotesten/!6193016/",
-          "headline": "+++ AfD-Parteitag und Gegenprotest +++: Riesenprotest gegen AfD-Parteitag",
+          "url": "https://taz.de/AfD-Parteitag-in-Erfurt/!6193443/",
+          "headline": "AfD-Parteitag in Erfurt: Weidels Wahlverein",
           "platform": "rss"
         },
         {
@@ -22,203 +104,75 @@
           "url": "https://www.handelsblatt.com/politik/deutschland/afd-tausende-protestieren-gegen-afd-parteitag-in-erfurt/100237891.html",
           "headline": "AfD: Tausende protestieren gegen AfD-Parteitag in Erfurt",
           "platform": "rss"
+        },
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Liveticker-zum-AfD-Parteitag-und-den-Gegenprotesten/!6193016/",
+          "headline": "+++ AfD-Parteitag und Protest +++: Riesenprotest gegen AfD-Parteitag",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.2,
-        "spread": 0.35,
+        "mean": -0.275,
+        "spread": 0.295,
+        "left": 2,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T14:41:00+00:00",
+      "last_seen": "2026-07-04T18:21:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.267
+    },
+    {
+      "id": "d5fd9757e6",
+      "title": "Fußball-WM: Mitfavorit Marokko im WM-Viertelfinale - Kanada «am Boden»",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/arts_und_style/lifestyle/wm-2026-mitfavorit-marokko-im-wm-viertelfinale-kanada-raus/100231388.html",
+          "headline": "+++ Fußball-WM 2026 +++: Mitfavorit Marokko im WM-Viertelfinale – Kanada raus",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/04/mitfavorit-marokko-im-wm-viertelfinale-kanada-raus",
+          "headline": "Fußball-WM: Mitfavorit Marokko im WM-Viertelfinale - Kanada «am Boden»",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.075,
+        "spread": 0.225,
         "left": 1,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-04T14:17:16+00:00",
-      "last_seen": "2026-07-04T14:41:00+00:00",
+      "first_seen": "2026-07-04T19:40:43+00:00",
+      "last_seen": "2026-07-05T01:54:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
+      "topic": "sport",
       "language": "de",
-      "resonance": 0.6254
+      "resonance": 0.2581
     },
     {
-      "id": "298bdb95e6",
-      "title": "Arbeitskollegen meldeten ihn als vermisst – 19-Jähriger stürzt 200 Meter in den Tod",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/article6a4911210b14ed961bb51d98/bayern-arbeitskollegen-meldeten-ihn-als-vermisst-19-jaehriger-stuerzt-200-meter-in-den-tod.html",
-          "headline": "Arbeitskollegen meldeten ihn als vermisst – 19-Jähriger stürzt 200 Meter in den Tod",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/panorama/19-Jaehriger-stuerzt-200-Meter-ueber-steile-Felsrinne-ab-id31048028.html",
-          "headline": "Tödliches Unglück in Bayern: 19-Jähriger stürzt 200 Meter über steile Felsrinne ab",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.15,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T13:32:55+00:00",
-      "last_seen": "2026-07-04T14:24:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.5405
-    },
-    {
-      "id": "f92d7cb7a7",
-      "title": "Erfurt: AfD-Parteitag: Chrupalla und Weidel als Parteichefs wiedergewählt",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/politik/afd-parteitag-erfurt-demonstrationen-li.3510352",
-          "headline": "Erfurt: AfD-Parteitag: Chrupalla und Weidel als Parteichefs wiedergewählt",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/politik/deutschland/afd-parteitag-in-erfurt-delegierte-waehlen-chrupalla-und-weidel-als-co-chefs-a-089b6f4d-0135-42c0-a5f5-999e1a64aca2#ref=rss",
-          "headline": "AfD-Parteitag in Erfurt: Delegierte wählen Chrupalla und Weidel als Co-Chefs",
-          "platform": "rss"
-        },
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-chrupalla-und-weidel-als-afd-bundessprecher-wiedergewaehlt-faz-110093143.html",
-          "headline": "Deutschland-Liveblog: Chrupalla und Weidel als AfD-Bundessprecher wiedergewählt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.178,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T11:44:29+00:00",
-      "last_seen": "2026-07-04T13:37:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.4901
-    },
-    {
-      "id": "34bbc9c180",
-      "title": "Krieg in der Ukraine: Russland meldet Einnahme von Kostjantyniwka, Ukraine dementiert",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/international/ukraine-selenskyj-widerspricht-behauptung-ueber-einnahme-kostjantyniwkas/27982126.html",
-          "headline": "+++ Ukraine-Krieg +++: Russland meldet Einnahme von Kostjantyniwka – Selenskyj widerspricht",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-russland-kostjantyniwka-li.3500126",
-          "headline": "Krieg in der Ukraine: Russland meldet Einnahme von Kostjantyniwka, Ukraine dementiert",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.025,
-        "spread": 0.175,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T11:56:04+00:00",
-      "last_seen": "2026-07-04T15:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.3474
-    },
-    {
-      "id": "a5037fc487",
-      "title": "Alice Weidel: Das „System Weidel“ – Wie die AfD-Chefin ihre Macht festigt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/alice-weidel-wie-die-afd-chefin-ihre-macht-festigt/100234864.html",
-          "headline": "Alice Weidel: Das „System Weidel“ – Wie die AfD-Chefin ihre Macht festigt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T16:06:00+00:00",
-      "last_seen": "2026-07-04T16:06:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "8e6d932ca1",
-      "title": "„Ein Kuss, der einen von den Füßen reißt“ – Bericht von CEO über Swift-Hochzeit sorgt für Aufsehen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/prominente/article6a491f0f0b14ed961bb51e4c/taylor-swift-ein-kuss-der-einen-von-den-fuessen-reisst-bericht-von-ceo-ueber-geheime-hochzeit-sorgt-fuer-aufsehen.html",
-          "headline": "„Ein Kuss, der einen von den Füßen reißt“ – Bericht von CEO über Swift-Hochzeit sorgt für Aufsehen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T16:04:32+00:00",
-      "last_seen": "2026-07-04T16:04:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2793
-    },
-    {
-      "id": "280b118deb",
-      "title": "Wimbledon: Serena Williams ist verletzt und muss ihr Doppel mit Schwester Venus absagen",
+      "id": "f1cdf3f3dd",
+      "title": "Unabhängigkeitstag: Joey Chestnut gewinnt Hotdog-Wettessen mit 66 Würstchen in zehn Minuten",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/tennis/wimbledon-serena-williams-ist-verletzt-und-muss-ihr-doppel-mit-schwester-venus-absagen-a-6d182bc0-eb43-4832-a303-b845f6ba58e6#ref=rss",
-          "headline": "Wimbledon: Serena Williams ist verletzt und muss ihr Doppel mit Schwester Venus absagen",
+          "url": "https://www.spiegel.de/panorama/unabhaengigkeitstag-joey-chestnut-gewinnt-hotdog-wettessen-mit-66-wuerstchen-in-zehn-minuten-a-ef3826a1-8c38-418b-970c-ba551b42b4cc#ref=rss",
+          "headline": "Unabhängigkeitstag: Joey Chestnut gewinnt Hotdog-Wettessen mit 66 Würstchen in zehn Minuten",
           "platform": "rss"
         }
       ],
@@ -229,25 +183,25 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-04T16:02:00+00:00",
-      "last_seen": "2026-07-04T16:02:00+00:00",
+      "first_seen": "2026-07-04T20:13:00+00:00",
+      "last_seen": "2026-07-04T20:13:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.2643
+      "resonance": 0.2099
     },
     {
-      "id": "2bbb0ee387",
-      "title": "Filmfest München: Wohlfühlkino bis Drama – Filmfest München verleiht Preise",
+      "id": "6f425803ef",
+      "title": "Independence Day: Zum Nationalfeiertag: Beyoncé bringt neuen Song heraus",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/04/wohlfuehlkino-bis-drama-filmfest-muenchen-verleiht-preise",
-          "headline": "Filmfest München: Wohlfühlkino bis Drama – Filmfest München verleiht Preise",
+          "url": "https://www.zeit.de/news/2026-07/04/zum-nationalfeiertag-beyonc-bringt-neuen-song-heraus",
+          "headline": "Independence Day: Zum Nationalfeiertag: Beyoncé bringt neuen Song heraus",
           "platform": "rss"
         }
       ],
@@ -258,25 +212,25 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-04T16:01:47+00:00",
-      "last_seen": "2026-07-04T16:01:47+00:00",
+      "first_seen": "2026-07-04T20:09:51+00:00",
+      "last_seen": "2026-07-04T20:09:51+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
+      "topic": "world",
       "language": "de",
-      "resonance": 0.263
+      "resonance": 0.2011
     },
     {
-      "id": "4f71981ae8",
-      "title": "AfD-Bundesparteitag: Simson-Nachfahre protestiert in Erfurt gegen AfD",
+      "id": "41f33f559f",
+      "title": "Proteste gegen AfD: Clueso trotzt AfD-Parteitag: Ich will Heimat sagen",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/04/simson-nachfahre-protestiert-in-erfurt-gegen-afd",
-          "headline": "AfD-Bundesparteitag: Simson-Nachfahre protestiert in Erfurt gegen AfD",
+          "url": "https://www.zeit.de/news/2026-07/04/clueso-trotzt-afd-parteitag-ich-will-heimat-sagen",
+          "headline": "Proteste gegen AfD: Clueso trotzt AfD-Parteitag: Ich will Heimat sagen",
           "platform": "rss"
         }
       ],
@@ -287,25 +241,25 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-04T15:56:11+00:00",
-      "last_seen": "2026-07-04T15:56:11+00:00",
+      "first_seen": "2026-07-04T20:08:41+00:00",
+      "last_seen": "2026-07-04T20:08:41+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.23
+      "resonance": 0.1979
     },
     {
-      "id": "43b98ea68d",
-      "title": "10,2 Prozent pro Jahr, seit 130 Jahren – mit diesen 6 ETFs setzen Sie auf den ewigen Börsenboom",
+      "id": "e8f88c1533",
+      "title": "Hätte Marokkos Held bei seinen Toren überhaupt noch auf dem Platz stehen dürfen?",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/finanzen/plus6a47c3c0ad32e994f875a49e/6-etfs-fuer-den-boersenboom-so-investieren-sie-das-naechste-usa-jahrhundert.html",
-          "headline": "10,2 Prozent pro Jahr, seit 130 Jahren – mit diesen 6 ETFs setzen Sie auf den ewigen Börsenboom",
+          "url": "https://www.welt.de/sport/fussball/wm/article6a495ca60b14ed961bb52176/wm-2026-haette-marokkos-held-bei-seinen-toren-ueberhaupt-noch-auf-dem-platz-stehen-duerfen.html",
+          "headline": "Hätte Marokkos Held bei seinen Toren überhaupt noch auf dem Platz stehen dürfen?",
           "platform": "rss"
         }
       ],
@@ -316,228 +270,292 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-04T15:54:54+00:00",
-      "last_seen": "2026-07-04T15:54:54+00:00",
+      "first_seen": "2026-07-04T20:06:48+00:00",
+      "last_seen": "2026-07-04T20:06:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1927
+    },
+    {
+      "id": "94a03fdf23",
+      "title": "Einsatz bleibt erfolglos: Mann ertrinkt in Schlachtensee",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/04/mann-ertrinkt-in-schlachtensee",
+          "headline": "Einsatz bleibt erfolglos: Mann ertrinkt in Schlachtensee",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T20:05:04+00:00",
+      "last_seen": "2026-07-04T20:05:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1879
+    },
+    {
+      "id": "8690b0baac",
+      "title": "\"Nicht ganz so gut\": Deutsche Tour-Hoffnung kämpft mit Problemen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/Radsport/Deutsche-Hoffnung-fuer-Tour-de-France-kaempft-mit-Problemen-id31048776.html",
+          "headline": "\"Nicht ganz so gut\": Deutsche Tour-Hoffnung kämpft mit Problemen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T20:01:17+00:00",
+      "last_seen": "2026-07-04T20:01:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1776
+    },
+    {
+      "id": "08560f5317",
+      "title": "AfD-Parteitag in Erfurt: Blockaden und Proteste - Unterwegs mit zwei Demonstrierenden",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/politik/deutschland/afd-parteitag-in-erfurt-blockaden-und-proteste-unterwegs-mit-zwei-demonstrierenden-a-6ff4f408-445d-4c07-9258-2bce998c850f#ref=rss",
+          "headline": "AfD-Parteitag in Erfurt: Blockaden und Proteste - Unterwegs mit zwei Demonstrierenden",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T19:54:00+00:00",
+      "last_seen": "2026-07-04T19:54:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.158
+    },
+    {
+      "id": "c355916adc",
+      "title": "Fußballweltmeisterschaft 2026: Marokko wirft Co-Gastgeber Kanada aus dem Turnier",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/sport/2026-07/wm-achtelfinale-kanada-marokko-houston",
+          "headline": "Fußballweltmeisterschaft 2026: Marokko wirft Co-Gastgeber Kanada aus dem Turnier",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/sport/2026-05/fussball-wm-2026-liveblog",
+          "headline": "Fußball-WM 2026: Marokko gewinnt gegen Co-Gastgeber Kanada",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 2,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T19:34:58+00:00",
+      "last_seen": "2026-07-04T19:51:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.1556
+    },
+    {
+      "id": "b015699b1d",
+      "title": "Vor dem Wiederanpfiff schwören sich Marokkos Spieler im Tunnel ein",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a495f26ad32e994f875b9b8/wm-2026-vor-dem-wiederanpfiff-schwoeren-sich-marokkos-spieler-im-tunnel-ein.html",
+          "headline": "Vor dem Wiederanpfiff schwören sich Marokkos Spieler im Tunnel ein",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T19:43:47+00:00",
+      "last_seen": "2026-07-04T19:43:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.1311
+    },
+    {
+      "id": "bf8c7c0ae6",
+      "title": "Großartige Stimmung trotz „Auswärtsspiel“ – Kanadas Nationalhymne im Video",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a495f53ad32e994f875b9c0/wm-2026-grossartige-stimmung-trotz-auswaertsspiel-kanadas-nationalhymne-im-video.html",
+          "headline": "Großartige Stimmung trotz „Auswärtsspiel“ – Kanadas Nationalhymne im Video",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T19:41:19+00:00",
+      "last_seen": "2026-07-04T19:41:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.1247
+    },
+    {
+      "id": "2db3e8a55e",
+      "title": "Le Pen vor ihrem Urteil: „Was immer auch passiert, ich werde nicht sterben“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/ausland/marine-le-pen-drei-richterinnen-entscheiden-ueber-kandidatur-200992930.html",
+          "headline": "Le Pen vor ihrem Urteil: „Was immer auch passiert, ich werde nicht sterben“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T19:40:37+00:00",
+      "last_seen": "2026-07-04T19:40:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1229
+    },
+    {
+      "id": "1cc40f8567",
+      "title": "Eishockey-Legende Wayne Gretzky sieht Kanadas WM-Aus live im Stadion",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a495f35ad32e994f875b9bc/wm-2026-eishockey-legende-wayne-gretzky-sieht-kanadas-wm-aus-live-im-stadion.html",
+          "headline": "Eishockey-Legende Wayne Gretzky sieht Kanadas WM-Aus live im Stadion",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T19:37:20+00:00",
+      "last_seen": "2026-07-04T19:37:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1144
+    },
+    {
+      "id": "0cbb25b6aa",
+      "title": "Größter Einsatz seit Jahren: Immenser Schaden nach Feuer auf Stuttgarter Großmarkt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/03/brand-in-stuttgarter-grossmarkt",
+          "headline": "Größter Einsatz seit Jahren: Immenser Schaden nach Feuer auf Stuttgarter Großmarkt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T19:30:48+00:00",
+      "last_seen": "2026-07-04T19:30:48+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "economy",
       "language": "de",
-      "resonance": 0.2225
+      "resonance": 0.0978
     },
     {
-      "id": "0fc7753cc1",
-      "title": "Fußball-Bundesliga: 12:2 in Rathenow: Union gewinnt erstes Testspiel",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/04/12-2-in-rathenow-union-gewinnt-erstes-testspiel",
-          "headline": "Fußball-Bundesliga: 12:2 in Rathenow: Union gewinnt erstes Testspiel",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:54:02+00:00",
-      "last_seen": "2026-07-04T15:54:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.2174
-    },
-    {
-      "id": "c6692ad37b",
-      "title": "Kuriose WM-Storys (21): „Der Gott des Fußballs“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/sport/fussball-wm/fussball-wm-1986-der-gott-des-fussballs-accg-200979772.html",
-          "headline": "Kuriose WM-Storys (21): „Der Gott des Fußballs“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:52:15+00:00",
-      "last_seen": "2026-07-04T15:52:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.2071
-    },
-    {
-      "id": "7abf0c2c48",
-      "title": "AfD-Parteitag in Erfurt analysiert: »Es geht vorrangig um Machtkämpfe«",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/politik/afd-parteitag-in-erfurt-analysiert-es-geht-vorrangig-um-macht-a-768acedf-50c8-498d-b730-d459b9e21093#ref=rss",
-          "headline": "AfD-Parteitag in Erfurt analysiert: »Es geht vorrangig um Machtkämpfe«",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:51:00+00:00",
-      "last_seen": "2026-07-04T15:51:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.1998
-    },
-    {
-      "id": "7cab40b027",
-      "title": "„Bricht mir das Herz“: Kein Williams-Doppel in Wimbledon",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/sport/wimbledon/tennis-kein-doppel-von-serena-und-venus-williams-in-wimbledon-accg-200998179.html",
-          "headline": "„Bricht mir das Herz“: Kein Williams-Doppel in Wimbledon",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:49:38+00:00",
-      "last_seen": "2026-07-04T15:49:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1919
-    },
-    {
-      "id": "d75c71e5d7",
-      "title": "Grossbrand in Stuttgart: Zum Glück war das  Neckarwasser nah",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/gesellschaft/grossbrand-in-stuttgart-feuerwehr-loescht-mit-neckarwasser-accg-200998056.html",
-          "headline": "Grossbrand in Stuttgart: Zum Glück war das  Neckarwasser nah",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:48:15+00:00",
-      "last_seen": "2026-07-04T15:48:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.184
-    },
-    {
-      "id": "ce8b3fdd45",
-      "title": "Kriminalität: Polizisten stellen geladene Schusswaffe sicher",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/04/polizisten-stellen-geladene-schusswaffe-sicher",
-          "headline": "Kriminalität: Polizisten stellen geladene Schusswaffe sicher",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:47:13+00:00",
-      "last_seen": "2026-07-04T15:47:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.1781
-    },
-    {
-      "id": "7a5a51ce08",
-      "title": "Fußball-WM, AfD, Rente: Fünf Themen, die Sie im Juni am meisten interessiert haben",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/politik/fussball-wm-afd-rente-fuenf-themen-die-sie-im-juni-am-meisten-interessiert-haben-a-da73081d-d924-4a6c-811c-70b6468c1d87#ref=rss",
-          "headline": "Fußball-WM, AfD, Rente: Fünf Themen, die Sie im Juni am meisten interessiert haben",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:45:00+00:00",
-      "last_seen": "2026-07-04T15:45:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1654
-    },
-    {
-      "id": "71efceee7f",
-      "title": "Kampfjet-Deal vor Scheitern: Streit zwischen Kiew und Warschau eskaliert wegen \"offener Wunden\"",
+      "id": "ea1c4abdd6",
+      "title": "250. Geburtstag der USA: Rechtsextremistische \"Patriot Front\" marschiert durch Washington",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Streit-zwischen-Kiew-und-Warschau-eskaliert-wegen-offener-Wunden-id31045982.html",
-          "headline": "Kampfjet-Deal vor Scheitern: Streit zwischen Kiew und Warschau eskaliert wegen \"offener Wunden\"",
+          "url": "https://www.n-tv.de/politik/Rechtsextremistische-Patriot-Front-marschiert-durch-Washington-id31048691.html",
+          "headline": "250. Geburtstag der USA: Rechtsextremistische \"Patriot Front\" marschiert durch Washington",
           "platform": "rss"
         }
       ],
@@ -548,25 +566,344 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-04T15:43:43+00:00",
-      "last_seen": "2026-07-04T15:43:43+00:00",
+      "first_seen": "2026-07-04T19:29:20+00:00",
+      "last_seen": "2026-07-04T19:29:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0941
+    },
+    {
+      "id": "9aa623c345",
+      "title": "Jetzt wird’s deutlich – In der Nachspielzeit schießt Marokko das 3:0",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a495b840b14ed961bb52166/wm-2026-das-3-0-im-video-marokko-schraubt-das-ergebnis-gegen-kanada-in-die-hoehe-highlights.html",
+          "headline": "Jetzt wird’s deutlich – In der Nachspielzeit schießt Marokko das 3:0",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T19:26:49+00:00",
+      "last_seen": "2026-07-04T19:26:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.0878
+    },
+    {
+      "id": "ff590fa968",
+      "title": "Frankreichs Problem mit Jugendgewalt: Ehre, Messer, Revierkämpfe - SPIEGEL TV",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/frankreichs-problem-mit-jugendgewalt-ehre-messer-revierkaempfe-spiegel-tv-a-4d1fcd07-61e7-44dd-a164-7e2191709711#ref=rss",
+          "headline": "Frankreichs Problem mit Jugendgewalt: Ehre, Messer, Revierkämpfe - SPIEGEL TV",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T19:26:00+00:00",
+      "last_seen": "2026-07-04T19:26:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0857
+    },
+    {
+      "id": "b4a22d2ee5",
+      "title": "„Ich bewege mich viel in der Szene. Alle sagen, was der DFB macht, sei katastrophal“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/article6a49459bad32e994f875b871/wm-2026-thomas-strunz-alle-sagen-was-der-dfb-macht-sei-katastrophal.html",
+          "headline": "„Ich bewege mich viel in der Szene. Alle sagen, was der DFB macht, sei katastrophal“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T19:22:54+00:00",
+      "last_seen": "2026-07-04T19:22:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.078
+    },
+    {
+      "id": "7aef7544e6",
+      "title": "Schock für Marokko – Bayern-Neuzugang Saibari verletzt ausgewechselt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a495c63dd49b303f80ce273/wm-2026-schock-fuer-marokko-bayern-neuzugang-saibari-verletzt-ausgewechselt-highlights.html",
+          "headline": "Schock für Marokko – Bayern-Neuzugang Saibari verletzt ausgewechselt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T19:22:08+00:00",
+      "last_seen": "2026-07-04T19:22:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0761
+    },
+    {
+      "id": "dfbe1b1339",
+      "title": "Kanadas fataler Fehlpass – Marokko kontert sich zur Vorentscheidung",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a495b930b14ed961bb5216b/wm-2026-das-2-0-im-video-kanadas-fataler-fehlpass-marokko-kontert-sich-zur-vorentscheidung-highlights.html",
+          "headline": "Kanadas fataler Fehlpass – Marokko kontert sich zur Vorentscheidung",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T19:20:17+00:00",
+      "last_seen": "2026-07-04T19:20:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0716
+    },
+    {
+      "id": "2eec913a5e",
+      "title": "WM 2026 live: Drei Erkenntnisse aus Marokko - Kanada",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/fussball/wm-2026-live-marokko-schlaegt-kanada-2-0-a-623689c1-6483-4596-8e62-3f473a515bc7#ref=rss",
+          "headline": "WM 2026 live: Drei Erkenntnisse aus Marokko - Kanada",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T19:20:00+00:00",
+      "last_seen": "2026-07-04T19:20:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0709
+    },
+    {
+      "id": "ca634557a9",
+      "title": "Kanada pennt – Hakimis simpler Freistoß bringt Marokko in Führung",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a495b380b14ed961bb52161/wm-2026-das-1-0-im-video-kanada-pennt-hakimis-simpler-freistoss-bringt-marokko-in-fuehrung-highlights.html",
+          "headline": "Kanada pennt – Hakimis simpler Freistoß bringt Marokko in Führung",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T19:16:09+00:00",
+      "last_seen": "2026-07-04T19:16:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
       "language": "de",
-      "resonance": 0.1581
+      "resonance": 0.0614
     },
     {
-      "id": "c37b4af1cc",
-      "title": "Kommt es zur Aussöhnung?: Bericht: Prinz Harry reist alleine nach London",
+      "id": "76c6b49954",
+      "title": "3:0 gegen Kanada: Marokko als Party-Crasher",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/sport/fussball-wm/fussball-wm-2026-marokko-als-party-crasher-fuer-kanada-200993637.html",
+          "headline": "3:0 gegen Kanada: Marokko als Party-Crasher",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T19:14:26+00:00",
+      "last_seen": "2026-07-04T19:14:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0572
+    },
+    {
+      "id": "f2fd29342a",
+      "title": "Beyoncé überrascht mit unveröffentlichtem Song »Morning Dew (Donk)«",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/kultur/musik/beyonce-ueberrascht-mit-unveroeffentlichtem-song-morning-dew-donk-a-d9b32092-4b97-43ac-b4bc-2b7f8bde5257#ref=rss",
+          "headline": "Beyoncé überrascht mit unveröffentlichtem Song »Morning Dew (Donk)«",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T19:14:00+00:00",
+      "last_seen": "2026-07-04T19:14:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0562
+    },
+    {
+      "id": "2524b5bce6",
+      "title": "USA 250 Jahre Unabhängigkeit: Liveticker – Rechtsextreme marschieren durch Washington",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/usa-250-jahre-unabhaengigkeit-liveticker-zu-den-feierlichkeiten-a-b963d9cc-6e8c-4a61-a4e1-3e9debf8fb79#ref=rss",
+          "headline": "USA 250 Jahre Unabhängigkeit: Liveticker – Rechtsextreme marschieren durch Washington",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T19:12:00+00:00",
+      "last_seen": "2026-07-04T19:12:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0513
+    },
+    {
+      "id": "cee34354f5",
+      "title": "Sie liebt ihren Mann. Glücklich ist sie trotzdem nicht",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/vermischtes/plus6a4779200b14ed961bb504bc/eheprobleme-sie-liebt-ihren-mann-gluecklich-ist-sie-trotzdem-nicht.html",
+          "headline": "Sie liebt ihren Mann. Glücklich ist sie trotzdem nicht",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-04T19:12:00+00:00",
+      "last_seen": "2026-07-04T19:12:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0513
+    },
+    {
+      "id": "e6c54b235d",
+      "title": "Boeing hebt den Preis: Chinooks für die Bundeswehr werden wohl deutlich teurer",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "n-tv",
-          "url": "https://www.n-tv.de/leute/Bericht-Prinz-Harry-reist-alleine-nach-London-id31048355.html",
-          "headline": "Kommt es zur Aussöhnung?: Bericht: Prinz Harry reist alleine nach London",
+          "url": "https://www.n-tv.de/politik/Chinooks-fuer-die-Bundeswehr-werden-wohl-deutlich-teurer-id31048540.html",
+          "headline": "Boeing hebt den Preis: Chinooks für die Bundeswehr werden wohl deutlich teurer",
           "platform": "rss"
         }
       ],
@@ -577,327 +914,8 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-04T15:42:57+00:00",
-      "last_seen": "2026-07-04T15:42:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1537
-    },
-    {
-      "id": "918ffd57c9",
-      "title": "Paraguays Fußball-Legende nennt Frankreich eine „afrikanische Mannschaft“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a492315b21fd831ecbf8928/wm-paraguay-chilavert-nennt-frankreich-eine-afrikanische-mannschaft.html",
-          "headline": "Paraguays Fußball-Legende nennt Frankreich eine „afrikanische Mannschaft“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T15:40:56+00:00",
-      "last_seen": "2026-07-04T15:40:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1423
-    },
-    {
-      "id": "62cbb590a9",
-      "title": "Robert Lindemann: »Und jetzt raus aus meiner Wohnung!«",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/2026/28/robert-lindemann-instagram-manfluencer-reaction-videos",
-          "headline": "Robert Lindemann: »Und jetzt raus aus meiner Wohnung!«",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:39:13+00:00",
-      "last_seen": "2026-07-04T15:39:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1326
-    },
-    {
-      "id": "28910d76ad",
-      "title": "AfD-Parteitag in Erfurt: Bündnis spricht von 50.000 Protestierenden in und um Erfurt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-07/afd-parteitag-erfurt-proteste-live",
-          "headline": "AfD-Parteitag in Erfurt: Bündnis spricht von 50.000 Protestierenden in und um Erfurt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:36:43+00:00",
-      "last_seen": "2026-07-04T15:36:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.1186
-    },
-    {
-      "id": "873a73907b",
-      "title": "Zehn Schlüsseltexte, um die USA zu verstehen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/kultur/literarischewelt/article6a45e6ff1f5535004df26a3a/250-jahre-unabhaengigkeit-zehn-schluesseltexte-um-die-usa-zu-verstehen.html",
-          "headline": "Zehn Schlüsseltexte, um die USA zu verstehen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T15:36:18+00:00",
-      "last_seen": "2026-07-04T15:36:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1163
-    },
-    {
-      "id": "c5acb47b67",
-      "title": "AfD-Parteitag: AfD bestätigt Führungsduo – Chrupalla verliert an Rückhalt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/04/chrupalla-bleibt-afd-co-chef",
-          "headline": "AfD-Parteitag: AfD bestätigt Führungsduo – Chrupalla verliert an Rückhalt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:32:53+00:00",
-      "last_seen": "2026-07-04T15:32:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0973
-    },
-    {
-      "id": "2c4b0ac5f2",
-      "title": "Wimbledon: Titelverteidigerin und Weltranglistenzweite scheiden in Runde drei aus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-07/elena-rybakina-wimbledon-aus-elise-mertens",
-          "headline": "Wimbledon: Titelverteidigerin und Weltranglistenzweite scheiden in Runde drei aus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:30:30+00:00",
-      "last_seen": "2026-07-04T15:30:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0841
-    },
-    {
-      "id": "4be75edd32",
-      "title": "Triathlon: Fünfkampf bei Challenge Roth erwartet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/04/fuenfkampf-bei-challenge-roth-erwartet",
-          "headline": "Triathlon: Fünfkampf bei Challenge Roth erwartet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:30:05+00:00",
-      "last_seen": "2026-07-04T15:30:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0818
-    },
-    {
-      "id": "a8f69ddfe7",
-      "title": "Manipulierte KI-Suchergebnisse: Wie man international renommierter Experte wird, ohne Experte zu sein",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/digital/internet/2026-07/ki-suchergebnisse-manipulation-google-data-poisoning-reddit",
-          "headline": "Manipulierte KI-Suchergebnisse: Wie man international renommierter Experte wird, ohne Experte zu sein",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:29:59+00:00",
-      "last_seen": "2026-07-04T15:29:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.0813
-    },
-    {
-      "id": "8582a0e784",
-      "title": "Musik: Schlagermove zieht wieder durch Hamburg",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/04/schlagermove-zieht-wieder-durch-hamburg",
-          "headline": "Musik: Schlagermove zieht wieder durch Hamburg",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:28:27+00:00",
-      "last_seen": "2026-07-04T15:28:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0728
-    },
-    {
-      "id": "0fb4aa949f",
-      "title": "Notfall: 88-Jähriger schießt im Treppenhaus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/04/88-jaehriger-schiesst-im-treppenhaus",
-          "headline": "Notfall: 88-Jähriger schießt im Treppenhaus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T15:24:42+00:00",
-      "last_seen": "2026-07-04T15:24:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0524
-    },
-    {
-      "id": "fdd179fca9",
-      "title": "Weidel baut ihre Macht aus – aber hinter den Kulissen knirscht es gewaltig",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/plus6a491029b21fd831ecbf882a/afd-bundesparteitag-weidel-baut-ihre-macht-aus-aber-hinter-den-kulissen-knirscht-es-gewaltig.html",
-          "headline": "Weidel baut ihre Macht aus – aber hinter den Kulissen knirscht es gewaltig",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T15:24:16+00:00",
-      "last_seen": "2026-07-04T15:24:16+00:00",
+      "first_seen": "2026-07-04T19:11:27+00:00",
+      "last_seen": "2026-07-04T19:11:27+00:00",
       "platforms": [
         "rss"
       ],
@@ -909,123 +927,93 @@
   ],
   "edges": [
     {
-      "source": "15c47056f8",
-      "target": "f92d7cb7a7",
-      "weight": 0.657,
+      "source": "5b1a94c514",
+      "target": "41f33f559f",
+      "weight": 0.548,
       "type": "thematic"
     },
     {
-      "source": "15c47056f8",
-      "target": "7abf0c2c48",
-      "weight": 0.605,
+      "source": "5b1a94c514",
+      "target": "08560f5317",
+      "weight": 0.833,
       "type": "thematic"
     },
     {
-      "source": "15c47056f8",
-      "target": "28910d76ad",
-      "weight": 0.79,
+      "source": "d5fd9757e6",
+      "target": "c355916adc",
+      "weight": 0.202,
       "type": "thematic"
     },
     {
-      "source": "15c47056f8",
-      "target": "c5acb47b67",
-      "weight": 0.63,
+      "source": "d5fd9757e6",
+      "target": "1cc40f8567",
+      "weight": 0.249,
       "type": "thematic"
     },
     {
-      "source": "f92d7cb7a7",
-      "target": "a5037fc487",
-      "weight": 0.423,
+      "source": "d5fd9757e6",
+      "target": "2eec913a5e",
+      "weight": 0.644,
       "type": "thematic"
     },
     {
-      "source": "f92d7cb7a7",
-      "target": "4f71981ae8",
-      "weight": 0.208,
+      "source": "d5fd9757e6",
+      "target": "76c6b49954",
+      "weight": 0.01,
       "type": "thematic"
     },
     {
-      "source": "f92d7cb7a7",
-      "target": "7abf0c2c48",
-      "weight": 0.319,
+      "source": "6f425803ef",
+      "target": "f2fd29342a",
+      "weight": 0.228,
       "type": "thematic"
     },
     {
-      "source": "f92d7cb7a7",
-      "target": "28910d76ad",
-      "weight": 0.517,
+      "source": "41f33f559f",
+      "target": "08560f5317",
+      "weight": 0.77,
       "type": "thematic"
     },
     {
-      "source": "f92d7cb7a7",
-      "target": "c5acb47b67",
-      "weight": 0.615,
+      "source": "c355916adc",
+      "target": "2eec913a5e",
+      "weight": 0.491,
       "type": "thematic"
     },
     {
-      "source": "a5037fc487",
-      "target": "fdd179fca9",
-      "weight": 0.611,
+      "source": "c355916adc",
+      "target": "76c6b49954",
+      "weight": 0.093,
       "type": "thematic"
     },
     {
-      "source": "280b118deb",
-      "target": "7cab40b027",
-      "weight": 0.705,
+      "source": "1cc40f8567",
+      "target": "2eec913a5e",
+      "weight": 0.303,
       "type": "thematic"
     },
     {
-      "source": "4f71981ae8",
-      "target": "7abf0c2c48",
-      "weight": 0.176,
+      "source": "ea1c4abdd6",
+      "target": "2524b5bce6",
+      "weight": 0.642,
       "type": "thematic"
     },
     {
-      "source": "4f71981ae8",
-      "target": "28910d76ad",
-      "weight": 0.368,
+      "source": "2eec913a5e",
+      "target": "ca634557a9",
+      "weight": 0.027,
       "type": "thematic"
     },
     {
-      "source": "4f71981ae8",
-      "target": "c5acb47b67",
-      "weight": 0.225,
+      "source": "2eec913a5e",
+      "target": "76c6b49954",
+      "weight": 0.224,
       "type": "thematic"
     },
     {
-      "source": "0fc7753cc1",
-      "target": "918ffd57c9",
-      "weight": 0.076,
-      "type": "thematic"
-    },
-    {
-      "source": "c6692ad37b",
-      "target": "7a5a51ce08",
-      "weight": 0.114,
-      "type": "thematic"
-    },
-    {
-      "source": "7abf0c2c48",
-      "target": "28910d76ad",
-      "weight": 0.471,
-      "type": "thematic"
-    },
-    {
-      "source": "7abf0c2c48",
-      "target": "c5acb47b67",
-      "weight": 0.128,
-      "type": "thematic"
-    },
-    {
-      "source": "7a5a51ce08",
-      "target": "918ffd57c9",
-      "weight": 0.015,
-      "type": "thematic"
-    },
-    {
-      "source": "28910d76ad",
-      "target": "c5acb47b67",
-      "weight": 0.061,
+      "source": "ca634557a9",
+      "target": "76c6b49954",
+      "weight": 0.13,
       "type": "thematic"
     }
   ],

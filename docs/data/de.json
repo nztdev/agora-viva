@@ -1,438 +1,90 @@
 {
-  "generated_at": "2026-07-05T14:04:04.210945+00:00",
+  "generated_at": "2026-07-05T15:33:39.308781+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 3,
+  "edge_count": 1,
   "nodes": [
-    {
-      "id": "e2a0b96659",
-      "title": "Opec+: Opec+ beschließt höhere Ölproduktion für August",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/wirtschaft/unternehmen/2026-07/opec-oelproduktion-foerderung-markt",
-          "headline": "Opec+: Opec+ beschließt höhere Ölproduktion für August",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/international/rohstoffe-opec-plus-weitet-oelproduktion-ab-august-erneut-aus/100237990.html",
-          "headline": "Rohstoffe: Opec plus weitet Ölproduktion ab August erneut aus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.225,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T11:22:32+00:00",
-      "last_seen": "2026-07-05T13:44:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.6289
-    },
-    {
-      "id": "8a7f3e345a",
-      "title": "Delegiertentreffen: Neun Erkenntnisse aus dem AfD-Parteitag",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/05/acht-erkenntnisse-aus-dem-afd-parteitag",
-          "headline": "Delegiertentreffen: Neun Erkenntnisse aus dem AfD-Parteitag",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:54:30+00:00",
-      "last_seen": "2026-07-05T13:54:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.2491
-    },
-    {
-      "id": "22719e3ccb",
-      "title": "Der König der Löwen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a47ab7b0b14ed961bb50abf/wm-2026-harry-kane-der-koenig-der-loewen.html",
-          "headline": "Der König der Löwen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-05T13:53:51+00:00",
-      "last_seen": "2026-07-05T13:53:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2453
-    },
-    {
-      "id": "d2b5b821f1",
-      "title": "Fußball-WM 2026: Paraguays »beschämende« Spielweise erntet harte Kritik",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-05/fussball-wm-2026-liveblog",
-          "headline": "Fußball-WM 2026: Paraguays »beschämende« Spielweise erntet harte Kritik",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:52:19+00:00",
-      "last_seen": "2026-07-05T13:52:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.2365
-    },
-    {
-      "id": "c51d24b9cc",
-      "title": "Das bisschen Haushalt: Schuld allein ist nicht die SPD",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Das-bisschen-Haushalt/!6193493/",
-          "headline": "Das bisschen Haushalt: Schuld allein ist nicht die SPD",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:52:00+00:00",
-      "last_seen": "2026-07-05T13:52:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
-      "resonance": 0.2347
-    },
-    {
-      "id": "7f3d242322",
-      "title": "Ägypten: Archäologen finden 2000 Jahre alte Gräber in Marina al-Alamein",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/wissen/Fast-2000-Jahre-alte-Graeber-in-Aegypten-entdeckt-id31049809.html",
-          "headline": "Leichen mit Gold im Mund: Fast 2000 Jahre alte Gräber in Ägypten entdeckt",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/wissenschaft/mensch/aegypten-archaeologen-finden-2000-jahre-alte-graeber-in-marina-al-alamein-a-5d39ba3b-5fea-4eba-bc47-37e95839e28f#ref=rss",
-          "headline": "Ägypten: Archäologen finden 2000 Jahre alte Gräber in Marina al-Alamein",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.075,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T11:00:00+00:00",
-      "last_seen": "2026-07-05T11:21:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2183
-    },
-    {
-      "id": "c62d3ba499",
-      "title": "Beerdigung von Chamenei: Mit Pomp und Propaganda",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Beerdigung-von-Chamenei/!6193526/",
-          "headline": "Beerdigung von Chamenei: Mit Pomp und Propaganda",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:48:00+00:00",
-      "last_seen": "2026-07-05T13:48:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2117
-    },
-    {
-      "id": "92357d8707",
-      "title": "Milei statt Marx – Auf Kuba bahnt sich ein historischer Kurswechsel an",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/ausland/plus6a477bf42e8f13ca8ed2aaf5/havanna-unter-druck-milei-statt-marx-auf-kuba-bahnt-sich-ein-historischer-kurswechsel-an.html",
-          "headline": "Milei statt Marx – Auf Kuba bahnt sich ein historischer Kurswechsel an",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-05T13:45:09+00:00",
-      "last_seen": "2026-07-05T13:45:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1955
-    },
-    {
-      "id": "197e8712fd",
-      "title": "Musik: Staatskapelle Dresden feiert Saisonabschluss",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/05/staatskapelle-dresden-feiert-saisonabschluss",
-          "headline": "Musik: Staatskapelle Dresden feiert Saisonabschluss",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:44:52+00:00",
-      "last_seen": "2026-07-05T13:44:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1939
-    },
-    {
-      "id": "ebda77c88d",
-      "title": "BMW Open: Rosenmüller patzt: Kein Münchner Golf-Märchen in Eichenried",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/05/rosenmueller-patzt-kein-muenchner-golf-maerchen-in-eichenried",
-          "headline": "BMW Open: Rosenmüller patzt: Kein Münchner Golf-Märchen in Eichenried",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:42:54+00:00",
-      "last_seen": "2026-07-05T13:42:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1828
-    },
     {
       "id": "6fb003ed60",
       "title": "Vulkan: Asche des Ätna behindert Betrieb am Flughafen Catania",
-      "signal_count": 1,
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "Die Zeit",
           "url": "https://www.zeit.de/news/2026-07/05/asche-des-aetna-behindert-betrieb-am-flughafen-catania",
           "headline": "Vulkan: Asche des Ätna behindert Betrieb am Flughafen Catania",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:42:41+00:00",
-      "last_seen": "2026-07-05T13:42:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1816
-    },
-    {
-      "id": "a69c7fd036",
-      "title": "Triathlon: Laidlow krönt sich in Roth mit Sieg und Weltbestzeit",
-      "signal_count": 1,
-      "sources": [
+        },
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/05/triathlet-sam-laidlow-siegt-in-roth-mit-weltbestzeit",
-          "headline": "Triathlon: Laidlow krönt sich in Roth mit Sieg und Weltbestzeit",
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/flughafen-catania-auf-sizilien-asche-des-aetna-behindert-starts-und-landungen-a-46c480f3-eb5f-4b17-8354-9a558d4b2950#ref=rss",
+          "headline": "Flughafen Catania auf Sizilien: Asche des Ätna behindert Starts und Landungen",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
+        "mean": -0.225,
+        "spread": 0.075,
         "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:41:31+00:00",
-      "last_seen": "2026-07-05T13:41:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1751
-    },
-    {
-      "id": "2f80cb11f4",
-      "title": "Student über geringe Mathekenntnisse: „Dann machen Sie was nicht richtig“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Student-ueber-geringe-Mathekenntnisse/!6132957/",
-          "headline": "Student über geringe Mathekenntnisse: „Dann machen Sie was nicht richtig“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:41:00+00:00",
-      "last_seen": "2026-07-05T13:41:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1722
-    },
-    {
-      "id": "19b73c6d84",
-      "title": "Bahn saniert strecke: Jetzt wird es still im Rheintal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/rhein-main/region-und-hessen/deutsche-bahn-sperrt-rechte-rheinstrecke-das-bedeutet-die-sanierung-fuer-den-rheingau-accg-200999484.html",
-          "headline": "Bahn saniert strecke: Jetzt wird es still im Rheintal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-05T13:40:11+00:00",
-      "last_seen": "2026-07-05T13:40:11+00:00",
+      "first_seen": "2026-07-05T14:30:00+00:00",
+      "last_seen": "2026-07-05T15:13:13+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1676
+      "resonance": 0.6613
     },
     {
-      "id": "21823fb398",
-      "title": "AfD-Parteitag in Erfurt: AfD-Spitze bekräftigt Machtanspruch im Bund »spätestens 2029«",
+      "id": "3139f858e0",
+      "title": "Korruptionsvorwürfe gegen Nigel Farage: Steht der Reform-UK-Chef vor dem Absturz?",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Bericht-erhebt-neue-Vorwuerfe-gegen-Nigel-Farage-id31050473.html",
+          "headline": "Zuwendungen für Reform-UK-Chef: Bericht erhebt neue Vorwürfe gegen Nigel Farage",
+          "platform": "rss"
+        },
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Korruptionsvorwuerfe-gegen-Nigel-Farage/!6193561/",
+          "headline": "Korruptionsvorwürfe gegen Nigel Farage: Steht der Reform-UK-Chef vor dem Absturz?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.275,
+        "spread": 0.275,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T14:26:00+00:00",
+      "last_seen": "2026-07-05T14:35:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.5164
+    },
+    {
+      "id": "444eb8d70c",
+      "title": "Nato-Gipfel in Ankara: Türkische Polizei nimmt erneut Bürgerrechtler vor Nato-Gipfel fest",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-07/afd-parteitag-erfurt-proteste-live",
-          "headline": "AfD-Parteitag in Erfurt: AfD-Spitze bekräftigt Machtanspruch im Bund »spätestens 2029«",
+          "url": "https://www.zeit.de/politik/ausland/2026-07/festnahmen-tuerkei-journalisten-buergerrechtler-buse-soetueglue-nato-gipfel",
+          "headline": "Nato-Gipfel in Ankara: Türkische Polizei nimmt erneut Bürgerrechtler vor Nato-Gipfel fest",
           "platform": "rss"
         }
       ],
@@ -443,141 +95,25 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-05T13:38:31+00:00",
-      "last_seen": "2026-07-05T13:38:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.1583
-    },
-    {
-      "id": "9b026244e2",
-      "title": "Proteste in Frankreich: Zehntausende demonstrieren gegen sexualisierte Gewalt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Proteste-in-Frankreich/!6193560/",
-          "headline": "Proteste in Frankreich: Zehntausende demonstrieren gegen sexualisierte Gewalt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:38:00+00:00",
-      "last_seen": "2026-07-05T13:38:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.1554
-    },
-    {
-      "id": "8b5c158e7a",
-      "title": "Türkischer Comedian festgenommen: Lachen auf eigene Gefahr",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Tuerkischer-Comedian-festgenommen/!6193525/",
-          "headline": "Türkischer Comedian festgenommen: Lachen auf eigene Gefahr",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:37:00+00:00",
-      "last_seen": "2026-07-05T13:37:00+00:00",
+      "first_seen": "2026-07-05T15:25:22+00:00",
+      "last_seen": "2026-07-05T15:25:22+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
       "language": "de",
-      "resonance": 0.1498
+      "resonance": 0.2176
     },
     {
-      "id": "f040d4ed85",
-      "title": "Kriminalität: Mann stirbt nach Gewalttat in Zwickau - Verdächtige in Haft",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/05/mann-stirbt-nach-gewalttat-in-zwickau-verdaechtige-in-haft",
-          "headline": "Kriminalität: Mann stirbt nach Gewalttat in Zwickau - Verdächtige in Haft",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:35:15+00:00",
-      "last_seen": "2026-07-05T13:35:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.1401
-    },
-    {
-      "id": "ddf6ee8d17",
-      "title": "Unfallursache unklar: Quad-Fahrer kracht in Hauswand und wird schwer verletzt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/05/quad-fahrer-kracht-in-hauswand-und-wird-schwer-verletzt",
-          "headline": "Unfallursache unklar: Quad-Fahrer kracht in Hauswand und wird schwer verletzt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:33:14+00:00",
-      "last_seen": "2026-07-05T13:33:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.129
-    },
-    {
-      "id": "6dfb0e251c",
-      "title": "Preise auf Vorkriegsniveau: Opec+ dreht die Ölproduktion weiter hoch",
+      "id": "c16a491314",
+      "title": "Lieferung an die Ukraine?: Polens Opposition attackiert Warschau wegen Patriot-Raketen",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "n-tv",
-          "url": "https://www.n-tv.de/wirtschaft/Opec-dreht-die-Oelproduktion-weiter-hoch-id31050367.html",
-          "headline": "Preise auf Vorkriegsniveau: Opec+ dreht die Ölproduktion weiter hoch",
+          "url": "https://www.n-tv.de/politik/Polens-Opposition-attackiert-Warschau-wegen-Patriot-Raketen-id31050453.html",
+          "headline": "Lieferung an die Ukraine?: Polens Opposition attackiert Warschau wegen Patriot-Raketen",
           "platform": "rss"
         }
       ],
@@ -588,228 +124,25 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-05T13:32:12+00:00",
-      "last_seen": "2026-07-05T13:32:12+00:00",
+      "first_seen": "2026-07-05T15:21:13+00:00",
+      "last_seen": "2026-07-05T15:21:13+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
+      "topic": "tech",
       "language": "de",
-      "resonance": 0.1233
+      "resonance": 0.2039
     },
     {
-      "id": "91c8c234f2",
-      "title": "Shifting Baseline: Heute brutal, morgen normal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/wissen/erde-klima/gewoehnungseffekt-was-ist-das-shifting-baseline-syndrome-und-warum-bringen-hitzewellen-uns-nicht-ins-handeln-accg-200987322.html",
-          "headline": "Shifting Baseline: Heute brutal, morgen normal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:32:02+00:00",
-      "last_seen": "2026-07-05T13:32:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1224
-    },
-    {
-      "id": "1857283e3e",
-      "title": "Betrug: Senior verliert 25.000 Euro an Computer-Betrüger",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/05/senior-verliert-25-000-euro-an-computer-betrueger",
-          "headline": "Betrug: Senior verliert 25.000 Euro an Computer-Betrüger",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:31:56+00:00",
-      "last_seen": "2026-07-05T13:31:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1218
-    },
-    {
-      "id": "0b1a8eb34c",
-      "title": "Bloß Trump nicht verärgern: Stoltenberg: Deutschland ist auf dem Weg zur Militärmacht",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Stoltenberg-Deutschland-ist-auf-dem-Weg-zur-Militaermacht-id31050260.html",
-          "headline": "Bloß Trump nicht verärgern: Stoltenberg: Deutschland ist auf dem Weg zur Militärmacht",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:31:50+00:00",
-      "last_seen": "2026-07-05T13:31:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.1213
-    },
-    {
-      "id": "7a9106945e",
-      "title": "\"Elon ist kein Arschloch\": Diese Frau ist Musks Erfolgsgeheimnis",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/wirtschaft/Diese-Frau-ist-Musks-Erfolgsgeheimnis-id31044960.html",
-          "headline": "\"Elon ist kein Arschloch\": Diese Frau ist Musks Erfolgsgeheimnis",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:31:34+00:00",
-      "last_seen": "2026-07-05T13:31:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1198
-    },
-    {
-      "id": "8aa282861f",
-      "title": "Übung im Gelben Meer: Russland und China verkünden gemeinsames Marinemanöver",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Russland-und-China-verkuenden-gemeinsames-Marinemanoever-id31050223.html",
-          "headline": "Übung im Gelben Meer: Russland und China verkünden gemeinsames Marinemanöver",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:30:56+00:00",
-      "last_seen": "2026-07-05T13:30:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1163
-    },
-    {
-      "id": "6715ac4758",
-      "title": "Freilaufgeräusch: Müssen Rennräder so laut surren?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/mobilitaet/2026-06/freilauf-geraeusch-rennrad-laerm",
-          "headline": "Freilaufgeräusch: Müssen Rennräder so laut surren?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:30:50+00:00",
-      "last_seen": "2026-07-05T13:30:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1158
-    },
-    {
-      "id": "3b0cd3036e",
-      "title": "Kapitalmarkt: Comeback der Rainmaker – Warum das Geschäft von Investmentbanken plötzlich wieder boomt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/kapitalmarkt-warum-das-geschaeft-der-investmentbanken-ploetzlich-wieder-boomt/100235554.html",
-          "headline": "Kapitalmarkt: Comeback der Rainmaker – Warum das Geschäft von Investmentbanken plötzlich wieder boomt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T13:29:31+00:00",
-      "last_seen": "2026-07-05T13:29:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
-      "resonance": 0.1086
-    },
-    {
-      "id": "a709a58d78",
-      "title": "So läuft der Klopp-Showdown in New York ab",
+      "id": "e3d6f3b3a3",
+      "title": "„Möglichkeiten sehr begrenzt“ – das „Brandmauer“-Dilemma der Berliner CDU",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a4a48160b14ed961bb52aec/wm-2026-wunsch-bundestrainer-so-laeuft-der-klopp-showdown-in-new-york-ab.html",
-          "headline": "So läuft der Klopp-Showdown in New York ab",
+          "url": "https://www.welt.de/politik/deutschland/plus6a3158fa7e682fc37fbfc904/mit-wem-koalieren-moeglichkeiten-sehr-begrenzt-das-brandmauer-dilemma-der-berliner-cdu.html",
+          "headline": "„Möglichkeiten sehr begrenzt“ – das „Brandmauer“-Dilemma der Berliner CDU",
           "platform": "rss"
         }
       ],
@@ -820,25 +153,112 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-05T13:20:02+00:00",
-      "last_seen": "2026-07-05T13:20:02+00:00",
+      "first_seen": "2026-07-05T15:18:54+00:00",
+      "last_seen": "2026-07-05T15:18:54+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0574
+      "resonance": 0.1964
     },
     {
-      "id": "74b5265ffb",
-      "title": "WM 2026 heute: Das sollten Sie vor den Spielen am Abend und in der Nacht wissen",
+      "id": "171cdd6fbc",
+      "title": "ZEIT WISSEN. Woher weißt Du das? / Rechtschreibung: Wozu Rechtschreibung, wenn KI jetzt alles korrigiert?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/wissenschaft/2026-07/rechtschreibung-sprache-ki-diskriminierung",
+          "headline": "ZEIT WISSEN. Woher weißt Du das? / Rechtschreibung: Wozu Rechtschreibung, wenn KI jetzt alles korrigiert?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:16:44+00:00",
+      "last_seen": "2026-07-05T15:16:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.1894
+    },
+    {
+      "id": "37c9feb0a0",
+      "title": "Bekannt als \"Maus-Forscherin\": Deutsche Zoologin stirbt bei Flugzeugabsturz in Brasilien",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/panorama/Deutsche-Zoologin-stirbt-bei-Flugzeugabsturz-in-Brasilien-id31050542.html",
+          "headline": "Bekannt als \"Maus-Forscherin\": Deutsche Zoologin stirbt bei Flugzeugabsturz in Brasilien",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:16:40+00:00",
+      "last_seen": "2026-07-05T15:16:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1892
+    },
+    {
+      "id": "7afd33406a",
+      "title": "Spaghetti mit Meatballs: Wenn Fleischbällchen auf Blaubeerchen treffen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/zeit-magazin/2026/13/spaghetti-meatballs-heidelbeeren-rezept-wochenmarkt",
+          "headline": "Spaghetti mit Meatballs: Wenn Fleischbällchen auf Blaubeerchen treffen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:16:16+00:00",
+      "last_seen": "2026-07-05T15:16:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1879
+    },
+    {
+      "id": "086eeaad4d",
+      "title": "Karrieretipps: Was wir von Nonnen des 16. Jahrhunderts für unseren Job lernen können",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/wm-2026-heute-das-sollten-sie-vor-den-spielen-am-abend-und-in-der-nacht-wissen-a-7d852312-f3ba-4d76-bacb-eb10810e037d#ref=rss",
-          "headline": "WM 2026 heute: Das sollten Sie vor den Spielen am Abend und in der Nacht wissen",
+          "url": "https://www.spiegel.de/karriere/karrieretipps-was-wir-von-nonnen-des-16-jahrhunderts-fuer-unseren-job-lernen-koennen-a-2ed549ee-2db6-4005-a0f7-fb4dc886bdc8#ref=rss",
+          "headline": "Karrieretipps: Was wir von Nonnen des 16. Jahrhunderts für unseren Job lernen können",
           "platform": "rss"
         }
       ],
@@ -849,25 +269,257 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-05T13:20:00+00:00",
-      "last_seen": "2026-07-05T13:20:00+00:00",
+      "first_seen": "2026-07-05T15:16:00+00:00",
+      "last_seen": "2026-07-05T15:16:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.187
+    },
+    {
+      "id": "2b3ad2db3b",
+      "title": "Demos in Erfurt: Vielstimmiger Protest gegen AfD-Parteitag in Erfurt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/05/tausendfacher-protest-gegen-die-afd-ueberwiegend-friedlich",
+          "headline": "Demos in Erfurt: Vielstimmiger Protest gegen AfD-Parteitag in Erfurt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:15:21+00:00",
+      "last_seen": "2026-07-05T15:15:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.1849
+    },
+    {
+      "id": "5055f3f9d1",
+      "title": "Redefreiheit: Welche Freiheit darf’s denn sein?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/2026/29/redefreiheit-usa-catos-letters-first-amendment",
+          "headline": "Redefreiheit: Welche Freiheit darf’s denn sein?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:14:08+00:00",
+      "last_seen": "2026-07-05T15:14:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.181
+    },
+    {
+      "id": "8c3dc9955a",
+      "title": "Verbrechen im Roman: Wie Mörder moralische Gewissheiten ins Wanken bringen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/feuilleton/buecher/literatur/verbrecher-in-romanen-moerder-bringen-moralische-gewissheiten-ins-wanken-accg-200899201.html",
+          "headline": "Verbrechen im Roman: Wie Mörder moralische Gewissheiten ins Wanken bringen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:11:59+00:00",
+      "last_seen": "2026-07-05T15:11:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1741
+    },
+    {
+      "id": "ffa1fcbec6",
+      "title": "Erdnahe Asteroiden: Japanischer Testflug zur Abwehr von Asteroiden verläuft erfolgreich",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/mobilitaet/2026-07/hayabusa-2-asteroid-torifune-jaxa-asteroidenabwehr",
+          "headline": "Erdnahe Asteroiden: Japanischer Testflug zur Abwehr von Asteroiden verläuft erfolgreich",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:09:20+00:00",
+      "last_seen": "2026-07-05T15:09:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1657
+    },
+    {
+      "id": "33df4b497a",
+      "title": "Fußball-WM heute: Ganz England stellt sich den Wecker auf 2 Uhr nachts",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/sport/2026-07/fussball-wm-heute-mexiko-england-norwegen-brasilien",
+          "headline": "Fußball-WM heute: Ganz England stellt sich den Wecker auf 2 Uhr nachts",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:09:04+00:00",
+      "last_seen": "2026-07-05T15:09:04+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "de",
-      "resonance": 0.0572
+      "resonance": 0.1648
     },
     {
-      "id": "268294adb6",
-      "title": "„Für viele wurde das Leben durch die Ansiedlung von BMW nicht besser“",
+      "id": "04ba274883",
+      "title": "Großbritannien: Nigel Farage soll Vorteile von dubiosem Kryptounternehmer erhalten haben",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/grossbritannien-nigel-farage-soll-vorteile-von-dubiosem-kryptounternehmer-erhalten-haben-a-b13aaa1d-9071-4526-a5fe-b51db63bf807#ref=rss",
+          "headline": "Großbritannien: Nigel Farage soll Vorteile von dubiosem Kryptounternehmer erhalten haben",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:09:00+00:00",
+      "last_seen": "2026-07-05T15:09:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1646
+    },
+    {
+      "id": "e526410880",
+      "title": "Münster: Regatta auf See: Mehrere Jugendliche mit Kreislaufproblemen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/05/regatta-zahlreiche-junge-teilnehmer-mit-kreislaufproblemen",
+          "headline": "Münster: Regatta auf See: Mehrere Jugendliche mit Kreislaufproblemen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:08:05+00:00",
+      "last_seen": "2026-07-05T15:08:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1617
+    },
+    {
+      "id": "5ce8748cc6",
+      "title": "Feuerwehreinsatz: Industriegebäude brennt in Oranienburg - keine Verletzten",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/05/industriegebaeude-brennt-in-oranienburg",
+          "headline": "Feuerwehreinsatz: Industriegebäude brennt in Oranienburg - keine Verletzten",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:08:05+00:00",
+      "last_seen": "2026-07-05T15:08:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1617
+    },
+    {
+      "id": "7e404ef5f2",
+      "title": "Zuzahlung, Familienversicherung – Koalition soll sich auf etwas weniger Belastung geeinigt haben",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/wirtschaft/plus6a45939cc154597ea93e3527/usa-fuer-viele-wurde-das-leben-durch-die-ansiedlung-von-bmw-nicht-besser.html",
-          "headline": "„Für viele wurde das Leben durch die Ansiedlung von BMW nicht besser“",
+          "url": "https://www.welt.de/politik/deutschland/article6a4a69e70b14ed961bb52d41/sparpaket-bei-krankenkassen-zuzahlung-familienversicherung-koalition-soll-sich-auf-etwas-weniger-belastung-geeinigt-haben.html",
+          "headline": "Zuzahlung, Familienversicherung – Koalition soll sich auf etwas weniger Belastung geeinigt haben",
           "platform": "rss"
         }
       ],
@@ -878,8 +530,356 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-05T13:18:39+00:00",
-      "last_seen": "2026-07-05T13:18:39+00:00",
+      "first_seen": "2026-07-05T15:07:27+00:00",
+      "last_seen": "2026-07-05T15:07:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1597
+    },
+    {
+      "id": "f3810857d1",
+      "title": "Gastkommentar: In diesen neun Bereichen wird KI den Menschen nicht ersetzen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-in-diesen-neun-bereichen-wird-ki-den-menschen-nicht-ersetzen/100233139.html",
+          "headline": "Gastkommentar: In diesen neun Bereichen wird KI den Menschen nicht ersetzen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:04:27+00:00",
+      "last_seen": "2026-07-05T15:04:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.1503
+    },
+    {
+      "id": "ad30d35762",
+      "title": "Polizeieinsatz: Frau auf Parkplatz erfasst - Autofahrer flüchtet",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/05/frau-auf-parkplatz-erfasst-autofahrer-fluechtet",
+          "headline": "Polizeieinsatz: Frau auf Parkplatz erfasst - Autofahrer flüchtet",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:02:15+00:00",
+      "last_seen": "2026-07-05T15:02:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "de",
+      "resonance": 0.1434
+    },
+    {
+      "id": "46193f4a27",
+      "title": "Christopher Street Day: CSD in Köln: Warum «Flirty Flamingo» auf die Straße geht",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/05/csd-demonstration-zieht-durch-koeln",
+          "headline": "Christopher Street Day: CSD in Köln: Warum «Flirty Flamingo» auf die Straße geht",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T15:00:57+00:00",
+      "last_seen": "2026-07-05T15:00:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1393
+    },
+    {
+      "id": "fabf0e4da1",
+      "title": "Stürzen: Von Fall zu Fall",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/2026/29/stuerzen-verletzung-stolpern-gang",
+          "headline": "Stürzen: Von Fall zu Fall",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T14:56:09+00:00",
+      "last_seen": "2026-07-05T14:56:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1245
+    },
+    {
+      "id": "d1849aea9c",
+      "title": "Zulieferer schlägt Alarm: Bosch-Betriebsrat will mit Taskforce Zukunft der Autoindustrie sichern",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/wirtschaft/Bosch-Betriebsrat-will-mit-Taskforce-Zukunft-der-Autoindustrie-sichern-id31050483.html",
+          "headline": "Zulieferer schlägt Alarm: Bosch-Betriebsrat will mit Taskforce Zukunft der Autoindustrie sichern",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T14:53:21+00:00",
+      "last_seen": "2026-07-05T14:53:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1159
+    },
+    {
+      "id": "fe1e9f64ed",
+      "title": "Trauerfeier für Khamenei: Ein Aufruf zur Ermordung Trumps",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/ausland/aufruf-zur-ermordung-trumps-bei-khameneis-trauerfeier-accg-200999077.html",
+          "headline": "Trauerfeier für Khamenei: Ein Aufruf zur Ermordung Trumps",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T14:49:52+00:00",
+      "last_seen": "2026-07-05T14:49:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1053
+    },
+    {
+      "id": "d782fc4da1",
+      "title": "Interview: Heiner Thorborg: „In der Branche laufen Typen rum, von denen würden Sie keinen Gebrauchtwagen kaufen“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/unternehmen/dienstleister/heiner-thorborg-in-der-branche-laufen-typen-rum-von-denen-wuerden-sie-keinen-gebrauchtwagen-kaufen/100235531.html",
+          "headline": "Interview: Heiner Thorborg: „In der Branche laufen Typen rum, von denen würden Sie keinen Gebrauchtwagen kaufen“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T14:46:01+00:00",
+      "last_seen": "2026-07-05T14:46:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0937
+    },
+    {
+      "id": "ed243289d0",
+      "title": "„Das ,grüne Wirtschaftswunder‘ ist ausgeblieben, diese Politik offensichtlich gescheitert“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/wirtschaft/plus6a3d148c507c0ee6f17a7d07/staedteplanung-das-gruene-wirtschaftswunder-ist-ausgeblieben-diese-politik-offensichtlich-gescheitert.html",
+          "headline": "„Das ,grüne Wirtschaftswunder‘ ist ausgeblieben, diese Politik offensichtlich gescheitert“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-05T14:38:58+00:00",
+      "last_seen": "2026-07-05T14:38:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.0727
+    },
+    {
+      "id": "fd049f7c29",
+      "title": "Deutscher mit Top-Debüt: Laidlow kämpft sich durch Lauf-Drama und bricht Weltrekord",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/Laidlow-kaempft-sich-durch-Lauf-Drama-und-bricht-Weltrekord-id31050438.html",
+          "headline": "Deutscher mit Top-Debüt: Laidlow kämpft sich durch Lauf-Drama und bricht Weltrekord",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T14:35:58+00:00",
+      "last_seen": "2026-07-05T14:35:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0638
+    },
+    {
+      "id": "9631f41461",
+      "title": "Im Finale des Heimturniers zeigen die Deutschen  Nerven",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/golf/article6a4a62b5ac819a6f6bcb01a1/golf-bmw-international-open-im-finale-des-heimturniers-zeigen-die-deutschen-nerven.html",
+          "headline": "Im Finale des Heimturniers zeigen die Deutschen  Nerven",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-05T14:35:11+00:00",
+      "last_seen": "2026-07-05T14:35:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0615
+    },
+    {
+      "id": "ab6fe0a7f0",
+      "title": "\"Dafür sind wir nicht bereit\": Tekkal und Lunz über die Klaviatur des Patriarchats",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/panorama/Tekkal-und-Lunz-ueber-die-Klaviatur-des-Patriarchats-id30983517.html",
+          "headline": "\"Dafür sind wir nicht bereit\": Tekkal und Lunz über die Klaviatur des Patriarchats",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T14:34:56+00:00",
+      "last_seen": "2026-07-05T14:34:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0608
+    },
+    {
+      "id": "d9b70903d2",
+      "title": "Eine der furchtlosesten jungen Schriftstellerinnen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/kultur/literarischewelt/plus6a45f544c154597ea93e3874/ronja-von-roenne-eine-der-furchtlosesten-jungen-schriftstellerinnen.html",
+          "headline": "Eine der furchtlosesten jungen Schriftstellerinnen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-05T14:31:14+00:00",
+      "last_seen": "2026-07-05T14:31:14+00:00",
       "platforms": [
         "rss"
       ],
@@ -891,21 +891,9 @@
   ],
   "edges": [
     {
-      "source": "e2a0b96659",
-      "target": "6dfb0e251c",
-      "weight": 0.815,
-      "type": "thematic"
-    },
-    {
-      "source": "8a7f3e345a",
-      "target": "21823fb398",
-      "weight": 0.621,
-      "type": "thematic"
-    },
-    {
-      "source": "d2b5b821f1",
-      "target": "74b5265ffb",
-      "weight": 0.082,
+      "source": "3139f858e0",
+      "target": "04ba274883",
+      "weight": 0.123,
       "type": "thematic"
     }
   ],

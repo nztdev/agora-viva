@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-05T21:58:39.138207+00:00",
+  "generated_at": "2026-07-05T23:06:36.419792+00:00",
   "node_count": 35,
-  "edge_count": 17,
+  "edge_count": 7,
   "nodes": [
     {
       "id": "3efb2a8325",
@@ -34,18 +34,18 @@
     {
       "id": "0d11c6fa3b",
       "title": "Super Typhoon Bavi makes landfall on US Pacific islands with huge wind gusts",
-      "signal_count": 7,
+      "signal_count": 6,
       "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/super-typhoon-bavi-hits-us-pacific-islands/a-77840713?maca=en-rss-en-all-1573-rdf",
+          "headline": "Super Typhoon Bavi hits US Pacific islands",
+          "platform": "rss"
+        },
         {
           "outlet": "BBC World Service",
           "url": "https://www.bbc.co.uk/news/articles/cr7xpgx50jxo?at_medium=RSS&at_campaign=rss",
           "headline": "Super Typhoon Bavi makes landfall on US Pacific islands with huge wind gusts",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/super-typhoon-bavi-nears-us-pacific-islands/a-77840713?maca=en-rss-en-all-1573-rdf",
-          "headline": "Super typhoon Bavi nears US Pacific islands",
           "platform": "rss"
         },
         {
@@ -61,12 +61,6 @@
           "platform": "rss"
         },
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/5/super-typhoon-bavi-threatens-guam-with-catastrophic-winds-and-flooding?traffic_source=rss",
-          "headline": "Super Typhoon Bavi threatens Guam with catastrophic winds and flooding",
-          "platform": "rss"
-        },
-        {
           "outlet": "France 24",
           "url": "https://www.france24.com/en/guam-on-alert-as-super-typhoon-bavi-closes-in",
           "headline": "Guam on alert as Super Typhoon Bavi closes in",
@@ -75,65 +69,71 @@
         {
           "outlet": "South China Morning Post",
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3359490/us-pacific-islands-prepare-super-typhoon-bavi?utm_source=rss_feed",
-          "headline": "US Pacific islands prepare for Super Typhoon Bavi",
+          "headline": "‘Catastrophic’ Super Typhoon Bavi hits US island of Rota",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.107,
-        "spread": 0.121,
+        "mean": -0.092,
+        "spread": 0.124,
         "left": 1,
-        "center": 6,
+        "center": 5,
         "right": 0
       },
       "first_seen": "2026-07-05T13:54:59+00:00",
-      "last_seen": "2026-07-05T21:39:12+00:00",
+      "last_seen": "2026-07-05T22:45:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.613
+      "topic": "world",
+      "resonance": 0.5506
     },
     {
-      "id": "c1b06b38de",
-      "title": "Trump thanks Fifa for spending USA striker's ban",
-      "signal_count": 3,
+      "id": "53f7576c1f",
+      "title": "World Cup 2026: Haaland brace sinks Brazil as Norway storm into quarter-finals",
+      "signal_count": 4,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-06/world-cup-us-striker-folarin-balogun-fifa-donald-trump/106883104",
-          "headline": "FIFA throws out US striker's ban after Trump intervention",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump thanks Fifa for spending USA striker's ban",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/brazil-vs-norway-fifa-world-cup-live-updates/article71186804.ece",
+          "headline": "Brazil vs Norway, FIFA World Cup Round of 16 Highlights: Haaland scores twice to eliminate Brazil",
           "platform": "rss"
         },
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/5/trump-thanks-fifa-as-it-suspends-baloguns-ban-for-belgium-world-cup-match?traffic_source=rss",
-          "headline": "Trump thanks FIFA as it suspends Balogun’s ban for Belgium World Cup match",
+          "url": "https://www.aljazeera.com/sports/2026/7/5/haaland-scores-twice-as-norway-stun-brazil-2-1-in-world-cup-2026-last-16?traffic_source=rss",
+          "headline": "Haaland scores twice as Norway stun Brazil 2-1 in World Cup 2026 last 16",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260705-world-cup-2026-haaland-brace-sinks-brazil-as-norway-storm-into-quarter-finals",
+          "headline": "World Cup 2026: Haaland brace sinks Brazil as Norway storm into quarter-finals",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260705-brazil-vs-norway-live-vinicius-jr-haaland-go-head-to-head-in-world-cup-last-16",
+          "headline": "Haaland dumps Brazil out of World Cup as Norway reach quarters for first time",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.082,
+        "mean": -0.125,
+        "spread": 0.043,
         "left": 0,
-        "center": 3,
+        "center": 4,
         "right": 0
       },
-      "first_seen": "2026-07-05T18:28:22+00:00",
-      "last_seen": "2026-07-05T20:49:22+00:00",
+      "first_seen": "2026-07-05T18:57:33+00:00",
+      "last_seen": "2026-07-05T22:54:52+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.3175
+      "resonance": 0.3716
     },
     {
       "id": "3e8cf5135d",
@@ -185,7 +185,125 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2831
+      "resonance": 0.1927
+    },
+    {
+      "id": "0a4de1c365",
+      "title": "India needs to understand conditions better: Kishan",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/cricket/india-needs-to-understand-conditions-better-kishan/article71187092.ece",
+          "headline": "India needs to understand conditions better: Kishan",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T23:00:25+00:00",
+      "last_seen": "2026-07-05T23:00:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1718
+    },
+    {
+      "id": "6ae9dd22c4",
+      "title": "From Call of Duty to Dreamtime: These designers are lighting up video games",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-06/naidoc-week-video-games-first-nations-creators/106851030",
+          "headline": "From Call of Duty to Dreamtime: These designers are lighting up video games",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T23:00:00+00:00",
+      "last_seen": "2026-07-05T23:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1711
+    },
+    {
+      "id": "9d210f4bbe",
+      "title": "Shelter-in-place order at Azteca over severe weather before Mexico-England",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/football/articles/clyeegldnmpo?at_medium=RSS&at_campaign=rss",
+          "headline": "Shelter-in-place order at Azteca over severe weather before Mexico-England",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:59:47+00:00",
+      "last_seen": "2026-07-05T22:59:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1707
+    },
+    {
+      "id": "c1b06b38de",
+      "title": "Trump thanks Fifa for spending USA striker's ban",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-06/world-cup-us-striker-folarin-balogun-fifa-donald-trump/106883104",
+          "headline": "FIFA throws out US striker's ban after Trump intervention",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cewqq5q8v41o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump thanks Fifa for spending USA striker's ban",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T19:36:11+00:00",
+      "last_seen": "2026-07-05T20:49:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1658
     },
     {
       "id": "d818d40b44",
@@ -213,7 +331,389 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2422
+      "resonance": 0.1647
+    },
+    {
+      "id": "52eadcc052",
+      "title": "FIFA World Cup 2026: Haaland’s brilliant brace knocks out Brazil as Norway enters quarterfinals for 1st time",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/fifa-world-cup-2026-haalands-brilliant-brace-knocks-out-brazil-as-norway-enters-quarterfinals-for-1st-time/article71187069.ece",
+          "headline": "FIFA World Cup 2026: Haaland’s brilliant brace knocks out Brazil as Norway enters quarterfinals for 1st time",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:53:48+00:00",
+      "last_seen": "2026-07-05T22:53:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1605
+    },
+    {
+      "id": "94d629c7e1",
+      "title": "Formula 1: Leclerc delivers Ferrari's 250th victory in British GP",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/motorsport/tough-leclerc-delivers-ferraris-250th-win-with-victory-in-british-gp/article71187067.ece",
+          "headline": "'Tough' Leclerc delivers Ferrari's 250th win with victory in British GP",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/07/05/formula-1-leclerc-delivers-ferrari-s-250th-victory-in-british-gp_6755171_9.html",
+          "headline": "Formula 1: Leclerc delivers Ferrari's 250th victory in British GP",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T16:55:11+00:00",
+      "last_seen": "2026-07-05T22:39:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1577
+    },
+    {
+      "id": "74ec3830b2",
+      "title": "Iran to close Tehran airspace for funeral ceremonies",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-close-tehran-airspace-funeral-ceremonies",
+          "headline": "Iran to close Tehran airspace for funeral ceremonies",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:49:07+00:00",
+      "last_seen": "2026-07-05T22:49:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1526
+    },
+    {
+      "id": "a76a417a20",
+      "title": "Adam Sandler officiates Taylor Swift’s wedding, fueling debate on singer’s Israel stance",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/adam-sandler-officiates-taylor-swifts-wedding-fueling-debate-on-singers-israel-stance/",
+          "headline": "Adam Sandler officiates Taylor Swift’s wedding, fueling debate on singer’s Israel stance",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:48:21+00:00",
+      "last_seen": "2026-07-05T22:48:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1513
+    },
+    {
+      "id": "8e56a23e27",
+      "title": "Venezuelan leader marks Independence Day with message of ‘no social unrest’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/5/venezuelan-leader-marks-independence-day-with-message-of-no-social-unrest?traffic_source=rss",
+          "headline": "Venezuelan leader marks Independence Day with message of ‘no social unrest’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:48:13+00:00",
+      "last_seen": "2026-07-05T22:48:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.151
+    },
+    {
+      "id": "1865961ac6",
+      "title": "Golden flower cutting the cost of urea fertiliser for farmers",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/rural/2026-07-06/farmers-use-sunn-hemp-to-help-cut-urea-fertiliser-costs/106874990",
+          "headline": "Golden flower cutting the cost of urea fertiliser for farmers",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:46:38+00:00",
+      "last_seen": "2026-07-05T22:46:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1484
+    },
+    {
+      "id": "12de36aa5a",
+      "title": "Australia news live: Albanese apologises for podcast comment about Kylie Minogue; auction clearances below 50% again",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/06/australia-news-live-crisafulli-bail-laws-property-market-auction-clearance-tax-reform-prime-minister-albanese-fiji-treaty-royal-commission-meta-antisemitism-ntwnfb",
+          "headline": "Australia news live: Albanese apologises for podcast comment about Kylie Minogue; auction clearances below 50% again",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/06/anthony-albanese-apologises-kylie-minogue-podcast-comment",
+          "headline": "Anthony Albanese apologises ‘unequivocally’ for podcast comment about Kylie Minogue",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 2,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:26:55+00:00",
+      "last_seen": "2026-07-05T22:44:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1474
+    },
+    {
+      "id": "6dc801ae1d",
+      "title": "Israel’s Government Threatens to Ignore a Top Court Ruling",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/05/world/middleeast/israel-court-netanyahu-clash.html",
+          "headline": "Israel’s Government Threatens to Ignore a Top Court Ruling",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:44:52+00:00",
+      "last_seen": "2026-07-05T22:44:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1455
+    },
+    {
+      "id": "e8eeaa61de",
+      "title": "World Cup: Trump thanks FIFA for suspending Balogun's red card ban",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/world-cup-trump-thanks-fifa-for-suspending-balogun-s-red-card-ban/a-77840972?maca=en-rss-en-all-1573-rdf",
+          "headline": "World Cup: Trump thanks FIFA for suspending Balogun's red card ban",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/7/5/trump-thanks-fifa-as-it-suspends-baloguns-ban-for-belgium-world-cup-match?traffic_source=rss",
+          "headline": "Trump thanks FIFA as it suspends Balogun’s ban for Belgium World Cup match",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T18:28:22+00:00",
+      "last_seen": "2026-07-05T22:01:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1425
+    },
+    {
+      "id": "bb5944794e",
+      "title": "How a son rescued his father from the rubble of Venezuela’s earthquakes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/longform/2026/7/5/how-a-son-rescued-his-father-from-the-rubble-of-venezuelas-earthquakes?traffic_source=rss",
+          "headline": "How a son rescued his father from the rubble of Venezuela’s earthquakes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:41:40+00:00",
+      "last_seen": "2026-07-05T22:41:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1401
+    },
+    {
+      "id": "9cccebfca9",
+      "title": "Safety fears spark calls for better protections for Neil the seal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-06/calls-for-neil-the-seal-protections/106881778",
+          "headline": "Safety fears spark calls for better protections for Neil the seal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:38:36+00:00",
+      "last_seen": "2026-07-05T22:38:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1351
+    },
+    {
+      "id": "86e1c5ede6",
+      "title": "Some of the nation’s rich are letting AI teach their kids",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+          "headline": "Some of the nation’s rich are letting AI teach their kids",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:30:54+00:00",
+      "last_seen": "2026-07-05T22:30:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1226
+    },
+    {
+      "id": "1eb50a1d6c",
+      "title": "Ex-NFL Pro Bowler Marcellus Wiley arrested, charged with domestic battery during Fourth of July",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/ex-nfl-pro-bowler-marcellus-wiley-arrested-charged-domestic-battery-fourth-july",
+          "headline": "Ex-NFL Pro Bowler Marcellus Wiley arrested, charged with domestic battery during Fourth of July",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-05T22:28:39+00:00",
+      "last_seen": "2026-07-05T22:28:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.119
     },
     {
       "id": "0d97a28330",
@@ -247,7 +747,35 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2059
+      "resonance": 0.1092
+    },
+    {
+      "id": "e8e4e0ed92",
+      "title": "WWE Hall of Famer John Bradshaw Layfield finds new tag partner in social media company focused on sports",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/wwe-hall-famer-john-bradshaw-layfield-finds-new-tag-partner-social-media-company-focused-sports",
+          "headline": "WWE Hall of Famer John Bradshaw Layfield finds new tag partner in social media company focused on sports",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-05T22:22:22+00:00",
+      "last_seen": "2026-07-05T22:22:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.109
     },
     {
       "id": "a431a60ce6",
@@ -281,69 +809,147 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1902
+      "resonance": 0.0979
     },
     {
-      "id": "28f32b9d32",
-      "title": "Women’s T20 World Cup: Australia lords over England, clinches seventh title",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/5/australia-thrash-england-to-win-record-seventh-womens-t20-world-cup?traffic_source=rss",
-          "headline": "Australia thrash England to win record seventh Women’s T20 World Cup",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/cricket/womens-t20-world-cup-australia-lords-over-england-clinches-seventh-title/article71186736.ece",
-          "headline": "Women’s T20 World Cup: Australia lords over England, clinches seventh title",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T19:24:25+00:00",
-      "last_seen": "2026-07-05T19:46:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1854
-    },
-    {
-      "id": "92f71ed280",
-      "title": "Brazil vs Norway, FIFA World Cup LIVE Round of 16: Haaland scores twice to shock nervy Brazil",
+      "id": "343cb311e8",
+      "title": "Charles Leclerc shut out negative noise to get winning feeling back at British GP",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/brazil-vs-norway-fifa-world-cup-live-updates/article71186804.ece",
-          "headline": "Brazil vs Norway, FIFA World Cup LIVE Round of 16: Haaland scores twice to shock nervy Brazil",
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/sports/2026/07/06/more-sports/leclerc-block-negative-noise/",
+          "headline": "Charles Leclerc shut out negative noise to get winning feeling back at British GP",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": 0.0,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-05T21:56:34+00:00",
-      "last_seen": "2026-07-05T21:56:34+00:00",
+      "first_seen": "2026-07-05T22:09:00+00:00",
+      "last_seen": "2026-07-05T22:09:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1684
+      "topic": "world",
+      "resonance": 0.0882
+    },
+    {
+      "id": "c1953166b3",
+      "title": "Palestinian baby dies in West Bank after Israel blocks urgent medical care",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/5/palestinian-baby-dies-in-west-bank-after-israel-blocks-urgent-medical-care?traffic_source=rss",
+          "headline": "Palestinian baby dies in West Bank after Israel blocks urgent medical care",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:03:52+00:00",
+      "last_seen": "2026-07-05T22:03:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.0804
+    },
+    {
+      "id": "5737b14885",
+      "title": "Lebanese Christian mayor rejects Netanyahu annexation claim",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-christian-mayor-rejects-netanyahu-annexation-claim",
+          "headline": "Lebanese Christian mayor rejects Netanyahu annexation claim",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:02:56+00:00",
+      "last_seen": "2026-07-05T22:02:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.079
+    },
+    {
+      "id": "826d4c949f",
+      "title": "Wu Xinbo on why Trump’s ‘America first’ foreign policy may be driving China’s rise",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3359456/wu-xinbo-why-trumps-america-first-foreign-policy-may-be-driving-chinas-rise?utm_source=rss_feed",
+          "headline": "Wu Xinbo on why Trump’s ‘America first’ foreign policy may be driving China’s rise",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T22:00:07+00:00",
+      "last_seen": "2026-07-05T22:00:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0748
+    },
+    {
+      "id": "604c7c00bb",
+      "title": "Josh Shapiro warns Democrats face ‘battle over what we believe in’ after socialist’s upset primary victories",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/josh-shapiro-warns-democrats-battle-what-we-believe-after-socialist-upset-primary-victories",
+          "headline": "Josh Shapiro warns Democrats face ‘battle over what we believe in’ after socialist’s upset primary victories",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-05T22:00:00+00:00",
+      "last_seen": "2026-07-05T22:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0746
     },
     {
       "id": "d49ecf1afa",
@@ -371,35 +977,35 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1656
+      "resonance": 0.0671
     },
     {
-      "id": "9d210f4bbe",
-      "title": "Shelter-in-place order at Azteca over severe weather before Mexico-England",
+      "id": "5b6e897055",
+      "title": "Rodríguez defends Venezuela’s emergency earthquake response as number of bodies expected to soar",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/sport/football/articles/clyeegldnmpo?at_medium=RSS&at_campaign=rss",
-          "headline": "Shelter-in-place order at Azteca over severe weather before Mexico-England",
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/jul/05/rodriguez-defends-venezuelas-emergency-earthquake-response-as-bodies-expected-to-soar",
+          "headline": "Rodríguez defends Venezuela’s emergency earthquake response as number of bodies expected to soar",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": -0.3,
         "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "left": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-05T21:52:07+00:00",
-      "last_seen": "2026-07-05T21:52:07+00:00",
+      "first_seen": "2026-07-05T21:50:42+00:00",
+      "last_seen": "2026-07-05T21:50:42+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1608
+      "resonance": 0.0608
     },
     {
       "id": "1611b2d8bc",
@@ -427,91 +1033,7 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1583
-    },
-    {
-      "id": "c22dbc882a",
-      "title": "Man charged over Brisbane park death",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-06/man-charged-with-unlawful-striking-after-west-end-death/106883246",
-          "headline": "Man charged over Brisbane park death",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T21:50:11+00:00",
-      "last_seen": "2026-07-05T21:50:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1575
-    },
-    {
-      "id": "b46d1e0694",
-      "title": "Australia news live: Crisafulli promises harsher youth bail laws; auction clearances below 50% again",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/06/australia-news-live-crisafulli-bail-laws-property-market-auction-clearance-tax-reform-prime-minister-albanese-fiji-treaty-royal-commission-meta-antisemitism-ntwnfb",
-          "headline": "Australia news live: Crisafulli promises harsher youth bail laws; auction clearances below 50% again",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T21:49:03+00:00",
-      "last_seen": "2026-07-05T21:49:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1556
-    },
-    {
-      "id": "0d3d935f1e",
-      "title": "Remote state high school parents seek help with teacher shortage",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-06/biloela-high-school-parents-urge-for-help-in-teacher-shortage/106801738",
-          "headline": "Remote state high school parents seek help with teacher shortage",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T21:45:57+00:00",
-      "last_seen": "2026-07-05T21:45:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1504
+      "resonance": 0.0608
     },
     {
       "id": "851394f281",
@@ -539,7 +1061,7 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1467
+      "resonance": 0.0507
     },
     {
       "id": "3db0d04622",
@@ -567,614 +1089,50 @@
       ],
       "geo_regions": [],
       "topic": "science",
-      "resonance": 0.1459
-    },
-    {
-      "id": "dc4d3dd9e1",
-      "title": "Country singer drops 70 pounds, sets new weight loss goal after years of breathlessness on stage",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/country-singer-drops-70-pounds-sets-new-weight-loss-goal-after-years-breathlessness-stage",
-          "headline": "Country singer drops 70 pounds, sets new weight loss goal after years of breathlessness on stage",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-05T21:42:14+00:00",
-      "last_seen": "2026-07-05T21:42:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1442
-    },
-    {
-      "id": "f84d79f292",
-      "title": "Sabalenka to 'get drunk and forget about tennis' after Wimbledon exit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-06/tennis-naomi-osaka-beats-aryna-sabalenka-wimbledon-fourth-round/106883204",
-          "headline": "Sabalenka to 'get drunk and forget about tennis' after Wimbledon exit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T21:41:23+00:00",
-      "last_seen": "2026-07-05T21:41:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1428
-    },
-    {
-      "id": "7593bfb6a6",
-      "title": "'Diverse France, that of Kylian Mbappé and the national team, is too promising a reality to be used as an electoral punching bag'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/opinion/article/2026/07/05/diverse-france-that-of-kylian-mbappe-and-the-national-team-is-too-promising-a-reality-to-be-used-as-an-electoral-punching-bag_6755175_23.html",
-          "headline": "'Diverse France, that of Kylian Mbappé and the national team, is too promising a reality to be used as an electoral punching bag'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T21:39:52+00:00",
-      "last_seen": "2026-07-05T21:39:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1403
-    },
-    {
-      "id": "6dc801ae1d",
-      "title": "Israel’s Government Threatens to Ignore a Top Court Ruling",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/05/world/middleeast/israel-court-netanyahu-clash.html",
-          "headline": "Israel’s Government Threatens to Ignore a Top Court Ruling",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T21:35:18+00:00",
-      "last_seen": "2026-07-05T21:35:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1329
-    },
-    {
-      "id": "1bc7d80e37",
-      "title": "Uber’s European expansion plans may have hit a speed bump",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/",
-          "headline": "Uber’s European expansion plans may have hit a speed bump",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T21:35:17+00:00",
-      "last_seen": "2026-07-05T21:35:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1329
-    },
-    {
-      "id": "474f1772f5",
-      "title": "Benedict's Law to overhaul school allergy training",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c79yj0g77n2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Benedict's Law to overhaul school allergy training",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T21:30:10+00:00",
-      "last_seen": "2026-07-05T21:30:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1246
-    },
-    {
-      "id": "7cd14d22bf",
-      "title": "Anti-drug video fiasco not a vote of confidence in Hong Kong’s AI goals",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359325/anti-drug-video-fiasco-not-vote-confidence-hong-kongs-ai-goals?utm_source=rss_feed",
-          "headline": "Anti-drug video fiasco not a vote of confidence in Hong Kong’s AI goals",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T21:30:06+00:00",
-      "last_seen": "2026-07-05T21:30:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1245
-    },
-    {
-      "id": "ee309737bf",
-      "title": "FIFA lifts Folarin Balogun's World Cup suspension after Trump calls Infantino",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260705-fifa-lifts-balogun-world-cup-suspension-trump-call",
-          "headline": "FIFA lifts Folarin Balogun's World Cup suspension after Trump calls Infantino",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T21:21:48+00:00",
-      "last_seen": "2026-07-05T21:21:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1113
-    },
-    {
-      "id": "79c8efaaed",
-      "title": "Lionel Richie reassures fans he is 'doing well' after dizzy spell forced concert cancellations",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/lionel-richie-reassures-fans-he-doing-well-after-dizzy-spell-forced-concert-cancellations",
-          "headline": "Lionel Richie reassures fans he is 'doing well' after dizzy spell forced concert cancellations",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-05T21:10:57+00:00",
-      "last_seen": "2026-07-05T21:10:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0944
-    },
-    {
-      "id": "3fb431c539",
-      "title": "FIFA makes unprecedented U-turn to clear Balogun for U.S. vs Belgium World Cup clash",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/fifa-makes-unprecedented-u-turn-to-clear-balogun-for-usvs-belgium-world-cup-clash/article71186902.ece",
-          "headline": "FIFA makes unprecedented U-turn to clear Balogun for U.S. vs Belgium World Cup clash",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T21:08:55+00:00",
-      "last_seen": "2026-07-05T21:08:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0913
-    },
-    {
-      "id": "c82fb2df22",
-      "title": "Families of children killed in strike on Iranian school join leader’s funeral",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/07/05/families-children-killed-iran-school-bombing-join-leaders-funeral-tehran/",
-          "headline": "Families of children killed in strike on Iranian school join leader’s funeral",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T21:07:46+00:00",
-      "last_seen": "2026-07-05T21:07:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0895
-    },
-    {
-      "id": "b3553c8b5a",
-      "title": "Y si sí: the phrase uniting Mexico during the World Cup",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/05/nx-s1-5881076/y-si-si-the-phrase-uniting-mexicos-world-cup-fans",
-          "headline": "Y si sí: the phrase uniting Mexico during the World Cup",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T21:03:43+00:00",
-      "last_seen": "2026-07-05T21:03:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0834
-    },
-    {
-      "id": "0ac3a9c0a1",
-      "title": "Toddler declared dead after near-drowning was found alive in hospital morgue hours later, police say",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/toddler-declared-dead-after-near-drowning-found-alive-hospital-morgue-hours-later-police-say",
-          "headline": "Toddler declared dead after near-drowning was found alive in hospital morgue hours later, police say",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-05T20:55:05+00:00",
-      "last_seen": "2026-07-05T20:55:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.0705
-    },
-    {
-      "id": "c3170ec906",
-      "title": "Thunderstorms, heat and wind will hamper efforts to contain Colorado wildfires",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/05/nx-s1-5883052/colorado-wildfires-thunderstorms-firefighters-killed",
-          "headline": "Thunderstorms, heat and wind will hamper efforts to contain Colorado wildfires",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T20:54:38+00:00",
-      "last_seen": "2026-07-05T20:54:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0698
-    },
-    {
-      "id": "bf77c04a97",
-      "title": "Albanian court frees protesters who rallied against Kushner-linked resort",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/5/albanian-court-frees-protesters-who-rallied-against-kushner-linked-resort?traffic_source=rss",
-          "headline": "Albanian court frees protesters who rallied against Kushner-linked resort",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T20:50:58+00:00",
-      "last_seen": "2026-07-05T20:50:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0644
-    },
-    {
-      "id": "1ba8771a37",
-      "title": "Can Iran Keep Its Edge?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/05/world/iran-strait-hormuz-ali-khamenei.html",
-          "headline": "Can Iran Keep Its Edge?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T20:47:52+00:00",
-      "last_seen": "2026-07-05T20:47:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0599
-    },
-    {
-      "id": "aa6efcd9fc",
-      "title": "Mexico vs England LIVE: FIFA World Cup 2026 – last 16",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/5/mexico-vs-england-live-fifa-world-cup-2026-last-16?traffic_source=rss",
-          "headline": "Mexico vs England LIVE: FIFA World Cup 2026 – last 16",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T20:46:14+00:00",
-      "last_seen": "2026-07-05T20:46:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0575
-    },
-    {
-      "id": "66aaa1c0af",
-      "title": "FIFA World Cup: All to know as Ronaldo’s Portugal play Spain in the last 16",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/5/world-cup-portugal-vs-spain-key-talking-points-ronaldo-yamal-prediction?traffic_source=rss",
-          "headline": "FIFA World Cup: All to know as Ronaldo’s Portugal play Spain in the last 16",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-05T20:41:02+00:00",
-      "last_seen": "2026-07-05T20:41:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "c1b06b38de",
-      "target": "ee309737bf",
-      "weight": 0.141,
+      "source": "53f7576c1f",
+      "target": "e8eeaa61de",
+      "weight": 0.023,
       "type": "thematic"
     },
     {
       "source": "3e8cf5135d",
-      "target": "c82fb2df22",
-      "weight": 0.142,
+      "target": "74ec3830b2",
+      "weight": 0.341,
       "type": "thematic"
     },
     {
-      "source": "3e8cf5135d",
-      "target": "1ba8771a37",
-      "weight": 0.011,
+      "source": "52eadcc052",
+      "target": "e8eeaa61de",
+      "weight": 0.234,
       "type": "thematic"
     },
     {
-      "source": "a431a60ce6",
-      "target": "f84d79f292",
-      "weight": 0.325,
+      "source": "94d629c7e1",
+      "target": "343cb311e8",
+      "weight": 0.309,
       "type": "thematic"
     },
     {
-      "source": "28f32b9d32",
-      "target": "aa6efcd9fc",
-      "weight": 0.419,
+      "source": "8e56a23e27",
+      "target": "1611b2d8bc",
+      "weight": 0.499,
       "type": "thematic"
     },
     {
-      "source": "92f71ed280",
-      "target": "aa6efcd9fc",
-      "weight": 0.46,
+      "source": "bb5944794e",
+      "target": "1611b2d8bc",
+      "weight": 0.168,
       "type": "thematic"
     },
     {
-      "source": "92f71ed280",
-      "target": "66aaa1c0af",
-      "weight": 0.01,
-      "type": "thematic"
-    },
-    {
-      "source": "d49ecf1afa",
-      "target": "aa6efcd9fc",
-      "weight": 0.042,
-      "type": "thematic"
-    },
-    {
-      "source": "9d210f4bbe",
-      "target": "aa6efcd9fc",
-      "weight": 0.377,
-      "type": "thematic"
-    },
-    {
-      "source": "ee309737bf",
-      "target": "3fb431c539",
-      "weight": 0.446,
-      "type": "thematic"
-    },
-    {
-      "source": "ee309737bf",
-      "target": "aa6efcd9fc",
-      "weight": 0.307,
-      "type": "thematic"
-    },
-    {
-      "source": "ee309737bf",
-      "target": "66aaa1c0af",
-      "weight": 0.153,
-      "type": "thematic"
-    },
-    {
-      "source": "3fb431c539",
-      "target": "aa6efcd9fc",
-      "weight": 0.307,
-      "type": "thematic"
-    },
-    {
-      "source": "3fb431c539",
-      "target": "66aaa1c0af",
-      "weight": 0.153,
-      "type": "thematic"
-    },
-    {
-      "source": "b3553c8b5a",
-      "target": "aa6efcd9fc",
-      "weight": 0.747,
-      "type": "thematic"
-    },
-    {
-      "source": "b3553c8b5a",
-      "target": "66aaa1c0af",
-      "weight": 0.056,
-      "type": "thematic"
-    },
-    {
-      "source": "aa6efcd9fc",
-      "target": "66aaa1c0af",
-      "weight": 0.404,
+      "source": "0d97a28330",
+      "target": "5737b14885",
+      "weight": 0.888,
       "type": "thematic"
     }
   ],

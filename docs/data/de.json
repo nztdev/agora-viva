@@ -1,102 +1,143 @@
 {
-  "generated_at": "2026-07-04T23:12:22.890122+00:00",
+  "generated_at": "2026-07-05T04:16:59.919891+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 6,
+  "edge_count": 11,
   "nodes": [
     {
-      "id": "6aa48ed18f",
-      "title": "Staatsschutz: Pistorius: Keine geheimen Infos an AfD wegen Nähe zu Putin",
-      "signal_count": 2,
+      "id": "096147ae6f",
+      "title": "Trump telefoniert mit Putin und Selenskyj und bietet Vermittlung an",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/article6a49840704ec47fa1727eb23/afd-naehe-zu-putin-nicht-zu-uebersehen-pistorius-will-verhindern-dass-partei-an-geheime-infos-kommt.html",
-          "headline": "„Nähe zu Putin nicht zu übersehen“ – Pistorius will verhindern, dass AfD an geheime Infos kommt",
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/international/ukraine-trump-bietet-nach-gespraechen-mit-putin-und-selenskyj-vermittlung-im-ukraine-krieg-an/27982126.html",
+          "headline": "+++ Ukraine-Krieg +++: Trump bietet nach Gesprächen mit Putin und Selenskyj Vermittlung im Ukraine-Krieg an",
           "platform": "rss"
         },
         {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/trump-telefoniert-mit-putin-und-selenskyj-und-bietet-vermittlung-an-a-3ed99d27-6d3a-4de9-9137-3758ad3133c7#ref=rss",
+          "headline": "Trump telefoniert mit Putin und Selenskyj und bietet Vermittlung an",
+          "platform": "rss"
+        },
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-mindestens-zehn-tote-bei-russischen-angriffen-auf-sumy-und-den-sueden-faz-110683325.html",
+          "headline": "Liveblog Ukrainekrieg: Trump bietet nach Gesprächen mit Putin und Selenskyj Vermittlung an",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.067,
+        "spread": 0.155,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T23:34:46+00:00",
+      "last_seen": "2026-07-05T05:55:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.6507
+    },
+    {
+      "id": "6baa6dd53f",
+      "title": "DGB-Index Gute Arbeit: 40 Prozent bezweifeln Durchhalten bis zur Rente",
+      "signal_count": 2,
+      "sources": [
+        {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/05/pistorius-keine-geheimen-infos-an-afd-wegen-naehe-zu-putin",
-          "headline": "Staatsschutz: Pistorius: Keine geheimen Infos an AfD wegen Nähe zu Putin",
+          "url": "https://www.zeit.de/wirtschaft/2026-07/dgb-index-gute-arbeit-beschaeftigte-rentenalter-arbeitsbedingungen",
+          "headline": "DGB-Index Gute Arbeit: 40 Prozent bezweifeln Durchhalten bis zur Rente",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/politik/40-prozent-der-beschaeftigten-zweifeln-am-durchhalten-bis-zur-rente-a-ba462a1d-588c-4bb8-b384-d62fbe2548b2#ref=rss",
+          "headline": "40 Prozent der Beschäftigten zweifeln am Durchhalten bis zur Rente",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.075,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T00:35:00+00:00",
+      "last_seen": "2026-07-05T04:11:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.4877
+    },
+    {
+      "id": "c5da7df933",
+      "title": "Fußball-WM: Frankreich überwindet das Bollwerk Paraguay",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/arts_und_style/lifestyle/wm-2026-mbappe-trifft-frankreich-stoppt-dfb-schreck-paraguay/100231388.html",
+          "headline": "+++ Fußball-WM 2026 +++: Mbappé trifft – Frankreich stoppt DFB-Schreck Paraguay",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/sport/frankreich-paraguay-wm-ergebnis-li.3510592",
+          "headline": "Fußball-WM: Frankreich überwindet das Bollwerk Paraguay",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.025,
+        "spread": 0.175,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-04T23:46:38+00:00",
+      "last_seen": "2026-07-05T06:18:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.4161
+    },
+    {
+      "id": "c8630cb15a",
+      "title": "Auch der VAR blamiert sich: Diese peinliche Schiedsrichter-Leistung zerstört den Fußball",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball-wm/Diese-peinliche-Schiedsrichter-Leistung-zerstoert-den-Fussball-id31049157.html",
+          "headline": "Auch der VAR blamiert sich: Diese peinliche Schiedsrichter-Leistung zerstört den Fußball",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": 0.0,
-        "spread": 0.3,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T22:01:05+00:00",
-      "last_seen": "2026-07-04T22:58:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.6654
-    },
-    {
-      "id": "b4221bb322",
-      "title": "Neue Eigentümer gesucht: Condor-Chef offen für Verkauf an Airline vom Golf",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/unternehmen/luftfahrt-condor-chef-offen-fuer-verkauf-an-airline-vom-golf/100237934.html",
-          "headline": "Luftfahrt: Condor-Chef offen für Verkauf an Airline vom Golf",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/05/condor-chef-offen-fuer-verkauf-an-airline-vom-golf",
-          "headline": "Neue Eigentümer gesucht: Condor-Chef offen für Verkauf an Airline vom Golf",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.225,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T22:01:06+00:00",
-      "last_seen": "2026-07-04T22:15:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.5488
-    },
-    {
-      "id": "663e6ef6d9",
-      "title": "+++ Fußball-WM 2026 +++: Mitfavorit Marokko im WM-Viertelfinale – Kanada raus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/arts_und_style/lifestyle/wm-2026-mitfavorit-marokko-im-wm-viertelfinale-kanada-raus/100231388.html",
-          "headline": "+++ Fußball-WM 2026 +++: Mitfavorit Marokko im WM-Viertelfinale – Kanada raus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-05T01:54:00+00:00",
-      "last_seen": "2026-07-05T01:54:00+00:00",
+      "first_seen": "2026-07-05T04:15:40+00:00",
+      "last_seen": "2026-07-05T04:15:40+00:00",
       "platforms": [
         "rss"
       ],
@@ -106,26 +147,26 @@
       "resonance": 0.28
     },
     {
-      "id": "86e968e10d",
-      "title": "Auf die nächsten 250 Jahre: König Charles III. wünscht den USA alles Gute zum Geburtstag",
+      "id": "a64616f03f",
+      "title": "Fotografie: Bilder des Tages",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/leute/Koenig-Charles-III-wuenscht-den-USA-alles-Gute-zum-Geburtstag-id31048905.html",
-          "headline": "Auf die nächsten 250 Jahre: König Charles III. wünscht den USA alles Gute zum Geburtstag",
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/05/bilder-des-tages",
+          "headline": "Fotografie: Bilder des Tages",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": -0.3,
         "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "left": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-04T23:04:38+00:00",
-      "last_seen": "2026-07-04T23:04:38+00:00",
+      "first_seen": "2026-07-05T04:13:04+00:00",
+      "last_seen": "2026-07-05T04:13:04+00:00",
       "platforms": [
         "rss"
       ],
@@ -135,14 +176,130 @@
       "resonance": 0.28
     },
     {
-      "id": "aae82b9e8e",
-      "title": "Frankreich: Marine Le Pen und Jordan Bardella (RN) demonstrieren vor Gerichts-Urteil Einigkeit",
+      "id": "171cdd6fbc",
+      "title": "ZEIT WISSEN. Woher weißt Du das? / Rechtschreibung: Wozu Rechtschreibung, wenn KI jetzt alles korrigiert?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/wissenschaft/2026-07/rechtschreibung-sprache-ki-diskriminierung",
+          "headline": "ZEIT WISSEN. Woher weißt Du das? / Rechtschreibung: Wozu Rechtschreibung, wenn KI jetzt alles korrigiert?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T04:10:06+00:00",
+      "last_seen": "2026-07-05T04:10:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "76397c1dbe",
+      "title": "Hochzeit des Jahres: Outfit, Trauzeugen, Gäste: So lief die Swift-Hochzeit ab",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/05/outfit-trauzeugen-gaeste-so-lief-die-swift-hochzeit-ab",
+          "headline": "Hochzeit des Jahres: Outfit, Trauzeugen, Gäste: So lief die Swift-Hochzeit ab",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T04:06:59+00:00",
+      "last_seen": "2026-07-05T04:06:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "cefab24c96",
+      "title": "Bibliothekar: »Als Beamter würde ich 1.000 Euro mehr verdienen«",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/arbeit/2026-06/bibliothekar-gehalt-verbeamtung-universitaetsverlag-kontoauszug",
+          "headline": "Bibliothekar: »Als Beamter würde ich 1.000 Euro mehr verdienen«",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T04:05:27+00:00",
+      "last_seen": "2026-07-05T04:05:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "0deaed3ead",
+      "title": "Reformpaket: »Frauen drohen in die Schwarzarbeit abzurutschen«",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/wirtschaft/2026-07/reformpaket-frauen-sorgearbeit-jutta-allmendinger",
+          "headline": "Reformpaket: »Frauen drohen in die Schwarzarbeit abzurutschen«",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T04:04:24+00:00",
+      "last_seen": "2026-07-05T04:04:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "9e4a48db95",
+      "title": "WM 2026 News heute: Schiedsrichter Tantashev erntet massive Kritik nach Frankreich gegen Paraguay",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/frankreich-marine-le-pen-und-jordan-bardella-rn-demonstrieren-vor-gerichts-urteil-einigkeit-a-26d07e3b-7b3b-486d-8e5f-3f827406bad7#ref=rss",
-          "headline": "Frankreich: Marine Le Pen und Jordan Bardella (RN) demonstrieren vor Gerichts-Urteil Einigkeit",
+          "url": "https://www.spiegel.de/sport/fussball/wm-2026-news-heute-schiedsrichter-tantashev-erntet-massive-kritik-nach-frankreich-gegen-paraguay-a-82e8060d-f7c4-4e50-beda-692b2c17f328#ref=rss",
+          "headline": "WM 2026 News heute: Schiedsrichter Tantashev erntet massive Kritik nach Frankreich gegen Paraguay",
           "platform": "rss"
         }
       ],
@@ -153,112 +310,54 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-04T23:02:00+00:00",
-      "last_seen": "2026-07-04T23:02:00+00:00",
+      "first_seen": "2026-07-05T04:03:00+00:00",
+      "last_seen": "2026-07-05T04:03:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
+      "topic": "world",
       "language": "de",
       "resonance": 0.28
     },
     {
-      "id": "44f5d76f16",
-      "title": "Boris Pistorius: AfD-Minister könnten von Bundeswehr-Infos ausgeschlossen werden",
+      "id": "8ee3b13b22",
+      "title": "Frankreich bei der WM: Jetzt gewinnen sie auch noch die – Verzeihung – Drecksspiele",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-07/afd-boris-pistorius-bundeswehr-informationen-minister",
-          "headline": "Boris Pistorius: AfD-Minister könnten von Bundeswehr-Infos ausgeschlossen werden",
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/sport/frankreich-mbappe-paraguay-wm-schiedsrichter-li.3510581",
+          "headline": "Frankreich bei der WM: Jetzt gewinnen sie auch noch die – Verzeihung – Drecksspiele",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T22:59:28+00:00",
-      "last_seen": "2026-07-04T22:59:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "5930522749",
-      "title": "Zahl der Toten in Venezuela steigt auf fast 3000",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/zahl-der-toten-in-venezuela-steigt-auf-fast-3000-a-9c9d4ef5-26d7-46fa-8c7b-c8acfe82cae6#ref=rss",
-          "headline": "Zahl der Toten in Venezuela steigt auf fast 3000",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-04T22:43:00+00:00",
-      "last_seen": "2026-07-04T22:43:00+00:00",
+      "first_seen": "2026-07-05T04:00:13+00:00",
+      "last_seen": "2026-07-05T04:00:13+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "sport",
       "language": "de",
       "resonance": 0.28
     },
     {
-      "id": "785452deaf",
-      "title": "„Es ist ein astreiner Schlag“ – Galarzas Tätlichkeit gegen Mbappé bleibt ungeahndet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a497fd5ad32e994f875bac1/wm-2026-ein-astreiner-schlag-paraguays-taetlichkeit-gegen-mbappe-ungeahndet.html",
-          "headline": "„Es ist ein astreiner Schlag“ – Galarzas Tätlichkeit gegen Mbappé bleibt ungeahndet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T22:39:54+00:00",
-      "last_seen": "2026-07-04T22:39:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "17b3f80ecc",
-      "title": "Mit Bus zusammengestoßen: Motorradfahrer stirbt bei Überholmanöver in Kurve",
+      "id": "e795cb923d",
+      "title": "Musikfestivals: Bereit für den Festivalsommer?",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/05/motorradfahrer-stirbt-bei-ueberholmanoever-in-kurve",
-          "headline": "Mit Bus zusammengestoßen: Motorradfahrer stirbt bei Überholmanöver in Kurve",
+          "url": "https://www.zeit.de/gesellschaft/2026-07/musikfestivals-uk-usa-irland-englisch-podcast",
+          "headline": "Musikfestivals: Bereit für den Festivalsommer?",
           "platform": "rss"
         }
       ],
@@ -269,8 +368,8 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-04T22:39:32+00:00",
-      "last_seen": "2026-07-04T22:39:32+00:00",
+      "first_seen": "2026-07-05T04:00:09+00:00",
+      "last_seen": "2026-07-05T04:00:09+00:00",
       "platforms": [
         "rss"
       ],
@@ -280,72 +379,43 @@
       "resonance": 0.28
     },
     {
-      "id": "5ce98a3f91",
-      "title": "AfD baut Vorsprung auf die Union aus – mehr Deutsche gegen Parteiverbot als dafür",
+      "id": "05b71af141",
+      "title": "AfD-Parteitag: Neue alte Spitze: Wohin steuert die AfD jetzt?",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/article6a49839dad32e994f875bafc/umfrage-afd-baut-vorsprung-auf-union-aus-mehr-deutsche-gegen-parteiverbot-als-dafuer.html",
-          "headline": "AfD baut Vorsprung auf die Union aus – mehr Deutsche gegen Parteiverbot als dafür",
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/2026-07/afd-parteitag-erfurt-thueringen-partei-nachrichtenpodcast",
+          "headline": "AfD-Parteitag: Neue alte Spitze: Wohin steuert die AfD jetzt?",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.3,
+        "mean": -0.3,
         "spread": 0.0,
-        "left": 0,
+        "left": 1,
         "center": 0,
-        "right": 1
+        "right": 0
       },
-      "first_seen": "2026-07-04T22:34:30+00:00",
-      "last_seen": "2026-07-04T22:34:30+00:00",
+      "first_seen": "2026-07-05T04:00:06+00:00",
+      "last_seen": "2026-07-05T04:00:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.2757
+      "resonance": 0.28
     },
     {
-      "id": "bf57ed4458",
-      "title": "Israel-Eklat von Türkei-Minister – Bundesregierung schweigt, SPD und Grünen fordern Stellungnahme",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/article6a49802bad32e994f875bac5/israel-eklat-von-tuerkei-minister-regierung-schweigt-spd-und-gruenen-fordern-stellungnahme.html",
-          "headline": "Israel-Eklat von Türkei-Minister – Bundesregierung schweigt, SPD und Grünen fordern Stellungnahme",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T22:14:11+00:00",
-      "last_seen": "2026-07-04T22:14:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.2337
-    },
-    {
-      "id": "9cdcaf05f3",
-      "title": "Bodenseekreis: Toter und zwei Verletzte nach schwerem Unfall",
+      "id": "c2d9899748",
+      "title": "Justiz: So oft schlichten Schiedsleute Verfahren",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/04/toter-und-zwei-verletzte-nach-schwerem-unfall",
-          "headline": "Bodenseekreis: Toter und zwei Verletzte nach schwerem Unfall",
+          "url": "https://www.zeit.de/news/2026-07/05/so-oft-schlichten-schiedsleute-verfahren",
+          "headline": "Justiz: So oft schlichten Schiedsleute Verfahren",
           "platform": "rss"
         }
       ],
@@ -356,25 +426,25 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-04T22:14:08+00:00",
-      "last_seen": "2026-07-04T22:14:08+00:00",
+      "first_seen": "2026-07-05T04:00:06+00:00",
+      "last_seen": "2026-07-05T04:00:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.2336
+      "resonance": 0.28
     },
     {
-      "id": "97e26d50ec",
-      "title": "Hamburg: Salzsäure in Müllverbrennungsanlage ausgetreten",
+      "id": "5786aacc66",
+      "title": "Bahnstrecke Deutschland-Polen: Bund sieht kein Potenzial für zügigen Ausbau der Ostbahn",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/05/salzsaeure-in-muellverbrennungsanlage-ausgetreten",
-          "headline": "Hamburg: Salzsäure in Müllverbrennungsanlage ausgetreten",
+          "url": "https://www.zeit.de/news/2026-07/05/bund-sieht-kein-potenzial-fuer-zuegigen-ausbau-der-ostbahn",
+          "headline": "Bahnstrecke Deutschland-Polen: Bund sieht kein Potenzial für zügigen Ausbau der Ostbahn",
           "platform": "rss"
         }
       ],
@@ -385,25 +455,25 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-04T22:07:57+00:00",
-      "last_seen": "2026-07-04T22:07:57+00:00",
+      "first_seen": "2026-07-05T04:00:05+00:00",
+      "last_seen": "2026-07-05T04:00:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.2213
+      "resonance": 0.28
     },
     {
-      "id": "44a92b8821",
-      "title": "Lächeln für Ex Eros Ramazzotti: Michelle Hunziker teilt Fotos von Hochzeit ihrer Tochter Aurora",
+      "id": "fb368863e5",
+      "title": "\"Würde sie vom Platz zerren\": Unfassbare Treterei raubt Franzosen (fast) den letzten Nerv",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "n-tv",
-          "url": "https://www.n-tv.de/leute/Michelle-Hunziker-teilt-Fotos-von-Hochzeit-ihrer-Tochter-Aurora-id31048873.html",
-          "headline": "Lächeln für Ex Eros Ramazzotti: Michelle Hunziker teilt Fotos von Hochzeit ihrer Tochter Aurora",
+          "url": "https://www.n-tv.de/sport/fussball-wm/Unfassbare-Treterei-raubt-Franzosen-fast-den-letzten-Nerv-id31048950.html",
+          "headline": "\"Würde sie vom Platz zerren\": Unfassbare Treterei raubt Franzosen (fast) den letzten Nerv",
           "platform": "rss"
         }
       ],
@@ -414,159 +484,170 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-04T22:04:48+00:00",
-      "last_seen": "2026-07-04T22:04:48+00:00",
+      "first_seen": "2026-07-05T03:56:26+00:00",
+      "last_seen": "2026-07-05T03:56:26+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.215
+      "resonance": 0.28
     },
     {
-      "id": "5dfed72014",
-      "title": "AfD-Parteitag in Erfurt: Parteitag wird fortgesetzt – Proteste verliefen meist friedlich",
-      "signal_count": 2,
+      "id": "bb14556955",
+      "title": "Knallharte Abrechnung: Matthäus geht auf \"kleine Nagelsmänner ohne Widerspruch\" los",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball-wm/Matthaeus-geht-auf-kleine-Nagelsmaenner-ohne-Widerspruch-los-id31049202.html",
+          "headline": "Knallharte Abrechnung: Matthäus geht auf \"kleine Nagelsmänner ohne Widerspruch\" los",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T03:55:38+00:00",
+      "last_seen": "2026-07-05T03:55:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "e64521c4b8",
+      "title": "AfD-Parteitag in Erfurt: Co-Parteichef Chrupalla ist mit seinem Wahlergebnis zufrieden",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
           "url": "https://www.zeit.de/politik/deutschland/2026-07/afd-parteitag-erfurt-proteste-live",
-          "headline": "AfD-Parteitag in Erfurt: Parteitag wird fortgesetzt – Proteste verliefen meist friedlich",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-07/proteste-afd-parteitag-erfurt-polizei",
-          "headline": "Demonstrationen in Erfurt: Proteste gegen AfD-Parteitag verliefen überwiegend friedlich",
+          "headline": "AfD-Parteitag in Erfurt: Co-Parteichef Chrupalla ist mit seinem Wahlergebnis zufrieden",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.3,
         "spread": 0.0,
-        "left": 2,
+        "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-04T20:51:51+00:00",
-      "last_seen": "2026-07-04T23:03:00+00:00",
+      "first_seen": "2026-07-05T03:47:58+00:00",
+      "last_seen": "2026-07-05T03:47:58+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.2086
+      "resonance": 0.28
     },
     {
-      "id": "76826d190e",
-      "title": "Kalenderblatt: Was geschah am 5. Juli?",
+      "id": "46746879ca",
+      "title": "Frankreich gegen Paraguay: Die Leistung des Schiedsrichterteams war für eine WM unangemessen",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/04/was-geschah-am-5-juli",
-          "headline": "Kalenderblatt: Was geschah am 5. Juli?",
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/sport/frankreich-paraguay-schiedsrichter-fouls-li.3510598",
+          "headline": "Frankreich gegen Paraguay: Die Leistung des Schiedsrichterteams war für eine WM unangemessen",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
+        "mean": -0.2,
         "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T21:55:04+00:00",
-      "last_seen": "2026-07-04T21:55:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.196
-    },
-    {
-      "id": "438e8cadc3",
-      "title": "Waldbrand in Katalonien: Waldbrand nahe Costa Brava ist weitgehend unter Kontrolle",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-07/waldbrand-katalonien-costa-brava-feuerwehr",
-          "headline": "Waldbrand in Katalonien: Waldbrand nahe Costa Brava ist weitgehend unter Kontrolle",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T21:50:35+00:00",
-      "last_seen": "2026-07-04T21:50:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "de",
-      "resonance": 0.1874
-    },
-    {
-      "id": "4381afff61",
-      "title": "Türkei verweigert Kreuzfahrtschiff für LGBTQ-Gäste das Anlegen",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/article6a4953eb44ae5595894c9543/schiff-scarlet-lady-tuerkei-verweigert-kreuzfahrtschiff-fuer-lgbtq-gaeste-das-anlegen.html",
-          "headline": "Türkei verweigert Kreuzfahrtschiff für LGBTQ-Gäste das Anlegen",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/panorama/Tuerkei-laesst-LGBTQ-Kreuzfahrtschiff-nicht-anlegen-id31048617.html",
-          "headline": "\"Mit Werten unvereinbar\": Türkei lässt LGBTQ-Kreuzfahrtschiff nicht anlegen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.15,
         "left": 0,
         "center": 1,
-        "right": 1
+        "right": 0
       },
-      "first_seen": "2026-07-04T18:11:40+00:00",
-      "last_seen": "2026-07-04T19:29:11+00:00",
+      "first_seen": "2026-07-05T03:47:09+00:00",
+      "last_seen": "2026-07-05T03:47:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1803
+      "resonance": 0.28
     },
     {
-      "id": "9486cb6a15",
-      "title": "WM 2026 live: Frankreich schlägt Paraguay 1:0",
-      "signal_count": 2,
+      "id": "bde9a83e7b",
+      "title": "Weniger Bürokratie: Hamburg drängt auf einheitliche Datenschutzaufsicht",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/05/hamburg-draengt-auf-einheitliche-datenschutzaufsicht",
+          "headline": "Weniger Bürokratie: Hamburg drängt auf einheitliche Datenschutzaufsicht",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T03:30:06+00:00",
+      "last_seen": "2026-07-05T03:30:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2658
+    },
+    {
+      "id": "241b70bd62",
+      "title": "Demokratische Mehrheiten: Kämpfer fordert klare Abgrenzung aller Demokraten von AfD",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/05/kaempfer-fordert-klare-abgrenzung-aller-demokraten-von-afd",
+          "headline": "Demokratische Mehrheiten: Kämpfer fordert klare Abgrenzung aller Demokraten von AfD",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T03:30:05+00:00",
+      "last_seen": "2026-07-05T03:30:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2658
+    },
+    {
+      "id": "6c2f50b1f4",
+      "title": "Liebe: Gibt es Liebe auf den ersten Blick? Psychologe erklärt den Effekt",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/wm-2026-live-frankreich-schlaegt-paraguay-1-0-a-66fbff07-1109-41cc-b191-364407d28b20#ref=rss",
-          "headline": "WM 2026 live: Frankreich schlägt Paraguay 1:0",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/wm-2026-marokko-schlaegt-kanada-deutlich-ismael-saibari-verletzt-raus-a-00153b55-bfc6-4a6b-8c09-1d045196a27c#ref=rss",
-          "headline": "WM 2026: Marokko schlägt Kanada deutlich – Ismael Saibari verletzt raus",
+          "url": "https://www.spiegel.de/partnerschaft/liebe-gibt-es-liebe-auf-den-ersten-blick-psychologe-erklaert-den-effekt-a-b7d6d344-3f38-4215-9066-3c5d29e720f0#ref=rss",
+          "headline": "Liebe: Gibt es Liebe auf den ersten Blick? Psychologe erklärt den Effekt",
           "platform": "rss"
         }
       ],
@@ -574,392 +655,317 @@
         "mean": -0.15,
         "spread": 0.0,
         "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T20:16:00+00:00",
-      "last_seen": "2026-07-04T23:06:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1758
-    },
-    {
-      "id": "67097280b4",
-      "title": "\"Sehr gute Fortschritte\": Brasilien-Star Raphinha meldet sich für Norwegen-Knaller zurück",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/fussball-wm/Brasilien-Star-Raphinha-meldet-sich-fuer-Norwegen-Knaller-zurueck-id31048845.html",
-          "headline": "\"Sehr gute Fortschritte\": Brasilien-Star Raphinha meldet sich für Norwegen-Knaller zurück",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-04T21:28:54+00:00",
-      "last_seen": "2026-07-04T21:28:54+00:00",
+      "first_seen": "2026-07-05T03:30:00+00:00",
+      "last_seen": "2026-07-05T03:30:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.147
+      "resonance": 0.2656
     },
     {
-      "id": "dc2df222a8",
-      "title": "Polizei-Einsatz: Ein Toter und fünf Schwerverletzte auf Rügen",
+      "id": "5ad3b886b0",
+      "title": "Bilder vom Auge: Drei Paare zeigen ihr persönliches Iris-Foto",
       "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/04/ein-toter-und-fuenf-schwerverletzte-auf-ruegen",
-          "headline": "Polizei-Einsatz: Ein Toter und fünf Schwerverletzte auf Rügen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T21:26:54+00:00",
-      "last_seen": "2026-07-04T21:26:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.1434
-    },
-    {
-      "id": "e3d37bad43",
-      "title": "Veranstaltungsreihe: Schleswig-Holstein Musik Festival in Lübeck eröffnet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/04/schleswig-holstein-musik-festival-in-luebeck-eroeffnet",
-          "headline": "Veranstaltungsreihe: Schleswig-Holstein Musik Festival in Lübeck eröffnet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T21:23:05+00:00",
-      "last_seen": "2026-07-04T21:23:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1365
-    },
-    {
-      "id": "fd192edd43",
-      "title": "Hätte Marokkos Achtelfinal-Held vor seinem Doppelpack vom Platz fliegen müssen?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/video6a49787f0b14ed961bb52266/wm-haette-marokkos-achtelfinal-held-vor-seinem-doppelpack-vom-platz-fliegen-muessen.html",
-          "headline": "Hätte Marokkos Achtelfinal-Held vor seinem Doppelpack vom Platz fliegen müssen?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T21:22:01+00:00",
-      "last_seen": "2026-07-04T21:22:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1346
-    },
-    {
-      "id": "9805787696",
-      "title": "Rede zum Unabhängigkeitstag: JD Vance verdammt \"Wut und Eifer\" gegen die USA",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/JD-Vance-verdammt-Wut-und-Eifer-gegen-die-USA-id31048824.html",
-          "headline": "Rede zum Unabhängigkeitstag: JD Vance verdammt \"Wut und Eifer\" gegen die USA",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T21:13:55+00:00",
-      "last_seen": "2026-07-04T21:13:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1203
-    },
-    {
-      "id": "f111826e36",
-      "title": "Mbappé bestraft Paraguays grobe Unsportlichkeiten – Frankreich quält sich zum Sieg",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a4934b8b21fd831ecbf8a24/wm-ticker-achtelfinale-frankreich-gegen-paraguay-live.html",
-          "headline": "Mbappé bestraft Paraguays grobe Unsportlichkeiten – Frankreich quält sich zum Sieg",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T20:59:03+00:00",
-      "last_seen": "2026-07-04T20:59:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0946
-    },
-    {
-      "id": "5b1a94c514",
-      "title": "AfD-Parteitag in Erfurt: Alice Weidels Rache",
-      "signal_count": 4,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/politik/deutschland/afd-parteitag-in-erfurt-alice-weidels-rache-a-fe6359b6-c667-493a-8743-c739a33fb9f1#ref=rss",
-          "headline": "AfD-Parteitag in Erfurt: Alice Weidels Rache",
-          "platform": "rss"
-        },
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/AfD-Parteitag-in-Erfurt/!6193443/",
-          "headline": "AfD-Parteitag in Erfurt: Weidels Wahlverein",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/afd-tausende-protestieren-gegen-afd-parteitag-in-erfurt/100237891.html",
-          "headline": "AfD: Tausende protestieren gegen AfD-Parteitag in Erfurt",
-          "platform": "rss"
-        },
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Liveticker-zum-AfD-Parteitag-und-den-Gegenprotesten/!6193016/",
-          "headline": "+++ AfD-Parteitag und Protest +++: Riesenprotest gegen AfD-Parteitag",
+          "url": "https://www.spiegel.de/partnerschaft/bilder-vom-auge-drei-paare-zeigen-ihr-persoenliches-iris-foto-a-9ebb4e47-3289-4638-b2b7-8cdb2e7557ab#ref=rss",
+          "headline": "Bilder vom Auge: Drei Paare zeigen ihr persönliches Iris-Foto",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.275,
-        "spread": 0.295,
-        "left": 2,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T14:41:00+00:00",
-      "last_seen": "2026-07-04T18:21:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0902
-    },
-    {
-      "id": "6e7deddac5",
-      "title": "Erdbeben in Venezuela: Regierung in Venezuela meldet fast 3.000 Tote nach Erdbeben",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-07/erdbeben-venezuela-la-guaira-tote-nachbeben",
-          "headline": "Erdbeben in Venezuela: Regierung in Venezuela meldet fast 3.000 Tote nach Erdbeben",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-04T20:55:42+00:00",
-      "last_seen": "2026-07-04T20:55:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0889
-    },
-    {
-      "id": "245fe912a8",
-      "title": "AfD-Parteitag wird am Sonntag fortgesetzt – Polizei zieht erste Bilanz zu Protesten",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/article6a47904e2e8f13ca8ed2ad55/afd-bundesparteitag-in-erfurt-parteitag-wird-am-sonntag-fortgesetzt-polizei-zieht-erste-bilanz-liveticker.html",
-          "headline": "AfD-Parteitag wird am Sonntag fortgesetzt – Polizei zieht erste Bilanz zu Protesten",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
+        "mean": -0.15,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-07-04T20:52:00+00:00",
-      "last_seen": "2026-07-04T20:52:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0827
-    },
-    {
-      "id": "58850d2b35",
-      "title": "Hunderte vermummte Nationalisten marschieren durch Washington",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/ausland/article6a496ba9af4a1166277a0612/usa-hunderte-vermummte-nationalisten-marschieren-durch-washington.html",
-          "headline": "Hunderte vermummte Nationalisten marschieren durch Washington",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-04T20:41:23+00:00",
-      "last_seen": "2026-07-04T20:41:23+00:00",
+      "first_seen": "2026-07-05T03:30:00+00:00",
+      "last_seen": "2026-07-05T03:30:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0652
+      "resonance": 0.2656
     },
     {
-      "id": "bfa15aa654",
-      "title": "Neue Haushaltspläne: Zweckentfremdung von Klima-Milliarden",
+      "id": "1c1066df34",
+      "title": "USA 250 Jahre Unabhängigkeit: Liveticker – Donald Trump ehrt Veteranen und stichelt gegen Zohran Mamdani",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "taz",
-          "url": "https://taz.de/Neue-Haushaltsplaene/!6193452/",
-          "headline": "Neue Haushaltspläne: Zweckentfremdung von Klima-Milliarden",
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/usa-250-jahre-unabhaengigkeit-liveticker-zu-den-feierlichkeiten-a-b963d9cc-6e8c-4a61-a4e1-3e9debf8fb79#ref=rss",
+          "headline": "USA 250 Jahre Unabhängigkeit: Liveticker – Donald Trump ehrt Veteranen und stichelt gegen Zohran Mamdani",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.55,
+        "mean": -0.15,
         "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-04T20:32:00+00:00",
-      "last_seen": "2026-07-04T20:32:00+00:00",
+      "first_seen": "2026-07-05T03:19:00+00:00",
+      "last_seen": "2026-07-05T03:19:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "economy",
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2398
+    },
+    {
+      "id": "49b3285abd",
+      "title": "Grüne werfen Wirtschaftsministerin Reiche „Arbeitsverweigerung“ vor",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/article6a49c2a60b14ed961bb5242b/eeg-reform-die-gruenen-werfen-katherina-reiche-arbeitsverweigerung-vor.html",
+          "headline": "Grüne werfen Wirtschaftsministerin Reiche „Arbeitsverweigerung“ vor",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-05T03:00:44+00:00",
+      "last_seen": "2026-07-05T03:00:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.1985
+    },
+    {
+      "id": "44c7865603",
+      "title": "\"Waren bessere Mannschaft\": \"Am Boden liegendes\" Kanada hadert heftig",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball-wm/Am-Boden-liegendes-Kanada-hadert-heftig-id31049132.html",
+          "headline": "\"Waren bessere Mannschaft\": \"Am Boden liegendes\" Kanada hadert heftig",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T02:51:37+00:00",
+      "last_seen": "2026-07-05T02:51:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.1786
+    },
+    {
+      "id": "e54d4473c0",
+      "title": "Unwetter stört 250-Jahr-Feier: National Mall evakuiert - Trumps Rede verschoben",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/National-Mall-evakuiert-Trumps-Rede-verschoben-id31049092.html",
+          "headline": "Unwetter stört 250-Jahr-Feier: National Mall evakuiert - Trumps Rede verschoben",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T02:30:15+00:00",
+      "last_seen": "2026-07-05T02:30:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1334
+    },
+    {
+      "id": "40c9fb9676",
+      "title": "Viagra gegen die Höhe? Sichtlich amüsiert räumt Tuchel mit den Gerüchten auf",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/article6a16c606bd0d0e58e09d9530/fussball-wm-2026-paraguays-torschuetze-spielte-mit-der-uhr-des-schiedsrichters-am-arm.html",
+          "headline": "Viagra gegen die Höhe? Sichtlich amüsiert räumt Tuchel mit den Gerüchten auf",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-05T02:00:00+00:00",
+      "last_seen": "2026-07-05T02:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.073
+    },
+    {
+      "id": "e0a4cb7fd0",
+      "title": "„Sie hat nur geweint, schämt sich sehr“ – 15-jährige Deutsche nach Schlägerwurf disqualifiziert",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/tennis/article6a49b608ad32e994f875bcbf/wimbledon-sie-schaemt-sich-sehr-15-jaehrige-deutsche-nach-schlaegerwurf-disqualifiziert.html",
+          "headline": "„Sie hat nur geweint, schämt sich sehr“ – 15-jährige Deutsche nach Schlägerwurf disqualifiziert",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-05T01:55:39+00:00",
+      "last_seen": "2026-07-05T01:55:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0646
+    },
+    {
+      "id": "5930dd8f7b",
+      "title": "Nicht auf Doping-Liste: Tuchel räumt mit skurrilem Viagra-Gerücht auf",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball-wm/Tuchel-raeumt-mit-skurrilem-Viagra-Geruecht-auf-id31049029.html",
+          "headline": "Nicht auf Doping-Liste: Tuchel räumt mit skurrilem Viagra-Gerücht auf",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-05T01:47:55+00:00",
+      "last_seen": "2026-07-05T01:47:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
       "language": "de",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "6aa48ed18f",
-      "target": "44f5d76f16",
-      "weight": 0.515,
+      "source": "c5da7df933",
+      "target": "c8630cb15a",
+      "weight": 0.31,
       "type": "thematic"
     },
     {
-      "source": "663e6ef6d9",
-      "target": "9486cb6a15",
-      "weight": 0.522,
+      "source": "c5da7df933",
+      "target": "9e4a48db95",
+      "weight": 0.398,
       "type": "thematic"
     },
     {
-      "source": "5930522749",
-      "target": "6e7deddac5",
-      "weight": 0.592,
+      "source": "c5da7df933",
+      "target": "8ee3b13b22",
+      "weight": 0.323,
       "type": "thematic"
     },
     {
-      "source": "5dfed72014",
-      "target": "5b1a94c514",
-      "weight": 0.973,
+      "source": "c5da7df933",
+      "target": "46746879ca",
+      "weight": 0.776,
       "type": "thematic"
     },
     {
-      "source": "5dfed72014",
-      "target": "245fe912a8",
-      "weight": 0.61,
+      "source": "a64616f03f",
+      "target": "5ad3b886b0",
+      "weight": 0.024,
       "type": "thematic"
     },
     {
-      "source": "5b1a94c514",
-      "target": "245fe912a8",
-      "weight": 0.121,
+      "source": "9e4a48db95",
+      "target": "8ee3b13b22",
+      "weight": 0.089,
+      "type": "thematic"
+    },
+    {
+      "source": "9e4a48db95",
+      "target": "46746879ca",
+      "weight": 0.721,
+      "type": "thematic"
+    },
+    {
+      "source": "8ee3b13b22",
+      "target": "46746879ca",
+      "weight": 0.342,
+      "type": "thematic"
+    },
+    {
+      "source": "05b71af141",
+      "target": "e64521c4b8",
+      "weight": 0.391,
+      "type": "thematic"
+    },
+    {
+      "source": "05b71af141",
+      "target": "241b70bd62",
+      "weight": 0.036,
+      "type": "thematic"
+    },
+    {
+      "source": "40c9fb9676",
+      "target": "5930dd8f7b",
+      "weight": 0.924,
       "type": "thematic"
     }
   ],

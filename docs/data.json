@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-06T17:20:06.544248+00:00",
+  "generated_at": "2026-07-06T19:14:30.009243+00:00",
   "node_count": 35,
-  "edge_count": 1,
+  "edge_count": 10,
   "nodes": [
     {
-      "id": "269b74d6e2",
-      "title": "Car touchscreens are cheap, not good",
+      "id": "3dead2d2cb",
+      "title": "OpenWrt One – Open Hardware Router",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://ben.stolovitz.com/posts/car-touchscreens-are-cheap-not-good/",
-          "headline": "Car touchscreens are cheap, not good",
+          "url": "https://openwrt.org/toh/openwrt/one",
+          "headline": "OpenWrt One – Open Hardware Router",
           "platform": "hackernews"
         }
       ],
@@ -22,8 +22,36 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-06T15:34:53+00:00",
-      "last_seen": "2026-07-06T15:34:53+00:00",
+      "first_seen": "2026-07-06T18:23:12+00:00",
+      "last_seen": "2026-07-06T18:23:12+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.28
+    },
+    {
+      "id": "a933fcc630",
+      "title": "Resetting Xbox",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
+          "headline": "Resetting Xbox",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T14:18:23+00:00",
+      "last_seen": "2026-07-06T14:18:23+00:00",
       "platforms": [
         "hackernews"
       ],
@@ -32,42 +60,54 @@
       "resonance": 0.28
     },
     {
-      "id": "fa9a8aba3b",
-      "title": "What Emily Bender meant by \"stochastic parrots\"",
-      "signal_count": 1,
+      "id": "5cd9efa7d9",
+      "title": "Live: Ronaldo confirms last World Cup as Portugal meets Spain",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://spectrum.ieee.org/stochastic-parrot",
-          "headline": "What Emily Bender meant by \"stochastic parrots\"",
-          "platform": "hackernews"
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/spain-vs-portugal-fifa-world-cup-match-live-score-updates-july-6-2026/article71190886.ece",
+          "headline": "Spain vs Portugal, FIFA World Cup Round of 16 LIVE: First half begins, all eyes on Spain's Yamal and Portugal's Ronaldo",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-07/world-cup-live-blog-portugal-vs-spain-usa-vs-belgium/106885332",
+          "headline": "Live: Ronaldo confirms last World Cup as Portugal meets Spain",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/6/portugal-vs-spain-live-fifa-world-cup-2026-round-of-16?traffic_source=rss",
+          "headline": "Portugal vs Spain LIVE: FIFA World Cup 2026 round of 16",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
+        "mean": -0.133,
+        "spread": 0.047,
         "left": 0,
-        "center": 1,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-07-06T14:45:31+00:00",
-      "last_seen": "2026-07-06T14:45:31+00:00",
+      "first_seen": "2026-07-06T15:59:34+00:00",
+      "last_seen": "2026-07-06T19:08:03+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
+      "topic": "sport",
+      "resonance": 0.3353
     },
     {
       "id": "e4f3ddf89e",
       "title": "Trump confirms he asked Fifa to review Balogun ban",
-      "signal_count": 6,
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/sports/2026-07-06/trumps-fifa-intervention-sparks-a-world-cup-scandal-us-president-admits-he-called-infantino-to-request-a-review-of-baloguns-red-card.html",
-          "headline": "Trump’s FIFA intervention sparks a World Cup scandal: US president admits he called Infantino to request a review of Balogun’s red card",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c1myykx0gmxo?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump confirms he asked Fifa to review Balogun ban",
           "platform": "rss"
         },
         {
@@ -77,73 +117,27 @@
           "platform": "rss"
         },
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/us-president-trump-defends-fifas-balogun-red-card-reversal?traffic_source=rss",
-          "headline": "US president Trump defends FIFA’s Balogun red card reversal",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c1myykx0gmxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump confirms he asked Fifa to review Balogun ban",
-          "platform": "rss"
-        },
-        {
           "outlet": "ABC Australia",
           "url": "https://www.abc.net.au/news/2026-07-07/world-cup-red-card-suspended-us-striker-balogun-condemned-uefa/106886512",
           "headline": "Trump says he asked FIFA to review US striker's World Cup red card",
           "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/world-cup-2026-trump-fifa-and-the-balogun-controversy/a-77848357?maca=en-rss-en-all-1573-rdf",
-          "headline": "World Cup 2026: Trump, FIFA and the Balogun controversy",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.133,
-        "spread": 0.075,
+        "mean": -0.1,
+        "spread": 0.082,
         "left": 0,
-        "center": 6,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-07-06T10:58:00+00:00",
-      "last_seen": "2026-07-06T16:59:23+00:00",
+      "first_seen": "2026-07-06T14:03:01+00:00",
+      "last_seen": "2026-07-06T19:06:34+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.5692
-    },
-    {
-      "id": "286cd1e3ee",
-      "title": "Nintendo announces new product revisions in Europe with replaceable batteries",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.nintendo.com/en-gb/Support/Nintendo-Switch-2/Information-about-upcoming-battery-related-revisions-to-some-Nintendo-products-3132901.html",
-          "headline": "Nintendo announces new product revisions in Europe with replaceable batteries",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T13:18:16+00:00",
-      "last_seen": "2026-07-06T13:18:16+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
+      "resonance": 0.279
     },
     {
       "id": "4f0a262437",
@@ -183,63 +177,23 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.4355
+      "resonance": 0.1893
     },
     {
-      "id": "835e088b75",
-      "title": "Sri Lanka prison riots leave 26 dead and more than 100 injured",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/06/world/asia/sri-lanka-prison-riot-dead.html",
-          "headline": "Riot in Sri Lanka’s Negombo prison leaves at least 23 dead",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cvg77klne3yo?at_medium=RSS&at_campaign=rss",
-          "headline": "Sri Lanka prison riots leave 26 dead and more than 100 injured",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-06/dozens-killed-in-deadly-sri-lanka-prison-riot/106886470",
-          "headline": "Dozens killed and more than 100 injured in Sri Lanka prison riot",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.133,
-        "spread": 0.125,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T13:20:46+00:00",
-      "last_seen": "2026-07-06T14:29:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2347
-    },
-    {
-      "id": "ed79e520fb",
-      "title": "Pogacar wins Tour de France third stage and takes yellow jersey",
+      "id": "1c671d90b2",
+      "title": "Death toll from DR Congo Ebola outbreak passes 500 as healthcare workers threaten strike",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260706-tadej-pogacar-wins-third-stage-of-tour-de-france-to-take-yellow-jersey-from-vingegaard",
-          "headline": "Tadej Pogacar wins third stage of Tour de France to take yellow jersey from Vingegaard",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/6/ebola-death-toll-in-dr-congo-surpasses-500?traffic_source=rss",
+          "headline": "Ebola death toll in DR Congo surpasses 500",
           "platform": "rss"
         },
         {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/sports/article/2026/07/06/pogacar-wins-tour-de-france-third-stage-and-takes-yellow-jersey_6755202_9.html",
-          "headline": "Pogacar wins Tour de France third stage and takes yellow jersey",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/africa/20260706-death-toll-from-dr-congo-ebola-outbreak-passes-500-as-healthcare-workers-threaten-strike",
+          "headline": "Death toll from DR Congo Ebola outbreak passes 500 as healthcare workers threaten strike",
           "platform": "rss"
         }
       ],
@@ -250,58 +204,58 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-06T15:36:23+00:00",
-      "last_seen": "2026-07-06T15:45:59+00:00",
+      "first_seen": "2026-07-06T16:20:06+00:00",
+      "last_seen": "2026-07-06T18:41:33+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2319
+      "topic": "conflict",
+      "resonance": 0.1809
     },
     {
-      "id": "d675c8a77c",
-      "title": "Former Syrian Officials Found Guilty in Torture of Pro-Democracy Protesters",
+      "id": "3d7de1b0b4",
+      "title": "Ex-Syrian intelligence chief found guilty of torture and sexual abuse by Austrian court",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/austrian-court-convicts-2-former-syrian-officials-of-torture/a-77853458?maca=en-rss-en-all-1573-rdf",
-          "headline": "Austrian court convicts 2 former Syrian officials of torture",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cy8ddd1m3mpo?at_medium=RSS&at_campaign=rss",
+          "headline": "Ex-Syrian intelligence chief found guilty of torture and sexual abuse by Austrian court",
           "platform": "rss"
         },
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/06/world/middleeast/syrian-torture-verdict-vienna.html",
-          "headline": "Former Syrian Officials Found Guilty in Torture of Pro-Democracy Protesters",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/6/ex-syrian-intelligence-chief-in-raqqa-convicted-of-torture-in-austria?traffic_source=rss",
+          "headline": "Ex-Syrian intelligence chief in Raqqa convicted of torture in Austria",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.2,
+        "mean": -0.1,
         "spread": 0.1,
-        "left": 1,
-        "center": 1,
+        "left": 0,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-06T14:12:07+00:00",
-      "last_seen": "2026-07-06T16:01:00+00:00",
+      "first_seen": "2026-07-06T16:54:42+00:00",
+      "last_seen": "2026-07-06T17:22:38+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.179
+      "resonance": 0.1644
     },
     {
-      "id": "5d9c2f91c3",
-      "title": "Five questions for Dr. Rubin, who’s armed with a mic and a bowtie",
+      "id": "bc7dd18694",
+      "title": "Residents flag dangerous road conditions across East Bengaluru’s IT corridor",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/science/961483/doctor-zachary-rubin-md-interview",
-          "headline": "Five questions for Dr. Rubin, who’s armed with a mic and a bowtie",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/residents-flag-dangerous-road-conditions-across-east-bengalurus-it-corridor/article71122707.ece",
+          "headline": "Residents flag dangerous road conditions across East Bengaluru’s IT corridor",
           "platform": "rss"
         }
       ],
@@ -312,24 +266,394 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-06T17:15:29+00:00",
-      "last_seen": "2026-07-06T17:15:29+00:00",
+      "first_seen": "2026-07-06T19:06:28+00:00",
+      "last_seen": "2026-07-06T19:06:28+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.15
+      "resonance": 0.1082
     },
     {
-      "id": "185cb561c5",
-      "title": "ITV and Comcast’s Sky reshape British TV landscape with US$2.1 billion deal",
+      "id": "1b495bec7e",
+      "title": "Charlie Kirk's family attends hearing for suspect charged with his murder",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c1myyyyjvx5o?at_medium=RSS&at_campaign=rss",
+          "headline": "Charlie Kirk's family attends hearing for suspect charged with his murder",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T19:06:26+00:00",
+      "last_seen": "2026-07-06T19:06:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1082
+    },
+    {
+      "id": "0b5b56b9ab",
+      "title": "DDA extends booking for Karkardooma housing scheme till July 31",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Delhi/dda-extends-booking-for-karkardooma-housing-scheme-till-july-31/article71190636.ece",
+          "headline": "DDA extends booking for Karkardooma housing scheme till July 31",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T19:06:13+00:00",
+      "last_seen": "2026-07-06T19:06:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.1078
+    },
+    {
+      "id": "a5ab7e7d7d",
+      "title": "Safe Footpath Campaign runs into conflict with street vendors in Bengaluru",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/safe-footpath-campaign-runs-into-conflict-with-street-vendors-in-bengaluru/article71189269.ece",
+          "headline": "Safe Footpath Campaign runs into conflict with street vendors in Bengaluru",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T19:06:10+00:00",
+      "last_seen": "2026-07-06T19:06:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1077
+    },
+    {
+      "id": "c80cea294c",
+      "title": "When and how to watch State of Origin Game III between Maroons and Blues",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-07/when-is-state-of-origin-game-iii-2026-qld-maroons-nsw-blues/106866870",
+          "headline": "When and how to watch State of Origin Game III between Maroons and Blues",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T19:04:41+00:00",
+      "last_seen": "2026-07-06T19:04:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1054
+    },
+    {
+      "id": "2f223e3e75",
+      "title": "Germany cracks down on 'extraordinary' rate of sick leave",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-07/new-sick-leave-rules-germany-workplace/106883298",
+          "headline": "Germany cracks down on 'extraordinary' rate of sick leave",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T19:03:09+00:00",
+      "last_seen": "2026-07-06T19:03:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1029
+    },
+    {
+      "id": "911e2fddd1",
+      "title": "Emmanuel Macron visits Syria, 18 months after Assad's fall",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/emmanuel-macron-visits-syria-18-months-after-assad-s-fall/a-77856791?maca=en-rss-en-all-1573-rdf",
+          "headline": "Emmanuel Macron visits Syria, 18 months after Assad's fall",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T19:03:00+00:00",
+      "last_seen": "2026-07-06T19:03:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1027
+    },
+    {
+      "id": "13d5d9b9e9",
+      "title": "WorkSafe investigates after footballer suffers life-ending head injuries",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-07/nathan-fitzgerald-football-head-injuries-worksafe-investigate/106885606",
+          "headline": "WorkSafe investigates after footballer suffers life-ending head injuries",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T19:02:00+00:00",
+      "last_seen": "2026-07-06T19:02:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1011
+    },
+    {
+      "id": "2c0c851ba1",
+      "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+          "headline": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T19:01:59+00:00",
+      "last_seen": "2026-07-06T19:01:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1011
+    },
+    {
+      "id": "e486de84eb",
+      "title": "Do bees have inner lives? Slow-motion video reveals bumblebee behaviour similar to ‘liking’ or ‘disliking’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/environment/2026/jul/07/bees-emotion-like-behaviour-liking-disliking-inner-lives",
+          "headline": "Do bees have inner lives? Slow-motion video reveals bumblebee behaviour similar to ‘liking’ or ‘disliking’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T19:00:18+00:00",
+      "last_seen": "2026-07-06T19:00:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0984
+    },
+    {
+      "id": "87c7a7ec04",
+      "title": "Hamas to dissolve emergency government in Gaza",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/hamas-decision-dissolve-gaza-government-a-nod-trump-expert-says",
+          "headline": "Hamas decision to dissolve Gaza government is a nod to Trump, expert says",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-06/hamas-dissolves-gaza-emergency-government-palestinian-committee/106886472",
+          "headline": "Hamas to dissolve emergency government in Gaza",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.175,
+        "spread": 0.075,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T13:04:22+00:00",
+      "last_seen": "2026-07-06T18:46:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0972
+    },
+    {
+      "id": "99a0f03d97",
+      "title": "Turkey Hosts NATO Summit While Cracking Down on Critics",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/06/world/middleeast/turkey-hosts-nato-summit-while-cracking-down-on-critics.html",
+          "headline": "Turkey Hosts NATO Summit While Cracking Down on Critics",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T18:58:48+00:00",
+      "last_seen": "2026-07-06T18:58:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.096
+    },
+    {
+      "id": "46b58d21e8",
+      "title": "Mbappe condemns racist posts from Paraguay senator",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ckg557wxrzro?at_medium=RSS&at_campaign=rss",
+          "headline": "Mbappe condemns racist posts from Paraguay senator",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T18:58:18+00:00",
+      "last_seen": "2026-07-06T18:58:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0952
+    },
+    {
+      "id": "0b63aa51ea",
+      "title": "Socialist mayor Katie Wilson silent amid protests over ‘human dumping ground’ ahead of US World Cup match",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/socialist-mayor-katie-wilson-silent-protests-human-dumping-ground-us-world-cup-match",
+          "headline": "Socialist mayor Katie Wilson silent amid protests over ‘human dumping ground’ ahead of US World Cup match",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-06T18:54:10+00:00",
+      "last_seen": "2026-07-06T18:54:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0887
+    },
+    {
+      "id": "07e0dc5c63",
+      "title": "Integrity of World Cup is questioned as Trump, Fifa defend Balogun suspension actions",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3359640/itv-and-comcasts-sky-reshape-british-tv-landscape-us21-billion-deal?utm_source=rss_feed",
-          "headline": "ITV and Comcast’s Sky reshape British TV landscape with US$2.1 billion deal",
+          "url": "https://www.scmp.com/sport/football/article/3359643/integrity-world-cup-questioned-trump-fifa-defend-balogun-suspension-actions?utm_source=rss_feed",
+          "headline": "Integrity of World Cup is questioned as Trump, Fifa defend Balogun suspension actions",
           "platform": "rss"
         }
       ],
@@ -340,276 +664,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-06T17:14:48+00:00",
-      "last_seen": "2026-07-06T17:14:48+00:00",
+      "first_seen": "2026-07-06T18:54:00+00:00",
+      "last_seen": "2026-07-06T18:54:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1488
+      "topic": "sport",
+      "resonance": 0.0885
     },
     {
-      "id": "2b5e699e51",
-      "title": "Katalyst's satellite rescue mission is now in pursuit of NASA's Swift",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/science/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift/",
-          "headline": "Katalyst's satellite rescue mission is now in pursuit of NASA's Swift",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T17:14:09+00:00",
-      "last_seen": "2026-07-06T17:14:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.1477
-    },
-    {
-      "id": "29b573c69a",
-      "title": "Central bank trims borrowing costs to 2022 low, sees room for further rate cuts",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/central-bank-trims-borrowing-costs-to-2022-low-sees-room-for-further-rate-cuts/",
-          "headline": "Central bank trims borrowing costs to 2022 low, sees room for further rate cuts",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T17:12:51+00:00",
-      "last_seen": "2026-07-06T17:12:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.1454
-    },
-    {
-      "id": "a4f82dbc89",
-      "title": "FLASHBACK: As America turns 250, here's how the nation celebrated its biggest birthdays",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/flashback-america-turns-250-heres-how-nation-celebrated-its-biggest-birthdays",
-          "headline": "FLASHBACK: As America turns 250, here's how the nation celebrated its biggest birthdays",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-06T17:12:31+00:00",
-      "last_seen": "2026-07-06T17:12:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1449
-    },
-    {
-      "id": "a4e1a0e665",
-      "title": "Microsoft joins AI-driven tech layoff wave with 4,800 job cuts",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/business/Industry/microsoft-joins-ai-driven-tech-layoff-wave-with-4800-job-cuts/article71190777.ece",
-          "headline": "Microsoft joins AI-driven tech layoff wave with 4,800 job cuts",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T17:11:01+00:00",
-      "last_seen": "2026-07-06T17:11:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1422
-    },
-    {
-      "id": "5f87809f8f",
-      "title": "Modi begins three-nation tour with Indonesia visit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/shorts/modi-begins-three-nation-tour-with-indonesia-visit/article71190834.ece",
-          "headline": "Modi begins three-nation tour with Indonesia visit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T17:10:56+00:00",
-      "last_seen": "2026-07-06T17:10:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1421
-    },
-    {
-      "id": "c7f3f1b44c",
-      "title": "CBI searches 26 locations in Border Roads Organisation fund misappropriation case",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/cbi-searches-26-locations-in-border-roads-organisation-fund-misappropriation-case/article71190475.ece",
-          "headline": "CBI searches 26 locations in Border Roads Organisation fund misappropriation case",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T17:10:03+00:00",
-      "last_seen": "2026-07-06T17:10:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1406
-    },
-    {
-      "id": "6bfa822d7e",
-      "title": "Democrats' civil war heads to Michigan where progressives face biggest test yet in high-stakes Senate showdown",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/democrats-civil-war-heads-michigan-progressives-face-biggest-test-high-stakes-senate-showdown",
-          "headline": "Democrats' civil war heads to Michigan where progressives face biggest test yet in high-stakes Senate showdown",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-06T17:09:24+00:00",
-      "last_seen": "2026-07-06T17:09:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1394
-    },
-    {
-      "id": "915e7c2825",
-      "title": "Trump pushed NATO to pay up. Now allies must turn pledges into power",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/opinion/trump-pushed-nato-pay-now-allies-must-turn-pledges-power",
-          "headline": "Trump pushed NATO to pay up. Now allies must turn pledges into power",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-06T17:07:52+00:00",
-      "last_seen": "2026-07-06T17:07:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1368
-    },
-    {
-      "id": "61ecfc8773",
-      "title": "If you use Google, you’re training its AI. Here’s how to opt out.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
-          "headline": "If you use Google, you’re training its AI. Here’s how to opt out.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T17:04:58+00:00",
-      "last_seen": "2026-07-06T17:04:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1318
-    },
-    {
-      "id": "deca5876e7",
-      "title": "Wildfires Force Evacuation of Thousands in Southwest France",
+      "id": "695d651314",
+      "title": "Russia Strikes Kyiv, Ukraine’s Capital, on Eve of NATO Summit",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/06/world/europe/france-wildfires-evacuation.html",
-          "headline": "Wildfires Force Evacuation of Thousands in Southwest France",
+          "url": "https://www.nytimes.com/2026/07/05/world/europe/kyiv-ukraine-russia-attack-nato.html",
+          "headline": "Russia Strikes Kyiv, Ukraine’s Capital, on Eve of NATO Summit",
           "platform": "rss"
         }
       ],
@@ -620,52 +692,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-06T16:50:59+00:00",
-      "last_seen": "2026-07-06T16:50:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.1083
-    },
-    {
-      "id": "fc3cdce8ec",
-      "title": "Nearly a third of Hormuz crossings used Omani route, tracking data shows",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/nearly-third-hormuz-crossings-used-omani-route-tracking-data-shows",
-          "headline": "Nearly a third of Hormuz crossings used Omani route, tracking data shows",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T16:46:17+00:00",
-      "last_seen": "2026-07-06T16:46:17+00:00",
+      "first_seen": "2026-07-06T18:52:57+00:00",
+      "last_seen": "2026-07-06T18:52:57+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1005
+      "resonance": 0.0868
     },
     {
-      "id": "36a3fbda98",
-      "title": "Super Typhoon Bavi strikes US Pacific islands with pummeling winds",
+      "id": "ec52309332",
+      "title": "Huge crowds fill Tehran streets for Khamenei's funeral procession",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cr7xpgx50jxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Super Typhoon Bavi strikes US Pacific islands with pummeling winds",
+          "url": "https://www.bbc.co.uk/news/articles/cdejj44kl70o?at_medium=RSS&at_campaign=rss",
+          "headline": "Huge crowds fill Tehran streets for Khamenei's funeral procession",
           "platform": "rss"
         }
       ],
@@ -676,304 +720,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-06T16:44:54+00:00",
-      "last_seen": "2026-07-06T16:44:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0983
-    },
-    {
-      "id": "1668c2fbfd",
-      "title": "Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
-          "headline": "Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T16:44:18+00:00",
-      "last_seen": "2026-07-06T16:44:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0973
-    },
-    {
-      "id": "c4e8eb3f67",
-      "title": "'It's a very sad day' - Mexican fans react to loss to England",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cn5999n95epo?at_medium=RSS&at_campaign=rss",
-          "headline": "'It's a very sad day' - Mexican fans react to loss to England",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T16:43:51+00:00",
-      "last_seen": "2026-07-06T16:43:51+00:00",
+      "first_seen": "2026-07-06T18:50:44+00:00",
+      "last_seen": "2026-07-06T18:50:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0966
+      "resonance": 0.0834
     },
     {
-      "id": "4b8911a35b",
-      "title": "Canada to buy 12 hi-tech German submarines after bidding war",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/jul/06/canada-buys-12-tkms-german-norwegian-submarines-after-bidding-war",
-          "headline": "Canada to buy 12 hi-tech German submarines after bidding war",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T16:41:47+00:00",
-      "last_seen": "2026-07-06T16:41:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0932
-    },
-    {
-      "id": "1ba5acee10",
-      "title": "Why is Farage facing renewed scrutiny over his finances?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c1kyygjvz7go?at_medium=RSS&at_campaign=rss",
-          "headline": "Why is Farage facing renewed scrutiny over his finances?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T16:39:46+00:00",
-      "last_seen": "2026-07-06T16:39:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.09
-    },
-    {
-      "id": "4be766341a",
-      "title": "Senegal's power struggle: Referendum to decide on constitutional reform",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/senegal-s-power-struggle-referendum-to-decide-on-constitutional-reform/a-77809238?maca=en-rss-en-all-1573-rdf",
-          "headline": "Senegal's power struggle: Referendum to decide on constitutional reform",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T16:39:00+00:00",
-      "last_seen": "2026-07-06T16:39:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0887
-    },
-    {
-      "id": "f54c1f9fb8",
-      "title": "Consultants in England vote in favour of NHS strikes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c79yyyxzergo?at_medium=RSS&at_campaign=rss",
-          "headline": "Consultants in England vote in favour of NHS strikes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T16:23:58+00:00",
-      "last_seen": "2026-07-06T16:23:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.065
-    },
-    {
-      "id": "7d01355a6f",
-      "title": "'The spectacle Iran wants the world to see': Lyse Doucet in Tehran",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/videos/c78yyyl2ev4o?at_medium=RSS&at_campaign=rss",
-          "headline": "'The spectacle Iran wants the world to see': Lyse Doucet in Tehran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T16:23:44+00:00",
-      "last_seen": "2026-07-06T16:23:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0646
-    },
-    {
-      "id": "dcc52b1b6c",
-      "title": "Former Xbox studios Double Fine and Compulsion will keep games after going indie",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/games/961749/xbox-layoffs-compulsion-double-fine-indie",
-          "headline": "Former Xbox studios Double Fine and Compulsion will keep games after going indie",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T16:22:34+00:00",
-      "last_seen": "2026-07-06T16:22:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0628
-    },
-    {
-      "id": "f2f18b8c9f",
-      "title": "Apple brings back card payments for Apple Account purchases in India after a four-year hiatus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/06/apple-brings-back-card-payments-for-apple-account-purchases-in-india-after-a-four-year-hiatus/",
-          "headline": "Apple brings back card payments for Apple Account purchases in India after a four-year hiatus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T16:21:03+00:00",
-      "last_seen": "2026-07-06T16:21:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0604
-    },
-    {
-      "id": "1c671d90b2",
-      "title": "Death toll from DR Congo Ebola outbreak passes 500 as healthcare workers threaten strike",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/africa/20260706-death-toll-from-dr-congo-ebola-outbreak-passes-500-as-healthcare-workers-threaten-strike",
-          "headline": "Death toll from DR Congo Ebola outbreak passes 500 as healthcare workers threaten strike",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-06T16:20:06+00:00",
-      "last_seen": "2026-07-06T16:20:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.059
-    },
-    {
-      "id": "590c4c2a79",
-      "title": "France pulls all diplomats from Burkina Faso",
+      "id": "d427345cae",
+      "title": "French PM survives no-confidence vote over heatwave response",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/burkina-faso/article/2026/07/06/france-pulls-all-diplomats-from-burkina-faso_6755207_222.html",
-          "headline": "France pulls all diplomats from Burkina Faso",
+          "url": "https://www.lemonde.fr/en/politics/article/2026/07/06/french-pm-survives-no-confidence-vote-over-heatwave-response_6755212_5.html",
+          "headline": "French PM survives no-confidence vote over heatwave response",
           "platform": "rss"
         }
       ],
@@ -984,24 +748,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-06T16:18:32+00:00",
-      "last_seen": "2026-07-06T16:18:32+00:00",
+      "first_seen": "2026-07-06T18:48:51+00:00",
+      "last_seen": "2026-07-06T18:48:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0805
+    },
+    {
+      "id": "8b71241940",
+      "title": "Chicago officers wounded in traffic stop shootout as holiday weekend leaves 3 dead, 16 injured",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/chicago-officers-wounded-traffic-stop-shootout-holiday-weekend-leaves-3-dead-16-injured",
+          "headline": "Chicago officers wounded in traffic stop shootout as holiday weekend leaves 3 dead, 16 injured",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-06T18:47:53+00:00",
+      "last_seen": "2026-07-06T18:47:53+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0566
+      "resonance": 0.079
     },
     {
-      "id": "e424e3e3b6",
-      "title": "Israeli forces strike southern Lebanon town after funeral attack",
+      "id": "39067eca21",
+      "title": "Body of Iran's slain supreme leader arrives in Qom",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-strike-southern-lebanon-town-after-funeral-attack",
-          "headline": "Israeli forces strike southern Lebanon town after funeral attack",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/body-irans-slain-supreme-leader-arrives-qom",
+          "headline": "Body of Iran's slain supreme leader arrives in Qom",
           "platform": "rss"
         }
       ],
@@ -1012,24 +804,142 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-06T16:15:09+00:00",
-      "last_seen": "2026-07-06T16:15:09+00:00",
+      "first_seen": "2026-07-06T18:46:08+00:00",
+      "last_seen": "2026-07-06T18:46:08+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0514
+      "topic": "tech",
+      "resonance": 0.0763
     },
     {
-      "id": "c995f558b7",
-      "title": "RSF razes multiple villages in Darfur killing dozens as UN warns of rising attacks on children",
+      "id": "4f929d0460",
+      "title": "'The View' host supports Trump appealing to FIFA on controversial red card",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/07/06/rsf-razes-multiple-villages-in-darfur-killing-dozens-as-un-warns-of-rising-attacks-on-chil",
-          "headline": "RSF razes multiple villages in Darfur killing dozens as UN warns of rising attacks on children",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/the-view-host-supports-trump-appealing-fifa-controversial-red-card",
+          "headline": "'The View' host supports Trump appealing to FIFA on controversial red card",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-06T18:44:35+00:00",
+      "last_seen": "2026-07-06T18:44:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0739
+    },
+    {
+      "id": "ff00977d74",
+      "title": "Iran to Bury Ayatollah Ali Khamenei in Holy City of Mashhad",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/06/world/middleeast/mashhad-iran-khamenei-buried.html",
+          "headline": "Iran to Bury Ayatollah Ali Khamenei in Holy City of Mashhad",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/04/world/middleeast/the-funeral-of-irans-supreme-leader-ali-khamenei.html",
+          "headline": "The Funeral of Iran’s Supreme Leader Ayatollah Ali Khamenei",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 2,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T18:21:25+00:00",
+      "last_seen": "2026-07-06T18:41:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0715
+    },
+    {
+      "id": "546eea2c3a",
+      "title": "Heat waves are taking a big toll on chickens",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/06/climate/dead-chickens-heat-wave-france.html",
+          "headline": "Heat waves are taking a big toll on chickens",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T18:39:08+00:00",
+      "last_seen": "2026-07-06T18:39:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0656
+    },
+    {
+      "id": "2473d6cc4b",
+      "title": "Trump rings in new ‘Trump Account’ investment accounts for children",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/trump-rings-in-new-trump-account-investment-accounts-for-children?traffic_source=rss",
+          "headline": "Trump rings in new ‘Trump Account’ investment accounts for children",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T18:37:52+00:00",
+      "last_seen": "2026-07-06T18:37:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.0637
+    },
+    {
+      "id": "84e3bc7bcf",
+      "title": "America’s greatest idea is still under threat",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/policy/961802/america-250-free-speech",
+          "headline": "America’s greatest idea is still under threat",
           "platform": "rss"
         }
       ],
@@ -1040,21 +950,159 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-06T16:14:14+00:00",
-      "last_seen": "2026-07-06T16:14:14+00:00",
+      "first_seen": "2026-07-06T18:36:33+00:00",
+      "last_seen": "2026-07-06T18:36:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0618
+    },
+    {
+      "id": "481dc1a1e3",
+      "title": "The running list: major tech layoffs in 2026 where employers cited AI",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+          "headline": "The running list: major tech layoffs in 2026 where employers cited AI",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T18:35:00+00:00",
+      "last_seen": "2026-07-06T18:35:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0594
+    },
+    {
+      "id": "6ec7422394",
+      "title": "China test-fires long-range missile into Pacific, rattling U.S. allies",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/national-security/2026/07/06/china-test-fires-long-range-missile-into-pacific-rattling-us-allies/",
+          "headline": "China test-fires long-range missile into Pacific, rattling U.S. allies",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T18:29:56+00:00",
+      "last_seen": "2026-07-06T18:29:56+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
+      "resonance": 0.0519
+    },
+    {
+      "id": "1f7ddcdbdb",
+      "title": "Iran reappoints a familiar face to powerful post during Khamenei funeral",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/6/iran-reappoints-a-familiar-face-to-powerful-post-during-khamenei-funeral?traffic_source=rss",
+          "headline": "Iran reappoints a familiar face to powerful post during Khamenei funeral",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-06T18:28:38+00:00",
+      "last_seen": "2026-07-06T18:28:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "c4e8eb3f67",
-      "target": "f54c1f9fb8",
-      "weight": 0.003,
+      "source": "5cd9efa7d9",
+      "target": "07e0dc5c63",
+      "weight": 0.122,
+      "type": "thematic"
+    },
+    {
+      "source": "e4f3ddf89e",
+      "target": "07e0dc5c63",
+      "weight": 0.549,
+      "type": "thematic"
+    },
+    {
+      "source": "e4f3ddf89e",
+      "target": "4f929d0460",
+      "weight": 0.146,
+      "type": "thematic"
+    },
+    {
+      "source": "e4f3ddf89e",
+      "target": "2473d6cc4b",
+      "weight": 0.136,
+      "type": "thematic"
+    },
+    {
+      "source": "99a0f03d97",
+      "target": "695d651314",
+      "weight": 0.264,
+      "type": "thematic"
+    },
+    {
+      "source": "07e0dc5c63",
+      "target": "4f929d0460",
+      "weight": 0.04,
+      "type": "thematic"
+    },
+    {
+      "source": "07e0dc5c63",
+      "target": "2473d6cc4b",
+      "weight": 0.031,
+      "type": "thematic"
+    },
+    {
+      "source": "ec52309332",
+      "target": "1f7ddcdbdb",
+      "weight": 0.176,
+      "type": "thematic"
+    },
+    {
+      "source": "4f929d0460",
+      "target": "2473d6cc4b",
+      "weight": 0.036,
+      "type": "thematic"
+    },
+    {
+      "source": "ff00977d74",
+      "target": "1f7ddcdbdb",
+      "weight": 0.123,
       "type": "thematic"
     }
   ],
@@ -1081,7 +1129,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 10,
+      "count": 9,
       "error": null
     },
     "The Economist": {
@@ -1101,7 +1149,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 5,
+      "count": 6,
       "error": null
     },
     "The Atlantic": {

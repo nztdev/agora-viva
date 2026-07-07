@@ -1,8 +1,100 @@
 {
-  "generated_at": "2026-07-07T20:47:45.938340+00:00",
+  "generated_at": "2026-07-07T22:09:18.952056+00:00",
   "node_count": 35,
-  "edge_count": 4,
+  "edge_count": 17,
   "nodes": [
+    {
+      "id": "f40ee13f8d",
+      "title": "Every new car sold in the European Union must include a driver monitoring camera",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
+          "headline": "Every new car sold in the European Union must include a driver monitoring camera",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T20:50:46+00:00",
+      "last_seen": "2026-07-07T20:50:46+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.28
+    },
+    {
+      "id": "acff764879",
+      "title": "US launches strikes on Iran after tankers hit in Strait of Hormuz",
+      "signal_count": 7,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/07/us-launches-new-strikes-on-iran-after-hormuz-attacks_6755250_4.html",
+          "headline": "US launches new strikes on Iran after Hormuz attacks",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/west-asia-war-live-updates-july-7-2026-khamenei-funeral-ceremonies/article71191969.ece",
+          "headline": "West Asia War LIVE: U.S. strikes Iran after Hormuz tanker attacks",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
+          "headline": "US launches strikes on Iran after tankers hit in Strait of Hormuz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/iran-war-us-launches-fresh-strikes-after-attacks-in-hormuz/live-77869350?maca=en-rss-en-all-1573-rdf",
+          "headline": "Iran war: US launches fresh strikes after attacks in Hormuz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/07/07/tanker-fire-after-being-struck-strait-hormuz-british-military-says/",
+          "headline": "U.S. launches ‘powerful strikes’ against Iran, citing attacks on commercial ships",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260707-middle-east-live-us-launches-strikes-on-iran-after-ships-attacked-in-strait-of-hormuz",
+          "headline": "Middle East live: US launches strikes on Iran after ships attacked in Strait of Hormuz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-08/three-tankers-struck-in-strait-of-hormuz/106891128",
+          "headline": "US launches new Iran strikes after tankers attacked in Strait of Hormuz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.129,
+        "spread": 0.088,
+        "left": 1,
+        "center": 6,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T20:45:28+00:00",
+      "last_seen": "2026-07-07T21:57:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.7177
+    },
     {
       "id": "d843dfdf56",
       "title": "China sentences official to death for taking $325M in bribes",
@@ -32,106 +124,72 @@
       "resonance": 0.28
     },
     {
-      "id": "bc81d0ae86",
-      "title": "Microsoft fire idTech team at Id software",
-      "signal_count": 1,
+      "id": "40a0288ce8",
+      "title": "'We have suffered injustice': Egypt coach fumes at ref after Argentina loss",
+      "signal_count": 2,
       "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/",
-          "headline": "Microsoft fire idTech team at Id software",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T15:33:20+00:00",
-      "last_seen": "2026-07-07T15:33:20+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.28
-    },
-    {
-      "id": "a95956e172",
-      "title": "Switzerland vs Colombia live: Manzambi out of World Cup last-16 tie in blow to Swiss",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/colombia-vs-switzerland-fifa-world-cup-round-of-16-match-live-score-updates-july-7-2026/article71195391.ece",
-          "headline": "Switzerland vs Colombia FIFA World Cup LIVE: Manzambi ruled out of final Round of 16 clash",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/colombia-soccer-fans-invade-vancouver-world-cup-round-16-clash-switzerland",
-          "headline": "Colombia soccer fans invade Vancouver ahead of World Cup Round of 16 clash with Switzerland",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260707-switzerland-vs-colombia-live-world-cup-last-16-tie-manzambi-injury",
-          "headline": "Switzerland vs Colombia live: Manzambi out of World Cup last-16 tie in blow to Swiss",
-          "platform": "rss"
-        },
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/7/live-switzerland-vs-colombia-fifa-world-cup-2026?traffic_source=rss",
-          "headline": "Switzerland vs Colombia LIVE: FIFA World Cup 2026 round of 16",
+          "url": "https://www.aljazeera.com/sports/2026/7/7/egypt-were-cheated-in-world-cup-loss-to-argentina-coach-hassan-says?traffic_source=rss",
+          "headline": "Egypt were ‘cheated’ in World Cup loss to Argentina, coach Hassan says",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-08/world-cup-egypt-coach-fumes-at-ref-after-argentina-loss/106891186",
+          "headline": "'We have suffered injustice': Egypt coach fumes at ref after Argentina loss",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.05,
-        "spread": 0.32,
+        "mean": -0.15,
+        "spread": 0.05,
         "left": 0,
-        "center": 3,
-        "right": 1
+        "center": 2,
+        "right": 0
       },
-      "first_seen": "2026-07-07T17:00:26+00:00",
-      "last_seen": "2026-07-07T20:14:03+00:00",
+      "first_seen": "2026-07-07T21:11:15+00:00",
+      "last_seen": "2026-07-07T22:04:54+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.5511
+      "resonance": 0.3184
     },
     {
-      "id": "e7645a94f0",
-      "title": "Chat Control passed first round in EU Parliament",
-      "signal_count": 1,
+      "id": "5e8ff554fd",
+      "title": "Australia news live: major outage hits Telstra mobile network; PM to host three Pacific leaders in Brisbane",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html",
-          "headline": "Chat Control passed first round in EU Parliament",
-          "platform": "hackernews"
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/08/anthony-albanese-pacific-diplomacy-state-of-origin-labor-coalition-recession-unemployment-ntwnfb",
+          "headline": "Australia news live: major outage hits Telstra mobile network; PM to host three Pacific leaders in Brisbane",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-08/federal-politics-live-blog-pm-pacific-leaders-visit/106891164",
+          "headline": "Live: PM prepares to host leaders of three Pacific nations in Brisbane",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-07T15:16:15+00:00",
-      "last_seen": "2026-07-07T15:16:15+00:00",
+      "first_seen": "2026-07-07T21:11:18+00:00",
+      "last_seen": "2026-07-07T21:45:39+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.28
+      "topic": "world",
+      "resonance": 0.2847
     },
     {
       "id": "9a724107b6",
@@ -139,15 +197,15 @@
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c7vygl3zymjo?at_medium=RSS&at_campaign=rss",
-          "headline": "Marine Le Pen to run for French presidency and appeal conviction in top court",
-          "platform": "rss"
-        },
-        {
           "outlet": "New York Times",
           "url": "https://www.nytimes.com/2026/07/07/world/europe/marine-le-pen-verdict-election-ban-appeal.html",
           "headline": "Le Pen Says She Will Run for Presidency After Court Lifts Ban",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c7vygl3zymjo?at_medium=RSS&at_campaign=rss",
+          "headline": "Marine Le Pen to run for French presidency and appeal conviction in top court",
           "platform": "rss"
         }
       ],
@@ -158,14 +216,82 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-07T19:16:38+00:00",
-      "last_seen": "2026-07-07T19:55:59+00:00",
+      "first_seen": "2026-07-07T19:55:59+00:00",
+      "last_seen": "2026-07-07T20:49:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.3625
+      "resonance": 0.2013
+    },
+    {
+      "id": "62bde973ad",
+      "title": "NYC high-rise's possible collapse prompts evacuations",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-08/new-york-building-at-risk-of-collapse-after-columns-buckle/106891248",
+          "headline": "New York high-rise at risk of 'collapse' after buckled columns spark evacuations",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/nyc-high-rise-s-possible-collapse-prompts-evacuations/a-77868907?maca=en-rss-en-all-1573-rdf",
+          "headline": "NYC high-rise's possible collapse prompts evacuations",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T19:36:00+00:00",
+      "last_seen": "2026-07-07T21:55:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2002
+    },
+    {
+      "id": "878fe32d78",
+      "title": "Switzerland vs Colombia live: World Cup's final last-16 tie goes to extra time",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/colombia-vs-switzerland-fifa-world-cup-round-of-16-match-live-score-updates-july-7-2026/article71195391.ece",
+          "headline": "Switzerland vs Colombia FIFA World Cup LIVE: Manzambi ruled out of final Round of 16 clash",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260707-switzerland-vs-colombia-live-world-cup-last-16-tie-manzambi-injury",
+          "headline": "Switzerland vs Colombia live: World Cup's final last-16 tie goes to extra time",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T18:47:29+00:00",
+      "last_seen": "2026-07-07T22:02:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1746
     },
     {
       "id": "d8bbbdf196",
@@ -205,47 +331,641 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.3409
+      "resonance": 0.1213
     },
     {
-      "id": "1601fa8ecb",
-      "title": "Woman suspected of Monaco bomb attack found dead in Ukraine",
-      "signal_count": 3,
+      "id": "85593ee38b",
+      "title": "Messi leads Argentina in stunning late 3-2 comeback to oust Egypt from World Cup",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/woman-suspected-of-monaco-bombing-is-found-dead-in-ukraine-authorities-say",
-          "headline": "Woman suspected of Monaco bombing is found dead in Ukraine, authorities say",
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/messi-leads-argentina-in-stunning-late-3-2-comeback-to-oust-egypt-from-world-cup/",
+          "headline": "Messi leads Argentina in stunning late 3-2 comeback to oust Egypt from World Cup",
           "platform": "rss"
         },
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c5yz3770yg8o?at_medium=RSS&at_campaign=rss",
-          "headline": "Woman suspected of Monaco bomb attack found dead in Ukraine",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/07/world/europe/monaco-bombing-suspect-dead-ukraine.html",
-          "headline": "Suspect in Monaco Bombing Attack Is Found Dead in Ukraine",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/7/7/argentina-stage-stunning-late-comeback-to-beat-egypt-in-world-cup-last-16?traffic_source=rss",
+          "headline": "Argentina stage stunning late comeback to beat Egypt in World Cup last 16",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.133,
+        "mean": -0.075,
         "spread": 0.125,
-        "left": 1,
+        "left": 0,
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-07T15:34:06+00:00",
-      "last_seen": "2026-07-07T19:27:39+00:00",
+      "first_seen": "2026-07-07T18:34:19+00:00",
+      "last_seen": "2026-07-07T20:57:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1146
+    },
+    {
+      "id": "e691e5db05",
+      "title": "Almost $100k raised to stop small town slipping into ocean",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-08/lancelin-residents-fundraise-sea-wall-erosion-emergency/106884028",
+          "headline": "Almost $100k raised to stop small town slipping into ocean",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T22:01:08+00:00",
+      "last_seen": "2026-07-07T22:01:08+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2475
+      "resonance": 0.1053
+    },
+    {
+      "id": "1bf0ac97ed",
+      "title": "How Hong Kong is fighting to redefine its future with an institutional moat, wealth surge",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/business/banking-finance/article/3359698/how-hong-kong-fighting-redefine-its-future-institutional-moat-wealth-surge?utm_source=rss_feed",
+          "headline": "How Hong Kong is fighting to redefine its future with an institutional moat, wealth surge",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T22:00:09+00:00",
+      "last_seen": "2026-07-07T22:00:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1039
+    },
+    {
+      "id": "1d782b9b2f",
+      "title": "Graham Platner's most prominent press allies abandon him as rape allegation rocks Maine Senate race",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/graham-platners-most-prominent-press-allies-abandon-him-rape-allegation-rocks-maine-senate-race",
+          "headline": "Graham Platner's most prominent press allies abandon him as rape allegation rocks Maine Senate race",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-07T22:00:05+00:00",
+      "last_seen": "2026-07-07T22:00:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1038
+    },
+    {
+      "id": "ee18eaa732",
+      "title": "Remembering Shinzo Abe, an honored friend of Serbia",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/commentary/2026/07/08/japan/serbia-remembering-shinzo-abe/",
+          "headline": "Remembering Shinzo Abe, an honored friend of Serbia",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T22:00:00+00:00",
+      "last_seen": "2026-07-07T22:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1037
+    },
+    {
+      "id": "99b2482207",
+      "title": "Live: Oil prices surge after US launches strikes on Iran, ASX to slip after Wall Street's tech sell-off",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-08/asx-markets-business-live-news/106891254",
+          "headline": "Live: Oil prices surge after US launches strikes on Iran, ASX to slip after Wall Street's tech sell-off",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:59:57+00:00",
+      "last_seen": "2026-07-07T21:59:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1037
+    },
+    {
+      "id": "c469b41f51",
+      "title": "Meta Now Lets Anyone Use Your Instagram Photos in AI Images—Unless You Opt Out",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/",
+          "headline": "Meta Now Lets Anyone Use Your Instagram Photos in AI Images—Unless You Opt Out",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:59:29+00:00",
+      "last_seen": "2026-07-07T21:59:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.103
+    },
+    {
+      "id": "800c01435c",
+      "title": "Of course viewers are giving up on Netflix shows",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/entertainment/962382/netflix-season-two-viewrship-dropoff-beef-avatar-one-piece-tiktok",
+          "headline": "Of course viewers are giving up on Netflix shows",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:58:39+00:00",
+      "last_seen": "2026-07-07T21:58:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1018
+    },
+    {
+      "id": "12131bc015",
+      "title": "Qatar summons Iranian diplomat over attack on LNG tanker",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-summons-iranian-diplomat-over-attack-lng-tanker",
+          "headline": "Qatar summons Iranian diplomat over attack on LNG tanker",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-summons-iranian-diplomat-over-attack-journalist",
+          "headline": "UK summons Iranian diplomat over attack on journalist",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 2,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:28:07+00:00",
+      "last_seen": "2026-07-07T21:55:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0996
+    },
+    {
+      "id": "8be0088aa9",
+      "title": "The Change to Trump’s Power That Further Politicizes Everyday Life",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/newsletters/2026/07/trump-vs-slaughter-supreme-court-ruling/687833/?utm_source=feed",
+          "headline": "The Change to Trump’s Power That Further Politicizes Everyday Life",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:54:00+00:00",
+      "last_seen": "2026-07-07T21:54:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0953
+    },
+    {
+      "id": "deb260065e",
+      "title": "Russia could compete at 2028 Olympics after suspension provisionally lifted",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-08/russia-could-compete-at-la-2028-olympics-after-suspension-lifted/106891174",
+          "headline": "Russia could compete at 2028 Olympics after suspension provisionally lifted",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:53:05+00:00",
+      "last_seen": "2026-07-07T21:53:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.094
+    },
+    {
+      "id": "871bf03652",
+      "title": "Zimbabwe’s President Signs Law Extending His Term",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/07/world/africa/zimbabwe-president-mnangagwa-extension.html",
+          "headline": "Zimbabwe’s President Signs Law Extending His Term",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:52:03+00:00",
+      "last_seen": "2026-07-07T21:52:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0925
+    },
+    {
+      "id": "bf1a671752",
+      "title": "Tom Brady compares Argentina's dramatic World Cup rally to Patriots' Super Bowl comeback",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/tom-brady-compares-argentina-dramatic-world-cup-rally-patriots-super-bowl-comeback",
+          "headline": "Tom Brady compares Argentina's dramatic World Cup rally to Patriots' Super Bowl comeback",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-07T21:50:51+00:00",
+      "last_seen": "2026-07-07T21:50:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0909
+    },
+    {
+      "id": "4a3e17a0af",
+      "title": "Bo Derek reveals why she felt like an 'impostor' and walked away from Hollywood despite blockbuster fame",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/bo-derek-reveals-why-felt-impostor-walked-away-hollywood-despite-blockbuster-fame",
+          "headline": "Bo Derek reveals why she felt like an 'impostor' and walked away from Hollywood despite blockbuster fame",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-07T21:46:06+00:00",
+      "last_seen": "2026-07-07T21:46:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0843
+    },
+    {
+      "id": "0d2de48dc4",
+      "title": "Shot putter Vidhi fails dope test, out of Asian U23 Championships starting Thursday",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/other-sports/shot-putter-vidhi-fails-dope-test-out-of-asian-u23-championships-starting-thursday/article71195556.ece",
+          "headline": "Shot putter Vidhi fails dope test, out of Asian U23 Championships starting Thursday",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:45:12+00:00",
+      "last_seen": "2026-07-07T21:45:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0831
+    },
+    {
+      "id": "ffc30da3f2",
+      "title": "Marine Le Pen’s Court Battle Is Latest Clash Between Populists and Watchdogs",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/07/world/europe/le-pen-populists-vs-courts.html",
+          "headline": "Marine Le Pen’s Court Battle Is Latest Clash Between Populists and Watchdogs",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:41:33+00:00",
+      "last_seen": "2026-07-07T21:41:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0781
+    },
+    {
+      "id": "41bdc762bc",
+      "title": "IOC paves way for Russia's return to Olympics",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/other-sports/olympics-ioc-lifts-russia-suspension-athletes-to-return-to-international-competitions/article71195535.ece",
+          "headline": "Olympics | IOC lifts Russia suspension, athletes to return to international competitions",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ioc-paves-way-for-russia-s-return-to-olympics/a-77868069?maca=en-rss-en-all-1573-rdf",
+          "headline": "IOC paves way for Russia's return to Olympics",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T17:27:00+00:00",
+      "last_seen": "2026-07-07T20:53:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.073
+    },
+    {
+      "id": "da0f4c757b",
+      "title": "Netflix is about to host videos from BuzzFeed, Condé Nast, and other publishers",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/streaming/962528/netflix-digital-media-brands-streaming",
+          "headline": "Netflix is about to host videos from BuzzFeed, Condé Nast, and other publishers",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:37:19+00:00",
+      "last_seen": "2026-07-07T21:37:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0724
+    },
+    {
+      "id": "b74f895149",
+      "title": "Argentina fans sing and dance after dramatic World Cup comeback against Egypt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/video/2026/07/07/argentina-fans-sing-and-dance-after-dramatic-world-cup-comeback-against-egypt",
+          "headline": "Argentina fans sing and dance after dramatic World Cup comeback against Egypt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:30:56+00:00",
+      "last_seen": "2026-07-07T21:30:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0639
+    },
+    {
+      "id": "375592a28a",
+      "title": "3 tracks are shaping the Middle East’s post-Iran war order",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/opinion/world-opinion/article/3359303/3-tracks-are-shaping-middle-easts-post-iran-war-order?utm_source=rss_feed",
+          "headline": "3 tracks are shaping the Middle East’s post-Iran war order",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:30:06+00:00",
+      "last_seen": "2026-07-07T21:30:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0627
+    },
+    {
+      "id": "ac6a512b58",
+      "title": "OpenAI’s Chief Futurist Is Leaving the Company",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/",
+          "headline": "OpenAI’s Chief Futurist Is Leaving the Company",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:30:00+00:00",
+      "last_seen": "2026-07-07T21:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0626
+    },
+    {
+      "id": "da0c4098a7",
+      "title": "‘Robbed’: Egypt-Argentina match sparks accusations of World Cup bias",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/trending/robbed-egypt-argentina-match-upset-sparks-accusations-world-cup-bias",
+          "headline": "‘Robbed’: Egypt-Argentina match sparks accusations of World Cup bias",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T21:28:22+00:00",
+      "last_seen": "2026-07-07T21:28:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0605
     },
     {
       "id": "d9003b3411",
@@ -279,91 +999,79 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2368
+      "resonance": 0.0576
     },
     {
-      "id": "5b2fd3709c",
-      "title": "What to know about the electronic monitor Marine Le Pen must wear",
+      "id": "1601fa8ecb",
+      "title": "Woman suspected of Monaco bomb attack found dead in Ukraine",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/frances-marine-le-pen-must-wear-ankle-tag-after-appeal-ruling?traffic_source=rss",
-          "headline": "France’s Marine Le Pen must wear ankle tag after appeal ruling",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/woman-suspected-of-monaco-bombing-is-found-dead-in-ukraine-authorities-say",
+          "headline": "Woman suspected of Monaco bombing is found dead in Ukraine, authorities say",
           "platform": "rss"
         },
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/france/20260707-what-to-know-about-the-electronic-monitor-a-french-court-says-marine-le-pen-must-wear",
-          "headline": "What to know about the electronic monitor Marine Le Pen must wear",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c5yz3770yg8o?at_medium=RSS&at_campaign=rss",
+          "headline": "Woman suspected of Monaco bomb attack found dead in Ukraine",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
+        "mean": -0.05,
         "spread": 0.05,
         "left": 0,
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-07T17:36:18+00:00",
-      "last_seen": "2026-07-07T18:38:55+00:00",
+      "first_seen": "2026-07-07T17:58:48+00:00",
+      "last_seen": "2026-07-07T19:27:39+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1777
+      "topic": "tech",
+      "resonance": 0.0532
     },
     {
-      "id": "781db859bb",
-      "title": "Harry loses High Court privacy case against Daily Mail publisher",
-      "signal_count": 3,
+      "id": "7c3317c33a",
+      "title": "US says strikes launched as explosions heard in southern Iran",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/07/world/europe/prince-harry-lawsuit-daily-mail-uk-associated-newspapers.html",
-          "headline": "Prince Harry Loses Privacy Lawsuit Against Daily Mail Publisher",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c9324nyqwjno?at_medium=RSS&at_campaign=rss",
-          "headline": "Harry loses High Court privacy case against Daily Mail publisher",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/07/prince-harry-loses-privacy-case-against-daily-mail-publisher_6755241_4.html",
-          "headline": "Prince Harry loses privacy case against 'Daily Mail' publisher",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/7/us-says-strikes-launched-as-explosions-heard-in-southern-iran?traffic_source=rss",
+          "headline": "US says strikes launched as explosions heard in southern Iran",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.2,
-        "spread": 0.082,
-        "left": 1,
-        "center": 2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-07T15:43:28+00:00",
-      "last_seen": "2026-07-07T18:08:57+00:00",
+      "first_seen": "2026-07-07T21:21:16+00:00",
+      "last_seen": "2026-07-07T21:21:16+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1518
+      "topic": "conflict",
+      "resonance": 0.0512
     },
     {
-      "id": "95abad8db2",
-      "title": "US revokes temporary sanctions waiver on Iranian oil after vessels attacked in Hormuz",
+      "id": "1f8ed37f98",
+      "title": "At UN, Cuba rallies support against ‘cruel’ and ‘ruthless’ US blockade",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3359780/us-revokes-temporary-sanctions-waiver-iranian-oil-after-vessels-attacked-hormuz?utm_source=rss_feed",
-          "headline": "US revokes temporary sanctions waiver on Iranian oil after vessels attacked in Hormuz",
+          "url": "https://www.scmp.com/news/world/americas/article/3359781/un-cuba-rallies-support-against-cruel-and-ruthless-us-blockade?utm_source=rss_feed",
+          "headline": "At UN, Cuba rallies support against ‘cruel’ and ‘ruthless’ US blockade",
           "platform": "rss"
         }
       ],
@@ -374,723 +1082,117 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-07T20:41:19+00:00",
-      "last_seen": "2026-07-07T20:41:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1383
-    },
-    {
-      "id": "cb7ada90d1",
-      "title": "ICE says officer shot and killed illegal immigrant who tried to ram him with car in Houston",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/ice-officer-shot-killed-illegal-immigrant-tried-ram-car-houston",
-          "headline": "ICE says officer shot and killed illegal immigrant who tried to ram him with car in Houston",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-07T20:40:22+00:00",
-      "last_seen": "2026-07-07T20:40:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.136
-    },
-    {
-      "id": "b0311c3ad1",
-      "title": "No stopping Le Pen? French appeals court clears way for 2027 presidential run",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/7/french-far-right-leader-le-pen-says-will-run-in-2027-presidential-election?traffic_source=rss",
-          "headline": "French far-right leader Le Pen says will run in 2027 presidential election",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/tv-shows/the-debate/20260707-no-stopping-le-pen-french-appeals-court-clears-way-for-2027-presidential-run",
-          "headline": "No stopping Le Pen? French appeals court clears way for 2027 presidential run",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/french-court-clears-le-pen-for-2027-presidential-run-under-condition-she-rejects/",
-          "headline": "French court clears Le Pen for 2027 presidential run under condition she rejects",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.083,
-        "spread": 0.103,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T15:18:51+00:00",
-      "last_seen": "2026-07-07T18:17:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1358
-    },
-    {
-      "id": "88e692a95f",
-      "title": "Cardinal considered contender to replace Pope Francis accused of molesting several women",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/07/cardinal-considered-contender-for-pope-accused-of-molesting-several-women_6755248_4.html",
-          "headline": "Cardinal considered contender to replace Pope Francis accused of molesting several women",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:39:19+00:00",
-      "last_seen": "2026-07-07T20:39:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1335
-    },
-    {
-      "id": "a62de10cf6",
-      "title": "Breaking: Telstra users report mobile network has crashed across Australia",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-08/telstra-mobile-network-outage-wednesday-morning-july-8/106891176",
-          "headline": "Breaking: Telstra users report mobile network has crashed across Australia",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:37:11+00:00",
-      "last_seen": "2026-07-07T20:37:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1285
-    },
-    {
-      "id": "527bb7d8ee",
-      "title": "'I was really numb': Parents of child abused by childcare worker speak out",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-08/parents-of-david-james-abuse-victim-call-for-oosh-reforms/106889534",
-          "headline": "'I was really numb': Parents of child abused by childcare worker speak out",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:37:01+00:00",
-      "last_seen": "2026-07-07T20:37:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1281
-    },
-    {
-      "id": "4ee454a4f3",
-      "title": "Trump’s NATO-bashing casts shadow over U.S. pledge to defend allies",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/07/07/trumps-nato-bashing-casts-shadow-over-us-pledge-defend-allies/",
-          "headline": "Trump’s NATO-bashing casts shadow over U.S. pledge to defend allies",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:34:28+00:00",
-      "last_seen": "2026-07-07T20:34:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.122
-    },
-    {
-      "id": "3f45ceae18",
-      "title": "Australia news live: PM to host three Pacific leaders in Brisbane, with all eyes on China after missile test",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/08/anthony-albanese-pacific-diplomacy-state-of-origin-labor-coalition-recession-unemployment-ntwnfb",
-          "headline": "Australia news live: PM to host three Pacific leaders in Brisbane, with all eyes on China after missile test",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:33:15+00:00",
-      "last_seen": "2026-07-07T20:33:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1192
-    },
-    {
-      "id": "d2a732698b",
-      "title": "CFA leaders attempt to recall 'draft' submission to fatal summer fire inquiry",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-08/cfa-retract-draft-submission-summer-bushfire-commission/106889362",
-          "headline": "CFA leaders attempt to recall 'draft' submission to fatal summer fire inquiry",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:32:47+00:00",
-      "last_seen": "2026-07-07T20:32:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.1181
-    },
-    {
-      "id": "594c8fa5c5",
-      "title": "Surprisingly large number of people may have marker for tick-linked meat allergy",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/health/2026/07/surprisingly-large-number-of-people-may-have-marker-for-tick-linked-meat-allergy/",
-          "headline": "Surprisingly large number of people may have marker for tick-linked meat allergy",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:32:39+00:00",
-      "last_seen": "2026-07-07T20:32:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1178
-    },
-    {
-      "id": "87e357e35d",
-      "title": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
-          "headline": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:31:58+00:00",
-      "last_seen": "2026-07-07T20:31:58+00:00",
+      "first_seen": "2026-07-07T21:20:21+00:00",
+      "last_seen": "2026-07-07T21:20:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1162
-    },
-    {
-      "id": "e245f50263",
-      "title": "Tattooed arm in Illinois lake leads police to freezer with slain man’s head, neck and torso",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/tattooed-arm-illinois-lake-leads-police-freezer-slain-mans-head-neck-torso",
-          "headline": "Tattooed arm in Illinois lake leads police to freezer with slain man’s head, neck and torso",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-07T20:28:46+00:00",
-      "last_seen": "2026-07-07T20:28:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1087
-    },
-    {
-      "id": "c603bee887",
-      "title": "Pro-Palestine MEP Rima Hassan arrives at trial for ‘glorifying terrorism’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/pro-palestine-mep-rima-hassan-arrives-at-trial-for-glorifying?traffic_source=rss",
-          "headline": "Pro-Palestine MEP Rima Hassan arrives at trial for ‘glorifying terrorism’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:27:41+00:00",
-      "last_seen": "2026-07-07T20:27:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1062
-    },
-    {
-      "id": "0c2c0ec862",
-      "title": "Prolonged hospitalisation of US Republican Mitch McConnell raises questions",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/7/prolonged-hospitalisation-of-us-republican-mitch-mcconnell-raises-questions?traffic_source=rss",
-          "headline": "Prolonged hospitalisation of US Republican Mitch McConnell raises questions",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:26:16+00:00",
-      "last_seen": "2026-07-07T20:26:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1029
-    },
-    {
-      "id": "81ed37b075",
-      "title": "US revokes licence authorising sale of Iranian oil",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-revokes-licence-authorising-sale-iranian-oil",
-          "headline": "US revokes licence authorising sale of Iranian oil",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:24:29+00:00",
-      "last_seen": "2026-07-07T20:24:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0988
-    },
-    {
-      "id": "fc4133f077",
-      "title": "Former Obama aides say Platner should step aside, was dishonest about his past",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/former-obama-aides-say-platner-step-aside-dishonest-past",
-          "headline": "Former Obama aides say Platner should step aside, was dishonest about his past",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-07T20:22:36+00:00",
-      "last_seen": "2026-07-07T20:22:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0944
-    },
-    {
-      "id": "bf62311166",
-      "title": "Fix This Travesty, FIFA!",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/newsletters/2026/07/fifa-travesty-trump-soccer/687832/?utm_source=feed",
-          "headline": "Fix This Travesty, FIFA!",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:22:00+00:00",
-      "last_seen": "2026-07-07T20:22:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0931
-    },
-    {
-      "id": "f7eb674169",
-      "title": "Africa's World Cup dream fades",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/africa-s-world-cup-dream-fades",
-          "headline": "Africa's World Cup dream fades",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:19:44+00:00",
-      "last_seen": "2026-07-07T20:19:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0879
-    },
-    {
-      "id": "b18dc5b81e",
-      "title": "SCOTUS lets Texas enforce app store law that Big Tech calls \"censorship regime\"",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/07/supreme-court-lets-texas-enforce-age-verification-law-on-app-stores/",
-          "headline": "SCOTUS lets Texas enforce app store law that Big Tech calls \"censorship regime\"",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:18:24+00:00",
-      "last_seen": "2026-07-07T20:18:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0849
-    },
-    {
-      "id": "69c2ccee97",
-      "title": "Canadian province sues OpenAI over alleged ChatGPT-linked shooting warnings",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/7/canadian-province-sues-openai-over-alleged-chatgpt-linked-shooting-warnings?traffic_source=rss",
-          "headline": "Canadian province sues OpenAI over alleged ChatGPT-linked shooting warnings",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:14:53+00:00",
-      "last_seen": "2026-07-07T20:14:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0769
-    },
-    {
-      "id": "066e36241a",
-      "title": "'It seems like the politics are starting to drown out some of the excellent football'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/it-seems-like-the-politics-are-starting-to-drown-out-some-of-the-excellent-football",
-          "headline": "'It seems like the politics are starting to drown out some of the excellent football'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:09:09+00:00",
-      "last_seen": "2026-07-07T20:09:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0641
-    },
-    {
-      "id": "e1ca8e94d5",
-      "title": "Record 1.3 lakh pilgrims visit Amarnath shrine in 5 days in Kashmir",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/record-13-lakh-pilgrims-visit-amarnath-shrine-in-5days-in-kashmir/article71195257.ece",
-          "headline": "Record 1.3 lakh pilgrims visit Amarnath shrine in 5 days in Kashmir",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:09:07+00:00",
-      "last_seen": "2026-07-07T20:09:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.064
-    },
-    {
-      "id": "7d31a3ee91",
-      "title": "First major spell of monsoon brings Gurugram to a standstill, NH-48 caves in near Narsinghpur, triggers traffic jam",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/haryana/first-major-spell-of-monsoon-brings-gurugram-to-a-standstill-nh-48-caves-in-near-narsinghpur-triggers-traffic-jam/article71194561.ece",
-          "headline": "First major spell of monsoon brings Gurugram to a standstill, NH-48 caves in near Narsinghpur, triggers traffic jam",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:07:46+00:00",
-      "last_seen": "2026-07-07T20:07:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.061
-    },
-    {
-      "id": "3493557ec8",
-      "title": "Why the rise of open source AI isn’t hurting Anthropic … yet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
-          "headline": "Why the rise of open source AI isn’t hurting Anthropic … yet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:04:32+00:00",
-      "last_seen": "2026-07-07T20:04:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0539
-    },
-    {
-      "id": "a23c928b7f",
-      "title": "Ahead of Delhi protest, NC leaders meet civil society, pass resolution on Statehood for J&K",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/ahead-of-delhi-protest-nc-leaders-meet-civil-society-pass-resolution-onstatehood-for-jk/article71195185.ece",
-          "headline": "Ahead of Delhi protest, NC leaders meet civil society, pass resolution on Statehood for J&K",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:02:46+00:00",
-      "last_seen": "2026-07-07T20:02:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "a95956e172",
-      "target": "f7eb674169",
-      "weight": 0.421,
+      "source": "acff764879",
+      "target": "99b2482207",
+      "weight": 0.345,
+      "type": "thematic"
+    },
+    {
+      "source": "acff764879",
+      "target": "7c3317c33a",
+      "weight": 0.297,
+      "type": "thematic"
+    },
+    {
+      "source": "40a0288ce8",
+      "target": "85593ee38b",
+      "weight": 0.027,
+      "type": "thematic"
+    },
+    {
+      "source": "40a0288ce8",
+      "target": "b74f895149",
+      "weight": 0.041,
+      "type": "thematic"
+    },
+    {
+      "source": "40a0288ce8",
+      "target": "da0c4098a7",
+      "weight": 0.052,
       "type": "thematic"
     },
     {
       "source": "9a724107b6",
-      "target": "5b2fd3709c",
-      "weight": 0.245,
+      "target": "ffc30da3f2",
+      "weight": 0.523,
       "type": "thematic"
     },
     {
-      "source": "9a724107b6",
-      "target": "b0311c3ad1",
-      "weight": 0.781,
+      "source": "85593ee38b",
+      "target": "bf1a671752",
+      "weight": 0.397,
       "type": "thematic"
     },
     {
-      "source": "95abad8db2",
-      "target": "81ed37b075",
-      "weight": 0.775,
+      "source": "85593ee38b",
+      "target": "b74f895149",
+      "weight": 0.817,
+      "type": "thematic"
+    },
+    {
+      "source": "85593ee38b",
+      "target": "da0c4098a7",
+      "weight": 0.519,
+      "type": "thematic"
+    },
+    {
+      "source": "99b2482207",
+      "target": "7c3317c33a",
+      "weight": 0.054,
+      "type": "thematic"
+    },
+    {
+      "source": "800c01435c",
+      "target": "da0f4c757b",
+      "weight": 0.009,
+      "type": "thematic"
+    },
+    {
+      "source": "deb260065e",
+      "target": "41bdc762bc",
+      "weight": 0.431,
+      "type": "thematic"
+    },
+    {
+      "source": "deb260065e",
+      "target": "d9003b3411",
+      "weight": 0.839,
+      "type": "thematic"
+    },
+    {
+      "source": "bf1a671752",
+      "target": "b74f895149",
+      "weight": 0.753,
+      "type": "thematic"
+    },
+    {
+      "source": "bf1a671752",
+      "target": "da0c4098a7",
+      "weight": 0.153,
+      "type": "thematic"
+    },
+    {
+      "source": "41bdc762bc",
+      "target": "d9003b3411",
+      "weight": 0.431,
+      "type": "thematic"
+    },
+    {
+      "source": "b74f895149",
+      "target": "da0c4098a7",
+      "weight": 0.546,
       "type": "thematic"
     }
   ],
@@ -1137,7 +1239,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 9,
+      "count": 8,
       "error": null
     },
     "The Atlantic": {
@@ -1167,7 +1269,7 @@
     },
     "Le Monde (EN)": {
       "ok": true,
-      "count": 18,
+      "count": 19,
       "error": null
     },
     "Der Spiegel (EN)": {

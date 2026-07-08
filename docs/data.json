@@ -1,52 +1,17 @@
 {
-  "generated_at": "2026-07-08T16:02:48.102400+00:00",
+  "generated_at": "2026-07-08T17:58:21.111987+00:00",
   "node_count": 35,
-  "edge_count": 11,
+  "edge_count": 16,
   "nodes": [
     {
-      "id": "b1adeded55",
-      "title": "Apple to produce Made in America wireless chips with Broadcom",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/08/apple-to-produce-made-in-america-wireless-chips-with-broadcom/",
-          "headline": "Apple to produce Made in America wireless chips with Broadcom",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
-          "headline": "Apple to increase spend with Broadcom to produce billions more U.S. chips",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T11:30:56+00:00",
-      "last_seen": "2026-07-08T14:43:00+00:00",
-      "platforms": [
-        "hackernews",
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.8165
-    },
-    {
-      "id": "bb7036f923",
-      "title": "US Food and Drug Administration rejects petition to set PFAS limits in food",
+      "id": "45121e8739",
+      "title": "GPT‑Live",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food",
-          "headline": "US Food and Drug Administration rejects petition to set PFAS limits in food",
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "headline": "GPT‑Live",
           "platform": "hackernews"
         }
       ],
@@ -57,13 +22,41 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-08T13:35:59+00:00",
-      "last_seen": "2026-07-08T13:35:59+00:00",
+      "first_seen": "2026-07-08T17:03:19+00:00",
+      "last_seen": "2026-07-08T17:03:19+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "health",
+      "topic": "world",
+      "resonance": 0.28
+    },
+    {
+      "id": "6a1aad817b",
+      "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://cognition.com/blog/swe-1-7",
+          "headline": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T16:19:36+00:00",
+      "last_seen": "2026-07-08T16:19:36+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "world",
       "resonance": 0.28
     },
     {
@@ -95,32 +88,124 @@
       "resonance": 0.28
     },
     {
-      "id": "9e1a7add4f",
-      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
-      "signal_count": 1,
+      "id": "62e073af53",
+      "title": "Ukraine to get licence to produce Patriot missiles, Trump says",
+      "signal_count": 4,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://mistral.ai/news/robostral-navigate/",
-          "headline": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
-          "platform": "hackernews"
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/ce8klree690o?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukraine to get licence to produce Patriot missiles, Trump says",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/07/08/shift-trump-praises-zelensky-will-let-ukraine-build-patriot-missiles/",
+          "headline": "In shift, Trump praises Zelensky, will let Ukraine build Patriot missiles",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260708-trump-says-he-will-allow-ukraine-to-make-its-own-patriot-missiles",
+          "headline": "Trump says he will allow Ukraine to make its own Patriot missiles",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/08/world/europe/a-license-to-make-patriot-defense-systems-may-be-a-big-boost-for-ukraine.html",
+          "headline": "License to Make Patriot Missiles Could Help Ukraine Defend Against Russia",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "mean": -0.175,
+        "spread": 0.13,
+        "left": 2,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-08T14:09:17+00:00",
-      "last_seen": "2026-07-08T14:09:17+00:00",
+      "first_seen": "2026-07-08T16:03:46+00:00",
+      "last_seen": "2026-07-08T17:18:14+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.28
+      "resonance": 0.4557
+    },
+    {
+      "id": "885b57b062",
+      "title": "Here are the 2026 Emmy nominations",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-09/emmys-nominations-announced-ahead-of-september-awards/106894908",
+          "headline": "Emmy nominations 2026 revealed, with The Pitt and Hacks topping list",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3359896/pitt-leads-emmy-nominations-hacks-not-far-behind?utm_source=rss_feed",
+          "headline": "‘The Pitt’ leads Emmy nominations, with ‘Hacks’ not far behind",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/08/nx-s1-5883885/2026-emmy-nominations",
+          "headline": "Here are the 2026 Emmy nominations",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.108,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T15:29:56+00:00",
+      "last_seen": "2026-07-08T17:41:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.3218
+    },
+    {
+      "id": "2cd101c27b",
+      "title": "Tour de France: Kooij wins 5th stage in chaotic sprint finish",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/07/08/tour-de-france-kooij-wins-5th-stage-in-chaotic-sprint-finish_6755283_9.html",
+          "headline": "Tour de France: Kooij wins 5th stage in chaotic sprint finish",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260708-dutch-debutant-olav-kooij-wins-tour-de-france-5th-stage-in-chaotic-sprint-finish",
+          "headline": "Dutch debutant Olav Kooij wins Tour de France 5th stage in chaotic sprint finish",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T16:07:09+00:00",
+      "last_seen": "2026-07-08T16:55:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2121
     },
     {
       "id": "b57bc5cf50",
@@ -166,46 +251,12 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.3926
-    },
-    {
-      "id": "1dbddaa561",
-      "title": "Search for crew goes on as plane wreckage found off Pakistan’s coast",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/travel/frantic-search-underway-crew-after-boeing-737-wreckage-found-officials",
-          "headline": "Frantic search underway for crew after Boeing 737 wreckage found by officials",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/asia/south-asia/article/3359891/search-crew-goes-plane-wreckage-found-pakistans-coast?utm_source=rss_feed",
-          "headline": "Search for crew goes on as plane wreckage found off Pakistan’s coast",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.35,
-        "spread": 0.25,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-07-08T15:06:45+00:00",
-      "last_seen": "2026-07-08T15:43:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2854
+      "resonance": 0.2117
     },
     {
       "id": "33f916868a",
       "title": "Trump says ceasefire is 'over' after US and Iran trade strikes",
-      "signal_count": 3,
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "BBC World Service",
@@ -218,29 +269,415 @@
           "url": "https://www.france24.com/en/video/20260708-iran-talks-in-doubts-as-trump-says-ceasefire-over",
           "headline": "Iran talks in doubts as Trump says ceasefire 'over'",
           "platform": "rss"
-        },
-        {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/international/2026-07-08/trump-says-ceasefire-with-iran-is-over-as-far-as-hes-concerned.html",
-          "headline": "Trump about ceasefire with Iran: ‘As far as I’m concerned it’s over’",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.082,
+        "mean": -0.05,
+        "spread": 0.05,
         "left": 0,
-        "center": 3,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-08T11:43:16+00:00",
-      "last_seen": "2026-07-08T15:59:23+00:00",
+      "first_seen": "2026-07-08T15:14:46+00:00",
+      "last_seen": "2026-07-08T17:01:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.2723
+      "resonance": 0.1508
+    },
+    {
+      "id": "93751a307a",
+      "title": "America’s cheapest new EV is smaller than a ping-pong table and tops out at 19mph",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/transportation/962753/fiat-topolino-ev-us-price-specs-micromobiilty",
+          "headline": "America’s cheapest new EV is smaller than a ping-pong table and tops out at 19mph",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:57:53+00:00",
+      "last_seen": "2026-07-08T17:57:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0976
+    },
+    {
+      "id": "a0e9bf16b0",
+      "title": "Iran Live Updates: Trump Casts Doubt on Future of Cease-Fire After Exchange of Strikes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/07/08/world/iran-war-us-trump",
+          "headline": "Iran Live Updates: Trump Casts Doubt on Future of Cease-Fire After Exchange of Strikes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:54:06+00:00",
+      "last_seen": "2026-07-08T17:54:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0919
+    },
+    {
+      "id": "97f0bbbebd",
+      "title": "Why this CEO thinks video games make better training data than the internet",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
+          "headline": "Why this CEO thinks video games make better training data than the internet",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:47:55+00:00",
+      "last_seen": "2026-07-08T17:47:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0826
+    },
+    {
+      "id": "277a5fb595",
+      "title": "US seeks cheaper hunter-killer drones after Iran destroys $1B worth of Reapers",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/07/us-seeks-cheaper-hunter-killer-drones-after-iran-destroys-1b-worth-of-reapers/",
+          "headline": "US seeks cheaper hunter-killer drones after Iran destroys $1B worth of Reapers",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:44:54+00:00",
+      "last_seen": "2026-07-08T17:44:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0781
+    },
+    {
+      "id": "d26ec85e41",
+      "title": "Not even a single American soldier will return alive, Iranian lawmaker says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/not-even-single-american-soldier-will-return-alive-iranian-lawmaker-says",
+          "headline": "Not even a single American soldier will return alive, Iranian lawmaker says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:43:49+00:00",
+      "last_seen": "2026-07-08T17:43:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0766
+    },
+    {
+      "id": "52fed81898",
+      "title": "Trump unexpectedly switches back to old Air Force One, sidelining Qatari jet",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3359897/trump-unexpectedly-switches-back-old-air-force-one-sidelining-qatari-jet?utm_source=rss_feed",
+          "headline": "Trump unexpectedly switches back to old Air Force One, sidelining Qatari jet",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:43:14+00:00",
+      "last_seen": "2026-07-08T17:43:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0757
+    },
+    {
+      "id": "db69df33fd",
+      "title": "How Morocco can win the FIFA World Cup 2026 title",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/opinions/2026/7/8/how-morocco-can-win-the-fifa-world-cup-2026-title?traffic_source=rss",
+          "headline": "How Morocco can win the FIFA World Cup 2026 title",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:42:44+00:00",
+      "last_seen": "2026-07-08T17:42:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.075
+    },
+    {
+      "id": "d40990a4a8",
+      "title": "UK to change law so ringleader of Rochdale grooming gang can be deported",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cly0ly30384o?at_medium=RSS&at_campaign=rss",
+          "headline": "UK to change law so ringleader of Rochdale grooming gang can be deported",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:42:44+00:00",
+      "last_seen": "2026-07-08T17:42:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.075
+    },
+    {
+      "id": "185b2fe30b",
+      "title": "British wildcard Arthur Fery through to Wimbledon semi-finals after stunning victory",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c5yzvnxg6ygo?at_medium=RSS&at_campaign=rss",
+          "headline": "British wildcard Arthur Fery through to Wimbledon semi-finals after stunning victory",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:42:04+00:00",
+      "last_seen": "2026-07-08T17:42:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.074
+    },
+    {
+      "id": "7b35626635",
+      "title": "Delhi, Mumbai grapple with heavy rain havoc | Monsoon highlights",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/india-monsoon-rain-today-live-updates-mumbai-delhi-north-india-imd-forecast-kerala-landslide-gujarat-rain-flight-cancellation/article71196412.ece",
+          "headline": "Delhi, Mumbai grapple with heavy rain havoc | Monsoon highlights",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:41:31+00:00",
+      "last_seen": "2026-07-08T17:41:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0732
+    },
+    {
+      "id": "7ab3c0cd9f",
+      "title": "BJP lost credibility worldwide in wake of Ram Temple embezzlement case, says U.P. Opposition",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/donation-theft-at-ram-temple-has-tarnished-indias-image-akhilesh-yadav/article71197160.ece",
+          "headline": "BJP lost credibility worldwide in wake of Ram Temple embezzlement case, says U.P. Opposition",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:40:30+00:00",
+      "last_seen": "2026-07-08T17:40:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0717
+    },
+    {
+      "id": "5038d261d3",
+      "title": "Trump Praises NATO’s ‘Unity’ After Lashing Out at Allies",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/07/08/world/nato-summit-turkey-trump-ukraine",
+          "headline": "Trump Praises NATO’s ‘Unity’ After Lashing Out at Allies",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:40:16+00:00",
+      "last_seen": "2026-07-08T17:40:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0714
+    },
+    {
+      "id": "53e0665816",
+      "title": "Heartbreak and Anger in Egypt Over a Stinging World Cup Loss to Argentina",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/08/world/africa/egypt-argentina-goal-referee-conspiracy.html",
+          "headline": "Heartbreak and Anger in Egypt Over a Stinging World Cup Loss to Argentina",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:39:55+00:00",
+      "last_seen": "2026-07-08T17:39:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0708
+    },
+    {
+      "id": "e1d9d06ab8",
+      "title": "Appointments to public offices should be guided by competence, integrity and professional ability and not by recommendations or other extraneous considerations, says HC",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Madurai/appointments-to-public-offices-should-be-guided-by-competence-integrity-and-professional-ability-and-not-by-recommendations-or-other-extraneous-considerations/article71199719.ece",
+          "headline": "Appointments to public offices should be guided by competence, integrity and professional ability and not by recommendations or other extraneous considerations, says HC",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:39:38+00:00",
+      "last_seen": "2026-07-08T17:39:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0704
     },
     {
       "id": "88569e2530",
@@ -274,647 +711,51 @@
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.2298
+      "resonance": 0.0646
     },
     {
-      "id": "3feef82730",
-      "title": "In shift, Trump praises Zelensky, will let Ukraine build Patriot missiles",
-      "signal_count": 2,
+      "id": "79eef29331",
+      "title": "Trump calls Iran 'scum' and Ukraine gets big win on wild day at NATO",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/trump-says-us-let-ukraine-make-patriot-missiles-major-policy-shift",
-          "headline": "Trump says US will let Ukraine make Patriot missiles in major policy shift",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/politics/2026/07/08/shift-trump-praises-zelensky-will-let-ukraine-build-patriot-missiles/",
-          "headline": "In shift, Trump praises Zelensky, will let Ukraine build Patriot missiles",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-09/donald-trump-says-iran-is-scum-as-ukraine-gets-nato-summit-win/106894912",
+          "headline": "Trump calls Iran 'scum' and Ukraine gets big win on wild day at NATO",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.15,
-        "spread": 0.45,
-        "left": 1,
-        "center": 0,
-        "right": 1
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-07-08T14:32:30+00:00",
-      "last_seen": "2026-07-08T15:07:05+00:00",
+      "first_seen": "2026-07-08T17:35:22+00:00",
+      "last_seen": "2026-07-08T17:35:22+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2255
+      "topic": "tech",
+      "resonance": 0.0642
     },
     {
-      "id": "8948fd157b",
-      "title": "Explosions in Damascus during Macron's visit, one person killed and 36 injured",
-      "signal_count": 4,
+      "id": "4567ad6638",
+      "title": "Egypt's wrath after World Cup exit: 'The match was rigged'",
+      "signal_count": 2,
       "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260708-why-the-damascus-blasts-during-macron-visit-are-a-blow-to-al-sharaa",
-          "headline": "Why the Damascus blasts during Macron’s visit are a blow to al-Sharaa",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/syria/article/2026/07/08/explosions-in-damascus-during-macron-s-visit-one-person-killed-and-36-injured_6755267_229.html",
-          "headline": "Explosions in Damascus during Macron's visit, one person killed and 36 injured",
-          "platform": "rss"
-        },
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/8/syria-says-one-killed-36-wounded-after-damascus-blasts-during-macron-visit?traffic_source=rss",
-          "headline": "Syria says one killed, 36 wounded after Damascus blasts during Macron visit",
+          "url": "https://www.aljazeera.com/sports/2026/7/8/egypt-criticises-influential-refereeing-in-argentina-world-cup-match?traffic_source=rss",
+          "headline": "Egypt criticises ‘influential refereeing’ in Argentina World Cup match",
           "platform": "rss"
         },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/08/macron-expresses-belief-that-a-new-era-is-dawning-in-syria-in-damascus-visit_6755266_4.html",
-          "headline": "Macron expresses 'belief that a new era is dawning in Syria' in Damascus visit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.175,
-        "spread": 0.043,
-        "left": 0,
-        "center": 4,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T10:55:05+00:00",
-      "last_seen": "2026-07-08T15:03:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1855
-    },
-    {
-      "id": "f39eb619d8",
-      "title": "Trump says ceasefire with Iran is over, calling its leaders ‘scum’",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/07/08/trump-declares-ceasefire-with-iran-has-ended/",
-          "headline": "Trump says ceasefire with Iran is over, calling its leaders ‘scum’",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/trump-says-ceasefire-over-calls-iran-leaders-scum",
-          "headline": "Trump says ceasefire is over and calls Iran leaders 'scum', as both sides launch attacks",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.275,
-        "spread": 0.025,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T12:26:56+00:00",
-      "last_seen": "2026-07-08T15:58:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1577
-    },
-    {
-      "id": "bfb1441ae7",
-      "title": "Ruth Ellis, last woman to be hanged in UK, gets conditional posthumous pardon",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/crel4rj801do?at_medium=RSS&at_campaign=rss",
-          "headline": "Ruth Ellis, last woman to be hanged in UK, gets conditional posthumous pardon",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T16:02:14+00:00",
-      "last_seen": "2026-07-08T16:02:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.101
-    },
-    {
-      "id": "91e54ca71c",
-      "title": "Live Updates: Trump Speaks After Lashing Out at NATO Summit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/07/08/world/nato-summit-turkey-trump-ukraine",
-          "headline": "Live Updates: Trump Speaks After Lashing Out at NATO Summit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:59:44+00:00",
-      "last_seen": "2026-07-08T15:59:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0972
-    },
-    {
-      "id": "4799036f48",
-      "title": "Iran Live Updates: Trump Casts Doubt on Future of Cease-Fire After Latest Strikes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/07/08/world/iran-war-us-trump",
-          "headline": "Iran Live Updates: Trump Casts Doubt on Future of Cease-Fire After Latest Strikes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:59:29+00:00",
-      "last_seen": "2026-07-08T15:59:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0968
-    },
-    {
-      "id": "37ce536fd8",
-      "title": "Wayanad debris slip: no breakthrough in search for five missing persons",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/wayanad-debris-slip-no-breakthrough-in-search-for-five-missing-persons/article71199279.ece",
-          "headline": "Wayanad debris slip: no breakthrough in search for five missing persons",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:57:34+00:00",
-      "last_seen": "2026-07-08T15:57:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0939
-    },
-    {
-      "id": "cd4bf49678",
-      "title": "Hungary: Black screen heralds start of public media overhaul",
-      "signal_count": 1,
-      "sources": [
         {
           "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/hungary-black-screen-heralds-start-of-public-media-overhaul/a-77880569?maca=en-rss-en-all-1573-rdf",
-          "headline": "Hungary: Black screen heralds start of public media overhaul",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:56:00+00:00",
-      "last_seen": "2026-07-08T15:56:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0916
-    },
-    {
-      "id": "b0d0e05482",
-      "title": "Lawrence Bishnoi, Goldy Brar ordered Nijjar killing: U.S.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-charges-lawrence-bishnoi-goldy-brar-for-hardeep-nijjar-killing-in-canada-in-2023/article71196406.ece",
-          "headline": "Lawrence Bishnoi, Goldy Brar ordered Nijjar killing: U.S.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:54:53+00:00",
-      "last_seen": "2026-07-08T15:54:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0899
-    },
-    {
-      "id": "4ae56769ce",
-      "title": "Plea in HC to restrain State from issuing   appointment orders arising out of Karur stampede incident",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Madurai/plea-in-hc-to-restrain-state-from-issuing-appointment-orders-arising-out-of-karur-stampede-incident/article71198984.ece",
-          "headline": "Plea in HC to restrain State from issuing   appointment orders arising out of Karur stampede incident",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:54:42+00:00",
-      "last_seen": "2026-07-08T15:54:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0896
-    },
-    {
-      "id": "b675a73616",
-      "title": "Air Canada Chooses Anko van der Werff, Who Speaks French, as CEO After Language Backlash",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/08/world/canada/air-canada-ceo-french-backlash-crash.html",
-          "headline": "Air Canada Chooses Anko van der Werff, Who Speaks French, as CEO After Language Backlash",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:52:53+00:00",
-      "last_seen": "2026-07-08T15:52:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0869
-    },
-    {
-      "id": "b8256af82e",
-      "title": "Joy Behar cornered by 'The View' producer on frustration with Trump supporters amid Platner scandal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/joy-behar-cornered-the-view-producer-frustration-trump-supporters-amid-platner-scandal",
-          "headline": "Joy Behar cornered by 'The View' producer on frustration with Trump supporters amid Platner scandal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-08T15:51:06+00:00",
-      "last_seen": "2026-07-08T15:51:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0843
-    },
-    {
-      "id": "11ee59d3be",
-      "title": "Spain plays down Trump’s trade embargo threat, saying there is ‘no tension’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/economy/global-economy/article/3359895/spain-plays-down-trumps-trade-embargo-threat-saying-there-no-tension?utm_source=rss_feed",
-          "headline": "Spain plays down Trump’s trade embargo threat, saying there is ‘no tension’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:51:00+00:00",
-      "last_seen": "2026-07-08T15:51:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0841
-    },
-    {
-      "id": "80eb24e19b",
-      "title": "MARK PENN: Democrats ignored every warning sign in Graham Platner’s Senate disaster",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/opinion/mark-penn-democrats-ignored-every-warning-sign-graham-platner-senate-disaster",
-          "headline": "MARK PENN: Democrats ignored every warning sign in Graham Platner’s Senate disaster",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-08T15:49:28+00:00",
-      "last_seen": "2026-07-08T15:49:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0819
-    },
-    {
-      "id": "c407c741c0",
-      "title": "Donald Trump Jr says evidence in Tyler Robinson preliminary hearing 'more cut and dry' than he thought",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/don-jr-says-evidence-tyler-robinson-preliminary-hearing-more-cut-dry-than-imagined",
-          "headline": "Donald Trump Jr says evidence in Tyler Robinson preliminary hearing 'more cut and dry' than he thought",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-08T15:44:14+00:00",
-      "last_seen": "2026-07-08T15:44:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0742
-    },
-    {
-      "id": "407318ffcc",
-      "title": "Lebanon demands Israeli withdrawal from 'pilot' zones",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-demands-israeli-withdrawal-pilot-zones",
-          "headline": "Lebanon demands Israeli withdrawal from 'pilot' zones",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:43:07+00:00",
-      "last_seen": "2026-07-08T15:43:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0726
-    },
-    {
-      "id": "d9407a7606",
-      "title": "Man sets wheelchair user in flames with Molotov cocktail",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/man-sets-wheelchair-user-in-flames-with-molotov-cocktail?traffic_source=rss",
-          "headline": "Man sets wheelchair user in flames with Molotov cocktail",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:42:11+00:00",
-      "last_seen": "2026-07-08T15:42:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0712
-    },
-    {
-      "id": "aba341c0ea",
-      "title": "French parliamentary inquiry slams government's handling of British border",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/france/article/2026/07/08/french-parliamentary-inquiry-slams-government-s-handling-of-british-border_6755278_7.html",
-          "headline": "French parliamentary inquiry slams government's handling of British border",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:41:13+00:00",
-      "last_seen": "2026-07-08T15:41:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0698
-    },
-    {
-      "id": "955be0a7da",
-      "title": "These AI startups are growing  revenue at faster and faster rates",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
-          "headline": "These AI startups are growing  revenue at faster and faster rates",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:41:06+00:00",
-      "last_seen": "2026-07-08T15:41:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0696
-    },
-    {
-      "id": "b695243fca",
-      "title": "Two teens learn the hard way not to do toy gun drivebys from a Waymo",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/cars/2026/07/two-teens-learn-the-hard-way-not-to-do-toy-gun-drivebys-from-a-waymo/",
-          "headline": "Two teens learn the hard way not to do toy gun drivebys from a Waymo",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:40:44+00:00",
-      "last_seen": "2026-07-08T15:40:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0691
-    },
-    {
-      "id": "5fea5176af",
-      "title": "Trump lashes out at NATO allies during key summit in Ankara",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/trump-lashes-out-at-allies-at-nato-summit-orders-trade-halt-with-wasted-cause-spain/",
-          "headline": "Trump lashes out at allies at NATO summit, orders trade halt with ‘wasted cause’ Spain",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260708-trump-lashes-nato-allies-during-key-summit-ankara",
-          "headline": "Trump lashes out at NATO allies during key summit in Ankara",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.025,
-        "spread": 0.075,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T12:17:28+00:00",
-      "last_seen": "2026-07-08T13:57:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0671
-    },
-    {
-      "id": "e250b7cf50",
-      "title": "Trump turns on Spain and demands Greenland as NATO summit exposes cracks",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260708-trump-turns-on-spain-and-demands-greenland-as-nato-summit-exposes-cracks",
-          "headline": "Trump turns on Spain and demands Greenland as NATO summit exposes cracks",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/8/trump-threatens-spain-trade-demands-us-take-over-greenland-at-nato-summit?traffic_source=rss",
-          "headline": "Trump threatens Spain trade, demands US take over Greenland at NATO summit",
+          "url": "https://www.dw.com/en/egypt-s-wrath-after-world-cup-exit-the-match-was-rigged/a-77876848?maca=en-rss-en-all-1573-rdf",
+          "headline": "Egypt's wrath after World Cup exit: 'The match was rigged'",
           "platform": "rss"
         }
       ],
@@ -925,52 +766,24 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-08T12:52:03+00:00",
-      "last_seen": "2026-07-08T13:11:38+00:00",
+      "first_seen": "2026-07-08T13:40:00+00:00",
+      "last_seen": "2026-07-08T16:41:58+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0634
+      "topic": "sport",
+      "resonance": 0.064
     },
     {
-      "id": "9901574d13",
-      "title": "Regime supporters and opposition share AI-generated images of Khamenei’s funeral",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260708-regime-supporters-opposition-share-ai-generated-images-khamenei-funeral",
-          "headline": "Regime supporters and opposition share AI-generated images of Khamenei’s funeral",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:32:17+00:00",
-      "last_seen": "2026-07-08T15:32:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.057
-    },
-    {
-      "id": "dad824b53e",
-      "title": "Bowen: For all his bluster, Trump has no better option than talks with Iran",
+      "id": "6da1e6a5e3",
+      "title": "Nigeria's president demands to know how fake agency was allegedly set up in his office",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cy8we3j14ndo?at_medium=RSS&at_campaign=rss",
-          "headline": "Bowen: For all his bluster, Trump has no better option than talks with Iran",
+          "url": "https://www.bbc.co.uk/news/articles/c621xrrp6jeo?at_medium=RSS&at_campaign=rss",
+          "headline": "Nigeria's president demands to know how fake agency was allegedly set up in his office",
           "platform": "rss"
         }
       ],
@@ -981,24 +794,164 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-08T15:30:00+00:00",
-      "last_seen": "2026-07-08T15:30:00+00:00",
+      "first_seen": "2026-07-08T17:31:47+00:00",
+      "last_seen": "2026-07-08T17:31:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0591
+    },
+    {
+      "id": "7fdd1fb98c",
+      "title": "Gaza genocide and arms company profits underpin anti-Nato protests in Turkey",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/gaza-genocide-and-history-underpin-turkey-anti-nato-protests-ahead-summit",
+          "headline": "Gaza genocide and arms company profits underpin anti-Nato protests in Turkey",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:31:35+00:00",
+      "last_seen": "2026-07-08T17:31:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.0588
+    },
+    {
+      "id": "2cc8841749",
+      "title": "Former Wisconsin Judge Hannah Dugan avoids jail time for obstructing arrest of illegal immigrant",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/former-wisconsin-judge-hannah-dugan-avoids-jail-time-obstructing-arrest-illegal-immigrant",
+          "headline": "Former Wisconsin Judge Hannah Dugan avoids jail time for obstructing arrest of illegal immigrant",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-08T17:30:06+00:00",
+      "last_seen": "2026-07-08T17:30:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0567
+    },
+    {
+      "id": "eb6b55beef",
+      "title": "Called to serve, determined to succeed: The reservists redefining resilience at Reichman University - Sponsored Content",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/spotlight/called-to-serve-determined-to-succeed-the-reservists-redefining-resilience-at-reichman-university/",
+          "headline": "Called to serve, determined to succeed: The reservists redefining resilience at Reichman University - Sponsored Content",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:30:05+00:00",
+      "last_seen": "2026-07-08T17:30:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0538
+      "resonance": 0.0567
     },
     {
-      "id": "885b57b062",
-      "title": "Here are the 2026 Emmy nominations",
+      "id": "7428f183a4",
+      "title": "Cockroaches will learn to fear my SwitchBot Bot Rechargeable",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/gadgets/962163/switchbot-bot-rechargeable-hands-on-review",
+          "headline": "Cockroaches will learn to fear my SwitchBot Bot Rechargeable",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:30:00+00:00",
+      "last_seen": "2026-07-08T17:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0566
+    },
+    {
+      "id": "b886b0e91e",
+      "title": "The Pitt leads Emmy nominations, but Stranger Things snubbed in top categories",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ceqde3zr399o?at_medium=RSS&at_campaign=rss",
+          "headline": "The Pitt leads Emmy nominations, but Stranger Things snubbed in top categories",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:29:49+00:00",
+      "last_seen": "2026-07-08T17:29:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0563
+    },
+    {
+      "id": "aa6dd0988f",
+      "title": "New U.S. passports with Trump's image are available. Here's how to get (or avoid) one",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/08/nx-s1-5883885/2026-emmy-nominations",
-          "headline": "Here are the 2026 Emmy nominations",
+          "url": "https://www.npr.org/2026/07/08/g-s1-132497/passports-trump-image",
+          "headline": "New U.S. passports with Trump's image are available. Here's how to get (or avoid) one",
           "platform": "rss"
         }
       ],
@@ -1009,137 +962,195 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-08T15:29:56+00:00",
-      "last_seen": "2026-07-08T15:29:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0537
-    },
-    {
-      "id": "eed5954c09",
-      "title": "Spain’s 2026 Running of the Bulls, in pictures",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/spain/2026-07-08/spains-2026-running-of-the-bulls-in-pictures.html",
-          "headline": "Spain’s 2026 Running of the Bulls, in pictures",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T15:27:48+00:00",
-      "last_seen": "2026-07-08T15:27:48+00:00",
+      "first_seen": "2026-07-08T17:27:33+00:00",
+      "last_seen": "2026-07-08T17:27:33+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0507
+      "resonance": 0.0531
     },
     {
-      "id": "9eaa5312f5",
-      "title": "FIFA World Cup: Quarterfinal brackets, match schedule and game previews",
+      "id": "128b0507e8",
+      "title": "McConnell faces fresh calls to come clean about health issues",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/8/fifa-world-cup-2026-quarterfinal-fixtures-match-previews-schedule?traffic_source=rss",
-          "headline": "FIFA World Cup: Quarterfinal brackets, match schedule and game previews",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/mcconnell-faces-fresh-calls-come-clean-about-health-issues",
+          "headline": "McConnell faces fresh calls to come clean about health issues",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.2,
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-08T17:26:49+00:00",
+      "last_seen": "2026-07-08T17:26:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.052
+    },
+    {
+      "id": "079b4ae751",
+      "title": "Miami-based City Labs achieves a first for commercial nuclear power in space",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/07/miami-based-city-labs-achieves-a-first-for-commercial-nuclear-power-in-space/",
+          "headline": "Miami-based City Labs achieves a first for commercial nuclear power in space",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-08T15:27:17+00:00",
-      "last_seen": "2026-07-08T15:27:17+00:00",
+      "first_seen": "2026-07-08T17:26:44+00:00",
+      "last_seen": "2026-07-08T17:26:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
+      "topic": "science",
+      "resonance": 0.0519
+    },
+    {
+      "id": "ec7d9cee2d",
+      "title": "What Is the Point of Patriot Front?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/national-security/2026/07/what-point-patriot-front/687838/?utm_source=feed",
+          "headline": "What Is the Point of Patriot Front?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T17:25:22+00:00",
+      "last_seen": "2026-07-08T17:25:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "b57bc5cf50",
-      "target": "33f916868a",
-      "weight": 0.62,
+      "source": "45121e8739",
+      "target": "6a1aad817b",
+      "weight": 0.439,
       "type": "thematic"
     },
     {
-      "source": "b57bc5cf50",
-      "target": "4799036f48",
-      "weight": 0.151,
-      "type": "thematic"
-    },
-    {
-      "source": "33f916868a",
-      "target": "4799036f48",
-      "weight": 0.489,
-      "type": "thematic"
-    },
-    {
-      "source": "33f916868a",
-      "target": "11ee59d3be",
+      "source": "45121e8739",
+      "target": "a0e9bf16b0",
       "weight": 0.239,
       "type": "thematic"
     },
     {
-      "source": "33f916868a",
-      "target": "dad824b53e",
-      "weight": 0.114,
+      "source": "62e073af53",
+      "target": "79eef29331",
+      "weight": 0.168,
       "type": "thematic"
     },
     {
-      "source": "f39eb619d8",
-      "target": "dad824b53e",
-      "weight": 0.002,
-      "type": "thematic"
-    },
-    {
-      "source": "91e54ca71c",
-      "target": "4799036f48",
-      "weight": 0.491,
-      "type": "thematic"
-    },
-    {
-      "source": "91e54ca71c",
-      "target": "5fea5176af",
-      "weight": 0.518,
-      "type": "thematic"
-    },
-    {
-      "source": "91e54ca71c",
-      "target": "e250b7cf50",
-      "weight": 0.469,
-      "type": "thematic"
-    },
-    {
-      "source": "5fea5176af",
-      "target": "e250b7cf50",
-      "weight": 0.357,
+      "source": "62e073af53",
+      "target": "ec7d9cee2d",
+      "weight": 0.267,
       "type": "thematic"
     },
     {
       "source": "885b57b062",
-      "target": "eed5954c09",
-      "weight": 0.195,
+      "target": "db69df33fd",
+      "weight": 0.115,
+      "type": "thematic"
+    },
+    {
+      "source": "885b57b062",
+      "target": "b886b0e91e",
+      "weight": 0.591,
+      "type": "thematic"
+    },
+    {
+      "source": "885b57b062",
+      "target": "aa6dd0988f",
+      "weight": 0.203,
+      "type": "thematic"
+    },
+    {
+      "source": "b57bc5cf50",
+      "target": "33f916868a",
+      "weight": 0.591,
+      "type": "thematic"
+    },
+    {
+      "source": "b57bc5cf50",
+      "target": "a0e9bf16b0",
+      "weight": 0.173,
+      "type": "thematic"
+    },
+    {
+      "source": "b57bc5cf50",
+      "target": "52fed81898",
+      "weight": 0.042,
+      "type": "thematic"
+    },
+    {
+      "source": "33f916868a",
+      "target": "a0e9bf16b0",
+      "weight": 0.468,
+      "type": "thematic"
+    },
+    {
+      "source": "33f916868a",
+      "target": "79eef29331",
+      "weight": 0.097,
+      "type": "thematic"
+    },
+    {
+      "source": "db69df33fd",
+      "target": "53e0665816",
+      "weight": 0.194,
+      "type": "thematic"
+    },
+    {
+      "source": "db69df33fd",
+      "target": "4567ad6638",
+      "weight": 0.248,
+      "type": "thematic"
+    },
+    {
+      "source": "5038d261d3",
+      "target": "79eef29331",
+      "weight": 0.092,
+      "type": "thematic"
+    },
+    {
+      "source": "53e0665816",
+      "target": "4567ad6638",
+      "weight": 0.659,
       "type": "thematic"
     }
   ],
@@ -1166,7 +1177,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 8,
+      "count": 7,
       "error": null
     },
     "The Economist": {
@@ -1186,7 +1197,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 11,
+      "count": 10,
       "error": null
     },
     "The Atlantic": {

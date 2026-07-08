@@ -1,20 +1,67 @@
 {
-  "generated_at": "2026-07-08T00:09:29.883177+00:00",
+  "generated_at": "2026-07-08T03:43:05.044691+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 36,
+  "edge_count": 5,
   "nodes": [
     {
-      "id": "263bda1a26",
-      "title": "Schuldenbremse: Kommission kann sich nicht auf Konzept zur Schuldenbremse einigen",
-      "signal_count": 3,
+      "id": "fc7a84264e",
+      "title": "Houston: ICE-Beamter erschießt mexikanischen Einwanderer",
+      "signal_count": 4,
       "sources": [
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-07/schuldenbremse-reform-expertenkommission-lars-klingbeil",
-          "headline": "Schuldenbremse: Kommission kann sich nicht auf Konzept zur Schuldenbremse einigen",
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/ICE-Beamter-erschiesst-mexikanischen-Einwanderer-id31060212.html",
+          "headline": "Fahrer soll Auto gerammt haben: ICE-Beamter erschießt mexikanischen Einwanderer",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/houston-ice-beamter-erschiesst-mexikanischen-einwanderer-a-f09be0e0-14d1-4636-8639-d897e96ad4c7#ref=rss",
+          "headline": "Houston: ICE-Beamter erschießt mexikanischen Einwanderer",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6a4d9a1ebb0cf80de56a1907/houston-ice-beamter-erschiesst-mexikanischen-einwanderer.html",
+          "headline": "ICE-Beamter erschießt mexikanischen Einwanderer",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/international/usa-ice-beamter-erschiesst-bei-einsatz-mexikanischen-einwanderer/29669594.html",
+          "headline": "+++ USA +++: ICE-Beamter erschießt bei Einsatz mexikanischen Einwanderer",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.075,
+        "spread": 0.168,
+        "left": 0,
+        "center": 3,
+        "right": 1
+      },
+      "first_seen": "2026-07-08T00:35:00+00:00",
+      "last_seen": "2026-07-08T01:41:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.6785
+    },
+    {
+      "id": "932cd276fa",
+      "title": "Expertenkommission kann sich nicht auf gemeinsame Reform zur Schuldenbremse einigen",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/article6a4dbad2bb0cf80de56a19ec/bericht-expertenkommission-kann-sich-nicht-auf-gemeinsame-reform-zur-schuldenbremse-einigen.html",
+          "headline": "Expertenkommission kann sich nicht auf gemeinsame Reform zur Schuldenbremse einigen",
           "platform": "rss"
         },
         {
@@ -22,65 +69,564 @@
           "url": "https://www.n-tv.de/politik/Kommission-zur-Reform-der-Schuldenbremse-kann-sich-offenbar-nicht-einigen-id31060140.html",
           "headline": "Klingbeil erhält drei Vorschläge: Kommission zur Reform der Schuldenbremse kann sich offenbar nicht einigen",
           "platform": "rss"
-        },
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.15,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-07-07T23:50:48+00:00",
+      "last_seen": "2026-07-08T03:26:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.3462
+    },
+    {
+      "id": "e569eec07c",
+      "title": "USA attackieren mehr als 80 Ziele in Iran – Teheran droht mit »vernichtender Reaktion«",
+      "signal_count": 3,
+      "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/wirtschaft/soziales/schuldenbremse-kommission-kann-sich-nicht-auf-reformkonzept-einigen-a-0c1189b4-25c9-4b73-82d9-2bff14abb421#ref=rss",
-          "headline": "Schuldenbremse: Kommission kann sich nicht auf Reformkonzept einigen",
+          "url": "https://www.spiegel.de/ausland/waehrend-nato-gipfel-usa-greifen-iran-erneut-an-streit-ueber-strasse-von-hormus-a-6ca5471f-d95d-4ec0-8486-7f6313d80d99#ref=rss",
+          "headline": "USA attackieren mehr als 80 Ziele in Iran – Teheran droht mit »vernichtender Reaktion«",
+          "platform": "rss"
+        },
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/ausland/liveblog-irankrieg-usa-attackieren-iran-abermals-faz-200583539.html",
+          "headline": "Liveblog Irankrieg: Mehr als 80 Ziele: USA beenden Angriffe – Teheran droht mit Vergeltung",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/international/iran-krieg-usa-erklaeren-angriffe-auf-iranische-ziele-fuer-beendet-ueber-80-ziele/100136895.html",
+          "headline": "+++ Iran-Krieg +++: USA erklären Angriffe auf iranische Ziele für beendet – über 80 Ziele",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.067,
+        "spread": 0.155,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-07T19:47:00+00:00",
+      "last_seen": "2026-07-08T02:25:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.3226
+    },
+    {
+      "id": "951c56cf15",
+      "title": "Irankrieg: Kuwait meldet Raketen- und Drohnenangriffe",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-05/iran-krieg-donald-trump-hormus-live",
+          "headline": "Irankrieg: Kuwait meldet Raketen- und Drohnenangriffe",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:36:38+00:00",
+      "last_seen": "2026-07-08T03:36:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.2588
+    },
+    {
+      "id": "f3f1e8ebfe",
+      "title": "Schwerer Verkehrsunfall: Zwei Tote nach Unfall aus ausgebranntem Wagen geborgen",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/08/zwei-tote-nach-unfall-aus-ausgebranntem-wagen-geborgen",
+          "headline": "Schwerer Verkehrsunfall: Zwei Tote nach Unfall aus ausgebranntem Wagen geborgen",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/08/schwerer-unfall-auf-b6-zwei-tote-drei-schwerverletzte",
+          "headline": "Hildesheim: Schwerer Unfall auf B6: Zwei Tote, drei Schwerverletzte",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 2,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:24:20+00:00",
+      "last_seen": "2026-07-08T03:32:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2505
+    },
+    {
+      "id": "47fc97c948",
+      "title": "Nach Bewerbung: Was mache ich, wenn der Arbeitgeber mich ghostet?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/karriere-hochschule/die-karrierefrage/ghosting-bei-bewerbungen-verunsichert-was-betroffene-tun-koennen-200985271.html",
+          "headline": "Nach Bewerbung: Was mache ich, wenn der Arbeitgeber mich ghostet?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:33:06+00:00",
+      "last_seen": "2026-07-08T03:33:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.25
+    },
+    {
+      "id": "44d68d9db1",
+      "title": "Kurs abrupt geändert, schnell an Höhe verloren – Flugzeug mit fünf Personen an Bord vermisst",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/vermischtes/article6a4dba44dfc0c82fa2909a71/pakistan-schnell-an-hoehe-verloren-flugzeug-mit-fuenf-personen-an-bord-vermisst.html",
+          "headline": "Kurs abrupt geändert, schnell an Höhe verloren – Flugzeug mit fünf Personen an Bord vermisst",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-08T03:32:06+00:00",
+      "last_seen": "2026-07-08T03:32:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2476
+    },
+    {
+      "id": "104a84feae",
+      "title": "Einzelhandel: Mehr Bäckereien in Deutschland melden Insolvenz an",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/wirtschaft/2026-07/baeckerei-insolvenzen-pleiten-creditreform-backwaren",
+          "headline": "Einzelhandel: Mehr Bäckereien in Deutschland melden Insolvenz an",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:31:34+00:00",
+      "last_seen": "2026-07-08T03:31:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.2463
+    },
+    {
+      "id": "6daaddd8a0",
+      "title": "Endlich Ferien: Letzter Schultag - und sechs Wochen Sommerferien voraus!",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/08/letzter-schultag-und-sechs-wochen-sommerferien-voraus",
+          "headline": "Endlich Ferien: Letzter Schultag - und sechs Wochen Sommerferien voraus!",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:30:09+00:00",
+      "last_seen": "2026-07-08T03:30:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2428
+    },
+    {
+      "id": "0ed96fac35",
+      "title": "Nahverkehr: Hochbahn setzt während der Ferien weniger Busse ein",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/08/hochbahn-setzt-waehrend-der-ferien-weniger-busse-ein",
+          "headline": "Nahverkehr: Hochbahn setzt während der Ferien weniger Busse ein",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:30:08+00:00",
+      "last_seen": "2026-07-08T03:30:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2428
+    },
+    {
+      "id": "a5656b4e25",
+      "title": "CDU-Antrag: Teure Führerscheine – Diskussion über Fahrlehrer als Prüfer",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/08/teure-fuehrerscheine-diskussion-ueber-fahrlehrer-als-pruefer",
+          "headline": "CDU-Antrag: Teure Führerscheine – Diskussion über Fahrlehrer als Prüfer",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:30:07+00:00",
+      "last_seen": "2026-07-08T03:30:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2427
+    },
+    {
+      "id": "4a478d478a",
+      "title": "Social-Media-Kampagne: Stillen in der U-Bahn? Mütter wehren sich gegen Tabu",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/08/stillen-in-der-u-bahn-muetter-wehren-sich-gegen-tabu",
+          "headline": "Social-Media-Kampagne: Stillen in der U-Bahn? Mütter wehren sich gegen Tabu",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:30:04+00:00",
+      "last_seen": "2026-07-08T03:30:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2426
+    },
+    {
+      "id": "7b76bfde75",
+      "title": "Rente: So viel zusätzliche Schwedenrente ist für Sie möglich",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/wirtschaft/service/rente-so-viel-zusaetzliche-schwedenrente-ist-fuer-sie-moeglich-a-dec3dccc-6293-4fe4-bfd2-a20dfa041844#ref=rss",
+          "headline": "Rente: So viel zusätzliche Schwedenrente ist für Sie möglich",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.15,
-        "spread": 0.122,
-        "left": 1,
-        "center": 2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-07T17:49:00+00:00",
-      "last_seen": "2026-07-07T23:58:20+00:00",
+      "first_seen": "2026-07-08T03:30:00+00:00",
+      "last_seen": "2026-07-08T03:30:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.6456
+      "resonance": 0.2424
     },
     {
-      "id": "6c1f82b35b",
-      "title": "Schulze will bei Linken und AfD nicht um Stimmen bitten",
-      "signal_count": 2,
+      "id": "a6af93b43f",
+      "title": "Fußball-WM: Kobel wie Kahn - Schweiz erwartet Spiel der Spiele mit Messi",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/politik/schulze-will-bei-linken-und-afd-nicht-um-stimmen-bitten-a-cec2cf1b-4709-4123-ace7-e5e590d955c4#ref=rss",
-          "headline": "Schulze will bei Linken und AfD nicht um Stimmen bitten",
-          "platform": "rss"
-        },
-        {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/08/schulze-will-bei-linken-und-afd-nicht-um-stimmen-bitten",
-          "headline": "Sachsen-Anhalt: Schulze will bei Linken und AfD nicht um Stimmen bitten",
+          "url": "https://www.zeit.de/news/2026-07/08/schweiz-gewinnt-elfer-krimi-gegen-kolumbien-messi-wartet",
+          "headline": "Fußball-WM: Kobel wie Kahn - Schweiz erwartet Spiel der Spiele mit Messi",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.225,
-        "spread": 0.075,
+        "mean": -0.3,
+        "spread": 0.0,
         "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:25:04+00:00",
+      "last_seen": "2026-07-08T03:25:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.2305
+    },
+    {
+      "id": "5de0c8a553",
+      "title": "\"Feind greift die Hauptstadt an\": Russland attackiert Metropole Kiew mit ballistischen Raketen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Russland-attackiert-Metropole-Kiew-mit-ballistischen-Raketen-id31060408.html",
+          "headline": "\"Feind greift die Hauptstadt an\": Russland attackiert Metropole Kiew mit ballistischen Raketen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-07T22:13:01+00:00",
-      "last_seen": "2026-07-07T23:42:00+00:00",
+      "first_seen": "2026-07-08T03:24:39+00:00",
+      "last_seen": "2026-07-08T03:24:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.2295
+    },
+    {
+      "id": "1a0becb5c8",
+      "title": "Erling Haaland: DJ Kygo legt zehn Jahre alten Rap-Song des Norwegen-Fußballers neu auf",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/erling-haaland-dj-kygo-legt-zehn-jahre-alten-rap-song-des-norwegen-fussballers-neu-auf-a-de96a4c8-d93a-4a31-8391-f8f015b1cdad#ref=rss",
+          "headline": "Erling Haaland: DJ Kygo legt zehn Jahre alten Rap-Song des Norwegen-Fußballers neu auf",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:21:00+00:00",
+      "last_seen": "2026-07-08T03:21:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.2207
+    },
+    {
+      "id": "d0e5c18fc9",
+      "title": "\"Verstoß gegen die Waffenruhe\": US-Militär greift nach Tanker-Beschuss erneut Ziele im Iran an",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/US-Militaer-greift-nach-Tanker-Beschuss-erneut-Ziele-im-Iran-an-id31060047.html",
+          "headline": "\"Verstoß gegen die Waffenruhe\": US-Militär greift nach Tanker-Beschuss erneut Ziele im Iran an",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:20:00+00:00",
+      "last_seen": "2026-07-08T03:20:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.2183
+    },
+    {
+      "id": "b5092cff44",
+      "title": "Braunschweig: Familie findet kistenweise menschliche Knochen im Garten",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/menschliche-knochen-im-garten-fund-schockt-felix-chall-accg-201008534.html",
+          "headline": "Braunschweig: Familie findet kistenweise menschliche Knochen im Garten",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:18:15+00:00",
+      "last_seen": "2026-07-08T03:18:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.2142
+    },
+    {
+      "id": "c4f152ba25",
+      "title": "Frankreich: Entfesselt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-07/frankreich-wahlen-marine-le-pen",
+          "headline": "Frankreich: Entfesselt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:17:58+00:00",
+      "last_seen": "2026-07-08T03:17:58+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.6232
+      "resonance": 0.2135
+    },
+    {
+      "id": "4228a93fad",
+      "title": "Konzertreihe statt Tournee?: Rolling Stones: Mick Jagger hofft auf Konzerte im Jahr 2027",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/08/rolling-stones-mick-jagger-hofft-auf-konzerte-im-jahr-2027",
+          "headline": "Konzertreihe statt Tournee?: Rolling Stones: Mick Jagger hofft auf Konzerte im Jahr 2027",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T03:17:04+00:00",
+      "last_seen": "2026-07-08T03:17:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2114
     },
     {
       "id": "a822675307",
@@ -95,8 +641,8 @@
         },
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/politik/ausland/article6a4d71a2bb0cf80de56a180c/nach-attacken-auf-tankschiffe-us-militaer-fliegt-schwere-angriffe-auf-den-iran-teheran-droht-mit-vergeltung.html",
-          "headline": "US-Militär fliegt „schwere“ Angriffe auf den Iran – Teheran droht mit Vergeltung",
+          "url": "https://www.welt.de/politik/ausland/article6a4d71a2bb0cf80de56a180c/nach-attacken-auf-tankschiffe-us-militaer-fliegt-ueber-stunden-schwere-angriffe-auf-den-iran-teheran-droht-mit-vergeltung.html",
+          "headline": "US-Militär fliegt über Stunden „schwere“ Angriffe auf den Iran – Teheran droht mit Vergeltung",
           "platform": "rss"
         }
       ],
@@ -108,188 +654,88 @@
         "right": 1
       },
       "first_seen": "2026-07-07T21:44:11+00:00",
-      "last_seen": "2026-07-07T23:31:35+00:00",
+      "last_seen": "2026-07-08T02:41:10+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
       "language": "de",
-      "resonance": 0.5373
+      "resonance": 0.1905
     },
     {
-      "id": "d5446febc7",
-      "title": "Fußball-WM 2026: Ägyptens Nationaltrainer erhebt schwere Vorwürfe gegen Schiedsrichter",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-05/fussball-wm-2026-liveblog",
-          "headline": "Fußball-WM 2026: Ägyptens Nationaltrainer erhebt schwere Vorwürfe gegen Schiedsrichter",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a4d606adfc0c82fa29097f4/niederlage-gegen-argentinien-aegyptens-nationaltrainer-poltert-nach-dem-aus-und-erhebt-schwere-vorwuerfe.html",
-          "headline": "Ägyptens Nationaltrainer poltert nach dem Aus und erhebt schwere Vorwürfe",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/sport/wm-2026-liveblog-news-rudi-voeller-dfb-klopp-li.3492650",
-          "headline": "Fußball-WM 2026: Ägyptens Nationaltrainer fühlt sich vom Schiedsrichter betrogen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.067,
-        "spread": 0.262,
-        "left": 1,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-07-07T15:10:00+00:00",
-      "last_seen": "2026-07-07T23:11:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.4477
-    },
-    {
-      "id": "2ce695e513",
-      "title": "Irankrieg: USA setzen Sanktionen auf iranisches Öl wieder in Kraft",
+      "id": "02cdc01dbf",
+      "title": "„Stümperhaft“, „unprofessionell“ – Grüne wollen Gesundheitsreform im Bundestag stoppen",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-05/iran-krieg-donald-trump-hormus-live",
-          "headline": "Irankrieg: USA setzen Sanktionen auf iranisches Öl wieder in Kraft",
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Gruene-wollen-Bundestagsabstimmung-ueber-Gesundheitsreform-blockieren-id31060153.html",
+          "headline": "\"Kürzungskahlschlag\": Grüne wollen Bundestagsabstimmung über Gesundheitsreform blockieren",
           "platform": "rss"
         },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/usa-setzen-oelsanktionen-gegen-iran-wieder-in-kraft-a-2b0a4155-50f1-430a-9b4f-f4030fc9ecaa#ref=rss",
-          "headline": "USA setzen Ölsanktionen gegen Iran wieder in Kraft",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.075,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T20:15:00+00:00",
-      "last_seen": "2026-07-07T23:08:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.348
-    },
-    {
-      "id": "66506c3caf",
-      "title": "„Kill the Jews“ – Antisemiten bepöbeln Paar mit Kinderwagen, Zeugin greift ein",
-      "signal_count": 1,
-      "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/article6a4d87c1bb0cf80de56a189f/berlin-kill-the-jews-antisemiten-bepoebeln-paar-mit-kinderwagen-zeugin-greift-ein.html",
-          "headline": "„Kill the Jews“ – Antisemiten bepöbeln Paar mit Kinderwagen, Zeugin greift ein",
+          "url": "https://www.welt.de/politik/deutschland/article6a4d9716cbe0facee4120e61/stuemperhaft-unprofessionell-gruene-wollen-gesundheitsreform-im-bundestag-stoppen.html",
+          "headline": "„Stümperhaft“, „unprofessionell“ – Grüne wollen Gesundheitsreform im Bundestag stoppen",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
+        "mean": 0.15,
+        "spread": 0.15,
         "left": 0,
-        "center": 0,
+        "center": 1,
         "right": 1
       },
-      "first_seen": "2026-07-08T00:06:01+00:00",
-      "last_seen": "2026-07-08T00:06:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "0cb8180695",
-      "title": "Nach Berufungsurteil: Le Pen tritt trotz Verurteilung bei der Präsidentenwahl an",
-      "signal_count": 6,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/international/frankreich-marine-le-pen-will-zur-praesidentschaftswahl-antreten/100238574.html",
-          "headline": "Frankreich: Trotz Verurteilung: Marine Le Pen will zur Präsidentschaftswahl antreten",
-          "platform": "rss"
-        },
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/ausland/le-pen-tritt-trotz-schuldspruch-bei-der-praesidentenwahl-an-201007657.html",
-          "headline": "Nach Berufungsurteil: Le Pen tritt trotz Verurteilung bei der Präsidentenwahl an",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/frankreich-le-pen-haelt-trotz-urteil-an-praesidentschaftskandidatur-fest-a-7ec391c6-580b-4f98-91ab-66f8e126863b#ref=rss",
-          "headline": "Frankreich: Marine Le Pen hält trotz Verurteilung an Präsidentschaftskandidatur fest",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/politik/frankreich-le-pen-urteil-kandidatur-li.3511676",
-          "headline": "Frankreich: Le Pen kündigt Kandidatur für die Präsidentschaftswahl an",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Le-Pen-haelt-an-Praesidentschaftskandidatur-fest-id31059747.html",
-          "headline": "Populistin will Urteil anfechten: Le Pen hält an Präsidentschaftskandidatur fest",
-          "platform": "rss"
-        },
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Berufungsurteil-in-Frankreich/!6194142/",
-          "headline": "Berufungsurteil in Frankreich: Marine Le Pen darf zur Wahl antreten – und will es auch",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.092,
-        "spread": 0.251,
-        "left": 1,
-        "center": 5,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T14:33:00+00:00",
-      "last_seen": "2026-07-07T19:18:38+00:00",
+      "first_seen": "2026-07-08T00:32:16+00:00",
+      "last_seen": "2026-07-08T00:34:19+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.3282
+      "resonance": 0.1815
     },
     {
-      "id": "a0835d1d84",
-      "title": "Harter Kampf – Schweiz löst im Elfmeterschießen das letzte Ticket fürs Viertelfinale",
+      "id": "317aedda0a",
+      "title": "Boeing 737: Pakistan meldet Verschwinden von Frachtflugzeug über Arabischem Meer",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-07/pakistan-frachtflugzeug-boeing-737-karachi-k2-airways",
+          "headline": "Boeing 737: Pakistan meldet Verschwinden von Frachtflugzeug über Arabischem Meer",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T02:50:45+00:00",
+      "last_seen": "2026-07-08T02:50:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.1509
+    },
+    {
+      "id": "7d74404663",
+      "title": "„Sätze wie vom Kasernenhof“ – Schweitzer kritisiert Merz für Aussagen zu Krankentagen",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/video6a4d910dbb0cf80de56a18ca/schweiz-kolumbien-highlights-schweiz-loest-im-elfmeterschiessen-das-letzte-ticket-fuers-viertelfinale-wm-2026.html",
-          "headline": "Harter Kampf – Schweiz löst im Elfmeterschießen das letzte Ticket fürs Viertelfinale",
+          "url": "https://www.welt.de/politik/deutschland/article6a4daeadbb0cf80de56a195d/saetze-wie-vom-kasernenhof-ex-ministerpraesident-kritisiert-merz-fuer-aussagen-zu-krankentagen.html",
+          "headline": "„Sätze wie vom Kasernenhof“ – Schweitzer kritisiert Merz für Aussagen zu Krankentagen",
           "platform": "rss"
         }
       ],
@@ -300,445 +746,50 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-07T23:59:57+00:00",
-      "last_seen": "2026-07-07T23:59:57+00:00",
+      "first_seen": "2026-07-08T02:43:38+00:00",
+      "last_seen": "2026-07-08T02:43:38+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.28
+      "resonance": 0.1352
     },
     {
-      "id": "f0035738ad",
-      "title": "Ukraine-Krieg: Erneut russischer Angriff mit ballistischen Raketen auf Kiew",
-      "signal_count": 3,
+      "id": "f2f12a7abd",
+      "title": "E-Autos: BMW holt sich Platz zwei bei den Elektroautos zurück",
+      "signal_count": 1,
       "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/08/erneut-russischer-angriff-mit-ballistischen-raketen-auf-kiew",
-          "headline": "Ukraine-Krieg: Erneut russischer Angriff mit ballistischen Raketen auf Kiew",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-          "headline": "Krieg gegen die Ukraine: Russland greift Kyjiw erneut mit ballistischen Raketen an",
-          "platform": "rss"
-        },
         {
           "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/international/ukraine-erneut-russischer-angriff-mit-ballistischen-raketen-auf-kiew/27982126.html",
-          "headline": "+++ Ukraine-Krieg +++: Erneut russischer Angriff mit ballistischen Raketen auf Kiew",
+          "url": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/e-autos-bmw-holt-sich-platz-zwei-bei-den-elektroautos-zurueck/100238634.html",
+          "headline": "E-Autos: BMW holt sich Platz zwei bei den Elektroautos zurück",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.212,
-        "left": 2,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T09:40:03+00:00",
-      "last_seen": "2026-07-07T23:56:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.3008
-    },
-    {
-      "id": "8979cef001",
-      "title": "Fußball-WM 2026: Argentinien dreht Zwei-Tore-Rückstand und steht im Viertelfinale",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-07/argentinien-dreht-zwei-tore-rueckstand-und-steht-im-viertelfinale",
-          "headline": "Fußball-WM 2026: Argentinien dreht Zwei-Tore-Rückstand und steht im Viertelfinale",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T23:42:57+00:00",
-      "last_seen": "2026-07-07T23:42:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.2644
-    },
-    {
-      "id": "7fde537cc5",
-      "title": "Kolumbien verliert gegen die Schweiz: Gelbe Shirts, die Tränen trocknen müssen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/sport/wm-2026-achtelfinale-schweiz-kolumbien-li.3511590",
-          "headline": "Kolumbien verliert gegen die Schweiz: Gelbe Shirts, die Tränen trocknen müssen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
+        "mean": 0.15,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-07T23:40:14+00:00",
-      "last_seen": "2026-07-07T23:40:14+00:00",
+      "first_seen": "2026-07-08T02:30:14+00:00",
+      "last_seen": "2026-07-08T02:30:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.2561
-    },
-    {
-      "id": "9be62a7400",
-      "title": "Ex-Bundesliga-Star schießt Schweiz ins Viertelfinale – der entscheidende Elfmeter im Video",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/video6a4d880ebb0cf80de56a18a3/schweiz-kolumbien-highlights-der-entscheidende-elfmeter-von-vargas-im-video-wm-2026.html",
-          "headline": "Ex-Bundesliga-Star schießt Schweiz ins Viertelfinale – der entscheidende Elfmeter im Video",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-07T23:35:49+00:00",
-      "last_seen": "2026-07-07T23:35:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.2426
-    },
-    {
-      "id": "eb61d4f1b0",
-      "title": "Kernkraft: Fünfter Castor-Behälter mit Atommüll nach Ahaus verlagert",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/08/fuenfter-castor-behaelter-mit-atommuell-nach-ahaus-verlagert",
-          "headline": "Kernkraft: Fünfter Castor-Behälter mit Atommüll nach Ahaus verlagert",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T23:34:43+00:00",
-      "last_seen": "2026-07-07T23:34:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2392
-    },
-    {
-      "id": "e5d50f9bd8",
-      "title": "„Äußert ernste Lage“ – Großeinsatz wegen einsturzgefährdetem Wolkenkratzer",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/article6a4d8473bb0cf80de56a1887/new-york-aeussert-ernste-lage-grosseinsatz-wegen-einsturzgefahr-bei-wolkenkratzer.html",
-          "headline": "„Äußert ernste Lage“ – Großeinsatz wegen einsturzgefährdetem Wolkenkratzer",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-07T23:33:48+00:00",
-      "last_seen": "2026-07-07T23:33:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2365
-    },
-    {
-      "id": "9563ffa7ce",
-      "title": "Elfmeter-Krimi – Dank Kobel steht die Schweiz im Viertelfinale",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/video6a4d88e3dfc0c82fa2909927/schweiz-kolumbien-highlights-elfmeter-krimi-alle-schuesse-im-video-wm-2026.html",
-          "headline": "Elfmeter-Krimi – Dank Kobel steht die Schweiz im Viertelfinale",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-07T23:26:48+00:00",
-      "last_seen": "2026-07-07T23:26:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2155
-    },
-    {
-      "id": "16580ccb2c",
-      "title": "WM 2026: Dank Rubén Vargas und Gregor Kobel – Schweiz wirft Kolumbien im Elfmeterschießen raus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/wm-2026-dank-ruben-vargas-und-gregor-kobel-schweiz-wirft-kolumbien-im-elfmeterschiessen-raus-a-bec31d76-d3ed-4717-a112-d43cd80b17ce#ref=rss",
-          "headline": "WM 2026: Dank Rubén Vargas und Gregor Kobel – Schweiz wirft Kolumbien im Elfmeterschießen raus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T23:22:00+00:00",
-      "last_seen": "2026-07-07T23:22:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2013
-    },
-    {
-      "id": "ee3c10a024",
-      "title": "Fußballweltmeisterschaft 2026: Schweiz erreicht erstmals nach 72 Jahren das WM-Viertelfinale",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-07/wm-2026-achtelfinale-schweiz-kolumbien",
-          "headline": "Fußballweltmeisterschaft 2026: Schweiz erreicht erstmals nach 72 Jahren das WM-Viertelfinale",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T23:17:51+00:00",
-      "last_seen": "2026-07-07T23:17:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1892
-    },
-    {
-      "id": "5c8092a95b",
-      "title": "Krieg in der Ukraine: Ukraine schließt Drohnenabkommen mit drei europäischen Staaten",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-07/drohnen-abkommen-ukraine-estland-niederlande-daenemark",
-          "headline": "Krieg in der Ukraine: Ukraine schließt Drohnenabkommen mit drei europäischen Staaten",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T23:15:39+00:00",
-      "last_seen": "2026-07-07T23:15:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.1828
-    },
-    {
-      "id": "1e16347148",
-      "title": "Mann soll Frau und kleine Mädchen in Schwimmbad belästigt haben",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/kriminalitaet/article6a4d818ddfc0c82fa2909909/muenchen-mann-soll-frau-und-kleine-maedchen-in-schwimmbad-belaestigt-haben.html",
-          "headline": "Mann soll Frau und kleine Mädchen in Schwimmbad belästigt haben",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-07T23:15:21+00:00",
-      "last_seen": "2026-07-07T23:15:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1819
-    },
-    {
-      "id": "f6ae73c931",
-      "title": "Evakuierung: Hochhaus in New York einsturzgefährdet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/gesellschaft/ungluecke/fruehere-pfizer-zentrale-hochhaus-in-new-york-einsturzgefaehrdet-201008139.html",
-          "headline": "Evakuierung: Hochhaus in New York einsturzgefährdet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T23:13:39+00:00",
-      "last_seen": "2026-07-07T23:13:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.177
-    },
-    {
-      "id": "7c19cdc480",
-      "title": "4:3 gegen Kolumbien: Die Schweiz komplettiert das WM-Viertelfinale",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/sport/fussball-wm/fussball-wm-2026-die-schweiz-komplettiert-das-viertelfinale-200998402.html",
-          "headline": "4:3 gegen Kolumbien: Die Schweiz komplettiert das WM-Viertelfinale",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T23:03:11+00:00",
-      "last_seen": "2026-07-07T23:03:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1472
-    },
-    {
-      "id": "98a2d95a2d",
-      "title": "Wimbledon: Alexander Zverev erreicht erstmals Viertelfinale in Wimbledon",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-07/alexander-zverev-wimbledon-viertelfinale-taylor-fritz",
-          "headline": "Wimbledon: Alexander Zverev erreicht erstmals Viertelfinale in Wimbledon",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T22:59:43+00:00",
-      "last_seen": "2026-07-07T22:59:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1375
+      "resonance": 0.1063
     },
     {
       "id": "1df34fd979",
       "title": "New York: Hochhaus mitten in Manhattan wegen Einsturzgefahr geräumt",
-      "signal_count": 3,
+      "signal_count": 2,
       "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/international/einsturzgefahr-wolkenkratzer-in-manhattan-wegen-einsturzgefahr-geraeumt/100238596.html",
-          "headline": "Einsturzgefahr: Wolkenkratzer in Manhattan wegen Einsturzgefahr geräumt",
-          "platform": "rss"
-        },
         {
           "outlet": "Der Spiegel",
           "url": "https://www.spiegel.de/panorama/new-york-hochhaus-mitten-in-manhattan-wegen-einsturzgefahr-geraeumt-a-84dac5ac-03f3-4a52-bb30-23023e912c35#ref=rss",
@@ -753,441 +804,168 @@
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.122,
+        "mean": -0.075,
+        "spread": 0.075,
         "left": 0,
-        "center": 3,
+        "center": 2,
         "right": 0
       },
       "first_seen": "2026-07-07T17:38:45+00:00",
-      "last_seen": "2026-07-07T19:49:00+00:00",
+      "last_seen": "2026-07-08T02:25:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "society",
       "language": "de",
-      "resonance": 0.1312
+      "resonance": 0.1006
     },
     {
-      "id": "71840d06ad",
-      "title": "„Das ist Gehirnwäsche der europäischen Steuerzahler“, urteilt Putins Sprecher",
+      "id": "b42e09896e",
+      "title": "USA: Angriffe und Sanktionen stellen Iran-Abkommen auf die Probe",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/ausland/article6a4d7eb1dfc0c82fa29098f1/ukraine-krieg-putins-sprecher-peskow-spricht-von-gehirnwaesche-der-europaeischen-steuerzahler.html",
-          "headline": "„Das ist Gehirnwäsche der europäischen Steuerzahler“, urteilt Putins Sprecher",
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/international/usa-angriffe-und-sanktionen-stellen-iran-abkommen-auf-die-probe/100238632.html",
+          "headline": "USA: Angriffe und Sanktionen stellen Iran-Abkommen auf die Probe",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.3,
+        "mean": 0.15,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-07-07T22:53:15+00:00",
-      "last_seen": "2026-07-07T22:53:15+00:00",
+      "first_seen": "2026-07-08T02:17:45+00:00",
+      "last_seen": "2026-07-08T02:17:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.0802
+    },
+    {
+      "id": "75ec4c128d",
+      "title": "Palla plant drei Maßnahmenpakete: Deutsche Bahn will Verspätungsprognosen mit KI verbessern",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/wirtschaft/Deutsche-Bahn-will-Verspaetungsprognosen-mit-KI-verbessern-id31060295.html",
+          "headline": "Palla plant drei Maßnahmenpakete: Deutsche Bahn will Verspätungsprognosen mit KI verbessern",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T02:12:11+00:00",
+      "last_seen": "2026-07-08T02:12:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.0688
+    },
+    {
+      "id": "20aa0d9a8a",
+      "title": "Versandhandel: Europas neuer Zoll auf Päckchen: Wie das Berliner Start-up eClear China aus der Misere hilft",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/unternehmen/start-ups/eclear-deutsches-start-up-hilft-china-aus-der-zollmisere/100236831.html",
+          "headline": "Versandhandel: Europas neuer Zoll auf Päckchen: Wie das Berliner Start-up eClear China aus der Misere hilft",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T02:05:45+00:00",
+      "last_seen": "2026-07-08T02:05:45+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "economy",
       "language": "de",
-      "resonance": 0.1196
+      "resonance": 0.0558
     },
     {
-      "id": "84d64ad0d4",
-      "title": "Fußball-WM: Schweiz gewinnt Elfer-Krimi gegen Kolumbien - Messi wartet",
+      "id": "6ea6b4b06f",
+      "title": "Exklusiv: Datenschützer will EU-Datenabkommen mit den USA kippen",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/08/schweiz-gewinnt-elfer-krimi-gegen-kolumbien-messi-wartet",
-          "headline": "Fußball-WM: Schweiz gewinnt Elfer-Krimi gegen Kolumbien - Messi wartet",
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/international/eu-aktivist-will-bruessels-datendeal-mit-den-usa-kippen/100238256.html",
+          "headline": "Exklusiv: Datenschützer will EU-Datenabkommen mit den USA kippen",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T22:53:05+00:00",
-      "last_seen": "2026-07-07T22:53:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1192
-    },
-    {
-      "id": "a4f21b04dc",
-      "title": "Historischer Erfolg: Schweizer überwinden Kolumbien in dramatischem Elfmeterschießen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/fussball-wm/Schweizer-ueberwinden-Kolumbien-in-dramatischem-Elfmeterschiessen-id31060122.html",
-          "headline": "Historischer Erfolg: Schweizer überwinden Kolumbien in dramatischem Elfmeterschießen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
+        "mean": 0.15,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-07T22:50:58+00:00",
-      "last_seen": "2026-07-07T22:50:58+00:00",
+      "first_seen": "2026-07-08T02:02:51+00:00",
+      "last_seen": "2026-07-08T02:02:51+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1133
-    },
-    {
-      "id": "eb372e83b8",
-      "title": "\"Werden wir so nicht halten\": Autoindustrie-Verband erwartet ohne Reformen Werksschließungen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/wirtschaft/Autoindustrie-Verband-erwartet-ohne-Reformen-Werksschliessungen-id31060110.html",
-          "headline": "\"Werden wir so nicht halten\": Autoindustrie-Verband erwartet ohne Reformen Werksschließungen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T22:45:38+00:00",
-      "last_seen": "2026-07-07T22:45:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0989
-    },
-    {
-      "id": "42d5c712f0",
-      "title": "Ukraine verkündet Drohnenabkommen mit Dänemark, Estland und den Niederlanden",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/ukraine-verkuendet-drohnenabkommen-mit-daenemark-estland-und-den-niederlanden-a-65b14089-3648-4e71-bcde-9c31c036f5ea#ref=rss",
-          "headline": "Ukraine verkündet Drohnenabkommen mit Dänemark, Estland und den Niederlanden",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T22:45:00+00:00",
-      "last_seen": "2026-07-07T22:45:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0971
-    },
-    {
-      "id": "51c33b7003",
-      "title": "Frühere CDU-Chefs warnen Schulze vor Tolerierung durch Linke – Ministerpräsident antwortet bei Lanz",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/article6a4d78a9bb0cf80de56a183b/sachsen-anhalt-fruehere-cdu-chefs-warnen-schulze-vor-tolerierung-durch-linke-ministerpraesident-antwortet.html",
-          "headline": "Frühere CDU-Chefs warnen Schulze vor Tolerierung durch Linke – Ministerpräsident antwortet bei Lanz",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-07T22:30:40+00:00",
-      "last_seen": "2026-07-07T22:30:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0591
-    },
-    {
-      "id": "29d1bd9da6",
-      "title": "Liveblog Fußball-WM 2026: Völler macht als DFB-Sportdirektor weiter",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/sport/fussball-wm/liveblog-zur-fussball-wm-2026-voeller-macht-als-dfb-sportdirektor-weiter-faz-200749933.html",
-          "headline": "Liveblog Fußball-WM 2026: Völler macht als DFB-Sportdirektor weiter",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-07T22:27:10+00:00",
-      "last_seen": "2026-07-07T22:27:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
+      "topic": "tech",
       "language": "de",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "d5446febc7",
-      "target": "8979cef001",
-      "weight": 0.296,
+      "source": "932cd276fa",
+      "target": "f2f12a7abd",
+      "weight": 0.177,
       "type": "thematic"
     },
     {
-      "source": "d5446febc7",
-      "target": "ee3c10a024",
-      "weight": 0.13,
+      "source": "e569eec07c",
+      "target": "d0e5c18fc9",
+      "weight": 0.046,
       "type": "thematic"
     },
     {
-      "source": "d5446febc7",
-      "target": "7c19cdc480",
-      "weight": 0.132,
+      "source": "e569eec07c",
+      "target": "b42e09896e",
+      "weight": 0.144,
       "type": "thematic"
     },
     {
-      "source": "d5446febc7",
-      "target": "84d64ad0d4",
-      "weight": 0.376,
+      "source": "d0e5c18fc9",
+      "target": "a822675307",
+      "weight": 0.634,
       "type": "thematic"
     },
     {
-      "source": "d5446febc7",
-      "target": "29d1bd9da6",
-      "weight": 0.328,
-      "type": "thematic"
-    },
-    {
-      "source": "a0835d1d84",
-      "target": "9563ffa7ce",
-      "weight": 0.154,
-      "type": "thematic"
-    },
-    {
-      "source": "a0835d1d84",
-      "target": "16580ccb2c",
-      "weight": 0.343,
-      "type": "thematic"
-    },
-    {
-      "source": "a0835d1d84",
-      "target": "7c19cdc480",
-      "weight": 0.015,
-      "type": "thematic"
-    },
-    {
-      "source": "a0835d1d84",
-      "target": "a4f21b04dc",
-      "weight": 0.131,
-      "type": "thematic"
-    },
-    {
-      "source": "f0035738ad",
-      "target": "5c8092a95b",
-      "weight": 0.421,
-      "type": "thematic"
-    },
-    {
-      "source": "8979cef001",
-      "target": "9563ffa7ce",
-      "weight": 0.404,
-      "type": "thematic"
-    },
-    {
-      "source": "8979cef001",
-      "target": "16580ccb2c",
-      "weight": 0.013,
-      "type": "thematic"
-    },
-    {
-      "source": "8979cef001",
-      "target": "ee3c10a024",
-      "weight": 0.366,
-      "type": "thematic"
-    },
-    {
-      "source": "8979cef001",
-      "target": "7c19cdc480",
-      "weight": 0.041,
-      "type": "thematic"
-    },
-    {
-      "source": "8979cef001",
-      "target": "84d64ad0d4",
-      "weight": 0.155,
-      "type": "thematic"
-    },
-    {
-      "source": "8979cef001",
-      "target": "29d1bd9da6",
-      "weight": 0.374,
-      "type": "thematic"
-    },
-    {
-      "source": "7fde537cc5",
-      "target": "7c19cdc480",
-      "weight": 0.515,
-      "type": "thematic"
-    },
-    {
-      "source": "7fde537cc5",
-      "target": "84d64ad0d4",
-      "weight": 0.143,
-      "type": "thematic"
-    },
-    {
-      "source": "9be62a7400",
-      "target": "9563ffa7ce",
-      "weight": 0.585,
-      "type": "thematic"
-    },
-    {
-      "source": "9be62a7400",
-      "target": "7c19cdc480",
-      "weight": 0.0,
-      "type": "thematic"
-    },
-    {
-      "source": "9563ffa7ce",
-      "target": "16580ccb2c",
-      "weight": 0.733,
-      "type": "thematic"
-    },
-    {
-      "source": "9563ffa7ce",
-      "target": "7c19cdc480",
-      "weight": 0.172,
-      "type": "thematic"
-    },
-    {
-      "source": "9563ffa7ce",
-      "target": "84d64ad0d4",
-      "weight": 0.165,
-      "type": "thematic"
-    },
-    {
-      "source": "16580ccb2c",
-      "target": "ee3c10a024",
-      "weight": 0.045,
-      "type": "thematic"
-    },
-    {
-      "source": "16580ccb2c",
-      "target": "7c19cdc480",
-      "weight": 0.306,
-      "type": "thematic"
-    },
-    {
-      "source": "16580ccb2c",
-      "target": "84d64ad0d4",
-      "weight": 0.008,
-      "type": "thematic"
-    },
-    {
-      "source": "16580ccb2c",
-      "target": "a4f21b04dc",
-      "weight": 0.307,
-      "type": "thematic"
-    },
-    {
-      "source": "ee3c10a024",
-      "target": "7c19cdc480",
-      "weight": 0.411,
-      "type": "thematic"
-    },
-    {
-      "source": "ee3c10a024",
-      "target": "98a2d95a2d",
-      "weight": 0.503,
-      "type": "thematic"
-    },
-    {
-      "source": "ee3c10a024",
-      "target": "84d64ad0d4",
-      "weight": 0.131,
-      "type": "thematic"
-    },
-    {
-      "source": "ee3c10a024",
-      "target": "29d1bd9da6",
-      "weight": 0.193,
-      "type": "thematic"
-    },
-    {
-      "source": "5c8092a95b",
-      "target": "71840d06ad",
-      "weight": 0.214,
-      "type": "thematic"
-    },
-    {
-      "source": "5c8092a95b",
-      "target": "42d5c712f0",
-      "weight": 0.55,
-      "type": "thematic"
-    },
-    {
-      "source": "f6ae73c931",
-      "target": "1df34fd979",
-      "weight": 0.871,
-      "type": "thematic"
-    },
-    {
-      "source": "7c19cdc480",
-      "target": "84d64ad0d4",
-      "weight": 0.871,
-      "type": "thematic"
-    },
-    {
-      "source": "84d64ad0d4",
-      "target": "29d1bd9da6",
-      "weight": 0.182,
+      "source": "a822675307",
+      "target": "b42e09896e",
+      "weight": 0.369,
       "type": "thematic"
     }
   ],

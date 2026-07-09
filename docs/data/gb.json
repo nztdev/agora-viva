@@ -1,15 +1,56 @@
 {
-  "generated_at": "2026-07-09T18:07:08.315361+00:00",
+  "generated_at": "2026-07-09T20:02:18.839062+00:00",
   "country_code": "gb",
   "country_name": "United Kingdom",
   "language": "en",
   "node_count": 30,
-  "edge_count": 7,
+  "edge_count": 10,
   "nodes": [
+    {
+      "id": "529b3a8df6",
+      "title": "Duchess Sophie makes The Archers cameo appearance",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/cyv0z8g0975o?at_medium=RSS&at_campaign=rss",
+          "headline": "Duchess Sophie makes The Archers cameo appearance",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Independent",
+          "url": "https://www.independent.co.uk/arts-entertainment/tv/news/bbc-the-archers-sophie-duchess-edinburgh-b3012005.html",
+          "headline": "Duchess of Edinburgh makes unexpected cameo appearance on The Archers",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Evening Standard",
+          "url": "https://www.standard.co.uk/news/uk/duchess-edinburgh-the-archers-margaret-bbc-b1289448.html",
+          "headline": "Duchess of Edinburgh makes a cameo appearance on The Archers",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.067,
+        "spread": 0.125,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T18:15:00+00:00",
+      "last_seen": "2026-07-09T18:16:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.6587
+    },
     {
       "id": "d20f9c19a0",
       "title": "Burnham apologises for Labour's initial response to Gaza war",
-      "signal_count": 4,
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "BBC UK",
@@ -24,12 +65,6 @@
           "platform": "rss"
         },
         {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/politics/nigel-farage-count-binface-claction-by-election-live-updates-b3011667.html",
-          "headline": "Andy Burnham latest: Prime minister-in-waiting apologises for Labour’s Gaza response",
-          "platform": "rss"
-        },
-        {
           "outlet": "The Guardian",
           "url": "https://www.theguardian.com/politics/2026/jul/09/andy-burnham-labour-didnt-get-it-right-stance-gaza-war",
           "headline": "Andy Burnham apologises for Labour’s stance on Gaza and says it ‘didn’t get it right’",
@@ -37,10 +72,10 @@
         }
       ],
       "bias": {
-        "mean": -0.25,
-        "spread": 0.112,
+        "mean": -0.267,
+        "spread": 0.125,
         "left": 2,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
       "first_seen": "2026-07-09T16:10:18+00:00",
@@ -49,9 +84,44 @@
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
+      "topic": "conflict",
       "language": "en",
-      "resonance": 0.7206
+      "resonance": 0.4385
+    },
+    {
+      "id": "25cf7d1a59",
+      "title": "Burnham set to be next PM as 322 Labour MPs back him in first nomination tally",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/c77y0n7k801o?at_medium=RSS&at_campaign=rss",
+          "headline": "Burnham set to be next PM as 322 Labour MPs back him in first nomination tally",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/politics/andy-burnham-nominations-leader-starmer-37411300",
+          "headline": "Andy Burnham on course to be PM as he wins backing of 322 Labour MPs",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T18:19:22+00:00",
+      "last_seen": "2026-07-09T18:28:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.3953
     },
     {
       "id": "393f9ecab7",
@@ -79,14 +149,578 @@
         "right": 0
       },
       "first_seen": "2026-07-09T16:19:40+00:00",
-      "last_seen": "2026-07-09T17:00:40+00:00",
+      "last_seen": "2026-07-09T19:55:33+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "en",
-      "resonance": 0.3275
+      "resonance": 0.368
+    },
+    {
+      "id": "1a12a283f2",
+      "title": "Most popular baby names for boys and girls in 2025 revealed",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/cevlw4wnlmxo?at_medium=RSS&at_campaign=rss",
+          "headline": "Most popular baby names for boys and girls in 2025 revealed",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Evening Standard",
+          "url": "https://www.standard.co.uk/news/uk/most-popular-baby-names-2025-boys-girls-b1289386.html",
+          "headline": "Most popular baby names of 2025 revealed as new additions join list",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T16:53:55+00:00",
+      "last_seen": "2026-07-09T18:37:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.2824
+    },
+    {
+      "id": "b5e540121a",
+      "title": "Full list of MPs to nominate Andy Burnham for Labour leadership",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "The Independent",
+          "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-labour-leadership-mp-nominations-full-list-b3012236.html",
+          "headline": "Full list of MPs to nominate Andy Burnham for Labour leadership",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Independent",
+          "url": "https://www.independent.co.uk/news/uk/politics/nigel-farage-count-binface-claction-by-election-live-updates-b3011667.html",
+          "headline": "Andy Burnham latest: Prime minister-in-waiting on the cusp of Labour leadership as 322 MPs back him",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Evening Standard",
+          "url": "https://www.standard.co.uk/news/politics/andy-burnham-prime-minister-timeline-labour-leadership-b1287974.html",
+          "headline": "When will Andy Burnham become Prime Minister?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.141,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T14:49:41+00:00",
+      "last_seen": "2026-07-09T19:45:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "en",
+      "resonance": 0.2611
+    },
+    {
+      "id": "44b2739d3e",
+      "title": "Personal shopper and stylist, 44, defrauded clients out of £277,000 that she promised to invest in Gucci handbags, court hears",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39706267/stylist-denies-conning-clients-gucci-handbags/",
+          "headline": "Stylist who offered to invest in luxury Gucci handbags denies conning three ­clients out of £277,000",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/news/article-15964985/Personal-shopper-stylist-defrauded-clients-promised-invest-Gucci-handbags.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "Personal shopper and stylist, 44, defrauded clients out of £277,000 that she promised to invest in Gucci handbags, court hears",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.65,
+        "spread": 0.05,
+        "left": 0,
+        "center": 0,
+        "right": 2
+      },
+      "first_seen": "2026-07-09T12:14:53+00:00",
+      "last_seen": "2026-07-09T20:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "en",
+      "resonance": 0.2425
+    },
+    {
+      "id": "28ee84185f",
+      "title": "Restore Britain leader describes Dunblane tragedy as 'one murder'",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/news/article-15965285/Restore-Britain-Rupert-Lowe-Dunblane-massacre-one-murder-gun-laws.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "Restore Britain leader Rupert Lowe faces fury after saying Dunblane massacre was 'one murder' as he condemned tough gun laws",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/cj3gdj300lyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Restore Britain leader describes Dunblane tragedy as 'one murder'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Sky News UK",
+          "url": "https://news.sky.com/story/fury-as-restore-britain-leader-rupert-lowe-describes-dunblane-tragedy-as-one-murder-13561888",
+          "headline": "Fury as Restore Britain leader describes Dunblane tragedy as 'one murder'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.233,
+        "spread": 0.34,
+        "left": 0,
+        "center": 2,
+        "right": 1
+      },
+      "first_seen": "2026-07-09T09:19:00+00:00",
+      "last_seen": "2026-07-09T18:39:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "en",
+      "resonance": 0.2358
+    },
+    {
+      "id": "188188b728",
+      "title": "Staggering sum fuming Brits are forced to fork out for a 99 Flake outside top London tourist attraction revealed",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39706796/brits-fume-99-flake-london-tourist-attraction/",
+          "headline": "Staggering sum fuming Brits are forced to fork out for a 99 Flake outside top London tourist attraction revealed",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-09T20:00:00+00:00",
+      "last_seen": "2026-07-09T20:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.2211
+    },
+    {
+      "id": "f12cf15325",
+      "title": "We spent £25k life savings on vet bills to try to save sick cat but she had to be put to sleep when we ran out of cash",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39706430/life-savings-vet-bills-sick-cat-put-to-sleep/",
+          "headline": "We spent £25k life savings on vet bills to try to save sick cat but she had to be put to sleep when we ran out of cash",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-09T20:00:00+00:00",
+      "last_seen": "2026-07-09T20:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.2211
+    },
+    {
+      "id": "d40359b702",
+      "title": "FIFA make key VAR change for rest of the World Cup after furious complaints",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/sport/football/news/fifa-var-world-cup-fix-37411867",
+          "headline": "FIFA make key VAR change for rest of the World Cup after furious complaints",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:57:22+00:00",
+      "last_seen": "2026-07-09T19:57:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.2116
+    },
+    {
+      "id": "3c51f622c7",
+      "title": "France v Morocco: World Cup 2026 quarter-final – live",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/football/live/2026/jul/09/france-v-morocco-world-cup-2026-quarter-final-live",
+          "headline": "France v Morocco: World Cup 2026 quarter-final – live",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.4,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:54:44+00:00",
+      "last_seen": "2026-07-09T19:54:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "en",
+      "resonance": 0.2022
+    },
+    {
+      "id": "b58fe7e0e7",
+      "title": "Nigel Farage live: Clacton voters blast Reform leader's 'weird' by-election plot amid Jenrick 'probe'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/politics/nigel-farage-clacton-binface-live-37407072",
+          "headline": "Nigel Farage live: Clacton voters blast Reform leader's 'weird' by-election plot amid Jenrick 'probe'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:53:09+00:00",
+      "last_seen": "2026-07-09T19:53:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "en",
+      "resonance": 0.1966
+    },
+    {
+      "id": "ff192bc79d",
+      "title": "Burnham signals tougher policy on Israel over Gaza",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Independent",
+          "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-gaza-israel-labour-middle-east-conflict-b3012156.html",
+          "headline": "Burnham signals tougher policy on Israel over Gaza",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:48:41+00:00",
+      "last_seen": "2026-07-09T19:48:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "en",
+      "resonance": 0.1808
+    },
+    {
+      "id": "800ca85019",
+      "title": "Prince Harry live: Meghan Markle and children to join Duke of Sussex in UK for 'family events'",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/royals/prince-harry-king-charles-live-37407605",
+          "headline": "Prince Harry live: Meghan Markle and children to join Duke of Sussex in UK for 'family events'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/royals/meghan-markle-prince-harry-uk-37411804",
+          "headline": "Meghan Markle to bring Archie and Lilibet to UK this week to join Prince Harry for 'family events'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 2,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:14:38+00:00",
+      "last_seen": "2026-07-09T19:45:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1765
+    },
+    {
+      "id": "297beb787f",
+      "title": "World Cup LIVE: Thomas Tuchel's FIFA fury, man with WRENCH causes England security scare",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/sport/football/news/world-cup-live-england-final-37407133",
+          "headline": "World Cup LIVE: Thomas Tuchel's FIFA fury, man with WRENCH causes England security scare",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:44:52+00:00",
+      "last_seen": "2026-07-09T19:44:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "en",
+      "resonance": 0.1674
+    },
+    {
+      "id": "a15fd734ed",
+      "title": "Karolina Muchova beats Coco Gauff in epic tie-break to reach Wimbledon final",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c74yk1qp4dko?at_medium=RSS&at_campaign=rss",
+          "headline": "Karolina Muchova beats Coco Gauff in epic tie-break to reach Wimbledon final",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:44:09+00:00",
+      "last_seen": "2026-07-09T19:44:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1649
+    },
+    {
+      "id": "7c91e8fa24",
+      "title": "Burnham’s secret plot to get to No 10",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Independent",
+          "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-secret-plot-downing-street-starmer-b3012119.html",
+          "headline": "Burnham’s secret plot to get to No 10",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:43:54+00:00",
+      "last_seen": "2026-07-09T19:43:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1641
+    },
+    {
+      "id": "a44c23c064",
+      "title": "Donald Trump made a flying visit to Britain - but there's something weird about Air Force One",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/politics/donald-trump-made-flying-visit-37411893",
+          "headline": "Donald Trump made a flying visit to Britain - but there's something weird about Air Force One",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:38:15+00:00",
+      "last_seen": "2026-07-09T19:38:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.1446
+    },
+    {
+      "id": "0cb8eb8aa6",
+      "title": "Heat health alerts extended as record for most 34C days in a year broken",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/cyv0znm6y2eo?at_medium=RSS&at_campaign=rss",
+          "headline": "Heat health alerts extended as record for most 34C days in a year broken",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:37:11+00:00",
+      "last_seen": "2026-07-09T19:37:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "language": "en",
+      "resonance": 0.1409
+    },
+    {
+      "id": "2d32c95e1c",
+      "title": "Keir Starmer may award resignation honours when he leaves No 10",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/jul/09/keir-starmer-prime-minister-resignation-honours-no-10-politics",
+          "headline": "Keir Starmer may award resignation honours when he leaves No 10",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.4,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:33:01+00:00",
+      "last_seen": "2026-07-09T19:33:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "en",
+      "resonance": 0.1267
+    },
+    {
+      "id": "cfd4ce7f20",
+      "title": "Lottery results LIVE: National Lottery Set For Life draw tonight, July 9, 2026",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39696111/national-lottery-set-for-life-draw-july-9-2026/",
+          "headline": "Lottery results LIVE: National Lottery Set For Life draw tonight, July 9, 2026",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-09T19:30:12+00:00",
+      "last_seen": "2026-07-09T19:30:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1172
     },
     {
       "id": "06b2841188",
@@ -121,77 +755,94 @@
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.3169
+      "resonance": 0.1106
     },
     {
-      "id": "1a12a283f2",
-      "title": "Most popular baby names for boys and girls in 2025 revealed",
-      "signal_count": 2,
+      "id": "dc68295e47",
+      "title": "Hosepipe ban in place for first time in 30 years as scorching heatwave hits 34C",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Evening Standard",
-          "url": "https://www.standard.co.uk/news/uk/most-popular-baby-names-2025-boys-girls-b1289386.html",
-          "headline": "Most popular baby names of 2025 revealed as new additions join list",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/cevlw4wnlmxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Most popular baby names for boys and girls in 2025 revealed",
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/hosepipe-ban-place-first-time-37411683",
+          "headline": "Hosepipe ban in place for first time in 30 years as scorching heatwave hits 34C",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.1,
-        "left": 0,
-        "center": 2,
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-09T16:38:43+00:00",
-      "last_seen": "2026-07-09T16:53:55+00:00",
+      "first_seen": "2026-07-09T19:24:12+00:00",
+      "last_seen": "2026-07-09T19:24:12+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "climate",
       "language": "en",
-      "resonance": 0.3082
+      "resonance": 0.0972
     },
     {
-      "id": "209649cce1",
-      "title": "Moment hero police officer stops man from setting himself on fire at Tesco petrol station after he doused himself in fuel",
-      "signal_count": 2,
+      "id": "b74bf0c100",
+      "title": "Former top judge hits out against ‘vilification’ after Harry whitewash claim",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Independent",
+          "url": "https://www.independent.co.uk/news/uk/home-news/price-harry-court-case-judge-b3012223.html",
+          "headline": "Former top judge hits out against ‘vilification’ after Harry whitewash claim",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:21:38+00:00",
+      "last_seen": "2026-07-09T19:21:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.0887
+    },
+    {
+      "id": "f460ccdfcb",
+      "title": "Woman ‘SEWED housemate’s lips shut with needle & thread in horror attack’ before victim found help with handwritten sign",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39658085/hero-cops-tackle-man-doused-petrol-ignite-fire/",
-          "headline": "Incredible moment hero cops tackle man dousing himself in petrol & trying to set himself on fire",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15965097/Moment-hero-police-officer-stops-man-setting-fire-Tesco-petrol-station-doused-fuel.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Moment hero police officer stops man from setting himself on fire at Tesco petrol station after he doused himself in fuel",
+          "url": "https://www.thesun.co.uk/news/39706303/woman-sews-housemates-lips-shut/",
+          "headline": "Woman ‘SEWED housemate’s lips shut with needle & thread in horror attack’ before victim found help with handwritten sign",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.65,
-        "spread": 0.05,
+        "mean": 0.6,
+        "spread": 0.0,
         "left": 0,
         "center": 0,
-        "right": 2
+        "right": 1
       },
-      "first_seen": "2026-07-09T15:40:19+00:00",
-      "last_seen": "2026-07-09T17:17:40+00:00",
+      "first_seen": "2026-07-09T19:16:14+00:00",
+      "last_seen": "2026-07-09T19:16:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
+      "topic": "conflict",
       "language": "en",
-      "resonance": 0.28
+      "resonance": 0.071
     },
     {
       "id": "9471b8cdfa",
@@ -226,315 +877,71 @@
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.2761
+      "resonance": 0.0578
     },
     {
-      "id": "b4fa01a6fe",
-      "title": "White House says Keir Starmer’s England intervention ‘more egregious’ than Donald Trump’s Balogun red card call",
-      "signal_count": 2,
+      "id": "c85dd5a608",
+      "title": "Arthur Fery's multi-millionaire father and mother both watch on as their son triumphs in Wimbledon quarter-final to set up £900,000 pay day",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/politics/trump-balogun-starmer-england-world-cup-b3012141.html",
-          "headline": "White House says Keir Starmer’s England intervention ‘more egregious’ than Donald Trump’s Balogun red card call",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/politics/white-house-slams-keir-starmer-37410797",
-          "headline": "White House slams Keir Starmer for something Donald Trump did a day earlier",
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/news/article-15964555/Arthur-Ferys-multi-millionaire-father-mother-watch-son-triumphs-Wimbledon-quarter-final-set-900-000-pay-day.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "Arthur Fery's multi-millionaire father and mother both watch on as their son triumphs in Wimbledon quarter-final to set up £900,000 pay day",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.25,
-        "spread": 0.05,
-        "left": 1,
-        "center": 1,
-        "right": 0
+        "mean": 0.7,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
       },
-      "first_seen": "2026-07-09T15:04:46+00:00",
-      "last_seen": "2026-07-09T16:43:11+00:00",
+      "first_seen": "2026-07-09T19:10:54+00:00",
+      "last_seen": "2026-07-09T19:10:54+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "tech",
       "language": "en",
-      "resonance": 0.2032
+      "resonance": 0.0537
     },
     {
-      "id": "6a833d91b6",
-      "title": "Mosque replica on bonfire condemned as act of 'vile' racial hatred",
+      "id": "209649cce1",
+      "title": "Moment hero police officer stops man from setting himself on fire at Tesco petrol station after he doused himself in fuel",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Sky News UK",
-          "url": "https://news.sky.com/story/mosque-replica-on-bonfire-condemned-as-vile-bid-to-stir-up-anti-muslim-hatred-13561994",
-          "headline": "Mosque replica on bonfire condemned as act of 'vile' racial hatred",
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39658085/hero-cops-tackle-man-doused-petrol-ignite-fire/",
+          "headline": "Incredible moment hero cops tackle man dousing himself in petrol & trying to set himself on fire",
           "platform": "rss"
         },
         {
-          "outlet": "Evening Standard",
-          "url": "https://www.standard.co.uk/news/uk/hilary-benn-northern-ireland-police-amnesty-international-b1289323.html",
-          "headline": "Police urged to act after replica of mosque placed on top of loyalist bonfire",
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/news/article-15965097/Moment-hero-police-officer-stops-man-setting-fire-Tesco-petrol-station-doused-fuel.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "Moment hero police officer stops man from setting himself on fire at Tesco petrol station after he doused himself in fuel",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
+        "mean": 0.65,
+        "spread": 0.05,
         "left": 0,
-        "center": 2,
-        "right": 0
+        "center": 0,
+        "right": 2
       },
-      "first_seen": "2026-07-09T13:53:23+00:00",
-      "last_seen": "2026-07-09T17:17:00+00:00",
+      "first_seen": "2026-07-09T15:40:19+00:00",
+      "last_seen": "2026-07-09T17:17:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "society",
       "language": "en",
-      "resonance": 0.1582
-    },
-    {
-      "id": "5c37bf9bbf",
-      "title": "Man admits to ‘cutting off own penis with kitchen knife and using dismembered genitals to set his mom’s garage on fire’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39706713/indiana-man-cuts-penis-off-sets-garage-fire/",
-          "headline": "Man admits to ‘cutting off own penis with kitchen knife and using dismembered genitals to set his mom’s garage on fire’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-09T18:04:43+00:00",
-      "last_seen": "2026-07-09T18:04:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1548
-    },
-    {
-      "id": "331b219b10",
-      "title": "Burnham on track to be next PM as 322 Labour MPs back him",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c77y0n7k801o?at_medium=RSS&at_campaign=rss",
-          "headline": "Burnham on track to be next PM as 322 Labour MPs back him",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T18:04:27+00:00",
-      "last_seen": "2026-07-09T18:04:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1542
-    },
-    {
-      "id": "d7b37abbc2",
-      "title": "Graham Linehan receives settlement from Met over online post arrest",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/cvgdyjeqz8lo?at_medium=RSS&at_campaign=rss",
-          "headline": "Graham Linehan receives settlement from Met over online post arrest",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T18:01:04+00:00",
-      "last_seen": "2026-07-09T18:01:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1467
-    },
-    {
-      "id": "ff192bc79d",
-      "title": "Burnham signals tougher policy on Israel over Gaza",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-gaza-israel-labour-middle-east-conflict-b3012156.html",
-          "headline": "Burnham signals tougher policy on Israel over Gaza",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:58:23+00:00",
-      "last_seen": "2026-07-09T17:58:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "en",
-      "resonance": 0.1408
-    },
-    {
-      "id": "b9139f05ef",
-      "title": "UK labs hit by cuts despite record science funding",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/c0ryevpz48ko?at_medium=RSS&at_campaign=rss",
-          "headline": "UK labs hit by cuts despite record science funding",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:58:01+00:00",
-      "last_seen": "2026-07-09T17:58:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.14
-    },
-    {
-      "id": "20bbd4ab14",
-      "title": "'I'm in Miami for the English invasion — and one very special fan has a defiant battle cry'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/sport/football/england-fans-miami-world-cup-37411193",
-          "headline": "'I'm in Miami for the English invasion — and one very special fan has a defiant battle cry'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:56:34+00:00",
-      "last_seen": "2026-07-09T17:56:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "en",
-      "resonance": 0.1368
-    },
-    {
-      "id": "eaf137563a",
-      "title": "Keir Starmer World Cup decision was 'grave' risk as Donald Trump chief says lives were at stake",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/sport/football/news/keir-starmer-trump-world-cup-37410968",
-          "headline": "Keir Starmer World Cup decision was 'grave' risk as Donald Trump chief says lives were at stake",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/sport/football/article-15965033/White-House-Keir-Starmer-England-World-Cup.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "White House accuse Keir Starmer of putting lives at risk with 'grave call' to try to stop England's World Cup kick-off in Mexico from being moved",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.5,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-09T15:00:13+00:00",
-      "last_seen": "2026-07-09T15:28:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "en",
-      "resonance": 0.1355
-    },
-    {
-      "id": "d70dc05d93",
-      "title": "World Cup 2026: France v Morocco quarter-final buildup, Quansah hit with two-game ban – live",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/football/live/2026/jul/09/world-cup-2026-france-v-morocco-quarter-final-news-live",
-          "headline": "World Cup 2026: France v Morocco quarter-final buildup, Quansah hit with two-game ban – live",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:55:43+00:00",
-      "last_seen": "2026-07-09T17:55:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "en",
-      "resonance": 0.135
+      "resonance": 0.0509
     },
     {
       "id": "7e99e10ac5",
@@ -555,408 +962,13 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-09T17:49:09+00:00",
-      "last_seen": "2026-07-09T17:49:09+00:00",
+      "first_seen": "2026-07-09T19:09:44+00:00",
+      "last_seen": "2026-07-09T19:09:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "language": "en",
-      "resonance": 0.1208
-    },
-    {
-      "id": "543743af3b",
-      "title": "Greek F-16 fighter jet crash-lands at busy Zakynthos airport",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/czrxz18720eo?at_medium=RSS&at_campaign=rss",
-          "headline": "Greek F-16 fighter jet crash-lands at busy Zakynthos airport",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15965167/Fighter-jet-crashes-bursts-flames-emergency-landing-Greek-holiday-island-airport.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Fighter jet crash lands at Greek holiday island airport after mysteriously bursting into flames in mid-air",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.4,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-07-09T14:18:00+00:00",
-      "last_seen": "2026-07-09T16:15:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.118
-    },
-    {
-      "id": "fd5e9356da",
-      "title": "Man jailed for 'terrifying' attempted murder of estranged wife with baseball bat",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/uk-news/man-jailed-terrifying-attempted-murder-37411410",
-          "headline": "Man jailed for 'terrifying' attempted murder of estranged wife with baseball bat",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:47:07+00:00",
-      "last_seen": "2026-07-09T17:47:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.1164
-    },
-    {
-      "id": "b0d5d2b5a5",
-      "title": "Backlash after council allows convicted rapist to retain his taxi operator’s licence",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/crime/david-brown-taxi-highland-council-scotland-b3011843.html",
-          "headline": "Backlash after council allows convicted rapist to retain his taxi operator’s licence",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:46:31+00:00",
-      "last_seen": "2026-07-09T17:46:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.1151
-    },
-    {
-      "id": "0a9550842c",
-      "title": "World Cup LIVE: England star suspended by FIFA as 27 countries demand investigation",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/sport/football/news/world-cup-live-england-final-37407133",
-          "headline": "World Cup LIVE: England star suspended by FIFA as 27 countries demand investigation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:44:22+00:00",
-      "last_seen": "2026-07-09T17:44:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "en",
-      "resonance": 0.1106
-    },
-    {
-      "id": "b58fe7e0e7",
-      "title": "Nigel Farage live: Clacton voters blast Reform leader's 'weird' by-election plot amid Jenrick 'probe'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/politics/nigel-farage-clacton-binface-live-37407072",
-          "headline": "Nigel Farage live: Clacton voters blast Reform leader's 'weird' by-election plot amid Jenrick 'probe'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:41:49+00:00",
-      "last_seen": "2026-07-09T17:41:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "en",
-      "resonance": 0.1052
-    },
-    {
-      "id": "b2e9c1257e",
-      "title": "UK swelters in third heatwave of the year as western Europe counts cost of hottest-ever June",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/environment/2026/jul/09/uk-swelters-third-heatwave-western-europe-counts-cost-hottest-ever-june",
-          "headline": "UK swelters in third heatwave of the year as western Europe counts cost of hottest-ever June",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:39:03+00:00",
-      "last_seen": "2026-07-09T17:39:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "en",
-      "resonance": 0.0993
-    },
-    {
-      "id": "df8c0569c4",
-      "title": "Bonfire mosque replica treated as hate-motivated offence",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/cvg4y8nwx08o?at_medium=RSS&at_campaign=rss",
-          "headline": "Bonfire mosque replica treated as hate-motivated offence",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:33:16+00:00",
-      "last_seen": "2026-07-09T17:33:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0873
-    },
-    {
-      "id": "12661a311f",
-      "title": "Restore's Rupert Lowe sparks fury for describing Dunblane massacre as 'one murder'",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/politics/rupert-lowe-dunblane-joe-rogan-37410808",
-          "headline": "Restore's Rupert Lowe sparks fury for describing Dunblane massacre as 'one murder'",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15965285/Restore-Britain-Rupert-Lowe-Dunblane-massacre-one-murder-gun-laws.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Restore Britain leader Rupert Lowe faces fury after saying Dunblane massacre was 'one murder' as he condemned tough gun laws",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.5,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-09T14:01:19+00:00",
-      "last_seen": "2026-07-09T15:49:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "en",
-      "resonance": 0.0822
-    },
-    {
-      "id": "8c2d58b3af",
-      "title": "Beloved treehouse built by dad & son, 9, to be TORN down by council in red tape row",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39705633/council-tears-down-dad-son-treehouse-insurance/",
-          "headline": "Beloved treehouse built by dad & son, 9, to be TORN down by council in red tape row",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-09T17:28:42+00:00",
-      "last_seen": "2026-07-09T17:28:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0779
-    },
-    {
-      "id": "5a092eb42a",
-      "title": "Middle East crisis live: Tehran launches more strikes as Israel warns it is ready to strike Iran again ‘with even greater force’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/jul/09/iran-us-middle-east-strikes-centcom-bahrain-kuwait-qatar-strait-of-hormuz-latest-news-updates",
-          "headline": "Middle East crisis live: Tehran launches more strikes as Israel warns it is ready to strike Iran again ‘with even greater force’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:22:46+00:00",
-      "last_seen": "2026-07-09T17:22:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "en",
-      "resonance": 0.0658
-    },
-    {
-      "id": "01fb635709",
-      "title": "UPS 'inside man' jailed for masterminding £10m cocaine smuggling operation",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/uk-news/ups-inside-man-jailed-cocaine-37411553",
-          "headline": "UPS 'inside man' jailed for masterminding £10m cocaine smuggling operation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:22:36+00:00",
-      "last_seen": "2026-07-09T17:22:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.0655
-    },
-    {
-      "id": "72d03bce26",
-      "title": "Henry Nowak's killer, his brother and father plead not guilty to weapons charges",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/uk-news/vickrum-digwa-brother-father-plead-37410951",
-          "headline": "Vickrum Digwa, brother and father plead not guilty to multiple weapons offences",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Sky News UK",
-          "url": "https://news.sky.com/story/vickrum-digwa-his-brother-and-his-father-plead-not-guilty-to-weapons-charges-13561951",
-          "headline": "Henry Nowak's killer, his brother and father plead not guilty to weapons charges",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.2,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T12:19:00+00:00",
-      "last_seen": "2026-07-09T16:42:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "en",
-      "resonance": 0.0553
-    },
-    {
-      "id": "522a6a6705",
-      "title": "Reform byelection campaign risks a replay of the Johnson error",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/politics/2026/jul/09/reform-byelection-campaign-risks-a-replay-of-the-johnson-error",
-          "headline": "Reform byelection campaign risks a replay of the Johnson error",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:14:51+00:00",
-      "last_seen": "2026-07-09T17:14:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
       "language": "en",
       "resonance": 0.05
     }
@@ -964,44 +976,62 @@
   "edges": [
     {
       "source": "d20f9c19a0",
-      "target": "331b219b10",
-      "weight": 0.283,
+      "target": "25cf7d1a59",
+      "weight": 0.085,
+      "type": "thematic"
+    },
+    {
+      "source": "d20f9c19a0",
+      "target": "b5e540121a",
+      "weight": 0.156,
       "type": "thematic"
     },
     {
       "source": "d20f9c19a0",
       "target": "ff192bc79d",
-      "weight": 0.44,
+      "weight": 0.348,
       "type": "thematic"
     },
     {
-      "source": "393f9ecab7",
-      "target": "b4fa01a6fe",
-      "weight": 0.33,
+      "source": "25cf7d1a59",
+      "target": "b5e540121a",
+      "weight": 0.434,
       "type": "thematic"
     },
     {
-      "source": "b4fa01a6fe",
-      "target": "eaf137563a",
-      "weight": 0.551,
+      "source": "d40359b702",
+      "target": "3c51f622c7",
+      "weight": 0.15,
       "type": "thematic"
     },
     {
-      "source": "6a833d91b6",
-      "target": "df8c0569c4",
-      "weight": 0.797,
+      "source": "d40359b702",
+      "target": "297beb787f",
+      "weight": 0.271,
       "type": "thematic"
     },
     {
-      "source": "d70dc05d93",
-      "target": "0a9550842c",
-      "weight": 0.136,
+      "source": "3c51f622c7",
+      "target": "297beb787f",
+      "weight": 0.292,
       "type": "thematic"
     },
     {
-      "source": "fd5e9356da",
-      "target": "01fb635709",
-      "weight": 0.097,
+      "source": "3c51f622c7",
+      "target": "cfd4ce7f20",
+      "weight": 0.029,
+      "type": "thematic"
+    },
+    {
+      "source": "3c51f622c7",
+      "target": "c85dd5a608",
+      "weight": 0.042,
+      "type": "thematic"
+    },
+    {
+      "source": "7c91e8fa24",
+      "target": "2d32c95e1c",
+      "weight": 0.129,
       "type": "thematic"
     }
   ],

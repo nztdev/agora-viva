@@ -1,8 +1,36 @@
 {
-  "generated_at": "2026-07-08T22:32:06.748116+00:00",
+  "generated_at": "2026-07-09T00:06:51.553171+00:00",
   "node_count": 35,
-  "edge_count": 25,
+  "edge_count": 22,
   "nodes": [
+    {
+      "id": "38d075a73f",
+      "title": "Rewriting Bun in Rust",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://bun.com/blog/bun-in-rust",
+          "headline": "Rewriting Bun in Rust",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T21:49:59+00:00",
+      "last_seen": "2026-07-08T21:49:59+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.28
+    },
     {
       "id": "2255bb1548",
       "title": "The classifiers Anthropic puts in front of Fable are too zealous",
@@ -29,34 +57,6 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.28
-    },
-    {
-      "id": "61bb24f853",
-      "title": "Separating signal from noise in coding evaluations",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
-          "headline": "Separating signal from noise in coding evaluations",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T21:03:51+00:00",
-      "last_seen": "2026-07-08T21:03:51+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "world",
       "resonance": 0.28
     },
     {
@@ -88,9 +88,129 @@
       "resonance": 0.28
     },
     {
+      "id": "ed7ca9c2c7",
+      "title": "U.S. launches new strikes on Iran after Trump vows to hit 'hard'",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/aje-onl-nf_us-expands-military-strike-on-iran-080726?traffic_source=rss",
+          "headline": "US expands military strikes on Iran after Trump says he’ll ‘hit them hard’",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3359903/us-launches-new-strikes-iran-after-trump-vows-hit-hard?utm_source=rss_feed",
+          "headline": "US launches new strikes on Iran after Trump vows to hit ‘hard’",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-launches-new-strikes-on-iran-after-trump-vows-to-hit-hard/article71199867.ece",
+          "headline": "U.S. launches new strikes on Iran after Trump vows to hit 'hard'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.067,
+        "spread": 0.125,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T21:39:23+00:00",
+      "last_seen": "2026-07-08T22:52:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.4011
+    },
+    {
+      "id": "c5bcef1690",
+      "title": "Trump moves to remove Syria from US list of state sponsors of terrorism",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260708-trump-moves-to-remove-syria-from-us-list-of-state-sponsors-of-terrorism",
+          "headline": "Trump moves to remove Syria from US list of state sponsors of terrorism",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-administration-moves-rescind-syria-terrorism-designation",
+          "headline": "Trump administration moves to rescind Syria terrorism designation",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/8/us-moves-to-delist-syria-as-a-state-sponsor-of-terrorism?traffic_source=rss",
+          "headline": "US moves to delist Syria as a ‘state sponsor of terrorism’",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/trump-administration-begins-formal-process-remove-syria-state-sponsors-terror-list",
+          "headline": "'Earth shifting': Trump begins process to remove Syria from state sponsors of terrorism list",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.061,
+        "left": 2,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T21:07:44+00:00",
+      "last_seen": "2026-07-08T23:07:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.3566
+    },
+    {
+      "id": "02294c2842",
+      "title": "Telstra glitches continue as ‘secondary’ outage hits triple-zero calls and regional trains remain stranded",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-09/telstra-outage-still-impacting-triple-zero-calls/106895430",
+          "headline": "Telstra Triple Zero calls still impacted by 'secondary issue'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/business/2026/jul/09/telstra-outage-today-cause-vline-network-outages-update",
+          "headline": "Telstra glitches continue as ‘secondary’ outage hits triple-zero calls and regional trains remain stranded",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T23:00:38+00:00",
+      "last_seen": "2026-07-08T23:13:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.3108
+    },
+    {
       "id": "72f57ca498",
       "title": "Iran War Live Updates: U.S. Launches New Strikes on Iran, Military Says",
-      "signal_count": 3,
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "New York Times",
@@ -103,69 +223,23 @@
           "url": "https://www.dw.com/en/iran-war-us-launches-second-wave-of-strikes-in-24-hours/live-77882459?maca=en-rss-en-all-1573-rdf",
           "headline": "Iran war: US launches second wave of strikes in 24 hours",
           "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-09/iran-middle-east-us-war-live-updates-donald-trump-/106894892",
-          "headline": "Live: US military launches new strikes on Iran, Tehran plans to attack US military bases",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.167,
-        "spread": 0.094,
+        "mean": -0.2,
+        "spread": 0.1,
         "left": 1,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-08T20:30:29+00:00",
-      "last_seen": "2026-07-08T22:26:52+00:00",
+      "first_seen": "2026-07-08T20:52:00+00:00",
+      "last_seen": "2026-07-08T23:46:56+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.4229
-    },
-    {
-      "id": "282ff04894",
-      "title": "Iran war: Trump says ceasefire 'over' after fresh strikes",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-after-iran-strikes-strait-of-hormuz-donald-trump-netanyahu-mojtaba-lebanon-hezboallah-peace-deal/article71196409.ece",
-          "headline": "West Asia War LIVE: Trump says fresh strikes on Iran retribution for attacks on ships",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/iran-war-trump-says-ceasefire-over-after-fresh-strikes/live-77869350?maca=en-rss-en-all-1573-rdf",
-          "headline": "Iran war: Trump says ceasefire 'over' after fresh strikes",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/ideas/2026/07/iran-controls-war-trump/687848/?utm_source=feed",
-          "headline": "Iran, Not Trump, Is in Control of This War",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.071,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T19:10:00+00:00",
-      "last_seen": "2026-07-08T21:49:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.3175
+      "resonance": 0.2229
     },
     {
       "id": "608c9ca9a2",
@@ -205,41 +279,69 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.3036
+      "resonance": 0.1752
     },
     {
-      "id": "ed7ca9c2c7",
-      "title": "U.S. launches new strikes on Iran after Trump vows to hit 'hard'",
+      "id": "282ff04894",
+      "title": "Iran war: Trump says ceasefire 'over' after fresh strikes",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3359903/us-launches-new-strikes-iran-after-trump-vows-hit-hard?utm_source=rss_feed",
-          "headline": "US launches new strikes on Iran after Trump vows to hit ‘hard’",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-after-iran-strikes-strait-of-hormuz-donald-trump-netanyahu-mojtaba-lebanon-hezboallah-peace-deal/article71196409.ece",
+          "headline": "West Asia War LIVE: Trump says fresh strikes on Iran retribution for attacks on ships",
           "platform": "rss"
         },
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-launches-new-strikes-on-iran-after-trump-vows-to-hit-hard/article71199867.ece",
-          "headline": "U.S. launches new strikes on Iran after Trump vows to hit 'hard'",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/iran-war-trump-says-ceasefire-over-after-fresh-strikes/live-77869350?maca=en-rss-en-all-1573-rdf",
+          "headline": "Iran war: Trump says ceasefire 'over' after fresh strikes",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.1,
+        "mean": -0.1,
+        "spread": 0.0,
         "left": 0,
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-08T21:39:23+00:00",
-      "last_seen": "2026-07-08T21:42:54+00:00",
+      "first_seen": "2026-07-08T20:42:00+00:00",
+      "last_seen": "2026-07-08T21:49:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.2909
+      "resonance": 0.1554
+    },
+    {
+      "id": "bc2626fe6b",
+      "title": "Trump says he expects recent military escalation in Iran to be 'over very quickly'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-he-expects-recent-military-escalation-iran-be-over-very",
+          "headline": "Trump says he expects recent military escalation in Iran to be 'over very quickly'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T00:03:21+00:00",
+      "last_seen": "2026-07-09T00:03:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1552
     },
     {
       "id": "6e1113f5d0",
@@ -273,125 +375,157 @@
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.2903
+      "resonance": 0.1545
     },
     {
-      "id": "9f5cc32225",
-      "title": "US moves to delist Syria as a ‘state sponsor of terrorism’",
-      "signal_count": 2,
+      "id": "d8116def53",
+      "title": "Another Fatal ICE Shooting",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-administration-moves-rescind-syria-terrorism-designation",
-          "headline": "Trump administration moves to rescind Syria terrorism designation",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/8/us-moves-to-delist-syria-as-a-state-sponsor-of-terrorism?traffic_source=rss",
-          "headline": "US moves to delist Syria as a ‘state sponsor of terrorism’",
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/politics/2026/07/driving-ice-dhs-shooting/687850/?utm_source=feed",
+          "headline": "Another Fatal ICE Shooting",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
+        "mean": -0.25,
+        "spread": 0.0,
         "left": 1,
-        "center": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-08T21:36:02+00:00",
-      "last_seen": "2026-07-08T21:37:41+00:00",
+      "first_seen": "2026-07-09T00:01:58+00:00",
+      "last_seen": "2026-07-09T00:01:58+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2823
+      "resonance": 0.1527
     },
     {
-      "id": "62e073af53",
-      "title": "Ukraine to get licence to produce Patriot missiles, Trump says",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/08/world/europe/a-license-to-make-patriot-defense-systems-may-be-a-big-boost-for-ukraine.html",
-          "headline": "License to Make Patriot Missiles Could Help Ukraine Defend Against Russia",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/08/trump-says-us-will-allow-ukraine-to-make-patriot-missiles_6755286_4.html",
-          "headline": "Trump says US will allow Ukraine to make Patriot missiles",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/ce8klree690o?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukraine to get licence to produce Patriot missiles, Trump says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.167,
-        "spread": 0.125,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T17:18:14+00:00",
-      "last_seen": "2026-07-08T20:07:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1594
-    },
-    {
-      "id": "7bdcce3441",
-      "title": "Trump skips new Air Force One on return from Turkey NATO summit",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/trump-departs-nato-summit-on-older-air-force-one?traffic_source=rss",
-          "headline": "Trump departs NATO summit on older Air Force One",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/07/08/trump-skips-new-air-force-one-on-return-from-turkey-nato-summit",
-          "headline": "Trump skips new Air Force One on return from Turkey NATO summit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T19:09:18+00:00",
-      "last_seen": "2026-07-08T20:46:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.152
-    },
-    {
-      "id": "ca2cde2264",
-      "title": "Prime Volleyball League gets FIVB recognition; Season 5 from November 30",
+      "id": "2510122f92",
+      "title": "Myanmar has ‘a mountain to climb’ to woo 2 million tourists a year",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/other-sports/prime-volleyball-league-gets-fivb-recognition-season-5-from-november-30/article71199988.ece",
-          "headline": "Prime Volleyball League gets FIVB recognition; Season 5 from November 30",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/week-asia/economics/article/3359876/myanmar-has-mountain-climb-woo-2-million-tourists-year?utm_source=rss_feed",
+          "headline": "Myanmar has ‘a mountain to climb’ to woo 2 million tourists a year",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T00:00:15+00:00",
+      "last_seen": "2026-07-09T00:00:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1496
+    },
+    {
+      "id": "f780d7aa0c",
+      "title": "Iran war live: One killed as US bombs Bushehr, Chabahar, Bandar Abbas, Jask",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/7/9/iran-war-live-one-killed-as-us-bombs-bushehr-chabahar-bandar-abbas-jask?traffic_source=rss",
+          "headline": "Iran war live: One killed as US bombs Bushehr, Chabahar, Bandar Abbas, Jask",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T00:00:06+00:00",
+      "last_seen": "2026-07-09T00:00:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1494
+    },
+    {
+      "id": "75c25d0de3",
+      "title": "Russia to continue providing military backing to junta-led governments in Burkina Faso, Mali and Niger",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/09/russia-to-continue-providing-military-backing-to-junta-led-governments-in-burkina-faso-mali-and-niger_6755291_4.html",
+          "headline": "Russia to continue providing military backing to junta-led governments in Burkina Faso, Mali and Niger",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T23:56:11+00:00",
+      "last_seen": "2026-07-08T23:56:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1424
+    },
+    {
+      "id": "eb8dc1e379",
+      "title": "EWC 2026 in Paris: Behind the scenes of the controversial partnership between France and Saudi Arabia in esports",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/pixels/article/2026/07/09/ewc-2026-in-paris-behind-the-scenes-of-the-controversial-partnership-between-france-and-saudi-arabia-in-esports_6755290_13.html",
+          "headline": "EWC 2026 in Paris: Behind the scenes of the controversial partnership between France and Saudi Arabia in esports",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T23:54:56+00:00",
+      "last_seen": "2026-07-08T23:54:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1402
+    },
+    {
+      "id": "cb94aee2f6",
+      "title": "One of Meta’s Offices Was Briefly Overtaken by a Rogue Squirrel",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/one-of-metas-offices-was-briefly-overtaken-by-a-rogue-squirrel/",
+          "headline": "One of Meta’s Offices Was Briefly Overtaken by a Rogue Squirrel",
           "platform": "rss"
         }
       ],
@@ -402,24 +536,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-08T22:22:50+00:00",
-      "last_seen": "2026-07-08T22:22:50+00:00",
+      "first_seen": "2026-07-08T23:53:04+00:00",
+      "last_seen": "2026-07-08T23:53:04+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1435
+      "topic": "tech",
+      "resonance": 0.1369
     },
     {
-      "id": "326de2d608",
-      "title": "Australia news live: Telstra warns of ‘secondary issue’ after network outage; ABC stands by reporting ahead of royal commission hearing",
+      "id": "c219c45c43",
+      "title": "The Papers: 'Iran war back on' and 'Count Binface exclusive'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c3ryelw8ewwo?at_medium=RSS&at_campaign=rss",
+          "headline": "The Papers: 'Iran war back on' and 'Count Binface exclusive'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T23:51:08+00:00",
+      "last_seen": "2026-07-08T23:51:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1335
+    },
+    {
+      "id": "3425a12b9c",
+      "title": "Why heatwaves hit women harder",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c4gyp1knzzxo?at_medium=RSS&at_campaign=rss",
+          "headline": "Why heatwaves hit women harder",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T23:49:12+00:00",
+      "last_seen": "2026-07-08T23:49:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.1302
+    },
+    {
+      "id": "0c8abeda76",
+      "title": "Australia news live: shadow minister stands by triple-zero test calls during Telstra outage; Sydney median house rents hit record $850 a week",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Guardian World",
           "url": "https://www.theguardian.com/australia-news/live/2026/jul/09/australia-news-live-telstra-mobile-internet-down-outage-triple-zero-v-line-trains-network-royal-commission-antisemitism-abc-ntwnfb",
-          "headline": "Australia news live: Telstra warns of ‘secondary issue’ after network outage; ABC stands by reporting ahead of royal commission hearing",
+          "headline": "Australia news live: shadow minister stands by triple-zero test calls during Telstra outage; Sydney median house rents hit record $850 a week",
           "platform": "rss"
         }
       ],
@@ -430,248 +620,136 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-08T22:21:40+00:00",
-      "last_seen": "2026-07-08T22:21:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1417
-    },
-    {
-      "id": "a799db51bd",
-      "title": "Iran Truce ‘Over,’ Trump Says, as He Threatens More Strikes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/08/world/middleeast/iran-truce-trump.html",
-          "headline": "Iran Truce ‘Over,’ Trump Says, as He Threatens More Strikes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T22:18:20+00:00",
-      "last_seen": "2026-07-08T22:18:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1367
-    },
-    {
-      "id": "fbeb019c1e",
-      "title": "Italian prime minister says Rome will not join attacks on Iran",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/italian-prime-minister-says-rome-will-not-join-attacks-iran",
-          "headline": "Italian prime minister says Rome will not join attacks on Iran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T22:18:08+00:00",
-      "last_seen": "2026-07-08T22:18:08+00:00",
+      "first_seen": "2026-07-08T23:48:34+00:00",
+      "last_seen": "2026-07-08T23:48:34+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1364
+      "resonance": 0.1291
     },
     {
-      "id": "2cf6887b38",
-      "title": "Trump’s tariff war pushes Brazil’s trade towards China as US share hits record low",
+      "id": "beea3ccb34",
+      "title": "Railway bridge struck in northwestern Iran",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3359906/trumps-tariff-war-pushes-brazils-trade-towards-china-us-share-hits-record-low?utm_source=rss_feed",
-          "headline": "Trump’s tariff war pushes Brazil’s trade towards China as US share hits record low",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/railway-bridge-struck-northwestern-iran",
+          "headline": "Railway bridge struck in northwestern Iran",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
+        "mean": -0.25,
         "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "left": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-08T22:17:55+00:00",
-      "last_seen": "2026-07-08T22:17:55+00:00",
+      "first_seen": "2026-07-08T23:44:00+00:00",
+      "last_seen": "2026-07-08T23:44:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.136
+      "topic": "tech",
+      "resonance": 0.1212
     },
     {
-      "id": "4415c90677",
-      "title": "NSW coach Daley slams media over 'hidden agendas' after Origin triumph",
+      "id": "20a3660a3e",
+      "title": "Chicago Blackhawks dealt devastating blow with Connor Bedard expected to miss start of season",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-09/laurie-daley-slams-hidden-agendas-after-nsw-origin-victory/106895378",
-          "headline": "NSW coach Daley slams media over 'hidden agendas' after Origin triumph",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/chicago-blackhawks-dealt-devastating-blow-connor-bedard-expected-miss-start-season",
+          "headline": "Chicago Blackhawks dealt devastating blow with Connor Bedard expected to miss start of season",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": 0.6,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
-        "right": 0
+        "center": 0,
+        "right": 1
       },
-      "first_seen": "2026-07-08T22:11:54+00:00",
-      "last_seen": "2026-07-08T22:11:54+00:00",
+      "first_seen": "2026-07-08T23:42:39+00:00",
+      "last_seen": "2026-07-08T23:42:39+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1271
+      "topic": "world",
+      "resonance": 0.1189
     },
     {
-      "id": "5d75d82f27",
-      "title": "Nato summit delivers unity and billions in defence deals, Rutte says",
+      "id": "a752814b81",
+      "title": "Firefighter killed in US attack on Iranian airport",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/us/diplomacy/article/3359905/nato-summit-delivers-unity-and-billions-defence-deals-rutte-says?utm_source=rss_feed",
-          "headline": "Nato summit delivers unity and billions in defence deals, Rutte says",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/firefighter-killed-us-attack-iranian-airport",
+          "headline": "Firefighter killed in US attack on Iranian airport",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
+        "mean": -0.25,
         "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "left": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-08T22:08:00+00:00",
-      "last_seen": "2026-07-08T22:08:00+00:00",
+      "first_seen": "2026-07-08T23:41:19+00:00",
+      "last_seen": "2026-07-08T23:41:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1166
+    },
+    {
+      "id": "17449846af",
+      "title": "Who is Valli Geiger? Meet the Maine Dem that Platner is urging to run for Senate",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/valli-geiger-maine-democrat-platner-urging-run-senate",
+          "headline": "Who is Valli Geiger? Meet the Maine Dem that Platner is urging to run for Senate",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-08T23:40:16+00:00",
+      "last_seen": "2026-07-08T23:40:16+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1213
+      "resonance": 0.1148
     },
     {
-      "id": "6f079702f5",
-      "title": "Why Do Iran and the U.S. Keep Fighting During a Cease-Fire?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/national-security/2026/07/trump-iran-airstrikes-ceasefire-hormuz/687851/?utm_source=feed",
-          "headline": "Why Do Iran and the U.S. Keep Fighting During a Cease-Fire?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T22:04:25+00:00",
-      "last_seen": "2026-07-08T22:04:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1161
-    },
-    {
-      "id": "9a1f9c9fbc",
-      "title": "US-China scientific decoupling: the hidden costs of geopolitical rivalry",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/science/article/3359846/us-china-scientific-decoupling-hidden-costs-geopolitical-rivalry?utm_source=rss_feed",
-          "headline": "US-China scientific decoupling: the hidden costs of geopolitical rivalry",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T22:00:23+00:00",
-      "last_seen": "2026-07-08T22:00:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1103
-    },
-    {
-      "id": "cdaba3e5fb",
-      "title": "Florida TV boss rips 'cringeworthy' posts as anchor's bikini-clad social media posts spark buzz",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/florida-tv-boss-rips-cringeworthy-posts-after-anchors-bikini-clad-social-media-posts-spark-buzz",
-          "headline": "Florida TV boss rips 'cringeworthy' posts as anchor's bikini-clad social media posts spark buzz",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-08T22:00:18+00:00",
-      "last_seen": "2026-07-08T22:00:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1101
-    },
-    {
-      "id": "09a16c4009",
-      "title": "AI scammers target missing man's parents with chilling extortion attempt",
+      "id": "26d36c64b1",
+      "title": "Connor Storrie nabs first Emmy nomination but Heated Rivalry still ineligible",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-09/parents-targeted-in-ai-scam-using-missing-son/106889046",
-          "headline": "AI scammers target missing man's parents with chilling extortion attempt",
+          "url": "https://www.abc.net.au/news/2026-07-09/emmy-nominations-2026-mariska-hargitay-rob-reiner/106895662",
+          "headline": "Connor Storrie nabs first Emmy nomination but Heated Rivalry still ineligible",
           "platform": "rss"
         }
       ],
@@ -682,52 +760,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-08T22:00:18+00:00",
-      "last_seen": "2026-07-08T22:00:18+00:00",
+      "first_seen": "2026-07-08T23:37:58+00:00",
+      "last_seen": "2026-07-08T23:37:58+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1101
+      "topic": "world",
+      "resonance": 0.1109
     },
     {
-      "id": "b118581062",
-      "title": "US Soccer issues statement on Mauricio Pochettino's future with Team USA after World Cup",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/us-soccer-issues-statement-mauricio-pochettino-future-team-usa-world-cup",
-          "headline": "US Soccer issues statement on Mauricio Pochettino's future with Team USA after World Cup",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-08T22:00:07+00:00",
-      "last_seen": "2026-07-08T22:00:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1099
-    },
-    {
-      "id": "1a578b3185",
-      "title": "How First Nations voices enrich Australia’s classical music traditions",
+      "id": "8c5b708d96",
+      "title": "Qld police check on 21 Triple Zero callers after Telstra outage",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-09/first-nations-musicians-redefining-classical-music-in-australia/106869484",
-          "headline": "How First Nations voices enrich Australia’s classical music traditions",
+          "url": "https://www.abc.net.au/news/2026-07-09/queensland-police-check-on-21-callers-triple-zero-outage/106895340",
+          "headline": "Qld police check on 21 Triple Zero callers after Telstra outage",
           "platform": "rss"
         }
       ],
@@ -738,276 +788,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-08T22:00:00+00:00",
-      "last_seen": "2026-07-08T22:00:00+00:00",
+      "first_seen": "2026-07-08T23:35:32+00:00",
+      "last_seen": "2026-07-08T23:35:32+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1097
+      "topic": "society",
+      "resonance": 0.1068
     },
     {
-      "id": "5038d261d3",
-      "title": "Trump Praises NATO’s ‘Unity’ After Lashing Out at Allies",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/07/08/world/nato-summit-turkey-trump-ukraine",
-          "headline": "Trump Praises NATO’s ‘Unity’ After Lashing Out at Allies",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T21:59:58+00:00",
-      "last_seen": "2026-07-08T21:59:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1097
-    },
-    {
-      "id": "a168f1388b",
-      "title": "After Insulting Allies at NATO Summit, Trump Says They Love Him",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/08/world/europe/nato-trump-europe.html",
-          "headline": "After Insulting Allies at NATO Summit, Trump Says They Love Him",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T21:59:57+00:00",
-      "last_seen": "2026-07-08T21:59:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1096
-    },
-    {
-      "id": "f7d4fe0e7d",
-      "title": "Trump says Iran strikes were retaliation for ship attacks",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-iran-strikes-were-retaliation-ship-attacks",
-          "headline": "Trump says Iran strikes were retaliation for ship attacks",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T21:57:11+00:00",
-      "last_seen": "2026-07-08T21:57:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1057
-    },
-    {
-      "id": "fb739684e3",
-      "title": "Feds demand autonomous vehicle companies stop interfering with first responders",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/08/feds-demand-autonomous-vehicle-companies-stop-interfering-with-first-responders/",
-          "headline": "Feds demand autonomous vehicle companies stop interfering with first responders",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T21:49:33+00:00",
-      "last_seen": "2026-07-08T21:49:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0949
-    },
-    {
-      "id": "6ac139ce51",
-      "title": "Bernie-backed socialist who allied with Platner could supplant him on ballot",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/bernie-backed-socialist-allied-platner-supplant-ballot",
-          "headline": "Bernie-backed socialist who allied with Platner could supplant him on ballot",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-08T21:47:51+00:00",
-      "last_seen": "2026-07-08T21:47:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0925
-    },
-    {
-      "id": "2493603c3e",
-      "title": "France vs. Morocco: The Atlas Lions seek redemption four years after their World Cup semifinal defeat in Qatar",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/07/08/france-vs-morocco-the-atlas-lions-seek-redemption-four-years-after-their-world-cup-semifinal-defeat-in-qatar_6755289_124.html",
-          "headline": "France vs. Morocco: The Atlas Lions seek redemption four years after their World Cup semifinal defeat in Qatar",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T21:43:30+00:00",
-      "last_seen": "2026-07-08T21:43:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0864
-    },
-    {
-      "id": "2fb29757a5",
-      "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
-          "headline": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T21:42:44+00:00",
-      "last_seen": "2026-07-08T21:42:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0854
-    },
-    {
-      "id": "9ed5f3ada2",
-      "title": "Family demands investigation after US man killed by ICE agent in Texas",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/8/family-demands-investigation-after-us-man-killed-by-ice-agent-in-texas?traffic_source=rss",
-          "headline": "Family demands investigation after US man killed by ICE agent in Texas",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T21:42:41+00:00",
-      "last_seen": "2026-07-08T21:42:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0853
-    },
-    {
-      "id": "8323b799d5",
-      "title": "Former Wisconsin judge avoids prison in ICE obstruction case",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/8/former-wisconsin-judge-avoids-prison-in-ice-obstruction-case?traffic_source=rss",
-          "headline": "Former Wisconsin judge avoids prison in ICE obstruction case",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-08T21:35:53+00:00",
-      "last_seen": "2026-07-08T21:35:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.076
-    },
-    {
-      "id": "e70d8368cf",
-      "title": "Burnham's last potential rival Al Carns rules out leadership bid",
+      "id": "7a0b6c260a",
+      "title": "It was 'love at first sight' with their adopted baby. Then they were told he may have been trafficked",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cy9rzelexqlo?at_medium=RSS&at_campaign=rss",
-          "headline": "Burnham's last potential rival Al Carns rules out leadership bid",
+          "url": "https://www.bbc.co.uk/news/articles/czxq4ge246wo?at_medium=RSS&at_campaign=rss",
+          "headline": "It was 'love at first sight' with their adopted baby. Then they were told he may have been trafficked",
           "platform": "rss"
         }
       ],
@@ -1018,24 +816,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-08T21:31:00+00:00",
-      "last_seen": "2026-07-08T21:31:00+00:00",
+      "first_seen": "2026-07-08T23:31:53+00:00",
+      "last_seen": "2026-07-08T23:31:53+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0694
+      "resonance": 0.1007
     },
     {
-      "id": "5fe2b500e8",
-      "title": "France lose appeal against Olise’s yellow card in Paraguay World Cup clash",
+      "id": "8df9f9a99e",
+      "title": "When will Hong Kong’s retail leasing market see a turnaround?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/business/article/3359843/when-will-hong-kongs-retail-leasing-market-see-turnaround?utm_source=rss_feed",
+          "headline": "When will Hong Kong’s retail leasing market see a turnaround?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T23:30:05+00:00",
+      "last_seen": "2026-07-08T23:30:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0977
+    },
+    {
+      "id": "97d03bbc3d",
+      "title": "Families concerned over axing of local NDIS-funded program",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-09/ndis-albury-wodonga-aspire-support-service-closure/106890124",
+          "headline": "Families concerned over axing of local NDIS-funded program",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T23:29:42+00:00",
+      "last_seen": "2026-07-08T23:29:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.097
+    },
+    {
+      "id": "f741e03ebd",
+      "title": "Indonesia’s free meals programme plagued by alleged corruption and waste",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/8/france-lose-appeal-against-olises-yellow-card-in-paraguay-world-cup-clash?traffic_source=rss",
-          "headline": "France lose appeal against Olise’s yellow card in Paraguay World Cup clash",
+          "url": "https://www.aljazeera.com/news/2026/7/8/indonesias-free-meals-programme-plagued-by-alleged-corruption-and-waste?traffic_source=rss",
+          "headline": "Indonesia’s free meals programme plagued by alleged corruption and waste",
           "platform": "rss"
         }
       ],
@@ -1046,165 +900,287 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-08T21:16:20+00:00",
-      "last_seen": "2026-07-08T21:16:20+00:00",
+      "first_seen": "2026-07-08T23:22:48+00:00",
+      "last_seen": "2026-07-08T23:22:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0857
+    },
+    {
+      "id": "2a25f1c7e8",
+      "title": "NHL star says signing Leo Carlsson at record $18 million a year could end up being a steal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/nhl-star-says-signing-leo-carlsson-record-18-million-year-could-end-up-being-steal",
+          "headline": "NHL star says signing Leo Carlsson at record $18 million a year could end up being a steal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-08T23:21:37+00:00",
+      "last_seen": "2026-07-08T23:21:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0838
+    },
+    {
+      "id": "09cbc80780",
+      "title": "Trump says he will ask US Supreme Court to rehear birthright citizenship case",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3359908/trump-says-he-will-ask-us-supreme-court-rehear-birthright-citizenship-case?utm_source=rss_feed",
+          "headline": "Trump says he will ask US Supreme Court to rehear birthright citizenship case",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T23:16:27+00:00",
+      "last_seen": "2026-07-08T23:16:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0754
+    },
+    {
+      "id": "c33fc1a2d2",
+      "title": "Despite ‘misgivings,’ judge approves Elon Musk’s $1.5M SEC settlement",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/08/despite-misgivings-judge-approves-elon-musks-1-5-million-sec-settlement/",
+          "headline": "Despite ‘misgivings,’ judge approves Elon Musk’s $1.5M SEC settlement",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T23:11:42+00:00",
+      "last_seen": "2026-07-08T23:11:42+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
+      "resonance": 0.0678
+    },
+    {
+      "id": "e370dd7e64",
+      "title": "Trump wants to leave the Iran war behind. That won’t happen soon",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/07/09/world/politics/trump-leave-iran-war-behind/",
+          "headline": "Trump wants to leave the Iran war behind. That won’t happen soon",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T23:08:00+00:00",
+      "last_seen": "2026-07-08T23:08:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0619
+    },
+    {
+      "id": "19f0a54588",
+      "title": "Wildcard Fery faces Zverev in Wimbledon semis, as Kostyuk meets Noskova",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/7/8/wildcard-fery-faces-zverev-in-wimbledon-semis-as-kostyuk-meets-noskova?traffic_source=rss",
+          "headline": "Wildcard Fery faces Zverev in Wimbledon semis, as Kostyuk meets Noskova",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-08T23:00:22+00:00",
+      "last_seen": "2026-07-08T23:00:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
+      "source": "ed7ca9c2c7",
+      "target": "72f57ca498",
+      "weight": 0.862,
+      "type": "thematic"
+    },
+    {
+      "source": "ed7ca9c2c7",
+      "target": "282ff04894",
+      "weight": 0.653,
+      "type": "thematic"
+    },
+    {
+      "source": "ed7ca9c2c7",
+      "target": "bc2626fe6b",
+      "weight": 0.063,
+      "type": "thematic"
+    },
+    {
+      "source": "ed7ca9c2c7",
+      "target": "6e1113f5d0",
+      "weight": 0.611,
+      "type": "thematic"
+    },
+    {
+      "source": "ed7ca9c2c7",
+      "target": "3425a12b9c",
+      "weight": 0.078,
+      "type": "thematic"
+    },
+    {
+      "source": "c5bcef1690",
+      "target": "608c9ca9a2",
+      "weight": 0.636,
+      "type": "thematic"
+    },
+    {
+      "source": "02294c2842",
+      "target": "0c8abeda76",
+      "weight": 0.386,
+      "type": "thematic"
+    },
+    {
+      "source": "02294c2842",
+      "target": "8c5b708d96",
+      "weight": 0.608,
+      "type": "thematic"
+    },
+    {
       "source": "72f57ca498",
       "target": "282ff04894",
-      "weight": 0.888,
+      "weight": 0.877,
       "type": "thematic"
     },
     {
       "source": "72f57ca498",
-      "target": "ed7ca9c2c7",
-      "weight": 0.737,
+      "target": "bc2626fe6b",
+      "weight": 0.387,
       "type": "thematic"
     },
     {
       "source": "72f57ca498",
       "target": "6e1113f5d0",
-      "weight": 0.661,
+      "weight": 0.753,
       "type": "thematic"
     },
     {
       "source": "72f57ca498",
-      "target": "a799db51bd",
-      "weight": 0.482,
+      "target": "f780d7aa0c",
+      "weight": 0.49,
       "type": "thematic"
     },
     {
       "source": "72f57ca498",
-      "target": "f7d4fe0e7d",
-      "weight": 0.377,
+      "target": "c219c45c43",
+      "weight": 0.331,
+      "type": "thematic"
+    },
+    {
+      "source": "72f57ca498",
+      "target": "beea3ccb34",
+      "weight": 0.002,
+      "type": "thematic"
+    },
+    {
+      "source": "72f57ca498",
+      "target": "e370dd7e64",
+      "weight": 0.186,
       "type": "thematic"
     },
     {
       "source": "282ff04894",
-      "target": "ed7ca9c2c7",
-      "weight": 0.474,
+      "target": "bc2626fe6b",
+      "weight": 0.121,
       "type": "thematic"
     },
     {
       "source": "282ff04894",
       "target": "6e1113f5d0",
-      "weight": 0.148,
+      "weight": 0.209,
       "type": "thematic"
     },
     {
       "source": "282ff04894",
-      "target": "a799db51bd",
-      "weight": 0.703,
+      "target": "f780d7aa0c",
+      "weight": 0.038,
       "type": "thematic"
     },
     {
       "source": "282ff04894",
-      "target": "2cf6887b38",
-      "weight": 0.064,
+      "target": "c219c45c43",
+      "weight": 0.204,
       "type": "thematic"
     },
     {
       "source": "282ff04894",
-      "target": "f7d4fe0e7d",
-      "weight": 0.575,
+      "target": "e370dd7e64",
+      "weight": 0.393,
       "type": "thematic"
     },
     {
-      "source": "608c9ca9a2",
-      "target": "9f5cc32225",
-      "weight": 0.11,
+      "source": "c219c45c43",
+      "target": "e370dd7e64",
+      "weight": 0.021,
       "type": "thematic"
     },
     {
-      "source": "ed7ca9c2c7",
-      "target": "6e1113f5d0",
-      "weight": 0.543,
-      "type": "thematic"
-    },
-    {
-      "source": "ed7ca9c2c7",
-      "target": "a799db51bd",
-      "weight": 0.572,
-      "type": "thematic"
-    },
-    {
-      "source": "ed7ca9c2c7",
-      "target": "f7d4fe0e7d",
-      "weight": 0.458,
-      "type": "thematic"
-    },
-    {
-      "source": "6e1113f5d0",
-      "target": "a799db51bd",
-      "weight": 0.213,
-      "type": "thematic"
-    },
-    {
-      "source": "6e1113f5d0",
-      "target": "f7d4fe0e7d",
-      "weight": 0.137,
-      "type": "thematic"
-    },
-    {
-      "source": "7bdcce3441",
-      "target": "5d75d82f27",
-      "weight": 0.159,
-      "type": "thematic"
-    },
-    {
-      "source": "7bdcce3441",
-      "target": "5038d261d3",
-      "weight": 0.106,
-      "type": "thematic"
-    },
-    {
-      "source": "7bdcce3441",
-      "target": "a168f1388b",
-      "weight": 0.477,
-      "type": "thematic"
-    },
-    {
-      "source": "a799db51bd",
-      "target": "f7d4fe0e7d",
-      "weight": 0.684,
-      "type": "thematic"
-    },
-    {
-      "source": "fbeb019c1e",
-      "target": "f7d4fe0e7d",
-      "weight": 0.363,
-      "type": "thematic"
-    },
-    {
-      "source": "5d75d82f27",
-      "target": "5038d261d3",
-      "weight": 0.375,
-      "type": "thematic"
-    },
-    {
-      "source": "5d75d82f27",
-      "target": "a168f1388b",
-      "weight": 0.242,
-      "type": "thematic"
-    },
-    {
-      "source": "5038d261d3",
-      "target": "a168f1388b",
-      "weight": 0.772,
-      "type": "thematic"
-    },
-    {
-      "source": "2493603c3e",
-      "target": "5fe2b500e8",
-      "weight": 0.192,
+      "source": "0c8abeda76",
+      "target": "8c5b708d96",
+      "weight": 0.387,
       "type": "thematic"
     }
   ],

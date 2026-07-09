@@ -1,13 +1,19 @@
 {
-  "generated_at": "2026-07-09T21:02:15.311229+00:00",
+  "generated_at": "2026-07-09T22:49:12.308702+00:00",
   "node_count": 35,
-  "edge_count": 6,
+  "edge_count": 5,
   "nodes": [
     {
-      "id": "ddfc049304",
-      "title": "GPT-5.6",
-      "signal_count": 1,
+      "id": "9aa1dd3ea7",
+      "title": "OpenAI launches its new family of models with GPT-5.6",
+      "signal_count": 2,
       "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+          "headline": "OpenAI launches its new family of models with GPT-5.6",
+          "platform": "rss"
+        },
         {
           "outlet": "Hacker News",
           "url": "https://openai.com/index/gpt-5-6/",
@@ -16,20 +22,73 @@
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
+        "mean": -0.05,
+        "spread": 0.05,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
       "first_seen": "2026-07-09T17:04:14+00:00",
-      "last_seen": "2026-07-09T17:04:14+00:00",
+      "last_seen": "2026-07-09T22:24:24+00:00",
       "platforms": [
+        "rss",
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
+      "topic": "tech",
+      "resonance": 0.9302
+    },
+    {
+      "id": "a750bca879",
+      "title": "Mbappé fires France past Morocco into World Cup semi-finals",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/mbappe-dembele-fire-france-past-morocco-into-world-cup-semi-finals/article71204191.ece",
+          "headline": "Mbappe, Dembele fire France past Morocco into World Cup semi-finals",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/07/10/mbappe-fires-france-past-morocco-into-world-cup-semi-finals_6755316_9.html",
+          "headline": "Mbappé fires France past Morocco into World Cup semi-finals",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260709-world-cup-2026-mbapp%C3%A9-finds-the-answer-as-france-advance-past-morocco",
+          "headline": "World Cup 2026: Mbappé finds the answer as France advance past Morocco",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/09/nx-s1-5887619/2026-world-cup-fifa-france-morocco-quarterfinal",
+          "headline": "France downs Morocco 2-0 to advance to the World Cup semifinal",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260709-france-morocco-live-les-bleus-aim-for-semi-finals-in-2022-rematch-against-atlas-lions",
+          "headline": "France-Morocco live: Mbappé guides Les Bleus to semi-finals",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.13,
+        "spread": 0.04,
+        "left": 0,
+        "center": 5,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T18:24:36+00:00",
+      "last_seen": "2026-07-09T22:38:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.3029
     },
     {
       "id": "490609948a",
@@ -59,45 +118,439 @@
       "first_seen": "2026-07-09T17:00:00+00:00",
       "last_seen": "2026-07-09T17:03:53+00:00",
       "platforms": [
-        "rss",
-        "hackernews"
+        "hackernews",
+        "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.6633
+      "resonance": 0.2818
     },
     {
-      "id": "db7e445271",
-      "title": "GLM 5.2 is nearly as accurate as a human book keeper",
-      "signal_count": 1,
+      "id": "efdc81dd12",
+      "title": "Palestinians mourn Gaza World Cup screenings organiser killed in Israeli strike",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark",
-          "headline": "GLM 5.2 is nearly as accurate as a human book keeper",
-          "platform": "hackernews"
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/09/world/middleeast/aid-worker-killed-israeli-strike.html",
+          "headline": "Gaza Aid Worker on His Way to Watch World Cup Killed by Israeli Strike",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cwylznzjk04o?at_medium=RSS&at_campaign=rss",
+          "headline": "Palestinians mourn Gaza World Cup screenings organiser killed in Israeli strike",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260709-gazans-mourn-aid-worker-killed-by-israel-who-organised-public-world-cup-screenings",
+          "headline": "Gazans mourn aid worker killed by Israel who organised public World Cup screenings",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.133,
+        "spread": 0.125,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:46:32+00:00",
+      "last_seen": "2026-07-09T22:11:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2401
+    },
+    {
+      "id": "8f2556fd36",
+      "title": "US: Charlie Kirk murder suspect 'regretted' act, roommate says",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360038/suspect-charlie-kirk-killing-expressed-regret-after-shooting-roommate-says?utm_source=rss_feed",
+          "headline": "Suspect in Charlie Kirk killing expressed regret after shooting, roommate says",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/us-charlie-kirk-murder-suspect-regretted-act-roommate-says/a-77896524?maca=en-rss-en-all-1573-rdf",
+          "headline": "US: Charlie Kirk murder suspect 'regretted' act, roommate says",
+          "platform": "rss"
         }
       ],
       "bias": {
         "mean": 0.0,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T21:41:00+00:00",
+      "last_seen": "2026-07-09T22:03:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.212
+    },
+    {
+      "id": "38cb7128eb",
+      "title": "Live Updates: U.S. and Iran Sink Into Violent Cycle After Latest Strikes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/07/09/world/iran-war-us-trump",
+          "headline": "Live Updates: U.S. and Iran Sink Into Violent Cycle After Latest Strikes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T22:44:27+00:00",
+      "last_seen": "2026-07-09T22:44:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1014
+    },
+    {
+      "id": "852a52ffd4",
+      "title": "Disappointing day for Indian recurve archers",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/other-sports/disappointing-day-for-indian-recurve-archers/article71202974.ece",
+          "headline": "Disappointing day for Indian recurve archers",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-09T18:29:41+00:00",
-      "last_seen": "2026-07-09T18:29:41+00:00",
+      "first_seen": "2026-07-09T22:42:09+00:00",
+      "last_seen": "2026-07-09T22:42:09+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0988
+    },
+    {
+      "id": "404b168e02",
+      "title": "South Florida's Palm Beach airport renamed President Donald J. Trump International",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/south-floridas-palm-beach-airport-renamed-president-donald-j-trump-international/",
+          "headline": "South Florida’s Palm Beach airport renamed President Donald J. Trump International",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/07/09/south-floridas-palm-beach-airport-renamed-president-donald-j-trump-international",
+          "headline": "South Florida's Palm Beach airport renamed President Donald J. Trump International",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.025,
+        "spread": 0.075,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T19:05:41+00:00",
+      "last_seen": "2026-07-09T21:27:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0953
+    },
+    {
+      "id": "9bc2ef520a",
+      "title": "Australia news live: One Nation alliance ‘not our plan’, Taylor says; Hanson defends UK ‘fact-finding’ trip",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/10/australia-news-live-pauline-hanson-one-nation-modi-anthony-albanese-royal-commission-antisemitism-ntwnfb",
+          "headline": "Australia news live: One Nation alliance ‘not our plan’, Taylor says; Hanson defends UK ‘fact-finding’ trip",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T22:37:43+00:00",
+      "last_seen": "2026-07-09T22:37:43+00:00",
+      "platforms": [
+        "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.28
+      "resonance": 0.0938
     },
     {
-      "id": "8259b3e65d",
-      "title": "Factory fire kills at least 28 in China's 'shoe capital'",
-      "signal_count": 4,
+      "id": "b94563c031",
+      "title": "US military says it facilitated 380 million barrels of oil transiting Hormiz",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-military-says-it-facilitated-380m-barrels-oil-transiting-hormiz",
+          "headline": "US military says it facilitated 380 million barrels of oil transiting Hormiz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T22:35:29+00:00",
+      "last_seen": "2026-07-09T22:35:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0913
+    },
+    {
+      "id": "fda171b027",
+      "title": "North Carolina man broke into ex's home, fatally stabbed his 5-year-old son before going to Taco Bell: police",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/north-carolina-man-broke-ex-home-fatally-stabbed-5-year-old-son-taco-bell-police",
+          "headline": "North Carolina man broke into ex's home, fatally stabbed his 5-year-old son before going to Taco Bell: police",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-09T22:33:25+00:00",
+      "last_seen": "2026-07-09T22:33:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.089
+    },
+    {
+      "id": "ce95651de8",
+      "title": "Inside firefighters' high-tech push to prepare for perilous season",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-10/erica-fire-brigade-vr-firefighting-training-fires/106831020",
+          "headline": "Inside firefighters' high-tech push to prepare for perilous season",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T22:30:28+00:00",
+      "last_seen": "2026-07-09T22:30:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0857
+    },
+    {
+      "id": "e6e6a9f30f",
+      "title": "Australia says US trade investigators made findings without evidence",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-10/australia-objects-to-trump-administration-slavery-tariff-plan/106900254",
+          "headline": "Australia says US trade investigators made findings without evidence",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T22:29:12+00:00",
+      "last_seen": "2026-07-09T22:29:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.0843
+    },
+    {
+      "id": "439466fd5b",
+      "title": "Flores Hobbits' eating habits offer clues about their evolutionary past",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/07/flores-hobbits-scavenged-komodo-dragons-elephant-kills-study-suggests/",
+          "headline": "Flores Hobbits' eating habits offer clues about their evolutionary past",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T22:29:10+00:00",
+      "last_seen": "2026-07-09T22:29:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0843
+    },
+    {
+      "id": "cef4cb4322",
+      "title": "Four Indian nationals pushed into Bangladesh return home after one-year legal battle",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/fourfrom-bengal-pushed-into-bangladeshreturn-homeafter-one-year-legal-battle/article71200953.ece",
+          "headline": "Four Indian nationals pushed into Bangladesh return home after one-year legal battle",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T22:27:57+00:00",
+      "last_seen": "2026-07-09T22:27:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.083
+    },
+    {
+      "id": "a8a3190f1e",
+      "title": "US military denies involvement after explosions heard in Iran",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/9/explosions-heard-in-iran-as-us-military-denies-involvement?traffic_source=rss",
+          "headline": "US military denies involvement after explosions heard in Iran",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/several-explosions-reportedly-heard-across-southern-iran",
+          "headline": "Several explosions heard across southern Iran",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.025,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T18:37:19+00:00",
+      "last_seen": "2026-07-09T21:14:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0737
+    },
+    {
+      "id": "54d2fcc082",
+      "title": "France vs Morocco FIFA World Cup quarterfinal highlights: Easy win for Les Bleus as Mbappe, Dembele among goals again",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/france-vs-morocco-fifa-world-cup-quarterfinal-match-live-score-updates-july-9-2026/article71203887.ece",
+          "headline": "France vs Morocco FIFA World Cup quarterfinal highlights: Easy win for Les Bleus as Mbappe, Dembele among goals again",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T22:14:43+00:00",
+      "last_seen": "2026-07-09T22:14:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0687
+    },
+    {
+      "id": "fdd24cfe3d",
+      "title": "Factory Blaze in China’s ‘Shoe Capital’ Kills 28",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "New York Times",
@@ -110,75 +563,197 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/7/9/deadly-fire-breaks-out-at-shoe-factory-in-china?traffic_source=rss",
           "headline": "Deadly fire breaks out at shoe factory in China",
           "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cx2vz51v2pjo?at_medium=RSS&at_campaign=rss",
-          "headline": "Factory fire kills at least 28 in China's 'shoe capital'",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/07/09/at-least-28-dead-in-fire-at-shoe-factory-in-eastern-china-state-media-reports",
-          "headline": "At least 28 dead in fire at shoe factory in eastern China, state media reports",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.112,
+        "mean": -0.25,
+        "spread": 0.05,
         "left": 1,
-        "center": 3,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-09T14:39:46+00:00",
+      "first_seen": "2026-07-09T18:51:56+00:00",
       "last_seen": "2026-07-09T20:27:59+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.3744
+      "resonance": 0.0686
     },
     {
-      "id": "e9bba3faea",
-      "title": "Live: Mbappé misses penalty as France faces Morocco in World Cup quarterfinal",
-      "signal_count": 3,
+      "id": "d141cd7f9a",
+      "title": "‘Why Wait, Just Die’: A dead-eyed investigator takes on an unsolved murder",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/france-vs-morocco-fifa-world-cup-quarterfinal-match-live-score-updates-july-9-2026/article71203887.ece",
-          "headline": "France vs Morocco FIFA World Cup quarterfinal LIVE: Mbappe misses penalty",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-10/world-cup-france-vs-morocco-quarterfinal-live-blog/106898962",
-          "headline": "Live: Mbappé misses penalty as France faces Morocco in World Cup quarterfinal",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/9/live-france-vs-morocco-fifa-world-cup-2026-quarterfinal?traffic_source=rss",
-          "headline": "France vs Morocco LIVE: FIFA World Cup 2026 quarterfinal",
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/culture/2026/07/10/film/why-wait-just-die/",
+          "headline": "‘Why Wait, Just Die’: A dead-eyed investigator takes on an unsolved murder",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.133,
-        "spread": 0.047,
+        "mean": 0.0,
+        "spread": 0.0,
         "left": 0,
-        "center": 3,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-09T16:37:57+00:00",
-      "last_seen": "2026-07-09T20:56:45+00:00",
+      "first_seen": "2026-07-09T22:10:00+00:00",
+      "last_seen": "2026-07-09T22:10:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0637
+    },
+    {
+      "id": "676770827d",
+      "title": "How an app in South Korea will let victims track their stalkers",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/videos/c2dyw4zygrko?at_medium=RSS&at_campaign=rss",
+          "headline": "How an app in South Korea will let victims track their stalkers",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T22:09:57+00:00",
+      "last_seen": "2026-07-09T22:09:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0637
+    },
+    {
+      "id": "393f9ecab7",
+      "title": "England defender Jarell Quansah banned for two games after Mexico red card",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cjdgvrnn5n3o?at_medium=RSS&at_campaign=rss",
+          "headline": "England defender Jarell Quansah banned for two games after Mexico red card",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/7/9/englands-quansah-banned-for-two-matches-after-world-cup-last-16-red-card?traffic_source=rss",
+          "headline": "England’s Quansah banned for two matches after World Cup last-16 red card",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T18:12:38+00:00",
+      "last_seen": "2026-07-09T21:16:10+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.3468
+      "resonance": 0.0635
+    },
+    {
+      "id": "b548efa680",
+      "title": "An AI agent startup just let its agent run its $100 million fundraise",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+          "headline": "An AI agent startup just let its agent run its $100 million fundraise",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T22:08:58+00:00",
+      "last_seen": "2026-07-09T22:08:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0626
+    },
+    {
+      "id": "c31479decc",
+      "title": "Pogačar's daring knows no bounds as he crushes Tour rivals",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-10/tadej-pogacar-tour-de-france-tourmalet/106900030",
+          "headline": "Pogačar's daring knows no bounds as he crushes Tour rivals",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T22:08:07+00:00",
+      "last_seen": "2026-07-09T22:08:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0617
+    },
+    {
+      "id": "6e1b13088d",
+      "title": "FIFA World Cup champion praises Team USA despite tournament's end: 'They did surprise us'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/fifa-world-cup-champion-praises-team-usa-despite-tournament-end-they-did-surprise-us",
+          "headline": "FIFA World Cup champion praises Team USA despite tournament's end: 'They did surprise us'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-09T22:07:28+00:00",
+      "last_seen": "2026-07-09T22:07:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0611
     },
     {
       "id": "a20af88458",
@@ -212,119 +787,17 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2383
+      "resonance": 0.0581
     },
     {
-      "id": "b8fe1c3a32",
-      "title": "UK Labour’s Burnham apologises for response to Israel’s Gaza violence",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/9/uk-labours-burnham-apologises-for-response-to-israels-gaza-violence?traffic_source=rss",
-          "headline": "UK Labour’s Burnham apologises for response to Israel’s Gaza violence",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/we-must-now-do-more-andy-burnham-apologises-labours-response-gaza",
-          "headline": "'We must now do more': Andy Burnham apologises for Labour's response to Gaza",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T18:29:33+00:00",
-      "last_seen": "2026-07-09T20:20:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2243
-    },
-    {
-      "id": "393f9ecab7",
-      "title": "England defender Jarell Quansah banned for two games after Mexico red card",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cjdgvrnn5n3o?at_medium=RSS&at_campaign=rss",
-          "headline": "England defender Jarell Quansah banned for two games after Mexico red card",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/9/englands-quansah-banned-for-two-matches-after-world-cup-last-16-red-card?traffic_source=rss",
-          "headline": "England’s Quansah banned for two matches after World Cup last-16 red card",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T18:12:38+00:00",
-      "last_seen": "2026-07-09T19:55:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1879
-    },
-    {
-      "id": "abc1f96c8d",
-      "title": "Ebola outbreak is 'fastest-growing ever' after 600 deaths, Africa CDC says",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-10/ebola-outbreak-fastest-growing-ever/106899786",
-          "headline": "Ebola outbreak is 'fastest-growing ever' after 600 deaths, Africa CDC says",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/africa/article/3360036/ebola-outbreak-fastest-growing-ever-600-die-dr-congo?utm_source=rss_feed",
-          "headline": "Ebola outbreak is ‘fastest growing ever’ as 600 die in DR Congo",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.1,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T17:37:39+00:00",
-      "last_seen": "2026-07-09T19:11:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1227
-    },
-    {
-      "id": "09e261e2a2",
-      "title": "This hit-and-miss penalty technique can make the World Cup's best players look cool — or silly",
+      "id": "75445dd4dc",
+      "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/this-hit-and-miss-penalty-technique-can-make-the-world-cups-best-players-look-cool-or-silly/article71204004.ece",
-          "headline": "This hit-and-miss penalty technique can make the World Cup's best players look cool — or silly",
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+          "headline": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
           "platform": "rss"
         }
       ],
@@ -335,164 +808,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-09T20:53:10+00:00",
-      "last_seen": "2026-07-09T20:53:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.116
-    },
-    {
-      "id": "4d612d8346",
-      "title": "Patch for Windows Defender 0-day could allow attackers to fill hard disk",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk/",
-          "headline": "Patch for Windows Defender 0-day could allow attackers to fill hard disk",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:52:55+00:00",
-      "last_seen": "2026-07-09T20:52:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1155
-    },
-    {
-      "id": "17f2448e3b",
-      "title": "McKeown 'gutted' as illness forces Commonwealth Games withdrawal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-10/kaylee-mckeown-medically-withdraws-commonwealth-games/106900100",
-          "headline": "McKeown 'gutted' as illness forces Commonwealth Games withdrawal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:52:16+00:00",
-      "last_seen": "2026-07-09T20:52:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1143
-    },
-    {
-      "id": "e77cdbfd5a",
-      "title": "Palestinian education ministry condemns Israeli demolition of West Bank primary school",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/palestinian-education-ministry-condemns-israeli-demolition-west-bank",
-          "headline": "Palestinian education ministry condemns Israeli demolition of West Bank primary school",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:50:19+00:00",
-      "last_seen": "2026-07-09T20:50:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.1105
-    },
-    {
-      "id": "3325d3526a",
-      "title": "YouTuber Bordeaux goes in depth on EA Sports College Football 27's 'micro transactions'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/youtuber-bordeaux-goes-depth-ea-sports-college-football-27-micro-transactions",
-          "headline": "YouTuber Bordeaux goes in depth on EA Sports College Football 27's 'micro transactions'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-09T20:49:32+00:00",
-      "last_seen": "2026-07-09T20:49:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.109
-    },
-    {
-      "id": "5df1c453b2",
-      "title": "Ukrainian agent accused of murdering Monaco bomb suspect changes story",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukrainian agent accused of murdering Monaco bomb suspect changes story",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:47:41+00:00",
-      "last_seen": "2026-07-09T20:47:41+00:00",
+      "first_seen": "2026-07-09T22:03:54+00:00",
+      "last_seen": "2026-07-09T22:03:54+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1055
+      "resonance": 0.0574
     },
     {
-      "id": "c534deff0d",
-      "title": "Supreme Court cites blazes in Delhi, Lucknow; questions civic bodies on unauthorised buildings",
+      "id": "1d8ea0c87d",
+      "title": "Norway's Haaland says pressure is all on England",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/sc-cites-blazes-in-delhi-lucknow-questions-civic-bodies-on-unauthorised-buildings/article71203449.ece",
-          "headline": "Supreme Court cites blazes in Delhi, Lucknow; questions civic bodies on unauthorised buildings",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cj3gd8rg628o?at_medium=RSS&at_campaign=rss",
+          "headline": "Norway's Haaland says pressure is all on England",
           "platform": "rss"
         }
       ],
@@ -503,80 +836,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-09T20:46:57+00:00",
-      "last_seen": "2026-07-09T20:46:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1042
-    },
-    {
-      "id": "0adb3a19aa",
-      "title": "Why one of our greatest scientific discoveries is in a UK gift shop",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-10/cranbourne-meteorite-kuunhdurt-laang-natural-history-museum/106828130",
-          "headline": "Why one of our greatest scientific discoveries is in a UK gift shop",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:43:44+00:00",
-      "last_seen": "2026-07-09T20:43:44+00:00",
+      "first_seen": "2026-07-09T22:01:51+00:00",
+      "last_seen": "2026-07-09T22:01:51+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0981
+      "resonance": 0.0552
     },
     {
-      "id": "2d45bfa1d7",
-      "title": "Supreme Court considers reference of provision to furnish reason during arrests",
+      "id": "9d1feb1d13",
+      "title": "Piers Morgan accuses Tim Miller of ‘TDS’ after Trump critic claims president has done ‘nothing’ good",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/supreme-court-mulls-larger-bench-reference-sonam-raghuvanshi-bail-honeymoon-murder-case/article71201363.ece",
-          "headline": "Supreme Court considers reference of provision to furnish reason during arrests",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/piers-morgan-accuses-tim-miller-tds-trump-critic-claims-president-nothing-good",
+          "headline": "Piers Morgan accuses Tim Miller of ‘TDS’ after Trump critic claims president has done ‘nothing’ good",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": 0.6,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
-        "right": 0
+        "center": 0,
+        "right": 1
       },
-      "first_seen": "2026-07-09T20:42:43+00:00",
-      "last_seen": "2026-07-09T20:42:43+00:00",
+      "first_seen": "2026-07-09T22:00:25+00:00",
+      "last_seen": "2026-07-09T22:00:25+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.0962
+      "resonance": 0.0538
     },
     {
-      "id": "7f7b593909",
-      "title": "Local official confirms strikes targeted naval site in Iran's Korarak",
+      "id": "9869bfab0c",
+      "title": "Asia’s top climate scientist warns of ‘humanitarian disasters’ as Earth teeters",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/local-official-confirms-strikes-targeted-naval-site-irans-korarak",
-          "headline": "Local official confirms strikes targeted naval site in Iran's Korarak",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/science/article/3360016/asias-top-climate-scientist-warns-humanitarian-disasters-earth-teeters?utm_source=rss_feed",
+          "headline": "Asia’s top climate scientist warns of ‘humanitarian disasters’ as Earth teeters",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T22:00:14+00:00",
+      "last_seen": "2026-07-09T22:00:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0536
+    },
+    {
+      "id": "3aad8beb0e",
+      "title": "The MIA Caucus",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/politics/2026/07/mitch-mcconnell-health/687862/?utm_source=feed",
+          "headline": "The MIA Caucus",
           "platform": "rss"
         }
       ],
@@ -587,136 +920,52 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-09T20:42:25+00:00",
-      "last_seen": "2026-07-09T20:42:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0957
-    },
-    {
-      "id": "79212d7dc9",
-      "title": "How a Bendigo butcher became the first Indigenous Military Cross recipient",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-10/act-first-indigenous-military-cross-recipient-war-memorial/106897442",
-          "headline": "How a Bendigo butcher became the first Indigenous Military Cross recipient",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:42:22+00:00",
-      "last_seen": "2026-07-09T20:42:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0956
-    },
-    {
-      "id": "b095b5a0cc",
-      "title": "Indiana man charged with arson after admitting to cutting off his genitals and setting them on fire",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-culture/indiana-man-charged-arson-cutting-off-genitals-setting-fire",
-          "headline": "Indiana man charged with arson after admitting to cutting off his genitals and setting them on fire",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-09T20:38:45+00:00",
-      "last_seen": "2026-07-09T20:38:45+00:00",
+      "first_seen": "2026-07-09T22:00:00+00:00",
+      "last_seen": "2026-07-09T22:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0888
+      "resonance": 0.0533
     },
     {
-      "id": "04e5595e72",
-      "title": "Hurricanes owner gets dragged for putting his kids names on the Stanley Cup",
+      "id": "8505152eb5",
+      "title": "‘AnyMart’: A surreal parable about the dark side of convenience stores",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/hurricanes-owner-dragged-putting-kids-names-stanley-cup",
-          "headline": "Hurricanes owner gets dragged for putting his kids names on the Stanley Cup",
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/culture/2026/07/10/film/anymart/",
+          "headline": "‘AnyMart’: A surreal parable about the dark side of convenience stores",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-09T20:38:20+00:00",
-      "last_seen": "2026-07-09T20:38:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0881
-    },
-    {
-      "id": "e677adb96a",
-      "title": "Likely next British PM: UK must ‘put more pressure’ on the Israeli government",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/likely-next-british-pm-uk-must-put-more-pressure-on-the-israeli-government/",
-          "headline": "Likely next British PM: UK must ‘put more pressure’ on the Israeli government",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
+        "mean": 0.0,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-09T20:37:23+00:00",
-      "last_seen": "2026-07-09T20:37:23+00:00",
+      "first_seen": "2026-07-09T22:00:00+00:00",
+      "last_seen": "2026-07-09T22:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0863
+      "topic": "world",
+      "resonance": 0.0533
     },
     {
-      "id": "4b8bc724f5",
-      "title": "Australia news live: Hanson defends UK ‘fact-finding’ trip; Qantas tops airline punctuality table",
+      "id": "225eb2029c",
+      "title": "Final Stage of Ayatollah Ali Khamenei’s Funeral Begins After Delay",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/10/australia-news-live-pauline-hanson-one-nation-modi-anthony-albanese-royal-commission-antisemitism-ntwnfb",
-          "headline": "Australia news live: Hanson defends UK ‘fact-finding’ trip; Qantas tops airline punctuality table",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/09/world/middleeast/khamenei-funeral-iran.html",
+          "headline": "Final Stage of Ayatollah Ali Khamenei’s Funeral Begins After Delay",
           "platform": "rss"
         }
       ],
@@ -727,220 +976,52 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-09T20:35:22+00:00",
-      "last_seen": "2026-07-09T20:35:22+00:00",
+      "first_seen": "2026-07-09T21:59:16+00:00",
+      "last_seen": "2026-07-09T21:59:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0526
+    },
+    {
+      "id": "12fba7e999",
+      "title": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+          "headline": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-09T21:57:42+00:00",
+      "last_seen": "2026-07-09T21:57:42+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0826
+      "resonance": 0.051
     },
     {
-      "id": "e188dc2b22",
-      "title": "The ChatGPT browser is already dead",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
-          "headline": "The ChatGPT browser is already dead",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:34:05+00:00",
-      "last_seen": "2026-07-09T20:34:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0803
-    },
-    {
-      "id": "0585429029",
-      "title": "The floatable, powerful Soundcore Boom 2 speaker is over half off",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/963537/anker-soundcore-boom-2-bluetooth-speaker-deal-sale",
-          "headline": "The floatable, powerful Soundcore Boom 2 speaker is over half off",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:32:18+00:00",
-      "last_seen": "2026-07-09T20:32:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.077
-    },
-    {
-      "id": "2723accb70",
-      "title": "PM, IDF chief stress Israel’s readiness to return to war with Iran amid fresh fighting",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/pm-idf-chief-stress-israels-readiness-to-return-to-war-with-iran-amid-fresh-fighting/",
-          "headline": "PM, IDF chief stress Israel’s readiness to return to war with Iran amid fresh fighting",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:30:00+00:00",
-      "last_seen": "2026-07-09T20:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0728
-    },
-    {
-      "id": "771081ceac",
-      "title": "UN 'deeply concerned' by ongoing drone attack in Sudan",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/un-deeply-concerned-by-ongoing-drone-attack-in-sudan",
-          "headline": "UN 'deeply concerned' by ongoing drone attack in Sudan",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:29:20+00:00",
-      "last_seen": "2026-07-09T20:29:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0716
-    },
-    {
-      "id": "678d6998f9",
-      "title": "Allstate accuses Broadcom of auditing it because it quit VMware, CA",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/information-technology/2026/07/allstate-accuses-broadcom-of-auditing-it-because-it-quit-vmware-ca/",
-          "headline": "Allstate accuses Broadcom of auditing it because it quit VMware, CA",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:28:55+00:00",
-      "last_seen": "2026-07-09T20:28:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0709
-    },
-    {
-      "id": "da3f2df4fa",
-      "title": "World Cup: ATFrenchies share their France-Morocco predictions",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260709-world-cup-atfrenchies-share-their-france-morocco-predictions",
-          "headline": "World Cup: ATFrenchies share their France-Morocco predictions",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:28:39+00:00",
-      "last_seen": "2026-07-09T20:28:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0704
-    },
-    {
-      "id": "7b8bbd5212",
-      "title": "US Democrats urge debate on US-Israel ties before advancing military legislation",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-democrats-urge-debate-us-israel-ties-advancing-military-legislation",
-          "headline": "US Democrats urge debate on US-Israel ties before advancing military legislation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:27:26+00:00",
-      "last_seen": "2026-07-09T20:27:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0682
-    },
-    {
-      "id": "a57ee192cc",
-      "title": "El Niño on track to rank among strongest ever recorded, US forecasters say",
+      "id": "520ceef97f",
+      "title": "Burnham on track to become next UK PM as hundreds of Labour MPs back leadership bid",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/environment/article/2026/07/09/el-nino-on-track-to-rank-among-strongest-ever-recorded-us-forecasters-say_6755312_114.html",
-          "headline": "El Niño on track to rank among strongest ever recorded, US forecasters say",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/09/burnham-on-track-to-become-next-uk-pm-as-hundreds-of-labour-mps-back-leadership-bid_6755315_4.html",
+          "headline": "Burnham on track to become next UK PM as hundreds of Labour MPs back leadership bid",
           "platform": "rss"
         }
       ],
@@ -951,135 +1032,73 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-09T20:27:07+00:00",
-      "last_seen": "2026-07-09T20:27:07+00:00",
+      "first_seen": "2026-07-09T21:57:30+00:00",
+      "last_seen": "2026-07-09T21:57:30+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0676
+      "resonance": 0.0508
     },
     {
-      "id": "d6715cd94e",
-      "title": "Mexico seeks prosecutions over migrant deaths in the US",
+      "id": "b858cbddd2",
+      "title": "Michigan's explosive outbreak of diarrheal parasite jumps to over 1,200 cases",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/9/mexico-seeks-prosecutions-over-migrant-deaths-in-the-us?traffic_source=rss",
-          "headline": "Mexico seeks prosecutions over migrant deaths in the US",
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/health/2026/07/michigans-explosive-outbreak-of-diarrheal-parasite-jumps-to-over-1200-cases/",
+          "headline": "Michigan's explosive outbreak of diarrheal parasite jumps to over 1,200 cases",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.2,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-09T20:23:16+00:00",
-      "last_seen": "2026-07-09T20:23:16+00:00",
+      "first_seen": "2026-07-09T21:56:44+00:00",
+      "last_seen": "2026-07-09T21:56:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0607
-    },
-    {
-      "id": "8f66cd39fa",
-      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "MIT Tech Review",
-          "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-          "headline": "Anthropic found a hidden space where Claude puzzles over concepts",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:22:28+00:00",
-      "last_seen": "2026-07-09T20:22:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0593
-    },
-    {
-      "id": "604ae7f9b0",
-      "title": "U.S. intensifies strikes on Iran’s coast along Strait of Hormuz",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/07/09/us-intensifies-strikes-irans-coast-along-strait-hormuz/",
-          "headline": "U.S. intensifies strikes on Iran’s coast along Strait of Hormuz",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-09T20:17:13+00:00",
-      "last_seen": "2026-07-09T20:17:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "ddfc049304",
+      "source": "9aa1dd3ea7",
       "target": "490609948a",
-      "weight": 0.675,
+      "weight": 0.412,
       "type": "thematic"
     },
     {
-      "source": "490609948a",
-      "target": "e188dc2b22",
-      "weight": 0.04,
+      "source": "a750bca879",
+      "target": "54d2fcc082",
+      "weight": 0.408,
       "type": "thematic"
     },
     {
-      "source": "e9bba3faea",
-      "target": "09e261e2a2",
-      "weight": 0.229,
+      "source": "404b168e02",
+      "target": "9d1feb1d13",
+      "weight": 0.026,
       "type": "thematic"
     },
     {
-      "source": "e9bba3faea",
-      "target": "da3f2df4fa",
-      "weight": 0.842,
+      "source": "e6e6a9f30f",
+      "target": "a20af88458",
+      "weight": 0.072,
       "type": "thematic"
     },
     {
-      "source": "c534deff0d",
-      "target": "2d45bfa1d7",
-      "weight": 0.1,
-      "type": "thematic"
-    },
-    {
-      "source": "7f7b593909",
-      "target": "604ae7f9b0",
-      "weight": 0.212,
+      "source": "54d2fcc082",
+      "target": "6e1b13088d",
+      "weight": 0.09,
       "type": "thematic"
     }
   ],

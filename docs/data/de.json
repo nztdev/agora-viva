@@ -1,20 +1,61 @@
 {
-  "generated_at": "2026-07-10T20:40:26.338634+00:00",
+  "generated_at": "2026-07-10T22:13:37.483595+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 8,
+  "edge_count": 24,
   "nodes": [
     {
-      "id": "644de611b4",
-      "title": "Fußball-WM 2026 im Liveticker: Belgien vs Spanien",
+      "id": "366876141e",
+      "title": "KI: Apple reicht Klage gegen ChatGPT-Macher OpenAI ein",
       "signal_count": 2,
       "sources": [
         {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/technik/it-internet/ki-apple-reicht-klage-gegen-chatgpt-macher-openai-ein/100239473.html",
+          "headline": "KI: Apple reicht Klage gegen ChatGPT-Macher OpenAI ein",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/wirtschaft/article6a515f081aef3ee586480e6b/openai-geheimnisse-gestohlen-apple-reicht-klage-gegen-chatgpt-macher-ein.html",
+          "headline": "„Geschäftsgeheimnisse gestohlen“ – Apple reicht Klage gegen ChatGPT-Macher ein",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.225,
+        "spread": 0.075,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T21:28:46+00:00",
+      "last_seen": "2026-07-10T21:52:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.6601
+    },
+    {
+      "id": "e6c5677d05",
+      "title": "Fußball-WM 2026: Belgien unterliegt Spanien: Ein belgischer Nackenschlag zu viel",
+      "signal_count": 3,
+      "sources": [
+        {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/fussball-wm-2026-im-liveticker-belgien-vs-spanien-a-a5b5db2e-1f2d-4614-a3cd-3239a9777543#ref=rss",
-          "headline": "Fußball-WM 2026 im Liveticker: Belgien vs Spanien",
+          "url": "https://www.spiegel.de/sport/fussball/fussball-wm-2026-belgien-unterliegt-spanien-ein-belgischer-nackenschlag-zu-viel-a-ecc88f1f-89a3-4e9b-884c-c448033ca1e4#ref=rss",
+          "headline": "Fußball-WM 2026: Belgien unterliegt Spanien: Ein belgischer Nackenschlag zu viel",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/fussball/fussball-wm-2026-im-liveticker-drei-erkenntnisse-aus-spanien-belgien-a-a5b5db2e-1f2d-4614-a3cd-3239a9777543#ref=rss",
+          "headline": "Fußball-WM 2026 im Liveticker: Drei Erkenntnisse aus Spanien - Belgien",
           "platform": "rss"
         },
         {
@@ -25,21 +66,21 @@
         }
       ],
       "bias": {
-        "mean": -0.225,
-        "spread": 0.075,
+        "mean": -0.2,
+        "spread": 0.071,
         "left": 1,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
       "first_seen": "2026-07-10T20:00:48+00:00",
-      "last_seen": "2026-07-10T20:33:00+00:00",
+      "last_seen": "2026-07-10T21:37:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "de",
-      "resonance": 0.6679
+      "resonance": 0.5011
     },
     {
       "id": "2ad5fa7725",
@@ -53,15 +94,15 @@
           "platform": "rss"
         },
         {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/videos/video6a5131e64c65dbb4ac8fdd0a/nach-wegner-verzicht-evers-soll-spitzenkandidat-der-berliner-cdu-werden-die-ausgangslage-koennte-besser-sein.html",
-          "headline": "Evers soll Spitzenkandidat der Berliner CDU werden – „Die Ausgangslage könnte besser sein“",
-          "platform": "rss"
-        },
-        {
           "outlet": "Der Spiegel",
           "url": "https://www.spiegel.de/politik/stefan-evers-finanzsenator-als-cdu-spitzenkandidat-in-berlin-nominiert-a-abe83c86-2e6b-49a6-99e4-8d905afc6091#ref=rss",
           "headline": "Stefan Evers: Finanzsenator als CDU-Spitzenkandidat in Berlin nominiert",
+          "platform": "rss"
+        },
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/CDU-Berlin/!6195356/",
+          "headline": "CDU Berlin: Wegner geht, Evers kommt, die Probleme bleiben",
           "platform": "rss"
         },
         {
@@ -72,11 +113,11 @@
         }
       ],
       "bias": {
-        "mean": 0.013,
-        "spread": 0.246,
-        "left": 1,
+        "mean": -0.2,
+        "spread": 0.272,
+        "left": 2,
         "center": 2,
-        "right": 1
+        "right": 0
       },
       "first_seen": "2026-07-10T13:06:39+00:00",
       "last_seen": "2026-07-10T19:40:35+00:00",
@@ -86,7 +127,42 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.5697
+      "resonance": 0.3335
+    },
+    {
+      "id": "47a77f84c7",
+      "title": "Halbfinale gegen Frankreich: Joker Merino schießt Spanien auch gegen Belgien zum Sieg",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/sport/fussball-wm/fussball-wm-2026-spanien-schlaegt-belgien-und-steht-im-wm-halbfinale-201007456.html",
+          "headline": "Halbfinale gegen Frankreich: Joker Merino schießt Spanien auch gegen Belgien zum Sieg",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/article6a50fc178b5b8e3f0122aa4a/wm-2026-auf-merino-ist-verlass-joker-schiesst-spanien-auch-gegen-belgien-zum-spaeten-sieg.html",
+          "headline": "Auf Merino ist Verlass – Joker schießt Spanien auch ins Halbfinale",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.25,
+        "spread": 0.05,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T18:44:34+00:00",
+      "last_seen": "2026-07-10T20:59:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.3158
     },
     {
       "id": "1c09d574d3",
@@ -121,93 +197,133 @@
       "geo_regions": [],
       "topic": "tech",
       "language": "de",
-      "resonance": 0.5349
+      "resonance": 0.2969
     },
     {
-      "id": "4edbf27042",
-      "title": "Keine Rückkehr in die Heimat: Morddrohungen gegen Kolumbiens WM-Fußballer Campaz",
-      "signal_count": 2,
+      "id": "9c8960679b",
+      "title": "Hier vergibt Belgien die Riesenchance auf den Last-Minute-Ausgleich",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/morddrohungen-gegen-kolumbiens-wm-fussballer-campaz",
-          "headline": "Keine Rückkehr in die Heimat: Morddrohungen gegen Kolumbiens WM-Fußballer Campaz",
-          "platform": "rss"
-        },
-        {
           "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a50b8335ee5db799e970d97/wm-2026-morddrohungen-gegen-kolumbiens-jaminton-campaz.html",
-          "headline": "Morddrohungen gegen Kolumbiens Jaminton Campaz",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a51617e36e98236c4bc4a41/wm-2026-spanien-im-glueck-hier-vergibt-belgien-die-riesenchance-auf-den-last-minute-ausgleich-highlights.html",
+          "headline": "Hier vergibt Belgien die Riesenchance auf den Last-Minute-Ausgleich",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.3,
-        "left": 1,
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-10T17:41:00+00:00",
-      "last_seen": "2026-07-10T20:06:27+00:00",
+      "first_seen": "2026-07-10T21:59:48+00:00",
+      "last_seen": "2026-07-10T21:59:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.261
+    },
+    {
+      "id": "cc83ebf627",
+      "title": "Kalenderblatt: Was geschah am 11. Juli?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/10/was-geschah-am-11-juli",
+          "headline": "Kalenderblatt: Was geschah am 11. Juli?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T21:55:04+00:00",
+      "last_seen": "2026-07-10T21:55:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2475
+    },
+    {
+      "id": "6a83d7554a",
+      "title": "Handspiel im spanischen Strafraum – Hätte Belgien hier einen Elfmeter bekommen müssen?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a51617e36e98236c4bc4a3d/wm-2026-handspiel-in-spaniens-strafraum-haette-belgien-hier-einen-elfmeter-bekommen-muessen.html",
+          "headline": "Handspiel im spanischen Strafraum – Hätte Belgien hier einen Elfmeter bekommen müssen?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T21:54:15+00:00",
+      "last_seen": "2026-07-10T21:54:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "de",
-      "resonance": 0.4105
+      "resonance": 0.2452
     },
     {
-      "id": "19ce8d38ef",
-      "title": "Berlin: Regierender Bürgermeister Kai Wegner zieht Spitzenkandidatur zurück",
-      "signal_count": 3,
+      "id": "551b4bb0a2",
+      "title": "Courtois‘ Tränen und Lammens‘ Patzer – Belgiens Torwart-Tragik gegen Spanien",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/article6a50e6d48b5b8e3f0122a861/kai-wegner-zieht-spitzenkandidatur-fuer-berlin-wahl-zurueck.html",
-          "headline": "Jetzt widerspricht auch das Kanzleramt – Kai Wegner zieht Spitzenkandidatur für Berlin-Wahl zurück",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/stromaffaere-berlins-regierender-buergermeister-kai-wegner-tritt-ab/100239422.html",
-          "headline": "Stromaffäre: Berlins Regierender Bürgermeister Kai Wegner zieht sich von Spitzenkandidatur zurück",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/politik/berlin-kai-wegner-kandidatur-wahl-rueckzug-li.3513956",
-          "headline": "Berlin: Regierender Bürgermeister Kai Wegner zieht Spitzenkandidatur zurück",
+          "url": "https://www.welt.de/sport/fussball/wm/article6a515ba34c65dbb4ac8fdef0/spanien-belgien-courtois-traenen-und-lammens-patzer-torwart-tragik-fuehrt-zum-aus.html",
+          "headline": "Courtois‘ Tränen und Lammens‘ Patzer – Belgiens Torwart-Tragik gegen Spanien",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.083,
-        "spread": 0.209,
+        "mean": 0.3,
+        "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-10T13:45:00+00:00",
-      "last_seen": "2026-07-10T18:37:00+00:00",
+      "first_seen": "2026-07-10T21:52:31+00:00",
+      "last_seen": "2026-07-10T21:52:31+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
+      "topic": "world",
       "language": "de",
-      "resonance": 0.2952
+      "resonance": 0.2403
     },
     {
-      "id": "5d641c081c",
-      "title": "Tennis in London: «Wäre super» - Zverev spielt gegen Sinner um Wimbledon-Titel",
+      "id": "ecec81531f",
+      "title": "WM 2026: Spanien schlägt Belgien und steht im WM-Halbfinale",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/zverev-im-endspiel-wimbledon-sieg-ganz-nah",
-          "headline": "Tennis in London: «Wäre super» - Zverev spielt gegen Sinner um Wimbledon-Titel",
+          "url": "https://www.zeit.de/sport/2026-07/spanien-belgien-wm-viertelfinale-fussball",
+          "headline": "WM 2026: Spanien schlägt Belgien und steht im WM-Halbfinale",
           "platform": "rss"
         }
       ],
@@ -218,373 +334,199 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-10T20:32:52+00:00",
-      "last_seen": "2026-07-10T20:32:52+00:00",
+      "first_seen": "2026-07-10T21:52:09+00:00",
+      "last_seen": "2026-07-10T21:52:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2393
+    },
+    {
+      "id": "922ebdf043",
+      "title": "Courtois rettet – Oyarzabal vergibt die Chance zur erneuten Führung",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a51616e36e98236c4bc4a38/wm-2026-courtois-rettet-oyarzabal-vergibt-die-chance-zur-erneuten-fuehrung-highlights-spanien-belgien.html",
+          "headline": "Courtois rettet – Oyarzabal vergibt die Chance zur erneuten Führung",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T21:48:37+00:00",
+      "last_seen": "2026-07-10T21:48:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2294
+    },
+    {
+      "id": "72c9943ae0",
+      "title": "Mexikanischer Einwanderer erschossen – Augenzeugen belasten ICE-Beamten schwer",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6a5164951affe351f5a99456/houston-mexikanischer-einwanderer-erschossen-augenzeugen-belasten-ice-beamten-schwer.html",
+          "headline": "Mexikanischer Einwanderer erschossen – Augenzeugen belasten ICE-Beamten schwer",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T21:48:24+00:00",
+      "last_seen": "2026-07-10T21:48:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2288
+    },
+    {
+      "id": "118e6a1361",
+      "title": "WM-Viertelfinale: Merino erlöst Spanien bei belgischem Torwart-Drama",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/10/merino-erloest-spanien-belgiens-torwart-drama",
+          "headline": "WM-Viertelfinale: Merino erlöst Spanien bei belgischem Torwart-Drama",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T21:47:56+00:00",
+      "last_seen": "2026-07-10T21:47:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2275
+    },
+    {
+      "id": "e688e29e92",
+      "title": "Gute Freistoß-Chance – Lamine Yamal stellt Thibaut Courtois vor Probleme",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a51615d36e98236c4bc4a2e/wm-2026-gute-freistoss-chance-lamine-yamal-stellt-thibaut-courtois-vor-probleme-highlights-spanien-belgien.html",
+          "headline": "Gute Freistoß-Chance – Lamine Yamal stellt Thibaut Courtois vor Probleme",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T21:43:55+00:00",
+      "last_seen": "2026-07-10T21:43:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2163
+    },
+    {
+      "id": "3d661fa4b3",
+      "title": "Streit um Geheimnisse: Apple verklagt ChatGPT-Firma OpenAI",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/10/apple-verklagt-chatgpt-firma-openai",
+          "headline": "Streit um Geheimnisse: Apple verklagt ChatGPT-Firma OpenAI",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T21:43:23+00:00",
+      "last_seen": "2026-07-10T21:43:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2148
+    },
+    {
+      "id": "1fdd45f078",
+      "title": "Lamine Yamal vernascht zwei Gegenspieler, verpasst aber Spaniens 2:0",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a51614d36e98236c4bc4a26/wm-2026-lamine-yamal-vernascht-zwei-belgier-verpasst-aber-spaniens-2-0-highlights.html",
+          "headline": "Lamine Yamal vernascht zwei Gegenspieler, verpasst aber Spaniens 2:0",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T21:39:33+00:00",
+      "last_seen": "2026-07-10T21:39:33+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "de",
-      "resonance": 0.28
+      "resonance": 0.2043
     },
     {
-      "id": "d67b78ef4b",
-      "title": "Verkehr: Belgien plant Pkw-Maut ab Mai 2027",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/belgien-plant-pkw-maut-ab-mai-2027",
-          "headline": "Verkehr: Belgien plant Pkw-Maut ab Mai 2027",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T20:30:55+00:00",
-      "last_seen": "2026-07-10T20:30:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "d991a39342",
-      "title": "32 Jahre nach Escobar: Kolumbianer wird nach Fehlschuss mit dem Tode bedroht",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/fussball-wm/Kolumbianer-wird-nach-Fehlschuss-mit-dem-Tode-bedroht-id31073935.html",
-          "headline": "32 Jahre nach Escobar: Kolumbianer wird nach Fehlschuss mit dem Tode bedroht",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T20:27:10+00:00",
-      "last_seen": "2026-07-10T20:27:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2784
-    },
-    {
-      "id": "849bb7862e",
-      "title": "Landkreis Diepholz: Flucht vor Polizei: Drei Unfälle, mehrere Verletzte",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/flucht-vor-polizei-drei-unfaelle-mehrere-verletzte",
-          "headline": "Landkreis Diepholz: Flucht vor Polizei: Drei Unfälle, mehrere Verletzte",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T20:19:54+00:00",
-      "last_seen": "2026-07-10T20:19:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.2604
-    },
-    {
-      "id": "185d4294f7",
-      "title": "„Kevin war mein großer Held, mein Mann. Kämpfe weiter!“ – Solbakkens bewegende Worte an Keegan",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a51458c1aef3ee586480d6b/wm-2026-kevin-war-mein-grosser-held-kaempfe-weiter-solbakkens-bewegende-worte-an-keegan.html",
-          "headline": "„Kevin war mein großer Held, mein Mann. Kämpfe weiter!“ – Solbakkens bewegende Worte an Keegan",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T20:03:48+00:00",
-      "last_seen": "2026-07-10T20:03:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2215
-    },
-    {
-      "id": "06e3ceb074",
-      "title": "Fünf Monate Generalsanierung: Bahn: Generalsanierung wird günstiger als geplant",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/bahn-beginnt-naechstes-grossprojekt-in-nordrhein-westfalen",
-          "headline": "Fünf Monate Generalsanierung: Bahn: Generalsanierung wird günstiger als geplant",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T19:59:19+00:00",
-      "last_seen": "2026-07-10T19:59:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.211
-    },
-    {
-      "id": "5111653ab3",
-      "title": "Musik: Schlossfestspiele eröffnet - Ohne Proteste, ohne Wirbel",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/schlossfestspiele-eroeffnet-ohne-proteste-ohne-wirbel",
-          "headline": "Musik: Schlossfestspiele eröffnet - Ohne Proteste, ohne Wirbel",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T19:52:16+00:00",
-      "last_seen": "2026-07-10T19:52:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.1946
-    },
-    {
-      "id": "0ac6680fea",
-      "title": "Abgeordnetenhauswahl in Berlin: Berlins CDU bekommt einen neuen Spitzenkandidaten",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/druck-und-debatten-in-der-partei-wegner-fehlt-im-bundesrat",
-          "headline": "Abgeordnetenhauswahl in Berlin: Berlins CDU bekommt einen neuen Spitzenkandidaten",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T19:46:15+00:00",
-      "last_seen": "2026-07-10T19:46:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.1808
-    },
-    {
-      "id": "07620f262b",
-      "title": "„Die Risse im selbsternannten ‚patriotischen Lager‘ reichen tief“, heißt es in einem Chat",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/plus6a4f566fa6db83ce8f123bca/afd-in-nrw-die-risse-im-selbsternannten-patriotischen-lager-reichen-tief-heisst-es-in-einem-chat.html",
-          "headline": "„Die Risse im selbsternannten ‚patriotischen Lager‘ reichen tief“, heißt es in einem Chat",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T19:34:57+00:00",
-      "last_seen": "2026-07-10T19:34:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1554
-    },
-    {
-      "id": "35eb18fe62",
-      "title": "Motorradfahrer: Motorradfahrer stirbt bei Unfall auf A27",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/toedlicher-verkehrsunfall-auf-der-autobahn-27",
-          "headline": "Motorradfahrer: Motorradfahrer stirbt bei Unfall auf A27",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T19:34:55+00:00",
-      "last_seen": "2026-07-10T19:34:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1553
-    },
-    {
-      "id": "4e2fb6a04a",
-      "title": "Volkswagen: Nahostkonflikt erreicht VW – Katar stellt sich gegen Deal mit Israel",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-katar-stellt-sich-gegen-deal-mit-israel/100239467.html",
-          "headline": "Volkswagen: Nahostkonflikt erreicht VW – Katar stellt sich gegen Deal mit Israel",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T19:32:00+00:00",
-      "last_seen": "2026-07-10T19:32:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1489
-    },
-    {
-      "id": "b5bd5c28a6",
-      "title": "König Charles trifft Harry und Meghan mit Enkeln nach Jahren wieder",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/article6a5142b41aef3ee586480d4d/britische-koenigsfamilie-koenig-charles-trifft-harry-und-meghan-mit-enkeln-nach-jahren-wieder.html",
-          "headline": "König Charles trifft Harry und Meghan mit Enkeln nach Jahren wieder",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T19:28:01+00:00",
-      "last_seen": "2026-07-10T19:28:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1402
-    },
-    {
-      "id": "6caa35fd5e",
-      "title": "Berlins Finanz- und Kultursenator Evers für Wegner-Nachfolge nominiert",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/article6a51452d4c65dbb4ac8fddef/abgeordnetenhauswahl-berlins-finanz-und-kultursenator-evers-fuer-wegner-nachfolge-nominiert.html",
-          "headline": "Berlins Finanz- und Kultursenator Evers für Wegner-Nachfolge nominiert",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T19:26:13+00:00",
-      "last_seen": "2026-07-10T19:26:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1363
-    },
-    {
-      "id": "efce15995f",
-      "title": "Berlin: Wegners Irrweg ins politische Aus",
+      "id": "45c955291b",
+      "title": "Fußball-WM: Gegentor für Spanien? Macht doch nichts!",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/politik/berlin-wegner-buergermeister-stromausfall-luege-cdu-spitzenkandidat-spd-wahl-li.3513374",
-          "headline": "Berlin: Wegners Irrweg ins politische Aus",
+          "url": "https://www.sueddeutsche.de/sport/wm-2026-fussball-viertelfinale-spanien-belgien-merino-li.3514127",
+          "headline": "Fußball-WM: Gegentor für Spanien? Macht doch nichts!",
           "platform": "rss"
         }
       ],
@@ -595,263 +537,199 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-10T19:25:00+00:00",
-      "last_seen": "2026-07-10T19:25:00+00:00",
+      "first_seen": "2026-07-10T21:35:43+00:00",
+      "last_seen": "2026-07-10T21:35:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.1939
+    },
+    {
+      "id": "0f0ba8b3bb",
+      "title": "Unter Tränen verlässt Belgien-Keeper Courtois den Platz",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a51618d36e98236c4bc4a45/wm-2026-bittere-szene-gegen-spanien-unter-traenen-verlaesst-belgien-keeper-courtois-den-platz.html",
+          "headline": "Unter Tränen verlässt Belgien-Keeper Courtois den Platz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T21:29:11+00:00",
+      "last_seen": "2026-07-10T21:29:11+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1336
+      "resonance": 0.1763
     },
     {
-      "id": "a0fed20640",
-      "title": "Bundesregierung: Leise und doch mächtig – Warum ausgerechnet Nina Warken die Reformministerin dieser Koalition ist",
+      "id": "78b973409e",
+      "title": "Migrationspolitik der USA: Zeugen widersprechen ICE nach tödlichen Schüssen auf Mexikaner",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/nina-warken-die-leise-die-maechtige-ministerin/100236534.html",
-          "headline": "Bundesregierung: Leise und doch mächtig – Warum ausgerechnet Nina Warken die Reformministerin dieser Koalition ist",
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-07/ice-schuesse-houston-lorenzo-salgado-notwehr",
+          "headline": "Migrationspolitik der USA: Zeugen widersprechen ICE nach tödlichen Schüssen auf Mexikaner",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.15,
+        "mean": -0.3,
         "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "left": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-10T19:24:33+00:00",
-      "last_seen": "2026-07-10T19:24:33+00:00",
+      "first_seen": "2026-07-10T21:26:58+00:00",
+      "last_seen": "2026-07-10T21:26:58+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
+      "language": "de",
+      "resonance": 0.1704
+    },
+    {
+      "id": "a3f76e424b",
+      "title": "Lamine Yamal leitet stark ein – Spaniens Führungstor gegen Belgien im Video",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a51615d36e98236c4bc4a2a/wm-2026-lamine-yamal-leitet-stark-ein-spaniens-fuehrungstor-gegen-belgien-im-video.html",
+          "headline": "Lamine Yamal leitet stark ein – Spaniens Führungstor gegen Belgien im Video",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T21:25:05+00:00",
+      "last_seen": "2026-07-10T21:25:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1655
+    },
+    {
+      "id": "43977298cc",
+      "title": "Nach 649 Minuten ohne WM-Gegentor – Hier beendet Belgien Spaniens irre Serie",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a51616e36e98236c4bc4a34/wm-2026-das-1-1-im-video-nach-649-minuten-ohne-wm-gegentor-hier-beendet-belgien-spaniens-irre-serie.html",
+          "headline": "Nach 649 Minuten ohne WM-Gegentor – Hier beendet Belgien Spaniens irre Serie",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T21:24:56+00:00",
+      "last_seen": "2026-07-10T21:24:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1651
+    },
+    {
+      "id": "7cc91242fa",
+      "title": "Bahnverkehr: Sanierte Strecke Köln-Wuppertal erneut gesperrt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/10/sanierte-strecke-koeln-wuppertal-erneut-gesperrt",
+          "headline": "Bahnverkehr: Sanierte Strecke Köln-Wuppertal erneut gesperrt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T21:14:26+00:00",
+      "last_seen": "2026-07-10T21:14:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1377
+    },
+    {
+      "id": "c834a5d59c",
+      "title": "Tragischer Patzer vom Ersatztorwart – Spanien schockt Belgien kurz vor Schluss",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/wm/video6a515f931aef3ee586480e7c/spanien-belgien-highlights-das-2-1-im-video-tragischer-patzer-vom-ersatztorwart-wm-2026.html",
+          "headline": "Tragischer Patzer vom Ersatztorwart – Spanien schockt Belgien kurz vor Schluss",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T21:12:30+00:00",
+      "last_seen": "2026-07-10T21:12:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
       "language": "de",
       "resonance": 0.1327
     },
     {
-      "id": "8fbe45d9fd",
-      "title": "Taiwan: Taifun »Bavi« steuert auf Insel zu – Dutzende Tote in Asien",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/panorama/taiwan-taifun-bavi-steuert-auf-insel-zu-dutzende-tote-in-asien-a-b97dc405-2add-4060-98d2-e2838727446c#ref=rss",
-          "headline": "Taiwan: Taifun »Bavi« steuert auf Insel zu – Dutzende Tote in Asien",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T19:23:00+00:00",
-      "last_seen": "2026-07-10T19:23:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
-      "resonance": 0.1293
-    },
-    {
-      "id": "7eb93db0b5",
-      "title": "Adeyemi wechselt vom BVB nach Barcelona, Werder holt Österreichs Nationaltorwart",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/bundesliga/article6a513d701aef3ee586480d08/transfers-adeyemi-verlaesst-den-bvb-werder-holt-oesterreichs-nationaltorwart.html",
-          "headline": "Adeyemi wechselt vom BVB nach Barcelona, Werder holt Österreichs Nationaltorwart",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T19:22:40+00:00",
-      "last_seen": "2026-07-10T19:22:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1286
-    },
-    {
-      "id": "b1a4fad691",
-      "title": "Vorstoß Spahns: Höcke nicht zum Märtyrer machen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/inland/spahns-vorstoss-wuerde-hoecke-zum-maertyrer-machen-201018219.html",
-          "headline": "Vorstoß Spahns: Höcke nicht zum Märtyrer machen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T19:22:26+00:00",
-      "last_seen": "2026-07-10T19:22:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1281
-    },
-    {
-      "id": "48400213cd",
-      "title": "AfD-Debatte in der Union: Warum Spahn vorschlägt, Höcke das Wahlrecht zu entziehen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/inland/warum-jens-spahn-vorschlaegt-bjoern-hoecke-das-wahlrecht-zu-entziehen-201017068.html",
-          "headline": "AfD-Debatte in der Union: Warum Spahn vorschlägt, Höcke das Wahlrecht zu entziehen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T19:21:59+00:00",
-      "last_seen": "2026-07-10T19:21:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.1271
-    },
-    {
-      "id": "6b9bdf1fa3",
-      "title": "Tennis: Alexander Zverev erreicht erstmals Finale von Wimbledon",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-07/alexander-zverev-wimbledon-finale-tennis-arthur-fery",
-          "headline": "Tennis: Alexander Zverev erreicht erstmals Finale von Wimbledon",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/sport/tennis-wimbledon-2026-zverev-finale-li.3513538",
-          "headline": "Tennis: Zverev besiegt Fery – und steht im Wimbledon-Finale",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.05,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T15:11:29+00:00",
-      "last_seen": "2026-07-10T18:11:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1126
-    },
-    {
-      "id": "df490e1f50",
-      "title": "„Könnte das Mitte-rechts-Spektrum diskreditieren“ – Anne Applebaum warnt vor CDU/AfD-Koalition",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/article6a51390e36e98236c4bc4853/us-historikerin-koennte-das-mitte-rechts-spektrum-diskreditierenanne-applebaum-warnt-vor-cdu-afd-koalition.html",
-          "headline": "„Könnte das Mitte-rechts-Spektrum diskreditieren“ – Anne Applebaum warnt vor CDU/AfD-Koalition",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T19:08:30+00:00",
-      "last_seen": "2026-07-10T19:08:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0986
-    },
-    {
-      "id": "458af7a4bb",
-      "title": "Bis zu 32.970 Dollar für eine Karte – Fifa bietet die letzten 1246 Finaltickets an",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a5130091aef3ee586480c8c/wm-2026-32-970-dollar-fuer-eine-karte-fifa-bietet-die-letzten-1246-finaltickets-an.html",
-          "headline": "Bis zu 32.970 Dollar für eine Karte – Fifa bietet die letzten 1246 Finaltickets an",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T19:03:40+00:00",
-      "last_seen": "2026-07-10T19:03:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0885
-    },
-    {
-      "id": "e9dc823814",
-      "title": "Erstes Familientreffen seit 2022: Harry und Meghan besuchen mit ihren Kindern König Charles",
+      "id": "9c333d798e",
+      "title": "Genötigt, Ausreise zuzustimmen?: Tödliche ICE-Schüsse: Behörde setzt offenbar Zeugen unter Druck",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "n-tv",
-          "url": "https://www.n-tv.de/leute/Harry-und-Meghan-besuchen-mit-ihren-Kindern-Koenig-Charles-id31073840.html",
-          "headline": "Erstes Familientreffen seit 2022: Harry und Meghan besuchen mit ihren Kindern König Charles",
+          "url": "https://www.n-tv.de/politik/Toedliche-ICE-Schuesse-Behoerde-setzt-offenbar-Zeugen-unter-Druck-id31073874.html",
+          "headline": "Genötigt, Ausreise zuzustimmen?: Tödliche ICE-Schüsse: Behörde setzt offenbar Zeugen unter Druck",
           "platform": "rss"
         }
       ],
@@ -862,25 +740,170 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-10T19:01:54+00:00",
-      "last_seen": "2026-07-10T19:01:54+00:00",
+      "first_seen": "2026-07-10T21:11:39+00:00",
+      "last_seen": "2026-07-10T21:11:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1305
+    },
+    {
+      "id": "6173838e34",
+      "title": "Belgisches Torwart-Drama: Superjoker schießt Spanien ins WM-Halbfinale",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball-wm/Superjoker-schiesst-Spanien-ins-WM-Halbfinale-id31073984.html",
+          "headline": "Belgisches Torwart-Drama: Superjoker schießt Spanien ins WM-Halbfinale",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T20:59:56+00:00",
+      "last_seen": "2026-07-10T20:59:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1009
+    },
+    {
+      "id": "bb86da0394",
+      "title": "Landesgrenze Thüringen-Hessen: Kollision mit Traktor: Motorradfahrer schwerstverletzt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/10/kollision-mit-traktor-motorradfahrer-schwerstverletzt",
+          "headline": "Landesgrenze Thüringen-Hessen: Kollision mit Traktor: Motorradfahrer schwerstverletzt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T20:59:19+00:00",
+      "last_seen": "2026-07-10T20:59:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0994
+    },
+    {
+      "id": "ee77ec85d1",
+      "title": "Todesfälle in der Ausbildung: Skandal in Angriffsregiment - Selenskyj kündigt Reform an",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Skandal-in-Angriffsregiment-Selenskyj-kuendigt-Reform-an-id31073922.html",
+          "headline": "Todesfälle in der Ausbildung: Skandal in Angriffsregiment - Selenskyj kündigt Reform an",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T20:48:55+00:00",
+      "last_seen": "2026-07-10T20:48:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.0738
+    },
+    {
+      "id": "808e8d85b8",
+      "title": "Landkreis Altenkirchen: Autofahrer übersieht Motorrad - zwei Schwerverletzte",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/10/autofahrer-uebersieht-motorrad-zwei-schwerverletzte",
+          "headline": "Landkreis Altenkirchen: Autofahrer übersieht Motorrad - zwei Schwerverletzte",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T20:45:40+00:00",
+      "last_seen": "2026-07-10T20:45:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
       "language": "de",
-      "resonance": 0.0849
+      "resonance": 0.066
     },
     {
-      "id": "ddf9b97263",
-      "title": "Belgien plant Straßenmaut für alle Autofahrer",
+      "id": "cc1d250e60",
+      "title": "\"Wenn ich ehrlich bin\": WM-Coach lässt sich über trainingsfaulen Haaland aus",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball-wm/WM-Coach-laesst-sich-ueber-trainingsfaulen-Haaland-aus-id31073940.html",
+          "headline": "\"Wenn ich ehrlich bin\": WM-Coach lässt sich über trainingsfaulen Haaland aus",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T20:42:43+00:00",
+      "last_seen": "2026-07-10T20:42:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0589
+    },
+    {
+      "id": "6ed1fedac3",
+      "title": "Nigeria: 46 entführte Schulkinder aus Gefangenschaft befreit",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/mobilitaet/auto/belgien-plant-strassenmaut-fuer-alle-autofahrer-a-dc7069c9-eff0-4a8f-b3e2-44ab5093ebdf#ref=rss",
-          "headline": "Belgien plant Straßenmaut für alle Autofahrer",
+          "url": "https://www.spiegel.de/ausland/nigeria-46-entfuehrte-schulkinder-aus-gefangenschaft-befreit-a-266ae77e-b2c1-42f4-b4a9-13a29a37d62a#ref=rss",
+          "headline": "Nigeria: 46 entführte Schulkinder aus Gefangenschaft befreit",
           "platform": "rss"
         }
       ],
@@ -891,93 +914,160 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-10T18:49:00+00:00",
-      "last_seen": "2026-07-10T18:49:00+00:00",
+      "first_seen": "2026-07-10T20:39:00+00:00",
+      "last_seen": "2026-07-10T20:39:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0588
-    },
-    {
-      "id": "9e8141c493",
-      "title": "Belgien gleicht aus – De Ketelaere knackt das spanische Bollwerk nach 649 Minuten",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/article6a50fc178b5b8e3f0122aa4a/wm-ticker-viertelfinale-spanien-gegen-belgien-live.html",
-          "headline": "Belgien gleicht aus – De Ketelaere knackt das spanische Bollwerk nach 649 Minuten",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T18:44:34+00:00",
-      "last_seen": "2026-07-10T18:44:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
+      "topic": "tech",
       "language": "de",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "644de611b4",
-      "target": "4edbf27042",
-      "weight": 0.216,
+      "source": "366876141e",
+      "target": "47a77f84c7",
+      "weight": 0.009,
       "type": "thematic"
     },
     {
-      "source": "2ad5fa7725",
-      "target": "0ac6680fea",
-      "weight": 0.642,
+      "source": "366876141e",
+      "target": "3d661fa4b3",
+      "weight": 0.838,
       "type": "thematic"
     },
     {
-      "source": "2ad5fa7725",
-      "target": "efce15995f",
-      "weight": 0.088,
+      "source": "e6c5677d05",
+      "target": "ecec81531f",
+      "weight": 0.637,
       "type": "thematic"
     },
     {
-      "source": "1c09d574d3",
-      "target": "b5bd5c28a6",
-      "weight": 0.392,
+      "source": "e6c5677d05",
+      "target": "45c955291b",
+      "weight": 0.793,
       "type": "thematic"
     },
     {
-      "source": "1c09d574d3",
-      "target": "e9dc823814",
-      "weight": 0.236,
+      "source": "47a77f84c7",
+      "target": "551b4bb0a2",
+      "weight": 0.152,
       "type": "thematic"
     },
     {
-      "source": "5d641c081c",
-      "target": "6b9bdf1fa3",
-      "weight": 0.688,
+      "source": "47a77f84c7",
+      "target": "ecec81531f",
+      "weight": 0.089,
       "type": "thematic"
     },
     {
-      "source": "d67b78ef4b",
-      "target": "ddf9b97263",
-      "weight": 0.297,
+      "source": "47a77f84c7",
+      "target": "118e6a1361",
+      "weight": 0.013,
       "type": "thematic"
     },
     {
-      "source": "b5bd5c28a6",
-      "target": "e9dc823814",
-      "weight": 0.777,
+      "source": "47a77f84c7",
+      "target": "a3f76e424b",
+      "weight": 0.137,
+      "type": "thematic"
+    },
+    {
+      "source": "47a77f84c7",
+      "target": "6173838e34",
+      "weight": 0.352,
+      "type": "thematic"
+    },
+    {
+      "source": "9c8960679b",
+      "target": "6a83d7554a",
+      "weight": 0.005,
+      "type": "thematic"
+    },
+    {
+      "source": "551b4bb0a2",
+      "target": "118e6a1361",
+      "weight": 0.002,
+      "type": "thematic"
+    },
+    {
+      "source": "551b4bb0a2",
+      "target": "0f0ba8b3bb",
+      "weight": 0.668,
+      "type": "thematic"
+    },
+    {
+      "source": "551b4bb0a2",
+      "target": "c834a5d59c",
+      "weight": 0.023,
+      "type": "thematic"
+    },
+    {
+      "source": "551b4bb0a2",
+      "target": "6173838e34",
+      "weight": 0.015,
+      "type": "thematic"
+    },
+    {
+      "source": "ecec81531f",
+      "target": "118e6a1361",
+      "weight": 0.076,
+      "type": "thematic"
+    },
+    {
+      "source": "ecec81531f",
+      "target": "45c955291b",
+      "weight": 0.118,
+      "type": "thematic"
+    },
+    {
+      "source": "ecec81531f",
+      "target": "6173838e34",
+      "weight": 0.455,
+      "type": "thematic"
+    },
+    {
+      "source": "922ebdf043",
+      "target": "e688e29e92",
+      "weight": 0.135,
+      "type": "thematic"
+    },
+    {
+      "source": "118e6a1361",
+      "target": "6173838e34",
+      "weight": 0.706,
+      "type": "thematic"
+    },
+    {
+      "source": "e688e29e92",
+      "target": "1fdd45f078",
+      "weight": 0.19,
+      "type": "thematic"
+    },
+    {
+      "source": "e688e29e92",
+      "target": "a3f76e424b",
+      "weight": 0.099,
+      "type": "thematic"
+    },
+    {
+      "source": "1fdd45f078",
+      "target": "a3f76e424b",
+      "weight": 0.62,
+      "type": "thematic"
+    },
+    {
+      "source": "45c955291b",
+      "target": "43977298cc",
+      "weight": 0.083,
+      "type": "thematic"
+    },
+    {
+      "source": "78b973409e",
+      "target": "9c333d798e",
+      "weight": 0.301,
       "type": "thematic"
     }
   ],

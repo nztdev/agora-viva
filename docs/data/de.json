@@ -1,219 +1,690 @@
 {
-  "generated_at": "2026-07-10T11:15:58.282640+00:00",
+  "generated_at": "2026-07-10T14:49:02.024201+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 2,
+  "edge_count": 4,
   "nodes": [
     {
-      "id": "d38d38588a",
-      "title": "Unterwegs nach Memmingen: Flugzeugfenster bricht – Ryanair-Maschine kehrt um",
-      "signal_count": 5,
+      "id": "ce4da74e46",
+      "title": "Regierender Bürgermeister: Kai Wegner zieht CDU-Spitzenkandidatur für Berlinwahl zurück",
+      "signal_count": 10,
       "sources": [
         {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/gesellschaft/ungluecke/flugzeugfenster-bricht-ryanair-maschine-kehrt-um-accg-201018059.html",
-          "headline": "Unterwegs nach Memmingen: Flugzeugfenster bricht – Ryanair-Maschine kehrt um",
-          "platform": "rss"
-        },
-        {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/fenster-bricht-ryanair-maschine-nach-muenchen-kehrt-um",
-          "headline": "Griechenland: Fenster bricht – Ryanair-Maschine nach Memmingen kehrt um",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/mobilitaet/2026-07/ryanair-flug-fenster-bruch-thessaloniki-muenchen-gxe",
-          "headline": "Ryanair: Ryanair-Maschine kehrt nach Fensterbruch um",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/panorama/ryanair-flugzeug-ein-knall-dann-bricht-das-fenster-maschine-von-thessaloniki-nach-memmingen-kehrt-um-a-61d4cfc8-5f02-41dd-89ca-3068df886b77#ref=rss",
-          "headline": "Ryanair-Flugzeug: Ein Knall, dann bricht das Fenster – Maschine von Thessaloniki nach Memmingen kehrt um",
+          "url": "https://www.zeit.de/politik/deutschland/2026-07/kai-wegner-zieht-cdu-spitzenkandidatur-fuer-berlin-wahl-zurueck",
+          "headline": "Regierender Bürgermeister: Kai Wegner zieht CDU-Spitzenkandidatur für Berlinwahl zurück",
           "platform": "rss"
         },
         {
           "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/unternehmen/industrie/luftfahrt-fenster-bricht-ryanair-maschine-nach-memmingen-kehrt-um/100239354.html",
-          "headline": "Luftfahrt: Fenster bricht – Ryanair-Maschine nach Memmingen kehrt um",
+          "url": "https://www.handelsblatt.com/politik/deutschland/stromaffaere-berlins-regierender-buergermeister-kai-wegner-tritt-ab/100239422.html",
+          "headline": "Stromaffäre: Berlins Regierender Bürgermeister Kai Wegner zieht sich von Spitzenkandidatur zurück",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/politik/berlin-kai-wegner-kandidatur-wahl-rueckzug-li.3513956",
+          "headline": "Berlin: Regierender Bürgermeister Kai Wegner zieht Spitzenkandidatur zurück",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/article6a50e6d48b5b8e3f0122a861/kai-wegner-zieht-spitzenkandidatur-fuer-berlin-wahl-zurueck.html",
+          "headline": "„Ja, das war Mist“ – Kai Wegner zieht Spitzenkandidatur für Berlin-Wahl im September zurück",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/video6a50f1561aef3ee586480865/regierender-buergermeister-ich-habe-kommunikative-fehler-gemacht-wegner-zieht-spitzenkandidatur-fuer-berlin-wahl-zurueck.html",
+          "headline": "„Ich habe kommunikative Fehler gemacht“ – Wegner zieht Spitzenkandidatur für Berlin-Wahl zurück",
+          "platform": "rss"
+        },
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Berlins-Regierender-Buegermeister/!6195162/",
+          "headline": "Berlins Regierender Bürgermeister: Kai Wegner tritt als Spitzenkandidat zurück",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/politik/deutschland/kai-wegner-berlins-regierender-buergermeister-gibt-spitzenkandidatur-auf-a-f4c2f021-1f15-4257-acc4-6e94778af852#ref=rss",
+          "headline": "Kai Wegner: Berlins Regierender Bürgermeister gibt Spitzenkandidatur auf",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/video6a50eb998b5b8e3f0122a8f1/berlins-regierender-buergermeister-kai-wegner-zieht-spitzenkandidatur-fuer-wahl-im-september-zurueck.html",
+          "headline": "Kai Wegner zieht Spitzenkandidatur für Wahl im September zurück",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.08,
-        "spread": 0.216,
+        "mean": -0.03,
+        "spread": 0.276,
         "left": 2,
+        "center": 5,
+        "right": 3
+      },
+      "first_seen": "2026-07-10T12:51:38+00:00",
+      "last_seen": "2026-07-10T14:19:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.784
+    },
+    {
+      "id": "cdccf04e26",
+      "title": "Sexualstrafrecht: Bundesrat stimmt für »Nur Ja heißt Ja«-Regel",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-07/infrastruktur-zukunftsgesetz-bundesrat-sondervermoegen-bauprojekte-gxe",
+          "headline": "Sexualstrafrecht: Bundesrat stimmt für »Nur Ja heißt Ja«-Regel",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/article6a50d75d36e98236c4bc3fde/hamburger-initiative-bundesrat-will-nur-ja-heisst-ja-regel-im-sexualstrafrecht.html",
+          "headline": "Bundesrat will „Nur Ja heißt Ja“-Regel im Sexualstrafrecht",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/politik/deutschland/sexualstrafrecht-bundesrat-spricht-sich-fuer-nur-ja-heisst-ja-regel-aus-a-cb8a7866-482c-43a1-a551-369876948f7c#ref=rss",
+          "headline": "Sexualstrafrecht: Bundesrat spricht sich für »Nur Ja heißt Ja«-Regel aus",
+          "platform": "rss"
+        },
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Bundesrat-stimmt-fuer-Sexualrechtsreform/!6195045/",
+          "headline": "Bundesrat für „Nur Ja heißt Ja“: Länder fordern Reform des Sexualstrafrechts",
+          "platform": "rss"
+        },
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Bundesrat-stimmt-fuer-Nur-Ja-heisst-Ja-Regel-im-Sexualstrafrecht-id31072249.html",
+          "headline": "Einvernehmlichkeit beim Sex: Bundesrat stimmt für \"Nur Ja heißt Ja\"-Regel im Sexualstrafrecht",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.14,
+        "spread": 0.285,
+        "left": 2,
+        "center": 2,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T12:00:29+00:00",
+      "last_seen": "2026-07-10T14:15:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.5516
+    },
+    {
+      "id": "9a95fc06e2",
+      "title": "Bundestag kippt Heizungsgesetz der Ampelregierung",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/heizungsgesetz-bundestag-beschliesst-neues-heizungsgesetz/100239407.html",
+          "headline": "Heizungsgesetz: Bundestag beschließt neues Heizungsgesetz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Gebaeudemodernisierungsgesetz/!6195269/",
+          "headline": "Gebäudemodernisierungsgesetz: Bundestag beschließt neues Heizungsgesetz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/wirtschaft/bundestag-kippt-heizungsgesetz-der-ampelregierung-a-57e92cb9-36bb-4909-b98e-2b8d906927d7#ref=rss",
+          "headline": "Bundestag kippt Heizungsgesetz der Ampelregierung",
+          "platform": "rss"
+        },
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Bundestag-beschliesst-das-neue-Heizungsgesetz-id31072294.html",
+          "headline": "Weg frei für Biogas: Bundestag beschließt das neue Heizungsgesetz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.138,
+        "spread": 0.261,
+        "left": 1,
         "center": 3,
         "right": 0
       },
-      "first_seen": "2026-07-10T09:27:45+00:00",
-      "last_seen": "2026-07-10T11:03:34+00:00",
+      "first_seen": "2026-07-10T11:58:24+00:00",
+      "last_seen": "2026-07-10T14:09:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.4435
+    },
+    {
+      "id": "f75f4ea5d9",
+      "title": "Frankreich aktiviert neuen Hitze-Notfallplan",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6a50e1cf8b5b8e3f0122a7d1/frankreich-aktiviert-erstmals-neuen-notfallplan-wegen-extremer-hitze.html",
+          "headline": "Frankreich aktiviert erstmals neuen Notfallplan wegen extremer Hitze",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/frankreich-aktiviert-neuen-hitze-notfallplan-a-d2979d79-bab6-4c55-909b-472927f08c45#ref=rss",
+          "headline": "Frankreich aktiviert neuen Hitze-Notfallplan",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.075,
+        "spread": 0.225,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T13:38:00+00:00",
+      "last_seen": "2026-07-10T14:43:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.3298
+    },
+    {
+      "id": "159982825b",
+      "title": "„Für mich ist es wichtig, die Brücke zu schlagen zwischen Technologie und dem Menschen“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/videos/video6a50f9154c65dbb4ac8fd93e/tech-translator-bothur-fuer-mich-ist-es-wichtig-die-bruecke-zu-schlagen-zwischen-technologie-und-dem-menschen.html",
+          "headline": "„Für mich ist es wichtig, die Brücke zu schlagen zwischen Technologie und dem Menschen“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T14:46:25+00:00",
+      "last_seen": "2026-07-10T14:46:25+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
       "language": "de",
-      "resonance": 0.7239
+      "resonance": 0.0823
     },
     {
-      "id": "f6fe5e7169",
-      "title": "Sparpaket für Krankenkassen: Bundestag stimmt umstrittener Krankenkassenreform zu",
-      "signal_count": 3,
+      "id": "8651f2e411",
+      "title": "Höchstpreise für Benzin und Diesel? SPD scheitert mit Vorstoß im Bundesrat",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-07/bundestag-stimmt-umstrittener-krankenkassenreform-zu",
-          "headline": "Sparpaket für Krankenkassen: Bundestag stimmt umstrittener Krankenkassenreform zu",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-bundestag-verabschiedet-gkv-sparpaket/100137034.html",
-          "headline": "+++ Bundespolitik +++: Bundestag verabschiedet Sparpaket für Krankenkassen",
-          "platform": "rss"
-        },
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-bundestag-stimmt-fuer-krankenkassen-sparpaket-faz-110093143.html",
-          "headline": "Deutschland-Liveblog: Bundestag stimmt für Krankenkassen-Sparpaket",
+          "outlet": "Welt",
+          "url": "https://www.welt.de/wirtschaft/article6a50c0297b3e59c5d2aefdc9/anke-rehlinger-hoechstpreise-fuer-benzin-und-diesel-spd-scheitert-mit-vorstoss-im-bundesrat.html",
+          "headline": "Höchstpreise für Benzin und Diesel? SPD scheitert mit Vorstoß im Bundesrat",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.017,
-        "spread": 0.225,
-        "left": 1,
-        "center": 2,
-        "right": 0
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
       },
-      "first_seen": "2026-07-10T09:26:00+00:00",
-      "last_seen": "2026-07-10T09:59:25+00:00",
+      "first_seen": "2026-07-10T14:45:24+00:00",
+      "last_seen": "2026-07-10T14:45:24+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.4699
+      "resonance": 0.0804
     },
     {
-      "id": "be7ba04335",
-      "title": "Teaser zum Ryanair-Flug nach Memmingen – Scheibe geplatzt, Passagier ragt mit Kopf aus Fenster",
-      "signal_count": 2,
+      "id": "e7ac1b1378",
+      "title": "Abiturientin erhebt nach „Fickt euch“-Rede weitere Vorwürfe an Schule",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/panorama/Fensterscheibe-zerbricht-auf-Ryanair-Flug-nach-Memmingen-id31071071.html",
-          "headline": "Kopf von Passagier ragt heraus : Fensterscheibe zerbricht auf Ryanair-Flug nach Memmingen",
+          "outlet": "Welt",
+          "url": "https://www.welt.de/vermischtes/article6a50ecac4c65dbb4ac8fd7ec/mecklenburg-vorpommern-abiturientin-erhebt-nach-fickt-euch-rede-weitere-vorwuerfe-an-schule.html",
+          "headline": "Abiturientin erhebt nach „Fickt euch“-Rede weitere Vorwürfe an Schule",
           "platform": "rss"
-        },
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T14:44:37+00:00",
+      "last_seen": "2026-07-10T14:44:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.079
+    },
+    {
+      "id": "631fba3fac",
+      "title": "Bahnstrecke zwischen Düsseldorf und Köln gesperrt – Polizei ermittelt wegen Böschungsbränden",
+      "signal_count": 1,
+      "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/videos/video6a50c3c743b7fd5185004edd/schock-ueber-den-wolken-teaser-zum-ryanair-flug-nach-memmingen-scheibe-geplatzt-passagier-ragt-mit-kopf-aus-fenster.html",
-          "headline": "Teaser zum Ryanair-Flug nach Memmingen – Scheibe geplatzt, Passagier ragt mit Kopf aus Fenster",
+          "url": "https://www.welt.de/vermischtes/article6a50f6fd4c65dbb4ac8fd913/verkehr-bahnstrecke-zwischen-duesseldorf-und-koeln-gesperrt-polizei-ermittelt-wegen-boeschungsbraenden.html",
+          "headline": "Bahnstrecke zwischen Düsseldorf und Köln gesperrt – Polizei ermittelt wegen Böschungsbränden",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T14:42:11+00:00",
+      "last_seen": "2026-07-10T14:42:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "de",
+      "resonance": 0.0747
+    },
+    {
+      "id": "5b790ef481",
+      "title": "Bundestagsabgeordnete verzichten auf Erhöhung ihrer Diäten",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/article6a50e7aa4c65dbb4ac8fd6f0/abgeordnetengehaelter-bundestagsabgeordnete-verzichten-auf-erhoehung-ihrer-diaeten.html",
+          "headline": "Bundestagsabgeordnete verzichten auf Erhöhung ihrer Diäten",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T14:40:57+00:00",
+      "last_seen": "2026-07-10T14:40:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.0725
+    },
+    {
+      "id": "41d39b4812",
+      "title": "KI-Briefing: Was Sie jetzt gegen hohe KI-Kosten unternehmen sollten",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/technik/ki/ki-briefing/ki-briefing-was-sie-jetzt-gegen-hohe-ki-kosten-unternehmen-sollten/100239059.html",
+          "headline": "KI-Briefing: Was Sie jetzt gegen hohe KI-Kosten unternehmen sollten",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": 0.15,
-        "spread": 0.15,
+        "spread": 0.0,
         "left": 0,
         "center": 1,
-        "right": 1
+        "right": 0
       },
-      "first_seen": "2026-07-10T10:22:31+00:00",
-      "last_seen": "2026-07-10T10:31:09+00:00",
+      "first_seen": "2026-07-10T14:38:40+00:00",
+      "last_seen": "2026-07-10T14:38:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.0684
+    },
+    {
+      "id": "33050cff8e",
+      "title": "Frontex: Zahl der illegalen Grenzübertritte sinkt deutlich",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-07/frontex-illegale-grenzuebertritte-eu-migration-mittelmeer",
+          "headline": "Frontex: Zahl der illegalen Grenzübertritte sinkt deutlich",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T14:38:29+00:00",
+      "last_seen": "2026-07-10T14:38:29+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.3335
+      "resonance": 0.0681
     },
     {
-      "id": "c465a4b7e6",
-      "title": "Volkswagen: VW-Absatz sinkt im zweiten Quartal um 8,6 Prozent",
-      "signal_count": 2,
+      "id": "e8c8767cae",
+      "title": "Volkswagen: Deutschland muss sich vom Mythos um den Autobauer verabschieden - Meinung",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/mobilitaet/2026-07/volkswagen-absatz-rueckgang-china-gxe",
-          "headline": "Volkswagen: VW-Absatz sinkt im zweiten Quartal um 8,6 Prozent",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/wirtschaft/VW-Absatz-bricht-im-zweiten-Quartal-massiv-ein-id31071341.html",
-          "headline": "Nur noch 2,1 Millionen Fahrzeuge: VW-Absatz bricht im zweiten Quartal massiv ein",
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-deutschland-muss-sich-vom-mythos-um-den-autobauer-verabschieden-meinung-a-49532fe4-15a0-4ce0-b4d0-921bc607be62#ref=rss",
+          "headline": "Volkswagen: Deutschland muss sich vom Mythos um den Autobauer verabschieden - Meinung",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.15,
-        "spread": 0.15,
-        "left": 1,
+        "spread": 0.0,
+        "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-10T09:21:28+00:00",
-      "last_seen": "2026-07-10T10:21:02+00:00",
+      "first_seen": "2026-07-10T14:38:00+00:00",
+      "last_seen": "2026-07-10T14:38:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.3167
+      "resonance": 0.0673
     },
     {
-      "id": "fe885d7b84",
-      "title": "Bundestag beschließt umstrittenes Sparprogramm für den Gesundheitssektor",
-      "signal_count": 2,
+      "id": "70f1216408",
+      "title": "Gleitschirm-Flug: Mit dem Gleitschirm von der Wasserkuppe zum Großen Arber",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "taz",
-          "url": "https://taz.de/Krankenversicherung-in-Deutschland/!6195015/",
-          "headline": "Krankenversicherung in Deutschland: Bundestag beschließt umstrittenes Sparpaket",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/politik/deutschland/bundestag-beschliesst-umstrittenes-sparprogramm-fuer-den-gesundheitssektor-a-e71cc2f9-17ac-4921-ad26-27bc773fb9b2#ref=rss",
-          "headline": "Bundestag beschließt umstrittenes Sparprogramm für den Gesundheitssektor",
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/10/mit-dem-gleitschirm-von-der-wasserkuppe-zum-grossen-arber",
+          "headline": "Gleitschirm-Flug: Mit dem Gleitschirm von der Wasserkuppe zum Großen Arber",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.35,
-        "spread": 0.2,
+        "mean": -0.3,
+        "spread": 0.0,
         "left": 1,
-        "center": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-10T09:26:00+00:00",
-      "last_seen": "2026-07-10T09:44:00+00:00",
+      "first_seen": "2026-07-10T14:37:21+00:00",
+      "last_seen": "2026-07-10T14:37:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
+      "topic": "world",
       "language": "de",
-      "resonance": 0.2208
+      "resonance": 0.0661
     },
     {
-      "id": "77fc51d2a6",
-      "title": "Sachbuch über Hitler: Der Frieden auf dem Weg zum Krieg",
+      "id": "defb782f42",
+      "title": "Forst in Brandenburg: Neue Zentrale des Landesbetriebs Forst eröffnet",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/10/neue-zentrale-des-landesbetriebs-forst-eroeffnet",
+          "headline": "Forst in Brandenburg: Neue Zentrale des Landesbetriebs Forst eröffnet",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T14:36:26+00:00",
+      "last_seen": "2026-07-10T14:36:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0645
+    },
+    {
+      "id": "17bdf48c7f",
+      "title": "Lang & Schwarz: Das Eingeständnis des Trade-Republic-Verlierers",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/lang-schwarz-das-eingestaendnis-des-trade-republic-verlierers/100239374.html",
+          "headline": "Lang & Schwarz: Das Eingeständnis des Trade-Republic-Verlierers",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T14:36:15+00:00",
+      "last_seen": "2026-07-10T14:36:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0642
+    },
+    {
+      "id": "267e45619c",
+      "title": "Polen gedenken Massaker-Opfer : Historischer Streit zwischen Warschau und Kiew droht zu eskalieren",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Historischer-Streit-zwischen-Polen-und-Ukraine-droht-zu-eskalieren-id31071170.html",
+          "headline": "Polen gedenken Massaker-Opfer : Historischer Streit zwischen Warschau und Kiew droht zu eskalieren",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T14:36:04+00:00",
+      "last_seen": "2026-07-10T14:36:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.0639
+    },
+    {
+      "id": "6d19ddda67",
+      "title": "Kai Wegner: Berlins Regierender Bürgermeister geht - kommt der Schritt zu spät",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/politik/kai-wegner-berlins-regierender-buergermeister-geht-kommt-der-schritt-zu-spaet-a-52d3f020-9247-4dd4-948e-e9bf99bd9d47#ref=rss",
+          "headline": "Kai Wegner: Berlins Regierender Bürgermeister geht - kommt der Schritt zu spät",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T14:36:00+00:00",
+      "last_seen": "2026-07-10T14:36:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0637
+    },
+    {
+      "id": "4573523152",
+      "title": "Ohne US-Schutz keine Sicherheit: Bundeswehr schließt deutsches Feldlager in Erbil",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Bundeswehr-schliesst-deutsches-Feldlager-in-Erbil-id31072218.html",
+          "headline": "Ohne US-Schutz keine Sicherheit: Bundeswehr schließt deutsches Feldlager in Erbil",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T14:34:34+00:00",
+      "last_seen": "2026-07-10T14:34:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0612
+    },
+    {
+      "id": "ace688b783",
+      "title": "Autofahrer verurteilt: Tödliche Kollision mit Schülergruppe - über vier Jahre Haft",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/10/toedliche-kollision-mit-schuelergruppe-ueber-vier-jahre-haft",
+          "headline": "Autofahrer verurteilt: Tödliche Kollision mit Schülergruppe - über vier Jahre Haft",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T14:34:18+00:00",
+      "last_seen": "2026-07-10T14:34:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0608
+    },
+    {
+      "id": "2bc55e5e4c",
+      "title": "Propalästinensische Aktion: Erneute Demonstration vor Rheinmetall – Polizei vor Ort",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/10/erneute-demonstration-vor-rheinmetall-polizei-vor-ort",
+          "headline": "Propalästinensische Aktion: Erneute Demonstration vor Rheinmetall – Polizei vor Ort",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T14:33:38+00:00",
+      "last_seen": "2026-07-10T14:33:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "de",
+      "resonance": 0.0596
+    },
+    {
+      "id": "66b61ab594",
+      "title": "Bundesrat stimmt neuer Verordnung zu: Parkinson durch Pestizide wird reguläre Berufskrankheit",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "taz",
-          "url": "https://taz.de/Sachbuch-ueber-Hitler/!6193714/",
-          "headline": "Sachbuch über Hitler: Der Frieden auf dem Weg zum Krieg",
+          "url": "https://taz.de/Bundesrat-stimmt-neuer-Verordnung-zu/!6194994/",
+          "headline": "Bundesrat stimmt neuer Verordnung zu: Parkinson durch Pestizide wird reguläre Berufskrankheit",
           "platform": "rss"
         }
       ],
@@ -224,640 +695,205 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-10T11:11:00+00:00",
-      "last_seen": "2026-07-10T11:11:00+00:00",
+      "first_seen": "2026-07-10T14:33:00+00:00",
+      "last_seen": "2026-07-10T14:33:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.0585
+    },
+    {
+      "id": "d38d38588a",
+      "title": "Unterwegs nach Memmingen: Flugzeugfenster bricht – Ryanair-Maschine kehrt um",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/unternehmen/industrie/luftfahrt-fenster-bricht-ryanair-maschine-nach-memmingen-kehrt-um/100239354.html",
+          "headline": "Luftfahrt: Fenster bricht bei Boeing 737 – Ryanair-Maschine nach Memmingen kehrt um",
+          "platform": "rss"
+        },
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/gesellschaft/ungluecke/flugzeugfenster-bricht-ryanair-maschine-kehrt-um-accg-201018059.html",
+          "headline": "Unterwegs nach Memmingen: Flugzeugfenster bricht – Ryanair-Maschine kehrt um",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.175,
+        "spread": 0.025,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T11:03:34+00:00",
+      "last_seen": "2026-07-10T12:06:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0585
+    },
+    {
+      "id": "c1c25faa18",
+      "title": "Warum eine der reichsten Französinnen sich mit einem Konzertsaal verewigt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/kultur/plus6a4f708dbb0cf80de56a3563/rencontres-in-evian-les-bains-warum-eine-der-reichsten-franzoesinnen-sich-mit-einem-konzertsaal-verewigt.html",
+          "headline": "Warum eine der reichsten Französinnen sich mit einem Konzertsaal verewigt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T14:32:16+00:00",
+      "last_seen": "2026-07-10T14:32:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0572
+    },
+    {
+      "id": "5ada4c8515",
+      "title": "»Foreign Tongues«: Da rockt die Knautschzone",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/2026/30/foreign-tongues-rolling-stones-album-cover-mick-jagger-keith-richards",
+          "headline": "»Foreign Tongues«: Da rockt die Knautschzone",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T14:31:36+00:00",
+      "last_seen": "2026-07-10T14:31:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0561
+    },
+    {
+      "id": "91b8833235",
+      "title": "Junge Generation: Manchmal habe ich das Gefühl, dieses Land hasst uns junge Menschen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/campus/2026-07/junge-generation-belastung-arbeitsmarkt-rente-unterstuetzung",
+          "headline": "Junge Generation: Manchmal habe ich das Gefühl, dieses Land hasst uns junge Menschen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T14:30:26+00:00",
+      "last_seen": "2026-07-10T14:30:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.054
+    },
+    {
+      "id": "1d0ce9d9a0",
+      "title": "In diesem dramatischen Versagen liegt eine riesige Chance für die Union",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/debatte/plus6a50c5977b3e59c5d2aefe86/kai-wegner-und-berlin-in-diesem-dramatischen-versagen-liegt-eine-riesige-chance-fuer-die-union.html",
+          "headline": "In diesem dramatischen Versagen liegt eine riesige Chance für die Union",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T14:29:56+00:00",
+      "last_seen": "2026-07-10T14:29:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0532
+    },
+    {
+      "id": "3bf52e9120",
+      "title": "Die Lage im Überblick: Trotz Angriffen: Gesprächsbereitschaft zwischen USA und Iran",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/10/usa-wollen-trotz-attacken-mit-iran-reden-chamenei-beerdigt",
+          "headline": "Die Lage im Überblick: Trotz Angriffen: Gesprächsbereitschaft zwischen USA und Iran",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T14:29:07+00:00",
+      "last_seen": "2026-07-10T14:29:07+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
       "language": "de",
-      "resonance": 0.0937
+      "resonance": 0.0518
     },
     {
-      "id": "6d12208a4f",
-      "title": "Kunst gegen Kälte: Wo Schlingensief die Suppe gereicht hat",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Kunst-gegen-Kaelte/!6191101/",
-          "headline": "Kunst gegen Kälte: Wo Schlingensief die Suppe gereicht hat",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T11:10:00+00:00",
-      "last_seen": "2026-07-10T11:10:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0913
-    },
-    {
-      "id": "36f53a52b2",
-      "title": "„Mit Size Zero existiert man doch gar nicht“ – Heidi Klum verteidigt ihre Gewichtszunahme",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/article6a50a96bbb0cf80de56a4547/heidi-klum-verteidigt-ihre-gewichtszunahme-mit-size-zero-existiert-man-doch-gar-nicht.html",
-          "headline": "„Mit Size Zero existiert man doch gar nicht“ – Heidi Klum verteidigt ihre Gewichtszunahme",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T11:09:00+00:00",
-      "last_seen": "2026-07-10T11:09:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0889
-    },
-    {
-      "id": "549e2c55be",
-      "title": "Easyjet einigt sich mit Finanzinvestor Apollo auf Übernahme",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/unternehmen/dienstleister/luftfahrt-easyjet-einigt-sich-mit-finanzinvestor-apollo-auf-uebernahme/100239288.html",
-          "headline": "Luftfahrt: Castlelake übertrumpft: Easyjet einigt sich mit Investor Apollo auf Übernahme",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/wirtschaft/unternehmen/easyjet-einigt-sich-mit-finanzinvestor-apollo-auf-uebernahme-a-53bcb1ee-c9be-456c-b928-a948edf11704#ref=rss",
-          "headline": "Easyjet einigt sich mit Finanzinvestor Apollo auf Übernahme",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.15,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T08:10:00+00:00",
-      "last_seen": "2026-07-10T08:41:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0888
-    },
-    {
-      "id": "b57e36b13f",
-      "title": "Filmförderung unter Weimer: Abbruch statt Aufbruch",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Filmfoerderung-unter-Weimer/!6191166/",
-          "headline": "Filmförderung unter Weimer: Abbruch statt Aufbruch",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T11:07:00+00:00",
-      "last_seen": "2026-07-10T11:07:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0842
-    },
-    {
-      "id": "5bbf0955c2",
-      "title": "Ministerium schickt Unterlagen: Großprojekt Brenner-Nordzulauf: Nun ist der Bundestag am Zug",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/grossprojekt-brenner-nordzulauf-nun-ist-der-bundestag-am-zug",
-          "headline": "Ministerium schickt Unterlagen: Großprojekt Brenner-Nordzulauf: Nun ist der Bundestag am Zug",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T11:06:23+00:00",
-      "last_seen": "2026-07-10T11:06:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0827
-    },
-    {
-      "id": "63754e17d9",
-      "title": "Der große Ärger über Berlins neue Sperrstunde",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/article6a5096be43b7fd51850049d2/laengerer-betrieb-der-grosse-aerger-ueber-berlins-neue-sperrstunde.html",
-          "headline": "Der große Ärger über Berlins neue Sperrstunde",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T11:05:27+00:00",
-      "last_seen": "2026-07-10T11:05:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0805
-    },
-    {
-      "id": "3976b58cc3",
-      "title": "„Von ihm wird erwartet, dass er übers Wasser gehen kann“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/wm/video6a50ca4943b7fd5185004fda/dfb-spitze-trifft-klopp-von-ihm-wird-erwartet-dass-er-uebers-wasser-gehen-kann.html",
-          "headline": "„Von ihm wird erwartet, dass er übers Wasser gehen kann“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T11:03:36+00:00",
-      "last_seen": "2026-07-10T11:03:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0762
-    },
-    {
-      "id": "7e6a37adb0",
-      "title": "MDR reagiert auf ÖRR-Pläne der AfD – und kündigt rechtliche Konsequenzen an",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/article6a50c4c7bb0cf80de56a4887/mdr-reagiert-auf-oerr-plaene-der-afd-und-kuendigt-rechtliche-konsequenzen-an.html",
-          "headline": "MDR reagiert auf ÖRR-Pläne der AfD – und kündigt rechtliche Konsequenzen an",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T11:03:32+00:00",
-      "last_seen": "2026-07-10T11:03:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0761
-    },
-    {
-      "id": "64e72c99f0",
-      "title": "Zuzahlungen, Beiträge, Mitversicherung – was sich für Sie mit der Gesundheitsreform ändert",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/finanzen/plus6a50ace15ee5db799e970c88/zuzahlungen-beitraege-mitversicherung-was-sich-fuer-sie-mit-der-gesundheitsreform-aendert.html",
-          "headline": "Zuzahlungen, Beiträge, Mitversicherung – was sich für Sie mit der Gesundheitsreform ändert",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T11:02:51+00:00",
-      "last_seen": "2026-07-10T11:02:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "language": "de",
-      "resonance": 0.0745
-    },
-    {
-      "id": "f7026a18d0",
-      "title": "Massen-Kündigungen bei Zalando: Vermittlung nach Zalando-Aus: Hürden für viele Beschäftigte",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/vermittlung-nach-zalando-aus-huerden-fuer-viele-beschaeftigte",
-          "headline": "Massen-Kündigungen bei Zalando: Vermittlung nach Zalando-Aus: Hürden für viele Beschäftigte",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T11:01:59+00:00",
-      "last_seen": "2026-07-10T11:01:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0724
-    },
-    {
-      "id": "934e330f3e",
-      "title": "95,1 Prozent haben bestanden: 15.200 Schüler in Berlin haben Abitur geschafft",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/15-200-schueler-in-berlin-haben-abitur-geschafft",
-          "headline": "95,1 Prozent haben bestanden: 15.200 Schüler in Berlin haben Abitur geschafft",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T11:01:58+00:00",
-      "last_seen": "2026-07-10T11:01:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0724
-    },
-    {
-      "id": "0c478a0ea1",
-      "title": "Instagram und Facebook machen Kinder laut Bericht süchtig – EU fordert Konsequenzen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/ausland/article6a50c5b8c13a557858aa0ad2/soziale-medien-instagram-und-facebook-machen-kinder-laut-bericht-suechtig-eu-fordert-konsequenzen.html",
-          "headline": "Instagram und Facebook machen Kinder laut Bericht süchtig – EU fordert Konsequenzen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T11:01:58+00:00",
-      "last_seen": "2026-07-10T11:01:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.0724
-    },
-    {
-      "id": "048ff80d68",
-      "title": "Brand: Tote Person bei Brand in Einfamilienhaus in Selm",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/tote-person-bei-brand-in-einfamilienhaus-in-selm",
-          "headline": "Brand: Tote Person bei Brand in Einfamilienhaus in Selm",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T11:01:57+00:00",
-      "last_seen": "2026-07-10T11:01:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0724
-    },
-    {
-      "id": "29b162ece8",
-      "title": "Dritte Hitzewelle kommt nach Deutschland – wo es am Wochenende besonders heiß wird",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/article6a50c1b7bb0cf80de56a4801/wetter-in-deutschland-dritte-hitzewelle-kommt-wo-es-am-wochenende-besonders-heiss-wird.html",
-          "headline": "Dritte Hitzewelle kommt nach Deutschland – wo es am Wochenende besonders heiß wird",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T11:00:21+00:00",
-      "last_seen": "2026-07-10T11:00:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0686
-    },
-    {
-      "id": "83ef147e55",
-      "title": "Unfälle: Sturz auf Motorrad in Kurve – Mann schwer verletzt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/sturz-auf-motorrad-in-kurve-mann-schwer-verletzt",
-          "headline": "Unfälle: Sturz auf Motorrad in Kurve – Mann schwer verletzt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T11:00:18+00:00",
-      "last_seen": "2026-07-10T11:00:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0685
-    },
-    {
-      "id": "a623b5b242",
-      "title": "Abstimmung im Bundestag: Mehrere Länder wollen wegen GKV-Reform Vermittlungsausschuss anrufen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-07/reformen-gesetzliche-krankenversicherung-heizungsgesetz-bundestag-live",
-          "headline": "Abstimmung im Bundestag: Mehrere Länder wollen wegen GKV-Reform Vermittlungsausschuss anrufen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T10:59:46+00:00",
-      "last_seen": "2026-07-10T10:59:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0673
-    },
-    {
-      "id": "1c2f9ceb3c",
-      "title": "2. Fußball-Bundesliga: Heidenheims Keller wechselt fest nach Dresden",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/heidenheims-keller-wechselt-fest-nach-dresden",
-          "headline": "2. Fußball-Bundesliga: Heidenheims Keller wechselt fest nach Dresden",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T10:59:25+00:00",
-      "last_seen": "2026-07-10T10:59:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.0665
-    },
-    {
-      "id": "d44af714c0",
-      "title": "Erkrankung: Nach Tumor-Therapie: So geht es Torsten Sträter",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/10/nach-tumor-therapie-so-geht-es-torsten-straeter",
-          "headline": "Erkrankung: Nach Tumor-Therapie: So geht es Torsten Sträter",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T10:59:21+00:00",
-      "last_seen": "2026-07-10T10:59:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0663
-    },
-    {
-      "id": "9deada022c",
-      "title": "„Ein verwundetes, erniedrigtes Russland wird doch nicht innehalten“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/ausland/video6a50c2c8bb0cf80de56a482a/welt-talk-spezial-ein-verwundetes-erniedrigtes-russland-wird-doch-nicht-innehalten.html",
-          "headline": "„Ein verwundetes, erniedrigtes Russland wird doch nicht innehalten“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T10:56:38+00:00",
-      "last_seen": "2026-07-10T10:56:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0601
-    },
-    {
-      "id": "488f848db6",
-      "title": "Acht Verletzte bei Unfall in Brockzetel: Mazda-Fahrer in Lebensgefahr",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/regionales/niedersachsen/article6a50a9585ee5db799e970c58/acht-verletzte-bei-unfall-in-brockzetel-mazda-fahrer-in-lebensgefahr.html",
-          "headline": "Acht Verletzte bei Unfall in Brockzetel: Mazda-Fahrer in Lebensgefahr",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T10:56:24+00:00",
-      "last_seen": "2026-07-10T10:56:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0595
-    },
-    {
-      "id": "3a06fd93c1",
-      "title": "„Was wir gerade erleben, ist der Marsch in eine Staatswirtschaft“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/wirtschaft/plus6a5097f5bb0cf80de56a4444/make-economy-great-again-was-wir-gerade-erleben-ist-der-marsch-in-eine-staatswirtschaft.html",
-          "headline": "„Was wir gerade erleben, ist der Marsch in eine Staatswirtschaft“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T10:56:24+00:00",
-      "last_seen": "2026-07-10T10:56:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
-      "resonance": 0.0595
-    },
-    {
-      "id": "c1b62a5723",
-      "title": "Kuriose Geschenke von Politikern an Politiker: Revolver, Rollerblades, Krokodil-Versicherungen",
+      "id": "6ac096e25a",
+      "title": "Tiefseebergbau: Viele Weichtiere gelten laut Weltnaturschutzunion als bedrohte Arten",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/politik/deutschland/kuriose-geschenke-von-politikern-an-politiker-lego-raumschiffe-rollerblades-krokodil-versicherungen-a-3f10676d-ea2d-4531-9625-05f30fc24e70#ref=rss",
-          "headline": "Kuriose Geschenke von Politikern an Politiker: Revolver, Rollerblades, Krokodil-Versicherungen",
+          "url": "https://www.spiegel.de/wissenschaft/natur/tiefseebergbau-viele-weichtiere-gelten-laut-weltnaturschutzunion-als-bedrohte-arten-a-dbe05f7c-7306-4d3e-b84f-d527a94931fc#ref=rss",
+          "headline": "Tiefseebergbau: Viele Weichtiere gelten laut Weltnaturschutzunion als bedrohte Arten",
           "platform": "rss"
         }
       ],
@@ -868,86 +904,98 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-10T10:56:00+00:00",
-      "last_seen": "2026-07-10T10:56:00+00:00",
+      "first_seen": "2026-07-10T14:29:00+00:00",
+      "last_seen": "2026-07-10T14:29:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0516
+    },
+    {
+      "id": "fec1fda7cf",
+      "title": "„Er kann nicht mehr, er ist kaputt“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/plus6a5095195ee5db799e970b00/wegner-zieht-zurueck-er-kann-nicht-mehr-er-ist-kaputt.html",
+          "headline": "„Er kann nicht mehr, er ist kaputt“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-10T14:28:25+00:00",
+      "last_seen": "2026-07-10T14:28:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0505
+    },
+    {
+      "id": "b3a6914163",
+      "title": "Abgeordnetendiäten im Bundestag: Keine Erhöhung der Abgeordnetendiät, mehr Befugnisse für Bundespolizei",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/deutschland/2026-07/abgeordnetendiaeten-bundestag-diaetenerhoehung-aussetzen-loehne",
+          "headline": "Abgeordnetendiäten im Bundestag: Keine Erhöhung der Abgeordnetendiät, mehr Befugnisse für Bundespolizei",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T14:28:06+00:00",
+      "last_seen": "2026-07-10T14:28:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.0586
-    },
-    {
-      "id": "d93590bb4d",
-      "title": "Tödlicher Busunfall in Weener: 86-Jähriger stirbt auf B436 | Aurich-News",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/regionales/niedersachsen/article6a50b97d43b7fd5185004d68/toedlicher-busunfall-in-weener-86-jaehriger-stirbt-auf-b436-aurich-news.html",
-          "headline": "Tödlicher Busunfall in Weener: 86-Jähriger stirbt auf B436 | Aurich-News",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T10:52:18+00:00",
-      "last_seen": "2026-07-10T10:52:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0502
-    },
-    {
-      "id": "889cc57485",
-      "title": "Bahnstrecke Leer–Norddeich Mole ab 18. Juli gesperrt — Urlauber müssen Fahrräder zu Hause lassen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/regionales/niedersachsen/article6a50bd2d7b3e59c5d2aefd75/bahnstrecke-leernorddeich-ab-18-juli-gesperrt-das-muessen-urlauber-wissen.html",
-          "headline": "Bahnstrecke Leer–Norddeich Mole ab 18. Juli gesperrt — Urlauber müssen Fahrräder zu Hause lassen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T10:52:14+00:00",
-      "last_seen": "2026-07-10T10:52:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "d38d38588a",
-      "target": "be7ba04335",
-      "weight": 0.201,
+      "source": "ce4da74e46",
+      "target": "6d19ddda67",
+      "weight": 0.873,
       "type": "thematic"
     },
     {
-      "source": "36f53a52b2",
-      "target": "9deada022c",
-      "weight": 0.256,
+      "source": "cdccf04e26",
+      "target": "66b61ab594",
+      "weight": 0.089,
+      "type": "thematic"
+    },
+    {
+      "source": "5b790ef481",
+      "target": "b3a6914163",
+      "weight": 0.721,
+      "type": "thematic"
+    },
+    {
+      "source": "defb782f42",
+      "target": "fec1fda7cf",
+      "weight": 0.32,
       "type": "thematic"
     }
   ],

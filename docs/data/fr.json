@@ -1,509 +1,180 @@
 {
-  "generated_at": "2026-07-11T03:38:21.585744+00:00",
+  "generated_at": "2026-07-11T06:23:38.158982+00:00",
   "country_code": "fr",
   "country_name": "France",
   "language": "fr",
   "node_count": 30,
-  "edge_count": 9,
+  "edge_count": 3,
   "nodes": [
     {
-      "id": "b7e54ebce6",
-      "title": "Paris : un jeune homme tué à l’arme blanche dans le 18e arrondissement",
-      "signal_count": 2,
+      "id": "de9c0dce6d",
+      "title": "En direct : Trump menace de \"décimer et détruire complètement\" l'Iran s'il tente de l'assassiner",
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/paris-75/paris-75018/paris-un-jeune-homme-tue-de-plusieurs-coups-de-couteau-dans-le-xviiie-arrondissement-le-suspect-en-fuite-10-07-2026-GSOKIVVFN5EVLMUSCK2MEL3XM4.php",
-          "headline": "Paris : un jeune homme tué de plusieurs coups de couteau dans le XVIIIe arrondissement, le suspect en fuite",
+          "url": "https://www.leparisien.fr/international/etats-unis/donald-trump-menace-de-decimer-et-detruire-completement-liran-sil-tente-de-lassassiner-11-07-2026-LMPS3A2X35GJPPZH4GX5YWMSKI.php",
+          "headline": "Donald Trump menace de « décimer et détruire complètement » l’Iran s’il tente de l’assassiner",
           "platform": "rss"
         },
         {
           "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/flash-actu/paris-un-jeune-homme-tue-a-l-arme-blanche-dans-le-18e-arrondissement-20260710",
-          "headline": "Paris : un jeune homme tué à l’arme blanche dans le 18e arrondissement",
+          "url": "https://www.lefigaro.fr/international/en-direct-guerre-moyen-orient-etats-unis-iran-liban-israel-detroit-ormuz-donald-trump-cessez-le-feu-oman-20260711",
+          "headline": "EN DIRECT - «Guerre au Moyen-Orient : Trump menace d’«anéantir et détruire complètement» l’Iran s’il tente de l’assassiner",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24 FR",
+          "url": "https://www.france24.com/fr/moyen-orient/20260711-en-direct-trump-menace-de-decimer-et-detruire-completement-iran-si-tente-assassinat",
+          "headline": "En direct : Trump menace de \"décimer et détruire complètement\" l'Iran s'il tente de l'assassiner",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.25,
-        "spread": 0.15,
+        "mean": 0.133,
+        "spread": 0.205,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 1
       },
-      "first_seen": "2026-07-10T21:22:55+00:00",
-      "last_seen": "2026-07-11T03:38:25.044309+00:00",
+      "first_seen": "2026-07-11T04:58:22+00:00",
+      "last_seen": "2026-07-11T06:23:41.607048+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "fr",
+      "resonance": 0.7027
+    },
+    {
+      "id": "00b8c1de16",
+      "title": "EN DIRECT, canicule : les très fortes chaleurs persistent et s’étendront encore samedi, avec 24 départements en vigilance rouge, dont l’Ile-de-France",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/meteo/direct-canicule-24-departements-en-vigilance-rouge-aujourdhui-59-en-orange-11-07-2026-4S7R5BX4AFBFPOAPSO7MYDPMMU.php",
+          "headline": "DIRECT. Canicule : 24 départements en vigilance rouge aujourd’hui, 59 en orange",
+          "platform": "rss"
+        },
+        {
+          "outlet": "CNews",
+          "url": "https://www.cnews.fr/france/2026-07-11/canicule-voici-les-24-departements-places-en-vigilance-rouge-ce-dimanche-1889250",
+          "headline": "Canicule : voici les 24 départements placés en vigilance rouge ce dimanche",
+          "platform": "rss"
+        },
+        {
+          "outlet": "CNews",
+          "url": "https://www.cnews.fr/france/2026-07-11/canicule-voici-les-59-departements-places-en-vigilance-orange-ce-dimanche-1889262",
+          "headline": "Canicule : voici les 59 départements placés en vigilance orange ce dimanche",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Libération",
+          "url": "https://www.liberation.fr/environnement/climat/en-direct-incendies-un-feu-de-foret-fait-douze-morts-dans-le-sud-de-lespagne-20260710_CU7EM5N2HZFN5EO5G7DEKCA6QY/",
+          "headline": "Canicule : 24 départements seront en vigilance rouge samedi",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde",
+          "url": "https://www.lemonde.fr/planete/live/2026/07/10/en-direct-canicule-les-tres-fortes-chaleurs-persistent-et-s-etendront-encore-samedi-avec-24-departements-en-vigilance-rouge_6720911_3244.html",
+          "headline": "EN DIRECT, canicule : les très fortes chaleurs persistent et s’étendront encore samedi, avec 24 départements en vigilance rouge, dont l’Ile-de-France",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.414,
+        "left": 1,
+        "center": 2,
+        "right": 2
+      },
+      "first_seen": "2026-07-10T05:29:16+00:00",
+      "last_seen": "2026-07-11T06:23:41.607021+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "fr",
-      "resonance": 0.6099
+      "resonance": 0.5515
     },
     {
-      "id": "23b0e2a03f",
-      "title": "Culture de l’effort, solidarité, état de forme… Comment les Bleus sont devenus un monstre infranchissable au Mondial",
-      "signal_count": 1,
+      "id": "b9ea1bc773",
+      "title": "Prolongation de contrat en or pour Victor Wembanyama avec les San Antonio Spurs",
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/culture-de-leffort-solidarite-etat-de-forme-comment-les-bleus-sont-devenus-un-monstre-infranchissable-au-mondial-10-07-2026-S7B4KV4HBFGZRA7NU3CNFQXNKY.php",
-          "headline": "Culture de l’effort, solidarité, état de forme… Comment les Bleus sont devenus un monstre infranchissable au Mondial",
+          "url": "https://www.leparisien.fr/sports/basket/nba-victor-wembanyama-prolonge-son-contrat-de-plusieurs-annees-avec-les-spurs-11-07-2026-WOKL7622SFBVFHYKIVVWZXUXG4.php",
+          "headline": "NBA : Victor Wembanyama prolonge son contrat« de plusieurs années » avec les Spurs",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24 FR",
+          "url": "https://www.france24.com/fr/sports/20260711-prolongation-de-contrat-en-or-pour-victor-wembanyama-avec-les-san-antonio-spurs",
+          "headline": "Prolongation de contrat en or pour Victor Wembanyama avec les San Antonio Spurs",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Figaro",
+          "url": "https://www.lefigaro.fr/sports/basket/nba/je-suis-la-pour-rester-quoi-qu-il-en-coute-victor-wembanyama-rassure-les-fans-des-spurs-20260710",
+          "headline": "NBA : Victor Wembanyama fait sauter la banque avec un contrat historique",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
+        "mean": 0.133,
+        "spread": 0.205,
         "left": 0,
-        "center": 1,
+        "center": 2,
+        "right": 1
+      },
+      "first_seen": "2026-07-11T00:24:40+00:00",
+      "last_seen": "2026-07-11T06:23:41.607041+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "fr",
+      "resonance": 0.4199
+    },
+    {
+      "id": "36dfd5c92f",
+      "title": "Tour de France 2026 : le parcours de la septième étape (Hagetmau-Bordeaux)",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/sports/cyclisme/tour-de-france/tour-de-france-2026-etape-8-parcours-et-profil-de-letape-du-jour-entre-perigueux-et-bergerac-11-07-2026-PVMWQU3TGRFTBOHG7XA62BZ2BE.php",
+          "headline": "Tour de France 2026, étape 8 : parcours et profil de l’étape du jour entre Périgueux et Bergerac",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde",
+          "url": "https://www.lemonde.fr/sport/article/2026/07/10/tour-de-france-2026-le-parcours-de-la-septieme-etape-hagetmau-bordeaux_6722395_3242.html",
+          "headline": "Tour de France 2026 : le parcours de la septième étape (Hagetmau-Bordeaux)",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.15,
+        "left": 0,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-11T03:38:25.044350+00:00",
-      "last_seen": "2026-07-11T03:38:25.044350+00:00",
+      "first_seen": "2026-07-10T06:00:11+00:00",
+      "last_seen": "2026-07-11T06:23:41.607061+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "4f54df3022",
-      "title": "Athlétisme : la championne olympique Cassandre Beaugrand améliore le record de France du 3000 m à Monaco",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/athletisme/athletisme-la-championne-olympique-cassandre-beaugrand-ameliore-le-record-de-france-du-3000-m-a-monaco-10-07-2026-QND7ITRDFBHVDINQ64SC3D65VA.php",
-          "headline": "Athlétisme : la championne olympique Cassandre Beaugrand améliore le record de France du 3000 m à Monaco",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044344+00:00",
-      "last_seen": "2026-07-11T03:38:25.044344+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "44a7b4432f",
-      "title": "Espagne-Belgique : Fabian Ruiz neuvième buteur parisien à la Coupe du monde, le PSG améliore son record",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/espagne-belgique-fabian-ruiz-neuvieme-buteur-parisien-a-la-coupe-du-monde-le-psg-ameliore-son-record-10-07-2026-QGXWRORW3RDHVEVZLTSJJN4UWQ.php",
-          "headline": "Espagne-Belgique : Fabian Ruiz neuvième buteur parisien à la Coupe du monde, le PSG améliore son record",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044337+00:00",
-      "last_seen": "2026-07-11T03:38:25.044337+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "bcd7f880c2",
-      "title": "« Je suis en tête de liste depuis longtemps, c’est la vie » : l’Iran cherche-t-il vraiment à assassiner Donald Trump ?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/international/etats-unis/je-suis-en-tete-de-liste-depuis-longtemps-cest-la-vie-liran-cherche-t-il-vraiment-a-assassiner-donald-trump-10-07-2026-KMSQ4GOH4NDLPLH224PRTZV44U.php",
-          "headline": "« Je suis en tête de liste depuis longtemps, c’est la vie » : l’Iran cherche-t-il vraiment à assassiner Donald Trump ?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044330+00:00",
-      "last_seen": "2026-07-11T03:38:25.044330+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "02def00212",
-      "title": "Espagne-Belgique : la Roja encaisse son premier but de la compétition, inscrit par Charles De Ketelaere",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/espagne-belgique-la-roja-encaisse-son-premier-but-de-la-competition-inscrit-par-charles-de-ketelaere-10-07-2026-FJGTZICIVFGOBNUJLCU4GQ2OHQ.php",
-          "headline": "Espagne-Belgique : la Roja encaisse son premier but de la compétition, inscrit par Charles De Ketelaere",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044323+00:00",
-      "last_seen": "2026-07-11T03:38:25.044323+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "858749ed36",
-      "title": "Équipe de France : époustouflant face au Maroc, « le sous-coté » Manu Koné va-t-il s’effacer pour Aurélien Tchouaméni ?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/equipe-de-france-epoustouflant-face-au-maroc-le-sous-cote-manu-kone-va-t-il-seffacer-pour-tchouameni-10-07-2026-IQ4IE7Z6DZCRBMKK7AWFXMYHMQ.php",
-          "headline": "Équipe de France : époustouflant face au Maroc, « le sous-coté » Manu Koné va-t-il s’effacer pour Aurélien Tchouaméni ?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044316+00:00",
-      "last_seen": "2026-07-11T03:38:25.044316+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "f05a2bc4b1",
-      "title": "« Aucun policier ne s’est trouvé devant le véhicule » : des témoins accusent l’ICE de mentir sur la mort d’un Mexicain au Texas",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/international/etats-unis/aucun-policier-ne-sest-trouve-devant-le-vehicule-des-temoins-accusent-lice-de-mentir-sur-la-mort-dun-mexicain-au-texas-10-07-2026-NMKUNELTC5F4PI7R7SB4TK5AJQ.php",
-          "headline": "« Aucun policier ne s’est trouvé devant le véhicule » : des témoins accusent l’ICE de mentir sur la mort d’un Mexicain au Texas",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044302+00:00",
-      "last_seen": "2026-07-11T03:38:25.044302+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "a72300f606",
-      "title": "Assassinat de Charlie Kirk : le sort judiciaire du suspect en suspens jusqu’en septembre",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/international/etats-unis/assassinat-de-charlie-kirk-le-sort-judiciaire-du-suspect-en-suspens-jusquen-septembre-10-07-2026-75UEHGMTANHCPKI6QLCPHLPC3U.php",
-          "headline": "Assassinat de Charlie Kirk : le sort judiciaire du suspect en suspens jusqu’en septembre",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044294+00:00",
-      "last_seen": "2026-07-11T03:38:25.044294+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "f4b38a4c21",
-      "title": "Espagne-Belgique (2-1) : la Roja vient difficilement à bout des Diables Rouges et s’offre une demi-finale face aux Bleus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/espagne-belgique-2-1-la-roja-vient-difficilement-a-bout-des-diables-rouges-et-soffre-une-demi-finale-face-aux-bleus-10-07-2026-MNPUOEIQM5GOVJUPWXVGNYSLPE.php",
-          "headline": "Espagne-Belgique (2-1) : la Roja vient difficilement à bout des Diables Rouges et s’offre une demi-finale face aux Bleus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044287+00:00",
-      "last_seen": "2026-07-11T03:38:25.044287+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "a674b2dfd8",
-      "title": "Moins spectaculaire, plus complète... Que vaut l’Espagne, adversaire des Bleus en demi-finale du Mondial ?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/moins-spectaculaire-mais-plus-complete-que-vaut-lespagne-adversaire-des-bleus-en-demi-finale-de-la-coupe-du-monde-10-07-2026-6MNKP2FD7NCX5JMX2NAOU5P6EY.php",
-          "headline": "Moins spectaculaire, plus complète... Que vaut l’Espagne, adversaire des Bleus en demi-finale du Mondial ?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044279+00:00",
-      "last_seen": "2026-07-11T03:38:25.044279+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "a496757f83",
-      "title": "Espagne-Belgique : pourquoi n’y a-t-il pas eu de pénalty sur la faute de main de Rodri dans la surface ?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/espagne-belgique-pourquoi-ny-a-t-il-pas-eu-de-penalty-sur-la-faute-de-main-de-rodri-dans-la-surface-10-07-2026-7QODBVDVNFBT5J5SCKK5GNGCHY.php",
-          "headline": "Espagne-Belgique : pourquoi n’y a-t-il pas eu de pénalty sur la faute de main de Rodri dans la surface ?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044272+00:00",
-      "last_seen": "2026-07-11T03:38:25.044272+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "9d8069a13b",
-      "title": "Corse : un membre du puissant clan criminel Federici mis en examen pour de multiples incendies de bateaux sur l’île de beauté",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/faits-divers/corse-un-membre-du-puissant-clan-criminel-federici-mis-en-examen-pour-de-multiples-incendies-de-bateaux-sur-lile-de-beaute-10-07-2026-GYVUVTSQW5DVPLS5R747HJ5VNI.php",
-          "headline": "Corse : un membre du puissant clan criminel Federici mis en examen pour de multiples incendies de bateaux sur l’île de beauté",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044265+00:00",
-      "last_seen": "2026-07-11T03:38:25.044265+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "7d55af9cd2",
-      "title": "Espagne-Belgique (2-1) : nos tops et nos flops avec le renard Merino et l’erreur de Lammens",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/espagne-belgique-2-1-nos-tops-et-nos-flops-avec-le-renard-merino-et-lerreur-de-lammens-10-07-2026-EVHD4ATUOJGAXN2GZOOMH5LGUU.php",
-          "headline": "Espagne-Belgique (2-1) : nos tops et nos flops avec le renard Merino et l’erreur de Lammens",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044258+00:00",
-      "last_seen": "2026-07-11T03:38:25.044258+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "f89752057c",
-      "title": "L’acteur britannique Micheal Ward acquitté des accusations de viols et d’agressions sexuelles portées contre lui",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/faits-divers/lacteur-britannique-micheal-ward-acquitte-des-accusations-de-viols-et-dagressions-sexuelles-portees-contre-lui-10-07-2026-KN7V7X6GSJDSBMNBNMB6DDLJVE.php",
-          "headline": "L’acteur britannique Micheal Ward acquitté des accusations de viols et d’agressions sexuelles portées contre lui",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044250+00:00",
-      "last_seen": "2026-07-11T03:38:25.044250+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "7528ed4bd0",
-      "title": "RER B : la circulation des trains perturbée après une panne à Gare du Nord, des voyageurs sur les voies à cause de la chaleur",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/info-paris-ile-de-france-oise/transports/rer-b-la-circulation-des-trains-perturbee-apres-une-panne-a-gare-du-nord-des-voyageurs-sur-les-voies-a-cause-de-la-chaleur-10-07-2026-ADCFRPFMZ5GYLLE26CO333D4ZU.php",
-          "headline": "RER B : la circulation des trains perturbée après une panne à Gare du Nord, des voyageurs sur les voies à cause de la chaleur",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044242+00:00",
-      "last_seen": "2026-07-11T03:38:25.044242+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "b656bdb324",
-      "title": "Coupe du monde : victime de piratage, la fédération argentine reconnaît faussement des « décisions arbitrales corrompues »",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Parisien",
-          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/coupe-du-monde-victime-de-piratage-la-federation-argentine-reconnait-faussement-des-decisions-arbitrales-corrompues-10-07-2026-V6ZB2C75O5BSLKPQ2NS5E34YIQ.php",
-          "headline": "Coupe du monde : victime de piratage, la fédération argentine reconnaît faussement des « décisions arbitrales corrompues »",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T03:38:25.044235+00:00",
-      "last_seen": "2026-07-11T03:38:25.044235+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "fr",
-      "resonance": 0.28
+      "resonance": 0.1968
     },
     {
       "id": "d3a7627931",
@@ -524,15 +195,15 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-11T03:38:25.044226+00:00",
-      "last_seen": "2026-07-11T03:38:25.044226+00:00",
+      "first_seen": "2026-07-11T06:23:41.607081+00:00",
+      "last_seen": "2026-07-11T06:23:41.607081+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "fr",
-      "resonance": 0.28
+      "resonance": 0.1468
     },
     {
       "id": "c5aaca5715",
@@ -553,15 +224,15 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-11T03:38:25.044216+00:00",
-      "last_seen": "2026-07-11T03:38:25.044216+00:00",
+      "first_seen": "2026-07-11T06:23:41.607074+00:00",
+      "last_seen": "2026-07-11T06:23:41.607074+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "fr",
-      "resonance": 0.28
+      "resonance": 0.1468
     },
     {
       "id": "67507700d8",
@@ -582,310 +253,652 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-11T03:38:25.044185+00:00",
-      "last_seen": "2026-07-11T03:38:25.044185+00:00",
+      "first_seen": "2026-07-11T06:23:41.607067+00:00",
+      "last_seen": "2026-07-11T06:23:41.607067+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
       "language": "fr",
-      "resonance": 0.28
+      "resonance": 0.1468
     },
     {
-      "id": "219f0a5711",
-      "title": "Guerre en Ukraine : Kiev attaquée par des missiles russes, six blessés",
+      "id": "16d4acc6e3",
+      "title": "Australie-France : à quelle heure et sur quelle chaîne TV voir le deuxième match du Championnat des nations ?",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-kiev-attaquee-par-des-missiles-russes-plusieurs-explosions-entendues-20260711",
-          "headline": "Guerre en Ukraine : Kiev attaquée par des missiles russes, six blessés",
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/sports/rugby/xv-de-france/australie-france-a-quelle-heure-et-sur-quelle-chaine-voir-le-deuxieme-match-du-championnat-des-nations-11-07-2026-OOGMJFYULNEQJGXHVDEKGRLDS4.php",
+          "headline": "Australie-France : à quelle heure et sur quelle chaîne TV voir le deuxième match du Championnat des nations ?",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.4,
+        "mean": 0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-07-11T02:35:33+00:00",
-      "last_seen": "2026-07-11T02:35:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "d5b60460b4",
-      "title": "Les États-Unis ont versé des premières compensations aux victimes du «syndrome de la Havane»",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/les-etats-unis-ont-verse-des-premieres-compensations-aux-victimes-du-syndrome-de-la-havane-20260711",
-          "headline": "Les États-Unis ont versé des premières compensations aux victimes du «syndrome de la Havane»",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.4,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-11T01:37:17+00:00",
-      "last_seen": "2026-07-11T01:37:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "df919ece2f",
-      "title": "Corée du Nord : un haut responsable de l’armée destitué pour corruption",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/international/coree-du-nord-un-haut-responsable-de-l-armee-destitue-pour-corruption-20260711",
-          "headline": "Corée du Nord : un haut responsable de l’armée destitué pour corruption",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.4,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-11T01:03:18+00:00",
-      "last_seen": "2026-07-11T01:03:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.28
-    },
-    {
-      "id": "675116fa5f",
-      "title": "EN DIRECT - Canicule : les bals des pompiers annulés les 13 et 14 juillet à Paris",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/meteo/en-direct-chaleur-canicule-france-meteo-temperatures-vigilance-orages-20260710",
-          "headline": "EN DIRECT - Canicule : les bals des pompiers annulés les 13 et 14 juillet à Paris",
-          "platform": "rss"
-        },
-        {
-          "outlet": "CNews",
-          "url": "https://www.cnews.fr/france/2026-07-10/canicule-les-bals-des-sapeurs-pompiers-annules-paris-et-dans-la-petite-couronne",
-          "headline": "Canicule : les bals des sapeurs-pompiers annulés à Paris et dans la petite couronne",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.475,
-        "spread": 0.075,
-        "left": 0,
-        "center": 0,
-        "right": 2
-      },
-      "first_seen": "2026-07-10T20:32:00+00:00",
-      "last_seen": "2026-07-10T21:41:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.2313
-    },
-    {
-      "id": "c4e7e7ed33",
-      "title": "NBA : Victor Wembanyama fait sauter la banque avec un contrat historique",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/sports/basket/nba/je-suis-la-pour-rester-quoi-qu-il-en-coute-victor-wembanyama-rassure-les-fans-des-spurs-20260710",
-          "headline": "NBA : Victor Wembanyama fait sauter la banque avec un contrat historique",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.4,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-11T00:24:40+00:00",
-      "last_seen": "2026-07-11T00:24:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "fr",
-      "resonance": 0.2295
-    },
-    {
-      "id": "f6b38854aa",
-      "title": "France-Espagne : un compte à régler dans un duel de géants pour les Bleus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/france-espagne-un-compte-a-regler-dans-un-duel-de-geants-pour-les-bleus-20260711",
-          "headline": "France-Espagne : un compte à régler dans un duel de géants pour les Bleus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.4,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-11T00:01:06+00:00",
-      "last_seen": "2026-07-11T00:01:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1965
-    },
-    {
-      "id": "ae4448939f",
-      "title": "Au cœur du Mondial : un choc au parfum de revanche pour les Bleus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/au-coeur-du-mondial-un-choc-au-parfum-de-revanche-pour-les-bleus-20260711",
-          "headline": "Au cœur du Mondial : un choc au parfum de revanche pour les Bleus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.4,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T23:08:29+00:00",
-      "last_seen": "2026-07-10T23:08:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1285
-    },
-    {
-      "id": "d33fdc51d2",
-      "title": "Espagne-Belgique : «Trop de coups du sort défavorables», déplore Rudi Garcia",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/espagne-belgique-trop-de-coups-du-sort-defavorables-deplore-rudi-garcia-20260711",
-          "headline": "Espagne-Belgique : «Trop de coups du sort défavorables», déplore Rudi Garcia",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.4,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T23:00:08+00:00",
-      "last_seen": "2026-07-10T23:00:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "fr",
-      "resonance": 0.1183
-    },
-    {
-      "id": "7c0a7eae0b",
-      "title": "France-Espagne : «On est la seule équipe qui a gagné deux demies de suite contre eux», Luis de la Fuente prévient les Bleus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/france-espagne-on-est-la-seule-equipe-qui-a-gagne-deux-demies-de-suite-contre-eux-luis-de-la-fuente-previent-les-bleus-20260711",
-          "headline": "France-Espagne : «On est la seule équipe qui a gagné deux demies de suite contre eux», Luis de la Fuente prévient les Bleus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.4,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T22:49:09+00:00",
-      "last_seen": "2026-07-10T22:49:09+00:00",
+      "first_seen": "2026-07-11T06:23:41.607054+00:00",
+      "last_seen": "2026-07-11T06:23:41.607054+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "fr",
-      "resonance": 0.1053
+      "resonance": 0.1468
     },
     {
-      "id": "4288b5a384",
-      "title": "Affaire Patrick Bruel : le chanteur et comédien à nouveau visé par une plainte pour viol et agression sexuelle",
-      "signal_count": 2,
+      "id": "d9c430e6c2",
+      "title": "« Pas le même parfum de légèreté » : canicules, incendies, même les vacances d’été deviennent source d’inquiétude",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Libération",
-          "url": "https://www.liberation.fr/societe/police-justice/patrick-bruel-vise-par-une-nouvelle-plainte-pour-viol-dans-les-annees-2000-20260710_MSOMXTEFGJDZHF5TXAIGLFSPWI/",
-          "headline": "Patrick Bruel visé par une nouvelle plainte pour viol dans les années 2000",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Figaro",
-          "url": "https://www.lefigaro.fr/actualite-france/affaire-patrick-bruel-le-chanteur-et-comedien-a-nouveau-vise-par-une-plainte-pour-viol-et-agression-sexuelle-20260710",
-          "headline": "Affaire Patrick Bruel : le chanteur et comédien à nouveau visé par une plainte pour viol et agression sexuelle",
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/societe/pas-le-meme-parfum-de-legerete-canicules-incendies-meme-les-vacances-dete-deviennent-source-dinquietude-11-07-2026-5E6XM57C2RHONAA3JMMKEHTVHA.php",
+          "headline": "« Pas le même parfum de légèreté » : canicules, incendies, même les vacances d’été deviennent source d’inquiétude",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.05,
-        "spread": 0.45,
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:23:41.607034+00:00",
+      "last_seen": "2026-07-11T06:23:41.607034+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "fr",
+      "resonance": 0.1468
+    },
+    {
+      "id": "ea0c623955",
+      "title": "Canicule : où se baigner près de chez vous en toute sécurité ? Utilisez notre moteur de recherche",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/environnement/climat/canicule-ou-se-baigner-pres-de-chez-vous-utiliser-notre-moteur-de-recherche-11-07-2026-AGKMVKTOJRAC3KOUYHUAP73JNI.php",
+          "headline": "Canicule : où se baigner près de chez vous en toute sécurité ? Utilisez notre moteur de recherche",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:23:41.607028+00:00",
+      "last_seen": "2026-07-11T06:23:41.607028+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "language": "fr",
+      "resonance": 0.1468
+    },
+    {
+      "id": "c1be2fb04d",
+      "title": "« Une histoire de poisse » : près de Mantes-la-Jolie, la triste agonie du centre commercial « Mon Beau Buchelay »",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/yvelines-78/une-histoire-de-poisse-pres-de-mantes-la-jolie-la-triste-agonie-du-centre-commercial-mon-beau-buchelay-11-07-2026-EQQAULKK6JBAPMXWOJDX6FKRZA.php",
+          "headline": "« Une histoire de poisse » : près de Mantes-la-Jolie, la triste agonie du centre commercial « Mon Beau Buchelay »",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:23:41.607014+00:00",
+      "last_seen": "2026-07-11T06:23:41.607014+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.1468
+    },
+    {
+      "id": "95d0669c09",
+      "title": "Condamné pour viol, suspendu, candidat en Irlande… Conor McGregor de retour après 5 ans de scandales et de frasques",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/sports/mma/condamne-pour-viol-suspendu-candidat-en-irlande-conor-mcgregor-de-retour-apres-5-ans-de-scandales-et-de-frasques-11-07-2026-IF64ZHZ5CNHNZMVKKIHPYZIGOY.php",
+          "headline": "Condamné pour viol, suspendu, candidat en Irlande… Conor McGregor de retour après 5 ans de scandales et de frasques",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:23:41.607007+00:00",
+      "last_seen": "2026-07-11T06:23:41.607007+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.1468
+    },
+    {
+      "id": "6621700236",
+      "title": "« Ils redécouvrent la géographie » : après les frappes iraniennes, le grand vertige des pétromonarchies du Golfe",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/international/ils-redecouvrent-la-geographie-apres-les-frappes-iraniennes-le-grand-vertige-des-petromonarchies-du-golfe-11-07-2026-WDVYIA6BG5FWBJASBULHPH74HY.php",
+          "headline": "« Ils redécouvrent la géographie » : après les frappes iraniennes, le grand vertige des pétromonarchies du Golfe",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:23:41.607000+00:00",
+      "last_seen": "2026-07-11T06:23:41.607000+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.1468
+    },
+    {
+      "id": "ff94a8c9dd",
+      "title": "« Une expérience surréaliste » : l’attaquant anglais Harry Kane confirme avoir joué au golf avec Donald Trump « il y a 18 mois »",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/sports/football/coupe-du-monde/une-experience-surrealiste-lattaquant-anglais-harry-kane-confirme-avoir-joue-au-golf-avec-donald-trump-il-y-a-18-mois-11-07-2026-5NOCDXPCSRD5VCUWXGCZJAHOQM.php",
+          "headline": "« Une expérience surréaliste » : l’attaquant anglais Harry Kane confirme avoir joué au golf avec Donald Trump « il y a 18 mois »",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:23:41.606985+00:00",
+      "last_seen": "2026-07-11T06:23:41.606985+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.1468
+    },
+    {
+      "id": "0fdaa29b25",
+      "title": "« Jusqu’à 6 degrés de moins » : cette côte bretonne est un refuge contre la canicule",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/finistere-29/jusqua-6-degres-de-moins-cette-cote-bretonne-est-un-refuge-contre-la-canicule-11-07-2026-6YXEKSXCNVEDHCJS66MHTCUVTA.php",
+          "headline": "« Jusqu’à 6 degrés de moins » : cette côte bretonne est un refuge contre la canicule",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:23:41.606978+00:00",
+      "last_seen": "2026-07-11T06:23:41.606978+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.1468
+    },
+    {
+      "id": "6f97815951",
+      "title": "« Un lieu de passion à préserver » : aux Puces de Saint-Ouen, quatre-vingts ans d’histoire pour le plus grand marché d’antiquités du monde",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/seine-saint-denis-93/un-lieu-de-passion-a-preserver-aux-puces-de-saint-ouen-quatre-vingts-ans-dhistoire-pour-le-plus-grand-marche-dantiquites-du-monde-11-07-2026-SV4XAGQPURGI5NCNDB6HJBKT4E.php",
+          "headline": "« Un lieu de passion à préserver » : aux Puces de Saint-Ouen, quatre-vingts ans d’histoire pour le plus grand marché d’antiquités du monde",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:23:41.606969+00:00",
+      "last_seen": "2026-07-11T06:23:41.606969+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "fr",
+      "resonance": 0.1468
+    },
+    {
+      "id": "54bdc91c23",
+      "title": "A Rivesaltes et  Banyuls, les caves viticoles trouvent des partenaires avant les vendanges pour ne pas couler",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/pyrenees-orientales-66/a-rivesaltes-et-banyuls-les-caves-viticoles-trouvent-des-partenaires-avant-les-vendanges-pour-ne-pas-couler-11-07-2026-BYLDSPUQNNB7TFVO2UCZJVSE4Q.php",
+          "headline": "A Rivesaltes et  Banyuls, les caves viticoles trouvent des partenaires avant les vendanges pour ne pas couler",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:23:41.606942+00:00",
+      "last_seen": "2026-07-11T06:23:41.606942+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.1468
+    },
+    {
+      "id": "2b37fb8a92",
+      "title": "Après 17 noyades depuis fin mai, à quand de nouvelles baignades surveillées en Seine-et-Marne ?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/seine-et-marne-77/apres-17-noyades-depuis-fin-mai-a-quand-de-nouvelles-baignades-surveillees-en-seine-et-marne-11-07-2026-5FWRUOHI2VH2XFNWKWI2EEZPQU.php",
+          "headline": "Après 17 noyades depuis fin mai, à quand de nouvelles baignades surveillées en Seine-et-Marne ?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:23:41.606932+00:00",
+      "last_seen": "2026-07-11T06:23:41.606932+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.1468
+    },
+    {
+      "id": "e218423dd9",
+      "title": "Stocks d’eau, cendriers jetables, couvertures de survie : les autoroutes se préparent à un week-end sous haute tension",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/economie/stocks-deau-cendriers-jetables-couvertures-de-survie-les-autoroutes-se-preparent-a-un-week-end-sous-haute-tension-11-07-2026-BYJNZ26XQJCJTDS35QYRKMDC3M.php",
+          "headline": "Stocks d’eau, cendriers jetables, couvertures de survie : les autoroutes se préparent à un week-end sous haute tension",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:23:41.606902+00:00",
+      "last_seen": "2026-07-11T06:23:41.606902+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.1468
+    },
+    {
+      "id": "5122d9a615",
+      "title": "Le prince Harry, Meghan et leurs enfants reçus par Charles III pour la première fois en quatre ans",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Le Parisien",
+          "url": "https://www.leparisien.fr/international/royaume-uni/le-roi-charles-a-recu-le-prince-harry-meghan-et-leurs-enfants-pour-la-premiere-fois-depuis-2022-11-07-2026-KNW6UAHG4NCKBNPP2CQH3MWZWA.php",
+          "headline": "Le roi Charles a reçu le prince Harry, Meghan et leurs enfants, pour la première fois depuis 2022",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24 FR",
+          "url": "https://www.france24.com/fr/europe/20260710-prince-harry-meghan-enfants-re%C3%A7us-charles-iii-premi%C3%A8re-fois-quatre-ansarchie-lilibet",
+          "headline": "Le prince Harry, Meghan et leurs enfants reçus par Charles III pour la première fois en quatre ans",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T20:02:58+00:00",
+      "last_seen": "2026-07-11T06:23:41.606993+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.1441
+    },
+    {
+      "id": "e27706ba45",
+      "title": "Deux cents ans après son invention, la photographie mérite une politique publique",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Libération",
+          "url": "https://www.liberation.fr/idees-et-debats/tribunes/deux-cents-ans-apres-son-invention-la-photographie-merite-une-politique-publique-20260711_7N2GI3C7ZBAXXDNPKUQZMPGMII/",
+          "headline": "Deux cents ans après son invention, la photographie mérite une politique publique",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.5,
+        "spread": 0.0,
         "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:18:00+00:00",
+      "last_seen": "2026-07-11T06:18:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "fr",
+      "resonance": 0.1322
+    },
+    {
+      "id": "1b6afeba02",
+      "title": "«C’est un groupe spécial» : après la revanche à Mexico, l’Angleterre veut confirmer sa montée en puissance",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Figaro",
+          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/c-est-un-groupe-special-apres-la-revanche-a-mexico-l-angleterre-veut-confirmer-sa-montee-en-puissance-20260711",
+          "headline": "«C’est un groupe spécial» : après la revanche à Mexico, l’Angleterre veut confirmer sa montée en puissance",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.4,
+        "spread": 0.0,
+        "left": 0,
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-10T18:07:18+00:00",
-      "last_seen": "2026-07-10T18:40:08+00:00",
+      "first_seen": "2026-07-11T06:17:39+00:00",
+      "last_seen": "2026-07-11T06:17:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.1312
+    },
+    {
+      "id": "9fa68c05d1",
+      "title": "«L’aider et l’accompagner» : Messi, un atout mais aussi une source de motivation pour l’Argentine",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Figaro",
+          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/l-aider-et-l-accompagner-messi-un-atout-mais-aussi-une-source-de-motivation-pour-l-argentine-20260711",
+          "headline": "«L’aider et l’accompagner» : Messi, un atout mais aussi une source de motivation pour l’Argentine",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.4,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-11T06:15:00+00:00",
+      "last_seen": "2026-07-11T06:15:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.1244
+    },
+    {
+      "id": "e138e9c9dc",
+      "title": "Peut-on vraiment se baigner dans la Seine en toute sécurité ? Le Figaro a fait analyser l’eau par des scientifiques indépendants",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Figaro",
+          "url": "https://www.lefigaro.fr/sciences/peut-on-vraiment-se-baigner-dans-la-seine-en-toute-securite-le-figaro-a-fait-analyser-l-eau-par-des-scientifiques-independants-20260711",
+          "headline": "Peut-on vraiment se baigner dans la Seine en toute sécurité ? Le Figaro a fait analyser l’eau par des scientifiques indépendants",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.4,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-11T06:14:57+00:00",
+      "last_seen": "2026-07-11T06:14:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "language": "fr",
+      "resonance": 0.1243
+    },
+    {
+      "id": "bfd4588de8",
+      "title": "EN DIRECT - Canicule : des pics de températures à 40°C attendus ce samedi",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Figaro",
+          "url": "https://www.lefigaro.fr/meteo/en-direct-meteo-france-canicule-chaleur-orages-temperatures-vigilance-alerte-20260711",
+          "headline": "EN DIRECT - Canicule : des pics de températures à 40°C attendus ce samedi",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.4,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-11T06:13:32+00:00",
+      "last_seen": "2026-07-11T06:13:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.1207
+    },
+    {
+      "id": "2566994da2",
+      "title": "EN DIRECT - La canicule monte encore d’un cran, 22 millions de Français concernés par la vigilance rouge",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Libération",
+          "url": "https://www.liberation.fr/environnement/climat/en-direct-la-canicule-monte-encore-dun-cran-22-millions-de-francais-concernes-par-la-vigilance-rouge-20260711_YAYC24FV5BGM3CGHMKXYERMXZA/",
+          "headline": "EN DIRECT - La canicule monte encore d’un cran, 22 millions de Français concernés par la vigilance rouge",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.5,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:10:26+00:00",
+      "last_seen": "2026-07-11T06:10:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.1127
+    },
+    {
+      "id": "551d4768d0",
+      "title": "Mali : retour en images sur une semaine de combats à Anéfis, localité clé du Nord",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24 FR",
+          "url": "https://www.france24.com/fr/afrique/20260711-mali-retour-images-semaine-combats-an%C3%A9fis-localit%C3%A9-cl%C3%A9-nord-mali",
+          "headline": "Mali : retour en images sur une semaine de combats à Anéfis, localité clé du Nord",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:00:09+00:00",
+      "last_seen": "2026-07-11T06:00:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0869
+    },
+    {
+      "id": "1eba920e30",
+      "title": "«Elle avait pris sa décision dans la voiture» : dans les coulisses de ce jour où, condamnée, Marine Le Pen a choisi de rester candidate",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Libération",
+          "url": "https://www.liberation.fr/politique/elections/elle-avait-pris-sa-decision-dans-la-voiture-dans-les-coulisses-de-ce-jour-ou-condamnee-marine-le-pen-a-choisi-de-rester-candidate-20260711_5EYVKREO3VBMHNML4QKO6QUBDI/",
+          "headline": "«Elle avait pris sa décision dans la voiture» : dans les coulisses de ce jour où, condamnée, Marine Le Pen a choisi de rester candidate",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.5,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T06:00:00+00:00",
+      "last_seen": "2026-07-11T06:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "fr",
+      "resonance": 0.0866
+    },
+    {
+      "id": "7158d3f101",
+      "title": "Non, la France ne pointe pas à la 99e place «du classement des pays les plus sûrs de la planète»",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Libération",
+          "url": "https://www.liberation.fr/checknews/non-la-france-ne-pointe-pas-a-la-99e-place-du-classement-des-pays-les-plus-surs-de-la-planete-20260711_HAB3U2JRMFD5RE6HTGQ3TUHHDU/",
+          "headline": "Non, la France ne pointe pas à la 99e place «du classement des pays les plus sûrs de la planète»",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.5,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T05:45:00+00:00",
+      "last_seen": "2026-07-11T05:45:00+00:00",
       "platforms": [
         "rss"
       ],
@@ -893,61 +906,54 @@
       "topic": "world",
       "language": "fr",
       "resonance": 0.05
+    },
+    {
+      "id": "a1096bd838",
+      "title": "Coupe du monde 2026 : le sélectionneur suisse Murat Yakin, en route pour écrire la plus Bâle page de l’histoire de la «Nati» ?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Libération",
+          "url": "https://www.liberation.fr/sports/football/coupe-du-monde-2026-le-selectionneur-suisse-murat-yakin-en-route-pour-ecrire-la-plus-bale-page-de-lhistoire-de-la-nati-20260711_7NPQ26P43ZGOXBTMSD2EAQMVQY/",
+          "headline": "Coupe du monde 2026 : le sélectionneur suisse Murat Yakin, en route pour écrire la plus Bâle page de l’histoire de la «Nati» ?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.5,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T05:45:00+00:00",
+      "last_seen": "2026-07-11T05:45:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "fr",
+      "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "23b0e2a03f",
-      "target": "ae4448939f",
-      "weight": 0.054,
+      "source": "00b8c1de16",
+      "target": "bfd4588de8",
+      "weight": 0.211,
       "type": "thematic"
     },
     {
-      "source": "4f54df3022",
-      "target": "44a7b4432f",
-      "weight": 0.248,
+      "source": "00b8c1de16",
+      "target": "2566994da2",
+      "weight": 0.413,
       "type": "thematic"
     },
     {
-      "source": "02def00212",
-      "target": "f4b38a4c21",
-      "weight": 0.045,
-      "type": "thematic"
-    },
-    {
-      "source": "f4b38a4c21",
-      "target": "a674b2dfd8",
-      "weight": 0.383,
-      "type": "thematic"
-    },
-    {
-      "source": "f4b38a4c21",
-      "target": "c5aaca5715",
-      "weight": 0.131,
-      "type": "thematic"
-    },
-    {
-      "source": "a674b2dfd8",
-      "target": "c5aaca5715",
-      "weight": 0.23,
-      "type": "thematic"
-    },
-    {
-      "source": "a674b2dfd8",
-      "target": "ae4448939f",
-      "weight": 0.148,
-      "type": "thematic"
-    },
-    {
-      "source": "67507700d8",
-      "target": "219f0a5711",
-      "weight": 0.369,
-      "type": "thematic"
-    },
-    {
-      "source": "f6b38854aa",
-      "target": "7c0a7eae0b",
-      "weight": 0.053,
+      "source": "ea0c623955",
+      "target": "e138e9c9dc",
+      "weight": 0.6,
       "type": "thematic"
     }
   ],

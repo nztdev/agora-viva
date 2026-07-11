@@ -1,17 +1,29 @@
 {
-  "generated_at": "2026-07-10T23:04:35.282683+00:00",
+  "generated_at": "2026-07-11T00:55:44.396170+00:00",
   "node_count": 35,
-  "edge_count": 5,
+  "edge_count": 6,
   "nodes": [
     {
       "id": "afc4a821cc",
       "title": "Apple sues OpenAI, its employees claiming theft of trade secrets",
-      "signal_count": 9,
+      "signal_count": 10,
       "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/business/2026/07/11/tech/apple-sues-openai-secret-theft/",
+          "headline": "Apple sues OpenAI for trade secret theft in pivotal case",
+          "platform": "rss"
+        },
         {
           "outlet": "The Hindu",
           "url": "https://www.thehindu.com/sci-tech/technology/apple-sues-openai-for-stealing-trade-secrets/article71208364.ece",
           "headline": "Apple sues OpenAI for stealing trade secrets",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/economy/2026/7/10/apple-files-lawsuit-accusing-chatgpt-maker-openai-of-stealing-trade-secrets?traffic_source=rss",
+          "headline": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets",
           "platform": "rss"
         },
         {
@@ -43,64 +55,24 @@
           "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
           "headline": "Apple sues OpenAI over alleged trade secret theft",
           "platform": "rss"
-        },
-        {
-          "outlet": "Hacker News",
-          "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
-          "headline": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
-          "platform": "hackernews"
-        },
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
-          "headline": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.044,
-        "spread": 0.068,
+        "mean": -0.06,
+        "spread": 0.08,
         "left": 0,
-        "center": 9,
+        "center": 10,
         "right": 0
       },
-      "first_seen": "2026-07-10T20:35:38+00:00",
-      "last_seen": "2026-07-10T23:02:09+00:00",
+      "first_seen": "2026-07-10T20:44:05+00:00",
+      "last_seen": "2026-07-10T23:18:00+00:00",
       "platforms": [
         "hackernews",
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.9425
-    },
-    {
-      "id": "469d9a163d",
-      "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
-          "headline": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T20:52:28+00:00",
-      "last_seen": "2026-07-10T20:52:28+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.28
+      "resonance": 0.938
     },
     {
       "id": "7a089cec98",
@@ -128,7 +100,41 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.28
+      "resonance": 0.2221
+    },
+    {
+      "id": "5a71192efa",
+      "title": "Meta pulls new AI image feature after days of backlash",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c2dy6e8klw0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Meta pulls new AI image feature after days of backlash",
+          "platform": "rss"
+        },
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+          "headline": "Meta removes controversial AI feature on Instagram after backlash",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T23:55:07+00:00",
+      "last_seen": "2026-07-11T00:17:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2214
     },
     {
       "id": "d86fb4f9a6",
@@ -156,7 +162,445 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.28
+      "resonance": 0.2097
+    },
+    {
+      "id": "6e8e0c2781",
+      "title": "Cuba suffers second nationwide blackout in five days",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/cuba-suffers-second-nationwide-blackout-in-five-days/a-77913285?maca=en-rss-en-all-1573-rdf",
+          "headline": "Cuba suffers second nationwide blackout in five days",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/10/cuba-suffers-second-island-wide-blackout-in-a-week-amid-trump-fuel-blockade?traffic_source=rss",
+          "headline": "Cuba suffers second island-wide blackout in a week amid Trump fuel blockade",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T23:18:08+00:00",
+      "last_seen": "2026-07-10T23:27:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1618
+    },
+    {
+      "id": "ac9585da6f",
+      "title": "Trump agrees to more Iran talks but says truce is 'over'",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-ali-khamenei-funeral-ceremony-burial-military-strikes-donald-trump-mojtaba-khamenei-ceasefire-deal/article71205094.ece",
+          "headline": "West Asia war LIVE: Trump agrees to more Iran talks but insists truce is over",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/11/trump-agrees-to-more-iran-talks-but-says-truce-is-over_6755358_4.html",
+          "headline": "Trump agrees to more Iran talks but says truce is 'over'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T22:53:27+00:00",
+      "last_seen": "2026-07-10T23:24:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1603
+    },
+    {
+      "id": "8521378c2d",
+      "title": "Christopher Nolan calls criticism of 'The Odyssey' casting decisions 'irrelevant'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-analysis/christopher-nolan-calls-criticism-odyssey-casting-decisions-irrelevant",
+          "headline": "Christopher Nolan calls criticism of 'The Odyssey' casting decisions 'irrelevant'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-11T00:50:06+00:00",
+      "last_seen": "2026-07-11T00:50:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1026
+    },
+    {
+      "id": "424055be3a",
+      "title": "How a fake presidential council ended up with a budget of almost $1m in Nigeria",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c872v7wldjyo?at_medium=RSS&at_campaign=rss",
+          "headline": "How a fake presidential council ended up with a budget of almost $1m in Nigeria",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:46:15+00:00",
+      "last_seen": "2026-07-11T00:46:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0983
+    },
+    {
+      "id": "6ad222cfc8",
+      "title": "Turkish foreign minister calls for more pressure on Israel over Gaza aid",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkish-foreign-minister-calls-more-pressure-israel-over-gaza-aid",
+          "headline": "Turkish foreign minister calls for more pressure on Israel over Gaza aid",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:44:04+00:00",
+      "last_seen": "2026-07-11T00:44:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0959
+    },
+    {
+      "id": "4678cc01c2",
+      "title": "Why the new US housing bill won’t fix the crisis",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/why-the-new-us-housing-bill-wont-fix-the-crisis?traffic_source=rss",
+          "headline": "Why the new US housing bill won’t fix the crisis",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:41:51+00:00",
+      "last_seen": "2026-07-11T00:41:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0935
+    },
+    {
+      "id": "01cd010f88",
+      "title": "Death toll in Venezuela quakes rises past 4,000",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/11/death-toll-in-venezuela-quakes-rises-past-4-000_6755361_4.html",
+          "headline": "Death toll in Venezuela quakes rises past 4,000",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:40:41+00:00",
+      "last_seen": "2026-07-11T00:40:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0922
+    },
+    {
+      "id": "8a2ffd4510",
+      "title": "Venezuela quake death toll passes 4,000 as scale of recovery effort looms large",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/jul/11/venezuela-quake-deaths-passes-4000-recovery-effort",
+          "headline": "Venezuela quake death toll passes 4,000 as scale of recovery effort looms large",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:37:54+00:00",
+      "last_seen": "2026-07-11T00:37:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0892
+    },
+    {
+      "id": "88593e99a4",
+      "title": "BJP calls Congress’s charge against Union Home Minister on FCRA ‘baseless and politically motivated’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/bjp-calls-congresss-charge-against-union-home-minister-on-fcra-baseless-and-politically-motivated/article71207895.ece",
+          "headline": "BJP calls Congress’s charge against Union Home Minister on FCRA ‘baseless and politically motivated’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:30:59+00:00",
+      "last_seen": "2026-07-11T00:30:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0817
+    },
+    {
+      "id": "e430b53b65",
+      "title": "Europe’s smallest Jewish community gets a home of its own — soon with geothermal mikveh",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/europes-smallest-jewish-community-gets-a-home-of-its-own-soon-with-geothermal-mikveh/",
+          "headline": "Europe’s smallest Jewish community gets a home of its own — soon with geothermal mikveh",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:30:12+00:00",
+      "last_seen": "2026-07-11T00:30:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.0809
+    },
+    {
+      "id": "a2441d47e9",
+      "title": "Phia accused of ‘cookie stuffing,’ taking affiliate credit on purchases it didn’t earn",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/10/phia-accused-of-cookie-stuffing-taking-affiliate-credit-on-purchases-it-didnt-earn/",
+          "headline": "Phia accused of ‘cookie stuffing,’ taking affiliate credit on purchases it didn’t earn",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:29:25+00:00",
+      "last_seen": "2026-07-11T00:29:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.08
+    },
+    {
+      "id": "29413446e6",
+      "title": "Trump says U.S. agreed to Iran’s request to continue talks, but ceasefire is over",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/07/11/world/politics/trump-talks-continue-ceasefire-over/",
+          "headline": "Trump says U.S. agreed to Iran’s request to continue talks, but ceasefire is over",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-denies-requesting-us-talks-after-trump-says-dialogue-continue",
+          "headline": "Iran denies requesting US talks after Trump says dialogue will continue",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.125,
+        "spread": 0.125,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-10T20:49:42+00:00",
+      "last_seen": "2026-07-10T23:18:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0779
+    },
+    {
+      "id": "509e2e1517",
+      "title": "Tourist-town shops say order to remove 'unsafe' road signs bad for business",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-11/denmark-tourism-concerns-over-roadside-business-signs-dispute/106898150",
+          "headline": "Tourist-town shops say order to remove 'unsafe' road signs bad for business",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:26:41+00:00",
+      "last_seen": "2026-07-11T00:26:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0771
+    },
+    {
+      "id": "7d28b61eab",
+      "title": "7,948 Assam schools without ideal pupil-teacher ratio",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/assam/7948-assam-schools-without-ideal-pupil-teacher-ratio/article71202604.ece",
+          "headline": "7,948 Assam schools without ideal pupil-teacher ratio",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:26:38+00:00",
+      "last_seen": "2026-07-11T00:26:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0771
+    },
+    {
+      "id": "6530fc8355",
+      "title": "Trump Tried to Stop Canada’s Bridge to Detroit From Opening. It Will Open Anyway.",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/10/world/canada/gordie-howe-bridge-canada-us-michigan.html",
+          "headline": "Trump Tried to Stop Canada’s Bridge to Detroit From Opening. It Will Open Anyway.",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:26:31+00:00",
+      "last_seen": "2026-07-11T00:26:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.077
     },
     {
       "id": "07adc7d4af",
@@ -196,7 +640,63 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1907
+      "resonance": 0.0754
+    },
+    {
+      "id": "b5536ae43d",
+      "title": "Germany records most fatalities from Europe's latest heatwave",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/environment/article/2026/07/11/germany-records-most-fatalities-from-europe-s-latest-heatwave_6755360_114.html",
+          "headline": "Germany records most fatalities from Europe's latest heatwave",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:24:23+00:00",
+      "last_seen": "2026-07-11T00:24:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.0747
+    },
+    {
+      "id": "8f7d339523",
+      "title": "Shock resignation of NT children's commissioner deemed 'a tragedy'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-11/nt-childrens-commissioner-resignation-concerns-advocates/106902744",
+          "headline": "Shock resignation of NT children's commissioner deemed 'a tragedy'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:21:23+00:00",
+      "last_seen": "2026-07-11T00:21:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "resonance": 0.0716
     },
     {
       "id": "90ab7536e9",
@@ -230,103 +730,45 @@
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.1866
+      "resonance": 0.0705
     },
     {
-      "id": "39947ca546",
-      "title": "UK police arrest murder suspect in Ann Widdecombe's death",
-      "signal_count": 4,
+      "id": "d84708703e",
+      "title": "Frontal organisations backbone of Congress, says Dutt; issues directives for revamp in Haryana",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/uk-police-arrest-suspect-in-the-killing-of-former-parliament-member-ann-widdecombe/",
-          "headline": "UK police arrest suspect in the killing of former Parliament member Ann Widdecombe",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260710-police-arrest-suspect-in-killing-of-former-uk-minister-ann-widdecombe",
-          "headline": "Police arrest suspect in killing of former UK minister Ann Widdecombe",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/10/uk-police-arrest-man-suspected-of-murdering-former-mp-ann-widdecombe?traffic_source=rss",
-          "headline": "UK police arrest man suspected of murdering former MP Ann Widdecombe",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/uk-police-arrest-murder-suspect-in-ann-widdecombe-s-death/a-77910345?maca=en-rss-en-all-1573-rdf",
-          "headline": "UK police arrest murder suspect in Ann Widdecombe's death",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/haryana/frontal-organisations-backbone-of-congress-says-dutt-issues-directives-for-revamp-in-haryana/article71207134.ece",
+          "headline": "Frontal organisations backbone of Congress, says Dutt; issues directives for revamp in Haryana",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.087,
-        "spread": 0.089,
+        "mean": -0.1,
+        "spread": 0.0,
         "left": 0,
-        "center": 4,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-10T17:18:00+00:00",
-      "last_seen": "2026-07-10T20:36:30+00:00",
+      "first_seen": "2026-07-11T00:19:49+00:00",
+      "last_seen": "2026-07-11T00:19:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1641
+      "resonance": 0.0699
     },
     {
-      "id": "9347d5750a",
-      "title": "Harry visits King with Meghan and children for first time in four years",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260710-prince-harry-visits-king-charles-iii-with-meghan-and-children-for-first-time-in-years",
-          "headline": "Prince Harry visits King Charles III with Meghan and children for first time in years",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cj4g79exkzlo?at_medium=RSS&at_campaign=rss",
-          "headline": "Harry visits King with Meghan and children for first time in four years",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3360193/king-charles-hosts-prince-harry-and-family-first-time-years-amid-royal-rift?utm_source=rss_feed",
-          "headline": "King Charles hosts Prince Harry and family for first time in years, amid royal rift",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.033,
-        "spread": 0.094,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T18:41:37+00:00",
-      "last_seen": "2026-07-10T19:39:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1402
-    },
-    {
-      "id": "8b873982ae",
-      "title": "Quantum error correction can constantly recalibrate a processor",
+      "id": "e75a8ca727",
+      "title": "Cooler for some this weekend but heatwave continues",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/",
-          "headline": "Quantum error correction can constantly recalibrate a processor",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/weather/articles/c621kp4y701o?at_medium=RSS&at_campaign=rss",
+          "headline": "Cooler for some this weekend but heatwave continues",
           "platform": "rss"
         }
       ],
@@ -337,80 +779,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-10T23:02:30+00:00",
-      "last_seen": "2026-07-10T23:02:30+00:00",
+      "first_seen": "2026-07-11T00:18:26+00:00",
+      "last_seen": "2026-07-11T00:18:26+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.112
+      "topic": "climate",
+      "resonance": 0.0685
     },
     {
-      "id": "f92f1771f9",
-      "title": "Pitbull fans set Guinness World Record at BST Hyde Park show",
+      "id": "ca320d8296",
+      "title": "'Devastating' evidence against Charlie Kirk murder suspect laid out in court",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cp8leyy42nvo?at_medium=RSS&at_campaign=rss",
-          "headline": "Pitbull fans set Guinness World Record at BST Hyde Park show",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T23:01:39+00:00",
-      "last_seen": "2026-07-10T23:01:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1111
-    },
-    {
-      "id": "4a77a6f748",
-      "title": "Shohei Ohtani ruled out of MLB All-Star Game as Dodgers plan to manage nagging injury",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/shohei-ohtani-ruled-out-mlb-all-star-game-dodgers-plan-manage-nagging-injury",
-          "headline": "Shohei Ohtani ruled out of MLB All-Star Game as Dodgers plan to manage nagging injury",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T23:00:02+00:00",
-      "last_seen": "2026-07-10T23:00:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1093
-    },
-    {
-      "id": "71c24c92ac",
-      "title": "In Japan, ‘tastes like medicine’ can be a compliment",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/life/2026/07/11/food-drink/japanese-kitchen-chicken-shiso-mint-recipe/",
-          "headline": "In Japan, ‘tastes like medicine’ can be a compliment",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c4gy12gqzpvo?at_medium=RSS&at_campaign=rss",
+          "headline": "'Devastating' evidence against Charlie Kirk murder suspect laid out in court",
           "platform": "rss"
         }
       ],
@@ -421,160 +807,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-10T23:00:00+00:00",
-      "last_seen": "2026-07-10T23:00:00+00:00",
+      "first_seen": "2026-07-11T00:17:15+00:00",
+      "last_seen": "2026-07-11T00:17:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1092
+      "topic": "politics",
+      "resonance": 0.0673
     },
     {
-      "id": "f8e2f97b0f",
-      "title": "Nigerian security forces rescue dozens of abducted schoolchildren and teachers",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/10/dozens-of-abducted-schoolchildren-and-teachers-rescued-in-nigeria?traffic_source=rss",
-          "headline": "Dozens of abducted schoolchildren and teachers rescued in Nigeria",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/10/nigerian-security-forces-rescue-dozens-of-abducted-students-and-teachers_6755354_4.html",
-          "headline": "Nigerian security forces rescue dozens of abducted schoolchildren and teachers",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T19:36:19+00:00",
-      "last_seen": "2026-07-10T21:01:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1043
-    },
-    {
-      "id": "71bcc98c86",
-      "title": "Belgian Tim Merlier wins Tour de France 7th stage as Pogacar holds onto yellow jersey",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/other-sports/merlier-wins-tour-de-france-seventh-stage-in-sprint-finish/article71208361.ece",
-          "headline": "Merlier wins Tour de France seventh stage in sprint finish",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/live-news/20260710-merlier-wins-tour-de-france-seventh-stage-in-sprint-finish",
-          "headline": "Belgian Tim Merlier wins Tour de France 7th stage as Pogacar holds onto yellow jersey",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T15:51:09+00:00",
-      "last_seen": "2026-07-10T22:50:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1031
-    },
-    {
-      "id": "8246a59647",
-      "title": "'Shameless' star Emmy Rossum reveals secret marriage at 21 after boyfriend's alleged shocking ultimatum",
+      "id": "eaa75aeef8",
+      "title": "No, Flock isn&#8217;t threatening people for debating surveillance",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/shameless-star-emmy-rossum-reveals-secret-marriage-21-after-boyfriends-alleged-shocking-ultimatum",
-          "headline": "'Shameless' star Emmy Rossum reveals secret marriage at 21 after boyfriend's alleged shocking ultimatum",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T22:54:16+00:00",
-      "last_seen": "2026-07-10T22:54:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1029
-    },
-    {
-      "id": "f6fdeb9726",
-      "title": "Man nearly sucked out of window mid-air on Ryanair plane, passengers say",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/10/world/europe/ryanair-plane-greece-passenger-broken-window.html",
-          "headline": "Passenger Is Partly Sucked Through Window on Ryanair Subsidiary Flight, Reports Say",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/man-nearly-sucked-out-of-detached-window-on-ryanair-flight-from-greece/",
-          "headline": "Man nearly sucked out of ‘detached’ window on Ryanair flight from Greece",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cgk65knkyzdo?at_medium=RSS&at_campaign=rss",
-          "headline": "Man nearly sucked out of window mid-air on Ryanair plane, passengers say",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.083,
-        "spread": 0.155,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T16:42:24+00:00",
-      "last_seen": "2026-07-10T20:55:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1022
-    },
-    {
-      "id": "6e35c485d1",
-      "title": "India assures six medals in U-23 men’s category at Asian boxing championships",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/other-sports/india-assures-six-medals-in-u-23-mens-category-at-asian-boxing-championships/article71208362.ece",
-          "headline": "India assures six medals in U-23 men’s category at Asian boxing championships",
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/964425/flock-safety-cease-and-desist-letter",
+          "headline": "No, Flock isn&#8217;t threatening people for debating surveillance",
           "platform": "rss"
         }
       ],
@@ -585,24 +835,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-10T22:45:31+00:00",
-      "last_seen": "2026-07-10T22:45:31+00:00",
+      "first_seen": "2026-07-11T00:10:38+00:00",
+      "last_seen": "2026-07-11T00:10:38+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0935
+      "topic": "world",
+      "resonance": 0.0605
     },
     {
-      "id": "b28b8fa100",
-      "title": "US strikes killed 17 people in Iran, health ministry says",
+      "id": "aef02b904b",
+      "title": "Labor still sliding in Tasmania, despite facing a 12-year-old minority government",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-11/tas-polling-shows-labor-sliding-further/106901358",
+          "headline": "Labor still sliding in Tasmania, despite facing a 12-year-old minority government",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:07:27+00:00",
+      "last_seen": "2026-07-11T00:07:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0573
+    },
+    {
+      "id": "d47500f872",
+      "title": "Saudi Crown Prince and Trump discuss US-Iran talks, maritime security",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-strikes-killed-17-people-iran-health-ministry-says",
-          "headline": "US strikes killed 17 people in Iran, health ministry says",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-crown-prince-and-trump-discuss-us-iran-talks-maritime-security",
+          "headline": "Saudi Crown Prince and Trump discuss US-Iran talks, maritime security",
           "platform": "rss"
         }
       ],
@@ -613,24 +891,136 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-10T22:45:09+00:00",
-      "last_seen": "2026-07-10T22:45:09+00:00",
+      "first_seen": "2026-07-11T00:03:57+00:00",
+      "last_seen": "2026-07-11T00:03:57+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0931
+      "topic": "world",
+      "resonance": 0.0537
     },
     {
-      "id": "dfb4c89838",
-      "title": "China accuses US of ignoring Trump, Xi rapport and targeting Chinese firms",
+      "id": "3acd1cb998",
+      "title": "Five key scenes from the Bayeux Tapestry, and the story they tell",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c4gy1xg9z0mo?at_medium=RSS&at_campaign=rss",
+          "headline": "Five key scenes from the Bayeux Tapestry, and the story they tell",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:03:50+00:00",
+      "last_seen": "2026-07-11T00:03:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0536
+    },
+    {
+      "id": "512b403e13",
+      "title": "How the absence of Iran’s new supreme leader is becoming a liability for Tehran",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/07/11/world/politics/iran-supreme-leader-absence-analysis/",
+          "headline": "How the absence of Iran’s new supreme leader is becoming a liability for Tehran",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:03:00+00:00",
+      "last_seen": "2026-07-11T00:03:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0528
+    },
+    {
+      "id": "9b4c0b9956",
+      "title": "See if you can spot an AI deepfake with our test",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c9d2wgvg55jo?at_medium=RSS&at_campaign=rss",
+          "headline": "See if you can spot an AI deepfake with our test",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:00:55+00:00",
+      "last_seen": "2026-07-11T00:00:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0507
+    },
+    {
+      "id": "0ebda633a3",
+      "title": "At Canada's biggest rodeo, the starting gun is fired in the fight over Alberta separation",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c3eykgln5eeo?at_medium=RSS&at_campaign=rss",
+          "headline": "At Canada's biggest rodeo, the starting gun is fired in the fight over Alberta separation",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T00:00:42+00:00",
+      "last_seen": "2026-07-11T00:00:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0505
+    },
+    {
+      "id": "7a871b5932",
+      "title": "As Typhoon Bavi nears, Chinese bloggers warned amateur AI forecasts may be illegal",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3360197/china-accuses-us-ignoring-trump-xi-rapport-and-targeting-chinese-firms?utm_source=rss_feed",
-          "headline": "China accuses US of ignoring Trump, Xi rapport and targeting Chinese firms",
+          "url": "https://www.scmp.com/news/china/science/article/3360171/typhoon-bavi-nears-chinese-bloggers-warned-amateur-ai-forecasts-may-be-illegal?utm_source=rss_feed",
+          "headline": "As Typhoon Bavi nears, Chinese bloggers warned amateur AI forecasts may be illegal",
           "platform": "rss"
         }
       ],
@@ -641,462 +1031,36 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-10T22:44:19+00:00",
-      "last_seen": "2026-07-10T22:44:19+00:00",
+      "first_seen": "2026-07-11T00:00:21+00:00",
+      "last_seen": "2026-07-11T00:00:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0922
+      "resonance": 0.0501
     },
     {
-      "id": "4c7fb0a2ad",
-      "title": "Sitcom star Candice Bergen reveals that she accidentally lit a Swiss restaurant on fire",
+      "id": "56003ecedb",
+      "title": "Southeast Asia’s scammers’ new disguise: your leader’s face",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-culture/sitcom-star-candace-bergen-reveals-accidentally-lit-swiss-restaurant-fire",
-          "headline": "Sitcom star Candice Bergen reveals that she accidentally lit a Swiss restaurant on fire",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/week-asia/economics/article/3360150/southeast-asias-scammers-new-disguise-your-leaders-face?utm_source=rss_feed",
+          "headline": "Southeast Asia’s scammers’ new disguise: your leader’s face",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-10T22:42:41+00:00",
-      "last_seen": "2026-07-10T22:42:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0905
-    },
-    {
-      "id": "319f603a36",
-      "title": "Colombia’s Jaminton Campaz receives death threats after World Cup exit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/10/colombias-jaminton-campaz-receives-death-threats-after-world-cup-exit?traffic_source=rss",
-          "headline": "Colombia’s Jaminton Campaz receives death threats after World Cup exit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
+        "mean": 0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-10T22:39:17+00:00",
-      "last_seen": "2026-07-10T22:39:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0869
-    },
-    {
-      "id": "b1eeac2f66",
-      "title": "Belgian rider claims Stage 7 of Tour de France as Pogačar retains lead",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-11/tour-de-france-stage-7-wrap-merlier-wins-pogacar-leads/106904662",
-          "headline": "Belgian rider claims Stage 7 of Tour de France as Pogačar retains lead",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T22:38:05+00:00",
-      "last_seen": "2026-07-10T22:38:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0856
-    },
-    {
-      "id": "a271ad4489",
-      "title": "Man fatally shot by ICE in Houston was not intended target, DHS says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cm2rm66xd17o?at_medium=RSS&at_campaign=rss",
-          "headline": "Man fatally shot by ICE in Houston was not intended target, DHS says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T22:38:03+00:00",
-      "last_seen": "2026-07-10T22:38:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0856
-    },
-    {
-      "id": "6a82716ec7",
-      "title": "Increased drone surveillance of illegal July 4th fireworks led to $100K fine",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/07/on-americas-250th-more-cities-used-drone-surveillance-to-spot-illegal-fireworks/",
-          "headline": "Increased drone surveillance of illegal July 4th fireworks led to $100K fine",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T22:37:22+00:00",
-      "last_seen": "2026-07-10T22:37:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0849
-    },
-    {
-      "id": "569d35601a",
-      "title": "Under Lula, Amazon deforestation falls to lowest level in a decade",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/10/under-lula-amazon-deforestation-falls-to-lowest-level-in-a-decade?traffic_source=rss",
-          "headline": "Under Lula, Amazon deforestation falls to lowest level in a decade",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T22:36:18+00:00",
-      "last_seen": "2026-07-10T22:36:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0838
-    },
-    {
-      "id": "cf37ee772f",
-      "title": "The FCC is cracking down on DJI tech that dodged the foreign drone ban",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/policy/964342/fcc-crack-down-dji-front-companies-xtra-skyrover-sgs-lab",
-          "headline": "The FCC is cracking down on DJI tech that dodged the foreign drone ban",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T22:35:18+00:00",
-      "last_seen": "2026-07-10T22:35:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0827
-    },
-    {
-      "id": "a7df7b7847",
-      "title": "West Asia war LIVE: Iran has asked to continue talks, and the U.S. agreed, Trump says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-ali-khamenei-funeral-ceremony-burial-military-strikes-donald-trump-mojtaba-khamenei-ceasefire-deal/article71205094.ece",
-          "headline": "West Asia war LIVE: Iran has asked to continue talks, and the U.S. agreed, Trump says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T22:32:04+00:00",
-      "last_seen": "2026-07-10T22:32:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0794
-    },
-    {
-      "id": "7f532f9474",
-      "title": "Aboriginal artist recreating 'oldest living weaving practice' with glass",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-11/act-aboriginal-woman-glass-artist-traditional-weaving-technique/106902124",
-          "headline": "Aboriginal artist recreating 'oldest living weaving practice' with glass",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T22:31:39+00:00",
-      "last_seen": "2026-07-10T22:31:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0789
-    },
-    {
-      "id": "1485195839",
-      "title": "Kipyegon eyes Monaco springboard on road to recovery",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/athletics/kipyegon-eyes-monaco-springboard-on-road-to-recovery/article71208356.ece",
-          "headline": "Kipyegon eyes Monaco springboard on road to recovery",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T22:28:44+00:00",
-      "last_seen": "2026-07-10T22:28:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0759
-    },
-    {
-      "id": "77fa3bc122",
-      "title": "ACT signs deal for CSIRO site, plans to build 3,000 homes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-11/act-government-to-buy-csiro-ginninderra-site-for-3000-new-homes/106902108",
-          "headline": "ACT signs deal for CSIRO site, plans to build 3,000 homes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T22:28:27+00:00",
-      "last_seen": "2026-07-10T22:28:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0756
-    },
-    {
-      "id": "47804f5721",
-      "title": "Museum Spreads 800 Pounds of Peanut Butter in Tribute to Dutch Artist",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/10/arts/dutch-museum-peanut-butter-floor-art-wim-schippers.html",
-          "headline": "Museum Spreads 800 Pounds of Peanut Butter in Tribute to Dutch Artist",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T22:25:29+00:00",
-      "last_seen": "2026-07-10T22:25:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0726
-    },
-    {
-      "id": "061097b2b2",
-      "title": "Shin Bet chief wants to probe Channel 12 over Iran war tip-off, but denies caving to right-wing pressure",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/shin-bet-chief-said-seeking-probe-into-channel-12-but-denies-he-caved-to-pressure/",
-          "headline": "Shin Bet chief wants to probe Channel 12 over Iran war tip-off, but denies caving to right-wing pressure",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T22:17:04+00:00",
-      "last_seen": "2026-07-10T22:17:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0641
-    },
-    {
-      "id": "9c5ff481e6",
-      "title": "Canada’s Bill C-36 tackles AI privacy. Is it enough?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/economy/2026/7/10/canadas-bill-c-36-tackles-ai-privacy-is-it-enough?traffic_source=rss",
-          "headline": "Canada’s Bill C-36 tackles AI privacy. Is it enough?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T22:12:38+00:00",
-      "last_seen": "2026-07-10T22:12:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0597
-    },
-    {
-      "id": "84eb900063",
-      "title": "EU foreign ministers to discuss ban on products from West Bank settlements",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/eu-foreign-ministers-to-discuss-ban-on-products-from-west-bank-settlements/",
-          "headline": "EU foreign ministers to discuss ban on products from West Bank settlements",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eu-countries-discuss-trade-ban-israeli-settlements",
-          "headline": "EU countries to discuss trade ban on Israeli settlements",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.15,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T18:46:33+00:00",
-      "last_seen": "2026-07-10T20:24:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0587
-    },
-    {
-      "id": "c33ba74f49",
-      "title": "Watch: Inside the 30-hour dating retreat run by monks",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/videos/cpq300nx85wo?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: Inside the 30-hour dating retreat run by monks",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-10T22:02:42+00:00",
-      "last_seen": "2026-07-10T22:02:42+00:00",
+      "first_seen": "2026-07-11T00:00:13+00:00",
+      "last_seen": "2026-07-11T00:00:13+00:00",
       "platforms": [
         "rss"
       ],
@@ -1107,33 +1071,39 @@
   ],
   "edges": [
     {
-      "source": "90ab7536e9",
-      "target": "f92f1771f9",
-      "weight": 0.007,
+      "source": "ac9585da6f",
+      "target": "29413446e6",
+      "weight": 0.89,
       "type": "thematic"
     },
     {
-      "source": "90ab7536e9",
-      "target": "319f603a36",
-      "weight": 0.017,
+      "source": "ac9585da6f",
+      "target": "d47500f872",
+      "weight": 0.699,
       "type": "thematic"
     },
     {
-      "source": "71bcc98c86",
-      "target": "b1eeac2f66",
-      "weight": 0.614,
+      "source": "6ad222cfc8",
+      "target": "88593e99a4",
+      "weight": 0.085,
       "type": "thematic"
     },
     {
-      "source": "8246a59647",
-      "target": "4c7fb0a2ad",
-      "weight": 0.03,
+      "source": "01cd010f88",
+      "target": "8a2ffd4510",
+      "weight": 0.906,
       "type": "thematic"
     },
     {
-      "source": "cf37ee772f",
-      "target": "84eb900063",
-      "weight": 0.18,
+      "source": "29413446e6",
+      "target": "d47500f872",
+      "weight": 0.473,
+      "type": "thematic"
+    },
+    {
+      "source": "b5536ae43d",
+      "target": "e75a8ca727",
+      "weight": 0.121,
       "type": "thematic"
     }
   ],

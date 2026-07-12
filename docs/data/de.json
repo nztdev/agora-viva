@@ -1,11 +1,46 @@
 {
-  "generated_at": "2026-07-12T22:04:18.855153+00:00",
+  "generated_at": "2026-07-12T23:04:58.338899+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 14,
+  "edge_count": 9,
   "nodes": [
+    {
+      "id": "59c90e97dd",
+      "title": "+++ Iran-Krieg +++: USA fliegen weitere Angriffe auf den Iran",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/US-Militaer-startet-weitere-Angriffe-im-Iran-id31078034.html",
+          "headline": "Nach Angriffen auf Frachter: US-Militär startet weitere Angriffe im Iran",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/international/iran-krieg-usa-fliegen-weitere-angriffe-auf-den-iran/100136895.html",
+          "headline": "+++ Iran-Krieg +++: USA fliegen weitere Angriffe auf den Iran",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.075,
+        "spread": 0.075,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T21:26:00+00:00",
+      "last_seen": "2026-07-12T22:22:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.6505
+    },
     {
       "id": "423e4da0c1",
       "title": "Irankrieg: USA greifen erneut Ziele im Iran an",
@@ -32,19 +67,19 @@
         "right": 1
       },
       "first_seen": "2026-07-12T21:28:50+00:00",
-      "last_seen": "2026-07-12T21:56:30+00:00",
+      "last_seen": "2026-07-12T22:13:54+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
       "language": "de",
-      "resonance": 0.6675
+      "resonance": 0.6281
     },
     {
       "id": "1b9956acbd",
       "title": "Mindestens 27 Tote: Feuer in Bangkok: Was wir wissen – und was nicht",
-      "signal_count": 3,
+      "signal_count": 4,
       "sources": [
         {
           "outlet": "Die Zeit",
@@ -59,20 +94,26 @@
           "platform": "rss"
         },
         {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/panorama/Mindestens-27-Menschen-sterben-bei-Feuer-in-Pub-in-Bangkok-id31077956.html",
+          "headline": "In beliebtem Touristenviertel: Mindestens 27 Menschen sterben bei Feuer in Pub in Bangkok",
+          "platform": "rss"
+        },
+        {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/12/medien-viele-tote-bei-feuer-in-pub-in-bangkok",
-          "headline": "Brände: Mindestens 27 Tote bei Brandkatastrophe in Bangkok",
+          "url": "https://www.zeit.de/gesellschaft/2026-07/bangkok-feuer-bar-brand-tote",
+          "headline": "Bangkok: Mindestens 27 Menschen sterben durch Brand in Bangkok",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.283,
+        "mean": -0.075,
+        "spread": 0.249,
         "left": 2,
-        "center": 0,
+        "center": 1,
         "right": 1
       },
-      "first_seen": "2026-07-12T20:50:26+00:00",
+      "first_seen": "2026-07-12T19:39:45+00:00",
       "last_seen": "2026-07-12T21:23:24+00:00",
       "platforms": [
         "rss"
@@ -80,12 +121,134 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.5925
+      "resonance": 0.6104
+    },
+    {
+      "id": "68a70091a7",
+      "title": "Landkreis Nordwestmecklenburg: Mitten bei der Ernte: Mähdrescher geht in Flammen auf",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/13/mitten-bei-der-ernte-maehdrescher-geht-in-flammen-auf",
+          "headline": "Landkreis Nordwestmecklenburg: Mitten bei der Ernte: Mähdrescher geht in Flammen auf",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T22:45:17+00:00",
+      "last_seen": "2026-07-12T22:45:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "b3819c9081",
+      "title": "Tabaksteuer: Tabaksteuer soll stärker erhöht werden als geplant",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/deutschland/2026-07/tabaksteuer-erhoehung-zigarettenpreis-feinschnitt-bund",
+          "headline": "Tabaksteuer: Tabaksteuer soll stärker erhöht werden als geplant",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T22:30:15+00:00",
+      "last_seen": "2026-07-12T22:30:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "39f1098e13",
+      "title": "\"Wir wissen selbst...\": Superstar springt Tuchel im Ärger mit Bellingham bei",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball-wm/Superstar-springt-Tuchel-im-Aerger-mit-Bellingham-bei-id31078026.html",
+          "headline": "\"Wir wissen selbst...\": Superstar springt Tuchel im Ärger mit Bellingham bei",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T22:20:08+00:00",
+      "last_seen": "2026-07-12T22:20:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "f45115611a",
+      "title": "Sanktionen gegen Israel: Deutschland soll laut SPD-Politiker Sanktionen gegen Israel zulassen",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-07/sanktionen-israel-eu-adis-ahmetovic-westjordanland",
+          "headline": "Sanktionen gegen Israel: Deutschland soll laut SPD-Politiker Sanktionen gegen Israel zulassen",
+          "platform": "rss"
+        },
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/EU-Sanktionen/!6195437/",
+          "headline": "EU-Sanktionen: EU ringt um Sanktionen gegen Israel",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.425,
+        "spread": 0.125,
+        "left": 2,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T12:42:00+00:00",
+      "last_seen": "2026-07-12T22:10:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.3081
     },
     {
       "id": "b8fd7fe384",
       "title": "Trump-Verbündeter: US-Senator und Trump-Freund Graham ist tot",
-      "signal_count": 3,
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "Die Zeit",
@@ -98,22 +261,16 @@
           "url": "https://www.handelsblatt.com/politik/international/usa-republikanischer-us-senator-lindsey-graham-ist-tot/100239601.html",
           "headline": "USA: Republikanischer US-Senator Lindsey Graham ist tot",
           "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/US-Senator-Lindsey-Graham-ist-tot-id31076460.html",
-          "headline": "Nach \"plötzlicher Erkrankung\": US-Senator Lindsey Graham ist tot",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.05,
-        "spread": 0.187,
+        "mean": -0.075,
+        "spread": 0.225,
         "left": 1,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-12T06:42:10+00:00",
+      "first_seen": "2026-07-12T15:29:37+00:00",
       "last_seen": "2026-07-12T21:51:49+00:00",
       "platforms": [
         "rss"
@@ -121,95 +278,36 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.5194
+      "resonance": 0.2994
     },
     {
-      "id": "b1ecaa2e3f",
-      "title": "Bangkok: Mindestens 27 Menschen sterben durch Brand in Bangok",
-      "signal_count": 2,
+      "id": "5dca71946e",
+      "title": "„Eine gute Opportunität“ – Warum die neue Zentrale in der Hafencity sitzt",
+      "signal_count": 1,
       "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/panorama/Mindestens-27-Menschen-sterben-bei-Feuer-in-Pub-in-Bangkok-id31077956.html",
-          "headline": "In beliebtem Touristenviertel: Mindestens 27 Menschen sterben bei Feuer in Pub in Bangkok",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/gesellschaft/2026-07/bangkok-feuer-bar-brand-tote",
-          "headline": "Bangkok: Mindestens 27 Menschen sterben durch Brand in Bangok",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.15,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T19:39:45+00:00",
-      "last_seen": "2026-07-12T20:50:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.4979
-    },
-    {
-      "id": "4879de2f63",
-      "title": "Tennis: Alexander Zverev verliert Wimbledon-Finale gegen Jannik Sinner",
-      "signal_count": 5,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/tennis/tennis-alexander-zverev-verliert-wimbledon-finale-gegen-jannik-sinner-a-4311649a-5cc5-435c-a936-6cf584bf89f1#ref=rss",
-          "headline": "Tennis: Alexander Zverev verliert Wimbledon-Finale gegen Jannik Sinner",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/tennis/Alexander-Zverev-verliert-Wimbledon-Finale-id31077865.html",
-          "headline": "Führung und Schreck: Alexander Zverev verliert Wimbledon-Finale",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-07/alexander-zverev-unterliegt-im-wimbledon-finale-jannik-sinner",
-          "headline": "Tennis: Alexander Zverev unterliegt im Wimbledon-Finale Jannik Sinner",
-          "platform": "rss"
-        },
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/sport/tennis/article6a53a1ff6e9b713b4352eadc/tennis-sinner-genuegen-zwei-breaks-zum-triumph-zverev-verliert-sein-erstes-wimbledon-finale.html",
-          "headline": "„Jannik, ich mag dich nicht mehr“ – Zverev verliert sein erstes Wimbledon-Finale gegen Sinner",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/tennis/wimbledon-finale-2026-live-alexander-zverev-gegen-jannik-sinner-im-liveticker-a-0c6283a6-0d62-4508-8108-98ee26a3085c#ref=rss",
-          "headline": "Wimbledon: Drei Erkenntnisse aus dem Finale zwischen Alexander Zverev und Jannik Sinner",
+          "url": "https://www.welt.de/regionales/hamburg/article6a4e2d7bbb0cf80de56a22b6/aurubis-zieht-um-eine-gute-opportunitaet-warum-die-neue-zentrale-in-der-hafencity-sitzt.html",
+          "headline": "„Eine gute Opportunität“ – Warum die neue Zentrale in der Hafencity sitzt",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.06,
-        "spread": 0.203,
-        "left": 1,
-        "center": 3,
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-12T14:54:00+00:00",
-      "last_seen": "2026-07-12T19:34:00+00:00",
+      "first_seen": "2026-07-12T22:01:00+00:00",
+      "last_seen": "2026-07-12T22:01:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.448
+      "resonance": 0.28
     },
     {
       "id": "b67ddb60ce",
@@ -238,7 +336,54 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.28
+      "resonance": 0.2777
+    },
+    {
+      "id": "4879de2f63",
+      "title": "Tennis: Alexander Zverev verliert Wimbledon-Finale gegen Jannik Sinner",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/tennis/tennis-alexander-zverev-verliert-wimbledon-finale-gegen-jannik-sinner-a-4311649a-5cc5-435c-a936-6cf584bf89f1#ref=rss",
+          "headline": "Tennis: Alexander Zverev verliert Wimbledon-Finale gegen Jannik Sinner",
+          "platform": "rss"
+        },
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/tennis/Alexander-Zverev-verliert-Wimbledon-Finale-id31077865.html",
+          "headline": "Führung und Schreck: Alexander Zverev verliert Wimbledon-Finale",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/tennis/article6a53a1ff6e9b713b4352eadc/tennis-sinner-genuegen-zwei-breaks-zum-triumph-zverev-verliert-sein-erstes-wimbledon-finale.html",
+          "headline": "„Jannik, ich mag dich nicht mehr“ – Zverev verliert sein erstes Wimbledon-Finale gegen Sinner",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/tennis/wimbledon-finale-2026-live-alexander-zverev-gegen-jannik-sinner-im-liveticker-a-0c6283a6-0d62-4508-8108-98ee26a3085c#ref=rss",
+          "headline": "Wimbledon: Drei Erkenntnisse aus dem Finale zwischen Alexander Zverev und Jannik Sinner",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.184,
+        "left": 0,
+        "center": 3,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T14:54:00+00:00",
+      "last_seen": "2026-07-12T19:34:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2562
     },
     {
       "id": "a1dc428035",
@@ -267,7 +412,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.28
+      "resonance": 0.2457
     },
     {
       "id": "2a8f32e53b",
@@ -296,65 +441,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "59c90e97dd",
-      "title": "+++ Iran-Krieg +++: USA fliegen weitere Angriffe auf den Iran",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/international/iran-krieg-usa-fliegen-weitere-angriffe-auf-den-iran/100136895.html",
-          "headline": "+++ Iran-Krieg +++: USA fliegen weitere Angriffe auf den Iran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:26:00+00:00",
-      "last_seen": "2026-07-12T21:26:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "ce7dfeed97",
-      "title": "Starke Rauchentwicklung: Großbrand in Kleingartenanlage in Wiesbaden gelöscht",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/12/grossbrand-in-kleingartenanlage-in-amoeneburg",
-          "headline": "Starke Rauchentwicklung: Großbrand in Kleingartenanlage in Wiesbaden gelöscht",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:14:35+00:00",
-      "last_seen": "2026-07-12T21:14:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
+      "resonance": 0.2253
     },
     {
       "id": "e9309b7697",
@@ -395,7 +482,36 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.2844
+      "resonance": 0.2197
+    },
+    {
+      "id": "ce7dfeed97",
+      "title": "Starke Rauchentwicklung: Großbrand in Kleingartenanlage in Wiesbaden gelöscht",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/12/grossbrand-in-kleingartenanlage-in-amoeneburg",
+          "headline": "Starke Rauchentwicklung: Großbrand in Kleingartenanlage in Wiesbaden gelöscht",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T21:14:35+00:00",
+      "last_seen": "2026-07-12T21:14:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2036
     },
     {
       "id": "88ff6e3a69",
@@ -424,17 +540,46 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.2771
+      "resonance": 0.1937
     },
     {
-      "id": "a5a0f90c57",
-      "title": "Ägypten: Archäologen entdecken 3000 Jahre alte Grabstätte in Ägypten",
+      "id": "662bb9b7e2",
+      "title": "Manzambi-Geld kommt: Überraschende Wende bei Freiburgs Mega-Deal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball/Ueberraschende-Wende-bei-Freiburgs-Mega-Deal-id31077959.html",
+          "headline": "Manzambi-Geld kommt: Überraschende Wende bei Freiburgs Mega-Deal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T21:02:28+00:00",
+      "last_seen": "2026-07-12T21:02:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1827
+    },
+    {
+      "id": "b17127dc61",
+      "title": "Ägypten: Archäologen entdecken 3.000 Jahre alte Grabstätte in Ägypten",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
           "url": "https://www.zeit.de/wissenschaft/2026-07/grab-paser-luxor-scheich-abd-el-kurna-ramessidenzeit",
-          "headline": "Ägypten: Archäologen entdecken 3000 Jahre alte Grabstätte in Ägypten",
+          "headline": "Ägypten: Archäologen entdecken 3.000 Jahre alte Grabstätte in Ägypten",
           "platform": "rss"
         }
       ],
@@ -453,7 +598,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.2609
+      "resonance": 0.1784
     },
     {
       "id": "013ea05a68",
@@ -482,7 +627,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.2526
+      "resonance": 0.1704
     },
     {
       "id": "1852b8185a",
@@ -511,7 +656,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.24
+      "resonance": 0.1585
     },
     {
       "id": "49dc97dd9e",
@@ -540,17 +685,17 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.2009
+      "resonance": 0.1212
     },
     {
-      "id": "11174465b7",
-      "title": "Fußball-Weltmeisterschaft: Frankreich wirft Spaniens Ex-Ministerpräsidenten Rassismus vor",
+      "id": "146a450393",
+      "title": "Fußballweltmeisterschaft: Frankreich wirft Spaniens Ex-Ministerpräsidenten Rassismus vor",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
           "url": "https://www.zeit.de/sport/2026-07/wm-rassismus-spanien-frankreich-rajoy",
-          "headline": "Fußball-Weltmeisterschaft: Frankreich wirft Spaniens Ex-Ministerpräsidenten Rassismus vor",
+          "headline": "Fußballweltmeisterschaft: Frankreich wirft Spaniens Ex-Ministerpräsidenten Rassismus vor",
           "platform": "rss"
         }
       ],
@@ -569,7 +714,7 @@
       "geo_regions": [],
       "topic": "sport",
       "language": "de",
-      "resonance": 0.1988
+      "resonance": 0.1192
     },
     {
       "id": "96cf14ce13",
@@ -604,7 +749,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1959
+      "resonance": 0.1172
     },
     {
       "id": "23ecbcdc73",
@@ -633,7 +778,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1843
+      "resonance": 0.1054
     },
     {
       "id": "32c0544701",
@@ -662,7 +807,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1568
+      "resonance": 0.0791
     },
     {
       "id": "6b22928d82",
@@ -691,7 +836,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1542
+      "resonance": 0.0766
     },
     {
       "id": "8355e8ed87",
@@ -720,7 +865,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1509
+      "resonance": 0.0734
     },
     {
       "id": "1fc28b7b16",
@@ -749,7 +894,7 @@
       "geo_regions": [],
       "topic": "sport",
       "language": "de",
-      "resonance": 0.15
+      "resonance": 0.0726
     },
     {
       "id": "4a98442a74",
@@ -778,7 +923,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1269
+      "resonance": 0.0505
     },
     {
       "id": "d25b465313",
@@ -807,237 +952,62 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1264
-    },
-    {
-      "id": "cedc57265d",
-      "title": "Niederlage gegen Sinner: Zverev verpasst den Wimbledon-Titel",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/sport/wimbledon/wimbledon-2026-alexander-zverev-verliert-finale-gegen-jannik-sinner-201023027.html",
-          "headline": "Niederlage gegen Sinner: Zverev verpasst den Wimbledon-Titel",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T19:12:26+00:00",
-      "last_seen": "2026-07-12T19:12:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0914
-    },
-    {
-      "id": "6862d4c852",
-      "title": "Angela Merkel: Porträt der Altkanzlerin lockt mehr Besucher ins Bode-Museum",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/panorama/leute/angela-merkel-portraet-der-altkanzlerin-lockt-mehr-besucher-ins-bode-museum-a-a9b5813c-b161-4273-80f0-057b9db48bf8#ref=rss",
-          "headline": "Angela Merkel: Porträt der Altkanzlerin lockt mehr Besucher ins Bode-Museum",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T18:55:00+00:00",
-      "last_seen": "2026-07-12T18:55:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0675
-    },
-    {
-      "id": "c338b2e6f0",
-      "title": "Kommentar: Trumps Strategie gegen Iran – eine fatal falsche Einschätzung",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/meinung/kommentare/kommentar-fatal-falsche-einschaetzung/100239031.html",
-          "headline": "Kommentar: Trumps Strategie gegen Iran – eine fatal falsche Einschätzung",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T18:47:26+00:00",
-      "last_seen": "2026-07-12T18:47:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0575
-    },
-    {
-      "id": "73febf2469",
-      "title": "Umstrittener Walfang: Wal mit frischem Gemüse, Ofenkartoffeln und Pfeffersauce",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/ausland/walfang-ist-die-empoerung-ueber-island-berechtigt-200979263.html",
-          "headline": "Umstrittener Walfang: Wal mit frischem Gemüse, Ofenkartoffeln und Pfeffersauce",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T18:46:13+00:00",
-      "last_seen": "2026-07-12T18:46:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0559
-    },
-    {
-      "id": "7c378d4504",
-      "title": "Katastrophenfall: Zehntausende Schüler für Katastrophenschutz ausgebildet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/gesellschaft/2026-07/katastrophenkurse-erste-hilfe-schule-zivilschutz-gruene",
-          "headline": "Katastrophenfall: Zehntausende Schüler für Katastrophenschutz ausgebildet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T18:41:45+00:00",
-      "last_seen": "2026-07-12T18:41:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "423e4da0c1",
-      "target": "59c90e97dd",
-      "weight": 0.658,
-      "type": "thematic"
-    },
-    {
-      "source": "1b9956acbd",
-      "target": "b1ecaa2e3f",
-      "weight": 0.665,
+      "source": "59c90e97dd",
+      "target": "423e4da0c1",
+      "weight": 0.76,
       "type": "thematic"
     },
     {
       "source": "1b9956acbd",
       "target": "b67ddb60ce",
-      "weight": 0.298,
+      "weight": 0.283,
       "type": "thematic"
     },
     {
       "source": "1b9956acbd",
       "target": "1852b8185a",
-      "weight": 0.227,
-      "type": "thematic"
-    },
-    {
-      "source": "b1ecaa2e3f",
-      "target": "1852b8185a",
-      "weight": 0.291,
+      "weight": 0.266,
       "type": "thematic"
     },
     {
       "source": "4879de2f63",
       "target": "6b22928d82",
-      "weight": 0.603,
+      "weight": 0.676,
       "type": "thematic"
     },
     {
       "source": "4879de2f63",
       "target": "4a98442a74",
-      "weight": 0.796,
-      "type": "thematic"
-    },
-    {
-      "source": "59c90e97dd",
-      "target": "c338b2e6f0",
-      "weight": 0.113,
+      "weight": 0.845,
       "type": "thematic"
     },
     {
       "source": "ce7dfeed97",
       "target": "1852b8185a",
-      "weight": 0.263,
+      "weight": 0.297,
       "type": "thematic"
     },
     {
       "source": "49dc97dd9e",
       "target": "32c0544701",
-      "weight": 0.322,
+      "weight": 0.318,
       "type": "thematic"
     },
     {
       "source": "96cf14ce13",
       "target": "23ecbcdc73",
-      "weight": 0.46,
+      "weight": 0.447,
       "type": "thematic"
     },
     {
       "source": "6b22928d82",
       "target": "4a98442a74",
-      "weight": 0.124,
-      "type": "thematic"
-    },
-    {
-      "source": "6b22928d82",
-      "target": "cedc57265d",
-      "weight": 0.297,
-      "type": "thematic"
-    },
-    {
-      "source": "4a98442a74",
-      "target": "cedc57265d",
-      "weight": 0.15,
+      "weight": 0.153,
       "type": "thematic"
     }
   ],

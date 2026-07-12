@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-11T23:25:23.413925+00:00",
+  "generated_at": "2026-07-12T01:02:53.442533+00:00",
   "node_count": 35,
-  "edge_count": 9,
+  "edge_count": 18,
   "nodes": [
     {
       "id": "009be8105c",
@@ -32,66 +32,72 @@
       "resonance": 0.28
     },
     {
-      "id": "27b8bfc3d5",
-      "title": "Iran says Strait of Hormuz closed 'until further notice'",
-      "signal_count": 3,
+      "id": "0c3dc83eab",
+      "title": "US launches fresh strikes as Iran closes Strait of Hormuz",
+      "signal_count": 4,
       "sources": [
         {
           "outlet": "BBC World Service",
           "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-          "headline": "Iran says Strait of Hormuz closed 'until further notice'",
+          "headline": "US launches fresh strikes as Iran closes Strait of Hormuz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3360254/iran-declares-strait-hormuz-closed-us-launches-new-strikes?utm_source=rss_feed",
+          "headline": "Iran declares Strait of Hormuz closed, US launches new strikes",
           "platform": "rss"
         },
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-strait-hormuz-closed-until-further-notice",
-          "headline": "IRGC says Strait of Hormuz closed 'until further notice'",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-us-launches-strikes-iran-after-irgc-hits-container-hormuz",
+          "headline": "US launches strikes on Iran after IRGC hits container in Hormuz",
           "platform": "rss"
         },
         {
           "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/iran-announces-closure-strait-of-hormuz-until-further-notice/live-77920097?maca=en-rss-en-all-1573-rdf",
-          "headline": "Iran announces closure Strait of Hormuz until further notice",
+          "url": "https://www.dw.com/en/iran-closes-strait-of-hormuz-us-launches-fresh-strikes/live-77920097?maca=en-rss-en-all-1573-rdf",
+          "headline": "Iran closes Strait of Hormuz, US launches fresh strikes",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.117,
-        "spread": 0.103,
+        "mean": -0.062,
+        "spread": 0.129,
         "left": 1,
-        "center": 2,
+        "center": 3,
         "right": 0
       },
       "first_seen": "2026-07-11T22:48:00+00:00",
-      "last_seen": "2026-07-11T23:14:18+00:00",
+      "last_seen": "2026-07-12T00:15:22+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.5476
+      "resonance": 0.5969
     },
     {
-      "id": "1dab3ae51f",
-      "title": "England and Norway Resurrect a Rivalry for the World Cup",
-      "signal_count": 4,
+      "id": "37882a1cb9",
+      "title": "England defeat Norway 2-1 in extra time, sliding into World Cup semis",
+      "signal_count": 9,
       "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/07/12/england-defeats-norway-2-1-in-extra-time-sliding-into-world-cup-semis_6755388_9.html",
+          "headline": "England defeat Norway 2-1 in extra time, sliding into World Cup semis",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/england-vs-norway-fifa-world-cup-bellingham-stars-in-quarterfinal-clash-as-england-wins-in-extra-time/article71212906.ece",
+          "headline": "England vs Norway, FIFA World Cup: Bellingham stars in quarterfinal clash as England wins in extra time",
+          "platform": "rss"
+        },
         {
           "outlet": "The Hindu",
           "url": "https://www.thehindu.com/sport/football/england-vs-norway-fifa-world-cup-2026-quarterfinal-live-updates/article71211741.ece",
-          "headline": "Norway vs England, FIFA World Cup LIVE: Bellingham scores twice as England leads in extra time",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260711-norway-england-live-haaland-s-vikings-seek-to-shock-the-three-lions",
-          "headline": "Norway-England live: Three Lions take the lead through Bellingham's extra-time goal",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/11/england-vs-norway-live-fifa-world-cup-2026-quarterfinal?traffic_source=rss",
-          "headline": "England vs Norway LIVE: FIFA World Cup 2026 extra-time",
+          "headline": "Norway vs England, FIFA World Cup Highlights: Bellingham's double sends England into semifinals",
           "platform": "rss"
         },
         {
@@ -99,28 +105,104 @@
           "url": "https://www.nytimes.com/2026/07/11/world/europe/england-norway-world-cup.html",
           "headline": "England and Norway Resurrect a Rivalry for the World Cup",
           "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/7/12/bellingham-scores-twice-as-england-beat-norway-2-1-to-reach-world-cup-semis?traffic_source=rss",
+          "headline": "Bellingham scores twice as England beat Norway 2-1 to reach World Cup semis",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260711-world-cup-2026-bellingham-s-brace-sends-england-past-norway-to-semi-finals",
+          "headline": "World Cup 2026: Bellingham's brace sends England past Norway to semi-finals",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/11/nx-s1-5890169/2026-world-cup-fifa-england-norway-quarterfinal",
+          "headline": "In a nailbiter, England moves on to the World Cup semifinals, defeating Norway 2-1",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260711-norway-england-live-haaland-s-vikings-seek-to-shock-the-three-lions",
+          "headline": "Norway-England: Three Lions advance to semi-finals after Bellingham's extra-time double",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.175,
-        "spread": 0.083,
+        "mean": -0.161,
+        "spread": 0.066,
         "left": 1,
-        "center": 3,
+        "center": 8,
         "right": 0
       },
-      "first_seen": "2026-07-11T15:38:09+00:00",
-      "last_seen": "2026-07-11T23:14:34+00:00",
+      "first_seen": "2026-07-11T17:31:07+00:00",
+      "last_seen": "2026-07-12T00:30:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.4154
+      "resonance": 0.5906
+    },
+    {
+      "id": "bbef016d4f",
+      "title": "Indian tourists among 15 killed as speedboat capsizes in Vietnam",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/indian-tourists-killed-after-speedboat-capsizes-in-vietnam?traffic_source=rss",
+          "headline": "Indian tourists killed after speedboat capsizes in Vietnam",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/11/world/asia/vietnam-speedboat-tourists-capsize.html",
+          "headline": "15 Killed as Speedboat Capsizes in Vietnam",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360241/vietnam-tourist-speedboat-capsizes-killing-15-indian-tourists?utm_source=rss_feed",
+          "headline": "Vietnam tourist speedboat capsizes, killing 15 Indian tourists",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/vietnam-indian-tourists-killed-in-boat-capsize/a-77916717?maca=en-rss-en-all-1573-rdf",
+          "headline": "Vietnam: Indian tourists killed in boat capsize",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cwyd7x22lp1o?at_medium=RSS&at_campaign=rss",
+          "headline": "Indian tourists among 15 killed as speedboat capsizes in Vietnam",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.141,
+        "left": 1,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T13:44:03+00:00",
+      "last_seen": "2026-07-11T23:35:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.3698
     },
     {
       "id": "88f6311e69",
       "title": "Man arrested on suspicion of murder of Ann Widdecombe, police say",
-      "signal_count": 4,
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "BBC News",
@@ -131,7 +213,7 @@
         {
           "outlet": "ABC Australia",
           "url": "https://www.abc.net.au/news/2026-07-12/man-arrested-ann-widdecombe-murder-investigation/106906592",
-          "headline": "Breaking: UK police arrest 28-year-old man in Ann Widdecombe murder case",
+          "headline": "UK police arrest 28-year-old man in Ann Widdecombe murder case",
           "platform": "rss"
         },
         {
@@ -139,29 +221,747 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/uk-police-investigate-murder-of-politician-ann-widdecombe?traffic_source=rss",
           "headline": "UK police investigate murder of politician Ann Widdecombe",
           "platform": "rss"
-        },
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c3vyqkqkvr9o?at_medium=RSS&at_campaign=rss",
-          "headline": "Ann Widdecombe murder probe: What we know so far",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.125,
-        "spread": 0.043,
+        "mean": -0.133,
+        "spread": 0.047,
         "left": 0,
-        "center": 4,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-07-11T17:58:00+00:00",
-      "last_seen": "2026-07-11T23:15:03+00:00",
+      "first_seen": "2026-07-11T20:29:40+00:00",
+      "last_seen": "2026-07-12T00:19:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "society",
-      "resonance": 0.3465
+      "resonance": 0.3404
+    },
+    {
+      "id": "1ca939545a",
+      "title": "Iran announces closure of the Strait of Hormuz 'until further notice'",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/12/iran-announces-closure-of-the-strait-of-hormuz-until-further-notice_6755387_4.html",
+          "headline": "Iran announces closure of the Strait of Hormuz 'until further notice'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-strait-hormuz-closed-until-further-notice",
+          "headline": "IRGC says Strait of Hormuz closed 'until further notice'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.025,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T23:13:27+00:00",
+      "last_seen": "2026-07-11T23:48:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.3147
+    },
+    {
+      "id": "f56cc8f124",
+      "title": "Man charged with murder after remains believed to be missing woman found in Queensland bushland",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/12/missing-woman-jana-armstrong-queensland-man-charged-murder-ntwnfb",
+          "headline": "Man charged with murder after remains believed to be missing woman found in Queensland bushland",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-12/qld-woman-found/106906516",
+          "headline": "Man charged with the murder of missing mum after body found",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T22:03:19+00:00",
+      "last_seen": "2026-07-12T00:45:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2764
+    },
+    {
+      "id": "74e3a59505",
+      "title": "Argentina VS Switzerland, FIFA World Cup LIVE",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/argentina-vs-switzerland-fifa-world-cup-2026-quarterfinal-live-updates/article71212615.ece",
+          "headline": "Argentina VS Switzerland, FIFA World Cup LIVE",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/11/argentina-vs-switzerland-live-fifa-world-cup-2026?traffic_source=rss",
+          "headline": "Argentina vs Switzerland LIVE: FIFA World Cup 2026",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T21:31:40+00:00",
+      "last_seen": "2026-07-12T00:57:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.2676
+    },
+    {
+      "id": "58ec9f0bba",
+      "title": "Youth suicides in Hong Kong hit 10-year high: court report",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/hong-kong/society/article/3360213/youth-suicides-hong-kong-hit-10-year-high-court-report?utm_source=rss_feed",
+          "headline": "Youth suicides in Hong Kong hit 10-year high: court report",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T01:00:13+00:00",
+      "last_seen": "2026-07-12T01:00:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1923
+    },
+    {
+      "id": "fb3ab56944",
+      "title": "Kristin Cavallari admits her kids fly coach while she sits in first class",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/kristin-cavallari-admits-kids-fly-coach-she-sits-first-class",
+          "headline": "Kristin Cavallari admits her kids fly coach while she sits in first class",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T00:52:51+00:00",
+      "last_seen": "2026-07-12T00:52:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1786
+    },
+    {
+      "id": "33b10b9e31",
+      "title": "Muslim judge in India faces death threats after convicting 'cow vigilantes'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cd6e9zq87xvo?at_medium=RSS&at_campaign=rss",
+          "headline": "Muslim judge in India faces death threats after convicting 'cow vigilantes'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:49:24+00:00",
+      "last_seen": "2026-07-12T00:49:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1722
+    },
+    {
+      "id": "6876d8da95",
+      "title": "Why Gen Z chilling red wine is socially acceptable, especially in the summer heat",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c5yzjlgr7zlo?at_medium=RSS&at_campaign=rss",
+          "headline": "Why Gen Z chilling red wine is socially acceptable, especially in the summer heat",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:47:46+00:00",
+      "last_seen": "2026-07-12T00:47:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1693
+    },
+    {
+      "id": "ff9fd44dd0",
+      "title": "England soccer manager goes viral for angry, combative interview after World Cup victory over Norway",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/england-soccer-manager-viral-angry-combative-interview-world-cup-victory-norway",
+          "headline": "England soccer manager goes viral for angry, combative interview after World Cup victory over Norway",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T00:47:43+00:00",
+      "last_seen": "2026-07-12T00:47:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1692
+    },
+    {
+      "id": "6e612e98df",
+      "title": "Blasts heard along Iran's coastal areas, Iranian media reports",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/blasts-heard-along-irans-coastal-areas-iranian-media-reports",
+          "headline": "Blasts heard along Iran's coastal areas, Iranian media reports",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:46:09+00:00",
+      "last_seen": "2026-07-12T00:46:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1663
+    },
+    {
+      "id": "94e68383ac",
+      "title": "Australia news live: Barnaby Joyce won’t guarantee One Nation policies will be costed before next election",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/12/anthony-albanese-pat-conroy-labor-liberal-angus-taylor-one-nation-ntwnfb",
+          "headline": "Australia news live: Barnaby Joyce won’t guarantee One Nation policies will be costed before next election",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:45:49+00:00",
+      "last_seen": "2026-07-12T00:45:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1657
+    },
+    {
+      "id": "04939ba888",
+      "title": "Dem governor escalates McConnell health demands, cites response to past Trump health concerns",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/dem-governor-escalates-mcconnell-health-demands-cites-response-past-trump-health-concerns",
+          "headline": "Dem governor escalates McConnell health demands, cites response to past Trump health concerns",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T00:44:44+00:00",
+      "last_seen": "2026-07-12T00:44:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.1638
+    },
+    {
+      "id": "246bda50ec",
+      "title": "We are living fewer years in good health: Is the NHS part of the problem?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c8r2nz82z3vo?at_medium=RSS&at_campaign=rss",
+          "headline": "We are living fewer years in good health: Is the NHS part of the problem?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:42:35+00:00",
+      "last_seen": "2026-07-12T00:42:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.1599
+    },
+    {
+      "id": "5d655d1754",
+      "title": "Wimbledon vs World Cup: Who wore their look best?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cx2vz37z7v3o?at_medium=RSS&at_campaign=rss",
+          "headline": "Wimbledon vs World Cup: Who wore their look best?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:39:45+00:00",
+      "last_seen": "2026-07-12T00:39:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1548
+    },
+    {
+      "id": "03cf28d2ac",
+      "title": "Young country footballer 'alert' after serious on-field head knock",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-12/horsham-footballer-airlifted-hospitalised-on-field-injury/106906606",
+          "headline": "Young country footballer 'alert' after serious on-field head knock",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:35:59+00:00",
+      "last_seen": "2026-07-12T00:35:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1481
+    },
+    {
+      "id": "1a86101fd4",
+      "title": "Argentina-Switzerland live: Defending champions face Swiss underdogs for semi-finals spot",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260712-argentina-switzerland-live-defending-champions-face-swiss-underdogs-for-semi-finals-spot",
+          "headline": "Argentina-Switzerland live: Defending champions face Swiss underdogs for semi-finals spot",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:35:11+00:00",
+      "last_seen": "2026-07-12T00:35:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1467
+    },
+    {
+      "id": "0640b542ca",
+      "title": "Pete Hegseth says 'Iran made a poor choice, now they pay'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pete-hegseth-says-iran-made-poor-choice-now-they-pay",
+          "headline": "Pete Hegseth says 'Iran made a poor choice, now they pay'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:32:31+00:00",
+      "last_seen": "2026-07-12T00:32:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.142
+    },
+    {
+      "id": "7535f40657",
+      "title": "Skier training for 2030 Winter Paralympics only a year after discovering sport",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-12/athlete-moves-to-snow-for-paralympics/106802090",
+          "headline": "Skier training for 2030 Winter Paralympics only a year after discovering sport",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:27:20+00:00",
+      "last_seen": "2026-07-12T00:27:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.133
+    },
+    {
+      "id": "9d282bdedd",
+      "title": "FIFA World Cup 2026 Golden Boot: Messi, Mbappe or Haaland — who will win?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/fifa-world-cup-2026-golden-boot-race-messi-mbappe-haaland-kane-football/article71193305.ece",
+          "headline": "FIFA World Cup 2026 Golden Boot: Messi, Mbappe or Haaland — who will win?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:26:08+00:00",
+      "last_seen": "2026-07-12T00:26:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1309
+    },
+    {
+      "id": "5e392938f4",
+      "title": "Mediators push US-Iran talks in Qatar and Oman to avert escalation",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/mediators-push-us-iran-talks-in-qatar-and-oman-to-avert-escalation?traffic_source=rss",
+          "headline": "Mediators push US-Iran talks in Qatar and Oman to avert escalation",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:22:21+00:00",
+      "last_seen": "2026-07-12T00:22:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1244
+    },
+    {
+      "id": "3686678955",
+      "title": "Reed Jobs would rather talk about curing cancer than his last name",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
+          "headline": "Reed Jobs would rather talk about curing cancer than his last name",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:16:06+00:00",
+      "last_seen": "2026-07-12T00:16:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.1137
+    },
+    {
+      "id": "356c6a7850",
+      "title": "Mojtaba Khamenei Vows Revenge as Iran’s Top Diplomat Is in Oman for Talks",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/11/world/middleeast/iran-araghchi-oman-iran-strait-of-hormuz.html",
+          "headline": "Mojtaba Khamenei Vows Revenge as Iran’s Top Diplomat Is in Oman for Talks",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260711-mojtaba-khamenei-iran-supreme-leader-vows-revenge-for-father-s-killing",
+          "headline": "Mojtaba Khamenei: Iran supreme leader vows revenge for father's killing",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T16:04:57+00:00",
+      "last_seen": "2026-07-12T00:17:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1128
+    },
+    {
+      "id": "4e66b71f1e",
+      "title": "Breaking: US strikes Iran after attack on civilian vessel in Strait of Hormuz",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-12/iran-revolutionary-guard-closes-strait-hormuz-centcom-us-strikes/106906666",
+          "headline": "Breaking: US strikes Iran after attack on civilian vessel in Strait of Hormuz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:14:12+00:00",
+      "last_seen": "2026-07-12T00:14:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1105
+    },
+    {
+      "id": "70bd21f58a",
+      "title": "In Malaysia, BN’s Johor ‘blue wave’ leaves Anwar’s PH facing hard questions",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/week-asia/politics/article/3360250/malaysia-bns-johor-blue-wave-leaves-anwars-ph-facing-hard-questions?utm_source=rss_feed",
+          "headline": "In Malaysia, BN’s Johor ‘blue wave’ leaves Anwar’s PH facing hard questions",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:00:22+00:00",
+      "last_seen": "2026-07-12T00:00:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0876
+    },
+    {
+      "id": "38e7068567",
+      "title": "Iran war live: US bombs Iranian port cities as IRGC closes Strait of Hormuz",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/7/12/iran-war-live-irgc-declares-strait-of-hormuz-closed-over-us-interference?traffic_source=rss",
+          "headline": "Iran war live: US bombs Iranian port cities as IRGC closes Strait of Hormuz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T00:00:00+00:00",
+      "last_seen": "2026-07-12T00:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.087
+    },
+    {
+      "id": "82f91b169d",
+      "title": "T. rex could become most expensive fossil ever - but it's a ​problem for scientists",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c4gykgyn1r4o?at_medium=RSS&at_campaign=rss",
+          "headline": "T. rex could become most expensive fossil ever - but it's a ​problem for scientists",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T23:58:40+00:00",
+      "last_seen": "2026-07-11T23:58:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "resonance": 0.0849
     },
     {
       "id": "194b3f454e",
@@ -195,7 +995,91 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.2505
+      "resonance": 0.083
+    },
+    {
+      "id": "a9728d43c2",
+      "title": "A Free-Speech Meltdown",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/books/2026/07/why-pen-americas-president-dinaw-mengestu-resigned/687891/?utm_source=feed",
+          "headline": "A Free-Speech Meltdown",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T23:56:22+00:00",
+      "last_seen": "2026-07-11T23:56:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0812
+    },
+    {
+      "id": "8e79142001",
+      "title": "S. Janaki: The Isai Arasi who established the voice of the rural, female heroine",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/s-janaki-the-isai-arasi-who-established-the-voice-of-the-rural-female-heroine/article71211499.ece",
+          "headline": "S. Janaki: The Isai Arasi who established the voice of the rural, female heroine",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T23:52:42+00:00",
+      "last_seen": "2026-07-11T23:52:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0753
+    },
+    {
+      "id": "3cf33b6c45",
+      "title": "S. Janaki dies, last rites to be conducted with full state honours | LIVE",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/entertainment/music/legendary-playback-singer-s-janaki-passes-away-live-updates-reactions/article71211150.ece",
+          "headline": "S. Janaki dies, last rites to be conducted with full state honours | LIVE",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T23:46:41+00:00",
+      "last_seen": "2026-07-11T23:46:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0657
     },
     {
       "id": "d76c0a92fa",
@@ -235,952 +1119,116 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2026
-    },
-    {
-      "id": "4edd18b708",
-      "title": "'No region is safe from climate change: Brittany will not be a climate refuge'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/opinion/article/2026/07/12/no-region-is-safe-from-climate-change-brittany-will-not-be-a-climate-refuge_6755386_23.html",
-          "headline": "'No region is safe from climate change: Brittany will not be a climate refuge'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T23:20:17+00:00",
-      "last_seen": "2026-07-11T23:20:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.1973
-    },
-    {
-      "id": "e432690a8f",
-      "title": "Ex-WNBA player backs congressional review as league faces scrutiny over alleged Clark targeting",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/ex-wnba-player-backs-congressional-accountability-league-faces-scrutiny-over-alleged-clark-targeting",
-          "headline": "Ex-WNBA player backs congressional review as league faces scrutiny over alleged Clark targeting",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-11T23:15:52+00:00",
-      "last_seen": "2026-07-11T23:15:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1905
-    },
-    {
-      "id": "85c77f3c85",
-      "title": "Father of Gaza aid truck driver killed by IDF says soldier shot him ‘between the eyes’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/father-of-gaza-aid-truck-driver-killed-by-idf-says-soldier-shot-him-between-the-eyes/",
-          "headline": "Father of Gaza aid truck driver killed by IDF says soldier shot him ‘between the eyes’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T23:10:25+00:00",
-      "last_seen": "2026-07-11T23:10:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1823
-    },
-    {
-      "id": "a7dfa8cde6",
-      "title": "MLB commissioner Rob Manfred goofs up first overall draft pick's name",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/mlb-commissioner-rob-manfred-goofs-up-first-overall-draft-pick-name",
-          "headline": "MLB commissioner Rob Manfred goofs up first overall draft pick's name",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-11T23:05:41+00:00",
-      "last_seen": "2026-07-11T23:05:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.1752
-    },
-    {
-      "id": "8af3a27a2d",
-      "title": "Why is VAR controversial?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/why-is-var-controversial/article71211677.ece",
-          "headline": "Why is VAR controversial?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T23:02:54+00:00",
-      "last_seen": "2026-07-11T23:02:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1711
-    },
-    {
-      "id": "1cfc230b40",
-      "title": "Trump administration subpoenas New York Times journalists over Air Force One reporting",
-      "signal_count": 5,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/americas/20260711-trump-administration-subpoenas-new-york-times-journalists-over-air-force-one-story",
-          "headline": "Trump administration subpoenas New York Times journalists over Air Force One story",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/11/trump-administration-subpoenas-new-york-times-reporters-over-coverage?traffic_source=rss",
-          "headline": "Trump administration subpoenas New York Times reporters over coverage",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/11/g-s1-133160/justice-department-subpoenas-new-york-times-reporters-over-air-force-one-reporting",
-          "headline": "Justice Department subpoenas New York Times reporters over Air Force One reporting",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cpd3g8q51g7o?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump administration subpoenas New York Times journalists over Air Force One reporting",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360237/trump-subpoenas-journalists-over-qatari-air-force-one-reporting?utm_source=rss_feed",
-          "headline": "Trump subpoenas journalists over Qatari Air Force One reporting",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.07,
-        "spread": 0.108,
-        "left": 0,
-        "center": 5,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T13:20:02+00:00",
-      "last_seen": "2026-07-11T19:25:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1693
-    },
-    {
-      "id": "ac2be62a82",
-      "title": "Global demand is reshaping secondhand fashion in Japan",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/life/2026/07/12/style-design/tourists-retro-clothes-thrifting-japan/",
-          "headline": "Global demand is reshaping secondhand fashion in Japan",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T23:00:00+00:00",
-      "last_seen": "2026-07-11T23:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1669
-    },
-    {
-      "id": "44ca6b21e7",
-      "title": "Legal questions behind the row over Satluj movie | Explained",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/explained-the-legal-questions-behind-row-over-satluj-movie/article71197781.ece",
-          "headline": "Legal questions behind the row over Satluj movie | Explained",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:58:21+00:00",
-      "last_seen": "2026-07-11T22:58:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1644
-    },
-    {
-      "id": "4919b0ccb1",
-      "title": "FIFA to sell pieces of World Cup final stadium pitch, could earn millions",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/11/fifa-to-sell-pieces-of-world-cup-final-stadium-pitch-could-earn-millions?traffic_source=rss",
-          "headline": "FIFA to sell pieces of World Cup final stadium pitch, could earn millions",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:58:10+00:00",
-      "last_seen": "2026-07-11T22:58:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1642
-    },
-    {
-      "id": "f318934256",
-      "title": "The 100-million-year-old cold case and the aquatic dinosaur called Moria",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-12/travfossils-palaeontology-social-media-kronosaurus/106889702",
-          "headline": "The 100-million-year-old cold case and the aquatic dinosaur called Moria",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:57:46+00:00",
-      "last_seen": "2026-07-11T22:57:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1636
-    },
-    {
-      "id": "0369e16261",
-      "title": "How undercover agents and informants helped the FBI unravel Lawrence Bishnoi’s gang | Explained",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/how-undercover-agents-informants-helped-the-fbi-unravel-lawrence-bishnois-gang-explained/article71201267.ece",
-          "headline": "How undercover agents and informants helped the FBI unravel Lawrence Bishnoi’s gang | Explained",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:57:27+00:00",
-      "last_seen": "2026-07-11T22:57:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1631
-    },
-    {
-      "id": "84f461ad0e",
-      "title": "NT government faces Federal Court challenge over compensation caps",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-12/naaja-federal-court-compensation-nt-government/106904896",
-          "headline": "NT government faces Federal Court challenge over compensation caps",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:57:08+00:00",
-      "last_seen": "2026-07-11T22:57:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1627
-    },
-    {
-      "id": "5d95350b54",
-      "title": "Army Black Hawks airlift 200+ stranded campers as Missouri floods trigger more 350 rescues",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/army-black-hawks-airlift-200-stranded-campers-missouri-floods-trigger-350-rescues",
-          "headline": "Army Black Hawks airlift 200+ stranded campers as Missouri floods trigger more 350 rescues",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-11T22:50:17+00:00",
-      "last_seen": "2026-07-11T22:50:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1528
-    },
-    {
-      "id": "287dff4fcf",
-      "title": "Fifa official refuses to answer BBC's Balogun ban questions",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c4gy1j87e1yo?at_medium=RSS&at_campaign=rss",
-          "headline": "Fifa official refuses to answer BBC's Balogun ban questions",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:45:41+00:00",
-      "last_seen": "2026-07-11T22:45:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1462
-    },
-    {
-      "id": "f7673aac43",
-      "title": "Germany moves to criminalise denial of Israel’s existence while refusing to recognise Palestine",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/germany-moves-criminalise-denial-israels-existence-while-refusing-recognise-palestine",
-          "headline": "Germany moves to criminalise denial of Israel’s existence while refusing to recognise Palestine",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:44:38+00:00",
-      "last_seen": "2026-07-11T22:44:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1448
-    },
-    {
-      "id": "01c20d830e",
-      "title": "How live screenings of Paris Fashion Week are making fashion more accessible",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/m-le-mag/article/2026/07/12/how-live-screenings-of-paris-fashion-week-are-making-fashion-more-accessible_6755385_117.html",
-          "headline": "How live screenings of Paris Fashion Week are making fashion more accessible",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:42:56+00:00",
-      "last_seen": "2026-07-11T22:42:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1424
-    },
-    {
-      "id": "8295909652",
-      "title": "Top Shas rabbi signals openness to working with Eisenkot rather than Netanyahu after election",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/top-shas-rabbi-signals-openness-to-working-with-eisenkot-rather-than-netanyahu-after-election/",
-          "headline": "Top Shas rabbi signals openness to working with Eisenkot rather than Netanyahu after election",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:37:20+00:00",
-      "last_seen": "2026-07-11T22:37:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1345
-    },
-    {
-      "id": "215143c3a3",
-      "title": "Artist fighting Temu to reclaim her mosaic design",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-12/artist-julie-aldridge-battle-to-reclaim-design-internet-temu/106893778",
-          "headline": "Artist fighting Temu to reclaim her mosaic design",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:33:32+00:00",
-      "last_seen": "2026-07-11T22:33:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1293
-    },
-    {
-      "id": "3c426b64a9",
-      "title": "Russian strikes on Ukraine kill seven, wound dozens more",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-12/russia-strikes-ukraine-killing-seven-wounding-dozens/106906454",
-          "headline": "Russian strikes on Ukraine kill seven, wound dozens more",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260711-overnight-russian-missile-and-drone-strikes-on-ukraine-kill-six-officials-say",
-          "headline": "Overnight Russian missile and drone strikes on Ukraine kill eight, officials say",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260711-11-wounded-in-overnight-russian-missile-and-drone-strikes-on-kyiv",
-          "headline": "11 wounded in overnight Russian missile and drone strikes on Kyiv",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T14:54:06+00:00",
-      "last_seen": "2026-07-11T22:26:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1209
-    },
-    {
-      "id": "69329f5718",
-      "title": "Spain wildfire: Firefighters begin to contain deadly blaze",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/spain-wildfire-firefighters-begin-to-contain-deadly-blaze/a-77919977?maca=en-rss-en-all-1573-rdf",
-          "headline": "Spain wildfire: Firefighters begin to contain deadly blaze",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:10:00+00:00",
-      "last_seen": "2026-07-11T22:10:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0978
-    },
-    {
-      "id": "c78293d5fe",
-      "title": "Reading the Sino-US rivalry: how a quiet literary relationship has shaped views on China",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3360151/reading-sino-us-rivalry-how-quiet-literary-relationship-has-shaped-views-china?utm_source=rss_feed",
-          "headline": "Reading the Sino-US rivalry: how a quiet literary relationship has shaped views on China",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:00:14+00:00",
-      "last_seen": "2026-07-11T22:00:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0852
-    },
-    {
-      "id": "1d02d91b49",
-      "title": "This slushie machine was a lifesaver during NYC’s heat wave",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/11/this-slushie-machine-was-a-lifesaver-during-nycs-heat-wave/",
-          "headline": "This slushie machine was a lifesaver during NYC’s heat wave",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:00:00+00:00",
-      "last_seen": "2026-07-11T22:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0849
-    },
-    {
-      "id": "1677c102fd",
-      "title": "US Democrat Ro Khanna says he was detained by armed Israeli settlers",
-      "signal_count": 5,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c0qyk9jwq9no?at_medium=RSS&at_campaign=rss",
-          "headline": "US Democrat Ro Khanna says he was detained by armed Israeli settlers",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Sky News",
-          "url": "https://news.sky.com/story/us-congressman-ro-khanna-detained-by-armed-israeli-settlers-in-west-bank-13562598",
-          "headline": "US congressman 'detained by armed Israeli settlers' in West Bank",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360247/us-democrat-ro-khanna-detained-israeli-settlers-during-west-bank-visit?utm_source=rss_feed",
-          "headline": "US Democrat Ro Khanna ‘detained’ by Israeli settlers during West Bank visit",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/us-democrat-ro-khanna-says-he-was-detained-by-armed-settlers-during-west-bank-visit/",
-          "headline": "US Democrat Ro Khanna says he was detained by armed settlers during West Bank visit",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ro-khanna-detained-israeli-settlers-during-occupied-west-bank-visit",
-          "headline": "Ro Khanna detained by Israeli settlers during occupied West Bank visit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.13,
-        "left": 1,
-        "center": 4,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T12:32:10+00:00",
-      "last_seen": "2026-07-11T18:00:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0824
-    },
-    {
-      "id": "92297d0083",
-      "title": "Polish PM pledges memorial to victims of WW2 'genocide by Ukrainian nationalists'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cze94x4361po?at_medium=RSS&at_campaign=rss",
-          "headline": "Polish PM pledges memorial to victims of WW2 'genocide by Ukrainian nationalists'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T21:56:52+00:00",
-      "last_seen": "2026-07-11T21:56:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0809
-    },
-    {
-      "id": "6a8f125e73",
-      "title": "South Africa World Cup midfielder Adams dies aged 25",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/11/south-africas-jayden-adams-25-dies-after-playing-in-fifa-world-cup?traffic_source=rss",
-          "headline": "South Africa’s Jayden Adams, 25, dies after playing in FIFA World Cup",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260711-south-africa-2026-world-cup-midfielder-jayden-adams-dies-at-25",
-          "headline": "South Africa 2026 World Cup midfielder Jayden Adams dies at 25",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss",
-          "headline": "South Africa World Cup midfielder Adams dies aged 25",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/07/11/south-africa-world-cup-footballer-jayden-adams-dies-aged-25",
-          "headline": "South Africa World Cup footballer Jayden Adams dies aged 25",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.071,
-        "left": 0,
-        "center": 4,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T14:08:04+00:00",
-      "last_seen": "2026-07-11T18:38:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0781
-    },
-    {
-      "id": "5d0f7ba233",
-      "title": "US judge dismisses January 6 case against Proud Boys after Trump order",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/11/us-judge-dismisses-january-6-case-against-proud-boys-after-trump-order?traffic_source=rss",
-          "headline": "US judge dismisses January 6 case against Proud Boys after Trump order",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T21:53:40+00:00",
-      "last_seen": "2026-07-11T21:53:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0769
-    },
-    {
-      "id": "b702efa73f",
-      "title": "Rate the players as England face Norway",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
-          "headline": "Rate the players as England face Norway",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T21:50:51+00:00",
-      "last_seen": "2026-07-11T21:50:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0734
-    },
-    {
-      "id": "871ab50b83",
-      "title": "Global population at 8.3 billion: What does that mean for anyone under 30?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260711-global-population-at-8-3-billion-what-does-that-mean-for-anyone-under-30",
-          "headline": "Global population at 8.3 billion: What does that mean for anyone under 30?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T21:48:57+00:00",
-      "last_seen": "2026-07-11T21:48:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.071
-    },
-    {
-      "id": "101d9baf96",
-      "title": "Argentina vs Switzerland LIVE: FIFA World Cup 2026",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/11/argentina-vs-switzerland-live-fifa-world-cup-2026?traffic_source=rss",
-          "headline": "Argentina vs Switzerland LIVE: FIFA World Cup 2026",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T21:31:40+00:00",
-      "last_seen": "2026-07-11T21:31:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "1dab3ae51f",
-      "target": "4919b0ccb1",
-      "weight": 0.156,
+      "source": "0c3dc83eab",
+      "target": "1ca939545a",
+      "weight": 0.45,
       "type": "thematic"
     },
     {
-      "source": "1dab3ae51f",
-      "target": "6a8f125e73",
-      "weight": 0.229,
+      "source": "0c3dc83eab",
+      "target": "4e66b71f1e",
+      "weight": 0.966,
       "type": "thematic"
     },
     {
-      "source": "1dab3ae51f",
-      "target": "b702efa73f",
-      "weight": 0.749,
+      "source": "0c3dc83eab",
+      "target": "38e7068567",
+      "weight": 0.755,
       "type": "thematic"
     },
     {
-      "source": "1dab3ae51f",
-      "target": "101d9baf96",
-      "weight": 0.321,
+      "source": "37882a1cb9",
+      "target": "74e3a59505",
+      "weight": 0.13,
       "type": "thematic"
     },
     {
-      "source": "ac2be62a82",
-      "target": "01c20d830e",
-      "weight": 0.355,
+      "source": "37882a1cb9",
+      "target": "ff9fd44dd0",
+      "weight": 0.482,
       "type": "thematic"
     },
     {
-      "source": "ac2be62a82",
-      "target": "871ab50b83",
-      "weight": 0.003,
+      "source": "37882a1cb9",
+      "target": "5d655d1754",
+      "weight": 0.018,
       "type": "thematic"
     },
     {
-      "source": "4919b0ccb1",
-      "target": "6a8f125e73",
-      "weight": 0.024,
+      "source": "88f6311e69",
+      "target": "f56cc8f124",
+      "weight": 0.22,
       "type": "thematic"
     },
     {
-      "source": "4919b0ccb1",
-      "target": "101d9baf96",
-      "weight": 0.432,
+      "source": "1ca939545a",
+      "target": "4e66b71f1e",
+      "weight": 0.356,
       "type": "thematic"
     },
     {
-      "source": "6a8f125e73",
-      "target": "101d9baf96",
-      "weight": 0.156,
+      "source": "1ca939545a",
+      "target": "38e7068567",
+      "weight": 0.233,
+      "type": "thematic"
+    },
+    {
+      "source": "74e3a59505",
+      "target": "ff9fd44dd0",
+      "weight": 0.067,
+      "type": "thematic"
+    },
+    {
+      "source": "74e3a59505",
+      "target": "5d655d1754",
+      "weight": 0.266,
+      "type": "thematic"
+    },
+    {
+      "source": "74e3a59505",
+      "target": "1a86101fd4",
+      "weight": 0.697,
+      "type": "thematic"
+    },
+    {
+      "source": "74e3a59505",
+      "target": "9d282bdedd",
+      "weight": 0.62,
+      "type": "thematic"
+    },
+    {
+      "source": "6e612e98df",
+      "target": "38e7068567",
+      "weight": 0.0,
+      "type": "thematic"
+    },
+    {
+      "source": "04939ba888",
+      "target": "246bda50ec",
+      "weight": 0.114,
+      "type": "thematic"
+    },
+    {
+      "source": "5d655d1754",
+      "target": "9d282bdedd",
+      "weight": 0.018,
+      "type": "thematic"
+    },
+    {
+      "source": "5e392938f4",
+      "target": "356c6a7850",
+      "weight": 0.448,
+      "type": "thematic"
+    },
+    {
+      "source": "4e66b71f1e",
+      "target": "38e7068567",
+      "weight": 0.244,
       "type": "thematic"
     }
   ],

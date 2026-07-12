@@ -1,26 +1,32 @@
 {
-  "generated_at": "2026-07-12T19:20:44.803316+00:00",
+  "generated_at": "2026-07-12T21:03:05.830843+00:00",
   "country_code": "gb",
   "country_name": "United Kingdom",
   "language": "en",
   "node_count": 30,
-  "edge_count": 6,
+  "edge_count": 15,
   "nodes": [
     {
-      "id": "e720549826",
-      "title": "Two men die trying to save children in sea",
-      "signal_count": 5,
+      "id": "1587fd1ff8",
+      "title": "Two men die trying to help children in sea",
+      "signal_count": 6,
       "sources": [
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/cq81l5gj54zo?at_medium=RSS&at_campaign=rss",
+          "headline": "Two men die trying to help children in sea",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/jul/12/two-men-die-after-going-into-sea-to-rescue-children-at-county-durham-beach",
+          "headline": "Two men die after going into sea to rescue children at County Durham beach",
+          "platform": "rss"
+        },
         {
           "outlet": "The Independent",
           "url": "https://www.independent.co.uk/news/uk/home-news/seaton-carew-hartlepool-beach-police-b3013510.html",
           "headline": "Two men die after going into sea to save two children at UK beach",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/cq81l5gj54zo?at_medium=RSS&at_campaign=rss",
-          "headline": "Two men die trying to save children in sea",
           "platform": "rss"
         },
         {
@@ -43,21 +49,21 @@
         }
       ],
       "bias": {
-        "mean": 0.02,
-        "spread": 0.319,
-        "left": 1,
+        "mean": -0.05,
+        "spread": 0.33,
+        "left": 2,
         "center": 3,
         "right": 1
       },
       "first_seen": "2026-07-08T05:44:00+00:00",
-      "last_seen": "2026-07-12T19:14:55+00:00",
+      "last_seen": "2026-07-12T20:33:54+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.7136
+      "resonance": 0.7161
     },
     {
       "id": "c49745d343",
@@ -65,15 +71,15 @@
       "signal_count": 4,
       "sources": [
         {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/cy8w67l642no?at_medium=RSS&at_campaign=rss",
-          "headline": "Major incident declared in Wales as firefighters tackle wildfires across UK",
-          "platform": "rss"
-        },
-        {
           "outlet": "The Mirror",
           "url": "https://www.mirror.co.uk/news/wildfires-live-major-incident-uk-37421445",
           "headline": "UK wildfires live: Major incident declared as firefighters tackle blazes across country",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/cy8w67l642no?at_medium=RSS&at_campaign=rss",
+          "headline": "Major incident declared in Wales as firefighters tackle wildfires across UK",
           "platform": "rss"
         },
         {
@@ -97,72 +103,19 @@
         "right": 0
       },
       "first_seen": "2026-07-12T11:39:00+00:00",
-      "last_seen": "2026-07-12T19:03:11+00:00",
+      "last_seen": "2026-07-12T20:35:28+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "climate",
       "language": "en",
-      "resonance": 0.5325
-    },
-    {
-      "id": "f13fdbff6c",
-      "title": "Police say no suggestion of political motive in Widdecombe killing after new arrest",
-      "signal_count": 5,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/politics/ann-widdecombe-dead-murder-police-37415691",
-          "headline": "Ann Widdecombe murder probe: Police believe 'no political motive' after man, 28, arrested",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/c8628q3eqdeo?at_medium=RSS&at_campaign=rss",
-          "headline": "Police say no suggestion of political motive in Widdecombe killing after new arrest",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/crime/ann-widdecombe-police-murder-investigation-b3013446.html",
-          "headline": "Police ‘open minded’ about motive for Ann Widdecombe murder after suspect, 28, arrested",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/crime/ann-widdecombe-press-conference-murder-arrest-b3013411.html",
-          "headline": "Ann Widdecombe murder probe: Police statement in full as detectives give update on possible motive",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Evening Standard",
-          "url": "https://www.standard.co.uk/news/uk/ann-widdecombe-police-devon-and-cornwall-police-south-yorkshire-mep-b1289671.html",
-          "headline": "Police arrest 28-year-old man on suspicion of the murder of Ann Widdecombe",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.14,
-        "spread": 0.136,
-        "left": 1,
-        "center": 4,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T09:08:12+00:00",
-      "last_seen": "2026-07-12T19:09:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "en",
-      "resonance": 0.5226
+      "resonance": 0.4741
     },
     {
       "id": "0c7a183cb0",
       "title": "Ann Widdecombe murder latest: Man ‘seen leaving house linked to suspect with wooden stick’ on morning she died",
-      "signal_count": 3,
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "The Independent",
@@ -175,139 +128,69 @@
           "url": "https://www.standard.co.uk/news/uk/ann-widdecombe-neighbours-england-rotherham-james-vaughan-b1289728.html",
           "headline": "Man ‘with stick left house linked to Widdecombe murder suspect and drove away’",
           "platform": "rss"
-        },
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39735281/ann-widdecombe-murder-suspect-stick/",
-          "headline": "Ann Widdecombe ‘murder’ suspect ‘drove 270 miles to Dartmoor with wooden stick on morning of day she died’",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.167,
-        "spread": 0.33,
+        "mean": -0.05,
+        "spread": 0.15,
         "left": 0,
         "center": 2,
-        "right": 1
-      },
-      "first_seen": "2026-07-12T16:06:11+00:00",
-      "last_seen": "2026-07-12T19:07:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.5207
-    },
-    {
-      "id": "064b503c2f",
-      "title": "Jannik Sinner beats Alexander Zverev: Wimbledon men’s singles final – live",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/sport/live/2026/jul/12/wimbledon-tennis-jannik-sinner-alexander-zverev-mens-singles-final-live",
-          "headline": "Jannik Sinner beats Alexander Zverev: Wimbledon men’s singles final – live",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Sky News UK",
-          "url": "https://news.sky.com/story/jannik-sinner-wins-second-mens-wimbledon-singles-title-13562849",
-          "headline": "Jannik Sinner wins second men's Wimbledon singles title",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.25,
-        "left": 1,
-        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-12T17:01:00+00:00",
-      "last_seen": "2026-07-12T19:14:53+00:00",
+      "first_seen": "2026-07-12T18:42:42+00:00",
+      "last_seen": "2026-07-12T20:24:25+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.406
+      "resonance": 0.353
     },
     {
-      "id": "518f418f46",
-      "title": "Ann Widdecombe murder probe: What we know so far",
+      "id": "e8fcb01ca0",
+      "title": "At least 27 killed in Bangkok bar fire, Thai authorities say",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/c3vyqkqkvr9o?at_medium=RSS&at_campaign=rss",
-          "headline": "Ann Widdecombe murder probe: What we know so far",
+          "url": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
+          "headline": "At least 27 killed in Bangkok bar fire, Thai authorities say",
           "platform": "rss"
         },
         {
-          "outlet": "Evening Standard",
-          "url": "https://www.standard.co.uk/news/uk/police-nigel-farage-mep-james-vaughan-south-yorkshire-b1289698.html",
-          "headline": "Police not looking for any other suspects in Ann Widdecombe murder probe",
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39736590/horror-fire-thai-bar-kills-trapped/",
+          "headline": "At least 27 killed after horror fire rips through Thai bar as dozens left trapped inside toilets as crews battle inferno",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.1,
+        "mean": 0.25,
+        "spread": 0.35,
         "left": 0,
-        "center": 2,
-        "right": 0
+        "center": 1,
+        "right": 1
       },
-      "first_seen": "2026-07-12T15:46:23+00:00",
-      "last_seen": "2026-07-12T19:06:25+00:00",
+      "first_seen": "2026-07-12T18:35:37+00:00",
+      "last_seen": "2026-07-12T20:13:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
+      "topic": "tech",
       "language": "en",
-      "resonance": 0.3333
+      "resonance": 0.3367
     },
     {
-      "id": "ccb7101c27",
-      "title": "UK wildfire believed to have been started by 'youths setting off fireworks'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/uk-news/youths-blasted-setting-fireworks-before-37421927",
-          "headline": "UK wildfire believed to have been started by 'youths setting off fireworks'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T19:13:02+00:00",
-      "last_seen": "2026-07-12T19:13:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "en",
-      "resonance": 0.2512
-    },
-    {
-      "id": "d01326fae9",
-      "title": "Brit tourist seriously injured after being struck by propeller of sightseeing boat while swimming in popular cave",
+      "id": "16ef3e4b69",
+      "title": "Andy Burnham is days away from No10 – but Britain still has no idea what he stands for",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39736945/brit-tourist-seriously-hurt-boat-propeller-cave-swim/",
-          "headline": "Brit tourist seriously injured after being struck by propeller of sightseeing boat while swimming in popular cave",
+          "url": "https://www.thesun.co.uk/news/39737785/andy-burnham-no10-britain-labour-sun-says/",
+          "headline": "Andy Burnham is days away from No10 – but Britain still has no idea what he stands for",
           "platform": "rss"
         }
       ],
@@ -318,15 +201,282 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-12T19:10:16+00:00",
-      "last_seen": "2026-07-12T19:10:16+00:00",
+      "first_seen": "2026-07-12T21:00:00+00:00",
+      "last_seen": "2026-07-12T21:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.2236
+    },
+    {
+      "id": "ce03de7b40",
+      "title": "Ann Widdecombe suspect caught on CCTV leaving his home ‘with wooden stick’ hours before ex-MP was killed 270 miles away",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39737018/ann-widdecombe-suspect-cctv/",
+          "headline": "Ann Widdecombe suspect caught on CCTV leaving his home ‘with wooden stick’ hours before ex-MP was killed 270 miles away",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T20:59:33+00:00",
+      "last_seen": "2026-07-12T20:59:33+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.2461
+      "resonance": 0.2227
+    },
+    {
+      "id": "eda48786c9",
+      "title": "Arthur Fery invites Prince George and Princess Charlotte to play tennis",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/ckg7mxj41lro?at_medium=RSS&at_campaign=rss",
+          "headline": "Arthur Fery invites Prince George and Princess Charlotte to play tennis",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Evening Standard",
+          "url": "https://www.standard.co.uk/news/uk/arthur-fery-princess-charlotte-prince-princess-british-b1289718.html",
+          "headline": "Arthur Fery tells Kate that George and Charlotte can play tennis with him",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T16:18:39+00:00",
+      "last_seen": "2026-07-12T20:20:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.2211
+    },
+    {
+      "id": "91b3e1d356",
+      "title": "Ann Widdecombe murder probe: Suspect 'put wooden stick inside moss-covered car on day of ex-Tory MP's death'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/politics/ann-widdecombe-dead-murder-police-37415691",
+          "headline": "Ann Widdecombe murder probe: Suspect 'put wooden stick inside moss-covered car on day of ex-Tory MP's death'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T20:52:35+00:00",
+      "last_seen": "2026-07-12T20:52:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.2088
+    },
+    {
+      "id": "f13fdbff6c",
+      "title": "Police say no suggestion of political motive in Widdecombe killing after new arrest",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/c8628q3eqdeo?at_medium=RSS&at_campaign=rss",
+          "headline": "Police say no suggestion of political motive in Widdecombe killing after new arrest",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T20:48:53+00:00",
+      "last_seen": "2026-07-12T20:48:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "en",
+      "resonance": 0.2016
+    },
+    {
+      "id": "77afad6bf5",
+      "title": "Kate presents Sinner with Wimbledon trophy at ‘most special tournament’ of year",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Evening Standard",
+          "url": "https://www.standard.co.uk/news/uk/kate-wimbledon-centre-court-princess-wales-b1289738.html",
+          "headline": "Kate presents Sinner with Wimbledon trophy at ‘most special tournament’ of year",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T20:46:03+00:00",
+      "last_seen": "2026-07-12T20:46:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "en",
+      "resonance": 0.1961
+    },
+    {
+      "id": "49fd42f096",
+      "title": "Middle-class favourite BBC4 'set for axe' in bid to fill broadcaster's £500million funding black hole",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/news/article-15970729/Middle-class-favourite-BBC4-set-axe-bid-broadcasters-500million-funding-black-hole.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "Middle-class favourite BBC4 'set for axe' in bid to fill broadcaster's £500million funding black hole",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.7,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T20:44:52+00:00",
+      "last_seen": "2026-07-12T20:44:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1938
+    },
+    {
+      "id": "41cd1cd78c",
+      "title": "England fan missing in Barcelona after disappearing while celebrating Three Lions win versus Norway in club with friends",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39737787/england-fan-missing-barcelona-after-club-disappearance/",
+          "headline": "England fan missing in Barcelona after disappearing while celebrating Three Lions win versus Norway in club with friends",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T20:44:26+00:00",
+      "last_seen": "2026-07-12T20:44:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.1929
+    },
+    {
+      "id": "6c523a9c9c",
+      "title": "British man dies in Spain wildfires while on the phone to his wife after trying to rescue pets",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/world-news/british-man-dies-spain-wildfires-37422230",
+          "headline": "British man dies in Spain wildfires while on the phone to his wife after trying to rescue pets",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T20:43:09+00:00",
+      "last_seen": "2026-07-12T20:43:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.1904
+    },
+    {
+      "id": "a78ef6d0d1",
+      "title": "UK couple found burned and semi-conscious in Almería amid Spanish wildfires",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/12/uk-couple-burned-semi-conscious-almeria-spanish-wildfires",
+          "headline": "UK couple found burned and semi-conscious in Almería amid Spanish wildfires",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.4,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T20:30:54+00:00",
+      "last_seen": "2026-07-12T20:30:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "en",
+      "resonance": 0.1671
     },
     {
       "id": "e536495b83",
@@ -347,25 +497,89 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-12T19:09:15+00:00",
-      "last_seen": "2026-07-12T19:09:15+00:00",
+      "first_seen": "2026-07-12T20:30:02+00:00",
+      "last_seen": "2026-07-12T20:30:02+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "en",
-      "resonance": 0.2442
+      "resonance": 0.1655
     },
     {
-      "id": "ff179d5092",
-      "title": "Customers shopped at Vons for hours while dead body lay in bakery aisle as worker recalls boss’s ‘horrifying’ demand",
+      "id": "f92e14349c",
+      "title": "Police not looking for any other suspects in Ann Widdecombe murder probe",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/politics/ann-widdecombe-murder-police-cctv-37422064",
+          "headline": "Ann Widdecombe police probe new CCTV after 'loner with wooden stick' arrested for murder",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Evening Standard",
+          "url": "https://www.standard.co.uk/news/uk/police-nigel-farage-mep-james-vaughan-south-yorkshire-b1289698.html",
+          "headline": "Police not looking for any other suspects in Ann Widdecombe murder probe",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.2,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T15:46:23+00:00",
+      "last_seen": "2026-07-12T19:47:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "en",
+      "resonance": 0.1604
+    },
+    {
+      "id": "baf5928a8f",
+      "title": "More than 100 firefighters tackle railway embankment blaze in east London",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/jul/12/more-than-100-firefighters-tackle-railway-embankment-blaze-in-east-london",
+          "headline": "More than 100 firefighters tackle railway embankment blaze in east London",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.4,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T20:23:54+00:00",
+      "last_seen": "2026-07-12T20:23:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.1541
+    },
+    {
+      "id": "898792eed8",
+      "title": "Six dead and seven injured after ‘driver rams into crowd at festival’ before being dragged from car and handed to police",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39737016/vons-shoppers-dead-body-bakery-aisle-worker-los-angeles/",
-          "headline": "Customers shopped at Vons for hours while dead body lay in bakery aisle as worker recalls boss’s ‘horrifying’ demand",
+          "url": "https://www.thesun.co.uk/news/39736665/driver-rams-crowd-festival-dead-injured/",
+          "headline": "Six dead and seven injured after ‘driver rams into crowd at festival’ before being dragged from car and handed to police",
           "platform": "rss"
         }
       ],
@@ -376,54 +590,25 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-12T19:07:53+00:00",
-      "last_seen": "2026-07-12T19:07:53+00:00",
+      "first_seen": "2026-07-12T20:22:57+00:00",
+      "last_seen": "2026-07-12T20:22:57+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
+      "topic": "society",
       "language": "en",
-      "resonance": 0.2417
+      "resonance": 0.1524
     },
     {
-      "id": "3f29b02872",
-      "title": "Sledgehammer-wielding gang who stole £225,000 in jewellery shop smash-and-grab plead guilty as footage shows raid",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39735602/sledgehammer-gang-stole-jewelry-shop-smash-grab/",
-          "headline": "Sledgehammer-wielding gang who stole £225,000 in jewellery shop smash-and-grab plead guilty as footage shows raid",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-12T19:06:42+00:00",
-      "last_seen": "2026-07-12T19:06:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.2395
-    },
-    {
-      "id": "72b2a22f70",
-      "title": "Royal Family live: Kate Middleton gives special Wimbledon lesson to Princess Charlotte with William and George",
+      "id": "672bd14910",
+      "title": "Royal Family live: Kate Middleton hands Wimbledon trophy to Sinner with William, George and Charlotte in crowd",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Mirror",
           "url": "https://www.mirror.co.uk/news/royals/william-kate-wimbledon-george-charlotte-37407605",
-          "headline": "Royal Family live: Kate Middleton gives special Wimbledon lesson to Princess Charlotte with William and George",
+          "headline": "Royal Family live: Kate Middleton hands Wimbledon trophy to Sinner with William, George and Charlotte in crowd",
           "platform": "rss"
         }
       ],
@@ -434,83 +619,54 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-12T19:01:18+00:00",
-      "last_seen": "2026-07-12T19:01:18+00:00",
+      "first_seen": "2026-07-12T20:20:44+00:00",
+      "last_seen": "2026-07-12T20:20:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.2296
+      "resonance": 0.1483
     },
     {
-      "id": "bf2470d271",
-      "title": "'Hillsborough Law has been paid through 37 years of grief for families after lies and failures'",
+      "id": "a74fd1a3fb",
+      "title": "Brit pensioner, 93, dies in hospital days after being rescued from Spanish wildfires as death toll hits 13",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/politics/hillsborough-law-been-paid-through-37421606",
-          "headline": "'Hillsborough Law has been paid through 37 years of grief for families after lies and failures'",
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39737542/brit-pensioner-dies-spanish-wildfires/",
+          "headline": "Brit pensioner, 93, dies in hospital days after being rescued from Spanish wildfires as death toll hits 13",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T18:54:23+00:00",
-      "last_seen": "2026-07-12T18:54:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "en",
-      "resonance": 0.2171
-    },
-    {
-      "id": "63a480f77c",
-      "title": "Great-grandfather says 'everything is gone' after house fire",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/c70yp7d917eo?at_medium=RSS&at_campaign=rss",
-          "headline": "Great-grandfather says 'everything is gone' after house fire",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
+        "mean": 0.6,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
-        "right": 0
+        "center": 0,
+        "right": 1
       },
-      "first_seen": "2026-07-12T18:54:08+00:00",
-      "last_seen": "2026-07-12T18:54:08+00:00",
+      "first_seen": "2026-07-12T20:14:51+00:00",
+      "last_seen": "2026-07-12T20:14:51+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "climate",
       "language": "en",
-      "resonance": 0.2167
+      "resonance": 0.1376
     },
     {
-      "id": "d630bf8f4f",
-      "title": "From the ride to the rubble - how McCullum lost England Test job",
+      "id": "957bdfc6c4",
+      "title": "Sinner holds off Zverev to defend Wimbledon title",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "BBC World",
-          "url": "https://www.bbc.co.uk/sport/cricket/articles/cqx15e27v3eo?at_medium=RSS&at_campaign=rss",
-          "headline": "From the ride to the rubble - how McCullum lost England Test job",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c78y2eqq317o?at_medium=RSS&at_campaign=rss",
+          "headline": "Sinner holds off Zverev to defend Wimbledon title",
           "platform": "rss"
         }
       ],
@@ -521,25 +677,54 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-12T18:51:03+00:00",
-      "last_seen": "2026-07-12T18:51:03+00:00",
+      "first_seen": "2026-07-12T20:10:20+00:00",
+      "last_seen": "2026-07-12T20:10:20+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.2112
+      "resonance": 0.1295
     },
     {
-      "id": "e3e17e1862",
-      "title": "Trump rejects Iran’s strait of Hormuz closure claim as fight for control goes on",
+      "id": "9f8e4fa552",
+      "title": "Waitrose axes 'feminine' from its period products aisle signs",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/news/article-15970719/Waitrose-pressure-trans-upmarket-axes-feminine-period-products-signs.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "Waitrose axes 'feminine' from its period products aisle signs",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.7,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T20:09:59+00:00",
+      "last_seen": "2026-07-12T20:09:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.1289
+    },
+    {
+      "id": "2d5ab30cf6",
+      "title": "Police warn Widdecombe murder speculation is ‘unhelpful and distressing’",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/12/us-and-iran-exchange-strikes-as-tehran-again-says-strait-of-hormuz-is-closed",
-          "headline": "Trump rejects Iran’s strait of Hormuz closure claim as fight for control goes on",
+          "url": "https://www.theguardian.com/politics/2026/jul/12/police-speculation-during-widdecombe-investigation-is-unhelpful-and-distressing",
+          "headline": "Police warn Widdecombe murder speculation is ‘unhelpful and distressing’",
           "platform": "rss"
         }
       ],
@@ -550,426 +735,25 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-12T18:49:08+00:00",
-      "last_seen": "2026-07-12T18:49:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.2078
-    },
-    {
-      "id": "13bbb6e0c4",
-      "title": "Reform would have received a fraction of £26.7m donations haul under a £100,000 cap, analysis shows",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/politics/2026/jul/12/reform-uk-donations-proposed-10000-cap-analysis",
-          "headline": "Reform would have received a fraction of £26.7m donations haul under a £100,000 cap, analysis shows",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T18:44:38+00:00",
-      "last_seen": "2026-07-12T18:44:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1999
-    },
-    {
-      "id": "48c00e0f4b",
-      "title": "At least 27 killed after horror fire rips through Thai bar as dozens left trapped inside toilets as crews battle inferno",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39736590/horror-fire-thai-bar-kills-trapped/",
-          "headline": "At least 27 killed after horror fire rips through Thai bar as dozens left trapped inside toilets as crews battle inferno",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-12T18:35:37+00:00",
-      "last_seen": "2026-07-12T18:35:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.1843
-    },
-    {
-      "id": "40cd2e8d23",
-      "title": "US senator and close Trump ally Lindsey Graham dies after 'brief and sudden illness'",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&at_campaign=rss",
-          "headline": "US senator and close Trump ally Lindsey Graham dies after 'brief and sudden illness'",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39734820/trump-reveals-final-phone-call-lindsey-graham-died/",
-          "headline": "FBI ‘assisting’ cops as US senator Lindsey Graham dies from ‘sudden illness’ a day after meeting Zelensky in Ukraine",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.25,
-        "spread": 0.35,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-07-12T14:05:22+00:00",
-      "last_seen": "2026-07-12T17:40:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.1728
-    },
-    {
-      "id": "d9997acdc8",
-      "title": "Man in his 20s ‘raped in car park of UK beauty spot before attacker stole £50 from pocket’ as cops appeal for witnesses",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39722738/man-raped-uk-beauty-spot-attacker-stole-cash/",
-          "headline": "Man in his 20s ‘raped in car park of UK beauty spot before attacker stole £50 from pocket’ as cops appeal for witnesses",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-12T18:28:06+00:00",
-      "last_seen": "2026-07-12T18:28:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.1715
-    },
-    {
-      "id": "01b5209566",
-      "title": "England have another level we can reach - Kane",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cy04xjlg5p4o?at_medium=RSS&at_campaign=rss",
-          "headline": "England have another level we can reach - Kane",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T18:18:22+00:00",
-      "last_seen": "2026-07-12T18:18:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1553
-    },
-    {
-      "id": "96324115d8",
-      "title": "Nolan Wells’ Dad makes demand from pals & slams ‘excuses’ as best friend says ‘nothing adds up’ with fight or race claim",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39736549/nolan-wells-update-dad-demands-answers-from-friends-mississippi/",
-          "headline": "Nolan Wells’ Dad makes demand from pals & slams ‘excuses’ as best friend says ‘nothing adds up’ with fight or race claim",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-12T18:17:01+00:00",
-      "last_seen": "2026-07-12T18:17:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.1531
-    },
-    {
-      "id": "c199586473",
-      "title": "Two charged as body found in suitcase in woods",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39735894/men-charged-suitcase-murder-probe/",
-          "headline": "Two men charged after body found in suitcase near teddy bear hunt after ‘man attacked at house’ as cops probe murder",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/cx2dwngx23lo?at_medium=RSS&at_campaign=rss",
-          "headline": "Two charged as body found in suitcase in woods",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.25,
-        "spread": 0.35,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-07-12T11:54:52+00:00",
-      "last_seen": "2026-07-12T17:54:50+00:00",
+      "first_seen": "2026-07-12T20:07:42+00:00",
+      "last_seen": "2026-07-12T20:07:42+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
       "language": "en",
-      "resonance": 0.1455
+      "resonance": 0.1248
     },
     {
-      "id": "c54685af09",
-      "title": "‘He just wants to see the best version of us’: Harry Kane accepts Tuchel criticism",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/football/2026/jul/12/harry-kane-thomas-tuchel-jude-bellingham-england-norway-world-cup-2026-quarter-final",
-          "headline": "‘He just wants to see the best version of us’: Harry Kane accepts Tuchel criticism",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T18:00:24+00:00",
-      "last_seen": "2026-07-12T18:00:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1264
-    },
-    {
-      "id": "dc6c8a0a3f",
-      "title": "Harry Kane weighs in on Thomas Tuchel and Jude Bellingham clash after 'lucky' England win",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/sport/football/news/kane-bellingham-tuchel-england-norway-37420912",
-          "headline": "Harry Kane weighs in on Thomas Tuchel and Jude Bellingham clash after 'lucky' England win",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T18:00:00+00:00",
-      "last_seen": "2026-07-12T18:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1257
-    },
-    {
-      "id": "fff669e9bd",
-      "title": "Man arrested over murder of 24-year-old woman in double stabbing",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Evening Standard",
-          "url": "https://www.standard.co.uk/news/uk/metropolitan-police-london-hayes-uxbridge-road-london-ambulance-service-b1289711.html",
-          "headline": "Man arrested over murder of 24-year-old woman in double stabbing",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T17:39:12+00:00",
-      "last_seen": "2026-07-12T17:39:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0937
-    },
-    {
-      "id": "3b462f7627",
-      "title": "Shabana Mahmood's asylum law change 'risks punishing trafficking victims' warning ahead of crunch vote",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/politics/shabana-mahmood-asylum-trafficking-migration-37415346",
-          "headline": "Shabana Mahmood's asylum law change 'risks punishing trafficking victims' warning ahead of crunch vote",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T17:32:35+00:00",
-      "last_seen": "2026-07-12T17:32:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "en",
-      "resonance": 0.0838
-    },
-    {
-      "id": "d11468cada",
-      "title": "One in three parents say they couldn't do teacher's job for even just one week",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/uk-news/one-three-parents-say-couldnt-37421769",
-          "headline": "One in three parents say they couldn't do teacher's job for even just one week",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T17:24:07+00:00",
-      "last_seen": "2026-07-12T17:24:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0714
-    },
-    {
-      "id": "d8a02fe4a8",
-      "title": "Lorry driver arrested as child dies in collision",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/child-dies-after-being-struck-37421428",
-          "headline": "Child dies after being 'struck by lorry' in Essex as driver, 48, arrested",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39733298/child-dies-lorry-crash-driver-arrested/",
-          "headline": "Child dies after being hit by lorry as driver, 48, is arrested",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/c70y247vd2do?at_medium=RSS&at_campaign=rss",
-          "headline": "Lorry driver arrested as child dies in collision",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.067,
-        "spread": 0.386,
-        "left": 1,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-07-12T09:27:36+00:00",
-      "last_seen": "2026-07-12T15:20:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0662
-    },
-    {
-      "id": "468815e188",
-      "title": "Wounded Brit war hero, 49, left in agony inside ex-Soviet jail after cocktail of painkillers were branded banned drugs",
+      "id": "746f262e8d",
+      "title": "Retired signalmen become first rail buffs to visit every UK station after clocking up 400,000 miles in 36-year journey",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39735545/wounded-brit-war-hero-left-agony-soviet-jail/",
-          "headline": "Wounded Brit war hero, 49, left in agony inside ex-Soviet jail after cocktail of painkillers were branded banned drugs",
+          "url": "https://www.thesun.co.uk/news/39735730/retired-signalmen-first-rail-buffs-visit-every-uk-station/",
+          "headline": "Retired signalmen become first rail buffs to visit every UK station after clocking up 400,000 miles in 36-year journey",
           "platform": "rss"
         }
       ],
@@ -980,52 +764,280 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-12T17:09:09+00:00",
-      "last_seen": "2026-07-12T17:09:09+00:00",
+      "first_seen": "2026-07-12T20:00:00+00:00",
+      "last_seen": "2026-07-12T20:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
       "language": "en",
+      "resonance": 0.1112
+    },
+    {
+      "id": "1d6931a55d",
+      "title": "Victim’s mum fury after Afghan who raped teen daughter set to be freed early from prison and allowed to remain in UK",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39736097/afghan-raped-teen-freed-early-prison-remain-uk/",
+          "headline": "Victim’s mum fury after Afghan who raped teen daughter set to be freed early from prison and allowed to remain in UK",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T20:00:00+00:00",
+      "last_seen": "2026-07-12T20:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.1112
+    },
+    {
+      "id": "578b2c18ab",
+      "title": "‘Drunk’ seagulls spark traffic chaos in coastal towns after gorging on swarms of flying ants in summer heat",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39736421/drunk-seagulls-spark-traffic-chaos/",
+          "headline": "‘Drunk’ seagulls spark traffic chaos in coastal towns after gorging on swarms of flying ants in summer heat",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T20:00:00+00:00",
+      "last_seen": "2026-07-12T20:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "en",
+      "resonance": 0.1112
+    },
+    {
+      "id": "758a987db7",
+      "title": "Huge blaze breaks out near train station in London as over 125 firefighters battle flames & residents told to evacuate",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39737323/fire-walthamstow-train-station-tree-tracks-chaos/",
+          "headline": "Huge blaze breaks out near train station in London as over 125 firefighters battle flames & residents told to evacuate",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T19:52:10+00:00",
+      "last_seen": "2026-07-12T19:52:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.0977
+    },
+    {
+      "id": "95b60703f0",
+      "title": "Bangkok horror bar fire kills dozens with many more hospitalised",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/world-news/bangkok-horror-pub-fire-kills-37422042",
+          "headline": "Bangkok horror bar fire kills dozens with many more hospitalised",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T19:31:57+00:00",
+      "last_seen": "2026-07-12T19:31:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "language": "en",
+      "resonance": 0.0639
+    },
+    {
+      "id": "0d85d2df80",
+      "title": "GPs admit harrowing patient stories can leave doctors ‘hardened’ to trauma",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/gp-mental-health-nhs-patients-37415343",
+          "headline": "GPs admit harrowing patient stories can leave doctors ‘hardened’ to trauma",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T19:25:40+00:00",
+      "last_seen": "2026-07-12T19:25:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.0536
+    },
+    {
+      "id": "828d99e15c",
+      "title": "Black Hawk teams rescue 200 children as deadly historic floods engulf summer camp in eerie echo of Camp Mystic disaster",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39737158/black-hawk-rescue-children-summer-missouri-camp-mystic-floods/",
+          "headline": "Black Hawk teams rescue 200 children as deadly historic floods engulf summer camp in eerie echo of Camp Mystic disaster",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T19:23:24+00:00",
+      "last_seen": "2026-07-12T19:23:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "en",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "0c7a183cb0",
-      "target": "518f418f46",
-      "weight": 0.478,
+      "source": "c49745d343",
+      "target": "baf5928a8f",
+      "weight": 0.228,
       "type": "thematic"
     },
     {
       "source": "0c7a183cb0",
-      "target": "fff669e9bd",
-      "weight": 0.001,
+      "target": "ce03de7b40",
+      "weight": 0.649,
       "type": "thematic"
     },
     {
-      "source": "e536495b83",
-      "target": "dc6c8a0a3f",
-      "weight": 0.053,
+      "source": "0c7a183cb0",
+      "target": "91b3e1d356",
+      "weight": 0.623,
       "type": "thematic"
     },
     {
-      "source": "d630bf8f4f",
-      "target": "d11468cada",
-      "weight": 0.011,
+      "source": "0c7a183cb0",
+      "target": "f92e14349c",
+      "weight": 0.281,
       "type": "thematic"
     },
     {
-      "source": "01b5209566",
-      "target": "dc6c8a0a3f",
-      "weight": 0.179,
+      "source": "e8fcb01ca0",
+      "target": "95b60703f0",
+      "weight": 0.721,
       "type": "thematic"
     },
     {
-      "source": "c54685af09",
-      "target": "dc6c8a0a3f",
-      "weight": 0.407,
+      "source": "ce03de7b40",
+      "target": "91b3e1d356",
+      "weight": 0.816,
+      "type": "thematic"
+    },
+    {
+      "source": "eda48786c9",
+      "target": "672bd14910",
+      "weight": 0.088,
+      "type": "thematic"
+    },
+    {
+      "source": "91b3e1d356",
+      "target": "f92e14349c",
+      "weight": 0.622,
+      "type": "thematic"
+    },
+    {
+      "source": "f13fdbff6c",
+      "target": "f92e14349c",
+      "weight": 0.176,
+      "type": "thematic"
+    },
+    {
+      "source": "f13fdbff6c",
+      "target": "2d5ab30cf6",
+      "weight": 0.134,
+      "type": "thematic"
+    },
+    {
+      "source": "77afad6bf5",
+      "target": "672bd14910",
+      "weight": 0.846,
+      "type": "thematic"
+    },
+    {
+      "source": "77afad6bf5",
+      "target": "957bdfc6c4",
+      "weight": 0.296,
+      "type": "thematic"
+    },
+    {
+      "source": "f92e14349c",
+      "target": "2d5ab30cf6",
+      "weight": 0.62,
+      "type": "thematic"
+    },
+    {
+      "source": "baf5928a8f",
+      "target": "758a987db7",
+      "weight": 0.373,
+      "type": "thematic"
+    },
+    {
+      "source": "672bd14910",
+      "target": "957bdfc6c4",
+      "weight": 0.071,
       "type": "thematic"
     }
   ],
@@ -1082,7 +1094,7 @@
     },
     "Evening Standard": {
       "ok": true,
-      "count": 12,
+      "count": 11,
       "error": null
     }
   }

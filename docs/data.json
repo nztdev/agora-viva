@@ -1,40 +1,70 @@
 {
-  "generated_at": "2026-07-12T01:02:53.442533+00:00",
+  "generated_at": "2026-07-12T04:50:19.560343+00:00",
   "node_count": 35,
-  "edge_count": 18,
+  "edge_count": 26,
   "nodes": [
     {
-      "id": "009be8105c",
-      "title": "Stop Telling Me to Ask an LLM",
-      "signal_count": 1,
+      "id": "0e8f47b5eb",
+      "title": "At least two killed in Toronto street festival shooting",
+      "signal_count": 6,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
-          "headline": "Stop Telling Me to Ask an LLM",
-          "platform": "hackernews"
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/jul/12/toronto-shooting-two-dead-and-three-injured-as-police-search-for-active-shooter",
+          "headline": "Toronto shooting: two dead and four injured at Salsa on St Clair street festival",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/ce3e66e1x3go?at_medium=RSS&at_campaign=rss",
+          "headline": "At least two killed in Toronto street festival shooting",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/11/world/canada/toronto-shooting-salsa-festival-canada.html",
+          "headline": "Toronto Police Search For Active Shooter After 2 Killed at Street Festival",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/two-dead-and-four-injured-in-shooting-at-toronto-festival-police-say-13562675",
+          "headline": "Two dead and four injured in shooting at Toronto street festival",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/gunfire-shatters-toronto-latin-street-festival-leaving-least-2-dead-3-injured",
+          "headline": "Gunfire shatters Toronto Latin street festival, leaving at least 2 dead and multiple wounded",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/two-people-killed-and-several-wounded-in-mass-shooting-at-toronto-festival/a-77920249?maca=en-rss-en-all-1573-rdf",
+          "headline": "Two people killed and several wounded in mass shooting at Toronto festival",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
+        "mean": -0.0,
+        "spread": 0.306,
+        "left": 2,
+        "center": 3,
+        "right": 1
       },
-      "first_seen": "2026-07-11T22:28:48+00:00",
-      "last_seen": "2026-07-11T22:28:48+00:00",
+      "first_seen": "2026-07-12T01:03:00+00:00",
+      "last_seen": "2026-07-12T04:00:31+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
+      "topic": "tech",
+      "resonance": 0.7128
     },
     {
       "id": "0c3dc83eab",
       "title": "US launches fresh strikes as Iran closes Strait of Hormuz",
-      "signal_count": 4,
+      "signal_count": 6,
       "sources": [
         {
           "outlet": "BBC World Service",
@@ -43,15 +73,27 @@
           "platform": "rss"
         },
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3360254/iran-declares-strait-hormuz-closed-us-launches-new-strikes?utm_source=rss_feed",
-          "headline": "Iran declares Strait of Hormuz closed, US launches new strikes",
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/07/12/world/us-strikes-iran-ship-strait-of-hormuz/",
+          "headline": "U.S. launches more strikes on Iran after commercial ship struck in Strait of Hormuz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/11/world/middleeast/iran-araghchi-oman-iran-strait-of-hormuz.html",
+          "headline": "U.S. Strikes Iran After Iran Fires on Ship in Strait of Hormuz",
           "platform": "rss"
         },
         {
           "outlet": "Middle East Eye",
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-us-launches-strikes-iran-after-irgc-hits-container-hormuz",
           "headline": "US launches strikes on Iran after IRGC hits container in Hormuz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/12/iran-announces-closure-of-the-strait-of-hormuz-until-further-notice_6755387_4.html",
+          "headline": "US launches new strikes on Iran after container ship hit in Hormuz",
           "platform": "rss"
         },
         {
@@ -62,48 +104,76 @@
         }
       ],
       "bias": {
-        "mean": -0.062,
-        "spread": 0.129,
-        "left": 1,
-        "center": 3,
+        "mean": -0.142,
+        "spread": 0.117,
+        "left": 2,
+        "center": 4,
         "right": 0
       },
       "first_seen": "2026-07-11T22:48:00+00:00",
-      "last_seen": "2026-07-12T00:15:22+00:00",
+      "last_seen": "2026-07-12T04:39:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.5969
+      "resonance": 0.7114
+    },
+    {
+      "id": "f0680f34b3",
+      "title": "World Cup 2026: Argentina reach semi-finals after extra-time battle with 10-man Switzerland",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/argentina-vs-switzerland-fifa-world-cup-2026-quarterfinal-live-updates/article71212615.ece",
+          "headline": "Argentina VS Switzerland, FIFA World Cup LIVE: Argentina marches into the semis beating Switzerland 3-1 in extra time",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260712-world-cup-2026-argentina-reach-semi-finals-after-epic-extra-time-battle-with-10-man-switzerland",
+          "headline": "World Cup 2026: Argentina reach semi-finals after extra-time battle with 10-man Switzerland",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/11/argentina-vs-switzerland-live-fifa-world-cup-2026?traffic_source=rss",
+          "headline": "Argentina 3-1 Switzerland LIVE: FIFA World Cup 2026",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.133,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T21:31:40+00:00",
+      "last_seen": "2026-07-12T03:54:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.2539
     },
     {
       "id": "37882a1cb9",
       "title": "England defeat Norway 2-1 in extra time, sliding into World Cup semis",
-      "signal_count": 9,
+      "signal_count": 5,
       "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/sports/2026/07/12/soccer/world-cup/bellingham-england-norway-world-cup-semis/",
+          "headline": "Bellingham double fires England past Norway into World Cup semis",
+          "platform": "rss"
+        },
         {
           "outlet": "Le Monde (EN)",
           "url": "https://www.lemonde.fr/en/sports/article/2026/07/12/england-defeats-norway-2-1-in-extra-time-sliding-into-world-cup-semis_6755388_9.html",
           "headline": "England defeat Norway 2-1 in extra time, sliding into World Cup semis",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/england-vs-norway-fifa-world-cup-bellingham-stars-in-quarterfinal-clash-as-england-wins-in-extra-time/article71212906.ece",
-          "headline": "England vs Norway, FIFA World Cup: Bellingham stars in quarterfinal clash as England wins in extra time",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/england-vs-norway-fifa-world-cup-2026-quarterfinal-live-updates/article71211741.ece",
-          "headline": "Norway vs England, FIFA World Cup Highlights: Bellingham's double sends England into semifinals",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/11/world/europe/england-norway-world-cup.html",
-          "headline": "England and Norway Resurrect a Rivalry for the World Cup",
           "platform": "rss"
         },
         {
@@ -119,12 +189,6 @@
           "platform": "rss"
         },
         {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/11/nx-s1-5890169/2026-world-cup-fifa-england-norway-quarterfinal",
-          "headline": "In a nailbiter, England moves on to the World Cup semifinals, defeating Norway 2-1",
-          "platform": "rss"
-        },
-        {
           "outlet": "France 24",
           "url": "https://www.france24.com/en/sport/20260711-norway-england-live-haaland-s-vikings-seek-to-shock-the-three-lions",
           "headline": "Norway-England: Three Lions advance to semi-finals after Bellingham's extra-time double",
@@ -132,616 +196,70 @@
         }
       ],
       "bias": {
-        "mean": -0.161,
-        "spread": 0.066,
-        "left": 1,
-        "center": 8,
+        "mean": -0.12,
+        "spread": 0.075,
+        "left": 0,
+        "center": 5,
         "right": 0
       },
-      "first_seen": "2026-07-11T17:31:07+00:00",
-      "last_seen": "2026-07-12T00:30:15+00:00",
+      "first_seen": "2026-07-11T20:16:38+00:00",
+      "last_seen": "2026-07-12T02:16:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.5906
+      "resonance": 0.1916
     },
     {
-      "id": "bbef016d4f",
-      "title": "Indian tourists among 15 killed as speedboat capsizes in Vietnam",
-      "signal_count": 5,
+      "id": "52c9a90ea6",
+      "title": "US attacks Iran over ship being hit in Strait of Hormuz; Tehran lashes out again at Gulf Arab states",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/indian-tourists-killed-after-speedboat-capsizes-in-vietnam?traffic_source=rss",
-          "headline": "Indian tourists killed after speedboat capsizes in Vietnam",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/11/world/asia/vietnam-speedboat-tourists-capsize.html",
-          "headline": "15 Killed as Speedboat Capsizes in Vietnam",
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/11/g-s1-133212/us-iran-vessel-attack-strait-hormuz-gulf",
+          "headline": "US attacks Iran over ship being hit in Strait of Hormuz; Tehran lashes out again at Gulf Arab states",
           "platform": "rss"
         },
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360241/vietnam-tourist-speedboat-capsizes-killing-15-indian-tourists?utm_source=rss_feed",
-          "headline": "Vietnam tourist speedboat capsizes, killing 15 Indian tourists",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/vietnam-indian-tourists-killed-in-boat-capsize/a-77916717?maca=en-rss-en-all-1573-rdf",
-          "headline": "Vietnam: Indian tourists killed in boat capsize",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cwyd7x22lp1o?at_medium=RSS&at_campaign=rss",
-          "headline": "Indian tourists among 15 killed as speedboat capsizes in Vietnam",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.141,
-        "left": 1,
-        "center": 4,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T13:44:03+00:00",
-      "last_seen": "2026-07-11T23:35:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.3698
-    },
-    {
-      "id": "88f6311e69",
-      "title": "Man arrested on suspicion of murder of Ann Widdecombe, police say",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cz6v5z9zz8jo?at_medium=RSS&at_campaign=rss",
-          "headline": "Man arrested on suspicion of murder of Ann Widdecombe, police say",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-12/man-arrested-ann-widdecombe-murder-investigation/106906592",
-          "headline": "UK police arrest 28-year-old man in Ann Widdecombe murder case",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3360254/iran-declares-strait-hormuz-closed-us-launches-new-strikes?utm_source=rss_feed",
+          "headline": "US strikes Iran as Tehran closes Hormuz again, attacks Gulf states",
           "platform": "rss"
         },
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/uk-police-investigate-murder-of-politician-ann-widdecombe?traffic_source=rss",
-          "headline": "UK police investigate murder of politician Ann Widdecombe",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/7/12/iran-war-live-irgc-declares-strait-of-hormuz-closed-over-us-interference?traffic_source=rss",
+          "headline": "Iran war live: Tehran attacks Jordan, Gulf states after US bombardment",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.133,
-        "spread": 0.047,
+        "mean": -0.083,
+        "spread": 0.131,
         "left": 0,
         "center": 3,
         "right": 0
       },
-      "first_seen": "2026-07-11T20:29:40+00:00",
-      "last_seen": "2026-07-12T00:19:09+00:00",
+      "first_seen": "2026-07-12T00:00:00+00:00",
+      "last_seen": "2026-07-12T01:32:36+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.3404
+      "topic": "conflict",
+      "resonance": 0.1777
     },
     {
-      "id": "1ca939545a",
-      "title": "Iran announces closure of the Strait of Hormuz 'until further notice'",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/12/iran-announces-closure-of-the-strait-of-hormuz-until-further-notice_6755387_4.html",
-          "headline": "Iran announces closure of the Strait of Hormuz 'until further notice'",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-strait-hormuz-closed-until-further-notice",
-          "headline": "IRGC says Strait of Hormuz closed 'until further notice'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T23:13:27+00:00",
-      "last_seen": "2026-07-11T23:48:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.3147
-    },
-    {
-      "id": "f56cc8f124",
-      "title": "Man charged with murder after remains believed to be missing woman found in Queensland bushland",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/12/missing-woman-jana-armstrong-queensland-man-charged-murder-ntwnfb",
-          "headline": "Man charged with murder after remains believed to be missing woman found in Queensland bushland",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-12/qld-woman-found/106906516",
-          "headline": "Man charged with the murder of missing mum after body found",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.1,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T22:03:19+00:00",
-      "last_seen": "2026-07-12T00:45:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2764
-    },
-    {
-      "id": "74e3a59505",
-      "title": "Argentina VS Switzerland, FIFA World Cup LIVE",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/argentina-vs-switzerland-fifa-world-cup-2026-quarterfinal-live-updates/article71212615.ece",
-          "headline": "Argentina VS Switzerland, FIFA World Cup LIVE",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/11/argentina-vs-switzerland-live-fifa-world-cup-2026?traffic_source=rss",
-          "headline": "Argentina vs Switzerland LIVE: FIFA World Cup 2026",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T21:31:40+00:00",
-      "last_seen": "2026-07-12T00:57:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.2676
-    },
-    {
-      "id": "58ec9f0bba",
-      "title": "Youth suicides in Hong Kong hit 10-year high: court report",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/society/article/3360213/youth-suicides-hong-kong-hit-10-year-high-court-report?utm_source=rss_feed",
-          "headline": "Youth suicides in Hong Kong hit 10-year high: court report",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T01:00:13+00:00",
-      "last_seen": "2026-07-12T01:00:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1923
-    },
-    {
-      "id": "fb3ab56944",
-      "title": "Kristin Cavallari admits her kids fly coach while she sits in first class",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/kristin-cavallari-admits-kids-fly-coach-she-sits-first-class",
-          "headline": "Kristin Cavallari admits her kids fly coach while she sits in first class",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-12T00:52:51+00:00",
-      "last_seen": "2026-07-12T00:52:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1786
-    },
-    {
-      "id": "33b10b9e31",
-      "title": "Muslim judge in India faces death threats after convicting 'cow vigilantes'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cd6e9zq87xvo?at_medium=RSS&at_campaign=rss",
-          "headline": "Muslim judge in India faces death threats after convicting 'cow vigilantes'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T00:49:24+00:00",
-      "last_seen": "2026-07-12T00:49:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1722
-    },
-    {
-      "id": "6876d8da95",
-      "title": "Why Gen Z chilling red wine is socially acceptable, especially in the summer heat",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c5yzjlgr7zlo?at_medium=RSS&at_campaign=rss",
-          "headline": "Why Gen Z chilling red wine is socially acceptable, especially in the summer heat",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T00:47:46+00:00",
-      "last_seen": "2026-07-12T00:47:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1693
-    },
-    {
-      "id": "ff9fd44dd0",
-      "title": "England soccer manager goes viral for angry, combative interview after World Cup victory over Norway",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/england-soccer-manager-viral-angry-combative-interview-world-cup-victory-norway",
-          "headline": "England soccer manager goes viral for angry, combative interview after World Cup victory over Norway",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-12T00:47:43+00:00",
-      "last_seen": "2026-07-12T00:47:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1692
-    },
-    {
-      "id": "6e612e98df",
-      "title": "Blasts heard along Iran's coastal areas, Iranian media reports",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/blasts-heard-along-irans-coastal-areas-iranian-media-reports",
-          "headline": "Blasts heard along Iran's coastal areas, Iranian media reports",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T00:46:09+00:00",
-      "last_seen": "2026-07-12T00:46:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1663
-    },
-    {
-      "id": "94e68383ac",
-      "title": "Australia news live: Barnaby Joyce won’t guarantee One Nation policies will be costed before next election",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/12/anthony-albanese-pat-conroy-labor-liberal-angus-taylor-one-nation-ntwnfb",
-          "headline": "Australia news live: Barnaby Joyce won’t guarantee One Nation policies will be costed before next election",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T00:45:49+00:00",
-      "last_seen": "2026-07-12T00:45:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1657
-    },
-    {
-      "id": "04939ba888",
-      "title": "Dem governor escalates McConnell health demands, cites response to past Trump health concerns",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/dem-governor-escalates-mcconnell-health-demands-cites-response-past-trump-health-concerns",
-          "headline": "Dem governor escalates McConnell health demands, cites response to past Trump health concerns",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-12T00:44:44+00:00",
-      "last_seen": "2026-07-12T00:44:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1638
-    },
-    {
-      "id": "246bda50ec",
-      "title": "We are living fewer years in good health: Is the NHS part of the problem?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c8r2nz82z3vo?at_medium=RSS&at_campaign=rss",
-          "headline": "We are living fewer years in good health: Is the NHS part of the problem?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T00:42:35+00:00",
-      "last_seen": "2026-07-12T00:42:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1599
-    },
-    {
-      "id": "5d655d1754",
-      "title": "Wimbledon vs World Cup: Who wore their look best?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cx2vz37z7v3o?at_medium=RSS&at_campaign=rss",
-          "headline": "Wimbledon vs World Cup: Who wore their look best?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T00:39:45+00:00",
-      "last_seen": "2026-07-12T00:39:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1548
-    },
-    {
-      "id": "03cf28d2ac",
-      "title": "Young country footballer 'alert' after serious on-field head knock",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-12/horsham-footballer-airlifted-hospitalised-on-field-injury/106906606",
-          "headline": "Young country footballer 'alert' after serious on-field head knock",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T00:35:59+00:00",
-      "last_seen": "2026-07-12T00:35:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1481
-    },
-    {
-      "id": "1a86101fd4",
-      "title": "Argentina-Switzerland live: Defending champions face Swiss underdogs for semi-finals spot",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260712-argentina-switzerland-live-defending-champions-face-swiss-underdogs-for-semi-finals-spot",
-          "headline": "Argentina-Switzerland live: Defending champions face Swiss underdogs for semi-finals spot",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T00:35:11+00:00",
-      "last_seen": "2026-07-12T00:35:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1467
-    },
-    {
-      "id": "0640b542ca",
-      "title": "Pete Hegseth says 'Iran made a poor choice, now they pay'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pete-hegseth-says-iran-made-poor-choice-now-they-pay",
-          "headline": "Pete Hegseth says 'Iran made a poor choice, now they pay'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T00:32:31+00:00",
-      "last_seen": "2026-07-12T00:32:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.142
-    },
-    {
-      "id": "7535f40657",
-      "title": "Skier training for 2030 Winter Paralympics only a year after discovering sport",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-12/athlete-moves-to-snow-for-paralympics/106802090",
-          "headline": "Skier training for 2030 Winter Paralympics only a year after discovering sport",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T00:27:20+00:00",
-      "last_seen": "2026-07-12T00:27:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.133
-    },
-    {
-      "id": "9d282bdedd",
-      "title": "FIFA World Cup 2026 Golden Boot: Messi, Mbappe or Haaland — who will win?",
+      "id": "11a435f111",
+      "title": "SSG Annual Sports Meet concludes in Guntur",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/fifa-world-cup-2026-golden-boot-race-messi-mbappe-haaland-kane-football/article71193305.ece",
-          "headline": "FIFA World Cup 2026 Golden Boot: Messi, Mbappe or Haaland — who will win?",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/ssg-annual-sports-meet-concludes-in-guntur/article71210698.ece",
+          "headline": "SSG Annual Sports Meet concludes in Guntur",
           "platform": "rss"
         }
       ],
@@ -752,80 +270,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-12T00:26:08+00:00",
-      "last_seen": "2026-07-12T00:26:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1309
-    },
-    {
-      "id": "5e392938f4",
-      "title": "Mediators push US-Iran talks in Qatar and Oman to avert escalation",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/mediators-push-us-iran-talks-in-qatar-and-oman-to-avert-escalation?traffic_source=rss",
-          "headline": "Mediators push US-Iran talks in Qatar and Oman to avert escalation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T00:22:21+00:00",
-      "last_seen": "2026-07-12T00:22:21+00:00",
+      "first_seen": "2026-07-12T04:45:05+00:00",
+      "last_seen": "2026-07-12T04:45:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1244
+      "resonance": 0.1702
     },
     {
-      "id": "3686678955",
-      "title": "Reed Jobs would rather talk about curing cancer than his last name",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
-          "headline": "Reed Jobs would rather talk about curing cancer than his last name",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T00:16:06+00:00",
-      "last_seen": "2026-07-12T00:16:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1137
-    },
-    {
-      "id": "356c6a7850",
-      "title": "Mojtaba Khamenei Vows Revenge as Iran’s Top Diplomat Is in Oman for Talks",
+      "id": "442a3fe26c",
+      "title": "Mojtaba Khamenei: Iran supreme leader vows revenge for father's killing",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/11/world/middleeast/iran-araghchi-oman-iran-strait-of-hormuz.html",
-          "headline": "Mojtaba Khamenei Vows Revenge as Iran’s Top Diplomat Is in Oman for Talks",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/irans-supreme-leader-pledges-revenge-for-slain-father-and-predecessor/article71210345.ece",
+          "headline": "Mojtaba vows revenge for father’s killing after Trump’s new threat",
           "platform": "rss"
         },
         {
@@ -836,30 +298,58 @@
         }
       ],
       "bias": {
-        "mean": -0.2,
-        "spread": 0.1,
-        "left": 1,
-        "center": 1,
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
         "right": 0
       },
       "first_seen": "2026-07-11T16:04:57+00:00",
-      "last_seen": "2026-07-12T00:17:22+00:00",
+      "last_seen": "2026-07-12T04:47:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1128
+      "resonance": 0.1566
     },
     {
-      "id": "4e66b71f1e",
-      "title": "Breaking: US strikes Iran after attack on civilian vessel in Strait of Hormuz",
+      "id": "3765863558",
+      "title": "Conor McGregor's long-awaited Octagon return cut short by apparent knee injury seconds into UFC 329",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-12/iran-revolutionary-guard-closes-strait-hormuz-centcom-us-strikes/106906666",
-          "headline": "Breaking: US strikes Iran after attack on civilian vessel in Strait of Hormuz",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/conor-mcgregor-long-awaited-octagon-return-cut-short-apparent-knee-injury-seconds-ufc-329",
+          "headline": "Conor McGregor's long-awaited Octagon return cut short by apparent knee injury seconds into UFC 329",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T04:38:11+00:00",
+      "last_seen": "2026-07-12T04:38:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1556
+    },
+    {
+      "id": "74c4d2e407",
+      "title": "CM Suvendu Adhikari lays foundation stone for ₹600-crore Lux Cozi garment hub in Bengal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/west-bengal/cmsuvenduadhikari-lays-foundation-stone-for-600-crore-lux-cozi-garment-hub-in-bengal/article71210769.ece",
+          "headline": "CM Suvendu Adhikari lays foundation stone for ₹600-crore Lux Cozi garment hub in Bengal",
           "platform": "rss"
         }
       ],
@@ -870,52 +360,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-12T00:14:12+00:00",
-      "last_seen": "2026-07-12T00:14:12+00:00",
+      "first_seen": "2026-07-12T04:35:27+00:00",
+      "last_seen": "2026-07-12T04:35:27+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1105
+      "topic": "world",
+      "resonance": 0.1499
     },
     {
-      "id": "70bd21f58a",
-      "title": "In Malaysia, BN’s Johor ‘blue wave’ leaves Anwar’s PH facing hard questions",
+      "id": "ec6174c19d",
+      "title": "Bellingham reaching heights of World Cup legends with Messi next",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/week-asia/politics/article/3360250/malaysia-bns-johor-blue-wave-leaves-anwars-ph-facing-hard-questions?utm_source=rss_feed",
-          "headline": "In Malaysia, BN’s Johor ‘blue wave’ leaves Anwar’s PH facing hard questions",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
+          "headline": "Bellingham reaching heights of World Cup legends with Messi next",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-12T00:00:22+00:00",
-      "last_seen": "2026-07-12T00:00:22+00:00",
+      "first_seen": "2026-07-12T04:35:19+00:00",
+      "last_seen": "2026-07-12T04:35:19+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0876
+      "topic": "sport",
+      "resonance": 0.1496
     },
     {
-      "id": "38e7068567",
-      "title": "Iran war live: US bombs Iranian port cities as IRGC closes Strait of Hormuz",
+      "id": "94d61378df",
+      "title": "S. Janaki dies, last rites to be conducted with full state honours in Mysuru | LIVE",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/7/12/iran-war-live-irgc-declares-strait-of-hormuz-closed-over-us-interference?traffic_source=rss",
-          "headline": "Iran war live: US bombs Iranian port cities as IRGC closes Strait of Hormuz",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/entertainment/music/legendary-playback-singer-s-janaki-passes-away-live-updates-reactions/article71211150.ece",
+          "headline": "S. Janaki dies, last rites to be conducted with full state honours in Mysuru | LIVE",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T04:33:55+00:00",
+      "last_seen": "2026-07-12T04:33:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1467
+    },
+    {
+      "id": "82cef08b42",
+      "title": "They steal our data, they steal our democracy. The moral catastrophe of Big Tech’s totalitarians-for-profit",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/opinion/2026-07-12/they-steal-our-data-they-steal-our-democracy-the-moral-catastrophe-of-big-techs-totalitarians-for-profit.html",
+          "headline": "They steal our data, they steal our democracy. The moral catastrophe of Big Tech’s totalitarians-for-profit",
           "platform": "rss"
         }
       ],
@@ -926,86 +444,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-12T00:00:00+00:00",
-      "last_seen": "2026-07-12T00:00:00+00:00",
+      "first_seen": "2026-07-12T04:31:26+00:00",
+      "last_seen": "2026-07-12T04:31:26+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.087
+      "resonance": 0.1416
     },
     {
-      "id": "82f91b169d",
-      "title": "T. rex could become most expensive fossil ever - but it's a ​problem for scientists",
+      "id": "c76e5c3fea",
+      "title": "Quick hits: A tearful red, a perfect 10 and a massive cast",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c4gykgyn1r4o?at_medium=RSS&at_campaign=rss",
-          "headline": "T. rex could become most expensive fossil ever - but it's a ​problem for scientists",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-12/world-cup-quick-hits-embolo-red-messi-10-norway-fumes/106906458",
+          "headline": "Quick hits: A tearful red, a perfect 10 and a massive cast",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-11T23:58:40+00:00",
-      "last_seen": "2026-07-11T23:58:40+00:00",
+      "first_seen": "2026-07-12T04:29:49+00:00",
+      "last_seen": "2026-07-12T04:29:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.0849
+      "topic": "world",
+      "resonance": 0.1382
     },
     {
-      "id": "194b3f454e",
-      "title": "U.S. Citizen Tests Positive for Ebola in Democratic Republic of Congo",
-      "signal_count": 2,
+      "id": "c99591aaad",
+      "title": "Top four ranked teams make semi-finals for first time",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/another-us-citizen-tests-positive-ebola-virus-working-congo-amid-record-outbreak",
-          "headline": "Another US citizen tests positive for Ebola virus while working in Congo amid record outbreak",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/11/world/africa/dr-congo-ebola-american-us-citizen.html",
-          "headline": "U.S. Citizen Tests Positive for Ebola in Democratic Republic of Congo",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c2ey9l3yl4vo?at_medium=RSS&at_campaign=rss",
+          "headline": "Top four ranked teams make semi-finals for first time",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.15,
-        "spread": 0.45,
-        "left": 1,
-        "center": 0,
-        "right": 1
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-07-11T19:25:29+00:00",
-      "last_seen": "2026-07-11T23:20:23+00:00",
+      "first_seen": "2026-07-12T04:26:44+00:00",
+      "last_seen": "2026-07-12T04:26:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.083
+      "topic": "sport",
+      "resonance": 0.1319
     },
     {
-      "id": "a9728d43c2",
-      "title": "A Free-Speech Meltdown",
+      "id": "e5b1df5e39",
+      "title": "IRGC claims attacks on US Gulf military assets, stops second ship in Hormuz",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/books/2026/07/why-pen-americas-president-dinaw-mengestu-resigned/687891/?utm_source=feed",
-          "headline": "A Free-Speech Meltdown",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-claims-attacks-us-military-assets-gulf-countries-stops-another-ship",
+          "headline": "IRGC claims attacks on US Gulf military assets, stops second ship in Hormuz",
           "platform": "rss"
         }
       ],
@@ -1016,24 +528,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-11T23:56:22+00:00",
-      "last_seen": "2026-07-11T23:56:22+00:00",
+      "first_seen": "2026-07-12T04:26:03+00:00",
+      "last_seen": "2026-07-12T04:26:03+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0812
+      "topic": "conflict",
+      "resonance": 0.1305
     },
     {
-      "id": "8e79142001",
-      "title": "S. Janaki: The Isai Arasi who established the voice of the rural, female heroine",
+      "id": "158b006ad9",
+      "title": "'Fresh arrest in killing of Widdecombe' and 'Saved by the Bell'",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/s-janaki-the-isai-arasi-who-established-the-voice-of-the-rural-female-heroine/article71211499.ece",
-          "headline": "S. Janaki: The Isai Arasi who established the voice of the rural, female heroine",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cdr488kl1j5o?at_medium=RSS&at_campaign=rss",
+          "headline": "'Fresh arrest in killing of Widdecombe' and 'Saved by the Bell'",
           "platform": "rss"
         }
       ],
@@ -1044,191 +556,715 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-11T23:52:42+00:00",
-      "last_seen": "2026-07-11T23:52:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0753
-    },
-    {
-      "id": "3cf33b6c45",
-      "title": "S. Janaki dies, last rites to be conducted with full state honours | LIVE",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/entertainment/music/legendary-playback-singer-s-janaki-passes-away-live-updates-reactions/article71211150.ece",
-          "headline": "S. Janaki dies, last rites to be conducted with full state honours | LIVE",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-11T23:46:41+00:00",
-      "last_seen": "2026-07-11T23:46:41+00:00",
+      "first_seen": "2026-07-12T04:23:49+00:00",
+      "last_seen": "2026-07-12T04:23:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0657
+      "resonance": 0.126
     },
     {
-      "id": "d76c0a92fa",
-      "title": "Noskova defeats fellow Czech Muchova to win first Wimbledon",
-      "signal_count": 3,
+      "id": "676b61cc9e",
+      "title": "At least 15 Indian tourists dead after boat capsizes near island off Vietnam; rescue efforts under way",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/tennis/noskova-czechmates-muchova-to-win-her-maiden-grand-slam-title/article71211721.ece",
-          "headline": "Wimbledon women’s final | Noskova ‘Czechmates’ Muchova to win her maiden Grand Slam title",
+          "url": "https://www.thehindu.com/news/international/boat-with-indian-tourists-capsizes-vietnam-phu-quoc-island-rescue-efforts-updates/article71209943.ece",
+          "headline": "At least 15 Indian tourists dead after boat capsizes near island off Vietnam; rescue efforts under way",
           "platform": "rss"
         },
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/11/noskova-defeats-muchova-in-wimbledon-final-to-record-first-grand-slam-title?traffic_source=rss",
-          "headline": "Noskova defeats Muchova in Wimbledon final to record first Grand Slam title",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/sports/article/2026/07/11/noskova-defeats-fellow-czech-muchova-to-win-first-wimbledon_6755383_9.html",
-          "headline": "Noskova defeats fellow Czech Muchova to win first Wimbledon",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/indian-tourists-killed-after-speedboat-capsizes-in-vietnam?traffic_source=rss",
+          "headline": "Indian tourists killed after speedboat capsizes in Vietnam",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.167,
-        "spread": 0.047,
+        "mean": -0.15,
+        "spread": 0.05,
         "left": 0,
-        "center": 3,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-11T17:46:57+00:00",
-      "last_seen": "2026-07-11T21:12:06+00:00",
+      "first_seen": "2026-07-11T23:35:23+00:00",
+      "last_seen": "2026-07-12T03:52:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1228
+    },
+    {
+      "id": "57f7191002",
+      "title": "US strikes Iran again, after IRGC attacks ship in Hormuz and declares strait closed until further notice",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/us-strikes-iran-again-after-irgc-attacks-ship-in-hormuz-and-declares-strait-closed-until-further-notice/",
+          "headline": "US strikes Iran again, after IRGC attacks ship in Hormuz and declares strait closed until further notice",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-strait-hormuz-closed-until-further-notice",
+          "headline": "IRGC says Strait of Hormuz closed 'until further notice'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.15,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-11T23:13:27+00:00",
+      "last_seen": "2026-07-12T03:52:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1135
+    },
+    {
+      "id": "a39da5ed4f",
+      "title": "Ageing in Hong Kong - should you fear it?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/article/3357058/ageing-hong-kong?utm_source=rss_feed",
+          "headline": "Ageing in Hong Kong - should you fear it?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T04:15:05+00:00",
+      "last_seen": "2026-07-12T04:15:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1085
+    },
+    {
+      "id": "fc640b3349",
+      "title": "Premier Roger Cook takes over defence industries in cabinet reshuffle",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-12/wa-premier-roger-cook-takes-defence-industries-portfolio-cabinet/106906850",
+          "headline": "Premier Roger Cook takes over defence industries in cabinet reshuffle",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T04:12:30+00:00",
+      "last_seen": "2026-07-12T04:12:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1034
+    },
+    {
+      "id": "d28d475ecd",
+      "title": "Alvarez's 112th-minute goal helps lift Argentina past Switzerland 3-1 and into World Cup semifinals",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/12/nx-s1-5890774/argentina-switzerland-3-1-world-cup-semifinals",
+          "headline": "Alvarez's 112th-minute goal helps lift Argentina past Switzerland 3-1 and into World Cup semifinals",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T04:10:30+00:00",
+      "last_seen": "2026-07-12T04:10:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0994
+    },
+    {
+      "id": "e39bf974a7",
+      "title": "Argentina survives another scare courtesy of Switzerland to advance to World Cup semifinals",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/argentina-survives-another-scare-courtesy-switzerland-advance-world-cup-semifinals",
+          "headline": "Argentina survives another scare courtesy of Switzerland to advance to World Cup semifinals",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T04:05:08+00:00",
+      "last_seen": "2026-07-12T04:05:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.089
+    },
+    {
+      "id": "bff0b17fe6",
+      "title": "Injured Conor McGregor’s UFC comeback ends in defeat to Max Holloway",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/7/12/conor-mcgregor-knee-injury-max-holloway-2-ufc-329-rematch-result-las-vegas?traffic_source=rss",
+          "headline": "Injured Conor McGregor’s UFC comeback ends in defeat to Max Holloway",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T04:03:00+00:00",
+      "last_seen": "2026-07-12T04:03:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0848
+    },
+    {
+      "id": "8d6c9e2b74",
+      "title": "As India Erases Its Colonial Past, Delhi’s Elite Feel Targeted",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/12/world/asia/india-gymkhana-club-eviction-colonialism.html",
+          "headline": "As India Erases Its Colonial Past, Delhi’s Elite Feel Targeted",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T04:01:13+00:00",
+      "last_seen": "2026-07-12T04:01:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0814
+    },
+    {
+      "id": "bbe28f5772",
+      "title": "How Putin Turned Japan Into a Den of Spies",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/12/world/asia/russia-spies-japan-war-drones-electronics.html",
+          "headline": "How Putin Turned Japan Into a Den of Spies",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T04:01:11+00:00",
+      "last_seen": "2026-07-12T04:01:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0813
+    },
+    {
+      "id": "bffe48538b",
+      "title": "Parents of boy paralysed by medical blunder welcome penalty but vow to fight on",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/hong-kong/society/article/3360248/parents-boy-paralysed-medical-blunder-welcome-penalty-vow-fight?utm_source=rss_feed",
+          "headline": "Parents of boy paralysed by medical blunder welcome penalty but vow to fight on",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T04:00:40+00:00",
+      "last_seen": "2026-07-12T04:00:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.0803
+    },
+    {
+      "id": "87d5b0d559",
+      "title": "Victorian crossbench MP warns voting system overhaul must be backed by broader reform – as it happened",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/12/anthony-albanese-pat-conroy-labor-liberal-angus-taylor-one-nation-ntwnfb",
+          "headline": "Victorian crossbench MP warns voting system overhaul must be backed by broader reform – as it happened",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T04:00:08+00:00",
+      "last_seen": "2026-07-12T04:00:08+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
+      "resonance": 0.0793
+    },
+    {
+      "id": "1c1687feee",
+      "title": "Nasa knows how to deflect an asteroid. Can Japan’s Hayabusa2 pull it off?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/week-asia/politics/article/3360222/nasa-knows-how-deflect-asteroid-can-japans-hayabusa2-pull-it?utm_source=rss_feed",
+          "headline": "Nasa knows how to deflect an asteroid. Can Japan’s Hayabusa2 pull it off?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T04:00:06+00:00",
+      "last_seen": "2026-07-12T04:00:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "resonance": 0.0793
+    },
+    {
+      "id": "75646a6f05",
+      "title": "The world is plunging into a dangerous spiral of military spending",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/international/2026-07-12/the-world-is-plunging-into-a-dangerous-spiral-of-military-spending.html",
+          "headline": "The world is plunging into a dangerous spiral of military spending",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T04:00:00+00:00",
+      "last_seen": "2026-07-12T04:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0791
+    },
+    {
+      "id": "a92130fdfa",
+      "title": "Ukraine’s biggest defense gap: More than 92% of Russian ballistic missiles hit their targets",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/international/2026-07-12/ukraines-biggest-defense-gap-more-than-92-of-russian-ballistic-missiles-hit-their-targets.html",
+          "headline": "Ukraine’s biggest defense gap: More than 92% of Russian ballistic missiles hit their targets",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T04:00:00+00:00",
+      "last_seen": "2026-07-12T04:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0791
+    },
+    {
+      "id": "a2c5fbc0b6",
+      "title": "Iran attacks Jordan, Oman, Qatar, UAE, Bahrain and Kuwait after latest US strikes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-july-12-2026/",
+          "headline": "Iran attacks Jordan, Oman, Qatar, UAE, Bahrain and Kuwait after latest US strikes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T03:57:21+00:00",
+      "last_seen": "2026-07-12T03:57:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.074
+    },
+    {
+      "id": "6d1d37ac1d",
+      "title": "Centcom claims 140 Iranian military targets struck in latest strikes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-claims-140-iranian-military-targets-struck-latest-strikes",
+          "headline": "Centcom claims 140 Iranian military targets struck in latest strikes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T03:56:16+00:00",
+      "last_seen": "2026-07-12T03:56:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0719
+    },
+    {
+      "id": "fb27a67662",
+      "title": "Argentina beat Switzerland to set up World Cup 2026 semifinal with England",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/7/12/argentina-defeat-switzerland-to-set-up-england-semifinal-at-world-cup-2026?traffic_source=rss",
+          "headline": "Argentina beat Switzerland to set up World Cup 2026 semifinal with England",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T03:50:27+00:00",
+      "last_seen": "2026-07-12T03:50:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.061
+    },
+    {
+      "id": "f151781a5a",
+      "title": "Messi and Argentina survive another close call to reach the World Cup semifinals",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/11/nx-s1-5888612/2026-world-cup-fifa-argentina-switzerland-quarterfinal",
+          "headline": "Messi and Argentina survive another close call to reach the World Cup semifinals",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T03:45:57+00:00",
+      "last_seen": "2026-07-12T03:45:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0526
+    },
+    {
+      "id": "d8919a849d",
+      "title": "IRGC says 'US imposing its will on Oman', warns of 'severe responses'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-us-imposing-its-will-oman-warns-severe-responses",
+          "headline": "IRGC says 'US imposing its will on Oman', warns of 'severe responses'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T03:44:33+00:00",
+      "last_seen": "2026-07-12T03:44:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
       "source": "0c3dc83eab",
-      "target": "1ca939545a",
-      "weight": 0.45,
+      "target": "52c9a90ea6",
+      "weight": 0.363,
       "type": "thematic"
     },
     {
       "source": "0c3dc83eab",
-      "target": "4e66b71f1e",
-      "weight": 0.966,
+      "target": "158b006ad9",
+      "weight": 0.033,
       "type": "thematic"
     },
     {
       "source": "0c3dc83eab",
-      "target": "38e7068567",
-      "weight": 0.755,
+      "target": "57f7191002",
+      "weight": 0.667,
       "type": "thematic"
     },
     {
-      "source": "37882a1cb9",
-      "target": "74e3a59505",
-      "weight": 0.13,
+      "source": "0c3dc83eab",
+      "target": "a2c5fbc0b6",
+      "weight": 0.1,
       "type": "thematic"
     },
     {
-      "source": "37882a1cb9",
-      "target": "ff9fd44dd0",
-      "weight": 0.482,
+      "source": "f0680f34b3",
+      "target": "37882a1cb9",
+      "weight": 0.518,
       "type": "thematic"
     },
     {
-      "source": "37882a1cb9",
-      "target": "5d655d1754",
-      "weight": 0.018,
+      "source": "f0680f34b3",
+      "target": "c99591aaad",
+      "weight": 0.531,
       "type": "thematic"
     },
     {
-      "source": "88f6311e69",
-      "target": "f56cc8f124",
-      "weight": 0.22,
-      "type": "thematic"
-    },
-    {
-      "source": "1ca939545a",
-      "target": "4e66b71f1e",
-      "weight": 0.356,
-      "type": "thematic"
-    },
-    {
-      "source": "1ca939545a",
-      "target": "38e7068567",
+      "source": "f0680f34b3",
+      "target": "d28d475ecd",
       "weight": 0.233,
       "type": "thematic"
     },
     {
-      "source": "74e3a59505",
-      "target": "ff9fd44dd0",
-      "weight": 0.067,
+      "source": "f0680f34b3",
+      "target": "e39bf974a7",
+      "weight": 0.349,
       "type": "thematic"
     },
     {
-      "source": "74e3a59505",
-      "target": "5d655d1754",
-      "weight": 0.266,
+      "source": "f0680f34b3",
+      "target": "fb27a67662",
+      "weight": 0.788,
       "type": "thematic"
     },
     {
-      "source": "74e3a59505",
-      "target": "1a86101fd4",
-      "weight": 0.697,
+      "source": "f0680f34b3",
+      "target": "f151781a5a",
+      "weight": 0.446,
       "type": "thematic"
     },
     {
-      "source": "74e3a59505",
-      "target": "9d282bdedd",
-      "weight": 0.62,
+      "source": "37882a1cb9",
+      "target": "d28d475ecd",
+      "weight": 0.046,
       "type": "thematic"
     },
     {
-      "source": "6e612e98df",
-      "target": "38e7068567",
-      "weight": 0.0,
+      "source": "37882a1cb9",
+      "target": "fb27a67662",
+      "weight": 0.321,
       "type": "thematic"
     },
     {
-      "source": "04939ba888",
-      "target": "246bda50ec",
-      "weight": 0.114,
+      "source": "52c9a90ea6",
+      "target": "e5b1df5e39",
+      "weight": 0.547,
       "type": "thematic"
     },
     {
-      "source": "5d655d1754",
-      "target": "9d282bdedd",
-      "weight": 0.018,
+      "source": "52c9a90ea6",
+      "target": "57f7191002",
+      "weight": 0.835,
       "type": "thematic"
     },
     {
-      "source": "5e392938f4",
-      "target": "356c6a7850",
-      "weight": 0.448,
+      "source": "3765863558",
+      "target": "bff0b17fe6",
+      "weight": 0.304,
       "type": "thematic"
     },
     {
-      "source": "4e66b71f1e",
-      "target": "38e7068567",
-      "weight": 0.244,
+      "source": "ec6174c19d",
+      "target": "f151781a5a",
+      "weight": 0.315,
+      "type": "thematic"
+    },
+    {
+      "source": "e5b1df5e39",
+      "target": "57f7191002",
+      "weight": 0.514,
+      "type": "thematic"
+    },
+    {
+      "source": "e5b1df5e39",
+      "target": "6d1d37ac1d",
+      "weight": 0.183,
+      "type": "thematic"
+    },
+    {
+      "source": "57f7191002",
+      "target": "a2c5fbc0b6",
+      "weight": 0.157,
+      "type": "thematic"
+    },
+    {
+      "source": "d28d475ecd",
+      "target": "e39bf974a7",
+      "weight": 0.574,
+      "type": "thematic"
+    },
+    {
+      "source": "d28d475ecd",
+      "target": "fb27a67662",
+      "weight": 0.342,
+      "type": "thematic"
+    },
+    {
+      "source": "d28d475ecd",
+      "target": "f151781a5a",
+      "weight": 0.328,
+      "type": "thematic"
+    },
+    {
+      "source": "e39bf974a7",
+      "target": "fb27a67662",
+      "weight": 0.476,
+      "type": "thematic"
+    },
+    {
+      "source": "e39bf974a7",
+      "target": "f151781a5a",
+      "weight": 0.847,
+      "type": "thematic"
+    },
+    {
+      "source": "a2c5fbc0b6",
+      "target": "6d1d37ac1d",
+      "weight": 0.121,
+      "type": "thematic"
+    },
+    {
+      "source": "fb27a67662",
+      "target": "f151781a5a",
+      "weight": 0.173,
       "type": "thematic"
     }
   ],
@@ -1320,7 +1356,7 @@
     },
     "Times of Israel": {
       "ok": true,
-      "count": 13,
+      "count": 14,
       "error": null
     },
     "Middle East Eye": {

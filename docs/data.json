@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-12T21:45:41.261129+00:00",
+  "generated_at": "2026-07-12T22:43:42.780820+00:00",
   "node_count": 35,
-  "edge_count": 13,
+  "edge_count": 17,
   "nodes": [
     {
-      "id": "76faf8fe29",
-      "title": "Since Chronium 148, Math.tanh is now fingerprintable to link underlying OS",
+      "id": "d57ccea008",
+      "title": "Since Chromium 148, Math.tanh is now fingerprintable to link underlying OS",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
           "url": "https://scrapfly.dev/posts/browser-math-os-fingerprint/",
-          "headline": "Since Chronium 148, Math.tanh is now fingerprintable to link underlying OS",
+          "headline": "Since Chromium 148, Math.tanh is now fingerprintable to link underlying OS",
           "platform": "hackernews"
         }
       ],
@@ -34,18 +34,24 @@
     {
       "id": "63cf7b1f45",
       "title": "At least 27 killed in Bangkok bar fire",
-      "signal_count": 6,
+      "signal_count": 7,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/12/fire-engulfs-popular-bangkok-pub-killing-27-people-and-injuring-63?traffic_source=rss",
-          "headline": "Fire engulfs popular Bangkok pub, killing 27 people and injuring 63",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/asia-pacific/20260712-bangkok-pub-fire-kills-27-thailand",
+          "headline": "Massive Bangkok pub fire kills at least 27 people, Thai officials say",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/jul/12/at-least-27-killed-in-blaze-at-bangkok-pub-thai-officials-say",
+          "headline": "At least 27 killed in blaze at Bangkok pub, Thai officials say",
           "platform": "rss"
         },
         {
           "outlet": "ABC Australia",
           "url": "https://www.abc.net.au/news/2026-07-13/bangkok-pub-fire-kills-at-least-27/106908044",
-          "headline": "Bangkok pub fire kills at least 27 people",
+          "headline": "Bangkok pub fire kills at least 27 people and injures 63",
           "platform": "rss"
         },
         {
@@ -74,20 +80,20 @@
         }
       ],
       "bias": {
-        "mean": -0.075,
-        "spread": 0.099,
-        "left": 0,
+        "mean": -0.093,
+        "spread": 0.115,
+        "left": 1,
         "center": 6,
         "right": 0
       },
       "first_seen": "2026-07-12T19:53:24+00:00",
-      "last_seen": "2026-07-12T20:48:37+00:00",
+      "last_seen": "2026-07-12T22:41:01+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.6875
+      "topic": "tech",
+      "resonance": 0.7347
     },
     {
       "id": "f16680fd79",
@@ -146,6 +152,46 @@
       "resonance": 0.28
     },
     {
+      "id": "f8f2c73578",
+      "title": "US insists Strait of Hormuz is open as it exchanges strikes with Iran",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
+          "headline": "US insists Strait of Hormuz is open as it exchanges strikes with Iran",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/iran-war-us-carries-out-fresh-strikes-near-strait-of-hormuz/live-77926628?maca=en-rss-en-all-1573-rdf",
+          "headline": "Iran war: US carries out fresh strikes near Strait of Hormuz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-launches-new-strikes-iran-over-strait-hormuz-attacks",
+          "headline": "US launches new strikes on Iran over Strait of Hormuz attacks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.117,
+        "spread": 0.103,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T21:39:12+00:00",
+      "last_seen": "2026-07-12T22:17:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.4911
+    },
+    {
       "id": "957bdfc6c4",
       "title": "Sinner holds off Zverev to defend Wimbledon title",
       "signal_count": 3,
@@ -183,47 +229,115 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.3623
+      "resonance": 0.2859
     },
     {
-      "id": "3f0cf846a5",
-      "title": "Sinner outlasts Zverev to win second straight Wimbledon title",
-      "signal_count": 3,
+      "id": "21ebef642e",
+      "title": "Evacuees allowed to return home after deadly wildfire in Spain stabilizes",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/sports/article/2026/07/12/sinner-outlasts-zverev-to-win-second-straight-wimbledon-title_6755415_9.html",
-          "headline": "Sinner outlasts Zverev to win second straight Wimbledon title",
+          "url": "https://www.lemonde.fr/en/environment/article/2026/07/12/evacuees-allowed-to-return-home-after-deadly-wildfire-in-spain-stabilizes_6755417_114.html",
+          "headline": "Evacuees allowed to return home after deadly wildfire in Spain stabilizes",
           "platform": "rss"
         },
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-13/jannik-sinner-beats-alexander-zverev-to-win-wimbledon/106908072",
-          "headline": "Sinner triumphs over Zverev for second consecutive Wimbledon win",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260712-jannik-sinner-beats-alexander-zverev-to-win-second-straight-wimbledon-title",
-          "headline": "Jannik Sinner beats Alexander Zverev to win second straight Wimbledon title",
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/video/2026/07/12/spain-wildfire-firefighters-gain-ground-as-almeria-evacuees-return-home",
+          "headline": "Spain wildfire: Firefighters gain ground as Almería evacuees return home",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.133,
-        "spread": 0.047,
+        "mean": -0.15,
+        "spread": 0.05,
         "left": 0,
-        "center": 3,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-12T19:15:15+00:00",
-      "last_seen": "2026-07-12T20:43:57+00:00",
+      "first_seen": "2026-07-12T20:11:07+00:00",
+      "last_seen": "2026-07-12T21:50:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.3512
+      "resonance": 0.2299
+    },
+    {
+      "id": "5eec5aa9b4",
+      "title": "Israel to hold elections on 27 October in what is seen as referendum on Netanyahu leadership",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/12/israel-to-hold-national-elections-on-october-27-parliament-says?traffic_source=rss",
+          "headline": "Israel to hold national elections on October 27, parliament says",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/07/12/israel-to-hold-elections-on-27-october-in-what-is-seen-as-referendum-on-netanyahu-leadersh",
+          "headline": "Israel to hold elections on 27 October in what is seen as referendum on Netanyahu leadership",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3360296/israel-hold-parliamentary-elections-october-27-netanyahu-seeks-another-term?utm_source=rss_feed",
+          "headline": "Israel to hold parliamentary elections on October 27 as Netanyahu seeks another term",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.067,
+        "spread": 0.125,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T16:22:11+00:00",
+      "last_seen": "2026-07-12T21:26:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1996
+    },
+    {
+      "id": "d630bf8f4f",
+      "title": "From the ride to the rubble - how McCullum lost England Test job",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/cricket/rahul-dravid-among-contenders-for-england-test-coachs-job-after-mccullum-sacking-report/article71215028.ece",
+          "headline": "Rahul Dravid among contenders for England Test coach's job after McCullum sacking: report",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/cqx15e27v3eo?at_medium=RSS&at_campaign=rss",
+          "headline": "From the ride to the rubble - how McCullum lost England Test job",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T18:51:03+00:00",
+      "last_seen": "2026-07-12T22:02:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1692
     },
     {
       "id": "33fff38ef9",
@@ -257,51 +371,17 @@
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.2391
+      "resonance": 0.1692
     },
     {
-      "id": "869474bbfb",
-      "title": "With Lindsey Graham Gone, Ukraine Loses an Ally in Trump’s Ear",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/12/us/lindsey-graham-ukraine.html",
-          "headline": "With Lindsey Graham Gone, Ukraine Loses an Ally in Trump’s Ear",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/12/who-will-replace-trump-ally-lindsey-graham-in-the-us-senate?traffic_source=rss",
-          "headline": "Who will replace Trump ally Lindsey Graham in the US Senate?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.05,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T17:51:54+00:00",
-      "last_seen": "2026-07-12T21:38:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.182
-    },
-    {
-      "id": "7c5975291a",
-      "title": "'He's lost everything': Man recovering after robbers tie him up and burn down his house",
+      "id": "d014541627",
+      "title": "North Midlands annual golf day rallies support for first aid",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-13/tas-community-rallies-for-76yo-bashed-in-home-invasion-and-arson/106906722",
-          "headline": "'He's lost everything': Man recovering after robbers tie him up and burn down his house",
+          "url": "https://www.abc.net.au/news/2026-07-13/north-midlands-annual-golf-day-rallies-support-for-first-aid/106907058",
+          "headline": "North Midlands annual golf day rallies support for first aid",
           "platform": "rss"
         }
       ],
@@ -312,14 +392,76 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-12T21:41:27+00:00",
-      "last_seen": "2026-07-12T21:41:27+00:00",
+      "first_seen": "2026-07-12T22:36:24+00:00",
+      "last_seen": "2026-07-12T22:36:24+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1252
+      "topic": "tech",
+      "resonance": 0.1462
+    },
+    {
+      "id": "3f0cf846a5",
+      "title": "Sinner outlasts Zverev to win second straight Wimbledon title",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/07/12/sinner-outlasts-zverev-to-win-second-straight-wimbledon-title_6755415_9.html",
+          "headline": "Sinner outlasts Zverev to win second straight Wimbledon title",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260712-jannik-sinner-beats-alexander-zverev-to-win-second-straight-wimbledon-title",
+          "headline": "Jannik Sinner beats Alexander Zverev to win second straight Wimbledon title",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T19:15:15+00:00",
+      "last_seen": "2026-07-12T20:43:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1431
+    },
+    {
+      "id": "593bd9cbc2",
+      "title": "At World Cup Ticket Prices, Even Messi Can’t Fill a Stadium",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/12/world/europe/messi-argentina-world-cup-empty-seats.html",
+          "headline": "At World Cup Ticket Prices, Even Messi Can’t Fill a Stadium",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T22:31:05+00:00",
+      "last_seen": "2026-07-12T22:31:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1377
     },
     {
       "id": "941fda0f14",
@@ -340,64 +482,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-12T21:41:26+00:00",
-      "last_seen": "2026-07-12T21:41:26+00:00",
+      "first_seen": "2026-07-12T22:25:01+00:00",
+      "last_seen": "2026-07-12T22:25:01+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1252
+      "resonance": 0.1281
     },
     {
-      "id": "f8f2c73578",
-      "title": "US insists Strait of Hormuz is open as it exchanges strikes with Iran",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-launches-new-strikes-iran-over-strait-hormuz-attacks",
-          "headline": "US launches new strikes on Iran over Strait of Hormuz attacks",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-          "headline": "US insists Strait of Hormuz is open as it exchanges strikes with Iran",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-strait-hormuz-open-commercial-traffic",
-          "headline": "Trump says Strait of Hormuz open to commercial traffic",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.167,
-        "spread": 0.118,
-        "left": 2,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T13:51:14+00:00",
-      "last_seen": "2026-07-12T21:39:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1213
-    },
-    {
-      "id": "30ae89cca2",
-      "title": "Worn-down 'jewel' needs some love ahead of World Heritage Bid",
+      "id": "d21a1544ac",
+      "title": "Kuwaiti offshore oil platform hit as Iran and US trade strikes",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-13/walhalla-infrastructure-concerns-world-heritage-bid/106896812",
-          "headline": "Worn-down 'jewel' needs some love ahead of World Heritage Bid",
+          "url": "https://www.abc.net.au/news/2026-07-13/strikes-hit-kuwait-oil-platform-as-us-iran-war-continues/106908216",
+          "headline": "Kuwaiti offshore oil platform hit as Iran and US trade strikes",
           "platform": "rss"
         }
       ],
@@ -408,14 +510,70 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-12T21:38:03+00:00",
-      "last_seen": "2026-07-12T21:38:03+00:00",
+      "first_seen": "2026-07-12T22:20:20+00:00",
+      "last_seen": "2026-07-12T22:20:20+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1196
+      "topic": "tech",
+      "resonance": 0.1208
+    },
+    {
+      "id": "869474bbfb",
+      "title": "With Lindsey Graham Gone, Ukraine Loses an Ally in Trump’s Ear",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/12/us/lindsey-graham-ukraine.html",
+          "headline": "With Lindsey Graham Gone, Ukraine Loses an Ally in Trump’s Ear",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T22:19:17+00:00",
+      "last_seen": "2026-07-12T22:19:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1192
+    },
+    {
+      "id": "e6145c1cb4",
+      "title": "Knesset committee approves bill to gut attorney general’s powers for final readings",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/knesset-committee-approves-bill-to-gut-attorney-generals-powers-for-final-readings/",
+          "headline": "Knesset committee approves bill to gut attorney general’s powers for final readings",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T22:19:12+00:00",
+      "last_seen": "2026-07-12T22:19:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1191
     },
     {
       "id": "6f77a6e8b8",
@@ -436,14 +594,356 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-12T21:37:30+00:00",
-      "last_seen": "2026-07-12T21:37:30+00:00",
+      "first_seen": "2026-07-12T22:15:21+00:00",
+      "last_seen": "2026-07-12T22:15:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1187
+      "resonance": 0.1131
+    },
+    {
+      "id": "7ba68786c3",
+      "title": "'What were you doing?' The viral clip this AFLW star can't get away from",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-13/gws-star-zarlie-goldsworthy-on-growth-in-aflw-competition/106884092",
+          "headline": "'What were you doing?' The viral clip this AFLW star can't get away from",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T22:15:07+00:00",
+      "last_seen": "2026-07-12T22:15:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1128
+    },
+    {
+      "id": "56992d0c41",
+      "title": "Why Japan’s utility poles won’t be disappearing anytime soon",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/07/13/japan/society/japan-utility-telephone-poles/",
+          "headline": "Why Japan’s utility poles won’t be disappearing anytime soon",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T22:12:00+00:00",
+      "last_seen": "2026-07-12T22:12:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.108
+    },
+    {
+      "id": "a19e80310f",
+      "title": "Iran accuses US of breaching ceasefire deal with fresh attacks",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-accuses-us-breaching-ceasefire-deal-fresh-attacks",
+          "headline": "Iran accuses US of breaching ceasefire deal with fresh attacks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T22:11:55+00:00",
+      "last_seen": "2026-07-12T22:11:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1079
+    },
+    {
+      "id": "e5902287db",
+      "title": "Mitch McConnell breaks silence on mystery hospitalization after Graham's death",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/mitch-mcconnell-breaks-silence-mystery-hospitalization-after-graham-death",
+          "headline": "Mitch McConnell breaks silence on mystery hospitalization after Graham's death",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T22:07:21+00:00",
+      "last_seen": "2026-07-12T22:07:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.101
+    },
+    {
+      "id": "b260c4a36b",
+      "title": "Bihar CM Samrat Choudhary inaugurates projects worth ₹1,047 crore",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/bihar/bihar-cm-samrat-choudhary-inaugurates-projects-worth-1047-crore/article71214404.ece",
+          "headline": "Bihar CM Samrat Choudhary inaugurates projects worth ₹1,047 crore",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T22:05:50+00:00",
+      "last_seen": "2026-07-12T22:05:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0987
+    },
+    {
+      "id": "94630b6a3e",
+      "title": "Thailand: Bangkok bar fire leaves dozens dead",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/thailand-bangkok-bar-fire-leaves-dozens-dead/a-77926451?maca=en-rss-en-all-1573-rdf",
+          "headline": "Thailand: Bangkok bar fire leaves dozens dead",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T22:03:00+00:00",
+      "last_seen": "2026-07-12T22:03:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0944
+    },
+    {
+      "id": "40cd2e8d23",
+      "title": "US senator and close Trump ally Lindsey Graham dies after 'brief and sudden illness'",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cvgj25j6nmeo?at_medium=RSS&at_campaign=rss",
+          "headline": "US senator and close Trump ally Lindsey Graham dies after 'brief and sudden illness'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-senator-lindsey-graham-dies-after-brief-illness",
+          "headline": "US Senator Lindsey Graham dies after 'brief illness'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.125,
+        "spread": 0.125,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T12:22:08+00:00",
+      "last_seen": "2026-07-12T22:08:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0927
+    },
+    {
+      "id": "00b50e2cf9",
+      "title": "Migrant sought in American mom's killing was denied asylum but remained in Ireland",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/migrant-sought-american-moms-killing-denied-asylum-remained-ireland",
+          "headline": "Migrant sought in American mom's killing was denied asylum but remained in Ireland",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-12T22:01:03+00:00",
+      "last_seen": "2026-07-12T22:01:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0915
+    },
+    {
+      "id": "1b806c7039",
+      "title": "Wu Shicun on why Beijing will not rule out Scarborough Shoal construction",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3360243/wu-shicun-why-beijing-will-not-rule-out-scarborough-shoal-construction?utm_source=rss_feed",
+          "headline": "Wu Shicun on why Beijing will not rule out Scarborough Shoal construction",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T22:00:07+00:00",
+      "last_seen": "2026-07-12T22:00:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0902
+    },
+    {
+      "id": "b14a04060a",
+      "title": "Detained by settlers, US Democrat Ro Khanna now faces pro-Israel attacks",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/12/detained-by-settlers-us-democrat-ro-khanna-now-faces-pro-israel-attacks?traffic_source=rss",
+          "headline": "Detained by settlers, US Democrat Ro Khanna now faces pro-Israel attacks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T21:59:36+00:00",
+      "last_seen": "2026-07-12T21:59:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0894
+    },
+    {
+      "id": "bde2ffd327",
+      "title": "World No. 1 defends Wimbledon title",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sinner-wins-second-straight-wimbledon-title",
+          "headline": "World No. 1 defends Wimbledon title",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T21:57:06+00:00",
+      "last_seen": "2026-07-12T21:57:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0857
+    },
+    {
+      "id": "8ba6ea3374",
+      "title": "Israel releases video of huge detonations in Lebanon",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/israel-releases-video-of-huge-detonations-in-lebanon?traffic_source=rss",
+          "headline": "Israel releases video of huge detonations in Lebanon",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T21:50:28+00:00",
+      "last_seen": "2026-07-12T21:50:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.076
     },
     {
       "id": "b0dcda660a",
@@ -471,7 +971,63 @@
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1167
+      "resonance": 0.0559
+    },
+    {
+      "id": "f0f563463d",
+      "title": "US military says it is carrying out a fresh wave of strikes across Iran",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-july-13-2026/",
+          "headline": "US military says it is carrying out a fresh wave of strikes across Iran",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T21:34:37+00:00",
+      "last_seen": "2026-07-12T21:34:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0535
+    },
+    {
+      "id": "0d19f5599c",
+      "title": "Deadly Israeli strikes pound Gaza",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/deadly-israeli-strikes-pound-gaza?traffic_source=rss",
+          "headline": "Deadly Israeli strikes pound Gaza",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-12T21:33:10+00:00",
+      "last_seen": "2026-07-12T21:33:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0515
     },
     {
       "id": "8aaf5f8393",
@@ -499,7 +1055,7 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1107
+      "resonance": 0.0507
     },
     {
       "id": "ee794070f8",
@@ -527,636 +1083,110 @@
       ],
       "geo_regions": [],
       "topic": "health",
-      "resonance": 0.1098
-    },
-    {
-      "id": "4f6c756c83",
-      "title": "Hewitt drops Wimbledon boys' title after epic battle against US star",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-13/tennis-cruz-hewitt-loses-wimbledon-boys-final/106908212",
-          "headline": "Hewitt drops Wimbledon boys' title after epic battle against US star",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:31:47+00:00",
-      "last_seen": "2026-07-12T21:31:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1093
-    },
-    {
-      "id": "3d0d01c5ad",
-      "title": "How Hong Kong can draw line under the 2019-20 protests and move forward",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359958/how-hong-kong-can-draw-line-under-2019-20-protests-and-move-forward?utm_source=rss_feed",
-          "headline": "How Hong Kong can draw line under the 2019-20 protests and move forward",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:30:05+00:00",
-      "last_seen": "2026-07-12T21:30:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1065
-    },
-    {
-      "id": "d5f472903f",
-      "title": "Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani dies aged 74",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/12/world/middleeast/sheikh-hamad-bin-khalifa-qatar-dead.html",
-          "headline": "Sheikh Hamad bin Khalifa, Ruler Who Transformed Qatar, Dies at 74",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/12/funeral-prayers-held-for-qatars-father-emir-sheikh-hamad-in-doha?traffic_source=rss",
-          "headline": "Qatar’s Father Emir Sheikh Hamad bin ⁠Khalifa Al Thani laid to rest in Doha",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cql1qdq14xro?at_medium=RSS&at_campaign=rss",
-          "headline": "Former Emir of Qatar Sheikh Hamad bin Khalifa Al Thani dies aged 74",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.167,
-        "spread": 0.125,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T16:35:50+00:00",
-      "last_seen": "2026-07-12T18:11:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1032
-    },
-    {
-      "id": "f13fdbff6c",
-      "title": "Police say no suggestion of political motive in Widdecombe killing after new arrest",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c8628q3eqdeo?at_medium=RSS&at_campaign=rss",
-          "headline": "Police say no suggestion of political motive in Widdecombe killing after new arrest",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260712-uk-police-says-no-evidence-of-political-motive-in-murder-of-former-minister-widdecombe",
-          "headline": "UK police says no evidence of political motive in murder ​of former minister Widdecombe",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T14:12:43+00:00",
-      "last_seen": "2026-07-12T21:22:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0996
-    },
-    {
-      "id": "587eaca69a",
-      "title": "Kelly Osbourne stuns in corseted swimsuit on yacht months after shutting down body-shaming critics",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/kelly-osbourne-stuns-corseted-swimsuit-yacht-months-after-shutting-down-body-shaming-critics",
-          "headline": "Kelly Osbourne stuns in corseted swimsuit on yacht months after shutting down body-shaming critics",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-12T21:24:16+00:00",
-      "last_seen": "2026-07-12T21:24:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0971
-    },
-    {
-      "id": "2f6cf29f46",
-      "title": "At least 27 killed in blaze at Bangkok pub, Thai officials say",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/jul/12/at-least-27-killed-in-blaze-at-bangkok-pub-thai-officials-say",
-          "headline": "At least 27 killed in blaze at Bangkok pub, Thai officials say",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:23:56+00:00",
-      "last_seen": "2026-07-12T21:23:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0966
-    },
-    {
-      "id": "280edc110d",
-      "title": "The Honorable Gentleman for Ukraine",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/national-security/2026/07/lindsey-graham-was-honorable-gentleman-ukraine/687896/?utm_source=feed",
-          "headline": "The Honorable Gentleman for Ukraine",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:22:59+00:00",
-      "last_seen": "2026-07-12T21:22:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.095
-    },
-    {
-      "id": "1cc38004d4",
-      "title": "Venezuela sets up temporary housing, as death toll rises to almost 4,500",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/venezuela-sets-up-temporary-housing-as-death-toll-rises-to-almost-4-500/a-77924690?maca=en-rss-en-all-1573-rdf",
-          "headline": "Venezuela sets up temporary housing, as death toll rises to almost 4,500",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:18:00+00:00",
-      "last_seen": "2026-07-12T21:18:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0871
-    },
-    {
-      "id": "1d8b59b811",
-      "title": "Lindsey Graham, hardline backer of US-Israeli wars, dies aged 71",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/lindsey-graham-hardline-backer-of-us-israeli-wars-dies-aged-71?traffic_source=rss",
-          "headline": "Lindsey Graham, hardline backer of US-Israeli wars, dies aged 71",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:12:54+00:00",
-      "last_seen": "2026-07-12T21:12:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0791
-    },
-    {
-      "id": "f7673aac43",
-      "title": "Germany moves to criminalise denial of Israel’s existence while refusing to recognise Palestine",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/germany-moves-criminalise-denial-israels-existence-while-refusing",
-          "headline": "Germany moves to criminalise denial of Israel’s existence while refusing to recognise Palestine",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:11:42+00:00",
-      "last_seen": "2026-07-12T21:11:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0772
-    },
-    {
-      "id": "d7e92e0ab5",
-      "title": "The man who changed the Arab world",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/the-man-who-changed-the-arab-world?traffic_source=rss",
-          "headline": "The man who changed the Arab world",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:09:03+00:00",
-      "last_seen": "2026-07-12T21:09:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0731
-    },
-    {
-      "id": "d2764796f8",
-      "title": "Georgia's unique in the American Revolution told through its historical markers",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/12/nx-s1-5886144/georgias-unique-in-the-american-revolution-told-through-its-historical-markers",
-          "headline": "Georgia's unique in the American Revolution told through its historical markers",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:08:15+00:00",
-      "last_seen": "2026-07-12T21:08:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0719
-    },
-    {
-      "id": "7a481911bc",
-      "title": "'It would have been enough to learn the terrible lessons from Gaza to anticipate the current impasse over Iran'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/12/it-would-have-been-enough-to-learn-the-terrible-lessons-from-gaza-to-anticipate-the-current-impasse-over-iran_6755416_4.html",
-          "headline": "'It would have been enough to learn the terrible lessons from Gaza to anticipate the current impasse over Iran'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:07:27+00:00",
-      "last_seen": "2026-07-12T21:07:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0706
-    },
-    {
-      "id": "e53e3dd557",
-      "title": "Learning another language may keep your brain younger, study suggests",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/health/learning-another-language-may-keep-your-brain-younger-study-suggests",
-          "headline": "Learning another language may keep your brain younger, study suggests",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-12T21:03:47+00:00",
-      "last_seen": "2026-07-12T21:03:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.065
-    },
-    {
-      "id": "ed0d3b6fe1",
-      "title": "Here’s the latest.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/07/12/us/iran-war-trump-hormuz/heres-the-latest",
-          "headline": "Here’s the latest.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:02:42+00:00",
-      "last_seen": "2026-07-12T21:02:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0634
-    },
-    {
-      "id": "96e64598aa",
-      "title": "Andhra Pradesh and the next El Niño challenge",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/opinion/op-ed/andhra-pradesh-and-the-next-el-nino-challenge/article71213939.ece",
-          "headline": "Andhra Pradesh and the next El Niño challenge",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:01:52+00:00",
-      "last_seen": "2026-07-12T21:01:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0621
-    },
-    {
-      "id": "4420bd4e06",
-      "title": "Venezuela’s Post-Quake Politics",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/12/world/venezuela-earthquake-iran.html",
-          "headline": "Venezuela’s Post-Quake Politics",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T21:00:33+00:00",
-      "last_seen": "2026-07-12T21:00:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0601
-    },
-    {
-      "id": "3ed0977fa7",
-      "title": "Road rage | Politics of renaming a street in Bengal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/kolkata/road-rage-politics-of-renaming-a-street-in-bengal/article71211600.ece",
-          "headline": "Road rage | Politics of renaming a street in Bengal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T20:57:00+00:00",
-      "last_seen": "2026-07-12T20:57:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0547
-    },
-    {
-      "id": "00183e8d76",
-      "title": "Indian Ocean may impact long, dry winter spells in Eastern Mediterranean – study",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/indian-ocean-may-impact-long-dry-winter-spells-in-eastern-mediterranean-study/",
-          "headline": "Indian Ocean may impact long, dry winter spells in Eastern Mediterranean – study",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-12T20:53:51+00:00",
-      "last_seen": "2026-07-12T20:53:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
+      "source": "f8f2c73578",
+      "target": "941fda0f14",
+      "weight": 0.054,
+      "type": "thematic"
+    },
+    {
+      "source": "f8f2c73578",
+      "target": "d21a1544ac",
+      "weight": 0.073,
+      "type": "thematic"
+    },
+    {
+      "source": "f8f2c73578",
+      "target": "f0f563463d",
+      "weight": 0.12,
+      "type": "thematic"
+    },
+    {
       "source": "957bdfc6c4",
-      "target": "4f6c756c83",
-      "weight": 0.184,
+      "target": "bde2ffd327",
+      "weight": 0.654,
+      "type": "thematic"
+    },
+    {
+      "source": "21ebef642e",
+      "target": "0d19f5599c",
+      "weight": 0.018,
+      "type": "thematic"
+    },
+    {
+      "source": "d630bf8f4f",
+      "target": "33fff38ef9",
+      "weight": 0.124,
+      "type": "thematic"
+    },
+    {
+      "source": "33fff38ef9",
+      "target": "593bd9cbc2",
+      "weight": 0.285,
       "type": "thematic"
     },
     {
       "source": "3f0cf846a5",
-      "target": "4f6c756c83",
-      "weight": 0.133,
+      "target": "bde2ffd327",
+      "weight": 0.568,
+      "type": "thematic"
+    },
+    {
+      "source": "941fda0f14",
+      "target": "d21a1544ac",
+      "weight": 0.426,
+      "type": "thematic"
+    },
+    {
+      "source": "941fda0f14",
+      "target": "f0f563463d",
+      "weight": 0.063,
+      "type": "thematic"
+    },
+    {
+      "source": "d21a1544ac",
+      "target": "f0f563463d",
+      "weight": 0.083,
+      "type": "thematic"
+    },
+    {
+      "source": "869474bbfb",
+      "target": "40cd2e8d23",
+      "weight": 0.764,
       "type": "thematic"
     },
     {
       "source": "869474bbfb",
       "target": "8aaf5f8393",
-      "weight": 0.068,
+      "weight": 0.047,
       "type": "thematic"
     },
     {
       "source": "869474bbfb",
       "target": "ee794070f8",
-      "weight": 0.09,
+      "weight": 0.069,
       "type": "thematic"
     },
     {
-      "source": "869474bbfb",
-      "target": "280edc110d",
-      "weight": 0.148,
+      "source": "a19e80310f",
+      "target": "f0f563463d",
+      "weight": 0.288,
       "type": "thematic"
     },
     {
-      "source": "869474bbfb",
-      "target": "1d8b59b811",
-      "weight": 0.117,
-      "type": "thematic"
-    },
-    {
-      "source": "941fda0f14",
-      "target": "f8f2c73578",
-      "weight": 0.229,
+      "source": "b0dcda660a",
+      "target": "0d19f5599c",
+      "weight": 0.626,
       "type": "thematic"
     },
     {
       "source": "8aaf5f8393",
       "target": "ee794070f8",
-      "weight": 0.06,
-      "type": "thematic"
-    },
-    {
-      "source": "8aaf5f8393",
-      "target": "1d8b59b811",
-      "weight": 0.085,
-      "type": "thematic"
-    },
-    {
-      "source": "ee794070f8",
-      "target": "1d8b59b811",
-      "weight": 0.108,
-      "type": "thematic"
-    },
-    {
-      "source": "d5f472903f",
-      "target": "1d8b59b811",
-      "weight": 0.221,
-      "type": "thematic"
-    },
-    {
-      "source": "1cc38004d4",
-      "target": "4420bd4e06",
-      "weight": 0.009,
-      "type": "thematic"
-    },
-    {
-      "source": "4420bd4e06",
-      "target": "3ed0977fa7",
-      "weight": 0.127,
+      "weight": 0.032,
       "type": "thematic"
     }
   ],
@@ -1248,7 +1278,7 @@
     },
     "Times of Israel": {
       "ok": true,
-      "count": 13,
+      "count": 14,
       "error": null
     },
     "Middle East Eye": {

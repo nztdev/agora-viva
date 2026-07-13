@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13T22:29:23.540905+00:00",
+  "generated_at": "2026-07-13T23:27:30.477506+00:00",
   "node_count": 35,
-  "edge_count": 8,
+  "edge_count": 9,
   "nodes": [
     {
       "id": "09ff20f47a",
@@ -60,32 +60,44 @@
       "resonance": 0.28
     },
     {
-      "id": "2919c5df45",
-      "title": "Samsung Health app threatens data deletion if users opt out AI training",
-      "signal_count": 1,
+      "id": "faf3b6ab82",
+      "title": "Lindsey Graham's sister chosen as replacement after senator's death",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://neow.in/cWsyMTV3",
-          "headline": "Samsung Health app threatens data deletion if users opt out AI training",
-          "platform": "hackernews"
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/lindsey-grahams-sister-chosen-to-fulfill-remainder-of-his-us-senate-term/",
+          "headline": "Lindsey Graham’s sister chosen to fulfill remainder of his US Senate term",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c05y3rlvp20o?at_medium=RSS&at_campaign=rss",
+          "headline": "Lindsey Graham's sister chosen as replacement after senator's death",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/13/nx-s1-5891839/lindsey-graham-senate-seat-darline-graham",
+          "headline": "South Carolina's governor names Lindsey Graham's sister to serve out his term",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
+        "mean": -0.033,
+        "spread": 0.085,
         "left": 0,
-        "center": 1,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-07-13T20:01:43+00:00",
-      "last_seen": "2026-07-13T20:01:43+00:00",
+      "first_seen": "2026-07-13T20:17:53+00:00",
+      "last_seen": "2026-07-13T22:26:14+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.28
+      "topic": "politics",
+      "resonance": 0.3612
     },
     {
       "id": "20fb20f35d",
@@ -125,81 +137,7 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.411
-    },
-    {
-      "id": "faf3b6ab82",
-      "title": "Lindsey Graham's sister chosen as replacement after senator's death",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/lindsey-grahams-sister-chosen-to-fulfill-remainder-of-his-us-senate-term/",
-          "headline": "Lindsey Graham’s sister chosen to fulfill remainder of his US Senate term",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c05y3rlvp20o?at_medium=RSS&at_campaign=rss",
-          "headline": "Lindsey Graham's sister chosen as replacement after senator's death",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.025,
-        "spread": 0.025,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T21:37:02+00:00",
-      "last_seen": "2026-07-13T22:26:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.388
-    },
-    {
-      "id": "8293acdb62",
-      "title": "US judge voids Donald Trump's $1.8bn settlement with IRS that gave him immunity from tax audits",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/americas/20260713-us-judge-voids-trump-irs-settlement-taxes",
-          "headline": "US judge voids Donald Trump 'improper' $1.8 billion settlement with IRS",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/13/us-judge-voids-trumps-irs-settlement-alleges-self-dealing?traffic_source=rss",
-          "headline": "US judge voids Trump’s IRS settlement, alleges self-dealing",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cn8q0e8d4ego?at_medium=RSS&at_campaign=rss",
-          "headline": "US judge voids Donald Trump's $1.8bn settlement with IRS that gave him immunity from tax audits",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.133,
-        "spread": 0.047,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:52:46+00:00",
-      "last_seen": "2026-07-13T21:58:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.3239
+      "resonance": 0.3398
     },
     {
       "id": "c3d592ac54",
@@ -239,7 +177,7 @@
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.2783
+      "resonance": 0.2002
     },
     {
       "id": "96ac125e71",
@@ -273,41 +211,7 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.2733
-    },
-    {
-      "id": "fc20cdaeba",
-      "title": "Australia news live: NT police still seek answers over 25 year-old murder of British backpacker Peter Falconio",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/14/australia-news-live-nt-police-peter-falconio-anthony-albanese-ai-artificial-intelligence-copyright-antisemitism-royal-commission-bondi-universities-ntwnfb",
-          "headline": "Australia news live: NT police still seek answers over 25 year-old murder of British backpacker Peter Falconio",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-14/peter-falconio-murder-25-years-on-joanne-lees-bradley-murdoch/106847392",
-          "headline": "25 years on, the outback murder of Peter Falconio still haunts Australia",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.1,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T20:27:42+00:00",
-      "last_seen": "2026-07-13T22:05:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.2712
+      "resonance": 0.1998
     },
     {
       "id": "4a2f8d5d80",
@@ -347,47 +251,63 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.2701
+      "resonance": 0.1991
     },
     {
-      "id": "cebd265e92",
-      "title": "Colombian migrant killed in ICE shooting in Maine",
-      "signal_count": 3,
+      "id": "020ad4fa3a",
+      "title": "BJP, Congress file nominations for Manjalpur bypoll, trade barbs over governance",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/usa/2026-07-13/colombian-migrant-killed-in-ice-shooting-in-maine.html",
-          "headline": "Colombian migrant killed in ICE shooting in Maine",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/person-killed-in-ice-involved-shooting-in-maine/a-77941733?maca=en-rss-en-all-1573-rdf",
-          "headline": "Person killed in ICE-involved shooting in Maine",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/americas/20260713-one-person-killed-in-maine-shooting-involving-ice-state-lawmaker-says",
-          "headline": "One person killed in Maine shooting involving ICE, state lawmaker says",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/gujarat/bjp-congress-file-nominations-for-manjalpur-bypoll-trade-barbs-over-governance/article71217606.ece",
+          "headline": "BJP, Congress file nominations for Manjalpur bypoll, trade barbs over governance",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.133,
-        "spread": 0.047,
+        "mean": -0.1,
+        "spread": 0.0,
         "left": 0,
-        "center": 3,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T15:55:23+00:00",
-      "last_seen": "2026-07-13T22:00:04+00:00",
+      "first_seen": "2026-07-13T23:25:57+00:00",
+      "last_seen": "2026-07-13T23:25:57+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.2494
+      "resonance": 0.1552
+    },
+    {
+      "id": "344ac505d3",
+      "title": "Donald Trump accuses 'fake news' of wanting US to lose Iran war, blasts NYT reporting",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/donald-trump-accuses-fake-news-wanting-us-lose-iran-war-blasts-nyt-reporting",
+          "headline": "Donald Trump accuses 'fake news' of wanting US to lose Iran war, blasts NYT reporting",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T23:22:30+00:00",
+      "last_seen": "2026-07-13T23:22:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1482
     },
     {
       "id": "da11479922",
@@ -433,7 +353,147 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2066
+      "resonance": 0.1379
+    },
+    {
+      "id": "50764fb99a",
+      "title": "Bryce Harper blames FanDuel for Cameo controversy after reading sportsbook's name on camera",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/bryce-harper-blames-fanduel-cameo-controversy-reading-sportsbook-name-camera",
+          "headline": "Bryce Harper blames FanDuel for Cameo controversy after reading sportsbook's name on camera",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T23:16:58+00:00",
+      "last_seen": "2026-07-13T23:16:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1372
+    },
+    {
+      "id": "2ea134cab5",
+      "title": "Former Spanish PM slammed over 'intolerable whiffs of racism' towards France team",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-14/mariano-rajoy-racism-row-over-france-at-world-cup/106911934",
+          "headline": "Former Spanish PM slammed over 'intolerable whiffs of racism' towards France team",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T23:15:29+00:00",
+      "last_seen": "2026-07-13T23:15:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1343
+    },
+    {
+      "id": "b2fe88dd16",
+      "title": "The Best Movies to Stream This Month (July 2026)",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/the-8-best-movies-to-stream-right-now/",
+          "headline": "The Best Movies to Stream This Month (July 2026)",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T23:14:30+00:00",
+      "last_seen": "2026-07-13T23:14:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1324
+    },
+    {
+      "id": "d86a37f2ca",
+      "title": "'For France, everything is so easy at this World Cup that it's almost unsettling'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/07/14/for-france-everything-is-so-easy-at-this-world-cup-that-it-s-almost-unsettling_6755448_9.html",
+          "headline": "'For France, everything is so easy at this World Cup that it's almost unsettling'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T23:13:05+00:00",
+      "last_seen": "2026-07-13T23:13:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1296
+    },
+    {
+      "id": "ef7d92f587",
+      "title": "Trump says to deliver 'speech to the nation' Thursday as Iran tensions escalate",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260713-trump-says-to-deliver-speech-to-the-nation-thursday-as-iran-tensions-escalate",
+          "headline": "Trump says to deliver 'speech to the nation' Thursday as Iran tensions escalate",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T23:10:20+00:00",
+      "last_seen": "2026-07-13T23:10:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1243
     },
     {
       "id": "329c7f34a1",
@@ -467,101 +527,129 @@
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1912
+      "resonance": 0.1182
     },
     {
-      "id": "bf010a4864",
-      "title": "Stephen Miller's unlikely friendship with Lindsey Graham revealed in heartfelt White House tribute",
+      "id": "c928e3ab94",
+      "title": "West Asia war LIVE: Trump sends Congress formal notice that Iran conflict has resumed",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/stephen-miller-unlikely-friendship-lindsey-graham-revealed-heartfelt-white-house-tribute",
-          "headline": "Stephen Miller's unlikely friendship with Lindsey Graham revealed in heartfelt White House tribute",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-missile-attacks-strait-of-hormuz-donald-trump-mojtaba-khamenei-cenctom-irgc-ceasefire-deal/article71215794.ece",
+          "headline": "West Asia war LIVE: Trump sends Congress formal notice that Iran conflict has resumed",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T22:18:51+00:00",
-      "last_seen": "2026-07-13T22:18:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1171
-    },
-    {
-      "id": "a30f4f400f",
-      "title": "Brad Pitt faces fresh family blow as daughter clears major hurdle to drop his last name",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/brad-pitt-faces-fresh-family-blow-daughter-clears-major-hurdle-drop-his-last-name",
-          "headline": "Brad Pitt faces fresh family blow as daughter clears major hurdle to drop his last name",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T22:14:46+00:00",
-      "last_seen": "2026-07-13T22:14:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.11
-    },
-    {
-      "id": "78faeabdd0",
-      "title": "The Justice Department’s War Against Reporters",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/newsletters/2026/07/todd-blanche-doj-war-against-journalism/687908/?utm_source=feed",
-          "headline": "The Justice Department’s War Against Reporters",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T22:12:00+00:00",
-      "last_seen": "2026-07-13T22:12:00+00:00",
+      "first_seen": "2026-07-13T23:07:06+00:00",
+      "last_seen": "2026-07-13T23:07:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.118
+    },
+    {
+      "id": "931e51b072",
+      "title": "FIFA eyes World Cup format expansion from 48 to 64 teams: Should the US be the permanent host?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/fifa-eyes-world-cup-format-expansion-48-64-teams-should-us-be-permanent-host",
+          "headline": "FIFA eyes World Cup format expansion from 48 to 64 teams: Should the US be the permanent host?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T23:06:07+00:00",
+      "last_seen": "2026-07-13T23:06:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1161
+    },
+    {
+      "id": "e54940b0da",
+      "title": "YouTube still recommending eating disorder videos to teens, research finds",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c5yzn2g0xw9o?at_medium=RSS&at_campaign=rss",
+          "headline": "YouTube still recommending eating disorder videos to teens, research finds",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T23:05:00+00:00",
+      "last_seen": "2026-07-13T23:05:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "resonance": 0.114
+    },
+    {
+      "id": "6cba5db255",
+      "title": "No significant rain forecast for at least a week as UK heatwave continues",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/weather/articles/cvge2zq0zg3o?at_medium=RSS&at_campaign=rss",
+          "headline": "No significant rain forecast for at least a week as UK heatwave continues",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T23:02:25+00:00",
+      "last_seen": "2026-07-13T23:02:25+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1052
+      "resonance": 0.109
     },
     {
-      "id": "4005d201a6",
-      "title": "Sealdah Division of Eastern Railway sanctions seven subways to end crossing of tracks by pedestrians",
+      "id": "4cd15e9938",
+      "title": "Bankipur assembly by-election: Prashant Kishor and his wife declare total assets of over ₹208 crore",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/kolkata/sealdah-division-of-eastern-railway-sanctions-seven-subways-to-end-crossing-of-tracks-by-pedestrians/article71217565.ece",
-          "headline": "Sealdah Division of Eastern Railway sanctions seven subways to end crossing of tracks by pedestrians",
+          "url": "https://www.thehindu.com/news/national/bihar/bankipur-assembly-by-election-prashant-kishor-and-his-wife-declare-total-assets-of-over-208-crore/article71218104.ece",
+          "headline": "Bankipur assembly by-election: Prashant Kishor and his wife declare total assets of over ₹208 crore",
           "platform": "rss"
         }
       ],
@@ -572,24 +660,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T22:11:14+00:00",
-      "last_seen": "2026-07-13T22:11:14+00:00",
+      "first_seen": "2026-07-13T23:01:23+00:00",
+      "last_seen": "2026-07-13T23:01:23+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1039
+      "resonance": 0.107
     },
     {
-      "id": "4a0483c264",
-      "title": "US continues to shun Ebola-infected citizens; second American sent to Germany",
+      "id": "1b7afc4708",
+      "title": "The secretive crypto firm backed by Farage's biggest donor",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/health/2026/07/us-continues-to-shun-ebola-infected-citizens-second-american-sent-to-germany/",
-          "headline": "US continues to shun Ebola-infected citizens; second American sent to Germany",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cg4w6wqye32o?at_medium=RSS&at_campaign=rss",
+          "headline": "The secretive crypto firm backed by Farage's biggest donor",
           "platform": "rss"
         }
       ],
@@ -600,52 +688,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T22:07:34+00:00",
-      "last_seen": "2026-07-13T22:07:34+00:00",
+      "first_seen": "2026-07-13T23:00:59+00:00",
+      "last_seen": "2026-07-13T23:00:59+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0975
+      "topic": "tech",
+      "resonance": 0.1063
     },
     {
-      "id": "2b6424c40c",
-      "title": "Tragedy at sea: Vietnam boat capsize survivors recount harrowing moments",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/tragedy-at-sea-survivors-recount-harrowing-moments-of-vietnamese-boat-capsizing-that-claimed-15-lives-s/article71218069.ece",
-          "headline": "Tragedy at sea: Vietnam boat capsize survivors recount harrowing moments",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T22:06:17+00:00",
-      "last_seen": "2026-07-13T22:06:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0954
-    },
-    {
-      "id": "00de3cc3b4",
-      "title": "Mexico to file criminal complaints over migrants killed by ICE in US",
+      "id": "eadc11a537",
+      "title": "Australia news live: Four more charged over alleged murder of Chris Baghsarian; Labor says Australians may ‘pay the price’ of renewed US-Iran conflict",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/jul/13/mexico-criminal-complaint-migrant-ice-deaths",
-          "headline": "Mexico to file criminal complaints over migrants killed by ICE in US",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/14/australia-news-live-nt-police-peter-falconio-anthony-albanese-ai-artificial-intelligence-copyright-antisemitism-royal-commission-bondi-universities-ntwnfb",
+          "headline": "Australia news live: Four more charged over alleged murder of Chris Baghsarian; Labor says Australians may ‘pay the price’ of renewed US-Iran conflict",
           "platform": "rss"
         }
       ],
@@ -656,244 +716,14 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-13T22:06:01+00:00",
-      "last_seen": "2026-07-13T22:06:01+00:00",
+      "first_seen": "2026-07-13T23:00:32+00:00",
+      "last_seen": "2026-07-13T23:00:32+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0949
-    },
-    {
-      "id": "c9c243d85f",
-      "title": "Five whale entanglements in five days on Ningaloo Reef",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-14/five-whale-entanglements-sharks-swarm-ningaloo-beach-close/106902868",
-          "headline": "Five whale entanglements in five days on Ningaloo Reef",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T22:04:17+00:00",
-      "last_seen": "2026-07-13T22:04:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0919
-    },
-    {
-      "id": "7e7f31b354",
-      "title": "James Carville blames Bernie Sanders for Trump being president in fiery rant",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/james-carville-blames-bernie-sanders-trump-being-president-fiery-rant",
-          "headline": "James Carville blames Bernie Sanders for Trump being president in fiery rant",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T22:01:59+00:00",
-      "last_seen": "2026-07-13T22:01:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.088
-    },
-    {
-      "id": "d9dbaafc21",
-      "title": "Fair, reasoned process must decide citizenship: Supreme Court",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/fair-reasoned-process-must-decide-citizenship-supreme-court/article71217442.ece",
-          "headline": "Fair, reasoned process must decide citizenship: Supreme Court",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T22:01:42+00:00",
-      "last_seen": "2026-07-13T22:01:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0876
-    },
-    {
-      "id": "1eb1d130ce",
-      "title": "Will Manila and Hanoi’s maritime deal challenge Beijing in the South China Sea?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3360363/will-manila-and-hanois-maritime-deal-challenge-beijing-south-china-sea?utm_source=rss_feed",
-          "headline": "Will Manila and Hanoi’s maritime deal challenge Beijing in the South China Sea?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T22:00:08+00:00",
-      "last_seen": "2026-07-13T22:00:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0849
-    },
-    {
-      "id": "416beefb75",
-      "title": "In major escalation, Yemen’s Houthis target Saudi Arabia’s Abha airport",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/in-major-escalation-yemens-houthis-target-saudi-arabias-abha-airport/",
-          "headline": "In major escalation, Yemen’s Houthis target Saudi Arabia’s Abha airport",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T21:56:45+00:00",
-      "last_seen": "2026-07-13T21:56:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0793
-    },
-    {
-      "id": "5fafad9ee9",
-      "title": "Dutch football 'deeply saddened' as axed World Cup referee dies at 38",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-14/dutch-referee-rob-dieperink-dies-after-world-cup-removal/106911984",
-          "headline": "Dutch football 'deeply saddened' as axed World Cup referee dies at 38",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T21:56:01+00:00",
-      "last_seen": "2026-07-13T21:56:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.078
-    },
-    {
-      "id": "ff9835b9b8",
-      "title": "Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/iran-war-trump-reinstates-us-blockade-of-strait-of-hormuz/live-77926628?maca=en-rss-en-all-1573-rdf",
-          "headline": "Iran war: Trump reinstates US blockade of Strait of Hormuz",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T15:20:00+00:00",
-      "last_seen": "2026-07-13T21:46:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0741
-    },
-    {
-      "id": "2c993af4f1",
-      "title": "Microsoft tests Windows Search without all the ads and fluff",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/965090/microsoft-windows-11-search-menu-ads",
-          "headline": "Microsoft tests Windows Search without all the ads and fluff",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T21:53:20+00:00",
-      "last_seen": "2026-07-13T21:53:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0736
+      "topic": "conflict",
+      "resonance": 0.1054
     },
     {
       "id": "d317bdc6fc",
@@ -914,136 +744,176 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-13T21:51:44+00:00",
-      "last_seen": "2026-07-13T21:51:44+00:00",
+      "first_seen": "2026-07-13T23:00:15+00:00",
+      "last_seen": "2026-07-13T23:00:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0709
+      "resonance": 0.1049
     },
     {
-      "id": "75910fcd6f",
-      "title": "OnePlus is reportedly bailing on the US",
+      "id": "d5b776251f",
+      "title": "Surviving the Uchiwa Festival, Japan’s hottest ‘matsuri’",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/965084/oneplus-oppo-exit-us-europe",
-          "headline": "OnePlus is reportedly bailing on the US",
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/life/2026/07/14/travel/uchiwa-festival-kumagaya-heat-matsuri-traditional-culture/",
+          "headline": "Surviving the Uchiwa Festival, Japan’s hottest ‘matsuri’",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": 0.0,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T21:48:43+00:00",
-      "last_seen": "2026-07-13T21:48:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.066
-    },
-    {
-      "id": "f3b5b3147c",
-      "title": "Hamas Forces Interfered With Aid Distribution, U.N. Says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/13/world/middleeast/un-says-hamas-forces-interfered-with-aid-distribution-at-a-gaza-site.html",
-          "headline": "Hamas Forces Interfered With Aid Distribution, U.N. Says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T21:47:55+00:00",
-      "last_seen": "2026-07-13T21:47:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0647
-    },
-    {
-      "id": "aca705a46e",
-      "title": "How our property obsession killed productivity",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-14/will-property-tax-changes-save-australia-productivity-crisis/106910926",
-          "headline": "How our property obsession killed productivity",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T21:44:51+00:00",
-      "last_seen": "2026-07-13T21:44:51+00:00",
+      "first_seen": "2026-07-13T23:00:00+00:00",
+      "last_seen": "2026-07-13T23:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0597
+      "resonance": 0.1044
     },
     {
-      "id": "1c0d34ece9",
-      "title": "Trump says U.S. military will reimpose blockade on Iranian ports",
-      "signal_count": 1,
+      "id": "8293acdb62",
+      "title": "US judge voids Donald Trump's $1.8bn settlement with IRS that gave him immunity from tax audits",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/07/13/airstrikes-intensify-between-us-iran/",
-          "headline": "Trump says U.S. military will reimpose blockade on Iranian ports",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260713-us-judge-voids-trump-irs-settlement-taxes",
+          "headline": "US judge voids Donald Trump 'improper' $1.8 billion settlement with IRS",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cn8q0e8d4ego?at_medium=RSS&at_campaign=rss",
+          "headline": "US judge voids Donald Trump's $1.8bn settlement with IRS that gave him immunity from tax audits",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
+        "mean": -0.1,
         "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "left": 0,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-13T21:39:12+00:00",
-      "last_seen": "2026-07-13T21:39:12+00:00",
+      "first_seen": "2026-07-13T18:52:46+00:00",
+      "last_seen": "2026-07-13T21:58:19+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0506
+      "topic": "politics",
+      "resonance": 0.0874
     },
     {
-      "id": "14ed2500da",
-      "title": "Siri AI Is Becoming Apple’s Everything Tool",
+      "id": "ff9835b9b8",
+      "title": "Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
-          "headline": "Siri AI Is Becoming Apple’s Everything Tool",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T22:47:52+00:00",
+      "last_seen": "2026-07-13T22:47:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0817
+    },
+    {
+      "id": "89ca1a206c",
+      "title": "'Hero, legend, sweetheart': Tributes to Jurassic Park actor Sam Neill, who has died aged 78",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cy06e5e1lygo?at_medium=RSS&at_campaign=rss",
+          "headline": "'Hero, legend, sweetheart': Tributes to Jurassic Park actor Sam Neill, who has died aged 78",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T22:38:34+00:00",
+      "last_seen": "2026-07-13T22:38:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0648
+    },
+    {
+      "id": "cebd265e92",
+      "title": "Colombian migrant killed in ICE shooting in Maine",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/usa/2026-07-13/colombian-migrant-killed-in-ice-shooting-in-maine.html",
+          "headline": "Colombian migrant killed in ICE shooting in Maine",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/person-killed-in-ice-involved-shooting-in-maine/a-77941733?maca=en-rss-en-all-1573-rdf",
+          "headline": "Person killed in ICE-involved shooting in Maine",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T18:09:00+00:00",
+      "last_seen": "2026-07-13T22:00:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0631
+    },
+    {
+      "id": "7c06195385",
+      "title": "Live: Iran mocks Trump on 20pc toll threat as Hormuz conflict flares again",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-14/iran-united-states-war-blog-july-14-2026/106912082",
+          "headline": "Live: Iran mocks Trump on 20pc toll threat as Hormuz conflict flares again",
           "platform": "rss"
         }
       ],
@@ -1054,24 +924,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T21:39:09+00:00",
-      "last_seen": "2026-07-13T21:39:09+00:00",
+      "first_seen": "2026-07-13T22:35:06+00:00",
+      "last_seen": "2026-07-13T22:35:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0505
+      "resonance": 0.0585
     },
     {
-      "id": "88b7a85983",
-      "title": "Haaland’s Norway receive heroes’ welcome in Oslo after World Cup exit",
+      "id": "71f5eb2234",
+      "title": "UK bans support for Iran’s IRGC and a linked group over antisemitic attacks in Britain",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3360439/uk-bans-support-irans-irgc-and-linked-group-over-antisemitic-attacks-britain?utm_source=rss_feed",
+          "headline": "UK bans support for Iran’s IRGC and a linked group over antisemitic attacks in Britain",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T22:34:43+00:00",
+      "last_seen": "2026-07-13T22:34:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0579
+    },
+    {
+      "id": "bae5723909",
+      "title": "Backed by Trump, Lindsey Graham’s sister Darline will replace him in Senate",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/13/haalands-norway-receive-heroes-welcome-in-oslo-after-world-cup-exit?traffic_source=rss",
-          "headline": "Haaland’s Norway receive heroes’ welcome in Oslo after World Cup exit",
+          "url": "https://www.aljazeera.com/news/2026/7/13/backed-by-trump-lindsey-grahams-sister-darline-will-replace-him-in-senate?traffic_source=rss",
+          "headline": "Backed by Trump, Lindsey Graham’s sister Darline will replace him in Senate",
           "platform": "rss"
         }
       ],
@@ -1082,63 +980,153 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T21:38:51+00:00",
-      "last_seen": "2026-07-13T21:38:51+00:00",
+      "first_seen": "2026-07-13T22:33:08+00:00",
+      "last_seen": "2026-07-13T22:33:08+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
+      "topic": "politics",
+      "resonance": 0.055
+    },
+    {
+      "id": "bfdd4058fd",
+      "title": "Nine deaths tied to Trump’s immigration enforcement operations in US",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/13/nine-deaths-tied-to-trumps-immigration-enforcement-operations-in-us?traffic_source=rss",
+          "headline": "Nine deaths tied to Trump’s immigration enforcement operations in US",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T22:31:36+00:00",
+      "last_seen": "2026-07-13T22:31:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.0523
+    },
+    {
+      "id": "903b232d14",
+      "title": "Ten years after the July 14 terrorist attack, Nice struggles with a painful process of remembrance",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/france/article/2026/07/14/ten-years-after-the-july-14-terrorist-attack-nice-struggles-with-a-painful-process-of-remembrance_6755447_7.html",
+          "headline": "Ten years after the July 14 terrorist attack, Nice struggles with a painful process of remembrance",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T22:31:09+00:00",
+      "last_seen": "2026-07-13T22:31:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0515
+    },
+    {
+      "id": "85c961eb33",
+      "title": "ICE agents shoot and kill driver who witnesses say 'tried to stop'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-14/ice-shoot-and-kill-colombian-motorist-in-maine/106911958",
+          "headline": "ICE agents shoot and kill driver who witnesses say 'tried to stop'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T22:30:18+00:00",
+      "last_seen": "2026-07-13T22:30:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
       "source": "faf3b6ab82",
-      "target": "bf010a4864",
-      "weight": 0.185,
+      "target": "bae5723909",
+      "weight": 0.752,
       "type": "thematic"
     },
     {
       "source": "c3d592ac54",
-      "target": "ff9835b9b8",
-      "weight": 0.391,
+      "target": "ef7d92f587",
+      "weight": 0.425,
       "type": "thematic"
     },
     {
       "source": "c3d592ac54",
       "target": "d317bdc6fc",
-      "weight": 0.399,
+      "weight": 0.258,
       "type": "thematic"
     },
     {
       "source": "c3d592ac54",
-      "target": "1c0d34ece9",
-      "weight": 0.284,
+      "target": "ff9835b9b8",
+      "weight": 0.273,
       "type": "thematic"
     },
     {
-      "source": "cebd265e92",
-      "target": "00de3cc3b4",
-      "weight": 0.386,
+      "source": "344ac505d3",
+      "target": "c928e3ab94",
+      "weight": 0.042,
       "type": "thematic"
     },
     {
-      "source": "5fafad9ee9",
-      "target": "88b7a85983",
-      "weight": 0.166,
+      "source": "d86a37f2ca",
+      "target": "931e51b072",
+      "weight": 0.272,
+      "type": "thematic"
+    },
+    {
+      "source": "c928e3ab94",
+      "target": "7c06195385",
+      "weight": 0.269,
+      "type": "thematic"
+    },
+    {
+      "source": "eadc11a537",
+      "target": "7c06195385",
+      "weight": 0.016,
       "type": "thematic"
     },
     {
       "source": "ff9835b9b8",
-      "target": "1c0d34ece9",
-      "weight": 0.094,
-      "type": "thematic"
-    },
-    {
-      "source": "d317bdc6fc",
-      "target": "f3b5b3147c",
-      "weight": 0.03,
+      "target": "7c06195385",
+      "weight": 0.097,
       "type": "thematic"
     }
   ],

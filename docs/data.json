@@ -1,22 +1,72 @@
 {
-  "generated_at": "2026-07-13T15:20:39.770459+00:00",
+  "generated_at": "2026-07-13T17:28:51.857998+00:00",
   "node_count": 35,
-  "edge_count": 3,
+  "edge_count": 11,
   "nodes": [
     {
-      "id": "88a546f6da",
-      "title": "Grok uploaded my user directory to xAI's servers",
-      "signal_count": 2,
+      "id": "decd42f0e0",
+      "title": "DOGE is done. What happened to its records?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.ms.now/opinion/doge-government-efficiency-records-job-cuts-elon-musk-foia",
+          "headline": "DOGE is done. What happened to its records?",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T15:56:39+00:00",
+      "last_seen": "2026-07-13T15:56:39+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.28
+    },
+    {
+      "id": "e8ab06bdf8",
+      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+          "headline": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:06:08+00:00",
+      "last_seen": "2026-07-13T16:06:08+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.28
+    },
+    {
+      "id": "7a939a6884",
+      "title": "Grok CLI uploaded the whole home directory to GCS",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
           "url": "https://twitter.com/a_green_being/status/2076598897779020159",
-          "headline": "Grok uploaded my user directory to xAI's servers",
-          "platform": "hackernews"
-        },
-        {
-          "outlet": "Hacker News",
-          "url": "https://twitter.com/i/status/2076598897779020159",
           "headline": "Grok CLI uploaded the whole home directory to GCS",
           "platform": "hackernews"
         }
@@ -25,84 +75,22 @@
         "mean": 0.0,
         "spread": 0.0,
         "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T13:35:32+00:00",
-      "last_seen": "2026-07-13T13:39:59+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.7945
-    },
-    {
-      "id": "1a107d7fac",
-      "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://github.com/clawkwork/clawk",
-          "headline": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T14:02:03+00:00",
-      "last_seen": "2026-07-13T14:02:03+00:00",
+      "first_seen": "2026-07-13T13:35:32+00:00",
+      "last_seen": "2026-07-13T13:35:32+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "politics",
+      "topic": "world",
       "resonance": 0.28
-    },
-    {
-      "id": "f2fabc240c",
-      "title": "UK Links Iran to Antisemitic Attacks and Calls IRGC Terrorist Group",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/13/world/europe/uk-iran-irgc-terrorist-antisemitic-attacks.html",
-          "headline": "UK Links Iran to Antisemitic Attacks and Calls IRGC Terrorist Group",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/world/uk-pins-string-antisemitic-attacks-iran-linked-group-bans-irgc",
-          "headline": "UK pins string of antisemitic attacks on Iran-linked group, bans IRGC",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.45,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T14:25:56+00:00",
-      "last_seen": "2026-07-13T15:14:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.3284
     },
     {
       "id": "a341a807d6",
       "title": "Counter terrorism police take over investigation into Ann Widdecombe's death",
-      "signal_count": 3,
+      "signal_count": 5,
       "sources": [
         {
           "outlet": "New York Times",
@@ -111,117 +99,289 @@
           "platform": "rss"
         },
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3360412/uk-counterterrorism-police-probe-ex-ministers-death?utm_source=rss_feed",
-          "headline": "UK counterterrorism police probe ex-minister’s death",
-          "platform": "rss"
-        },
-        {
           "outlet": "BBC News",
           "url": "https://www.bbc.co.uk/news/articles/c0mydjl12mwo?at_medium=RSS&at_campaign=rss",
           "headline": "Counter terrorism police take over investigation into Ann Widdecombe's death",
           "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/13/anti-terror-police-take-over-probe-into-death-of-uk-politician-widdecombe?traffic_source=rss",
+          "headline": "Anti-terror police take over probe into death of UK politician Widdecombe",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3360412/uk-counterterrorism-police-probe-ex-ministers-death?utm_source=rss_feed",
+          "headline": "Ann Widdecombe death: UK counterterrorism police probe suspected murder of ex-minister",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-13/ann-widdecombe-murder-counterterrorism-police/106911368",
+          "headline": "UK counter-terrorism police now leading Widdecombe murder investigation",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.163,
+        "mean": -0.12,
+        "spread": 0.133,
         "left": 1,
-        "center": 2,
+        "center": 4,
         "right": 0
       },
-      "first_seen": "2026-07-13T12:19:19+00:00",
-      "last_seen": "2026-07-13T13:35:17+00:00",
+      "first_seen": "2026-07-13T12:08:04+00:00",
+      "last_seen": "2026-07-13T17:08:38+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.2651
+      "resonance": 0.4309
     },
     {
-      "id": "ba2e160d9e",
-      "title": "Europe Will Defend Itself ‘With Blood, if Necessary,’ Macron Says",
-      "signal_count": 2,
+      "id": "dc1d2fc112",
+      "title": "One person killed in Maine shooting involving ICE, state lawmaker says",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/13/world/europe/macron-defend-blood-ukraine-europe.html",
-          "headline": "Europe Will Defend Itself ‘With Blood, if Necessary,’ Macron Says",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/13/person-killed-in-shooting-involving-ice-agents-in-us-state-of-maine?traffic_source=rss",
+          "headline": "Person killed in shooting involving ICE agents in US state of Maine",
           "platform": "rss"
         },
         {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/13/macron-says-europe-will-defend-itself-at-all-costs-ahead-of-ukraine-allies-summit_6755434_4.html",
-          "headline": "Macron says Europe will defend itself at all costs ahead of Ukraine allies summit",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260713-one-person-killed-in-maine-shooting-involving-ice-state-lawmaker-says",
+          "headline": "One person killed in Maine shooting involving ICE, state lawmaker says",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360422/1-killed-ice-involved-shooting-us?utm_source=rss_feed",
+          "headline": "1 killed in ICE-involved shooting in US",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.25,
-        "spread": 0.05,
-        "left": 1,
-        "center": 1,
+        "mean": -0.067,
+        "spread": 0.125,
+        "left": 0,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-07-13T12:44:18+00:00",
-      "last_seen": "2026-07-13T15:10:31+00:00",
+      "first_seen": "2026-07-13T15:11:25+00:00",
+      "last_seen": "2026-07-13T16:11:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.3433
+    },
+    {
+      "id": "da11479922",
+      "title": "States sue to stop Paramount-Warner Bros blockbuster merger",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/13/12-states-sue-to-block-paramounts-110b-warner-bros-deal/",
+          "headline": "12 states sue to block Paramount’s $110B Warner Bros. deal",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/13/nx-s1-5879286/paramount-warner-bros-discovery-lawsuit",
+          "headline": "States sue to stop Paramount-Warner Bros blockbuster merger",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.125,
+        "spread": 0.025,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:30:12+00:00",
+      "last_seen": "2026-07-13T17:00:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.2857
+    },
+    {
+      "id": "b5c8a301f3",
+      "title": "Iran war: Trump reinstates US blockade of Strait of Hormuz",
+      "signal_count": 6,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/trump-us-will-take-over-strait-of-hormuz?traffic_source=rss",
+          "headline": "Trump: US will ‘take over’ Strait of Hormuz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/iran-war-trump-reinstates-us-blockade-of-strait-of-hormuz/live-77926628?maca=en-rss-en-all-1573-rdf",
+          "headline": "Iran war: Trump reinstates US blockade of Strait of Hormuz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/us/article/3360421/us-restore-iran-blockade-charge-fees-strait-hormuz-shipping?utm_source=rss_feed",
+          "headline": "Trump to restore Iran blockade, charge fees for Strait of Hormuz shipping",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/13/trump-says-us-will-become-guardian-of-strait-of-hormuz-and-collect-tolls?traffic_source=rss",
+          "headline": "Trump says US will become ‘guardian’ of Strait of Hormuz and collect tolls",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/iran-fires-warning-shots-at-2-ships-in-strait-of-hormuz-as-clashes-with-us-intensify/",
+          "headline": "Trump says US ‘guardian’ of Hormuz, will charge ‘20% on all cargo’ traversing strait",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/opinion/world-opinion/article/3360314/iran-war-no-longer-contest-over-just-strait-hormuz?utm_source=rss_feed",
+          "headline": "Iran war is no longer a contest over just the Strait of Hormuz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.042,
+        "spread": 0.13,
+        "left": 0,
+        "center": 6,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T12:30:06+00:00",
+      "last_seen": "2026-07-13T15:41:07+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2006
+      "resonance": 0.2466
     },
     {
-      "id": "7ee1a63431",
-      "title": "At least 28 killed, 25 critically injured after fire engulfs Bangkok bar",
+      "id": "a844034500",
+      "title": "🔴Live: US ‘reinstating’ Hormuz blockade, will charge 20% on cargo, Trump says",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c24yev53q06o?at_medium=RSS&at_campaign=rss",
-          "headline": "At least 28 killed, 25 critically injured after fire engulfs Bangkok bar",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-missile-attacks-strait-of-hormuz-donald-trump-mojtaba-khamenei-cenctom-irgc-ceasefire-deal/article71215794.ece",
+          "headline": "West Asia war LIVE: Trump says U.S. is reinstating maritime blockade on Iran",
           "platform": "rss"
         },
         {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/jul/12/at-least-27-killed-in-blaze-at-bangkok-pub-thai-officials-say",
-          "headline": "At least 27 killed in fire at Bangkok pub with another 22 critically injured",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260712-middle-east-live-us-strikes-iran-gulf-states-targeted-strait-hormuz",
+          "headline": "🔴Live: US ‘reinstating’ Hormuz blockade, will charge 20% on cargo, Trump says",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.15,
-        "left": 1,
-        "center": 1,
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-13T12:05:28+00:00",
-      "last_seen": "2026-07-13T15:04:36+00:00",
+      "first_seen": "2026-07-13T14:40:49+00:00",
+      "last_seen": "2026-07-13T17:21:39+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1662
+      "topic": "conflict",
+      "resonance": 0.1951
     },
     {
-      "id": "863abccb3a",
-      "title": "UK bans support for Iran's Islamic Revolutionary Guard Corps",
+      "id": "2d52c413e0",
+      "title": "What is the EU’s plan to cut trade with illegal Israeli settlements?",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3360426/eu-countries-push-trade-ban-israeli-settlements?utm_source=rss_feed",
+          "headline": "EU countries push for trade ban with Israeli settlements",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/13/what-is-the-eus-plan-to-cut-trade-with-illegal-israeli-settlements?traffic_source=rss",
+          "headline": "What is the EU’s plan to cut trade with illegal Israeli settlements?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.15,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T14:33:14+00:00",
+      "last_seen": "2026-07-13T16:33:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.1523
+    },
+    {
+      "id": "6916a15203",
+      "title": "Sam Altman’s space data center trash talk is what most experts already believe",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
+          "headline": "Sam Altman’s space data center trash talk is what most experts already believe",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T17:28:37+00:00",
+      "last_seen": "2026-07-13T17:28:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1094
+    },
+    {
+      "id": "1c0d34ece9",
+      "title": "Trump says U.S. military will reimpose blockade on Iranian ports",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/07/13/uk-designate-irans-islamic-revolutionary-guard-corps-terrorist-group/",
-          "headline": "U.K. to designate Iran’s Islamic Revolutionary Guard Corps as a terrorist group",
+          "url": "https://www.washingtonpost.com/world/2026/07/13/airstrikes-intensify-between-us-iran/",
+          "headline": "Trump says U.S. military will reimpose blockade on Iranian ports",
           "platform": "rss"
         },
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cz0jkj7e87go?at_medium=RSS&at_campaign=rss",
-          "headline": "UK bans support for Iran's Islamic Revolutionary Guard Corps",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-13/trump-strait-of-hormuz-control-plans/106911410",
+          "headline": "Trump says US will reinstate naval blockade on Iranian ports",
           "platform": "rss"
         }
       ],
@@ -232,160 +392,14 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T12:50:19+00:00",
-      "last_seen": "2026-07-13T13:35:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1627
-    },
-    {
-      "id": "7df47614c8",
-      "title": "Japan Builds Intelligence Agency It Hasn’t Had Since World War II",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/13/what-is-japans-new-intelligence-agency-and-why-is-tokyo-building-it?traffic_source=rss",
-          "headline": "What is Japan’s new intelligence agency, and why is Tokyo building it?",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/13/world/asia/japan-intelligence-agency.html",
-          "headline": "Japan Builds Intelligence Agency It Hasn’t Had Since World War II",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.05,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T12:57:30+00:00",
-      "last_seen": "2026-07-13T13:07:15+00:00",
+      "first_seen": "2026-07-13T13:20:58+00:00",
+      "last_seen": "2026-07-13T16:43:02+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1169
-    },
-    {
-      "id": "58cf9dfcca",
-      "title": "India wraps up a win for the ages at Lord’s",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/cricket/india-wraps-up-a-win-for-the-ages-at-lords/article71218284.ece",
-          "headline": "India wraps up a win for the ages at Lord’s",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T15:17:19+00:00",
-      "last_seen": "2026-07-13T15:17:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.102
-    },
-    {
-      "id": "6687ea40be",
-      "title": "Manslaughter plea accepted in dog walker killing",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cz0jkjdr352o?at_medium=RSS&at_campaign=rss",
-          "headline": "Manslaughter plea accepted in dog walker killing",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T15:17:10+00:00",
-      "last_seen": "2026-07-13T15:17:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1017
-    },
-    {
-      "id": "f50443713e",
-      "title": "Mysuru: State SVEEP Nodal Officer inspects Voter Facilitation Centre",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/karnataka/mysuru-state-sveep-nodal-officer-inspects-voter-facilitation-centre/article71218087.ece",
-          "headline": "Mysuru: State SVEEP Nodal Officer inspects Voter Facilitation Centre",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T15:16:57+00:00",
-      "last_seen": "2026-07-13T15:16:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1014
-    },
-    {
-      "id": "f57be35cd7",
-      "title": "Two injured in chemical leak at a pharma in Vizag",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Visakhapatnam/two-injured-in-chemical-leak-at-a-pharma-in-vizag/article71216989.ece",
-          "headline": "Two injured in chemical leak at a pharma in Vizag",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T15:16:28+00:00",
-      "last_seen": "2026-07-13T15:16:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1006
+      "resonance": 0.1076
     },
     {
       "id": "18a8650e7b",
@@ -406,64 +420,52 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-13T15:14:56+00:00",
-      "last_seen": "2026-07-13T15:14:56+00:00",
+      "first_seen": "2026-07-13T17:21:47+00:00",
+      "last_seen": "2026-07-13T17:21:47+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0981
+      "resonance": 0.0985
     },
     {
-      "id": "6ecbb75ba1",
-      "title": "A versatile actor whose roles went far beyond Jurassic Park - Sam Neill dies aged 78",
-      "signal_count": 3,
+      "id": "3a561d6a4e",
+      "title": "Conflict Over Iranian Planes Imperils Yemen’s Fragile Peace",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/culture/2026-07-13/sam-neill-star-of-jurassic-park-dies-at-78.html",
-          "headline": "Sam Neill, star of ‘Jurassic Park,’ dies at 78",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cx2wrvqq9rlo?at_medium=RSS&at_campaign=rss",
-          "headline": "A versatile actor whose roles went far beyond Jurassic Park - Sam Neill dies aged 78",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cy06e5e1lygo?at_medium=RSS&at_campaign=rss",
-          "headline": "'Hero, legend, sweetheart': Tributes to Jurassic Park actor Sam Neill, who has died aged 78",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/13/world/middleeast/yemen-houthis-saudi-arabia-iran-war.html",
+          "headline": "Conflict Over Iranian Planes Imperils Yemen’s Fragile Peace",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.067,
-        "spread": 0.094,
-        "left": 0,
-        "center": 3,
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-13T11:52:55+00:00",
-      "last_seen": "2026-07-13T13:36:52+00:00",
+      "first_seen": "2026-07-13T17:21:45+00:00",
+      "last_seen": "2026-07-13T17:21:45+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0958
+      "topic": "conflict",
+      "resonance": 0.0984
     },
     {
-      "id": "87fc60bcb4",
-      "title": "1 killed in ICE-involved shooting in US",
+      "id": "046b016bef",
+      "title": "Mexico to file legal complaints over US immigration deaths, says President Sheinbaum",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360422/1-killed-ice-involved-shooting-us?utm_source=rss_feed",
-          "headline": "1 killed in ICE-involved shooting in US",
+          "url": "https://www.scmp.com/news/world/americas/article/3360428/mexico-file-legal-complaints-over-us-immigration-deaths-says-president-sheinbaum?utm_source=rss_feed",
+          "headline": "Mexico to file legal complaints over US immigration deaths, says President Sheinbaum",
           "platform": "rss"
         }
       ],
@@ -474,64 +476,254 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T15:11:25+00:00",
-      "last_seen": "2026-07-13T15:11:25+00:00",
+      "first_seen": "2026-07-13T17:21:22+00:00",
+      "last_seen": "2026-07-13T17:21:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0978
+    },
+    {
+      "id": "6680ee88f9",
+      "title": "‘Establish common bio-medical waste treatment facility’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Madurai/establish-common-bio-medical-waste-treatment-facility/article71218719.ece",
+          "headline": "‘Establish common bio-medical waste treatment facility’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T17:21:11+00:00",
+      "last_seen": "2026-07-13T17:21:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.0975
+    },
+    {
+      "id": "13bb14c238",
+      "title": "Man booked for allegedly threatening PM on social media",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/man-booked-for-allegedly-threatening-pm-on-social-media/article71217876.ece",
+          "headline": "Man booked for allegedly threatening PM on social media",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T17:19:18+00:00",
+      "last_seen": "2026-07-13T17:19:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0925
+      "resonance": 0.0946
     },
     {
-      "id": "aa40847203",
-      "title": "World Cup semifinal: will France get their revenge on Spain?",
-      "signal_count": 3,
+      "id": "e94010a96b",
+      "title": "Flight carrying bodies of 15 Indians killed in Vietnam boat tragedy lands at Mumbai airport",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/13/fifa-world-cup-key-players-to-watch-as-france-take-on-spain-in-2026-semifinal?traffic_source=rss",
-          "headline": "FIFA World Cup: Key players to watch as France play Spain in semifinal",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/world-cup-semifinal-will-france-get-their-revenge-on-spain",
-          "headline": "World Cup semifinal: will France get their revenge on Spain?",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/13/france-spain-world-cup-semifinal-mbappe-yamal-predictions-kickoff?traffic_source=rss",
-          "headline": "France vs Spain: World Cup semifinal – Mbappe, Yamal, predictions, kickoff",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/bodies-of-15-indian-tourists-killed-in-vietnam-boat-accident-flown-home/article71217426.ece",
+          "headline": "Flight carrying bodies of 15 Indians killed in Vietnam boat tragedy lands at Mumbai airport",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.167,
-        "spread": 0.047,
+        "mean": -0.1,
+        "spread": 0.0,
         "left": 0,
-        "center": 3,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T09:52:37+00:00",
-      "last_seen": "2026-07-13T14:50:01+00:00",
+      "first_seen": "2026-07-13T17:19:17+00:00",
+      "last_seen": "2026-07-13T17:19:17+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.091
+      "topic": "tech",
+      "resonance": 0.0946
     },
     {
-      "id": "fb7076f870",
-      "title": "Israeli teen threatened with suspension over call to refuse military service",
+      "id": "701bd32685",
+      "title": "Apple and Samsung benefit as memory shortage pushes smartphone shipments to historic lows",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/07/apple-and-samsung-benefit-as-memory-shortage-pushes-smartphone-shipments-to-historic-lows/",
+          "headline": "Apple and Samsung benefit as memory shortage pushes smartphone shipments to historic lows",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T17:18:25+00:00",
+      "last_seen": "2026-07-13T17:18:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0932
+    },
+    {
+      "id": "7009e6aa89",
+      "title": "Tesla Says It’s Building a Wheelchair-Accessible Robotaxi",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/tesla-says-its-building-a-wheelchair-accessible-robotaxi/",
+          "headline": "Tesla Says It’s Building a Wheelchair-Accessible Robotaxi",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T17:15:35+00:00",
+      "last_seen": "2026-07-13T17:15:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0888
+    },
+    {
+      "id": "de9447b6cc",
+      "title": "Mamdani ripped over record-high NYC rents with critics pointing to policy they say is fueling crisis",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/mamdani-ripped-over-record-high-nyc-rents-critics-pointing-policy-say-fueling-crisis",
+          "headline": "Mamdani ripped over record-high NYC rents with critics pointing to policy they say is fueling crisis",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T17:14:58+00:00",
+      "last_seen": "2026-07-13T17:14:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0878
+    },
+    {
+      "id": "07c39c2fc5",
+      "title": "Over half of adults with learning difficulties do not live past 65, report says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cnv949z75jmo?at_medium=RSS&at_campaign=rss",
+          "headline": "Over half of adults with learning difficulties do not live past 65, report says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T17:14:08+00:00",
+      "last_seen": "2026-07-13T17:14:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0865
+    },
+    {
+      "id": "416490678a",
+      "title": "Yemen’s Saudi-backed army bombs Houthi-held Sanaa airport to block Iranian plane",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-government-says-it-attacked-sanaa-airport-block-iranian-aircraft",
+          "headline": "Yemen government says it attacked Sanaa airport to block Iranian aircraft",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/yemens-saudi-backed-army-bombs-houthi-held-sanaa-airport-to-block-iranian-plane/",
+          "headline": "Yemen’s Saudi-backed army bombs Houthi-held Sanaa airport to block Iranian plane",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.15,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T13:40:07+00:00",
+      "last_seen": "2026-07-13T16:02:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0861
+    },
+    {
+      "id": "60d2f2bf6e",
+      "title": "Iranian official says Tehran will keep fighting for Hormuz",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/israeli-teen-threatened-suspension-over-call-refuse-military-service",
-          "headline": "Israeli teen threatened with suspension over call to refuse military service",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-official-says-tehran-will-keep-fighting-hormuz",
+          "headline": "Iranian official says Tehran will keep fighting for Hormuz",
           "platform": "rss"
         }
       ],
@@ -542,24 +734,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-13T15:09:58+00:00",
-      "last_seen": "2026-07-13T15:09:58+00:00",
+      "first_seen": "2026-07-13T17:09:41+00:00",
+      "last_seen": "2026-07-13T17:09:41+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0902
+      "topic": "world",
+      "resonance": 0.0797
     },
     {
-      "id": "3fd3d81671",
-      "title": "Far-left streamer Hasan Piker calls Lindsey Graham 'bloodthirsty odious monster'",
+      "id": "466b3d276b",
+      "title": "Trump administration probes UNRWA over alleged employment of 1,500 terrorists",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/far-left-streamer-hasan-piker-calls-lindsey-graham-bloodthirsty-odious-monster",
-          "headline": "Far-left streamer Hasan Piker calls Lindsey Graham 'bloodthirsty odious monster'",
+          "url": "https://www.foxnews.com/world/trump-administration-probes-unrwa-over-alleged-employment-1500-terrorists",
+          "headline": "Trump administration probes UNRWA over alleged employment of 1,500 terrorists",
           "platform": "rss"
         }
       ],
@@ -570,356 +762,64 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-13T15:08:01+00:00",
-      "last_seen": "2026-07-13T15:08:01+00:00",
+      "first_seen": "2026-07-13T17:09:00+00:00",
+      "last_seen": "2026-07-13T17:09:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0871
+      "resonance": 0.0786
     },
     {
-      "id": "e87569a6ae",
-      "title": "What is the Coalition of the Willing that is meeting in Paris?",
+      "id": "6746e82864",
+      "title": "Winners of the International Aerial Photographer of the Year",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/what-is-the-coalition-of-the-willing-that-is-meeting-in-paris",
-          "headline": "What is the Coalition of the Willing that is meeting in Paris?",
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/photography/2026/07/winners-international-aerial-photographer-year/687899/?utm_source=feed",
+          "headline": "Winners of the International Aerial Photographer of the Year",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T15:06:57+00:00",
-      "last_seen": "2026-07-13T15:06:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0854
-    },
-    {
-      "id": "90cfb77611",
-      "title": "WWE Survivor Series: WarGames heads to Houston in November",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/wwe-survivor-series-wargames-heads-houston-november",
-          "headline": "WWE Survivor Series: WarGames heads to Houston in November",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T15:06:51+00:00",
-      "last_seen": "2026-07-13T15:06:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0853
-    },
-    {
-      "id": "8c3226e5c2",
-      "title": "Now, defenders are embracing the prompt injection, too",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
-          "headline": "Now, defenders are embracing the prompt injection, too",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T15:06:34+00:00",
-      "last_seen": "2026-07-13T15:06:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0848
-    },
-    {
-      "id": "de26f6f3a4",
-      "title": "Hamad bin Khalifa Al Thani, architect of modern Qatar, dies",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/obituaries/article/2026/07/13/hamad-bin-khalifa-al-thani-architect-of-modern-qatar-dies_6755433_15.html",
-          "headline": "Hamad bin Khalifa Al Thani, architect of modern Qatar, dies",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/the-late-sheikh-hamad-bin-khalifa-al-thanis-legacy-on-womens-reform?traffic_source=rss",
-          "headline": "The late Sheikh Hamad bin Khalifa Al Thani’s legacy on women’s reform",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T12:36:41+00:00",
-      "last_seen": "2026-07-13T12:43:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0838
-    },
-    {
-      "id": "39fff1fa42",
-      "title": "EU and UK slap sanctions on Russian spies and hackers over cyberattacks",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260713-eu-and-uk-slap-sanctions-on-russian-spies-and-hackers-over-cyberattacks",
-          "headline": "EU and UK slap sanctions on Russian spies and hackers over cyberattacks",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T15:05:48+00:00",
-      "last_seen": "2026-07-13T15:05:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0836
-    },
-    {
-      "id": "91cc95eda5",
-      "title": "'The facts are there': Macron salutes fulfilling pledge to boost defence spending",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/the-facts-are-there-macron-salutes-fulfilling-pledge-to-boost-defence-spending",
-          "headline": "'The facts are there': Macron salutes fulfilling pledge to boost defence spending",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T15:05:04+00:00",
-      "last_seen": "2026-07-13T15:05:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0825
-    },
-    {
-      "id": "499067a60c",
-      "title": "Fontainebleau fire has decimated 5% of the forest, authorities say",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/fontainebleau-fire-has-decimated-5-of-the-forest-authorities-say",
-          "headline": "Fontainebleau fire has decimated 5% of the forest, authorities say",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260713-fire-in-fontainebleau-iconic-forest-south-of-paris-engulfed-in-flames",
-          "headline": "Fire in Fontainebleau: Iconic forest south of Paris engulfed in flames",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:00:29+00:00",
-      "last_seen": "2026-07-13T15:00:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.082
-    },
-    {
-      "id": "9ce52eda1a",
-      "title": "Australia banned vape ads more than two years ago – so why are they still all over social media?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/14/australia-banned-vape-ads-more-than-two-years-ago-so-why-are-they-still-all-over-social-media",
-          "headline": "Australia banned vape ads more than two years ago – so why are they still all over social media?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
+        "mean": -0.25,
         "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-13T15:00:52+00:00",
-      "last_seen": "2026-07-13T15:00:52+00:00",
+      "first_seen": "2026-07-13T17:07:06+00:00",
+      "last_seen": "2026-07-13T17:07:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0759
+      "resonance": 0.0757
     },
     {
-      "id": "7fcf98a68c",
-      "title": "Layla Jeffery, 13, was ‘somewhat shy’ and ‘well-liked’. A Victorian town is struggling with her alleged murder",
+      "id": "409e0b245c",
+      "title": "UK police arrest 12 over far-right terror plot targeting major Muslim gathering",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/14/layla-jeffery-13-victorian-town-struggling-alleged-murder-ntwnfb",
-          "headline": "Layla Jeffery, 13, was ‘somewhat shy’ and ‘well-liked’. A Victorian town is struggling with her alleged murder",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/uk-police-arrest-12-over-far-right-terror-plot-targeting-major-muslim-gathering",
+          "headline": "UK police arrest 12 over far-right terror plot targeting major Muslim gathering",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
+        "mean": -0.25,
         "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-13T15:00:52+00:00",
-      "last_seen": "2026-07-13T15:00:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0759
-    },
-    {
-      "id": "fdae12414b",
-      "title": "Dolphin deaths in South Australia spike after algal bloom decimates food sources",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/environment/2026/jul/14/dolphin-deaths-south-australia-algal-bloom",
-          "headline": "Dolphin deaths in South Australia spike after algal bloom decimates food sources",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T15:00:51+00:00",
-      "last_seen": "2026-07-13T15:00:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0759
-    },
-    {
-      "id": "f136fc5cae",
-      "title": "Even Nvidia’s head of automotive fights with Nvidia for compute",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla",
-          "headline": "Even Nvidia’s head of automotive fights with Nvidia for compute",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T15:00:00+00:00",
-      "last_seen": "2026-07-13T15:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0746
-    },
-    {
-      "id": "d85583ced2",
-      "title": "WV town's police department thrown into chaos by evidence room fiasco, but officials say no one was fired",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/wv-town-police-department-thrown-chaos-evidence-room-fiasco-officials-say-no-one-fired",
-          "headline": "WV town's police department thrown into chaos by evidence room fiasco, but officials say no one was fired",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T14:57:38+00:00",
-      "last_seen": "2026-07-13T14:57:38+00:00",
+      "first_seen": "2026-07-13T17:03:54+00:00",
+      "last_seen": "2026-07-13T17:03:54+00:00",
       "platforms": [
         "rss"
       ],
@@ -928,76 +828,14 @@
       "resonance": 0.0709
     },
     {
-      "id": "26f8c2dd17",
-      "title": "US to restore Iran blockade, charge fees for Strait of Hormuz shipping",
+      "id": "6bcca9ae95",
+      "title": "Investors send General Fusion soaring in debut as first publicly traded fusion company",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/us/article/3360421/us-restore-iran-blockade-charge-fees-strait-hormuz-shipping?utm_source=rss_feed",
-          "headline": "US to restore Iran blockade, charge fees for Strait of Hormuz shipping",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:56:41+00:00",
-      "last_seen": "2026-07-13T14:56:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0695
-    },
-    {
-      "id": "a25f5adb2b",
-      "title": "EU eyes phased social media access for children, stops short of outright ban",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/pixels/article/2026/07/13/eu-eyes-phased-social-media-access-for-children-stops-short-of-outright-ban_6755436_13.html",
-          "headline": "EU eyes phased social media access for children, stops short of outright ban",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3360405/eu-eyes-social-media-curbs-children?utm_source=rss_feed",
-          "headline": "EU eyes social media curbs for children",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.15,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T11:34:16+00:00",
-      "last_seen": "2026-07-13T13:08:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0679
-    },
-    {
-      "id": "5907ec3b58",
-      "title": "The Asus ROG Flow Z13 gaming tablet with 64GB RAM is down to $2,100",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/964652/asus-rog-flow-z13-switch-2-camera-amd-ryzen-ddr4-deal-sale",
-          "headline": "The Asus ROG Flow Z13 gaming tablet with 64GB RAM is down to $2,100",
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/13/investors-send-general-fusion-soaring-in-debut-as-first-publicly-traded-fusion-company/",
+          "headline": "Investors send General Fusion soaring in debut as first publicly traded fusion company",
           "platform": "rss"
         }
       ],
@@ -1008,52 +846,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T14:52:14+00:00",
-      "last_seen": "2026-07-13T14:52:14+00:00",
+      "first_seen": "2026-07-13T17:03:11+00:00",
+      "last_seen": "2026-07-13T17:03:11+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0627
+      "topic": "economy",
+      "resonance": 0.0698
     },
     {
-      "id": "2c9a58a681",
-      "title": "The Last of the Three Amigos",
+      "id": "e4e9e31aa6",
+      "title": "The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/ideas/2026/07/lindsey-graham-ukraine-russia/687898/?utm_source=feed",
-          "headline": "The Last of the Three Amigos",
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+          "headline": "The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.25,
+        "mean": -0.1,
         "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T14:44:26+00:00",
-      "last_seen": "2026-07-13T14:44:26+00:00",
+      "first_seen": "2026-07-13T17:00:00+00:00",
+      "last_seen": "2026-07-13T17:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0509
+      "topic": "tech",
+      "resonance": 0.065
     },
     {
-      "id": "4441b9b650",
-      "title": "With bill hobbling AG, overhaul architect Rothman moves to take coalition off judicial leash",
+      "id": "4013a28fc4",
+      "title": "Tourists still daring to visit besieged Crimea: ‘People tell us we’re crazy’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/international/2026-07-13/tourists-still-daring-to-visit-besieged-crimea-people-tell-us-were-crazy.html",
+          "headline": "Tourists still daring to visit besieged Crimea: ‘People tell us we’re crazy’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:59:46+00:00",
+      "last_seen": "2026-07-13T16:59:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.0646
+    },
+    {
+      "id": "bd1b5ecb9e",
+      "title": "Israeli-founded data tech unicorn set to slash 25% of its Tel Aviv workforce",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/with-bill-hobbling-ag-overhaul-architect-rothman-moves-to-take-coalition-off-judicial-leash/",
-          "headline": "With bill hobbling AG, overhaul architect Rothman moves to take coalition off judicial leash",
+          "url": "https://www.timesofisrael.com/israeli-founded-data-tech-unicorn-set-to-slash-25-of-its-tel-aviv-workforce/",
+          "headline": "Israeli-founded data tech unicorn set to slash 25% of its Tel Aviv workforce",
           "platform": "rss"
         }
       ],
@@ -1064,8 +930,148 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T14:43:50+00:00",
-      "last_seen": "2026-07-13T14:43:50+00:00",
+      "first_seen": "2026-07-13T16:56:18+00:00",
+      "last_seen": "2026-07-13T16:56:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0595
+    },
+    {
+      "id": "53f35df6e4",
+      "title": "US vows campaign to end ICC ‘intolerable threat’ to American sovereignty",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360427/us-vows-campaign-end-icc-intolerable-threat-american-sovereignty?utm_source=rss_feed",
+          "headline": "US vows campaign to end ICC ‘intolerable threat’ to American sovereignty",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:55:38+00:00",
+      "last_seen": "2026-07-13T16:55:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0585
+    },
+    {
+      "id": "a1232a7b64",
+      "title": "How Lindsey Graham Persuaded Trump to Attack Iran",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/national-security/2026/07/lindsey-graham-iran-hawk-trump/687900/?utm_source=feed",
+          "headline": "How Lindsey Graham Persuaded Trump to Attack Iran",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:54:57+00:00",
+      "last_seen": "2026-07-13T16:54:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0575
+    },
+    {
+      "id": "ad71aa10ef",
+      "title": "Trump says the U.S. will reinstate its blockade on Iran and charge a toll on ships",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/13/nx-s1-5891746/us-iran-strait-of-hormuz-updates",
+          "headline": "Trump says the U.S. will reinstate its blockade on Iran and charge a toll on ships",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:53:40+00:00",
+      "last_seen": "2026-07-13T16:53:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0556
+    },
+    {
+      "id": "cbae53e9a1",
+      "title": "Bangkok pub fire kills 27, wounds dozens: What we know",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/13/bangkok-pub-fire-kills-27-wounds-dozens-what-we-know?traffic_source=rss",
+          "headline": "Bangkok pub fire kills 27, wounds dozens: What we know",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:50:49+00:00",
+      "last_seen": "2026-07-13T16:50:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0514
+    },
+    {
+      "id": "f5360437b0",
+      "title": "Zini recommends banned extreme-right party be allowed to register for elections",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Times of Israel",
+          "url": "https://www.timesofisrael.com/zini-recommends-banned-extreme-right-party-be-allowed-to-register-for-elections/",
+          "headline": "Zini recommends banned extreme-right party be allowed to register for elections",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:49:52+00:00",
+      "last_seen": "2026-07-13T16:49:52+00:00",
       "platforms": [
         "rss"
       ],
@@ -1076,21 +1082,69 @@
   ],
   "edges": [
     {
-      "source": "a341a807d6",
-      "target": "d85583ced2",
-      "weight": 0.113,
+      "source": "e8ab06bdf8",
+      "target": "e4e9e31aa6",
+      "weight": 0.315,
       "type": "thematic"
     },
     {
-      "source": "7ee1a63431",
-      "target": "87fc60bcb4",
-      "weight": 0.04,
+      "source": "b5c8a301f3",
+      "target": "a844034500",
+      "weight": 0.692,
       "type": "thematic"
     },
     {
-      "source": "9ce52eda1a",
-      "target": "a25f5adb2b",
-      "weight": 0.18,
+      "source": "b5c8a301f3",
+      "target": "1c0d34ece9",
+      "weight": 0.267,
+      "type": "thematic"
+    },
+    {
+      "source": "b5c8a301f3",
+      "target": "18a8650e7b",
+      "weight": 0.39,
+      "type": "thematic"
+    },
+    {
+      "source": "b5c8a301f3",
+      "target": "a1232a7b64",
+      "weight": 0.235,
+      "type": "thematic"
+    },
+    {
+      "source": "b5c8a301f3",
+      "target": "ad71aa10ef",
+      "weight": 0.604,
+      "type": "thematic"
+    },
+    {
+      "source": "a844034500",
+      "target": "1c0d34ece9",
+      "weight": 0.26,
+      "type": "thematic"
+    },
+    {
+      "source": "a844034500",
+      "target": "ad71aa10ef",
+      "weight": 0.741,
+      "type": "thematic"
+    },
+    {
+      "source": "1c0d34ece9",
+      "target": "ad71aa10ef",
+      "weight": 0.244,
+      "type": "thematic"
+    },
+    {
+      "source": "3a561d6a4e",
+      "target": "416490678a",
+      "weight": 0.086,
+      "type": "thematic"
+    },
+    {
+      "source": "a1232a7b64",
+      "target": "ad71aa10ef",
+      "weight": 0.212,
       "type": "thematic"
     }
   ],

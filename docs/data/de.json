@@ -1,15 +1,62 @@
 {
-  "generated_at": "2026-07-13T15:07:53.679594+00:00",
+  "generated_at": "2026-07-13T17:21:41.683355+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 6,
+  "edge_count": 3,
   "nodes": [
+    {
+      "id": "a10c68dd2f",
+      "title": "Berliner Abgeordnetenhaus: Stefan Evers ist neuer Spitzenkandidat der CDU in Berlin",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/deutschland/2026-07/stefan-evers-cdu-berlin-spitzenkandidat-abgeordnetenhauswahl",
+          "headline": "Berliner Abgeordnetenhaus: Stefan Evers ist neuer Spitzenkandidat der CDU in Berlin",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/13/evers-ist-neuer-spitzenkandidat-der-berliner-cdu",
+          "headline": "Abgeordnetenhauswahl: Evers ist neuer Spitzenkandidat der Berliner CDU",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/politik/deutschland/berlin-finanzsenator-stefan-evers-ist-neuer-spitzenkandidat-der-berliner-cdu-a-b8a0ef34-bba2-4747-8f5f-78668f4d8a48#ref=rss",
+          "headline": "Berlin: Finanzsenator Stefan Evers ist neuer Spitzenkandidat der Berliner CDU",
+          "platform": "rss"
+        },
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/CDU-Spitzenkandidat-Stefan-Evers/!6195652/",
+          "headline": "CDU-Spitzenkandidat Stefan Evers: Bürgergeldempfänger sollen Berlin putzen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.325,
+        "spread": 0.144,
+        "left": 3,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T15:30:00+00:00",
+      "last_seen": "2026-07-13T17:04:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.6887
+    },
     {
       "id": "dcc06d06c5",
       "title": "US-Präsident Donald Trump setzt Seeblockade gegen iranische Häfen wieder ein",
-      "signal_count": 5,
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "Der Spiegel",
@@ -24,18 +71,6 @@
           "platform": "rss"
         },
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-07/us-praesident-donald-trump-verkuendet-erneute-seeblockade-gegen-den-iran",
-          "headline": "Straße von Hormus: US-Präsident Donald Trump verkündet erneute Seeblockade gegen den Iran",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/13/us-militaer-erklaert-angriffe-auf-iran-vorerst-fuer-beendet",
-          "headline": "Iran-Krieg: Trump: Setzen Seeblockade gegen iranische Häfen wieder ein",
-          "platform": "rss"
-        },
-        {
           "outlet": "Handelsblatt",
           "url": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-setzen-seeblockade-gegen-iranische-haefen-wieder-ein/100136895.html",
           "headline": "+++ Iran-Krieg +++: Streit um Hormus eskaliert weiter: Trump kündigt Wiederaufnahme der Seeblockade gegen iranische Häfen an",
@@ -43,9 +78,9 @@
         }
       ],
       "bias": {
-        "mean": -0.16,
-        "spread": 0.166,
-        "left": 2,
+        "mean": -0.067,
+        "spread": 0.155,
+        "left": 0,
         "center": 3,
         "right": 0
       },
@@ -57,58 +92,23 @@
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.7491
+      "resonance": 0.4446
     },
     {
-      "id": "9368afaf5d",
-      "title": "Internet: Social-Media-Verbot? Was Experten von der Leyen raten",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/EU-Experten-fuer-Social-Media-Verbot/!6195665/",
-          "headline": "EU-Experten für Social-Media-Verbot: Kindersicherung im Internet rückt näher",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/13/social-media-verbot-koennte-ein-eu-bericht-den-weg-ebnen",
-          "headline": "Internet: Social-Media-Verbot? Was Experten von der Leyen raten",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.425,
-        "spread": 0.125,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:47:55+00:00",
-      "last_seen": "2026-07-13T14:52:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.3754
-    },
-    {
-      "id": "73e9200663",
-      "title": "Social Media für Kinder: Wilde Dreizehn",
+      "id": "5febf1c238",
+      "title": "Fehlende Klimaanlage: Polizei stoppt Wohnmobil ohne Windschutzscheibe",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/eu-experten-social-media-erst-ab-13-jahren-201025799.html",
-          "headline": "Social Media für Kinder: Wilde Dreizehn",
+          "url": "https://www.faz.net/aktuell/gesellschaft/rollender-schrotthaufen-polizei-lippstadt-stoppt-fensterloses-wohnmobil-201026412.html",
+          "headline": "Fehlende Klimaanlage: Polizei stoppt Wohnmobil ohne Windschutzscheibe",
           "platform": "rss"
         },
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/politik/deutschland/social-media-eu-expertinnen-empfehlen-altersgrenzen-fuer-kinder-accounts-a-5c4eaa7a-e553-43d1-b93d-2710fef57e3d#ref=rss",
-          "headline": "Social Media: EU-Expertinnen empfehlen Altersgrenzen für Kinder-Accounts",
+          "url": "https://www.spiegel.de/mobilitaet/auto/lippstadt-polizei-zieht-wohnmobil-ohne-windschutzscheibe-aus-dem-verkehr-a-d954ec78-b283-4e65-ba85-7a04d4886149#ref=rss",
+          "headline": "Lippstadt: Polizei zieht Wohnmobil ohne Windschutzscheibe aus dem Verkehr",
           "platform": "rss"
         }
       ],
@@ -119,194 +119,60 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-13T13:45:00+00:00",
-      "last_seen": "2026-07-13T15:00:26+00:00",
+      "first_seen": "2026-07-13T15:34:00+00:00",
+      "last_seen": "2026-07-13T16:23:51+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
+      "topic": "climate",
       "language": "de",
-      "resonance": 0.3622
+      "resonance": 0.4288
     },
     {
-      "id": "5e07043733",
-      "title": "Norwegen: Marius Borg Høiby kommt mit Fußfessel in den Hausarrest",
+      "id": "140496967e",
+      "title": "Verwaltungsgericht Berlin: Berliner Verkehrsbetriebe müssen »Nius«-Werbekampagne zeigen",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/gesellschaft/2026-07/marius-borg-hoiby-u-haft-norwegen-mette-marit-gewalt",
-          "headline": "Norwegen: Marius Borg Høiby kommt mit Fußfessel in den Hausarrest",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/panorama/norwegen-mette-marits-sohn-marius-borg-hoiby-darf-mit-fussfessel-in-hausarrest-a-50cfc9de-79c5-4c63-9288-ff1a8e98f9e5#ref=rss",
-          "headline": "Norwegen: Mette-Marits Sohn Marius Borg Høiby darf mit Fußfessel in Hausarrest",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.075,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T13:06:00+00:00",
-      "last_seen": "2026-07-13T13:50:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2498
-    },
-    {
-      "id": "5846bb8f64",
-      "title": "ZDF Fernsehgarten: Andrea Kiewel entschuldigt sich nach Rassismusvorwürfen",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/kultur/tv/zdf-fernsehgarten-andrea-kiewel-entschuldigt-sich-nach-rassismusvorwuerfen-a-af92711a-8c64-42fa-8842-638dd491c2c7#ref=rss",
-          "headline": "ZDF Fernsehgarten: Andrea Kiewel entschuldigt sich nach Rassismusvorwürfen",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/leute/Andrea-Kiewel-sagt-Sorry-id31080283.html",
-          "headline": "Rassismus im \"Fernsehgarten\"?: Andrea Kiewel sagt Sorry",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.075,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T13:35:24+00:00",
-      "last_seen": "2026-07-13T13:51:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.2467
-    },
-    {
-      "id": "ca8448ef12",
-      "title": "Trotz U-Haft – Marius Høiby darf Gefängnis mit Fußfessel verlassen",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/leute/Gericht-Høiby-darf-Gefaengnis-mit-Fussfessel-verlassen-id31080450.html",
-          "headline": "Anklage will Berufung einlegen: Gericht: Høiby darf Gefängnis mit Fußfessel verlassen",
+          "url": "https://www.zeit.de/gesellschaft/2026-07/bvg-werbung-nius-rechtes-portal-gericht",
+          "headline": "Verwaltungsgericht Berlin: Berliner Verkehrsbetriebe müssen »Nius«-Werbekampagne zeigen",
           "platform": "rss"
         },
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/article6a54d5c9fb0d469c670ff8ce/marius-hiby-trotz-u-haft-sohn-von-kronprinzessin-mette-marit-darf-gefaengnis-mit-fussfessel-verlassen.html",
-          "headline": "Trotz U-Haft – Marius Høiby darf Gefängnis mit Fußfessel verlassen",
+          "url": "https://www.welt.de/politik/deutschland/article6a54e272fb0d469c670ffa2b/gerichtsbeschluss-berliner-verkehrsbetriebe-verlieren-prozess-gegen-nius-und-muessen-werbekampagne-fortsetzen.html",
+          "headline": "Berliner Verkehrsbetriebe verlieren Prozess gegen „Nius“ und müssen Werbekampagne fortsetzen",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.15,
-        "spread": 0.15,
-        "left": 0,
-        "center": 1,
+        "mean": 0.0,
+        "spread": 0.3,
+        "left": 1,
+        "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-13T13:09:46+00:00",
-      "last_seen": "2026-07-13T13:17:52+00:00",
+      "first_seen": "2026-07-13T14:04:26+00:00",
+      "last_seen": "2026-07-13T15:31:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.1817
+      "resonance": 0.2179
     },
     {
-      "id": "8c13f29154",
-      "title": "Türkei: Großrazzia gegen Gülen-Netzwerk – Behörden ordnen fast 1000 Festnahmen an",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Tuerkei/!6195765/",
-          "headline": "Türkei: Behörden ordnen zehn Jahre nach Putsch 1.000 Festnahmen an",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/tuerkei-grossrazzia-gegen-guelen-netzwerk-behoerden-ordnen-fast-1000-festnahmen-an-a-1d63f352-db9b-44e8-85c2-d8c5f9216026#ref=rss",
-          "headline": "Türkei: Großrazzia gegen Gülen-Netzwerk – Behörden ordnen fast 1000 Festnahmen an",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.35,
-        "spread": 0.2,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T12:27:00+00:00",
-      "last_seen": "2026-07-13T13:07:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1659
-    },
-    {
-      "id": "15c4712d4a",
-      "title": "Spionageskandal in Italien: Russische Geheimdienste hatten lange Wunschliste für ihre italienischen Agenten",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Russische-Geheimdienste-hatten-lange-Wunschliste-fuer-ihre-italienischen-Agenten-id31080627.html",
-          "headline": "Spionageskandal in Italien: Russische Geheimdienste hatten lange Wunschliste für ihre italienischen Agenten",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T15:06:31+00:00",
-      "last_seen": "2026-07-13T15:06:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1176
-    },
-    {
-      "id": "cf28820c0d",
-      "title": "„Antisemitischer Tiefpunkt“ – Studentenparlament der Humboldt-Uni fordert Israel-Boykott",
+      "id": "83537b9e5c",
+      "title": "Ungarn stimmt für Verfassungsänderung zur Absetzung von Orbán-nahem Präsidenten",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/article6a54edc6580feb522ba9a99c/antrag-an-universitaetsleitung-antisemitischer-tiefpunkt-studentenparlament-der-humboldt-uni-fordert-israel-boykott.html",
-          "headline": "„Antisemitischer Tiefpunkt“ – Studentenparlament der Humboldt-Uni fordert Israel-Boykott",
+          "url": "https://www.welt.de/politik/ausland/article6a551ac886a2f0846eaaf7fa/ungarn-parlament-stimmt-fuer-verfassungsaenderung-zur-absetzung-von-orban-nahem-praesidenten.html",
+          "headline": "Ungarn stimmt für Verfassungsänderung zur Absetzung von Orbán-nahem Präsidenten",
           "platform": "rss"
         }
       ],
@@ -317,15 +183,392 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-13T14:57:26+00:00",
-      "last_seen": "2026-07-13T14:57:26+00:00",
+      "first_seen": "2026-07-13T17:18:15+00:00",
+      "last_seen": "2026-07-13T17:18:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.1967
+    },
+    {
+      "id": "d709a0704a",
+      "title": "Oktoberfest: Wirtekrug mit viel Nostalgie – Sorge um Tradition",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/13/wirtekrug-mit-viel-nostalgie-sorge-um-tradition",
+          "headline": "Oktoberfest: Wirtekrug mit viel Nostalgie – Sorge um Tradition",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T17:11:40+00:00",
+      "last_seen": "2026-07-13T17:11:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0995
+      "resonance": 0.1795
+    },
+    {
+      "id": "10c696dcea",
+      "title": "Wetter: Wetterdienst warnt vor Unwettern in Teilen Norddeutschlands",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/13/wetterdienst-warnt-vor-unwettern-in-teilen-norddeutschlands",
+          "headline": "Wetter: Wetterdienst warnt vor Unwettern in Teilen Norddeutschlands",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T17:08:49+00:00",
+      "last_seen": "2026-07-13T17:08:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1721
+    },
+    {
+      "id": "5f6e3414be",
+      "title": "„Schönfärberei von Aggression“ – EU stoppt Finanzierung der Biennale wegen russischer Teilnahme",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6a5508fe5ab4a8e09ebcdb79/kunstausstellung-schoenfaerberei-von-aggression-eu-stoppt-finanzierung-der-biennale-wegen-russischer-teilnahme.html",
+          "headline": "„Schönfärberei von Aggression“ – EU stoppt Finanzierung der Biennale wegen russischer Teilnahme",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T17:08:49+00:00",
+      "last_seen": "2026-07-13T17:08:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1721
+    },
+    {
+      "id": "4345e39660",
+      "title": "Feindliche Aktivitäten: Cyberangriffe: Berlin bestellt russischen Botschafter ein",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/13/eu-sieht-russlands-fsb-hinter-schweren-cyberangriffen",
+          "headline": "Feindliche Aktivitäten: Cyberangriffe: Berlin bestellt russischen Botschafter ein",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T17:04:30+00:00",
+      "last_seen": "2026-07-13T17:04:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.1611
+    },
+    {
+      "id": "b99430f887",
+      "title": "Statt wertloser Versprechen: Die Bahn sollte ihr Infrastrukturproblem lieber still abarbeiten",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/deutsche-bahn-marode-bruecke-nach-sanierung-wie-ist-das-moeglich-201024709.html",
+          "headline": "Statt wertloser Versprechen: Die Bahn sollte ihr Infrastrukturproblem lieber still abarbeiten",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:55:26+00:00",
+      "last_seen": "2026-07-13T16:55:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1382
+    },
+    {
+      "id": "cdcb72194c",
+      "title": "Regierung in der Ukraine: Selenskyjs beste Frau soll Trump auf ihre Seite ziehen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-07/regierung-ukraine-umbildung-wolodymyr-selenskyj-botschaft-usa-julija-swyrydenk",
+          "headline": "Regierung in der Ukraine: Selenskyjs beste Frau soll Trump auf ihre Seite ziehen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:49:57+00:00",
+      "last_seen": "2026-07-13T16:49:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.1246
+    },
+    {
+      "id": "fac2d1652f",
+      "title": "KI für Mitarbeiter: Jetzt macht doch endlich mit!",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/zeit-fuer-unternehmer/2026/02/ki-mitarbeiter-unternehmen-job-schulungen",
+          "headline": "KI für Mitarbeiter: Jetzt macht doch endlich mit!",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:48:53+00:00",
+      "last_seen": "2026-07-13T16:48:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.122
+    },
+    {
+      "id": "5eb24039d8",
+      "title": "Reisners Blick auf die Front: \"Die Russen stehen unter Zeitdruck\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Die-Russen-stehen-unter-Zeitdruck-id31081238.html",
+          "headline": "Reisners Blick auf die Front: \"Die Russen stehen unter Zeitdruck\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:47:47+00:00",
+      "last_seen": "2026-07-13T16:47:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1193
+    },
+    {
+      "id": "7e4c91a8c0",
+      "title": "Notfälle: Dackel beißt Kleinkind in Hamburg ins Gesicht",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/13/dackel-beisst-kleinkind-in-hamburg-ins-gesicht",
+          "headline": "Notfälle: Dackel beißt Kleinkind in Hamburg ins Gesicht",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:47:44+00:00",
+      "last_seen": "2026-07-13T16:47:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.1192
+    },
+    {
+      "id": "9d2a58a417",
+      "title": "Märkte Insight: Markiert der US-Börsengang von SK Hynix das Ende der Chip-Rally?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/aktien-markiert-der-us-boersengang-von-sk-hynix-das-ende-der-chip-rally/100239437.html",
+          "headline": "Märkte Insight: Markiert der US-Börsengang von SK Hynix das Ende der Chip-Rally?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:47:01+00:00",
+      "last_seen": "2026-07-13T16:47:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.1174
+    },
+    {
+      "id": "1dad5a0d3f",
+      "title": "Fußball WM - David Beckham erklärt Reaktion von Victoria Beckham während Viertelfinale",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/leute/fussball-wm-david-beckham-erklaert-reaktion-von-victoria-beckham-waehrend-viertelfinale-a-e1534fa8-ff39-47e7-bb4c-c37c04e9e475#ref=rss",
+          "headline": "Fußball WM - David Beckham erklärt Reaktion von Victoria Beckham während Viertelfinale",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:44:00+00:00",
+      "last_seen": "2026-07-13T16:44:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.1101
+    },
+    {
+      "id": "e3ea6c22b0",
+      "title": "Hollywood-Deal: US-Bundesstaaten wollen Warner-Übernahme stoppen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/13/us-bundesstaaten-wollen-warner-uebernahme-stoppen",
+          "headline": "Hollywood-Deal: US-Bundesstaaten wollen Warner-Übernahme stoppen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:38:06+00:00",
+      "last_seen": "2026-07-13T16:38:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0959
+    },
+    {
+      "id": "1718f0c602",
+      "title": "Machtkampf mit Magyar: Ungarns Parlament beschließt Absetzung von Präsident Sulyok",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/ausland/machtkampf-mit-magyar-ungarns-parlament-beschliesst-absetzung-von-praesident-sulyok-201026421.html",
+          "headline": "Machtkampf mit Magyar: Ungarns Parlament beschließt Absetzung von Präsident Sulyok",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:37:56+00:00",
+      "last_seen": "2026-07-13T16:37:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.0955
     },
     {
       "id": "ad2a17d426",
@@ -346,83 +589,60 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T14:56:00+00:00",
-      "last_seen": "2026-07-13T14:56:00+00:00",
+      "first_seen": "2026-07-13T16:36:00+00:00",
+      "last_seen": "2026-07-13T16:36:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0967
+      "resonance": 0.0909
     },
     {
-      "id": "d270489e4c",
-      "title": "Zwei Vorfälle binnen einer Woche: Erneut Person bei ICE-Einsatz in den USA getötet",
-      "signal_count": 1,
+      "id": "d6d6eb04ce",
+      "title": "2. Fußball-Bundesliga: Pyrotechnik im Stadion: 125.500 Euro Strafe für Arminia",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Erneut-Person-bei-ICE-Einsatz-in-den-USA-getoetet-id31080934.html",
-          "headline": "Zwei Vorfälle binnen einer Woche: Erneut Person bei ICE-Einsatz in den USA getötet",
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/13/pyrotechnik-im-stadion-125-500-euro-strafe-fuer-arminia",
+          "headline": "2. Fußball-Bundesliga: Pyrotechnik im Stadion: 125.500 Euro Strafe für Arminia",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/13/pyrotechnik-abgebrannt-hsv-soll-119-000-euro-strafe-zahlen",
+          "headline": "Fußball-Bundesliga: Pyrotechnik abgebrannt: HSV soll 119.000 Euro Strafe zahlen",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": -0.3,
         "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "left": 2,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-13T14:53:08+00:00",
-      "last_seen": "2026-07-13T14:53:08+00:00",
+      "first_seen": "2026-07-13T16:32:43+00:00",
+      "last_seen": "2026-07-13T16:33:45+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "sport",
       "language": "de",
-      "resonance": 0.0911
+      "resonance": 0.0857
     },
     {
-      "id": "9fec89a0ea",
-      "title": "Als Nachfolger von Ali Chamenei: Klimakonferenzen und \"Safe House\": Wie der Mossad Ahmadinedschad installieren wollte",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Klimakonferenzen-und-Safe-House-Wie-der-Mossad-Ahmadinedschad-installieren-wollte-id31080354.html",
-          "headline": "Als Nachfolger von Ali Chamenei: Klimakonferenzen und \"Safe House\": Wie der Mossad Ahmadinedschad installieren wollte",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:52:52+00:00",
-      "last_seen": "2026-07-13T14:52:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "de",
-      "resonance": 0.0906
-    },
-    {
-      "id": "05de510e3c",
-      "title": "Liveblog Irankrieg: Straße von Hormus: Trump will Abgabe in Höhe von 20 Prozent auf Fracht",
+      "id": "09c657fbf7",
+      "title": "Liveblog Ukrainekrieg: Europa stärkt Ukraine – neues Bündnis für Raketenabwehr",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/ausland/liveblog-irankrieg-strasse-von-hormus-trump-will-abgabe-in-hoehe-von-20-prozent-auf-fracht-faz-200583539.html",
-          "headline": "Liveblog Irankrieg: Straße von Hormus: Trump will Abgabe in Höhe von 20 Prozent auf Fracht",
+          "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-europa-staerkt-ukraine-neues-buendnis-fuer-raketenabwehr-faz-110683325.html",
+          "headline": "Liveblog Ukrainekrieg: Europa stärkt Ukraine – neues Bündnis für Raketenabwehr",
           "platform": "rss"
         }
       ],
@@ -433,170 +653,54 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T14:52:47+00:00",
-      "last_seen": "2026-07-13T14:52:47+00:00",
+      "first_seen": "2026-07-13T16:33:33+00:00",
+      "last_seen": "2026-07-13T16:33:33+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
       "language": "de",
-      "resonance": 0.0904
+      "resonance": 0.085
     },
     {
-      "id": "fbc51785ce",
-      "title": "Pistorius in Bremerhaven: Wann die Entscheidung für einen Marinehafen getroffen wird",
+      "id": "70b23b3aa7",
+      "title": "Deutschland, die Ukraine und acht weitere Länder vereinbaren Koalition gegen ballistische Raketen",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/13/wann-die-entscheidung-fuer-einen-marinehafen-getroffen-wird",
-          "headline": "Pistorius in Bremerhaven: Wann die Entscheidung für einen Marinehafen getroffen wird",
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6a55017d5ab4a8e09ebcdae9/deutschland-ukraine-und-acht-weitere-laender-vereinbaren-koalition-gegen-ballistische-raketen.html",
+          "headline": "Deutschland, die Ukraine und acht weitere Länder vereinbaren Koalition gegen ballistische Raketen",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:51:22+00:00",
-      "last_seen": "2026-07-13T14:51:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0876
-    },
-    {
-      "id": "c6f3119a2b",
-      "title": "Leute: „Komm nach Amerika!“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/panorama/ikkimel-morgenmagazin-moma-fussballmaenner-usa-viral-li.3514892",
-          "headline": "Leute: „Komm nach Amerika!“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
+        "mean": 0.3,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:50:49+00:00",
-      "last_seen": "2026-07-13T14:50:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0866
-    },
-    {
-      "id": "00cf12db1e",
-      "title": "Sexuelle Nötigung: Behördenmitarbeiter soll Geflüchtete sexuell genötigt haben",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/13/behoerdenmitarbeiter-soll-gefluechtete-sexuell-genoetigt-haben",
-          "headline": "Sexuelle Nötigung: Behördenmitarbeiter soll Geflüchtete sexuell genötigt haben",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
         "center": 0,
-        "right": 0
+        "right": 1
       },
-      "first_seen": "2026-07-13T14:50:30+00:00",
-      "last_seen": "2026-07-13T14:50:30+00:00",
+      "first_seen": "2026-07-13T16:32:12+00:00",
+      "last_seen": "2026-07-13T16:32:12+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "conflict",
       "language": "de",
-      "resonance": 0.086
+      "resonance": 0.0818
     },
     {
-      "id": "cc544968ab",
-      "title": "Fußball-Bundesliga: FC Augsburg startet mit Zugang Behrens in die Vorbereitung",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/13/fc-augsburg-startet-mit-zugang-behrens-in-die-vorbereitung",
-          "headline": "Fußball-Bundesliga: FC Augsburg startet mit Zugang Behrens in die Vorbereitung",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:47:10+00:00",
-      "last_seen": "2026-07-13T14:47:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.0795
-    },
-    {
-      "id": "d5bce47d4c",
-      "title": "Kriminalität: Polizei schnappt Duo nach Einbruchsserie an Schulen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/13/polizei-schnappt-duo-nach-einbruchsserie-an-schulen",
-          "headline": "Kriminalität: Polizei schnappt Duo nach Einbruchsserie an Schulen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:46:54+00:00",
-      "last_seen": "2026-07-13T14:46:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.079
-    },
-    {
-      "id": "74b0d59990",
-      "title": "AfD-Bundestagsabgeordneter stellt Strafantrag gegen Fraktionskollegen – und umgekehrt",
+      "id": "fa3d89bc99",
+      "title": "»German Stare«: Was hat es mit dem Social-Media-Trend auf sich?",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/politik/deutschland/afd-bundestagsabgeordneter-stellt-strafantrag-gegen-fraktionskollegen-und-umgekehrt-a-46ea3c1e-abbc-4662-af57-fdda8329d40b#ref=rss",
-          "headline": "AfD-Bundestagsabgeordneter stellt Strafantrag gegen Fraktionskollegen – und umgekehrt",
+          "url": "https://www.spiegel.de/kultur/german-stare-was-hat-es-mit-dem-social-media-trend-auf-sich-a-851c2cd1-08d8-40d8-9209-ad0c551fbd01#ref=rss",
+          "headline": "»German Stare«: Was hat es mit dem Social-Media-Trend auf sich?",
           "platform": "rss"
         }
       ],
@@ -607,25 +711,83 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T14:46:00+00:00",
-      "last_seen": "2026-07-13T14:46:00+00:00",
+      "first_seen": "2026-07-13T16:30:00+00:00",
+      "last_seen": "2026-07-13T16:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0767
+    },
+    {
+      "id": "d9910efeb0",
+      "title": "Ukraine-Krieg: Bessere Luftverteidigung, mehr Sanktionen: Wie die Europäer der Ukraine helfen wollen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/international/ukraine-krieg-wie-die-europaeer-der-ukraine-helfen-wollen/100239849.html",
+          "headline": "Ukraine-Krieg: Bessere Luftverteidigung, mehr Sanktionen: Wie die Europäer der Ukraine helfen wollen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:26:30+00:00",
+      "last_seen": "2026-07-13T16:26:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.0685
+    },
+    {
+      "id": "53444f5fa3",
+      "title": "Sanaa: Jemenitische Regierung greift offenbar Hauptstadtflughafen an",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-07/jemen-luftangriff-flughafen-sanaa-huthi-saudi-arabien",
+          "headline": "Sanaa: Jemenitische Regierung greift offenbar Hauptstadtflughafen an",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T16:25:50+00:00",
+      "last_seen": "2026-07-13T16:25:50+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.0773
+      "resonance": 0.0669
     },
     {
-      "id": "1d785ddd96",
-      "title": "Tagelanger Brand: Flutung im Kampf gegen Schwelbrand in Meuselwitz geplant",
+      "id": "09b71bf646",
+      "title": "Theaterstück zu Buckelwal: Timmy starb für unsere Sünden",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/13/flutung-im-kampf-gegen-schwelbrand-in-meuselwitz-geplant",
-          "headline": "Tagelanger Brand: Flutung im Kampf gegen Schwelbrand in Meuselwitz geplant",
+          "url": "https://www.zeit.de/hamburg/2026-07/theaterstueck-buckelwal-timmy-hamburg-ernst-deutsch-theater",
+          "headline": "Theaterstück zu Buckelwal: Timmy starb für unsere Sünden",
           "platform": "rss"
         }
       ],
@@ -636,54 +798,25 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-13T14:44:12+00:00",
-      "last_seen": "2026-07-13T14:44:12+00:00",
+      "first_seen": "2026-07-13T16:24:43+00:00",
+      "last_seen": "2026-07-13T16:24:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0738
+      "resonance": 0.0643
     },
     {
-      "id": "d17e15d56c",
-      "title": "Tiere: Turmfalken ziehen Nachwuchs im Speyerer Dom groß",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/13/turmfalken-ziehen-nachwuchs-im-speyerer-dom-gross",
-          "headline": "Tiere: Turmfalken ziehen Nachwuchs im Speyerer Dom groß",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:43:43+00:00",
-      "last_seen": "2026-07-13T14:43:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0729
-    },
-    {
-      "id": "2c434a4962",
-      "title": "Fußball-WM: Was läuft im deutschen Fußball bloß schief? Das sagen ausländische Reporter",
+      "id": "7bd5e586f9",
+      "title": "Abitur: Gibt es eine Noteninflation und wenn ja, wie schlimm ist das?",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/fussball-wm-was-laeuft-im-deutschen-fussball-bloss-schief-das-sagen-auslaendische-reporter-a-865127bd-40f9-40c7-9afe-5824d0a645ef#ref=rss",
-          "headline": "Fußball-WM: Was läuft im deutschen Fußball bloß schief? Das sagen ausländische Reporter",
+          "url": "https://www.spiegel.de/panorama/bildung/abitur-gibt-es-eine-noteninflation-und-wenn-ja-wie-schlimm-ist-das-a-160ec868-766c-4edd-aca2-afdd46395097#ref=rss",
+          "headline": "Abitur: Gibt es eine Noteninflation und wenn ja, wie schlimm ist das?",
           "platform": "rss"
         }
       ],
@@ -694,83 +827,54 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T14:42:00+00:00",
-      "last_seen": "2026-07-13T14:42:00+00:00",
+      "first_seen": "2026-07-13T16:23:00+00:00",
+      "last_seen": "2026-07-13T16:23:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
+      "topic": "economy",
       "language": "de",
-      "resonance": 0.0696
+      "resonance": 0.0603
     },
     {
-      "id": "dfa3572ad6",
-      "title": "Russland-Sanktionen: Berlins Kampf für die Fischstäbchen",
+      "id": "23e8ccf2ba",
+      "title": "Safe Sport: Athletenvertreter Johannes Herber über Herausforderungen der Verfahren",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/ukraine/eu-russland-sanktionen-deutschland-fuer-fischstaebchen-201025289.html",
-          "headline": "Russland-Sanktionen: Berlins Kampf für die Fischstäbchen",
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/olympia/safe-sport-athletenvertreter-johannes-herber-ueber-herausforderungen-der-verfahren-a-ce5ab438-7238-4443-b595-db9fe14d4dd5#ref=rss",
+          "headline": "Safe Sport: Athletenvertreter Johannes Herber über Herausforderungen der Verfahren",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.2,
+        "mean": -0.15,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T14:40:51+00:00",
-      "last_seen": "2026-07-13T14:40:51+00:00",
+      "first_seen": "2026-07-13T16:20:00+00:00",
+      "last_seen": "2026-07-13T16:20:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0674
+      "resonance": 0.0534
     },
     {
-      "id": "b9b7c38db2",
-      "title": "Sanktionen gegen Moskau: Deutschland will der Ukraine helfen, aber dann sind da die Fischstäbchen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/sanktionen-gegen-moskau-berlin-verteidigt-fischstaebchen-201024478.html",
-          "headline": "Sanktionen gegen Moskau: Deutschland will der Ukraine helfen, aber dann sind da die Fischstäbchen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:39:59+00:00",
-      "last_seen": "2026-07-13T14:39:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0658
-    },
-    {
-      "id": "000db33221",
-      "title": "Und dann wird „Timmy“ ans Kreuz genagelt – Kirchenvertreter kritisiert Theaterstück um Walrettung",
+      "id": "c2645b8867",
+      "title": "Mette-Marits Sohn Marius bekommt Fußfessel",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/article6a54e978f0157ebe0a8ec282/hamburg-und-dann-wird-timmy-ans-kreuz-genagelt-kirchenvertreter-kritisiert-theaterstueck-um-walrettung.html",
-          "headline": "Und dann wird „Timmy“ ans Kreuz genagelt – Kirchenvertreter kritisiert Theaterstück um Walrettung",
+          "url": "https://www.welt.de/videos/video6a54fc09433da53d5f2364c1/norwegen-mette-marits-sohn-marius-bekommt-fussfessel.html",
+          "headline": "Mette-Marits Sohn Marius bekommt Fußfessel",
           "platform": "rss"
         }
       ],
@@ -781,112 +885,25 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-13T14:39:37+00:00",
-      "last_seen": "2026-07-13T14:39:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.0651
-    },
-    {
-      "id": "c242570c3a",
-      "title": "Duma-Wahl: Russischer Politiker Boris Nadeschdin festgenommen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-07/boris-nadeschdin-russland-festnahme-putin",
-          "headline": "Duma-Wahl: Russischer Politiker Boris Nadeschdin festgenommen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:37:28+00:00",
-      "last_seen": "2026-07-13T14:37:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.061
-    },
-    {
-      "id": "fbf5bba6c5",
-      "title": "Seeblockade iranischer Häfen: Trump will Straße von Hormus übernehmen und Geld dafür haben",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Trump-will-Strasse-von-Hormus-uebernehmen-und-Geld-dafuer-haben-id31081132.html",
-          "headline": "Seeblockade iranischer Häfen: Trump will Straße von Hormus übernehmen und Geld dafür haben",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:35:29+00:00",
-      "last_seen": "2026-07-13T14:35:29+00:00",
+      "first_seen": "2026-07-13T16:18:35+00:00",
+      "last_seen": "2026-07-13T16:18:35+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0573
+      "resonance": 0.0502
     },
     {
-      "id": "1368509783",
-      "title": "Der Fall Lorenz A.: Der Polizist griff zuerst an",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Der-Fall-Lorenz-A/!6195700/",
-          "headline": "Der Fall Lorenz A.: Der Polizist griff zuerst an",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:34:00+00:00",
-      "last_seen": "2026-07-13T14:34:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0545
-    },
-    {
-      "id": "cff5b67403",
-      "title": "„Die Frage ist, ob er versteht, worauf er sich einlässt“ – Kiew baut wieder die Regierung um",
+      "id": "cbe3d015e9",
+      "title": "„Ich kann Sie nur ermutigen: Tun Sie es“, sagt Merz über den Dienst bei der Bundeswehr",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/politik/ausland/article6a54a576f3b79f72b6bf5014/ukraine-oh-tow-cl-die-frage-ist-ob-er-versteht-worauf-er-sich-einlaesst-kiew-baut-wieder-die-regierung-um.html",
-          "headline": "„Die Frage ist, ob er versteht, worauf er sich einlässt“ – Kiew baut wieder die Regierung um",
+          "url": "https://www.welt.de/politik/deutschland/plus6a4e125743b7fd5185001c6c/kanzler-in-koeln-ich-kann-sie-nur-ermutigen-tun-sie-es-sagt-merz-ueber-den-dienst-bei-der-bundeswehr.html",
+          "headline": "„Ich kann Sie nur ermutigen: Tun Sie es“, sagt Merz über den Dienst bei der Bundeswehr",
           "platform": "rss"
         }
       ],
@@ -897,81 +914,34 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-13T14:33:31+00:00",
-      "last_seen": "2026-07-13T14:33:31+00:00",
+      "first_seen": "2026-07-13T16:18:30+00:00",
+      "last_seen": "2026-07-13T16:18:30+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0536
-    },
-    {
-      "id": "6b8e760082",
-      "title": "Zwölfjähriger lässt sich von Mitschüler bis zur Bewusstlosigkeit würgen – Polizei schlägt Alarm",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/article6a54e4abfb0d469c670ffa4e/social-media-trend-zwoelfjaehriger-laesst-sich-von-mitschueler-bis-zur-bewusstlosigkeit-wuergen-polizei-schlaegt-alarm.html",
-          "headline": "Zwölfjähriger lässt sich von Mitschüler bis zur Bewusstlosigkeit würgen – Polizei schlägt Alarm",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T14:31:34+00:00",
-      "last_seen": "2026-07-13T14:31:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
+      "topic": "world",
       "language": "de",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
+      "source": "a10c68dd2f",
+      "target": "140496967e",
+      "weight": 0.214,
+      "type": "thematic"
+    },
+    {
       "source": "dcc06d06c5",
-      "target": "fbf5bba6c5",
-      "weight": 0.441,
+      "target": "1718f0c602",
+      "weight": 0.098,
       "type": "thematic"
     },
     {
-      "source": "9368afaf5d",
-      "target": "73e9200663",
-      "weight": 0.512,
-      "type": "thematic"
-    },
-    {
-      "source": "5e07043733",
-      "target": "ca8448ef12",
-      "weight": 0.902,
-      "type": "thematic"
-    },
-    {
-      "source": "05de510e3c",
-      "target": "fbf5bba6c5",
-      "weight": 0.683,
-      "type": "thematic"
-    },
-    {
-      "source": "cc544968ab",
-      "target": "2c434a4962",
-      "weight": 0.371,
-      "type": "thematic"
-    },
-    {
-      "source": "dfa3572ad6",
-      "target": "b9b7c38db2",
-      "weight": 0.78,
+      "source": "83537b9e5c",
+      "target": "1718f0c602",
+      "weight": 0.097,
       "type": "thematic"
     }
   ],

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-13T19:43:58.227041+00:00",
+  "generated_at": "2026-07-13T21:10:19.612809+00:00",
   "country_code": "gb",
   "country_name": "United Kingdom",
   "language": "en",
   "node_count": 30,
-  "edge_count": 24,
+  "edge_count": 15,
   "nodes": [
     {
       "id": "20fb20f35d",
@@ -45,7 +45,60 @@
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.692
+      "resonance": 0.6486
+    },
+    {
+      "id": "302c231526",
+      "title": "Murder inquiry after three family members found dead in house",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/czx5vq0zvn1o?at_medium=RSS&at_campaign=rss",
+          "headline": "Murder inquiry after three family members found dead in house",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Evening Standard",
+          "url": "https://www.standard.co.uk/news/uk/police-press-association-b1289865.html",
+          "headline": "Murder investigation launched after three found dead in Ballymena family home",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Evening Standard",
+          "url": "https://www.standard.co.uk/news/uk/press-association-b1289826.html",
+          "headline": "Three found dead in family home in Ballymena",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Sky News UK",
+          "url": "https://news.sky.com/story/police-launch-investigation-after-three-people-found-dead-in-family-home-13563080",
+          "headline": "Police launch murder investigation after three people found dead in family home",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Telegraph",
+          "url": "https://www.telegraph.co.uk/news/2026/06/26/man-arrested-girl-3-found-dead-home-chertsey-surrey/",
+          "headline": "Girl, 3, found dead at Surrey home",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.12,
+        "spread": 0.16,
+        "left": 0,
+        "center": 4,
+        "right": 1
+      },
+      "first_seen": "2026-06-26T00:41:20+00:00",
+      "last_seen": "2026-07-13T19:47:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "en",
+      "resonance": 0.6294
     },
     {
       "id": "ce301e0cba",
@@ -98,60 +151,42 @@
       "geo_regions": [],
       "topic": "society",
       "language": "en",
-      "resonance": 0.6584
+      "resonance": 0.6235
     },
     {
-      "id": "302c231526",
-      "title": "Murder inquiry after three family members found dead in house",
-      "signal_count": 5,
+      "id": "427015125f",
+      "title": "Murder investigation after man in his 20s stabbed to death near Hackney school",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Evening Standard",
-          "url": "https://www.standard.co.uk/news/uk/police-press-association-b1289865.html",
-          "headline": "Murder investigation launched after three found dead in Ballymena family home",
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/hackney-stabbing-murder-investigation-police-37426666",
+          "headline": "Murder investigation after man in his 20s stabbed to death near Hackney school",
           "platform": "rss"
         },
         {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/czx5vq0zvn1o?at_medium=RSS&at_campaign=rss",
-          "headline": "Murder inquiry after three family members found dead in house",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Evening Standard",
-          "url": "https://www.standard.co.uk/news/uk/press-association-b1289826.html",
-          "headline": "Three found dead in family home in Ballymena",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Sky News UK",
-          "url": "https://news.sky.com/story/police-launch-investigation-after-three-people-found-dead-in-family-home-13563080",
-          "headline": "Police launch investigation after three people found dead in family home",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Telegraph",
-          "url": "https://www.telegraph.co.uk/news/2026/06/26/man-arrested-girl-3-found-dead-home-chertsey-surrey/",
-          "headline": "Girl, 3, found dead at Surrey home",
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39747323/man-stabbed-death-near-school-murder-probe/",
+          "headline": "Man in his 20s ‘stabbed to death’ near school in broad daylight as cops launch ‘murder’ probe",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.12,
-        "spread": 0.16,
-        "left": 0,
-        "center": 4,
+        "mean": 0.15,
+        "spread": 0.45,
+        "left": 1,
+        "center": 0,
         "right": 1
       },
-      "first_seen": "2026-06-26T00:41:20+00:00",
-      "last_seen": "2026-07-13T19:26:07+00:00",
+      "first_seen": "2026-07-13T19:34:57+00:00",
+      "last_seen": "2026-07-13T19:54:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
+      "topic": "tech",
       "language": "en",
-      "resonance": 0.6189
+      "resonance": 0.5379
     },
     {
       "id": "95731adc81",
@@ -179,14 +214,258 @@
         "right": 1
       },
       "first_seen": "2026-07-13T18:10:35+00:00",
-      "last_seen": "2026-07-13T19:38:12+00:00",
+      "last_seen": "2026-07-13T20:57:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "society",
       "language": "en",
-      "resonance": 0.4794
+      "resonance": 0.4932
+    },
+    {
+      "id": "4a2f8d5d80",
+      "title": "Mahmood says law will be changed to help deport grooming gang leader",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/ce8m9615dqlo?at_medium=RSS&at_campaign=rss",
+          "headline": "Mahmood says law will be changed to help deport grooming gang leader",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/politics/shabana-mahmood-immigration-asylum-grooming-37426202",
+          "headline": "Shabana Mahmood vows law change to remove vile grooming gang leader Shabir Ahmed from UK",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/news/article-15973693/Rochdale-grooming-gang-leader-Shabir-Ahmed-deported-country.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "Rochdale grooming gang leader Shabir Ahmed could be deported to a third country",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.432,
+        "left": 1,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T14:55:13+00:00",
+      "last_seen": "2026-07-13T20:11:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "en",
+      "resonance": 0.4904
+    },
+    {
+      "id": "f2005d9a57",
+      "title": "Tony Blair warns Andy Burnham ‘you are not going to be loved’ after leadership takeover",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Independent",
+          "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-tony-blair-labour-prime-minister-b3014162.html",
+          "headline": "Tony Blair warns Andy Burnham ‘you are not going to be loved’ after leadership takeover",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T21:03:27+00:00",
+      "last_seen": "2026-07-13T21:03:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.28
+    },
+    {
+      "id": "2eb836fb27",
+      "title": "Brit man who found dream Spanish home on Channel 4’s A Place in the Sun fears wife is among 13 killed in wildfires",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39746969/brit-man-fears-wife-killed-wildfires/",
+          "headline": "Brit man who found dream Spanish home on Channel 4’s A Place in the Sun fears wife is among 13 killed in wildfires",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T21:02:41+00:00",
+      "last_seen": "2026-07-13T21:02:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "en",
+      "resonance": 0.28
+    },
+    {
+      "id": "1590919a33",
+      "title": "World Cup LIVE: Harry Kane weighs in on England row as Gianni Infantino departs",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/sport/football/news/world-cup-live-england-argentina-37422610",
+          "headline": "World Cup LIVE: Harry Kane weighs in on England row as Gianni Infantino departs",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T21:01:17+00:00",
+      "last_seen": "2026-07-13T21:01:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "en",
+      "resonance": 0.28
+    },
+    {
+      "id": "0b31c6f531",
+      "title": "Ann Widdecombe suspect ‘scoffed pizza at home just five hours after murder’ as terror cops dismiss ‘burglary gone wrong’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39747131/ann-widdecombe-murder-suspect-scoffs-pizza/",
+          "headline": "Ann Widdecombe suspect ‘scoffed pizza at home just five hours after murder’ as terror cops dismiss ‘burglary gone wrong’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T21:00:25+00:00",
+      "last_seen": "2026-07-13T21:00:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.28
+    },
+    {
+      "id": "cbb95138d7",
+      "title": "Evolution review – with this TV miracle, David Attenborough’s successor is well and truly crowned",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/tv-and-radio/2026/jul/13/evolution-review-chris-packham-bbc",
+          "headline": "Evolution review – with this TV miracle, David Attenborough’s successor is well and truly crowned",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.4,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T21:00:10+00:00",
+      "last_seen": "2026-07-13T21:00:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.28
+    },
+    {
+      "id": "cabb0a26c2",
+      "title": "'British scientists showing again how skill can save lives outside UK with new ebola vaccine'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/ebola-virus-oxford-university-congo-37425766",
+          "headline": "'British scientists showing again how skill can save lives outside UK with new ebola vaccine'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T21:00:10+00:00",
+      "last_seen": "2026-07-13T21:00:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.28
+    },
+    {
+      "id": "ff9835b9b8",
+      "title": "Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:57:08+00:00",
+      "last_seen": "2026-07-13T20:57:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.28
     },
     {
       "id": "64a3a77b23",
@@ -221,7 +500,123 @@
       "geo_regions": [],
       "topic": "climate",
       "language": "en",
-      "resonance": 0.3384
+      "resonance": 0.2549
+    },
+    {
+      "id": "57f31605c1",
+      "title": "Trump says Iran will be hit hard Monday and Tuesday amid fresh clashes over strait of Hormuz – Middle East crisis live",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/jul/13/us-iran-strikes-middle-east-strait-of-hormuz-military-latest-news-updates",
+          "headline": "Trump says Iran will be hit hard Monday and Tuesday amid fresh clashes over strait of Hormuz – Middle East crisis live",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.4,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:43:35+00:00",
+      "last_seen": "2026-07-13T20:43:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.2413
+    },
+    {
+      "id": "91a6d78799",
+      "title": "Former Spanish MP arrested after ‘touching himself in front of 50 tourists including kids at hotel pool’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39746928/ex-spanish-mp-arrested-after-hotel-pool-incident/",
+          "headline": "Former Spanish MP arrested after ‘touching himself in front of 50 tourists including kids at hotel pool’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T20:41:15+00:00",
+      "last_seen": "2026-07-13T20:41:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.234
+    },
+    {
+      "id": "950a2f9a5f",
+      "title": "Shocking moment mum, 35, driving Mercedes runs red light before smashing into police car sending it up in flames",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39747507/mum-crashes-mercedes-police-car-flames/",
+          "headline": "Shocking moment mum, 35, driving Mercedes runs red light before smashing into police car sending it up in flames",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T20:35:40+00:00",
+      "last_seen": "2026-07-13T20:35:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "en",
+      "resonance": 0.2168
+    },
+    {
+      "id": "19bcfcd82e",
+      "title": "Escaped prisoner Daniel Khalife assisted by two friends, jury told",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC UK",
+          "url": "https://www.bbc.co.uk/news/articles/ce8j55mnv8yo?at_medium=RSS&at_campaign=rss",
+          "headline": "Escaped prisoner Daniel Khalife assisted by two friends, jury told",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:29:39+00:00",
+      "last_seen": "2026-07-13T20:29:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1985
     },
     {
       "id": "314f91da56",
@@ -262,7 +657,181 @@
       "geo_regions": [],
       "topic": "tech",
       "language": "en",
-      "resonance": 0.2703
+      "resonance": 0.18
+    },
+    {
+      "id": "195a722e9d",
+      "title": "Dad of boys ‘drowned trying to rescue them’ – as hero describes beach horror",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39746950/mum-pleaded-save-my-son-cant-swim-hero-reveals/",
+          "headline": "Dad of boys ‘drowned trying to rescue them’ – as hero describes beach horror",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T20:23:11+00:00",
+      "last_seen": "2026-07-13T20:23:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1791
+    },
+    {
+      "id": "89c859ffcf",
+      "title": "Mother is killed by train as she pushes her daughter, two, to safety after walking onto railway crossing",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/news/article-15973655/Mother-killed-train-pushes-daughter-two-safety-walking-railway-crossing.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "Mother is killed by train as she pushes her daughter, two, to safety after walking onto railway crossing",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.7,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T20:17:04+00:00",
+      "last_seen": "2026-07-13T20:17:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.161
+    },
+    {
+      "id": "c337fbb5f1",
+      "title": "Harry copies parenting tip learnt from Diana with Archie and Lilibet",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Evening Standard",
+          "url": "https://www.standard.co.uk/news/uk/archie-diana-princess-prince-of-wales-wales-b1289862.html",
+          "headline": "Harry copies parenting tip learnt from Diana with Archie and Lilibet",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:11:36+00:00",
+      "last_seen": "2026-07-13T20:11:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1451
+    },
+    {
+      "id": "2a39940ec9",
+      "title": "Two who died on Seaton Carew beach were dad who drowned trying to save his kids and passer-by",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/seaton-carew-beach-deaths-drowning-37425631",
+          "headline": "Two who died on Seaton Carew beach were dad who drowned trying to save his kids and passer-by",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:05:26+00:00",
+      "last_seen": "2026-07-13T20:05:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1274
+    },
+    {
+      "id": "8a0a7aabff",
+      "title": "Lawyers to investigate claims of GB power grid cover-up over blackout risk",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/jul/13/lawyers-to-investigate-claims-of-gb-power-grid-cover-up-over-blackout-risk",
+          "headline": "Lawyers to investigate claims of GB power grid cover-up over blackout risk",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.4,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:00:49+00:00",
+      "last_seen": "2026-07-13T20:00:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "en",
+      "resonance": 0.1142
+    },
+    {
+      "id": "1f8b636ae7",
+      "title": "Ann Widdecombe was a force to be reckoned with… unlike bungling local cops & farcical handling of case",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39746303/ann-widdecombe-murder-clemmie-moodie/",
+          "headline": "Ann Widdecombe was a force to be reckoned with… unlike bungling local cops & farcical handling of case",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T20:00:00+00:00",
+      "last_seen": "2026-07-13T20:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1119
     },
     {
       "id": "d8c8c3dbb0",
@@ -303,7 +872,65 @@
       "geo_regions": [],
       "topic": "politics",
       "language": "en",
-      "resonance": 0.1879
+      "resonance": 0.1089
+    },
+    {
+      "id": "e01b531928",
+      "title": "Father 'drowned trying to save his two children after they were swept away at beach', reveals hero who saved the boy and girl after mother screamed for help",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/news/article-15973395/father-saved-boy-drowning-mother-son-swim.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "Father 'drowned trying to save his two children after they were swept away at beach', reveals hero who saved the boy and girl after mother screamed for help",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.7,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T19:48:44+00:00",
+      "last_seen": "2026-07-13T19:48:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.0806
+    },
+    {
+      "id": "c8789a369b",
+      "title": "Diane Abbott hits out at Shabana Mahmood's asylum plans in tense debate",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/politics/diane-abbott-shabana-mahmood-asylum-37425870",
+          "headline": "Diane Abbott hits out at Shabana Mahmood's asylum plans in tense debate",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T19:46:30+00:00",
+      "last_seen": "2026-07-13T19:46:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.0744
     },
     {
       "id": "7b8bfd1adb",
@@ -332,65 +959,7 @@
       "geo_regions": [],
       "topic": "economy",
       "language": "en",
-      "resonance": 0.1793
-    },
-    {
-      "id": "fff6335287",
-      "title": "Burnham vows to restore Labour’s ‘broad church’ in pledge to change party culture to MPs",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-starmer-labour-leadership-hustings-b3014135.html",
-          "headline": "Burnham vows to restore Labour’s ‘broad church’ in pledge to change party culture to MPs",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T19:37:09+00:00",
-      "last_seen": "2026-07-13T19:37:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "en",
-      "resonance": 0.1755
-    },
-    {
-      "id": "e01b531928",
-      "title": "Father 'drowned trying to save his two children after they were swept away at beach', reveals hero who saved the boy and girl after mother screamed for help",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15973395/father-saved-boy-drowning-mother-son-swim.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Father 'drowned trying to save his two children after they were swept away at beach', reveals hero who saved the boy and girl after mother screamed for help",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.7,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T19:35:33+00:00",
-      "last_seen": "2026-07-13T19:35:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1714
+      "resonance": 0.0531
     },
     {
       "id": "82dd701f9f",
@@ -425,733 +994,98 @@
       "geo_regions": [],
       "topic": "society",
       "language": "en",
-      "resonance": 0.1713
-    },
-    {
-      "id": "1627d65751",
-      "title": "Man in his 20s ‘stabbed to death’ near school in broad daylight as cops launch ‘murder’ probe",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39747323/man-stabbed-death-near-school-murder-probe/",
-          "headline": "Man in his 20s ‘stabbed to death’ near school in broad daylight as cops launch ‘murder’ probe",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T19:34:57+00:00",
-      "last_seen": "2026-07-13T19:34:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1698
-    },
-    {
-      "id": "fc4e52cbbb",
-      "title": "Ex-Labour candidate and university employee is being investigated after saying she hoped Ann Widdecombe suffered an 'extremely painful death'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15972049/Ex-Labour-candidate-university-employee-investigated-saying-hoped-Ann-Widdecombe-suffered-extremely-painful-death.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Ex-Labour candidate and university employee is being investigated after saying she hoped Ann Widdecombe suffered an 'extremely painful death'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.7,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T19:34:32+00:00",
-      "last_seen": "2026-07-13T19:34:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.1688
-    },
-    {
-      "id": "c7d8f66950",
-      "title": "Shabana Mahmood vows law change to remove vile grooming gang leader Shabir Ahmed from UK",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/politics/shabana-mahmood-immigration-asylum-grooming-37426202",
-          "headline": "Shabana Mahmood vows law change to remove vile grooming gang leader Shabir Ahmed from UK",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15973693/Rochdale-grooming-gang-leader-Shabir-Ahmed-deported-country.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Rochdale grooming gang leader Shabir Ahmed could be deported to a third country",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.5,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T14:55:13+00:00",
-      "last_seen": "2026-07-13T18:55:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "en",
-      "resonance": 0.1685
-    },
-    {
-      "id": "1590919a33",
-      "title": "World Cup LIVE: Harry Kane weighs in on England row as Gianni Infantino departs",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/sport/football/news/world-cup-live-england-argentina-37422610",
-          "headline": "World Cup LIVE: Harry Kane weighs in on England row as Gianni Infantino departs",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T19:34:14+00:00",
-      "last_seen": "2026-07-13T19:34:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "en",
-      "resonance": 0.168
-    },
-    {
-      "id": "0d6874f29b",
-      "title": "The new evidence that proves England were RIGHT on World Cup's new 'Hand of God' goal - despite bitter Norway moans about the ball hitting spidercam",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/sport/football/article-15972937/england-jude-bellingham-norway-world-cup.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "The new evidence that proves England were RIGHT on World Cup's new 'Hand of God' goal - despite bitter Norway moans about the ball hitting spidercam",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.7,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T19:33:37+00:00",
-      "last_seen": "2026-07-13T19:33:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "en",
-      "resonance": 0.1664
-    },
-    {
-      "id": "f1daaeb0f9",
-      "title": "Mahmood sets out plan to deport grooming gang leader",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/ce8m9615dqlo?at_medium=RSS&at_campaign=rss",
-          "headline": "Mahmood sets out plan to deport grooming gang leader",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T19:23:38+00:00",
-      "last_seen": "2026-07-13T19:23:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.141
-    },
-    {
-      "id": "30fc8a0e84",
-      "title": "Prince Harry is feeling 'really energised' after visiting King Charles with Meghan and his children for first time in four years",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15973373/Prince-Harry-feeling-really-energised-visiting-King-Charles-Meghan-children-time-four-years.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Prince Harry is feeling 'really energised' after visiting King Charles with Meghan and his children for first time in four years",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.7,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T19:22:31+00:00",
-      "last_seen": "2026-07-13T19:22:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1382
-    },
-    {
-      "id": "0aa1c5e1e3",
-      "title": "Ann Widdecombe’s murder investigation becomes terror probe as suspect rearrested",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/crime/ann-widdecombe-death-latest-news-police-suspect-b3014021.html",
-          "headline": "Ann Widdecombe’s murder investigation becomes terror probe as suspect rearrested",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T19:14:03+00:00",
-      "last_seen": "2026-07-13T19:14:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1172
-    },
-    {
-      "id": "02e0b003be",
-      "title": "'Courage of Hillsborough families is humbling - making sure nobody suffers as they did'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/politics/keir-starmer-hillsborough-law-liverpool-37425597",
-          "headline": "'Courage of Hillsborough families is humbling - making sure nobody suffers as they did'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T19:09:48+00:00",
-      "last_seen": "2026-07-13T19:09:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1068
-    },
-    {
-      "id": "1e636789bf",
-      "title": "Keir Starmer hails Hillsborough families' fight as MPs poised to back law change",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/politics/starmer-hillsborough-law-liverpool-fans-37425665",
-          "headline": "Keir Starmer hails Hillsborough families' fight as MPs poised to back law change",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T19:08:33+00:00",
-      "last_seen": "2026-07-13T19:08:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "en",
-      "resonance": 0.1038
-    },
-    {
-      "id": "fbb78df874",
-      "title": "Iran rejects US claim over strait of Hormuz as foreign minister mocks Trump’s vow to charge tolls - Middle East crisis live",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/jul/13/us-iran-strikes-middle-east-strait-of-hormuz-military-latest-news-updates",
-          "headline": "Iran rejects US claim over strait of Hormuz as foreign minister mocks Trump’s vow to charge tolls - Middle East crisis live",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T19:04:39+00:00",
-      "last_seen": "2026-07-13T19:04:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "en",
-      "resonance": 0.0944
-    },
-    {
-      "id": "c337fbb5f1",
-      "title": "Harry copies parenting tip learnt from Diana with Archie and Lilibet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Evening Standard",
-          "url": "https://www.standard.co.uk/news/uk/archie-diana-princess-prince-of-wales-wales-b1289862.html",
-          "headline": "Harry copies parenting tip learnt from Diana with Archie and Lilibet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T19:00:01+00:00",
-      "last_seen": "2026-07-13T19:00:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0833
-    },
-    {
-      "id": "c9391b302f",
-      "title": "Counter-terror police take over Ann Widdecombe murder investigation - The Latest",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/crime/ann-widdecombe-death-latest-updates-murder-suspect-investigation-cause-b3013366.html",
-          "headline": "Ann Widdecombe murder latest: Counter-terror police lead investigation on ex-Tory minister’s death after arrest",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/news/video/2026/jul/13/counter-terror-police-take-over-ann-widdecombe-investigation-the-latest",
-          "headline": "Counter-terror police take over Ann Widdecombe murder investigation - The Latest",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.1,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T16:11:41+00:00",
-      "last_seen": "2026-07-13T16:26:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "en",
-      "resonance": 0.0802
-    },
-    {
-      "id": "8293acdb62",
-      "title": "US judge voids Donald Trump's $1.8bn settlement with IRS that gave him immunity from tax audits",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cn8q0e8d4ego?at_medium=RSS&at_campaign=rss",
-          "headline": "US judge voids Donald Trump's $1.8bn settlement with IRS that gave him immunity from tax audits",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:52:46+00:00",
-      "last_seen": "2026-07-13T18:52:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "en",
-      "resonance": 0.0662
-    },
-    {
-      "id": "9455082aca",
-      "title": "Twelve arrested over threat to Islamic event",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/cvgl20x1ggpo?at_medium=RSS&at_campaign=rss",
-          "headline": "Twelve arrested over threat to Islamic event",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Evening Standard",
-          "url": "https://www.standard.co.uk/news/uk/suffolk-police-helen-flanagan-shabana-mahmood-suffolk-surrey-b1289821.html",
-          "headline": "Twelve arrested after ‘credible’ right-wing terror threat against Islamic event",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Sky News UK",
-          "url": "https://news.sky.com/story/dozen-arrested-by-counter-terror-police-over-threat-to-islamic-event-13563054",
-          "headline": "Dozen arrested by counter terror police over 'threat to Islamic event'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.033,
-        "spread": 0.094,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T13:06:00+00:00",
-      "last_seen": "2026-07-13T16:18:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.0626
-    },
-    {
-      "id": "4c0ad2ffd1",
-      "title": "Jeremy Vine breaks down in tears on TV over Ann Widdecombe death as murder probe continues",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15973153/Moment-emotional-Jeremy-Vine-breaks-tears-murder-Ann-Widdecombe-regular-guest-Channel-5-show.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Moment emotional Jeremy Vine breaks down in tears over 'murder' of Ann Widdecombe who was regular guest on his Channel 5 show",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/tv/tv-news/jeremy-vine-ann-widdecombe-tears-37425206",
-          "headline": "Jeremy Vine breaks down in tears on TV over Ann Widdecombe death as murder probe continues",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.5,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T16:15:50+00:00",
-      "last_seen": "2026-07-13T16:18:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0623
-    },
-    {
-      "id": "4cbd35d971",
-      "title": "Tice finally gauges the mood on the death of Ann Widdecombe | John Crace",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/politics/2026/jul/13/richard-tice-ann-widdecombe-death-reform-uk",
-          "headline": "Tice finally gauges the mood on the death of Ann Widdecombe | John Crace",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:50:22+00:00",
-      "last_seen": "2026-07-13T18:50:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0606
-    },
-    {
-      "id": "eeefc94dc5",
-      "title": "Christopher Bucktin: 'England vs Argentina is war, history and politics with a little bit of football as well'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/world-news/argentina-fifa-world-cup-england-37424929",
-          "headline": "Christopher Bucktin: 'England vs Argentina is war, history and politics with a little bit of football as well'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:48:39+00:00",
-      "last_seen": "2026-07-13T18:48:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "en",
-      "resonance": 0.0567
-    },
-    {
-      "id": "75492149d0",
-      "title": "‘Coalition of the willing’ to build shared European anti-ballistic programme",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/13/coalition-of-the-willing-build-shared-european-anti-ballistic-programme",
-          "headline": "‘Coalition of the willing’ to build shared European anti-ballistic programme",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:45:46+00:00",
-      "last_seen": "2026-07-13T18:45:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
       "source": "20fb20f35d",
-      "target": "7b8bfd1adb",
-      "weight": 0.284,
+      "target": "f2005d9a57",
+      "weight": 0.246,
       "type": "thematic"
     },
     {
       "source": "20fb20f35d",
-      "target": "fff6335287",
-      "weight": 0.473,
+      "target": "7b8bfd1adb",
+      "weight": 0.353,
       "type": "thematic"
     },
     {
       "source": "ce301e0cba",
       "target": "95731adc81",
-      "weight": 0.781,
+      "weight": 0.854,
+      "type": "thematic"
+    },
+    {
+      "source": "ce301e0cba",
+      "target": "0b31c6f531",
+      "weight": 0.113,
       "type": "thematic"
     },
     {
       "source": "ce301e0cba",
       "target": "82dd701f9f",
-      "weight": 0.519,
+      "weight": 0.595,
       "type": "thematic"
     },
     {
-      "source": "ce301e0cba",
-      "target": "0aa1c5e1e3",
-      "weight": 0.712,
+      "source": "427015125f",
+      "target": "95731adc81",
+      "weight": 0.014,
+      "type": "thematic"
+    },
+    {
+      "source": "427015125f",
+      "target": "82dd701f9f",
+      "weight": 0.039,
       "type": "thematic"
     },
     {
       "source": "95731adc81",
       "target": "82dd701f9f",
-      "weight": 0.252,
-      "type": "thematic"
-    },
-    {
-      "source": "95731adc81",
-      "target": "1627d65751",
-      "weight": 0.037,
-      "type": "thematic"
-    },
-    {
-      "source": "95731adc81",
-      "target": "0aa1c5e1e3",
-      "weight": 0.36,
-      "type": "thematic"
-    },
-    {
-      "source": "95731adc81",
-      "target": "c9391b302f",
-      "weight": 0.706,
-      "type": "thematic"
-    },
-    {
-      "source": "95731adc81",
-      "target": "4c0ad2ffd1",
       "weight": 0.388,
       "type": "thematic"
     },
     {
-      "source": "95731adc81",
-      "target": "4cbd35d971",
-      "weight": 0.043,
+      "source": "0b31c6f531",
+      "target": "1f8b636ae7",
+      "weight": 0.079,
       "type": "thematic"
     },
     {
-      "source": "314f91da56",
-      "target": "9455082aca",
-      "weight": 0.904,
+      "source": "0b31c6f531",
+      "target": "82dd701f9f",
+      "weight": 0.334,
       "type": "thematic"
     },
     {
-      "source": "fff6335287",
-      "target": "c7d8f66950",
-      "weight": 0.01,
+      "source": "ff9835b9b8",
+      "target": "57f31605c1",
+      "weight": 0.19,
       "type": "thematic"
     },
     {
-      "source": "82dd701f9f",
-      "target": "0aa1c5e1e3",
-      "weight": 0.543,
+      "source": "64a3a77b23",
+      "target": "89c859ffcf",
+      "weight": 0.048,
       "type": "thematic"
     },
     {
-      "source": "82dd701f9f",
-      "target": "c9391b302f",
-      "weight": 0.467,
+      "source": "195a722e9d",
+      "target": "2a39940ec9",
+      "weight": 0.687,
       "type": "thematic"
     },
     {
-      "source": "82dd701f9f",
-      "target": "9455082aca",
-      "weight": 0.032,
+      "source": "195a722e9d",
+      "target": "e01b531928",
+      "weight": 0.416,
       "type": "thematic"
     },
     {
-      "source": "1627d65751",
-      "target": "4c0ad2ffd1",
-      "weight": 0.03,
-      "type": "thematic"
-    },
-    {
-      "source": "c7d8f66950",
-      "target": "f1daaeb0f9",
-      "weight": 0.917,
-      "type": "thematic"
-    },
-    {
-      "source": "c7d8f66950",
-      "target": "1e636789bf",
-      "weight": 0.027,
-      "type": "thematic"
-    },
-    {
-      "source": "1590919a33",
-      "target": "0d6874f29b",
-      "weight": 0.179,
-      "type": "thematic"
-    },
-    {
-      "source": "0aa1c5e1e3",
-      "target": "4c0ad2ffd1",
-      "weight": 0.347,
-      "type": "thematic"
-    },
-    {
-      "source": "02e0b003be",
-      "target": "1e636789bf",
-      "weight": 0.218,
-      "type": "thematic"
-    },
-    {
-      "source": "c9391b302f",
-      "target": "4c0ad2ffd1",
-      "weight": 0.062,
-      "type": "thematic"
-    },
-    {
-      "source": "4c0ad2ffd1",
-      "target": "4cbd35d971",
-      "weight": 0.035,
+      "source": "2a39940ec9",
+      "target": "e01b531928",
+      "weight": 0.577,
       "type": "thematic"
     }
   ],

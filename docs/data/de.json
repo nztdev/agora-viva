@@ -1,16 +1,22 @@
 {
-  "generated_at": "2026-07-13T19:44:02.160582+00:00",
+  "generated_at": "2026-07-13T21:10:20.945425+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 7,
+  "edge_count": 8,
   "nodes": [
     {
-      "id": "1d9ac69e97",
-      "title": "USA: Zwölf Bundesstaaten klagen gegen die Warner-Übernahme durch Paramount",
-      "signal_count": 3,
+      "id": "da2d9b5416",
+      "title": "Warner und Paramount: US-Bundesstaaten wollen Übernahme stoppen",
+      "signal_count": 4,
       "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/kultur/kino/warner-und-paramount-us-bundesstaaten-wollen-uebernahme-stoppen-a-ae433872-cc75-40e8-aee3-3be07f060ea3#ref=rss",
+          "headline": "Warner und Paramount: US-Bundesstaaten wollen Übernahme stoppen",
+          "platform": "rss"
+        },
         {
           "outlet": "n-tv",
           "url": "https://www.n-tv.de/wirtschaft/Zwoelf-US-Bundesstaaten-wollen-abgesegneten-Warner-Deal-noch-verhindern-id31081796.html",
@@ -31,56 +37,21 @@
         }
       ],
       "bias": {
-        "mean": -0.05,
-        "spread": 0.187,
+        "mean": -0.075,
+        "spread": 0.168,
         "left": 1,
-        "center": 2,
+        "center": 3,
         "right": 0
       },
       "first_seen": "2026-07-13T17:39:39+00:00",
-      "last_seen": "2026-07-13T19:05:37+00:00",
+      "last_seen": "2026-07-13T19:56:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.6809
-    },
-    {
-      "id": "5a54e5cdd5",
-      "title": "Berlin: IT-Ausfall legt Gerichte und Justizverwaltung lahm",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/panorama/justiz/berlin-it-ausfall-legt-gerichte-und-justizverwaltung-lahm-a-41e32927-792f-4c97-bf00-b2859b32aeab#ref=rss",
-          "headline": "Berlin: IT-Ausfall legt Gerichte und Justizverwaltung lahm",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/panorama/Massiver-IT-Ausfall-legt-Berliner-Justiz-lahm-id31081811.html",
-          "headline": "Mitarbeiter nach Hause geschickt: Massiver IT-Ausfall legt Berliner Justiz lahm",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.075,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T19:05:55+00:00",
-      "last_seen": "2026-07-13T19:27:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.5755
+      "resonance": 0.6757
     },
     {
       "id": "efd22ee319",
@@ -115,7 +86,7 @@
       "geo_regions": [],
       "topic": "tech",
       "language": "de",
-      "resonance": 0.5693
+      "resonance": 0.3917
     },
     {
       "id": "1f9233dab5",
@@ -150,7 +121,71 @@
       "geo_regions": [],
       "topic": "conflict",
       "language": "de",
-      "resonance": 0.5132
+      "resonance": 0.3499
+    },
+    {
+      "id": "8277b6b0d0",
+      "title": "Bundesstaat Maine: Abermals Toter bei ICE-Einsatz in den USA",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/usa-unter-trump/einwanderungsbehoerde-ice-einsatz-endet-abermals-toedlich-201026764.html",
+          "headline": "Bundesstaat Maine: Abermals Toter bei ICE-Einsatz in den USA",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/usa-zweiter-toedlicher-ice-einsatz-in-wenigen-tagen-in-maine-a-5e552291-6444-4652-8919-feaed693dad8#ref=rss",
+          "headline": "USA: Zweiter tödlicher ICE-Einsatz in wenigen Tagen in Maine",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.025,
+        "spread": 0.175,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T17:57:00+00:00",
+      "last_seen": "2026-07-13T19:48:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.3354
+    },
+    {
+      "id": "0507719cbb",
+      "title": "US-Justiz: Richterin kritisiert Klage von Donald Trump gegen Steuerbehörde",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-07/donald-trump-irs-vergleich-steuern-kathleen-williams",
+          "headline": "US-Justiz: Richterin kritisiert Klage von Donald Trump gegen Steuerbehörde",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:50:26+00:00",
+      "last_seen": "2026-07-13T20:50:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.2609
     },
     {
       "id": "50ec56f774",
@@ -185,7 +220,36 @@
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.3807
+      "resonance": 0.2468
+    },
+    {
+      "id": "0af169eed0",
+      "title": "Andalusien: Waldbrand überlebt – Brite verliert Frau und Freunde",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/leute/andalusien-waldbrand-ueberlebt-brite-verliert-frau-und-freunde-a-54c36de0-0bf1-425a-88af-173391aab264#ref=rss",
+          "headline": "Andalusien: Waldbrand überlebt – Brite verliert Frau und Freunde",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:44:00+00:00",
+      "last_seen": "2026-07-13T20:44:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "de",
+      "resonance": 0.2464
     },
     {
       "id": "fc688b9910",
@@ -226,7 +290,506 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.3648
+      "resonance": 0.243
+    },
+    {
+      "id": "8616fe9847",
+      "title": "Irankrieg: Trump kündigt »harte« Angriffe auf Iran in den kommenden zwei Tagen an",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-05/iran-krieg-donald-trump-hormus-live",
+          "headline": "Irankrieg: Trump kündigt »harte« Angriffe auf Iran in den kommenden zwei Tagen an",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:40:54+00:00",
+      "last_seen": "2026-07-13T20:40:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.2395
+    },
+    {
+      "id": "4690743e15",
+      "title": "Verhalten von Juristen geprüft: Richterin erklärt Trumps Schutz vor Steuerprüfungen für nichtig",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Richterin-erklaert-Trumps-Schutz-vor-Steuerpruefungen-fuer-nichtig-id31081921.html",
+          "headline": "Verhalten von Juristen geprüft: Richterin erklärt Trumps Schutz vor Steuerprüfungen für nichtig",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:39:37+00:00",
+      "last_seen": "2026-07-13T20:39:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.2366
+    },
+    {
+      "id": "a2d69ff0e3",
+      "title": "Auch SpaceX und Sandisk im Minus: Spannungen rund um Straße von Hormus belasten Wall Street",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/wirtschaft/Spannungen-rund-um-Strasse-von-Hormus-belasten-Wall-Street-id31082019.html",
+          "headline": "Auch SpaceX und Sandisk im Minus: Spannungen rund um Straße von Hormus belasten Wall Street",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:37:39+00:00",
+      "last_seen": "2026-07-13T20:37:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2323
+    },
+    {
+      "id": "c8a7f7b0e8",
+      "title": "Zentralbank: Fed-Direktor Waller bringt baldige Zinserhöhung ins Spiel",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/finanzen/geldpolitik/zentralbank-fed-direktor-waller-bringt-baldige-zinserhoehung-ins-spiel/100239936.html",
+          "headline": "Zentralbank: Fed-Direktor Waller bringt baldige Zinserhöhung ins Spiel",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:32:37+00:00",
+      "last_seen": "2026-07-13T20:32:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.2212
+    },
+    {
+      "id": "653478f12b",
+      "title": "Brisantes Lipowitz-Duell: \"Ergebnisse zählen, nicht persönliche Befindlichkeiten\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/Radsport/Ergebnisse-zaehlen-nicht-persoenliche-Befindlichkeiten-id31082010.html",
+          "headline": "Brisantes Lipowitz-Duell: \"Ergebnisse zählen, nicht persönliche Befindlichkeiten\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:29:01+00:00",
+      "last_seen": "2026-07-13T20:29:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2134
+    },
+    {
+      "id": "c873dcb4f4",
+      "title": "gericht entscheidet: BVG muss Nius-Werbung wieder aufschalten",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/gericht-bvg-muss-nius-werbung-wieder-bringen-201026738.html",
+          "headline": "gericht entscheidet: BVG muss Nius-Werbung wieder aufschalten",
+          "platform": "rss"
+        },
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Urteil-zu-Hetzportal-Nius/!6195851/",
+          "headline": "Urteil zu Hetzportal Nius: BVG muss rechspopulistische Werbung dulden",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.175,
+        "spread": 0.375,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T15:47:00+00:00",
+      "last_seen": "2026-07-13T19:41:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.2024
+    },
+    {
+      "id": "0cb0a05bdb",
+      "title": "Mit dieser Vereinbarung sendet die „Koalition der Willigen“ ein klares Signal an Russland",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6a55413590f706e52aa2b7f8/treffen-in-paris-mit-dieser-vereinbarung-sendet-die-koalition-der-willigen-ein-klares-signal-an-russland.html",
+          "headline": "Mit dieser Vereinbarung sendet die „Koalition der Willigen“ ein klares Signal an Russland",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T20:20:17+00:00",
+      "last_seen": "2026-07-13T20:20:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1946
+    },
+    {
+      "id": "0ce3ef4586",
+      "title": "2. Fußball-Bundesliga: Neuzugang aus Argentinien: Balzi soll Kiels Angriff beleben",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/13/neuzugang-aus-argentinien-balzi-soll-kiels-angriff-beleben",
+          "headline": "2. Fußball-Bundesliga: Neuzugang aus Argentinien: Balzi soll Kiels Angriff beleben",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:18:28+00:00",
+      "last_seen": "2026-07-13T20:18:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.1908
+    },
+    {
+      "id": "9172ff3678",
+      "title": "Koalition der Willigen: Macron überrascht mit Ankündigung von Manövern für Ukraine",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/13/macron-ueberrascht-mit-ankuendigung-von-manoevern-fuer-ukraine",
+          "headline": "Koalition der Willigen: Macron überrascht mit Ankündigung von Manövern für Ukraine",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:15:36+00:00",
+      "last_seen": "2026-07-13T20:15:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1848
+    },
+    {
+      "id": "b7c73fe02b",
+      "title": "Dow Jones, S&P, Nasdaq: US-Börsen schließen im Minus – Chipwerte verlieren besonders stark",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-nasdaq-us-boersen-schliessen-im-minus-chipwerte-verlieren-besonders-stark/100239844.html",
+          "headline": "Dow Jones, S&P, Nasdaq: US-Börsen schließen im Minus – Chipwerte verlieren besonders stark",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:07:00+00:00",
+      "last_seen": "2026-07-13T20:07:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.1669
+    },
+    {
+      "id": "21b609c593",
+      "title": "Signal an Russland: Macron kündigt Manöver von Ukraine-Friedenstruppe an",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Macron-kuendigt-Manoever-von-Ukraine-Friedenstruppe-an-id31081945.html",
+          "headline": "Signal an Russland: Macron kündigt Manöver von Ukraine-Friedenstruppe an",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:02:30+00:00",
+      "last_seen": "2026-07-13T20:02:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1577
+    },
+    {
+      "id": "fd75bcd595",
+      "title": "Kuba: USA verhängen neue Sanktionen gegen Kuba",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-07/usa-sanktionen-kuba-militaer-gaesa-wirtschaftskrise",
+          "headline": "Kuba: USA verhängen neue Sanktionen gegen Kuba",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T20:01:54+00:00",
+      "last_seen": "2026-07-13T20:01:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1565
+    },
+    {
+      "id": "3809ceaaa4",
+      "title": "Im Streit geraten: Große Suche nach Schwimmer – der längst Zuhause war",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/13/grosse-suche-nach-schwimmer-der-laengst-zuhause-war",
+          "headline": "Im Streit geraten: Große Suche nach Schwimmer – der längst Zuhause war",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T19:59:52+00:00",
+      "last_seen": "2026-07-13T19:59:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1523
+    },
+    {
+      "id": "a994ed9fba",
+      "title": "Diskussion im TV: Parteien sehen neuen CDU-Spitzenmann Evers als Wegner II",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-07/13/parteien-sehen-neuen-cdu-spitzenmann-evers-als-wegner-ii",
+          "headline": "Diskussion im TV: Parteien sehen neuen CDU-Spitzenmann Evers als Wegner II",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T19:55:00+00:00",
+      "last_seen": "2026-07-13T19:55:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.1425
+    },
+    {
+      "id": "0a5889e014",
+      "title": "Uneinigkeit in der Regierung: Der Datenschutz soll einfacher werden – doch die CSU bremst",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/wirtschaft/trotz-einigung-wie-die-csu-die-reform-des-datenschutzes-ausbremst-201010555.html",
+          "headline": "Uneinigkeit in der Regierung: Der Datenschutz soll einfacher werden – doch die CSU bremst",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T19:51:22+00:00",
+      "last_seen": "2026-07-13T19:51:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.1353
+    },
+    {
+      "id": "570cd9f3df",
+      "title": "Trump kündigt kurzfristig Rede an die Nation an und sorgt für Rätselraten",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6a553f7fbd016e39ef42632b/usa-trump-kuendigt-kurzfristig-rede-an-die-nation-an-und-sorgt-fuer-raetselraten.html",
+          "headline": "Trump kündigt kurzfristig Rede an die Nation an und sorgt für Rätselraten",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-13T19:49:57+00:00",
+      "last_seen": "2026-07-13T19:49:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1325
+    },
+    {
+      "id": "064db23a45",
+      "title": "Für Kaffee wird Regel strenger: EU-Kommission schaut bei Rinderhäuten nicht mehr auf den Waldschutz",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/EU-Kommission-schaut-bei-Rinderhaeuten-nicht-mehr-auf-den-Waldschutz-id31081866.html",
+          "headline": "Für Kaffee wird Regel strenger: EU-Kommission schaut bei Rinderhäuten nicht mehr auf den Waldschutz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-13T19:49:06+00:00",
+      "last_seen": "2026-07-13T19:49:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1308
     },
     {
       "id": "4d5187a3e7",
@@ -255,7 +818,7 @@
       "geo_regions": [],
       "topic": "society",
       "language": "de",
-      "resonance": 0.2161
+      "resonance": 0.1042
     },
     {
       "id": "bf55530154",
@@ -284,187 +847,36 @@
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.2159
+      "resonance": 0.104
     },
     {
-      "id": "f4282a6720",
-      "title": "Iran-Krieg: Trump: Setzen Seeblockade gegen iranische Häfen wieder ein",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/13/us-militaer-erklaert-angriffe-auf-iran-vorerst-fuer-beendet",
-          "headline": "Iran-Krieg: Trump: Setzen Seeblockade gegen iranische Häfen wieder ein",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/politik/liveblog-nahost-iran-news-usa-angriffe-iran-strasse-hormus-seeblockade-li.3513707",
-          "headline": "Krieg in Nahost: Trump: Setzen Seeblockade gegen iranische Häfen wieder ein",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.05,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T14:57:15+00:00",
-      "last_seen": "2026-07-13T18:47:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.2005
-    },
-    {
-      "id": "b917449f42",
-      "title": "„Russland und vor allem Putin sind in einer Situation, die das Land so nicht erwartete“",
+      "id": "5a54e5cdd5",
+      "title": "Berlin: IT-Ausfall legt Gerichte und Justizverwaltung lahm",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/videos/video6a54ec8c5e446e1031328440/krieg-in-der-ukraine-russland-und-vor-allem-putin-sind-in-einer-situation-die-das-land-so-nicht-erwartete.html",
-          "headline": "„Russland und vor allem Putin sind in einer Situation, die das Land so nicht erwartete“",
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/justiz/berlin-it-ausfall-legt-gerichte-und-justizverwaltung-lahm-a-41e32927-792f-4c97-bf00-b2859b32aeab#ref=rss",
+          "headline": "Berlin: IT-Ausfall legt Gerichte und Justizverwaltung lahm",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T19:06:08+00:00",
-      "last_seen": "2026-07-13T19:06:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1421
-    },
-    {
-      "id": "0e23905147",
-      "title": "Präsidenten droht Amtsenthebung: Ungarns Regierungspartei ändert Verfassung fundamental",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Ungarns-Regierungspartei-aendert-Verfassung-fundamental-id31081815.html",
-          "headline": "Präsidenten droht Amtsenthebung: Ungarns Regierungspartei ändert Verfassung fundamental",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
+        "mean": -0.15,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-13T19:05:31+00:00",
-      "last_seen": "2026-07-13T19:05:31+00:00",
+      "first_seen": "2026-07-13T19:27:00+00:00",
+      "last_seen": "2026-07-13T19:27:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.1406
-    },
-    {
-      "id": "2fa57ddb29",
-      "title": "Von Bildung bis Sicherheit: Was die AfD in Sachsen-Anhalt plant und was die Politik dagegen tut",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Was-die-AfD-in-Sachsen-Anhalt-plant-und-was-die-Politik-dagegen-tut-id31081729.html",
-          "headline": "Von Bildung bis Sicherheit: Was die AfD in Sachsen-Anhalt plant und was die Politik dagegen tut",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T19:05:14+00:00",
-      "last_seen": "2026-07-13T19:05:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.1399
-    },
-    {
-      "id": "157f9895ee",
-      "title": "Neue Koalition mit Europa: Auf dieser Rakete ruhen riesige Hoffnungen der Ukraine",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Auf-dieser-Rakete-ruhen-riesige-Hoffnungen-der-Ukraine-id31081768.html",
-          "headline": "Neue Koalition mit Europa: Auf dieser Rakete ruhen riesige Hoffnungen der Ukraine",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T19:05:10+00:00",
-      "last_seen": "2026-07-13T19:05:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.1398
-    },
-    {
-      "id": "670df3fae2",
-      "title": "Fußball-Bundesliga: Bayern-Talent Jensen wechselt nach Spanien",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/13/bayern-talent-jensen-wechselt-nach-spanien",
-          "headline": "Fußball-Bundesliga: Bayern-Talent Jensen wechselt nach Spanien",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T19:01:40+00:00",
-      "last_seen": "2026-07-13T19:01:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1313
+      "resonance": 0.0883
     },
     {
       "id": "5febf1c238",
@@ -499,191 +911,17 @@
       "geo_regions": [],
       "topic": "climate",
       "language": "de",
-      "resonance": 0.1238
+      "resonance": 0.0585
     },
     {
-      "id": "e1523c2b50",
-      "title": "Welthandel: Hapag-Lloyd erhöht Prognose wegen höherer Transportpreise",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/13/hapag-lloyd-erhoeht-prognose-wegen-hoeherer-transportpreise",
-          "headline": "Welthandel: Hapag-Lloyd erhöht Prognose wegen höherer Transportpreise",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:57:48+00:00",
-      "last_seen": "2026-07-13T18:57:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
-      "resonance": 0.122
-    },
-    {
-      "id": "969965f00e",
-      "title": "Regierungskrise: Burnham vor Ernennung zum britischen Premierminister",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/13/burnham-vor-ernennung-zum-britischen-premierminister",
-          "headline": "Regierungskrise: Burnham vor Ernennung zum britischen Premierminister",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:56:16+00:00",
-      "last_seen": "2026-07-13T18:56:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.1183
-    },
-    {
-      "id": "dddcd87115",
-      "title": "Asyl-Verschärfung: In Großbritannien zu bleiben, wird für alle Ausländer schwerer",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/ausland/parteien-in-london-wetteifern-um-schaerfere-migrationspolitik-201024417.html",
-          "headline": "Asyl-Verschärfung: In Großbritannien zu bleiben, wird für alle Ausländer schwerer",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:54:39+00:00",
-      "last_seen": "2026-07-13T18:54:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1145
-    },
-    {
-      "id": "b72ee82139",
-      "title": "AfD-Verbot in Thüringen?: Der völkische Flügel verschwindet damit nicht",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/inland/kommentar-ein-afd-verbot-in-thueringen-waere-der-falsche-weg-201025083.html",
-          "headline": "AfD-Verbot in Thüringen?: Der völkische Flügel verschwindet damit nicht",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:53:39+00:00",
-      "last_seen": "2026-07-13T18:53:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.1121
-    },
-    {
-      "id": "ad2a17d426",
-      "title": "Dow Jones, S&P, Nasdaq: Nasdaq verliert deutlich – südkoreanische Chipaktie sackt nach US-IPO wieder ab",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-nasdaq-nasdaq-deutlich-im-minus-sk-hynix-verliert-stark/100239844.html",
-          "headline": "Dow Jones, S&P, Nasdaq: Nasdaq verliert deutlich – südkoreanische Chipaktie sackt nach US-IPO wieder ab",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:53:00+00:00",
-      "last_seen": "2026-07-13T18:53:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1105
-    },
-    {
-      "id": "fb18b2b8ea",
-      "title": "Fußball-Bundesliga: Offiziell: HSV holt Martin Adeline aus Troyes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-07/13/offiziell-hsv-holt-martin-adeline-aus-troyes",
-          "headline": "Fußball-Bundesliga: Offiziell: HSV holt Martin Adeline aus Troyes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:52:36+00:00",
-      "last_seen": "2026-07-13T18:52:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1096
-    },
-    {
-      "id": "ba13130187",
-      "title": "„Die Öl-Lager sind enorm leer“",
+      "id": "b917449f42",
+      "title": "„Russland und vor allem Putin sind in einer Situation, die das Land so nicht erwartete“",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/wirtschaft/video6a550cb269ce9e04fa236166/neue-eskalation-am-golf-die-oel-lager-sind-enorm-leer.html",
-          "headline": "„Die Öl-Lager sind enorm leer“",
+          "url": "https://www.welt.de/videos/video6a54ec8c5e446e1031328440/krieg-in-der-ukraine-russland-und-vor-allem-putin-sind-in-einer-situation-die-das-land-so-nicht-erwartete.html",
+          "headline": "„Russland und vor allem Putin sind in einer Situation, die das Land so nicht erwartete“",
           "platform": "rss"
         }
       ],
@@ -694,251 +932,13 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-13T18:51:01+00:00",
-      "last_seen": "2026-07-13T18:51:01+00:00",
+      "first_seen": "2026-07-13T19:06:08+00:00",
+      "last_seen": "2026-07-13T19:06:08+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "language": "de",
-      "resonance": 0.1058
-    },
-    {
-      "id": "73e9200663",
-      "title": "Social Media für Kinder: Wilde Dreizehn",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Social-Media-Verbot-fuer-Kinder/!6195651/",
-          "headline": "Social-Media-Verbot für Kinder: Es droht eine Luftnummer",
-          "platform": "rss"
-        },
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/eu-experten-social-media-erst-ab-13-jahren-201025799.html",
-          "headline": "Social Media für Kinder: Wilde Dreizehn",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.175,
-        "spread": 0.375,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T15:00:26+00:00",
-      "last_seen": "2026-07-13T17:39:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.1043
-    },
-    {
-      "id": "3863acfc7d",
-      "title": "USA: 26-Jähriger stirbt bei Einsatz der US-Migrationsbehörde ICE",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-07/maine-ice-biddeford-polizei-janet-mills",
-          "headline": "USA: 26-Jähriger stirbt bei Einsatz der US-Migrationsbehörde ICE",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:49:41+00:00",
-      "last_seen": "2026-07-13T18:49:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1027
-    },
-    {
-      "id": "db1325aaea",
-      "title": "Millie Bobby Brown bekam Probleme wegen einer Ofenkartoffel am Set von »Stranger Things«",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/kultur/musik/millie-bobby-brown-bekam-probleme-wegen-einer-ofenkartoffel-am-set-von-stranger-things-a-5b8350e2-9b34-4280-a7ba-50bc146c9a0c#ref=rss",
-          "headline": "Millie Bobby Brown bekam Probleme wegen einer Ofenkartoffel am Set von »Stranger Things«",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:44:00+00:00",
-      "last_seen": "2026-07-13T18:44:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0894
-    },
-    {
-      "id": "1dad5a0d3f",
-      "title": "Fußball WM - David Beckham erklärt Reaktion von Victoria Beckham während Viertelfinale",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/panorama/leute/fussball-wm-david-beckham-erklaert-reaktion-von-victoria-beckham-waehrend-viertelfinale-a-e1534fa8-ff39-47e7-bb4c-c37c04e9e475#ref=rss",
-          "headline": "Fußball WM - David Beckham erklärt Reaktion von Victoria Beckham während Viertelfinale",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:44:00+00:00",
-      "last_seen": "2026-07-13T18:44:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.0894
-    },
-    {
-      "id": "6c8303e398",
-      "title": "Jay-Z in New York: Hunderte Fans stürmen Eingänge",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/kultur/musik/jay-z-in-new-york-hunderte-fans-stuermen-eingaenge-a-f9aab147-6300-4730-9886-e64368925da4#ref=rss",
-          "headline": "Jay-Z in New York: Hunderte Fans stürmen Eingänge",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:44:00+00:00",
-      "last_seen": "2026-07-13T18:44:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0894
-    },
-    {
-      "id": "d2ebf7760b",
-      "title": "Unterhaltsvorschuss: Kinderschutzbund kritisiert Kürzungspläne der Regierung",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-07/unterhaltsvorschuss-alleinerziehende-daniel-grein-kinderschutzbund",
-          "headline": "Unterhaltsvorschuss: Kinderschutzbund kritisiert Kürzungspläne der Regierung",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:29:10+00:00",
-      "last_seen": "2026-07-13T18:29:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0556
-    },
-    {
-      "id": "853097d71e",
-      "title": "„Porsche ist das größte Problemkind“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/videos/video6a55247086a2f0846eaaf84b/vw-plant-weiteren-stellenabbau-porsche-ist-das-groesste-problemkind.html",
-          "headline": "„Porsche ist das größte Problemkind“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-13T18:27:44+00:00",
-      "last_seen": "2026-07-13T18:27:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "de",
-      "resonance": 0.0524
-    },
-    {
-      "id": "531fd3b4f2",
-      "title": "Iran-Krieg: Trump will 20 Prozent Gebühren für die Passage der Straße von Hormus einführen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/international/iran-trump-will-20-prozent-gebuehren-fuer-hormus-passage-einfuehren/100239915.html",
-          "headline": "Iran-Krieg: Trump will 20 Prozent Gebühren für die Passage der Straße von Hormus einführen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-13T18:26:40+00:00",
-      "last_seen": "2026-07-13T18:26:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
       "language": "de",
       "resonance": 0.05
     }
@@ -946,44 +946,50 @@
   "edges": [
     {
       "source": "efd22ee319",
-      "target": "3863acfc7d",
-      "weight": 0.39,
+      "target": "0507719cbb",
+      "weight": 0.758,
+      "type": "thematic"
+    },
+    {
+      "source": "efd22ee319",
+      "target": "4690743e15",
+      "weight": 0.021,
       "type": "thematic"
     },
     {
       "source": "1f9233dab5",
-      "target": "f4282a6720",
-      "weight": 0.745,
+      "target": "8616fe9847",
+      "weight": 0.426,
       "type": "thematic"
     },
     {
-      "source": "1f9233dab5",
-      "target": "2fa57ddb29",
-      "weight": 0.049,
+      "source": "fc688b9910",
+      "target": "a994ed9fba",
+      "weight": 0.168,
       "type": "thematic"
     },
     {
-      "source": "1f9233dab5",
-      "target": "531fd3b4f2",
-      "weight": 0.406,
+      "source": "8616fe9847",
+      "target": "570cd9f3df",
+      "weight": 0.132,
       "type": "thematic"
     },
     {
-      "source": "50ec56f774",
-      "target": "0e23905147",
-      "weight": 0.219,
+      "source": "0cb0a05bdb",
+      "target": "9172ff3678",
+      "weight": 0.277,
       "type": "thematic"
     },
     {
-      "source": "f4282a6720",
-      "target": "531fd3b4f2",
-      "weight": 0.205,
+      "source": "0cb0a05bdb",
+      "target": "21b609c593",
+      "weight": 0.29,
       "type": "thematic"
     },
     {
-      "source": "670df3fae2",
-      "target": "fb18b2b8ea",
-      "weight": 0.535,
+      "source": "9172ff3678",
+      "target": "21b609c593",
+      "weight": 0.735,
       "type": "thematic"
     }
   ],

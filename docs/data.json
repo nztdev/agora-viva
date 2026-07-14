@@ -1,8 +1,36 @@
 {
-  "generated_at": "2026-07-14T15:56:03.718720+00:00",
+  "generated_at": "2026-07-14T17:13:31.914885+00:00",
   "node_count": 35,
-  "edge_count": 4,
+  "edge_count": 8,
   "nodes": [
+    {
+      "id": "f7063623f3",
+      "title": "Are we offloading too much of our thinking to AI?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
+          "headline": "Are we offloading too much of our thinking to AI?",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T15:18:13+00:00",
+      "last_seen": "2026-07-14T15:18:13+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.28
+    },
     {
       "id": "599821f0fc",
       "title": "New York Governor Signs First Statewide Data Center Moratorium",
@@ -36,7 +64,41 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.8055
+      "resonance": 0.7665
+    },
+    {
+      "id": "b48d2bb55d",
+      "title": "Trump pays writer E Jean Carroll $5m in damages over sexual abuse and defamation",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c2dydj1wp93o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump pays writer E Jean Carroll $5m in damages over sexual abuse and defamation",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360575/e-jean-carroll-paid-us56-million-owed-trump-sex-abuse-and-defamation-case?utm_source=rss_feed",
+          "headline": "E. Jean Carroll paid US$5.6 million owed by Trump in sex abuse and defamation case",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:58:14+00:00",
+      "last_seen": "2026-07-14T17:07:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.3489
     },
     {
       "id": "1ac126081f",
@@ -67,14 +129,94 @@
       "resonance": 0.28
     },
     {
+      "id": "ffaab3b8c3",
+      "title": "Israeli strike on police post in north Gaza kills seven, officials say",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strike-police-station-northern-gaza-kills-eight",
+          "headline": "Israeli air strike on police station in northern Gaza kills eight",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/14/israeli-attack-on-north-gaza-police-station-kills-eight?traffic_source=rss",
+          "headline": "Israeli attack on north Gaza police station kills eight",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
+          "headline": "Israeli strike on police post in north Gaza kills seven, officials say",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.108,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T13:46:14+00:00",
+      "last_seen": "2026-07-14T17:08:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.337
+    },
+    {
+      "id": "f431335b1b",
+      "title": "Ann Widdecombe Was Killed in ‘Targeted Attack,’ UK Police Say",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/14/world/europe/ann-widdecombe-targeted-attack.html",
+          "headline": "Ann Widdecombe Was Killed in ‘Targeted Attack,’ UK Police Say",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/14/murder-of-uk-politician-ann-widdecombe-was-targeted-attack-police-say?traffic_source=rss",
+          "headline": "Murder of UK politician Ann Widdecombe was ‘targeted attack’, police say",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.05,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:45:46+00:00",
+      "last_seen": "2026-07-14T17:00:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.3356
+    },
+    {
       "id": "5f6f9a4067",
       "title": "2026 World Cup: Ahead of semifinal against Spain, France's unity is its superpower",
-      "signal_count": 3,
+      "signal_count": 4,
       "sources": [
         {
           "outlet": "France 24",
           "url": "https://www.france24.com/en/spain-s-lamine-yamal-warns-france-we-have-no-fear-ahead-of-world-cup-semifinal",
           "headline": "Spain's Lamine Yamal warns France: 'we have no fear' ahead of World Cup semifinal",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/14/france-vs-spain-live-fifa-world-cup-2026-semifinal?traffic_source=rss",
+          "headline": "France vs Spain LIVE: FIFA World Cup 2026 semifinal",
           "platform": "rss"
         },
         {
@@ -91,10 +233,10 @@
         }
       ],
       "bias": {
-        "mean": -0.133,
-        "spread": 0.047,
+        "mean": -0.15,
+        "spread": 0.05,
         "left": 0,
-        "center": 3,
+        "center": 4,
         "right": 0
       },
       "first_seen": "2026-07-14T14:36:28+00:00",
@@ -103,20 +245,88 @@
         "rss"
       ],
       "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.3317
+    },
+    {
+      "id": "d19164871f",
+      "title": "Trump’s Plan to Charge a Toll in the Strait of Hormuz: What to Know",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/07/14/oil-prices-jump-after-trumps-threats-strait-hormuz/",
+          "headline": "Trump retreats from shipping toll in Strait of Hormuz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/14/world/middleeast/trump-iran-strait-hormuz-toll-oil.html",
+          "headline": "Trump’s Plan to Charge a Toll in the Strait of Hormuz: What to Know",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 2,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T15:56:48+00:00",
+      "last_seen": "2026-07-14T16:16:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2953
+      "resonance": 0.259
+    },
+    {
+      "id": "74f08af255",
+      "title": "World leaders gather in Doha to honour Qatar's Father Emir Sheikh Hamad",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/world-leaders-travel-to-qatar-to-honour-father-emir?traffic_source=rss",
+          "headline": "World leaders travel to Qatar to honour Father Emir",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/07/14/world-leaders-gather-in-doha-to-honour-qatars-father-emir-sheikh-hamad",
+          "headline": "World leaders gather in Doha to honour Qatar's Father Emir Sheikh Hamad",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/money-works/2026/7/14/how-the-late-father-emir-transformed-qatars-economy?traffic_source=rss",
+          "headline": "How the late Father Emir transformed Qatar’s economy",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.167,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T15:04:34+00:00",
+      "last_seen": "2026-07-14T16:36:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.2383
     },
     {
       "id": "eacd8d2ee2",
       "title": "U.S. and Iran Reignite War Over Strait of Hormuz",
-      "signal_count": 3,
+      "signal_count": 2,
       "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/iran-war-strait-of-hormuz-tanker-strikes-raise-tensions/live-77942892?maca=en-rss-en-all-1573-rdf",
-          "headline": "Iran war: Strait of Hormuz tanker strikes raise tensions",
-          "platform": "rss"
-        },
         {
           "outlet": "New York Times",
           "url": "https://www.nytimes.com/live/2026/07/14/world/iran-war-trump-hormuz",
@@ -124,27 +334,677 @@
           "platform": "rss"
         },
         {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/07/14/us-iran-conflict-widens-after-deadly-tanker-attack-in-strait-of-hormuz",
-          "headline": "US-Iran conflict widens after deadly tanker attack in Strait of Hormuz",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/iran-war-strait-of-hormuz-tanker-strikes-raise-tensions/live-77942892?maca=en-rss-en-all-1573-rdf",
+          "headline": "Iran war: Strait of Hormuz tanker strikes raise tensions",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.167,
-        "spread": 0.094,
+        "mean": -0.2,
+        "spread": 0.1,
         "left": 1,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-14T12:17:11+00:00",
-      "last_seen": "2026-07-14T14:00:00+00:00",
+      "first_seen": "2026-07-14T14:00:00+00:00",
+      "last_seen": "2026-07-14T16:06:01+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.2052
+      "resonance": 0.1482
+    },
+    {
+      "id": "98cb959e0a",
+      "title": "West Asia war LIVE: Trump backs away from Strait of Hormuz tolls, calls for trade deals with Gulf countries",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-washington-strikes-tehran-donald-trump-peace-deal-strait-of-hormuz-live-updates-july-14-2026/article71219702.ece",
+          "headline": "West Asia war LIVE: Trump backs away from Strait of Hormuz tolls, calls for trade deals with Gulf countries",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T17:08:13+00:00",
+      "last_seen": "2026-07-14T17:08:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1206
+    },
+    {
+      "id": "81f44bc753",
+      "title": "18th International Documentary and Short Film Festival of Kerala to be held from September 25 to 30 in Thiruvananthapuram",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/18th-kerala-international-documentary-and-short-film-festival-to-be-held-from-september-25-to-30-in-thiruvananthapuram/article71221655.ece",
+          "headline": "18th International Documentary and Short Film Festival of Kerala to be held from September 25 to 30 in Thiruvananthapuram",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T17:08:02+00:00",
+      "last_seen": "2026-07-14T17:08:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1203
+    },
+    {
+      "id": "69ab82d94c",
+      "title": "Arkansas students outperform national average after universal school choice expansion, governor says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/arkansas-students-outperform-national-average-universal-school-choice-expansion-governor-says",
+          "headline": "Arkansas students outperform national average after universal school choice expansion, governor says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-14T17:06:20+00:00",
+      "last_seen": "2026-07-14T17:06:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1176
+    },
+    {
+      "id": "03fb43696b",
+      "title": "Maharashtra ATS questions 66 youth to uncover Pakistani gangster’s alleged ‘network in India’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/maharashtra/maharashtra-ats-questions-66-youth-to-uncover-pakistani-gangsters-alleged-network-in-india/article71222140.ece",
+          "headline": "Maharashtra ATS questions 66 youth to uncover Pakistani gangster’s alleged ‘network in India’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T17:06:20+00:00",
+      "last_seen": "2026-07-14T17:06:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1176
+    },
+    {
+      "id": "ed0d3b6fe1",
+      "title": "Here’s the latest.",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/07/14/world/iran-war-trump-hormuz/heres-the-latest",
+          "headline": "Here’s the latest.",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T17:05:44+00:00",
+      "last_seen": "2026-07-14T17:05:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1166
+    },
+    {
+      "id": "3efad66e2f",
+      "title": "Conor McGregor launches 'World's Baddest Man' fighting tournament series on Fox Nation with eight-figure prize",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/conor-mcgregor-launches-worlds-baddest-man-fighting-tournament-series-fox-nation-eight-figure-prize",
+          "headline": "Conor McGregor launches 'World's Baddest Man' fighting tournament series on Fox Nation with eight-figure prize",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-14T17:03:59+00:00",
+      "last_seen": "2026-07-14T17:03:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1138
+    },
+    {
+      "id": "a63398900e",
+      "title": "'McDonald's changed the course of my life': Congressman sells business he built since his teen years",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/food-drink/mcdonalds-changed-course-my-life-congressman-sells-business-he-built-since-his-teen-years",
+          "headline": "'McDonald's changed the course of my life': Congressman sells business he built since his teen years",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-14T17:02:56+00:00",
+      "last_seen": "2026-07-14T17:02:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1121
+    },
+    {
+      "id": "22eb5185cb",
+      "title": "Oil prices hit one-month high amid renewed US-Iran strikes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-prices-rise-one-month-high-amid-renewed-us-iran-strikes",
+          "headline": "Oil prices hit one-month high amid renewed US-Iran strikes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:55:43+00:00",
+      "last_seen": "2026-07-14T16:55:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1007
+    },
+    {
+      "id": "8532ffdb45",
+      "title": "Boston Dynamics tries using &#8216;robot dogs&#8217; for deliveries",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/965378/boston-dynamics-spot-robot-dog-delivery-assistant",
+          "headline": "Boston Dynamics tries using &#8216;robot dogs&#8217; for deliveries",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:52:47+00:00",
+      "last_seen": "2026-07-14T16:52:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0961
+    },
+    {
+      "id": "ee4f99a633",
+      "title": "Trump: US will do ‘a lot’ of deals with Iraq",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-us-will-do-lot-deals-iraq",
+          "headline": "Trump: US will do ‘a lot’ of deals with Iraq",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:51:24+00:00",
+      "last_seen": "2026-07-14T16:51:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0939
+    },
+    {
+      "id": "4fb270d16c",
+      "title": "Sony delays its new PS5 fight stick",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/games/965457/sony-playstation-flexstrike-wireless-fight-stick-delay",
+          "headline": "Sony delays its new PS5 fight stick",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:47:49+00:00",
+      "last_seen": "2026-07-14T16:47:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0883
+    },
+    {
+      "id": "a63bb68fa9",
+      "title": "Trump says Iran, Hezbollah might be added to sanctions bill",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-iran-hezbollah-might-be-added-sanctions-bill",
+          "headline": "Trump says Iran, Hezbollah might be added to sanctions bill",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:47:39+00:00",
+      "last_seen": "2026-07-14T16:47:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0881
+    },
+    {
+      "id": "895d22d0db",
+      "title": "Nomad&#8217;s high-end phone accessories are up to 30 percent off",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/gadgets/965108/nomad-magsafe-charger-tracker-samsung-galaxy-buds-3-fe-deal-sale",
+          "headline": "Nomad&#8217;s high-end phone accessories are up to 30 percent off",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:46:27+00:00",
+      "last_seen": "2026-07-14T16:46:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0862
+    },
+    {
+      "id": "54b17764b8",
+      "title": "Environmental groups sue government to stop a big change to the Endangered Species Act",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/14/nx-s1-5891858/trump-esa-harm-endangered-species-act-threatened-lawsuit",
+          "headline": "Environmental groups sue government to stop a big change to the Endangered Species Act",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:46:18+00:00",
+      "last_seen": "2026-07-14T16:46:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.086
+    },
+    {
+      "id": "8dc73d7144",
+      "title": "ICE told to halt most vehicle stops after pair of fatal shootings",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cly8yrw597eo?at_medium=RSS&at_campaign=rss",
+          "headline": "ICE told to halt most vehicle stops after pair of fatal shootings",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:45:54+00:00",
+      "last_seen": "2026-07-14T16:45:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0854
+    },
+    {
+      "id": "90c264f141",
+      "title": "DeepSeek reportedly in talks to raise $1.5B, then IPO",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
+          "headline": "DeepSeek reportedly in talks to raise $1.5B, then IPO",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:45:23+00:00",
+      "last_seen": "2026-07-14T16:45:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0846
+    },
+    {
+      "id": "4d469fa678",
+      "title": "Trump scraps Hormuz toll plan but presses ahead with Iran blockade",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/us/diplomacy/article/3360574/trump-scraps-hormuz-toll-plan-presses-ahead-iran-blockade?utm_source=rss_feed",
+          "headline": "Trump scraps Hormuz toll plan but presses ahead with Iran blockade",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:37:29+00:00",
+      "last_seen": "2026-07-14T16:37:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0726
+    },
+    {
+      "id": "78db53932d",
+      "title": "In Bangkok Bar Blaze, Signs of Fatal Lapses Repeated Across the World",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/14/world/asia/bangkok-bar-fire-flammable-foam.html",
+          "headline": "In Bangkok Bar Blaze, Signs of Fatal Lapses Repeated Across the World",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:37:26+00:00",
+      "last_seen": "2026-07-14T16:37:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0725
+    },
+    {
+      "id": "b194a3d2d6",
+      "title": "How jihadist groups like Boko Haram use AI for acts of terror",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/africa/20260714-how-jihadist-groups-like-boko-haram-use-ai-for-acts-of-terror",
+          "headline": "How jihadist groups like Boko Haram use AI for acts of terror",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:36:46+00:00",
+      "last_seen": "2026-07-14T16:36:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0715
+    },
+    {
+      "id": "c58d9498bf",
+      "title": "US-Iraq relations: Can Iran-allied militias be disarmed?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/us-iraq-relations-can-iran-allied-militias-be-disarmed/a-77956078?maca=en-rss-en-all-1573-rdf",
+          "headline": "US-Iraq relations: Can Iran-allied militias be disarmed?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:32:00+00:00",
+      "last_seen": "2026-07-14T16:32:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0643
+    },
+    {
+      "id": "cc3c8072fc",
+      "title": "Mexico: Football Without Fear",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/witness/2026/7/14/mexico-football-without-fear?traffic_source=rss",
+          "headline": "Mexico: Football Without Fear",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:30:00+00:00",
+      "last_seen": "2026-07-14T16:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0614
+    },
+    {
+      "id": "1a682addbc",
+      "title": "Google revamps image search for its 25th anniversary with more images and more AI",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai/",
+          "headline": "Google revamps image search for its 25th anniversary with more images and more AI",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T16:28:14+00:00",
+      "last_seen": "2026-07-14T16:28:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0588
+    },
+    {
+      "id": "8782fb5aba",
+      "title": "Singapore court orders Bloomberg to pay $356,000 to ministers in defamation case",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360572/singapore-ministers-donate-bloomberg-defamation-damages-charity?utm_source=rss_feed",
+          "headline": "Singapore ministers to donate Bloomberg defamation damages to charity",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cx232p85lp5o?at_medium=RSS&at_campaign=rss",
+          "headline": "Singapore court orders Bloomberg to pay $356,000 to ministers in defamation case",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-14T11:21:48+00:00",
+      "last_seen": "2026-07-14T16:03:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0587
     },
     {
       "id": "318e87fb80",
@@ -178,853 +1038,17 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.139
+      "resonance": 0.0517
     },
     {
-      "id": "267f8303bf",
-      "title": "U.S. to reinstate Hormuz blockade. And, states sue over Paramount-Warner deal",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/paramount-s-warner-takeover-challenged-by-12-us-states",
-          "headline": "Paramount's Warner takeover challenged by 12 US states",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/14/g-s1-133443/up-first-newsletter-iran-strait-hormuz-maine-ice-shooting-paramount-warner-bros-merger",
-          "headline": "U.S. to reinstate Hormuz blockade. And, states sue over Paramount-Warner deal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.125,
-        "spread": 0.025,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T12:18:58+00:00",
-      "last_seen": "2026-07-14T15:16:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1282
-    },
-    {
-      "id": "74e1381bec",
-      "title": "Kagan recalls Lindsey Graham's vote that helped seal her Supreme Court confirmation",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/kagan-recalls-lindsey-graham-vote-helped-seal-supreme-court-confirmation",
-          "headline": "Kagan recalls Lindsey Graham's vote that helped seal her Supreme Court confirmation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-14T15:52:08+00:00",
-      "last_seen": "2026-07-14T15:52:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1009
-    },
-    {
-      "id": "3ed53feeba",
-      "title": "Explosions reported on Iran’s Qeshm and Kish Islands",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-reported-irans-qeshm-and-kish-islands",
-          "headline": "Explosions reported on Iran’s Qeshm and Kish Islands",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:48:27+00:00",
-      "last_seen": "2026-07-14T15:48:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0952
-    },
-    {
-      "id": "d45d34fc38",
-      "title": "Man who staged wife's suicide jailed for  murder",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c8626147e6no?at_medium=RSS&at_campaign=rss",
-          "headline": "Man who staged wife's suicide jailed for  murder",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:47:41+00:00",
-      "last_seen": "2026-07-14T15:47:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.094
-    },
-    {
-      "id": "4d16cba2cb",
-      "title": "Spotify is now an AI chatbot, too",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
-          "headline": "Spotify is now an AI chatbot, too",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:47:36+00:00",
-      "last_seen": "2026-07-14T15:47:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0939
-    },
-    {
-      "id": "5df697eaa1",
-      "title": "Draft national health research policy proposes overhaul of India’s research ecosystem",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sci-tech/health/draft-national-health-research-policy-proposes-overhaul-of-indias-research-ecosystem/article71221189.ece",
-          "headline": "Draft national health research policy proposes overhaul of India’s research ecosystem",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:47:07+00:00",
-      "last_seen": "2026-07-14T15:47:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0932
-    },
-    {
-      "id": "bdcf049545",
-      "title": "Return to US-Iran fighting huge setback for civilians, UN rights chief says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/return-us-iran-fighting-huge-setback-civilians-un-rights-chief-says",
-          "headline": "Return to US-Iran fighting huge setback for civilians, UN rights chief says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:46:01+00:00",
-      "last_seen": "2026-07-14T15:46:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0915
-    },
-    {
-      "id": "e0202e515d",
-      "title": "Sai Krishna’s mother withdraws habeas corpus petition in alleged custodial death case",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/sai-krishnas-mother-withdraws-habeas-corpus-petition-in-alleged-custodial-death-case/article71221979.ece",
-          "headline": "Sai Krishna’s mother withdraws habeas corpus petition in alleged custodial death case",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:45:57+00:00",
-      "last_seen": "2026-07-14T15:45:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0914
-    },
-    {
-      "id": "2c9c08b1a5",
-      "title": "Naidu sets 15% GSDP growth target, unveils data-driven governance roadmap",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/naidu-sets-15-gsdp-growth-target-unveils-data-driven-governance-roadmap/article71221977.ece",
-          "headline": "Naidu sets 15% GSDP growth target, unveils data-driven governance roadmap",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:45:53+00:00",
-      "last_seen": "2026-07-14T15:45:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0913
-    },
-    {
-      "id": "7f4cc74a68",
-      "title": "Kuwait says army intercepting ‘hostile aerial targets’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/kuwait-says-army-intercepting-hostile-aerial-targets",
-          "headline": "Kuwait says army intercepting ‘hostile aerial targets’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:43:13+00:00",
-      "last_seen": "2026-07-14T15:43:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0872
-    },
-    {
-      "id": "98cb959e0a",
-      "title": "West Asia war LIVE: Trump backs away from Strait of Hormuz tolls, calls for trade deals with Gulf countries",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-washington-strikes-tehran-donald-trump-peace-deal-strait-of-hormuz-live-updates-july-14-2026/article71219702.ece",
-          "headline": "West Asia war LIVE: Trump backs away from Strait of Hormuz tolls, calls for trade deals with Gulf countries",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/trump-withdraws-planned-20-levy-on-hormuz-ships-calls-for-trade-deals-with-gulf-countries-instead/article71222372.ece",
-          "headline": "Trump withdraws planned 20% levy on Hormuz ships, calls for trade deals with Gulf countries instead",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:40:50+00:00",
-      "last_seen": "2026-07-14T15:42:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0863
-    },
-    {
-      "id": "fa1e6296a6",
-      "title": "Investigative journalist reports on the abuse inside ICE's largest detention facility",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/14/nx-s1-5893335/investigative-journalist-reports-on-the-abuse-inside-ices-largest-detention-facility",
-          "headline": "Investigative journalist reports on the abuse inside ICE's largest detention facility",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:41:07+00:00",
-      "last_seen": "2026-07-14T15:41:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.084
-    },
-    {
-      "id": "ed0d3b6fe1",
-      "title": "Here’s the latest.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/07/14/world/iran-war-trump-hormuz/heres-the-latest",
-          "headline": "Here’s the latest.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:40:16+00:00",
-      "last_seen": "2026-07-14T15:40:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0827
-    },
-    {
-      "id": "406f23a44d",
-      "title": "Lindsey Graham was tough on Russia. Moscow hopes to gain from his death.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/07/14/russia-hopes-lindsey-graham-death-will-advance-kremlin-interests/",
-          "headline": "Lindsey Graham was tough on Russia. Moscow hopes to gain from his death.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:39:01+00:00",
-      "last_seen": "2026-07-14T15:39:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0809
-    },
-    {
-      "id": "b8cdcb964d",
-      "title": "France: Wildfires tear though historic forest of Fontainebleau near Paris",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/france-wildfires-tear-though-historic-forest-of-fontainebleau-near-paris",
-          "headline": "France: Wildfires tear though historic forest of Fontainebleau near Paris",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:38:38+00:00",
-      "last_seen": "2026-07-14T15:38:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0803
-    },
-    {
-      "id": "5bd2c397ae",
-      "title": "Tyrannosaurus rex most expensive dinosaur ever sold",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c0qyq800n44o?at_medium=RSS&at_campaign=rss",
-          "headline": "Tyrannosaurus rex most expensive dinosaur ever sold",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:37:52+00:00",
-      "last_seen": "2026-07-14T15:37:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0791
-    },
-    {
-      "id": "ede4b397c0",
-      "title": "2 men arrested over 123 ‘crash-for-cash’ traffic accidents in Hong Kong",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360571/2-men-arrested-over-123-crash-cash-traffic-accidents-hong-kong?utm_source=rss_feed",
-          "headline": "2 men arrested over 123 ‘crash-for-cash’ traffic accidents in Hong Kong",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:36:26+00:00",
-      "last_seen": "2026-07-14T15:36:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.077
-    },
-    {
-      "id": "ab450c5998",
-      "title": "Adam Scott and Michelle Monaghan star in Netflix thriller 'The Whisper Man' arriving August 28",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-culture/adam-scott-michelle-monaghan-star-netflix-thriller-whisper-man-arriving-august-28",
-          "headline": "Adam Scott and Michelle Monaghan star in Netflix thriller 'The Whisper Man' arriving August 28",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-14T15:31:06+00:00",
-      "last_seen": "2026-07-14T15:31:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0691
-    },
-    {
-      "id": "85b72d3929",
-      "title": "Colombian national killed by ICE agent during operation in Maine",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/26-year-old-shot-and-killed-by-ice-agent-in-maine-sparks-demonstrations",
-          "headline": "26-year-old shot and killed by ICE agent in Maine sparks demonstrations",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c2ly580kxnko?at_medium=RSS&at_campaign=rss",
-          "headline": "Colombian national killed by ICE agent during operation in Maine",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T11:09:02+00:00",
-      "last_seen": "2026-07-14T14:50:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0669
-    },
-    {
-      "id": "bda9f270a0",
-      "title": "US inflation cools on brief ceasefire but Fed keeps rate hike option",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360570/us-inflation-cools-brief-ceasefire-fed-keeps-rate-hike-option?utm_source=rss_feed",
-          "headline": "US inflation cools on brief ceasefire but Fed keeps rate hike option",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:27:41+00:00",
-      "last_seen": "2026-07-14T15:27:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.064
-    },
-    {
-      "id": "263082639e",
-      "title": "Church of England votes to hear Palestinian Christians on Israeli genocide in Gaza",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/church-england-votes-hear-palestinian-christians-israeli-genocide-gaza",
-          "headline": "Church of England votes to hear Palestinian Christians on Israeli genocide in Gaza",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/church-england-backs-palestinian-christian-voices-despite-pro-israel-backlash",
-          "headline": "Church of England votes to hear Palestinian Christians on Israeli genocide in Gaza",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T14:27:18+00:00",
-      "last_seen": "2026-07-14T15:50:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0629
-    },
-    {
-      "id": "f74dea7fd3",
-      "title": "WWE star Lyra Valkyria's new look stuns pro wrestling fans",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/wwe-star-lyra-valkyria-new-look-stuns-pro-wrestling-fans",
-          "headline": "WWE star Lyra Valkyria's new look stuns pro wrestling fans",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-14T15:25:26+00:00",
-      "last_seen": "2026-07-14T15:25:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0608
-    },
-    {
-      "id": "0f2cfc4214",
-      "title": "US halts removal of refuelers from Ben Gurion Airport, but Israel says only 20 can stay",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Times of Israel",
-          "url": "https://www.timesofisrael.com/us-halts-removal-of-refuelers-from-ben-gurion-airport-but-israel-says-only-20-can-stay/",
-          "headline": "US halts removal of refuelers from Ben Gurion Airport, but Israel says only 20 can stay",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:25:25+00:00",
-      "last_seen": "2026-07-14T15:25:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0607
-    },
-    {
-      "id": "1c508b8fd8",
-      "title": "US judge voids Trump settlement with IRS granting him protection from tax audits",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/us-judge-voids-trump-settlement-with-irs-granting-him-protection-from-tax-audits",
-          "headline": "US judge voids Trump settlement with IRS granting him protection from tax audits",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:21:38+00:00",
-      "last_seen": "2026-07-14T15:21:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0552
-    },
-    {
-      "id": "54ba9ad1b0",
-      "title": "Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/14/leading-houthi-threatens-siege-on-saudi-arabia-after-yemen-airport-attack?traffic_source=rss",
-          "headline": "Leading Houthi threatens ‘siege’ on Saudi Arabia after Yemen airport attack",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:20:28+00:00",
-      "last_seen": "2026-07-14T15:20:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0536
-    },
-    {
-      "id": "77f928ebdc",
-      "title": "Rubio vows to end International Criminal Court \"threat\", claiming it interferes with US operations",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/rubio-vows-to-end-international-criminal-court-threat-claiming-it-interferes-with-us-operations",
-          "headline": "Rubio vows to end International Criminal Court \"threat\", claiming it interferes with US operations",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:20:22+00:00",
-      "last_seen": "2026-07-14T15:20:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0534
-    },
-    {
-      "id": "59f85a7dd5",
-      "title": "X admits its broken algorithm made the site feel like a &#8216;battleground&#8217;",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/965360/x-algorithm-tweak-mutuals-strangers-community",
-          "headline": "X admits its broken algorithm made the site feel like a &#8216;battleground&#8217;",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:20:21+00:00",
-      "last_seen": "2026-07-14T15:20:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0534
-    },
-    {
-      "id": "7581a8c2aa",
-      "title": "Buffett severs donations to Gates Foundation following Epstein revelations",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-15/warren-buffett-stops-donations-to-gates-foundation/106915922",
-          "headline": "Buffett severs donations to Gates Foundation following Epstein revelations",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:18:45+00:00",
-      "last_seen": "2026-07-14T15:18:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0511
-    },
-    {
-      "id": "05c4e329fe",
-      "title": "Bloomberg Loses Landmark Libel Case in Singapore",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/14/world/asia/singapore-bloomberg-defamation.html",
-          "headline": "Bloomberg Loses Landmark Libel Case in Singapore",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-14T15:18:44+00:00",
-      "last_seen": "2026-07-14T15:18:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0511
-    },
-    {
-      "id": "447ff5f0f8",
-      "title": "New York State halts construction of all new data centers",
+      "id": "edc09b997d",
+      "title": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
-          "headline": "New York State halts construction of all new data centers",
+          "url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
+          "headline": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer",
           "platform": "rss"
         }
       ],
@@ -1035,8 +1059,8 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-14T15:17:59+00:00",
-      "last_seen": "2026-07-14T15:17:59+00:00",
+      "first_seen": "2026-07-14T16:22:15+00:00",
+      "last_seen": "2026-07-14T16:22:15+00:00",
       "platforms": [
         "rss"
       ],
@@ -1047,27 +1071,51 @@
   ],
   "edges": [
     {
-      "source": "599821f0fc",
-      "target": "447ff5f0f8",
-      "weight": 0.402,
+      "source": "d19164871f",
+      "target": "eacd8d2ee2",
+      "weight": 0.543,
       "type": "thematic"
     },
     {
-      "source": "eacd8d2ee2",
-      "target": "3ed53feeba",
-      "weight": 0.009,
+      "source": "d19164871f",
+      "target": "98cb959e0a",
+      "weight": 0.238,
       "type": "thematic"
     },
     {
       "source": "eacd8d2ee2",
       "target": "98cb959e0a",
-      "weight": 0.591,
+      "weight": 0.567,
       "type": "thematic"
     },
     {
-      "source": "74e1381bec",
-      "target": "406f23a44d",
-      "weight": 0.117,
+      "source": "eacd8d2ee2",
+      "target": "4d469fa678",
+      "weight": 0.294,
+      "type": "thematic"
+    },
+    {
+      "source": "98cb959e0a",
+      "target": "ee4f99a633",
+      "weight": 0.205,
+      "type": "thematic"
+    },
+    {
+      "source": "ee4f99a633",
+      "target": "c58d9498bf",
+      "weight": 0.151,
+      "type": "thematic"
+    },
+    {
+      "source": "a63bb68fa9",
+      "target": "4d469fa678",
+      "weight": 0.097,
+      "type": "thematic"
+    },
+    {
+      "source": "78db53932d",
+      "target": "318e87fb80",
+      "weight": 0.186,
       "type": "thematic"
     }
   ],

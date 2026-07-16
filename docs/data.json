@@ -1,36 +1,8 @@
 {
-  "generated_at": "2026-07-16T20:25:48.032080+00:00",
+  "generated_at": "2026-07-16T21:32:00.416017+00:00",
   "node_count": 35,
-  "edge_count": 7,
+  "edge_count": 14,
   "nodes": [
-    {
-      "id": "c35bf4591b",
-      "title": "42% of adults rely on their parents for financial support",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.cnbc.com/2026/07/16/42percent-of-adults-rely-on-their-parents-for-financial-supportthere-are-no-bad-guys-here-says-financial-therapist.html",
-          "headline": "42% of adults rely on their parents for financial support",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T17:11:58+00:00",
-      "last_seen": "2026-07-16T17:11:58+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
-    },
     {
       "id": "03c277664b",
       "title": "Google is renaming NotebookLM to Gemini Notebook",
@@ -65,22 +37,22 @@
       "first_seen": "2026-07-16T16:00:00+00:00",
       "last_seen": "2026-07-16T16:08:13+00:00",
       "platforms": [
-        "hackernews",
-        "rss"
+        "rss",
+        "hackernews"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.6257
+      "resonance": 0.6741
     },
     {
-      "id": "69f928bb62",
-      "title": "Kimi K3 is now live",
+      "id": "719fda75da",
+      "title": "Kimi K3: Open Frontier Intelligence",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://www.kimi.com/en",
-          "headline": "Kimi K3 is now live",
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "headline": "Kimi K3: Open Frontier Intelligence",
           "platform": "hackernews"
         }
       ],
@@ -129,6 +101,40 @@
       "resonance": 0.28
     },
     {
+      "id": "e994e8f5e5",
+      "title": "Iran war: US military attacks Iran for sixth night running",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/16/us-mounts-sixth-straight-night-of-attacks-as-iran-warns-of-wider-war?traffic_source=rss",
+          "headline": "US mounts sixth straight night of attacks as Iran warns of wider war",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/iran-war-us-military-attacks-iran-for-sixth-night-running/live-77976690?maca=en-rss-en-all-1573-rdf",
+          "headline": "Iran war: US military attacks Iran for sixth night running",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T19:19:00+00:00",
+      "last_seen": "2026-07-16T21:02:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.3823
+    },
+    {
       "id": "3914b06642",
       "title": "Orphanage Fire Kills Eleven in Algeria",
       "signal_count": 3,
@@ -166,41 +172,7 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.3858
-    },
-    {
-      "id": "4ded971759",
-      "title": "Trump's teleprompter operator suspended over bets on president's speeches",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/07/16/trump-teleprompter-operator-suspended-for-alleged-prediction-market-bets-on-speeches",
-          "headline": "Trump teleprompter operator suspended for alleged prediction market bets on speeches",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-17/trump-teleprompter-operator-suspended/106925842",
-          "headline": "Trump's teleprompter operator suspended over bets on president's speeches",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T18:56:45+00:00",
-      "last_seen": "2026-07-16T19:51:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.367
+      "resonance": 0.3262
     },
     {
       "id": "00d1b5bf5a",
@@ -234,79 +206,17 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2923
+      "resonance": 0.2122
     },
     {
-      "id": "bf4fe47567",
-      "title": "White House teleprompter operator accused of making $100k off Trump speech bets",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
-          "headline": "White House teleprompter operator accused of making $100k off Trump speech bets",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/white-house-condemns-staffer-accused-betting-trump-speech-disgrace",
-          "headline": "White House condemns staffer accused of betting on Trump speech as a 'disgrace'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.3,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-07-16T18:48:23+00:00",
-      "last_seen": "2026-07-16T18:52:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.227
-    },
-    {
-      "id": "3254fb50ff",
-      "title": "Kris Jenner's mother Mary Jo dies aged 91",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c70g35n4518o?at_medium=RSS&at_campaign=rss",
-          "headline": "Kris Jenner's mother Mary Jo dies aged 91",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:24:54+00:00",
-      "last_seen": "2026-07-16T20:24:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1316
-    },
-    {
-      "id": "f021454c11",
-      "title": "John Esposito, would-be Catholic priest turned renowned scholar of Islam, dies aged 86",
+      "id": "f38e6c1ddd",
+      "title": "‘Series of explosions in Kuwait’, report says",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/john-esposito-would-be-priest-turned-scholar-islam-dies-86",
-          "headline": "John Esposito, would-be Catholic priest turned renowned scholar of Islam, dies aged 86",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/series-explosions-kuwait-report-says",
+          "headline": "‘Series of explosions in Kuwait’, report says",
           "platform": "rss"
         }
       ],
@@ -317,80 +227,142 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-16T20:23:52+00:00",
-      "last_seen": "2026-07-16T20:23:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1293
-    },
-    {
-      "id": "7db18ae940",
-      "title": "OnlyFans models, witches haunt Dem’s campaign in toss-up House race: report",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/onlyfans-models-witches-haunt-dems-campaign-toss-up-house-race-report",
-          "headline": "OnlyFans models, witches haunt Dem’s campaign in toss-up House race: report",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-16T20:18:49+00:00",
-      "last_seen": "2026-07-16T20:18:49+00:00",
+      "first_seen": "2026-07-16T21:31:24+00:00",
+      "last_seen": "2026-07-16T21:31:24+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1182
+      "resonance": 0.19
     },
     {
-      "id": "be9625f238",
-      "title": "Astronomers Find an Atmosphere on a Nearby Earthlike Planet",
+      "id": "a003ab49fc",
+      "title": "Fortnite is getting a bunch of AI-powered ‘personas’",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/16/science/astronomy-exoplanet-atmosphere.html",
-          "headline": "Astronomers Find an Atmosphere on a Nearby Earthlike Planet",
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/games/966815/epic-games-fortnite-ai-powered-personas",
+          "headline": "Fortnite is getting a bunch of AI-powered ‘personas’",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
+        "mean": -0.1,
         "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T20:17:13+00:00",
-      "last_seen": "2026-07-16T20:17:13+00:00",
+      "first_seen": "2026-07-16T21:30:35+00:00",
+      "last_seen": "2026-07-16T21:30:35+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1147
+      "topic": "tech",
+      "resonance": 0.1876
     },
     {
-      "id": "756d45727c",
-      "title": "WATCH: GOP senators tear into former Biden pardon attorney over push to spare ‘mass murderers’ from death row",
+      "id": "e1da5ab650",
+      "title": "Hong Kong’s AI education blueprint is a start – but schools need more",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3360372/hong-kongs-ai-education-blueprint-start-schools-need-more?utm_source=rss_feed",
+          "headline": "Hong Kong’s AI education blueprint is a start – but schools need more",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T21:30:05+00:00",
+      "last_seen": "2026-07-16T21:30:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1861
+    },
+    {
+      "id": "0ebd27d5b5",
+      "title": "FIFA to probe Argentina’s Falklands banner display at World Cup semifinal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/7/16/fifa-to-probe-argentinas-falklands-banner-display-at-world-cup-semifinal?traffic_source=rss",
+          "headline": "FIFA to probe Argentina’s Falklands banner display at World Cup semifinal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T21:23:05+00:00",
+      "last_seen": "2026-07-16T21:23:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1656
+    },
+    {
+      "id": "087d6efce4",
+      "title": "Palestinians injured in Israeli settler attacks across West Bank",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/16/palestinians-injured-in-israeli-settler-attacks-across-west-bank?traffic_source=rss",
+          "headline": "Palestinians injured in Israeli settler attacks across West Bank",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-injure-three-palestinians-occupied-west-bank",
+          "headline": "Israeli settlers injure three Palestinians in occupied West Bank",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.025,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:17:17+00:00",
+      "last_seen": "2026-07-16T20:37:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.1653
+    },
+    {
+      "id": "e9dab78cf5",
+      "title": "Woman found in shallow grave ID’d after 44 years as millionaire tied to estate murder plot",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/watch-gop-senators-tear-former-biden-pardon-attorney-over-push-spare-mass-murderers-from-death-row",
-          "headline": "WATCH: GOP senators tear into former Biden pardon attorney over push to spare ‘mass murderers’ from death row",
+          "url": "https://www.foxnews.com/us/woman-found-shallow-grave-idd-after-44-years-millionaire-tied-estate-murder-plot",
+          "headline": "Woman found in shallow grave ID’d after 44 years as millionaire tied to estate murder plot",
           "platform": "rss"
         }
       ],
@@ -401,14 +373,70 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-16T20:16:44+00:00",
-      "last_seen": "2026-07-16T20:16:44+00:00",
+      "first_seen": "2026-07-16T21:22:56+00:00",
+      "last_seen": "2026-07-16T21:22:56+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1137
+      "topic": "tech",
+      "resonance": 0.1652
+    },
+    {
+      "id": "0da66785e6",
+      "title": "Piece of space history to feature in Powerhouse Parramatta debut exhibition",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-17/apollo-boilerplate-parramatta-powerhouse-exhibition/106883688",
+          "headline": "Piece of space history to feature in Powerhouse Parramatta debut exhibition",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T21:22:53+00:00",
+      "last_seen": "2026-07-16T21:22:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "resonance": 0.1651
+    },
+    {
+      "id": "74fb936417",
+      "title": "Coca-Cola suspended production at its Fairlife dairy after a ransomware attack",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/",
+          "headline": "Coca-Cola suspended production at its Fairlife dairy after a ransomware attack",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T21:22:31+00:00",
+      "last_seen": "2026-07-16T21:22:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.164
     },
     {
       "id": "b69a514b40",
@@ -429,24 +457,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-16T20:13:34+00:00",
-      "last_seen": "2026-07-16T20:13:34+00:00",
+      "first_seen": "2026-07-16T21:21:40+00:00",
+      "last_seen": "2026-07-16T21:21:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1068
+      "resonance": 0.1615
     },
     {
-      "id": "1f3bb83a51",
-      "title": "Ramaswamy torches Dem rival over 'outrageous' COVID-19 claim: 'Spewing lies'",
+      "id": "3d6b9a4496",
+      "title": "Details of Todd Blanche's behind-the-scenes meeting with Angel Mom revealed after Capitol Hill testimony",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/ramaswamy-torches-dem-rival-dem-rival-over-outrageous-covid-19-claim-spewing-lies",
-          "headline": "Ramaswamy torches Dem rival over 'outrageous' COVID-19 claim: 'Spewing lies'",
+          "url": "https://www.foxnews.com/politics/details-todd-blanches-behind-scenes-meeting-angel-mom-revealed-after-capitol-hill-testimony",
+          "headline": "Details of Todd Blanche's behind-the-scenes meeting with Angel Mom revealed after Capitol Hill testimony",
           "platform": "rss"
         }
       ],
@@ -457,226 +485,80 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-16T20:12:44+00:00",
-      "last_seen": "2026-07-16T20:12:44+00:00",
+      "first_seen": "2026-07-16T21:20:04+00:00",
+      "last_seen": "2026-07-16T21:20:04+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.105
+      "resonance": 0.1569
     },
     {
-      "id": "723c8d8a61",
-      "title": "ATO asked to justify 'extravagant' $73m Adelaide office move",
+      "id": "f9b7b0a8b7",
+      "title": "Liv Morgan brought her WWE title belt with her to the ESPYs & somehow everyone is talking about is her outfit",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-17/ato-relocating-adelaide-offices-into-festival-tower-two/106918860",
-          "headline": "ATO asked to justify 'extravagant' $73m Adelaide office move",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/liv-morgan-brought-wwe-title-belt-espys-everyone-talking-outfit",
+          "headline": "Liv Morgan brought her WWE title belt with her to the ESPYs & somehow everyone is talking about is her outfit",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": 0.6,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
-        "right": 0
+        "center": 0,
+        "right": 1
       },
-      "first_seen": "2026-07-16T20:12:11+00:00",
-      "last_seen": "2026-07-16T20:12:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1039
-    },
-    {
-      "id": "ca4e4382c8",
-      "title": "West Asia war LIVE: U.S. strikes hit around Iran's Qeshm island, says state media",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-washington-tehran-air-strikes-strait-of-hormuz-live-updates-july-16-2026/article71228351.ece",
-          "headline": "West Asia war LIVE: U.S. strikes hit around Iran's Qeshm island, says state media",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:11:03+00:00",
-      "last_seen": "2026-07-16T20:11:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1014
-    },
-    {
-      "id": "0c5d588cd5",
-      "title": "Israeli attacks kill at least five Palestinians in Gaza despite ‘ceasefire’",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-kill-five-gaza",
-          "headline": "Israeli strikes kill five in Gaza",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/16/israeli-attacks-kill-at-least-five-palestinians-in-gaza-despite-ceasefire?traffic_source=rss",
-          "headline": "Israeli attacks kill at least five Palestinians in Gaza despite ‘ceasefire’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T15:53:42+00:00",
-      "last_seen": "2026-07-16T19:30:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1013
-    },
-    {
-      "id": "b08a6acc71",
-      "title": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
-          "headline": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:09:48+00:00",
-      "last_seen": "2026-07-16T20:09:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0987
-    },
-    {
-      "id": "3754b6198e",
-      "title": "Founders Fund hires former OpenAI exec Ryan Beiermeister (and not because of her Mafia skills)",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/16/founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills/",
-          "headline": "Founders Fund hires former OpenAI exec Ryan Beiermeister (and not because of her Mafia skills)",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:07:14+00:00",
-      "last_seen": "2026-07-16T20:07:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0933
-    },
-    {
-      "id": "6c7168ab84",
-      "title": "Tirupati’s bus shelter inauguration evokes nostalgia",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/tirupatis-bus-shelter-inauguration-evokes-nostalgia/article71230283.ece",
-          "headline": "Tirupati’s bus shelter inauguration evokes nostalgia",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:05:44+00:00",
-      "last_seen": "2026-07-16T20:05:44+00:00",
+      "first_seen": "2026-07-16T21:18:58+00:00",
+      "last_seen": "2026-07-16T21:18:58+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0901
+      "resonance": 0.1538
     },
     {
-      "id": "fc5fd0d57f",
-      "title": "Syria seizes advanced weapons it says were bound for Lebanon’s Hezbollah",
+      "id": "923ec131d1",
+      "title": "Live: Hanson says daughter Lee is the 'future', has 'potential' to run One Nation",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/16/syria-seizes-advanced-weapons-it-says-were-bound-for-lebanons-hezbollah?traffic_source=rss",
-          "headline": "Syria seizes advanced weapons it says were bound for Lebanon’s Hezbollah",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-17/federal-politics-live-blog-hanson-podcast/106925958",
+          "headline": "Live: Hanson says daughter Lee is the 'future', has 'potential' to run One Nation",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.2,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T20:03:58+00:00",
-      "last_seen": "2026-07-16T20:03:58+00:00",
+      "first_seen": "2026-07-16T21:10:31+00:00",
+      "last_seen": "2026-07-16T21:10:31+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0864
+      "topic": "world",
+      "resonance": 0.1298
     },
     {
-      "id": "41e656ecd5",
-      "title": "Ukraine Was on a Roll. Then a Clash Over War Strategy Exploded Into View.",
+      "id": "7b71064d90",
+      "title": "Australia news live: Telstra CEO to face parliamentary inquiry over mobile outage",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/16/world/europe/ukraine-military-defense-minister-drones.html",
-          "headline": "Ukraine Was on a Roll. Then a Clash Over War Strategy Exploded Into View.",
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/17/australia-news-live-telstra-mobile-outage-parliament-inquiry-royal-commission-antisemitism-ai-anthony-albanese-labor-liberals-coalition-politics-ntwnfb",
+          "headline": "Australia news live: Telstra CEO to face parliamentary inquiry over mobile outage",
           "platform": "rss"
         }
       ],
@@ -687,52 +569,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-16T20:02:43+00:00",
-      "last_seen": "2026-07-16T20:02:43+00:00",
+      "first_seen": "2026-07-16T21:09:32+00:00",
+      "last_seen": "2026-07-16T21:09:32+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0837
+      "topic": "politics",
+      "resonance": 0.127
     },
     {
-      "id": "2726b37c0c",
-      "title": "Italian police raid luxury brands Bulgari and Chanel over exploitation of Chinese workers",
+      "id": "dcbf40f104",
+      "title": "Salad Chains Are Seeing Foot Traffic Drop Over Cyclosporiasis Fears",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3360847/italian-police-raid-luxury-brands-bulgari-and-chanel-over-exploitation-chinese-workers?utm_source=rss_feed",
-          "headline": "Italian police raid luxury brands Bulgari and Chanel over exploitation of Chinese workers",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:01:38+00:00",
-      "last_seen": "2026-07-16T20:01:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0815
-    },
-    {
-      "id": "f3912f2f4c",
-      "title": "Prescribed opioids led to addiction for woman battling endometriosis",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-17/opioid-use-prescriptions-addiction-victoria/106892544",
-          "headline": "Prescribed opioids led to addiction for woman battling endometriosis",
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/explosive-diarrhea-outbreak-new-victims-salad-chains/",
+          "headline": "Salad Chains Are Seeing Foot Traffic Drop Over Cyclosporiasis Fears",
           "platform": "rss"
         }
       ],
@@ -743,24 +597,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T20:00:56+00:00",
-      "last_seen": "2026-07-16T20:00:56+00:00",
+      "first_seen": "2026-07-16T21:06:59+00:00",
+      "last_seen": "2026-07-16T21:06:59+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.08
+      "topic": "tech",
+      "resonance": 0.1199
     },
     {
-      "id": "5fb90cb815",
-      "title": "Sam Neill died from a common infection. Here's how pneumonia can turn deadly",
+      "id": "4ec6e93bf5",
+      "title": "West Asia war LIVE: U.S. launches new strikes on Iran; explosions heard in south",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-17/what-to-know-about-pneumonia-after-sam-neill-death/106924564",
-          "headline": "Sam Neill died from a common infection. Here's how pneumonia can turn deadly",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-washington-tehran-air-strikes-strait-of-hormuz-live-updates-july-16-2026/article71228351.ece",
+          "headline": "West Asia war LIVE: U.S. launches new strikes on Iran; explosions heard in south",
           "platform": "rss"
         }
       ],
@@ -771,24 +625,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T20:00:24+00:00",
-      "last_seen": "2026-07-16T20:00:24+00:00",
+      "first_seen": "2026-07-16T21:06:32+00:00",
+      "last_seen": "2026-07-16T21:06:32+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0789
+      "topic": "conflict",
+      "resonance": 0.1186
     },
     {
-      "id": "7e60d936ed",
-      "title": "Explosions reported in Iran’s Bushehr",
+      "id": "4ffcad61df",
+      "title": "Saudi Arabia mulls military escalation in response to Houthi threats",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-reported-irans-bushehr",
-          "headline": "Explosions reported in Iran’s Bushehr",
+          "url": "https://www.middleeasteye.net/news/saudi-arabia-mulls-military-escalation-response-houthi-threats",
+          "headline": "Saudi Arabia mulls military escalation in response to Houthi threats",
           "platform": "rss"
         }
       ],
@@ -799,24 +653,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-16T20:00:03+00:00",
-      "last_seen": "2026-07-16T20:00:03+00:00",
+      "first_seen": "2026-07-16T21:04:32+00:00",
+      "last_seen": "2026-07-16T21:04:32+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0781
+      "topic": "conflict",
+      "resonance": 0.1131
     },
     {
-      "id": "15f8e5e2c7",
-      "title": "It is not all bad between India and Pakistan",
+      "id": "2fe34c630a",
+      "title": "Rider suffers fractured collarbone in chaotic end to Tour de France stage",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/opinion/op-ed/it-is-not-all-bad-between-india-and-pakistan/article71230886.ece",
-          "headline": "It is not all bad between India and Pakistan",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-17/tour-de-france-stage-12-tim-merlier-claims-victory/106925960",
+          "headline": "Rider suffers fractured collarbone in chaotic end to Tour de France stage",
           "platform": "rss"
         }
       ],
@@ -827,52 +681,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T19:59:02+00:00",
-      "last_seen": "2026-07-16T19:59:02+00:00",
+      "first_seen": "2026-07-16T21:03:51+00:00",
+      "last_seen": "2026-07-16T21:03:51+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.076
+      "resonance": 0.1112
     },
     {
-      "id": "fc5b5d9cea",
-      "title": "Canada wildfires spread smoke across North America, prompting air quality alerts",
+      "id": "9fe12897ec",
+      "title": "ENG vs IND 2nd ODI: Root guides England to series-levelling win in Cardiff",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
-          "headline": "Canada wildfires spread smoke across North America, prompting air quality alerts",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/cricket/eng-vs-ind-2nd-odi-root-guides-england-to-series-levelling-win-in-cardiff/article71231534.ece",
+          "headline": "ENG vs IND 2nd ODI: Root guides England to series-levelling win in Cardiff",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T19:58:55+00:00",
-      "last_seen": "2026-07-16T19:58:55+00:00",
+      "first_seen": "2026-07-16T21:01:43+00:00",
+      "last_seen": "2026-07-16T21:01:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0758
+      "topic": "world",
+      "resonance": 0.1053
     },
     {
-      "id": "f6e7a0315f",
-      "title": "Nicaragua severs diplomatic ties with Italy over 1978 murder case",
+      "id": "2930ad1e09",
+      "title": "After ambushes, CRPF tells forces in Manipur to use armoured vehicles, avoid sudden deployment",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/after-ambushes-crpf-tells-forces-in-manipur-to-use-armoured-vehicles-avoid-sudden-deployment/article71231213.ece",
+          "headline": "After ambushes, CRPF tells forces in Manipur to use armoured vehicles, avoid sudden deployment",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T20:59:41+00:00",
+      "last_seen": "2026-07-16T20:59:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0997
+    },
+    {
+      "id": "008ed94d56",
+      "title": "Donald Trump live: US president to deliver primetime address on elections",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/16/nicaragua-severs-diplomatic-ties-with-italy-over-1978-murder-case?traffic_source=rss",
-          "headline": "Nicaragua severs diplomatic ties with Italy over 1978 murder case",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/7/16/donald-trump-live-us-president-to-deliver-primetime-address-on-elections?traffic_source=rss",
+          "headline": "Donald Trump live: US president to deliver primetime address on elections",
           "platform": "rss"
         }
       ],
@@ -883,52 +765,114 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T19:57:46+00:00",
-      "last_seen": "2026-07-16T19:57:46+00:00",
+      "first_seen": "2026-07-16T20:59:18+00:00",
+      "last_seen": "2026-07-16T20:59:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0734
+      "topic": "politics",
+      "resonance": 0.0986
     },
     {
-      "id": "f6466a9667",
-      "title": "Why are CD sales suddenly growing again?",
-      "signal_count": 1,
+      "id": "42d35c4250",
+      "title": "EU tells Google to share search data, open Android to AI rivals",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/entertainment/966726/cd-sales-vinyl-physical-media-luminate",
-          "headline": "Why are CD sales suddenly growing again?",
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+          "headline": "It's official: EU will force Google to share search data and open up AI on Android",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/16/eu-tells-google-to-share-search-data-open-android-to-ai-rivals_6755545_4.html",
+          "headline": "EU tells Google to share search data, open Android to AI rivals",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
+        "mean": -0.15,
+        "spread": 0.05,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-16T19:55:29+00:00",
-      "last_seen": "2026-07-16T19:55:29+00:00",
+      "first_seen": "2026-07-16T15:18:01+00:00",
+      "last_seen": "2026-07-16T20:41:45+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0686
+      "resonance": 0.0952
     },
     {
-      "id": "c727e4590b",
-      "title": "Some England players disappointed at tactics as Tuchel questions team's DNA",
+      "id": "95cd54db06",
+      "title": "Delightful World Cup Stories",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cqjxl90x27ro?at_medium=RSS&at_campaign=rss",
-          "headline": "Some England players disappointed at tactics as Tuchel questions team's DNA",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/16/world/world-cup-spain-argentina-ukraine.html",
+          "headline": "Delightful World Cup Stories",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T20:53:40+00:00",
+      "last_seen": "2026-07-16T20:53:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0833
+    },
+    {
+      "id": "839653e723",
+      "title": "Zelensky ousts popular defense minister, an architect of Ukraine’s drone program",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/07/16/zelensky-ousts-popular-defense-minister-an-architect-ukraines-drone-program/",
+          "headline": "Zelensky ousts popular defense minister, an architect of Ukraine’s drone program",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T20:53:14+00:00",
+      "last_seen": "2026-07-16T20:53:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0821
+    },
+    {
+      "id": "2079dcc125",
+      "title": "T-Mobile bungled forced plan migration, canceling some users' free lines",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/07/t-mobile-bungled-forced-plan-migration-canceling-some-users-free-lines/",
+          "headline": "T-Mobile bungled forced plan migration, canceling some users' free lines",
           "platform": "rss"
         }
       ],
@@ -939,30 +883,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T19:54:48+00:00",
-      "last_seen": "2026-07-16T19:54:48+00:00",
+      "first_seen": "2026-07-16T20:52:47+00:00",
+      "last_seen": "2026-07-16T20:52:47+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0672
+      "topic": "world",
+      "resonance": 0.0809
     },
     {
-      "id": "7908d9075c",
-      "title": "Does national recognition come belatedly for south Indian artistes? | In Focus Podcast",
-      "signal_count": 2,
+      "id": "e1261f3cae",
+      "title": "After years of false claims on voting, Trump to give an address on election integrity",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/podcast/does-national-recognition-come-belatedly-for-south-indian-artistes-in-focus-podcast/article71230372.ece",
-          "headline": "Does national recognition come belatedly for south Indian artistes? | In Focus Podcast",
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/16/nx-s1-5896448/trump-election-address",
+          "headline": "After years of false claims on voting, Trump to give an address on election integrity",
           "platform": "rss"
-        },
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T20:50:26+00:00",
+      "last_seen": "2026-07-16T20:50:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0746
+    },
+    {
+      "id": "d9c38114bf",
+      "title": "Samsung’s 55-inch Frame art TV is $200 cheaper than usual",
+      "signal_count": 1,
+      "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/opinion/op-ed/does-national-recognition-come-belatedly-for-south-indian-artistes/article71231245.ece",
-          "headline": "Does national recognition come belatedly for south Indian artistes?",
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/gadgets/966613/samsung-the-frame-art-tv-deal-sale",
+          "headline": "Samsung’s 55-inch Frame art TV is $200 cheaper than usual",
           "platform": "rss"
         }
       ],
@@ -970,27 +936,27 @@
         "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T19:49:13+00:00",
-      "last_seen": "2026-07-16T19:51:47+00:00",
+      "first_seen": "2026-07-16T20:47:30+00:00",
+      "last_seen": "2026-07-16T20:47:30+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0614
+      "resonance": 0.0668
     },
     {
-      "id": "3c6d237fa0",
-      "title": "US embassy in Baghdad issues security alert after drone attack",
+      "id": "abe5ed019d",
+      "title": "Iran state media reports new strikes, explosions in south",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-embassy-baghdad-issues-security-alert-after-drone-attack",
-          "headline": "US embassy in Baghdad issues security alert after drone attack",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-state-media-reports-new-strikes-explosions-south",
+          "headline": "Iran state media reports new strikes, explosions in south",
           "platform": "rss"
         }
       ],
@@ -1001,24 +967,52 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-16T19:50:10+00:00",
-      "last_seen": "2026-07-16T19:50:10+00:00",
+      "first_seen": "2026-07-16T20:46:23+00:00",
+      "last_seen": "2026-07-16T20:46:23+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0577
+      "resonance": 0.0638
     },
     {
-      "id": "08e5aa4624",
-      "title": "2026 Toyota RAV4 plug-in: Big battery means daily drives are all-electric",
+      "id": "7e0c9ca58d",
+      "title": "As Argentina Holds Up Falklands Banner on Defeating England, Here’s What to Know About the War",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/cars/2026/07/2026-toyota-rav4-plug-in-review-good-but-skip-the-gr-sport/",
-          "headline": "2026 Toyota RAV4 plug-in: Big battery means daily drives are all-electric",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/16/world/americas/falklands-malvinas-england-argentina-war.html",
+          "headline": "As Argentina Holds Up Falklands Banner on Defeating England, Here’s What to Know About the War",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T20:43:45+00:00",
+      "last_seen": "2026-07-16T20:43:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0568
+    },
+    {
+      "id": "7695bec437",
+      "title": "Do Face Masks Help With Wildfire Smoke? Yes, But More Is Needed",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/wildfire-smoke-safety-guide/",
+          "headline": "Do Face Masks Help With Wildfire Smoke? Yes, But More Is Needed",
           "platform": "rss"
         }
       ],
@@ -1029,57 +1023,99 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T19:46:22+00:00",
-      "last_seen": "2026-07-16T19:46:22+00:00",
+      "first_seen": "2026-07-16T20:41:10+00:00",
+      "last_seen": "2026-07-16T20:41:10+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
+      "topic": "climate",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "69f928bb62",
+      "source": "719fda75da",
       "target": "a5410862ce",
-      "weight": 0.256,
+      "weight": 0.028,
       "type": "thematic"
     },
     {
-      "source": "4ded971759",
-      "target": "00d1b5bf5a",
-      "weight": 0.468,
+      "source": "e994e8f5e5",
+      "target": "b69a514b40",
+      "weight": 0.696,
       "type": "thematic"
     },
     {
-      "source": "4ded971759",
-      "target": "bf4fe47567",
-      "weight": 0.885,
+      "source": "e994e8f5e5",
+      "target": "4ec6e93bf5",
+      "weight": 0.326,
+      "type": "thematic"
+    },
+    {
+      "source": "e994e8f5e5",
+      "target": "abe5ed019d",
+      "weight": 0.146,
       "type": "thematic"
     },
     {
       "source": "00d1b5bf5a",
-      "target": "bf4fe47567",
-      "weight": 0.257,
+      "target": "008ed94d56",
+      "weight": 0.092,
       "type": "thematic"
     },
     {
-      "source": "3254fb50ff",
-      "target": "f021454c11",
-      "weight": 0.281,
+      "source": "00d1b5bf5a",
+      "target": "e1261f3cae",
+      "weight": 0.072,
+      "type": "thematic"
+    },
+    {
+      "source": "f38e6c1ddd",
+      "target": "4ec6e93bf5",
+      "weight": 0.054,
+      "type": "thematic"
+    },
+    {
+      "source": "f38e6c1ddd",
+      "target": "9fe12897ec",
+      "weight": 0.059,
+      "type": "thematic"
+    },
+    {
+      "source": "f38e6c1ddd",
+      "target": "abe5ed019d",
+      "weight": 0.151,
+      "type": "thematic"
+    },
+    {
+      "source": "0ebd27d5b5",
+      "target": "95cd54db06",
+      "weight": 0.566,
+      "type": "thematic"
+    },
+    {
+      "source": "0ebd27d5b5",
+      "target": "7e0c9ca58d",
+      "weight": 0.588,
       "type": "thematic"
     },
     {
       "source": "b69a514b40",
-      "target": "ca4e4382c8",
-      "weight": 0.654,
+      "target": "4ec6e93bf5",
+      "weight": 0.696,
       "type": "thematic"
     },
     {
       "source": "b69a514b40",
-      "target": "7e60d936ed",
-      "weight": 0.264,
+      "target": "abe5ed019d",
+      "weight": 0.38,
+      "type": "thematic"
+    },
+    {
+      "source": "008ed94d56",
+      "target": "e1261f3cae",
+      "weight": 0.23,
       "type": "thematic"
     }
   ],
@@ -1106,7 +1142,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 9,
+      "count": 8,
       "error": null
     },
     "The Economist": {
@@ -1126,7 +1162,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 9,
+      "count": 8,
       "error": null
     },
     "The Atlantic": {

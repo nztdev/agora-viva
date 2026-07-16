@@ -1,8 +1,49 @@
 {
-  "generated_at": "2026-07-16T17:45:13.267808+00:00",
+  "generated_at": "2026-07-16T19:04:58.685795+00:00",
   "node_count": 35,
-  "edge_count": 7,
+  "edge_count": 10,
   "nodes": [
+    {
+      "id": "03c277664b",
+      "title": "Google is renaming NotebookLM to Gemini Notebook",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+          "headline": "NotebookLM is now Gemini Notebook",
+          "platform": "hackernews"
+        },
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/",
+          "headline": "Google continues its renaming streak by turning NotebookLM to Gemini Notebook",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+          "headline": "Google is renaming NotebookLM to Gemini Notebook",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.067,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T16:00:00+00:00",
+      "last_seen": "2026-07-16T16:08:13+00:00",
+      "platforms": [
+        "hackernews",
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.7381
+    },
     {
       "id": "69f928bb62",
       "title": "Kimi K3 is now live",
@@ -60,32 +101,124 @@
       "resonance": 0.28
     },
     {
-      "id": "6d19685e58",
-      "title": "Sony deletes a movies from the accounts of people who ‘bought’ them",
-      "signal_count": 1,
+      "id": "bf4fe47567",
+      "title": "White House teleprompter operator accused of making $100k off Trump speech bets",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://www.techdirt.com/2026/07/15/sony-deletes-a-bunch-more-movies-from-the-accounts-of-people-who-bought-them/",
-          "headline": "Sony deletes a movies from the accounts of people who ‘bought’ them",
-          "platform": "hackernews"
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cjrvdqyr5d5o?at_medium=RSS&at_campaign=rss",
+          "headline": "White House teleprompter operator accused of making $100k off Trump speech bets",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/white-house-condemns-staffer-accused-betting-trump-speech-disgrace",
+          "headline": "White House condemns staffer accused of betting on Trump speech as a 'disgrace'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/16/nx-s1-5896223/kalshi-trump-white-house-teleprompter-operator-bet",
+          "headline": "Officials probe whether White House teleprompter operator profited off Trump's words",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.324,
+        "left": 0,
+        "center": 2,
+        "right": 1
+      },
+      "first_seen": "2026-07-16T17:10:29+00:00",
+      "last_seen": "2026-07-16T18:52:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.488
+    },
+    {
+      "id": "3914b06642",
+      "title": "Orphanage Fire Kills Eleven in Algeria",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/16/world/africa/algeria-orphanage-fire.html",
+          "headline": "Orphanage Fire Kills Eleven in Algeria",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/video/2026/07/16/algeria-investigates-mohammadia-orphanage-fire-that-killed-11-people",
+          "headline": "Algeria investigates Mohammadia orphanage fire that killed 11 people",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/eleven-killed-in-algeria-orphanage-fire?traffic_source=rss",
+          "headline": "Eleven killed in Algeria orphanage fire",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/algeria-fire-at-orphanage-kills-11-including-children/a-77991351?maca=en-rss-en-all-1573-rdf",
+          "headline": "Algeria: Fire at orphanage kills 11, including children",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.175,
+        "spread": 0.083,
+        "left": 1,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T13:55:00+00:00",
+      "last_seen": "2026-07-16T18:31:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.4187
+    },
+    {
+      "id": "4ded971759",
+      "title": "Trump's teleprompter operator suspended over bets on president's speeches",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-17/trump-teleprompter-operator-suspended/106925842",
+          "headline": "Trump's teleprompter operator suspended over bets on president's speeches",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360845/trumps-teleprompter-operator-allegedly-made-us90000-betting-his-speeches?utm_source=rss_feed",
+          "headline": "Trump’s teleprompter operator allegedly made US$90,000 betting on his speeches",
+          "platform": "rss"
         }
       ],
       "bias": {
         "mean": 0.0,
-        "spread": 0.0,
+        "spread": 0.1,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-16T12:13:43+00:00",
-      "last_seen": "2026-07-16T12:13:43+00:00",
+      "first_seen": "2026-07-16T18:21:20+00:00",
+      "last_seen": "2026-07-16T18:56:45+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
+      "topic": "politics",
+      "resonance": 0.4082
     },
     {
       "id": "04e76a2929",
@@ -119,47 +252,7 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.3268
-    },
-    {
-      "id": "32aaf5ec52",
-      "title": "Algeria: Fire at orphanage kills 11, including children",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/video/2026/07/16/algeria-investigates-mohammadia-orphanage-fire-that-killed-11-people",
-          "headline": "Algeria investigates Mohammadia orphanage fire that killed 11 people",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/eleven-killed-in-algeria-orphanage-fire?traffic_source=rss",
-          "headline": "Eleven killed in Algeria orphanage fire",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/algeria-fire-at-orphanage-kills-11-including-children/a-77991351?maca=en-rss-en-all-1573-rdf",
-          "headline": "Algeria: Fire at orphanage kills 11, including children",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.133,
-        "spread": 0.047,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T13:55:00+00:00",
-      "last_seen": "2026-07-16T17:19:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.3208
+      "resonance": 0.1994
     },
     {
       "id": "d724662943",
@@ -199,125 +292,23 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.2747
+      "resonance": 0.1535
     },
     {
-      "id": "03c277664b",
-      "title": "Google is renaming NotebookLM to Gemini Notebook",
+      "id": "340939adbe",
+      "title": "Ebola 'spreading faster than any previous outbreak' in DR Congo, WHO warns",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/",
-          "headline": "Google continues its renaming streak by turning NotebookLM to Gemini Notebook",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
-          "headline": "Google is renaming NotebookLM to Gemini Notebook",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T16:00:00+00:00",
-      "last_seen": "2026-07-16T16:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.186
-    },
-    {
-      "id": "74fb82476a",
-      "title": "Zelensky's removal of popular defence minister sparks protests in Ukraine",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
-          "headline": "Zelensky's removal of popular defence minister sparks protests in Ukraine",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/who-ebola-spreading-faster-than-ever-recorded-in-dr-congo?traffic_source=rss",
+          "headline": "WHO: Ebola spreading faster than ever recorded in DR Congo",
           "platform": "rss"
         },
         {
           "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260716-ukraine-protests-erupt-after-defence-minister-sacked",
-          "headline": "Ukraine: Protests erupt after defence minister sacked",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T14:42:13+00:00",
-      "last_seen": "2026-07-16T16:36:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1623
-    },
-    {
-      "id": "ae2ba610df",
-      "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
-          "headline": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3360837/italian-court-sentences-ex-highway-chief-12-years-jail-over-genoa-bridge-disaster?utm_source=rss_feed",
-          "headline": "Italian court sentences ex-highway chief to 12 years’ jail over Genoa bridge disaster",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T13:47:34+00:00",
-      "last_seen": "2026-07-16T17:22:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.161
-    },
-    {
-      "id": "76962be772",
-      "title": "Tour de France: Tim Merlier claims third stage win",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260716-merlier-claims-hat-trick-of-tour-de-france-stage-wins",
-          "headline": "Merlier claims third Tour de France stage win in crash-hit sprint finish",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/sports/article/2026/07/16/tour-de-france-tim-merlier-claims-third-stage-win_6755547_9.html",
-          "headline": "Tour de France: Tim Merlier claims third stage win",
+          "url": "https://www.france24.com/en/africa/20260716-ebola-spreading-faster-than-any-previous-outbreak-dr-congo-who-warns",
+          "headline": "Ebola 'spreading faster than any previous outbreak' in DR Congo, WHO warns",
           "platform": "rss"
         }
       ],
@@ -328,24 +319,24 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-16T15:26:44+00:00",
-      "last_seen": "2026-07-16T15:39:09+00:00",
+      "first_seen": "2026-07-16T15:02:54+00:00",
+      "last_seen": "2026-07-16T18:21:28+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1526
+      "topic": "conflict",
+      "resonance": 0.1507
     },
     {
-      "id": "bec0e084b5",
-      "title": "HC refuses to suspend sentence imposed on police personnel convicted in S.S. Colony custodial death case",
+      "id": "b0922527f5",
+      "title": "Man convicted under POCSO Act for misbehaving with girl",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Madurai/hc-refuses-to-suspend-sentence-imposed-on-police-personnel-convicted-in-ss-colony-custodial-death-case/article71231327.ece",
-          "headline": "HC refuses to suspend sentence imposed on police personnel convicted in S.S. Colony custodial death case",
+          "url": "https://www.thehindu.com/news/cities/puducherry/man-convicted-under-pocso-act-for-misbehaving-with-girl/article71229834.ece",
+          "headline": "Man convicted under POCSO Act for misbehaving with girl",
           "platform": "rss"
         }
       ],
@@ -356,24 +347,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T17:41:01+00:00",
-      "last_seen": "2026-07-16T17:41:01+00:00",
+      "first_seen": "2026-07-16T19:01:35+00:00",
+      "last_seen": "2026-07-16T19:01:35+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1217
+      "topic": "world",
+      "resonance": 0.1402
     },
     {
-      "id": "ecae5bdaf7",
-      "title": "Fox News surges 29% in unique visitors during Q2 while CNN posts its weakest digital audience since 2015",
+      "id": "27dd8d0fe6",
+      "title": "Famous beach now requires visitors to reserve spots weeks ahead and pay fees",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/fox-news-surges-29-unique-visitors-during-q2-while-cnn-posts-its-weakest-digital-audience-since-2015",
-          "headline": "Fox News surges 29% in unique visitors during Q2 while CNN posts its weakest digital audience since 2015",
+          "url": "https://www.foxnews.com/travel/famous-beach-now-requires-visitors-reserve-spots-weeks-ahead-pay-fees",
+          "headline": "Famous beach now requires visitors to reserve spots weeks ahead and pay fees",
           "platform": "rss"
         }
       ],
@@ -384,24 +375,24 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-16T17:37:05+00:00",
-      "last_seen": "2026-07-16T17:37:05+00:00",
+      "first_seen": "2026-07-16T19:00:24+00:00",
+      "last_seen": "2026-07-16T19:00:24+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1145
+      "resonance": 0.1379
     },
     {
-      "id": "6df75377ed",
-      "title": "Oil giant BP shutters its corporate venture arm after 20 years",
+      "id": "2fa441edbb",
+      "title": "Jacinda Ardern on the rise of fringe politics and what voters really want",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/16/oil-giant-bp-shutters-its-corporate-venture-arm-after-20-years/",
-          "headline": "Oil giant BP shutters its corporate venture arm after 20 years",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-17/jacinda-ardern-empathetic-leadership-in-politics/106900418",
+          "headline": "Jacinda Ardern on the rise of fringe politics and what voters really want",
           "platform": "rss"
         }
       ],
@@ -412,114 +403,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T17:37:03+00:00",
-      "last_seen": "2026-07-16T17:37:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1145
-    },
-    {
-      "id": "a066115a10",
-      "title": "NIA to charge 10 ‘for role in J&K narco-terror syndicate’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/nia-to-charge-10-for-role-injk-narco-terror-syndicate/article71230705.ece",
-          "headline": "NIA to charge 10 ‘for role in J&K narco-terror syndicate’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T17:37:02+00:00",
-      "last_seen": "2026-07-16T17:37:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1145
-    },
-    {
-      "id": "5355b26c7f",
-      "title": "More than 800 Canadian wildfires burning as air quality alerts extend to US",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
-          "headline": "More than 800 Canadian wildfires burning as air quality alerts extend to US",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T17:36:43+00:00",
-      "last_seen": "2026-07-16T17:36:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1139
-    },
-    {
-      "id": "41d8ddb606",
-      "title": "The Essentials About Mykhailo Fedorov, the Ousted Ukrainian Minister",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/16/world/europe/who-mykhailo-fedorov-ukraine-defense-minister.html",
-          "headline": "The Essentials About Mykhailo Fedorov, the Ousted Ukrainian Minister",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260716-ousted-defence-chief-mykhailo-fedorov-whose-reforms-riled-ukraine-s-army-bosses",
-          "headline": "Mykhailo Fedorov: Ousted defence chief's reforms riled Ukrainian army bosses",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.1,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T14:15:14+00:00",
-      "last_seen": "2026-07-16T15:34:12+00:00",
+      "first_seen": "2026-07-16T19:00:00+00:00",
+      "last_seen": "2026-07-16T19:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1108
+      "resonance": 0.1371
     },
     {
-      "id": "07b827597b",
-      "title": "Residents seek urgent measures to protect Iruvanjippuzha, Cherupuzha riverbanks",
+      "id": "16d82848fc",
+      "title": "Collector inspects bus stand, govt. offices in Bahour village",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/residents-seek-urgent-measures-to-protect-iruvanjippuzha-cherupuzha-riverbanks/article71230486.ece",
-          "headline": "Residents seek urgent measures to protect Iruvanjippuzha, Cherupuzha riverbanks",
+          "url": "https://www.thehindu.com/news/cities/puducherry/collector-inspects-bus-stand-govt-offices-in-bahour-village/article71229811.ece",
+          "headline": "Collector inspects bus stand, govt. offices in Bahour village",
           "platform": "rss"
         }
       ],
@@ -530,42 +431,126 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T17:35:00+00:00",
-      "last_seen": "2026-07-16T17:35:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.1108
-    },
-    {
-      "id": "cbb5941c93",
-      "title": "Burnham planning summer tour of UK in early weeks as PM",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c62v3w45199o?at_medium=RSS&at_campaign=rss",
-          "headline": "Burnham planning summer tour of UK in early weeks as PM",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T17:34:45+00:00",
-      "last_seen": "2026-07-16T17:34:45+00:00",
+      "first_seen": "2026-07-16T18:59:41+00:00",
+      "last_seen": "2026-07-16T18:59:41+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1103
+      "resonance": 0.1365
+    },
+    {
+      "id": "d2640bbb00",
+      "title": "From ice stupas to hunger strikes: The journey of Sonam Wangchuk",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/videos/from-ice-stupas-to-hunger-strikes-the-journey-of-sonam-wangchuk/article71231466.ece",
+          "headline": "From ice stupas to hunger strikes: The journey of Sonam Wangchuk",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T18:59:24+00:00",
+      "last_seen": "2026-07-16T18:59:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1359
+    },
+    {
+      "id": "43ab51d1e7",
+      "title": "Energy drinks to be banned for under-16s in England from April",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/czrjg0jxkpno?at_medium=RSS&at_campaign=rss",
+          "headline": "Energy drinks to be banned for under-16s in England from April",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T18:57:47+00:00",
+      "last_seen": "2026-07-16T18:57:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1328
+    },
+    {
+      "id": "39663c0841",
+      "title": "US forces launch new strikes on Iran, US military says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-forces-launch-new-strikes-against-iran-us-military-says",
+          "headline": "US forces launch new strikes on Iran, US military says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T18:56:39+00:00",
+      "last_seen": "2026-07-16T18:56:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1306
+    },
+    {
+      "id": "b2eb501083",
+      "title": "Home Run Derby ratings crash on Netflix, sets 20-plus-year low as questions surface about program quality",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/home-run-derby-ratings-crash-netflix-sets-20-plus-year-low-questions-surface-program-quality",
+          "headline": "Home Run Derby ratings crash on Netflix, sets 20-plus-year low as questions surface about program quality",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-16T18:55:10+00:00",
+      "last_seen": "2026-07-16T18:55:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1278
     },
     {
       "id": "9ed4780cac",
@@ -586,24 +571,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-16T17:28:20+00:00",
-      "last_seen": "2026-07-16T17:28:20+00:00",
+      "first_seen": "2026-07-16T18:53:37+00:00",
+      "last_seen": "2026-07-16T18:53:37+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0988
+      "resonance": 0.1248
     },
     {
-      "id": "673a42462d",
-      "title": "Mother guilty over baby's hairdryer burns death",
+      "id": "a02f37a6a2",
+      "title": "Vaping on decline as young Australians shift to other nicotine products",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cy5d49q50ppo?at_medium=RSS&at_campaign=rss",
-          "headline": "Mother guilty over baby's hairdryer burns death",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-17/vaping-on-decline-as-smoking-rates-hit-historic-low/106925270",
+          "headline": "Vaping on decline as young Australians shift to other nicotine products",
           "platform": "rss"
         }
       ],
@@ -614,24 +599,108 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T17:26:55+00:00",
-      "last_seen": "2026-07-16T17:26:55+00:00",
+      "first_seen": "2026-07-16T18:49:32+00:00",
+      "last_seen": "2026-07-16T18:49:32+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0963
+      "topic": "world",
+      "resonance": 0.117
     },
     {
-      "id": "7a8485174a",
-      "title": "Baltimore beat-down: Video shows group of teens pummeling elderly man outside 7-Eleven as police hunt suspects",
+      "id": "035dc304a7",
+      "title": "Taylor has two major problems — and that's leaving aside One Nation",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-17/angus-taylor-two-major-problems/106925008",
+          "headline": "Taylor has two major problems — and that's leaving aside One Nation",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T18:46:10+00:00",
+      "last_seen": "2026-07-16T18:46:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1106
+    },
+    {
+      "id": "4bb44bee12",
+      "title": "What could a US ground invasion of Iran look like?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/what-could-a-us-ground-invasion-of-iran-look-like?traffic_source=rss",
+          "headline": "What could a US ground invasion of Iran look like?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T18:45:30+00:00",
+      "last_seen": "2026-07-16T18:45:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1094
+    },
+    {
+      "id": "c11de94961",
+      "title": "Kalshi says it caught Trump&#8217;s teleprompter operator insider trading",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/news/966676/trump-teleprompter-operator-kalshi-bets-mention-markets-investigation",
+          "headline": "Kalshi says it caught Trump&#8217;s teleprompter operator insider trading",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T18:43:14+00:00",
+      "last_seen": "2026-07-16T18:43:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1052
+    },
+    {
+      "id": "6c42858cf8",
+      "title": "'The Big Bang Theory' star Jim Parsons says he paid a steep price for fame",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/baltimore-beat-down-video-shows-group-teens-pummeling-elderly-man-outside-7-eleven-police-hunt-suspects",
-          "headline": "Baltimore beat-down: Video shows group of teens pummeling elderly man outside 7-Eleven as police hunt suspects",
+          "url": "https://www.foxnews.com/entertainment/big-bang-theory-star-jim-parsons-paid-steep-price-fame",
+          "headline": "'The Big Bang Theory' star Jim Parsons says he paid a steep price for fame",
           "platform": "rss"
         }
       ],
@@ -642,164 +711,86 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-16T17:24:37+00:00",
-      "last_seen": "2026-07-16T17:24:37+00:00",
+      "first_seen": "2026-07-16T18:39:52+00:00",
+      "last_seen": "2026-07-16T18:39:52+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0922
+      "topic": "tech",
+      "resonance": 0.0989
     },
     {
-      "id": "b21125973d",
-      "title": "Why Orthodox Jews are opposing the new daylight saving bill in Congress",
+      "id": "d223103ba1",
+      "title": "Iran condemns ‘barbaric’ US attack near children’s cancer hospital",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/16/g-s1-133961/why-orthodox-jews-are-opposing-the-new-daylight-saving-bill-in-congress",
-          "headline": "Why Orthodox Jews are opposing the new daylight saving bill in Congress",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/16/iran-condemns-barbaric-us-attack-near-childrens-cancer-hospital?traffic_source=rss",
+          "headline": "Iran condemns ‘barbaric’ US attack near children’s cancer hospital",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T18:37:55+00:00",
+      "last_seen": "2026-07-16T18:37:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.0953
+    },
+    {
+      "id": "5355b26c7f",
+      "title": "More than 800 Canadian wildfires burning as air quality alerts extend to US",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
+          "headline": "More than 800 Canadian wildfires burning as air quality alerts extend to US",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality",
+          "headline": "Air quality plummets in 20 states as smoke from Canadian wildfires spreads across the US",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T17:24:31+00:00",
-      "last_seen": "2026-07-16T17:24:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.092
-    },
-    {
-      "id": "2675dcaa4c",
-      "title": "Elderly Florida woman goes viral after getting hilariously crude license plate",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/elderly-florida-woman-goes-viral-hilariously-crude-license-plate",
-          "headline": "Elderly Florida woman goes viral after getting hilariously crude license plate",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-16T17:22:54+00:00",
-      "last_seen": "2026-07-16T17:22:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0892
-    },
-    {
-      "id": "ee06b80ceb",
-      "title": "US approves nearly $2bn in weapons sale to Saudi Arabia",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/16/us-approves-nearly-2bn-in-weapons-sale-to-saudi-arabia?traffic_source=rss",
-          "headline": "US approves nearly $2bn in weapons sale to Saudi Arabia",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T17:22:09+00:00",
-      "last_seen": "2026-07-16T17:22:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0879
-    },
-    {
-      "id": "33e2c2c157",
-      "title": "At least 1 dead in Texas floods ravaging same area where campers died",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c3v0xe5elzyo?at_medium=RSS&at_campaign=rss",
-          "headline": "At least 1 dead in Texas floods ravaging same area where campers died",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T17:22:02+00:00",
-      "last_seen": "2026-07-16T17:22:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.0877
-    },
-    {
-      "id": "7b8fbc4f62",
-      "title": "Dubai media office says no sounds of 'explosions' in downtown Dubai",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-media-office-says-no-sounds-explosions-downtown-dubai",
-          "headline": "Dubai media office says no sounds of 'explosions' in downtown Dubai",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
+        "spread": 0.15,
         "left": 1,
-        "center": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T17:20:53+00:00",
-      "last_seen": "2026-07-16T17:20:53+00:00",
+      "first_seen": "2026-07-16T14:49:46+00:00",
+      "last_seen": "2026-07-16T17:36:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0856
+      "resonance": 0.0932
     },
     {
-      "id": "4e56a647a4",
-      "title": "Sadiq Khan among 26 new peers to enter the Lords",
+      "id": "6393a4ea18",
+      "title": "Everyone Thinks They Have the Diarrhea Parasite",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cglj25k94r9o?at_medium=RSS&at_campaign=rss",
-          "headline": "Sadiq Khan among 26 new peers to enter the Lords",
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/everyone-thinks-they-have-diarrhea-parasite/",
+          "headline": "Everyone Thinks They Have the Diarrhea Parasite",
           "platform": "rss"
         }
       ],
@@ -810,108 +801,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T17:20:47+00:00",
-      "last_seen": "2026-07-16T17:20:47+00:00",
+      "first_seen": "2026-07-16T18:36:19+00:00",
+      "last_seen": "2026-07-16T18:36:19+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0855
+      "resonance": 0.0923
     },
     {
-      "id": "77bbc4a604",
-      "title": "Israeli settlers injure three Palestinians in occupied West Bank",
+      "id": "2ed3240e15",
+      "title": "Here’s Why Anthropic Is Pushing States to Regulate AI Faster",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-injure-three-palestinians-occupied-west-bank",
-          "headline": "Israeli settlers injure three Palestinians in occupied West Bank",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T17:17:17+00:00",
-      "last_seen": "2026-07-16T17:17:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0794
-    },
-    {
-      "id": "f882959e5c",
-      "title": "'Moment of joy' as Uganda discharges last Ebola patient",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cx2myxjv172o?at_medium=RSS&at_campaign=rss",
-          "headline": "'Moment of joy' as Uganda discharges last Ebola patient",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T17:15:32+00:00",
-      "last_seen": "2026-07-16T17:15:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0763
-    },
-    {
-      "id": "4c22853260",
-      "title": "Rare protests in Kyiv over dismissal of defence minister",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/rare-protests-in-kyiv-over-dismissal-of-defence-minister?traffic_source=rss",
-          "headline": "Rare protests in Kyiv over dismissal of defence minister",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T17:15:03+00:00",
-      "last_seen": "2026-07-16T17:15:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0755
-    },
-    {
-      "id": "d17f35f360",
-      "title": "Uber’s $14.8B Delivery Hero deal would nearly double its global footprint",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/",
-          "headline": "Uber’s $14.8B Delivery Hero deal would nearly double its global footprint",
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster/",
+          "headline": "Here’s Why Anthropic Is Pushing States to Regulate AI Faster",
           "platform": "rss"
         }
       ],
@@ -922,24 +829,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T17:12:00+00:00",
-      "last_seen": "2026-07-16T17:12:00+00:00",
+      "first_seen": "2026-07-16T18:35:18+00:00",
+      "last_seen": "2026-07-16T18:35:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0703
+      "topic": "tech",
+      "resonance": 0.0905
     },
     {
-      "id": "f65cdc31b8",
-      "title": "German Man Accused of Drugging and Filming the Rape of 14 Women",
+      "id": "d7579aea2a",
+      "title": "Why the U.S. and Iran can’t agree on what their peace deal actually says",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/16/world/europe/german-man-rape-case.html",
-          "headline": "German Man Accused of Drugging and Filming the Rape of 14 Women",
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/07/15/trump-iran-signed-truce-still-cant-agree-what-its-terms-mean/",
+          "headline": "Why the U.S. and Iran can’t agree on what their peace deal actually says",
           "platform": "rss"
         }
       ],
@@ -950,80 +857,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-16T17:11:32+00:00",
-      "last_seen": "2026-07-16T17:11:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.0695
-    },
-    {
-      "id": "9e9de9cbe2",
-      "title": "Officials probe whether White House teleprompter operator profited off Trump's words",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/16/nx-s1-5896223/kalshi-trump-white-house-teleprompter-operator-bet",
-          "headline": "Officials probe whether White House teleprompter operator profited off Trump's words",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T17:10:29+00:00",
-      "last_seen": "2026-07-16T17:10:29+00:00",
+      "first_seen": "2026-07-16T18:34:40+00:00",
+      "last_seen": "2026-07-16T18:34:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0677
+      "resonance": 0.0893
     },
     {
-      "id": "16b7820f7d",
-      "title": "Nobody Even Expects DOJ to Be Independent Anymore",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/ideas/2026/07/todd-blanche-attorney-general-confirmation-hearing/687933/?utm_source=feed",
-          "headline": "Nobody Even Expects DOJ to Be Independent Anymore",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T17:10:23+00:00",
-      "last_seen": "2026-07-16T17:10:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0675
-    },
-    {
-      "id": "6789726e60",
-      "title": "Newsletter platform Beehiiv now lets subscribers chat with each other, adds AI",
+      "id": "9d1f15ac7a",
+      "title": "Google Vids now lets you star in your own AI videos",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/16/newsletter-platform-beehiiv-now-lets-subscribers-chat-with-each-other-adds-ai/",
-          "headline": "Newsletter platform Beehiiv now lets subscribers chat with each other, adds AI",
+          "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+          "headline": "Google Vids now lets you star in your own AI videos",
           "platform": "rss"
         }
       ],
@@ -1034,13 +885,181 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T17:00:00+00:00",
-      "last_seen": "2026-07-16T17:00:00+00:00",
+      "first_seen": "2026-07-16T18:32:54+00:00",
+      "last_seen": "2026-07-16T18:32:54+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
+      "resonance": 0.0861
+    },
+    {
+      "id": "be9625f238",
+      "title": "Astronomers Find an Atmosphere on a Nearby Earthlike Planet",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/16/science/astronomy-exoplanet-atmosphere.html",
+          "headline": "Astronomers Find an Atmosphere on a Nearby Earthlike Planet",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T18:27:28+00:00",
+      "last_seen": "2026-07-16T18:27:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0763
+    },
+    {
+      "id": "34f384770d",
+      "title": "Fact check: Claims linking statins to dementia are false",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/fact-check-claims-linking-statins-to-dementia-are-false/a-77970650?maca=en-rss-en-all-1573-rdf",
+          "headline": "Fact check: Claims linking statins to dementia are false",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T18:27:00+00:00",
+      "last_seen": "2026-07-16T18:27:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0754
+    },
+    {
+      "id": "bc5d3b3d61",
+      "title": "Roblox launches an AI-powered game creation feature in its mobile app",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+          "headline": "Roblox launches an AI-powered game creation feature in its mobile app",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T18:22:06+00:00",
+      "last_seen": "2026-07-16T18:22:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0667
+    },
+    {
+      "id": "dde4e1254e",
+      "title": "Iran threatens region’s infrastructure as U.S. strikes expand",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/07/16/iran-threatens-regions-infrastructure-us-strikes-expand/",
+          "headline": "Iran threatens region’s infrastructure as U.S. strikes expand",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T18:21:50+00:00",
+      "last_seen": "2026-07-16T18:21:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0662
+    },
+    {
+      "id": "5bfb61d572",
+      "title": "Israeli Government Pushes Through Divisive Laws Before Election",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/16/world/middleeast/israel-divisive-new-laws.html",
+          "headline": "Israeli Government Pushes Through Divisive Laws Before Election",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T18:20:21+00:00",
+      "last_seen": "2026-07-16T18:20:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0636
+    },
+    {
+      "id": "a0b2784403",
+      "title": "How rivalry with a top general brought down Ukraine’s popular defence minister Fedorov",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260716-how-rivalry-with-top-general-syrsky-brought-down-ukraine-popular-defence-minister-fedorov",
+          "headline": "How rivalry with a top general brought down Ukraine’s popular defence minister Fedorov",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T18:12:37+00:00",
+      "last_seen": "2026-07-16T18:12:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
       "resonance": 0.05
     }
   ],
@@ -1048,43 +1067,61 @@
     {
       "source": "69f928bb62",
       "target": "a5410862ce",
-      "weight": 0.155,
+      "weight": 0.072,
       "type": "thematic"
     },
     {
       "source": "69f928bb62",
       "target": "9ed4780cac",
-      "weight": 0.034,
+      "weight": 0.097,
       "type": "thematic"
     },
     {
       "source": "69f928bb62",
-      "target": "6789726e60",
-      "weight": 0.06,
+      "target": "9d1f15ac7a",
+      "weight": 0.004,
       "type": "thematic"
     },
     {
-      "source": "a5410862ce",
-      "target": "6789726e60",
-      "weight": 0.325,
+      "source": "bf4fe47567",
+      "target": "4ded971759",
+      "weight": 0.835,
+      "type": "thematic"
+    },
+    {
+      "source": "bf4fe47567",
+      "target": "c11de94961",
+      "weight": 0.371,
+      "type": "thematic"
+    },
+    {
+      "source": "4ded971759",
+      "target": "c11de94961",
+      "weight": 0.631,
       "type": "thematic"
     },
     {
       "source": "04e76a2929",
       "target": "d724662943",
-      "weight": 0.666,
+      "weight": 0.661,
       "type": "thematic"
     },
     {
-      "source": "d724662943",
-      "target": "ae2ba610df",
-      "weight": 0.592,
+      "source": "39663c0841",
+      "target": "9ed4780cac",
+      "weight": 0.02,
       "type": "thematic"
     },
     {
-      "source": "74fb82476a",
-      "target": "4c22853260",
-      "weight": 0.813,
+      "source": "39663c0841",
+      "target": "dde4e1254e",
+      "weight": 0.38,
+      "type": "thematic"
+    },
+    {
+      "source": "9ed4780cac",
+      "target": "4bb44bee12",
+      "weight": 0.001,
       "type": "thematic"
     }
   ],

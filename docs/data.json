@@ -1,8 +1,88 @@
 {
-  "generated_at": "2026-07-16T21:32:00.416017+00:00",
+  "generated_at": "2026-07-16T22:54:49.640486+00:00",
   "node_count": 35,
-  "edge_count": 14,
+  "edge_count": 10,
   "nodes": [
+    {
+      "id": "1998c70bb7",
+      "title": "Trump administration tightens visa rules for foreign students",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260716-trump-tightens-us-visa-rules-foreign-students-journalists",
+          "headline": "Trump tightens US visa rules, limits stay for foreign students and journalists",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3360848/us-toughen-visa-regulations-chinese-journalists-foreign-students?utm_source=rss_feed",
+          "headline": "US to toughen up visa regulations for Chinese journalists, foreign students",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/czdmp87rpv1o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump administration tightens visa rules for foreign students",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/16/trump-tightens-visa-limits-for-international-students-and-foreign-press_6755549_4.html",
+          "headline": "Trump tightens visa limits for international students and foreign press",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.075,
+        "spread": 0.109,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T16:17:05+00:00",
+      "last_seen": "2026-07-16T22:31:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.6593
+    },
+    {
+      "id": "9091059416",
+      "title": "Australia news live: Mark Butler ridicules Pauline Hanson’s NDIS claims on UK far-right activist’s podcast",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/17/australia-news-live-telstra-mobile-outage-parliament-inquiry-royal-commission-antisemitism-ai-anthony-albanese-labor-liberals-coalition-politics-ntwnfb",
+          "headline": "Australia news live: Mark Butler ridicules Pauline Hanson’s NDIS claims on UK far-right activist’s podcast",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-17/federal-politics-live-blog-hanson-podcast/106925958",
+          "headline": "Live: Hanson tells far-right podcast she laments end of White Australia policy",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T21:10:31+00:00",
+      "last_seen": "2026-07-16T22:25:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.535
+    },
     {
       "id": "03c277664b",
       "title": "Google is renaming NotebookLM to Gemini Notebook",
@@ -37,40 +117,12 @@
       "first_seen": "2026-07-16T16:00:00+00:00",
       "last_seen": "2026-07-16T16:08:13+00:00",
       "platforms": [
-        "rss",
-        "hackernews"
+        "hackernews",
+        "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.6741
-    },
-    {
-      "id": "719fda75da",
-      "title": "Kimi K3: Open Frontier Intelligence",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.kimi.com/blog/kimi-k3",
-          "headline": "Kimi K3: Open Frontier Intelligence",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T14:46:05+00:00",
-      "last_seen": "2026-07-16T14:46:05+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
+      "resonance": 0.5244
     },
     {
       "id": "a5410862ce",
@@ -99,6 +151,152 @@
       "geo_regions": [],
       "topic": "tech",
       "resonance": 0.28
+    },
+    {
+      "id": "59e3c8abc0",
+      "title": "Hundreds of Canada wildfires prompt US air quality alerts as smoke spreads south",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality",
+          "headline": "Air quality plummets in 20 US states as smoke from Canadian wildfires spreads",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
+          "headline": "Hundreds of Canada wildfires prompt US air quality alerts as smoke spreads south",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.15,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T19:58:55+00:00",
+      "last_seen": "2026-07-16T22:21:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.3567
+    },
+    {
+      "id": "56db8200cb",
+      "title": "Iran War Live Updates: U.S. Launches New Strikes, as Tensions Escalate Over Strait of Hormuz",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/07/16/world/iran-war-trump-hormuz",
+          "headline": "Iran War Live Updates: U.S. Launches New Strikes, as Tensions Escalate Over Strait of Hormuz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:49:06+00:00",
+      "last_seen": "2026-07-16T22:49:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.2275
+    },
+    {
+      "id": "4ec6e93bf5",
+      "title": "West Asia war LIVE: U.S. launches new strikes on Iran; explosions heard in south",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-washington-tehran-air-strikes-strait-of-hormuz-live-updates-july-16-2026/article71228351.ece",
+          "headline": "West Asia war LIVE: U.S. launches new strikes on Iran; explosions heard in south",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:44:07+00:00",
+      "last_seen": "2026-07-16T22:44:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.2121
+    },
+    {
+      "id": "66d6523ba6",
+      "title": "A 59-Year-Old Hunger Striker Joins a Gen Z Protest Movement in India",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/16/world/asia/india-sonam-wangchuk-cockroach-janata-party-hunger-strike.html",
+          "headline": "A 59-Year-Old Hunger Striker Joins a Gen Z Protest Movement in India",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:43:18+00:00",
+      "last_seen": "2026-07-16T22:43:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.2095
+    },
+    {
+      "id": "76fd551f86",
+      "title": "US to focus counterterrorism efforts on left-wing groups, Rubio says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3360849/us-focus-counterterrorism-efforts-left-wing-groups-rubio-says?utm_source=rss_feed",
+          "headline": "US to focus counterterrorism efforts on left-wing groups, Rubio says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:42:17+00:00",
+      "last_seen": "2026-07-16T22:42:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2064
     },
     {
       "id": "e994e8f5e5",
@@ -132,12 +330,488 @@
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.3823
+      "resonance": 0.2002
+    },
+    {
+      "id": "6e4b737c88",
+      "title": "Bryson DeChambeau claps back at Nick Faldo, other critics, after -3 round at The Open: 'incredibly strategic'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/bryson-dechambeau-claps-back-nick-faldo-critics-3-round-open-incredibly-strategic",
+          "headline": "Bryson DeChambeau claps back at Nick Faldo, other critics, after -3 round at The Open: 'incredibly strategic'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-16T22:38:55+00:00",
+      "last_seen": "2026-07-16T22:38:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1961
+    },
+    {
+      "id": "61eb4e7c18",
+      "title": "In Fontainebleau, Macron shows support for firefighters and responds to criticism",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/politics/article/2026/07/17/every-time-a-fire-breaks-out-it-is-our-national-territory-that-is-under-attack-in-fontainebleau-macron-shows-support-for-firefighters-and-responds-to-criticism_6755555_5.html",
+          "headline": "In Fontainebleau, Macron shows support for firefighters and responds to criticism",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:38:15+00:00",
+      "last_seen": "2026-07-16T22:38:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1941
+    },
+    {
+      "id": "0f4a767530",
+      "title": "Revered surfboard designer and intersex advocate dies in house fire",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-17/kyra-jonsun-surfer-tribute-wollongong-house-fire/106917836",
+          "headline": "Revered surfboard designer and intersex advocate dies in house fire",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:34:09+00:00",
+      "last_seen": "2026-07-16T22:34:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1817
+    },
+    {
+      "id": "598a11bca6",
+      "title": "Two Trump health nominees crash and burn in tense Senate hearing",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/health/2026/07/two-trump-health-nominees-crash-and-burn-in-tense-senate-hearing/",
+          "headline": "Two Trump health nominees crash and burn in tense Senate hearing",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:33:24+00:00",
+      "last_seen": "2026-07-16T22:33:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1795
+    },
+    {
+      "id": "b4349b33df",
+      "title": "The unanswered question in the rush for Queensland's hidden oil jackpot",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-17/water-concerns-grow-in-taroom-trough-oil-rush/106922224",
+          "headline": "The unanswered question in the rush for Queensland's hidden oil jackpot",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:32:29+00:00",
+      "last_seen": "2026-07-16T22:32:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1767
+    },
+    {
+      "id": "b2e00c274d",
+      "title": "SC dismisses plea by Karnataka Legislative Council Deputy Chairman against recounting of votes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/sc-dismisses-plea-by-karnataka-legislative-council-deputy-chairman-against-recounting-of-votes/article71230871.ece",
+          "headline": "SC dismisses plea by Karnataka Legislative Council Deputy Chairman against recounting of votes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:30:53+00:00",
+      "last_seen": "2026-07-16T22:30:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1719
+    },
+    {
+      "id": "3fc0fd9cc7",
+      "title": "Trinamool MP Samirul Islam calls on family who was pushed into Bangladesh",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/west-bengal/trinamool-mp-samirul-islam-calls-on-family-who-was-pushed-into-bangladesh/article71228823.ece",
+          "headline": "Trinamool MP Samirul Islam calls on family who was pushed into Bangladesh",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:24:51+00:00",
+      "last_seen": "2026-07-16T22:24:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1541
+    },
+    {
+      "id": "fb67bef326",
+      "title": "Why Apple Sued OpenAI, New York Takes on Data Centers, and What to Know about Cyclosporiasis",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak/",
+          "headline": "Why Apple Sued OpenAI, New York Takes on Data Centers, and What to Know about Cyclosporiasis",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:17:27+00:00",
+      "last_seen": "2026-07-16T22:17:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1325
+    },
+    {
+      "id": "0976767957",
+      "title": "Rubik’s Cube stars shine at European speedcubing event in the Netherlands",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/video/2026/07/17/rubiks-cube-stars-shine-at-european-speedcubing-event-in-the-netherlands",
+          "headline": "Rubik’s Cube stars shine at European speedcubing event in the Netherlands",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:15:13+00:00",
+      "last_seen": "2026-07-16T22:15:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1261
+    },
+    {
+      "id": "b442086f3a",
+      "title": "Zainichi drama is a sweet, if slight, coming-of-age tale",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/culture/2026/07/17/film/trophy/",
+          "headline": "Zainichi drama is a sweet, if slight, coming-of-age tale",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:10:00+00:00",
+      "last_seen": "2026-07-16T22:10:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1112
+    },
+    {
+      "id": "0ecf800726",
+      "title": "Canada’s Wildfires Are Burning Through the Night",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/16/world/canada/canada-wildfires-firefighters-heat.html",
+          "headline": "Canada’s Wildfires Are Burning Through the Night",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:08:16+00:00",
+      "last_seen": "2026-07-16T22:08:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.1062
+    },
+    {
+      "id": "215d74aa90",
+      "title": "At least one dead in Texas floods ravaging same area where campers died",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c3v0xe5elzyo?at_medium=RSS&at_campaign=rss",
+          "headline": "At least one dead in Texas floods ravaging same area where campers died",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:08:13+00:00",
+      "last_seen": "2026-07-16T22:08:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.1061
+    },
+    {
+      "id": "645201c25b",
+      "title": "Parents want better housing for teachers in remote WA town",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-17/teacher-housing-shortage-endangering-school-future/106921796",
+          "headline": "Parents want better housing for teachers in remote WA town",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:04:59+00:00",
+      "last_seen": "2026-07-16T22:04:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.097
+    },
+    {
+      "id": "d53063d6dd",
+      "title": "Strait of Hormuz won’t return to pre-war status, Iran says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/strait-hormuz-wont-return-pre-war-status-iran-says",
+          "headline": "Strait of Hormuz won’t return to pre-war status, Iran says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:04:21+00:00",
+      "last_seen": "2026-07-16T22:04:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0952
+    },
+    {
+      "id": "7a0ab8d6ca",
+      "title": "Former Italian motorway chief sentenced over bridge collapse",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/former-italian-motorway-chief-sentenced-over-bridge-collapse?traffic_source=rss",
+          "headline": "Former Italian motorway chief sentenced over bridge collapse",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:04:06+00:00",
+      "last_seen": "2026-07-16T22:04:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0945
+    },
+    {
+      "id": "dbcb0ab7f0",
+      "title": "Explaining Sex to an Anthropologist",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/ideas/2026/07/explaining-sex-anthropologist/687948/?utm_source=feed",
+          "headline": "Explaining Sex to an Anthropologist",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:03:00+00:00",
+      "last_seen": "2026-07-16T22:03:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0914
+    },
+    {
+      "id": "5c5bd45b8a",
+      "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
+          "headline": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:02:31+00:00",
+      "last_seen": "2026-07-16T22:02:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0901
     },
     {
       "id": "3914b06642",
       "title": "Orphanage Fire Kills Eleven in Algeria",
-      "signal_count": 3,
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "New York Times",
@@ -150,29 +824,191 @@
           "url": "http://www.euronews.com/2026/07/16/fire-at-algerian-orphanage-kills-11-children-injures-19",
           "headline": "Fire at Algerian orphanage kills 11 children, injures 19",
           "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/eleven-killed-in-algeria-orphanage-fire?traffic_source=rss",
-          "headline": "Eleven killed in Algeria orphanage fire",
-          "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.2,
-        "spread": 0.082,
+        "spread": 0.1,
         "left": 1,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T16:56:54+00:00",
+      "first_seen": "2026-07-16T18:36:50+00:00",
       "last_seen": "2026-07-16T20:03:38+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.3262
+      "resonance": 0.0879
+    },
+    {
+      "id": "ab3779d750",
+      "title": "1 dead, nearly 100 injured in crush at India chariot festival",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/asia/south-asia/article/3360844/1-dead-nearly-100-injured-crush-india-chariot-festival?utm_source=rss_feed",
+          "headline": "1 dead, nearly 100 injured in crush at India chariot festival",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:00:11+00:00",
+      "last_seen": "2026-07-16T22:00:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0836
+    },
+    {
+      "id": "8cf763bb9b",
+      "title": "‘Sana: Play With Me’ can’t recapture the simple scares of J-horror’s glory days",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/culture/2026/07/17/film/sana-play-with-me/",
+          "headline": "‘Sana: Play With Me’ can’t recapture the simple scares of J-horror’s glory days",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T22:00:00+00:00",
+      "last_seen": "2026-07-16T22:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0831
+    },
+    {
+      "id": "823e9e42cf",
+      "title": "Ilhan Omar renews push for US to join ICC amid Trump pressure",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/16/ilhan-omar-renews-push-for-us-to-join-icc-amid-trump-pressure?traffic_source=rss",
+          "headline": "Ilhan Omar renews push for US to join ICC amid Trump pressure",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T21:57:21+00:00",
+      "last_seen": "2026-07-16T21:57:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0757
+    },
+    {
+      "id": "f3a8c33d8d",
+      "title": "Canada’s Forests Will Burn and Burn",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/science/2026/07/canadian-forests-are-big/687936/?utm_source=feed",
+          "headline": "Canada’s Forests Will Burn and Burn",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T21:55:44+00:00",
+      "last_seen": "2026-07-16T21:55:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0713
+    },
+    {
+      "id": "3c12db1614",
+      "title": "MLB effectively outlaws use of AI on dugout iPads during games",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/mlb-effectively-outlaws-use-ai-dugout-ipads-games",
+          "headline": "MLB effectively outlaws use of AI on dugout iPads during games",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-16T21:55:04+00:00",
+      "last_seen": "2026-07-16T21:55:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0695
+    },
+    {
+      "id": "099cbab53b",
+      "title": "Nine Venezuelans plead guilty in Nashville sex trafficking scheme that lured migrant women with fake jobs: DOJ",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/nine-venezuelans-plead-guilty-nashville-sex-trafficking-scheme-lured-migrant-women-fake-jobs-doj",
+          "headline": "Nine Venezuelans plead guilty in Nashville sex trafficking scheme that lured migrant women with fake jobs: DOJ",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-16T21:49:39+00:00",
+      "last_seen": "2026-07-16T21:49:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0547
     },
     {
       "id": "00d1b5bf5a",
@@ -206,916 +1042,68 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2122
-    },
-    {
-      "id": "f38e6c1ddd",
-      "title": "‘Series of explosions in Kuwait’, report says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/series-explosions-kuwait-report-says",
-          "headline": "‘Series of explosions in Kuwait’, report says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:31:24+00:00",
-      "last_seen": "2026-07-16T21:31:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.19
-    },
-    {
-      "id": "a003ab49fc",
-      "title": "Fortnite is getting a bunch of AI-powered ‘personas’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/games/966815/epic-games-fortnite-ai-powered-personas",
-          "headline": "Fortnite is getting a bunch of AI-powered ‘personas’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:30:35+00:00",
-      "last_seen": "2026-07-16T21:30:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1876
-    },
-    {
-      "id": "e1da5ab650",
-      "title": "Hong Kong’s AI education blueprint is a start – but schools need more",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3360372/hong-kongs-ai-education-blueprint-start-schools-need-more?utm_source=rss_feed",
-          "headline": "Hong Kong’s AI education blueprint is a start – but schools need more",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:30:05+00:00",
-      "last_seen": "2026-07-16T21:30:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1861
-    },
-    {
-      "id": "0ebd27d5b5",
-      "title": "FIFA to probe Argentina’s Falklands banner display at World Cup semifinal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/16/fifa-to-probe-argentinas-falklands-banner-display-at-world-cup-semifinal?traffic_source=rss",
-          "headline": "FIFA to probe Argentina’s Falklands banner display at World Cup semifinal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:23:05+00:00",
-      "last_seen": "2026-07-16T21:23:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1656
-    },
-    {
-      "id": "087d6efce4",
-      "title": "Palestinians injured in Israeli settler attacks across West Bank",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/16/palestinians-injured-in-israeli-settler-attacks-across-west-bank?traffic_source=rss",
-          "headline": "Palestinians injured in Israeli settler attacks across West Bank",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-injure-three-palestinians-occupied-west-bank",
-          "headline": "Israeli settlers injure three Palestinians in occupied West Bank",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T17:17:17+00:00",
-      "last_seen": "2026-07-16T20:37:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.1653
-    },
-    {
-      "id": "e9dab78cf5",
-      "title": "Woman found in shallow grave ID’d after 44 years as millionaire tied to estate murder plot",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/woman-found-shallow-grave-idd-after-44-years-millionaire-tied-estate-murder-plot",
-          "headline": "Woman found in shallow grave ID’d after 44 years as millionaire tied to estate murder plot",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-16T21:22:56+00:00",
-      "last_seen": "2026-07-16T21:22:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1652
-    },
-    {
-      "id": "0da66785e6",
-      "title": "Piece of space history to feature in Powerhouse Parramatta debut exhibition",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-17/apollo-boilerplate-parramatta-powerhouse-exhibition/106883688",
-          "headline": "Piece of space history to feature in Powerhouse Parramatta debut exhibition",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:22:53+00:00",
-      "last_seen": "2026-07-16T21:22:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.1651
-    },
-    {
-      "id": "74fb936417",
-      "title": "Coca-Cola suspended production at its Fairlife dairy after a ransomware attack",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/",
-          "headline": "Coca-Cola suspended production at its Fairlife dairy after a ransomware attack",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:22:31+00:00",
-      "last_seen": "2026-07-16T21:22:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.164
-    },
-    {
-      "id": "b69a514b40",
-      "title": "Iran War Live Updates: U.S. and Iran Trade Strikes, Escalating Tensions Over Strait of Hormuz",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/07/16/world/iran-war-trump-hormuz",
-          "headline": "Iran War Live Updates: U.S. and Iran Trade Strikes, Escalating Tensions Over Strait of Hormuz",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:21:40+00:00",
-      "last_seen": "2026-07-16T21:21:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1615
-    },
-    {
-      "id": "3d6b9a4496",
-      "title": "Details of Todd Blanche's behind-the-scenes meeting with Angel Mom revealed after Capitol Hill testimony",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/details-todd-blanches-behind-scenes-meeting-angel-mom-revealed-after-capitol-hill-testimony",
-          "headline": "Details of Todd Blanche's behind-the-scenes meeting with Angel Mom revealed after Capitol Hill testimony",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-16T21:20:04+00:00",
-      "last_seen": "2026-07-16T21:20:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1569
-    },
-    {
-      "id": "f9b7b0a8b7",
-      "title": "Liv Morgan brought her WWE title belt with her to the ESPYs & somehow everyone is talking about is her outfit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/liv-morgan-brought-wwe-title-belt-espys-everyone-talking-outfit",
-          "headline": "Liv Morgan brought her WWE title belt with her to the ESPYs & somehow everyone is talking about is her outfit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-16T21:18:58+00:00",
-      "last_seen": "2026-07-16T21:18:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1538
-    },
-    {
-      "id": "923ec131d1",
-      "title": "Live: Hanson says daughter Lee is the 'future', has 'potential' to run One Nation",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-17/federal-politics-live-blog-hanson-podcast/106925958",
-          "headline": "Live: Hanson says daughter Lee is the 'future', has 'potential' to run One Nation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:10:31+00:00",
-      "last_seen": "2026-07-16T21:10:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1298
-    },
-    {
-      "id": "7b71064d90",
-      "title": "Australia news live: Telstra CEO to face parliamentary inquiry over mobile outage",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/17/australia-news-live-telstra-mobile-outage-parliament-inquiry-royal-commission-antisemitism-ai-anthony-albanese-labor-liberals-coalition-politics-ntwnfb",
-          "headline": "Australia news live: Telstra CEO to face parliamentary inquiry over mobile outage",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:09:32+00:00",
-      "last_seen": "2026-07-16T21:09:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.127
-    },
-    {
-      "id": "dcbf40f104",
-      "title": "Salad Chains Are Seeing Foot Traffic Drop Over Cyclosporiasis Fears",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/explosive-diarrhea-outbreak-new-victims-salad-chains/",
-          "headline": "Salad Chains Are Seeing Foot Traffic Drop Over Cyclosporiasis Fears",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:06:59+00:00",
-      "last_seen": "2026-07-16T21:06:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1199
-    },
-    {
-      "id": "4ec6e93bf5",
-      "title": "West Asia war LIVE: U.S. launches new strikes on Iran; explosions heard in south",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-washington-tehran-air-strikes-strait-of-hormuz-live-updates-july-16-2026/article71228351.ece",
-          "headline": "West Asia war LIVE: U.S. launches new strikes on Iran; explosions heard in south",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:06:32+00:00",
-      "last_seen": "2026-07-16T21:06:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1186
-    },
-    {
-      "id": "4ffcad61df",
-      "title": "Saudi Arabia mulls military escalation in response to Houthi threats",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/saudi-arabia-mulls-military-escalation-response-houthi-threats",
-          "headline": "Saudi Arabia mulls military escalation in response to Houthi threats",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:04:32+00:00",
-      "last_seen": "2026-07-16T21:04:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1131
-    },
-    {
-      "id": "2fe34c630a",
-      "title": "Rider suffers fractured collarbone in chaotic end to Tour de France stage",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-17/tour-de-france-stage-12-tim-merlier-claims-victory/106925960",
-          "headline": "Rider suffers fractured collarbone in chaotic end to Tour de France stage",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:03:51+00:00",
-      "last_seen": "2026-07-16T21:03:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1112
-    },
-    {
-      "id": "9fe12897ec",
-      "title": "ENG vs IND 2nd ODI: Root guides England to series-levelling win in Cardiff",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/cricket/eng-vs-ind-2nd-odi-root-guides-england-to-series-levelling-win-in-cardiff/article71231534.ece",
-          "headline": "ENG vs IND 2nd ODI: Root guides England to series-levelling win in Cardiff",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T21:01:43+00:00",
-      "last_seen": "2026-07-16T21:01:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1053
-    },
-    {
-      "id": "2930ad1e09",
-      "title": "After ambushes, CRPF tells forces in Manipur to use armoured vehicles, avoid sudden deployment",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/after-ambushes-crpf-tells-forces-in-manipur-to-use-armoured-vehicles-avoid-sudden-deployment/article71231213.ece",
-          "headline": "After ambushes, CRPF tells forces in Manipur to use armoured vehicles, avoid sudden deployment",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:59:41+00:00",
-      "last_seen": "2026-07-16T20:59:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0997
-    },
-    {
-      "id": "008ed94d56",
-      "title": "Donald Trump live: US president to deliver primetime address on elections",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/7/16/donald-trump-live-us-president-to-deliver-primetime-address-on-elections?traffic_source=rss",
-          "headline": "Donald Trump live: US president to deliver primetime address on elections",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:59:18+00:00",
-      "last_seen": "2026-07-16T20:59:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0986
-    },
-    {
-      "id": "42d35c4250",
-      "title": "EU tells Google to share search data, open Android to AI rivals",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-          "headline": "It's official: EU will force Google to share search data and open up AI on Android",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/16/eu-tells-google-to-share-search-data-open-android-to-ai-rivals_6755545_4.html",
-          "headline": "EU tells Google to share search data, open Android to AI rivals",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T15:18:01+00:00",
-      "last_seen": "2026-07-16T20:41:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0952
-    },
-    {
-      "id": "95cd54db06",
-      "title": "Delightful World Cup Stories",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/16/world/world-cup-spain-argentina-ukraine.html",
-          "headline": "Delightful World Cup Stories",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:53:40+00:00",
-      "last_seen": "2026-07-16T20:53:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0833
-    },
-    {
-      "id": "839653e723",
-      "title": "Zelensky ousts popular defense minister, an architect of Ukraine’s drone program",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/07/16/zelensky-ousts-popular-defense-minister-an-architect-ukraines-drone-program/",
-          "headline": "Zelensky ousts popular defense minister, an architect of Ukraine’s drone program",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:53:14+00:00",
-      "last_seen": "2026-07-16T20:53:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0821
-    },
-    {
-      "id": "2079dcc125",
-      "title": "T-Mobile bungled forced plan migration, canceling some users' free lines",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/07/t-mobile-bungled-forced-plan-migration-canceling-some-users-free-lines/",
-          "headline": "T-Mobile bungled forced plan migration, canceling some users' free lines",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:52:47+00:00",
-      "last_seen": "2026-07-16T20:52:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0809
-    },
-    {
-      "id": "e1261f3cae",
-      "title": "After years of false claims on voting, Trump to give an address on election integrity",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/16/nx-s1-5896448/trump-election-address",
-          "headline": "After years of false claims on voting, Trump to give an address on election integrity",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:50:26+00:00",
-      "last_seen": "2026-07-16T20:50:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0746
-    },
-    {
-      "id": "d9c38114bf",
-      "title": "Samsung’s 55-inch Frame art TV is $200 cheaper than usual",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/966613/samsung-the-frame-art-tv-deal-sale",
-          "headline": "Samsung’s 55-inch Frame art TV is $200 cheaper than usual",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:47:30+00:00",
-      "last_seen": "2026-07-16T20:47:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0668
-    },
-    {
-      "id": "abe5ed019d",
-      "title": "Iran state media reports new strikes, explosions in south",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-state-media-reports-new-strikes-explosions-south",
-          "headline": "Iran state media reports new strikes, explosions in south",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:46:23+00:00",
-      "last_seen": "2026-07-16T20:46:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0638
-    },
-    {
-      "id": "7e0c9ca58d",
-      "title": "As Argentina Holds Up Falklands Banner on Defeating England, Here’s What to Know About the War",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/16/world/americas/falklands-malvinas-england-argentina-war.html",
-          "headline": "As Argentina Holds Up Falklands Banner on Defeating England, Here’s What to Know About the War",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:43:45+00:00",
-      "last_seen": "2026-07-16T20:43:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0568
-    },
-    {
-      "id": "7695bec437",
-      "title": "Do Face Masks Help With Wildfire Smoke? Yes, But More Is Needed",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/wildfire-smoke-safety-guide/",
-          "headline": "Do Face Masks Help With Wildfire Smoke? Yes, But More Is Needed",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T20:41:10+00:00",
-      "last_seen": "2026-07-16T20:41:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "719fda75da",
-      "target": "a5410862ce",
+      "source": "1998c70bb7",
+      "target": "00d1b5bf5a",
+      "weight": 0.038,
+      "type": "thematic"
+    },
+    {
+      "source": "59e3c8abc0",
+      "target": "0ecf800726",
+      "weight": 0.337,
+      "type": "thematic"
+    },
+    {
+      "source": "56db8200cb",
+      "target": "e994e8f5e5",
+      "weight": 0.294,
+      "type": "thematic"
+    },
+    {
+      "source": "56db8200cb",
+      "target": "d53063d6dd",
+      "weight": 0.841,
+      "type": "thematic"
+    },
+    {
+      "source": "4ec6e93bf5",
+      "target": "e994e8f5e5",
+      "weight": 0.284,
+      "type": "thematic"
+    },
+    {
+      "source": "4ec6e93bf5",
+      "target": "d53063d6dd",
+      "weight": 0.058,
+      "type": "thematic"
+    },
+    {
+      "source": "e994e8f5e5",
+      "target": "d53063d6dd",
+      "weight": 0.366,
+      "type": "thematic"
+    },
+    {
+      "source": "598a11bca6",
+      "target": "f3a8c33d8d",
+      "weight": 0.454,
+      "type": "thematic"
+    },
+    {
+      "source": "598a11bca6",
+      "target": "00d1b5bf5a",
+      "weight": 0.008,
+      "type": "thematic"
+    },
+    {
+      "source": "0ecf800726",
+      "target": "f3a8c33d8d",
       "weight": 0.028,
-      "type": "thematic"
-    },
-    {
-      "source": "e994e8f5e5",
-      "target": "b69a514b40",
-      "weight": 0.696,
-      "type": "thematic"
-    },
-    {
-      "source": "e994e8f5e5",
-      "target": "4ec6e93bf5",
-      "weight": 0.326,
-      "type": "thematic"
-    },
-    {
-      "source": "e994e8f5e5",
-      "target": "abe5ed019d",
-      "weight": 0.146,
-      "type": "thematic"
-    },
-    {
-      "source": "00d1b5bf5a",
-      "target": "008ed94d56",
-      "weight": 0.092,
-      "type": "thematic"
-    },
-    {
-      "source": "00d1b5bf5a",
-      "target": "e1261f3cae",
-      "weight": 0.072,
-      "type": "thematic"
-    },
-    {
-      "source": "f38e6c1ddd",
-      "target": "4ec6e93bf5",
-      "weight": 0.054,
-      "type": "thematic"
-    },
-    {
-      "source": "f38e6c1ddd",
-      "target": "9fe12897ec",
-      "weight": 0.059,
-      "type": "thematic"
-    },
-    {
-      "source": "f38e6c1ddd",
-      "target": "abe5ed019d",
-      "weight": 0.151,
-      "type": "thematic"
-    },
-    {
-      "source": "0ebd27d5b5",
-      "target": "95cd54db06",
-      "weight": 0.566,
-      "type": "thematic"
-    },
-    {
-      "source": "0ebd27d5b5",
-      "target": "7e0c9ca58d",
-      "weight": 0.588,
-      "type": "thematic"
-    },
-    {
-      "source": "b69a514b40",
-      "target": "4ec6e93bf5",
-      "weight": 0.696,
-      "type": "thematic"
-    },
-    {
-      "source": "b69a514b40",
-      "target": "abe5ed019d",
-      "weight": 0.38,
-      "type": "thematic"
-    },
-    {
-      "source": "008ed94d56",
-      "target": "e1261f3cae",
-      "weight": 0.23,
       "type": "thematic"
     }
   ],
@@ -1142,7 +1130,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 8,
+      "count": 9,
       "error": null
     },
     "The Economist": {
@@ -1162,7 +1150,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 8,
+      "count": 13,
       "error": null
     },
     "The Atlantic": {

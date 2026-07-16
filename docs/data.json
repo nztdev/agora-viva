@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-16T16:14:57.814767+00:00",
+  "generated_at": "2026-07-16T17:45:13.267808+00:00",
   "node_count": 35,
-  "edge_count": 5,
+  "edge_count": 7,
   "nodes": [
     {
       "id": "69f928bb62",
@@ -32,14 +32,14 @@
       "resonance": 0.28
     },
     {
-      "id": "748b181105",
-      "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
+      "id": "a5410862ce",
+      "title": "Microsoft Comic Chat is now open source",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
-          "headline": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
+          "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
+          "headline": "Microsoft Comic Chat is now open source",
           "platform": "hackernews"
         }
       ],
@@ -50,8 +50,8 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T12:02:11+00:00",
-      "last_seen": "2026-07-16T12:02:11+00:00",
+      "first_seen": "2026-07-16T16:06:27+00:00",
+      "last_seen": "2026-07-16T16:06:27+00:00",
       "platforms": [
         "hackernews"
       ],
@@ -60,14 +60,14 @@
       "resonance": 0.28
     },
     {
-      "id": "44c15a211f",
-      "title": "Sony Deletes a Bunch More Movies from the Accounts of People Who 'Bought' Them",
+      "id": "6d19685e58",
+      "title": "Sony deletes a movies from the accounts of people who ‘bought’ them",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
           "url": "https://www.techdirt.com/2026/07/15/sony-deletes-a-bunch-more-movies-from-the-accounts-of-people-who-bought-them/",
-          "headline": "Sony Deletes a Bunch More Movies from the Accounts of People Who 'Bought' Them",
+          "headline": "Sony deletes a movies from the accounts of people who ‘bought’ them",
           "platform": "hackernews"
         }
       ],
@@ -86,6 +86,120 @@
       "geo_regions": [],
       "topic": "world",
       "resonance": 0.28
+    },
+    {
+      "id": "04e76a2929",
+      "title": "Highway Executive Given 12-Year Sentence Over Deadly Bridge Collapse in Italy",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/16/world/europe/italy-bridge-verdict-morandi-collapse.html",
+          "headline": "Highway Executive Given 12-Year Sentence Over Deadly Bridge Collapse in Italy",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/italy-ex-highway-head-sentenced-to-12-years-for-deadly-bridge-collapse/a-77995618?maca=en-rss-en-all-1573-rdf",
+          "headline": "Italy: Ex-highway head sentenced to 12 years for deadly bridge collapse",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:11:00+00:00",
+      "last_seen": "2026-07-16T17:15:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.3268
+    },
+    {
+      "id": "32aaf5ec52",
+      "title": "Algeria: Fire at orphanage kills 11, including children",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/video/2026/07/16/algeria-investigates-mohammadia-orphanage-fire-that-killed-11-people",
+          "headline": "Algeria investigates Mohammadia orphanage fire that killed 11 people",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/eleven-killed-in-algeria-orphanage-fire?traffic_source=rss",
+          "headline": "Eleven killed in Algeria orphanage fire",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/algeria-fire-at-orphanage-kills-11-including-children/a-77991351?maca=en-rss-en-all-1573-rdf",
+          "headline": "Algeria: Fire at orphanage kills 11, including children",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.133,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T13:55:00+00:00",
+      "last_seen": "2026-07-16T17:19:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.3208
+    },
+    {
+      "id": "d724662943",
+      "title": "Italian court convicts 32 over deadly 2018 Genoa Bridge collapse",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/16/ex-ceo-of-italian-motorway-sentenced-to-12-years-for-genoa-bridge-collapse?traffic_source=rss",
+          "headline": "Ex-CEO of Italian motorway sentenced to 12 years for Genoa bridge collapse",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260716-italian-court-convicts-32-genoa-bridge-collapse-killed-43-people-2018",
+          "headline": "Italian court convicts 32 over deadly 2018 Genoa Bridge collapse",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/former-italian-motorway-boss-sentenced-over-genoa-bridge-tragedy-13564047",
+          "headline": "Former Italian motorway boss sentenced over Genoa bridge tragedy",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.067,
+        "spread": 0.125,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T13:53:00+00:00",
+      "last_seen": "2026-07-16T16:43:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2747
     },
     {
       "id": "03c277664b",
@@ -119,41 +233,249 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.3009
+      "resonance": 0.186
+    },
+    {
+      "id": "74fb82476a",
+      "title": "Zelensky's removal of popular defence minister sparks protests in Ukraine",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
+          "headline": "Zelensky's removal of popular defence minister sparks protests in Ukraine",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260716-ukraine-protests-erupt-after-defence-minister-sacked",
+          "headline": "Ukraine: Protests erupt after defence minister sacked",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T14:42:13+00:00",
+      "last_seen": "2026-07-16T16:36:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1623
+    },
+    {
+      "id": "ae2ba610df",
+      "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
+          "headline": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3360837/italian-court-sentences-ex-highway-chief-12-years-jail-over-genoa-bridge-disaster?utm_source=rss_feed",
+          "headline": "Italian court sentences ex-highway chief to 12 years’ jail over Genoa bridge disaster",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T13:47:34+00:00",
+      "last_seen": "2026-07-16T17:22:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.161
+    },
+    {
+      "id": "76962be772",
+      "title": "Tour de France: Tim Merlier claims third stage win",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260716-merlier-claims-hat-trick-of-tour-de-france-stage-wins",
+          "headline": "Merlier claims third Tour de France stage win in crash-hit sprint finish",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/07/16/tour-de-france-tim-merlier-claims-third-stage-win_6755547_9.html",
+          "headline": "Tour de France: Tim Merlier claims third stage win",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T15:26:44+00:00",
+      "last_seen": "2026-07-16T15:39:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1526
+    },
+    {
+      "id": "bec0e084b5",
+      "title": "HC refuses to suspend sentence imposed on police personnel convicted in S.S. Colony custodial death case",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Madurai/hc-refuses-to-suspend-sentence-imposed-on-police-personnel-convicted-in-ss-colony-custodial-death-case/article71231327.ece",
+          "headline": "HC refuses to suspend sentence imposed on police personnel convicted in S.S. Colony custodial death case",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:41:01+00:00",
+      "last_seen": "2026-07-16T17:41:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.1217
+    },
+    {
+      "id": "ecae5bdaf7",
+      "title": "Fox News surges 29% in unique visitors during Q2 while CNN posts its weakest digital audience since 2015",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/fox-news-surges-29-unique-visitors-during-q2-while-cnn-posts-its-weakest-digital-audience-since-2015",
+          "headline": "Fox News surges 29% in unique visitors during Q2 while CNN posts its weakest digital audience since 2015",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-16T17:37:05+00:00",
+      "last_seen": "2026-07-16T17:37:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1145
+    },
+    {
+      "id": "6df75377ed",
+      "title": "Oil giant BP shutters its corporate venture arm after 20 years",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/oil-giant-bp-shutters-its-corporate-venture-arm-after-20-years/",
+          "headline": "Oil giant BP shutters its corporate venture arm after 20 years",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:37:03+00:00",
+      "last_seen": "2026-07-16T17:37:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1145
+    },
+    {
+      "id": "a066115a10",
+      "title": "NIA to charge 10 ‘for role in J&K narco-terror syndicate’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/nia-to-charge-10-for-role-injk-narco-terror-syndicate/article71230705.ece",
+          "headline": "NIA to charge 10 ‘for role in J&K narco-terror syndicate’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:37:02+00:00",
+      "last_seen": "2026-07-16T17:37:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1145
     },
     {
       "id": "5355b26c7f",
       "title": "More than 800 Canadian wildfires burning as air quality alerts extend to US",
-      "signal_count": 2,
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "BBC World Service",
           "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
           "headline": "More than 800 Canadian wildfires burning as air quality alerts extend to US",
           "platform": "rss"
-        },
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/us-news/2026/jul/16/smoke-canadian-wildfires-air-quality",
-          "headline": "Air quality plummets in 20 states as smoke from Canadian wildfires spreads across the US",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.15,
-        "left": 1,
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T14:49:46+00:00",
-      "last_seen": "2026-07-16T15:30:43+00:00",
+      "first_seen": "2026-07-16T17:36:43+00:00",
+      "last_seen": "2026-07-16T17:36:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2548
+      "resonance": 0.1139
     },
     {
       "id": "41d8ddb606",
@@ -187,209 +509,17 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.2252
+      "resonance": 0.1108
     },
     {
-      "id": "ae2ba610df",
-      "title": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
-          "headline": "Italian officials handed jail terms for Genoa bridge disaster that killed 43",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3360837/italian-court-sentences-ex-highway-chief-12-years-jail-over-genoa-bridge-disaster?utm_source=rss_feed",
-          "headline": "Italian court sentences ex-highway chief to 12 years’ jail over Genoa bridge disaster",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T13:47:34+00:00",
-      "last_seen": "2026-07-16T16:10:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2093
-    },
-    {
-      "id": "d89c52466d",
-      "title": "Protesters criticise Zelenskyy after Ukrainian defence minister's sacking",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-17/zelenskyy-dismissal-fedorov-triggers-protests/106925570",
-          "headline": "Protesters criticise Zelenskyy after Ukrainian defence minister's sacking",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/video/2026/07/16/kyiv-protesters-rally-after-zelenskyy-sacks-defence-minister-fedorov",
-          "headline": "Kyiv protesters rally after Zelenskyy sacks defence minister Fedorov",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T12:59:28+00:00",
-      "last_seen": "2026-07-16T16:06:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1702
-    },
-    {
-      "id": "4aeecb05b7",
-      "title": "British hackers jailed for London transport cyberattack",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/16/hackers-jailed-for-london-transport-cyberattack_6755546_4.html",
-          "headline": "British hackers jailed for London transport cyberattack",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3360830/uk-court-jails-young-hackers-massive-london-transport-cyberattack?utm_source=rss_feed",
-          "headline": "UK court jails young hackers for massive London transport cyberattack",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.15,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T12:50:42+00:00",
-      "last_seen": "2026-07-16T15:21:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1237
-    },
-    {
-      "id": "b5e404123a",
-      "title": "Macron vows 'zero tolerance' for arson on visit to scorched Fontainebleau forest",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/zero-tolerance-for-forest-arsonists-macron-promises-firefighters",
-          "headline": "'Zero tolerance' for forest arsonists, Macron promises firefighters",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/france/article/2026/07/16/macron-vows-zero-tolerance-for-arson-after-worse-wildfire-season-since-1945_6755541_7.html",
-          "headline": "Macron vows 'zero tolerance' for arson on visit to scorched Fontainebleau forest",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T12:47:03+00:00",
-      "last_seen": "2026-07-16T15:19:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1196
-    },
-    {
-      "id": "b3a2fcb3e3",
-      "title": "Florida State head coach Mike Norvell isn't concerned with 'hot seat talk' heading into crucial 2026 season",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/florida-state-head-coach-mike-norvell-not-concerned-hot-seat-talk-heading-crucial-2026-season",
-          "headline": "Florida State head coach Mike Norvell isn't concerned with 'hot seat talk' heading into crucial 2026 season",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-16T16:11:16+00:00",
-      "last_seen": "2026-07-16T16:11:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0994
-    },
-    {
-      "id": "673a42462d",
-      "title": "Mother guilty over baby's hairdryer burns death",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cy5d49q50ppo?at_medium=RSS&at_campaign=rss",
-          "headline": "Mother guilty over baby's hairdryer burns death",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T16:09:48+00:00",
-      "last_seen": "2026-07-16T16:09:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0971
-    },
-    {
-      "id": "a1536d31af",
-      "title": "First documentation of 46 wildlife corridors of Karnataka launched",
+      "id": "07b827597b",
+      "title": "Residents seek urgent measures to protect Iruvanjippuzha, Cherupuzha riverbanks",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/bangalore/first-documentation-of-46-wildlife-corridors-of-karnataka-launched/article71230770.ece",
-          "headline": "First documentation of 46 wildlife corridors of Karnataka launched",
+          "url": "https://www.thehindu.com/news/national/kerala/residents-seek-urgent-measures-to-protect-iruvanjippuzha-cherupuzha-riverbanks/article71230486.ece",
+          "headline": "Residents seek urgent measures to protect Iruvanjippuzha, Cherupuzha riverbanks",
           "platform": "rss"
         }
       ],
@@ -400,340 +530,14 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T16:09:43+00:00",
-      "last_seen": "2026-07-16T16:09:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.097
-    },
-    {
-      "id": "8ad269de1a",
-      "title": "AI-powered travel agency Fora hits unicorn status, raises $60M",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/16/ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m/",
-          "headline": "AI-powered travel agency Fora hits unicorn status, raises $60M",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T16:08:40+00:00",
-      "last_seen": "2026-07-16T16:08:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0953
-    },
-    {
-      "id": "c7fb6bef00",
-      "title": "Trump admin investigating 75 truck driver schools for fraud, helping non-citizens get licenses",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/trump-admin-investigating-75-truck-driver-schools-fraud-helping-non-citizens-get-licenses",
-          "headline": "Trump admin investigating 75 truck driver schools for fraud, helping non-citizens get licenses",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-16T16:07:19+00:00",
-      "last_seen": "2026-07-16T16:07:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0932
-    },
-    {
-      "id": "42d35c4250",
-      "title": "EU tells Google to share search data, open Android to AI rivals",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/07/16/eu-tells-google-to-share-search-data-open-android-to-ai-rivals_6755545_4.html",
-          "headline": "EU tells Google to share search data, open Android to AI rivals",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
-          "headline": "Google ordered to open Android and Search to rivals in Europe",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T12:06:51+00:00",
-      "last_seen": "2026-07-16T15:18:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0923
-    },
-    {
-      "id": "011cd62c5d",
-      "title": "A Friday sermon and a day in history from 1857",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/telangana/a-friday-sermon-and-a-day-in-history-from-1857/article71231037.ece",
-          "headline": "A Friday sermon and a day in history from 1857",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T16:06:33+00:00",
-      "last_seen": "2026-07-16T16:06:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.092
-    },
-    {
-      "id": "daedfa2840",
-      "title": "India-U.K. trade deal comes into force: What changes for exporters, businesses and workers",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/videos/india-uk-trade-deal-comes-into-force-what-changes-for-exporters-businesses-and-workers/article71231082.ece",
-          "headline": "India-U.K. trade deal comes into force: What changes for exporters, businesses and workers",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T16:06:32+00:00",
-      "last_seen": "2026-07-16T16:06:32+00:00",
+      "first_seen": "2026-07-16T17:35:00+00:00",
+      "last_seen": "2026-07-16T17:35:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "economy",
-      "resonance": 0.092
-    },
-    {
-      "id": "9ed4780cac",
-      "title": "Iran War Live Updates: U.S. and Iran Escalate Attacks, While Hinting at Diplomacy",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/07/16/world/iran-war-trump-hormuz",
-          "headline": "Iran War Live Updates: U.S. and Iran Escalate Attacks, While Hinting at Diplomacy",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T16:05:28+00:00",
-      "last_seen": "2026-07-16T16:05:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0903
-    },
-    {
-      "id": "c674281c50",
-      "title": "Iraqi government orders probe over weapons smuggling to Hezbollah in Lebanon",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraqi-government-orders-probe-over-weapons-smuggling-hezbollah-lebanon",
-          "headline": "Iraqi government orders probe over weapons smuggling to Hezbollah in Lebanon",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/iraqi-government-orders-probe-weapons-smuggling-hezbollah-lebanon",
-          "headline": "Iraqi government orders probe over weapons smuggling to Hezbollah in Lebanon",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T15:02:50+00:00",
-      "last_seen": "2026-07-16T16:00:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0895
-    },
-    {
-      "id": "135954c299",
-      "title": "Monaco assassination plot takes a new turn",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/monaco-assassination-plot-takes-a-new-turn/a-77983714?maca=en-rss-en-all-1573-rdf",
-          "headline": "Monaco assassination plot takes a new turn",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T16:04:00+00:00",
-      "last_seen": "2026-07-16T16:04:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.088
-    },
-    {
-      "id": "efa5b9298b",
-      "title": "Argentina face action over Falklands banner",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/16/uk-urges-fifa-to-investigate-argentina-over-world-cup-falklands-banner?traffic_source=rss",
-          "headline": "UK urges FIFA to investigate Argentina over World Cup Falklands banner",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss",
-          "headline": "Argentina face action over Falklands banner",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.1,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T12:01:37+00:00",
-      "last_seen": "2026-07-16T15:10:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0829
-    },
-    {
-      "id": "74e4aa2216",
-      "title": "Kennedy Center disputes Dem whistleblower allegations over Trump renovations, defends $8M flooring contract",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/kennedy-center-disputes-dem-whistleblower-allegations-trump-renovations-defends-flooring-contract",
-          "headline": "Kennedy Center disputes Dem whistleblower allegations over Trump renovations, defends $8M flooring contract",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-16T16:00:34+00:00",
-      "last_seen": "2026-07-16T16:00:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0827
-    },
-    {
-      "id": "5478246385",
-      "title": "Google’s AI Mode now lets you link and interact with select apps",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
-          "headline": "Google’s AI Mode now lets you link and interact with select apps",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T16:00:00+00:00",
-      "last_seen": "2026-07-16T16:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0818
+      "resonance": 0.1108
     },
     {
       "id": "cbb5941c93",
@@ -754,220 +558,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T15:59:39+00:00",
-      "last_seen": "2026-07-16T15:59:39+00:00",
+      "first_seen": "2026-07-16T17:34:45+00:00",
+      "last_seen": "2026-07-16T17:34:45+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0813
+      "resonance": 0.1103
     },
     {
-      "id": "0c5d588cd5",
-      "title": "Israeli attacks kill at least five Palestinians in Gaza despite ‘ceasefire’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/16/israeli-attacks-kill-at-least-five-palestinians-in-gaza-despite-ceasefire?traffic_source=rss",
-          "headline": "Israeli attacks kill at least five Palestinians in Gaza despite ‘ceasefire’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T15:53:42+00:00",
-      "last_seen": "2026-07-16T15:53:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0722
-    },
-    {
-      "id": "fd88dab307",
-      "title": "Couples free to marry at the beach or the pub under new plans",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ckgvwxygpv2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Couples free to marry at the beach or the pub under new plans",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T15:50:35+00:00",
-      "last_seen": "2026-07-16T15:50:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0675
-    },
-    {
-      "id": "8fa0f0dd85",
-      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
-          "headline": "Energy IPOs surge as investors hunt for ways to play AI boom",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T15:48:21+00:00",
-      "last_seen": "2026-07-16T15:48:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0641
-    },
-    {
-      "id": "13e675cb74",
-      "title": "Projectile hits near Qeshm Island, report says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/projectile-hits-near-qeshm-island-report-says",
-          "headline": "Projectile hits near Qeshm Island, report says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T15:46:47+00:00",
-      "last_seen": "2026-07-16T15:46:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0618
-    },
-    {
-      "id": "5036cb083d",
-      "title": "Hamas leadership run-off expected between Meshaal and al-Hayya",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/16/hamas-leadership-run-off-expected-between-meshaal-and-al-hayya?traffic_source=rss",
-          "headline": "Hamas leadership run-off expected between Meshaal and al-Hayya",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T15:44:26+00:00",
-      "last_seen": "2026-07-16T15:44:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0583
-    },
-    {
-      "id": "c918ccd921",
-      "title": "Time’s running out to save $10 on Splatoon Raiders physical preorders",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/966478/splatoon-raiders-preorder-the-sopranos-4k-bluray-deal-sale",
-          "headline": "Time’s running out to save $10 on Splatoon Raiders physical preorders",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T15:42:07+00:00",
-      "last_seen": "2026-07-16T15:42:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0549
-    },
-    {
-      "id": "345a1eac22",
-      "title": "Tesla driver in fatal Texas crash overrode FSD by pressing accelerator &#8216;100 percent,&#8217; investigators confirm",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/transportation/966563/tesla-texas-crash-ntsb-investigation",
-          "headline": "Tesla driver in fatal Texas crash overrode FSD by pressing accelerator &#8216;100 percent,&#8217; investigators confirm",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-16T15:41:09+00:00",
-      "last_seen": "2026-07-16T15:41:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0535
-    },
-    {
-      "id": "7e0c9ca58d",
-      "title": "As Argentina Holds Up Falklands Banner on Defeating England, Here’s What to Know About the War",
+      "id": "9ed4780cac",
+      "title": "Iran War Live Updates: U.S. and Iran Escalate Attacks, While Hinting at Diplomacy",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/16/world/americas/falklands-malvinas-england-argentina-war.html",
-          "headline": "As Argentina Holds Up Falklands Banner on Defeating England, Here’s What to Know About the War",
+          "url": "https://www.nytimes.com/live/2026/07/16/world/iran-war-trump-hormuz",
+          "headline": "Iran War Live Updates: U.S. and Iran Escalate Attacks, While Hinting at Diplomacy",
           "platform": "rss"
         }
       ],
@@ -978,24 +586,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-16T15:39:51+00:00",
-      "last_seen": "2026-07-16T15:39:51+00:00",
+      "first_seen": "2026-07-16T17:28:20+00:00",
+      "last_seen": "2026-07-16T17:28:20+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0515
+      "resonance": 0.0988
     },
     {
-      "id": "4402a2c772",
-      "title": "Yes, you can now order DoorDash from the command line",
+      "id": "673a42462d",
+      "title": "Mother guilty over baby's hairdryer burns death",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
-          "headline": "Yes, you can now order DoorDash from the command line",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cy5d49q50ppo?at_medium=RSS&at_campaign=rss",
+          "headline": "Mother guilty over baby's hairdryer burns death",
           "platform": "rss"
         }
       ],
@@ -1006,24 +614,108 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T15:38:55+00:00",
-      "last_seen": "2026-07-16T15:38:55+00:00",
+      "first_seen": "2026-07-16T17:26:55+00:00",
+      "last_seen": "2026-07-16T17:26:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0963
+    },
+    {
+      "id": "7a8485174a",
+      "title": "Baltimore beat-down: Video shows group of teens pummeling elderly man outside 7-Eleven as police hunt suspects",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/baltimore-beat-down-video-shows-group-teens-pummeling-elderly-man-outside-7-eleven-police-hunt-suspects",
+          "headline": "Baltimore beat-down: Video shows group of teens pummeling elderly man outside 7-Eleven as police hunt suspects",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-16T17:24:37+00:00",
+      "last_seen": "2026-07-16T17:24:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.0922
+    },
+    {
+      "id": "b21125973d",
+      "title": "Why Orthodox Jews are opposing the new daylight saving bill in Congress",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/16/g-s1-133961/why-orthodox-jews-are-opposing-the-new-daylight-saving-bill-in-congress",
+          "headline": "Why Orthodox Jews are opposing the new daylight saving bill in Congress",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:24:31+00:00",
+      "last_seen": "2026-07-16T17:24:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.092
+    },
+    {
+      "id": "2675dcaa4c",
+      "title": "Elderly Florida woman goes viral after getting hilariously crude license plate",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/elderly-florida-woman-goes-viral-hilariously-crude-license-plate",
+          "headline": "Elderly Florida woman goes viral after getting hilariously crude license plate",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-16T17:22:54+00:00",
+      "last_seen": "2026-07-16T17:22:54+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0502
+      "resonance": 0.0892
     },
     {
-      "id": "48e8df3fec",
-      "title": "Air defences intercept drones over Erbil, Iraq",
+      "id": "ee06b80ceb",
+      "title": "US approves nearly $2bn in weapons sale to Saudi Arabia",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/air-defences-intercept-drones-over-erbil-iraq?traffic_source=rss",
-          "headline": "Air defences intercept drones over Erbil, Iraq",
+          "url": "https://www.aljazeera.com/news/2026/7/16/us-approves-nearly-2bn-in-weapons-sale-to-saudi-arabia?traffic_source=rss",
+          "headline": "US approves nearly $2bn in weapons sale to Saudi Arabia",
           "platform": "rss"
         }
       ],
@@ -1034,8 +726,316 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-16T15:38:48+00:00",
-      "last_seen": "2026-07-16T15:38:48+00:00",
+      "first_seen": "2026-07-16T17:22:09+00:00",
+      "last_seen": "2026-07-16T17:22:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0879
+    },
+    {
+      "id": "33e2c2c157",
+      "title": "At least 1 dead in Texas floods ravaging same area where campers died",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c3v0xe5elzyo?at_medium=RSS&at_campaign=rss",
+          "headline": "At least 1 dead in Texas floods ravaging same area where campers died",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:22:02+00:00",
+      "last_seen": "2026-07-16T17:22:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.0877
+    },
+    {
+      "id": "7b8fbc4f62",
+      "title": "Dubai media office says no sounds of 'explosions' in downtown Dubai",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-media-office-says-no-sounds-explosions-downtown-dubai",
+          "headline": "Dubai media office says no sounds of 'explosions' in downtown Dubai",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:20:53+00:00",
+      "last_seen": "2026-07-16T17:20:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0856
+    },
+    {
+      "id": "4e56a647a4",
+      "title": "Sadiq Khan among 26 new peers to enter the Lords",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cglj25k94r9o?at_medium=RSS&at_campaign=rss",
+          "headline": "Sadiq Khan among 26 new peers to enter the Lords",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:20:47+00:00",
+      "last_seen": "2026-07-16T17:20:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0855
+    },
+    {
+      "id": "77bbc4a604",
+      "title": "Israeli settlers injure three Palestinians in occupied West Bank",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-injure-three-palestinians-occupied-west-bank",
+          "headline": "Israeli settlers injure three Palestinians in occupied West Bank",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:17:17+00:00",
+      "last_seen": "2026-07-16T17:17:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.0794
+    },
+    {
+      "id": "f882959e5c",
+      "title": "'Moment of joy' as Uganda discharges last Ebola patient",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cx2myxjv172o?at_medium=RSS&at_campaign=rss",
+          "headline": "'Moment of joy' as Uganda discharges last Ebola patient",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:15:32+00:00",
+      "last_seen": "2026-07-16T17:15:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0763
+    },
+    {
+      "id": "4c22853260",
+      "title": "Rare protests in Kyiv over dismissal of defence minister",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/rare-protests-in-kyiv-over-dismissal-of-defence-minister?traffic_source=rss",
+          "headline": "Rare protests in Kyiv over dismissal of defence minister",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:15:03+00:00",
+      "last_seen": "2026-07-16T17:15:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0755
+    },
+    {
+      "id": "d17f35f360",
+      "title": "Uber’s $14.8B Delivery Hero deal would nearly double its global footprint",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/",
+          "headline": "Uber’s $14.8B Delivery Hero deal would nearly double its global footprint",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:12:00+00:00",
+      "last_seen": "2026-07-16T17:12:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0703
+    },
+    {
+      "id": "f65cdc31b8",
+      "title": "German Man Accused of Drugging and Filming the Rape of 14 Women",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/16/world/europe/german-man-rape-case.html",
+          "headline": "German Man Accused of Drugging and Filming the Rape of 14 Women",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:11:32+00:00",
+      "last_seen": "2026-07-16T17:11:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.0695
+    },
+    {
+      "id": "9e9de9cbe2",
+      "title": "Officials probe whether White House teleprompter operator profited off Trump's words",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/16/nx-s1-5896223/kalshi-trump-white-house-teleprompter-operator-bet",
+          "headline": "Officials probe whether White House teleprompter operator profited off Trump's words",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:10:29+00:00",
+      "last_seen": "2026-07-16T17:10:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0677
+    },
+    {
+      "id": "16b7820f7d",
+      "title": "Nobody Even Expects DOJ to Be Independent Anymore",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/ideas/2026/07/todd-blanche-attorney-general-confirmation-hearing/687933/?utm_source=feed",
+          "headline": "Nobody Even Expects DOJ to Be Independent Anymore",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:10:23+00:00",
+      "last_seen": "2026-07-16T17:10:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0675
+    },
+    {
+      "id": "6789726e60",
+      "title": "Newsletter platform Beehiiv now lets subscribers chat with each other, adds AI",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/16/newsletter-platform-beehiiv-now-lets-subscribers-chat-with-each-other-adds-ai/",
+          "headline": "Newsletter platform Beehiiv now lets subscribers chat with each other, adds AI",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-16T17:00:00+00:00",
+      "last_seen": "2026-07-16T17:00:00+00:00",
       "platforms": [
         "rss"
       ],
@@ -1047,32 +1047,44 @@
   "edges": [
     {
       "source": "69f928bb62",
+      "target": "a5410862ce",
+      "weight": 0.155,
+      "type": "thematic"
+    },
+    {
+      "source": "69f928bb62",
       "target": "9ed4780cac",
-      "weight": 0.039,
+      "weight": 0.034,
       "type": "thematic"
     },
     {
       "source": "69f928bb62",
-      "target": "5478246385",
-      "weight": 0.065,
+      "target": "6789726e60",
+      "weight": 0.06,
       "type": "thematic"
     },
     {
-      "source": "69f928bb62",
-      "target": "4402a2c772",
-      "weight": 0.093,
+      "source": "a5410862ce",
+      "target": "6789726e60",
+      "weight": 0.325,
       "type": "thematic"
     },
     {
-      "source": "41d8ddb606",
-      "target": "d89c52466d",
-      "weight": 0.442,
+      "source": "04e76a2929",
+      "target": "d724662943",
+      "weight": 0.666,
       "type": "thematic"
     },
     {
-      "source": "efa5b9298b",
-      "target": "7e0c9ca58d",
-      "weight": 0.929,
+      "source": "d724662943",
+      "target": "ae2ba610df",
+      "weight": 0.592,
+      "type": "thematic"
+    },
+    {
+      "source": "74fb82476a",
+      "target": "4c22853260",
+      "weight": 0.813,
       "type": "thematic"
     }
   ],
@@ -1099,7 +1111,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 8,
+      "count": 9,
       "error": null
     },
     "The Economist": {

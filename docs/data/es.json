@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-17T11:39:14.903176+00:00",
+  "generated_at": "2026-07-17T13:59:14.506665+00:00",
   "country_code": "es",
   "country_name": "España",
   "language": "es",
   "node_count": 30,
-  "edge_count": 14,
+  "edge_count": 20,
   "nodes": [
     {
       "id": "eb3c32e59e",
       "title": "La directora de la Guardia Civil afirma al juez que se siente una víctima de Cerdán en el ‘caso Leire Díez’",
-      "signal_count": 3,
+      "signal_count": 4,
       "sources": [
         {
           "outlet": "El País",
@@ -18,9 +18,15 @@
           "platform": "rss"
         },
         {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/07/17/6a5a0b34e4d4d8ef568b4587.html",
+          "headline": "La directora de la Guardia Civil niega ante el juez del 'caso Cloacas' que presionara a la UCO: \"Yo soy una víctima de Cerdán\"",
+          "platform": "rss"
+        },
+        {
           "outlet": "20minutos",
           "url": "https://www.20minutos.es/nacional/mercedes-gonzalez-directora-guardia-civil-se-desmarca-trama-leire-se-muestra-como-victima-cerdan_7015908_0.html",
-          "headline": "La directora de la Guardia Civil se desmarca de la trama Leire y se muestra como \"víctima\" de Santos Cerdán",
+          "headline": "La directora de la Guardia Civil se desmarca de la trama Leire y se muestra como \"víctima\" de Cerdán",
           "platform": "rss"
         },
         {
@@ -31,31 +37,31 @@
         }
       ],
       "bias": {
-        "mean": -0.233,
-        "spread": 0.205,
+        "mean": -0.1,
+        "spread": 0.292,
         "left": 1,
         "center": 2,
-        "right": 0
+        "right": 1
       },
       "first_seen": "2026-07-17T11:06:52+00:00",
-      "last_seen": "2026-07-17T11:32:49+00:00",
+      "last_seen": "2026-07-17T12:45:30+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.7127
+      "resonance": 0.6881
     },
     {
-      "id": "6493b0deda",
-      "title": "El Partido Laborista nombra a Andy Burnham para sustituir a Starmer como primer ministro del Reino Unido",
+      "id": "d88507cfdc",
+      "title": "El Partido Laborista proclama oficialmente nuevo líder a Andy Burnham",
       "signal_count": 3,
       "sources": [
         {
-          "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/internacional/2026/07/17/6a5a102fe85ece17598b4584.html",
-          "headline": "Andy Burnham, proclamado líder del Partido Laborista británico en sustitución de Starmer",
+          "outlet": "El País",
+          "url": "https://elpais.com/internacional/2026-07-17/el-partido-laborista-proclama-oficialmente-nuevo-lider-a-andy-burnham.html",
+          "headline": "El Partido Laborista proclama oficialmente nuevo líder a Andy Burnham",
           "platform": "rss"
         },
         {
@@ -72,21 +78,56 @@
         }
       ],
       "bias": {
-        "mean": 0.05,
-        "spread": 0.389,
+        "mean": -0.117,
+        "spread": 0.352,
         "left": 1,
-        "center": 0,
-        "right": 2
+        "center": 1,
+        "right": 1
       },
       "first_seen": "2026-07-17T11:13:25+00:00",
-      "last_seen": "2026-07-17T11:24:05+00:00",
+      "last_seen": "2026-07-17T12:02:32+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "es",
-      "resonance": 0.6898
+      "resonance": 0.5439
+    },
+    {
+      "id": "8f2a2179a8",
+      "title": "Ortega Smith deja el grupo de Vox en el Congreso, pero mantiene su acta como diputado: \"Me voy profundamente decepcionado\"",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "El Confidencial",
+          "url": "https://www.elconfidencial.com/espana/2026-07-17/ortega-smith-deja-grupo-vox-congreso-mantiene-acta-diputado_4391909/",
+          "headline": "Ortega Smith deja el grupo de Vox en el Congreso, pero mantiene su acta como diputado: \"Me voy profundamente decepcionado\"",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/espana/politica/20260717/ortega-smith-anuncia-deja-vox-congreso-pasa-grupo-mixto-no-veo-representado/1003744325225_0.html",
+          "headline": "Ortega Smith anuncia que deja Vox en el Congreso y se pasa al Grupo Mixto: \"Esta decisión la tomarán muchos otros\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.125,
+        "spread": 0.225,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T12:09:24+00:00",
+      "last_seen": "2026-07-17T13:45:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "es",
+      "resonance": 0.5059
     },
     {
       "id": "c87d94d65a",
@@ -126,49 +167,165 @@
         "right": 1
       },
       "first_seen": "2026-07-17T07:59:59+00:00",
-      "last_seen": "2026-07-17T10:56:37+00:00",
+      "last_seen": "2026-07-17T12:20:35+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "es",
-      "resonance": 0.5928
+      "resonance": 0.4891
     },
     {
-      "id": "d1210b8d52",
-      "title": "Investigan a un alcalde de Vox como presunto autor del fuego de La Mierla (Guadalajara) mientras cosechaba",
+      "id": "43d8d62343",
+      "title": "La UCO cifra en más de 300.000 euros los beneficios que Cerdán y su familia obtuvieron de la trama entre 2015 y 2024",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/castilla-la-mancha/guadalajara/investigan-un-alcalde-vox-como-presunto-responsable-fuego-mierla-guadalajara-mientras-cosechaba_7015891_0.html",
-          "headline": "Investigan a un alcalde de Vox como el presunto responsable del fuego en La Mierla mientras cosechaba",
+          "outlet": "El País",
+          "url": "https://elpais.com/espana/2026-07-17/la-uco-cifra-en-mas-de-300000-euros-los-beneficios-obtenidos-por-cerdan-y-su-familia-de-la-trama.html",
+          "headline": "La UCO cifra en más de 300.000 euros los beneficios que Cerdán y su familia obtuvieron de la trama entre 2015 y 2024",
           "platform": "rss"
         },
         {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/2026-07-17/incendio-la-mierla-guadalajara-agricultor-1tps_4391712/",
-          "headline": "Investigan a un alcalde de Vox como presunto autor del fuego de La Mierla (Guadalajara) mientras cosechaba",
+          "outlet": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/uco-dice-cerdan-ingreso-18-000-euros-origen-desconocido_1_13388317.html",
+          "headline": "La UCO dice que Cerdán y su familia recibieron más de 300.000 euros de Servinabar en una década",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
+        "mean": -0.35,
+        "spread": 0.15,
+        "left": 1,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-17T10:23:00+00:00",
-      "last_seen": "2026-07-17T10:36:15+00:00",
+      "first_seen": "2026-07-17T12:17:43+00:00",
+      "last_seen": "2026-07-17T12:40:28+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.4141
+      "resonance": 0.443
+    },
+    {
+      "id": "455548a672",
+      "title": "El voto particular de 4 vocales de la Junta Electoral: \"Tenemos la obligación de impedir que se amplíe el censo 'contra legem'\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/espana/politica/20260717/voto-particular-vocales-junta-electoral-obligacion-impedir-amplie-censo-legem/1003744325418_0.html",
+          "headline": "El voto particular de 4 vocales de la Junta Electoral: \"Tenemos la obligación de impedir que se amplíe el censo 'contra legem'\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.35,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T13:54:52+00:00",
+      "last_seen": "2026-07-17T13:54:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "es",
+      "resonance": 0.28
+    },
+    {
+      "id": "7c060b7b5c",
+      "title": "Servinabar pagó la señal de un piso de 1M en Madrid para Cerdán al nombrarle el PSOE secretario de Organización",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/espana/politica/20260717/servinabar-pago-senal-piso-madrid-cerdan-nombrarle-psoe-secretario-organizacion/1003744325346_0.html",
+          "headline": "Servinabar pagó la señal de un piso de 1M en Madrid para Cerdán al nombrarle el PSOE secretario de Organización",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.35,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T13:31:34+00:00",
+      "last_seen": "2026-07-17T13:31:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2631
+    },
+    {
+      "id": "81324219f4",
+      "title": "Servinabar intentó comprar para Cerdán un piso en Madrid valorado en cerca de un millón de euros, según la UCO",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País",
+          "url": "https://elpais.com/espana/2026-07-17/servinabar-intento-comprar-para-cerdan-un-piso-en-madrid-valorado-en-cerca-de-un-millon-de-euros-segun-la-uco.html",
+          "headline": "Servinabar intentó comprar para Cerdán un piso en Madrid valorado en cerca de un millón de euros, según la UCO",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T13:27:55+00:00",
+      "last_seen": "2026-07-17T13:27:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2561
+    },
+    {
+      "id": "a952287264",
+      "title": "La UCO concluye que Cerdán dispuso de \"numeroso dinero en metálico en la etapa ministerial de Ábalos\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/07/17/6a5a14e821efa0ed1b8b4590.html",
+          "headline": "La UCO concluye que Cerdán dispuso de \"numeroso dinero en metálico en la etapa ministerial de Ábalos\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T13:23:25+00:00",
+      "last_seen": "2026-07-17T13:23:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2476
     },
     {
       "id": "ccf808d571",
@@ -176,9 +333,9 @@
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/espana/2026/07/17/6a59fcaae9cf4a27698b457f.html",
-          "headline": "El DAO de Guardia Civil desliza en el Senado que la UCO incurriría en \"exceso de protagonismo\" y en iniciativas \"tóxicas\"",
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/espana/20260717/dao-justifica-pidiera-uco-no-proactiva-critica-vanidad-investigadores-exceso-protagonismo/1003744324848_0.html",
+          "headline": "El DAO justifica que pidiera a la UCO no ser proactiva, critica la \"vanidad\" de los investigadores y su \"exceso de protagonismo\"",
           "platform": "rss"
         },
         {
@@ -189,56 +346,468 @@
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.4,
+        "mean": -0.075,
+        "spread": 0.425,
         "left": 1,
         "center": 0,
         "right": 1
       },
       "first_seen": "2026-07-17T09:41:12+00:00",
-      "last_seen": "2026-07-17T10:01:34+00:00",
+      "last_seen": "2026-07-17T11:51:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
+      "topic": "world",
       "language": "es",
-      "resonance": 0.3503
+      "resonance": 0.2367
     },
     {
-      "id": "42d4771844",
-      "title": "Última hora de la actualidad política, en directo | El jefe operativo de la Guardia Civil asegura en el Senado que no piensa dimitir",
-      "signal_count": 2,
+      "id": "ccce2491ed",
+      "title": "Locura en Madrid por el estreno de un nuevo pintalabios de Selena Gómez: \"Hay chicas que llevan desde las cuatro de la mañana haciendo cola para probarlo\"",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "El País",
-          "url": "https://elpais.com/espana/2026-07-17/ultima-hora-de-la-actualidad-politica-en-directo.html",
-          "headline": "Última hora de la actualidad política, en directo | El jefe operativo de la Guardia Civil asegura en el Senado que no piensa dimitir",
-          "platform": "rss"
-        },
-        {
-          "outlet": "El Español",
-          "url": "https://www.elespanol.com/espana/politica/20260717/ultima-hora-politica-directo-directora-general-guardia-civil-regresa-audiencia-nacional-declarar-investigada-caso-leire/1003744324584_10.html",
-          "headline": "Última hora política, en directo | El DAO investigado arremete contra la UCO en el Senado mientras la directora de la Guardia Civil declara ante el juez Pedraz",
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/madrid/2026/07/17/6a5a1d2bfdddffd3578b45b6.html",
+          "headline": "Locura en Madrid por el estreno de un nuevo pintalabios de Selena Gómez: \"Hay chicas que llevan desde las cuatro de la mañana haciendo cola para probarlo\"",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.075,
-        "spread": 0.275,
+        "mean": 0.3,
+        "spread": 0.0,
         "left": 0,
-        "center": 1,
+        "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-17T05:18:15+00:00",
-      "last_seen": "2026-07-17T11:13:37+00:00",
+      "first_seen": "2026-07-17T13:12:02+00:00",
+      "last_seen": "2026-07-17T13:12:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2264
+    },
+    {
+      "id": "2ad7afef03",
+      "title": "Óscar Puente reta al Supremo: \"Si yo fuera Puigdemont, hoy me plantaba en España, sin ninguna duda\"",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Marca",
+          "url": "https://www.marca.com/tiramillas/politica/2026/07/17/consejo-oscar-puente-carles-puigdemont-fuera-me-plantaba-hoy-espana-me-detengan.html",
+          "headline": "Óscar Puente: “Si fuera Puigdemont, me plantaba hoy en España y que me detengan”",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/07/17/6a59df95e9cf4ac0638b457b.html",
+          "headline": "Óscar Puente reta al Supremo: \"Si yo fuera Puigdemont, hoy me plantaba en España, sin ninguna duda\"",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/espana/politica/20260717/oscar-puente-puigdemont-plantaba-hoy-espana-detengan-vamos-ponernos-colorados/1003744324706_0.html",
+          "headline": "Óscar Puente: \"Si yo fuera Puigdemont me plantaba hoy en España y que me detengan. Vamos a ponernos colorados\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.217,
+        "spread": 0.155,
+        "left": 0,
+        "center": 1,
+        "right": 2
+      },
+      "first_seen": "2026-07-17T07:37:08+00:00",
+      "last_seen": "2026-07-17T10:19:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2153
+    },
+    {
+      "id": "d6aa8d3e56",
+      "title": "El pelotazo de Cerdán era un piso de un millón por el que pagó arras y que enfadó a Antxon: \"Encima ahora quieren un pisazo\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/07/17/6a5a268be4d4d822248b457c.html",
+          "headline": "El pelotazo de Cerdán era un piso de un millón por el que pagó arras y que enfadó a Antxon: \"Encima ahora quieren un pisazo\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T13:01:34+00:00",
+      "last_seen": "2026-07-17T13:01:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2075
+    },
+    {
+      "id": "2845e8a049",
+      "title": "La UCO concluye que Santos Cerdán pudo blanquear las comisiones de Servinabar con los gastos que pasaba al PSOE",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/espana/tribunales/20260717/uco-concluye-santos-cerdan-pudo-blanquear-comisiones-servinabar-gastos-pasaba-psoe/1003744325302_0.html",
+          "headline": "La UCO concluye que Santos Cerdán pudo blanquear las comisiones de Servinabar con los gastos que pasaba al PSOE",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.35,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T12:41:53+00:00",
+      "last_seen": "2026-07-17T12:41:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.173
+    },
+    {
+      "id": "2374fe4d44",
+      "title": "La UCO cifra en 300.000€ el beneficio de Cerdán con la trama: los mayores ingresos fueron con Ábalos en Fomento",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/espana/politica/20260717/uco-cifra-euros-beneficios-cerdan-mayores-ingresos-llegaron-abalos-transportes/1003744325314_0.html",
+          "headline": "La UCO cifra en 300.000€ el beneficio de Cerdán con la trama: los mayores ingresos fueron con Ábalos en Fomento",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.35,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T12:36:23+00:00",
+      "last_seen": "2026-07-17T12:36:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.1637
+    },
+    {
+      "id": "8d367855cf",
+      "title": "'La Odisea': final explicado del épico viaje de Christopher Nolan",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/cinemania/noticias/odisea-final-explicado-pelicula-christopher-nolan-matt-damon_7014330_0.html",
+          "headline": "'La Odisea': final explicado del épico viaje de Christopher Nolan",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T12:30:00+00:00",
+      "last_seen": "2026-07-17T12:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.153
+    },
+    {
+      "id": "07db94d9ac",
+      "title": "Sale a la luz el secreto de Netflix: la compañía ha usado IA generativa en sus últimos 300 títulos",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/cinemania/noticias/netflix-secreto-uso-inteligencia-artificial-300-titulos_7015852_0.html",
+          "headline": "Sale a la luz el secreto de Netflix: la compañía ha usado IA generativa en sus últimos 300 títulos",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T12:30:00+00:00",
+      "last_seen": "2026-07-17T12:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.153
+    },
+    {
+      "id": "33527fbede",
+      "title": "La UE constata que la percepción de corrupción en España \"ha aumentado significativamente\" durante los últimos cinco años de Gobierno de Sánchez",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/07/17/6a5a162a21efa02e118b45bf.html",
+          "headline": "La UE constata que la percepción de corrupción en España \"ha aumentado significativamente\" durante los últimos cinco años de Gobierno de Sánchez",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T12:27:04+00:00",
+      "last_seen": "2026-07-17T12:27:04+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "es",
-      "resonance": 0.2528
+      "resonance": 0.1481
+    },
+    {
+      "id": "4ebded48f7",
+      "title": "La UCO revela que Cerdán y su entorno cobraron 323.000 euros de Servinabar, la empresa clave en la trama",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/nacional/uco-apunta-que-cerdan-su-entorno-cobraron-323-000-euros-servinabar-empresa-clave-trama_7015953_0.html",
+          "headline": "La UCO revela que Cerdán y su entorno cobraron 323.000 euros de Servinabar, la empresa clave en la trama",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T12:15:41+00:00",
+      "last_seen": "2026-07-17T12:15:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.1296
+    },
+    {
+      "id": "6b0ed62c63",
+      "title": "Cuentas que te ofrecen hasta un 3% TIN en julio de 2026",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/economia/ahorro-y-consumo/2026/07/17/6a5a15f6fdddff74638b4597.html",
+          "headline": "Cuentas que te ofrecen hasta un 3% TIN en julio de 2026",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T11:56:41+00:00",
+      "last_seen": "2026-07-17T11:56:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.0996
+    },
+    {
+      "id": "ce7dcd4f1a",
+      "title": "La nueva situación de la frontera de Gibraltar provoca confusión general que afecta a taxistas y agentes de la Policía Nacional",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/andalucia/2026/07/17/6a5a1803e9cf4a0c108b4571.html",
+          "headline": "La nueva situación de la frontera de Gibraltar provoca confusión general que afecta a taxistas y agentes de la Policía Nacional",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T11:56:23+00:00",
+      "last_seen": "2026-07-17T11:56:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "es",
+      "resonance": 0.0991
+    },
+    {
+      "id": "0881023f7a",
+      "title": "Cuándo será el juicio a Begoña Gómez: delitos de los que se le acusan y previsión de fechas",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Confidencial",
+          "url": "https://www.elconfidencial.com/espana/2026-07-17/juicio-begona-gomez-delitos-prevision-fecha_4391691/",
+          "headline": "Cuándo será el juicio a Begoña Gómez: delitos de los que se le acusan y previsión de fechas",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T11:44:00+00:00",
+      "last_seen": "2026-07-17T11:44:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.0803
+    },
+    {
+      "id": "07433e6d11",
+      "title": "Expulsan a tres mujeres de las piscinas de Burgos por bañarse con burkini",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/castilla-y-leon/burgos/expulsan-mujeres-piscinas-burgos-banarse-burkini_7015931_0.html",
+          "headline": "Expulsan a tres mujeres de las piscinas de Burgos por bañarse con burkini",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T11:42:10+00:00",
+      "last_seen": "2026-07-17T11:42:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.0776
+    },
+    {
+      "id": "edc6a15cfa",
+      "title": "La directora de la Guardia Civil admite que Leire le escribió por la filtración de los mensajes de Ábalos a Sánchez",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/espana/tribunales/20260717/directora-guardia-civil-admite-leire-escribio-filtracion-mensajes-abalos-sanchez/1003744325036_0.html",
+          "headline": "La directora de la Guardia Civil admite que Leire le escribió por la filtración de los mensajes de Ábalos a Sánchez",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.35,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T11:42:01+00:00",
+      "last_seen": "2026-07-17T11:42:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.0773
+    },
+    {
+      "id": "45aa5b7960",
+      "title": "Se agrava la crisis interna de la Agencia Tributaria: cesan a la cúpula de Recursos Humanos",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/invertia/economia/20260717/agrava-crisis-interna-agencia-tributaria-cesan-cupula-recursos-humanos/1003744325045_0.html",
+          "headline": "Se agrava la crisis interna de la Agencia Tributaria: cesan a la cúpula de Recursos Humanos",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.35,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T11:34:17+00:00",
+      "last_seen": "2026-07-17T11:34:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.0659
     },
     {
       "id": "6ce08615c1",
@@ -267,7 +836,36 @@
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.247
+      "resonance": 0.0559
+    },
+    {
+      "id": "1f5f38217c",
+      "title": "Tirón de orejas de Bruselas a España: no frena la corrupción entre los altos cargos ni lucha contra los conflictos de intereses",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/nacional/tiron-orejas-bruselas-espana-no-frena-corrupcion-entre-los-altos-cargos-ni-lucha-contra-los-conflictos-intereses_7015779_0.html",
+          "headline": "Tirón de orejas de Bruselas a España: no frena la corrupción entre los altos cargos ni lucha contra los conflictos de intereses",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T11:27:18+00:00",
+      "last_seen": "2026-07-17T11:27:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.0557
     },
     {
       "id": "1a0530ee5e",
@@ -296,661 +894,63 @@
       "geo_regions": [],
       "topic": "politics",
       "language": "es",
-      "resonance": 0.2426
+      "resonance": 0.0524
     },
     {
-      "id": "243d8bc511",
-      "title": "Bruselas suaviza el sistema que penaliza las emisiones de CO₂ tras la presión de una decena de gobiernos",
+      "id": "96236fcff8",
+      "title": "Andu Burnham ya es el líder laborista: \"Ésta es la última oportunidad que tenemos\"",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "El País",
-          "url": "https://elpais.com/clima-y-medio-ambiente/2026-07-17/bruselas-suaviza-el-sistema-que-penaliza-las-emisiones-de-co-tras-la-presion-de-una-decena-de-gobiernos.html",
-          "headline": "Bruselas suaviza el sistema que penaliza las emisiones de CO₂ tras la presión de una decena de gobiernos",
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/07/17/6a5a102fe85ece17598b4584.html",
+          "headline": "Andu Burnham ya es el líder laborista: \"Ésta es la última oportunidad que tenemos\"",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.2,
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T11:24:05+00:00",
+      "last_seen": "2026-07-17T11:24:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.0511
+    },
+    {
+      "id": "598bafc25b",
+      "title": "La selección española por comunidades autónomas: de dónde es cada jugador y cuál aporta más a España",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Marca",
+          "url": "https://www.marca.com/futbol/mundial/2026/07/17/seleccion-espanola-comunidades-autonomas-jugador-aporta-espana.html",
+          "headline": "La selección española por comunidades autónomas: de dónde es cada jugador y cuál aporta más a España",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-17T11:14:45+00:00",
-      "last_seen": "2026-07-17T11:14:45+00:00",
+      "first_seen": "2026-07-17T11:23:19+00:00",
+      "last_seen": "2026-07-17T11:23:19+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "language": "es",
-      "resonance": 0.224
-    },
-    {
-      "id": "9d13bc86bb",
-      "title": "Trump cesa a su operador de teleprónter por ganar 100.000$ en apuestas ilegales sobre el contenido de sus discursos",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Español",
-          "url": "https://www.elespanol.com/mundo/america/eeuu/20260717/trump-cesa-operador-telepronter-ganar-apuestas-ilegales-contenido-discursos/1003744325049_0.html",
-          "headline": "Trump cesa a su operador de teleprónter por ganar 100.000$ en apuestas ilegales sobre el contenido de sus discursos",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.35,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-17T11:05:40+00:00",
-      "last_seen": "2026-07-17T11:05:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.2078
-    },
-    {
-      "id": "6ed522298b",
-      "title": "Qué se sabe y qué incógnitas siguen abiertas sobre el atropello mortal en Mijas de Nikoline, la joven noruega",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/andalucia/malaga/que-se-sabe-que-incognitas-siguen-abiertas-atropello-mortal-mijas-nikoline-joven-noruega_7015903_0.html",
-          "headline": "Qué se sabe y qué incógnitas siguen abiertas sobre el atropello mortal en Mijas de Nikoline, la joven noruega",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T11:02:22+00:00",
-      "last_seen": "2026-07-17T11:02:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.2021
-    },
-    {
-      "id": "301476654b",
-      "title": "El cierre de unas clínicas dentales en Madrid deja sin tratamientos a decenas de clientes: \"Son unos ladrones\"",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/madrid/cierre-las-clinicas-dentales-lahsen-deja-sin-tratamientos-pagados-decenas-clientes-sois-unos-ladrones_7015860_0.html",
-          "headline": "El cierre de unas clínicas dentales en Madrid deja sin tratamientos a decenas de clientes: \"Son unos ladrones\"",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T10:52:11+00:00",
-      "last_seen": "2026-07-17T10:52:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.1845
-    },
-    {
-      "id": "104c4d632d",
-      "title": "Catalunya recibe solo el 8,6% de toda la inversión ejecutada por el Estado en las comunidades",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/economia/20260717/11594045/catalunya-inversion-ejecucion-estado-comunidades.html",
-          "headline": "Catalunya recibe solo el 8,6% de toda la inversión ejecutada por el Estado en las comunidades",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T10:45:07+00:00",
-      "last_seen": "2026-07-17T10:45:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "es",
-      "resonance": 0.1726
-    },
-    {
-      "id": "716c09c6d9",
-      "title": "La FIFA escoge al árbitro esloveno Slavko Vincic para dirigir la final del Mundial entre España y Argentina",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "El País",
-          "url": "https://elpais.com/deportes/mundial-futbol/2026-07-17/la-fifa-escoge-al-arbitro-esloveno-slavko-vincic-para-dirigir-la-final-del-mundial-entre-espana-y-argentina.html",
-          "headline": "La FIFA escoge al árbitro esloveno Slavko Vincic para dirigir la final del Mundial entre España y Argentina",
-          "platform": "rss"
-        },
-        {
-          "outlet": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/deportes/futbol/mundial-2026/20260717/11594370/esloveno-slavko-vincic-encargado-arbitrar-final-mundial-espana-argentina.html",
-          "headline": "El esloveno Slavko Vincic rompe a llorar al saber que arbitrará el España y Argentina",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T06:28:17+00:00",
-      "last_seen": "2026-07-17T09:48:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "es",
-      "resonance": 0.1681
-    },
-    {
-      "id": "fe6d3d760f",
-      "title": "Un posible pirómano detenido gracias a la intervención de los vecinos: “¿Habéis visto a alguien vestido de negro?”",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El País",
-          "url": "https://elpais.com/espana/madrid/2026-07-17/un-posible-piromano-detenido-gracias-a-la-intervencion-de-los-vecinos-habeis-visto-a-alguien-vestido-de-negro.html",
-          "headline": "Un posible pirómano detenido gracias a la intervención de los vecinos: “¿Habéis visto a alguien vestido de negro?”",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T10:39:19+00:00",
-      "last_seen": "2026-07-17T10:39:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.1629
-    },
-    {
-      "id": "188bf7c88f",
-      "title": "Trump desclasifica documentos de la CIA sobre varias elecciones polémicas en Venezuela",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "El Español",
-          "url": "https://www.elespanol.com/mundo/america/20260717/documentos-desclasificados-cia-aseguran-chavismo-manipulo-elecciones-venezuela/1003744324834_0.html",
-          "headline": "Documentos desclasificados de la CIA aseguran que el chavismo manipuló elecciones en Venezuela entre 2004 y 2020",
-          "platform": "rss"
-        },
-        {
-          "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/internacional/2026/07/17/6a59b840e85ecedc6b8b45a6.html",
-          "headline": "Trump desclasifica documentos de la CIA sobre varias elecciones polémicas en Venezuela",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.325,
-        "spread": 0.025,
-        "left": 0,
-        "center": 0,
-        "right": 2
-      },
-      "first_seen": "2026-07-17T05:23:06+00:00",
-      "last_seen": "2026-07-17T10:07:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.1607
-    },
-    {
-      "id": "5ebc9658b6",
-      "title": "Detenido tras agredir a su expareja en su casa de Baza (Granada), adonde entró por el balcón",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/andalucia/2026-07-17/detenido-baza-robo-violencia-1tna-1tps_4391730/",
-          "headline": "Detenido tras agredir a su expareja en su casa de Baza (Granada), adonde entró por el balcón",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T10:34:00+00:00",
-      "last_seen": "2026-07-17T10:34:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.1542
-    },
-    {
-      "id": "045bdb6f17",
-      "title": "La afición calienta la final del Mundial: \"Felicito a España... pero veo a Argentina imbatible\"",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/deportes/futbol/mundial/aficion-calienta-final-mundial-felicito-espana-por-donde-llego-pero-veo-argentina-imbatible_7015813_0.html",
-          "headline": "La afición calienta la final del Mundial: \"Felicito a España... pero veo a Argentina imbatible\"",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T10:33:59+00:00",
-      "last_seen": "2026-07-17T10:33:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "es",
-      "resonance": 0.1542
-    },
-    {
-      "id": "2ad7afef03",
-      "title": "Óscar Puente reta al Supremo: \"Si yo fuera Puigdemont, hoy me plantaba en España, sin ninguna duda\"",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/espana/2026/07/17/6a59df95e9cf4ac0638b457b.html",
-          "headline": "Óscar Puente reta al Supremo: \"Si yo fuera Puigdemont, hoy me plantaba en España, sin ninguna duda\"",
-          "platform": "rss"
-        },
-        {
-          "outlet": "El Español",
-          "url": "https://www.elespanol.com/espana/politica/20260717/oscar-puente-puigdemont-plantaba-hoy-espana-detengan-vamos-ponernos-colorados/1003744324706_0.html",
-          "headline": "Óscar Puente: \"Si yo fuera Puigdemont me plantaba hoy en España y que me detengan. Vamos a ponernos colorados\"",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.325,
-        "spread": 0.025,
-        "left": 0,
-        "center": 0,
-        "right": 2
-      },
-      "first_seen": "2026-07-17T07:37:08+00:00",
-      "last_seen": "2026-07-17T07:54:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.1491
-    },
-    {
-      "id": "11b35d8764",
-      "title": "Puente anima a Puigdemont a regresar a España y ser detenido: “Sería un gesto de liderazgo político”",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/politica/20260717/11594602/puente-anima-puigdemont-regresar-espana-detenido-seria-gesto-liderazgo-politico.html",
-          "headline": "Puente anima a Puigdemont a regresar a España y ser detenido: “Sería un gesto de liderazgo político”",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T10:26:10+00:00",
-      "last_seen": "2026-07-17T10:26:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.1415
-    },
-    {
-      "id": "d18ac8d0fd",
-      "title": "Junts mantiene las distancias con el PSOE tras las sentencia europea que avala la amnistía",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/politica/20260717/11594590/junts-mantiene-distancias-psoe-sentencia-europea-avala-amnistia.html",
-          "headline": "Junts mantiene las distancias con el PSOE tras las sentencia europea que avala la amnistía",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T10:12:35+00:00",
-      "last_seen": "2026-07-17T10:12:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.1201
-    },
-    {
-      "id": "601d20a91d",
-      "title": "El incendio de Lozoyuela (Madrid) sigue \"en fase de estabilización\" pero sin controlarse aún y afronta un día \"complejo\"",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/madrid/incendio-lozoyuela-madrid-sigue-fase-estabilizacion-pero-sin-controlarse-aun-afronta-un-dia-complejo_7015868_0.html",
-          "headline": "El incendio de Lozoyuela (Madrid) sigue \"en fase de estabilización\" pero sin controlarse aún y afronta un día \"complejo\"",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T10:11:25+00:00",
-      "last_seen": "2026-07-17T10:11:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "es",
-      "resonance": 0.1183
-    },
-    {
-      "id": "7140220b62",
-      "title": "Catalunya recupera el nombre de 37.000 milicianos antifascistas durante la Guerra Civil",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "elDiario.es",
-          "url": "https://www.eldiario.es/catalunya/catalunya-recupera-nombre-37-000-milicianos-antifascistas-durante-guerra-civil_1_13387144.html",
-          "headline": "Catalunya recupera el nombre de 37.000 milicianos antifascistas durante la Guerra Civil",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.5,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T10:02:58+00:00",
-      "last_seen": "2026-07-17T10:02:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "es",
-      "resonance": 0.1053
-    },
-    {
-      "id": "bdf88af362",
-      "title": "El DAO de la Guardia Civil defiende su \"inocencia\" y asegura que no piensa dimitir ni aunque haya juicio",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/nacional/dao-guardia-civil-defiende-su-inocencia-asegura-que-no-piensa-dimitir-ni-aunque-haya-juicio_7015851_0.html",
-          "headline": "El DAO de la Guardia Civil defiende su \"inocencia\" y asegura que no piensa dimitir ni aunque haya juicio",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T09:58:33+00:00",
-      "last_seen": "2026-07-17T09:58:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.0986
-    },
-    {
-      "id": "80ebec5895",
-      "title": "El Banco Santander cierra su plan de prejubilaciones con hasta el 76% del salario bruto",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Español",
-          "url": "https://www.elespanol.com/invertia/empresas/banca/20260717/banco-santander-ofrecera-prejubilaciones-trabajadores-partir-anos-pension/1003744324901_0.html",
-          "headline": "El Banco Santander cierra su plan de prejubilaciones con hasta el 76% del salario bruto",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.35,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-17T09:46:35+00:00",
-      "last_seen": "2026-07-17T09:46:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "es",
-      "resonance": 0.0809
-    },
-    {
-      "id": "2279bf9ca3",
-      "title": "Todos los goles de España y Argentina en el Mundial 2026 desde cuartos de final",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El País",
-          "url": "https://elpais.com/deportes/mundial-futbol/2026-07-17/todos-los-goles-de-espana-y-argentina-en-el-mundial-2026-desde-cuartos-de-final.html",
-          "headline": "Todos los goles de España y Argentina en el Mundial 2026 desde cuartos de final",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T09:41:36+00:00",
-      "last_seen": "2026-07-17T09:41:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "es",
-      "resonance": 0.0736
-    },
-    {
-      "id": "f3bff411ed",
-      "title": "Junqueras promete ser \"útil\" en el final de la legislatura y pide a Junts que deje de \"flirtear\" con una moción de censura",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "elDiario.es",
-          "url": "https://www.eldiario.es/politica/junqueras-promete-util-final-legislatura-pide-junts-deje-flirtear-mocion-censura_1_13387363.html",
-          "headline": "Junqueras promete ser \"útil\" en el final de la legislatura y pide a Junts que deje de \"flirtear\" con una moción de censura",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.5,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T09:40:08+00:00",
-      "last_seen": "2026-07-17T09:40:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.0715
-    },
-    {
-      "id": "889b9bdf12",
-      "title": "Suben a siete las localidades evacuadas por el incendio de La Mierla, en Guadalajara, que ha arrasado 2.000 hectáreas",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/castilla-la-mancha/guadalajara/suben-siete-las-localidades-evacuadas-por-incendio-mierla-guadalajara-que-ha-arrasado-2-000-hectareas_7015829_0.html",
-          "headline": "Suben a siete las localidades evacuadas por el incendio de La Mierla, en Guadalajara, que ha arrasado 2.000 hectáreas",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T09:33:17+00:00",
-      "last_seen": "2026-07-17T09:33:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "es",
-      "resonance": 0.0617
-    },
-    {
-      "id": "ce629cde64",
-      "title": "El DAO de la Guardia Civil imputado en las cloacas afirma que no va a dimitir aunque sea procesado",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/2026-07-17/el-dao-de-la-guardia-civil-imputado-en-las-cloacas-afirma-que-no-va-a-dimitir-aunque-sea-procesado_4391632/",
-          "headline": "El DAO de la Guardia Civil imputado en las cloacas afirma que no va a dimitir aunque sea procesado",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T09:30:00+00:00",
-      "last_seen": "2026-07-17T09:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.057
-    },
-    {
-      "id": "cd3344093e",
-      "title": "La Velada del año 6 de Ibai Llanos: cartelera de combates y participantes, dónde ver y horario de las peleas",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/andalucia/2026-07-17/velada-del-ano-ibai-llanos-combates-donde-ver-horario-1qrt-1tna_4391573/",
-          "headline": "La Velada del año 6 de Ibai Llanos: cartelera de combates y participantes, dónde ver y horario de las peleas",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T09:25:00+00:00",
-      "last_seen": "2026-07-17T09:25:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
       "language": "es",
       "resonance": 0.05
     }
@@ -958,86 +958,122 @@
   "edges": [
     {
       "source": "eb3c32e59e",
-      "target": "ce629cde64",
-      "weight": 0.215,
+      "target": "ccf808d571",
+      "weight": 0.006,
       "type": "thematic"
     },
     {
-      "source": "c87d94d65a",
-      "target": "716c09c6d9",
-      "weight": 0.382,
+      "source": "eb3c32e59e",
+      "target": "edc6a15cfa",
+      "weight": 0.701,
       "type": "thematic"
     },
     {
-      "source": "c87d94d65a",
-      "target": "045bdb6f17",
-      "weight": 0.504,
+      "source": "d88507cfdc",
+      "target": "96236fcff8",
+      "weight": 0.816,
       "type": "thematic"
     },
     {
-      "source": "d1210b8d52",
-      "target": "889b9bdf12",
-      "weight": 0.089,
+      "source": "43d8d62343",
+      "target": "81324219f4",
+      "weight": 0.045,
       "type": "thematic"
     },
     {
-      "source": "ccf808d571",
-      "target": "bdf88af362",
-      "weight": 0.138,
+      "source": "43d8d62343",
+      "target": "2374fe4d44",
+      "weight": 0.932,
       "type": "thematic"
     },
     {
-      "source": "ccf808d571",
-      "target": "ce629cde64",
-      "weight": 0.171,
+      "source": "43d8d62343",
+      "target": "4ebded48f7",
+      "weight": 0.592,
       "type": "thematic"
     },
     {
-      "source": "42d4771844",
-      "target": "bdf88af362",
-      "weight": 0.671,
+      "source": "7c060b7b5c",
+      "target": "81324219f4",
+      "weight": 0.477,
       "type": "thematic"
     },
     {
-      "source": "42d4771844",
-      "target": "ce629cde64",
-      "weight": 0.098,
+      "source": "7c060b7b5c",
+      "target": "d6aa8d3e56",
+      "weight": 0.183,
       "type": "thematic"
     },
     {
-      "source": "716c09c6d9",
-      "target": "045bdb6f17",
-      "weight": 0.46,
+      "source": "7c060b7b5c",
+      "target": "2845e8a049",
+      "weight": 0.242,
       "type": "thematic"
     },
     {
-      "source": "716c09c6d9",
-      "target": "2279bf9ca3",
-      "weight": 0.557,
-      "type": "thematic"
-    },
-    {
-      "source": "045bdb6f17",
-      "target": "2279bf9ca3",
-      "weight": 0.703,
-      "type": "thematic"
-    },
-    {
-      "source": "2ad7afef03",
-      "target": "11b35d8764",
+      "source": "81324219f4",
+      "target": "d6aa8d3e56",
       "weight": 0.131,
       "type": "thematic"
     },
     {
-      "source": "11b35d8764",
-      "target": "f3bff411ed",
-      "weight": 0.002,
+      "source": "81324219f4",
+      "target": "2845e8a049",
+      "weight": 0.015,
       "type": "thematic"
     },
     {
-      "source": "bdf88af362",
-      "target": "ce629cde64",
-      "weight": 0.494,
+      "source": "81324219f4",
+      "target": "4ebded48f7",
+      "weight": 0.281,
+      "type": "thematic"
+    },
+    {
+      "source": "a952287264",
+      "target": "2845e8a049",
+      "weight": 0.107,
+      "type": "thematic"
+    },
+    {
+      "source": "a952287264",
+      "target": "2374fe4d44",
+      "weight": 0.042,
+      "type": "thematic"
+    },
+    {
+      "source": "ccf808d571",
+      "target": "edc6a15cfa",
+      "weight": 0.017,
+      "type": "thematic"
+    },
+    {
+      "source": "2845e8a049",
+      "target": "4ebded48f7",
+      "weight": 0.008,
+      "type": "thematic"
+    },
+    {
+      "source": "2374fe4d44",
+      "target": "4ebded48f7",
+      "weight": 0.315,
+      "type": "thematic"
+    },
+    {
+      "source": "07db94d9ac",
+      "target": "33527fbede",
+      "weight": 0.01,
+      "type": "thematic"
+    },
+    {
+      "source": "33527fbede",
+      "target": "1a0530ee5e",
+      "weight": 0.333,
+      "type": "thematic"
+    },
+    {
+      "source": "1f5f38217c",
+      "target": "1a0530ee5e",
+      "weight": 0.091,
       "type": "thematic"
     }
   ],

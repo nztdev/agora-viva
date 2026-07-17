@@ -1,35 +1,109 @@
 {
-  "generated_at": "2026-07-17T20:26:28.401522+00:00",
+  "generated_at": "2026-07-17T21:21:06.855166+00:00",
   "node_count": 35,
-  "edge_count": 15,
+  "edge_count": 11,
   "nodes": [
     {
-      "id": "49f8cc5306",
-      "title": "The state of open source AI",
-      "signal_count": 1,
+      "id": "504afb1054",
+      "title": "Trump blames Canada for wildfire smoke, says he’ll add cost to tariffs",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://stateofopensource.ai/",
-          "headline": "The state of open source AI",
-          "platform": "hackernews"
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/trump-blames-canada-wildfire-smoke-pollution-costs-tariffs",
+          "headline": "Trump blames Canada for wildfire smoke, says pollution costs should be added to tariffs",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3361020/trump-blames-canada-wildfire-smoke-says-hell-add-cost-tariffs?utm_source=rss_feed",
+          "headline": "Trump blames Canada for wildfire smoke, says he’ll add cost to tariffs",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
+        "mean": 0.35,
+        "spread": 0.25,
         "left": 0,
         "center": 1,
-        "right": 0
+        "right": 1
       },
-      "first_seen": "2026-07-17T14:31:10+00:00",
-      "last_seen": "2026-07-17T14:31:10+00:00",
+      "first_seen": "2026-07-17T20:46:56+00:00",
+      "last_seen": "2026-07-17T21:06:45+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.28
+      "topic": "economy",
+      "resonance": 0.6564
+    },
+    {
+      "id": "f0f635a325",
+      "title": "FIFA World Cup 2026: Spain vs Argentina road to final",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/football/fifa-world-cup-2026-spain-vs-argentina-road-to-final/article71233163.ece",
+          "headline": "FIFA World Cup 2026: Spain vs Argentina road to final",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/7/17/will-the-canadian-wildfire-smoke-affect-spain-vs-argentina-world-cup-final?traffic_source=rss",
+          "headline": "Will the Canadian wildfire smoke affect Spain vs Argentina World Cup final?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T19:39:33+00:00",
+      "last_seen": "2026-07-17T20:51:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.5603
+    },
+    {
+      "id": "aa493dfed7",
+      "title": "Trump threatens to tariff Canada over wildfire smoke choking northern US cities",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump threatens to tariff Canada over wildfire smoke choking northern US cities",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/canada-wildfires-smoke-choking-major-us-cities/a-78014421?maca=en-rss-en-all-1573-rdf",
+          "headline": "Canada wildfires: Smoke choking major US cities",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T18:38:00+00:00",
+      "last_seen": "2026-07-17T21:14:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.4339
     },
     {
       "id": "d1b94e4640",
@@ -69,47 +143,663 @@
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.5595
+      "resonance": 0.357
     },
     {
-      "id": "cebfe77bde",
-      "title": "West Indies cricket legend Sir Garfield Sobers dies",
-      "signal_count": 3,
+      "id": "3e137466aa",
+      "title": "Second tanker in three months hijacked off Yemen by suspected Somali pirates",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/17/all-time-west-indies-cricket-great-garfield-sobers-dies-aged-89?traffic_source=rss",
-          "headline": "All-time West Indies cricket great Garfield Sobers dies aged 89",
+          "url": "https://www.aljazeera.com/news/2026/7/17/suspected-somali-pirates-seize-tanker-near-yemen-amid-wave-of-hijackings?traffic_source=rss",
+          "headline": "Suspected Somali pirates seize tanker near Yemen amid wave of hijackings",
           "platform": "rss"
         },
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-18/sir-garfield-sobers-dies-aged-89/106930718",
-          "headline": "Cricket legend Sir Garfield Sobers dies aged 89",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/west-indies-cricket-legend-sir-garfield-sobers-dies/a-78013119?maca=en-rss-en-all-1573-rdf",
-          "headline": "West Indies cricket legend Sir Garfield Sobers dies",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c7vg6dml34vo?at_medium=RSS&at_campaign=rss",
+          "headline": "Second tanker in three months hijacked off Yemen by suspected Somali pirates",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.133,
-        "spread": 0.047,
+        "mean": -0.1,
+        "spread": 0.1,
         "left": 0,
-        "center": 3,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-17T15:50:00+00:00",
-      "last_seen": "2026-07-17T18:40:44+00:00",
+      "first_seen": "2026-07-17T17:01:16+00:00",
+      "last_seen": "2026-07-17T20:57:27+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.3781
+      "resonance": 0.2874
+    },
+    {
+      "id": "7a47243f0d",
+      "title": "The Zoom hack that says, ‘Don’t record me’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
+          "headline": "The Zoom hack that says, ‘Don’t record me’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T21:20:47+00:00",
+      "last_seen": "2026-07-17T21:20:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.254
+    },
+    {
+      "id": "a56508d2de",
+      "title": "Centcom says it redirected, disabled vessels",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-it-redirected-disabled-vessels",
+          "headline": "Centcom says it redirected, disabled vessels",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T21:18:40+00:00",
+      "last_seen": "2026-07-17T21:18:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2472
+    },
+    {
+      "id": "8d216337f5",
+      "title": "ICE agent behind fatal shooting in Maine reportedly had troubled history",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/17/ice-agent-behind-fatal-shooting-in-maine-reportedly-had-troubled-history?traffic_source=rss",
+          "headline": "ICE agent behind fatal shooting in Maine reportedly had troubled history",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T21:12:27+00:00",
+      "last_seen": "2026-07-17T21:12:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2275
+    },
+    {
+      "id": "cdb76afb28",
+      "title": "Sydney suburbs which recorded rent price drops, as 'real test' looms",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-18/domain-quarterly-report-shows-sydney-rent-price-drops-increases/106912298",
+          "headline": "Sydney suburbs which recorded rent price drops, as 'real test' looms",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T21:11:50+00:00",
+      "last_seen": "2026-07-17T21:11:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2256
+    },
+    {
+      "id": "f12713b899",
+      "title": "Food emergency deepens across Uganda’s Karamoja",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/17/food-emergency-deepens-across-ugandas-karamoja?traffic_source=rss",
+          "headline": "Food emergency deepens across Uganda’s Karamoja",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T21:11:00+00:00",
+      "last_seen": "2026-07-17T21:11:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.223
+    },
+    {
+      "id": "845ab19728",
+      "title": "The LNP's new crime statistics could be comparing 'apples and oranges'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-18/qld-victim-number-statistics-comparison/106924828",
+          "headline": "The LNP's new crime statistics could be comparing 'apples and oranges'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T21:09:39+00:00",
+      "last_seen": "2026-07-17T21:09:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2187
+    },
+    {
+      "id": "3ba8008ce8",
+      "title": "Drug-resistant hookworm found in growing number of retired greyhounds",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-18/hookworm-greyhound-drug-resistant-growing-number/106918526",
+          "headline": "Drug-resistant hookworm found in growing number of retired greyhounds",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T21:09:27+00:00",
+      "last_seen": "2026-07-17T21:09:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.2181
+    },
+    {
+      "id": "79676a3a53",
+      "title": "RFK Jr hails first US hospital to promise healthier meals: 'We have a template'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/food-drink/rfk-jr-hails-first-us-hospital-promise-healthier-meals-we-have-template",
+          "headline": "RFK Jr hails first US hospital to promise healthier meals: 'We have a template'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T21:08:17+00:00",
+      "last_seen": "2026-07-17T21:08:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.2144
+    },
+    {
+      "id": "00cdf0c7fd",
+      "title": "Maine Dems rally behind Platner's far-left platform in scramble to court his followers: 'Beyond furious'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/maine-dems-rally-behind-platners-far-left-platform-scramble-court-his-followers-beyond-furious",
+          "headline": "Maine Dems rally behind Platner's far-left platform in scramble to court his followers: 'Beyond furious'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T21:06:26+00:00",
+      "last_seen": "2026-07-17T21:06:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2087
+    },
+    {
+      "id": "f92424b6ab",
+      "title": "Clacton by-election attracts 34 candidates",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ckge923jk3vo?at_medium=RSS&at_campaign=rss",
+          "headline": "Clacton by-election attracts 34 candidates",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T21:06:11+00:00",
+      "last_seen": "2026-07-17T21:06:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2079
+    },
+    {
+      "id": "d24d830374",
+      "title": "Trump’s 'Board of Peace' abandons Gaza ‘recovery plan’: Report",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/trumps-board-peace-abandons-gaza-recovery-plan-report",
+          "headline": "Trump’s 'Board of Peace' abandons Gaza ‘recovery plan’: Report",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T21:05:05+00:00",
+      "last_seen": "2026-07-17T21:05:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2045
+    },
+    {
+      "id": "9a670521d7",
+      "title": "Lam Wing-Kee, Hong Kong Bookseller Who Defied Authorities, Dies at 70",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/17/world/asia/lam-wing-kee-dead.html",
+          "headline": "Lam Wing-Kee, Hong Kong Bookseller Who Defied Authorities, Dies at 70",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T21:03:37+00:00",
+      "last_seen": "2026-07-17T21:03:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2
+    },
+    {
+      "id": "fb1bf90c39",
+      "title": "World Cup winners to receive US-style championship rings, FIFA says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/7/17/world-cup-winners-to-receive-us-style-championship-rings-fifa-says?traffic_source=rss",
+          "headline": "World Cup winners to receive US-style championship rings, FIFA says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T21:02:35+00:00",
+      "last_seen": "2026-07-17T21:02:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1968
+    },
+    {
+      "id": "6288434933",
+      "title": "Iran War Live Updates: Bridges and Water Plants Hit as Strikes Stretch to 7th Straight Day",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/07/17/world/iran-war-trump-hormuz",
+          "headline": "Iran War Live Updates: Bridges and Water Plants Hit as Strikes Stretch to 7th Straight Day",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T21:01:58+00:00",
+      "last_seen": "2026-07-17T21:01:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1949
+    },
+    {
+      "id": "c973d24385",
+      "title": "Democratic socialist actress Cynthia Nixon handed powerful role in helping choose New York top judges",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/democratic-socialist-actress-cynthia-nixon-handed-powerful-role-helping-choose-new-york-top-judges",
+          "headline": "Democratic socialist actress Cynthia Nixon handed powerful role in helping choose New York top judges",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T21:00:54+00:00",
+      "last_seen": "2026-07-17T21:00:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1916
+    },
+    {
+      "id": "d7b3fd7467",
+      "title": "Labour pins hopes on Burnham reboot as he plans policy blitz",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cjd45xmexnyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Labour pins hopes on Burnham reboot as he plans policy blitz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T21:00:09+00:00",
+      "last_seen": "2026-07-17T21:00:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1893
+    },
+    {
+      "id": "eefcc167cf",
+      "title": "The 20-Somethings Running Ukraine’s War Machine",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/17/world/europe/youth-ukraine-defense-innovation.html",
+          "headline": "The 20-Somethings Running Ukraine’s War Machine",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T20:57:50+00:00",
+      "last_seen": "2026-07-17T20:57:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1822
+    },
+    {
+      "id": "a7a4d42bd9",
+      "title": "ISNA says US military has attacked area around Sirik in southern Iran",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/isna-says-us-military-has-attacked-area-around-sirik-southern-iran",
+          "headline": "ISNA says US military has attacked area around Sirik in southern Iran",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T20:57:02+00:00",
+      "last_seen": "2026-07-17T20:57:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1798
+    },
+    {
+      "id": "437c34c41e",
+      "title": "US judge rules in favour of Palestinian-American activist after phone seizure",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-judge-rules-favour-palestinian-american-activist-after-phone-seizure",
+          "headline": "US judge rules in favour of Palestinian-American activist after phone seizure",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/us-judge-rules-favour-palestinian-american-activist-after-phone-seizure-and-search",
+          "headline": "US judge rules in favour of Palestinian-American activist after phone seizure",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 2,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T20:22:38+00:00",
+      "last_seen": "2026-07-17T20:47:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1555
+    },
+    {
+      "id": "009365ec62",
+      "title": "In Gurugram, 60 rounds, 120 seconds",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/haryana/in-gurugram-60-rounds-120-seconds/article71233904.ece",
+          "headline": "In Gurugram, 60 rounds, 120 seconds",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T20:36:54+00:00",
+      "last_seen": "2026-07-17T20:36:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1201
+    },
+    {
+      "id": "ddc34c5eea",
+      "title": "'Inclusive' World Cup fell short as Trump administration shut out fans, rights groups say",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260717-inclusive-world-cup-fell-short-trump-administration-shut-out-fans-rights-groups-say",
+          "headline": "'Inclusive' World Cup fell short as Trump administration shut out fans, rights groups say",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T20:33:09+00:00",
+      "last_seen": "2026-07-17T20:33:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.1093
+    },
+    {
+      "id": "3546eec2b6",
+      "title": "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east",
+          "headline": "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T20:31:59+00:00",
+      "last_seen": "2026-07-17T20:31:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.1059
     },
     {
       "id": "64f00952f0",
@@ -143,7 +833,7 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2604
+      "resonance": 0.103
     },
     {
       "id": "1767b46d00",
@@ -177,35 +867,35 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2446
+      "resonance": 0.0995
     },
     {
-      "id": "437c34c41e",
-      "title": "US judge rules in favour of Palestinian-American activist after phone seizure",
+      "id": "999e7be37d",
+      "title": "J&K’s Mansbal lake starts hosting migratory birds again",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/us-judge-rules-favour-palestinian-american-activist-after-phone-seizure-and-search",
-          "headline": "US judge rules in favour of Palestinian-American activist after phone seizure",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/jksmansballake-starts-hosting-migratory-birds-again/article71233500.ece",
+          "headline": "J&K’s Mansbal lake starts hosting migratory birds again",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.25,
+        "mean": -0.1,
         "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-17T20:22:38+00:00",
-      "last_seen": "2026-07-17T20:22:38+00:00",
+      "first_seen": "2026-07-17T20:22:25+00:00",
+      "last_seen": "2026-07-17T20:22:25+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2397
+      "topic": "tech",
+      "resonance": 0.0788
     },
     {
       "id": "619ab39978",
@@ -233,7 +923,7 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2298
+      "resonance": 0.0716
     },
     {
       "id": "16ba5e6de7",
@@ -261,35 +951,7 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.2294
-    },
-    {
-      "id": "234dfc8e26",
-      "title": "Iran War Live Updates: Bridges and Water Plants Hit in Latest Escalation",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/07/17/world/iran-war-trump-hormuz",
-          "headline": "Iran War Live Updates: Bridges and Water Plants Hit in Latest Escalation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T20:18:14+00:00",
-      "last_seen": "2026-07-17T20:18:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.2243
+      "resonance": 0.0712
     },
     {
       "id": "78f3f27fd5",
@@ -317,91 +979,7 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2216
-    },
-    {
-      "id": "f2da3f49c5",
-      "title": "NEET-UG AIR 2 holder recounts retest horror and  reset strategy",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Delhi/neet-ugair-2-holder-recounts-retest-horror-and-reset-strategy/article71235796.ece",
-          "headline": "NEET-UG AIR 2 holder recounts retest horror and  reset strategy",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T20:17:12+00:00",
-      "last_seen": "2026-07-17T20:17:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2207
-    },
-    {
-      "id": "57c2460423",
-      "title": "Trump DHS threatens federal funding cutoff for states that refuse voter-roll security push",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/trump-dhs-threatens-federal-funding-cutoff-states-refuse-voter-roll-security-push",
-          "headline": "Trump DHS threatens federal funding cutoff for states that refuse voter-roll security push",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-17T20:16:57+00:00",
-      "last_seen": "2026-07-17T20:16:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2199
-    },
-    {
-      "id": "886472cf75",
-      "title": "Sub-Antarctic petrels spotted live off NSW coast for first time",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-18/rare-sub-antarctic-petrels-spotted-live-at-sea-in-nsw/106909018",
-          "headline": "Sub-Antarctic petrels spotted live off NSW coast for first time",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T20:16:49+00:00",
-      "last_seen": "2026-07-17T20:16:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2194
+      "resonance": 0.065
     },
     {
       "id": "094ba1f5eb",
@@ -429,692 +1007,108 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2162
+      "resonance": 0.0607
     },
     {
-      "id": "a36ee18e86",
-      "title": "FOX Weather correspondent Bob Van Dillen weighs in on effect of Canadian wildfires on World Cup final",
-      "signal_count": 1,
+      "id": "d53fe8a4f9",
+      "title": "Magnitude 7.3 quake hits Mexican coast near Guatemala, tsunami alert lifted",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/fox-weather-correspondent-bob-van-dillen-weighs-effect-canadian-wildfires-world-cup-final",
-          "headline": "FOX Weather correspondent Bob Van Dillen weighs in on effect of Canadian wildfires on World Cup final",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/americas/article/3361017/strong-quake-mexican-coast-rattles-guatemala-and-el-salvador?utm_source=rss_feed",
+          "headline": "Strong quake off Mexican coast rattles Guatemala and El Salvador",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-17T20:14:00+00:00",
-      "last_seen": "2026-07-17T20:14:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.2097
-    },
-    {
-      "id": "a1bece6239",
-      "title": "US military launched fresh strikes on Iran, Central Command says",
-      "signal_count": 1,
-      "sources": [
+        },
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-military-launched-fresh-strikes-iran-central-command-says",
-          "headline": "US military launched fresh strikes on Iran, Central Command says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T20:11:58+00:00",
-      "last_seen": "2026-07-17T20:11:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.2027
-    },
-    {
-      "id": "0da7e80c4c",
-      "title": "AI-driven memory crunch jolts India’s smartphone market",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
-          "headline": "AI-driven memory crunch jolts India’s smartphone market",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T20:09:27+00:00",
-      "last_seen": "2026-07-17T20:09:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1941
-    },
-    {
-      "id": "08be70b007",
-      "title": "One anti-war critic fined, another held as Russia clamps down on opponents",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cn0n3y6ewn4o?at_medium=RSS&at_campaign=rss",
-          "headline": "One anti-war critic fined, another held as Russia clamps down on opponents",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260717-magnitude-7-3-quake-hits-mexican-coast-near-guatemala-triggering-tsunami-alert",
+          "headline": "Magnitude 7.3 quake hits Mexican coast near Guatemala, tsunami alert lifted",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": 0.0,
-        "spread": 0.0,
+        "spread": 0.1,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-17T20:00:54+00:00",
-      "last_seen": "2026-07-17T20:00:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1653
-    },
-    {
-      "id": "ea42fef6be",
-      "title": "Madison Square Garden sues media outlet over allegations of secret database tracking celebrity 'risk scores'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/madison-square-garden-sues-media-outlet-allegations-secret-database-tracking-celebrity-risk-scores",
-          "headline": "Madison Square Garden sues media outlet over allegations of secret database tracking celebrity 'risk scores'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-17T20:00:34+00:00",
-      "last_seen": "2026-07-17T20:00:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1642
-    },
-    {
-      "id": "0d8b9a96a0",
-      "title": "War Between U.S. and Iran Expands, With Strikes Across the Region",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/17/world/middleeast/us-iran-war-strikes-infrastructure-civilians.html",
-          "headline": "War Between U.S. and Iran Expands, With Strikes Across the Region",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T20:00:31+00:00",
-      "last_seen": "2026-07-17T20:00:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.164
-    },
-    {
-      "id": "d698490098",
-      "title": "City investors buy shares in oysters, cows and bumper crops",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-18/city-investors-buy-shares-in-crops-livestock-australian-farming/106917066",
-          "headline": "City investors buy shares in oysters, cows and bumper crops",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:59:08+00:00",
-      "last_seen": "2026-07-17T19:59:08+00:00",
+      "first_seen": "2026-07-17T16:42:17+00:00",
+      "last_seen": "2026-07-17T18:37:47+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1594
-    },
-    {
-      "id": "cf809d2d95",
-      "title": "U.S. hits bridges and energy targets, Iran says, as strikes widen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/07/17/us-hits-bridges-energy-targets-iran-says-strikes-widen/",
-          "headline": "U.S. hits bridges and energy targets, Iran says, as strikes widen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:59:00+00:00",
-      "last_seen": "2026-07-17T19:59:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1589
-    },
-    {
-      "id": "4309ef8112",
-      "title": "EU reiterates its call on Israel to refrain from more expansion of settlements",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eu-reiterates-its-call-israel-refrain-more-expansion-settlements",
-          "headline": "EU reiterates its call on Israel to refrain from more expansion of settlements",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:58:16+00:00",
-      "last_seen": "2026-07-17T19:58:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1565
-    },
-    {
-      "id": "1c6a712c53",
-      "title": "Kafir screenshot case in Kerala: Court rejects SIT’s plea to cancel bail of prime accused Jithin Bhaskaran",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/kafir-screenshot-case-in-kerala-court-rejects-sits-plea-to-cancel-bail-of-prime-accused-jithin-bhaskaran/article71233100.ece",
-          "headline": "Kafir screenshot case in Kerala: Court rejects SIT’s plea to cancel bail of prime accused Jithin Bhaskaran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:54:14+00:00",
-      "last_seen": "2026-07-17T19:54:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1432
-    },
-    {
-      "id": "4e68efdd9b",
-      "title": "Israeli Strike in Gaza Kills Seven People, Health Officials Say",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/17/world/middleeast/israeli-strike-gaza-kills-eight.html",
-          "headline": "Israeli Strike in Gaza Kills Seven People, Health Officials Say",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:52:28+00:00",
-      "last_seen": "2026-07-17T19:52:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1374
-    },
-    {
-      "id": "4db255b32e",
-      "title": "AWS Billing Glitch Hits Customers With Billion-Dollar Fees",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/amazon-web-services-glitch-oh-no/",
-          "headline": "AWS Billing Glitch Hits Customers With Billion-Dollar Fees",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:50:38+00:00",
-      "last_seen": "2026-07-17T19:50:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1314
-    },
-    {
-      "id": "6f86c8ac27",
-      "title": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
-          "headline": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:50:18+00:00",
-      "last_seen": "2026-07-17T19:50:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1303
-    },
-    {
-      "id": "5ed4b8fe93",
-      "title": "Antisemitism inquiry turns uncomfortable lens on university protests",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-18/antisemitism-royal-commission-puts-protests-under-scrutiny/106927888",
-          "headline": "Antisemitism inquiry turns uncomfortable lens on university protests",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:43:19+00:00",
-      "last_seen": "2026-07-17T19:43:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1078
-    },
-    {
-      "id": "8159c57e35",
-      "title": "US and Iran attack infrastructure, raising fears of escalation",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3361019/us-and-iran-attack-infrastructure-raising-fears-escalation?utm_source=rss_feed",
-          "headline": "US and Iran attack infrastructure, raising fears of escalation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:40:22+00:00",
-      "last_seen": "2026-07-17T19:40:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0984
-    },
-    {
-      "id": "d5363d8ec5",
-      "title": "Will the Canadian wildfire smoke affect Spain vs Argentina World Cup final?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/17/will-the-canadian-wildfire-smoke-affect-spain-vs-argentina-world-cup-final?traffic_source=rss",
-          "headline": "Will the Canadian wildfire smoke affect Spain vs Argentina World Cup final?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:39:33+00:00",
-      "last_seen": "2026-07-17T19:39:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0958
-    },
-    {
-      "id": "d05ac48a7b",
-      "title": "Canada wildfire smoke triggers US health alerts, affects millions ahead of World Cup final",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/environment/article/2026/07/17/canada-wildfire-smoke-triggers-us-health-alerts-ahead-of-world-cup-final_6755585_114.html",
-          "headline": "Canada wildfire smoke triggers US health alerts, affects millions ahead of World Cup final",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/07/17/world-cup-organisers-monitor-wildfire-smoke-ahead-of-new-jersey-final",
-          "headline": "World Cup organisers 'monitoring' wildfire smoke ahead of New Jersey final",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T15:52:56+00:00",
-      "last_seen": "2026-07-17T18:35:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.0938
-    },
-    {
-      "id": "3546eec2b6",
-      "title": "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/us-news/2026/jul/17/canada-wildfire-smoke-midwest-mid-atlantic-north-east",
-          "headline": "More Canadian wildfire smoke shrouds US midwest, mid-Atlantic and north-east",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:38:52+00:00",
-      "last_seen": "2026-07-17T19:38:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.0936
-    },
-    {
-      "id": "81b5a3c743",
-      "title": "TikTok is testing an AI likeness detection tool",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
-          "headline": "TikTok is testing an AI likeness detection tool",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:34:30+00:00",
-      "last_seen": "2026-07-17T19:34:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0799
-    },
-    {
-      "id": "60890c341e",
-      "title": "Many allegations, little evidence: unpacking the China election-interference records",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3361018/many-allegations-little-evidence-unpacking-china-election-interference-records?utm_source=rss_feed",
-          "headline": "Many allegations, little evidence: unpacking the China election-interference records",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:31:27+00:00",
-      "last_seen": "2026-07-17T19:31:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0703
-    },
-    {
-      "id": "4189ce1e0f",
-      "title": "Move over, Super Bowl? There's an even bigger – and splashier – World Cup halftime show coming",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/17/nx-s1-5897510/bts-bieber-madonna-shakira-world-cup-halftime-show",
-          "headline": "Move over, Super Bowl? There's an even bigger – and splashier – World Cup halftime show coming",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T19:24:52+00:00",
-      "last_seen": "2026-07-17T19:24:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
+      "source": "504afb1054",
+      "target": "aa493dfed7",
+      "weight": 0.854,
+      "type": "thematic"
+    },
+    {
+      "source": "504afb1054",
+      "target": "3546eec2b6",
+      "weight": 0.143,
+      "type": "thematic"
+    },
+    {
+      "source": "f0f635a325",
+      "target": "fb1bf90c39",
+      "weight": 0.525,
+      "type": "thematic"
+    },
+    {
+      "source": "f0f635a325",
+      "target": "ddc34c5eea",
+      "weight": 0.014,
+      "type": "thematic"
+    },
+    {
+      "source": "f0f635a325",
+      "target": "78f3f27fd5",
+      "weight": 0.47,
+      "type": "thematic"
+    },
+    {
+      "source": "aa493dfed7",
+      "target": "3546eec2b6",
+      "weight": 0.1,
+      "type": "thematic"
+    },
+    {
       "source": "d1b94e4640",
-      "target": "886472cf75",
-      "weight": 0.295,
+      "target": "d53fe8a4f9",
+      "weight": 0.643,
       "type": "thematic"
     },
     {
-      "source": "234dfc8e26",
-      "target": "0d8b9a96a0",
-      "weight": 0.11,
+      "source": "8d216337f5",
+      "target": "00cdf0c7fd",
+      "weight": 0.036,
       "type": "thematic"
     },
     {
-      "source": "234dfc8e26",
-      "target": "cf809d2d95",
-      "weight": 0.18,
+      "source": "f92424b6ab",
+      "target": "16ba5e6de7",
+      "weight": 0.026,
       "type": "thematic"
     },
     {
-      "source": "234dfc8e26",
-      "target": "8159c57e35",
-      "weight": 0.204,
+      "source": "fb1bf90c39",
+      "target": "ddc34c5eea",
+      "weight": 0.006,
       "type": "thematic"
     },
     {
-      "source": "78f3f27fd5",
-      "target": "d5363d8ec5",
-      "weight": 0.428,
-      "type": "thematic"
-    },
-    {
-      "source": "a36ee18e86",
-      "target": "d5363d8ec5",
-      "weight": 0.5,
-      "type": "thematic"
-    },
-    {
-      "source": "a36ee18e86",
-      "target": "d05ac48a7b",
-      "weight": 0.086,
-      "type": "thematic"
-    },
-    {
-      "source": "a1bece6239",
-      "target": "0d8b9a96a0",
-      "weight": 0.162,
-      "type": "thematic"
-    },
-    {
-      "source": "a1bece6239",
-      "target": "cf809d2d95",
-      "weight": 0.166,
-      "type": "thematic"
-    },
-    {
-      "source": "0d8b9a96a0",
-      "target": "cf809d2d95",
-      "weight": 0.184,
-      "type": "thematic"
-    },
-    {
-      "source": "6f86c8ac27",
-      "target": "d5363d8ec5",
-      "weight": 0.102,
-      "type": "thematic"
-    },
-    {
-      "source": "6f86c8ac27",
-      "target": "d05ac48a7b",
-      "weight": 0.331,
-      "type": "thematic"
-    },
-    {
-      "source": "6f86c8ac27",
-      "target": "3546eec2b6",
-      "weight": 0.041,
-      "type": "thematic"
-    },
-    {
-      "source": "d5363d8ec5",
-      "target": "d05ac48a7b",
-      "weight": 0.823,
-      "type": "thematic"
-    },
-    {
-      "source": "d5363d8ec5",
-      "target": "3546eec2b6",
-      "weight": 0.433,
+      "source": "fb1bf90c39",
+      "target": "78f3f27fd5",
+      "weight": 0.067,
       "type": "thematic"
     }
   ],

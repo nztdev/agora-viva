@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-17T17:21:24.061250+00:00",
+  "generated_at": "2026-07-17T19:23:46.314039+00:00",
   "country_code": "es",
   "country_name": "España",
   "language": "es",
   "node_count": 30,
-  "edge_count": 8,
+  "edge_count": 4,
   "nodes": [
     {
       "id": "0e552381c4",
       "title": "Un terremoto de magnitud 7,4 sacude Puerto Madero y la costa del estado de Chiapas (México) y provoca una alerta de tsunami",
-      "signal_count": 3,
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "El Mundo",
@@ -22,42 +22,88 @@
           "url": "https://www.20minutos.es/internacional/un-potente-terremoto-magnitud-7-4-sacude-mexico-hay-alerta-tsunami_7016062_0.html",
           "headline": "Un potente terremoto de magnitud 7,4 sacude México: hay alerta de tsunami",
           "platform": "rss"
-        },
-        {
-          "outlet": "El Español",
-          "url": "https://www.elespanol.com/mundo/america/20260717/terremoto-magnitud-sacude-costa-mexico-guatemala-salvador-activa-alerta-tsunami/1003744325594_0.html",
-          "headline": "Un terremoto de  magnitud 7,4 sacude la costa de México, Guatemala y El Salvador: se activa la alerta por tsunami",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.217,
-        "spread": 0.155,
+        "mean": 0.15,
+        "spread": 0.15,
         "left": 0,
         "center": 1,
-        "right": 2
+        "right": 1
       },
-      "first_seen": "2026-07-17T15:27:07+00:00",
-      "last_seen": "2026-07-17T16:38:46+00:00",
+      "first_seen": "2026-07-17T16:04:29+00:00",
+      "last_seen": "2026-07-17T18:27:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.6859
+      "resonance": 0.6113
+    },
+    {
+      "id": "e5be62baf1",
+      "title": "Llega ‘Dai Dai’ en español: Shakira calienta motores para la final del Mundial con un adelanto del himno del verano",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País",
+          "url": "https://elpais.com/us/2026-07-17/llega-dai-dai-en-espanol-shakira-calienta-motores-para-la-final-del-mundial-con-un-adelanto-del-himno-del-verano.html",
+          "headline": "Llega ‘Dai Dai’ en español: Shakira calienta motores para la final del Mundial con un adelanto del himno del verano",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T19:11:57+00:00",
+      "last_seen": "2026-07-17T19:11:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "es",
+      "resonance": 0.28
+    },
+    {
+      "id": "f620991675",
+      "title": "Miles de manifestantes protestan en Kiev contra la destitución del ministro de Defensa Fedorov",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/07/17/6a5a79fa21efa02d4a8b4575.html",
+          "headline": "Miles de manifestantes protestan en Kiev contra la destitución del ministro de Defensa Fedorov",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T19:01:40+00:00",
+      "last_seen": "2026-07-17T19:01:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "es",
+      "resonance": 0.28
     },
     {
       "id": "ba0fc4bbcd",
       "title": "Ortega Smith deja el grupo de Vox en el Congreso, pero mantiene su acta como diputado",
-      "signal_count": 5,
+      "signal_count": 4,
       "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/nacional/ortega-smith-abandona-grupo-vox-congreso-pero-sin-dejar-su-acta-diputado-partido-le-acusa-robarse-escano_7016042_0.html",
-          "headline": "Ortega Smith abandona el grupo de Vox en el Congreso, pero sin dejar su acta de diputado: el partido le acusa de \"robarse\" el escaño",
-          "platform": "rss"
-        },
         {
           "outlet": "elDiario.es",
           "url": "https://www.eldiario.es/politica/ortega-smith-deja-grupo-vox-congreso-mantiene-acta-diputado_1_13388956.html",
@@ -84,21 +130,50 @@
         }
       ],
       "bias": {
-        "mean": 0.01,
-        "spread": 0.307,
+        "mean": 0.012,
+        "spread": 0.343,
         "left": 1,
-        "center": 2,
+        "center": 1,
         "right": 2
       },
       "first_seen": "2026-07-17T12:09:24+00:00",
-      "last_seen": "2026-07-17T15:31:39+00:00",
+      "last_seen": "2026-07-17T14:42:12+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "es",
-      "resonance": 0.6134
+      "resonance": 0.4586
+    },
+    {
+      "id": "507b496773",
+      "title": "Protesta en Ucrania contra Zelenski tras la destitución del ministro de Defensa, al que ven artífice del giro en la guerra",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/internacional/protesta-ucrania-contra-zelenski-tras-destitucion-ministro-defensa-que-ven-artifice-giro-guerra-con-rusia_7016109_0.html",
+          "headline": "Protesta en Ucrania contra Zelenski tras la destitución del ministro de Defensa, al que ven artífice del giro en la guerra",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T18:37:44+00:00",
+      "last_seen": "2026-07-17T18:37:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "es",
+      "resonance": 0.28
     },
     {
       "id": "0ce30467b4",
@@ -133,7 +208,210 @@
       "geo_regions": [],
       "topic": "politics",
       "language": "es",
-      "resonance": 0.4631
+      "resonance": 0.4417
+    },
+    {
+      "id": "6b28cc7344",
+      "title": "El periodista Fonsi Loaiza denuncia una \"brutal agresión\": \"Lo último que recuerdo es que me llamaron 'rojo, subcampeón' antes de quedar inconsciente\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/07/17/6a5a7368e9cf4a27698b45a7.html",
+          "headline": "El periodista Fonsi Loaiza denuncia una \"brutal agresión\": \"Lo último que recuerdo es que me llamaron 'rojo, subcampeón' antes de quedar inconsciente\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T18:24:44+00:00",
+      "last_seen": "2026-07-17T18:24:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.28
+    },
+    {
+      "id": "6d7116a8a5",
+      "title": "¿España o Argentina? Un superordenador de EEUU revela quién ganará la final del Mundial: será reñido",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/deportes/espana-argentina-superordenador-universidad-eeuu-revela-quien-ganara-domingo-sera-renido_7016100_0.html",
+          "headline": "¿España o Argentina? Un superordenador de EEUU revela quién ganará la final del Mundial: será reñido",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T18:18:06+00:00",
+      "last_seen": "2026-07-17T18:18:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "es",
+      "resonance": 0.28
+    },
+    {
+      "id": "d6aa8d3e56",
+      "title": "El pelotazo de Cerdán era un piso de un millón por el que pagó arras y que enfadó a Antxon: \"Encima ahora quieren un pisazo\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/07/17/6a5a268be4d4d822248b457c.html",
+          "headline": "El pelotazo de Cerdán era un piso de un millón por el que pagó arras y que enfadó a Antxon: \"Encima ahora quieren un pisazo\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T18:10:46+00:00",
+      "last_seen": "2026-07-17T18:10:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.28
+    },
+    {
+      "id": "53982b2776",
+      "title": "Trump pone en riesgo su tregua con Xi tras utilizar a China para enfangar el sistema electoral en la antesala de las 'midterms'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/mundo/america/eeuu/20260717/trump-pone-riesgo-tregua-xi-utilizar-china-enfangar-sistema-electoral-antesala-midterms/1003744324713_0.html",
+          "headline": "Trump pone en riesgo su tregua con Xi tras utilizar a China para enfangar el sistema electoral en la antesala de las 'midterms'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.35,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T17:44:41+00:00",
+      "last_seen": "2026-07-17T17:44:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.28
+    },
+    {
+      "id": "12d140d972",
+      "title": "José Elías: \"No pongas las acciones de tu compañía a tu nombre: el día que quieras venderla, no podrás\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/jose-elias-empresarion-no-pongas-acciones-compania-nombre-venderla-no-podras_7016091_0.html",
+          "headline": "José Elías: \"No pongas las acciones de tu compañía a tu nombre: el día que quieras venderla, no podrás\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T17:43:57+00:00",
+      "last_seen": "2026-07-17T17:43:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.28
+    },
+    {
+      "id": "1af6777c65",
+      "title": "La esposa de Cerdán fue contratada por un \"entramado\" de su socio y despedida tras la detención de Koldo, según la UCO",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/nacional/esposa-cerdan-fue-contratada-por-un-entramado-su-socio-despedida-tras-detencion-koldo-segun-uco_7016093_0.html",
+          "headline": "La esposa de Cerdán fue contratada por un \"entramado\" de su socio y despedida tras la detención de Koldo, según la UCO",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T17:42:27+00:00",
+      "last_seen": "2026-07-17T17:42:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.28
+    },
+    {
+      "id": "daba0653f9",
+      "title": "Alexia Rivas, sobre el supuesto romance entre Carlos Alcaraz y Claudia Canals: \"No sabemos si a Claudia le gustará\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/television/alexia-rivas-sobre-supuesto-romance-entre-carlos-alcaraz-claudia-canals-no-sabemos-si-claudia-le-gustara_7016077_0.html",
+          "headline": "Alexia Rivas, sobre el supuesto romance entre Carlos Alcaraz y Claudia Canals: \"No sabemos si a Claudia le gustará\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T17:22:31+00:00",
+      "last_seen": "2026-07-17T17:22:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.28
     },
     {
       "id": "eb3c32e59e",
@@ -174,7 +452,36 @@
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.3293
+      "resonance": 0.2662
+    },
+    {
+      "id": "3d0b92efe2",
+      "title": "Kim Kardashian explica por qué compartió una foto de fiesta en Instagram tras la muerte de su abuela",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/gente/kim-kardashian-explica-por-que-compartio-foto-fiesta-instagram-tras-muerte-abuela-estaba-programado_7016083_0.html",
+          "headline": "Kim Kardashian explica por qué compartió una foto de fiesta en Instagram tras la muerte de su abuela",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-17T17:13:36+00:00",
+      "last_seen": "2026-07-17T17:13:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2624
     },
     {
       "id": "3acb4fcfb1",
@@ -209,7 +516,36 @@
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.294
+      "resonance": 0.2434
+    },
+    {
+      "id": "02f1aad3e9",
+      "title": "La provocación de Armstrong y la respuesta de Pogacar: \"No puedo decir nada. No busco récords\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/deportes/ciclismo/tour-de-francia/2026/07/17/6a5a5a89e4d4d8e86c8b4582.html",
+          "headline": "La provocación de Armstrong y la respuesta de Pogacar: \"No puedo decir nada. No busco récords\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-17T16:53:26+00:00",
+      "last_seen": "2026-07-17T16:53:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.223
     },
     {
       "id": "d2aa4b9b73",
@@ -238,36 +574,7 @@
       "geo_regions": [],
       "topic": "climate",
       "language": "es",
-      "resonance": 0.2796
-    },
-    {
-      "id": "6a4120e39c",
-      "title": "Burnham, el nuevo líder laborista, promete descentralización y más Estado, pero no ofrece ninguna política clara",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/internacional/2026/07/17/6a5a102fe85ece17598b4584.html",
-          "headline": "Burnham, el nuevo líder laborista, promete descentralización y más Estado, pero no ofrece ninguna política clara",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-17T16:33:48+00:00",
-      "last_seen": "2026-07-17T16:33:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "es",
-      "resonance": 0.2586
+      "resonance": 0.2085
     },
     {
       "id": "751a32d00c",
@@ -296,7 +603,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.2174
+      "resonance": 0.1427
     },
     {
       "id": "43d8d62343",
@@ -325,7 +632,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.2146
+      "resonance": 0.1397
     },
     {
       "id": "a9e7636985",
@@ -354,7 +661,7 @@
       "geo_regions": [],
       "topic": "tech",
       "language": "es",
-      "resonance": 0.209
+      "resonance": 0.1338
     },
     {
       "id": "88ca9eb941",
@@ -383,7 +690,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.1918
+      "resonance": 0.1155
     },
     {
       "id": "ecdaf4678e",
@@ -412,7 +719,7 @@
       "geo_regions": [],
       "topic": "sport",
       "language": "es",
-      "resonance": 0.191
+      "resonance": 0.1147
     },
     {
       "id": "62f2e0668b",
@@ -441,7 +748,7 @@
       "geo_regions": [],
       "topic": "economy",
       "language": "es",
-      "resonance": 0.1889
+      "resonance": 0.1124
     },
     {
       "id": "301476654b",
@@ -470,7 +777,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.1843
+      "resonance": 0.1075
     },
     {
       "id": "32e45159fc",
@@ -499,7 +806,7 @@
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.166
+      "resonance": 0.0881
     },
     {
       "id": "638c74bd94",
@@ -528,7 +835,7 @@
       "geo_regions": [],
       "topic": "climate",
       "language": "es",
-      "resonance": 0.1656
+      "resonance": 0.0877
     },
     {
       "id": "82340ad124",
@@ -557,7 +864,7 @@
       "geo_regions": [],
       "topic": "tech",
       "language": "es",
-      "resonance": 0.1597
+      "resonance": 0.0814
     },
     {
       "id": "be93068014",
@@ -586,65 +893,7 @@
       "geo_regions": [],
       "topic": "climate",
       "language": "es",
-      "resonance": 0.1516
-    },
-    {
-      "id": "245a33a2c7",
-      "title": "Kimi K3, la IA china que ha puesto en guardia a Silicon Valley",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El País",
-          "url": "https://elpais.com/tecnologia/2026-07-17/kimi-k3-la-ia-china-que-ha-puesto-en-guardia-a-silicon-valley.html",
-          "headline": "Kimi K3, la IA china que ha puesto en guardia a Silicon Valley",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T15:22:06+00:00",
-      "last_seen": "2026-07-17T15:22:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "es",
-      "resonance": 0.1445
-    },
-    {
-      "id": "cf371f2a79",
-      "title": "Si España gana la final del Mundial el premio económico no es solo para los futbolistas:  Hacienda se embolsaría casi seis millones",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/economia/empresas/2026/07/17/6a5a3f84e85ece78658b45b3.html",
-          "headline": "Si España gana la final del Mundial el premio económico no es solo para los futbolistas:  Hacienda se embolsaría casi seis millones",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-17T15:21:40+00:00",
-      "last_seen": "2026-07-17T15:21:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "es",
-      "resonance": 0.1438
+      "resonance": 0.0727
     },
     {
       "id": "63a56e3aa4",
@@ -673,335 +922,32 @@
       "geo_regions": [],
       "topic": "politics",
       "language": "es",
-      "resonance": 0.1303
-    },
-    {
-      "id": "16ac3bf147",
-      "title": "La UCO detecta que Santos Cerdán obtuvo sus mayores beneficios cuando José Luis Ábalos era ministro de Transportes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/nacional/uco-detecta-que-santos-cerdan-obtuvo-sus-mayores-beneficios-cuando-jose-luis-abalos-era-ministro-transportes_7016035_0.html",
-          "headline": "La UCO detecta que Santos Cerdán obtuvo sus mayores beneficios cuando José Luis Ábalos era ministro de Transportes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T15:10:10+00:00",
-      "last_seen": "2026-07-17T15:10:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "es",
-      "resonance": 0.1272
-    },
-    {
-      "id": "28b8ca6b5a",
-      "title": "Avisan sobre las moscas que se posan en la comida: \"Son más sucias que las cucarachas\"",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/salud/aviso-experto-sobre-moscas-posan-comida-mas-sucias-cucarachas_7013426_0.html",
-          "headline": "Avisan sobre las moscas que se posan en la comida: \"Son más sucias que las cucarachas\"",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T15:03:04+00:00",
-      "last_seen": "2026-07-17T15:03:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.1172
-    },
-    {
-      "id": "c87d94d65a",
-      "title": "Mundial 2026, últimas noticias en directo | Pedro Sánchez acudirá a la final entre España y Argentina",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "El País",
-          "url": "https://elpais.com/deportes/mundial-futbol/2026-07-17/resumen-y-ultimas-noticias-de-la-copa-mundial-de-futbol.html",
-          "headline": "Mundial 2026, últimas noticias en directo | Pedro Sánchez acudirá a la final entre España y Argentina",
-          "platform": "rss"
-        },
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/2026-07-17/sanchez-final-mundial-estados-unidos-espana-argentina_4391571/",
-          "headline": "Pedro Sánchez despeja las incógnitas: acudirá a la final del Mundial entre España y Argentina en Nueva York",
-          "platform": "rss"
-        },
-        {
-          "outlet": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/deportes/futbol/mundial-2026/20260717/11594445/moncloa-confirma-pedro-sanchez-asistira-final-mundial-espana-argentina.html",
-          "headline": "La Moncloa confirma que Pedro Sánchez asistirá a la final del Mundial entre España y Argentina",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.133,
-        "spread": 0.047,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T08:01:37+00:00",
-      "last_seen": "2026-07-17T12:20:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "es",
-      "resonance": 0.0938
-    },
-    {
-      "id": "2c89e19ac4",
-      "title": "Los misioneros españoles del siglo XVII en las islas del fin del mundo",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/cultura/2026/07/16/6a58fbb321efa00b258b4587.html",
-          "headline": "Los misioneros españoles del siglo XVII en las islas del fin del mundo",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-17T14:42:21+00:00",
-      "last_seen": "2026-07-17T14:42:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.0887
-    },
-    {
-      "id": "3c7d1240ab",
-      "title": "Reventas de hasta 1.000 euros por ver 'La Odisea' de Nolan en IMAX: ¿es el futuro del cine o un lujo excluyente?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Español",
-          "url": "https://www.elespanol.com/el-cultural/cine/20260717/reventas-euros-ver-odisea-nolan-imax-futuro-cine-lujo-excluyente/1003744324841_0.html",
-          "headline": "Reventas de hasta 1.000 euros por ver 'La Odisea' de Nolan en IMAX: ¿es el futuro del cine o un lujo excluyente?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.35,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-17T14:41:32+00:00",
-      "last_seen": "2026-07-17T14:41:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.0876
-    },
-    {
-      "id": "bb937125cb",
-      "title": "La primera línea de lucha contra el fuego en Cinco Villas: brigadas y voluntarios que plantan cara al mayor incendio del verano",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "elDiario.es",
-          "url": "https://www.eldiario.es/aragon/sociedad/primera-linea-lucha-fuego-brigadas-voluntarios-sostienen-emergencia-incendio-cinco-villas_1_13388909.html",
-          "headline": "La primera línea de lucha contra el fuego en Cinco Villas: brigadas y voluntarios que plantan cara al mayor incendio del verano",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.5,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T14:39:02+00:00",
-      "last_seen": "2026-07-17T14:39:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "es",
-      "resonance": 0.0843
-    },
-    {
-      "id": "6493b0deda",
-      "title": "El Partido Laborista nombra a Andy Burnham para sustituir a Starmer como primer ministro del Reino Unido",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "El Español",
-          "url": "https://www.elespanol.com/mundo/europa/20260717/partido-laborista-proclama-andy-burnham-nuevo-lider-sustituira-starmer-primer-ministro-britanico/1003744325145_0.html",
-          "headline": "El Partido Laborista proclama a Andy Burnham como su nuevo líder y sustituirá a Starmer como primer ministro británico",
-          "platform": "rss"
-        },
-        {
-          "outlet": "elDiario.es",
-          "url": "https://www.eldiario.es/internacional/partido-laborista-nombra-andy-burnham-sustituir-starmer-primer-ministro-reino-unido_1_13387191.html",
-          "headline": "El Partido Laborista nombra a Andy Burnham para sustituir a Starmer como primer ministro del Reino Unido",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.425,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-17T11:13:25+00:00",
-      "last_seen": "2026-07-17T11:21:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "es",
-      "resonance": 0.0539
-    },
-    {
-      "id": "e528ea636d",
-      "title": "La UCO apunta a que la esposa de Cerdán cobró 1.300 euros mensuales de una empresa para la que no trabajaba",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El País",
-          "url": "https://elpais.com/espana/2026-07-17/la-uco-apunta-a-que-la-esposa-de-cerdan-cobro-1300-euros-mensuales-de-una-empresa-para-la-que-no-trabajaba.html",
-          "headline": "La UCO apunta a que la esposa de Cerdán cobró 1.300 euros mensuales de una empresa para la que no trabajaba",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T14:14:37+00:00",
-      "last_seen": "2026-07-17T14:14:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.0526
-    },
-    {
-      "id": "447e10522e",
-      "title": "El jefe operativo de la Guardia Civil acusa a “algunos” mandos de la UCO de “vanidad”",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El País",
-          "url": "https://elpais.com/espana/2026-07-17/el-jefe-operativo-de-la-guardia-civil-acusa-a-algunos-mandos-de-la-uco-de-vanidad.html",
-          "headline": "El jefe operativo de la Guardia Civil acusa a “algunos” mandos de la UCO de “vanidad”",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-17T14:12:32+00:00",
-      "last_seen": "2026-07-17T14:12:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "eb3c32e59e",
-      "target": "447e10522e",
-      "weight": 0.089,
+      "source": "e5be62baf1",
+      "target": "6d7116a8a5",
+      "weight": 0.095,
+      "type": "thematic"
+    },
+    {
+      "source": "f620991675",
+      "target": "507b496773",
+      "weight": 0.674,
+      "type": "thematic"
+    },
+    {
+      "source": "d6aa8d3e56",
+      "target": "88ca9eb941",
+      "weight": 0.218,
       "type": "thematic"
     },
     {
       "source": "3acb4fcfb1",
       "target": "751a32d00c",
       "weight": 0.929,
-      "type": "thematic"
-    },
-    {
-      "source": "6a4120e39c",
-      "target": "6493b0deda",
-      "weight": 0.054,
-      "type": "thematic"
-    },
-    {
-      "source": "43d8d62343",
-      "target": "16ac3bf147",
-      "weight": 0.134,
-      "type": "thematic"
-    },
-    {
-      "source": "43d8d62343",
-      "target": "e528ea636d",
-      "weight": 0.481,
-      "type": "thematic"
-    },
-    {
-      "source": "ecdaf4678e",
-      "target": "cf371f2a79",
-      "weight": 0.658,
-      "type": "thematic"
-    },
-    {
-      "source": "ecdaf4678e",
-      "target": "c87d94d65a",
-      "weight": 0.343,
-      "type": "thematic"
-    },
-    {
-      "source": "cf371f2a79",
-      "target": "c87d94d65a",
-      "weight": 0.197,
       "type": "thematic"
     }
   ],

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-18T17:54:22.767829+00:00",
+  "generated_at": "2026-07-18T18:59:09.510335+00:00",
   "node_count": 35,
-  "edge_count": 9,
+  "edge_count": 7,
   "nodes": [
     {
-      "id": "f13d7243d5",
-      "title": "Iran War Live Updates: 2 U.S. Service Members Killed and 1 Missing in Iranian Attack on Jordan",
-      "signal_count": 5,
+      "id": "e6dcc935cd",
+      "title": "Two US troops killed and one missing after Iranian attack in Jordan",
+      "signal_count": 8,
       "sources": [
         {
           "outlet": "New York Times",
@@ -15,9 +15,27 @@
           "platform": "rss"
         },
         {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
+          "headline": "Two US troops killed and one missing after Iranian attack in Jordan",
+          "platform": "rss"
+        },
+        {
           "outlet": "Washington Post",
           "url": "https://www.washingtonpost.com/world/2026/07/18/iran-us-strikes-widen-fighting-hits-critical-infrastructure/",
           "headline": "2 U.S. service members killed, 1 missing after Iran attack on Jordan, military says",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/18/nx-s1-5899039/us-troops-killed-missing-iran-jordan",
+          "headline": "2 U.S. service members killed, 1 missing after Iranian attack in Jordan",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/18/us-military-says-two-service-members-killed-in-iranian-strike-in-jordan?traffic_source=rss",
+          "headline": "US military says two service members killed in Iranian strike in Jordan",
           "platform": "rss"
         },
         {
@@ -40,30 +58,30 @@
         }
       ],
       "bias": {
-        "mean": -0.07,
-        "spread": 0.343,
+        "mean": -0.087,
+        "spread": 0.277,
         "left": 3,
-        "center": 1,
+        "center": 4,
         "right": 1
       },
       "first_seen": "2026-07-18T17:30:16+00:00",
-      "last_seen": "2026-07-18T17:48:21+00:00",
+      "last_seen": "2026-07-18T18:55:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.7611
+      "resonance": 0.8049
     },
     {
-      "id": "fdfbdc5a77",
-      "title": "EU ban on destruction of unsold clothes and shoes enters into application",
+      "id": "d12abc602b",
+      "title": "Goodbye, and Thanks for All the Bikesheds",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://environment.ec.europa.eu/news/ban-destruction-unsold-clothes-and-shoes-enters-application-2026-07-17_en",
-          "headline": "EU ban on destruction of unsold clothes and shoes enters into application",
+          "url": "https://queue.acm.org/detail.cfm?id=3818307",
+          "headline": "Goodbye, and Thanks for All the Bikesheds",
           "platform": "hackernews"
         }
       ],
@@ -74,13 +92,41 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-18T14:04:42+00:00",
-      "last_seen": "2026-07-18T14:04:42+00:00",
+      "first_seen": "2026-07-18T17:27:24+00:00",
+      "last_seen": "2026-07-18T17:27:24+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "tech",
+      "topic": "world",
+      "resonance": 0.28
+    },
+    {
+      "id": "41f2a2005f",
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+          "headline": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T13:00:52+00:00",
+      "last_seen": "2026-07-18T13:00:52+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "world",
       "resonance": 0.28
     },
     {
@@ -127,35 +173,7 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.4884
-    },
-    {
-      "id": "41f2a2005f",
-      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
-          "headline": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T13:00:52+00:00",
-      "last_seen": "2026-07-18T13:00:52+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
+      "resonance": 0.3476
     },
     {
       "id": "d09dd41c28",
@@ -183,41 +201,315 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.28
+      "resonance": 0.244
     },
     {
-      "id": "8bb2691d66",
-      "title": "France vs England LIVE: FIFA World Cup 2026 third-place playoff",
-      "signal_count": 2,
+      "id": "fa7282a401",
+      "title": "Cyberabad SHE Teams conduct 127 decoy operations, 31 petty cases booked",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/18/france-vs-england-live-fifa-world-cup-2026-third-place-playoff?traffic_source=rss",
-          "headline": "France vs England LIVE: FIFA World Cup 2026 third-place playoff",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/france-takes-england-world-cup-third-place-game-mbappe-chasing-golden-boot",
-          "headline": "France takes on England in World Cup third-place game with Mbappe chasing Golden Boot",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/cyberabad-she-teams-conduct-127-decoy-operations-31-petty-cases-booked/article71238675.ece",
+          "headline": "Cyberabad SHE Teams conduct 127 decoy operations, 31 petty cases booked",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.2,
-        "spread": 0.4,
+        "mean": -0.1,
+        "spread": 0.0,
         "left": 0,
         "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T18:54:53+00:00",
+      "last_seen": "2026-07-18T18:54:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.187
+    },
+    {
+      "id": "ab246ad710",
+      "title": "Palaniswami criticises TVK govt.’s approach on custodial death issue",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/palaniswami-criticises-tvk-govts-approach-on-custodial-death-issue/article71238134.ece",
+          "headline": "Palaniswami criticises TVK govt.’s approach on custodial death issue",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T18:54:04+00:00",
+      "last_seen": "2026-07-18T18:54:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1859
+    },
+    {
+      "id": "829be34269",
+      "title": "Over 79,000 students accept UG seats in first Delhi University admission round",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Delhi/over-79000-students-accept-ug-seats-infirst-delhi-university-admission-round/article71239154.ece",
+          "headline": "Over 79,000 students accept UG seats in first Delhi University admission round",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T18:53:37+00:00",
+      "last_seen": "2026-07-18T18:53:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "resonance": 0.1853
+    },
+    {
+      "id": "f8f7f730e0",
+      "title": "Behind a secret safe, police find 74kgs of gold bars in suitcases",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-19/gold-siezed-in-corruption-investigation-in-indonesia/106913494",
+          "headline": "Behind a secret safe, police find 74kgs of gold bars in suitcases",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T18:53:30+00:00",
+      "last_seen": "2026-07-18T18:53:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.1851
+    },
+    {
+      "id": "d363fe0f23",
+      "title": "Kimi: Threat or menace?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+          "headline": "Kimi: Threat or menace?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T18:51:07+00:00",
+      "last_seen": "2026-07-18T18:51:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1819
+    },
+    {
+      "id": "8216814566",
+      "title": "As Europe follows Australia's social media ban, the US opts for own way",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-19/push-in-us-to-follow-australia-social-media-ban/106916156",
+          "headline": "As Europe follows Australia's social media ban, the US opts for own way",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T18:50:52+00:00",
+      "last_seen": "2026-07-18T18:50:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1816
+    },
+    {
+      "id": "23ea6989ad",
+      "title": "Quiet change to Nauru policing powers could thwart legal challenges",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-19/nauru-changes-policing-powers-amid-legal-challenges-from-nzyq/106927922",
+          "headline": "Quiet change to Nauru policing powers could thwart legal challenges",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T18:49:12+00:00",
+      "last_seen": "2026-07-18T18:49:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1793
+    },
+    {
+      "id": "8019c9b047",
+      "title": "Israel: How real is threat of gender segregation on street?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/israel-how-real-is-threat-of-gender-segregation-on-street/a-78020879?maca=en-rss-en-all-1573-rdf",
+          "headline": "Israel: How real is threat of gender segregation on street?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T18:45:00+00:00",
+      "last_seen": "2026-07-18T18:45:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1737
+    },
+    {
+      "id": "8030f7cc97",
+      "title": "UKMTO reports tanker incident involving military forces east of Oman's Duqm",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-reports-tanker-incident-involving-military-forces-east-omans-duqm",
+          "headline": "UKMTO reports tanker incident involving military forces east of Oman's Duqm",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T18:42:43+00:00",
+      "last_seen": "2026-07-18T18:42:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1707
+    },
+    {
+      "id": "9dc74a0e48",
+      "title": "Team USA hockey equipment manager arrested on misdemeanor charges of battery/domestic violence",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/sports/team-usa-hockey-equipment-manager-arrested-misdemeanor-charges-battery-domestic-violence",
+          "headline": "Team USA hockey equipment manager arrested on misdemeanor charges of battery/domestic violence",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-18T14:36:26+00:00",
-      "last_seen": "2026-07-18T17:46:20+00:00",
+      "first_seen": "2026-07-18T18:38:06+00:00",
+      "last_seen": "2026-07-18T18:38:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.2525
+      "resonance": 0.1646
+    },
+    {
+      "id": "7149f2c2ab",
+      "title": "They Called Sam Neill ‘Skux.’ (It Was a Compliment.)",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/18/world/australia/new-zealand-sam-neill-skux-meaning.html",
+          "headline": "They Called Sam Neill ‘Skux.’ (It Was a Compliment.)",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T18:36:11+00:00",
+      "last_seen": "2026-07-18T18:36:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1621
     },
     {
       "id": "a8799de7c1",
@@ -251,125 +543,249 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.242
+      "resonance": 0.1619
     },
     {
-      "id": "2f73ab19af",
-      "title": "FIFA World Cup 2026: Spain, Argentina lock horns in a fascinating finale",
-      "signal_count": 2,
+      "id": "d7e039850a",
+      "title": "Canadian wildfire smoke ignites cross-border feud over Ottawa's 'willful negligence'",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/fifa-world-cup-2026-spain-argentina-lock-horns-in-a-fascinating-finale/article71239113.ece",
-          "headline": "FIFA World Cup 2026: Spain, Argentina lock horns in a fascinating finale",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/7/18/spain-argentina-fifa-world-cup-final-prediction-head-to-head-messi-yamal-prediction-venue?traffic_source=rss",
-          "headline": "FIFA World Cup: Spain vs Argentina – What to know ahead of the final",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/canadian-wildfire-smoke-ignites-cross-border-feud-over-ottawas-willful-negligence",
+          "headline": "Canadian wildfire smoke ignites cross-border feud over Ottawa's 'willful negligence'",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
+        "mean": 0.6,
+        "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T18:31:11+00:00",
+      "last_seen": "2026-07-18T18:31:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.1556
+    },
+    {
+      "id": "fae696adae",
+      "title": "Google might not kneecap the Pixel 11a with an old processor",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak",
+          "headline": "Google might not kneecap the Pixel 11a with an old processor",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-18T13:46:26+00:00",
-      "last_seen": "2026-07-18T17:23:39+00:00",
+      "first_seen": "2026-07-18T18:25:08+00:00",
+      "last_seen": "2026-07-18T18:25:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1479
+    },
+    {
+      "id": "fd867fb8bd",
+      "title": "Stephen Miller says Trump administration is pursuing policy to debank illegal immigrants",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/stephen-miller-trump-administration-pursuing-policy-debank-illegal-immigrants",
+          "headline": "Stephen Miller says Trump administration is pursuing policy to debank illegal immigrants",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T18:23:50+00:00",
+      "last_seen": "2026-07-18T18:23:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1462
+    },
+    {
+      "id": "6eda4bd4ad",
+      "title": "World Cup 2026: Palestinian flags become a target at US-based games",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/world-cup-2026-palestinian-flags-become-target-us-based-games",
+          "headline": "World Cup 2026: Palestinian flags become a target at US-based games",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/world-cup-2026-palestine-flags-become-target-us-based-games",
+          "headline": "World Cup 2026: Palestinian flags become a target at US-based games",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 2,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T17:35:04+00:00",
+      "last_seen": "2026-07-18T18:19:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.2002
+      "resonance": 0.1449
     },
     {
-      "id": "27b2702c72",
-      "title": "Left parties condemn Wangchuk's removal, use of force; back ongoing protest",
+      "id": "968a0d2c1e",
+      "title": "New York’s Mamdani says looking into Netanyahu arrest during city visit",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/left-parties-condemn-wangchuks-removal-use-of-force-back-ongoing-protest/article71239024.ece",
-          "headline": "Left parties condemn Wangchuk's removal, use of force; back ongoing protest",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/18/new-yorks-mamdani-says-looking-into-netanyahu-arrest-during-city-visit?traffic_source=rss",
+          "headline": "New York’s Mamdani says looking into Netanyahu arrest during city visit",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-18T17:49:04+00:00",
-      "last_seen": "2026-07-18T17:49:04+00:00",
+      "first_seen": "2026-07-18T18:17:00+00:00",
+      "last_seen": "2026-07-18T18:17:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1777
+      "topic": "world",
+      "resonance": 0.1377
     },
     {
-      "id": "a1e54e88b3",
-      "title": "Sensitise public about establishment of bone bank at GRH",
+      "id": "f3f2228bbd",
+      "title": "Air quality improving in northeast, while wildfire smoke hangs over midwest",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Madurai/sensitise-public-about-establishment-of-bone-bank-at-grh/article71239180.ece",
-          "headline": "Sensitise public about establishment of bone bank at GRH",
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/18/nx-s1-5899009/us-canada-wildfire-smoke",
+          "headline": "Air quality improving in northeast, while wildfire smoke hangs over midwest",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": -0.15,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-18T17:47:15+00:00",
-      "last_seen": "2026-07-18T17:47:15+00:00",
+      "first_seen": "2026-07-18T18:15:42+00:00",
+      "last_seen": "2026-07-18T18:15:42+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.1748
+      "topic": "tech",
+      "resonance": 0.136
     },
     {
-      "id": "08c4204a0d",
-      "title": "Sonam Wangchuk hunger strike LIVE: Wangchuk continues his fast in hospital; CJP's Dipke claims Delhi Police planning overnight 'crackdown' on protest",
+      "id": "1783e783d4",
+      "title": "Damage visible at Iran bridges and water plant after US attacks",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/cjp-students-protest-at-delhi-jantar-mantar-sonam-wangchuk-hunger-strike-day-21-live-updates-july-18-2026/article71236930.ece",
-          "headline": "Sonam Wangchuk hunger strike LIVE: Wangchuk continues his fast in hospital; CJP's Dipke claims Delhi Police planning overnight 'crackdown' on protest",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/damage-visible-at-iran-bridges-and-water-plant-after-us-attacks?traffic_source=rss",
+          "headline": "Damage visible at Iran bridges and water plant after US attacks",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-18T17:45:24+00:00",
-      "last_seen": "2026-07-18T17:45:24+00:00",
+      "first_seen": "2026-07-18T18:09:15+00:00",
+      "last_seen": "2026-07-18T18:09:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1718
+      "topic": "conflict",
+      "resonance": 0.1281
+    },
+    {
+      "id": "c374197472",
+      "title": "Indian Activist on Hunger Strike Is Forcibly Removed by Police",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/18/world/asia/sonam-wangchuk-hunger-strike-delhi-police.html",
+          "headline": "Indian Activist on Hunger Strike Is Forcibly Removed by Police",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-07-18/indian-activist-sonam-wangchuk-hospitalised-by-police/106931802",
+          "headline": "Indian activist on hunger strike forcibly removed by police",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/asia-pacific/20260718-indian-police-shift-cockroach-party-activist-on-hunger-strike-to-hospital-against-his-wish",
+          "headline": "Indian police shift Cockroach Party activist on hunger strike to hospital against his wish",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.167,
+        "spread": 0.094,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T13:00:36+00:00",
+      "last_seen": "2026-07-18T14:05:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1237
     },
     {
       "id": "ed0d3b6fe1",
@@ -390,58 +806,80 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-18T17:41:59+00:00",
-      "last_seen": "2026-07-18T17:41:59+00:00",
+      "first_seen": "2026-07-18T18:05:13+00:00",
+      "last_seen": "2026-07-18T18:05:13+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1663
+      "resonance": 0.1232
     },
     {
-      "id": "645619d635",
-      "title": "US strikes hit Iran for seventh consecutive night",
-      "signal_count": 2,
+      "id": "a5ceea4877",
+      "title": "Wildfires Continue To Burn in Ontario, Canada, Sending Smoke to U.S. Cities",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
-          "headline": "US strikes hit Iran for seventh consecutive night",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/07/18/us-forces-strike-iran-for-seventh-consecutive-night",
-          "headline": "US forces strike Iran for seventh consecutive night",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/18/world/canada/ontario-wildfires-smoke-thunder-bay-canada.html",
+          "headline": "Wildfires Continue To Burn in Ontario, Canada, Sending Smoke to U.S. Cities",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-18T05:49:14+00:00",
-      "last_seen": "2026-07-18T17:44:56+00:00",
+      "first_seen": "2026-07-18T18:03:18+00:00",
+      "last_seen": "2026-07-18T18:03:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.1209
+    },
+    {
+      "id": "8754a3e88f",
+      "title": "2 US troops dead, 1 missing after Iran attacks base in Jordan",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/us/diplomacy/article/3361068/2-us-troops-dead-1-missing-after-iran-attacks-base-jordan?utm_source=rss_feed",
+          "headline": "2 US troops dead, 1 missing after Iran attacks base in Jordan",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T18:01:11+00:00",
+      "last_seen": "2026-07-18T18:01:11+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1576
+      "resonance": 0.1183
     },
     {
-      "id": "09714c34ca",
-      "title": "Lebanon’s Aoun to meet Trump in Washington to discuss Israel talks",
+      "id": "8bb2691d66",
+      "title": "France vs England LIVE: FIFA World Cup 2026 third-place playoff",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/18/lebanons-aoun-to-meet-trump-in-washington-to-discuss-israel-talks?traffic_source=rss",
-          "headline": "Lebanon’s Aoun to meet Trump in Washington to discuss Israel talks",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/18/france-vs-england-live-fifa-world-cup-2026-third-place-playoff?traffic_source=rss",
+          "headline": "France vs England LIVE: FIFA World Cup 2026 third-place playoff",
           "platform": "rss"
         }
       ],
@@ -452,42 +890,42 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-18T17:35:21+00:00",
-      "last_seen": "2026-07-18T17:35:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1559
-    },
-    {
-      "id": "6eda4bd4ad",
-      "title": "World Cup 2026: Palestinian flags become a target at US-based games",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/world-cup-2026-palestine-flags-become-target-us-based-games",
-          "headline": "World Cup 2026: Palestinian flags become a target at US-based games",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T17:35:04+00:00",
-      "last_seen": "2026-07-18T17:35:04+00:00",
+      "first_seen": "2026-07-18T17:46:20+00:00",
+      "last_seen": "2026-07-18T17:46:20+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.1554
+      "resonance": 0.1008
+    },
+    {
+      "id": "2f89b31906",
+      "title": "Hungary's president agrees to stand down after parliament backs removal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po?at_medium=RSS&at_campaign=rss",
+          "headline": "Hungary's president agrees to stand down after parliament backs removal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T17:33:28+00:00",
+      "last_seen": "2026-07-18T17:33:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0861
     },
     {
       "id": "58bbcfc883",
@@ -515,41 +953,7 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1473
-    },
-    {
-      "id": "e5f859acb3",
-      "title": "8 killed and more than 60 wounded in Ukrainian drone attack on Russian regions",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/seven-killed-more-than-50-wounded-in-ukrainian-drone-attack-on-russian-regions/article71237647.ece",
-          "headline": "At least nine killed, over 60 wounded in Ukrainian drone attack on Russian regions",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/18/nx-s1-5898963/8-killed-and-more-than-60-wounded-in-ukrainian-drone-attack-on-russian-regions",
-          "headline": "8 killed and more than 60 wounded in Ukrainian drone attack on Russian regions",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.125,
-        "spread": 0.025,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T10:45:43+00:00",
-      "last_seen": "2026-07-18T17:23:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1466
+      "resonance": 0.082
     },
     {
       "id": "5a34e6b8fa",
@@ -577,87 +981,7 @@
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1444
-    },
-    {
-      "id": "c495034b92",
-      "title": "Caitlin Clark set to debut new colorway for Nike signature shoe Saturday against New York Liberty",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/caitlin-clark-debut-new-color-way-nike-signature-shoe-saturday-new-york-liberty",
-          "headline": "Caitlin Clark set to debut new colorway for Nike signature shoe Saturday against New York Liberty",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-18T17:27:40+00:00",
-      "last_seen": "2026-07-18T17:27:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1439
-    },
-    {
-      "id": "24a223e734",
-      "title": "Indian activist on hunger strike for 20 days forcibly taken to hospital",
-      "signal_count": 5,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/18/world/asia/sonam-wangchuk-hunger-strike-delhi-police.html",
-          "headline": "Indian Activist on Hunger Strike Is Forcibly Removed by Police",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-18/indian-activist-sonam-wangchuk-hospitalised-by-police/106931802",
-          "headline": "Indian activist on hunger strike forcibly removed by police",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/asia-pacific/20260718-indian-police-shift-cockroach-party-activist-on-hunger-strike-to-hospital-against-his-wish",
-          "headline": "Indian police shift Cockroach Party activist on hunger strike to hospital against his wish",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/18/indian-police-forcibly-hospitalise-activist-after-20-day-hunger-strike?traffic_source=rss",
-          "headline": "Indian police forcibly hospitalise activist after 20-day hunger strike",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cjej3dxxg2do?at_medium=RSS&at_campaign=rss",
-          "headline": "Indian activist on hunger strike for 20 days forcibly taken to hospital",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.14,
-        "spread": 0.102,
-        "left": 1,
-        "center": 4,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T05:58:48+00:00",
-      "last_seen": "2026-07-18T14:05:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1426
+      "resonance": 0.08
     },
     {
       "id": "8011bbcd05",
@@ -685,35 +1009,7 @@
       ],
       "geo_regions": [],
       "topic": "economy",
-      "resonance": 0.137
-    },
-    {
-      "id": "b406aafbc4",
-      "title": "Kentucky governor says he received 2 calls from agencies indicating McConnell had 'passed'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/kentucky-governor-says-he-received-2-calls-from-agencies-indicating-mcconnell-had-passed",
-          "headline": "Kentucky governor says he received 2 calls from agencies indicating McConnell had 'passed'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-18T17:19:08+00:00",
-      "last_seen": "2026-07-18T17:19:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1309
+      "resonance": 0.0746
     },
     {
       "id": "09d4968175",
@@ -747,7 +1043,7 @@
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1241
+      "resonance": 0.0683
     },
     {
       "id": "cbbbfb3095",
@@ -775,370 +1071,50 @@
       ],
       "geo_regions": [],
       "topic": "climate",
-      "resonance": 0.1029
-    },
-    {
-      "id": "1854e3b69b",
-      "title": "Cash payments are not 'ruled out' as California county officials push reparations for Black locals",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/cash-payments-not-ruled-out-california-county-officials-strive-reparations-black-residents",
-          "headline": "Cash payments are not 'ruled out' as California county officials push reparations for Black locals",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-18T17:00:03+00:00",
-      "last_seen": "2026-07-18T17:00:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1028
-    },
-    {
-      "id": "4004ff7ecb",
-      "title": "Iran’s Khamenei says US president’s signature ‘worthless and invalid’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-khamenei-says-us-presidents-signature-worthless-and-invalid",
-          "headline": "Iran’s Khamenei says US president’s signature ‘worthless and invalid’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T16:59:04+00:00",
-      "last_seen": "2026-07-18T16:59:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1013
-    },
-    {
-      "id": "cab8ac68d2",
-      "title": "A Very British CPAC: Few, if Any, Costumes and Not Much Trump",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/18/world/europe/cpac-great-britain-farage.html",
-          "headline": "A Very British CPAC: Few, if Any, Costumes and Not Much Trump",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T16:48:22+00:00",
-      "last_seen": "2026-07-18T16:48:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0861
-    },
-    {
-      "id": "59a7d51f85",
-      "title": "What to expect after the US reimposes naval blockade on Iran’s ports?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/economy/2026/7/18/what-to-expect-after-the-us-reimposes-naval-blockade-on-irans-ports?traffic_source=rss",
-          "headline": "What to expect after the US reimposes naval blockade on Iran’s ports?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T16:47:14+00:00",
-      "last_seen": "2026-07-18T16:47:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0845
-    },
-    {
-      "id": "d5a7c5939c",
-      "title": "Woman killed while asleep with baby ‘was my world’, sister tells BBC",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cd0xzy2r1m7o?at_medium=RSS&at_campaign=rss",
-          "headline": "Woman killed while asleep with baby ‘was my world’, sister tells BBC",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T16:41:55+00:00",
-      "last_seen": "2026-07-18T16:41:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0771
-    },
-    {
-      "id": "54ef53c39d",
-      "title": "Google is open-sourcing its 3D emoji",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/design/967606/google-open-source-3d-emoji",
-          "headline": "Google is open-sourcing its 3D emoji",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T16:40:55+00:00",
-      "last_seen": "2026-07-18T16:40:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0757
-    },
-    {
-      "id": "ab0efddf53",
-      "title": "Israeli rule change clears way for using crocodiles to deter prison breaks",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3361067/israeli-rule-change-clears-way-using-crocodiles-deter-prison-breaks?utm_source=rss_feed",
-          "headline": "Israeli rule change clears way for using crocodiles to deter prison breaks",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T16:38:36+00:00",
-      "last_seen": "2026-07-18T16:38:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0726
-    },
-    {
-      "id": "c8de529d5c",
-      "title": "All the EVs that were discontinued or killed off in the U.S. this year",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/18/all-the-evs-that-were-discontinued-or-killed-off-in-the-u-s-this-year/",
-          "headline": "All the EVs that were discontinued or killed off in the U.S. this year",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T16:30:00+00:00",
-      "last_seen": "2026-07-18T16:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0609
-    },
-    {
-      "id": "d93402c617",
-      "title": "Armed groups attack Malian military convoy in Gao region",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/18/armed-groups-attack-malian-military-convoy-in-gao-region?traffic_source=rss",
-          "headline": "Armed groups attack Malian military convoy in Gao region",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T16:24:29+00:00",
-      "last_seen": "2026-07-18T16:24:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0535
-    },
-    {
-      "id": "54fb47988f",
-      "title": "Gulf council blasts \"war crimes\" by Iran",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/gulf-council-blasts-war-crimes-by-iran",
-          "headline": "Gulf council blasts \"war crimes\" by Iran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T16:23:09+00:00",
-      "last_seen": "2026-07-18T16:23:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0517
-    },
-    {
-      "id": "b57a46637a",
-      "title": "Power, desalination plants hit in Kuwait",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/power-desalination-plants-hit-in-kuwait",
-          "headline": "Power, desalination plants hit in Kuwait",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T16:21:51+00:00",
-      "last_seen": "2026-07-18T16:21:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "f13d7243d5",
-      "target": "e5f859acb3",
-      "weight": 0.103,
+      "source": "d363fe0f23",
+      "target": "8019c9b047",
+      "weight": 0.211,
       "type": "thematic"
     },
     {
-      "source": "f13d7243d5",
-      "target": "54fb47988f",
-      "weight": 0.148,
+      "source": "d7e039850a",
+      "target": "f3f2228bbd",
+      "weight": 0.096,
       "type": "thematic"
     },
     {
-      "source": "8bb2691d66",
-      "target": "2f73ab19af",
-      "weight": 0.634,
+      "source": "6eda4bd4ad",
+      "target": "8bb2691d66",
+      "weight": 0.45,
       "type": "thematic"
     },
     {
-      "source": "8bb2691d66",
-      "target": "6eda4bd4ad",
-      "weight": 0.343,
+      "source": "1783e783d4",
+      "target": "8754a3e88f",
+      "weight": 0.298,
       "type": "thematic"
     },
     {
-      "source": "2f73ab19af",
-      "target": "6eda4bd4ad",
-      "weight": 0.317,
+      "source": "1783e783d4",
+      "target": "5a34e6b8fa",
+      "weight": 0.354,
       "type": "thematic"
     },
     {
-      "source": "27b2702c72",
-      "target": "08c4204a0d",
-      "weight": 0.171,
+      "source": "a5ceea4877",
+      "target": "58bbcfc883",
+      "weight": 0.596,
       "type": "thematic"
     },
     {
-      "source": "08c4204a0d",
-      "target": "24a223e734",
-      "weight": 0.223,
-      "type": "thematic"
-    },
-    {
-      "source": "645619d635",
-      "target": "b57a46637a",
-      "weight": 0.07,
-      "type": "thematic"
-    },
-    {
-      "source": "5a34e6b8fa",
-      "target": "4004ff7ecb",
-      "weight": 0.41,
+      "source": "8754a3e88f",
+      "target": "5a34e6b8fa",
+      "weight": 0.397,
       "type": "thematic"
     }
   ],
@@ -1185,7 +1161,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 11,
+      "count": 9,
       "error": null
     },
     "The Atlantic": {

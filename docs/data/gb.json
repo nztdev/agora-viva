@@ -1,16 +1,57 @@
 {
-  "generated_at": "2026-07-18T06:15:19.886709+00:00",
+  "generated_at": "2026-07-18T08:56:35.620980+00:00",
   "country_code": "gb",
   "country_name": "United Kingdom",
   "language": "en",
   "node_count": 30,
-  "edge_count": 2,
+  "edge_count": 1,
   "nodes": [
+    {
+      "id": "e4be90b3e5",
+      "title": "Burnham to announce plans for new North Sea oil and gas drilling",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c935yx2z9d4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Burnham to announce plans for new North Sea oil and gas drilling",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Independent",
+          "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-cabinet-policies-live-updates-b3017323.html",
+          "headline": "Andy Burnham latest: New Labour leader plans policy blitz – including revived oil and gas drilling in North Sea",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T07:53:44+00:00",
+      "last_seen": "2026-07-18T08:30:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "en",
+      "resonance": 0.6581
+    },
     {
       "id": "645619d635",
       "title": "US strikes hit Iran for seventh consecutive night",
       "signal_count": 3,
       "sources": [
+        {
+          "outlet": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
+          "headline": "US strikes hit Iran for seventh consecutive night",
+          "platform": "rss"
+        },
         {
           "outlet": "The Mirror",
           "url": "https://www.mirror.co.uk/news/us-news/iran-us-strait-hormuz-war-37446853",
@@ -22,12 +63,6 @@
           "url": "https://www.theguardian.com/world/2026/jul/17/us-launches-seventh-night-of-iran-strikes-as-hormuz-conflict-escalates",
           "headline": "US launches seventh night of Iran strikes as Hormuz conflict escalates",
           "platform": "rss"
-        },
-        {
-          "outlet": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
-          "headline": "US strikes hit Iran for seventh consecutive night",
-          "platform": "rss"
         }
       ],
       "bias": {
@@ -37,21 +72,97 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-18T04:40:11+00:00",
-      "last_seen": "2026-07-18T06:08:42+00:00",
+      "first_seen": "2026-07-18T06:03:13+00:00",
+      "last_seen": "2026-07-18T07:33:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
       "language": "en",
-      "resonance": 0.6974
+      "resonance": 0.6446
     },
     {
-      "id": "205f1bc162",
-      "title": "White House defends Argentina team over Falklands banner",
+      "id": "9cd646a3dd",
+      "title": "Urgent search for missing girl, nine, last seen in Lilo and Stitch T-shirt",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/urgent-search-missing-girl-nine-37447205",
+          "headline": "Urgent search for missing girl, nine, last seen in Lilo and Stitch T-shirt",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39796376/hunt-missing-girl-uk-port-town/",
+          "headline": "Urgent hunt to find missing girl, 9, who was last seen in UK port town wearing Lilo and Stitch t-shirt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.45,
+        "left": 1,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T06:43:49+00:00",
+      "last_seen": "2026-07-18T08:42:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.526
+    },
+    {
+      "id": "4721f5a4f1",
+      "title": "Tragedy as 'beloved family man' found dead in parked caravan after 'altercation'",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/ashley-menzel-dead-loughborough-caravan-37447024",
+          "headline": "Tragedy as 'beloved family man' found dead in parked caravan after 'altercation'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39796465/man-dead-caravan-two-arrested-murder/",
+          "headline": "Tributes to ‘beloved’ man, 42, found dead in caravan parked in lay-by – as two men arrested on suspicion of murder",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.45,
+        "left": 1,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T07:10:14+00:00",
+      "last_seen": "2026-07-18T07:38:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.4874
+    },
+    {
+      "id": "830f2ace21",
+      "title": "White House backs Argentina team over Falklands banner",
       "signal_count": 3,
       "sources": [
+        {
+          "outlet": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/argentina-falklands-banner-world-cup-england-white-house-b3017322.html",
+          "headline": "White House defends Argentina’s controversial Falklands banner at World Cup",
+          "platform": "rss"
+        },
         {
           "outlet": "Daily Mail",
           "url": "https://www.dailymail.com/sport/football/article-15986283/Donald-Trumps-World-Cup-chief-backs-Argentina.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
@@ -61,100 +172,36 @@
         {
           "outlet": "BBC World",
           "url": "https://www.bbc.co.uk/news/articles/cx2rmjk0740o?at_medium=RSS&at_campaign=rss",
-          "headline": "White House defends Argentina team over Falklands banner",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/sport/football/news/world-cup-england-tuchel-live-37442476",
-          "headline": "World Cup news: White House stance on Falklands banner row as FIFA react to ban calls",
+          "headline": "White House backs Argentina team over Falklands banner",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
-        "spread": 0.432,
-        "left": 1,
-        "center": 1,
+        "mean": 0.133,
+        "spread": 0.403,
+        "left": 0,
+        "center": 2,
         "right": 1
       },
-      "first_seen": "2026-07-17T22:12:37+00:00",
-      "last_seen": "2026-07-18T04:28:50+00:00",
+      "first_seen": "2026-07-17T22:12:54+00:00",
+      "last_seen": "2026-07-18T08:04:11+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "en",
-      "resonance": 0.3707
+      "resonance": 0.3852
     },
     {
-      "id": "d368fbdadb",
-      "title": "Farage’s furious clash with Times editor stuns figures close to him",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/politics/2026/jul/18/nigel-farage-clash-times-editor-reform",
-          "headline": "Farage’s furious clash with Times editor stuns figures close to him",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T06:00:51+00:00",
-      "last_seen": "2026-07-18T06:00:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.28
-    },
-    {
-      "id": "dc996b262e",
-      "title": "Israeli ministers announce plan for new illegal settlements in Gaza and West Bank",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/18/israel-plan-new-illegal-settlements-gaza-west-bank-occupied-palestine",
-          "headline": "Israeli ministers announce plan for new illegal settlements in Gaza and West Bank",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T06:00:50+00:00",
-      "last_seen": "2026-07-18T06:00:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "en",
-      "resonance": 0.28
-    },
-    {
-      "id": "a8fc4ff147",
-      "title": "The monster in our midst: GUY ADAMS on Shabir Ahmed, the paedophile Rochdale grooming gang leader recently freed to a hostel just 15 miles from his old hunting ground",
+      "id": "d39ad30062",
+      "title": "Our fortnight from hell: Young teenagers having sex on the beach, luxury homes trashed by drunk teens and parents who couldn't care less. Locals from this seaside village reveal their nightmare",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15986267/The-monster-midst-GUY-ADAMS-Shabir-Ahmed-paedophile-Rochdale-grooming-gang-leader-recently-freed-hostel-just-15-miles-old-hunting-ground.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "The monster in our midst: GUY ADAMS on Shabir Ahmed, the paedophile Rochdale grooming gang leader recently freed to a hostel just 15 miles from his old hunting ground",
+          "url": "https://www.dailymail.com/news/article-15985757/teenagers-sex-beach-homes-trashed-drunk-seaside-village.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "Our fortnight from hell: Young teenagers having sex on the beach, luxury homes trashed by drunk teens and parents who couldn't care less. Locals from this seaside village reveal their nightmare",
           "platform": "rss"
         }
       ],
@@ -165,15 +212,15 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-18T05:57:59+00:00",
-      "last_seen": "2026-07-18T05:57:59+00:00",
+      "first_seen": "2026-07-18T08:51:04+00:00",
+      "last_seen": "2026-07-18T08:51:04+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.28
+      "resonance": 0.2767
     },
     {
       "id": "7d6fa971e7",
@@ -194,60 +241,25 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-18T05:51:48+00:00",
-      "last_seen": "2026-07-18T05:51:48+00:00",
+      "first_seen": "2026-07-18T08:48:43+00:00",
+      "last_seen": "2026-07-18T08:48:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.28
+      "resonance": 0.2695
     },
     {
-      "id": "58bbcfc883",
-      "title": "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15986175/Trump-threatens-Canada-tariffs-wildfire-smoke-choking-US-cities.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Trump threatens Canada with tariffs over wildfire smoke choking US cities",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.4,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-07-18T01:29:47+00:00",
-      "last_seen": "2026-07-18T04:54:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.3314
-    },
-    {
-      "id": "e63c331b04",
-      "title": "Revealed: The 'quiet and shy' 28-year-old suspect held over the murder of Ann Widdecombe",
+      "id": "e24aa1708d",
+      "title": "'Harry never wanted to be estranged but he was madly in love. Now the veil is lifting': Inside plan to reverse Megxit as friends tell ALISON BOSHOFF about communication between Harry and William... and why the Sussexes' American dream is over",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15985321/former-lift-employee-questioned-Ann-Widdecombes-murder.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Revealed: The 'quiet and shy' 28-year-old suspect held over the murder of Ann Widdecombe",
+          "url": "https://www.dailymail.com/news/royals/article-15985633/Harry-estranged-love-plan-reverse-Megxit-ALISON-BOSHOFF-messages-William.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "'Harry never wanted to be estranged but he was madly in love. Now the veil is lifting': Inside plan to reverse Megxit as friends tell ALISON BOSHOFF about communication between Harry and William... and why the Sussexes' American dream is over",
           "platform": "rss"
         }
       ],
@@ -258,83 +270,54 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-07-18T05:42:55+00:00",
-      "last_seen": "2026-07-18T05:42:55+00:00",
+      "first_seen": "2026-07-18T08:46:25+00:00",
+      "last_seen": "2026-07-18T08:46:25+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.28
+      "resonance": 0.2624
     },
     {
-      "id": "26d84d72be",
-      "title": "Conman targeted the elderly to defraud them out of millions",
+      "id": "f0ff6180f9",
+      "title": "Ukraine launches huge fireball blitz on Russia’s ‘Amazon’ warehouses & oil depots as over 370 drones launched at Moscow",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC UK",
-          "url": "https://www.bbc.co.uk/news/articles/c2d89kjkkwlo?at_medium=RSS&at_campaign=rss",
-          "headline": "Conman targeted the elderly to defraud them out of millions",
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39796813/ukraine-blitz-russia-amazon-warehouses-oil-depots/",
+          "headline": "Ukraine launches huge fireball blitz on Russia’s ‘Amazon’ warehouses & oil depots as over 370 drones launched at Moscow",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": 0.6,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
-        "right": 0
+        "center": 0,
+        "right": 1
       },
-      "first_seen": "2026-07-18T05:18:49+00:00",
-      "last_seen": "2026-07-18T05:18:49+00:00",
+      "first_seen": "2026-07-18T08:45:36+00:00",
+      "last_seen": "2026-07-18T08:45:36+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "tech",
       "language": "en",
-      "resonance": 0.28
+      "resonance": 0.26
     },
     {
-      "id": "741506e6b9",
-      "title": "Control, threats, disfiguring surgery: My life inside Jeffrey Epstein's 'cult'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/czek5wl6p2go?at_medium=RSS&at_campaign=rss",
-          "headline": "Control, threats, disfiguring surgery: My life inside Jeffrey Epstein's 'cult'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T05:10:44+00:00",
-      "last_seen": "2026-07-18T05:10:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.28
-    },
-    {
-      "id": "e548efc17f",
-      "title": "Keely Hodgkinson shows her true colours after World Athletics chief's comments about behaviour",
+      "id": "eb6aaa2ede",
+      "title": "'Being Scottish isn’t where you’re born, it's the love you have for the country' - the Syrians who made their home on the Isle of Bute",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/sport/football/news/keely-hodgkinson-athletic-chief-comments-37444487",
-          "headline": "Keely Hodgkinson shows her true colours after World Athletics chief's comments about behaviour",
+          "url": "https://www.mirror.co.uk/news/uk-news/syrian-refugees-home-bute-scotland-37444434",
+          "headline": "'Being Scottish isn’t where you’re born, it's the love you have for the country' - the Syrians who made their home on the Isle of Bute",
           "platform": "rss"
         }
       ],
@@ -345,54 +328,25 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-18T05:10:00+00:00",
-      "last_seen": "2026-07-18T05:10:00+00:00",
+      "first_seen": "2026-07-18T08:43:55+00:00",
+      "last_seen": "2026-07-18T08:43:55+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.28
+      "resonance": 0.2549
     },
     {
-      "id": "88d8a73143",
-      "title": "Lib Dems urge FA and Uefa to withdraw from Fifa",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/ce3qw4lq1d7o?at_medium=RSS&at_campaign=rss",
-          "headline": "Lib Dems urge FA and Uefa to withdraw from Fifa",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T05:02:37+00:00",
-      "last_seen": "2026-07-18T05:02:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.2711
-    },
-    {
-      "id": "4d04555a26",
-      "title": "Blind date: ‘We swapped numbers. I think that sends out good vibes, no?’",
+      "id": "1a869d478a",
+      "title": "World Cup 2026 latest: buildup to France v England third-place playoff and Spain v Argentina final",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/lifeandstyle/2026/jul/18/blind-date-hugh-edie",
-          "headline": "Blind date: ‘We swapped numbers. I think that sends out good vibes, no?’",
+          "url": "https://www.theguardian.com/football/live/2026/jul/18/world-cup-latest-buildup-france-england-third-place-spain-argentina",
+          "headline": "World Cup 2026 latest: buildup to France v England third-place playoff and Spain v Argentina final",
           "platform": "rss"
         }
       ],
@@ -403,170 +357,112 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-18T05:00:52+00:00",
-      "last_seen": "2026-07-18T05:00:52+00:00",
+      "first_seen": "2026-07-18T08:43:40+00:00",
+      "last_seen": "2026-07-18T08:43:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
       "language": "en",
-      "resonance": 0.2688
+      "resonance": 0.2541
     },
     {
-      "id": "9a998abf31",
-      "title": "Trump, not Iran, is the world’s greatest danger. He’s a one-man weapon of mass destruction | Simon Tisdall",
+      "id": "f497420d2a",
+      "title": "Doritos issues urgent recall of popular snack over health risk as customers warned ‘do not eat’",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/commentisfree/2026/jul/18/donald-trump-iran-world-danger-bombing-us",
-          "headline": "Trump, not Iran, is the world’s greatest danger. He’s a one-man weapon of mass destruction | Simon Tisdall",
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39796887/doritos-recall-snack-health-risk-do-not-eat/",
+          "headline": "Doritos issues urgent recall of popular snack over health risk as customers warned ‘do not eat’",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.4,
+        "mean": 0.6,
         "spread": 0.0,
-        "left": 1,
+        "left": 0,
         "center": 0,
-        "right": 0
+        "right": 1
       },
-      "first_seen": "2026-07-18T05:00:50+00:00",
-      "last_seen": "2026-07-18T05:00:50+00:00",
+      "first_seen": "2026-07-18T08:41:02+00:00",
+      "last_seen": "2026-07-18T08:41:02+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "conflict",
       "language": "en",
-      "resonance": 0.2687
+      "resonance": 0.2462
     },
     {
-      "id": "db4a9b0cb2",
-      "title": "‘It’s only going to get worse’: wildfires forcing firefighters to make impossible choices",
+      "id": "b6e4ab7f24",
+      "title": "ANDREW NEIL: Never has a PM come to power with such a lack of democratic legitimacy. When it all goes wrong, voters will cut him no slack",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/news/ng-interactive/2026/jul/18/the-impossible-choices-of-a-deadly-wildfire-season",
-          "headline": "‘It’s only going to get worse’: wildfires forcing firefighters to make impossible choices",
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/debate/article-15985947/ANDREW-NEIL-PM-power-lack-democratic-legitimacy-wrong-voters-no-slack.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "ANDREW NEIL: Never has a PM come to power with such a lack of democratic legitimacy. When it all goes wrong, voters will cut him no slack",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.4,
+        "mean": 0.7,
         "spread": 0.0,
-        "left": 1,
+        "left": 0,
         "center": 0,
-        "right": 0
+        "right": 1
       },
-      "first_seen": "2026-07-18T05:00:50+00:00",
-      "last_seen": "2026-07-18T05:00:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "en",
-      "resonance": 0.2687
-    },
-    {
-      "id": "71d3461d13",
-      "title": "‘An overnight success after 25 years? Delicious’: Ted Lasso’s Hannah Waddingham on sexism, stunts and stardom at 51",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/tv-and-radio/2026/jul/18/an-overnight-success-after-25-years-delicious-ted-lassos-hannah-waddingham-on-sexism-stunts-and-stardom-at-51",
-          "headline": "‘An overnight success after 25 years? Delicious’: Ted Lasso’s Hannah Waddingham on sexism, stunts and stardom at 51",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T05:00:49+00:00",
-      "last_seen": "2026-07-18T05:00:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.2687
-    },
-    {
-      "id": "b64969f3e5",
-      "title": "Revealed: the top 10 UK cities for first-time buyers",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/money/2026/jul/18/top-uk-cities-first-time-buyers-rent-property",
-          "headline": "Revealed: the top 10 UK cities for first-time buyers",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T05:00:49+00:00",
-      "last_seen": "2026-07-18T05:00:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.2687
-    },
-    {
-      "id": "ef31f68572",
-      "title": "Indian activist linked to Cockroach party moved to hospital after 20-day hunger strike",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/18/indian-activist-linked-to-cockroach-party-moved-to-hospital-after-20-day-hunger-strike",
-          "headline": "Indian activist linked to Cockroach party moved to hospital after 20-day hunger strike",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T04:37:22+00:00",
-      "last_seen": "2026-07-18T04:37:22+00:00",
+      "first_seen": "2026-07-18T08:40:00+00:00",
+      "last_seen": "2026-07-18T08:40:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "en",
-      "resonance": 0.2381
+      "resonance": 0.2431
     },
     {
-      "id": "3e3a026de3",
-      "title": "Man dies after horror crash on iconic Harbour Bridge in Sydney",
+      "id": "2b23d5f994",
+      "title": "Putin’s £20billion quest to live forever from deer blood baths & mutant strawberries to ‘Frankenstein’ lair experiments",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39703815/putin-immortal-russia-live-forever/",
+          "headline": "Putin’s £20billion quest to live forever from deer blood baths & mutant strawberries to ‘Frankenstein’ lair experiments",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T08:34:39+00:00",
+      "last_seen": "2026-07-18T08:34:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.2271
+    },
+    {
+      "id": "901a8f9bd9",
+      "title": "Transfer news LIVE: Arsenal 'in talks' for Rogers, Man Utd bid expected, Julian Alvarez offer",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/world-news/sydney-harbour-bridge-crash-death-37446826",
-          "headline": "Man dies after horror crash on iconic Harbour Bridge in Sydney",
+          "url": "https://www.mirror.co.uk/sport/football/transfer-news/transfer-news-live-man-utd-37437815",
+          "headline": "Transfer news LIVE: Arsenal 'in talks' for Rogers, Man Utd bid expected, Julian Alvarez offer",
           "platform": "rss"
         }
       ],
@@ -577,333 +473,443 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-18T04:27:38+00:00",
-      "last_seen": "2026-07-18T04:27:38+00:00",
+      "first_seen": "2026-07-18T08:31:53+00:00",
+      "last_seen": "2026-07-18T08:31:53+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.2259
+      "resonance": 0.219
     },
     {
-      "id": "074031f06a",
-      "title": "Christian woman has dramatic thrashing episode as she meets celebrity female pastor at book signing",
+      "id": "0c85c30500",
+      "title": "Teens pour petrol on customers and set them on fire in horror UK restaurant attack",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/news/article-15985277/christian-woman-thrashing-celebrity-pastor-book-signing.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Christian woman has dramatic thrashing episode as she meets celebrity female pastor at book signing",
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/teens-pour-petrol-customers-set-37447082",
+          "headline": "Teens pour petrol on customers and set them on fire in horror UK restaurant attack",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.7,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-18T04:16:43+00:00",
-      "last_seen": "2026-07-18T04:16:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.2125
-    },
-    {
-      "id": "2ce30c8149",
-      "title": "Ben Affleck's big payday: SEC filing shows INSANE sum Netflix paid for actor's AI startup company... after reports it was worth up to $600M",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Daily Mail",
-          "url": "https://www.dailymail.com/tvshowbiz/article-15986447/Ben-Affleck-Netflix-payout-revealed-sold-AI-film-startup-streamer.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "headline": "Ben Affleck's big payday: SEC filing shows INSANE sum Netflix paid for actor's AI startup company... after reports it was worth up to $600M",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.7,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-18T04:10:04+00:00",
-      "last_seen": "2026-07-18T04:10:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "language": "en",
-      "resonance": 0.2045
-    },
-    {
-      "id": "9bd7d6f2fd",
-      "title": "The hill I will die on: Parisian waiters are not rude – they’re just badly misunderstood | Helen Massy-Beresford",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/commentisfree/2026/jul/18/the-hill-i-will-die-on-paris-waiters-misunderstood-stereotype",
-          "headline": "The hill I will die on: Parisian waiters are not rude – they’re just badly misunderstood | Helen Massy-Beresford",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.4,
+        "mean": -0.3,
         "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-18T04:00:47+00:00",
-      "last_seen": "2026-07-18T04:00:47+00:00",
+      "first_seen": "2026-07-18T08:31:44+00:00",
+      "last_seen": "2026-07-18T08:31:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
+      "topic": "conflict",
       "language": "en",
-      "resonance": 0.1935
+      "resonance": 0.2185
     },
     {
-      "id": "18b7bef5c1",
-      "title": "‘We are preserving a tradition’: how Ghana’s sensationalist film posters became collectible art",
+      "id": "2797b5416b",
+      "title": "Real reason Dr Pepper got its brand name as 'romantic' theory unearthed",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art",
-          "headline": "‘We are preserving a tradition’: how Ghana’s sensationalist film posters became collectible art",
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/lifestyle/food-drink/real-reason-dr-pepper-brand-37434939",
+          "headline": "Real reason Dr Pepper got its brand name as 'romantic' theory unearthed",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.4,
+        "mean": -0.3,
         "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-18T04:00:47+00:00",
-      "last_seen": "2026-07-18T04:00:47+00:00",
+      "first_seen": "2026-07-18T08:29:46+00:00",
+      "last_seen": "2026-07-18T08:29:46+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "en",
-      "resonance": 0.1935
+      "resonance": 0.2128
     },
     {
-      "id": "77a4e65119",
-      "title": "Why Britain is getting a new prime minister without a general election",
+      "id": "16cc2371e9",
+      "title": "Fresh hosepipe ban for four UK areas as people warned of eleven strict rules",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-britain-keir-starmer-labour-party-charles-iii-b3017289.html",
-          "headline": "Why Britain is getting a new prime minister without a general election",
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/uk-news/fresh-hosepipe-ban-four-uk-37447097",
+          "headline": "Fresh hosepipe ban for four UK areas as people warned of eleven strict rules",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.2,
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T08:21:18+00:00",
+      "last_seen": "2026-07-18T08:21:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "en",
+      "resonance": 0.1882
+    },
+    {
+      "id": "40d99347dd",
+      "title": "Cairngorms wildfire: Aviemore no longer in ‘immediately affected area’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Evening Standard",
+          "url": "https://www.standard.co.uk/news/uk/aviemore-scottish-fire-and-rescue-service-police-scotland-businesses-b1290448.html",
+          "headline": "Cairngorms wildfire: Aviemore no longer in ‘immediately affected area’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-18T04:00:41+00:00",
-      "last_seen": "2026-07-18T04:00:41+00:00",
+      "first_seen": "2026-07-18T08:16:30+00:00",
+      "last_seen": "2026-07-18T08:16:30+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
+      "topic": "tech",
       "language": "en",
-      "resonance": 0.1934
+      "resonance": 0.1745
     },
     {
-      "id": "d3ea4a8fde",
-      "title": "Men accuse North Dakota hospital of robbing them of the lives after DNA proves they were switched at birth",
+      "id": "8fe7b5c037",
+      "title": "Mother, 22, charged with murder after 2-year-old toddler bound & left to suffocate on bed in 12-hour ordeal",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/us-news/dna-men-switched-at-birth-37446784",
-          "headline": "Men accuse North Dakota hospital of robbing them of the lives after DNA proves they were switched at birth",
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39796847/mother-charged-murder-girl-suffocated-bed/",
+          "headline": "Mother, 22, charged with murder after 2-year-old toddler bound & left to suffocate on bed in 12-hour ordeal",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T08:15:42+00:00",
+      "last_seen": "2026-07-18T08:15:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1723
+    },
+    {
+      "id": "9225516c15",
+      "title": "Tragedy as ‘immensely popular’ teacher, 38, ‘under stress ahead of Ofsted inspection’ found dead in bed",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39796543/teacher-stress-ofsted-inspection-found-dead/",
+          "headline": "Tragedy as ‘immensely popular’ teacher, 38, ‘under stress ahead of Ofsted inspection’ found dead in bed",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T08:11:56+00:00",
+      "last_seen": "2026-07-18T08:11:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1617
+    },
+    {
+      "id": "65636f229e",
+      "title": "How Wallis Simpson was the only woman to satisfy Edward VIII sexually",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/news/article-15977073/Wallis-Simpson-woman-satisfy-Edward-VIII-sexually.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "How Wallis Simpson was the only woman to satisfy Edward VIII sexually",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.7,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T08:06:52+00:00",
+      "last_seen": "2026-07-18T08:06:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "en",
+      "resonance": 0.1475
+    },
+    {
+      "id": "06566f61b5",
+      "title": "‘Without this it’s all just tourists’: the fight to save Soho’s last primary school",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "url": "https://www.theguardian.com/education/2026/jul/18/without-this-school-its-all-just-tourists-fight-for-soho-last-primary",
+          "headline": "‘Without this it’s all just tourists’: the fight to save Soho’s last primary school",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.4,
         "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-07-18T03:15:17+00:00",
-      "last_seen": "2026-07-18T03:15:17+00:00",
+      "first_seen": "2026-07-18T08:00:52+00:00",
+      "last_seen": "2026-07-18T08:00:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.131
+    },
+    {
+      "id": "47ed739853",
+      "title": "Fury as brazen lags show off ‘luxury’ cells with TVs, speakers, designer trainers & food hauls",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39766912/luxury-prison-cells/",
+          "headline": "Fury as brazen lags show off ‘luxury’ cells with TVs, speakers, designer trainers & food hauls",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T08:00:38+00:00",
+      "last_seen": "2026-07-18T08:00:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.1304
+    },
+    {
+      "id": "b201a3ec12",
+      "title": "Drink and drug driver, 24, pleads guilty to killing boy, 13, after crashing BMW into three teens on pushbike and scooter",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Sun",
+          "url": "https://www.thesun.co.uk/news/39796661/drink-drug-driver-guilty-killing-boy-crashing-bmw/",
+          "headline": "Drink and drug driver, 24, pleads guilty to killing boy, 13, after crashing BMW into three teens on pushbike and scooter",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T07:59:09+00:00",
+      "last_seen": "2026-07-18T07:59:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "health",
       "language": "en",
-      "resonance": 0.1429
+      "resonance": 0.1263
     },
     {
-      "id": "887c7faa38",
-      "title": "Defiant Tuchel defends decisions and says loss is 'scar we carry now'",
+      "id": "5fab4c0384",
+      "title": "Tax raid on pensions 'could give Andy Burnham £20billion' if Shabana Mahmood is made chancellor",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC World",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c3r0l4zn9jpo?at_medium=RSS&at_campaign=rss",
-          "headline": "Defiant Tuchel defends decisions and says loss is 'scar we carry now'",
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/news/article-15986559/Tax-raid-pensions-Burnham-Mahmood-chancellor.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "Tax raid on pensions 'could give Andy Burnham £20billion' if Shabana Mahmood is made chancellor",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": 0.7,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T02:50:36+00:00",
-      "last_seen": "2026-07-18T02:50:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.1175
-    },
-    {
-      "id": "f4ddef5e73",
-      "title": "Former top UK cop killed dad-of-two in horror crash after 'blackout' at wheel",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/uk-news/michael-cooper-derbyshire-police-crash-37446787",
-          "headline": "Former top UK cop killed dad-of-two in horror crash after 'blackout' at wheel",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
         "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T02:04:48+00:00",
-      "last_seen": "2026-07-18T02:04:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.0738
-    },
-    {
-      "id": "baf748af87",
-      "title": "Brad Pitt's children are dropping their dad's surname - here's why I did the same",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cx2ln9l60g5o?at_medium=RSS&at_campaign=rss",
-          "headline": "Brad Pitt's children are dropping their dad's surname - here's why I did the same",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T01:48:16+00:00",
-      "last_seen": "2026-07-18T01:48:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "en",
-      "resonance": 0.059
-    },
-    {
-      "id": "4ee6076d4c",
-      "title": "Donald Trump mocks England with Harry Kane 'mistake' dig after crushing World Cup exit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Mirror",
-          "url": "https://www.mirror.co.uk/news/us-news/donald-trump-harry-kane-dig-37446777",
-          "headline": "Donald Trump mocks England with Harry Kane 'mistake' dig after crushing World Cup exit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T01:42:37+00:00",
-      "last_seen": "2026-07-18T01:42:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "en",
-      "resonance": 0.0541
-    },
-    {
-      "id": "a783863207",
-      "title": "Signed David Hockney print found in charity shop sells for more than £41,000",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Sun",
-          "url": "https://www.thesun.co.uk/news/39795863/david-hockney-print-donated-charity-shop-sells-41-k/",
-          "headline": "David Hockney print donated to charity shop by unsuspecting owner is sold for £41k a month after legendary artist died",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Evening Standard",
-          "url": "https://www.standard.co.uk/news/uk/david-hockney-royal-college-of-art-british-norwich-london-b1290430.html",
-          "headline": "Signed David Hockney print found in charity shop sells for more than £41,000",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.35,
-        "spread": 0.25,
-        "left": 0,
-        "center": 1,
         "right": 1
       },
-      "first_seen": "2026-07-17T21:37:26+00:00",
-      "last_seen": "2026-07-17T22:58:48+00:00",
+      "first_seen": "2026-07-18T07:55:00+00:00",
+      "last_seen": "2026-07-18T07:55:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.1151
+    },
+    {
+      "id": "0cdb7b2f42",
+      "title": "The Papers: 'The Burn supremacy' and 'Spice up your wife'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwyq978dxwqo?at_medium=RSS&at_campaign=rss",
+          "headline": "The Papers: 'The Burn supremacy' and 'Spice up your wife'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T07:50:35+00:00",
+      "last_seen": "2026-07-18T07:50:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "en",
+      "resonance": 0.1032
+    },
+    {
+      "id": "3109be6703",
+      "title": "Gigantic 13-foot alligator caught after mauling woman in horror 'death roll' attack that ripped off both her arms",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Mirror",
+          "url": "https://www.mirror.co.uk/news/us-news/gigantic-13-foot-alligator-caught-37446941",
+          "headline": "Gigantic 13-foot alligator caught after mauling woman in horror 'death roll' attack that ripped off both her arms",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T07:35:41+00:00",
+      "last_seen": "2026-07-18T07:35:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "en",
+      "resonance": 0.0641
+    },
+    {
+      "id": "3635366d87",
+      "title": "British families 'unwittingly funding Russian kidnap of Ukrainian children after Labour watered down oil sanctions', researchers warn",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Daily Mail",
+          "url": "https://www.dailymail.com/news/article-15968017/British-families-Russian-kidnap-Ukrainian-children-oil-sanctions.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "headline": "British families 'unwittingly funding Russian kidnap of Ukrainian children after Labour watered down oil sanctions', researchers warn",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.7,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T07:32:29+00:00",
+      "last_seen": "2026-07-18T07:32:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "en",
+      "resonance": 0.0559
+    },
+    {
+      "id": "821ec264c8",
+      "title": "Rooney, Hart and Richards row down Hudson River",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c3w0p810dj9o?at_medium=RSS&at_campaign=rss",
+          "headline": "Rooney, Hart and Richards row down Hudson River",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T07:30:11+00:00",
+      "last_seen": "2026-07-18T07:30:11+00:00",
       "platforms": [
         "rss"
       ],
@@ -915,15 +921,9 @@
   ],
   "edges": [
     {
-      "source": "b64969f3e5",
-      "target": "f4ddef5e73",
-      "weight": 0.283,
-      "type": "thematic"
-    },
-    {
-      "source": "3e3a026de3",
-      "target": "f4ddef5e73",
-      "weight": 0.213,
+      "source": "4721f5a4f1",
+      "target": "9225516c15",
+      "weight": 0.388,
       "type": "thematic"
     }
   ],

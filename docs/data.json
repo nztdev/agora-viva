@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T14:49:01.638479+00:00",
+  "generated_at": "2026-07-18T15:53:37.397469+00:00",
   "node_count": 35,
-  "edge_count": 5,
+  "edge_count": 7,
   "nodes": [
     {
       "id": "41f2a2005f",
@@ -29,34 +29,6 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.28
-    },
-    {
-      "id": "b5190a0938",
-      "title": "Why do AI company logos look like buttholes? (2025)",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
-          "headline": "Why do AI company logos look like buttholes? (2025)",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T11:06:50+00:00",
-      "last_seen": "2026-07-18T11:06:50+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
       "resonance": 0.28
     },
     {
@@ -88,10 +60,44 @@
       "resonance": 0.28
     },
     {
+      "id": "d09dd41c28",
+      "title": "What AI did to stackoverflow in a graph",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+          "headline": "What AI did to stackoverflow in a graph",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T11:12:46+00:00",
+      "last_seen": "2026-07-18T11:12:46+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.28
+    },
+    {
       "id": "ac16e15f65",
       "title": "Iran War Live Updates: Fighting Intensifies With Strikes on Critical Infrastructure",
       "signal_count": 3,
       "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/west-asia-war-us-strikes-iran-tehran-hits-usa-military-sites-in-kuwait-jordan-live-updates-july-18-2026/article71236973.ece",
+          "headline": "West Asia war LIVE: U.S.-Iran fighting escalates with infrastructure targeted",
+          "platform": "rss"
+        },
         {
           "outlet": "New York Times",
           "url": "https://www.nytimes.com/live/2026/07/18/world/iran-war-strikes-trump-hormuz",
@@ -103,29 +109,23 @@
           "url": "https://www.washingtonpost.com/world/2026/07/18/iran-us-strikes-widen-fighting-hits-critical-infrastructure/",
           "headline": "Iran, U.S. strikes widen as fighting hits critical infrastructure",
           "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/18/iran-accuses-us-of-striking-critical-infrastructure-as-war-intensifies?traffic_source=rss",
-          "headline": "Iran accuses US of striking critical infrastructure as war intensifies",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.267,
-        "spread": 0.047,
+        "mean": -0.233,
+        "spread": 0.094,
         "left": 2,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-18T12:59:26+00:00",
-      "last_seen": "2026-07-18T14:40:50+00:00",
+      "first_seen": "2026-07-18T13:17:46+00:00",
+      "last_seen": "2026-07-18T15:39:26+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.4514
+      "resonance": 0.4587
     },
     {
       "id": "24a223e734",
@@ -177,12 +177,428 @@
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.3939
+      "resonance": 0.3363
+    },
+    {
+      "id": "80c3127e63",
+      "title": "Venezuela quake death toll exceeds 5,000 as IMF releases funds",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/7/18/venezuela-quake-death-toll-tops-5000-as-imf-releases-emergency-aid?traffic_source=rss",
+          "headline": "Venezuela quake death toll tops 5,000 as IMF releases emergency aid",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/07/18/venezuela-quake-death-toll-exceeds-5-000-as-imf-releases-funds_6755595_4.html",
+          "headline": "Venezuela quake death toll exceeds 5,000 as IMF releases funds",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260718-venezuela-quake-death-toll-tops-5-000-as-imf-releases-recovery-funds",
+          "headline": "Venezuela quake death toll tops 5,000 as IMF releases recovery funds",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.167,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T08:25:28+00:00",
+      "last_seen": "2026-07-18T15:35:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.3157
+    },
+    {
+      "id": "645619d635",
+      "title": "US strikes hit Iran for seventh consecutive night",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
+          "headline": "US strikes hit Iran for seventh consecutive night",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/us-strikes-hit-iran-for-seventh-night",
+          "headline": "US strikes hit Iran for seventh night",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/07/18/us-forces-strike-iran-for-seventh-consecutive-night",
+          "headline": "US forces strike Iran for seventh consecutive night",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.067,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T05:49:14+00:00",
+      "last_seen": "2026-07-18T15:04:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.2386
+    },
+    {
+      "id": "03377760aa",
+      "title": "US and Israel used Karim Khan misconduct claims to 'defang' ICC, says former EU top diplomat",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/us-and-israel-used-karim-khan-misconduct-claims-defang-icc-says-former-eu-top-diplomat",
+          "headline": "US and Israel used Karim Khan misconduct claims to 'defang' ICC, says former EU top diplomat",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:53:37+00:00",
+      "last_seen": "2026-07-18T15:53:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.191
+    },
+    {
+      "id": "c8176382c9",
+      "title": "Bulk waste generators in A.P. told  \nto set up on-site processing units",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/bulk-waste-generators-in-ap-told-to-set-up-on-site-processing-units/article71237951.ece",
+          "headline": "Bulk waste generators in A.P. told  \nto set up on-site processing units",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:50:24+00:00",
+      "last_seen": "2026-07-18T15:50:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1851
+    },
+    {
+      "id": "c22e3baa05",
+      "title": "Hyderabad hospital earns Guinness World Record for largest IBD awareness programme",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-hospital-earns-guinness-world-record-for-largest-ibd-awareness-programme/article71238459.ece",
+          "headline": "Hyderabad hospital earns Guinness World Record for largest IBD awareness programme",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:49:49+00:00",
+      "last_seen": "2026-07-18T15:49:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.184
+    },
+    {
+      "id": "021d3aa415",
+      "title": "Two-day Hyderabad Dental Convention from July 25",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/two-day-hyderabad-dental-convention-from-july-25/article71238492.ece",
+          "headline": "Two-day Hyderabad Dental Convention from July 25",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:49:18+00:00",
+      "last_seen": "2026-07-18T15:49:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1831
+    },
+    {
+      "id": "e459da656e",
+      "title": "Your ‘Live’ World Cup Broadcast Is Not Really Live",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/18/sports/soccer/world-cup-live-tv-delay.html",
+          "headline": "Your ‘Live’ World Cup Broadcast Is Not Really Live",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:48:06+00:00",
+      "last_seen": "2026-07-18T15:48:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1808
+    },
+    {
+      "id": "2844993812",
+      "title": "Terrified hikers face nightmare survival scenario after heart-pounding grizzly bear encounter",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/terrified-hikers-face-nightmare-survival-scenario-after-heart-pounding-grizzly-bear-encounter",
+          "headline": "Terrified hikers face nightmare survival scenario after heart-pounding grizzly bear encounter",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T15:47:19+00:00",
+      "last_seen": "2026-07-18T15:47:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1794
+    },
+    {
+      "id": "e4be90b3e5",
+      "title": "Burnham to announce plans for new North Sea oil and gas drilling",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c935yx2z9d4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Burnham to announce plans for new North Sea oil and gas drilling",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:46:35+00:00",
+      "last_seen": "2026-07-18T15:46:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1781
+    },
+    {
+      "id": "4bf7f9a57a",
+      "title": "As Trump Scraps With Meloni, His Envoy to Italy Is at Sea",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/18/world/europe/tilman-fertitta-superyacht-italy-ambassador.html",
+          "headline": "As Trump Scraps With Meloni, His Envoy to Italy Is at Sea",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:45:27+00:00",
+      "last_seen": "2026-07-18T15:45:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.176
+    },
+    {
+      "id": "88b785e1f0",
+      "title": "Plumes of smoke rise over Kuwait after repeated Iranian attacks",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/plumes-of-smoke-rise-over-kuwait-after-repeated-iranian-attacks?traffic_source=rss",
+          "headline": "Plumes of smoke rise over Kuwait after repeated Iranian attacks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:35:23+00:00",
+      "last_seen": "2026-07-18T15:35:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1579
+    },
+    {
+      "id": "fdd6d4fe43",
+      "title": "Josh Kerr smashes men’s mile world record that stood unbroken since 1999",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260718-josh-kerr-smashes-men-s-mile-world-record-that-stood-unbroken-since-1999",
+          "headline": "Josh Kerr smashes men’s mile world record that stood unbroken since 1999",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:34:26+00:00",
+      "last_seen": "2026-07-18T15:34:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1562
+    },
+    {
+      "id": "8f12ab715b",
+      "title": "Test your pop culture: From Hollywood to the Heartland",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/test-your-pop-culture-from-hollywood-heartland-13",
+          "headline": "Test your pop culture: From Hollywood to the Heartland",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T15:30:57+00:00",
+      "last_seen": "2026-07-18T15:30:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.15
+    },
+    {
+      "id": "5bbcaaa856",
+      "title": "Uproar Over Surrogate Baby Prompts German Official’s Sudden Resignation",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/07/18/world/europe/jens-spahn-surrogacy-germany.html",
+          "headline": "Uproar Over Surrogate Baby Prompts German Official’s Sudden Resignation",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:30:31+00:00",
+      "last_seen": "2026-07-18T15:30:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1493
     },
     {
       "id": "85fea2f34e",
       "title": "Russian online retail warehouses hit by deadly Ukrainian strikes",
-      "signal_count": 3,
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "BBC World Service",
@@ -195,29 +611,219 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/7/18/ukrainian-strikes-hit-russian-logistics-center?traffic_source=rss",
           "headline": "Ukrainian strikes hit Russian logistics center",
           "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ukrainian-drone-strikes-on-russian-warehouses-kill-7/a-78018446?maca=en-rss-en-all-1573-rdf",
-          "headline": "Ukrainian drone strikes on Russian warehouses kill 7",
-          "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.1,
-        "spread": 0.082,
+        "spread": 0.1,
         "left": 0,
-        "center": 3,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-18T12:06:00+00:00",
+      "first_seen": "2026-07-18T12:57:21+00:00",
       "last_seen": "2026-07-18T13:06:25+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.3471
+      "resonance": 0.1488
+    },
+    {
+      "id": "0708624c77",
+      "title": "Reporter's Notebook: Finding World Cup joy in speaking to women who love soccer",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/18/nx-s1-5897607/2026-world-cup-fifa-argentina-spain-women-fans",
+          "headline": "Reporter's Notebook: Finding World Cup joy in speaking to women who love soccer",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:30:00+00:00",
+      "last_seen": "2026-07-18T15:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1484
+    },
+    {
+      "id": "572705fa7a",
+      "title": "James Carville explains why he thinks mainstream media networks made a mistake avoiding Trump’s speech",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/james-carville-explains-why-he-thinks-mainstream-media-networks-made-mistake-avoiding-trumps-speech",
+          "headline": "James Carville explains why he thinks mainstream media networks made a mistake avoiding Trump’s speech",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-07-18T15:25:33+00:00",
+      "last_seen": "2026-07-18T15:25:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1406
+    },
+    {
+      "id": "db4a9b0cb2",
+      "title": "‘It’s only going to get worse’: wildfires forcing firefighters to make impossible choices",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/news/ng-interactive/2026/jul/18/the-impossible-choices-of-a-deadly-wildfire-season",
+          "headline": "‘It’s only going to get worse’: wildfires forcing firefighters to make impossible choices",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:24:42+00:00",
+      "last_seen": "2026-07-18T15:24:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.1391
+    },
+    {
+      "id": "25d2ba8157",
+      "title": "German politician resigns over surrogacy child controversy",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cq56e9n1ddzo?at_medium=RSS&at_campaign=rss",
+          "headline": "German politician resigns over surrogacy child controversy",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:23:31+00:00",
+      "last_seen": "2026-07-18T15:23:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.137
+    },
+    {
+      "id": "4eba26a755",
+      "title": "Malian army convoy ambushed by rebels north of Gao",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/africa/20260718-malian-army-convoy-ambushed-by-rebels-north-of-gao",
+          "headline": "Malian army convoy ambushed by rebels north of Gao",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:10:44+00:00",
+      "last_seen": "2026-07-18T15:10:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1153
+    },
+    {
+      "id": "17da533774",
+      "title": "Israeli strike kills six people in Gaza",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-kills-six-people-gaza",
+          "headline": "Israeli strike kills six people in Gaza",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:05:39+00:00",
+      "last_seen": "2026-07-18T15:05:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1068
+    },
+    {
+      "id": "ada2f4e2ee",
+      "title": "Canada to evacuate Ontario community as wildfire smoke chokes US",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3361064/canada-evacuate-ontario-community-wildfire-smoke-chokes-us?utm_source=rss_feed",
+          "headline": "Canada to evacuate Ontario community as wildfire smoke chokes US",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-07-18T15:05:11+00:00",
+      "last_seen": "2026-07-18T15:05:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.106
     },
     {
       "id": "8ed8a13492",
@@ -269,45 +875,17 @@
       ],
       "geo_regions": [],
       "topic": "science",
-      "resonance": 0.1438
+      "resonance": 0.1019
     },
     {
-      "id": "5bbcaaa856",
-      "title": "Uproar Over Surrogate Baby Prompts German Official’s Sudden Resignation",
+      "id": "bd9220d708",
+      "title": "Burnham is 'people pleaser' with 'airy fairy' plans, says Kemi Badenoch",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/18/world/europe/jens-spahn-surrogacy-germany.html",
-          "headline": "Uproar Over Surrogate Baby Prompts German Official’s Sudden Resignation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:46:45+00:00",
-      "last_seen": "2026-07-18T14:46:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1394
-    },
-    {
-      "id": "e1373c8abd",
-      "title": "Molecular pathologist wins IAPM Young Scientist award",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/molecular-pathologist-wins-iapm-young-scientist-award/article71237941.ece",
-          "headline": "Molecular pathologist wins IAPM Young Scientist award",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c304l24m0leo?at_medium=RSS&at_campaign=rss",
+          "headline": "Burnham is 'people pleaser' with 'airy fairy' plans, says Kemi Badenoch",
           "platform": "rss"
         }
       ],
@@ -318,52 +896,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-18T14:43:37+00:00",
-      "last_seen": "2026-07-18T14:43:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1341
-    },
-    {
-      "id": "915db4439c",
-      "title": "Yuva Morcha to intensify protest against ‘irregularities’ in PSC",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/yuva-morcha-to-intensify-protest-against-irregularities-in-psc/article71238288.ece",
-          "headline": "Yuva Morcha to intensify protest against ‘irregularities’ in PSC",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:41:10+00:00",
-      "last_seen": "2026-07-18T14:41:10+00:00",
+      "first_seen": "2026-07-18T15:01:33+00:00",
+      "last_seen": "2026-07-18T15:01:33+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1299
+      "resonance": 0.1
     },
     {
-      "id": "e3b49b2587",
-      "title": "Randeep Hooda on National Award win for Swatantrya Veer Savarkar: ‘The film asked more of me than anything I’ve done’",
+      "id": "d2b46d5649",
+      "title": "GoPro&#8217;s discounted Max 2 bundle includes $100 worth of accessories",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/entertainment/movies/randeep-hooda-on-national-award-win-for-swatantryaveer-savarkar-the-film-asked-more-of-me-than-anything-ive-ever-done/article71238471.ece",
-          "headline": "Randeep Hooda on National Award win for Swatantrya Veer Savarkar: ‘The film asked more of me than anything I’ve done’",
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/gadgets/967311/gopro-max2-360-degree-action-cam-accessory-bundle-deal-sale",
+          "headline": "GoPro&#8217;s discounted Max 2 bundle includes $100 worth of accessories",
           "platform": "rss"
         }
       ],
@@ -374,48 +924,42 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-18T14:38:55+00:00",
-      "last_seen": "2026-07-18T14:38:55+00:00",
+      "first_seen": "2026-07-18T15:00:00+00:00",
+      "last_seen": "2026-07-18T15:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1262
+      "topic": "world",
+      "resonance": 0.0975
     },
     {
-      "id": "1a293855c7",
-      "title": "Disappointed France and England to face off in third place World Cup match",
-      "signal_count": 2,
+      "id": "e9b1cffcfa",
+      "title": "Josh Kerr breaks 27-year-old mile record in front of packed London stadium",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/france-takes-england-world-cup-third-place-game-mbappe-chasing-golden-boot",
-          "headline": "France takes on England in World Cup third-place game with Mbappe chasing Golden Boot",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260718-disappointed-france-and-england-face-off-for-third-place-world-cup-match",
-          "headline": "Disappointed France and England to face off in third place World Cup match",
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/british-runner-josh-kerr-breaks-world-record-for-mile-which-had-stood-for-27-years-13564688",
+          "headline": "Josh Kerr breaks 27-year-old mile record in front of packed London stadium",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.25,
-        "spread": 0.35,
+        "mean": 0.1,
+        "spread": 0.0,
         "left": 0,
         "center": 1,
-        "right": 1
+        "right": 0
       },
-      "first_seen": "2026-07-18T05:56:10+00:00",
-      "last_seen": "2026-07-18T14:36:26+00:00",
+      "first_seen": "2026-07-18T14:41:00+00:00",
+      "last_seen": "2026-07-18T14:41:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1164
+      "topic": "world",
+      "resonance": 0.067
     },
     {
       "id": "7be9287dcd",
@@ -443,7 +987,7 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.116
+      "resonance": 0.0543
     },
     {
       "id": "21e9ae94e8",
@@ -471,7 +1015,7 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1146
+      "resonance": 0.0531
     },
     {
       "id": "d08d8fd46d",
@@ -499,7 +1043,7 @@
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1143
+      "resonance": 0.0527
     },
     {
       "id": "91c951d392",
@@ -527,576 +1071,50 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1113
-    },
-    {
-      "id": "bf96d4579c",
-      "title": "The Guardian’s Carter Sherman fondly remembers being terrified by Ocarina of Time",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/report/967583/guardian-carter-sherman-podcast-interview",
-          "headline": "The Guardian’s Carter Sherman fondly remembers being terrified by Ocarina of Time",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:30:00+00:00",
-      "last_seen": "2026-07-18T14:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1113
-    },
-    {
-      "id": "cb0ec78cc8",
-      "title": "Tai Po fire inquiry panel to delay submitting final report to late October: source",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/politics/article/3361060/tai-po-fire-inquiry-panel-delay-submitting-final-report-late-october-source?utm_source=rss_feed",
-          "headline": "Tai Po fire inquiry panel to delay submitting final report to late October: source",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:29:00+00:00",
-      "last_seen": "2026-07-18T14:29:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1097
-    },
-    {
-      "id": "cb61d6a3c1",
-      "title": "Massive fire becomes Norway's largest in modern times",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-19/norway-massive-fire-largest-in-modern-times/106931942",
-          "headline": "Massive fire becomes Norway's largest in modern times",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:28:34+00:00",
-      "last_seen": "2026-07-18T14:28:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.109
-    },
-    {
-      "id": "a124b0210f",
-      "title": "Kuwait accuses Iran of targeting civilian sites after attacks spark fires.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/07/18/world/iran-war-strikes-trump-hormuz/kuwait-power-water-facilities-attacks",
-          "headline": "Kuwait accuses Iran of targeting civilian sites after attacks spark fires.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:24:02+00:00",
-      "last_seen": "2026-07-18T14:24:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1016
-    },
-    {
-      "id": "25d2ba8157",
-      "title": "German politician resigns over surrogacy child controversy",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cq56e9n1ddzo?at_medium=RSS&at_campaign=rss",
-          "headline": "German politician resigns over surrogacy child controversy",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:20:32+00:00",
-      "last_seen": "2026-07-18T14:20:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.096
-    },
-    {
-      "id": "3814c56fea",
-      "title": "France versus England: The stakes of the World Cup match 'no one wants to play'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/sports/article/2026/07/18/france-versus-england-what-remains-at-stake-in-the-world-cup-match-no-one-wants-to-play_6755602_9.html",
-          "headline": "France versus England: The stakes of the World Cup match 'no one wants to play'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:18:07+00:00",
-      "last_seen": "2026-07-18T14:18:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0921
-    },
-    {
-      "id": "e5f859acb3",
-      "title": "8 killed and more than 60 wounded in Ukrainian drone attack on Russian regions",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-18/ukrainian-drone-attack-on-russian-regions-8-killed/106931882",
-          "headline": "Eight killed, 60 wounded, as Ukraine attacks Russian warehouses",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/18/nx-s1-5898963/8-killed-and-more-than-60-wounded-in-ukrainian-drone-attack-on-russian-regions",
-          "headline": "8 killed and more than 60 wounded in Ukrainian drone attack on Russian regions",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.125,
-        "spread": 0.025,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T10:45:43+00:00",
-      "last_seen": "2026-07-18T12:47:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0851
-    },
-    {
-      "id": "14a7f5ba3d",
-      "title": "Air quality warnings remain in place across US as wildfire smoke continues to swathe country",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/jul/18/air-quality-warnings-canada-wildfires",
-          "headline": "Air quality warnings remain in place across US as wildfire smoke continues to swathe country",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:13:36+00:00",
-      "last_seen": "2026-07-18T14:13:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0849
-    },
-    {
-      "id": "ed0d3b6fe1",
-      "title": "Here’s the latest.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/07/18/world/iran-war-strikes-trump-hormuz/heres-the-latest",
-          "headline": "Here’s the latest.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:05:56+00:00",
-      "last_seen": "2026-07-18T14:05:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0729
-    },
-    {
-      "id": "e0f7ecafbb",
-      "title": "'Lack of evidence' means Lao officials won't lay charges over teens' deaths",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-07-19/laos-officials-blame-no-autopsies-poisoning-deaths-australians/106931892",
-          "headline": "'Lack of evidence' means Lao officials won't lay charges over teens' deaths",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:04:18+00:00",
-      "last_seen": "2026-07-18T14:04:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0704
-    },
-    {
-      "id": "bcf45de978",
-      "title": "China warns UK over British Steel nationalisation, demands fair resolution",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/18/china-warns-uk-over-british-steel-nationalisation-demands-fair-resolution?traffic_source=rss",
-          "headline": "China warns UK over British Steel nationalisation, demands fair resolution",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:04:05+00:00",
-      "last_seen": "2026-07-18T14:04:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.07
-    },
-    {
-      "id": "bf173b0fb9",
-      "title": "German conservative parliamentary leader resigns over surrogate baby controversy",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260718-german-conservative-parliamentary-leader-resigns-over-surrogate-baby-controversy",
-          "headline": "German conservative parliamentary leader resigns over surrogate baby controversy",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:03:22+00:00",
-      "last_seen": "2026-07-18T14:03:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0689
-    },
-    {
-      "id": "cae930d25f",
-      "title": "Why a blown-out plane window nearly sucked a passenger outside at 16K feet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/travel/blown-out-plane-window-nearly-sucked-passenger-outside-16k-feet",
-          "headline": "Why a blown-out plane window nearly sucked a passenger outside at 16K feet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-18T14:00:48+00:00",
-      "last_seen": "2026-07-18T14:00:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.065
-    },
-    {
-      "id": "9912ef7317",
-      "title": "Far-left activist conference at teachers union HQ raises classroom concerns",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/far-left-activist-conference-teachers-union-hq-raises-classroom-concerns",
-          "headline": "Far-left activist conference at teachers union HQ raises classroom concerns",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-18T14:00:34+00:00",
-      "last_seen": "2026-07-18T14:00:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0646
-    },
-    {
-      "id": "1c8537699d",
-      "title": "Relationship expert challenges one of America's biggest assumptions about divorce",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/relationship-expert-challenges-one-americas-biggest-assumptions-divorce",
-          "headline": "Relationship expert challenges one of America's biggest assumptions about divorce",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-07-18T14:00:28+00:00",
-      "last_seen": "2026-07-18T14:00:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0645
-    },
-    {
-      "id": "b29d396b3a",
-      "title": "Why data may become China’s most durable advantage in the AI race",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/politics/article/3361050/why-data-may-become-chinas-most-durable-advantage-ai-race?utm_source=rss_feed",
-          "headline": "Why data may become China’s most durable advantage in the AI race",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:00:06+00:00",
-      "last_seen": "2026-07-18T14:00:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0639
-    },
-    {
-      "id": "4db91e8c3e",
-      "title": "Surprise! Facial recognition smart locks are actually good",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review",
-          "headline": "Surprise! Facial recognition smart locks are actually good",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T14:00:00+00:00",
-      "last_seen": "2026-07-18T14:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0637
-    },
-    {
-      "id": "d49264f0a0",
-      "title": "Top German conservative quits after surrogacy sparks backlash within party",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/18/top-german-conservative-quits-after-surrogacy-sparks-backlash-within-party?traffic_source=rss",
-          "headline": "Top German conservative quits after surrogacy sparks backlash within party",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T13:54:21+00:00",
-      "last_seen": "2026-07-18T13:54:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0551
-    },
-    {
-      "id": "b638f80883",
-      "title": "What Trump’s Speech Could Mean For Future Elections",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/national/2026/07/trump-speech-washington-week/687992/?utm_source=feed",
-          "headline": "What Trump’s Speech Could Mean For Future Elections",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-07-18T13:50:56+00:00",
-      "last_seen": "2026-07-18T13:50:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "85fea2f34e",
-      "target": "e5f859acb3",
-      "weight": 0.319,
+      "source": "ac16e15f65",
+      "target": "645619d635",
+      "weight": 0.298,
       "type": "thematic"
     },
     {
-      "source": "5bbcaaa856",
-      "target": "bf173b0fb9",
-      "weight": 0.635,
+      "source": "ac16e15f65",
+      "target": "e459da656e",
+      "weight": 0.232,
       "type": "thematic"
     },
     {
-      "source": "25d2ba8157",
-      "target": "bf173b0fb9",
-      "weight": 0.863,
+      "source": "645619d635",
+      "target": "85fea2f34e",
+      "weight": 0.34,
       "type": "thematic"
     },
     {
-      "source": "25d2ba8157",
-      "target": "d49264f0a0",
-      "weight": 0.275,
+      "source": "e459da656e",
+      "target": "0708624c77",
+      "weight": 0.094,
       "type": "thematic"
     },
     {
-      "source": "bf173b0fb9",
-      "target": "d49264f0a0",
-      "weight": 0.174,
+      "source": "e4be90b3e5",
+      "target": "bd9220d708",
+      "weight": 0.235,
+      "type": "thematic"
+    },
+    {
+      "source": "88b785e1f0",
+      "target": "d08d8fd46d",
+      "weight": 0.456,
+      "type": "thematic"
+    },
+    {
+      "source": "fdd6d4fe43",
+      "target": "e9b1cffcfa",
+      "weight": 0.642,
       "type": "thematic"
     }
   ],

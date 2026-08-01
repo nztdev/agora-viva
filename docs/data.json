@@ -1,23 +1,57 @@
 {
-  "generated_at": "2026-08-01T01:29:48.127902+00:00",
+  "generated_at": "2026-08-01T05:44:24.608981+00:00",
   "node_count": 35,
-  "edge_count": 7,
+  "edge_count": 8,
   "nodes": [
+    {
+      "id": "40e096c6b3",
+      "title": "BMW Spider-Man in-car advertising",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising",
+          "headline": "BMW Spider-Man in-car advertising",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T03:25:12+00:00",
+      "last_seen": "2026-08-01T03:25:12+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.28
+    },
     {
       "id": "c5b3f61b1b",
       "title": "Fifa scraps controversial World Cup investment plan",
-      "signal_count": 4,
+      "signal_count": 5,
       "sources": [
         {
-          "outlet": "BBC News",
+          "outlet": "BBC World Service",
           "url": "https://www.bbc.co.uk/sport/football/articles/czekr6kn58po?at_medium=RSS&at_campaign=rss",
           "headline": "Fifa scraps controversial World Cup investment plan",
           "platform": "rss"
         },
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-01/fifa-scraps-world-cup-sell-off-plans/106985360",
-          "headline": "FIFA scraps World Cup sell-off plans after global backlash",
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/07/31/nx-s1-5915820/fifa-world-cup-gianni-infantino",
+          "headline": "FIFA scraps controversial deal to sell stakes in World Cup to private investors",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/8/1/why-has-infantino-scrapped-fifas-world-cup-investment-plan-what-to-know?traffic_source=rss",
+          "headline": "Why has Infantino scrapped FIFA’s World Cup investment plan? What to know",
           "platform": "rss"
         },
         {
@@ -27,113 +61,85 @@
           "platform": "rss"
         },
         {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/fifa-chief-infantino-abandons-world-cup-sell-off-plans-after-backlash/a-78198144?maca=en-rss-en-all-1573-rdf",
-          "headline": "FIFA chief Infantino abandons World Cup sell-off plans after backlash",
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/created-division-gianni-infantino-abandons-fifa-sell-off-plan-following-global-backlash-13568939",
+          "headline": "Infantino scraps controversial FIFA sell-off plan saying it 'created divisions'",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.125,
-        "spread": 0.043,
+        "mean": -0.09,
+        "spread": 0.12,
         "left": 0,
-        "center": 4,
+        "center": 5,
         "right": 0
       },
-      "first_seen": "2026-07-31T23:46:00+00:00",
-      "last_seen": "2026-08-01T00:12:06+00:00",
+      "first_seen": "2026-07-31T23:01:00+00:00",
+      "last_seen": "2026-08-01T05:42:31+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.6944
+      "resonance": 0.4952
     },
     {
-      "id": "c4e5beac3b",
-      "title": "Bessent ‘to-do’ list shows proposal for US to buy $5bn-$10bn of Japanese yen",
+      "id": "34a4f2fcbe",
+      "title": "Dogs allowed! Animal hospital opens doors to Japan quake survivors and their pets",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/business/2026/08/01/bessent-to-do-list-buy-yen/",
-          "headline": "Bessent’s ‘to do’ list: buy $5-10 billion worth of Japanese yen, photo shows",
+          "url": "https://www.japantimes.co.jp/news/2026/08/01/japan/animal-hospital-kumamoto-quake/",
+          "headline": "Dogs allowed! Animal hospital opens doors to Japan quake survivors and their pets",
           "platform": "rss"
         },
         {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/us-news/2026/jul/31/scott-bessent-japanese-yen",
-          "headline": "Bessent ‘to-do’ list shows proposal for US to buy $5bn-$10bn of Japanese yen",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/asia/east-asia/article/3362627/japan-quake-evacuees-pets-find-refuge-kumamoto-animal-hospital?utm_source=rss_feed",
+          "headline": "Japan quake evacuees with pets find refuge at Kumamoto animal hospital",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.15,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T00:33:29+00:00",
-      "last_seen": "2026-08-01T01:14:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.527
-    },
-    {
-      "id": "080a07de6e",
-      "title": "Trump tries to pressure Israel to accept deal tying Hamas disarmament to Israeli withdrawal from the Gaza Strip",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/01/trump-tries-to-pressure-israel-to-accept-deal-tying-hamas-disarmament-to-israeli-withdrawal-from-the-gaza-strip_6756052_4.html",
-          "headline": "Trump tries to pressure Israel to accept deal tying Hamas disarmament to Israeli withdrawal from the Gaza Strip",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/31/trump-says-us-has-understanding-with-israel-on-hamas-disarmament-deal?traffic_source=rss",
-          "headline": "Trump says US has ‘understanding’ with Israel on Hamas disarmament deal",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-israel-very-happy-gaza-disarmament-agreement",
-          "headline": "Trump says Israel 'very happy' with Gaza disarmament agreement",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/31/world/middleeast/trump-gaza-hamas-deal-disarm.html",
-          "headline": "Trump’s Gaza Deal Sparks Questions on Whether Israel and Hamas Will Comply",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.237,
-        "spread": 0.041,
-        "left": 2,
+        "mean": 0.05,
+        "spread": 0.05,
+        "left": 0,
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-31T19:10:16+00:00",
-      "last_seen": "2026-08-01T00:37:37+00:00",
+      "first_seen": "2026-08-01T05:05:12+00:00",
+      "last_seen": "2026-08-01T05:09:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.4914
+      "topic": "health",
+      "resonance": 0.401
     },
     {
-      "id": "1ed775fc2a",
-      "title": "Trump administration to dismiss Reflecting Pool charges against David Hearn",
-      "signal_count": 3,
+      "id": "ca68e6e2f0",
+      "title": "Trump administration drops Reflecting Pool vandalism charge and admits 'botched' repairs",
+      "signal_count": 5,
       "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/us-drops-charges-against-olympian-for-damage-to-reflecting-pool?traffic_source=rss",
+          "headline": "US drops charges against Olympian for damage to Reflecting Pool",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-01/reflecting-pool-renovation-botched-olympian-case-dropped/106985578",
+          "headline": "US drops case against Olympian, admits Reflecting Pool work was 'botched'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cz05yx5dd7yo?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump administration drops Reflecting Pool vandalism charge and admits 'botched' repairs",
+          "platform": "rss"
+        },
         {
           "outlet": "Al Jazeera English",
           "url": "https://www.aljazeera.com/news/2026/8/1/trump-administration-to-dismiss-reflecting-pool-charges-against-david-hearn?traffic_source=rss",
@@ -145,73 +151,147 @@
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3362617/trump-officials-drop-reflecting-pool-charges-against-ex-us-olympian-david-hearn?utm_source=rss_feed",
           "headline": "Trump officials drop Reflecting Pool charges against ex-US Olympian David Hearn",
           "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/sports/prosecutors-move-dismiss-felony-vandalism-case-olympian-david-hearn-reflecting-pools",
-          "headline": "Prosecutors move to dismiss felony vandalism case against Olympian David Hearn over Reflecting Pool",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.167,
-        "spread": 0.33,
+        "mean": -0.1,
+        "spread": 0.11,
         "left": 0,
-        "center": 2,
-        "right": 1
+        "center": 5,
+        "right": 0
       },
-      "first_seen": "2026-07-31T22:20:51+00:00",
-      "last_seen": "2026-08-01T00:02:37+00:00",
+      "first_seen": "2026-07-31T23:11:05+00:00",
+      "last_seen": "2026-08-01T04:36:10+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.4597
+      "resonance": 0.3836
     },
     {
-      "id": "cb39cf2278",
-      "title": "Tailscale didn't stop the Hugging Face intrusion",
-      "signal_count": 1,
+      "id": "61031ecd25",
+      "title": "OpenAI finds evidence other AI agents escaped containment as it widens hacking probe",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://tailscale.com/blog/hugging-face-intrusion",
-          "headline": "Tailscale didn't stop the Hugging Face intrusion",
-          "platform": "hackernews"
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sci-tech/technology/openai-finds-evidence-other-ai-agents-escaped-containment-as-it-widens-hacking-probe/article71293526.ece",
+          "headline": "OpenAI finds evidence other AI agents escaped containment as it widens hacking probe",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/business/2026/08/01/tech/openai-agent-more-breakouts/",
+          "headline": "OpenAI finds evidence other AI agents escaped containment as it widens hacking probe",
+          "platform": "rss"
+        },
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+          "headline": "OpenAI reportedly finds evidence that more of its agents ran amok",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
+        "mean": -0.067,
+        "spread": 0.047,
         "left": 0,
-        "center": 1,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-07-31T19:03:45+00:00",
-      "last_seen": "2026-07-31T19:03:45+00:00",
+      "first_seen": "2026-07-31T22:47:26+00:00",
+      "last_seen": "2026-08-01T05:01:14+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.28
+      "resonance": 0.3044
     },
     {
-      "id": "084dc1ddeb",
-      "title": "Iran war live: Trump threatens strikes, Iran says it has a plan to respond",
+      "id": "026ac2914d",
+      "title": "Massive Attack barred from Singapore for unfurling Palestinian flag on stage",
       "signal_count": 2,
       "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/massive-attack-members-barred-singapore-after-displaying-palestinian",
+          "headline": "Massive Attack members barred from Singapore after displaying Palestinian flag",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3362623/massive-attack-barred-singapore-unfurling-palestinian-flag-stage?utm_source=rss_feed",
+          "headline": "Massive Attack barred from Singapore for unfurling Palestinian flag on stage",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.075,
+        "spread": 0.175,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T03:05:05+00:00",
+      "last_seen": "2026-08-01T04:54:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.2894
+    },
+    {
+      "id": "efb284cd86",
+      "title": "West Asia war LIVE: White House signals Trump is weighing new strikes on Iran",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/iran-us-war-live-updates-donald-trump-tehran-mojtaba-khamenei-fresh-strikes-irgc-strait-of-hormuz-ceasefire-deal/article71293385.ece",
+          "headline": "West Asia war LIVE: White House signals Trump is weighing new strikes on Iran",
+          "platform": "rss"
+        },
         {
           "outlet": "Al Jazeera English",
           "url": "https://www.aljazeera.com/news/liveblog/2026/7/31/iran-war-live-iran-says-it-has-a-plan-to-respond-to-any-us-attacks?traffic_source=rss",
           "headline": "Iran war live: Trump threatens strikes, Iran says it has a plan to respond",
           "platform": "rss"
-        },
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-07-31T23:59:40+00:00",
+      "last_seen": "2026-08-01T05:35:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.227
+    },
+    {
+      "id": "e922f191dc",
+      "title": "Israeli settlers vandalise Palestinian cemetery in West Bank",
+      "signal_count": 2,
+      "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-threatens-hit-iran-very-hard-0",
-          "headline": "Trump threatens to hit Iran 'very hard'",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-desecrate-palestinian-cemetery-west-bank",
+          "headline": "Israeli settlers desecrate Palestinian cemetery in West Bank",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/israeli-settlers-vandalise-palestinian-cemetery-in-west-bank?traffic_source=rss",
+          "headline": "Israeli settlers vandalise Palestinian cemetery in West Bank",
           "platform": "rss"
         }
       ],
@@ -222,24 +302,58 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-31T23:06:40+00:00",
-      "last_seen": "2026-07-31T23:59:40+00:00",
+      "first_seen": "2026-07-31T22:12:48+00:00",
+      "last_seen": "2026-08-01T05:43:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.3708
+      "topic": "economy",
+      "resonance": 0.2177
     },
     {
-      "id": "74addf969b",
-      "title": "Trump dusts off Red Scare playbook to stop 'mini-Mamdanis'",
+      "id": "6bdbe79bec",
+      "title": "Russian strikes on Kyiv kill at least nine, Ukraine officials say",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
+          "headline": "Russian strikes on Kyiv kill at least nine, Ukraine officials say",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/01/russian-strikes-on-kyiv-kill-four-wound-more-than-a-dozen_6756054_4.html",
+          "headline": "Russian strikes on Kyiv kill four, wound more than a dozen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T02:21:57+00:00",
+      "last_seen": "2026-08-01T04:06:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2133
+    },
+    {
+      "id": "2720d40d50",
+      "title": "PM Modi in Andhra LIVE: ASR International Airport at Bhogapuram to be inaugurated",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-01/trump-republican-red-scare-communist-socialist-us-politics/106967044",
-          "headline": "Trump dusts off Red Scare playbook to stop 'mini-Mamdanis'",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/narendra-modi-bhogapuram-alluri-sitarama-raju-international-airport-inauguration-vizag-andhra-pradesh-karnataka-visit/article71293464.ece",
+          "headline": "PM Modi in Andhra LIVE: ASR International Airport at Bhogapuram to be inaugurated",
           "platform": "rss"
         }
       ],
@@ -250,92 +364,164 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-01T01:24:06+00:00",
-      "last_seen": "2026-08-01T01:24:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2603
-    },
-    {
-      "id": "3df6595d4d",
-      "title": "Trump Backs Away From Deal to Let Ukraine Build Patriot Missiles",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/31/us/politics/trump-ukraine-patriot-missiles.html",
-          "headline": "Trump Backs Away From Deal to Let Ukraine Build Patriot Missiles",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/americas/20260731-trump-says-us-has-not-agreed-to-ukraine-producing-patriot-missiles",
-          "headline": "Trump says US has not agreed to Ukraine producing Patriot missiles",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3362609/trump-says-us-hasnt-agreed-ukraine-building-patriot-missiles?utm_source=rss_feed",
-          "headline": "Trump says US hasn’t agreed to Ukraine building Patriot missiles",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.163,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-07-31T18:35:34+00:00",
-      "last_seen": "2026-07-31T23:31:50+00:00",
+      "first_seen": "2026-08-01T05:37:30+00:00",
+      "last_seen": "2026-08-01T05:37:30+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2512
+      "resonance": 0.205
     },
     {
-      "id": "025be7c361",
-      "title": "Another Trump Case Falls Apart",
+      "id": "df269cf7fa",
+      "title": "My cousin was sucked into a fatal alternative therapy 'wormhole', says author",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/politics/2026/07/reflecting-pool-case-david-hearn/688151/?utm_source=feed",
-          "headline": "Another Trump Case Falls Apart",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-01/hannah-mcelhinney-wormhole-alternative-therapy/106971896",
+          "headline": "My cousin was sucked into a fatal alternative therapy 'wormhole', says author",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.25,
+        "mean": -0.1,
         "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-01T01:15:00+00:00",
-      "last_seen": "2026-08-01T01:15:00+00:00",
+      "first_seen": "2026-08-01T05:36:39+00:00",
+      "last_seen": "2026-08-01T05:36:39+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2421
+      "resonance": 0.2035
     },
     {
-      "id": "80d89abd99",
-      "title": "U.S. Treasury intervenes to support yen after Japan steps in, report says",
+      "id": "62ae2aad28",
+      "title": "Government to question Meta global team on issues around algorithmic bias, role in public order",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/government-to-question-meta-global-team-on-issues-around-algorithmic-bias-role-in-public-order/article71290530.ece",
+          "headline": "Government to question Meta global team on issues around algorithmic bias, role in public order",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T05:36:37+00:00",
+      "last_seen": "2026-08-01T05:36:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2034
+    },
+    {
+      "id": "d5315b3a54",
+      "title": "Kerala heavy rains LIVE: Revenue Minister calls meeting for rescue operations",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/kerala-rain-live-updates-imd-forecast-monsoon-red-orange-alert-idukki-kottayam-pathanamthitta-kannur-wayanad/article71293574.ece",
+          "headline": "Kerala heavy rains LIVE: Revenue Minister calls meeting for rescue operations",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T05:33:21+00:00",
+      "last_seen": "2026-08-01T05:33:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1976
+    },
+    {
+      "id": "4dcda91956",
+      "title": "Canberra food and garden waste collection scheme delayed a third time",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-01/act-food-and-garden-organics-collection-scheme-expansion-delayed/106985782",
+          "headline": "Canberra food and garden waste collection scheme delayed a third time",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T05:31:19+00:00",
+      "last_seen": "2026-08-01T05:31:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.194
+    },
+    {
+      "id": "f006e34560",
+      "title": "Russian attack on Ukrainian capital kills at least nine people",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260801-russian-attack-on-ukrainian-capital-kills-at-least-nine-people",
+          "headline": "Russian attack on Ukrainian capital kills at least nine people",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T05:14:39+00:00",
+      "last_seen": "2026-08-01T05:14:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.165
+    },
+    {
+      "id": "48bdb6e93e",
+      "title": "Two taken to hospital after apartment blast in Chiba",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/business/2026/08/01/markets/us-treasury-yen-support/",
-          "headline": "U.S. Treasury intervenes to support yen after Japan steps in, report says",
+          "url": "https://www.japantimes.co.jp/news/2026/08/01/japan/chiba-apartment-blast/",
+          "headline": "Two taken to hospital after apartment blast in Chiba",
           "platform": "rss"
         }
       ],
@@ -346,80 +532,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-01T01:12:00+00:00",
-      "last_seen": "2026-08-01T01:12:00+00:00",
+      "first_seen": "2026-08-01T05:14:00+00:00",
+      "last_seen": "2026-08-01T05:14:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2362
+      "topic": "health",
+      "resonance": 0.1639
     },
     {
-      "id": "9c76cb7e56",
-      "title": "Norwegian soccer star Erling Haaland's top-tier summer continues, snags pinnacle of celebrity photo-ops",
+      "id": "333e769c25",
+      "title": "PLA stages South China Sea drills days after ‘illegal’ Philippine territorial bid",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/norwegian-soccer-star-erling-haaland-top-tier-summer-continues-snags-pinnacle-celebrity-photo-ops",
-          "headline": "Norwegian soccer star Erling Haaland's top-tier summer continues, snags pinnacle of celebrity photo-ops",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/military/article/3362628/pla-stages-south-china-sea-drills-days-after-illegal-philippine-territorial-bid?utm_source=rss_feed",
+          "headline": "PLA stages South China Sea drills days after ‘illegal’ Philippine territorial bid",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-01T01:10:25+00:00",
-      "last_seen": "2026-08-01T01:10:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2331
-    },
-    {
-      "id": "043d2b2ad2",
-      "title": "White House signals Trump is weighing new strikes on Iran",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/white-house-signals-trump-is-weighing-new-strikes-on-iran/article71293383.ece",
-          "headline": "White House signals Trump is weighing new strikes on Iran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
+        "mean": 0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-01T01:10:18+00:00",
-      "last_seen": "2026-08-01T01:10:18+00:00",
+      "first_seen": "2026-08-01T05:11:09+00:00",
+      "last_seen": "2026-08-01T05:11:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.2329
+      "topic": "world",
+      "resonance": 0.1591
     },
     {
-      "id": "a109cc32fd",
-      "title": "CPS to target assets of jailed funeral director",
+      "id": "1e107e7984",
+      "title": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c4g4djgdyk2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T05:01:56+00:00",
+      "last_seen": "2026-08-01T05:01:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.1437
+    },
+    {
+      "id": "be5ba7ebfe",
+      "title": "What is Iran's Pickaxe Mountain and why does Trump say he wants to bomb it?",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ce97xg0zgp7o?at_medium=RSS&at_campaign=rss",
-          "headline": "CPS to target assets of jailed funeral director",
+          "url": "https://www.bbc.co.uk/news/articles/c9w0ygrwrn5o?at_medium=RSS&at_campaign=rss",
+          "headline": "What is Iran's Pickaxe Mountain and why does Trump say he wants to bomb it?",
           "platform": "rss"
         }
       ],
@@ -430,58 +616,122 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-01T01:08:45+00:00",
-      "last_seen": "2026-08-01T01:08:45+00:00",
+      "first_seen": "2026-08-01T05:01:19+00:00",
+      "last_seen": "2026-08-01T05:01:19+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2299
+      "resonance": 0.1427
     },
     {
-      "id": "54af608436",
-      "title": "Yemeni forces say eight Saudi tankers forced to reroute",
+      "id": "0338584f7f",
+      "title": "India and China revive Himalayan trade at high-altitude pass",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-forces-say-eight-saudi-tankers-forced-reroute",
-          "headline": "Yemeni forces say eight Saudi tankers forced to reroute",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/week-asia/politics/article/3362556/india-and-china-revive-himalayan-trade-high-altitude-pass?utm_source=rss_feed",
+          "headline": "India and China revive Himalayan trade at high-altitude pass",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.25,
+        "mean": 0.1,
         "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-01T01:07:49+00:00",
-      "last_seen": "2026-08-01T01:07:49+00:00",
+      "first_seen": "2026-08-01T05:00:13+00:00",
+      "last_seen": "2026-08-01T05:00:13+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.2281
+      "topic": "economy",
+      "resonance": 0.1409
     },
     {
-      "id": "059c470f34",
-      "title": "Police release Nancy Guthrie ransom notes in latest bid to find kidnappers",
-      "signal_count": 2,
+      "id": "e03202b90f",
+      "title": "Paramount+ Coupon Codes and Deals for August 2026",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ce973re9404o?at_medium=RSS&at_campaign=rss",
-          "headline": "Police release Nancy Guthrie ransom notes in latest bid to find kidnappers",
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
+          "headline": "Paramount+ Coupon Codes and Deals for August 2026",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T05:00:00+00:00",
+      "last_seen": "2026-08-01T05:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1405
+    },
+    {
+      "id": "7ad6207923",
+      "title": "Valvoline Coupons and Promo Codes for August 2026",
+      "signal_count": 10,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/valvoline-coupons/",
+          "headline": "Valvoline Coupons and Promo Codes for August 2026",
           "platform": "rss"
         },
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-01/authorities-release-details-early-ransom-notes-nancy-guthrie/106985264",
-          "headline": "Details of ransom notes in Nancy Guthrie case released",
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/home-depot-promo-code/",
+          "headline": "Home Depot Promo Codes: 50% Off in August 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/peacock-promo-code/",
+          "headline": "Peacock Promo Codes: 40% Off August 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/canon-promo-code/",
+          "headline": "30% Off Canon Promo Codes | August 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/chewy-promo-code/",
+          "headline": "Chewy Promo Codes: $20 Off August 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/dell-coupon-code/",
+          "headline": "Dell Coupon Codes: 20% Off for August 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/ebay-coupon-code/",
+          "headline": "eBay Coupons: 20% Off in August 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/squarespace-promo-code/",
+          "headline": "Squarespace Promo Codes: 20% Off in August 2026",
           "platform": "rss"
         }
       ],
@@ -489,27 +739,27 @@
         "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 10,
         "right": 0
       },
-      "first_seen": "2026-07-31T21:41:51+00:00",
-      "last_seen": "2026-07-31T22:46:44+00:00",
+      "first_seen": "2026-08-01T05:00:00+00:00",
+      "last_seen": "2026-08-01T05:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2268
+      "topic": "science",
+      "resonance": 0.1405
     },
     {
-      "id": "8aa68fd44f",
-      "title": "I was working to survive and I wasn't paid",
+      "id": "79342b5f4e",
+      "title": "TurboTax Full Service Coupons This August",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cx2rv3899g8o?at_medium=RSS&at_campaign=rss",
-          "headline": "I was working to survive and I wasn't paid",
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/turbotax-coupon/",
+          "headline": "TurboTax Full Service Coupons This August",
           "platform": "rss"
         }
       ],
@@ -520,416 +770,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-01T01:04:30+00:00",
-      "last_seen": "2026-08-01T01:04:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2217
-    },
-    {
-      "id": "76d45d6541",
-      "title": "French hitchhikers put faith in fellow travellers in Top End journey",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-01/hitchhiking-resurgence-kimberley-broome-french-hitchhikers/106945664",
-          "headline": "French hitchhikers put faith in fellow travellers in Top End journey",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T01:01:31+00:00",
-      "last_seen": "2026-08-01T01:01:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2159
-    },
-    {
-      "id": "550eae0aa7",
-      "title": "Police search for gunman after Walmart employee shot during dispute in Pennsylvania",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/police-search-gunman-walmart-employee-shot-dispute-pennsylvania",
-          "headline": "Police search for gunman after Walmart employee shot during dispute in Pennsylvania",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-01T01:00:27+00:00",
-      "last_seen": "2026-08-01T01:00:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.2139
-    },
-    {
-      "id": "6820be3504",
-      "title": "Should Hong Kong regulate loot boxes as addiction issues arise in mobile gaming?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/society/article/3362601/should-hong-kong-regulate-loot-boxes-addiction-issues-arise-mobile-gaming?utm_source=rss_feed",
-          "headline": "Should Hong Kong regulate loot boxes as addiction issues arise in mobile gaming?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T01:00:27+00:00",
-      "last_seen": "2026-08-01T01:00:27+00:00",
+      "first_seen": "2026-08-01T05:00:00+00:00",
+      "last_seen": "2026-08-01T05:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2139
+      "resonance": 0.1405
     },
     {
-      "id": "f0949097da",
-      "title": "China teen shares top university acceptance with hero who saved her from river 16 years ago",
+      "id": "0cae81b413",
+      "title": "H&R Block Coupon: 25% Off DIY + Tax Pro Assist",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/people-culture/trending-china/article/3362600/china-teen-shares-top-university-acceptance-hero-who-saved-her-river-16-years-ago?utm_source=rss_feed",
-          "headline": "China teen shares top university acceptance with hero who saved her from river 16 years ago",
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/hr-block-coupon/",
+          "headline": "H&R Block Coupon: 25% Off DIY + Tax Pro Assist",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-01T01:00:22+00:00",
-      "last_seen": "2026-08-01T01:00:22+00:00",
+      "first_seen": "2026-08-01T05:00:00+00:00",
+      "last_seen": "2026-08-01T05:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2137
+      "resonance": 0.1405
     },
     {
-      "id": "793d6b6d7b",
-      "title": "The numbers game: why the US is losing ground to China in the first island chain",
+      "id": "30ac265cf7",
+      "title": "Japan’s Rescuers Battle Cruel Heat After Major Earthquake",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/military/article/3362432/numbers-game-why-us-losing-ground-china-first-island-chain?utm_source=rss_feed",
-          "headline": "The numbers game: why the US is losing ground to China in the first island chain",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T01:00:13+00:00",
-      "last_seen": "2026-08-01T01:00:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2135
-    },
-    {
-      "id": "2d2bd900da",
-      "title": "Araghchi says US actions ‘main causes’ of regional insecurity",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-us-actions-main-causes-regional-insecurity",
-          "headline": "Araghchi says US actions ‘main causes’ of regional insecurity",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T01:00:10+00:00",
-      "last_seen": "2026-08-01T01:00:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2134
-    },
-    {
-      "id": "fb8c7940c0",
-      "title": "Infantino abandons plans to sell World Cup profits to private equity following massive pushback",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/football/infantino-abandons-plans-to-sell-world-cup-profits-to-private-equity-following-massive-pushback/article71293380.ece",
-          "headline": "Infantino abandons plans to sell World Cup profits to private equity following massive pushback",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T00:57:33+00:00",
-      "last_seen": "2026-08-01T00:57:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.2084
-    },
-    {
-      "id": "e01766a489",
-      "title": "Victims of disgraced funeral boss demand industry regulation",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cr49w13w9d0o?at_medium=RSS&at_campaign=rss",
-          "headline": "Victims of disgraced funeral boss demand industry regulation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T00:55:15+00:00",
-      "last_seen": "2026-08-01T00:55:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.204
-    },
-    {
-      "id": "2f20547b58",
-      "title": "Ukraine: Russia hits Kyiv with deadly missile strikes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-deadly-missile-strikes/a-78198568?maca=en-rss-en-all-1573-rdf",
-          "headline": "Ukraine: Russia hits Kyiv with deadly missile strikes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T00:53:00+00:00",
-      "last_seen": "2026-08-01T00:53:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1998
-    },
-    {
-      "id": "3a967a255a",
-      "title": "NCAA rocked by Colorado judge's 2022 class eligibility ruling that could reshape college sports this year",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/ncaa-rocked-colorado-judge-2022-class-eligibility-ruling-reshape-college-sports-year",
-          "headline": "NCAA rocked by Colorado judge's 2022 class eligibility ruling that could reshape college sports this year",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-01T00:51:47+00:00",
-      "last_seen": "2026-08-01T00:51:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1975
-    },
-    {
-      "id": "ca6eb14033",
-      "title": "Israel launches attacks across Gaza one day after Hamas agrees to disarm",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/israel-launches-attacks-across-gaza-one-day-after-hamas-agrees-to-disarm?traffic_source=rss",
-          "headline": "Israel launches attacks across Gaza one day after Hamas agrees to disarm",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T00:48:37+00:00",
-      "last_seen": "2026-08-01T00:48:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1916
-    },
-    {
-      "id": "1c5b364c16",
-      "title": "Saudi Arabia calls Trump's Gaza 'demilitarisation deal' historic",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-terms-trumps-gaza-demilitarisation-deal-historic",
-          "headline": "Saudi Arabia calls Trump's Gaza 'demilitarisation deal' historic",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T00:41:09+00:00",
-      "last_seen": "2026-08-01T00:41:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1779
-    },
-    {
-      "id": "a4b09c3e74",
-      "title": "Commonwealth Games: Tejaswin clinches historic bronze in decathlon",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/commonwealth-games-tejaswin-becomes-first-indian-to-win-decathlon-medal-with-bronze/article71292251.ece",
-          "headline": "Commonwealth Games: Tejaswin clinches historic bronze in decathlon",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T00:28:43+00:00",
-      "last_seen": "2026-08-01T00:28:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1556
-    },
-    {
-      "id": "f8127414a3",
-      "title": "Pet dogs trained to sniff out black truffle treasure worth $2,000 per kg",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-01/pet-dogs-nsw-taught-to-sniff-out-black-truffles/106966408",
-          "headline": "Pet dogs trained to sniff out black truffle treasure worth $2,000 per kg",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T00:27:09+00:00",
-      "last_seen": "2026-08-01T00:27:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1528
-    },
-    {
-      "id": "05775ea24f",
-      "title": "Adani to pay no company tax despite $1bn revenue from Queensland coalmine",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/business/2026/aug/01/adani-to-pay-no-company-tax-despite-1bn-revenue-from-queensland-coalmine",
-          "headline": "Adani to pay no company tax despite $1bn revenue from Queensland coalmine",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/01/world/asia/japan-earthquake-recovery-heat.html",
+          "headline": "Japan’s Rescuers Battle Cruel Heat After Major Earthquake",
           "platform": "rss"
         }
       ],
@@ -940,24 +826,80 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-08-01T00:00:37+00:00",
-      "last_seen": "2026-08-01T00:00:37+00:00",
+      "first_seen": "2026-08-01T04:57:28+00:00",
+      "last_seen": "2026-08-01T04:57:28+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1074
+      "resonance": 0.1364
     },
     {
-      "id": "3b88b2ac1a",
-      "title": "SpaceX’s Falcon 9 Rocket Is About to Crash Into the Moon—and It Could Be Visible From Earth",
+      "id": "0f5fafd06d",
+      "title": "‘It will take time to change smoking culture,’ official says after 1,200 site checks",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/spacex-falcon-9-rocket-crash-into-moon/",
-          "headline": "SpaceX’s Falcon 9 Rocket Is About to Crash Into the Moon—and It Could Be Visible From Earth",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/hong-kong/society/article/3362626/it-will-take-time-change-smoking-culture-official-says-after-1200-site-checks?utm_source=rss_feed",
+          "headline": "‘It will take time to change smoking culture,’ official says after 1,200 site checks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T04:57:07+00:00",
+      "last_seen": "2026-08-01T04:57:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.1358
+    },
+    {
+      "id": "7e6daa0bce",
+      "title": "Kumamoto quake survivors battle intense heat as death toll rises to 36",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/08/01/japan/kumamoto-quake-survivors-heat/",
+          "headline": "Kumamoto quake survivors battle intense heat as death toll rises to 36",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T04:54:00+00:00",
+      "last_seen": "2026-08-01T04:54:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1307
+    },
+    {
+      "id": "6f7445e13f",
+      "title": "Dozens of greyhounds to land in Australia as NZ racing ban begins",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-01/nz-greyhound-racing-ban-charter-flights/106985844",
+          "headline": "Dozens of greyhounds to land in Australia as NZ racing ban begins",
           "platform": "rss"
         }
       ],
@@ -968,24 +910,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-31T23:38:56+00:00",
-      "last_seen": "2026-07-31T23:38:56+00:00",
+      "first_seen": "2026-08-01T04:48:33+00:00",
+      "last_seen": "2026-08-01T04:48:33+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.0723
+      "topic": "world",
+      "resonance": 0.122
     },
     {
-      "id": "01b86cedb5",
-      "title": "Analyst: the US faces a strategic ‘dead end’ in Iran",
+      "id": "f2054cd9f1",
+      "title": "'Driver of global instability': UN chief says Middle East fighting must stop",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/driver-global-instability-un-chief-says-middle-east-fighting-must-stop",
+          "headline": "'Driver of global instability': UN chief says Middle East fighting must stop",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T04:40:00+00:00",
+      "last_seen": "2026-08-01T04:40:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1084
+    },
+    {
+      "id": "1acc4bffe4",
+      "title": "Protesters detained at rally in support of Pakistan-administered Kashmir",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/analyst-the-us-faces-a-strategic-dead-end-in-iran?traffic_source=rss",
-          "headline": "Analyst: the US faces a strategic ‘dead end’ in Iran",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/protesters-detained-at-rally-in-support-of-pakistan-administered-kashmir?traffic_source=rss",
+          "headline": "Protesters detained at rally in support of Pakistan-administered Kashmir",
           "platform": "rss"
         }
       ],
@@ -996,113 +966,209 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-07-31T23:30:54+00:00",
-      "last_seen": "2026-07-31T23:30:54+00:00",
+      "first_seen": "2026-08-01T04:39:22+00:00",
+      "last_seen": "2026-08-01T04:39:22+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0597
+      "topic": "politics",
+      "resonance": 0.1074
     },
     {
-      "id": "75ca541647",
-      "title": "US proposes cuts to Colorado River use for Arizona, California and Nevada",
-      "signal_count": 1,
+      "id": "2f20547b58",
+      "title": "Ukraine: Russia hits Kyiv with deadly missile strikes",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/7/31/us-proposes-cuts-to-colorado-river-use-for-arizona-california-and-nevada?traffic_source=rss",
-          "headline": "US proposes cuts to Colorado River use for Arizona, California and Nevada",
+          "url": "https://www.aljazeera.com/news/2026/8/1/russian-missile-attack-kills-three-in-ukraines-kyiv?traffic_source=rss",
+          "headline": "Russian missile attack kills three in Ukraine’s Kyiv",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-07-31T23:26:26+00:00",
-      "last_seen": "2026-07-31T23:26:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0528
-    },
-    {
-      "id": "f6dd7b6ac4",
-      "title": "Prosecutors move to dismiss Reflecting Pool vandalism case, saying 'botched installation' to blame",
-      "signal_count": 1,
-      "sources": [
+        },
         {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/07/31/nx-s1-5915828/reflecting-pool-david-hearn-dismiss",
-          "headline": "Prosecutors move to dismiss Reflecting Pool vandalism case, saying 'botched installation' to blame",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-deadly-missile-strikes/a-78198568?maca=en-rss-en-all-1573-rdf",
+          "headline": "Ukraine: Russia hits Kyiv with deadly missile strikes",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.15,
-        "spread": 0.0,
+        "spread": 0.05,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-07-31T23:24:36+00:00",
-      "last_seen": "2026-07-31T23:24:36+00:00",
+      "first_seen": "2026-08-01T00:53:00+00:00",
+      "last_seen": "2026-08-01T02:06:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.084
+    },
+    {
+      "id": "f954e09831",
+      "title": "HRF says Dutch took no action against Israeli soldier despite criminal complaint",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hrf-says-dutch-took-no-action-against-israeli-soldier-despite-criminal",
+          "headline": "HRF says Dutch took no action against Israeli soldier despite criminal complaint",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T04:13:15+00:00",
+      "last_seen": "2026-08-01T04:13:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0677
+    },
+    {
+      "id": "13552aff03",
+      "title": "Beijing Protests After New Zealand Minister Insults Chinese-Born Lawmaker",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/01/world/asia/new-zealand-foreign-minister-china-protest.html",
+          "headline": "Beijing Protests After New Zealand Minister Insults Chinese-Born Lawmaker",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T04:02:29+00:00",
+      "last_seen": "2026-08-01T04:02:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.052
+    },
+    {
+      "id": "f8d3f402c9",
+      "title": "How 50,000 People Surged Into a Spanish Exclave in Africa",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco.html",
+          "headline": "How 50,000 People Surged Into a Spanish Exclave in Africa",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T04:01:14+00:00",
+      "last_seen": "2026-08-01T04:01:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
+      "resonance": 0.0502
+    },
+    {
+      "id": "2a2d3f296c",
+      "title": "Tour de France Femmes 2026: Pauline Ferrand-Prévot defends her title in a dramatic, mountainous edition",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/08/01/tour-de-france-femmes-2026-pauline-ferrand-prevot-defends-her-title-in-a-dramatic-mountainous-edition_6756057_9.html",
+          "headline": "Tour de France Femmes 2026: Pauline Ferrand-Prévot defends her title in a dramatic, mountainous edition",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T04:01:06+00:00",
+      "last_seen": "2026-08-01T04:01:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "c5b3f61b1b",
-      "target": "fb8c7940c0",
-      "weight": 0.165,
+      "source": "34a4f2fcbe",
+      "target": "7e6daa0bce",
+      "weight": 0.126,
       "type": "thematic"
     },
     {
-      "source": "080a07de6e",
-      "target": "ca6eb14033",
-      "weight": 0.397,
+      "source": "efb284cd86",
+      "target": "be5ba7ebfe",
+      "weight": 0.231,
       "type": "thematic"
     },
     {
-      "source": "080a07de6e",
-      "target": "1c5b364c16",
-      "weight": 0.228,
+      "source": "e922f191dc",
+      "target": "1e107e7984",
+      "weight": 0.542,
       "type": "thematic"
     },
     {
-      "source": "1ed775fc2a",
-      "target": "f6dd7b6ac4",
-      "weight": 0.464,
+      "source": "6bdbe79bec",
+      "target": "f006e34560",
+      "weight": 0.755,
       "type": "thematic"
     },
     {
-      "source": "084dc1ddeb",
-      "target": "043d2b2ad2",
-      "weight": 0.726,
+      "source": "6bdbe79bec",
+      "target": "2f20547b58",
+      "weight": 0.757,
       "type": "thematic"
     },
     {
-      "source": "084dc1ddeb",
-      "target": "01b86cedb5",
-      "weight": 0.205,
+      "source": "e03202b90f",
+      "target": "79342b5f4e",
+      "weight": 0.012,
       "type": "thematic"
     },
     {
-      "source": "3df6595d4d",
-      "target": "1c5b364c16",
-      "weight": 0.033,
+      "source": "7ad6207923",
+      "target": "79342b5f4e",
+      "weight": 0.62,
+      "type": "thematic"
+    },
+    {
+      "source": "30ac265cf7",
+      "target": "7e6daa0bce",
+      "weight": 0.29,
       "type": "thematic"
     }
   ],
@@ -1129,7 +1195,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 8,
+      "count": 9,
       "error": null
     },
     "The Economist": {

@@ -1,29 +1,155 @@
 {
-  "generated_at": "2026-08-02T08:01:12.397692+00:00",
+  "generated_at": "2026-08-02T10:23:36.420051+00:00",
   "node_count": 35,
-  "edge_count": 4,
+  "edge_count": 7,
   "nodes": [
     {
-      "id": "caa5495580",
-      "title": "Trump says he is cancelling strikes on Iran subject to deal being made 'rapidly'",
-      "signal_count": 7,
+      "id": "892b6b0a5c",
+      "title": "Five dead, 41 missing, after Indonesia ferry catches fire",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-02/indonesia-ferry-fire-rescue-madura-island/106988150",
+          "headline": "Breaking: Five dead, 41 missing after Indonesian ferry catches fire",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/at-least-five-dead-and-41-missing-after-indonesian-ferry-catches-fire-13569145",
+          "headline": "At least five dead and 41 missing after Indonesian ferry catches fire",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss",
+          "headline": "Five dead, 41 missing, after Indonesia ferry catches fire",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.082,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T10:02:19+00:00",
+      "last_seen": "2026-08-02T10:09:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.6984
+    },
+    {
+      "id": "efc607ac76",
+      "title": "Tourist plane crashes in Peru, killing 13",
+      "signal_count": 6,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/peru-tourist-plane-crashes-killing-all-13-people-aboard",
+          "headline": "Peru: Tourist plane crashes killing all 13 people aboard",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-02/peru-plane-crash-tourists-viewing-nazca-lines/106987446",
+          "headline": "Plane crash in Peru kills 13 people on tourist flight",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/01/world/americas/peru-tourist-plane-crash-nazca.html",
+          "headline": "Tourist Plane Crashes in Peru, Killing All 13 Aboard",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss",
+          "headline": "Tourist plane crashes in Peru, killing 13",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/aug/01/at-least-13-dead-as-tourist-plane-crashes-during-flight-over-perus-nazca-lines",
+          "headline": "Tourist plane crashes during flight over Peru’s Nazca Lines, killing 13",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/13-killed-in-tourist-plane-crash-in-peru/a-78204342?maca=en-rss-en-all-1573-rdf",
+          "headline": "13 killed in tourist plane crash in Peru",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.112,
+        "left": 2,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-08-01T20:36:00+00:00",
+      "last_seen": "2026-08-02T08:50:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.4822
+    },
+    {
+      "id": "235eb3261d",
+      "title": "Body of mountaineer Nirmal Purja recovered after Pakistan avalanche",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
+          "headline": "Body of mountaineer Nirmal Purja recovered after Pakistan avalanche",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/famed-mountaineer-nirmal-purja-43-among-10-climbers-killed-avalanche-pakistan",
+          "headline": "Famed mountaineer Nirmal Purja, 43, among 10 climbers killed after avalanche in Pakistan",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/08/01/nx-s1-5916368/nirmal-purja-climbers-dead-avalanche",
+          "headline": "Avalanche in Pakistan kills famed mountaineer Nirmal Purja and his fellow climbers",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.324,
+        "left": 0,
+        "center": 2,
+        "right": 1
+      },
+      "first_seen": "2026-08-01T22:23:39+00:00",
+      "last_seen": "2026-08-02T10:11:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.3473
+    },
+    {
+      "id": "1bff19d30e",
+      "title": "Trump says he's cancelling Iran strikes, deal pending",
+      "signal_count": 4,
       "sources": [
         {
           "outlet": "NPR News",
           "url": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
           "headline": "Trump says he's cancelling Iran strikes, deal pending",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/02/world/middleeast/trump-iran-cancels-attack-deal.html",
-          "headline": "Trump Says He Is Canceling Strikes on Iran, Pending a Rapid Deal",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump says he is cancelling strikes on Iran subject to deal being made 'rapidly'",
           "platform": "rss"
         },
         {
@@ -43,135 +169,207 @@
           "url": "https://www.abc.net.au/news/2026-08-02/donald-trump-holds-off-on-strikes-against-iran/106987644",
           "headline": "Trump holds off on new strikes against Iran amid emerging 'deal'",
           "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3362682/trump-holds-iran-strikes-after-middle-east-allies-outline-deal?utm_source=rss_feed",
-          "headline": "Trump holds off Iran strikes after Middle East allies outline deal",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.093,
-        "spread": 0.115,
-        "left": 1,
-        "center": 6,
+        "mean": -0.112,
+        "spread": 0.022,
+        "left": 0,
+        "center": 4,
         "right": 0
       },
-      "first_seen": "2026-08-02T03:54:42+00:00",
+      "first_seen": "2026-08-02T04:32:56+00:00",
       "last_seen": "2026-08-02T07:34:27+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.7362
+      "resonance": 0.2894
     },
     {
-      "id": "46d27b10d2",
-      "title": "'Sopranos' actor Vincent Pastore, known for playing mobsters and tough guys, dead at 80",
-      "signal_count": 3,
+      "id": "beaaa08586",
+      "title": "Sri Lanka deploys troops after prison riot",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/entertainment/movies/sopranos-actor-vincent-pastore-salvatore-big-pussy-bonpensiero-dead/article71297339.ece",
-          "headline": "’Sopranos’ actor Vincent Pastore, known for playing mobsters and tough guys, dead at 80",
+          "url": "https://www.thehindu.com/news/international/sri-lanka-deploys-troops-after-prison-riot/article71297438.ece",
+          "headline": "Sri Lanka deploys troops after prison riot",
           "platform": "rss"
         },
         {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/08/01/nx-s1-5916418/vincent-pastore-sopranos-obit",
-          "headline": "'Sopranos' actor Vincent Pastore, known for playing mobsters and tough guys, dead at 80",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/sopranos-actor-vincent-pastore-dead-80",
-          "headline": "'The Sopranos' actor Vincent Pastore dead at 80",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/asia/south-asia/article/3362692/sri-lanka-deploys-troops-contain-deadly-riot-overcrowded-mahara-prison?utm_source=rss_feed",
+          "headline": "Sri Lanka deploys troops to contain deadly riot at overcrowded Mahara Prison",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.117,
-        "spread": 0.342,
+        "mean": 0.0,
+        "spread": 0.1,
         "left": 0,
         "center": 2,
-        "right": 1
+        "right": 0
       },
-      "first_seen": "2026-08-01T22:03:39+00:00",
-      "last_seen": "2026-08-02T07:43:40+00:00",
+      "first_seen": "2026-08-02T06:51:04+00:00",
+      "last_seen": "2026-08-02T09:30:33+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.3709
+      "topic": "tech",
+      "resonance": 0.2367
     },
     {
-      "id": "53525df24d",
-      "title": "Is Turkey putting pressure on China in Africa’s infrastructure market?",
+      "id": "b6b0fd88e2",
+      "title": "The week in pictures: European wildfires, a woolly mammoth and a migrant influx at Spain's Ceuta",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3362693/turkey-putting-pressure-china-africas-infrastructure-market?utm_source=rss_feed",
-          "headline": "Is Turkey putting pressure on China in Africa’s infrastructure market?",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260802-the-week-in-pictures-european-wildfires-a-woolly-mammoth-and-a-migrant-influx-at-spain-s-ceuta",
+          "headline": "The week in pictures: European wildfires, a woolly mammoth and a migrant influx at Spain's Ceuta",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-02T08:00:18+00:00",
-      "last_seen": "2026-08-02T08:00:18+00:00",
+      "first_seen": "2026-08-02T10:16:34+00:00",
+      "last_seen": "2026-08-02T10:16:34+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.28
+      "topic": "tech",
+      "resonance": 0.2034
     },
     {
-      "id": "e75398abed",
-      "title": "From gendered sacrifice to ancient politics: DNA lifts shroud on early Chinese civilisation",
+      "id": "3c1869a508",
+      "title": "Decision on declaring drought by August end, Chief Minister D.K. Shivakumar",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/people-culture/trending-china/article/3362676/gendered-sacrifice-ancient-politics-dna-lifts-shroud-early-chinese-civilisation?utm_source=rss_feed",
-          "headline": "From gendered sacrifice to ancient politics: DNA lifts shroud on early Chinese civilisation",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/decision-on-declaring-drought-by-august-end-chief-minister-dk-shivakumar/article71297485.ece",
+          "headline": "Decision on declaring drought by August end, Chief Minister D.K. Shivakumar",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-02T08:00:15+00:00",
-      "last_seen": "2026-08-02T08:00:15+00:00",
+      "first_seen": "2026-08-02T10:13:43+00:00",
+      "last_seen": "2026-08-02T10:13:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1972
+    },
+    {
+      "id": "97f956b33c",
+      "title": "Coal production increased 7.5% in July, dispatches surge 17.3% on higher power demand",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/business/Economy/coal-production-increased-75-in-july-dispatches-surge-173-on-higher-power-demand/article71297444.ece",
+          "headline": "Coal production increased 7.5% in July, dispatches surge 17.3% on higher power demand",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T10:05:45+00:00",
+      "last_seen": "2026-08-02T10:05:45+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.28
+      "resonance": 0.18
     },
     {
-      "id": "6c2484ebd1",
-      "title": "Ginger hair portraits show unexpected 'golden thread' connecting Americans",
+      "id": "108cc5e9f7",
+      "title": "The Hindu brings the historic 1947 Independence Day edition back to life",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/ce97nyz4rvmo?at_medium=RSS&at_campaign=rss",
-          "headline": "Ginger hair portraits show unexpected 'golden thread' connecting Americans",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/the-hindu-brings-the-historic-1947-independence-day-edition-back-to-life/article71290578.ece",
+          "headline": "The Hindu brings the historic 1947 Independence Day edition back to life",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T10:04:22+00:00",
+      "last_seen": "2026-08-02T10:04:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1771
+    },
+    {
+      "id": "b8db688fb8",
+      "title": "Far-Right Leaders Step Up Calls for Expelling Remaining Migrants in Ceuta",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/02/world/europe/spain-ceuta-far-right.html",
+          "headline": "Far-Right Leaders Step Up Calls for Expelling Remaining Migrants in Ceuta",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T10:03:09+00:00",
+      "last_seen": "2026-08-02T10:03:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1745
+    },
+    {
+      "id": "b2d9cde159",
+      "title": "Etc.books: A lone bookstore in Tokyo pushes against sexism",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/culture/2026/08/02/books/feminist-books-japan/",
+          "headline": "Etc.books: A lone bookstore in Tokyo pushes against sexism",
           "platform": "rss"
         }
       ],
@@ -182,14 +380,182 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-02T07:58:51+00:00",
-      "last_seen": "2026-08-02T07:58:51+00:00",
+      "first_seen": "2026-08-02T10:01:00+00:00",
+      "last_seen": "2026-08-02T10:01:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.28
+      "resonance": 0.1699
+    },
+    {
+      "id": "5478791e0c",
+      "title": "The Best Kids’ Backpacks for the 2026 School Year",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/gallery/best-kids-backpacks-2026/",
+          "headline": "The Best Kids’ Backpacks for the 2026 School Year",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T10:01:00+00:00",
+      "last_seen": "2026-08-02T10:01:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1699
+    },
+    {
+      "id": "13ebf0db18",
+      "title": "Israeli orphans of fallen heroes find pride, connection on US journey",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/israeli-orphans-fallen-heroes-find-pride-connection-us-journey",
+          "headline": "Israeli orphans of fallen heroes find pride, connection on US journey",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-02T10:00:41+00:00",
+      "last_seen": "2026-08-02T10:00:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1693
+    },
+    {
+      "id": "39328769ac",
+      "title": "American Culture Quiz: Test yourself on popular personalities and retro revivals",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/lifestyle/american-culture-quiz-test-yourself-popular-personalities-retro-revivals",
+          "headline": "American Culture Quiz: Test yourself on popular personalities and retro revivals",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-02T10:00:14+00:00",
+      "last_seen": "2026-08-02T10:00:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.1683
+    },
+    {
+      "id": "26822fb71e",
+      "title": "Beijing warns Manila of ‘powerful’ South China Sea toolbox ready for ‘head-on blow’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/military/article/3362700/beijing-warns-manila-powerful-south-china-sea-toolbox-ready-head-blow?utm_source=rss_feed",
+          "headline": "Beijing warns Manila of ‘powerful’ South China Sea toolbox ready for ‘head-on blow’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T10:00:08+00:00",
+      "last_seen": "2026-08-02T10:00:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1681
+    },
+    {
+      "id": "a73a4a36fe",
+      "title": "US companies win billions in African data center deals in direct competition with China",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/us-companies-win-billions-african-data-center-deals-direct-competition-china",
+          "headline": "US companies win billions in African data center deals in direct competition with China",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-02T10:00:03+00:00",
+      "last_seen": "2026-08-02T10:00:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1679
+    },
+    {
+      "id": "187972cf18",
+      "title": "Is It Possible to Make Smart Glasses That Aren’t Creepy?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/is-it-possible-to-make-privacy-friendly-smart-glasses/",
+          "headline": "Is It Possible to Make Smart Glasses That Aren’t Creepy?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T10:00:00+00:00",
+      "last_seen": "2026-08-02T10:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1678
     },
     {
       "id": "676cc28017",
@@ -210,24 +576,108 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-02T07:58:13+00:00",
-      "last_seen": "2026-08-02T07:58:13+00:00",
+      "first_seen": "2026-08-02T10:00:00+00:00",
+      "last_seen": "2026-08-02T10:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.28
+      "resonance": 0.1678
     },
     {
-      "id": "8c608b4e04",
-      "title": "Filmmaker sues Netflix for $105 million over losing Nicolas Cage film copy",
+      "id": "8af09afae6",
+      "title": "Trump Says He Canceled Strikes on Iran, Claiming Progress on Outlines of a Deal",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/entertainment/movies/filmmaker-sues-netflix-usd-105-million-nicolas-cage-ben-kingsley-fortitude-film/article71297347.ece",
-          "headline": "Filmmaker sues Netflix for $105 million over losing Nicolas Cage film copy",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/02/world/middleeast/trump-iran-cancels-attack-deal.html",
+          "headline": "Trump Says He Canceled Strikes on Iran, Claiming Progress on Outlines of a Deal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T09:56:03+00:00",
+      "last_seen": "2026-08-02T09:56:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1596
+    },
+    {
+      "id": "032f32098d",
+      "title": "Residents of Spain’s Ceuta shut down far-right anti-migrant rally",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/2-08-sv-ceuta-cancel-farright-protests-es?traffic_source=rss",
+          "headline": "Residents of Spain’s Ceuta shut down far-right anti-migrant rally",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T09:55:06+00:00",
+      "last_seen": "2026-08-02T09:55:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1576
+    },
+    {
+      "id": "92a99e5fc1",
+      "title": "A quiet day in Harare after Zimbabwe’s shutdown call",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/2/a-quiet-day-in-harare-after-zimbabwes-shutdown-call?traffic_source=rss",
+          "headline": "A quiet day in Harare after Zimbabwe’s shutdown call",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T09:50:48+00:00",
+      "last_seen": "2026-08-02T09:50:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1487
+    },
+    {
+      "id": "564d500c8d",
+      "title": "Capital One bank cites money-laundering probe to justify closing Trump Organization accounts",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260802-capital-one-cites-anti-money-laundering-probe-justify-closure-trump-organization-bank-accounts",
+          "headline": "Capital One bank cites money-laundering probe to justify closing Trump Organization accounts",
           "platform": "rss"
         }
       ],
@@ -238,24 +688,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-02T07:52:12+00:00",
-      "last_seen": "2026-08-02T07:52:12+00:00",
+      "first_seen": "2026-08-02T09:46:00+00:00",
+      "last_seen": "2026-08-02T09:46:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.1388
+    },
+    {
+      "id": "8c2e256170",
+      "title": "Why has Trump halted Iran attacks, and what is the deal he is hinting at?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/2/why-has-trump-halted-iran-attacks-and-what-is-the-deal-he-is-hinting-at?traffic_source=rss",
+          "headline": "Why has Trump halted Iran attacks, and what is the deal he is hinting at?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T09:43:10+00:00",
+      "last_seen": "2026-08-02T09:43:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1331
+    },
+    {
+      "id": "20c64a7064",
+      "title": "MBS and Trump talk over the phone",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/mbs-and-trump-talk-over-phone",
+          "headline": "MBS and Trump talk over the phone",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T09:38:06+00:00",
+      "last_seen": "2026-08-02T09:38:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2719
+      "resonance": 0.1229
     },
     {
-      "id": "0687ea3a7d",
-      "title": "History-sheeter found dead under suspicious circumstances in New Washermenpet",
+      "id": "5d8a188752",
+      "title": "Candles light up night to honour Melbourne mother Brooke Stephens",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/chennai/history-sheeter-found-dead-under-suspicious-circumstances-in-new-washermenpet/article71297331.ece",
-          "headline": "History-sheeter found dead under suspicious circumstances in New Washermenpet",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-02/melbourne-mother-brooke-stephens-vigil/106987572",
+          "headline": "Candles light up night to honour Melbourne mother Brooke Stephens",
           "platform": "rss"
         }
       ],
@@ -266,24 +772,192 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-02T07:52:02+00:00",
-      "last_seen": "2026-08-02T07:52:02+00:00",
+      "first_seen": "2026-08-02T09:25:34+00:00",
+      "last_seen": "2026-08-02T09:25:34+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2716
+      "resonance": 0.0982
     },
     {
-      "id": "fa98fb17b3",
-      "title": "3 more suspects arrested over murder of businessman in Hong Kong bar fight",
+      "id": "59fcffc0c5",
+      "title": "Poland: Prime Minister Tusk defies anti-Ukrainian violence",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/poland-prime-minister-tusk-defies-anti-ukrainian-violence/a-78203187?maca=en-rss-en-all-1573-rdf",
+          "headline": "Poland: Prime Minister Tusk defies anti-Ukrainian violence",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T09:24:00+00:00",
+      "last_seen": "2026-08-02T09:24:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0952
+    },
+    {
+      "id": "60517fbb0a",
+      "title": "Germany: Islamism and right-wing extremism — a story of mutual radicalization",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/germany-islamism-and-right-wing-extremism-a-story-of-mutual-radicalization/a-78194607?maca=en-rss-en-all-1573-rdf",
+          "headline": "Germany: Islamism and right-wing extremism — a story of mutual radicalization",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T09:20:00+00:00",
+      "last_seen": "2026-08-02T09:20:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0875
+    },
+    {
+      "id": "6d357ae1cd",
+      "title": "1 in 4 people in Japan believes AI could replace friends and family: poll",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/08/02/japan/poll-ai-replace-friends-family/",
+          "headline": "1 in 4 people in Japan believes AI could replace friends and family: poll",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T09:19:00+00:00",
+      "last_seen": "2026-08-02T09:19:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0855
+    },
+    {
+      "id": "72e0e016d4",
+      "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T09:10:51+00:00",
+      "last_seen": "2026-08-02T09:10:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0701
+    },
+    {
+      "id": "92d93afb92",
+      "title": "Japanese beetle under close watch as it travels across France: 'Its establishment is inevitable'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/environment/article/2026/08/02/japanese-beetle-under-close-watch-as-it-travels-across-france-its-establishment-is-inevitable_6756081_114.html",
+          "headline": "Japanese beetle under close watch as it travels across France: 'Its establishment is inevitable'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T09:04:07+00:00",
+      "last_seen": "2026-08-02T09:04:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0576
+    },
+    {
+      "id": "917811add2",
+      "title": "La Guaira Is Unrecognizable After Venezuela’s Deadly Earthquakes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/02/world/americas/venezuela-earthquakes-la-guaira.html",
+          "headline": "La Guaira Is Unrecognizable After Venezuela’s Deadly Earthquakes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T09:00:58+00:00",
+      "last_seen": "2026-08-02T09:00:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0518
+    },
+    {
+      "id": "cc681f05a1",
+      "title": "Mainland transit offers alternative for Europe trips amid Middle East war",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3362699/3-more-suspects-arrested-over-murder-businessman-hong-kong-bar-fight?utm_source=rss_feed",
-          "headline": "3 more suspects arrested over murder of businessman in Hong Kong bar fight",
+          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3362703/mainland-transit-offers-alternative-europe-trips-amid-middle-east-war?utm_source=rss_feed",
+          "headline": "Mainland transit offers alternative for Europe trips amid Middle East war",
           "platform": "rss"
         }
       ],
@@ -294,784 +968,92 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-02T07:47:40+00:00",
-      "last_seen": "2026-08-02T07:47:40+00:00",
+      "first_seen": "2026-08-02T09:00:52+00:00",
+      "last_seen": "2026-08-02T09:00:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0516
+    },
+    {
+      "id": "919637c564",
+      "title": "Kowloon Walled City action film sequel’s gritty, nostalgic set draws residents",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3362678/kowloon-walled-city-action-film-sequels-gritty-nostalgic-set-draws-residents?utm_source=rss_feed",
+          "headline": "Kowloon Walled City action film sequel’s gritty, nostalgic set draws residents",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-02T09:00:14+00:00",
+      "last_seen": "2026-08-02T09:00:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2652
+      "resonance": 0.0504
     },
     {
-      "id": "2b9e8983d2",
-      "title": "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
-      "signal_count": 4,
+      "id": "762e1d7c45",
+      "title": "We asked a first grader to interview his hero: A bird scientist",
+      "signal_count": 1,
       "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
-          "headline": "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/world/famed-mountaineer-nirmal-purja-43-among-10-climbers-killed-avalanche-pakistan",
-          "headline": "Famed mountaineer Nirmal Purja, 43, among 10 climbers killed after avalanche in Pakistan",
-          "platform": "rss"
-        },
         {
           "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/08/01/nx-s1-5916368/nirmal-purja-climbers-dead-avalanche",
-          "headline": "Avalanche in Pakistan kills famed mountaineer Nirmal Purja and his fellow climbers",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/01/world/asia/nirmal-purja-dead-pakistan-avalanche.html",
-          "headline": "Nirmal Purja, Renowned Mountaineer, Is Found Dead After Pakistan Avalanche",
+          "url": "https://www.npr.org/2026/08/02/nx-s1-5758054/we-asked-a-first-grader-to-interview-his-hero-a-bird-scientist",
+          "headline": "We asked a first grader to interview his hero: A bird scientist",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.037,
-        "spread": 0.342,
-        "left": 1,
-        "center": 2,
-        "right": 1
-      },
-      "first_seen": "2026-08-01T19:59:09+00:00",
-      "last_seen": "2026-08-02T05:26:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2645
-    },
-    {
-      "id": "36754cc770",
-      "title": "Puducherry to set up dedicated shelters for stray dogs",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/puducherry/puducherry-to-set-up-dedicated-shelters-for-stray-dogs/article71297198.ece",
-          "headline": "Puducherry to set up dedicated shelters for stray dogs",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
+        "mean": -0.15,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-02T07:45:17+00:00",
-      "last_seen": "2026-08-02T07:45:17+00:00",
+      "first_seen": "2026-08-02T09:00:00+00:00",
+      "last_seen": "2026-08-02T09:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2617
+      "resonance": 0.05
     },
     {
-      "id": "65c9ee575f",
-      "title": "Europe’s Far Right, Once Marginal, Now Sets Tone on Spain Migrant Crisis",
+      "id": "57788d57e3",
+      "title": "What Cyclospora does inside the gut and how it gets there",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/02/world/europe/europe-migrants-ceuta.html",
-          "headline": "Europe’s Far Right, Once Marginal, Now Sets Tone on Spain Migrant Crisis",
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/08/02/nx-s1-5914624/cyclospora-michigan-infection-lettuce-parasite-outbreak",
+          "headline": "What Cyclospora does inside the gut and how it gets there",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T07:30:01+00:00",
-      "last_seen": "2026-08-02T07:30:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2398
-    },
-    {
-      "id": "6703e7f0c1",
-      "title": "French Catholic Church prepares for Pope Leo's historic visit in September",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/france/article/2026/08/02/french-catholic-church-prepares-for-pope-leo-s-historic-visit-in-september_6756078_7.html",
-          "headline": "French Catholic Church prepares for Pope Leo's historic visit in September",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
+        "mean": -0.15,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-02T07:22:08+00:00",
-      "last_seen": "2026-08-02T07:22:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2287
-    },
-    {
-      "id": "df314653ef",
-      "title": "Three killed after bomb detonated at Moscow restaurant, state media say",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss",
-          "headline": "Three killed after bomb detonated at Moscow restaurant, state media say",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/homemade-bomb-goes-off-outside-upscale-moscow-restaurant-state-officials-say/a-78205022?maca=en-rss-en-all-1573-rdf",
-          "headline": "Homemade bomb goes off outside upscale Moscow restaurant state officials say",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/01/world/europe/deadly-bombing-moscow-restaurant.html",
-          "headline": "Improvised Bomb Kills 3 at an Upscale Moscow Restaurant",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.133,
-        "spread": 0.125,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T21:23:45+00:00",
-      "last_seen": "2026-08-02T05:40:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.207
-    },
-    {
-      "id": "30e9abad03",
-      "title": "Louisiana becomes latest state to launch Fauci investigation following explosive Senate hearing",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/louisiana-latest-state-launch-fauci-investigation-following-explosive-senate-hearing",
-          "headline": "Louisiana becomes latest state to launch Fauci investigation following explosive Senate hearing",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-02T06:58:29+00:00",
-      "last_seen": "2026-08-02T06:58:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1969
-    },
-    {
-      "id": "4ec2074669",
-      "title": "On the front line of Europe's battle against wildfires",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/on-the-front-line-of-europe-s-battle-against-wildfires/a-78204324?maca=en-rss-en-all-1573-rdf",
-          "headline": "On the front line of Europe's battle against wildfires",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T06:57:00+00:00",
-      "last_seen": "2026-08-02T06:57:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1949
-    },
-    {
-      "id": "5759e66da7",
-      "title": "Israeli forces claim Hamas commanders killed in Gaza",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-claim-hamas-commanders-killed-gaza",
-          "headline": "Israeli forces claim Hamas commanders killed in Gaza",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T06:55:43+00:00",
-      "last_seen": "2026-08-02T06:55:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1933
-    },
-    {
-      "id": "4c4f44deb1",
-      "title": "Fears shared on Australia reaching bleak milestone in spread of H5 bird flu",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-02/sa-bird-flu-concern/106987886",
-          "headline": "Fears shared on Australia reaching bleak milestone in spread of H5 bird flu",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T06:54:34+00:00",
-      "last_seen": "2026-08-02T06:54:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1918
-    },
-    {
-      "id": "ddd362d18d",
-      "title": "Israel Bombards Gaza, Days After Trump Announced Deal to Advance Cease-Fire",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/01/world/middleeast/israel-gaza-strikes-trump-hamas.html",
-          "headline": "Israel Bombards Gaza, Days After Trump Announced Deal to Advance Cease-Fire",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T06:53:14+00:00",
-      "last_seen": "2026-08-02T06:53:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.19
-    },
-    {
-      "id": "4174877bdb",
-      "title": "Shigure may look a bit unusual, but he’s a very special cat",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/community/2026/08/02/shigure-cat-adoption/",
-          "headline": "Shigure may look a bit unusual, but he’s a very special cat",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T06:53:00+00:00",
-      "last_seen": "2026-08-02T06:53:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1897
-    },
-    {
-      "id": "aab40f08b5",
-      "title": "New Mexico woman's bodycam confession about hiding newborn baby in hospital garbage tossed by state court",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/new-mexico-womans-bodycam-confession-hiding-newborn-baby-hospital-garbage-tossed-state-court",
-          "headline": "New Mexico woman's bodycam confession about hiding newborn baby in hospital garbage tossed by state court",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-02T06:48:35+00:00",
-      "last_seen": "2026-08-02T06:48:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1841
-    },
-    {
-      "id": "32b070463f",
-      "title": "Queensland reveals concept plans for Brisbane Olympic stadium precinct – but critics say they are ‘fantasy vision’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/sport/2026/aug/02/queensland-reveals-concept-plans-for-brisbane-olympic-stadium-precinct-but-critics-say-they-are-fantasy-vision",
-          "headline": "Queensland reveals concept plans for Brisbane Olympic stadium precinct – but critics say they are ‘fantasy vision’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T06:40:41+00:00",
-      "last_seen": "2026-08-02T06:40:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.174
-    },
-    {
-      "id": "2682615958",
-      "title": "Hamas, PIJ stress full Israeli withdrawal from Gaza",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hamas-pij-stress-full-israeli-withdrawal-gaza",
-          "headline": "Hamas, PIJ stress full Israeli withdrawal from Gaza",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T06:34:23+00:00",
-      "last_seen": "2026-08-02T06:34:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1662
-    },
-    {
-      "id": "3542512fb0",
-      "title": "Japan eyes diplomatic support for firms’ entry into India",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/business/2026/08/02/japan-support-firms-entry-india/",
-          "headline": "Japan eyes diplomatic support for firms’ entry into India",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T06:34:00+00:00",
-      "last_seen": "2026-08-02T06:34:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1657
-    },
-    {
-      "id": "0be2d391aa",
-      "title": "Long lines at Tokyo shop selling Kumamoto goods after quake",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/08/02/japan/kumamoto-shop-tokyo-crowded/",
-          "headline": "Long lines at Tokyo shop selling Kumamoto goods after quake",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T06:24:00+00:00",
-      "last_seen": "2026-08-02T06:24:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1535
-    },
-    {
-      "id": "ec55a307fa",
-      "title": "Morning recap",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-150",
-          "headline": "Morning recap",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T06:14:36+00:00",
-      "last_seen": "2026-08-02T06:14:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1422
-    },
-    {
-      "id": "87a6b59d80",
-      "title": "Grandfather and grandson pedal 5,300km from Broome to Bowral for MND",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-02/grandfather-grandson-charity-ride-motor-neurone-disease/106976468",
-          "headline": "Grandfather and grandson pedal 5,300km from Broome to Bowral for MND",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T06:00:33+00:00",
-      "last_seen": "2026-08-02T06:00:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1258
-    },
-    {
-      "id": "12d55e8f9c",
-      "title": "At least three dead in Idaho shopping mall mass shooting",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/at-least-three-dead-in-idaho-shopping-mall-mass-shooting?traffic_source=rss",
-          "headline": "At least three dead in Idaho shopping mall mass shooting",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T05:29:36+00:00",
-      "last_seen": "2026-08-02T05:29:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0915
-    },
-    {
-      "id": "0081b8c562",
-      "title": "Gaza students overcome Israel’s genocide to mark Tawjihi results",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/features/2026/8/2/gaza-students-overcome-israels-genocide-to-celebrate-tawjihi-results?traffic_source=rss",
-          "headline": "Gaza students overcome Israel’s genocide to mark Tawjihi results",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T05:27:04+00:00",
-      "last_seen": "2026-08-02T05:27:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0888
-    },
-    {
-      "id": "f5f0ad33b6",
-      "title": "Drivers brace for petrol price hikes as fuel excise cut comes to end",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-02/fuel-excise-cut-ending/106987482",
-          "headline": "Drivers brace for petrol price hikes as fuel excise cut comes to end",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T05:21:23+00:00",
-      "last_seen": "2026-08-02T05:21:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0828
-    },
-    {
-      "id": "85bd7bedea",
-      "title": "After Most Migrants Leave Ceuta, Exhausted Holdouts Find Shelter on Beach",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/02/world/europe/ceuta-spain-morocco-migrant-holdouts-beach.html",
-          "headline": "After Most Migrants Leave Ceuta, Exhausted Holdouts Find Shelter on Beach",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T05:17:45+00:00",
-      "last_seen": "2026-08-02T05:17:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.079
-    },
-    {
-      "id": "3985bc035b",
-      "title": "Latest news bulletin | August 2nd, 2026 – Morning",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/video/2026/08/02/latest-news-bulletin-august-2nd-2026-morning",
-          "headline": "Latest news bulletin | August 2nd, 2026 – Morning",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T05:00:33+00:00",
-      "last_seen": "2026-08-02T05:00:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0614
-    },
-    {
-      "id": "25cbeb51c7",
-      "title": "EVs and hybrids approach half of Australian new car sales amid ongoing fuel crisis",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/02/ev-hybrids-almost-half-australian-new-car-sales-april-june-fuel-crisis",
-          "headline": "EVs and hybrids approach half of Australian new car sales amid ongoing fuel crisis",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-02T05:00:19+00:00",
-      "last_seen": "2026-08-02T05:00:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0612
-    },
-    {
-      "id": "7d83488735",
-      "title": "13 killed in tourist plane crash in Peru",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-02/peru-plane-crash-tourists-viewing-nazca-lines/106987446",
-          "headline": "Plane crash in Peru kills 13 people on tourist flight",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/13-killed-in-tourist-plane-crash-in-peru/a-78204342?maca=en-rss-en-all-1573-rdf",
-          "headline": "13 killed in tourist plane crash in Peru",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Sky News",
-          "url": "https://news.sky.com/story/tourist-plane-crash-leaves-13-dead-in-peru-13569102",
-          "headline": "Tourist plane crash leaves 13 dead in Peru",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.033,
-        "spread": 0.094,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-08-01T19:50:00+00:00",
-      "last_seen": "2026-08-02T03:10:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0551
-    },
-    {
-      "id": "6e36fa401a",
-      "title": "US: Multiple dead in shooting at In-N-Out Burger in Idaho",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/us-multiple-dead-in-shooting-at-in-n-out-burger-in-idaho/a-78205684?maca=en-rss-en-all-1573-rdf",
-          "headline": "US: Multiple dead in shooting at In-N-Out Burger in Idaho",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/multiple-people-killed-shooting-idaho-in-n-out-restaurant-suspect-dead",
-          "headline": "Multiple people killed in shooting at Idaho In-N-Out restaurant, suspect dead",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.25,
-        "spread": 0.35,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-08-02T00:36:14+00:00",
-      "last_seen": "2026-08-02T03:51:00+00:00",
+      "first_seen": "2026-08-02T09:00:00+00:00",
+      "last_seen": "2026-08-02T09:00:00+00:00",
       "platforms": [
         "rss"
       ],
@@ -1082,27 +1064,45 @@
   ],
   "edges": [
     {
-      "source": "caa5495580",
-      "target": "ddd362d18d",
-      "weight": 0.152,
+      "source": "1bff19d30e",
+      "target": "8c2e256170",
+      "weight": 0.803,
       "type": "thematic"
     },
     {
-      "source": "5759e66da7",
-      "target": "2682615958",
-      "weight": 0.808,
+      "source": "1bff19d30e",
+      "target": "72e0e016d4",
+      "weight": 0.968,
       "type": "thematic"
     },
     {
-      "source": "ddd362d18d",
-      "target": "0081b8c562",
-      "weight": 0.108,
+      "source": "b6b0fd88e2",
+      "target": "032f32098d",
+      "weight": 0.479,
       "type": "thematic"
     },
     {
-      "source": "ec55a307fa",
-      "target": "3985bc035b",
-      "weight": 0.331,
+      "source": "b8db688fb8",
+      "target": "032f32098d",
+      "weight": 0.431,
+      "type": "thematic"
+    },
+    {
+      "source": "8af09afae6",
+      "target": "8c2e256170",
+      "weight": 0.577,
+      "type": "thematic"
+    },
+    {
+      "source": "8af09afae6",
+      "target": "72e0e016d4",
+      "weight": 0.713,
+      "type": "thematic"
+    },
+    {
+      "source": "8c2e256170",
+      "target": "72e0e016d4",
+      "weight": 0.5,
       "type": "thematic"
     }
   ],
@@ -1149,7 +1149,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 5,
+      "count": 4,
       "error": null
     },
     "The Atlantic": {
@@ -1173,8 +1173,8 @@
       "error": null
     },
     "France 24": {
-      "ok": false,
-      "count": 0,
+      "ok": true,
+      "count": 20,
       "error": null
     },
     "Le Monde (EN)": {

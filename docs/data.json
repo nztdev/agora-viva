@@ -1,24 +1,71 @@
 {
-  "generated_at": "2026-08-07T13:14:33.113181+00:00",
+  "generated_at": "2026-08-07T16:57:57.205812+00:00",
   "node_count": 35,
-  "edge_count": 2,
+  "edge_count": 5,
   "nodes": [
     {
-      "id": "f91e4b7bff",
-      "title": "US strikes $1.2bn deal to pay German firm to halt offshore wind projects",
+      "id": "3a57dd5d2c",
+      "title": "US economy unexpectedly lost 23,000 jobs in July",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-08/thousands-of-jobs-lost-in-united-states/107011970",
+          "headline": "US unexpectedly sheds 23,000 jobs in blow for Trump before midterms",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/08/07/us-economy-unexpectedly-lost-23-000-jobs-in-july_6756262_19.html",
+          "headline": "US economy unexpectedly lost 23,000 jobs in July",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3363356/us-unexpectedly-loses-jobs-july-blow-trumps-economy-claims?utm_source=rss_feed",
+          "headline": "US unexpectedly loses jobs in July, in blow to Trump’s economy claims",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138",
+          "headline": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.112,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T12:42:58+00:00",
+      "last_seen": "2026-08-07T15:20:29+00:00",
+      "platforms": [
+        "rss",
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.887
+    },
+    {
+      "id": "bf47b9840c",
+      "title": "Trump administration to pay German firm $1.2bn to halt US wind projects",
       "signal_count": 2,
       "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump administration to pay German firm $1.2bn to halt US wind projects",
+          "platform": "rss"
+        },
         {
           "outlet": "Hacker News",
           "url": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
           "headline": "US strikes $1.2B deal to pay German firm to halt offshore wind projects",
           "platform": "hackernews"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
-          "headline": "US strikes $1.2bn deal to pay German firm to halt offshore wind projects",
-          "platform": "rss"
         }
       ],
       "bias": {
@@ -28,25 +75,25 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-08-07T09:50:54+00:00",
-      "last_seen": "2026-08-07T10:28:55+00:00",
+      "first_seen": "2026-08-07T10:28:55+00:00",
+      "last_seen": "2026-08-07T13:32:41+00:00",
       "platforms": [
         "rss",
         "hackernews"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.8043
+      "resonance": 0.6489
     },
     {
-      "id": "a595875e50",
-      "title": "The Gargantuan Lie That Is Collapsing the Climate",
+      "id": "085fa138e6",
+      "title": "99% of My Website Traffic Is Bots",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://www.currentaffairs.org/news/the-massive-climate-lie-that-will-destroy-human-civilization",
-          "headline": "The Gargantuan Lie That Is Collapsing the Climate",
+          "url": "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/",
+          "headline": "99% of My Website Traffic Is Bots",
           "platform": "hackernews"
         }
       ],
@@ -57,13 +104,13 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-07T11:19:15+00:00",
-      "last_seen": "2026-08-07T11:19:15+00:00",
+      "first_seen": "2026-08-07T14:51:57+00:00",
+      "last_seen": "2026-08-07T14:51:57+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "climate",
+      "topic": "world",
       "resonance": 0.28
     },
     {
@@ -78,15 +125,33 @@
           "platform": "rss"
         },
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/7/saudi-arabia-turkiye-and-pakistan-sign-joint-defence-pact?traffic_source=rss",
-          "headline": "Saudi Arabia, Turkiye and Pakistan sign joint defence pact",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Saudi Arabia, Turkey and Pakistan sign defence pact",
           "platform": "rss"
         },
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/pakistan-saudi-and-turkiye-sign-joint-defence-agreement/article71317632.ece",
-          "headline": "Pakistan, Saudi and Turkiye sign joint defence agreement",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260807-saudi-arabia-pakistan-and-turkey-sign-mutual-defence-agreement",
+          "headline": "Saudi Arabia, Pakistan and Turkey sign mutual defence agreement",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/07/saudi-arabia-turkey-and-pakistan-sign-joint-defense-pact_6756265_4.html",
+          "headline": "Saudi Arabia, Turkey and Pakistan sign joint defense pact",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/7/turkiye-saudi-arabi-pakistan-sign-joint-defence-agreement-whats-in-it?traffic_source=rss",
+          "headline": "Turkiye, Saudi Arabia, Pakistan sign joint defence agreement: What’s in it?",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/7/saudi-arabia-turkiye-and-pakistan-sign-joint-defence-pact?traffic_source=rss",
+          "headline": "Saudi Arabia, Turkiye and Pakistan sign joint defence pact",
           "platform": "rss"
         },
         {
@@ -96,185 +161,213 @@
           "platform": "rss"
         },
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss",
-          "headline": "Saudi Arabia, Turkey and Pakistan sign defence pact",
-          "platform": "rss"
-        },
-        {
           "outlet": "France 24",
           "url": "https://www.france24.com/en/middle-east/20260807-middle-east-live-saudi-arabia-pakistan-turkey-to-sign-defence-pact",
           "headline": "Live: Saudi Arabia, Pakistan, Turkey sign defence pact stating 'attack on one is attack on all' ⤵️",
           "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3363340/saudi-arabia-turkey-and-pakistan-sign-joint-defence-deal-amid-regional-turmoil?utm_source=rss_feed",
-          "headline": "Saudi Arabia, Turkey and Pakistan sign joint defence deal amid regional turmoil",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/8/7/saudi-%e2%81%a0arabia-pakistan-and-turkiye-sign-defence-deal-amid-regional-turmoil?traffic_source=rss",
-          "headline": "Saudi ⁠Arabia, Pakistan and Turkiye sign defence deal amid regional turmoil",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.146,
-        "spread": 0.113,
-        "left": 4,
-        "center": 8,
+        "mean": -0.138,
+        "spread": 0.106,
+        "left": 2,
+        "center": 10,
         "right": 0
       },
-      "first_seen": "2026-08-07T06:57:38+00:00",
-      "last_seen": "2026-08-07T13:03:20+00:00",
+      "first_seen": "2026-08-07T10:48:00+00:00",
+      "last_seen": "2026-08-07T16:29:24+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.6173
+      "resonance": 0.4775
     },
     {
-      "id": "78e9a8f4f7",
-      "title": "Thailand School Shooting Leaves 7 Dead",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/07/world/asia/thailand-school-shooting.html",
-          "headline": "Thailand School Shooting Leaves 7 Dead",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/07/eight-dead-in-thailand-school-shooting-including-teen-suspect-s-grandparents_6756247_4.html",
-          "headline": "Seven dead in Thailand school shooting, including teen suspect's grandparents",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/08/07/asia-pacific/crime-legal/thai-school-shooting/",
-          "headline": "Eight dead, including teen suspect’s grandparents, in Thailand shooting",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.167,
-        "spread": 0.125,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T06:58:00+00:00",
-      "last_seen": "2026-08-07T12:18:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2218
-    },
-    {
-      "id": "38e8359211",
-      "title": "Officer who led PC Harper investigation 'appalled' killers could be released early",
+      "id": "21e047fdf7",
+      "title": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c9q9erpz953o?at_medium=RSS&at_campaign=rss",
-          "headline": "Officer who led PC Harper investigation 'appalled' killers could be released early",
-          "platform": "rss"
+          "outlet": "Hacker News",
+          "url": "https://www.youtube.com/watch?v=UufMqwyO7pY",
+          "headline": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
+          "platform": "hackernews"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": 0.0,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-07T13:12:46+00:00",
-      "last_seen": "2026-08-07T13:12:46+00:00",
+      "first_seen": "2026-08-07T14:55:08+00:00",
+      "last_seen": "2026-08-07T14:55:08+00:00",
       "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1572
-    },
-    {
-      "id": "a8bdbca37a",
-      "title": "Tangadagi consoles family of landslide victims, promises continued support",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/karnataka/tangadagi-consoles-family-of-landslide-victims-promises-continued-support/article71317656.ece",
-          "headline": "Tangadagi consoles family of landslide victims, promises continued support",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T13:07:03+00:00",
-      "last_seen": "2026-08-07T13:07:03+00:00",
-      "platforms": [
-        "rss"
+        "hackernews"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.149
+      "resonance": 0.28
     },
     {
-      "id": "658cbd1c2b",
-      "title": "Colombia's far-right president Abelardo de la Espriella takes office, promising break with tradition",
-      "signal_count": 2,
+      "id": "2b93b42e4d",
+      "title": "US appeals court halts Trump ballroom project paving way for Supreme Court showdown",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/07/colombia-s-far-right-president-abelardo-de-la-espriella-takes-office-promising-break-with-tradition_6756254_4.html",
-          "headline": "Colombia's far-right president Abelardo de la Espriella takes office, promising break with tradition",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwyq80jqqleo?at_medium=RSS&at_campaign=rss",
+          "headline": "US appeals court halts Trump ballroom project paving way for Supreme Court showdown",
           "platform": "rss"
         },
         {
           "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260807-colombia-s-abelardo-de-la-espriella-takes-office-vows-war-on-guerrillas",
-          "headline": "Colombia's Abelardo de la Espriella takes office, vows war on guerrillas",
+          "url": "https://www.france24.com/en/americas/20260807-us-appeals-court-halts-construction-of-trump-400-million-white-house-ballroom-project",
+          "headline": "US appeals court halts construction of Trump’s $400 million White House ballroom project",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3363361/us-court-blocks-trumps-us400-million-white-house-ballroom-project?utm_source=rss_feed",
+          "headline": "US court blocks Trump’s US$400 million White House ballroom project",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
+        "mean": -0.033,
+        "spread": 0.094,
         "left": 0,
-        "center": 2,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-08-07T10:30:17+00:00",
-      "last_seen": "2026-08-07T10:44:31+00:00",
+      "first_seen": "2026-08-07T15:46:28+00:00",
+      "last_seen": "2026-08-07T16:31:54+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.148
+      "resonance": 0.3607
     },
     {
-      "id": "2c79933c59",
-      "title": "The scent of home: how Indian diaspora fragrance brands are bottling memory",
+      "id": "65037ea7da",
+      "title": "7 killed and more than 20 injured in Thailand school shooting",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/08/07/7-killed-more-than-30-injured-thailand-school-shooting/",
+          "headline": "7 killed and more than 20 injured in Thailand school shooting",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/aug/07/thailand-school-shooting-debsirin-nonthaburi-bangkok",
+          "headline": "Thailand school shooting: eight killed including suspected attacker, police say",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/thailand-several-killed-in-school-shooting-north-of-bangkok/a-78273568?maca=en-rss-en-all-1573-rdf",
+          "headline": "Thailand: Several killed in school shooting north of Bangkok",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/thailand-gunman-killed-grandparents-before-school-attack",
+          "headline": "Thailand: Gunman killed grandparents before school attack",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 2,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T10:56:11+00:00",
+      "last_seen": "2026-08-07T15:53:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2305
+    },
+    {
+      "id": "ab1e93f7a2",
+      "title": "Spain threatens Italy with countermeasures if border checks kept",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/7/italy-vows-to-maintain-border-checks-despite-spains-countermeasures-threat?traffic_source=rss",
+          "headline": "Italy vows to maintain border checks despite Spain’s countermeasures threat",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/07/spain-threatens-italy-with-countermeasures-if-border-checks-kept_6756263_4.html",
+          "headline": "Spain threatens Italy with countermeasures if border checks kept",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T14:25:03+00:00",
+      "last_seen": "2026-08-07T16:10:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1611
+    },
+    {
+      "id": "3fabf4b966",
+      "title": "NBA star Kyrie Irving got his apology, but four COVID-era athletes still waiting for theirs from the media",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/life-and-style/fashion/indian-diaspora-perfume-brands-rahasya-fragrance-sept-fragrances-india-everywhere/article71316890.ece",
-          "headline": "The scent of home: how Indian diaspora fragrance brands are bottling memory",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/kyrie-irving-got-apology-four-covid-era-athletes-still-waiting-theirs-media",
+          "headline": "NBA star Kyrie Irving got his apology, but four COVID-era athletes still waiting for theirs from the media",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-07T16:54:26+00:00",
+      "last_seen": "2026-08-07T16:54:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1004
+    },
+    {
+      "id": "a342a3ca76",
+      "title": "Streeting 'sickened' by sex abuse claims at Army college",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c8en51le9e1o?at_medium=RSS&at_campaign=rss",
+          "headline": "Streeting 'sickened' by sex abuse claims at Army college",
           "platform": "rss"
         }
       ],
@@ -285,52 +378,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-07T13:05:56+00:00",
-      "last_seen": "2026-08-07T13:05:56+00:00",
+      "first_seen": "2026-08-07T16:53:25+00:00",
+      "last_seen": "2026-08-07T16:53:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0991
+    },
+    {
+      "id": "348aa34aea",
+      "title": "CM for use of AI to augment GST revenue",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/telangana/cm-for-use-of-ai-to-augment-gst-revenue/article71318703.ece",
+          "headline": "CM for use of AI to augment GST revenue",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T16:52:47+00:00",
+      "last_seen": "2026-08-07T16:52:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0983
+    },
+    {
+      "id": "7dd939e8d8",
+      "title": "Water hyacinth engulfs River Bhavani, farmers seek immediate removal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Coimbatore/water-hyacinth-engulfs-river-bhavani-farmers-seek-immediate-removal/article71276135.ece",
+          "headline": "Water hyacinth engulfs River Bhavani, farmers seek immediate removal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T16:52:24+00:00",
+      "last_seen": "2026-08-07T16:52:24+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1474
+      "resonance": 0.0978
     },
     {
-      "id": "23bf0f088c",
-      "title": "Iran is moving its tanks. Decades as a military planner taught me what that means",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/opinion/iran-moving-tanks-decades-military-planner-taught-what-means",
-          "headline": "Iran is moving its tanks. Decades as a military planner taught me what that means",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-07T13:05:43+00:00",
-      "last_seen": "2026-08-07T13:05:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1471
-    },
-    {
-      "id": "8712f64ec2",
-      "title": "BJP leader says Cong. MLA of Sagara enquired about returning to BJP after being denied Cabinet berth",
+      "id": "9f844410e3",
+      "title": "Lena, Royal Legacy and Monterio shine",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/karnataka/bjp-leader-says-cong-mla-of-sagara-enquired-about-returning-to-bjp-after-being-denied-cabinet-berth/article71317295.ece",
-          "headline": "BJP leader says Cong. MLA of Sagara enquired about returning to BJP after being denied Cabinet berth",
+          "url": "https://www.thehindu.com/sport/races/lena-royal-legacy-and-monterio-shine/article71276931.ece",
+          "headline": "Lena, Royal Legacy and Monterio shine",
           "platform": "rss"
         }
       ],
@@ -341,136 +462,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-07T13:05:40+00:00",
-      "last_seen": "2026-08-07T13:05:40+00:00",
+      "first_seen": "2026-08-07T16:52:16+00:00",
+      "last_seen": "2026-08-07T16:52:16+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.147
+      "topic": "world",
+      "resonance": 0.0977
     },
     {
-      "id": "7e2ac59d65",
-      "title": "Russian hackers can steal emails without a click",
+      "id": "ae5976c583",
+      "title": "Israeli forces beat and detain Palestinian during settler attack near Nablus",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/tech/russian-hackers-steal-emails-without-click",
-          "headline": "Russian hackers can steal emails without a click",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-07T13:05:35+00:00",
-      "last_seen": "2026-08-07T13:05:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1469
-    },
-    {
-      "id": "182334a979",
-      "title": "WNBA star says she would welcome a trans player to her team, and then says something even dumber",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/wnba-star-says-she-would-welcome-trans-player-her-team-then-says-something-even-dumber",
-          "headline": "WNBA star says she would welcome a trans player to her team, and then says something even dumber",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-07T13:05:18+00:00",
-      "last_seen": "2026-08-07T13:05:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1465
-    },
-    {
-      "id": "fbd4e71a5e",
-      "title": "Chinese breakthrough paves way for production of graphene-based quantum chips",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/science/article/3363350/chinese-breakthrough-paves-way-production-graphene-based-quantum-chips?utm_source=rss_feed",
-          "headline": "Chinese breakthrough paves way for production of graphene-based quantum chips",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T13:01:04+00:00",
-      "last_seen": "2026-08-07T13:01:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1405
-    },
-    {
-      "id": "9376ad5f96",
-      "title": "US universities report more Chinese applicants despite visa crackdown",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/economy/global-economy/article/3363327/us-universities-report-more-chinese-applicants-despite-visa-crackdown?utm_source=rss_feed",
-          "headline": "US universities report more Chinese applicants despite visa crackdown",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T13:00:06+00:00",
-      "last_seen": "2026-08-07T13:00:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1392
-    },
-    {
-      "id": "37e434fb8f",
-      "title": "Photos of the Week: Fuego Volcano, Underwater Explosion, Pig Diver",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/photography/2026/08/photos-week-fuego-volcano-underwater-explosion-pig-diver/688211/?utm_source=feed",
-          "headline": "Photos of the Week: Fuego Volcano, Underwater Explosion, Pig Diver",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-beat-detain-palestinian-during-settler-attack-near-nablus",
+          "headline": "Israeli forces beat and detain Palestinian during settler attack near Nablus",
           "platform": "rss"
         }
       ],
@@ -481,24 +490,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-08-07T13:00:00+00:00",
-      "last_seen": "2026-08-07T13:00:00+00:00",
+      "first_seen": "2026-08-07T16:50:48+00:00",
+      "last_seen": "2026-08-07T16:50:48+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.139
+      "topic": "conflict",
+      "resonance": 0.0959
     },
     {
-      "id": "32a554afbb",
-      "title": "Trump is losing his war on wind power",
+      "id": "95c5ec34c6",
+      "title": "The 7 Best TV Shows to Stream This Month",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/science/2026/08/trump-is-losing-his-war-on-wind-power/",
-          "headline": "Trump is losing his war on wind power",
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/the-7-best-shows-to-stream-right-now/",
+          "headline": "The 7 Best TV Shows to Stream This Month",
           "platform": "rss"
         }
       ],
@@ -509,52 +518,338 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-07T12:58:04+00:00",
-      "last_seen": "2026-08-07T12:58:04+00:00",
+      "first_seen": "2026-08-07T16:48:21+00:00",
+      "last_seen": "2026-08-07T16:48:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1363
+      "topic": "world",
+      "resonance": 0.0928
     },
     {
-      "id": "dea74b3a92",
-      "title": "Cambricon posts 108% surge in first-half revenue amid China’s massive AI chip drive",
+      "id": "a701ead776",
+      "title": "Serial sex offender guilty of murdering two women and raping third",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/tech/big-tech/article/3363351/cambricon-posts-108-surge-first-half-revenue-amid-chinas-massive-ai-chip-drive?utm_source=rss_feed",
-          "headline": "Cambricon posts 108% surge in first-half revenue amid China’s massive AI chip drive",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ceqe1nzqgg4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Serial sex offender guilty of murdering two women and raping third",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-07T12:54:54+00:00",
-      "last_seen": "2026-08-07T12:54:54+00:00",
+      "first_seen": "2026-08-07T16:46:50+00:00",
+      "last_seen": "2026-08-07T16:46:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.091
+    },
+    {
+      "id": "724a8bc846",
+      "title": "Maryland's lone congressional Republican blasts Moore's redistricting push as alleged 2028 White House play",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/maryland-lone-congressional-republican-blasts-moore-redistricting-push-alleged-2028-white-house-play",
+          "headline": "Maryland's lone congressional Republican blasts Moore's redistricting push as alleged 2028 White House play",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-07T16:46:31+00:00",
+      "last_seen": "2026-08-07T16:46:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0906
+    },
+    {
+      "id": "a3b4a3711c",
+      "title": "What&#8217;s behind the Google AI shakeup",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+          "headline": "What&#8217;s behind the Google AI shakeup",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T16:45:14+00:00",
+      "last_seen": "2026-08-07T16:45:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1319
+      "resonance": 0.089
     },
     {
-      "id": "9f7e235df5",
-      "title": "How Japan Reduced Deaths From a Major Quake",
+      "id": "9b87eb0a0f",
+      "title": "Madonna and Blur producer William Orbit dies aged 69",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cp9ej0el7veo?at_medium=RSS&at_campaign=rss",
+          "headline": "Madonna and Blur producer William Orbit dies aged 69",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T16:45:04+00:00",
+      "last_seen": "2026-08-07T16:45:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0888
+    },
+    {
+      "id": "6b845e4814",
+      "title": "Detroit-area couple accused of throwing explosive device with alarming 2-word message into neighbor's yard",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/detroit-area-couple-accused-throwing-explosive-device-alarming-2-word-message-neighbors-yard",
+          "headline": "Detroit-area couple accused of throwing explosive device with alarming 2-word message into neighbor's yard",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-07T16:39:55+00:00",
+      "last_seen": "2026-08-07T16:39:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0826
+    },
+    {
+      "id": "ca25915326",
+      "title": "Spain threatens retaliation if Italy fails to lift border controls after Ceuta crossings",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
+          "headline": "Spain threatens retaliation if Italy fails to lift border controls after Ceuta crossings",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T16:33:50+00:00",
+      "last_seen": "2026-08-07T16:33:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0753
+    },
+    {
+      "id": "cb5e00cf83",
+      "title": "US labour market sheds jobs in July as labour force participation slumps",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/economy/2026/8/7/us-labour-market-sheds-jobs-in-july-as-labour-force-participation-slumps?traffic_source=rss",
+          "headline": "US labour market sheds jobs in July as labour force participation slumps",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T16:25:35+00:00",
+      "last_seen": "2026-08-07T16:25:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.0656
+    },
+    {
+      "id": "c7d69a1489",
+      "title": "Meta fined in child safety case",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/meta-fined-in-child-safety-case",
+          "headline": "Meta fined in child safety case",
+          "platform": "rss"
+        },
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+          "headline": "New Mexico court orders Meta to pay additional $567M in child safety case",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T11:40:37+00:00",
+      "last_seen": "2026-08-07T15:53:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0642
+    },
+    {
+      "id": "0477b458ac",
+      "title": "Saudi Arabia, Pakistan, Turkiye defence pact challenges US role",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/7/saudi-arabia-pakistan-turkiye-defence-pact-challenges-us-role?traffic_source=rss",
+          "headline": "Saudi Arabia, Pakistan, Turkiye defence pact challenges US role",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T16:23:33+00:00",
+      "last_seen": "2026-08-07T16:23:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0632
+    },
+    {
+      "id": "7566a5d612",
+      "title": "Why have Hollywood blockbusters become so gray?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/culture/2026-08-07/why-have-hollywood-blockbusters-become-so-gray.html",
+          "headline": "Why have Hollywood blockbusters become so gray?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T16:23:08+00:00",
+      "last_seen": "2026-08-07T16:23:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0627
+    },
+    {
+      "id": "b6394fb749",
+      "title": "French government announces smallest corn crop since 1980",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/environment/article/2026/08/07/french-government-announces-smallest-corn-crop-since-1980_6756270_114.html",
+          "headline": "French government announces smallest corn crop since 1980",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T16:21:43+00:00",
+      "last_seen": "2026-08-07T16:21:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0611
+    },
+    {
+      "id": "7929060bd2",
+      "title": "Iranians Say Trump’s Promises Have Fallen by the Wayside as Iran War Drags On",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/07/world/asia/japan-earthquake-kumamoto-preparation.html",
-          "headline": "How Japan Reduced Deaths From a Major Quake",
+          "url": "https://www.nytimes.com/2026/08/07/us/politics/trump-iran-war-protesters.html",
+          "headline": "Iranians Say Trump’s Promises Have Fallen by the Wayside as Iran War Drags On",
           "platform": "rss"
         }
       ],
@@ -565,142 +860,58 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-08-07T12:54:36+00:00",
-      "last_seen": "2026-08-07T12:54:36+00:00",
+      "first_seen": "2026-08-07T16:20:52+00:00",
+      "last_seen": "2026-08-07T16:20:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0601
+    },
+    {
+      "id": "a93f9745ff",
+      "title": "Welcome to the plastisphere, the realm of plastic microbes: ‘It’s a new ecosystem on the planet’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/climate/2026-08-07/welcome-to-the-plastisphere-the-realm-of-plastic-microbes-its-a-new-ecosystem-on-the-planet.html",
+          "headline": "Welcome to the plastisphere, the realm of plastic microbes: ‘It’s a new ecosystem on the planet’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-07T16:20:45+00:00",
+      "last_seen": "2026-08-07T16:20:45+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1315
+      "resonance": 0.06
     },
     {
-      "id": "3b4ad196c3",
-      "title": "Pope Leo to meet clergy abuse victims during upcoming France visit",
-      "signal_count": 1,
+      "id": "c32c3cf01d",
+      "title": "Pope Leo XIV to meet with clerical abuse victims during France trip",
+      "signal_count": 2,
       "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/07/pope-leo-xiv-to-meet-with-clerical-abuse-victims-during-france-trip_6756267_4.html",
+          "headline": "Pope Leo XIV to meet with clerical abuse victims during France trip",
+          "platform": "rss"
+        },
         {
           "outlet": "France 24",
           "url": "https://www.france24.com/en/france/20260807-pope-leo-meet-clergy-abuse-victims-during-upcoming-france-visit",
           "headline": "Pope Leo to meet clergy abuse victims during upcoming France visit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T12:50:14+00:00",
-      "last_seen": "2026-08-07T12:50:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1255
-    },
-    {
-      "id": "b598d96612",
-      "title": "Iranian official says deal with Oman on Hormuz finalised",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-official-says-deal-oman-hormuz-finalised",
-          "headline": "Iranian official says deal with Oman on Hormuz finalised",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T12:48:04+00:00",
-      "last_seen": "2026-08-07T12:48:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1225
-    },
-    {
-      "id": "949ecab826",
-      "title": "Yen surrenders nearly half its gains from U.S.-Japan intervention",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/business/2026/08/07/economy/yen-surrenders-intervention-gains/",
-          "headline": "Yen surrenders nearly half its gains from U.S.-Japan intervention",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T12:48:00+00:00",
-      "last_seen": "2026-08-07T12:48:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1224
-    },
-    {
-      "id": "aa028a0efb",
-      "title": "Academics call for independent inquiry into Jason Arday's Cambridge appointment",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c05q0nznq24o?at_medium=RSS&at_campaign=rss",
-          "headline": "Academics call for independent inquiry into Jason Arday's Cambridge appointment",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T12:45:26+00:00",
-      "last_seen": "2026-08-07T12:45:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1189
-    },
-    {
-      "id": "8239f9ba04",
-      "title": "England footballer Ivan Toney charged with assault at Soho nightclub",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/8/7/saudi-pro-leagues-england-international-toney-charged-with-assault?traffic_source=rss",
-          "headline": "Saudi Pro League’s England international Toney charged with assault",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cpw9nz7qwyqo?at_medium=RSS&at_campaign=rss",
-          "headline": "England footballer Ivan Toney charged with assault at Soho nightclub",
           "platform": "rss"
         }
       ],
@@ -711,136 +922,24 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-08-07T09:30:30+00:00",
-      "last_seen": "2026-08-07T10:11:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1109
-    },
-    {
-      "id": "2e8715960f",
-      "title": "UN chief condemns both Ukraine and Russia amid escalation in war",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/7/un-chief-condemns-both-ukraine-and-russia-amid-escalation-in-war?traffic_source=rss",
-          "headline": "UN chief condemns both Ukraine and Russia amid escalation in war",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T12:34:13+00:00",
-      "last_seen": "2026-08-07T12:34:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1039
-    },
-    {
-      "id": "c50c236b53",
-      "title": "Negotations between Lebanon and Israel stall",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/07/negotations-between-lebanon-and-israel-stall_6756257_4.html",
-          "headline": "Negotations between Lebanon and Israel stall",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T12:33:22+00:00",
-      "last_seen": "2026-08-07T12:33:22+00:00",
+      "first_seen": "2026-08-07T12:50:14+00:00",
+      "last_seen": "2026-08-07T14:54:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1028
+      "resonance": 0.0582
     },
     {
-      "id": "257729729a",
-      "title": "How a 90-second power outage sparked  chaos for rail commuters",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c3ekd5784k5o?at_medium=RSS&at_campaign=rss",
-          "headline": "How a 90-second power outage sparked  chaos for rail commuters",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T12:30:07+00:00",
-      "last_seen": "2026-08-07T12:30:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0985
-    },
-    {
-      "id": "e43ef10fe4",
-      "title": "Unknown Australian soldiers identified decades after deaths in action",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-07/unknown-australian-soldiers-identified/107011068",
-          "headline": "Unknown Australian soldiers identified decades after deaths in action",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T12:30:00+00:00",
-      "last_seen": "2026-08-07T12:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0984
-    },
-    {
-      "id": "2aac071c26",
-      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+      "id": "5720299645",
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/07/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
-          "headline": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+          "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+          "headline": "Cloudflare launches Kitesurf, a browser built for AI agents",
           "platform": "rss"
         }
       ],
@@ -851,80 +950,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-07T12:30:00+00:00",
-      "last_seen": "2026-08-07T12:30:00+00:00",
+      "first_seen": "2026-08-07T16:16:09+00:00",
+      "last_seen": "2026-08-07T16:16:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0984
+      "resonance": 0.0547
     },
     {
-      "id": "34d1142c1c",
-      "title": "Iran’s grip on trade is a potent weapon, but it has an expiry date",
+      "id": "1e99a70923",
+      "title": "Sony could release a cheaper version of its WH-1000XM4 headphones, according to leaks",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/opinions/2026/8/7/irans-grip-on-trade-is-a-potent-weapon-but-it-has-an-expiry-date?traffic_source=rss",
-          "headline": "Iran’s grip on trade is a potent weapon, but it has an expiry date",
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/976735/sony-wireless-headphones-anc-wh-1000xm4c-leak",
+          "headline": "Sony could release a cheaper version of its WH-1000XM4 headphones, according to leaks",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.2,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-07T12:28:52+00:00",
-      "last_seen": "2026-08-07T12:28:52+00:00",
+      "first_seen": "2026-08-07T16:15:46+00:00",
+      "last_seen": "2026-08-07T16:15:46+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0969
+      "topic": "world",
+      "resonance": 0.0543
     },
     {
-      "id": "63d24d91ef",
-      "title": "Argentina and Mexico join Africa in backing FIFA’s Infantino: What to know",
+      "id": "f4efeec7e8",
+      "title": "Trump Administration Fast-Tracks Military Partnership With Colombia to Target Drug Traffickers",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/8/7/fifas-infantino-backed-by-argentina-and-mexico-deepening-world-cup-divide?traffic_source=rss",
-          "headline": "Argentina and Mexico join Africa in backing FIFA’s Infantino: What to know",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/07/world/americas/trump-administration-military-partnership-colombia.html",
+          "headline": "Trump Administration Fast-Tracks Military Partnership With Colombia to Target Drug Traffickers",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.2,
+        "mean": -0.3,
         "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "left": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-08-07T12:23:03+00:00",
-      "last_seen": "2026-08-07T12:23:03+00:00",
+      "first_seen": "2026-08-07T16:13:49+00:00",
+      "last_seen": "2026-08-07T16:13:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0894
+      "topic": "conflict",
+      "resonance": 0.0521
     },
     {
-      "id": "47648d541b",
-      "title": "Heat waves expose overcrowding crisis in Europe’s aging prisons",
+      "id": "4677dcf59c",
+      "title": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/08/07/world/politics/heat-europe-overcrowded-prisons/",
-          "headline": "Heat waves expose overcrowding crisis in Europe’s aging prisons",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
           "platform": "rss"
         }
       ],
@@ -935,24 +1034,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-07T12:08:00+00:00",
-      "last_seen": "2026-08-07T12:08:00+00:00",
+      "first_seen": "2026-08-07T16:13:45+00:00",
+      "last_seen": "2026-08-07T16:13:45+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0703
+      "topic": "society",
+      "resonance": 0.052
     },
     {
-      "id": "d35619a466",
-      "title": "MAGA’s Most Famous Prisoner Is Free",
+      "id": "d116ad618e",
+      "title": "Anti-Muslim lawmaker Andy Ogles loses Republican primary",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/politics/2026/08/elections-2026-fraud-trump/688172/?utm_source=feed",
-          "headline": "MAGA’s Most Famous Prisoner Is Free",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/anti-muslim-lawmaker-andy-ogles-loses-republican-primary",
+          "headline": "Anti-Muslim lawmaker Andy Ogles loses Republican primary",
           "platform": "rss"
         }
       ],
@@ -963,24 +1062,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-08-07T12:04:57+00:00",
-      "last_seen": "2026-08-07T12:04:57+00:00",
+      "first_seen": "2026-08-07T16:12:17+00:00",
+      "last_seen": "2026-08-07T16:12:17+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0666
+      "topic": "politics",
+      "resonance": 0.0503
     },
     {
-      "id": "8a509e0618",
-      "title": "The best classic slasher movie you&#8217;ll never watch",
+      "id": "5983aa637c",
+      "title": "Ceuta: Spain warns Italy it will reciprocate entry checks",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/entertainment/975850/teenage-sex-and-death-at-camp-miasma-production-design",
-          "headline": "The best classic slasher movie you&#8217;ll never watch",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ceuta-spain-warns-italy-it-will-reciprocate-entry-checks/a-78282840?maca=en-rss-en-all-1573-rdf",
+          "headline": "Ceuta: Spain warns Italy it will reciprocate entry checks",
           "platform": "rss"
         }
       ],
@@ -991,83 +1090,45 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-07T12:00:00+00:00",
-      "last_seen": "2026-08-07T12:00:00+00:00",
+      "first_seen": "2026-08-07T16:12:00+00:00",
+      "last_seen": "2026-08-07T16:12:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0605
-    },
-    {
-      "id": "3ba4185536",
-      "title": "Mexico reinforces ties with Brazil amid escalating tension between Lula and Trump",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/international/2026-08-07/mexico-reinforces-ties-with-brazil-amid-escalating-tension-between-lula-and-trump.html",
-          "headline": "Mexico reinforces ties with Brazil amid escalating tension between Lula and Trump",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T11:54:58+00:00",
-      "last_seen": "2026-08-07T11:54:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0544
-    },
-    {
-      "id": "f139754e35",
-      "title": "Exclusive: ICC judges order Taliban case split from Afghanistan probe that covers US troops",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/icc-judges-order-taliban-case-split-from-afghanistan-probe-that-covers-us-nationals",
-          "headline": "Exclusive: ICC judges order Taliban case split from Afghanistan probe that covers US troops",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-07T11:51:19+00:00",
-      "last_seen": "2026-08-07T11:51:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
+      "topic": "tech",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "9f7e235df5",
-      "target": "949ecab826",
-      "weight": 0.02,
+      "source": "3a57dd5d2c",
+      "target": "cb5e00cf83",
+      "weight": 0.197,
       "type": "thematic"
     },
     {
-      "source": "9f7e235df5",
-      "target": "e43ef10fe4",
-      "weight": 0.02,
+      "source": "bf47b9840c",
+      "target": "f4efeec7e8",
+      "weight": 0.058,
+      "type": "thematic"
+    },
+    {
+      "source": "ab1e93f7a2",
+      "target": "ca25915326",
+      "weight": 0.986,
+      "type": "thematic"
+    },
+    {
+      "source": "ab1e93f7a2",
+      "target": "5983aa637c",
+      "weight": 0.813,
+      "type": "thematic"
+    },
+    {
+      "source": "ca25915326",
+      "target": "5983aa637c",
+      "weight": 0.565,
       "type": "thematic"
     }
   ],
@@ -1084,7 +1145,7 @@
     },
     "Al Jazeera English": {
       "ok": true,
-      "count": 20,
+      "count": 19,
       "error": null
     },
     "BBC News": {
@@ -1094,7 +1155,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 6,
+      "count": 5,
       "error": null
     },
     "The Economist": {
@@ -1114,7 +1175,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 4,
+      "count": 5,
       "error": null
     },
     "The Atlantic": {

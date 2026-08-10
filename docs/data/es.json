@@ -1,682 +1,173 @@
 {
-  "generated_at": "2026-08-10T08:58:51.709498+00:00",
+  "generated_at": "2026-08-10T19:29:25.988167+00:00",
   "country_code": "es",
   "country_name": "España",
   "language": "es",
   "node_count": 30,
-  "edge_count": 8,
+  "edge_count": 25,
   "nodes": [
     {
-      "id": "e7995ad77b",
-      "title": "Al menos 12 muertos en un ataque ucranio con drones en la región rusa de Tartaristán",
+      "id": "6d2657b5f0",
+      "title": "Última hora del terremoto en Colombia, en directo | Más de un centenar de muertos por el terremoto de magnitud 7,4 en Colombia",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "El País",
+          "url": "https://elpais.com/america-colombia/2026-08-10/ultima-hora-del-terremoto-en-colombia-en-directo.html",
+          "headline": "Última hora del terremoto en Colombia, en directo | Más de un centenar de muertos por el terremoto de magnitud 7,4 en Colombia",
+          "platform": "rss"
+        },
+        {
+          "outlet": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/internacional/20260810/11611560/terremoto-colombia-ultima-hora-numero-desaparecidos-victimas-balance-directo.html",
+          "headline": "Terremoto en Colombia, en directo | Última hora de hoy, cifra de heridos y muertos: declarada la emergencia nacional",
+          "platform": "rss"
+        },
+        {
+          "outlet": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/ultima-hora-terremoto-colombia-directo-autoridades-confirman-21-personas-fallecidas_133_13438820.html",
+          "headline": "Última hora del terremoto en Colombia, en directo: al menos 111 muertos y 87 heridos",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/mundo/america/20260810/terremoto-magnitud-sacude-colombia-provoca-destrozos-provincia-choco/1003744348938_0.html",
+          "headline": "Un gran terremoto de magnitud 7,4 sacude el centro y el oeste de Colombia y deja al menos 111 muertos y 87 heridos",
+          "platform": "rss"
+        },
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/internacional/un-terremoto-magnitud-7-4-sacude-gran-parte-colombia_7024310_0.html",
+          "headline": "El terremoto en Colombia deja más de un centenar de muertos",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.09,
+        "spread": 0.276,
+        "left": 1,
+        "center": 3,
+        "right": 1
+      },
+      "first_seen": "2026-08-10T13:22:53+00:00",
+      "last_seen": "2026-08-10T19:17:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.7032
+    },
+    {
+      "id": "9cc0ecc432",
+      "title": "Un juzgado de Madrid estudia cinco denuncias por la compra del ático del Gobierno de Ayuso",
       "signal_count": 3,
       "sources": [
         {
-          "outlet": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/internacional/20260810/11611007/un-nuevo-ataque-de-drones-ucranianos-mata-al-menos-a-12-personas-en-la-region-rusa-de-tartaristan.html",
-          "headline": "Un nuevo ataque de drones ucranianos mata al menos a 13 personas en la región rusa de Tartaristán",
-          "platform": "rss"
-        },
-        {
-          "outlet": "El País",
-          "url": "https://elpais.com/internacional/2026-08-10/varios-muertos-en-un-ataque-ucranio-con-drones-en-la-region-rusa-de-tartaristan.html",
-          "headline": "Al menos 12 muertos en un ataque ucranio con drones en la región rusa de Tartaristán",
-          "platform": "rss"
-        },
-        {
           "outlet": "El Español",
-          "url": "https://www.elespanol.com/mundo/europa/20260810/muertos-heridos-ataque-drones-ucranianos-refineria-tatarstan-rusia/1003744348318_0.html",
-          "headline": "Al menos 12 muertos y 39 heridos tras un ataque de drones ucranianos contra la refinería de Tatarstán (Rusia)",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.017,
-        "spread": 0.239,
-        "left": 0,
-        "center": 2,
-        "right": 1
-      },
-      "first_seen": "2026-08-10T07:34:13+00:00",
-      "last_seen": "2026-08-10T08:37:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "es",
-      "resonance": 0.703
-    },
-    {
-      "id": "156255aaef",
-      "title": "Última hora de la entrada de inmigrantes a Ceuta, en directo | Italia y Dinamarca rechazan “la inmigración descontrolada” y piden centros de deportación",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "El País",
-          "url": "https://elpais.com/espana/2026-08-10/ultima-hora-de-la-entrada-de-inmigrantes-a-ceuta-en-directo.html",
-          "headline": "Última hora de la entrada de inmigrantes a Ceuta, en directo | Italia y Dinamarca rechazan “la inmigración descontrolada” y piden centros de deportación",
+          "url": "https://www.elespanol.com/madrid/comunidad/20260810/fiscalia-envia-juzgado-madrid-denuncias-compra-gobierno-ayuso-atico-chamberi/1003744349129_0.html",
+          "headline": "La Fiscalía envía a un juzgado de Madrid cuatro denuncias por la compra del Gobierno de Ayuso de un ático en Chamberí",
           "platform": "rss"
         },
         {
-          "outlet": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/internacional/20260810/11610972/italia-dinamarca-rechazan-inmigracion-descontrolada-piden-centros-repatriacion-terceros-paises.html",
-          "headline": "Italia y Dinamarca rechazan “la inmigración descontrolada” y piden centros de repatriación",
+          "outlet": "El País",
+          "url": "https://elpais.com/espana/madrid/2026-08-10/un-juzgado-de-madrid-investiga-ya-la-compra-del-atico-del-gobierno-de-ayuso.html",
+          "headline": "Un juzgado de Madrid estudia cinco denuncias por la compra del ático del Gobierno de Ayuso",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T07:17:22+00:00",
-      "last_seen": "2026-08-10T08:18:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "es",
-      "resonance": 0.5174
-    },
-    {
-      "id": "84119c460f",
-      "title": "MAPA | Dónde ver el eclipse solar del 12 de agosto: recorrido y visibilidad en cada municipio, minuto a minuto",
-      "signal_count": 1,
-      "sources": [
+        },
         {
           "outlet": "elDiario.es",
-          "url": "https://www.eldiario.es/sociedad/mapa-ver-eclipse-solar-12-agosto-recorrido-visibilidad-municipio-minuto-minuto_1_13437675.html",
-          "headline": "MAPA | Dónde ver el eclipse solar del 12 de agosto: recorrido y visibilidad en cada municipio, minuto a minuto",
+          "url": "https://www.eldiario.es/politica/fiscalia-remite-cuatro-denuncias-atico-compro-gobierno-ayuso-juzgado-investiga-caso_1_13438853.html",
+          "headline": "La Fiscalía envía cuatro denuncias por el ático que compró el Gobierno de Ayuso al juzgado que ya investiga el caso",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.5,
-        "spread": 0.0,
+        "mean": -0.117,
+        "spread": 0.352,
         "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T08:44:43+00:00",
-      "last_seen": "2026-08-10T08:44:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.28
-    },
-    {
-      "id": "8c24cac641",
-      "title": "Italia mantendrá sus controles \"al menos\" esta semana y reclama a España que \"asuma sus responsabilidades\" tras la regularización",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/internacional/italia-mantendra-sus-controles-menos-esta-semana-reclama-espana-que-asuma-sus-responsabilidades-tras-regularizacion_7024127_0.html",
-          "headline": "Italia mantendrá sus controles \"al menos\" esta semana y reclama a España que \"asuma sus responsabilidades\" tras la regularización",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
         "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T08:44:23+00:00",
-      "last_seen": "2026-08-10T08:44:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.28
-    },
-    {
-      "id": "865b8cb677",
-      "title": "Italia insiste en censurar la política migratoria de Sánchez: \"Decisiones unilaterales no pueden descargar sus consecuencias en los socios\"",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/espana/2026/08/10/6a7988b1e4d4d8306d8b4571.html",
-          "headline": "Italia insiste en censurar la política migratoria de Sánchez: \"Decisiones unilaterales no pueden descargar sus consecuencias en los socios\"",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
         "right": 1
       },
-      "first_seen": "2026-08-10T08:38:38+00:00",
-      "last_seen": "2026-08-10T08:38:38+00:00",
+      "first_seen": "2026-08-10T15:12:54+00:00",
+      "last_seen": "2026-08-10T16:17:53+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "es",
-      "resonance": 0.28
+      "resonance": 0.4185
     },
     {
-      "id": "b31543a60c",
-      "title": "¿Cambia nuestro corazón durante un eclipse? Miles de smartwatches ayudarán a averiguarlo",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/tecnologia/moviles-dispositivos/cambia-corazon-durante-eclipse-solar-miles-smartwatches-ayudaran-averiguarlo_7024148_0.html",
-          "headline": "¿Cambia nuestro corazón durante un eclipse? Miles de smartwatches ayudarán a averiguarlo",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T08:36:47+00:00",
-      "last_seen": "2026-08-10T08:36:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.28
-    },
-    {
-      "id": "888c097a5f",
-      "title": "Castilla y León declara la alerta por riesgo extremo de incendios entre el 11 y el 13 de agosto",
-      "signal_count": 1,
+      "id": "90d59207de",
+      "title": "Retirados seis modelos de gafas para el eclipse por riesgo de lesiones oculares",
+      "signal_count": 6,
       "sources": [
         {
           "outlet": "elDiario.es",
-          "url": "https://www.eldiario.es/castilla-y-leon/sociedad/castilla-leon-declara-alerta-riego-extremo-incendios-11-13-agosto_1_13437588.html",
-          "headline": "Castilla y León declara la alerta por riesgo extremo de incendios entre el 11 y el 13 de agosto",
+          "url": "https://www.eldiario.es/consumoclaro/retirados-seis-modelos-gafas-ver-eclipse-solar-12-agosto-riesgo-lesiones-oculares_1_13438018.html",
+          "headline": "Retirados seis modelos de gafas para ver el eclipse solar del 12 de agosto por riesgo de lesiones oculares",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.5,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T08:32:56+00:00",
-      "last_seen": "2026-08-10T08:32:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "es",
-      "resonance": 0.28
-    },
-    {
-      "id": "c0a0446e51",
-      "title": "Meliá advierte sobre los efectos de las \"trabas\" al turismo por la disputa entre Sánchez y Meloni",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/ceo-melia-advierte-sobre-los-efectos-las-trabas-turismo-italiano-por-disputa-entre-sanchez-meloni_7024134_0.html",
-          "headline": "Meliá advierte sobre los efectos de las \"trabas\" al turismo por la disputa entre Sánchez y Meloni",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T08:20:09+00:00",
-      "last_seen": "2026-08-10T08:20:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.28
-    },
-    {
-      "id": "c597dec584",
-      "title": "Los océanos alcanzan un nuevo máximo histórico en julio mientras Europa occidental vive su inicio de verano más cálido",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/ciencia/2026/08/10/6a79868021efa006658b4583.html",
-          "headline": "Los océanos alcanzan un nuevo máximo histórico en julio mientras Europa occidental vive su inicio de verano más cálido",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-10T08:16:10+00:00",
-      "last_seen": "2026-08-10T08:16:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.2794
-    },
-    {
-      "id": "4c52c599ed",
-      "title": "Desmantelada en Algeciras una red que blanqueó 8,6 millones procedentes del narcotráfico",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/andalucia/2026-08-10/guardia-civil-narcotrafico-algeciras-blanqueo-1tps_4403663/",
-          "headline": "Desmantelada en Algeciras una red que blanqueó 8,6 millones procedentes del narcotráfico",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T08:13:00+00:00",
-      "last_seen": "2026-08-10T08:13:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.2746
-    },
-    {
-      "id": "e9bff99411",
-      "title": "La AEMET avisa: estas son las 10 comunidades autónomas que están hoy en alerta por altas temperaturas, intensas lluvias y fuertes tormentas",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/2026-08-10/aemet-avisa-10-comunidades_4403645/",
-          "headline": "La AEMET avisa: estas son las 10 comunidades autónomas que están hoy en alerta por altas temperaturas, intensas lluvias y fuertes tormentas",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T08:12:00+00:00",
-      "last_seen": "2026-08-10T08:12:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.2731
-    },
-    {
-      "id": "fff132b1a1",
-      "title": "Muere una mujer en una riña tumultaria en Puente de Vallecas y la Policía detiene a cuatro personas",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/madrid/muere-una-mujer-una-reyerta-puente-vallecas-policia-detiene-cuatro-personas_7024131_0.html",
-          "headline": "Muere una mujer en una riña tumultaria en Puente de Vallecas y la Policía detiene a cuatro personas",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T08:10:47+00:00",
-      "last_seen": "2026-08-10T08:10:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "es",
-      "resonance": 0.2713
-    },
-    {
-      "id": "ad06be4efa",
-      "title": "Muere una mujer en una reyerta en Puente de Vallecas y varias resultan heridas por arma blanca",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/madrid/2026-08-10/mujer-fallecida-reyerta-puente-vallecas-1tps_4403658/",
-          "headline": "Muere una mujer en una reyerta en Puente de Vallecas y varias resultan heridas por arma blanca",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T08:07:00+00:00",
-      "last_seen": "2026-08-10T08:07:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.2657
-    },
-    {
-      "id": "8a46cacc09",
-      "title": "Una violenta reyerta entre clanes familiares en Vallecas termina con una mujer muerta y varios apuñalados",
-      "signal_count": 1,
-      "sources": [
+        },
         {
           "outlet": "El Español",
-          "url": "https://www.elespanol.com/madrid/sociedad/20260810/violenta-reyerta-clanes-familiares-vallecas-termina-mujer-muerta-varios-apunalados/1003744348368_0.html",
-          "headline": "Una violenta reyerta entre clanes familiares en Vallecas termina con una mujer muerta y varios apuñalados",
+          "url": "https://www.elespanol.com/ciencia/salud/20260810/consumo-retira-modelos-gafas-ver-eclipse-riesgo-lesiones-oculares/1003744348919_0.html",
+          "headline": "Consumo retira seis modelos de gafas para ver el eclipse por riesgo de lesiones oculares",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.35,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-10T08:06:43+00:00",
-      "last_seen": "2026-08-10T08:06:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.2652
-    },
-    {
-      "id": "f531e465b2",
-      "title": "La Aemet confirma lluvias y nubosidad el día del eclipse en estas zonas de España",
-      "signal_count": 1,
-      "sources": [
+        },
         {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/2026-08-10/aemet-aviso-nubes-eclipse-1qrt_4403635/",
-          "headline": "La Aemet confirma lluvias y nubosidad el día del eclipse en estas zonas de España",
+          "outlet": "El País",
+          "url": "https://elpais.com/sociedad/2026-08-10/consumo-retira-seis-modelos-de-gafas-para-el-eclipse-por-riesgo-de-lesiones-oculares.html",
+          "headline": "Retirados seis modelos de gafas para el eclipse por riesgo de lesiones oculares",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T07:51:00+00:00",
-      "last_seen": "2026-08-10T07:51:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.2424
-    },
-    {
-      "id": "97cdddbd08",
-      "title": "Shein se deja el 78% de su valor en su accidentado camino hacia la bolsa",
-      "signal_count": 1,
-      "sources": [
+        },
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/salud/alerta-antes-eclipse-solar-total-retiran-seis-modelos-gafas-causar-lesiones-oculares_7024247_0.html",
+          "headline": "Retiran seis modelos de gafas para el eclipse que pueden causar lesiones oculares: esta es la lista",
+          "platform": "rss"
+        },
         {
           "outlet": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/dinero/20260810/11610976/shein-deja-78-valor-accidentado-camino-bolsa.html",
-          "headline": "Shein se deja el 78% de su valor en su accidentado camino hacia la bolsa",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T07:50:04+00:00",
-      "last_seen": "2026-08-10T07:50:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "es",
-      "resonance": 0.241
-    },
-    {
-      "id": "37ecc4f352",
-      "title": "¿Qué tiempo hará el día del eclipse? La Aemet pronostica nubes en estas zonas del país",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/nacional/eclipse-solar-total-directo-espana-miercoles-12-agosto_7024119_6.html",
-          "headline": "¿Qué tiempo hará el día del eclipse? La Aemet pronostica nubes en estas zonas del país",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T07:46:21+00:00",
-      "last_seen": "2026-08-10T07:46:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.2358
-    },
-    {
-      "id": "b9dc83eebc",
-      "title": "El plan gratis con niños para combatir el calor en Madrid: un castillo hinchable acuático con piscina, toboganes y juegos de agua",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/madrid/2026-08-10/plan-gratis-madrid-castillo-hinchable-acuatico_4403583/",
-          "headline": "El plan gratis con niños para combatir el calor en Madrid: un castillo hinchable acuático con piscina, toboganes y juegos de agua",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T07:28:00+00:00",
-      "last_seen": "2026-08-10T07:28:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.2104
-    },
-    {
-      "id": "5b1f6be5b9",
-      "title": "Informes del Ejército alertan del riesgo para la seguridad de la fábrica de China en Ferrol: \"Es una amenaza\"",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "El Español",
-          "url": "https://www.elespanol.com/observatorio-defensa/20260810/cni-ejercito-alertan-riesgo-fabrica-coches-chinos-abrira-cerca-arsenal-armada-ferrol/1003744348252_0.html",
-          "headline": "El CNI y el Ejército alertan del riesgo de la fábrica de coches chinos que abrirá cerca del Arsenal de la Armada en Ferrol",
+          "url": "https://www.lavanguardia.com/vida/20260810/11611117/alertan-retirada-6-modelos-gafas-eclipse-riesgo-lesiones-oculares.html",
+          "headline": "Alertan de la retirada de seis modelos de gafas por riesgo de lesiones oculares",
           "platform": "rss"
         },
         {
           "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/espana/2026/08/09/6a78669be9cf4ad41f8b456e.html",
-          "headline": "Informes del Ejército alertan del riesgo para la seguridad de la fábrica de China en Ferrol: \"Es una amenaza\"",
+          "url": "https://www.elmundo.es/salud/2026/08/10/6a79ac22e85ece88068b4571.html",
+          "headline": "FACUA alerta de la retirada de seis modelos de gafas para el eclipse por riesgo de lesiones oculares",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.325,
-        "spread": 0.025,
-        "left": 0,
-        "center": 0,
+        "mean": -0.025,
+        "spread": 0.291,
+        "left": 1,
+        "center": 3,
         "right": 2
       },
-      "first_seen": "2026-08-09T20:36:09+00:00",
-      "last_seen": "2026-08-10T07:28:56+00:00",
+      "first_seen": "2026-08-10T10:49:19+00:00",
+      "last_seen": "2026-08-10T13:17:59+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.2091
+      "resonance": 0.3143
     },
     {
-      "id": "5e81226d33",
-      "title": "Vuelve el calor intenso con más de 40 ºC pero la Aemet avisa: habrá tormentas con granizo y rachas de viento y estas serán las zonas más afectadas",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/2026-08-10/1qrt-vuelve-calor-intenso-40-grados-aemet-avisa-tormentas-granizo-zonas_4403631/",
-          "headline": "Vuelve el calor intenso con más de 40 ºC pero la Aemet avisa: habrá tormentas con granizo y rachas de viento y estas serán las zonas más afectadas",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T07:27:00+00:00",
-      "last_seen": "2026-08-10T07:27:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.209
-    },
-    {
-      "id": "0b16bc4ea7",
-      "title": "El Gobierno activa un Puesto de Mando Unificado para el eclipse con Protección Civil, Guardia Civil, Policía y DGT",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/nacional/gobierno-activa-un-puesto-mando-unificado-para-eclipse-con-proteccion-civil-guardia-civil-policia-nacional-dgt_7024107_0.html",
-          "headline": "El Gobierno activa un Puesto de Mando Unificado para el eclipse con Protección Civil, Guardia Civil, Policía y DGT",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T07:19:46+00:00",
-      "last_seen": "2026-08-10T07:19:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "es",
-      "resonance": 0.1993
-    },
-    {
-      "id": "502bde4a33",
-      "title": "Meloni y Frederiksen insisten en rechazar \"la inmigración descontrolada\" y piden centros en terceros países",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/internacional/italia-dinamarca-insisten-rechazar-inmigracion-descontrolada-piden-centros-repatriacion-terceros-paises_7024101_0.html",
-          "headline": "Meloni y Frederiksen insisten en rechazar \"la inmigración descontrolada\" y piden centros en terceros países",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T07:15:14+00:00",
-      "last_seen": "2026-08-10T07:15:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "es",
-      "resonance": 0.1933
-    },
-    {
-      "id": "154ab28274",
-      "title": "¿Se pagó otro dividendo de 1,2 millones la pareja de Ayuso o se equivocó en las cuentas?",
+      "id": "6f178d0afe",
+      "title": "Video | La devastación en Cali tras el terremoto vista desde el aire",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "El País",
-          "url": "https://elpais.com/espana/madrid/2026-08-10/se-pago-otro-dividendo-de-12-millones-la-pareja-de-ayuso-o-se-equivoco-en-las-cuentas.html",
-          "headline": "¿Se pagó otro dividendo de 1,2 millones la pareja de Ayuso o se equivocó en las cuentas?",
+          "url": "https://elpais.com/america-colombia/2026-08-10/video-la-devastacion-en-cali-tras-el-terremoto-vista-desde-el-aire.html",
+          "headline": "Video | La devastación en Cali tras el terremoto vista desde el aire",
           "platform": "rss"
         }
       ],
@@ -687,147 +178,54 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-10T07:05:49+00:00",
-      "last_seen": "2026-08-10T07:05:49+00:00",
+      "first_seen": "2026-08-10T18:51:05+00:00",
+      "last_seen": "2026-08-10T18:51:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.1811
+      "resonance": 0.28
     },
     {
-      "id": "c20471f82d",
-      "title": "El incendio de Niebla es \"difícil y peligroso\" y las autoridades advierten de un escenario \"imprevisible\"",
+      "id": "47fe9f6364",
+      "title": "Mapas y gráficos del devastador terremoto en Colombia",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "elDiario.es",
-          "url": "https://www.eldiario.es/andalucia/huelva/aumentan-600-efectivos-combaten-incendio-niebla-voracidad-peligrosa-bomberos_1_13437404.html",
-          "headline": "El incendio de Niebla es \"difícil y peligroso\" y las autoridades advierten de un escenario \"imprevisible\"",
+          "outlet": "El País",
+          "url": "https://elpais.com/internacional/2026-08-10/mapas-y-graficos-del-devastador-terremoto-en-colombia.html",
+          "headline": "Mapas y gráficos del devastador terremoto en Colombia",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.5,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T07:00:29+00:00",
-      "last_seen": "2026-08-10T07:00:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "es",
-      "resonance": 0.1742
-    },
-    {
-      "id": "7742f01af2",
-      "title": "Condenado a 3 meses de prisión un soldado por viajar fuera de su destino mientras estaba de baja",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/2026-08-10/soldado-melilla-abandono-residencia-1tna-1tps_4403594/",
-          "headline": "Condenado a 3 meses de prisión un soldado por viajar fuera de su destino mientras estaba de baja",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-10T06:33:00+00:00",
-      "last_seen": "2026-08-10T06:33:00+00:00",
+      "first_seen": "2026-08-10T18:42:29+00:00",
+      "last_seen": "2026-08-10T18:42:29+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.1403
+      "resonance": 0.28
     },
     {
-      "id": "7e7f5d9616",
-      "title": "Kelly Clarkson sufre un percance en pleno concierto: \"Ahí están mis pechos\"",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/musica/kelly-clarkson-sufre-un-percance-con-su-blusa-pleno-concierto-ahi-estan-mis-pechos_7024085_0.html",
-          "headline": "Kelly Clarkson sufre un percance en pleno concierto: \"Ahí están mis pechos\"",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T06:32:56+00:00",
-      "last_seen": "2026-08-10T06:32:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.1402
-    },
-    {
-      "id": "87ab6fb0ee",
-      "title": "Desalojadas 200 personas en Los Ángeles de San Rafael y Vegas de Matute, en Segovia, por un incendio",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/espana/2026/08/10/6a795e5c21efa088308b4592.html",
-          "headline": "Fuego técnico y maquinaria pesada para combatir el incendio de Niebla (Huelva) y más de 600 evacuados en Los Ángeles de San Rafael, Vegas de Matute (Segovia) y Catí (Castellón)",
-          "platform": "rss"
-        },
-        {
-          "outlet": "elDiario.es",
-          "url": "https://www.eldiario.es/castilla-y-leon/sociedad/noche-positiva-incendio-declarado-sabado-espinar-segovia_1_13436650.html",
-          "headline": "Desalojadas 200 personas en Los Ángeles de San Rafael y Vegas de Matute, en Segovia, por un incendio",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.4,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-09T08:25:16+00:00",
-      "last_seen": "2026-08-10T05:50:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "es",
-      "resonance": 0.1064
-    },
-    {
-      "id": "e6d0f9205a",
-      "title": "El tifón Dolphin no estropea una buena foto en Shanghái",
+      "id": "32ef59b295",
+      "title": "Las autoridades de Colombia elevan a 111 los muertos por el terremoto de magnitud 7,4 que ha derribado además numerosos edificios",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/internacional/2026/08/10/6a7939dde9cf4ac7528b4581.html",
-          "headline": "El tifón Dolphin no estropea una buena foto en Shanghái",
+          "url": "https://www.elmundo.es/internacional/2026/08/10/6a79cc12fdddff3a6a8b4578.html",
+          "headline": "Las autoridades de Colombia elevan a 111 los muertos por el terremoto de magnitud 7,4 que ha derribado además numerosos edificios",
           "platform": "rss"
         }
       ],
@@ -838,54 +236,275 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-08-10T05:26:31+00:00",
-      "last_seen": "2026-08-10T05:26:31+00:00",
+      "first_seen": "2026-08-10T18:42:24+00:00",
+      "last_seen": "2026-08-10T18:42:24+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.0663
+      "resonance": 0.28
     },
     {
-      "id": "d55aa0d3f3",
-      "title": "La UE pone en marcha la 'revolución' del envase', que vetará bolsas, monodosis y cortesías de hotel",
+      "id": "a5faa3f4a8",
+      "title": "El relato de una Colombia \"devastada\" por el terremoto: \"Sonó durísimo, sentimos como si hubiera caballos cabalgando debajo de casa\"",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/nacional/ue-pone-marcha-esta-semana-revolucion-envase-que-vetara-bolsas-monodosis-cortesias-hotel_7022923_0.html",
-          "headline": "La UE pone en marcha la 'revolución' del envase', que vetará bolsas, monodosis y cortesías de hotel",
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/08/10/6a79f7b2fc6c839e488b4593.html",
+          "headline": "El relato de una Colombia \"devastada\" por el terremoto: \"Sonó durísimo, sentimos como si hubiera caballos cabalgando debajo de casa\"",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-10T18:34:48+00:00",
+      "last_seen": "2026-08-10T18:34:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.28
+    },
+    {
+      "id": "9a94a10580",
+      "title": "Terremoto en Colombia: las imágenes tras el temblor de 7,4",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/fotos-terremoto-colombia-destruccion-imagenes_3_13438926.html",
+          "headline": "FOTOS | El terremoto de Colombia y su destrucción, en imágenes",
+          "platform": "rss"
+        },
+        {
+          "outlet": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/internacional/20260810/11611505/terremoto-colombia-imagenes-temblor-7-4.html",
+          "headline": "Terremoto en Colombia: las imágenes tras el temblor de 7,4",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.2,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-10T15:11:51+00:00",
+      "last_seen": "2026-08-10T15:44:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2622
+    },
+    {
+      "id": "a32c561371",
+      "title": "El Gobierno mantiene su apoyo a la fábrica china en Ferrol pese a las alertas de Defensa",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País",
+          "url": "https://elpais.com/espana/2026-08-10/el-gobierno-mantiene-su-apoyo-a-la-fabrica-china-en-ferrol-pese-a-las-alertas-de-defensa.html",
+          "headline": "El Gobierno mantiene su apoyo a la fábrica china en Ferrol pese a las alertas de Defensa",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-10T05:21:07+00:00",
-      "last_seen": "2026-08-10T05:21:07+00:00",
+      "first_seen": "2026-08-10T18:14:43+00:00",
+      "last_seen": "2026-08-10T18:14:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "es",
-      "resonance": 0.0607
+      "resonance": 0.2532
     },
     {
-      "id": "a3b4df6100",
-      "title": "La \"anómala\" actividad sísmica en Tenerife eleva la vigilancia: \"Es probable que surja otro volcán\"",
+      "id": "6c6a83da55",
+      "title": "Más de 110 muertos tras un terremoto de 7,4 en Colombia",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "El País",
+          "url": "https://elpais.com/america-colombia/2026-08-10/un-fuerte-temblor-sacude-colombia.html",
+          "headline": "Más de 110 muertos tras un terremoto de 7,4 en Colombia",
+          "platform": "rss"
+        },
+        {
+          "outlet": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/internacional/20260810/11611420/terremoto-colombia.html",
+          "headline": "Colombia declara “desastre nacional” tras un terremoto de 7,4 que deja más de cien muertos",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-10T12:59:40+00:00",
+      "last_seen": "2026-08-10T17:38:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2474
+    },
+    {
+      "id": "a58593c9b9",
+      "title": "El incendio de Niebla (Huelva) ha afectado ya a 20.000 hectáreas y sigue fuera de control: \"El monte artificial ha convertido esta comarca en un polvorín\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/andalucia/2026/08/10/6a79fd42fc6c837f198b4586.html",
+          "headline": "El incendio de Niebla (Huelva) ha afectado ya a 20.000 hectáreas y sigue fuera de control: \"El monte artificial ha convertido esta comarca en un polvorín\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-10T18:09:39+00:00",
+      "last_seen": "2026-08-10T18:09:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "es",
+      "resonance": 0.2464
+    },
+    {
+      "id": "24abf4b120",
+      "title": "Al menos 13 muertos y 39 heridos: los drones ucranianos vuelven a atacar el corazón petroquímico de Rusia",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/08/10/6a797678e9cf4a5d288b4576.html",
+          "headline": "Al menos 13 muertos y 39 heridos: los drones ucranianos vuelven a atacar el corazón petroquímico de Rusia",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-10T18:02:19+00:00",
+      "last_seen": "2026-08-10T18:02:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2367
+    },
+    {
+      "id": "9aa8764572",
+      "title": "Marruecos exige ahora repatriar a todos sus menores no acompañados que están en España: \"Deben estar en su país\"",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/ceuta/marruecos-exige-ahora-espana-repatriacion-sus-menores-no-acompanados_7024392_0.html",
+          "headline": "Marruecos exige ahora a España la repatriación desde la ciudad de todos sus menores no acompañados",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/espana/20260810/marruecos-exige-ahora-repatriar-menores-no-acompanados-espana-deben-pais/1003744348972_0.html",
+          "headline": "Marruecos exige ahora repatriar a todos sus menores no acompañados que están en España: \"Deben estar en su país\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.175,
+        "spread": 0.175,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-08-10T14:21:19+00:00",
+      "last_seen": "2026-08-10T15:52:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2285
+    },
+    {
+      "id": "b1c53cb804",
+      "title": "El Supremo excluye de las elecciones al opositor Yábloko, único partido contra la guerra",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/internacional/20260810/11611579/el-supremo-ruso-excluye-de-las-elecciones-al-opositor-yabloko-unico-partido-que-se-opone-a-la-guerra-en-ucrania.html",
+          "headline": "El Supremo excluye de las elecciones al opositor Yábloko, único partido contra la guerra",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-10T17:54:04+00:00",
+      "last_seen": "2026-08-10T17:54:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "es",
+      "resonance": 0.2261
+    },
+    {
+      "id": "a0f8dc6ebc",
+      "title": "El Consulado de España en Colombia, en contacto para atender a posibles españoles afectados por el terremoto",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "20minutos",
-          "url": "https://www.20minutos.es/canarias/tenerife/anomala-actividad-sismica-tenerife-eleva-vigilancia-pero-riesgo-erupcion-es-bajo-es-probable-que-surja-otro-volcan_7023555_0.html",
-          "headline": "La \"anómala\" actividad sísmica en Tenerife eleva la vigilancia: \"Es probable que surja otro volcán\"",
+          "url": "https://www.20minutos.es/internacional/consulado-espana-colombia-contacto-para-atender-posibles-espanoles-afectados-por-terremoto_7024435_0.html",
+          "headline": "El Consulado de España en Colombia, en contacto para atender a posibles españoles afectados por el terremoto",
           "platform": "rss"
         }
       ],
@@ -896,8 +515,473 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-10T05:10:32+00:00",
-      "last_seen": "2026-08-10T05:10:32+00:00",
+      "first_seen": "2026-08-10T17:44:31+00:00",
+      "last_seen": "2026-08-10T17:44:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.214
+    },
+    {
+      "id": "f349bf3503",
+      "title": "El terremoto en Colombia obliga a desalojar en directo el estudio de Radio Tropicana: ¡Salgamos, Dios mío, salgamos!",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País",
+          "url": "https://elpais.com/videos/2026-08-10/el-terremoto-en-colombia-obliga-a-desalojar-en-directo-el-estudio-de-radio-tropicana-salgamos-dios-mio-salgamos.html",
+          "headline": "El terremoto en Colombia obliga a desalojar en directo el estudio de Radio Tropicana: ¡Salgamos, Dios mío, salgamos!",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-10T17:32:23+00:00",
+      "last_seen": "2026-08-10T17:32:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "es",
+      "resonance": 0.199
+    },
+    {
+      "id": "fcd6cdb001",
+      "title": "Shakira, Camilo, Sebastián Yatra, J Balvin... los famosos colombianos se vuelcan con el país tras el terremoto",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/gente/shakira-camilo-sebastian-yatra-j-balvin-los-famosos-colombianos-se-vuelcan-con-pais-tras-terremoto_7024425_0.html",
+          "headline": "Shakira, Camilo, Sebastián Yatra, J Balvin... los famosos colombianos se vuelcan con el país tras el terremoto",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-10T17:31:05+00:00",
+      "last_seen": "2026-08-10T17:31:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.1974
+    },
+    {
+      "id": "cf0fb957dc",
+      "title": "Miguel Ángel Galán denuncia a Infantino y pide investigar su plan de privatizar el Mundial y los nexos con Donald Trump",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/deportes/futbol/20260810/miguel-angel-galan-denuncia-infantino-pide-investigar-plan-privatizar-mundial-nexos-donald-trump/1003744349219_0.html",
+          "headline": "Miguel Ángel Galán denuncia a Infantino y pide investigar su plan de privatizar el Mundial y los nexos con Donald Trump",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.35,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-10T17:20:42+00:00",
+      "last_seen": "2026-08-10T17:20:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "es",
+      "resonance": 0.1849
+    },
+    {
+      "id": "ef26ab023c",
+      "title": "Así ha temblado el aeropuerto de Pereira durante el terremoto de magnitud 7,4 en Colombia",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/internacional/20260810/11611565/asi-temnblado-aeopuerto-pereira-terremoto-magnitud-7-4-colombia.html",
+          "headline": "Así ha temblado el aeropuerto de Pereira durante el terremoto de magnitud 7,4 en Colombia",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-10T17:17:11+00:00",
+      "last_seen": "2026-08-10T17:17:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.1807
+    },
+    {
+      "id": "c9ce7cb57d",
+      "title": "¿Por qué los medios no se ponen de acuerdo en cuántas olas de calor llevamos este verano?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/vida/verificacion/20260810/11611548/medios-ponen-acuerdo-olas-calor-llevamos-verano.html",
+          "headline": "¿Por qué los medios no se ponen de acuerdo en cuántas olas de calor llevamos este verano?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-10T16:50:41+00:00",
+      "last_seen": "2026-08-10T16:50:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.1504
+    },
+    {
+      "id": "b9562fe519",
+      "title": "Los testimonios de afectados por el seísmo: \"Sentí que las copas de vino iban a estallar, todo se movía en mi casa\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/internacional/los-testimonios-los-afectados-por-terremoto-colombia-senti-que-las-copas-vino-iban-estallar-todo-se-movia_7024398_0.html",
+          "headline": "Los testimonios de afectados por el seísmo: \"Sentí que las copas de vino iban a estallar, todo se movía en mi casa\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-10T16:30:41+00:00",
+      "last_seen": "2026-08-10T16:30:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.1287
+    },
+    {
+      "id": "6d0dc28793",
+      "title": "Los mapas del terremoto en Colombia: estas son las zonas más afectadas",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/mapas-terremoto-colombia-son-zonas-afectadas_1_13438997.html",
+          "headline": "Los mapas del terremoto en Colombia: estas son las zonas más afectadas",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.5,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-10T16:19:57+00:00",
+      "last_seen": "2026-08-10T16:19:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.1174
+    },
+    {
+      "id": "3071ef5f05",
+      "title": "Carlota, la hija mayor detenida como autora del homicidio de sus padres en Zaragoza: \"Ellos la querían mucho\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/aragon/actualidad/20260810/carlota-hija-mayor-presunta-autora-doble-homicidio-esther-latorre-javier-sanchez-tauste-zaragoza/1003744349097_0.html",
+          "headline": "Carlota, la hija mayor detenida como autora del homicidio de sus padres en Zaragoza: \"Ellos la querían mucho\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.35,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-10T16:07:53+00:00",
+      "last_seen": "2026-08-10T16:07:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.105
+    },
+    {
+      "id": "08a3f10339",
+      "title": "Así avanza el incendio de Niebla tras arrasar 20.000 hectáreas: las imágenes del antes y el después",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "elDiario.es",
+          "url": "https://www.eldiario.es/andalucia/avanza-incendio-niebla-arrasar-20-000-hectareas-imagenes-despues_1_13438980.html",
+          "headline": "Así avanza el incendio de Niebla tras arrasar 20.000 hectáreas: las imágenes del antes y el después",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/espana/andalucia/20260810/incendio-niebla-alcanza-hectareas-afectadas-encuentra-capacidad-extincion/1003744348691_0.html",
+          "headline": "El incendio en Niebla obliga al desalojo preventivo de El Madroño y Las Delgadas: ya son 20.000 hectáreas afectadas",
+          "platform": "rss"
+        },
+        {
+          "outlet": "elDiario.es",
+          "url": "https://www.eldiario.es/andalucia/huelva/aumentan-600-efectivos-combaten-incendio-niebla-voracidad-peligrosa-bomberos_1_13437404.html",
+          "headline": "El incendio de Niebla avanza sin control, ha calcinado ya 20.000 hectáreas y ahora mismo no hay manera de extinguirlo",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.217,
+        "spread": 0.401,
+        "left": 2,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-10T07:00:29+00:00",
+      "last_seen": "2026-08-10T16:03:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "es",
+      "resonance": 0.1029
+    },
+    {
+      "id": "563f539b7e",
+      "title": "Detenidos la hija y su pareja por la muerte del exsecretario de UAGA de Aragón y su mujer",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/politica/20260810/11611389/detenidos-hija-pareja-muerte-exsecretario-uaga-aragon-mujer.html",
+          "headline": "Detenidos la hija y su pareja por la muerte del exsecretario de UAGA de Aragón y su mujer",
+          "platform": "rss"
+        },
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/aragon/zaragoza/sucesos-zaragoza-detenidos-hija-su-pareja-por-muerte-exsecretario-uaga-aragon-su-mujer_7024282_0.html",
+          "headline": "Detenida una de las hijas y su pareja por la muerte del exsecretario de UAGA de Aragón y su mujer",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-10T11:45:18+00:00",
+      "last_seen": "2026-08-10T12:20:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.0643
+    },
+    {
+      "id": "057970fd26",
+      "title": "El hermano de Íñigo Onieva, entre los tres amigos que visitarán a Daniel Sancho",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/gente/hermano-inigo-onieva-entre-los-tres-amigos-que-visitaran-daniel-sancho-tailandia_7024372_0.html",
+          "headline": "El hermano de Íñigo Onieva, entre los tres amigos que visitarán a Daniel Sancho",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-10T15:24:49+00:00",
+      "last_seen": "2026-08-10T15:24:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.0634
+    },
+    {
+      "id": "c6235f92b9",
+      "title": "Irán y Omán redibujan el mapa de Ormuz sin Washington",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/08/10/6a79e716fc6c837f198b457c.html",
+          "headline": "Irán y Omán redibujan el mapa de Ormuz sin Washington",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-10T15:15:22+00:00",
+      "last_seen": "2026-08-10T15:15:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.0547
+    },
+    {
+      "id": "9114e9c2e0",
+      "title": "Dónde ver el eclipse solar del 12 de agosto en Cantabria: recorrido, duración y los mejores puntos de observación",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "El Confidencial",
+          "url": "https://www.elconfidencial.com/espana/2026-08-10/miradores-cantabria-eclipse-12-agosto-1tna-1qrt_4403784/",
+          "headline": "Dónde ver el eclipse solar del 12 de agosto en Cantabria: recorrido, duración y los mejores puntos de observación",
+          "platform": "rss"
+        },
+        {
+          "outlet": "elDiario.es",
+          "url": "https://www.eldiario.es/sociedad/mapa-ver-eclipse-solar-12-agosto-recorrido-visibilidad-municipio-minuto-minuto_1_13437675.html",
+          "headline": "MAPA | Dónde ver el eclipse solar del 12 de agosto: recorrido y visibilidad en cada municipio, minuto a minuto",
+          "platform": "rss"
+        },
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/nacional/horario-eclipse-solar-este-12-agosto-que-hora-se-vera-cada-lugar-espana_7023784_0.html",
+          "headline": "Horario del eclipse solar este 12 de agosto: a qué hora se verá en cada lugar de España",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.216,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-09T06:23:16+00:00",
+      "last_seen": "2026-08-10T12:52:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.0543
+    },
+    {
+      "id": "40e31ec736",
+      "title": "¿Dónde ha sido el terremoto de Colombia? Así es el Anillo de Fuego, una de las zonas más sísmicas del planeta",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/internacional/donde-terremoto-colombia-anillo-fuego-zonas-mas-sismicas-planeta_7024376_0.html",
+          "headline": "¿Dónde ha sido el terremoto de Colombia? Así es el Anillo de Fuego, una de las zonas más sísmicas del planeta",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-10T15:11:02+00:00",
+      "last_seen": "2026-08-10T15:11:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.0508
+    },
+    {
+      "id": "8317613ea8",
+      "title": "Las primeras imágenes de rescates de afectados por el terremoto en medio de los escombros de Cali",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País",
+          "url": "https://elpais.com/america-colombia/2026-08-10/video-ciudadanos-inician-labores-de-rescate-en-medio-de-los-escombros-de-cali.html",
+          "headline": "Las primeras imágenes de rescates de afectados por el terremoto en medio de los escombros de Cali",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-10T15:10:06+00:00",
+      "last_seen": "2026-08-10T15:10:06+00:00",
       "platforms": [
         "rss"
       ],
@@ -909,51 +993,153 @@
   ],
   "edges": [
     {
-      "source": "156255aaef",
-      "target": "502bde4a33",
-      "weight": 0.553,
+      "source": "6d2657b5f0",
+      "target": "47fe9f6364",
+      "weight": 0.144,
       "type": "thematic"
     },
     {
-      "source": "e9bff99411",
-      "target": "f531e465b2",
-      "weight": 0.08,
+      "source": "6d2657b5f0",
+      "target": "32ef59b295",
+      "weight": 0.515,
       "type": "thematic"
     },
     {
-      "source": "e9bff99411",
-      "target": "5e81226d33",
-      "weight": 0.097,
+      "source": "6d2657b5f0",
+      "target": "9a94a10580",
+      "weight": 0.237,
       "type": "thematic"
     },
     {
-      "source": "fff132b1a1",
-      "target": "ad06be4efa",
-      "weight": 0.765,
+      "source": "6d2657b5f0",
+      "target": "6c6a83da55",
+      "weight": 0.865,
       "type": "thematic"
     },
     {
-      "source": "fff132b1a1",
-      "target": "8a46cacc09",
-      "weight": 0.012,
+      "source": "6d2657b5f0",
+      "target": "f349bf3503",
+      "weight": 0.227,
       "type": "thematic"
     },
     {
-      "source": "ad06be4efa",
-      "target": "8a46cacc09",
-      "weight": 0.331,
+      "source": "6d2657b5f0",
+      "target": "ef26ab023c",
+      "weight": 0.487,
       "type": "thematic"
     },
     {
-      "source": "f531e465b2",
-      "target": "37ecc4f352",
-      "weight": 0.514,
+      "source": "6d2657b5f0",
+      "target": "6d0dc28793",
+      "weight": 0.267,
       "type": "thematic"
     },
     {
-      "source": "f531e465b2",
-      "target": "5e81226d33",
-      "weight": 0.041,
+      "source": "6f178d0afe",
+      "target": "9a94a10580",
+      "weight": 0.103,
+      "type": "thematic"
+    },
+    {
+      "source": "6f178d0afe",
+      "target": "6c6a83da55",
+      "weight": 0.192,
+      "type": "thematic"
+    },
+    {
+      "source": "6f178d0afe",
+      "target": "8317613ea8",
+      "weight": 0.086,
+      "type": "thematic"
+    },
+    {
+      "source": "47fe9f6364",
+      "target": "6c6a83da55",
+      "weight": 0.025,
+      "type": "thematic"
+    },
+    {
+      "source": "47fe9f6364",
+      "target": "6d0dc28793",
+      "weight": 0.818,
+      "type": "thematic"
+    },
+    {
+      "source": "32ef59b295",
+      "target": "6c6a83da55",
+      "weight": 0.294,
+      "type": "thematic"
+    },
+    {
+      "source": "32ef59b295",
+      "target": "ef26ab023c",
+      "weight": 0.396,
+      "type": "thematic"
+    },
+    {
+      "source": "9a94a10580",
+      "target": "6c6a83da55",
+      "weight": 0.762,
+      "type": "thematic"
+    },
+    {
+      "source": "9a94a10580",
+      "target": "6d0dc28793",
+      "weight": 0.045,
+      "type": "thematic"
+    },
+    {
+      "source": "9a94a10580",
+      "target": "08a3f10339",
+      "weight": 0.667,
+      "type": "thematic"
+    },
+    {
+      "source": "9a94a10580",
+      "target": "8317613ea8",
+      "weight": 0.692,
+      "type": "thematic"
+    },
+    {
+      "source": "6c6a83da55",
+      "target": "fcd6cdb001",
+      "weight": 0.017,
+      "type": "thematic"
+    },
+    {
+      "source": "6c6a83da55",
+      "target": "6d0dc28793",
+      "weight": 0.126,
+      "type": "thematic"
+    },
+    {
+      "source": "a58593c9b9",
+      "target": "08a3f10339",
+      "weight": 0.849,
+      "type": "thematic"
+    },
+    {
+      "source": "9aa8764572",
+      "target": "a0f8dc6ebc",
+      "weight": 0.026,
+      "type": "thematic"
+    },
+    {
+      "source": "ef26ab023c",
+      "target": "40e31ec736",
+      "weight": 0.45,
+      "type": "thematic"
+    },
+    {
+      "source": "6d0dc28793",
+      "target": "40e31ec736",
+      "weight": 0.435,
+      "type": "thematic"
+    },
+    {
+      "source": "08a3f10339",
+      "target": "8317613ea8",
+      "weight": 0.064,
       "type": "thematic"
     }
   ],

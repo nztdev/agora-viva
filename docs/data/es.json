@@ -1,311 +1,335 @@
 {
-  "generated_at": "2026-08-11T08:31:37.720454+00:00",
+  "generated_at": "2026-08-11T19:33:32.005550+00:00",
   "country_code": "es",
   "country_name": "España",
   "language": "es",
   "node_count": 30,
-  "edge_count": 16,
+  "edge_count": 6,
   "nodes": [
     {
-      "id": "30ac1b349e",
-      "title": "Última hora del terremoto en Colombia, en directo | Al menos 132 muertos y 570 heridos por el seísmo de magnitud 7,4",
-      "signal_count": 4,
+      "id": "ae517472e4",
+      "title": "Marta García atrapa una plata de relumbrón en el 5.000 del Campeonato de Europa",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/deportes/20260811/11612243/marta-garcia-atrapa-plata-relumbron-5-000-campeonato-europa.html",
+          "headline": "Marta García atrapa una plata de relumbrón en el 5.000 del Campeonato de Europa",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/deportes/mas-deporte/2026/08/11/6a7b3d03e85ece471d8b4591.html",
+          "headline": "Nada puede con Marta García, plata europea en el 5.000 en una carrera de raza",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/deportes/otros-deportes/20260811/marta-garcia-cuelga-medalla-plata-europeo-atletismo-prueba-metros/1003744350341_0.html",
+          "headline": "Marta García se cuelga la medalla de plata en el Europeo de atletismo en la prueba de los 5.000 metros",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.183,
+        "spread": 0.201,
+        "left": 0,
+        "center": 1,
+        "right": 2
+      },
+      "first_seen": "2026-08-11T18:42:43+00:00",
+      "last_seen": "2026-08-11T19:04:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "es",
+      "resonance": 0.6994
+    },
+    {
+      "id": "a2012a2a5f",
+      "title": "Rafa Jódar - Arthur Fils en directo | Se suspende el partido temporalmente por las lluvias en Canadá",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "El País",
+          "url": "https://elpais.com/deportes/tenis/2026-08-11/rafa-jodar-arthur-fils-en-directo-los-cuartos-del-masters-1000-de-canada-en-vivo.html",
+          "headline": "Rafa Jódar - Arthur Fils en directo | Se suspende el partido temporalmente por las lluvias en Canadá",
+          "platform": "rss"
+        },
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/deportes/tenis/rafa-jodar-arthur-fils-directo-ultima-hora-resultado-los-cuartos-final-masters-1000-canada_7024798_6.html",
+          "headline": "¡Se detiene el Jódar-Fils en Montreal! La lluvia hace acto de presencia y suspende temporalmente el partido",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-11T18:00:20+00:00",
+      "last_seen": "2026-08-11T19:06:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "es",
+      "resonance": 0.5399
+    },
+    {
+      "id": "1b4e8bb79b",
+      "title": "Defensa comunica a la Xunta que no pondrá objeciones a la fábrica china en Ferrol",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/galicia/2026/08/11/6a7b513fe4d4d8ed108b4586.html",
+          "headline": "Robles traslada a la Xunta que el informe final de Defensa será favorable a la fábrica de Ferrol",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El País",
+          "url": "https://elpais.com/espana/2026-08-11/defensa-comunica-a-la-xunta-que-no-pondra-objeciones-a-la-fabrica-china-en-ferrol.html",
+          "headline": "Defensa comunica a la Xunta que no pondrá objeciones a la fábrica china en Ferrol",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.25,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-08-11T15:53:57+00:00",
+      "last_seen": "2026-08-11T17:27:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.3335
+    },
+    {
+      "id": "cf3ec22bda",
+      "title": "Última hora del terremoto en Colombia, en directo | Asciende a 224 la cifra de muertos por el seísmo en Colombia de magnitud 7,4",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "El País",
           "url": "https://elpais.com/america-colombia/2026-08-11/ultima-hora-del-terremoto-en-colombia-en-directo.html",
-          "headline": "Última hora del terremoto en Colombia, en directo | Al menos 132 muertos y 570 heridos por el seísmo de magnitud 7,4",
+          "headline": "Última hora del terremoto en Colombia, en directo | Asciende a 224 la cifra de muertos por el seísmo en Colombia de magnitud 7,4",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-11T19:18:34+00:00",
+      "last_seen": "2026-08-11T19:18:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.28
+    },
+    {
+      "id": "ea2c0359de",
+      "title": "Eclipse solar en España, hoy en directo | A qué hora es, gafas homologadas y dónde verlo mañana 12 de agosto",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/sociedad/20260811/eclipse-solar-espana-hoy-directo-hora-gafas-homologadas-verlo-manana-agosto/1003744350056_10.html",
+          "headline": "Eclipse solar en España, hoy en directo | A qué hora es, gafas homologadas y dónde verlo mañana 12 de agosto",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/ciencia/20260811/comprar-gafas-eclipse-solar-agosto-todas-opciones-ultima-hora/1003744349974_0.html",
+          "headline": "Dónde comprar gafas para el eclipse solar del 12 de agosto de 2026: todas las opciones de última hora",
+          "platform": "rss"
+        },
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/nacional/eclipse-solar-total-espana-miercoles-12-agosto-directo_7024119_6.html",
+          "headline": "Eclipse solar total del 12 de agosto, en directo | A qué hora es, dónde ver, gafas homologadas y estado del cielo según Aemet",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.233,
+        "spread": 0.165,
+        "left": 0,
+        "center": 1,
+        "right": 2
+      },
+      "first_seen": "2026-08-11T07:36:28+00:00",
+      "last_seen": "2026-08-11T19:18:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.3287
+    },
+    {
+      "id": "5eed8902ad",
+      "title": "Un organismo oficial de Marruecos acusa a la policía española de infligir “malos tratos y agresiones” a los migrantes en Ceuta",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País",
+          "url": "https://elpais.com/espana/2026-08-11/un-organismo-de-marruecos-acusa-a-la-policia-espanola-de-propinar-malos-tratos-y-agresiones-a-los-emigrantes-en-ceuta.html",
+          "headline": "Un organismo oficial de Marruecos acusa a la policía española de infligir “malos tratos y agresiones” a los migrantes en Ceuta",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-11T18:54:25+00:00",
+      "last_seen": "2026-08-11T18:54:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "es",
+      "resonance": 0.28
+    },
+    {
+      "id": "03c4826ed2",
+      "title": "Exteriores informa de 164 españoles en paradero desconocido tras el terremoto en Colombia",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/internacional/gobierno-confirma-que-hay-164-espanoles-paradero-desconocido-tras-terremoto-colombia_7024802_0.html",
+          "headline": "El Gobierno confirma que hay 164 españoles en paradero desconocido tras el terremoto en Colombia",
+          "platform": "rss"
+        },
+        {
+          "outlet": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/internacional/20260811/11611966/exteriores-informa-164-espanoles-paradero-desconocido-terremoto-colombia.html",
+          "headline": "Exteriores informa de 164 españoles en paradero desconocido tras el terremoto en Colombia",
           "platform": "rss"
         },
         {
           "outlet": "elDiario.es",
           "url": "https://www.eldiario.es/internacional/ultima-hora-terremoto-colombia-directo-132-muertos-cientos-heridos_133_13439594.html",
-          "headline": "Última hora del terremoto en Colombia, en directo: al menos 132 muertos y cientos de desaparecidos",
-          "platform": "rss"
-        },
-        {
-          "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/internacional/2026/08/10/6a79cc12fdddff3a6a8b4578.html",
-          "headline": "Colombia declara el \"desastre nacional\" tras un terremoto de 7,4 que ha dejado al menos 132 muertos y 570 heridos",
-          "platform": "rss"
-        },
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/internacional/un-terremoto-magnitud-7-4-sacude-gran-parte-colombia_7024310_0.html",
-          "headline": "Colombia declara el estado de emergencia tras el devastador terremoto que deja ya 132 muertos y 570 heridos",
+          "headline": "Última hora del terremoto en Colombia, en directo: al menos 240 muertos y 164 españoles en paradero desconocido",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.292,
+        "mean": -0.2,
+        "spread": 0.216,
         "left": 1,
         "center": 2,
-        "right": 1
+        "right": 0
       },
-      "first_seen": "2026-08-10T13:22:53+00:00",
-      "last_seen": "2026-08-11T08:26:01+00:00",
+      "first_seen": "2026-08-11T05:20:45+00:00",
+      "last_seen": "2026-08-11T17:18:37+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "politics",
       "language": "es",
-      "resonance": 0.6677
+      "resonance": 0.2784
     },
     {
-      "id": "bfc7d25f78",
-      "title": "Detenido por la muerte a puñaladas de su pareja en San Pedro Alcántara",
+      "id": "26bdb55327",
+      "title": "La exdiputada de Ciudadanos que pide no mirar al eclipse tras quedarse ciega: “No son conscientes del peligro que supone”",
       "signal_count": 2,
       "sources": [
-        {
-          "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/andalucia/2026/08/11/6a7acbd1fdddffeb1d8b458c.html",
-          "headline": "Detenido por la muerte a puñaladas de su pareja en San Pedro Alcántara",
-          "platform": "rss"
-        },
         {
           "outlet": "20minutos",
-          "url": "https://www.20minutos.es/andalucia/malaga/investigan-como-violencia-machista-muerte-una-mujer-trans-punaladas-una-vivienda-san-pedro-alcantara_7024493_0.html",
-          "headline": "Detenido un hombre por la muerte de una mujer trans a puñaladas en una vivienda de San Pedro de Alcántara",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.15,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-08-11T06:31:24+00:00",
-      "last_seen": "2026-08-11T08:20:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "es",
-      "resonance": 0.5559
-    },
-    {
-      "id": "69b6701028",
-      "title": "Detenido un hombre en Marbella por la muerte a puñaladas de una mujer de 36 años en un posible nuevo crimen machista",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "El Español",
-          "url": "https://www.elespanol.com/malaga/marbella/20260811/detenido-hombre-matar-punaladas-pareja-mujer-trans-anos-marbella/1003744349421_0.html",
-          "headline": "Detenido un hombre tras matar a puñaladas a su pareja, una mujer trans de 35 años, en Marbella",
+          "url": "https://www.20minutos.es/nacional/una-exdiputada-ciudadanos-casi-ciega-por-un-eclipse-pide-no-mirarlo-este-miercoles-no-son-conscientes-peligro-que-supone_7024855_0.html",
+          "headline": "Una exdiputada, casi ciega a causa de un eclipse, pide no mirarlo: \"No son conscientes del peligro que supone\"",
           "platform": "rss"
         },
-        {
-          "outlet": "elDiario.es",
-          "url": "https://www.eldiario.es/andalucia/detenido-hombre-marbella-muerte-punaladas-mujer-36-anos-posible-nuevo-crimen-machista_1_13439633.html",
-          "headline": "Detenido un hombre en Marbella por la muerte a puñaladas de una mujer de 36 años en un posible nuevo crimen machista",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.425,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-11T06:45:04+00:00",
-      "last_seen": "2026-08-11T06:59:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "es",
-      "resonance": 0.4787
-    },
-    {
-      "id": "fd9802a90f",
-      "title": "La ruta literaria que se esconde en la costa de Tarragona: 13 paradas por el refugio de Carlos Barral y los autores del 'boom'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/cataluna/2026-08-11/ruta-literaria-carlos-barral-tarragona-1tna-1qrt_4403700/",
-          "headline": "La ruta literaria que se esconde en la costa de Tarragona: 13 paradas por el refugio de Carlos Barral y los autores del 'boom'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-11T08:23:00+00:00",
-      "last_seen": "2026-08-11T08:23:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.28
-    },
-    {
-      "id": "784e3610d0",
-      "title": "Detenidos dos hombres especializados en robos en viviendas con la técnica del hilo de pegamento",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/2026-08-11/robo-domicilios-oviedo-policia-1tps_4404220/",
-          "headline": "Detenidos dos hombres especializados en robos en viviendas con la técnica del hilo de pegamento",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-11T08:12:00+00:00",
-      "last_seen": "2026-08-11T08:12:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "es",
-      "resonance": 0.28
-    },
-    {
-      "id": "ce8a50af9d",
-      "title": "La Guardia Civil interviene 146 kilos de cigala sin trazabilidad en un coche que partió del puerto de Cariño (A Coruña)",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/galicia/2026-08-11/cigala-incautacion-guardia-civil-burela-1tps_4404219/",
-          "headline": "La Guardia Civil interviene 146 kilos de cigala sin trazabilidad en un coche que partió del puerto de Cariño (A Coruña)",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-11T08:02:00+00:00",
-      "last_seen": "2026-08-11T08:02:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.28
-    },
-    {
-      "id": "9028de324d",
-      "title": "Hallan el cadáver de un hombre en avanzado estado de descomposición en aguas de Ibiza",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/2026-08-11/guardia-civil-cuerpo-hallazgo-eivissa-1tps_4404218/",
-          "headline": "Hallan el cadáver de un hombre en avanzado estado de descomposición en aguas de Ibiza",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-11T07:44:00+00:00",
-      "last_seen": "2026-08-11T07:44:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.28
-    },
-    {
-      "id": "5e39f27745",
-      "title": "El terremoto más fuerte en lo que va de siglo en Colombia deja por ahora 885 heridos solo en Cali",
-      "signal_count": 1,
-      "sources": [
         {
           "outlet": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/internacional-1/20260811/11611758/terremoto-colombia-directo-132-muertos-ultima-hora-rescates-heridos-desaparecidos-seismo-magnitud-7-4.html",
-          "headline": "El terremoto más fuerte en lo que va de siglo en Colombia deja por ahora 885 heridos solo en Cali",
+          "url": "https://www.lavanguardia.com/vida/20260811/11612055/exdiputada-ciudadanos-pide-mirar-eclipse-quedarse-ciega-son-conscientes-peligro-supone.html",
+          "headline": "La exdiputada de Ciudadanos que pide no mirar al eclipse tras quedarse ciega: “No son conscientes del peligro que supone”",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
+        "mean": -0.05,
+        "spread": 0.05,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-08-11T07:40:41+00:00",
-      "last_seen": "2026-08-11T07:40:41+00:00",
+      "first_seen": "2026-08-11T12:21:07+00:00",
+      "last_seen": "2026-08-11T18:19:32+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.2767
+      "resonance": 0.2696
     },
     {
-      "id": "e28e258d32",
-      "title": "El incendio de Niebla (Huelva) no supera la provincia ni ofrece \"ventana de oportunidad\"",
+      "id": "e67ad15581",
+      "title": "El comercio de restos humanos momificados es un peligro para la salud: \"Es la auténtica maldición de la momia\"",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "El Mundo",
-          "url": "https://www.elmundo.es/espana/2026/08/11/6a7ab6a8fc6c83a55f8b4588.html",
-          "headline": "El incendio de Niebla (Huelva) no supera la provincia ni ofrece \"ventana de oportunidad\"",
+          "outlet": "elDiario.es",
+          "url": "https://www.eldiario.es/sociedad/comercio-restos-humanos-momificados-peligro-salud-autentica-maldicion-momia_1_13441095.html",
+          "headline": "El comercio de restos humanos momificados es un peligro para la salud: \"Es la auténtica maldición de la momia\"",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.3,
+        "mean": -0.5,
         "spread": 0.0,
-        "left": 0,
+        "left": 1,
         "center": 0,
-        "right": 1
+        "right": 0
       },
-      "first_seen": "2026-08-11T07:39:18+00:00",
-      "last_seen": "2026-08-11T07:39:18+00:00",
+      "first_seen": "2026-08-11T18:30:04+00:00",
+      "last_seen": "2026-08-11T18:30:04+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "climate",
+      "topic": "economy",
       "language": "es",
-      "resonance": 0.2741
+      "resonance": 0.2596
     },
     {
-      "id": "3492ee0d09",
-      "title": "Comienza la cuenta atrás: España ultima los detalles para el evento astronómico",
+      "id": "392c247829",
+      "title": "Colombianos en España se muestran consternados y se coordinan para ayudar: \"La impotencia es muy grande\"",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "20minutos",
-          "url": "https://www.20minutos.es/nacional/eclipse-solar-total-espana-miercoles-12-agosto-directo_7024119_6.html",
-          "headline": "Comienza la cuenta atrás: España ultima los detalles para el evento astronómico",
+          "url": "https://www.20minutos.es/internacional/colombianos-espana-consternados-por-terremoto-se-coordinan-para-enviar-ayuda-impotencia-es-muy-grande_7024848_0.html",
+          "headline": "Colombianos en España se muestran consternados y se coordinan para ayudar: \"La impotencia es muy grande\"",
           "platform": "rss"
         }
       ],
@@ -316,15 +340,102 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-11T07:36:28+00:00",
-      "last_seen": "2026-08-11T07:36:28+00:00",
+      "first_seen": "2026-08-11T18:28:17+00:00",
+      "last_seen": "2026-08-11T18:28:17+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.2689
+      "resonance": 0.257
+    },
+    {
+      "id": "a68f044f90",
+      "title": "Mourinho desvela sus conversaciones con Casillas: \"Me pidió retrasar los entrenos porque había mucho tráfico\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/deportes/futbol/20260811/mourinho-desvela-conversaciones-casillas-pidio-retrasar-entrenos-trafico/1003744350319_0.html",
+          "headline": "Mourinho desvela sus conversaciones con Casillas: \"Me pidió retrasar los entrenos porque había mucho tráfico\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.35,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-11T18:21:52+00:00",
+      "last_seen": "2026-08-11T18:21:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2479
+    },
+    {
+      "id": "592c8358cd",
+      "title": "Colombia busca contrarreloj a los 195 desaparecidos que siguen bajo los escombros",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/08/11/6a7ae1fce4d4d8662c8b456f.html",
+          "headline": "Colombia busca contrarreloj a los 195 desaparecidos que siguen bajo los escombros",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-11T18:15:05+00:00",
+      "last_seen": "2026-08-11T18:15:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2384
+    },
+    {
+      "id": "fa121a29aa",
+      "title": "Ucrania llora al arqueólogo Oleksi Yúkov, el \"recolector de almas\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/08/10/6a79fa5c21efa049498b4586.html",
+          "headline": "Ucrania llora al arqueólogo Oleksi Yúkov, el \"recolector de almas\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-11T17:54:26+00:00",
+      "last_seen": "2026-08-11T17:54:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.2104
     },
     {
       "id": "3e3facdac4",
@@ -345,246 +456,25 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-08-11T07:35:30+00:00",
-      "last_seen": "2026-08-11T07:35:30+00:00",
+      "first_seen": "2026-08-11T17:52:03+00:00",
+      "last_seen": "2026-08-11T17:52:03+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "es",
-      "resonance": 0.2671
+      "resonance": 0.2073
     },
     {
-      "id": "3c4605279b",
-      "title": "El incendio de Navas de San Antonio (Segovia) evoluciona favorablemente y los evacuados pueden regresar a casa",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/castilla-y-leon/2026-08-11/incendio-segovia-vegas-matute-1tna-1tps_4404209/",
-          "headline": "El incendio de Navas de San Antonio (Segovia) evoluciona favorablemente y los evacuados pueden regresar a casa",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-11T07:34:00+00:00",
-      "last_seen": "2026-08-11T07:34:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "es",
-      "resonance": 0.2643
-    },
-    {
-      "id": "696a7185f8",
-      "title": "El terremoto obliga a evacuar a los concursantes de 'OT': \"Está temblando\"",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/television/terremoto-colombia-obliga-evacuar-los-concursantes-ot-usa-pocas-horas-final-esta-temblando-ay-no-vamos_7024513_0.html",
-          "headline": "El terremoto obliga a evacuar a los concursantes de 'OT': \"Está temblando\"",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-11T07:31:15+00:00",
-      "last_seen": "2026-08-11T07:31:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "es",
-      "resonance": 0.2593
-    },
-    {
-      "id": "08a4fda446",
-      "title": "Trump cambió de avión en secreto tras la cumbre de la OTAN en Turquía oculto en un contenedor de ‘catering’ por una amenaza de Irán",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "El País",
-          "url": "https://elpais.com/internacional/2026-08-11/trump-cambio-de-avion-tras-la-cumbre-de-la-otan-en-turquia-oculto-en-un-camion-de-catering-por-una-amenaza-de-iran.html",
-          "headline": "Trump cambió de avión en secreto tras la cumbre de la OTAN en Turquía oculto en un contenedor de ‘catering’ por una amenaza de Irán",
-          "platform": "rss"
-        },
-        {
-          "outlet": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/internacional/20260811/11611756/trump-cambio-avion-secreto-amenaza-asesinato-iran-cumbre-otan-ankara.html",
-          "headline": "Trump cambió de avión en un contenedor de comida ante una amenaza de asesinato de Irán",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-11T03:16:04+00:00",
-      "last_seen": "2026-08-11T06:23:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.2438
-    },
-    {
-      "id": "d0de80ad2c",
-      "title": "Trump reduce las vacunas infantiles pese a las críticas de expertos: \"Nada malo puede pasar\"",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/internacional/trump-reduce-las-vacunas-infantiles-recomendadas-pese-las-criticas-expertos-algunos-republicanos_7024509_0.html",
-          "headline": "Trump reduce las vacunas infantiles pese a las críticas de expertos: \"Nada malo puede pasar\"",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-11T07:15:02+00:00",
-      "last_seen": "2026-08-11T07:15:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "language": "es",
-      "resonance": 0.2301
-    },
-    {
-      "id": "9a94a10580",
-      "title": "Terremoto en Colombia: las imágenes tras el temblor de 7,4",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/internacional/las-impactantes-imagenes-terremoto-que-ha-sacudido-colombia_7024483_1.html",
-          "headline": "Las impactantes imágenes del terremoto que ha sacudido Colombia",
-          "platform": "rss"
-        },
-        {
-          "outlet": "elDiario.es",
-          "url": "https://www.eldiario.es/internacional/fotos-terremoto-colombia-destruccion-imagenes_3_13438926.html",
-          "headline": "FOTOS | El terremoto de Colombia y su destrucción, en imágenes",
-          "platform": "rss"
-        },
-        {
-          "outlet": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/internacional/20260810/11611505/terremoto-colombia-imagenes-temblor-7-4.html",
-          "headline": "Terremoto en Colombia: las imágenes tras el temblor de 7,4",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.216,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-10T15:11:51+00:00",
-      "last_seen": "2026-08-11T05:35:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.2085
-    },
-    {
-      "id": "9b1488f757",
-      "title": "El incendio de Riglos (Huesca) afecta a 3.600 hectáreas y obliga a evacuar cinco núcleos",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El Confidencial",
-          "url": "https://www.elconfidencial.com/espana/aragon/2026-08-11/incendio-penas-riglos-huesca-1tna-1tps_4404172/",
-          "headline": "El incendio de Riglos (Huesca) afecta a 3.600 hectáreas y obliga a evacuar cinco núcleos",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-11T06:51:00+00:00",
-      "last_seen": "2026-08-11T06:51:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "language": "es",
-      "resonance": 0.1889
-    },
-    {
-      "id": "139412f249",
-      "title": "Barça-City: el acuerdo por Rodri, más lejos de lo que parece",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Marca",
-          "url": "https://www.marca.com/futbol/barcelona/2026/08/11/barca-city-acuerdo-rodri-lejos-parece.html",
-          "headline": "Barça-City: el acuerdo por Rodri, más lejos de lo que parece",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-11T06:50:50+00:00",
-      "last_seen": "2026-08-11T06:50:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.1886
-    },
-    {
-      "id": "42d1c6a291",
-      "title": "Trump fue evacuado de Turquía en un vuelo secreto por temor a Irán dejando al Air Force One y sus pasajeros como señuelo",
+      "id": "bdb3b039cb",
+      "title": "El Gobierno dará instrucciones en 4 idiomas a los invasores de Ceuta para \"evitar que sufran\" daños oculares en el eclipse",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "El Español",
-          "url": "https://www.elespanol.com/mundo/america/20260811/trump-evacuado-turquia-vuelo-secreto-temor-iran-dejando-air-force-one-pasajeros-senuelo/1003744349397_0.html",
-          "headline": "Trump fue evacuado de Turquía en un vuelo secreto por temor a Irán dejando al Air Force One y sus pasajeros como señuelo",
+          "url": "https://www.elespanol.com/espana/20260811/gobierno-dara-instrucciones-idiomas-invasores-ceuta-evitar-sufran-danos-oculares-eclipse/1003744350246_0.html",
+          "headline": "El Gobierno dará instrucciones en 4 idiomas a los invasores de Ceuta para \"evitar que sufran\" daños oculares en el eclipse",
           "platform": "rss"
         }
       ],
@@ -595,141 +485,124 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-08-11T06:50:16+00:00",
-      "last_seen": "2026-08-11T06:50:16+00:00",
+      "first_seen": "2026-08-11T17:35:48+00:00",
+      "last_seen": "2026-08-11T17:35:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "es",
+      "resonance": 0.1863
+    },
+    {
+      "id": "9450b838ef",
+      "title": "En libertad con cargos de homicidio imprudente los padres de la bebé de tres meses muerta en Toro (Zamora)",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/08/11/6a7ae90de4d4d8a66e8b457c.html",
+          "headline": "En libertad con cargos de homicidio imprudente los padres de la bebé de tres meses muerta en Toro (Zamora)",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/castilla-y-leon/region/zamora/20260810/investigan-muerte-bebe-meses-toro-detienen-padres-aclaran-causas/1003744349247_0.html",
+          "headline": "Libertad con cargos para los padres de la bebé fallecida en Toro, acusados de homicidio por imprudencia",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.325,
+        "spread": 0.025,
+        "left": 0,
+        "center": 0,
+        "right": 2
+      },
+      "first_seen": "2026-08-10T17:51:34+00:00",
+      "last_seen": "2026-08-11T17:00:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.1877
+      "resonance": 0.1646
     },
     {
-      "id": "8de03a8375",
-      "title": "El plan de Trump en Turquía para sortear una amenaza de atentado: subió al avión en un carro de catering",
+      "id": "af2c8099f8",
+      "title": "Carlota tuvo una gran discusión con sus padres en un restaurante de Tauste dos semanas antes del asesinato",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "20minutos",
-          "url": "https://www.20minutos.es/internacional/trump-viajo-desde-turquia-oculto-un-carro-catering-ante-amenaza-iran_7024496_0.html",
-          "headline": "El plan de Trump en Turquía para sortear una amenaza de atentado: subió al avión en un carro de catering",
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/aragon/actualidad/20260811/carlota-gran-discusion-padres-restaurante-tauste-semanas-asesinato/1003744350236_0.html",
+          "headline": "Carlota tuvo una gran discusión con sus padres en un restaurante de Tauste dos semanas antes del asesinato",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": 0.35,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
-        "right": 0
+        "center": 0,
+        "right": 1
       },
-      "first_seen": "2026-08-11T06:41:57+00:00",
-      "last_seen": "2026-08-11T06:41:57+00:00",
+      "first_seen": "2026-08-11T17:13:43+00:00",
+      "last_seen": "2026-08-11T17:13:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.1739
+      "resonance": 0.1589
     },
     {
-      "id": "b48b24d2e0",
-      "title": "Por qué el calor puede reventarte el parabrisas este verano y cómo evitarlo",
-      "signal_count": 1,
+      "id": "c3072e4aac",
+      "title": "Óscar Puente censura el posado del Rey en Colombia con un periodista: \"No es inocuo junto a quién  se fotografía\" y \"contamina su imagen\"",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Marca",
-          "url": "https://www.marca.com/coches-y-motos/consejos/2026/08/11/calor-reventarte-parabrisas-verano-evitarlo.html",
-          "headline": "Por qué el calor puede reventarte el parabrisas este verano y cómo evitarlo",
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/08/11/6a7afb82fdddff056f8b4593.html",
+          "headline": "Óscar Puente censura el posado del Rey en Colombia con un periodista: \"No es inocuo junto a quién  se fotografía\" y \"contamina su imagen\"",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El Español",
+          "url": "https://www.elespanol.com/espana/politica/20260811/oscar-puente-insiste-criticar-rey-simbolo-no-inocuo-contamina-junto-fotografia/1003744349913_0.html",
+          "headline": "Óscar Puente insiste en criticar al Rey: \"Es un símbolo y no es inocuo, y se contamina según junto a quién se fotografía\"",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
+        "mean": 0.325,
+        "spread": 0.025,
         "left": 0,
-        "center": 1,
-        "right": 0
+        "center": 0,
+        "right": 2
       },
-      "first_seen": "2026-08-11T06:41:30+00:00",
-      "last_seen": "2026-08-11T06:41:30+00:00",
+      "first_seen": "2026-08-11T12:22:37+00:00",
+      "last_seen": "2026-08-11T16:25:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.1732
+      "resonance": 0.1541
     },
     {
-      "id": "eac443d89a",
-      "title": "El Sevilla toma velocidad de crucero",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Marca",
-          "url": "https://www.marca.com/futbol/sevilla/2026/08/11/sevilla-toma-velocidad-crucero.html",
-          "headline": "El Sevilla toma velocidad de crucero",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-11T06:07:50+00:00",
-      "last_seen": "2026-08-11T06:07:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.1202
-    },
-    {
-      "id": "3cd6488e4c",
-      "title": "Los últimos billetes al Mundial de Qatar se juegan en Madrid",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Marca",
-          "url": "https://www.marca.com/padel/2026/08/11/ultimos-billetes-mundial-qatar-juegan-madrid.html",
-          "headline": "Los últimos billetes al Mundial de Qatar se juegan en Madrid",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-11T06:02:14+00:00",
-      "last_seen": "2026-08-11T06:02:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "es",
-      "resonance": 0.1118
-    },
-    {
-      "id": "69dcc0d7df",
-      "title": "Rescatados con vida un bebé y su madre de los escombros tras el terremoto en Cali",
+      "id": "f67034c351",
+      "title": "Luca Hoek derriba un muro con un récord estratosférico en 100 m libre y huele a medalla",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/internacional/20260811/11611766/rescatistas-sacan-vida-madre-bebe-escombros-cali-devastador-terremoto-colombia.html",
-          "headline": "Rescatados con vida un bebé y su madre de los escombros tras el terremoto en Cali",
+          "url": "https://www.lavanguardia.com/deportes/natacion/20260811/11612194/estella-tonrath-le-falta-aceleron-cazar-bronce-europeo.html",
+          "headline": "Luca Hoek derriba un muro con un récord estratosférico en 100 m libre y huele a medalla",
           "platform": "rss"
         }
       ],
@@ -740,25 +613,112 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-11T05:50:35+00:00",
-      "last_seen": "2026-08-11T05:50:35+00:00",
+      "first_seen": "2026-08-11T16:54:31+00:00",
+      "last_seen": "2026-08-11T16:54:31+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.0946
+      "resonance": 0.1362
     },
     {
-      "id": "fa46972bb5",
-      "title": "Mapa de sitios donde ver el eclipse total: EL PAÍS completa un buscador con casi 500 miradores oficiales",
+      "id": "2a33a4ade1",
+      "title": "Los bulos sobre el eclipse solar: de que \"desaparecerá la gravedad\" a que \"anuncia la caída de Pedro Sánchez\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "elDiario.es",
+          "url": "https://www.eldiario.es/sociedad/bulos-eclipse-solar-desaparecera-gravedad-anuncia-caida-pedro-sanchez_1_13429020.html",
+          "headline": "Los bulos sobre el eclipse solar: de que \"desaparecerá la gravedad\" a que \"anuncia la caída de Pedro Sánchez\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.5,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-11T16:44:21+00:00",
+      "last_seen": "2026-08-11T16:44:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.1246
+    },
+    {
+      "id": "bd8f8f80ef",
+      "title": "Defensa descarta oponerse al proyecto de la china SAIC para levantar una nueva fábrica de coches eléctricos en Ferrol",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/defensa-descarta-oponerse-fabrica-china-saic-ferrol-se-comunica-xunta_7024811_0.html",
+          "headline": "Defensa descarta oponerse al proyecto de la china SAIC para levantar una nueva fábrica de coches eléctricos en Ferrol",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-11T16:41:45+00:00",
+      "last_seen": "2026-08-11T16:41:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.1216
+    },
+    {
+      "id": "4f33043bfa",
+      "title": "El juez del 'caso Leire' descarta aceptar como acusación al jefe de la investigación policial del referéndum de Cataluña",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/08/11/6a7b4d63e85ece99478b458f.html",
+          "headline": "El juez del 'caso Leire' descarta aceptar como acusación al jefe de la investigación policial del referéndum de Cataluña",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-11T16:28:12+00:00",
+      "last_seen": "2026-08-11T16:28:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "language": "es",
+      "resonance": 0.1066
+    },
+    {
+      "id": "b0229613f1",
+      "title": "Madrid y la Delegación de Gobierno, a la greña también por el eclipse solar",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "El País",
-          "url": "https://elpais.com/ciencia/2026-08-11/mapa-de-sitios-donde-ver-el-eclipse-total-el-pais-completa-un-buscador-con-casi-500-miradores-oficiales.html",
-          "headline": "Mapa de sitios donde ver el eclipse total: EL PAÍS completa un buscador con casi 500 miradores oficiales",
+          "url": "https://elpais.com/espana/madrid/2026-08-11/rifirrafe-entre-el-gobierno-de-ayuso-y-la-delegacion-a-cuenta-de-limitar-los-accesos-a-los-montes-durante-el-eclipse.html",
+          "headline": "Madrid y la Delegación de Gobierno, a la greña también por el eclipse solar",
           "platform": "rss"
         }
       ],
@@ -769,54 +729,112 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-11T05:45:49+00:00",
-      "last_seen": "2026-08-11T05:45:49+00:00",
+      "first_seen": "2026-08-11T16:25:39+00:00",
+      "last_seen": "2026-08-11T16:25:39+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "politics",
       "language": "es",
-      "resonance": 0.0877
+      "resonance": 0.1038
     },
     {
-      "id": "0d145818e5",
-      "title": "Una amenaza iraní obligó a trasladar a Trump en secreto desde Turquía",
+      "id": "3542dbc886",
+      "title": "Moncloa desmiente que Robles vaya a comparecer en el Senado el 18 de agosto después de que la ministra haya mostrado su \"plena disposición\"",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "elDiario.es",
-          "url": "https://www.eldiario.es/internacional/amenaza-irani-obligo-trasladar-trump-secreto-turquia_1_13439605.html",
-          "headline": "Una amenaza iraní obligó a trasladar a Trump en secreto desde Turquía",
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/08/11/6a7afb84fdddff92378b4591.html",
+          "headline": "Moncloa desmiente que Robles vaya a comparecer en el Senado el 18 de agosto después de que la ministra haya mostrado su \"plena disposición\"",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.5,
+        "mean": 0.3,
         "spread": 0.0,
-        "left": 1,
+        "left": 0,
         "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-11T16:20:54+00:00",
+      "last_seen": "2026-08-11T16:20:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "es",
+      "resonance": 0.0987
+    },
+    {
+      "id": "b47e639f7e",
+      "title": "El Govern verá el eclipse en un punto amenazado por las nubes: “Estamos muy preocupados”",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País",
+          "url": "https://elpais.com/ciencia/2026-08-11/el-govern-catalan-vera-el-eclipse-en-un-punto-amenazado-por-las-nubes-estamos-muy-preocupados.html",
+          "headline": "El Govern verá el eclipse en un punto amenazado por las nubes: “Estamos muy preocupados”",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-11T05:35:28+00:00",
-      "last_seen": "2026-08-11T05:35:28+00:00",
+      "first_seen": "2026-08-11T16:16:04+00:00",
+      "last_seen": "2026-08-11T16:16:04+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "es",
-      "resonance": 0.0729
+      "resonance": 0.0935
     },
     {
-      "id": "8eb8824fd8",
-      "title": "Colombia intensifica los rescates tras el terremoto de magnitud 7,4 que deja ya 132 muertos",
+      "id": "d8e5891497",
+      "title": "De la tragedia al milagro en el seísmo de Colombia: varios menores fallecen y un bebé sobrevive junto a su madre",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/internacional/2026/08/11/6a7b2818e4d4d8c26d8b45c0.html",
+          "headline": "De la tragedia al milagro en el seísmo de Colombia: varios menores fallecen y un bebé sobrevive junto a su madre",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-11T15:58:51+00:00",
+      "last_seen": "2026-08-11T15:58:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "es",
+      "resonance": 0.0755
+    },
+    {
+      "id": "556d31b821",
+      "title": "Trump agrava la alarma en la vacunación infantil al reducir las dosis recomendadas para niños",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "La Vanguardia",
-          "url": "https://www.lavanguardia.com/internacional/20260811/11611762/colombia-intensifica-rescates-terremoto-magnitud-7-4-deja-132-muertos.html",
-          "headline": "Colombia intensifica los rescates tras el terremoto de magnitud 7,4 que deja ya 132 muertos",
+          "url": "https://www.lavanguardia.com/internacional/20260811/11612159/trump-incide-alarma-sobre-vacunacion-infantil-reduce-dosis-recomendadas-ninos.html",
+          "headline": "Trump agrava la alarma en la vacunación infantil al reducir las dosis recomendadas para niños",
           "platform": "rss"
         }
       ],
@@ -827,89 +845,54 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-11T05:28:41+00:00",
-      "last_seen": "2026-08-11T05:28:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "es",
-      "resonance": 0.0634
-    },
-    {
-      "id": "08696e6e7a",
-      "title": "Trump firma una orden ejecutiva para reducir las vacunas infantiles en pleno aumento de casos de sarampión en EEUU",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "elDiario.es",
-          "url": "https://www.eldiario.es/internacional/trump-firma-orden-ejecutiva-reducir-vacunas-infantiles-pleno-aumento-casos-sarampion-eeuu_1_13439595.html",
-          "headline": "Trump firma una orden ejecutiva para reducir las vacunas infantiles en pleno aumento de casos de sarampión en EEUU",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.5,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-11T05:22:53+00:00",
-      "last_seen": "2026-08-11T05:22:53+00:00",
+      "first_seen": "2026-08-11T15:57:27+00:00",
+      "last_seen": "2026-08-11T15:57:27+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "health",
       "language": "es",
-      "resonance": 0.0554
+      "resonance": 0.0741
     },
     {
-      "id": "87a179e7e6",
-      "title": "Un ‘SúperFener’ para Asensio: &quot;Cumpliré mi palabra y ganaremos el campeonato&quot;",
-      "signal_count": 2,
+      "id": "3eefdc72d8",
+      "title": "El PSOE pone bajo sospecha el nombramiento de Ferran Torres como embajador de la Comunidad Valenciana",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Marca",
-          "url": "https://www.marca.com/futbol/2026/08/11/superfener-asensio-cumplire-mi-palabra-ganaremos-campeonato.html",
-          "headline": "Un ‘SúperFener’ para Asensio: &quot;Cumpliré mi palabra y ganaremos el campeonato&quot;",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Marca",
-          "url": "https://www.marca.com/motor/motogp/gp-gran-bretana/2026/08/11/marc-marquez-conocemos.html",
-          "headline": "&quot;Este no es el Marc Márquez que conocemos&quot;",
+          "outlet": "El Mundo",
+          "url": "https://www.elmundo.es/espana/2026/08/11/6a7b45f321efa02c028b459e.html",
+          "headline": "El PSOE pone bajo sospecha el nombramiento de Ferran Torres como embajador de la Comunidad Valenciana",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": 0.3,
         "spread": 0.0,
         "left": 0,
-        "center": 2,
-        "right": 0
+        "center": 0,
+        "right": 1
       },
-      "first_seen": "2026-08-11T04:57:27+00:00",
-      "last_seen": "2026-08-11T05:18:46+00:00",
+      "first_seen": "2026-08-11T15:57:05+00:00",
+      "last_seen": "2026-08-11T15:57:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "sport",
+      "topic": "world",
       "language": "es",
-      "resonance": 0.0525
+      "resonance": 0.0737
     },
     {
-      "id": "b3fe95688d",
-      "title": "El nuevo &#039;ojito derecho&#039; de Míchel en el Ajax",
+      "id": "f237b679c1",
+      "title": "El conmovedor gesto del futbolista Jhon Arias con las víctimas del terremoto en Colombia: \"Envié un avión con suministros médicos\"",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Marca",
-          "url": "https://www.marca.com/futbol/2026/08/11/aaron-bouwman-nuevo-ojito-derecho-michel-ajax-hemos-hablado-sobre-espera-mi.html",
-          "headline": "El nuevo &#039;ojito derecho&#039; de Míchel en el Ajax",
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/deportes/futbol/conmovedor-gesto-futbolista-jhon-arias-con-las-victimas-terremoto-colombia-envie-un-avion-con-suministros-medicos_7024780_0.html",
+          "headline": "El conmovedor gesto del futbolista Jhon Arias con las víctimas del terremoto en Colombia: \"Envié un avión con suministros médicos\"",
           "platform": "rss"
         }
       ],
@@ -920,8 +903,37 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-11T05:18:57+00:00",
-      "last_seen": "2026-08-11T05:18:57+00:00",
+      "first_seen": "2026-08-11T15:44:02+00:00",
+      "last_seen": "2026-08-11T15:44:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "es",
+      "resonance": 0.0606
+    },
+    {
+      "id": "942d00be82",
+      "title": "Un vídeo muestra como un balcón se derrumba sobre cuatro personas durante el terremoto de Colombia",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "20minutos",
+          "url": "https://www.20minutos.es/internacional/un-video-muestra-como-un-balcon-se-derrumba-sobre-cuatro-personas-terremoto-colombia_7024781_0.html",
+          "headline": "Un vídeo muestra como un balcón se derrumba sobre cuatro personas durante el terremoto de Colombia",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-11T15:33:17+00:00",
+      "last_seen": "2026-08-11T15:33:17+00:00",
       "platforms": [
         "rss"
       ],
@@ -933,99 +945,39 @@
   ],
   "edges": [
     {
-      "source": "30ac1b349e",
-      "target": "5e39f27745",
-      "weight": 0.18,
+      "source": "1b4e8bb79b",
+      "target": "bd8f8f80ef",
+      "weight": 0.907,
       "type": "thematic"
     },
     {
-      "source": "30ac1b349e",
-      "target": "9a94a10580",
-      "weight": 0.031,
+      "source": "cf3ec22bda",
+      "target": "03c4826ed2",
+      "weight": 0.024,
       "type": "thematic"
     },
     {
-      "source": "bfc7d25f78",
-      "target": "69b6701028",
-      "weight": 0.769,
+      "source": "cf3ec22bda",
+      "target": "d8e5891497",
+      "weight": 0.067,
       "type": "thematic"
     },
     {
-      "source": "5e39f27745",
-      "target": "9a94a10580",
-      "weight": 0.062,
+      "source": "cf3ec22bda",
+      "target": "942d00be82",
+      "weight": 0.077,
       "type": "thematic"
     },
     {
-      "source": "5e39f27745",
-      "target": "69dcc0d7df",
-      "weight": 0.063,
+      "source": "bdb3b039cb",
+      "target": "b0229613f1",
+      "weight": 0.069,
       "type": "thematic"
     },
     {
-      "source": "5e39f27745",
-      "target": "8eb8824fd8",
-      "weight": 0.343,
-      "type": "thematic"
-    },
-    {
-      "source": "696a7185f8",
-      "target": "9b1488f757",
-      "weight": 0.239,
-      "type": "thematic"
-    },
-    {
-      "source": "08a4fda446",
-      "target": "42d1c6a291",
-      "weight": 0.336,
-      "type": "thematic"
-    },
-    {
-      "source": "08a4fda446",
-      "target": "8de03a8375",
-      "weight": 0.823,
-      "type": "thematic"
-    },
-    {
-      "source": "08a4fda446",
-      "target": "0d145818e5",
-      "weight": 0.675,
-      "type": "thematic"
-    },
-    {
-      "source": "d0de80ad2c",
-      "target": "08696e6e7a",
-      "weight": 0.177,
-      "type": "thematic"
-    },
-    {
-      "source": "9a94a10580",
-      "target": "69dcc0d7df",
-      "weight": 0.159,
-      "type": "thematic"
-    },
-    {
-      "source": "9a94a10580",
-      "target": "8eb8824fd8",
-      "weight": 0.555,
-      "type": "thematic"
-    },
-    {
-      "source": "42d1c6a291",
-      "target": "0d145818e5",
-      "weight": 0.285,
-      "type": "thematic"
-    },
-    {
-      "source": "8de03a8375",
-      "target": "0d145818e5",
-      "weight": 0.432,
-      "type": "thematic"
-    },
-    {
-      "source": "69dcc0d7df",
-      "target": "8eb8824fd8",
-      "weight": 0.035,
+      "source": "2a33a4ade1",
+      "target": "b0229613f1",
+      "weight": 0.049,
       "type": "thematic"
     }
   ],

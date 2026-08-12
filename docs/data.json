@@ -1,17 +1,81 @@
 {
-  "generated_at": "2026-08-12T17:00:42.943136+00:00",
+  "generated_at": "2026-08-12T20:51:30.902674+00:00",
   "node_count": 35,
-  "edge_count": 6,
+  "edge_count": 5,
   "nodes": [
     {
-      "id": "a588973d5b",
-      "title": "Grok 4.6",
+      "id": "0e574ad0b7",
+      "title": "Trump says White House press secretary Karoline Leavitt to leave post",
+      "signal_count": 7,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cvglzrvyrz3o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump says White House press secretary Karoline Leavitt to leave post",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/12/white-house-press-secretary-karoline-leavitt-to-step-down_6756439_4.html",
+          "headline": "White House Press Secretary Karoline Leavitt to step down",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/08/12/nx-s1-5929560/karoline-leavitt-white-house-press-secretary-leaving",
+          "headline": "White House press secretary leaving",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/12/trump-reveals-karoline-leavitt-to-step-down-as-white-house-press-secretary?traffic_source=rss",
+          "headline": "Trump reveals Karoline Leavitt to step down as White House press secretary",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/08/12/white-house-press-secretary-karoline-leavitt-to-leave-role-at-end-of-month-trump-says",
+          "headline": "White House press secretary Karoline Leavitt to leave role at end of month, Trump says",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-13/trump-spokeswoman-karoline-leavitt-to-leave-white-house/107031078",
+          "headline": "Breaking: Trump spokeswoman Karoline Leavitt to leave White House",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/trump-says-karoline-leavitt-leave-white-house-press-secretary-role-become-outside-advisor",
+          "headline": "Trump says Karoline Leavitt will leave White House press secretary role, become outside advisor",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.021,
+        "spread": 0.262,
+        "left": 0,
+        "center": 6,
+        "right": 1
+      },
+      "first_seen": "2026-08-12T19:51:55+00:00",
+      "last_seen": "2026-08-12T20:16:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.782
+    },
+    {
+      "id": "db1f4ab584",
+      "title": "Delta",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://x.ai/news/grok-4-6",
-          "headline": "Grok 4.6",
+          "url": "https://zed.dev/blog/introducing-delta",
+          "headline": "Delta",
           "platform": "hackernews"
         }
       ],
@@ -22,8 +86,8 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-12T15:32:50+00:00",
-      "last_seen": "2026-08-12T15:32:50+00:00",
+      "first_seen": "2026-08-12T18:19:59+00:00",
+      "last_seen": "2026-08-12T18:19:59+00:00",
       "platforms": [
         "hackernews"
       ],
@@ -32,14 +96,14 @@
       "resonance": 0.28
     },
     {
-      "id": "da4a66cf3d",
-      "title": "License plate reader searches should require a warrant",
+      "id": "6783a09162",
+      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
-          "headline": "License plate reader searches should require a warrant",
+          "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+          "headline": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
           "platform": "hackernews"
         }
       ],
@@ -50,13 +114,13 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-12T14:43:39+00:00",
-      "last_seen": "2026-08-12T14:43:39+00:00",
+      "first_seen": "2026-08-12T16:54:25+00:00",
+      "last_seen": "2026-08-12T16:54:25+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "conflict",
+      "topic": "world",
       "resonance": 0.28
     },
     {
@@ -88,130 +152,68 @@
       "resonance": 0.28
     },
     {
-      "id": "22f00ab3df",
-      "title": "Live Updates: Europe Counts Down to a Total Solar Eclipse",
-      "signal_count": 4,
+      "id": "74049a2a20",
+      "title": "Eurovision Song Contest changes rules for countries at war",
+      "signal_count": 5,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/08/12/world/solar-eclipse-2026-updates",
-          "headline": "Live Updates: Europe Counts Down to a Total Solar Eclipse",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3363828/eurovision-bar-countries-war-hosting?utm_source=rss_feed",
+          "headline": "Eurovision to bar countries at war from hosting",
           "platform": "rss"
         },
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/europe-prepares-for-first-total-solar-eclipse-in-27-years?traffic_source=rss",
-          "headline": "Europe prepares for first total solar eclipse in 27 years",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/eurovision-bars-countries-at-war-from-hosting/a-78341915?maca=en-rss-en-all-1573-rdf",
+          "headline": "Eurovision bars countries at war from hosting",
           "platform": "rss"
         },
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/spain-prepares-for-rare-total-solar-eclipse",
-          "headline": "Spain prepares for rare total solar eclipse",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/science/20260812-live-millions-skywatchers-europe-prepare-total-solar-eclipse",
-          "headline": "Live: Millions of skywatchers in Europe prepare for total solar eclipse",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.175,
-        "spread": 0.083,
-        "left": 1,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T12:13:29+00:00",
-      "last_seen": "2026-08-12T16:57:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2892
-    },
-    {
-      "id": "fc9cadbac9",
-      "title": "Colombia declares three days of mourning for earthquake victims",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/8/12/colombia-declares-three-days-of-mourning-after-deadly-earthquake?traffic_source=rss",
-          "headline": "Colombia declares three days of mourning after deadly earthquake",
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/tv-and-radio/2026/aug/12/broadcasters-to-be-barred-from-eurovision-song-contest-if-state-involved-in-armed-conflict",
+          "headline": "Countries in ‘armed conflict’ barred from hosting Eurovision",
           "platform": "rss"
         },
         {
           "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/environment/article/2026/08/12/colombia-declares-three-days-of-mourning-for-earthquake-victims_6756426_114.html",
-          "headline": "Colombia declares three days of mourning for earthquake victims",
+          "url": "https://www.lemonde.fr/en/culture/article/2026/08/12/eurovision-to-exclude-countries-at-war-from-hosting-contest_6756434_30.html",
+          "headline": "Eurovision to exclude countries at war from hosting contest",
           "platform": "rss"
         },
         {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/08/12/colombia-declares-three-days-mourning-for-quake-victims-as-eu-pledges-assistance",
-          "headline": "Colombia declares three days mourning for quake victims as EU pledges assistance",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cdx7pv300vwo?at_medium=RSS&at_campaign=rss",
+          "headline": "Eurovision Song Contest changes rules for countries at war",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.167,
-        "spread": 0.047,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T13:46:52+00:00",
-      "last_seen": "2026-08-12T15:39:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2641
-    },
-    {
-      "id": "7bc20bccc2",
-      "title": "Trump hails 'wall of steel' blocakade, says US will keep control of Strait of Hormuz",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/08/12/trump-hails-wall-of-steel-blocakade-says-us-will-keep-control-of-strait-of-hormuz",
-          "headline": "Trump hails 'wall of steel' blocakade, says US will keep control of Strait of Hormuz",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-us-will-keep-total-control-strait-hormuz",
-          "headline": "Trump says US will keep 'total control' of Strait of Hormuz",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.175,
-        "spread": 0.075,
+        "mean": -0.12,
+        "spread": 0.133,
         "left": 1,
-        "center": 1,
+        "center": 4,
         "right": 0
       },
-      "first_seen": "2026-08-12T14:57:28+00:00",
-      "last_seen": "2026-08-12T16:20:39+00:00",
+      "first_seen": "2026-08-12T15:49:37+00:00",
+      "last_seen": "2026-08-12T19:26:42+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2352
+      "topic": "conflict",
+      "resonance": 0.3744
     },
     {
-      "id": "8ed233fc26",
-      "title": "Google reveals 2026 hardware lineup: Pixel 11, Pixel Watch 5, and Pixel Tag",
-      "signal_count": 4,
+      "id": "036b09e59f",
+      "title": "Google’s Pixel Watch 5 Can Now Detect Breathing Emergencies",
+      "signal_count": 3,
       "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-watch-5/",
+          "headline": "Pixel Watch 5",
+          "platform": "hackernews"
+        },
         {
           "outlet": "TechCrunch",
           "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
@@ -219,113 +221,136 @@
           "platform": "rss"
         },
         {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/08/google-reveals-2026-hardware-lineup-pixel-11-pixel-watch-5-and-pixel-tag/",
-          "headline": "Google reveals 2026 hardware lineup: Pixel 11, Pixel Watch 5, and Pixel Tag",
-          "platform": "rss"
-        },
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/12/google-takes-on-airtag-with-the-new-29-pixel-tag/",
-          "headline": "Google takes on AirTag with the new $29 Pixel Tag",
-          "platform": "rss"
-        },
-        {
           "outlet": "WIRED",
-          "url": "https://www.wired.com/story/pixel-11-pixel-watch-5-pixel-tag-everything-google-announced-at-its-made-by-google-2026-event/",
-          "headline": "Google Pixel 11 Series, Pixel Watch 5, Pixel Tag: Specs, Features, Price, Release Date",
+          "url": "https://www.wired.com/story/googles-pixel-watch-5-can-now-detect-breathing-emergencies/",
+          "headline": "Google’s Pixel Watch 5 Can Now Detect Breathing Emergencies",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.067,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T14:07:59+00:00",
+      "last_seen": "2026-08-12T16:14:37+00:00",
+      "platforms": [
+        "hackernews",
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.3635
+    },
+    {
+      "id": "b9cf2b1b78",
+      "title": "Live Updates: First Total Eclipse in Europe in Decades Turns Day to Night",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3363830/solar-eclipse-turns-day-night-spain-wows-crowds-across-europe?utm_source=rss_feed",
+          "headline": "Solar eclipse turns day to night in Spain, wows crowds across Europe",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/08/12/world/solar-eclipse-2026-updates",
+          "headline": "Live Updates: First Total Eclipse in Europe in Decades Turns Day to Night",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 4,
+        "spread": 0.2,
+        "left": 1,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-12T14:00:00+00:00",
-      "last_seen": "2026-08-12T14:20:33+00:00",
+      "first_seen": "2026-08-12T20:13:10+00:00",
+      "last_seen": "2026-08-12T20:48:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.218
+      "resonance": 0.3588
     },
     {
-      "id": "300a8f319d",
-      "title": "Israeli settlers besieging Palestinian families in West Bank village",
+      "id": "24f7fb8fa8",
+      "title": "See the 2026 European Solar Eclipse, in Photos and Videos",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cn0npjkqrleo?at_medium=RSS&at_campaign=rss",
-          "headline": "Israeli settlers besieging Palestinian families in West Bank village",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/12/world/europe/solar-eclipse-europe-photos.html",
+          "headline": "See the 2026 European Solar Eclipse, in Photos and Videos",
           "platform": "rss"
         },
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260812-israeli-settlers-keep-up-siege-of-palestinian-homes-despite-rare-military-intervention",
-          "headline": "Israeli settlers clash with troops as siege on Palestinian homes in West Bank village continues",
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/photography/2026/08/photos-solar-eclipse-2026/688261/?utm_source=feed",
+          "headline": "Photos: The Total Solar Eclipse of 2026",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
+        "mean": -0.275,
+        "spread": 0.025,
+        "left": 2,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-08-12T14:39:14+00:00",
-      "last_seen": "2026-08-12T16:14:08+00:00",
+      "first_seen": "2026-08-12T19:48:13+00:00",
+      "last_seen": "2026-08-12T20:33:51+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.2076
+      "topic": "climate",
+      "resonance": 0.3318
     },
     {
-      "id": "3f10c39579",
-      "title": "WHO says Trump's vaccine overhaul goes against 'decades of evidence'",
+      "id": "01a5e50ef5",
+      "title": "Trump sued over service selling faster access to Truth Social posts",
       "signal_count": 3,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/8/12/who-chief-says-trump-vaccine-push-goes-against-decades-of-evidence?traffic_source=rss",
-          "headline": "WHO chief says Trump vaccine push goes against ‘decades of evidence’",
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/08/12/nx-s1-5929391/trump-truth-social-api-lawsuit",
+          "headline": "Trump sued over service selling faster access to Truth Social posts",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/",
+          "headline": "Trump sued over \"brazen\" scheme to sell Truth Social API access for $100K a month",
           "platform": "rss"
         },
         {
           "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/health/article/2026/08/12/who-says-trump-s-vaccine-overhaul-goes-against-decades-of-evidence_6756422_14.html",
-          "headline": "WHO says Trump's vaccine overhaul goes against 'decades of evidence'",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/us/science-technology/article/3363810/who-chief-warns-trumps-vaccine-policy-overhaul-against-decades-evidence?utm_source=rss_feed",
-          "headline": "WHO chief warns Trump’s vaccine policy overhaul is against ‘decades of evidence’",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/12/trump-sued-over-sale-of-access-to-truth-social-posts_6756432_4.html",
+          "headline": "Trump sued over sale of access to Truth Social posts",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.141,
+        "mean": -0.15,
+        "spread": 0.041,
         "left": 0,
         "center": 3,
         "right": 0
       },
-      "first_seen": "2026-08-12T12:10:01+00:00",
-      "last_seen": "2026-08-12T15:30:18+00:00",
+      "first_seen": "2026-08-12T16:52:36+00:00",
+      "last_seen": "2026-08-12T20:33:10+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1835
+      "topic": "world",
+      "resonance": 0.3032
     },
     {
       "id": "eca5c92f6d",
@@ -339,9 +364,199 @@
           "platform": "rss"
         },
         {
+          "outlet": "Hacker News",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-11-pro-fold/",
+          "headline": "Pixel 11 Pro Fold",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T14:52:27+00:00",
+      "last_seen": "2026-08-12T16:00:00+00:00",
+      "platforms": [
+        "hackernews",
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2787
+    },
+    {
+      "id": "b19aaa8f0a",
+      "title": "A blockbuster $12.5B deal as Josh Kushner and Bob Iger agree to buy the Lakers, AP source says",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/8/12/josh-kushner-bob-iger-buying-los-angeles-lakers-for-record-12-5bn?traffic_source=rss",
+          "headline": "Josh Kushner, Bob Iger, buying Los Angeles Lakers for record $12.5bn",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/a-blockbuster-125b-deal-as-josh-kushner-and-bob-iger-agree-to-buy-the-lakers-ap-source-says/article71338336.ece",
+          "headline": "A blockbuster $12.5B deal as Josh Kushner and Bob Iger agree to buy the Lakers, AP source says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T19:49:44+00:00",
+      "last_seen": "2026-08-12T20:04:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2753
+    },
+    {
+      "id": "935fb790f4",
+      "title": "Lovable confirms new $13.3B valuation, raises another $400M",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://lovable.dev/blog/series-c",
+          "headline": "Lovable raises $400M Series C",
+          "platform": "hackernews"
+        },
+        {
           "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/12/google-launches-the-pixel-11-pro-fold-with-a-stronger-build-and-brighter-screens/",
-          "headline": "Google’s new Pixel 11 Pro Fold offers a stronger build and brighter screens",
+          "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
+          "headline": "Lovable confirms new $13.3B valuation, raises another $400M",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T16:04:27+00:00",
+      "last_seen": "2026-08-12T16:20:34+00:00",
+      "platforms": [
+        "hackernews",
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2669
+    },
+    {
+      "id": "0ab6591fb4",
+      "title": "The total eclipse in Spain, in pictures",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260812-in-pictures-partial-to-total-eclipse-seen-across-much-of-europe",
+          "headline": "In pictures: Partial to total eclipse sweeps across much of Europe",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/science-tech/2026-08-12/the-total-eclipse-in-spain-in-pictures.html",
+          "headline": "The total eclipse in Spain, in pictures",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T18:50:19+00:00",
+      "last_seen": "2026-08-12T20:19:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2509
+    },
+    {
+      "id": "59034f7197",
+      "title": "Solar eclipse plunges Spain into darkness",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/gallery/2026/8/12/photos-solar-eclipse-plunges-parts-of-europe-into-darkness?traffic_source=rss",
+          "headline": "Photos: Solar eclipse plunges parts of Europe into darkness",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/science/article/2026/08/12/solar-eclipse-plunges-spain-into-darkness_6756438_10.html",
+          "headline": "Solar eclipse plunges Spain into darkness",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/iceland-and-spain-plunged-into-darkness-during-total-solar-eclipse?traffic_source=rss",
+          "headline": "Iceland and Spain plunged into darkness during total solar eclipse",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260812-the-moment-of-the-total-solar-eclipse-in-spain",
+          "headline": "The moment of the total solar eclipse in Spain",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/europe-prepares-for-first-total-solar-eclipse-in-27-years?traffic_source=rss",
+          "headline": "Europe prepares for first total solar eclipse in 27 years",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.18,
+        "spread": 0.04,
+        "left": 0,
+        "center": 5,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T15:40:24+00:00",
+      "last_seen": "2026-08-12T20:16:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2486
+    },
+    {
+      "id": "f649d307fd",
+      "title": "Twitch streamers can now opt out from training Amazon’s AI",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+          "headline": "Amazon will train on Twitch streamers’ content by default, unless they opt out",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+          "headline": "Twitch streamers can now opt out from training Amazon’s AI",
           "platform": "rss"
         }
       ],
@@ -352,24 +567,80 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-08-12T14:00:00+00:00",
-      "last_seen": "2026-08-12T16:00:00+00:00",
+      "first_seen": "2026-08-12T17:29:10+00:00",
+      "last_seen": "2026-08-12T20:10:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1567
+      "resonance": 0.1596
     },
     {
-      "id": "bc2a8171bf",
-      "title": "How Google’s new Pixel 11 phones compare to last year’s models",
+      "id": "5665d22c64",
+      "title": "El-Sayed dares GOP rival to no-pads football showdown as Senate feud turns personal",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/975237/google-pixel-11-pro-comparison-specs-price-features",
-          "headline": "How Google’s new Pixel 11 phones compare to last year’s models",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/el-sayed-dares-gop-rival-no-pads-football-showdown-senate-feud-turns-personal",
+          "headline": "El-Sayed dares GOP rival to no-pads football showdown as Senate feud turns personal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-12T20:46:43+00:00",
+      "last_seen": "2026-08-12T20:46:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1206
+    },
+    {
+      "id": "b75ad223b6",
+      "title": "Jeffrey Dean Morgan nearly quit acting after miserable ‘Star Trek’ experience: ‘I hated it so much’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/jeffrey-dean-morgan-nearly-quit-acting-miserable-star-trek-experience-hated-so-much",
+          "headline": "Jeffrey Dean Morgan nearly quit acting after miserable ‘Star Trek’ experience: ‘I hated it so much’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-12T20:45:40+00:00",
+      "last_seen": "2026-08-12T20:45:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1189
+    },
+    {
+      "id": "c7691778a4",
+      "title": "'Back to the 60s' as ombudsman finds systemic issues in telco services",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-13/telecommunications-ombudsman-report-systemic-regional-issues/107016980",
+          "headline": "'Back to the 60s' as ombudsman finds systemic issues in telco services",
           "platform": "rss"
         }
       ],
@@ -380,108 +651,136 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-12T17:00:00+00:00",
-      "last_seen": "2026-08-12T17:00:00+00:00",
+      "first_seen": "2026-08-12T20:42:25+00:00",
+      "last_seen": "2026-08-12T20:42:25+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1215
+      "topic": "world",
+      "resonance": 0.1136
     },
     {
-      "id": "f9a3023775",
-      "title": "US strengthens military presence in breakaway Puntland amid battle for Red Sea",
+      "id": "b4fbc72899",
+      "title": "How Nigel Farage Ended Up Running Against Count Binface in Clacton",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/us-strengthens-military-presence-breakaway-puntland-amid-battle-red-sea",
-          "headline": "US strengthens military presence in breakaway Puntland amid battle for Red Sea",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/12/world/europe/count-binface-nigel-farage-clacton.html",
+          "headline": "How Nigel Farage Ended Up Running Against Count Binface in Clacton",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.25,
+        "mean": -0.3,
         "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-08-12T16:58:32+00:00",
-      "last_seen": "2026-08-12T16:58:32+00:00",
+      "first_seen": "2026-08-12T20:37:58+00:00",
+      "last_seen": "2026-08-12T20:37:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1065
+    },
+    {
+      "id": "5d1cf42449",
+      "title": "Australia politics live: tech giants face law to pay for news content; Australia joins call for Iran to end death penalty",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/13/australia-politics-live-news-bargaining-meta-tiktok-housing-migration-question-time-anthony-albanese-angus-taylor-pauline-hanson-labor-coalition-one-nation-ntwnfb",
+          "headline": "Australia politics live: tech giants face law to pay for news content; Australia joins call for Iran to end death penalty",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T20:36:19+00:00",
+      "last_seen": "2026-08-12T20:36:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1038
+    },
+    {
+      "id": "70dbbef766",
+      "title": "A timely reset for the Food Security Act",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/opinion/lead/a-timely-reset-for-the-food-security-act/article71337424.ece",
+          "headline": "A timely reset for the Food Security Act",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T20:32:51+00:00",
+      "last_seen": "2026-08-12T20:32:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0983
+    },
+    {
+      "id": "f12721ce3c",
+      "title": "Military transformation, intellectual leadership",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/opinion/op-ed/military-transformation-intellectual-leadership/article71337469.ece",
+          "headline": "Military transformation, intellectual leadership",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T20:30:41+00:00",
+      "last_seen": "2026-08-12T20:30:41+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1192
+      "resonance": 0.0949
     },
     {
-      "id": "729151dc8c",
-      "title": "ICE wants to give agents electrified gloves that shock people into compliance",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/policy/979010/ice-agents-electric-shock-gloves",
-          "headline": "ICE wants to give agents electrified gloves that shock people into compliance",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:58:29+00:00",
-      "last_seen": "2026-08-12T16:58:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1192
-    },
-    {
-      "id": "dbb82824a0",
-      "title": "Mesh, Automattic’s CRM for everyone, comes to Android",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
-          "headline": "Mesh, Automattic’s CRM for everyone, comes to Android",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:57:58+00:00",
-      "last_seen": "2026-08-12T16:57:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1184
-    },
-    {
-      "id": "fb6089a4ba",
-      "title": "Existing electricity meters can be made ‘smart’ by installing SIM cards, say TNPDCL officials",
+      "id": "62282cfd39",
+      "title": "Troubling bill: On the Foreign Contribution (Regulation) Amendment Bill, 2026",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/chennai/existing-electricity-meters-can-be-made-smart-by-installing-sim-cards-say-tnpdcl-officials/article71336529.ece",
-          "headline": "Existing electricity meters can be made ‘smart’ by installing SIM cards, say TNPDCL officials",
+          "url": "https://www.thehindu.com/opinion/editorial/troubling-bill-on-the-foreign-contribution-regulation-amendment-bill-2026/article71337639.ece",
+          "headline": "Troubling bill: On the Foreign Contribution (Regulation) Amendment Bill, 2026",
           "platform": "rss"
         }
       ],
@@ -492,266 +791,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-12T16:56:31+00:00",
-      "last_seen": "2026-08-12T16:56:31+00:00",
+      "first_seen": "2026-08-12T20:29:56+00:00",
+      "last_seen": "2026-08-12T20:29:56+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1161
+      "topic": "politics",
+      "resonance": 0.0937
     },
     {
-      "id": "5cc307c4c9",
-      "title": "Seven dead, many injured in Mumbai landslip",
+      "id": "c258edc908",
+      "title": "Bazball-era curfews over as Root demands England players 'be adults'",
       "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/mumbai/kurla-landslide-in-mumbai-death-toll-bmc-ndrf-rescue-efforts-august-12-2026/article71334944.ece",
-          "headline": "Seven dead, many injured in Mumbai landslip",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:55:43+00:00",
-      "last_seen": "2026-08-12T16:55:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1148
-    },
-    {
-      "id": "54aa07b504",
-      "title": "Tata Sons chairman N. Chandrasekaran to step down in February 2027",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/business/Industry/tata-sons-chairman-n-chandrasekaran-resignation/article71335293.ece",
-          "headline": "Tata Sons chairman N. Chandrasekaran to step down in February 2027",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:54:26+00:00",
-      "last_seen": "2026-08-12T16:54:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1129
-    },
-    {
-      "id": "53d5388202",
-      "title": "Ben Affleck directs, stars in Netflix kidnapping thriller 'Animals' coming this October",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-culture/ben-affleck-directs-stars-netflix-kidnapping-thriller-animals-october",
-          "headline": "Ben Affleck directs, stars in Netflix kidnapping thriller 'Animals' coming this October",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-12T16:51:47+00:00",
-      "last_seen": "2026-08-12T16:51:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1088
-    },
-    {
-      "id": "3b5fea2edd",
-      "title": "‘Grease’ star Stockard Channing says she’s ‘happy being a recluse’ after leaving America",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/grease-star-stockard-channing-says-shes-happy-being-recluse-after-leaving-america",
-          "headline": "‘Grease’ star Stockard Channing says she’s ‘happy being a recluse’ after leaving America",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-12T16:50:07+00:00",
-      "last_seen": "2026-08-12T16:50:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1062
-    },
-    {
-      "id": "5c94b8cabc",
-      "title": "Amazon gets out of the MMO game",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/979070/amazon-mmo-throne-and-liberty-lost-ark-live-operations",
-          "headline": "Amazon gets out of the MMO game",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:46:05+00:00",
-      "last_seen": "2026-08-12T16:46:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1
-    },
-    {
-      "id": "26045c9381",
-      "title": "Why Stream ring-maker Sandbar says the future of AI wearables is voice",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice/",
-          "headline": "Why Stream ring-maker Sandbar says the future of AI wearables is voice",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:46:02+00:00",
-      "last_seen": "2026-08-12T16:46:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1
-    },
-    {
-      "id": "775f422237",
-      "title": "Former Chinese premier Zhu Rongji dies at 97",
-      "signal_count": 4,
       "sources": [
         {
           "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-12/ex-chinese-premier-zhu-rongji-architect-of-growth-dies-at-97/107030704",
-          "headline": "Ex-Chinese Premier Zhu Rongji, architect of growth, dies at 97",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/12/former-chinese-premier-zhu-rongji-known-for-his-pioneering-market-reforms-dies-at-97_6756420_4.html",
-          "headline": "Former Chinese premier Zhu Rongji dies at 97",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/obituaries/2026/08/12/zhu-rongji-former-china-premier-dies-97/",
-          "headline": "Zhu Rongji, China premier crucial to economic transformation, dies at 97",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/08/12/asia-pacific/zhu-rongji-economy-modern-era/",
-          "headline": "Zhu Rongji, Chinese premier who cajoled economy into modern era, dies at 97",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.112,
-        "left": 1,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T10:43:00+00:00",
-      "last_seen": "2026-08-12T12:32:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0973
-    },
-    {
-      "id": "d026099b9e",
-      "title": "A Partial Solar Eclipse Will Be Visible in Parts of the U.S. and Canada",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/12/world/europe/solar-eclipse-us-north-america.html",
-          "headline": "A Partial Solar Eclipse Will Be Visible in Parts of the U.S. and Canada",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:43:34+00:00",
-      "last_seen": "2026-08-12T16:43:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.0962
-    },
-    {
-      "id": "52be881922",
-      "title": "Burnham considers disposable BBQ ban over wildfire risks",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cr59p2nr6dqo?at_medium=RSS&at_campaign=rss",
-          "headline": "Burnham considers disposable BBQ ban over wildfire risks",
+          "url": "https://www.abc.net.au/news/2026-08-13/joe-root-england-captain-curfew-rules-end-after-bazball/107031132",
+          "headline": "Bazball-era curfews over as Root demands England players 'be adults'",
           "platform": "rss"
         }
       ],
@@ -762,192 +819,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-12T16:38:02+00:00",
-      "last_seen": "2026-08-12T16:38:02+00:00",
+      "first_seen": "2026-08-12T20:27:29+00:00",
+      "last_seen": "2026-08-12T20:27:29+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.0879
+      "topic": "sport",
+      "resonance": 0.0899
     },
     {
-      "id": "25fade1489",
-      "title": "'House' star Hugh Laurie defends Sophie Cunningham, says men don't belong in women's sports",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/house-star-hugh-laurie-defends-sophie-cunningham-says-men-dont-belong-womens-sports",
-          "headline": "'House' star Hugh Laurie defends Sophie Cunningham, says men don't belong in women's sports",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-12T16:35:57+00:00",
-      "last_seen": "2026-08-12T16:35:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0848
-    },
-    {
-      "id": "e29d968b42",
-      "title": "Thousands of Canadians call for US ambassador's expulsion",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c9d83j4ql2xo?at_medium=RSS&at_campaign=rss",
-          "headline": "Thousands of Canadians call for US ambassador's expulsion",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:35:52+00:00",
-      "last_seen": "2026-08-12T16:35:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0847
-    },
-    {
-      "id": "dd0416c568",
-      "title": "Members of Trump's cabinet remained on decoy plane, after president's quiet exit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
-          "headline": "Members of Trump's cabinet remained on decoy plane, after president's quiet exit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:34:01+00:00",
-      "last_seen": "2026-08-12T16:34:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.082
-    },
-    {
-      "id": "eeddda59de",
-      "title": "US tries to override New York gambling laws, orders Kalshi to keep operating",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/08/us-tries-to-override-new-york-gambling-laws-orders-kalshi-to-keep-operating/",
-          "headline": "US tries to override New York gambling laws, orders Kalshi to keep operating",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:33:43+00:00",
-      "last_seen": "2026-08-12T16:33:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0815
-    },
-    {
-      "id": "d994ccb192",
-      "title": "Anna Wintour and André Leon Talley's sudden break",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/lifestyle/article/2026/08/12/anna-wintour-and-andre-leon-talley-s-sudden-break_6756431_37.html",
-          "headline": "Anna Wintour and André Leon Talley's sudden break",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:32:27+00:00",
-      "last_seen": "2026-08-12T16:32:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0797
-    },
-    {
-      "id": "73aefaf303",
-      "title": "Ann Widdecombe's loved ones gather for her funeral",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cvgwz81w892o?at_medium=RSS&at_campaign=rss",
-          "headline": "Ann Widdecombe's loved ones gather for her funeral",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:31:07+00:00",
-      "last_seen": "2026-08-12T16:31:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0777
-    },
-    {
-      "id": "0c65df401a",
-      "title": "Israeli air strike kills one in Gaza",
+      "id": "d7e64d6bf7",
+      "title": "Iran says no progress on reviving interim peace deal with US",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-launches-first-gaza-air-strike-more-week",
-          "headline": "Israeli air strike kills one in Gaza",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-no-progress-reviving-interim-peace-deal-us",
+          "headline": "Iran says no progress on reviving interim peace deal with US",
           "platform": "rss"
         }
       ],
@@ -958,80 +847,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-08-12T16:30:19+00:00",
-      "last_seen": "2026-08-12T16:30:19+00:00",
+      "first_seen": "2026-08-12T20:26:30+00:00",
+      "last_seen": "2026-08-12T20:26:30+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0765
+      "topic": "world",
+      "resonance": 0.0884
     },
     {
-      "id": "445269f3f6",
-      "title": "Trump remarks on diminishing impact of pro-Israel groups in Congress",
+      "id": "f00b45582b",
+      "title": "First 100% British chocolate bar made since 1932",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/8/12/trump-remarks-on-diminishing-impact-of-pro-israel-groups-in-congress?traffic_source=rss",
-          "headline": "Trump remarks on diminishing impact of pro-Israel groups in Congress",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:23:28+00:00",
-      "last_seen": "2026-08-12T16:23:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0666
-    },
-    {
-      "id": "3b7e74966a",
-      "title": "A Space Expert Hoped to Use the Eclipse as Science Class. The D.J.s Had Other Plans.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/12/world/europe/spain-eclipse-astrophysicist-festival.html",
-          "headline": "A Space Expert Hoped to Use the Eclipse as Science Class. The D.J.s Had Other Plans.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-12T16:19:27+00:00",
-      "last_seen": "2026-08-12T16:19:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.0608
-    },
-    {
-      "id": "a5fa94c2be",
-      "title": "Tesla wants to build a $10B solar factory in Texas",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/12/tesla-wants-to-build-a-10b-solar-factory-in-texas/",
-          "headline": "Tesla wants to build a $10B solar factory in Texas",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/czxe2kw31wpo?at_medium=RSS&at_campaign=rss",
+          "headline": "First 100% British chocolate bar made since 1932",
           "platform": "rss"
         }
       ],
@@ -1042,24 +875,248 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-12T16:18:31+00:00",
-      "last_seen": "2026-08-12T16:18:31+00:00",
+      "first_seen": "2026-08-12T20:26:23+00:00",
+      "last_seen": "2026-08-12T20:26:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0882
+    },
+    {
+      "id": "fdf4cf5f7d",
+      "title": "'Where is our morality?' Holocaust survivor's warning to Australians",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-13/holocaust-survivors-jewish-museums-educate-on-antisemitism/106977610",
+          "headline": "'Where is our morality?' Holocaust survivor's warning to Australians",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T20:21:56+00:00",
+      "last_seen": "2026-08-12T20:21:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0813
+    },
+    {
+      "id": "a36c573bb6",
+      "title": "How Raúl Castro’s Grandson, Raúl G. Rodríguez Castro, Became a Power Broker",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/11/world/americas/raul-castro-trump-cuba.html",
+          "headline": "How Raúl Castro’s Grandson, Raúl G. Rodríguez Castro, Became a Power Broker",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T20:20:49+00:00",
+      "last_seen": "2026-08-12T20:20:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0796
+    },
+    {
+      "id": "349ba958f6",
+      "title": "Controversial group wins $158M-contract to represent unaccompanied immigrant children",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/08/12/nx-s1-5929456/migrant-children-our-rescue",
+          "headline": "Controversial group wins $158M-contract to represent unaccompanied immigrant children",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T20:19:40+00:00",
+      "last_seen": "2026-08-12T20:19:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0778
+    },
+    {
+      "id": "400e45bd69",
+      "title": "‘Platformicide’ of Palestine: Activists struggle to be heard on Meta",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/12/platformicide-of-palestine-activists-struggle-to-be-heard-on-meta?traffic_source=rss",
+          "headline": "‘Platformicide’ of Palestine: Activists struggle to be heard on Meta",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T20:15:38+00:00",
+      "last_seen": "2026-08-12T20:15:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0716
+    },
+    {
+      "id": "6eb0153429",
+      "title": "The Best Way to Avoid Diarrhea Lettuce? This Indoor Garden",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/lettuce-grow-20-percent-off-2026/",
+          "headline": "The Best Way to Avoid Diarrhea Lettuce? This Indoor Garden",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T20:14:30+00:00",
+      "last_seen": "2026-08-12T20:14:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0699
+    },
+    {
+      "id": "0e97248f8e",
+      "title": "Son of Florida alligator attack victim says tourists and TikTokers are emboldening the gators",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-culture/son-florida-alligator-attack-victim-says-tourists-tiktokers-emboldening-gators",
+          "headline": "Son of Florida alligator attack victim says tourists and TikTokers are emboldening the gators",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-12T20:10:03+00:00",
+      "last_seen": "2026-08-12T20:10:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0632
+    },
+    {
+      "id": "1256ab0164",
+      "title": "As Europe Faces Heat Waves and Wildfires, Travelers Are Forced to Adapt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/12/travel/europe-travel-tourism-wildfires-heat-waves.html",
+          "headline": "As Europe Faces Heat Waves and Wildfires, Travelers Are Forced to Adapt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T20:06:39+00:00",
+      "last_seen": "2026-08-12T20:06:39+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "climate",
-      "resonance": 0.0595
+      "resonance": 0.0581
     },
     {
-      "id": "5dcc5c4a34",
-      "title": "Zhu Rongji: reformer who led China’s economic transformation through ‘minefield or abyss’",
+      "id": "fce7109218",
+      "title": "It May Be Time to Panic About AI",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/technology/2026/08/openai-hacks-panic/688264/?utm_source=feed",
+          "headline": "It May Be Time to Panic About AI",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-12T20:05:28+00:00",
+      "last_seen": "2026-08-12T20:05:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0564
+    },
+    {
+      "id": "5e71353bea",
+      "title": "US-China ‘Board of Investment’ stalls before expected Trump-Xi meeting",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/politics/article/3363824/zhu-rongji-reformer-who-led-chinas-economic-transformation-through-minefield-or-abyss?utm_source=rss_feed",
-          "headline": "Zhu Rongji: reformer who led China’s economic transformation through ‘minefield or abyss’",
+          "url": "https://www.scmp.com/news/us/economy-trade-business/article/3363829/us-china-board-investment-stalls-expected-trump-xi-meeting?utm_source=rss_feed",
+          "headline": "US-China ‘Board of Investment’ stalls before expected Trump-Xi meeting",
           "platform": "rss"
         }
       ],
@@ -1070,8 +1127,8 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-12T16:11:47+00:00",
-      "last_seen": "2026-08-12T16:11:47+00:00",
+      "first_seen": "2026-08-12T20:01:08+00:00",
+      "last_seen": "2026-08-12T20:01:08+00:00",
       "platforms": [
         "rss"
       ],
@@ -1084,37 +1141,31 @@
     {
       "source": "2b3bd4d349",
       "target": "eca5c92f6d",
-      "weight": 0.044,
+      "weight": 0.121,
       "type": "thematic"
     },
     {
-      "source": "2b3bd4d349",
-      "target": "445269f3f6",
-      "weight": 0.047,
+      "source": "036b09e59f",
+      "target": "f649d307fd",
+      "weight": 0.319,
       "type": "thematic"
     },
     {
-      "source": "22f00ab3df",
-      "target": "d026099b9e",
-      "weight": 0.28,
+      "source": "b9cf2b1b78",
+      "target": "0ab6591fb4",
+      "weight": 0.564,
       "type": "thematic"
     },
     {
-      "source": "8ed233fc26",
-      "target": "eca5c92f6d",
-      "weight": 0.244,
+      "source": "24f7fb8fa8",
+      "target": "59034f7197",
+      "weight": 0.374,
       "type": "thematic"
     },
     {
-      "source": "8ed233fc26",
-      "target": "bc2a8171bf",
-      "weight": 0.83,
-      "type": "thematic"
-    },
-    {
-      "source": "775f422237",
-      "target": "5dcc5c4a34",
-      "weight": 0.281,
+      "source": "0ab6591fb4",
+      "target": "59034f7197",
+      "weight": 0.718,
       "type": "thematic"
     }
   ],

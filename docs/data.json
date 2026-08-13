@@ -1,93 +1,47 @@
 {
-  "generated_at": "2026-08-13T09:17:20.307522+00:00",
+  "generated_at": "2026-08-13T13:22:11.643958+00:00",
   "node_count": 35,
-  "edge_count": 2,
+  "edge_count": 3,
   "nodes": [
     {
-      "id": "18ce088f6c",
-      "title": "West Bank: US ambassador to Israel denounces siege of Palestinian homes as 'horrific act of terror'",
-      "signal_count": 4,
+      "id": "8992e00506",
+      "title": "Deutsche Bank becomes first foreign yuan clearing bank in Europe",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260813-us-ambassador-to-israel-slams-settler-siege-against-west-bank-palestinians-terror",
-          "headline": "US ambassador to Israel slams settler siege against West Bank Palestinians as ‘terror’",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/8/13/us-diplomat-calls-israeli-settler-siege-of-west-bank-homes-act-of-terror?traffic_source=rss",
-          "headline": "US diplomat calls Israeli settler siege of West Bank homes ‘act of terror’",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/13/west-bank-us-ambassador-to-israel-denounces-siege-of-palestinian-homes-as-horrific-act-of-terror_6756455_4.html",
-          "headline": "West Bank: US ambassador to Israel denounces siege of Palestinian homes as 'horrific act of terror'",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/12/world/middleeast/west-bank-palestinians-israeli-settlers.html",
-          "headline": "Settler Siege of Palestinian Homes Highlights Growing West Bank Chaos",
-          "platform": "rss"
+          "outlet": "Hacker News",
+          "url": "https://tradersunion.com/news/central-banks/show/2973571-deutsche-bank-becomes/",
+          "headline": "Deutsche Bank becomes first foreign yuan clearing bank in Europe",
+          "platform": "hackernews"
         }
       ],
       "bias": {
-        "mean": -0.2,
-        "spread": 0.071,
-        "left": 1,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T01:01:06+00:00",
-      "last_seen": "2026-08-13T09:14:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.664
-    },
-    {
-      "id": "8737f89f7d",
-      "title": "Chinese state-linked observatory sought NZ site, spy agency says",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/08/13/asia-pacific/politics/chinese-observatory-nz-site-spy-agency/",
-          "headline": "Chinese state-linked observatory sought NZ site, spy agency says",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-13/chinese-state-linked-observatory-sought-nz-site-spy-agency-says/107034742",
-          "headline": "Chinese state-linked observatory sought NZ site, spy agency says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
+        "mean": 0.0,
+        "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-13T07:37:33+00:00",
-      "last_seen": "2026-08-13T08:24:00+00:00",
+      "first_seen": "2026-08-13T12:09:50+00:00",
+      "last_seen": "2026-08-13T12:09:50+00:00",
       "platforms": [
-        "rss"
+        "hackernews"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.4792
+      "topic": "economy",
+      "resonance": 0.28
     },
     {
       "id": "bbc3bab6bb",
       "title": "Japan PM says Putin's visit to disputed islands 'absolutely unacceptable'",
-      "signal_count": 3,
+      "signal_count": 5,
       "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/aug/13/japan-condemns-vladimir-putin-visit-kuril-islands",
+          "headline": "Japan condemns visit by Vladimir Putin to disputed Kuril Islands",
+          "platform": "rss"
+        },
         {
           "outlet": "BBC World Service",
           "url": "https://www.bbc.co.uk/news/articles/cqx7ple0nxxo?at_medium=RSS&at_campaign=rss",
@@ -95,381 +49,197 @@
           "platform": "rss"
         },
         {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/russia-s-putin-angers-japan-with-1st-visit-to-kuril-islands/a-78345291?maca=en-rss-en-all-1573-rdf",
-          "headline": "Russia's Putin angers Japan with 1st visit to Kuril Islands",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3363864/russias-putin-makes-first-visit-kuril-islands-claimed-japan?utm_source=rss_feed",
-          "headline": "Russia’s Putin makes first visit to Kuril Islands claimed by Japan",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.082,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T05:19:04+00:00",
-      "last_seen": "2026-08-13T08:13:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.4466
-    },
-    {
-      "id": "254f48c1b0",
-      "title": "Polls open in Clacton by-election",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/polls-open-clacton-contest-between-nigel-farage-and-count-binface",
-          "headline": "Polls open in crunch Clacton contest between Reform's Nigel Farage and Count Binface",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cp308xpwv34o?at_medium=RSS&at_campaign=rss",
-          "headline": "Polls open in Clacton by-election",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.175,
-        "spread": 0.075,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T06:28:40+00:00",
-      "last_seen": "2026-08-13T08:46:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.3353
-    },
-    {
-      "id": "7b3e4b0e2b",
-      "title": "Total eclipse plunges Spain’s Segovia into darkness for 59 seconds of wonder (4/4)",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260813-total-eclipse-plunges-spain-segovia-into-darkness-suspending-time-59-seconds",
-          "headline": "Total eclipse plunges Spain’s Segovia into darkness for 59 seconds of wonder (4/4)",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/video/2026/08/13/rare-eclipse-plunges-parts-of-europe-into-darkness",
-          "headline": "Rare eclipse plunges parts of Europe into darkness",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T06:00:58+00:00",
-      "last_seen": "2026-08-13T08:56:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.3087
-    },
-    {
-      "id": "be9dc4be20",
-      "title": "PSG down Aston Villa to retain UEFA Super Cup",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/tv-shows/sports/20260813-paris-saint-germain-retain-super-cup-title-by-seeing-off-aston-villa",
-          "headline": "Paris Saint-Germain retain Super Cup title by seeing off Aston Villa",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/sports/2026/08/13/soccer/psg-retains-super-cup/",
-          "headline": "Paris St. Germain beats Aston Villa to retain UEFA Super Cup",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/13/japan-protests-as-russias-putin-visits-disputed-kuril-islands?traffic_source=rss",
+          "headline": "Japan protests as Russia’s Putin visits disputed Kuril Islands",
           "platform": "rss"
         },
         {
           "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/sports/article/2026/08/13/psg-down-aston-villa-to-retain-uefa-super-cup_6756441_9.html",
-          "headline": "PSG down Aston Villa to retain UEFA Super Cup",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/13/putin-makes-first-visit-to-kuril-islands-claimed-by-japan_6756453_4.html",
+          "headline": "Putin makes first visit to Kuril Islands claimed by Japan",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/08/13/tokyo-issues-angry-response-as-putin-makes-his-first-visit-to-the-disputed-kuril-islands",
+          "headline": "Tokyo issues angry response as Putin makes his first visit to the disputed Kuril islands",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.082,
-        "left": 0,
-        "center": 3,
+        "mean": -0.16,
+        "spread": 0.102,
+        "left": 1,
+        "center": 4,
         "right": 0
       },
-      "first_seen": "2026-08-12T22:55:44+00:00",
-      "last_seen": "2026-08-13T08:32:22+00:00",
+      "first_seen": "2026-08-13T07:32:53+00:00",
+      "last_seen": "2026-08-13T12:56:57+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2961
+      "resonance": 0.4344
     },
     {
-      "id": "266216b1c4",
-      "title": "Putin visits disputed Kuril islands, sparking protest from Japan",
-      "signal_count": 2,
+      "id": "5a4f9308e8",
+      "title": "Defence pact for Türkiye, Pakistan and Saudi Arabia open to expansion",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/08/13/japan/society/russia-putin-japan-disputed-isle-visit/",
-          "headline": "Putin visits disputed Etorofu island off Hokkaido, sparking protest from Tokyo",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/13/turkiye-lays-out-mechanisms-of-defence-pact-with-pakistan-saudi-arabia?traffic_source=rss",
+          "headline": "Turkiye lays out ‘mechanisms’ of defence pact with Pakistan, Saudi Arabia",
           "platform": "rss"
         },
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/asia-pacific/20260813-putin-visits-kuril-islands-claimed-by-japan",
-          "headline": "Putin visits disputed Kuril islands, sparking protest from Japan",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-13/turkiye-plans-for-nato-like-defence-pact/107035458",
+          "headline": "Defence pact for Türkiye, Pakistan and Saudi Arabia open to expansion",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3363871/saudi-turkey-pakistan-mecca-pact-falls-short-nato-style-defence-alliance?utm_source=rss_feed",
+          "headline": "Saudi-Turkey-Pakistan Mecca pact ‘far from’ Nato-style defence alliance",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.05,
+        "mean": -0.067,
+        "spread": 0.125,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T10:22:23+00:00",
+      "last_seen": "2026-08-13T12:42:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.3264
+    },
+    {
+      "id": "c26f4661e5",
+      "title": "Ukraine's monthly civilian casualties highest since 2022",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ukraine-s-monthly-civilian-casualties-highest-since-2022/live-78351269?maca=en-rss-en-all-1573-rdf",
+          "headline": "Ukraine's monthly civilian casualties highest since 2022",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/13/civilian-deaths-in-ukraine-in-july-hit-highest-level-since-may-2022-un?traffic_source=rss",
+          "headline": "Civilian deaths in Ukraine in July hit highest level since May 2022: UN",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260813-live-russian-attack-sets-ablaze-ukraine-s-izmail-port-infrastructure",
+          "headline": "🔴 Live: Ukraine's civilian deaths in July hit highest level since May 2022, UN says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.133,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T09:47:54+00:00",
+      "last_seen": "2026-08-13T12:25:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2859
+    },
+    {
+      "id": "ce4ba4f88a",
+      "title": "Infantino's future at FIFA should be decided by election, African football chief says",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/8/13/infantinos-fifa-fate-must-go-to-an-election-says-african-football-chief?traffic_source=rss",
+          "headline": "Infantino’s FIFA fate must go to an election, says Africa football chief",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260813-infantino-future-should-be-decided-by-election-says-african-football-chief",
+          "headline": "Infantino's future at FIFA should be decided by election, African football chief says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
         "spread": 0.05,
         "left": 0,
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-08-13T04:53:10+00:00",
-      "last_seen": "2026-08-13T08:41:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2023
-    },
-    {
-      "id": "2bf0fa962e",
-      "title": "Gardner breaks silence on affair with teammate, retains vice-captaincy",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-13/cricket-gardner-breaks-silence-marriage-breakdown-affair-voll/107035306",
-          "headline": "Gardner breaks silence on affair with teammate, retains vice-captaincy",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T09:12:12+00:00",
-      "last_seen": "2026-08-13T09:12:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1856
-    },
-    {
-      "id": "9812cfaf86",
-      "title": "Kerala Cabinet clears ₹2 lakh aid for Mundakkai Chooralmala beneficiaries",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/videos/shorts/kerala-cabinet-clears-2-lakh-aid-for-mundakkai-chooralmala-beneficiaries/article71340325.ece",
-          "headline": "Kerala Cabinet clears ₹2 lakh aid for Mundakkai Chooralmala beneficiaries",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T09:10:28+00:00",
-      "last_seen": "2026-08-13T09:10:28+00:00",
+      "first_seen": "2026-08-13T10:55:21+00:00",
+      "last_seen": "2026-08-13T12:19:02+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.18
+      "resonance": 0.225
     },
     {
-      "id": "5af4930bdc",
-      "title": "Ex-TMC MLA Nirmal Ghosh arrested in connection to hurried cremation of RG Kar rape victim’s body",
-      "signal_count": 1,
+      "id": "80f5dfdbdf",
+      "title": "Romania to shut down nuclear plant due to low Danube level",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/west-bengal/ex-tmc-mla-nirmal-ghosh-arrested-in-connection-to-hurried-cremation-of-rg-kar-rape-victims-body/article71340249.ece",
-          "headline": "Ex-TMC MLA Nirmal Ghosh arrested in connection to hurried cremation of RG Kar rape victim’s body",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/13/falling-danube-flow-forces-shutdown-of-romanias-sole-nuclear-plant?traffic_source=rss",
+          "headline": "Falling Danube flow forces shutdown of Romania’s sole nuclear plant",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/13/romania-to-shut-down-nuclear-plant-due-to-low-river-levels_6756461_4.html",
+          "headline": "Romania to shut down nuclear plant due to low Danube level",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-08-13T09:07:20+00:00",
-      "last_seen": "2026-08-13T09:07:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1699
-    },
-    {
-      "id": "8d6daf6ab9",
-      "title": "Parliament passes Mines and Minerals Amendment Bill",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/parliament-passes-mines-and-minerals-amendment-bill/article71339945.ece",
-          "headline": "Parliament passes Mines and Minerals Amendment Bill",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T09:07:17+00:00",
-      "last_seen": "2026-08-13T09:07:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1698
-    },
-    {
-      "id": "9b7587d899",
-      "title": "Zhu Rongji reforms fuel China’s economic transformation",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/plus/news/china/politics/article/3363910/zhu-rongji-reforms-fuel-chinas-economic-transformation?utm_source=rss_feed",
-          "headline": "Zhu Rongji reforms fuel China’s economic transformation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T09:06:42+00:00",
-      "last_seen": "2026-08-13T09:06:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.1679
-    },
-    {
-      "id": "ff54861f7d",
-      "title": "Ukraine’s farmers despair as Russia’s Black Sea blockade traps their harvest",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/08/13/world/ukraine-russia-black-sea-harvest/",
-          "headline": "Ukraine’s farmers despair as Russia’s Black Sea blockade traps their harvest",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T09:04:00+00:00",
-      "last_seen": "2026-08-13T09:04:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1593
-    },
-    {
-      "id": "547c6e13f8",
-      "title": "A Patient’s Final Breath in a Congolese Ebola Ward",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/13/world/africa/ebola-congo-patient-dies.html",
-          "headline": "A Patient’s Final Breath in a Congolese Ebola Ward",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T09:02:03+00:00",
-      "last_seen": "2026-08-13T09:02:03+00:00",
+      "first_seen": "2026-08-13T09:41:15+00:00",
+      "last_seen": "2026-08-13T12:30:08+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1532
+      "resonance": 0.1616
     },
     {
-      "id": "a12118a8ea",
-      "title": "Harvard-China links unearthed as Congress finds 140 papers co-authored by CCP military universities",
+      "id": "338ccf989c",
+      "title": "Things we bought that are worth every penny",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/harvard-china-links-unearthed-congress-finds-140-papers-coauthored-ccp-military-universities",
-          "headline": "Harvard-China links unearthed as Congress finds 140 papers co-authored by CCP military universities",
+          "url": "https://www.foxnews.com/deals/fox-news-deals-newsletter-august-13",
+          "headline": "Things we bought that are worth every penny",
           "platform": "rss"
         }
       ],
@@ -480,80 +250,52 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-08-13T09:00:40+00:00",
-      "last_seen": "2026-08-13T09:00:40+00:00",
+      "first_seen": "2026-08-13T13:17:15+00:00",
+      "last_seen": "2026-08-13T13:17:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1488
+      "topic": "world",
+      "resonance": 0.1471
     },
     {
-      "id": "53d57d9c83",
-      "title": "MORNING GLORY: Democrat El-Sayed reminds us just one senator can do great damage to our military",
+      "id": "d8bea123e1",
+      "title": "Local operators in Tiruvarur asked to surrender Arasu cable set top boxes",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/opinion/morning-glory-democrat-el-sayed-reminds-us-one-senator-can-do-great-damage-military",
-          "headline": "MORNING GLORY: Democrat El-Sayed reminds us just one senator can do great damage to our military",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/local-operators-in-tiruvarur-asked-to-surrender-arasu-cable-set-top-boxes/article71341030.ece",
+          "headline": "Local operators in Tiruvarur asked to surrender Arasu cable set top boxes",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-08-13T09:00:27+00:00",
-      "last_seen": "2026-08-13T09:00:27+00:00",
+      "first_seen": "2026-08-13T13:17:11+00:00",
+      "last_seen": "2026-08-13T13:17:11+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1481
+      "topic": "world",
+      "resonance": 0.147
     },
     {
-      "id": "d81e2130cc",
-      "title": "America needs thousands of blue-collar workers to manufacture our AI future",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/opinion/america-needs-thousands-blue-collar-workers-manufacture-ai-future",
-          "headline": "America needs thousands of blue-collar workers to manufacture our AI future",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-08-13T09:00:23+00:00",
-      "last_seen": "2026-08-13T09:00:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1479
-    },
-    {
-      "id": "46fbd8eb16",
-      "title": "Chinese carmakers could capture 15% to 30% of European market by 2035: Citi analysts",
+      "id": "52de8a8fe1",
+      "title": "SF Reit’s distributable income falls 7.3% in first half as occupancy holds steady",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/business/china-evs/article/3363903/chinese-carmakers-could-capture-15-30-european-market-2035-citi-analysts?utm_source=rss_feed",
-          "headline": "Chinese carmakers could capture 15% to 30% of European market by 2035: Citi analysts",
+          "url": "https://www.scmp.com/business/companies/article/3363947/sf-reits-distributable-income-falls-73-first-half-occupancy-holds-steady?utm_source=rss_feed",
+          "headline": "SF Reit’s distributable income falls 7.3% in first half as occupancy holds steady",
           "platform": "rss"
         }
       ],
@@ -564,80 +306,108 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-13T09:00:10+00:00",
-      "last_seen": "2026-08-13T09:00:10+00:00",
+      "first_seen": "2026-08-13T13:16:18+00:00",
+      "last_seen": "2026-08-13T13:16:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.1472
+      "topic": "world",
+      "resonance": 0.1457
     },
     {
-      "id": "00d9b316fe",
-      "title": "These swing voters in Nevada say they are not dismissing socialist candidates",
+      "id": "a41e5e9d7e",
+      "title": "Delhi women cops go undercover as decoys, detain over 1 lakh for harassment, molestation",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/08/13/nx-s1-5929406/nevada-economy-socialism-focus-groups",
-          "headline": "These swing voters in Nevada say they are not dismissing socialist candidates",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-women-cops-go-undercover-as-decoys-detain-over-1-lakh-for-harassment-molestation/article71336868.ece",
+          "headline": "Delhi women cops go undercover as decoys, detain over 1 lakh for harassment, molestation",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-13T09:00:00+00:00",
-      "last_seen": "2026-08-13T09:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1467
-    },
-    {
-      "id": "9bc3295279",
-      "title": "Sailors and their families have lives on pause, uncertain if they'll return to Mideast",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/08/13/nx-s1-5929463/evacuation-bahrain-troops-iran-war",
-          "headline": "Sailors and their families have lives on pause, uncertain if they'll return to Mideast",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T09:00:00+00:00",
-      "last_seen": "2026-08-13T09:00:00+00:00",
+      "first_seen": "2026-08-13T13:16:07+00:00",
+      "last_seen": "2026-08-13T13:16:07+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1467
+      "resonance": 0.1455
     },
     {
-      "id": "8e12824e3d",
-      "title": "Beating ‘Binface’ may not save Trump ally Farage, as scandal mars populist’s image",
+      "id": "31e4eb6767",
+      "title": "Former Chief Minister Siddaramaiah skips first day’s session of legislature",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/08/13/embattled-trump-ally-farage-may-beat-count-binface-his-troubles-continue/",
-          "headline": "Beating ‘Binface’ may not save Trump ally Farage, as scandal mars populist’s image",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/former-chief-minister-siddaramaiah-skips-first-days-session-of-legislature/article71340601.ece",
+          "headline": "Former Chief Minister Siddaramaiah skips first day’s session of legislature",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T13:16:01+00:00",
+      "last_seen": "2026-08-13T13:16:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1453
+    },
+    {
+      "id": "a6cf3d1da8",
+      "title": "Harvey Nichols bought by Sports Direct owner",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cd69p89gl6xo?at_medium=RSS&at_campaign=rss",
+          "headline": "Harvey Nichols bought by Sports Direct owner",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T13:14:31+00:00",
+      "last_seen": "2026-08-13T13:14:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1431
+    },
+    {
+      "id": "9fa94c2c4e",
+      "title": "Putin Visits Islands Seized From Japan in World War II, Angering Tokyo",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/13/world/asia/putin-visit-islands-japan-russia.html",
+          "headline": "Putin Visits Islands Seized From Japan in World War II, Angering Tokyo",
           "platform": "rss"
         }
       ],
@@ -648,20 +418,504 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-08-13T09:00:00+00:00",
-      "last_seen": "2026-08-13T09:00:00+00:00",
+      "first_seen": "2026-08-13T13:12:44+00:00",
+      "last_seen": "2026-08-13T13:12:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1405
+    },
+    {
+      "id": "872ad33bee",
+      "title": "Water bills set to rise for many after firms permitted extra funding",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cx2j1j5ypjdo?at_medium=RSS&at_campaign=rss",
+          "headline": "Water bills set to rise for many after firms permitted extra funding",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T13:09:38+00:00",
+      "last_seen": "2026-08-13T13:09:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1361
+    },
+    {
+      "id": "97dac1cc99",
+      "title": "U.S. ambassador calls settler siege of Palestinian homes a 'horrific act of terror'",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/08/13/g-s1-138574/us-west-bank-settlers",
+          "headline": "U.S. ambassador calls settler siege of Palestinian homes a 'horrific act of terror'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/siege-of-palestinian-homes-in-west-bank-a-horrific-act-of-terror-says-us-ambassador-13572508",
+          "headline": "Siege of Palestinian homes in West Bank a 'horrific act of terror', says US ambassador",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/13/west-bank-us-ambassador-to-israel-denounces-siege-of-palestinian-homes-as-horrific-act-of-terror_6756455_4.html",
+          "headline": "West Bank: US ambassador to Israel denounces siege of Palestinian homes as 'horrific act of terror'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.083,
+        "spread": 0.131,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T08:11:51+00:00",
+      "last_seen": "2026-08-13T09:58:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.1301
+    },
+    {
+      "id": "0e8811a7ba",
+      "title": "Rebuilding Aleppo: Syria's war-torn economic capital enjoys gradual rebirth",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/focus/20260813-rebuilding-aleppo-syria-s-war-torn-economic-capital-enjoys-gradual-rebirth",
+          "headline": "Rebuilding Aleppo: Syria's war-torn economic capital enjoys gradual rebirth",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T13:02:33+00:00",
+      "last_seen": "2026-08-13T13:02:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.126
+    },
+    {
+      "id": "b83e11204c",
+      "title": "College golfer delivers US Amateur upset with added pressure of having just one extra golf ball",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/college-golfer-delivers-us-amateur-upset-added-pressure-one-extra-golf-ball",
+          "headline": "College golfer delivers US Amateur upset with added pressure of having just one extra golf ball",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-13T13:01:26+00:00",
+      "last_seen": "2026-08-13T13:01:26+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1467
+      "resonance": 0.1244
     },
     {
-      "id": "af7a76b6ac",
-      "title": "The man behind 25 years of Summer Sonic",
+      "id": "4eb18e2cce",
+      "title": "California Dem ripped for 'perverted agenda' ahead of fundraiser at risqué nightclub",
       "signal_count": 1,
       "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/california-dem-ripped-perverted-agenda-fundraiser-risque-nightclub",
+          "headline": "California Dem ripped for 'perverted agenda' ahead of fundraiser at risqué nightclub",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-13T13:00:57+00:00",
+      "last_seen": "2026-08-13T13:00:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1237
+    },
+    {
+      "id": "3d359c8967",
+      "title": "Iranian press review: Tehran says it will no longer wait to be attacked",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-press-review-tehran-says-it-will-no-longer-wait-be-attacked",
+          "headline": "Iranian press review: Tehran says it will no longer wait to be attacked",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/iranian-press-review-tehran-says-it-will-no-longer-wait-be-attacked",
+          "headline": "Iranian press review: Tehran says it will no longer wait to be attacked",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 2,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T12:28:03+00:00",
+      "last_seen": "2026-08-13T12:58:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1231
+    },
+    {
+      "id": "e63c8dc76b",
+      "title": "Zhu Rongji’s legacy: how the late premier reshaped state firms, Pudong and China’s economy",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/economy/china-economy/article/3363935/zhu-rongjis-legacy-how-late-premier-reshaped-state-firms-pudong-and-chinas-economy?utm_source=rss_feed",
+          "headline": "Zhu Rongji’s legacy: how the late premier reshaped state firms, Pudong and China’s economy",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T13:00:10+00:00",
+      "last_seen": "2026-08-13T13:00:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.1226
+    },
+    {
+      "id": "07eca97e4f",
+      "title": "Satellite images show 50 per cent boost to China’s Type 054B missile capacity",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/military/article/3363894/satellite-images-show-50-cent-boost-chinas-type-054b-missile-capacity?utm_source=rss_feed",
+          "headline": "Satellite images show 50 per cent boost to China’s Type 054B missile capacity",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T13:00:08+00:00",
+      "last_seen": "2026-08-13T13:00:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1226
+    },
+    {
+      "id": "9d8267342d",
+      "title": "Nintendo’s next Fire Emblem has a bold new structure",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/games/977955/fire-emblem-fortunes-weave-preview-impressions-nintendo-switch-2",
+          "headline": "Nintendo’s next Fire Emblem has a bold new structure",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T13:00:00+00:00",
+      "last_seen": "2026-08-13T13:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1224
+    },
+    {
+      "id": "1c975d1b55",
+      "title": "Flock CEO: ‘We got this one wrong’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/policy/979339/flock-ceo-audits-data-retention",
+          "headline": "Flock CEO: ‘We got this one wrong’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T13:00:00+00:00",
+      "last_seen": "2026-08-13T13:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1224
+    },
+    {
+      "id": "55d2402022",
+      "title": "From aristocratic vault to café: Buenos Aires tenders old tombs at La Recoleta cemetery",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/culture/2026-08-13/from-aristocratic-vault-to-cafe-buenos-aires-tenders-old-tombs-at-la-recoleta-cemetery.html",
+          "headline": "From aristocratic vault to café: Buenos Aires tenders old tombs at La Recoleta cemetery",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T12:54:43+00:00",
+      "last_seen": "2026-08-13T12:54:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.115
+    },
+    {
+      "id": "a80da307b9",
+      "title": "How China Remembers Zhu Rongji, the Premier Who Spoke His Mind",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/13/world/asia/china-premier-zhu-rongji-reaction.html",
+          "headline": "How China Remembers Zhu Rongji, the Premier Who Spoke His Mind",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/politics/article/3363913/11-key-achievements-chinas-iron-premier-zhu-rongji-his-own-words?utm_source=rss_feed",
+          "headline": "The 11 key achievements of China’s ‘iron premier’ Zhu Rongji – in his own words",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.2,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T09:22:09+00:00",
+      "last_seen": "2026-08-13T11:21:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1076
+    },
+    {
+      "id": "71367889d2",
+      "title": "Hundreds of Flights Canceled in Sicily as Mount Etna Erupts",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/13/world/europe/mount-etna-volcano-sicily-eruption.html",
+          "headline": "Hundreds of Flights Canceled in Sicily as Mount Etna Erupts",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T12:47:24+00:00",
+      "last_seen": "2026-08-13T12:47:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.105
+    },
+    {
+      "id": "fd5fd62667",
+      "title": "UK withholds information on Israeli firm accused of targeting Scottish first minister in elections",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/uk-withholds-information-israeli-firm-accused-targeting-scottish-first-minister-elections",
+          "headline": "UK withholds information on Israeli firm accused of targeting Scottish first minister in elections",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T12:43:13+00:00",
+      "last_seen": "2026-08-13T12:43:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0993
+    },
+    {
+      "id": "cd7cdd49d6",
+      "title": "Fabien Barthez joins Zidane's France staff as goalkeeping coach",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/08/13/fabien-barthez-joins-zidane-s-france-staff-as-goalkeeping-coach_6756464_9.html",
+          "headline": "Fabien Barthez joins Zidane's France staff as goalkeeping coach",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/sport/20260813-fabien-barthez-to-coach-france-s-goalkeepers-under-former-teammate-zidane",
+          "headline": "Fabien Barthez to coach France's goalkeepers under former teammate Zidane",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T09:27:10+00:00",
+      "last_seen": "2026-08-13T10:10:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0952
+    },
+    {
+      "id": "fa39e15732",
+      "title": "Transport watchdog investigates third near miss at Sydney airport",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/aug/13/transport-watchdog-investigates-another-near-miss-at-sydney-airport",
+          "headline": "Transport watchdog investigates third near miss at Sydney airport",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T12:35:02+00:00",
+      "last_seen": "2026-08-13T12:35:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0884
+    },
+    {
+      "id": "077378a1b1",
+      "title": "What’s behind this summer’s heat, and why 2027 could be worse",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "MIT Tech Review",
+          "url": "https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/",
+          "headline": "What’s behind this summer’s heat, and why 2027 could be worse",
+          "platform": "rss"
+        },
         {
           "outlet": "Japan Times",
           "url": "https://www.japantimes.co.jp/culture/2026/08/13/music/summer-sonic-25th-anniversary-creativeman/",
@@ -670,30 +924,30 @@
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
+        "mean": -0.025,
+        "spread": 0.025,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
       "first_seen": "2026-08-13T09:00:00+00:00",
-      "last_seen": "2026-08-13T09:00:00+00:00",
+      "last_seen": "2026-08-13T10:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1467
+      "resonance": 0.0846
     },
     {
-      "id": "1626ed451a",
-      "title": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
+      "id": "9639b80210",
+      "title": "Man, 102, dies after alleged pub assault",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
-          "headline": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwyl2zwp158o?at_medium=RSS&at_campaign=rss",
+          "headline": "Man, 102, dies after alleged pub assault",
           "platform": "rss"
         }
       ],
@@ -704,192 +958,108 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-13T09:00:00+00:00",
-      "last_seen": "2026-08-13T09:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1467
-    },
-    {
-      "id": "6158b86a5b",
-      "title": "Maersk CEO says conditions right to increase transit through Suez",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/maersk-ceo-says-conditions-right-increase-transit-through-suez",
-          "headline": "Maersk CEO says conditions right to increase transit through Suez",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T08:59:27+00:00",
-      "last_seen": "2026-08-13T08:59:27+00:00",
+      "first_seen": "2026-08-13T12:27:41+00:00",
+      "last_seen": "2026-08-13T12:27:41+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.145
+      "resonance": 0.0787
     },
     {
-      "id": "d5bc2c5088",
-      "title": "Former Catholic bishop accused of hosting alcohol-fuelled parties to sexually abuse Aboriginal men found guilty",
+      "id": "6ce8801cfd",
+      "title": "How Germany's drone defense fails",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/13/former-catholic-bishop-accused-of-hosting-alcohol-fuelled-parties-to-sexually-abuse-aboriginal-men-found-guilty-ntwnfb",
-          "headline": "Former Catholic bishop accused of hosting alcohol-fuelled parties to sexually abuse Aboriginal men found guilty",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/how-germany-s-drone-defense-fails/a-78353414?maca=en-rss-en-all-1573-rdf",
+          "headline": "How Germany's drone defense fails",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T08:59:19+00:00",
-      "last_seen": "2026-08-13T08:59:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1446
-    },
-    {
-      "id": "e61a8030c8",
-      "title": "Why the position of Palestinian health workers in Israel has grown increasingly precarious",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/opinion/why-position-palestinian-health-workers-israel-has-grown-increasingly-precarious",
-          "headline": "Why the position of Palestinian health workers in Israel has grown increasingly precarious",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T08:57:28+00:00",
-      "last_seen": "2026-08-13T08:57:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1388
-    },
-    {
-      "id": "c1d24406c5",
-      "title": "Hong Kong’s MTR Corp profit more than doubles to HK$15.87 billion on property gains",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3363908/hong-kongs-mtr-corp-profit-more-doubles-hk1587-billion-property-gains?utm_source=rss_feed",
-          "headline": "Hong Kong’s MTR Corp profit more than doubles to HK$15.87 billion on property gains",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-13T08:57:12+00:00",
-      "last_seen": "2026-08-13T08:57:12+00:00",
+      "first_seen": "2026-08-13T12:17:00+00:00",
+      "last_seen": "2026-08-13T12:17:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.065
+    },
+    {
+      "id": "b29a3e4098",
+      "title": "The Download: kids’ thoughts on AI, and female clones of male mice",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "MIT Tech Review",
+          "url": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
+          "headline": "The Download: kids’ thoughts on AI, and female clones of male mice",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T12:10:00+00:00",
+      "last_seen": "2026-08-13T12:10:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0562
+    },
+    {
+      "id": "200695dfd3",
+      "title": "German court ruling on Israel-Nazi comparison is a step in the right direction",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/opinion/german-court-ruling-israel-nazi-comparison-step-right-direction",
+          "headline": "German court ruling on Israel-Nazi comparison is a step in the right direction",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-13T12:07:26+00:00",
+      "last_seen": "2026-08-13T12:07:26+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1379
+      "resonance": 0.053
     },
     {
-      "id": "42eda42b47",
-      "title": "Courrèges' giant hourglass in September 2022",
+      "id": "d1bd778b54",
+      "title": "The Best Samsung Galaxy S26 Cases (2026): S26, S26+, and S26 Ultra",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/summer-reads/article/2026/08/13/courreges-giant-hourglass-in-september-2022_6756457_183.html",
-          "headline": "Courrèges' giant hourglass in September 2022",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T08:45:02+00:00",
-      "last_seen": "2026-08-13T08:45:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1005
-    },
-    {
-      "id": "b7b643c6de",
-      "title": "Morning news brief",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/08/13/nx-s1-5927061/morning-news-brief",
-          "headline": "Morning news brief",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T08:44:44+00:00",
-      "last_seen": "2026-08-13T08:44:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0996
-    },
-    {
-      "id": "bbd7a40466",
-      "title": "How do I apply for an apprenticeship and what will I get paid?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c51xenx7pvqo?at_medium=RSS&at_campaign=rss",
-          "headline": "How do I apply for an apprenticeship and what will I get paid?",
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/gallery/best-samsung-s26-cases-and-accessories/",
+          "headline": "The Best Samsung Galaxy S26 Cases (2026): S26, S26+, and S26 Ultra",
           "platform": "rss"
         }
       ],
@@ -900,148 +1070,8 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-13T08:41:04+00:00",
-      "last_seen": "2026-08-13T08:41:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0886
-    },
-    {
-      "id": "1ea2447e15",
-      "title": "How to get the most out of clearing",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c20dpj3peglo?at_medium=RSS&at_campaign=rss",
-          "headline": "How to get the most out of clearing",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T08:40:45+00:00",
-      "last_seen": "2026-08-13T08:40:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0876
-    },
-    {
-      "id": "cc4e71fb1d",
-      "title": "Everything you need to know about university costs",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwyegp0dnq9o?at_medium=RSS&at_campaign=rss",
-          "headline": "Everything you need to know about university costs",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T08:40:22+00:00",
-      "last_seen": "2026-08-13T08:40:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0865
-    },
-    {
-      "id": "08ec363210",
-      "title": "Foreign nationals support one another following quake in Kumamoto",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/08/13/japan/society/kumamoto-quake-foreign-people/",
-          "headline": "Foreign nationals support one another following quake in Kumamoto",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T08:40:00+00:00",
-      "last_seen": "2026-08-13T08:40:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0854
-    },
-    {
-      "id": "fa160b07a4",
-      "title": "'I really doubt I'll carry on': Messi's sees football career end in sight in farewell to his father",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/08/13/i-really-doubt-ill-carry-on-messis-stark-words-in-farewell-to-his-father",
-          "headline": "'I really doubt I'll carry on': Messi's sees football career end in sight in farewell to his father",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T08:38:23+00:00",
-      "last_seen": "2026-08-13T08:38:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0805
-    },
-    {
-      "id": "e3f4beaba5",
-      "title": "How to stay safe during an earthquake: A visual guide",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/8/13/how-to-stay-safe-during-an-earthquake-a-visual-guide?traffic_source=rss",
-          "headline": "How to stay safe during an earthquake: A visual guide",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-13T08:28:02+00:00",
-      "last_seen": "2026-08-13T08:28:02+00:00",
+      "first_seen": "2026-08-13T12:05:00+00:00",
+      "last_seen": "2026-08-13T12:05:00+00:00",
       "platforms": [
         "rss"
       ],
@@ -1052,15 +1082,21 @@
   ],
   "edges": [
     {
-      "source": "18ce088f6c",
-      "target": "e61a8030c8",
-      "weight": 0.147,
+      "source": "bbc3bab6bb",
+      "target": "9fa94c2c4e",
+      "weight": 0.685,
       "type": "thematic"
     },
     {
-      "source": "53d57d9c83",
-      "target": "b7b643c6de",
-      "weight": 0.031,
+      "source": "338ccf989c",
+      "target": "a6cf3d1da8",
+      "weight": 0.043,
+      "type": "thematic"
+    },
+    {
+      "source": "e63c8dc76b",
+      "target": "a80da307b9",
+      "weight": 0.816,
       "type": "thematic"
     }
   ],
@@ -1087,7 +1123,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 9,
+      "count": 10,
       "error": null
     },
     "The Economist": {
@@ -1112,7 +1148,7 @@
     },
     "The Atlantic": {
       "ok": true,
-      "count": 19,
+      "count": 20,
       "error": null
     },
     "Wall Street Journal": {

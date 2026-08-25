@@ -1,121 +1,65 @@
 {
-  "generated_at": "2026-08-25T16:42:05.114267+00:00",
+  "generated_at": "2026-08-25T20:34:14.803448+00:00",
   "node_count": 35,
-  "edge_count": 12,
+  "edge_count": 8,
   "nodes": [
     {
-      "id": "35d7da9a79",
-      "title": "How much of HN is AI?",
-      "signal_count": 1,
+      "id": "f423b018c1",
+      "title": "Dolly Parton, one of country music's most singular performers, has died at age 80",
+      "signal_count": 3,
       "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://en.wikipedia.org/wiki/Dolly_Parton",
+          "headline": "Dolly Parton Has Died",
+          "platform": "hackernews"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/08/25/nx-s1-3650175/dolly-parton-obituary",
+          "headline": "Dolly Parton, one of country music's most singular performers, has died at age 80",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+          "headline": "Dolly Parton has died",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.071,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T18:02:22+00:00",
+      "last_seen": "2026-08-25T18:43:22+00:00",
+      "platforms": [
+        "hackernews",
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.8135
+    },
+    {
+      "id": "54febeeefb",
+      "title": "Can you eat too much tinned tuna?",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-26/can-you-eat-too-much-tinned-tuna/107077310",
+          "headline": "Can you eat too much tinned tuna?",
+          "platform": "rss"
+        },
         {
           "outlet": "Hacker News",
           "url": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
           "headline": "How much of HN is AI?",
           "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T15:23:41+00:00",
-      "last_seen": "2026-08-25T15:23:41+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.28
-    },
-    {
-      "id": "013984407e",
-      "title": "Where to preorder the updated Mac Mini and Mac Studio",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
-          "headline": "New Mac Studio with M5 Max and M5 Ultra",
-          "platform": "hackernews"
-        },
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/984096/mac-mini-mac-studio-m5-m6-ultra-preorder",
-          "headline": "Where to preorder the updated Mac Mini and Mac Studio",
-          "platform": "rss"
-        },
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/apple-announces-m6-and-m5-ultra-mac-mini-mac-studio/",
-          "headline": "Apple Mac Mini M6 and Mac Studio M5 Ultra: Specs, Price, Release Date",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.067,
-        "spread": 0.047,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T13:00:00+00:00",
-      "last_seen": "2026-08-25T13:03:17+00:00",
-      "platforms": [
-        "rss",
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.7417
-    },
-    {
-      "id": "d00800ff4f",
-      "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-          "headline": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T13:01:22+00:00",
-      "last_seen": "2026-08-25T13:01:22+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.28
-    },
-    {
-      "id": "662b07a44a",
-      "title": "Apple’s new Mac Mini has fresh M6 and M5 Pro chip offerings — and higher prices",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
-          "headline": "New Mac mini, featuring M6 and M5 Pro",
-          "platform": "hackernews"
-        },
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/984190/apple-mac-mini-m6-m5-pro-price-specs",
-          "headline": "Apple’s new Mac Mini has fresh M6 and M5 Pro chip offerings — and higher prices",
-          "platform": "rss"
         }
       ],
       "bias": {
@@ -125,25 +69,95 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-08-25T13:00:00+00:00",
-      "last_seen": "2026-08-25T13:13:00+00:00",
+      "first_seen": "2026-08-25T15:23:41+00:00",
+      "last_seen": "2026-08-25T18:30:00+00:00",
       "platforms": [
         "rss",
         "hackernews"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.5788
+      "resonance": 0.7868
     },
     {
-      "id": "99536caf05",
-      "title": "Bomb Fishing Is Wreaking Havoc on Indonesia's Coral Reefs",
+      "id": "1efbfcd8b2",
+      "title": "Dolly Parton, US country music legend behind iconic song 'Jolene', dies at age 80",
+      "signal_count": 9,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/25/dolly-parton-beloved-us-country-music-icon-dies-at-80?traffic_source=rss",
+          "headline": "Dolly Parton, beloved US country music icon, dies at 80",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/video-us-country-music-legend-dolly-parton-dies?traffic_source=rss",
+          "headline": "Video: US country music legend Dolly Parton dies",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/trump-mourns-dolly-parton-orders-us-flags-lowered-nationwide-country-music-icon-dies",
+          "headline": "Trump mourns Dolly Parton, orders US flags lowered nationwide after country music icon dies",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/culture/2026/08/26/entertainment-news/dolly-parton-dies-music/",
+          "headline": "Dolly Parton, queen of country music, dies at 80",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365251/dolly-parton-country-music-legend-actor-and-philanthropist-dies-80?utm_source=rss_feed",
+          "headline": "Dolly Parton, country music legend, actor and philanthropist, dies at 80",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/obituaries/article/2026/08/25/dolly-parton-us-country-music-legend-behind-iconic-song-jolene-dies-at-age-80_6756844_15.html",
+          "headline": "Dolly Parton, US country music legend behind iconic song 'Jolene', dies at age 80",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/culture/2026-08-25/dolly-parton-country-music-legend-dies-at-80.html",
+          "headline": "Dolly Parton, country music legend, dies at 80",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20260825-us-country-music-legend-dolly-parton-dies-at",
+          "headline": "Beloved US country music icon Dolly Parton dies at 80",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.033,
+        "spread": 0.245,
+        "left": 0,
+        "center": 8,
+        "right": 1
+      },
+      "first_seen": "2026-08-25T18:11:00+00:00",
+      "last_seen": "2026-08-25T20:14:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.7032
+    },
+    {
+      "id": "e54c73c7d1",
+      "title": "Nitter project received cease and desist",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://e360.yale.edu/digest/bomb-fishing-coral-reefs",
-          "headline": "Bomb Fishing Is Wreaking Havoc on Indonesia's Coral Reefs",
+          "url": "https://github.com/zedeus/nitter/issues/1442",
+          "headline": "Nitter project received cease and desist",
           "platform": "hackernews"
         }
       ],
@@ -154,8 +168,8 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-25T14:29:32+00:00",
-      "last_seen": "2026-08-25T14:29:32+00:00",
+      "first_seen": "2026-08-25T17:08:21+00:00",
+      "last_seen": "2026-08-25T17:08:21+00:00",
       "platforms": [
         "hackernews"
       ],
@@ -164,26 +178,134 @@
       "resonance": 0.28
     },
     {
-      "id": "6ace654191",
-      "title": "CIA chief in Moscow for unannounced talks, US media reports",
+      "id": "e2c75a6e7c",
+      "title": "My Friend Aaron",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://rorz.io/writing/my-friend-aaron",
+          "headline": "My Friend Aaron",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T16:53:33+00:00",
+      "last_seen": "2026-08-25T16:53:33+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.28
+    },
+    {
+      "id": "c066d2fe45",
+      "title": "Two unvaccinated people die of measles in Pennsylvania",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/25/two-unvaccinated-people-die-of-measles-in-us-state-of-pennsylvania?traffic_source=rss",
+          "headline": "Two unvaccinated people die of measles in US state of Pennsylvania",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/health/2026/08/two-unvaccinated-people-die-from-measles-in-pennsylvania-officials-confirm/",
+          "headline": "Two unvaccinated people die from measles in Pennsylvania, officials confirm",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c5yednen30go?at_medium=RSS&at_campaign=rss",
+          "headline": "Two unvaccinated people die of measles in Pennsylvania",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.082,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T16:43:08+00:00",
+      "last_seen": "2026-08-25T19:27:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2469
+    },
+    {
+      "id": "fef8ddfb35",
+      "title": "Canada unveils counter-tariffs of 15% to 50% on US goods as trade war intensifies",
       "signal_count": 4,
       "sources": [
         {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/national-security/2026/08/25/cia-director-moscow-rare-unannounced-trip/",
-          "headline": "CIA director in Moscow for rare, unannounced trip",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/us/economy-trade-business/article/3365250/canada-hits-us-goods-tariffs-50-cent-trade-war-escalates?utm_source=rss_feed",
+          "headline": "Canada hits US goods with tariffs of up to 50 per cent as trade war escalates",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/08/25/canada-hits-back-with-new-counter-tariffs-on-us-goods",
+          "headline": "Canada hits back with tariffs of up to 50% on US goods as trade war escalates",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/25/canada-unveils-counter-tariffs-of-15-to-50-on-us-goods-as-trade-war-intensifies_6756837_4.html",
+          "headline": "Canada unveils counter-tariffs of 15% to 50% on US goods as trade war intensifies",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/08/25/nx-s1-5944240/canada-us-tariffs",
+          "headline": "Canada hits back at the U.S. with tariffs as the countries' trade fight escalates",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.087,
+        "spread": 0.114,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T15:20:18+00:00",
+      "last_seen": "2026-08-25T18:29:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.2379
+    },
+    {
+      "id": "b4b14e93fc",
+      "title": "CIA chief travels to Moscow for unannounced talks, US media reports",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss",
+          "headline": "CIA chief travels to Moscow for unannounced talks, US media reports",
           "platform": "rss"
         },
         {
           "outlet": "Deutsche Welle",
           "url": "https://www.dw.com/en/cia-director-in-moscow-for-meetings-us-media-reports/a-78500042?maca=en-rss-en-all-1573-rdf",
           "headline": "CIA director in Moscow for meetings — US media reports",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c87vg9x5d7do?at_medium=RSS&at_campaign=rss",
-          "headline": "CIA chief in Moscow for unannounced talks, US media reports",
           "platform": "rss"
         },
         {
@@ -194,105 +316,30 @@
         }
       ],
       "bias": {
-        "mean": -0.125,
-        "spread": 0.109,
-        "left": 1,
+        "mean": -0.067,
+        "spread": 0.047,
+        "left": 0,
         "center": 3,
         "right": 0
       },
       "first_seen": "2026-08-25T15:26:36+00:00",
-      "last_seen": "2026-08-25T16:28:04+00:00",
+      "last_seen": "2026-08-25T19:48:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.5542
+      "resonance": 0.2313
     },
     {
-      "id": "4c9094b066",
-      "title": "Apple&#8217;s ‘new’ polishing cloth is the same except $10 cheaper",
-      "signal_count": 2,
+      "id": "31bfd6132c",
+      "title": "Canada announces retaliatory tariffs on U.S. products as trade war deepens",
+      "signal_count": 5,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://www.macrumors.com/2026/08/25/apple-releases-new-polishing-cloth/",
-          "headline": "Apple Releases New Polishing Cloth",
-          "platform": "hackernews"
-        },
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/984353/apple-polishing-cloth-cheaper",
-          "headline": "Apple&#8217;s ‘new’ polishing cloth is the same except $10 cheaper",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T14:25:52+00:00",
-      "last_seen": "2026-08-25T14:30:10+00:00",
-      "platforms": [
-        "rss",
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.514
-    },
-    {
-      "id": "e77489de7a",
-      "title": "Canada announces retaliatory tariffs on the U.S. as the countries' trade fight deepens",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/08/25/nx-s1-5944240/canada-us-tariffs",
-          "headline": "Canada announces retaliatory tariffs on the U.S. as the countries' trade fight deepens",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/canada-announces-retaliatory-tariffs-on-us-goods/a-78491819?maca=en-rss-en-all-1573-rdf",
-          "headline": "Canada announces retaliatory tariffs on US goods",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Sky News",
-          "url": "https://news.sky.com/story/canada-announces-retaliatory-tariffs-as-trade-war-with-us-heats-up-13577017",
-          "headline": "Canada announces retaliatory tariffs - as trade war with US heats up",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.108,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T14:29:00+00:00",
-      "last_seen": "2026-08-25T15:20:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.3242
-    },
-    {
-      "id": "360754897c",
-      "title": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/25/world/canada/canada-tariffs-trump-carney-retaliatory.html",
-          "headline": "Canada Fires Back in Trade War Against Trump With Up to 50% Tariffs",
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/08/25/canada-issues-retaliatory-tariffs-up-50-percent-us-imports/",
+          "headline": "Canada announces retaliatory tariffs on U.S. products as trade war deepens",
           "platform": "rss"
         },
         {
@@ -306,357 +353,135 @@
           "url": "https://www.france24.com/en/canada-s-tariffs-on-us-about-sovereignty-to-get-people-on-board-with-trade-war",
           "headline": "Canada's tariffs on US about 'sovereignty to get people on board' with trade war",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.167,
-        "spread": 0.094,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T15:51:29+00:00",
-      "last_seen": "2026-08-25T16:34:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.3143
-    },
-    {
-      "id": "881a4fef11",
-      "title": "Rohingya refugees rally in Bangladesh camps to demand safe return to Myanmar",
-      "signal_count": 2,
-      "sources": [
+        },
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/gallery/2026/8/25/photos-rohingya-refugees-rally-nine-years-after-myanmar-exodus?traffic_source=rss",
-          "headline": "Photos: Rohingya refugees rally nine years after Myanmar exodus",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/canada-announces-retaliatory-tariffs-on-us-goods/a-78491819?maca=en-rss-en-all-1573-rdf",
+          "headline": "Canada announces retaliatory tariffs on US goods",
           "platform": "rss"
         },
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/rohingya-refugees-rally-in-bangladesh-camps-to-demand-safe-return-to-myanmar/article71389989.ece",
-          "headline": "Rohingya refugees rally in Bangladesh camps to demand safe return to Myanmar",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T16:21:47+00:00",
-      "last_seen": "2026-08-25T16:28:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2983
-    },
-    {
-      "id": "3da552a30c",
-      "title": "Israeli Lawmaker Smashes Palestinian Monument in West Bank",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/25/world/middleeast/israel-lawmaker-palestinian-monument.html",
-          "headline": "Israeli Lawmaker Smashes Palestinian Monument in West Bank",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-lawmaker-smashes-palestinian-memorial-occupied-west-bank",
-          "headline": "Israeli lawmaker smashes Palestinian memorial in occupied West Bank",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/israeli-lawmaker-smashes-palestinian-memorial-occupied-west-bank",
-          "headline": "Israeli lawmaker smashes Palestinian memorial in occupied West Bank",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-25/israeli-politician-sledgehammers-palestinian-memorial/107077828",
-          "headline": "Israeli Knesset member vandalises Palestinian memorial in West Bank",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.075,
-        "left": 3,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T12:33:55+00:00",
-      "last_seen": "2026-08-25T16:38:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2836
-    },
-    {
-      "id": "fef8ddfb35",
-      "title": "Canada unveils counter-tariffs of 15% to 50% on US goods as trade war intensifies",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/08/25/canada-hits-back-with-new-counter-tariffs-on-us-goods",
-          "headline": "Canada hits back with new counter tariffs on US goods",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/25/canada-unveils-counter-tariffs-of-15-to-50-on-us-goods-as-trade-war-intensifies_6756837_4.html",
-          "headline": "Canada unveils counter-tariffs of 15% to 50% on US goods as trade war intensifies",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T15:36:06+00:00",
-      "last_seen": "2026-08-25T15:46:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.2276
-    },
-    {
-      "id": "c780806b3b",
-      "title": "Brazil hits TikTok with $30 million fine over child data management",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/article/3365246/brazil-fines-tiktok-record-us30-million-profiting-childrens-data?utm_source=rss_feed",
-          "headline": "Brazil fines TikTok record US$30 million for profiting from children’s data",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/pixels/article/2026/08/25/brazil-hits-tiktok-with-30-million-fine-over-child-data-management_6756832_13.html",
-          "headline": "Brazil hits TikTok with $30 million fine over child data management",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.15,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T14:27:17+00:00",
-      "last_seen": "2026-08-25T16:26:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2084
-    },
-    {
-      "id": "27034041b8",
-      "title": "Small French village 'bombed by nature' as tornado barrels through",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260825-france-tornado-ravages-small-village",
-          "headline": "France: Tornado ravages small village",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-26/france-tornado-rare-intensity/107077902",
-          "headline": "Small French village 'bombed by nature' as tornado barrels through",
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/canada-announces-retaliatory-tariffs-as-trade-war-with-us-heats-up-13577017",
+          "headline": "Canada announces tariffs on $20bn worth of US goods",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T14:25:46+00:00",
-      "last_seen": "2026-08-25T15:36:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1952
-    },
-    {
-      "id": "4a8e919ad0",
-      "title": "🔴 Mideast live: Trump says Strait of Hormuz demined, warns of ‘zero tolerance’ for new mines",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-us-removed-all-mines-strait-hormuz",
-          "headline": "Trump says US removed all mines from Strait of Hormuz",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260825-mideast-live-oil-tanker-struck-by-projectile-in-strait-of-hormuz-off-oman",
-          "headline": "🔴 Mideast live: Trump says Strait of Hormuz demined, warns of ‘zero tolerance’ for new mines",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.175,
-        "spread": 0.075,
+        "spread": 0.126,
         "left": 1,
-        "center": 1,
+        "center": 4,
         "right": 0
       },
-      "first_seen": "2026-08-25T15:02:45+00:00",
-      "last_seen": "2026-08-25T15:17:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1832
-    },
-    {
-      "id": "1297984150",
-      "title": "US judge rejects Ghislaine Maxwell's attempt to overturn sex trafficking conviction",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-26/maxwell-appeal-thrown-out/107078020",
-          "headline": "Ghislaine Maxwell loses bid to overturn sex trafficking conviction",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/25/us-judge-rejects-ghislaine-maxwell-s-attempt-to-overturn-sex-trafficking-conviction_6756834_4.html",
-          "headline": "US judge rejects Ghislaine Maxwell's attempt to overturn sex trafficking conviction",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T14:41:23+00:00",
-      "last_seen": "2026-08-25T15:08:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1699
-    },
-    {
-      "id": "ac6c638923",
-      "title": "Trump considering renaming Lake Ontario to 'Lake America' as trade war with Canada escalates",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/8/25/trump-floats-renaming-lake-ontario-to-lake-america-during-canada-trade-war?traffic_source=rss",
-          "headline": "Trump floats renaming Lake Ontario to Lake America during Canada trade war",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/08/25/trump-considering-renaming-lake-ontario-to-lake-america-as-trade-war-with-canada-escalates",
-          "headline": "Trump considering renaming Lake Ontario to 'Lake America' as trade war with Canada escalates",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365227/trump-eyes-renaming-lake-ontario-lake-america-canada-trade-war-deepens?utm_source=rss_feed",
-          "headline": "Trump eyes renaming Lake Ontario to ‘Lake America’ as Canada trade war deepens",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.067,
-        "spread": 0.125,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T11:47:57+00:00",
-      "last_seen": "2026-08-25T14:53:45+00:00",
+      "first_seen": "2026-08-25T14:29:00+00:00",
+      "last_seen": "2026-08-25T18:14:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "economy",
-      "resonance": 0.1443
+      "resonance": 0.2002
     },
     {
-      "id": "7f7c2dc140",
-      "title": "England captain Joe Root says he is 'hacked off' and 'disappointed' at Brydon Carse incident",
-      "signal_count": 2,
+      "id": "32bcde941e",
+      "title": "What We Know About Australia’s Bird Flu, Which Has Crossed Over to Mammals",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/8/25/root-hacked-off-by-england-cricket-team-after-police-handcuff-carse?traffic_source=rss",
-          "headline": "Root ‘hacked off’ by England cricket team after police handcuff Carse",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/sport/cricket/articles/c4g5z5p8w17o?at_medium=RSS&at_campaign=rss",
-          "headline": "England captain Joe Root says he is 'hacked off' and 'disappointed' at Brydon Carse incident",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/25/world/australia/bird-flu-h5n1-mammals.html",
+          "headline": "What We Know About Australia’s Bird Flu, Which Has Crossed Over to Mammals",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-08-25T13:48:54+00:00",
-      "last_seen": "2026-08-25T15:02:04+00:00",
+      "first_seen": "2026-08-25T20:32:07+00:00",
+      "last_seen": "2026-08-25T20:32:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1333
+    },
+    {
+      "id": "69c4050adf",
+      "title": "Iran, Oman discuss temporary shipping lane through Strait of Hormuz",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/25/iran-oman-discuss-temporary-shipping-lane-through-strait-of-hormuz?traffic_source=rss",
+          "headline": "Iran, Oman discuss temporary shipping lane through Strait of Hormuz",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oman-iran-propose-temporary-shipping-lane-through-strait-hormuz",
+          "headline": "Oman and Iran propose temporary shipping lane through Strait of Hormuz",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.025,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T16:20:07+00:00",
+      "last_seen": "2026-08-25T19:47:51+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1386
+      "resonance": 0.131
     },
     {
-      "id": "ff529a680b",
-      "title": "Three killed in Israeli bombing near Unrwa school in Jabalia camp",
+      "id": "5592967248",
+      "title": "USA vs. Canada",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/25/world/us-canada-trade-war-dolly-parton.html",
+          "headline": "USA vs. Canada",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T20:29:44+00:00",
+      "last_seen": "2026-08-25T20:29:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1298
+    },
+    {
+      "id": "06dddba0f0",
+      "title": "Iran’s deputy foreign minister says Hormuz to remain closed despite temporary Oman deal",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/three-killed-israeli-bombing-near-unrwa-school-jabalia-camp",
-          "headline": "Three killed in Israeli bombing near Unrwa school in Jabalia camp",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-deputy-foreign-minister-says-hormuz-remains-closed-despite",
+          "headline": "Iran’s deputy foreign minister says Hormuz to remain closed despite temporary Oman deal",
           "platform": "rss"
         }
       ],
@@ -667,24 +492,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-08-25T16:40:13+00:00",
-      "last_seen": "2026-08-25T16:40:13+00:00",
+      "first_seen": "2026-08-25T20:29:43+00:00",
+      "last_seen": "2026-08-25T20:29:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0984
+      "topic": "politics",
+      "resonance": 0.1298
     },
     {
-      "id": "dc63f948c1",
-      "title": "Opposition, BJP spar in Home Affairs panel over demand for discussion on Delhi protest crackdown",
+      "id": "21e81e0769",
+      "title": "‘Bitter half’: HC frees man who ‘forced’ wife to ingest insect killer",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Delhi/opposition-bjp-spar-in-home-affairs-panel-over-demand-for-discussion-on-delhi-protest-crackdown/article71389962.ece",
-          "headline": "Opposition, BJP spar in Home Affairs panel over demand for discussion on Delhi protest crackdown",
+          "url": "https://www.thehindu.com/news/cities/Delhi/bitter-half-hc-frees-man-who-forced-wife-to-ingest-insect-killer/article71390102.ece",
+          "headline": "‘Bitter half’: HC frees man who ‘forced’ wife to ingest insect killer",
           "platform": "rss"
         }
       ],
@@ -695,24 +520,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-25T16:37:09+00:00",
-      "last_seen": "2026-08-25T16:37:09+00:00",
+      "first_seen": "2026-08-25T20:25:31+00:00",
+      "last_seen": "2026-08-25T20:25:31+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0936
+      "topic": "world",
+      "resonance": 0.1237
     },
     {
-      "id": "0f3cf0149b",
-      "title": "Wearing a headscarf has not been established as an ‘essential religious practice’ for women in Islam: Allahabad HC",
+      "id": "24156a91bc",
+      "title": "US Secret Service aware of Iranian video threat to assassinate Barron Trump",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/wearing-a-headscarf-has-not-been-established-as-an-essential-religious-practice-for-women-in-islam-allahabad-hc/article71388318.ece",
-          "headline": "Wearing a headscarf has not been established as an ‘essential religious practice’ for women in Islam: Allahabad HC",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3365254/us-secret-service-aware-iranian-video-threat-assassinate-barron-trump?utm_source=rss_feed",
+          "headline": "US Secret Service aware of Iranian video threat to assassinate Barron Trump",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T20:24:32+00:00",
+      "last_seen": "2026-08-25T20:24:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1223
+    },
+    {
+      "id": "0c09e44e19",
+      "title": "The Witcher 3 is getting a remaster",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/games/984680/the-witcher-3-wild-hunt-remastered-launch-date-trailer",
+          "headline": "The Witcher 3 is getting a remaster",
           "platform": "rss"
         }
       ],
@@ -723,24 +576,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-25T16:36:05+00:00",
-      "last_seen": "2026-08-25T16:36:05+00:00",
+      "first_seen": "2026-08-25T20:24:24+00:00",
+      "last_seen": "2026-08-25T20:24:24+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0919
+      "resonance": 0.1221
     },
     {
-      "id": "198e21fbab",
-      "title": "James Carville goes nuclear on Jeffries over Jared Kushner sit-down and demands Democrats draw a line",
+      "id": "1b611a2cf4",
+      "title": "Big Ten bans NFL returnees, putting LSU and Lane Kiffin on collision course with the SEC",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/james-carville-goes-nuclear-jeffries-jared-kushner-sit-down-demands-democrats-draw-line",
-          "headline": "James Carville goes nuclear on Jeffries over Jared Kushner sit-down and demands Democrats draw a line",
+          "url": "https://www.foxnews.com/outkick-sports/big-ten-bans-nfl-returnees-putting-lsu-lane-kiffin-collision-course-sec",
+          "headline": "Big Ten bans NFL returnees, putting LSU and Lane Kiffin on collision course with the SEC",
           "platform": "rss"
         }
       ],
@@ -751,24 +604,24 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-08-25T16:35:50+00:00",
-      "last_seen": "2026-08-25T16:35:50+00:00",
+      "first_seen": "2026-08-25T20:23:51+00:00",
+      "last_seen": "2026-08-25T20:23:51+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0915
+      "topic": "world",
+      "resonance": 0.1213
     },
     {
-      "id": "e9a0d4baf9",
-      "title": "P.V. Anvar blames UDF for poll defeat in Beypore after Kozhikode DCC chief admits ‘faulty candidate selection’",
+      "id": "3bce974e76",
+      "title": "CJP expands its footprint with fresh appointments",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/pv-anvar-blames-udf-for-poll-defeat-in-beypore-after-kozhikode-dcc-chief-admits-faulty-candidate-selection/article71387629.ece",
-          "headline": "P.V. Anvar blames UDF for poll defeat in Beypore after Kozhikode DCC chief admits ‘faulty candidate selection’",
+          "url": "https://www.thehindu.com/news/cities/Delhi/cjp-expands-its-footprint-with-fresh-appointments/article71389731.ece",
+          "headline": "CJP expands its footprint with fresh appointments",
           "platform": "rss"
         }
       ],
@@ -779,120 +632,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-25T16:35:40+00:00",
-      "last_seen": "2026-08-25T16:35:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0913
-    },
-    {
-      "id": "62fc71fb88",
-      "title": "Chennai Canvas: Madras Week Episode 2 | Nights, Beaches & Cinema",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/videos/chennai-canvas-madras-week-episode-2-nights-beaches-cinema/article71390150.ece",
-          "headline": "Chennai Canvas: Madras Week Episode 2 | Nights, Beaches & Cinema",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/videos/chennai-canvas-madras-week-episode-4-how-cinema-became-part-of-chennai/article71390127.ece",
-          "headline": "Chennai Canvas: Madras Week Episode 4 | How cinema became part of Chennai",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/the-huddle/videos/chennai-canvas-madras-week-episode-3-food-films-and-memories-of-chennai/article71390139.ece",
-          "headline": "Chennai Canvas: Madras Week Episode 3 | Food, films and memories of Chennai",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T16:35:01+00:00",
-      "last_seen": "2026-08-25T16:35:29+00:00",
+      "first_seen": "2026-08-25T20:18:38+00:00",
+      "last_seen": "2026-08-25T20:18:38+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.091
+      "resonance": 0.114
     },
     {
-      "id": "42491f18f8",
-      "title": "Life360 expands pet tracking with new $8 scannable tags and zoomie alerts",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/25/life360-expands-pet-tracking-with-new-8-scannable-tags-and-zoomie-alerts/",
-          "headline": "Life360 expands pet tracking with new $8 scannable tags and zoomie alerts",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T16:35:00+00:00",
-      "last_seen": "2026-08-25T16:35:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0902
-    },
-    {
-      "id": "7464054a24",
-      "title": "'Shocking' book about Putin's private life wins new French literary prize",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/25/shocking-book-about-putin-s-private-life-wins-new-french-literary-prize_6756842_4.html",
-          "headline": "'Shocking' book about Putin's private life wins new French literary prize",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T16:27:16+00:00",
-      "last_seen": "2026-08-25T16:27:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0783
-    },
-    {
-      "id": "d50c7bd02c",
-      "title": "Israeli air strikes target towns in southern Lebanon",
+      "id": "2b1ad715c0",
+      "title": "Top Iranian officials mock US 'economic D-Day' on social media",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-target-towns-southern-lebanon",
-          "headline": "Israeli air strikes target towns in southern Lebanon",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/top-iranian-officials-mock-us-economic-d-day-social-media",
+          "headline": "Top Iranian officials mock US 'economic D-Day' on social media",
           "platform": "rss"
         }
       ],
@@ -903,198 +660,52 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-08-25T16:26:51+00:00",
-      "last_seen": "2026-08-25T16:26:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0776
-    },
-    {
-      "id": "6d54e42f76",
-      "title": "Apple launches new Mac Studios with its ‘most powerful chip ever’ — the M5 Ultra",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/",
-          "headline": "Apple debuts its ‘most powerful chip ever’ in M5 Ultra and M6",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/984207/apple-mac-studio-m5-max-ultra-price-specs-launch",
-          "headline": "Apple launches new Mac Studios with its ‘most powerful chip ever’ — the M5 Ultra",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T13:00:00+00:00",
-      "last_seen": "2026-08-25T14:10:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0715
-    },
-    {
-      "id": "743d706230",
-      "title": "Oman and Iran propose temporary shipping lane through Strait of Hormuz",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oman-iran-propose-temporary-shipping-lane-through-strait-hormuz",
-          "headline": "Oman and Iran propose temporary shipping lane through Strait of Hormuz",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T16:20:07+00:00",
-      "last_seen": "2026-08-25T16:20:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0674
-    },
-    {
-      "id": "60fb632a01",
-      "title": "Lab supply companies have been selling antibodies using manipulated images",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/science/2026/08/lab-supply-companies-have-been-selling-antibodies-using-manipulated-images/",
-          "headline": "Lab supply companies have been selling antibodies using manipulated images",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T16:16:57+00:00",
-      "last_seen": "2026-08-25T16:16:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0627
-    },
-    {
-      "id": "6ebbad209e",
-      "title": "Cyberattacks target French government agencies",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260825-cyberattacks-target-french-government-agencies",
-          "headline": "Cyberattacks target French government agencies",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T16:16:17+00:00",
-      "last_seen": "2026-08-25T16:16:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0617
-    },
-    {
-      "id": "fec2be45ec",
-      "title": "Russia calls allegations of interference in French polls 'propaganda'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/25/russia-calls-allegations-of-interference-in-french-polls-propaganda_6756841_4.html",
-          "headline": "Russia calls allegations of interference in French polls 'propaganda'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T16:16:13+00:00",
-      "last_seen": "2026-08-25T16:16:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0616
-    },
-    {
-      "id": "11d3c47ea7",
-      "title": "Iran's purchasing power is slowly collapsing under US economic pressure",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/25/iran-s-purchasing-power-is-slowly-collapsing-under-us-economic-pressure_6756840_4.html",
-          "headline": "Iran's purchasing power is slowly collapsing under US economic pressure",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-25T16:14:59+00:00",
-      "last_seen": "2026-08-25T16:14:59+00:00",
+      "first_seen": "2026-08-25T20:16:35+00:00",
+      "last_seen": "2026-08-25T20:16:35+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "economy",
-      "resonance": 0.0597
+      "resonance": 0.1111
     },
     {
-      "id": "95345bbdb4",
-      "title": "Polestar claims it was blindsided by sales ban",
+      "id": "9f4a1b3fda",
+      "title": "Triathlete channels his inner 'Three Stooges' to escape harrowing alligator attack in South Carolina",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/transportation/984390/polestar-blindsided-sales-ban-letter-dealer-trump",
-          "headline": "Polestar claims it was blindsided by sales ban",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-culture/triathlete-channels-inner-three-stooges-escape-harrowing-alligator-attack-south-carolina",
+          "headline": "Triathlete channels his inner 'Three Stooges' to escape harrowing alligator attack in South Carolina",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-25T20:15:33+00:00",
+      "last_seen": "2026-08-25T20:15:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1096
+    },
+    {
+      "id": "37514e2cc7",
+      "title": "Loitering munition may have hit Kirana Hills during Operation Sindoor: former CDS Anil Chauhan",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/loitering-munition-may-have-hit-kirana-hills-during-operation-sindoor-former-cds-anil-chauhan/article71390353.ece",
+          "headline": "Loitering munition may have hit Kirana Hills during Operation Sindoor: former CDS Anil Chauhan",
           "platform": "rss"
         }
       ],
@@ -1105,24 +716,120 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-25T16:14:45+00:00",
-      "last_seen": "2026-08-25T16:14:45+00:00",
+      "first_seen": "2026-08-25T20:14:44+00:00",
+      "last_seen": "2026-08-25T20:14:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1085
+    },
+    {
+      "id": "508a22c8dc",
+      "title": "US judge rejects Ghislaine Maxwell's 'frivolous' appeal against conviction",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3365249/judge-rejects-ghislaine-maxwells-miscarriage-justice-claims-and-bid-prison-release?utm_source=rss_feed",
+          "headline": "Judge rejects Epstein ex-girlfriend Ghislaine Maxwell’s bid for prison release",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/25/us-judge-denies-ghislaine-maxwells-frivolous-bid-to-throw-out-conviction?traffic_source=rss",
+          "headline": "US judge denies Ghislaine Maxwell’s ‘frivolous’ bid to throw out conviction",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cy0zrey17qno?at_medium=RSS&at_campaign=rss",
+          "headline": "US judge rejects Ghislaine Maxwell's 'frivolous' appeal against conviction",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.067,
+        "spread": 0.125,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T14:42:17+00:00",
+      "last_seen": "2026-08-25T17:48:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0594
+      "resonance": 0.1032
     },
     {
-      "id": "51d20ce5b7",
-      "title": "Thousands of Rohingya refugees protest camp conditions and plead to return home",
+      "id": "62aacdf63b",
+      "title": "What challenge do ‘cockroach’ protests pose for India’s PM Modi?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/8/25/what-challenge-do-cockroach-protests-pose-for-indias-pm-modi?traffic_source=rss",
+          "headline": "What challenge do ‘cockroach’ protests pose for India’s PM Modi?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T20:08:41+00:00",
+      "last_seen": "2026-08-25T20:08:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.1001
+    },
+    {
+      "id": "318af2511f",
+      "title": "Trump administration: Kennedy Center may be demolished if repairs not made",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/25/trump-administration-kennedy-center-may-be-demolished-if-repairs-not-made?traffic_source=rss",
+          "headline": "Trump administration: Kennedy Center may be demolished if repairs not made",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T20:08:33+00:00",
+      "last_seen": "2026-08-25T20:08:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0999
+    },
+    {
+      "id": "4d77482e38",
+      "title": "Mosaic artist reveals personal tribute to fallen officers in Porepunkah",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-26/un-warns-human-rights-hit-new-low-in-myanmar/107078024",
-          "headline": "Thousands of Rohingya refugees protest camp conditions and plead to return home",
+          "url": "https://www.abc.net.au/news/2026-08-26/porepunkah-shooting-memorial-neal-thompson-de-waart-hottart/107032500",
+          "headline": "Mosaic artist reveals personal tribute to fallen officers in Porepunkah",
           "platform": "rss"
         }
       ],
@@ -1133,87 +840,343 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-25T16:08:24+00:00",
-      "last_seen": "2026-08-25T16:08:24+00:00",
+      "first_seen": "2026-08-25T20:04:10+00:00",
+      "last_seen": "2026-08-25T20:04:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0939
+    },
+    {
+      "id": "9aca83b47d",
+      "title": "Bangladesh could join Mecca pact, official suggests",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/bangladesh-could-join-mecca-pact-official-suggests",
+          "headline": "Bangladesh could join Mecca pact, official suggests",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T20:03:03+00:00",
+      "last_seen": "2026-08-25T20:03:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0924
+    },
+    {
+      "id": "b1c0a66974",
+      "title": "How getting surf life saving into the Olympics could save lives",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-26/surf-life-saving-brisbane-olympics/107064172",
+          "headline": "How getting surf life saving into the Olympics could save lives",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T20:02:41+00:00",
+      "last_seen": "2026-08-25T20:02:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0919
+    },
+    {
+      "id": "e4956086f6",
+      "title": "Animal rescuer warns of rooster influx, says school hatching programs making issue worse",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-08-26/sa-rescuer-urges-people-to-stop-dumping-roosters/107074902",
+          "headline": "Animal rescuer warns of rooster influx, says school hatching programs making issue worse",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T20:02:16+00:00",
+      "last_seen": "2026-08-25T20:02:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0913
+    },
+    {
+      "id": "6fcf351d37",
+      "title": "Michigan Democrat awkwardly pivots to circumcision during heated Fox News debate on child sex changes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/michigan-democrat-awkwardly-pivots-circumcision-heated-fox-news-debate-child-sex-changes",
+          "headline": "Michigan Democrat awkwardly pivots to circumcision during heated Fox News debate on child sex changes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-25T20:00:39+00:00",
+      "last_seen": "2026-08-25T20:00:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0892
+    },
+    {
+      "id": "7974c27292",
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
+          "headline": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T19:50:57+00:00",
+      "last_seen": "2026-08-25T19:50:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.0762
+    },
+    {
+      "id": "096a69b8fc",
+      "title": "‘We’ve Never Seen Anything Like It’: Early Harvest Rattles France’s Wine Industry",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/08/25/world/europe/heat-drought-france-champagne.html",
+          "headline": "‘We’ve Never Seen Anything Like It’: Early Harvest Rattles France’s Wine Industry",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T19:43:22+00:00",
+      "last_seen": "2026-08-25T19:43:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0663
+    },
+    {
+      "id": "7232bd90b7",
+      "title": "Man dies in crash after police pursuit",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cly7ne4xegmo?at_medium=RSS&at_campaign=rss",
+          "headline": "Man dies in crash after police pursuit",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T19:39:44+00:00",
+      "last_seen": "2026-08-25T19:39:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "society",
+      "resonance": 0.0616
+    },
+    {
+      "id": "14c032bc37",
+      "title": "More than 1,300 people arrested by ICE in Virginia and Maryland",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/more-than-1300-people-arrested-by-ice-in-virginia-and-maryland?traffic_source=rss",
+          "headline": "More than 1,300 people arrested by ICE in Virginia and Maryland",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T19:36:12+00:00",
+      "last_seen": "2026-08-25T19:36:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0571
+    },
+    {
+      "id": "1758f8d819",
+      "title": "Industrial fire kills 3, including 2 Chinese citizens, in Russia’s far east",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3365253/industrial-fire-kills-3-including-2-chinese-citizens-russias-far-east?utm_source=rss_feed",
+          "headline": "Industrial fire kills 3, including 2 Chinese citizens, in Russia’s far east",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T19:32:45+00:00",
+      "last_seen": "2026-08-25T19:32:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0527
+    },
+    {
+      "id": "dc9abfd3dd",
+      "title": "Mass arrests in global crackdown on West African cyber-crime networks",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cq5xdnxppl4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Mass arrests in global crackdown on West African cyber-crime networks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-25T19:30:37+00:00",
+      "last_seen": "2026-08-25T19:30:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "013984407e",
-      "target": "662b07a44a",
-      "weight": 0.575,
-      "type": "thematic"
-    },
-    {
-      "source": "013984407e",
-      "target": "6d54e42f76",
-      "weight": 0.222,
-      "type": "thematic"
-    },
-    {
-      "source": "d00800ff4f",
-      "target": "6d54e42f76",
-      "weight": 0.248,
-      "type": "thematic"
-    },
-    {
-      "source": "662b07a44a",
-      "target": "6d54e42f76",
-      "weight": 0.502,
-      "type": "thematic"
-    },
-    {
-      "source": "e77489de7a",
-      "target": "360754897c",
-      "weight": 0.605,
-      "type": "thematic"
-    },
-    {
-      "source": "e77489de7a",
-      "target": "fef8ddfb35",
-      "weight": 0.486,
-      "type": "thematic"
-    },
-    {
-      "source": "360754897c",
-      "target": "ac6c638923",
-      "weight": 0.663,
-      "type": "thematic"
-    },
-    {
-      "source": "881a4fef11",
-      "target": "51d20ce5b7",
-      "weight": 0.573,
+      "source": "c066d2fe45",
+      "target": "14c032bc37",
+      "weight": 0.043,
       "type": "thematic"
     },
     {
       "source": "fef8ddfb35",
-      "target": "ac6c638923",
-      "weight": 0.26,
+      "target": "5592967248",
+      "weight": 0.133,
       "type": "thematic"
     },
     {
-      "source": "4a8e919ad0",
-      "target": "743d706230",
-      "weight": 0.157,
+      "source": "fef8ddfb35",
+      "target": "7974c27292",
+      "weight": 0.112,
       "type": "thematic"
     },
     {
-      "source": "dc63f948c1",
-      "target": "51d20ce5b7",
-      "weight": 0.136,
+      "source": "31bfd6132c",
+      "target": "5592967248",
+      "weight": 0.152,
       "type": "thematic"
     },
     {
-      "source": "d50c7bd02c",
-      "target": "6ebbad209e",
-      "weight": 0.038,
+      "source": "31bfd6132c",
+      "target": "7974c27292",
+      "weight": 0.934,
+      "type": "thematic"
+    },
+    {
+      "source": "69c4050adf",
+      "target": "06dddba0f0",
+      "weight": 0.767,
+      "type": "thematic"
+    },
+    {
+      "source": "5592967248",
+      "target": "7974c27292",
+      "weight": 0.091,
+      "type": "thematic"
+    },
+    {
+      "source": "0c09e44e19",
+      "target": "b1c0a66974",
+      "weight": 0.113,
       "type": "thematic"
     }
   ],
@@ -1260,7 +1223,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 4,
+      "count": 10,
       "error": null
     },
     "The Atlantic": {
@@ -1290,7 +1253,7 @@
     },
     "Le Monde (EN)": {
       "ok": true,
-      "count": 19,
+      "count": 18,
       "error": null
     },
     "Der Spiegel (EN)": {

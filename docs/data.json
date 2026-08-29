@@ -1,18 +1,359 @@
 {
-  "generated_at": "2026-08-29T06:32:44.790835+00:00",
+  "generated_at": "2026-08-29T13:44:00.491696+00:00",
   "node_count": 35,
-  "edge_count": 14,
+  "edge_count": 6,
   "nodes": [
     {
-      "id": "e1de25ac2d",
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "signal_count": 1,
+      "id": "b37f614485",
+      "title": "Close race as Iceland votes on whether to restart talks on joining EU",
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-          "headline": "Our decision on Cursor following its acquisition by SpaceX",
+          "url": "https://www.bbc.com/news/articles/cn45vdxyvvlo",
+          "headline": "Iceland votes on whether to restart talks on joining EU",
           "platform": "hackernews"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/iceland-votes-on-whether-to-resume-eu-membership-negotiations",
+          "headline": "Iceland votes on whether to resume EU membership negotiations",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cn45vdxyvvlo?at_medium=RSS&at_campaign=rss",
+          "headline": "Close race as Iceland votes on whether to restart talks on joining EU",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.033,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T00:56:19+00:00",
+      "last_seen": "2026-08-29T11:39:38+00:00",
+      "platforms": [
+        "rss",
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.855
+    },
+    {
+      "id": "fd32e54a8a",
+      "title": "Israeli settlers surround Palestinian home in occupied West Bank’s Qusra",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/29/israeli-settlers-surround-palestinian-home-in-occupied-west-banks-qusra?traffic_source=rss",
+          "headline": "Israeli settlers surround Palestinian home in occupied West Bank’s Qusra",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-surround-another-palestinian-home-qusra-attack",
+          "headline": "Israeli settlers surround another Palestinian home in Qusra, attack journalists in Jalud",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.025,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T12:44:02+00:00",
+      "last_seen": "2026-08-29T13:11:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.2934
+    },
+    {
+      "id": "6c27b58ffc",
+      "title": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
+          "headline": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/08/29/dozens-dead-after-russian-strike-on-depot-near-kyiv_6756964_4.html",
+          "headline": "Dozens dead after Russian strike on depot near Kyiv",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/dozens-dead-after-russian-drone-strike-hits-warehouse",
+          "headline": "Dozens dead after Russian drone strike hits warehouse",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.082,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T10:24:33+00:00",
+      "last_seen": "2026-08-29T12:55:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.2879
+    },
+    {
+      "id": "2c4363ffeb",
+      "title": "Russian strike on warehouse near Kyiv kills dozens",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/8/29/russian-attack-on-warehouse-near-ukraines-kyiv-kills-at-least-27?traffic_source=rss",
+          "headline": "Russian attack on warehouse near Ukraine’s Kyiv kills at least 37",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/russian-strike-on-warehouse-near-kyiv-kills-dozens/a-78556008?maca=en-rss-en-all-1573-rdf",
+          "headline": "Russian strike on warehouse near Kyiv kills dozens",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3365705/russian-drone-strike-near-kyiv-kills-least-27?utm_source=rss_feed",
+          "headline": "Russian drone strike near Kyiv kills at least 37",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260829-russian-strike-on-warehouse-near-kyiv-kills-at-least-27-people-hundreds-evacuated",
+          "headline": "🔴 Russian strike on warehouse near Kyiv kills at least 27 people, hundreds evacuating",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.075,
+        "spread": 0.109,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T09:17:21+00:00",
+      "last_seen": "2026-08-29T10:36:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.2535
+    },
+    {
+      "id": "3832bb2b1e",
+      "title": "Heavy gunfire in Niger capital as clashes reported at presidential palace",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/africa/article/3365712/clashes-niger-after-troops-try-storm-presidential-palace?utm_source=rss_feed",
+          "headline": "Clashes in Niger after troops try to storm presidential palace",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "http://www.euronews.com/2026/08/29/heavy-gunfire-in-niger-capital-as-clashes-reported-at-presidential-palace",
+          "headline": "Heavy gunfire in Niger capital as clashes reported at presidential palace",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T10:55:23+00:00",
+      "last_seen": "2026-08-29T11:44:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1866
+    },
+    {
+      "id": "dd066dbb75",
+      "title": "Araghchi says US elements use media to influence oil prices",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/araghchi-says-us-elements-use-media-influence-oil-prices",
+          "headline": "Araghchi says US elements use media to influence oil prices",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T13:38:28+00:00",
+      "last_seen": "2026-08-29T13:38:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.154
+    },
+    {
+      "id": "2c4125bf5c",
+      "title": "National Sports Day celebrated across Telangana",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/telangana/national-sports-day-celebrated-across-telangana/article71404734.ece",
+          "headline": "National Sports Day celebrated across Telangana",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T13:38:20+00:00",
+      "last_seen": "2026-08-29T13:38:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1538
+    },
+    {
+      "id": "b2227fcc81",
+      "title": "Large number of devotees throng Annai Velankanni Church for annual festival",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/chennai/large-number-of-devotees-throng-annai-velankanni-church-for-annual-festival/article71404858.ece",
+          "headline": "Large number of devotees throng Annai Velankanni Church for annual festival",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T13:37:53+00:00",
+      "last_seen": "2026-08-29T13:37:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1532
+    },
+    {
+      "id": "daf138d859",
+      "title": "Pudukottai’s new bus stand construction likely to be completed  next month",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/pudukottais-new-bus-stand-construction-likely-to-be-completed-next-month/article71404718.ece",
+          "headline": "Pudukottai’s new bus stand construction likely to be completed  next month",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T13:36:16+00:00",
+      "last_seen": "2026-08-29T13:36:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1512
+    },
+    {
+      "id": "408ed21721",
+      "title": "WWE NXT Heatwave 2026 match card, preview and predictions",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/wwe-nxt-heatwave-2026-match-card-preview-predictions",
+          "headline": "WWE NXT Heatwave 2026 match card, preview and predictions",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/aew-all-in-2026-match-card-preview-predictions",
+          "headline": "AEW All In 2026 match card, preview and predictions",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 2
+      },
+      "first_seen": "2026-08-29T13:18:43+00:00",
+      "last_seen": "2026-08-29T13:20:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.1329
+    },
+    {
+      "id": "a9cb2b9022",
+      "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
+          "platform": "rss"
         }
       ],
       "bias": {
@@ -22,20 +363,362 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-29T01:47:53+00:00",
-      "last_seen": "2026-08-29T01:47:53+00:00",
+      "first_seen": "2026-08-29T13:16:43+00:00",
+      "last_seen": "2026-08-29T13:16:43+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.28
+      "topic": "tech",
+      "resonance": 0.1277
+    },
+    {
+      "id": "5a29fc7c3d",
+      "title": "Trump confirms Pentagon plans for 25th anniversary of 9/11 attacks, disputes report on Ground Zero absence",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/trump-confirms-pentagon-plans-25th-anniversary-9-11-attacks-disputes-report-ground-zero-absence",
+          "headline": "Trump confirms Pentagon plans for 25th anniversary of 9/11 attacks, disputes report on Ground Zero absence",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-29T13:13:10+00:00",
+      "last_seen": "2026-08-29T13:13:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1235
+    },
+    {
+      "id": "e761ed2f12",
+      "title": "Chinese rescuers race to reach mudslide survivors in Nepal-China border",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/chinese-rescuers-race-to-reach-mudslide-survivors-in-nepal-china-border?traffic_source=rss",
+          "headline": "Chinese rescuers race to reach mudslide survivors in Nepal-China border",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T13:10:47+00:00",
+      "last_seen": "2026-08-29T13:10:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1207
+    },
+    {
+      "id": "1869dc93ea",
+      "title": "Israel raids, shutters UNRWA lifeline for Palestinian refugees",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/israel-raids-shutters-unrwa-lifeline-for-palestinian-refugees?traffic_source=rss",
+          "headline": "Israel raids, shutters UNRWA lifeline for Palestinian refugees",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T13:10:04+00:00",
+      "last_seen": "2026-08-29T13:10:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1199
+    },
+    {
+      "id": "1425c96254",
+      "title": "Christian festival 'devastated' as man dies after sign falls",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c158939pz4do?at_medium=RSS&at_campaign=rss",
+          "headline": "Christian festival 'devastated' as man dies after sign falls",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T13:06:03+00:00",
+      "last_seen": "2026-08-29T13:06:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1153
+    },
+    {
+      "id": "6fc0010ee2",
+      "title": "Miami Dolphins cheerleaders take on a massive mission to boost fan morale this season, Ric Flair update & NFL",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/miami-dolphins-cheerleaders-massive-mission-boost-fan-morale-season-ric-flair-update-nfl",
+          "headline": "Miami Dolphins cheerleaders take on a massive mission to boost fan morale this season, Ric Flair update & NFL",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-29T13:05:33+00:00",
+      "last_seen": "2026-08-29T13:05:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1147
+    },
+    {
+      "id": "756fc5a4b7",
+      "title": "Football fans pay tribute to crash death officers at Middlesbrough match",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c5y5727d02xo?at_medium=RSS&at_campaign=rss",
+          "headline": "Football fans pay tribute to crash death officers at Middlesbrough match",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T13:02:27+00:00",
+      "last_seen": "2026-08-29T13:02:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.1112
+    },
+    {
+      "id": "9270cb7f4e",
+      "title": "Pop star-turned-Dem candidate’s defense of graphic murder video resurfaces in key House race",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/pop-star-turned-dem-candidates-defense-graphic-murder-resurfaces-key-house-race",
+          "headline": "Pop star-turned-Dem candidate’s defense of graphic murder video resurfaces in key House race",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-08-29T13:00:36+00:00",
+      "last_seen": "2026-08-29T13:00:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1091
+    },
+    {
+      "id": "d02dfcc9a6",
+      "title": "Xi, Putin to meet in Bishkek for Power of Siberia 2 pipeline talks: Kremlin",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3365710/xi-putin-meet-bishkek-power-siberia-2-pipeline-talks-kremlin?utm_source=rss_feed",
+          "headline": "Xi, Putin to meet in Bishkek for Power of Siberia 2 pipeline talks: Kremlin",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T13:00:11+00:00",
+      "last_seen": "2026-08-29T13:00:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1086
+    },
+    {
+      "id": "0e71438ac3",
+      "title": "Nvidia’s AI advantage is moving beyond the GPU",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+          "headline": "Nvidia’s AI advantage is moving beyond the GPU",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T13:00:00+00:00",
+      "last_seen": "2026-08-29T13:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1084
+    },
+    {
+      "id": "23ddf4ece9",
+      "title": "The Galaxy Z Flip 8 is at its best when there’s friction",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/986033/samsung-galaxy-z-flip-8-review",
+          "headline": "The Galaxy Z Flip 8 is at its best when there’s friction",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T13:00:00+00:00",
+      "last_seen": "2026-08-29T13:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1084
+    },
+    {
+      "id": "de1ebeb3cb",
+      "title": "UNRWA’s first and last vocational college in East Jerusalem is under threat",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/features/2026/8/29/unrwas-first-and-last-vocational-college-in-east-jerusalem-is-under-threat?traffic_source=rss",
+          "headline": "UNRWA’s first and last vocational college in East Jerusalem is under threat",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T12:58:25+00:00",
+      "last_seen": "2026-08-29T12:58:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1066
+    },
+    {
+      "id": "7000a01f3c",
+      "title": "How the military-industrial complex is waging war on the planet",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/opinion/how-military-industrial-complex-waging-war-planet",
+          "headline": "How the military-industrial complex is waging war on the planet",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T12:39:44+00:00",
+      "last_seen": "2026-08-29T12:39:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.086
     },
     {
       "id": "cc6e1aa1c4",
       "title": "Right-wing commentator Milo Yiannopoulos detained by ICE",
-      "signal_count": 7,
+      "signal_count": 4,
       "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/far-right-commentator-milo-yiannopoulos-detained-by-ice?traffic_source=rss",
+          "headline": "Far-right commentator Milo Yiannopoulos detained by ICE",
+          "platform": "rss"
+        },
         {
           "outlet": "Middle East Eye",
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ice-detains-british-far-right-provocateur-milo-yiannopoulos",
@@ -53,801 +736,135 @@
           "url": "https://www.abc.net.au/news/2026-08-29/milo-yiannopoulos-arrested-in-us-by-ice/107093336",
           "headline": "British far-right activist Milo Yiannopoulos arrested by ICE",
           "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/8/28/far-right-uk-provocateur-milo-yiannopoulos-detained-by-ice-in-us?traffic_source=rss",
-          "headline": "Far-right UK provocateur Milo Yiannopoulos detained by ICE in US",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/29/right-wing-provocateur-milo-yiannopoulos-detained-in-us_6756951_4.html",
-          "headline": "Right-wing provocateur Milo Yiannopoulos detained in US",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/us-arrests-far-right-provocateur-milo-yiannopoulos/a-78553559?maca=en-rss-en-all-1573-rdf",
-          "headline": "US arrests far-right provocateur Milo Yiannopoulos",
-          "platform": "rss"
-        },
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/milo-yiannopoulos-detained-by-ice-in-louisiana/",
-          "headline": "Milo Yiannopoulos Detained by ICE in Louisiana",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.136,
-        "spread": 0.079,
+        "mean": -0.138,
+        "spread": 0.096,
         "left": 1,
-        "center": 6,
-        "right": 0
-      },
-      "first_seen": "2026-08-28T19:44:11+00:00",
-      "last_seen": "2026-08-29T02:32:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.3836
-    },
-    {
-      "id": "7cf7d4ca37",
-      "title": "Trump announces 'biggest oil deal in world history' for huge US stake in Venezuelan oil reserves",
-      "signal_count": 5,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/whats-in-the-us-venezuela-biggest-oil-deal-in-world-history?traffic_source=rss",
-          "headline": "What’s in the US-Venezuela ‘biggest oil deal in world history?’",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/8/29/trump-announces-biggest-oil-deal-in-world-history-with-venezuela?traffic_source=rss",
-          "headline": "Trump announces ‘biggest oil deal in world history’ with Venezuela",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/08/29/trump-announces-deal-for-huge-us-stake-in-venezuelan-oil-reserves_6756954_4.html",
-          "headline": "Trump announces 'biggest oil deal in world history' for huge US stake in Venezuelan oil reserves",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement",
-          "headline": "Trump announces new US oil agreement with Venezuela",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-claims-biggest-oil-deal-world-history-signed-venezuela",
-          "headline": "Trump claims 'biggest oil deal in world history' signed with Venezuela",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.23,
-        "spread": 0.04,
-        "left": 2,
         "center": 3,
         "right": 0
       },
-      "first_seen": "2026-08-28T23:23:34+00:00",
-      "last_seen": "2026-08-29T04:16:01+00:00",
+      "first_seen": "2026-08-29T00:44:43+00:00",
+      "last_seen": "2026-08-29T10:10:23+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.3755
+      "resonance": 0.0854
     },
     {
-      "id": "d08f7456a1",
-      "title": "🔴 Nepal-Tibet floods live: Death toll passes 600, nearly 3,000 people missing",
-      "signal_count": 3,
+      "id": "d0fa9d88f9",
+      "title": "Rescue operations ongoing as death toll continues to rise",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "France 24",
-          "url": "https://www.france24.com/en/asia-pacific/20260829-nepal-tibet-floods-live-death-toll-passes-600-nearly-2-500-people-still-missing",
-          "headline": "🔴 Nepal-Tibet floods live: Death toll passes 600, nearly 3,000 people missing",
+          "url": "https://www.france24.com/en/rescue-operations-ongoing-as-death-toll-continues-to-rise",
+          "headline": "Rescue operations ongoing as death toll continues to rise",
           "platform": "rss"
-        },
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T12:37:17+00:00",
+      "last_seen": "2026-08-29T12:37:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0833
+    },
+    {
+      "id": "6809c84412",
+      "title": "Warehouse hit by Russian attack stored munitions, Zelensky says",
+      "signal_count": 1,
+      "sources": [
         {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/08/29/asia-pacific/nepal-china-floods-toll/",
-          "headline": "Number of missing in Nepal and China floods soars to nearly 3,000",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/warehouse-hit-by-russian-attack-stored-munitions-zelensky-says",
+          "headline": "Warehouse hit by Russian attack stored munitions, Zelensky says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T12:35:42+00:00",
+      "last_seen": "2026-08-29T12:35:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0816
+    },
+    {
+      "id": "d409267cc6",
+      "title": "Niger's junta says 'regaining control' after clashes in capital",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/niger-s-junta-says-regaining-control-after-clashes-in-capital",
+          "headline": "Niger's junta says 'regaining control' after clashes in capital",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T12:33:03+00:00",
+      "last_seen": "2026-08-29T12:33:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0788
+    },
+    {
+      "id": "31a1bed021",
+      "title": "Trump says U.S. has entered deal with Venezuela to take control of 65 billion barrels of oil reserves",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/us-to-control-one-fifth-of-venezuela-s-oil-reserves-trump-says",
+          "headline": "US to control one fifth of Venezuela's oil reserves, Trump says",
           "platform": "rss"
         },
         {
           "outlet": "Euronews",
-          "url": "http://www.euronews.com/2026/08/28/number-of-missing-in-nepal-floods-passes-2400-as-unicef-says-17000-children-need-aid",
-          "headline": "Number of missing in Nepal floods rises to nearly 3,000 as UNICEF says 17,000 children need aid",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.067,
-        "spread": 0.047,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-08-28T19:56:52+00:00",
-      "last_seen": "2026-08-29T05:38:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.3515
-    },
-    {
-      "id": "b9082b225e",
-      "title": "Israeli forces carry out two explosions in southern Lebanon, set fire to homes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-carry-out-two-explosions-southern-lebanon-set-fire-homes",
-          "headline": "Israeli forces carry out two explosions in southern Lebanon, set fire to homes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T06:29:26+00:00",
-      "last_seen": "2026-08-29T06:29:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.28
-    },
-    {
-      "id": "89fe92a982",
-      "title": "Several ride-hailing firms express interest in Hong Kong licences: minister",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/transport/article/3365691/several-ride-hailing-firms-express-interest-hong-kong-licences-minister?utm_source=rss_feed",
-          "headline": "Several ride-hailing firms express interest in Hong Kong licences: minister",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T06:27:52+00:00",
-      "last_seen": "2026-08-29T06:27:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.28
-    },
-    {
-      "id": "b47286e160",
-      "title": "Nepal flash floods LIVE updates: Risk of lake 'burst' near border disaster site wanes, China says; death toll crosses 620",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/nepal-flash-floods-death-toll-missing-persons-fresh-flood-threat-glacier-collapse-live-updates-august-29-2026/article71403315.ece",
-          "headline": "Nepal flash floods LIVE updates: Risk of lake 'burst' near border disaster site wanes, China says; death toll crosses 620",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T06:18:06+00:00",
-      "last_seen": "2026-08-29T06:18:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.28
-    },
-    {
-      "id": "7db532dddc",
-      "title": "West Bank attacks: Two Palestinians shot, entry to village closed",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/west-bank-attacks-two-palestinians-shot-entry-village-closed-0",
-          "headline": "West Bank attacks: Two Palestinians shot, entry to village closed",
+          "url": "http://www.euronews.com/2026/08/29/us-strikes-deal-to-control-more-than-65-billion-barrels-of-venezuelas-oil-reserves",
+          "headline": "US strikes deal to control 65 billion barrels of Venezuela's oil reserves, Trump says",
           "platform": "rss"
         },
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/west-bank-attacks-two-palestinians-shot-entry-village-closed",
-          "headline": "West Bank attacks: Two Palestinians shot, entry to village closed",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T06:16:19+00:00",
-      "last_seen": "2026-08-29T06:17:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.2823
-    },
-    {
-      "id": "7a9d57c008",
-      "title": "Karnataka Chief Minister D.K. Shivakumar directs officials to identify five cities other than Bengaluru for industrial development",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-directs-officials-to-identify-five-cities-other-than-bengaluru-for-industrial-development/article71401370.ece",
-          "headline": "Karnataka Chief Minister D.K. Shivakumar directs officials to identify five cities other than Bengaluru for industrial development",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T06:16:35+00:00",
-      "last_seen": "2026-08-29T06:16:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2798
-    },
-    {
-      "id": "af98c450fb",
-      "title": "Trump administration considers deal to give away small parcel of Yosemite",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/trump-government-mulls-deal-to-give-away-part-of-yosemite-park-to-a-private-developer/article71403666.ece",
-          "headline": "Trump government mulls deal to give away part of Yosemite park to a private developer",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/environment/article/2026/08/29/trump-administration-considers-deal-to-give-away-small-parcel-of-yosemite_6756953_114.html",
-          "headline": "Trump administration considers deal to give away small parcel of Yosemite",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-28T23:42:48+00:00",
-      "last_seen": "2026-08-29T06:07:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.277
-    },
-    {
-      "id": "653a730b34",
-      "title": "A shared disaster, beyond borders and geopolitics",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/opinion/op-ed/a-shared-disaster-beyond-borders-and-geopolitics/article71401817.ece",
-          "headline": "A shared disaster, beyond borders and geopolitics",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T06:13:26+00:00",
-      "last_seen": "2026-08-29T06:13:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2736
-    },
-    {
-      "id": "1c6d55e63d",
-      "title": "Six months into the Iran war, a new Gulf security architecture is emerging",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/opinions/2026/8/29/six-months-into-the-iran-war-a-new-gulf-security-architecture-is-emerging?traffic_source=rss",
-          "headline": "Six months into the Iran war, a new Gulf security architecture is emerging",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T06:11:58+00:00",
-      "last_seen": "2026-08-29T06:11:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.2708
-    },
-    {
-      "id": "cfc07bd8f5",
-      "title": "AI can make China’s political language sound more threatening, scholar warns",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3365635/ai-can-make-chinas-political-language-sound-more-threatening-scholar-warns?utm_source=rss_feed",
-          "headline": "AI can make China’s political language sound more threatening, scholar warns",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T06:00:16+00:00",
-      "last_seen": "2026-08-29T06:00:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2484
-    },
-    {
-      "id": "00ddab36c3",
-      "title": "China leverages short-video ecosystem, lower costs to carve out lead in AI video",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/tech/tech-trends/article/3365605/china-leverages-short-video-ecosystem-lower-costs-carve-out-lead-ai-video?utm_source=rss_feed",
-          "headline": "China leverages short-video ecosystem, lower costs to carve out lead in AI video",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T06:00:13+00:00",
-      "last_seen": "2026-08-29T06:00:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2483
-    },
-    {
-      "id": "ec55a307fa",
-      "title": "Morning recap",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-recap-157",
-          "headline": "Morning recap",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T05:54:05+00:00",
-      "last_seen": "2026-08-29T05:54:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2368
-    },
-    {
-      "id": "9bc29ad0cb",
-      "title": "Live Updates: Scale of Flood Disaster Grows as Nepal Says 2,400 Are Missing",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/08/28/world/nepal-tibet-flash-floods",
-          "headline": "Live Updates: Scale of Flood Disaster Grows as Nepal Says 2,400 Are Missing",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T05:43:24+00:00",
-      "last_seen": "2026-08-29T05:43:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.2171
-    },
-    {
-      "id": "3a9b18e30f",
-      "title": "Man dies and at least six injured after sign falls at Christian festival",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz52x45jxo?at_medium=RSS&at_campaign=rss",
-          "headline": "Man dies and at least six injured after sign falls at Christian festival",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T05:29:27+00:00",
-      "last_seen": "2026-08-29T05:29:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1922
-    },
-    {
-      "id": "65a85d04a6",
-      "title": "Bernie Sanders, AOC join marchers in Washington to ‘defend the vote’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/bernie-sanders-aoc-join-marchers-in-washington-to-defend-the?traffic_source=rss",
-          "headline": "Bernie Sanders, AOC join marchers in Washington to ‘defend the vote’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T05:27:25+00:00",
-      "last_seen": "2026-08-29T05:27:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1886
-    },
-    {
-      "id": "162e0d8e49",
-      "title": "US judge rules alleged 9/11 mastermind's confessions inadmissible",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-judge-rules-alleged-911-masterminds-confessions-inadmissible",
-          "headline": "US judge rules alleged 9/11 mastermind's confessions inadmissible",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T05:25:09+00:00",
-      "last_seen": "2026-08-29T05:25:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1847
-    },
-    {
-      "id": "356d4b13cf",
-      "title": "Iceland heads to the polls in knife-edge vote on restarting EU talks",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/8/29/why-is-iceland-considering-joining-the-eu?traffic_source=rss",
-          "headline": "Iceland heads to the polls in knife-edge vote on restarting EU talks",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T05:18:46+00:00",
-      "last_seen": "2026-08-29T05:18:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1736
-    },
-    {
-      "id": "c1cfeee3e3",
-      "title": "Plug-in solar panels could save households up to $370 a year – if Australia made them legal as in the UK",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/environment/2026/aug/29/plug-in-solar-panels-could-save-households-370-a-year-and-experts-say-australia-should-copy-the-uk-in-legalising-them",
-          "headline": "Plug-in solar panels could save households up to $370 a year – if Australia made them legal as in the UK",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T05:13:27+00:00",
-      "last_seen": "2026-08-29T05:13:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.1646
-    },
-    {
-      "id": "7dea830c26",
-      "title": "In Nepal and Tibet, stunned survivors and desperate families searching for missing loved ones after floods",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-29/nepal-tibet-floods-missing-persons-search-intensifies/107092492",
-          "headline": "Nepali families' desperate search for news of missing loved ones",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/environment/article/2026/08/29/i-was-sure-i-was-going-to-die-after-floods-in-nepal-and-tibet-stunned-survivors-and-desperate-families-searching-for-missing-loved-ones_6756952_114.html",
-          "headline": "In Nepal and Tibet, stunned survivors and desperate families searching for missing loved ones after floods",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-28T23:09:55+00:00",
-      "last_seen": "2026-08-29T04:57:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.1606
-    },
-    {
-      "id": "a9cb2b9022",
-      "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
-          "headline": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/trump-says-us-is-taking-partial-control-of-venezuelas-vast-oil-reserves-13578423",
+          "headline": "Trump says US is taking partial control of Venezuela's vast oil reserves",
           "platform": "rss"
         },
         {
           "outlet": "NPR News",
           "url": "https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves",
           "headline": "Trump says U.S. has entered deal with Venezuela to take control of 65 billion barrels of oil reserves",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/us-venezuela-announce-historic-oil-deal/a-78553607?maca=en-rss-en-all-1573-rdf",
-          "headline": "US, Venezuela announce 'historic' oil deal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.083,
-        "spread": 0.062,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-08-28T23:23:00+00:00",
-      "last_seen": "2026-08-29T02:42:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1568
-    },
-    {
-      "id": "ff5ec34537",
-      "title": "Niger: Gunfire and explosions heard in capital",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/niger-gunfire-and-explosions-heard-in-capital/a-78554001?maca=en-rss-en-all-1573-rdf",
-          "headline": "Niger: Gunfire and explosions heard in capital",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/8/29/gunfire-blasts-heard-in-several-areas-of-niger-capital-niamey?traffic_source=rss",
-          "headline": "Gunfire, blasts heard in several areas of Niger capital Niamey",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T01:30:08+00:00",
-      "last_seen": "2026-08-29T03:32:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1479
-    },
-    {
-      "id": "e3f94d59d7",
-      "title": "Latest news bulletin | August 29th, 2026 – Morning",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Euronews",
-          "url": "http://www.euronews.com/video/2026/08/29/latest-news-bulletin-august-29th-2026-morning",
-          "headline": "Latest news bulletin | August 29th, 2026 – Morning",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T05:00:33+00:00",
-      "last_seen": "2026-08-29T05:00:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.143
-    },
-    {
-      "id": "85acab0043",
-      "title": "Motorola Coupon Code for September 2026",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/motorola-coupon-code/",
-          "headline": "Motorola Coupon Code for September 2026",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T05:00:00+00:00",
-      "last_seen": "2026-08-29T05:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1421
-    },
-    {
-      "id": "40cb3ea1e0",
-      "title": "Trump says US is taking partial control of Venezuela's oil reserves",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Sky News",
-          "url": "https://news.sky.com/story/trump-says-us-is-taking-partial-control-of-venezuelas-vast-oil-reserves-13578423",
-          "headline": "Trump says US is taking partial control of Venezuela's vast oil reserves",
           "platform": "rss"
         },
         {
@@ -858,58 +875,86 @@
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.1,
+        "mean": -0.07,
+        "spread": 0.087,
         "left": 0,
-        "center": 2,
+        "center": 5,
         "right": 0
       },
       "first_seen": "2026-08-29T01:30:53+00:00",
-      "last_seen": "2026-08-29T02:17:00+00:00",
+      "last_seen": "2026-08-29T08:55:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1353
+      "topic": "politics",
+      "resonance": 0.077
     },
     {
-      "id": "42485b32f5",
-      "title": "Child stars say fame gives a 'wound' regulation has failed to prevent",
+      "id": "f7a1675191",
+      "title": "Israeli settlers continue Qusra siege for 21st day as forces prevent medical evacuations",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-29/hayden-panettiere-death-raises-questions-child-star-laws/107070348",
-          "headline": "Child stars say fame gives a 'wound' regulation has failed to prevent",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-settlers-continue-qusra-siege-21st-day-forces-prevent-medical",
+          "headline": "Israeli settlers continue Qusra siege for 21st day as forces prevent medical evacuations",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T12:26:10+00:00",
+      "last_seen": "2026-08-29T12:26:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0716
+    },
+    {
+      "id": "bb2f909cf3",
+      "title": "Japan probes 39kg of bread dumped in national park",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/asia/east-asia/article/3365716/japan-probes-39kg-bread-dumped-national-park?utm_source=rss_feed",
+          "headline": "Japan probes 39kg of bread dumped in national park",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-29T04:55:41+00:00",
-      "last_seen": "2026-08-29T04:55:41+00:00",
+      "first_seen": "2026-08-29T12:23:55+00:00",
+      "last_seen": "2026-08-29T12:23:55+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1351
+      "topic": "world",
+      "resonance": 0.0692
     },
     {
-      "id": "8264a1199e",
-      "title": "Nearly 200,000 forced deportees received by Haiti, UN says",
+      "id": "77e9fdb2a9",
+      "title": "Niger's defense ministry says soldiers attempted mutiny",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/nearly-200-000-forced-deportees-received-by-haiti-un-says/a-78554006?maca=en-rss-en-all-1573-rdf",
-          "headline": "Nearly 200,000 forced deportees received by Haiti, UN says",
+          "url": "https://www.dw.com/en/niger-s-defense-ministry-says-soldiers-attempted-mutiny/a-78554001?maca=en-rss-en-all-1573-rdf",
+          "headline": "Niger's defense ministry says soldiers attempted mutiny",
           "platform": "rss"
         }
       ],
@@ -920,108 +965,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-29T04:49:00+00:00",
-      "last_seen": "2026-08-29T04:49:00+00:00",
+      "first_seen": "2026-08-29T12:23:00+00:00",
+      "last_seen": "2026-08-29T12:23:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1243
+      "topic": "conflict",
+      "resonance": 0.0683
     },
     {
-      "id": "fe76d45bbf",
-      "title": "Forget Starbucks coffee - Gen Z like their drinks ice cold",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cm2r9n2mrp8o?at_medium=RSS&at_campaign=rss",
-          "headline": "Forget Starbucks coffee - Gen Z like their drinks ice cold",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T04:30:27+00:00",
-      "last_seen": "2026-08-29T04:30:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0952
-    },
-    {
-      "id": "d7bd4df793",
-      "title": "Live: Jai Arrow takes the field for emotional ceremonial 99th Souths game",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-29/nrl-live-jai-arrow-titans-souths-roosters-phins-cowboys-tigers/107093718",
-          "headline": "Live: Jai Arrow takes the field for emotional ceremonial 99th Souths game",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T04:21:55+00:00",
-      "last_seen": "2026-08-29T04:21:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0822
-    },
-    {
-      "id": "85896fb118",
-      "title": "Three teenagers arrested over alleged burglary spree in Melbourne",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-08-29/three-teenagers-arrested-over-alleged-burglary-spree-melbourne/107093502",
-          "headline": "Three teenagers arrested over alleged burglary spree in Melbourne",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T04:05:06+00:00",
-      "last_seen": "2026-08-29T04:05:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0574
-    },
-    {
-      "id": "db3e31fe9e",
-      "title": "Icelanders Are Voting on E.U. Membership Talks. Here’s What to Know.",
+      "id": "eb1b4cbb7a",
+      "title": "37 Killed Near Kyiv as Russian Drone Blitz Exposes Air Defense Gap",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/29/world/europe/iceland-eu-referendum-what-to-know.html",
-          "headline": "Icelanders Are Voting on E.U. Membership Talks. Here’s What to Know.",
+          "url": "https://www.nytimes.com/2026/08/29/world/europe/russia-ukraine-strike-kyiv-drones.html",
+          "headline": "37 Killed Near Kyiv as Russian Drone Blitz Exposes Air Defense Gap",
           "platform": "rss"
         }
       ],
@@ -1032,155 +993,135 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-08-29T04:01:14+00:00",
-      "last_seen": "2026-08-29T04:01:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0518
-    },
-    {
-      "id": "26ef7a8aaa",
-      "title": "Modi Is Hedging Against Trump, One Deal at a Time",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/08/29/world/asia/modi-india-deals-trump.html",
-          "headline": "Modi Is Hedging Against Trump, One Deal at a Time",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-08-29T04:01:06+00:00",
-      "last_seen": "2026-08-29T04:01:06+00:00",
+      "first_seen": "2026-08-29T12:15:06+00:00",
+      "last_seen": "2026-08-29T12:15:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0516
+      "resonance": 0.0601
     },
     {
-      "id": "7c280d44e6",
-      "title": "Japan to send SDF helicopters to wildfire-hit Indonesia",
+      "id": "f64907ec55",
+      "title": "Germany news: Sick leave wage bill doubles in 15 years",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/08/29/japan/japan-sdf-helicopters-wildfires-indonesia/",
-          "headline": "Japan to send SDF helicopters to wildfire-hit Indonesia",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/germany-news-sick-leave-wage-bill-doubles-in-15-years/live-78555302?maca=en-rss-en-all-1573-rdf",
+          "headline": "Germany news: Sick leave wage bill doubles in 15 years",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-08-29T04:00:00+00:00",
-      "last_seen": "2026-08-29T04:00:00+00:00",
+      "first_seen": "2026-08-29T12:12:00+00:00",
+      "last_seen": "2026-08-29T12:12:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "climate",
+      "topic": "politics",
+      "resonance": 0.057
+    },
+    {
+      "id": "fb1ea90464",
+      "title": "Scientists probe if herpes virus is killing sardines off South Africa",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/africa/article/3365714/scientists-probe-if-herpes-virus-killing-sardines-south-africa?utm_source=rss_feed",
+          "headline": "Scientists probe if herpes virus is killing sardines off South Africa",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T12:10:48+00:00",
+      "last_seen": "2026-08-29T12:10:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.0558
+    },
+    {
+      "id": "2a4b0dd5d8",
+      "title": "Royal Navy warships track Russian vessels for three days in UK waters",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c93e88jzn54o?at_medium=RSS&at_campaign=rss",
+          "headline": "Royal Navy warships track Russian vessels for three days in UK waters",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-08-29T12:05:03+00:00",
+      "last_seen": "2026-08-29T12:05:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "7cf7d4ca37",
-      "target": "a9cb2b9022",
-      "weight": 0.446,
+      "source": "fd32e54a8a",
+      "target": "f7a1675191",
+      "weight": 0.478,
       "type": "thematic"
     },
     {
-      "source": "7cf7d4ca37",
-      "target": "40cb3ea1e0",
-      "weight": 0.682,
+      "source": "6c27b58ffc",
+      "target": "2c4363ffeb",
+      "weight": 0.311,
       "type": "thematic"
     },
     {
-      "source": "7cf7d4ca37",
-      "target": "26ef7a8aaa",
-      "weight": 0.01,
+      "source": "2c4363ffeb",
+      "target": "6809c84412",
+      "weight": 0.323,
       "type": "thematic"
     },
     {
-      "source": "d08f7456a1",
-      "target": "b47286e160",
-      "weight": 0.51,
+      "source": "2c4363ffeb",
+      "target": "eb1b4cbb7a",
+      "weight": 0.547,
       "type": "thematic"
     },
     {
-      "source": "d08f7456a1",
-      "target": "9bc29ad0cb",
-      "weight": 0.288,
+      "source": "3832bb2b1e",
+      "target": "d409267cc6",
+      "weight": 0.856,
       "type": "thematic"
     },
     {
-      "source": "d08f7456a1",
-      "target": "7dea830c26",
-      "weight": 0.515,
-      "type": "thematic"
-    },
-    {
-      "source": "d08f7456a1",
-      "target": "8264a1199e",
-      "weight": 0.222,
-      "type": "thematic"
-    },
-    {
-      "source": "b47286e160",
-      "target": "9bc29ad0cb",
-      "weight": 0.384,
-      "type": "thematic"
-    },
-    {
-      "source": "af98c450fb",
-      "target": "a9cb2b9022",
-      "weight": 0.008,
-      "type": "thematic"
-    },
-    {
-      "source": "af98c450fb",
-      "target": "26ef7a8aaa",
-      "weight": 0.111,
-      "type": "thematic"
-    },
-    {
-      "source": "ec55a307fa",
-      "target": "e3f94d59d7",
-      "weight": 0.331,
-      "type": "thematic"
-    },
-    {
-      "source": "9bc29ad0cb",
-      "target": "7dea830c26",
-      "weight": 0.033,
-      "type": "thematic"
-    },
-    {
-      "source": "a9cb2b9022",
-      "target": "26ef7a8aaa",
-      "weight": 0.14,
-      "type": "thematic"
-    },
-    {
-      "source": "e3f94d59d7",
-      "target": "85acab0043",
-      "weight": 0.009,
+      "source": "2c4125bf5c",
+      "target": "bb2f909cf3",
+      "weight": 0.001,
       "type": "thematic"
     }
   ],
@@ -1227,7 +1168,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 12,
+      "count": 10,
       "error": null
     },
     "The Atlantic": {

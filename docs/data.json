@@ -1,8 +1,36 @@
 {
-  "generated_at": "2026-09-06T15:14:39.731973+00:00",
+  "generated_at": "2026-09-06T18:09:06.029795+00:00",
   "node_count": 35,
-  "edge_count": 6,
+  "edge_count": 9,
   "nodes": [
+    {
+      "id": "a1614d8050",
+      "title": "An Alien Mind",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://openai.com/index/an-alien-mind/",
+          "headline": "An Alien Mind",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T16:27:05+00:00",
+      "last_seen": "2026-09-06T16:27:05+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.28
+    },
     {
       "id": "e901feb741",
       "title": "A/I shuts down – Stay human",
@@ -32,10 +60,50 @@
       "resonance": 0.28
     },
     {
-      "id": "c799173ca3",
-      "title": "US envoys meet Zelensky in Ukraine after talks with Putin in Russia",
+      "id": "33fff355a6",
+      "title": "How I feel about AI",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+          "headline": "How I feel about AI",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T15:00:19+00:00",
+      "last_seen": "2026-09-06T15:00:19+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.28
+    },
+    {
+      "id": "8116de7328",
+      "title": "US envoys hold talks with Zelensky in Kyiv after meeting Putin",
       "signal_count": 9,
       "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
+          "headline": "US envoys hold talks with Zelensky in Kyiv after meeting Putin",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/9/6/us-envoys-hold-substantive-talks-with-zelenskyy-in-first-visit-to-kyiv?traffic_source=rss",
+          "headline": "US envoys hold ‘substantive’ talks with Zelenskyy in first visit to Kyiv",
+          "platform": "rss"
+        },
         {
           "outlet": "New York Times",
           "url": "https://www.nytimes.com/2026/09/06/world/europe/ukraine-zelensky-witkoff-kushner-russia-putin.html",
@@ -49,12 +117,6 @@
           "platform": "rss"
         },
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
-          "headline": "US envoys meet Zelensky in Ukraine after talks with Putin in Russia",
-          "platform": "rss"
-        },
-        {
           "outlet": "Deutsche Welle",
           "url": "https://www.dw.com/en/us-envoys-witkoff-kushner-arrive-in-kiyv-after-putin-talks/a-79054779?maca=en-rss-en-all-1573-rdf",
           "headline": "US envoys Witkoff, Kushner arrive in Kiyv after Putin talks",
@@ -63,7 +125,7 @@
         {
           "outlet": "Le Monde (EN)",
           "url": "https://www.lemonde.fr/en/international/article/2026/09/06/trump-s-envoys-arrive-in-kyiv-for-first-ukraine-visit_6757217_4.html",
-          "headline": "Trump's envoys Kushner and Witkoff hold talks with Zelensky on first Kyiv visit",
+          "headline": "Trump's envoys Kushner and Witkoff hold 'important' talks with Zelensky on first Kyiv visit",
           "platform": "rss"
         },
         {
@@ -77,85 +139,213 @@
           "url": "https://www.france24.com/en/europe/20260906-live-trump-s-envoys-head-to-ukraine-after-substantive-talks-with-putin",
           "headline": "🔴 Trump's envoys Witkoff and Kushner arrive in Kyiv after 'substantive' talks with Putin",
           "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
-          "headline": "U.S. envoys Witkoff and Kushner land for talks in Kyiv after meeting Putin in Moscow",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.128,
-        "spread": 0.123,
+        "mean": -0.139,
+        "spread": 0.124,
         "left": 2,
         "center": 7,
         "right": 0
       },
-      "first_seen": "2026-09-06T06:18:30+00:00",
-      "last_seen": "2026-09-06T14:59:53+00:00",
+      "first_seen": "2026-09-06T09:51:04+00:00",
+      "last_seen": "2026-09-06T15:32:27+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.618
+      "resonance": 0.508
     },
     {
-      "id": "ed980d659e",
-      "title": "Intellectual Fly Is Open (2025)",
-      "signal_count": 1,
+      "id": "deb7e3e004",
+      "title": "Israeli strikes on Lebanon kill several despite truce",
+      "signal_count": 5,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
-          "headline": "Intellectual Fly Is Open (2025)",
-          "platform": "hackernews"
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/lebanon-president-calls-for-us-help-as-israeli-strikes-kill-7/article71436321.ece",
+          "headline": "Lebanon President calls for U.S. help as Israeli strikes kill 7",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3366563/lebanons-president-appeals-us-help-israeli-strikes-kill-7?utm_source=rss_feed",
+          "headline": "Lebanon’s president appeals to US for help as Israeli strikes kill 7",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/israeli-strikes-on-lebanon-kill-several-despite-truce/a-79065011?maca=en-rss-en-all-1573-rdf",
+          "headline": "Israeli strikes on Lebanon kill several despite truce",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/four-killed-in-israeli-strikes-on-southern-lebanon-13582240",
+          "headline": "Seven killed in Israeli strikes on southern Lebanon",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-kill-four-and-destroy-hospital-south-lebanon",
+          "headline": "Israeli strikes kill four and destroy hospital in south Lebanon",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "mean": -0.05,
+        "spread": 0.134,
+        "left": 1,
+        "center": 4,
         "right": 0
       },
-      "first_seen": "2026-09-06T11:56:43+00:00",
-      "last_seen": "2026-09-06T11:56:43+00:00",
+      "first_seen": "2026-09-06T08:22:26+00:00",
+      "last_seen": "2026-09-06T17:49:58+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
+      "topic": "politics",
+      "resonance": 0.498
     },
     {
-      "id": "7c871d0883",
-      "title": "Doomscrolling Ourselves to Death",
-      "signal_count": 1,
+      "id": "3cb3a4c3c4",
+      "title": "Live Updates: Germany’s Far Right Has Big Lead in Key Election, Exit Polls Show",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death",
-          "headline": "Doomscrolling Ourselves to Death",
-          "platform": "hackernews"
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/09/06/world/germany-election",
+          "headline": "Live Updates: Germany’s Far Right Has Big Lead in Key Election, Exit Polls Show",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/09/06/nx-s1-5955677/german-exit-polls-suggest-far-right-party-big-lead-in-regional-election",
+          "headline": "German exit polls suggest far-right party has big lead in regional election",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
+        "mean": -0.225,
+        "spread": 0.075,
+        "left": 1,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-06T11:53:40+00:00",
-      "last_seen": "2026-09-06T11:53:40+00:00",
+      "first_seen": "2026-09-06T16:36:48+00:00",
+      "last_seen": "2026-09-06T17:57:48+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
+      "topic": "politics",
+      "resonance": 0.3971
+    },
+    {
+      "id": "16e133d7d2",
+      "title": "Jamaica to bring slavery reparations petition to King Charles",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/news/2026/sep/06/jamaica-slavery-reparations-petition-king-charles",
+          "headline": "Jamaican delegates arrive in UK to hand slavery reparations petition to King Charles",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/clyqvkyekkeo?at_medium=RSS&at_campaign=rss",
+          "headline": "Jamaica to bring slavery reparations petition to King Charles",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T16:39:45+00:00",
+      "last_seen": "2026-09-06T17:05:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.345
+    },
+    {
+      "id": "ed9f6786d6",
+      "title": "Saxony-Anhalt: Far-right AfD secures huge lead in key vote",
+      "signal_count": 9,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3366562/germanys-far-right-afd-landslide-winner-eastern-state-vote-exit-polls-indicate?utm_source=rss_feed",
+          "headline": "Germany’s far-right AfD is landslide winner in Saxony-Anhalt vote, exit polls indicate",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260906-afd-could-lead-the-first-far-right-state-government-since-the-dark-days-of-nazism",
+          "headline": "🔴Germany’s far-right AfD landslide winner in key Saxony-Anhalt vote, early results suggest",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260906-germany-s-far-right-afd-takes-huge-lead-in-key-vote-early-results-suggest",
+          "headline": "Germany’s far-right AfD landslide winner in key Saxony-Anhalt vote, early results suggest",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/9/6/far-right-afd-wins-vote-in-germanys-saxony-anhalt-state-exit-polls?traffic_source=rss",
+          "headline": "Far-right AfD wins vote in Germany’s Saxony-Anhalt state: Exit polls",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/saxony-anhalt-far-right-afd-secures-huge-lead-in-key-vote/live-78754934?maca=en-rss-en-all-1573-rdf",
+          "headline": "Saxony-Anhalt: Far-right AfD secures huge lead in key vote",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260906-germany-what-could-change-in-saxony-anhalt-if-the-afd-wins",
+          "headline": "Germany: What could change in Saxony-Anhalt if the AfD wins?",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260906-germany-why-is-the-afd-so-popular-in-saxony-anhalt",
+          "headline": "Germany: Why is the AfD so popular in Saxony-Anhalt?",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260906-germany-s-far-right-afd-clear-frontrunner-in-eastern-state-vote-1",
+          "headline": "Germany's far-right AfD clear frontrunner in eastern state vote",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.089,
+        "spread": 0.074,
+        "left": 0,
+        "center": 9,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T08:59:26+00:00",
+      "last_seen": "2026-09-06T16:36:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.3083
     },
     {
       "id": "1504ad6cc0",
@@ -163,9 +353,9 @@
       "signal_count": 4,
       "sources": [
         {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/sports/article/2026/09/06/fifa-confirms-infantino-will-run-in-presidential-election_6757223_9.html",
-          "headline": "FIFA confirms Infantino will run in presidential election",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/9/6/embattled-fifa-president-gianni-infantino-to-stand-for-re-election?traffic_source=rss",
+          "headline": "Embattled FIFA President Gianni Infantino to stand for re-election",
           "platform": "rss"
         },
         {
@@ -195,119 +385,23 @@
         "right": 0
       },
       "first_seen": "2026-09-06T12:01:00+00:00",
-      "last_seen": "2026-09-06T14:24:57+00:00",
+      "last_seen": "2026-09-06T15:07:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.4317
+      "resonance": 0.2594
     },
     {
-      "id": "96202c9109",
-      "title": "Six Indonesian airports suspend operations after volcanic eruption",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/sep/06/volcanic-ash-cloud-halts-flights-at-indonesias-main-international-airport",
-          "headline": "Volcanic eruption halts flights at Jakarta and seven other Indonesian airports",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/environment/article/2026/09/06/six-indonesian-airports-suspend-operations-after-volcanic-eruption_6757216_114.html",
-          "headline": "Six Indonesian airports suspend operations after volcanic eruption",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/asia-pacific/20260906-six-airports-in-indonesia-suspend-operations-after-volcanic-eruption",
-          "headline": "Eight airports in Indonesia suspend operations after volcanic eruption",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.082,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T06:59:17+00:00",
-      "last_seen": "2026-09-06T14:51:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2625
-    },
-    {
-      "id": "99e5df4122",
-      "title": "Live Updates: Germany’s Far Right Eyes Breakthrough in Regional Election",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/09/06/world/germany-election",
-          "headline": "Live Updates: Germany’s Far Right Eyes Breakthrough in Regional Election",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T15:11:14+00:00",
-      "last_seen": "2026-09-06T15:11:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.17
-    },
-    {
-      "id": "0ec057359e",
-      "title": "Crucial state election will have national implications.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/09/06/world/germany-election/polls-are-set-to-close-in-crucial-election",
-          "headline": "Crucial state election will have national implications.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T15:11:12+00:00",
-      "last_seen": "2026-09-06T15:11:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1699
-    },
-    {
-      "id": "9907d27276",
-      "title": "Several fall ill after consuming food at church exhibition in Tharuvaikulam",
+      "id": "bc206674a3",
+      "title": "Delhi building collapse: Guilty will not be spared, says Delhi CM; orders magisterial probe",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Madurai/nivseveral-fall-ill-after-consuming-food-at-church-exhibition-in-tharuvaikulam/article71435732.ece",
-          "headline": "Several fall ill after consuming food at church exhibition in Tharuvaikulam",
+          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-building-collapse-guilty-will-not-be-spared-says-delhi-cm/article71435720.ece",
+          "headline": "Delhi building collapse: Guilty will not be spared, says Delhi CM; orders magisterial probe",
           "platform": "rss"
         }
       ],
@@ -318,136 +412,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-06T15:08:20+00:00",
-      "last_seen": "2026-09-06T15:08:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1656
-    },
-    {
-      "id": "5a4466ac40",
-      "title": "Panel for scheduled castes issues notice to Keralam Chief Secretary, SPC over alleged attack on Congress MLA Ramya Haridas",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/panel-for-scheduled-castes-issues-notice-to-keralamchief-secretary-spc-over-alleged-attack-on-congress-mla-ramya-haridas/article71435794.ece",
-          "headline": "Panel for scheduled castes issues notice to Keralam Chief Secretary, SPC over alleged attack on Congress MLA Ramya Haridas",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T15:07:01+00:00",
-      "last_seen": "2026-09-06T15:07:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1636
-    },
-    {
-      "id": "87c8393253",
-      "title": "YSRCP accuses govt. of blocking its social media accounts",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/ysrcp-accuses-govt-of-blocking-its-social-media-accounts/article71435106.ece",
-          "headline": "YSRCP accuses govt. of blocking its social media accounts",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T15:02:52+00:00",
-      "last_seen": "2026-09-06T15:02:52+00:00",
+      "first_seen": "2026-09-06T18:02:38+00:00",
+      "last_seen": "2026-09-06T18:02:38+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1574
+      "resonance": 0.2184
     },
     {
-      "id": "6c63075aa3",
-      "title": "Children among at least 25 killed in Cabo Verde bus crash",
+      "id": "3e84cd2ad5",
+      "title": "Over 94,000 schools closed down across the country over the past decade: AIDSO State president",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/africa/article/3366561/children-among-least-25-killed-cabo-verde-bus-crash?utm_source=rss_feed",
-          "headline": "Children among at least 25 killed in Cabo Verde bus crash",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/over-94000-schools-closed-down-across-the-country-over-the-past-decade-aidso-state-president/article71435339.ece",
+          "headline": "Over 94,000 schools closed down across the country over the past decade: AIDSO State president",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-06T15:00:45+00:00",
-      "last_seen": "2026-09-06T15:00:45+00:00",
+      "first_seen": "2026-09-06T18:01:10+00:00",
+      "last_seen": "2026-09-06T18:01:10+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1543
+      "topic": "politics",
+      "resonance": 0.2161
     },
     {
-      "id": "9863ec5f1e",
-      "title": "Shoebridge criticises Labor response after IDF officer’s ‘reprehensible’ comments on deadly Zomi Frankcom strike",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/2026/sep/07/zomi-frankcom-israel-gaza-idf-world-central-kitchen-ntwnfb",
-          "headline": "Shoebridge criticises Labor response after IDF officer’s ‘reprehensible’ comments on deadly Zomi Frankcom strike",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T15:00:10+00:00",
-      "last_seen": "2026-09-06T15:00:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1534
-    },
-    {
-      "id": "e9c357aefd",
-      "title": "Pro wrestler Andy Williams, who performed as The Butcher, dead at 48",
+      "id": "54da1bef85",
+      "title": "Sydney Sweeney, Brittany Snow and Nina Dobrev turn heads at Venice Film Festival: Vote for your favorite looks",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/pro-wrestler-andy-williams-performed-butcher-dead-48",
-          "headline": "Pro wrestler Andy Williams, who performed as The Butcher, dead at 48",
+          "url": "https://www.foxnews.com/entertainment/sydney-sweeney-brittany-snow-nina-dobrev-turn-heads-venice-film-festival-vote-your-favorite-looks",
+          "headline": "Sydney Sweeney, Brittany Snow and Nina Dobrev turn heads at Venice Film Festival: Vote for your favorite looks",
           "platform": "rss"
         }
       ],
@@ -458,340 +468,24 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-09-06T15:00:03+00:00",
-      "last_seen": "2026-09-06T15:00:03+00:00",
+      "first_seen": "2026-09-06T18:00:50+00:00",
+      "last_seen": "2026-09-06T18:00:50+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1532
+      "topic": "politics",
+      "resonance": 0.2156
     },
     {
-      "id": "91811fe68c",
-      "title": "US forces redirected 92 commercial vessels during Iran blockade: Centcom",
+      "id": "0f6609d48a",
+      "title": "Stay far from battlefield, Japanese director warns at Venice",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-forces-redirected-92-commercial-vessels-during-iran-blockade-centcom",
-          "headline": "US forces redirected 92 commercial vessels during Iran blockade: Centcom",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T14:43:45+00:00",
-      "last_seen": "2026-09-06T14:43:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1296
-    },
-    {
-      "id": "8ee2525796",
-      "title": "Indonesia: Flights canceled as Anak Krakatau volcano erupts",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260906-indonesia-s-anak-krakatau-eruption-halts-flights-schools-fishing",
-          "headline": "Indonesia's Anak Krakatau eruption halts flights, schools, fishing",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Sky News",
-          "url": "https://news.sky.com/story/anak-krakatau-volcano-eruption-disrupts-hundreds-of-flights-13582234",
-          "headline": "Anak Krakatau: Volcano eruption disrupts hundreds of flights",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/indonesia-flights-canceled-as-anak-krakatau-volcano-erupts/a-79050871?maca=en-rss-en-all-1573-rdf",
-          "headline": "Indonesia: Flights canceled as Anak Krakatau volcano erupts",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.033,
-        "spread": 0.094,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T07:33:00+00:00",
-      "last_seen": "2026-09-06T12:54:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.125
-    },
-    {
-      "id": "1228abd27e",
-      "title": "Germany: What could change in Saxony-Anhalt if the AfD wins?",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260906-germany-what-could-change-in-saxony-anhalt-if-the-afd-wins",
-          "headline": "Germany: What could change in Saxony-Anhalt if the AfD wins?",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260906-germany-why-is-the-afd-so-popular-in-saxony-anhalt",
-          "headline": "Germany: Why is the AfD so popular in Saxony-Anhalt?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T13:37:48+00:00",
-      "last_seen": "2026-09-06T14:44:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1243
-    },
-    {
-      "id": "2541a1303a",
-      "title": "Four killed by Israeli airstrikes in Lebanon, despite ceasefire",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/06/four-killed-by-israeli-airstrikes-in-lebanon-despite-the-ceasefire_6757215_4.html",
-          "headline": "Four killed by Israeli airstrikes in Lebanon, despite ceasefire",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Sky News",
-          "url": "https://news.sky.com/story/four-killed-in-israeli-strikes-on-southern-lebanon-13582240",
-          "headline": "Four killed in Israeli strikes on southern Lebanon",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260906-israeli-strikes-kill-four-in-lebanon-after-alleged-hezbollah-drone-launch",
-          "headline": "Israeli strikes kill four in Lebanon after alleged Hezbollah drone launch",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-kill-four-and-destroy-hospital-south-lebanon",
-          "headline": "Israeli strikes kill four and destroy hospital in south Lebanon",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.113,
-        "spread": 0.134,
-        "left": 1,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T08:22:26+00:00",
-      "last_seen": "2026-09-06T10:44:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1233
-    },
-    {
-      "id": "d776e72a4e",
-      "title": "Bosnian Serbs strengthen ties with Israel amid tensions",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/9/6/bosnian-serbs-strengthen-ties-with-israel-amid-tensions?traffic_source=rss",
-          "headline": "Bosnian Serbs strengthen ties with Israel amid tensions",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T14:37:40+00:00",
-      "last_seen": "2026-09-06T14:37:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.121
-    },
-    {
-      "id": "af5203c58f",
-      "title": "Nepal rescuers search hydropower tunnels for survivors",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/nepal-rescuers-search-hydropower-tunnels-for-survivors?traffic_source=rss",
-          "headline": "Nepal rescuers search hydropower tunnels for survivors",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T14:32:06+00:00",
-      "last_seen": "2026-09-06T14:32:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1133
-    },
-    {
-      "id": "77812aceb0",
-      "title": "The week in pictures: Nepal rescue operations, World Nomad Games and Russian strikes on Kyiv",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260906-the-week-in-pictures-nepal-rescue-operations-world-nomad-games-and-russian-strikes-on-kyiv",
-          "headline": "The week in pictures: Nepal rescue operations, World Nomad Games and Russian strikes on Kyiv",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T14:21:52+00:00",
-      "last_seen": "2026-09-06T14:21:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0993
-    },
-    {
-      "id": "f71b76fa37",
-      "title": "Why potluck parties are making a big comeback in America",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/features/longform/2026/9/6/why-potluck-parties-are-making-a-big-comeback-in-america?traffic_source=rss",
-          "headline": "Why potluck parties are making a big comeback in America",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T14:19:23+00:00",
-      "last_seen": "2026-09-06T14:19:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.096
-    },
-    {
-      "id": "0627e82f4b",
-      "title": "8 everyday things that would quit working without data centers",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/8-everyday-things-would-quit-working-without-data-centers",
-          "headline": "8 everyday things that would quit working without data centers",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-09-06T14:17:07+00:00",
-      "last_seen": "2026-09-06T14:17:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.093
-    },
-    {
-      "id": "2bfe280e79",
-      "title": "Hong Kong to review bookings for famous Sai Kung trail after high no-show rate",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3366560/hong-kong-review-bookings-famous-sai-kung-trail-after-high-no-show-rate?utm_source=rss_feed",
-          "headline": "Hong Kong to review bookings for famous Sai Kung trail after high no-show rate",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T14:13:33+00:00",
-      "last_seen": "2026-09-06T14:13:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0882
-    },
-    {
-      "id": "b7b29d543a",
-      "title": "Dozens feared trapped in collapsed building in Delhi",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c8r6ezx1jmro?at_medium=RSS&at_campaign=rss",
-          "headline": "Dozens feared trapped in collapsed building in Delhi",
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/culture/2026/09/07/film/japanese-vietnam-war-tsukamoto/",
+          "headline": "Stay far from battlefield, Japanese director warns at Venice",
           "platform": "rss"
         }
       ],
@@ -802,58 +496,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-06T14:07:35+00:00",
-      "last_seen": "2026-09-06T14:07:35+00:00",
+      "first_seen": "2026-09-06T18:00:00+00:00",
+      "last_seen": "2026-09-06T18:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0804
+      "topic": "conflict",
+      "resonance": 0.2143
     },
     {
-      "id": "87beade4c3",
-      "title": "TV presenter among 12 sentenced to death in Egypt drugs case",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/africa/20260906-egyptian-tv-presenter-sarah-khalifa-sentenced-to-death-in-drug-case",
-          "headline": "Egyptian TV presenter Sarah Khalifa sentenced to death in drug case",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c5y7gk9knnlo?at_medium=RSS&at_campaign=rss",
-          "headline": "TV presenter among 12 sentenced to death in Egypt drugs case",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T08:05:22+00:00",
-      "last_seen": "2026-09-06T13:52:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.0781
-    },
-    {
-      "id": "7fb8a892dd",
-      "title": "Ukraine-Russia talks: What are the US objectives?",
+      "id": "a15adb9042",
+      "title": "Pipers beat Grandmasters despite Carlsen’s stalemate",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260906-ukraine-russia-talks-what-are-the-us-objectives",
-          "headline": "Ukraine-Russia talks: What are the US objectives?",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/other-sports/pipers-beat-grandmasters-despite-carlsens-stalemate/article71436268.ece",
+          "headline": "Pipers beat Grandmasters despite Carlsen’s stalemate",
           "platform": "rss"
         }
       ],
@@ -864,14 +524,542 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-06T14:03:26+00:00",
-      "last_seen": "2026-09-06T14:03:26+00:00",
+      "first_seen": "2026-09-06T17:58:10+00:00",
+      "last_seen": "2026-09-06T17:58:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2114
+    },
+    {
+      "id": "af0fc63afc",
+      "title": "Georgia woman celebrates 112th birthday, reveals her secret to a long life",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/health/georgia-woman-celebrates-112th-birthday-reveals-secret-long-life",
+          "headline": "Georgia woman celebrates 112th birthday, reveals her secret to a long life",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-09-06T17:55:36+00:00",
+      "last_seen": "2026-09-06T17:55:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2074
+    },
+    {
+      "id": "ed0d3b6fe1",
+      "title": "Here’s the latest.",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/09/06/world/germany-election/polls-are-set-to-close-in-crucial-election",
+          "headline": "Here’s the latest.",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T17:53:51+00:00",
+      "last_seen": "2026-09-06T17:53:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2047
+    },
+    {
+      "id": "22aa7170b4",
+      "title": "Virginia mom placed on child abuse registry for 7 years after letting 5-year-old walk alone",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/virginia-mom-placed-child-abuse-registry-7-years-letting-5-year-old-walk-alone",
+          "headline": "Virginia mom placed on child abuse registry for 7 years after letting 5-year-old walk alone",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-09-06T17:52:00+00:00",
+      "last_seen": "2026-09-06T17:52:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2018
+    },
+    {
+      "id": "9d87972998",
+      "title": "Sierra Leone ex-president returns to country after treason case dropped",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/africa/article/3366564/sierra-leone-ex-president-returns-country-after-treason-case-dropped?utm_source=rss_feed",
+          "headline": "Sierra Leone ex-president returns to country after treason case dropped",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T17:50:08+00:00",
+      "last_seen": "2026-09-06T17:50:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1989
+    },
+    {
+      "id": "797179a38c",
+      "title": "F1 leader Kimi Antonelli wins Italian GP after epic charge from the back",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/9/6/f1-leader-kimi-antonelli-wins-italian-gp-after-epic-charge-from-the-back?traffic_source=rss",
+          "headline": "F1 leader Kimi Antonelli wins Italian GP after epic charge from the back",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T17:40:41+00:00",
+      "last_seen": "2026-09-06T17:40:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1846
+    },
+    {
+      "id": "f2f367ae70",
+      "title": "German far-right set for big win in eastern state - projections",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
+          "headline": "German far-right set for big win in eastern state - projections",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/09/06/world/politics/rise-far-right-eastern-germany/",
+          "headline": "‘We can only win’: The rise of the far right in eastern Germany",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T08:24:00+00:00",
+      "last_seen": "2026-09-06T17:42:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1792
+    },
+    {
+      "id": "d3bc832b0d",
+      "title": "Balkans: Israel deepens ties with Bosnian Serb separatists through Banja Luka trade office",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/balkans-israel-deepens-ties-bosnian-serb-separatists-through-banja-luka",
+          "headline": "Balkans: Israel deepens ties with Bosnian Serb separatists through Banja Luka trade office",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T17:33:28+00:00",
+      "last_seen": "2026-09-06T17:33:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.1738
+    },
+    {
+      "id": "b7b29d543a",
+      "title": "Dozens feared trapped in collapsed building in Delhi",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c8r6ezx1jmro?at_medium=RSS&at_campaign=rss",
+          "headline": "Dozens feared trapped in collapsed building in Delhi",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/asia/south-asia/article/3366558/new-delhi-building-collapse-kills-1-traps-others?utm_source=rss_feed",
+          "headline": "New Delhi building collapse kills 3, traps dozens",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T13:03:35+00:00",
+      "last_seen": "2026-09-06T16:54:34+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.075
+      "resonance": 0.1711
+    },
+    {
+      "id": "fe7d79e56a",
+      "title": "Death toll from Israeli drone attack in southern Lebanon rises to three",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/death-toll-israeli-drone-attack-southern-lebanon-rises-three",
+          "headline": "Death toll from Israeli drone attack in southern Lebanon rises to three",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T17:14:53+00:00",
+      "last_seen": "2026-09-06T17:14:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1469
+    },
+    {
+      "id": "55d2e56885",
+      "title": "Iran warns of 'faster, heavier, more painful response' to US attacks",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po?at_medium=RSS&at_campaign=rss",
+          "headline": "Iran warns of 'faster, heavier, more painful response' to US attacks",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-response-us-attacks-will-be-more-painful-ghalibaf-says",
+          "headline": "Iran's response to US attacks will be 'faster, more painful', Ghalibaf says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.125,
+        "spread": 0.125,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T09:54:50+00:00",
+      "last_seen": "2026-09-06T17:00:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1323
+    },
+    {
+      "id": "d6057b1f56",
+      "title": "Palestinian farmers battle settler sabotage to save Hebron crops, livestock",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/features/2026/9/6/palestinian-farmers-battle-settler-sabotage-to-save-hebron-crops-livestock?traffic_source=rss",
+          "headline": "Palestinian farmers battle settler sabotage to save Hebron crops, livestock",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T17:03:20+00:00",
+      "last_seen": "2026-09-06T17:03:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.1308
+    },
+    {
+      "id": "da58711238",
+      "title": "Putin, war leader and election campaign chief, prepares Russia for military escalation",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/09/06/putin-war-leader-and-election-campaign-chief-prepares-russia-for-military-escalation_6757224_4.html",
+          "headline": "Putin, war leader and election campaign chief, prepares Russia for military escalation",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T17:00:07+00:00",
+      "last_seen": "2026-09-06T17:00:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1264
+    },
+    {
+      "id": "eb2ed6e284",
+      "title": "Trump official says ‘there may not be a nuclear agreement’ with Iran",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/9/6/trump-official-says-there-may-not-be-a-nuclear-agreement-with-iran?traffic_source=rss",
+          "headline": "Trump official says ‘there may not be a nuclear agreement’ with Iran",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T16:59:04+00:00",
+      "last_seen": "2026-09-06T16:59:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1249
+    },
+    {
+      "id": "2541a1303a",
+      "title": "Four killed by Israeli airstrikes in Lebanon, despite ceasefire",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/death-toll-israeli-attacks-lebanon-climbs-4362-despite-ceasefire",
+          "headline": "Death toll from Israeli attacks on Lebanon climbs to 4,362 despite ceasefire",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/09/06/four-killed-by-israeli-airstrikes-in-lebanon-despite-the-ceasefire_6757215_4.html",
+          "headline": "Four killed by Israeli airstrikes in Lebanon, despite ceasefire",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.025,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T10:44:40+00:00",
+      "last_seen": "2026-09-06T16:42:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1185
+    },
+    {
+      "id": "1dc8ac0d2c",
+      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+          "headline": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T16:45:00+00:00",
+      "last_seen": "2026-09-06T16:45:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1061
+    },
+    {
+      "id": "8b97972f8f",
+      "title": "Minister to meet Jaguar Land Rover boss as thousands of job cuts expected",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/crer948xq00o?at_medium=RSS&at_campaign=rss",
+          "headline": "Minister to meet Jaguar Land Rover boss as thousands of job cuts expected",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T16:32:59+00:00",
+      "last_seen": "2026-09-06T16:32:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0904
+    },
+    {
+      "id": "54c13cb054",
+      "title": "140 migrants in single dinghy rescued in English Channel",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/clyegwl9vzqo?at_medium=RSS&at_campaign=rss",
+          "headline": "140 migrants in single dinghy rescued in English Channel",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T16:28:59+00:00",
+      "last_seen": "2026-09-06T16:28:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0853
+    },
+    {
+      "id": "7d19bc8791",
+      "title": "Boox’s tiny Picco e-reader should land in November",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/990895/boox-picco-tiny-e-reader-november-ifa",
+          "headline": "Boox’s tiny Picco e-reader should land in November",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-06T16:28:58+00:00",
+      "last_seen": "2026-09-06T16:28:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0853
     },
     {
       "id": "f305bf6cff",
@@ -892,176 +1080,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-09-06T14:01:48+00:00",
-      "last_seen": "2026-09-06T14:01:48+00:00",
+      "first_seen": "2026-09-06T16:25:18+00:00",
+      "last_seen": "2026-09-06T16:25:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0729
+      "resonance": 0.0806
     },
     {
-      "id": "34feaecdad",
-      "title": "In Germany, Ulrich Siegmund Is Bringing the AfD to the Cusp of Power",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260906-germany-afd-s-ulrich-siegmund-eyes-outright-majority",
-          "headline": "Germany: AfD's Ulrich Siegmund eyes outright majority",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/06/world/europe/afd-germany-election-ulrich-siegmund.html",
-          "headline": "In Germany, Ulrich Siegmund Is Bringing the AfD to the Cusp of Power",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.1,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T04:01:32+00:00",
-      "last_seen": "2026-09-06T14:07:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0713
-    },
-    {
-      "id": "f565138972",
-      "title": "Angry locals block famous beach as mass tourism protests escalate at vacation hot spot",
+      "id": "d60e7a7659",
+      "title": "TechCrunch Mobility: Tesla Cybercab hits the road — and a snag",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/travel/angry-locals-block-famous-beach-mass-tourism-protests-escalate-vacation-hot-spot",
-          "headline": "Angry locals block famous beach as mass tourism protests escalate at vacation hot spot",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-09-06T14:00:17+00:00",
-      "last_seen": "2026-09-06T14:00:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0709
-    },
-    {
-      "id": "0ca0869e92",
-      "title": "What China’s Lop Nur desert base expansion means for PLA stealth jets in race with US",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/military/article/3366531/what-chinas-lop-nur-desert-base-expansion-means-pla-stealth-jets-race-us?utm_source=rss_feed",
-          "headline": "What China’s Lop Nur desert base expansion means for PLA stealth jets in race with US",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T14:00:10+00:00",
-      "last_seen": "2026-09-06T14:00:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0708
-    },
-    {
-      "id": "020e59d96f",
-      "title": "At Lille's Braderie, French presidential candidates promote their platforms while criticizing far-right RN",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/politics/article/2026/09/06/at-lille-s-braderie-french-presidential-candidates-promote-their-platforms-while-criticizing-far-right-rn_6757222_5.html",
-          "headline": "At Lille's Braderie, French presidential candidates promote their platforms while criticizing far-right RN",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T13:57:41+00:00",
-      "last_seen": "2026-09-06T13:57:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0676
-    },
-    {
-      "id": "8275bf6584",
-      "title": "The Falklands dispute: What’s it got to do with Israel and the US?",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/falklands-dispute-whats-it-got-do-israel-and-us",
-          "headline": "The Falklands dispute: What’s it got to do with Israel and the US?",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/explainers/falklands-dispute-uk-argentina-us-israel",
-          "headline": "The Falklands dispute: What’s it got to do with Israel and the US?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-06T12:51:17+00:00",
-      "last_seen": "2026-09-06T14:48:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0635
-    },
-    {
-      "id": "6c2ef841ff",
-      "title": "AI: The future of smart households?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20260906-ai-the-future-of-smart-households",
-          "headline": "AI: The future of smart households?",
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/06/techcrunch-mobility-tesla-cybercab-hits-the-road-and-a-snag/",
+          "headline": "TechCrunch Mobility: Tesla Cybercab hits the road — and a snag",
           "platform": "rss"
         }
       ],
@@ -1072,85 +1108,97 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-06T13:50:03+00:00",
-      "last_seen": "2026-09-06T13:50:03+00:00",
+      "first_seen": "2026-09-06T16:08:00+00:00",
+      "last_seen": "2026-09-06T16:08:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0579
+      "resonance": 0.0592
     },
     {
-      "id": "6159da3a18",
-      "title": "Germany plans anti-drone shield over Leipzig attack — report",
-      "signal_count": 2,
+      "id": "7f7a871f6c",
+      "title": "Volcano eruption leaves 170,000 passengers stranded in Indonesia",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3366553/germany-plans-anti-sabotage-shield-after-airport-drone-attack?utm_source=rss_feed",
-          "headline": "Germany plans anti-sabotage shield after airport drone attack",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/germany-plans-anti-drone-shield-over-leipzig-attack-report/a-79052604?maca=en-rss-en-all-1573-rdf",
-          "headline": "Germany plans anti-drone shield over Leipzig attack — report",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko?at_medium=RSS&at_campaign=rss",
+          "headline": "Volcano eruption leaves 170,000 passengers stranded in Indonesia",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": 0.0,
-        "spread": 0.1,
+        "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-06T10:11:00+00:00",
-      "last_seen": "2026-09-06T12:09:28+00:00",
+      "first_seen": "2026-09-06T16:00:21+00:00",
+      "last_seen": "2026-09-06T16:00:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
+      "topic": "world",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "7c871d0883",
-      "target": "87beade4c3",
-      "weight": 0.166,
+      "source": "e901feb741",
+      "target": "0f6609d48a",
+      "weight": 0.117,
       "type": "thematic"
     },
     {
-      "source": "1504ad6cc0",
-      "target": "0ec057359e",
-      "weight": 0.016,
+      "source": "deb7e3e004",
+      "target": "fe7d79e56a",
+      "weight": 0.225,
       "type": "thematic"
     },
     {
-      "source": "99e5df4122",
-      "target": "020e59d96f",
-      "weight": 0.1,
+      "source": "deb7e3e004",
+      "target": "2541a1303a",
+      "weight": 0.701,
       "type": "thematic"
     },
     {
-      "source": "9863ec5f1e",
-      "target": "f305bf6cff",
-      "weight": 0.049,
+      "source": "3cb3a4c3c4",
+      "target": "ed9f6786d6",
+      "weight": 0.637,
       "type": "thematic"
     },
     {
-      "source": "1228abd27e",
-      "target": "34feaecdad",
-      "weight": 0.344,
+      "source": "3cb3a4c3c4",
+      "target": "f2f367ae70",
+      "weight": 0.359,
       "type": "thematic"
     },
     {
-      "source": "d776e72a4e",
-      "target": "8275bf6584",
-      "weight": 0.063,
+      "source": "ed9f6786d6",
+      "target": "f2f367ae70",
+      "weight": 0.045,
+      "type": "thematic"
+    },
+    {
+      "source": "bc206674a3",
+      "target": "b7b29d543a",
+      "weight": 0.648,
+      "type": "thematic"
+    },
+    {
+      "source": "3e84cd2ad5",
+      "target": "9d87972998",
+      "weight": 0.114,
+      "type": "thematic"
+    },
+    {
+      "source": "fe7d79e56a",
+      "target": "2541a1303a",
+      "weight": 0.225,
       "type": "thematic"
     }
   ],
@@ -1177,7 +1225,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 10,
+      "count": 9,
       "error": null
     },
     "The Economist": {
@@ -1197,7 +1245,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 14,
+      "count": 12,
       "error": null
     },
     "The Atlantic": {

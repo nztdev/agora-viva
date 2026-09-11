@@ -1,285 +1,57 @@
 {
-  "generated_at": "2026-09-10T22:22:21.347271+00:00",
+  "generated_at": "2026-09-11T03:57:28.087586+00:00",
   "node_count": 35,
-  "edge_count": 6,
+  "edge_count": 9,
   "nodes": [
     {
-      "id": "45e57f10fd",
-      "title": "The part of Navier-Stokes no one is talking about",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution/",
-          "headline": "The part of Navier-Stokes no one is talking about",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T21:22:59+00:00",
-      "last_seen": "2026-09-10T21:22:59+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
-    },
-    {
-      "id": "28bfbb759a",
-      "title": "Israel says destroyed key Hezbollah tunnels in south Lebanon",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/10/israel-says-destroyed-key-hezbollah-tunnels-in-south-lebanon_6757397_4.html",
-          "headline": "Israel says destroyed key Hezbollah tunnels in south Lebanon",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/israel-says-it-destroyed-key-hezbollah-tunnels-in-southern-lebanon?traffic_source=rss",
-          "headline": "Israel says it destroyed key Hezbollah tunnels in southern Lebanon",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260910-middle-east-live-trump-warns-iran-not-to-get-cute-over-activity-at-pickaxe-mountain",
-          "headline": "🔴 Live: Israel demolition of Hezbollah tunnels in south Lebanon caused 4.1-magnitude quake",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.167,
-        "spread": 0.047,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T20:12:47+00:00",
-      "last_seen": "2026-09-10T21:43:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.3673
-    },
-    {
-      "id": "6268d91895",
-      "title": "I have a theory that software drives people insane",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://graybeard.ing/software-drives-people-insane/",
-          "headline": "I have a theory that software drives people insane",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T16:13:42+00:00",
-      "last_seen": "2026-09-10T16:13:42+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.274
-    },
-    {
-      "id": "877755693b",
-      "title": "Coach crash kills several people in Swiss Alps",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Sky News",
-          "url": "https://news.sky.com/story/several-killed-and-injured-as-dutch-tour-bus-overturns-in-swiss-alps-13584148",
-          "headline": "Several killed and injured in Swiss Alps coach crash",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cx2z70xr0y3o?at_medium=RSS&at_campaign=rss",
-          "headline": "Coach crash kills several people in Swiss Alps",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/several-killed-in-coach-crash-in-eastern-switzerland/a-79221766?maca=en-rss-en-all-1573-rdf",
-          "headline": "Several killed in coach crash in eastern Switzerland",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.082,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T19:10:00+00:00",
-      "last_seen": "2026-09-10T20:53:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.2657
-    },
-    {
-      "id": "8fbbc8e6c3",
-      "title": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-      "signal_count": 5,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/10/world/middleeast/yemens-houthis-seize-strategic-red-sea-port-officials-say.html",
-          "headline": "Houthis Seize Strategic Red Sea Port, a Major Victory for Iranian Ally",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
-          "headline": "Yemen's Houthis reportedly seize strategic Red Sea port of Mokha",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/yemen-houthis-take-control-of-strategic-red-sea-port-city/a-79220628?maca=en-rss-en-all-1573-rdf",
-          "headline": "Yemen: Houthis take control of strategic Red Sea port city",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-arms-and-advice-helped-yemens-houthis-seize-key-red-sea-city",
-          "headline": "Iranian arms and advice helped Yemen's Houthis seize key Red Sea city, sources say",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "https://www.euronews.com/2026/09/10/houthis-seize-red-sea-port-city-in-push-to-seize-bab-el-mandeb",
-          "headline": "Houthis blitz Yemen's Red Sea coastline in push to seize Bab el-Mandeb",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.11,
-        "left": 2,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T15:59:44+00:00",
-      "last_seen": "2026-09-10T19:31:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2283
-    },
-    {
-      "id": "b6d7b35296",
-      "title": "'No facts': Morocco denies involvement in deadly Ceuta migrant rush",
+      "id": "331a259e24",
+      "title": "Hong Kong hits Tiananmen vigil activists with yearslong jail sentences",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/9/10/morocco-denies-involvement-in-migrant-surge-into-spains-ceuta?traffic_source=rss",
-          "headline": "Morocco denies involvement in migrant surge into Spain’s Ceuta",
+          "outlet": "Euronews",
+          "url": "https://www.euronews.com/2026/09/11/hong-kong-gives-tiananmen-vigil-activists-between-5-and-7-year",
+          "headline": "Hong Kong gives Tiananmen vigil activists between 5 and 7 year",
           "platform": "rss"
         },
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260910-no-facts-morocco-denies-involvement-in-deadly-ceuta-migrant-rush",
-          "headline": "'No facts': Morocco denies involvement in deadly Ceuta migrant rush",
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/09/11/asia-pacific/hong-kong-tiananmen-activists-sentence/",
+          "headline": "Hong Kong hits Tiananmen vigil activists with yearslong jail sentences",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
+        "mean": -0.05,
         "spread": 0.05,
         "left": 0,
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-09-10T19:32:22+00:00",
-      "last_seen": "2026-09-10T20:46:16+00:00",
+      "first_seen": "2026-09-11T02:48:00+00:00",
+      "last_seen": "2026-09-11T02:54:01+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1674
+      "resonance": 0.6316
     },
     {
-      "id": "cc202217c1",
-      "title": "More than 20 children killed in DR Congo school fire",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Sky News",
-          "url": "https://news.sky.com/story/at-least-26-students-killed-after-fire-sweeps-through-two-schools-in-dr-congo-13584135",
-          "headline": "At least 26 students dead after DR Congo school fire",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cgjq15j7318o?at_medium=RSS&at_campaign=rss",
-          "headline": "More than 20 children killed in DR Congo school fire",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/more-than-a-dozen-children-killed-in-fire-in-eastern-dr-congo-schools?traffic_source=rss",
-          "headline": "More than a dozen children killed in fire in eastern DR Congo schools",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.033,
-        "spread": 0.125,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T17:45:19+00:00",
-      "last_seen": "2026-09-10T20:07:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1596
-    },
-    {
-      "id": "7cac07be74",
-      "title": "Houthi rebels take key Red Sea city in Yemen, as Iran’s wartime leverage grows",
+      "id": "e2e5eb2552",
+      "title": "Former Carlton president apologises to ex-wife as lewd photo defamation case settles",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/09/10/iranian-backed-houthis-fight-block-red-sea-passage-saudi-oil/",
-          "headline": "Houthi rebels take key Red Sea city in Yemen, as Iran’s wartime leverage grows",
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/11/former-carlton-president-luke-sayers-apologises-to-ex-wife-as-lewd-photo-defamation-case-settles-ntwnfb",
+          "headline": "Former Carlton president apologises to ex-wife as lewd photo defamation case settles",
           "platform": "rss"
         },
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/iran-backed-houthi-rebels-take-strategic-port-city-in-yemen-raising-threat-to-red-sea-shipping",
-          "headline": "Iran-backed Houthi rebels take strategic port city in Yemen, raising threat to Red Sea shipping",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-09-11/luke-cate-sayers-lewd-photo-defamation-case-settles/107142130",
+          "headline": "Luke Sayers apologises as ex-wife's lewd photo defamation case settles",
           "platform": "rss"
         }
       ],
@@ -290,176 +62,30 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-10T19:18:57+00:00",
-      "last_seen": "2026-09-10T21:12:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1529
-    },
-    {
-      "id": "1b2f02982e",
-      "title": "Pro-Palestine activist wins mayoral Democratic primary in Rhode Island",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pro-palestine-activist-wins-mayoral-democratic-primary-rhode-island",
-          "headline": "Pro-Palestine activist wins mayoral Democratic primary in Rhode Island",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/pro-palestine-activist-wins-mayoral-democratic-primary-rhode-island",
-          "headline": "Pro-Palestine activist wins mayoral Democratic primary in Rhode Island",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T21:15:56+00:00",
-      "last_seen": "2026-09-10T22:15:08+00:00",
+      "first_seen": "2026-09-11T01:51:10+00:00",
+      "last_seen": "2026-09-11T02:39:56+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1218
+      "resonance": 0.5909
     },
     {
-      "id": "dfd32d9508",
-      "title": "Dolly Parton’s sister reveals ‘last thing’ country legend asked of her before death",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/dolly-partons-sister-reveals-last-thing-country-legend-asked-her-before-death",
-          "headline": "Dolly Parton’s sister reveals ‘last thing’ country legend asked of her before death",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-09-10T22:17:25+00:00",
-      "last_seen": "2026-09-10T22:17:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1183
-    },
-    {
-      "id": "04f7cf7d35",
-      "title": "Nike shareholders reject transparency proposal as faith-based firm questions DEI commitments",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/nike-shareholders-reject-transparency-proposal-faith-based-firm-questions-dei-commitments",
-          "headline": "Nike shareholders reject transparency proposal as faith-based firm questions DEI commitments",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-09-10T22:16:18+00:00",
-      "last_seen": "2026-09-10T22:16:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1166
-    },
-    {
-      "id": "d95434719b",
-      "title": "Boy developed \"toasted skin\" condition from using a laptop every day",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/health/2026/09/boy-developed-toasted-skin-condition-from-using-a-laptop-every-day/",
-          "headline": "Boy developed \"toasted skin\" condition from using a laptop every day",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T22:16:05+00:00",
-      "last_seen": "2026-09-10T22:16:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1162
-    },
-    {
-      "id": "7b3fa38d7b",
-      "title": "Fatwas, holy wars and socialism: Inside the Islamic conference where El-Sayed drew a hero’s welcome",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/fatwas-holy-wars-socialism-inside-islamic-conference-el-sayed-drew-heros-welcome",
-          "headline": "Fatwas, holy wars and socialism: Inside the Islamic conference where El-Sayed drew a hero’s welcome",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-09-10T22:15:22+00:00",
-      "last_seen": "2026-09-10T22:15:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1151
-    },
-    {
-      "id": "4e7a6b61f8",
-      "title": "Four killed and 60 injured in Russian strike on shopping centre, Ukraine says",
+      "id": "f0acd43e6b",
+      "title": "Putin and Xi in India for BRICS summit as Ukraine, Middle East wars loom",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/10-09-clip-russia-strike-pavlohrad-ua?traffic_source=rss",
-          "headline": "Russian strike hits shopping centre in central Ukraine",
+          "url": "https://www.aljazeera.com/news/2026/9/11/putin-lands-in-india-for-brics-summit-shadowed-by-iran-and-ukraine-wars?traffic_source=rss",
+          "headline": "Putin lands in India for BRICs summit, shadowed by Iran and Ukraine wars",
           "platform": "rss"
         },
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cpvelrmp1vmo?at_medium=RSS&at_campaign=rss",
-          "headline": "Four killed and 60 injured in Russian strike on shopping centre, Ukraine says",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/asia-pacific/20260911-putin-xi-india-brics-summit-ukraine-middle-east-wars",
+          "headline": "Putin and Xi in India for BRICS summit as Ukraine, Middle East wars loom",
           "platform": "rss"
         }
       ],
@@ -470,164 +96,92 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-09-10T18:41:06+00:00",
-      "last_seen": "2026-09-10T21:03:42+00:00",
+      "first_seen": "2026-09-11T02:08:34+00:00",
+      "last_seen": "2026-09-11T02:40:19+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1138
+      "resonance": 0.5879
     },
     {
-      "id": "ec7e9cb8e1",
-      "title": "Four-day week the answer to country town's staffing challenges",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-11/four-day-week-boyup-brook-success/107139692",
-          "headline": "Four-day week the answer to country town's staffing challenges",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T22:07:27+00:00",
-      "last_seen": "2026-09-10T22:07:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.103
-    },
-    {
-      "id": "5c132149fd",
-      "title": "Woolworths increased prices of at least four ‘family staples’ during ‘Price Freeze’ promotion",
-      "signal_count": 1,
+      "id": "527bc89b87",
+      "title": "Molly Ticehurst’s killer Daniel Billings sentenced to 28 years in jail for her murder",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/business/2026/sep/11/woolworths-hike-family-staples-during-price-freeze-promotion",
-          "headline": "Woolworths increased prices of at least four ‘family staples’ during ‘Price Freeze’ promotion",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/11/molly-ticehursts-killer-daniel-billings-sentenced-ntwnfb",
+          "headline": "Molly Ticehurst’s killer Daniel Billings sentenced to 28 years in jail for her murder",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-09-11/daniel-billings-sentenced-for-murder-of-molly-ticehurst/107137504",
+          "headline": "Molly Ticehurst's killer sentenced for 'absolutely terrifying' murder",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
+        "mean": -0.2,
+        "spread": 0.1,
         "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T22:05:29+00:00",
-      "last_seen": "2026-09-10T22:05:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1
-    },
-    {
-      "id": "cbfdd1b69f",
-      "title": "Maduro trial: ex-Venezuela first lady seeks release from US jail, citing heart problems",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/americas/article/3367109/maduro-trial-ex-venezuela-first-lady-seeks-release-us-jail-citing-heart-problems?utm_source=rss_feed",
-          "headline": "Maduro trial: ex-Venezuela first lady seeks release from US jail, citing heart problems",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-10T22:03:51+00:00",
-      "last_seen": "2026-09-10T22:03:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0975
-    },
-    {
-      "id": "b6fcdf0af6",
-      "title": "Gauhati High Court seeks clarity on rehab for evicted people in Assam",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/assam/gauhati-high-court-seeks-clarity-on-rehab-for-evicted-people-in-assam/article71450940.ece",
-          "headline": "Gauhati High Court seeks clarity on rehab for evicted people in Assam",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T22:02:12+00:00",
-      "last_seen": "2026-09-10T22:02:12+00:00",
+      "first_seen": "2026-09-11T01:39:41+00:00",
+      "last_seen": "2026-09-11T02:28:03+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.095
+      "resonance": 0.5482
     },
     {
-      "id": "2edae99983",
-      "title": "Tech, EV and aerospace executives likely to join Xi’s US trip to mirror Trump team",
-      "signal_count": 1,
+      "id": "6080416555",
+      "title": "Israeli film on Gaza receives 25-minute ovation at Venice premiere",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3367094/tech-ev-and-aerospace-executives-likely-join-xis-us-trip-mirror-trump-team?utm_source=rss_feed",
-          "headline": "Tech, EV and aerospace executives likely to join Xi’s US trip to mirror Trump team",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3367128/israeli-film-ai-backed-gaza-killings-gets-25-minute-venice-ovation?utm_source=rss_feed",
+          "headline": "Israeli film on AI-backed Gaza killings gets 25-minute Venice ovation",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/9/11/israeli-film-on-gaza-receives-25-minute-ovation-at-venice-premiere?traffic_source=rss",
+          "headline": "Israeli film on Gaza receives 25-minute ovation at Venice premiere",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
+        "mean": -0.05,
+        "spread": 0.15,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-09-10T22:00:09+00:00",
-      "last_seen": "2026-09-10T22:00:09+00:00",
+      "first_seen": "2026-09-11T00:14:59+00:00",
+      "last_seen": "2026-09-11T02:42:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.092
+      "resonance": 0.343
     },
     {
-      "id": "dd7cdf4e18",
-      "title": "The MAGA Movement Is Splintering Without Charlie Kirk",
+      "id": "37d8edc663",
+      "title": "Hormuz vessel transits fall to single digits",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/newsletters/2026/09/charlie-kirk-one-year-maga-movement/688588/?utm_source=feed",
-          "headline": "The MAGA Movement Is Splintering Without Charlie Kirk",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hormuz-vessel-transits-drop-single-digit",
+          "headline": "Hormuz vessel transits fall to single digits",
           "platform": "rss"
         }
       ],
@@ -638,52 +192,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-09-10T21:58:00+00:00",
-      "last_seen": "2026-09-10T21:58:00+00:00",
+      "first_seen": "2026-09-11T03:50:07+00:00",
+      "last_seen": "2026-09-11T03:50:07+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0888
+      "resonance": 0.28
     },
     {
-      "id": "248f8140b4",
-      "title": "Hobbyist Archaeologist Uncovers Finland’s Largest Viking-Age Coin Hoard",
+      "id": "6ffc993418",
+      "title": "BRICS Summit 2026 LIVE updates: PM Modi hopes for 'positive discussions with aspiration for global welfare' as world leaders gather",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/10/world/europe/viking-coin-find-finland.html",
-          "headline": "Hobbyist Archaeologist Uncovers Finland’s Largest Viking-Age Coin Hoard",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T21:55:24+00:00",
-      "last_seen": "2026-09-10T21:55:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0849
-    },
-    {
-      "id": "31a98a3b87",
-      "title": "MATES charity aims to prevent suicide in heavy industries",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-11/mates-tackles-suicide-prevention-in-heavy-industries/107138332",
-          "headline": "MATES charity aims to prevent suicide in heavy industries",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/brics-summit-india-world-leaders-in-new-delhi-key-agenda-live-updates-september-11-2026/article71454538.ece",
+          "headline": "BRICS Summit 2026 LIVE updates: PM Modi hopes for 'positive discussions with aspiration for global welfare' as world leaders gather",
           "platform": "rss"
         }
       ],
@@ -694,24 +220,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-10T21:53:10+00:00",
-      "last_seen": "2026-09-10T21:53:10+00:00",
+      "first_seen": "2026-09-11T03:48:24+00:00",
+      "last_seen": "2026-09-11T03:48:24+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0816
+      "topic": "world",
+      "resonance": 0.28
     },
     {
-      "id": "a410fd8c69",
-      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+      "id": "526be9cf88",
+      "title": "Jaishankar meets Prince Rahim Aga Khan V",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
-          "headline": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/jaishankar-meets-prince-rahim-aga-khan-v/article71454646.ece",
+          "headline": "Jaishankar meets Prince Rahim Aga Khan V",
           "platform": "rss"
         }
       ],
@@ -722,24 +248,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-10T21:51:59+00:00",
-      "last_seen": "2026-09-10T21:51:59+00:00",
+      "first_seen": "2026-09-11T03:46:14+00:00",
+      "last_seen": "2026-09-11T03:46:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0799
+      "resonance": 0.28
     },
     {
-      "id": "e1c671a3b2",
-      "title": "Australia news live: Marles says One Nation ‘traitor’ cartoon about Hastie is ‘tasteless’; Albanese marks 25 years since September 11",
+      "id": "ba2a74254c",
+      "title": "Australia news live: Victoria premier says NFL game shows state is ‘major events capital’; ASX set for worst week since US-Iran war began",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Guardian World",
           "url": "https://www.theguardian.com/australia-news/live/2026/sep/11/anthony-albanese-september-11-aged-care-labor-coalition-angus-taylor-one-nation-pauline-hanson-andrew-hastie-ntwnfb",
-          "headline": "Australia news live: Marles says One Nation ‘traitor’ cartoon about Hastie is ‘tasteless’; Albanese marks 25 years since September 11",
+          "headline": "Australia news live: Victoria premier says NFL game shows state is ‘major events capital’; ASX set for worst week since US-Iran war began",
           "platform": "rss"
         }
       ],
@@ -750,20 +276,82 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-09-10T21:51:02+00:00",
-      "last_seen": "2026-09-10T21:51:02+00:00",
+      "first_seen": "2026-09-11T03:45:35+00:00",
+      "last_seen": "2026-09-11T03:45:35+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0785
+      "topic": "conflict",
+      "resonance": 0.28
+    },
+    {
+      "id": "d98431a9b5",
+      "title": "Mini AC buses for all Namma Metro stations in Bengaluru for last-mile connectivity",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/mini-ac-buses-announced-for-all-metro-stations/article71443965.ece",
+          "headline": "Mini AC buses for all Namma Metro stations in Bengaluru for last-mile connectivity",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T03:44:46+00:00",
+      "last_seen": "2026-09-11T03:44:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.28
+    },
+    {
+      "id": "85982aba2f",
+      "title": "Arrests made at Ballarat bikie clubhouse over alleged botched arson attack",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-09-11/victoria-melton-arson-attack-ballarat-omcg-bandidos/107143230",
+          "headline": "Arrests made at Ballarat bikie clubhouse over alleged botched arson attack",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T03:44:29+00:00",
+      "last_seen": "2026-09-11T03:44:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.28
     },
     {
       "id": "5a9a0d201a",
       "title": "Israel destroys Hezbollah tunnel network in south Lebanon, triggering 4.1-magnitude tremor",
-      "signal_count": 1,
+      "signal_count": 2,
       "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3367135/israel-destroys-hezbollah-tunnel-network-south-lebanon-triggering-tremor?utm_source=rss_feed",
+          "headline": "Israel destroys Hezbollah tunnel network in Lebanon, triggering tremor",
+          "platform": "rss"
+        },
         {
           "outlet": "France 24",
           "url": "https://www.france24.com/en/middle-east/20260910-israel-hezbollah-tunnels-lebanon-earthquake",
@@ -772,58 +360,30 @@
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
+        "mean": 0.0,
+        "spread": 0.1,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
       "first_seen": "2026-09-10T21:50:24+00:00",
-      "last_seen": "2026-09-10T21:50:24+00:00",
+      "last_seen": "2026-09-11T03:19:12+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0776
+      "resonance": 0.2862
     },
     {
-      "id": "d99e7291e0",
-      "title": "Four-day Kashmir film festival sharpens spotlight on filmmakers’ destination, local storytellers",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/four-day-kashmir-film-festival-sharpens-spotlight-on-filmmakers-destination-local-storytellers/article71453064.ece",
-          "headline": "Four-day Kashmir film festival sharpens spotlight on filmmakers’ destination, local storytellers",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T21:49:34+00:00",
-      "last_seen": "2026-09-10T21:49:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0763
-    },
-    {
-      "id": "966ecc16e3",
-      "title": "Spain’s Parliament backs citizenship for Western Saharans born before 1977",
+      "id": "2a54b13bc2",
+      "title": "Republican midterm convention wraps up in Dallas, Texas: Key takeaways",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/9/10/spains-parliament-backs-citizenship-for-western-saharans-born-before-1977?traffic_source=rss",
-          "headline": "Spain’s Parliament backs citizenship for Western Saharans born before 1977",
+          "url": "https://www.aljazeera.com/news/2026/9/11/republican-midterm-convention-wraps-up-in-dallas-texas-key-takeaways?traffic_source=rss",
+          "headline": "Republican midterm convention wraps up in Dallas, Texas: Key takeaways",
           "platform": "rss"
         }
       ],
@@ -834,24 +394,120 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-10T21:47:14+00:00",
-      "last_seen": "2026-09-10T21:47:14+00:00",
+      "first_seen": "2026-09-11T03:33:08+00:00",
+      "last_seen": "2026-09-11T03:33:08+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.0729
+      "resonance": 0.28
     },
     {
-      "id": "3dab3ba84e",
-      "title": "Israeli strike in Gaza kills family of four, including children",
+      "id": "4441eb3c67",
+      "title": "Maduro's wife seeks release from detention, citing ill health",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/9/11/maduros-wife-seeks-home-detention-as-heart-condition-worsens-in-us-custody?traffic_source=rss",
+          "headline": "Maduro’s wife seeks home detention as heart condition worsens in US custody",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/09/11/maduro-s-wife-seeks-release-from-detention-citing-ill-health_6757400_4.html",
+          "headline": "Maduro's wife seeks release from detention, citing ill health",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/americas/article/3367109/maduro-trial-ex-venezuela-first-lady-seeks-release-us-jail-citing-heart-problems?utm_source=rss_feed",
+          "headline": "Maduro trial: ex-Venezuela first lady seeks release from US jail, citing heart problems",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.141,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-09-10T22:03:51+00:00",
+      "last_seen": "2026-09-11T01:07:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.275
+    },
+    {
+      "id": "88dbece235",
+      "title": "The Suica mascot campaign is getting weird … and wonderful",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/life/2026/09/11/digital/suica-mascot-race-jr/",
+          "headline": "The Suica mascot campaign is getting weird … and wonderful",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T03:30:00+00:00",
+      "last_seen": "2026-09-11T03:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2707
+    },
+    {
+      "id": "d9fe6e1373",
+      "title": "Vance makes plea to war-weary Republicans in keynote address",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-09-11/vance-makes-plea-to-war-weary-republicans-in-keynote-address/107141366",
+          "headline": "Vance makes plea to war-weary Republicans in keynote address",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T03:28:26+00:00",
+      "last_seen": "2026-09-11T03:28:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2653
+    },
+    {
+      "id": "29162adf86",
+      "title": "NYT: Vance sought ‘unvarnished’ views on Iran war directly from commanders",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-gaza-kills-family-four-including-children",
-          "headline": "Israeli strike in Gaza kills family of four, including children",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/nyt-vance-sought-unvarnished-views-iran-war-directly-commanders",
+          "headline": "NYT: Vance sought ‘unvarnished’ views on Iran war directly from commanders",
           "platform": "rss"
         }
       ],
@@ -862,24 +518,80 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-09-10T21:41:48+00:00",
-      "last_seen": "2026-09-10T21:41:48+00:00",
+      "first_seen": "2026-09-11T03:28:06+00:00",
+      "last_seen": "2026-09-11T03:28:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0651
+      "resonance": 0.2641
     },
     {
-      "id": "435c3c10e5",
-      "title": "China rebuts top US diplomat Marco Rubio over ‘Communist Party-backed projects’ in Peru",
+      "id": "95c2806c63",
+      "title": "Japan to promote AI-powered agriculture in Hokkaido with special zones",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/09/11/japan/hokkaido-agriculture-special-zones/",
+          "headline": "Japan to promote AI-powered agriculture in Hokkaido with special zones",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T03:27:00+00:00",
+      "last_seen": "2026-09-11T03:27:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2603
+    },
+    {
+      "id": "1ff76e1c64",
+      "title": "Taiwan vice president makes rare Europe visit for conference on democracy",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/9/11/taiwan-vice-president-makes-rare-europe-visit-for-conference-on-democracy?traffic_source=rss",
+          "headline": "Taiwan vice president makes rare Europe visit for conference on democracy",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T03:15:44+00:00",
+      "last_seen": "2026-09-11T03:15:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2222
+    },
+    {
+      "id": "9a76875d80",
+      "title": "Yuen Kee Food enters final stage of Hong Kong IPO after HKEX approval, sources say",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/us/article/3367108/china-rebuts-top-us-diplomat-marco-rubio-over-communist-party-backed-projects-peru?utm_source=rss_feed",
-          "headline": "China rebuts top US diplomat Marco Rubio over ‘Communist Party-backed projects’ in Peru",
+          "url": "https://www.scmp.com/business/banking-finance/article/3367133/yuen-kee-food-enters-final-stage-hong-kong-ipo-after-hkex-approval-sources-say?utm_source=rss_feed",
+          "headline": "Yuen Kee Food enters final stage of Hong Kong IPO after HKEX approval, sources say",
           "platform": "rss"
         }
       ],
@@ -890,108 +602,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-10T21:40:04+00:00",
-      "last_seen": "2026-09-10T21:40:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0626
-    },
-    {
-      "id": "719eeec8c7",
-      "title": "What Makes Tennis One of the Greatest Games",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/newsletters/2026/09/tenis-history-greatest-games-sport/688587/?utm_source=feed",
-          "headline": "What Makes Tennis One of the Greatest Games",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T21:40:00+00:00",
-      "last_seen": "2026-09-10T21:40:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0626
-    },
-    {
-      "id": "3da47912e1",
-      "title": "Saudi Arabia says it will take ‘all measures to deter Houthi attacks’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-says-it-will-take-all-measures-deter-houthi-attacks",
-          "headline": "Saudi Arabia says it will take ‘all measures to deter Houthi attacks’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T21:37:54+00:00",
-      "last_seen": "2026-09-10T21:37:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0596
-    },
-    {
-      "id": "63ff3c013b",
-      "title": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
-          "headline": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-10T21:35:00+00:00",
-      "last_seen": "2026-09-10T21:35:00+00:00",
+      "first_seen": "2026-09-11T03:12:21+00:00",
+      "last_seen": "2026-09-11T03:12:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0555
+      "resonance": 0.211
     },
     {
-      "id": "d1cfa8db4b",
-      "title": "Live: ASX set to fall as oil passes $US109 and bond yields surge",
+      "id": "4805c5b708",
+      "title": "American Jessica Pegula falls to top-ranked Aryna Sabalenka in straight sets in US Open semifinal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/american-jessica-pegula-falls-top-ranked-aryna-sabalenka-straight-sets-us-open-semifinal",
+          "headline": "American Jessica Pegula falls to top-ranked Aryna Sabalenka in straight sets in US Open semifinal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-09-11T03:10:31+00:00",
+      "last_seen": "2026-09-11T03:10:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2049
+    },
+    {
+      "id": "0f674f5207",
+      "title": "Breaking: Queensland's credit rating downgraded for first time since 2009",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-11/asx-markets-business-news-live-updates/107136846",
-          "headline": "Live: ASX set to fall as oil passes $US109 and bond yields surge",
+          "url": "https://www.abc.net.au/news/2026-09-11/queensland-credit-rating-downgraded/107143054",
+          "headline": "Breaking: Queensland's credit rating downgraded for first time since 2009",
           "platform": "rss"
         }
       ],
@@ -1002,24 +658,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-10T21:33:52+00:00",
-      "last_seen": "2026-09-10T21:33:52+00:00",
+      "first_seen": "2026-09-11T03:09:46+00:00",
+      "last_seen": "2026-09-11T03:09:46+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0539
+      "resonance": 0.2024
     },
     {
-      "id": "638b9b02c4",
-      "title": "LG defends smart-TV features amid audio surveillance allegations",
+      "id": "66e06ab4e5",
+      "title": "Spanish lawmakers back citizenship for Saharawis",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/9/10/lg-defends-smart-tv-features-amid-audio-surveillance-allegations?traffic_source=rss",
-          "headline": "LG defends smart-TV features amid audio surveillance allegations",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/spanish-lawmakers-back-citizenship-for-saharawis/a-79222841?maca=en-rss-en-all-1573-rdf",
+          "headline": "Spanish lawmakers back citizenship for Saharawis",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T03:09:00+00:00",
+      "last_seen": "2026-09-11T03:09:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1999
+    },
+    {
+      "id": "3f8cab2aa5",
+      "title": "The forgotten French prisoner of 9/11",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/09/11/the-forgotten-french-prisoner-of-9-11_6757404_4.html",
+          "headline": "The forgotten French prisoner of 9/11",
           "platform": "rss"
         }
       ],
@@ -1030,24 +714,170 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-10T21:33:28+00:00",
-      "last_seen": "2026-09-10T21:33:28+00:00",
+      "first_seen": "2026-09-11T03:00:12+00:00",
+      "last_seen": "2026-09-11T03:00:12+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0533
+      "resonance": 0.1713
     },
     {
-      "id": "3f3820f28e",
-      "title": "Peru joins US-led ‘Shield of the Americas’ security alliance",
+      "id": "f88060a6a5",
+      "title": "Israeli strike in Gaza kills family of four, including two children",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Euronews",
+          "url": "https://www.euronews.com/2026/09/11/israeli-strike-in-gaza-kills-family-of-four-including-two-children",
+          "headline": "Israeli strike in Gaza kills family of four, including two children",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-gaza-kills-family-four-including-children",
+          "headline": "Israeli strike in Gaza kills family of four, including children",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.175,
+        "spread": 0.075,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-10T21:41:48+00:00",
+      "last_seen": "2026-09-11T02:37:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1685
+    },
+    {
+      "id": "b6efe71861",
+      "title": "Hastie accepts apology from Joyce over ‘traitor’ cartoon as Hanson doubles down and tells critics to ‘chill’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/11/andrew-hastie-accepts-joyce-apology-traitor-cartoon-hanson-tells-critics-chill-ntwnfb",
+          "headline": "Hastie accepts apology from Joyce over ‘traitor’ cartoon as Hanson doubles down and tells critics to ‘chill’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T02:59:00+00:00",
+      "last_seen": "2026-09-11T02:59:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1674
+    },
+    {
+      "id": "5b568472d5",
+      "title": "Former U.S. President Bush remembers 9/11 through exhibit of his art",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/09/11/world/george-bush-us-911-art/",
+          "headline": "Former U.S. President Bush remembers 9/11 through exhibit of his art",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T02:58:00+00:00",
+      "last_seen": "2026-09-11T02:58:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1642
+    },
+    {
+      "id": "9f56e06d5d",
+      "title": "Iranian strikes damaged multiple aircraft at Jordan base, report says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-strikes-damaged-multiple-aircraft-jordan-base-report-says",
+          "headline": "Iranian strikes damaged multiple aircraft at Jordan base, report says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T02:51:13+00:00",
+      "last_seen": "2026-09-11T02:51:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1427
+    },
+    {
+      "id": "35c17f59ea",
+      "title": "Anthropic blocks 'malicious use' of AI that could develop biological weapons",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss",
+          "headline": "Anthropic blocks 'malicious use' of AI that could develop biological weapons",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T02:46:30+00:00",
+      "last_seen": "2026-09-11T02:46:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1279
+    },
+    {
+      "id": "c7cfc9465c",
+      "title": "Young republicans break with Trump over Iran war",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/9/10/peru-joins-us-led-shield-of-the-americas-security-alliance?traffic_source=rss",
-          "headline": "Peru joins US-led ‘Shield of the Americas’ security alliance",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/11/young-republicans-break-with-trump-over-iran-war?traffic_source=rss",
+          "headline": "Young republicans break with Trump over Iran war",
           "platform": "rss"
         }
       ],
@@ -1058,8 +888,148 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-10T21:31:06+00:00",
-      "last_seen": "2026-09-10T21:31:06+00:00",
+      "first_seen": "2026-09-11T02:45:52+00:00",
+      "last_seen": "2026-09-11T02:45:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1259
+    },
+    {
+      "id": "fd302af005",
+      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/09/11/anthropic-says-it-blocked-misuse-of-its-ai-that-could-have-supported-biological-weapons_6757403_4.html",
+          "headline": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T02:41:58+00:00",
+      "last_seen": "2026-09-11T02:41:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1138
+    },
+    {
+      "id": "985072b52d",
+      "title": "Tiananmen vigil leaders jailed up to 7 years, as group is fined HK$1.5 million",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3367127/hong-kong-vigil-leaders-jailed-7-years-group-fined-hk15-million?utm_source=rss_feed",
+          "headline": "Tiananmen vigil leaders jailed up to 7 years, as group is fined HK$1.5 million",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T02:31:34+00:00",
+      "last_seen": "2026-09-11T02:31:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0821
+    },
+    {
+      "id": "ea235e5a98",
+      "title": "Megan Rapinoe says women’s sports are facing ‘regression’ of ‘equal rights’ in new Kamala Harris interview",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/megan-rapinoe-says-womens-sports-are-facing-regression-of-equal-rights-in-new-kamala-harris-interview",
+          "headline": "Megan Rapinoe says women’s sports are facing ‘regression’ of ‘equal rights’ in new Kamala Harris interview",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-09-11T02:31:12+00:00",
+      "last_seen": "2026-09-11T02:31:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.081
+    },
+    {
+      "id": "9bf7f823c1",
+      "title": "Can John Lee untie the 4 knots choking the tech loop in Northern Metropolis?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/hong-kong/society/article/3367105/can-john-lee-untie-4-knots-choking-tech-loop-northern-metropolis?utm_source=rss_feed",
+          "headline": "Can John Lee untie the 4 knots choking the tech loop in Northern Metropolis?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T02:30:09+00:00",
+      "last_seen": "2026-09-11T02:30:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0778
+    },
+    {
+      "id": "af1f0af2a8",
+      "title": "Charlie Kirk supporters return to site of assassination 1 year later: ‘We are still standing’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/charlie-kirk-supporters-return-site-assassination-1-year-later-still-standing",
+          "headline": "Charlie Kirk supporters return to site of assassination 1 year later: ‘We are still standing’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-09-11T02:20:47+00:00",
+      "last_seen": "2026-09-11T02:20:47+00:00",
       "platforms": [
         "rss"
       ],
@@ -1070,39 +1040,57 @@
   ],
   "edges": [
     {
-      "source": "8fbbc8e6c3",
-      "target": "7cac07be74",
-      "weight": 0.402,
+      "source": "331a259e24",
+      "target": "9a76875d80",
+      "weight": 0.094,
       "type": "thematic"
     },
     {
-      "source": "cc202217c1",
-      "target": "4e7a6b61f8",
-      "weight": 0.0,
+      "source": "331a259e24",
+      "target": "985072b52d",
+      "weight": 0.3,
       "type": "thematic"
     },
     {
-      "source": "cc202217c1",
-      "target": "3dab3ba84e",
-      "weight": 0.015,
+      "source": "e2e5eb2552",
+      "target": "5b568472d5",
+      "weight": 0.134,
       "type": "thematic"
     },
     {
-      "source": "7cac07be74",
-      "target": "3da47912e1",
-      "weight": 0.178,
+      "source": "f0acd43e6b",
+      "target": "6ffc993418",
+      "weight": 0.018,
       "type": "thematic"
     },
     {
-      "source": "4e7a6b61f8",
-      "target": "3dab3ba84e",
-      "weight": 0.18,
+      "source": "6080416555",
+      "target": "f88060a6a5",
+      "weight": 0.254,
       "type": "thematic"
     },
     {
-      "source": "5c132149fd",
-      "target": "3dab3ba84e",
-      "weight": 0.065,
+      "source": "d9fe6e1373",
+      "target": "29162adf86",
+      "weight": 0.16,
+      "type": "thematic"
+    },
+    {
+      "source": "d9fe6e1373",
+      "target": "c7cfc9465c",
+      "weight": 0.333,
+      "type": "thematic"
+    },
+    {
+      "source": "29162adf86",
+      "target": "c7cfc9465c",
+      "weight": 0.204,
+      "type": "thematic"
+    },
+    {
+      "source": "35c17f59ea",
+      "target": "fd302af005",
+      "weight": 0.961,
       "type": "thematic"
     }
   ],
@@ -1129,7 +1117,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 10,
+      "count": 9,
       "error": null
     },
     "The Economist": {
@@ -1149,7 +1137,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 15,
+      "count": 13,
       "error": null
     },
     "The Atlantic": {

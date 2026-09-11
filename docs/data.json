@@ -1,17 +1,52 @@
 {
-  "generated_at": "2026-09-11T08:50:49.513836+00:00",
+  "generated_at": "2026-09-11T16:12:18.678619+00:00",
   "node_count": 35,
-  "edge_count": 8,
+  "edge_count": 5,
   "nodes": [
     {
-      "id": "dd2595d958",
-      "title": "Astra for Coding: Why Are We Doing This Again?",
+      "id": "9383f6e239",
+      "title": "Houthis Seize a Key Red Sea Island, Threatening Yet Another Global Oil Route",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
+          "headline": "Houthis Seize a Key Red Sea Island, Threatening Yet Another Global Oil Route",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.bbc.com/news/live/cmd683p01eljt",
+          "headline": "Houthis 'take control' of key island in global shipping route",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.15,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T13:41:38+00:00",
+      "last_seen": "2026-09-11T15:42:31+00:00",
+      "platforms": [
+        "rss",
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.8994
+    },
+    {
+      "id": "3ff8c01a1f",
+      "title": "Ask HN: Can we please limit the AI news flood?",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
-          "headline": "Astra for Coding: Why Are We Doing This Again?",
+          "url": "https://news.ycombinator.com/item?id=49657850",
+          "headline": "Ask HN: Can we please limit the AI news flood?",
           "platform": "hackernews"
         }
       ],
@@ -22,8 +57,8 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-11T06:23:06+00:00",
-      "last_seen": "2026-09-11T06:23:06+00:00",
+      "first_seen": "2026-09-11T13:11:04+00:00",
+      "last_seen": "2026-09-11T13:11:04+00:00",
       "platforms": [
         "hackernews"
       ],
@@ -32,892 +67,286 @@
       "resonance": 0.28
     },
     {
-      "id": "2344acc9a0",
-      "title": "Organizers of Hong Kong Vigils for Tiananmen Massacre Sentenced to Prison",
-      "signal_count": 8,
+      "id": "4a5d21c891",
+      "title": "Show HN: Hacker News, without AI",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/hong-kong-tiananmen-activists-sentenced-up-to-7-years/a-79224243?maca=en-rss-en-all-1573-rdf",
-          "headline": "Hong Kong Tiananmen activists sentenced up to 7 years",
+          "outlet": "Hacker News",
+          "url": "https://hcker.news/?ai=exclude",
+          "headline": "Show HN: Hacker News, without AI",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T15:01:19+00:00",
+      "last_seen": "2026-09-11T15:01:19+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.28
+    },
+    {
+      "id": "d22f076995",
+      "title": "If coding is solved, what now?: Measuring the sloppiness of code",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://earendil.com/posts/measuring-code-sloppiness/",
+          "headline": "If coding is solved, what now?: Measuring the sloppiness of code",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T13:42:28+00:00",
+      "last_seen": "2026-09-11T13:42:28+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.28
+    },
+    {
+      "id": "9a5680a2a9",
+      "title": "Brazil presidential candidate Flavio Bolsonaro targeted in corruption probe",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/americas/article/3367262/brazils-flavio-bolsonaro-under-investigation-over-alleged-corruption?utm_source=rss_feed",
+          "headline": "Brazil’s Flavio Bolsonaro under investigation over alleged corruption",
           "platform": "rss"
         },
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/9/11/hong-kong-court-hands-stiff-jail-sentences-to-tiananmen-vigil-activists?traffic_source=rss",
-          "headline": "Hong Kong court hands stiff jail sentences to Tiananmen vigil activists",
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/09/11/brazil-s-presidential-candidate-flavio-bolsonaro-targeted-in-corruption-probe_6757428_4.html",
+          "headline": "Brazil presidential candidate Flavio Bolsonaro targeted in corruption probe",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.15,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T15:11:19+00:00",
+      "last_seen": "2026-09-11T15:45:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2357
+    },
+    {
+      "id": "895bc40cf0",
+      "title": "Israel says it has destroyed major underground Hezbollah base",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&at_campaign=rss",
+          "headline": "Israel says it has destroyed major underground Hezbollah base",
           "platform": "rss"
         },
         {
           "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/11/world/asia/hong-kong-tiananman-vigil-prison-sentence.html",
-          "headline": "Organizers of Hong Kong Vigils for Tiananmen Massacre Sentenced to Prison",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/09/11/g-s1-142832/hong-kong-court-sentences-vigil-organizers",
-          "headline": "Hong Kong court sentences 3 Tiananmen vigil organizers to prison",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/11/hong-kong-court-sentences-tiananmen-vigil-activists-up-to-seven-years_6757405_4.html",
-          "headline": "Hong Kong court sentences Tiananmen vigil activists up to seven years",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/09/11/asia-pacific/hong-kong-tiananmen-activists-sentence/",
-          "headline": "Hong Kong hits Tiananmen vigil activists with yearslong jail sentences",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "https://www.euronews.com/2026/09/11/hong-kong-gives-tiananmen-vigil-activists-between-5-and-7-year",
-          "headline": "Hong Kong gives Tiananmen vigil activists between 5 and 7 year",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/asia-pacific/20260911-hong-kong-court-sentences-tiananmen-vigil-activists-to-between-5-and-7-years-in-jail",
-          "headline": "Hong Kong court sentences Tiananmen vigil activists to between 5 and 7 years in jail",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.144,
-        "spread": 0.085,
-        "left": 1,
-        "center": 7,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T01:49:17+00:00",
-      "last_seen": "2026-09-11T08:40:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.6696
-    },
-    {
-      "id": "24fb3e8837",
-      "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss",
-          "headline": "Anthropic blocks possible attempt to use AI to make biological weapons",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/9/11/anthropic-warns-of-bids-to-use-ai-to-build-biological-weapons?traffic_source=rss",
-          "headline": "Anthropic warns of bids to use AI to build biological weapons",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/11/anthropic-says-it-blocked-misuse-of-its-ai-that-could-have-supported-biological-weapons_6757403_4.html",
-          "headline": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.167,
-        "spread": 0.047,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T02:41:54+00:00",
-      "last_seen": "2026-09-11T08:15:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2904
-    },
-    {
-      "id": "b88ad60774",
-      "title": "Rybakina sets up blockbuster Sabalenka final at US Open",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/9/11/sabalenka-beats-pegula-to-set-up-rybakina-epic-in-us-open-final?traffic_source=rss",
-          "headline": "Sabalenka beats Pegula to set up Rybakina epic in US Open final",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cy9znnpnx5ro?at_medium=RSS&at_campaign=rss",
-          "headline": "Rybakina sets up blockbuster Sabalenka final at US Open",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/sports/2026/09/11/tennis/sabalenka-pegula-us-open/",
-          "headline": "‘Desperate’ Sabalenka books U.S. Open title clash with Rybakina",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.082,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T04:06:00+00:00",
-      "last_seen": "2026-09-11T04:56:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1949
-    },
-    {
-      "id": "cdc1408194",
-      "title": "‘The more, the better’: Hong Kong won’t cap talent scheme passes, labour chief says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367194/more-better-hong-kong-wont-cap-talent-scheme-passes-labour-chief-says?utm_source=rss_feed",
-          "headline": "‘The more, the better’: Hong Kong won’t cap talent scheme passes, labour chief says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:48:02+00:00",
-      "last_seen": "2026-09-11T08:48:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1916
-    },
-    {
-      "id": "b52d0acf86",
-      "title": "Being a renter, Jenny missed out on solar boon but that is about to change",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-11/balcony-solar-to-become-legal-in-australia/107144234",
-          "headline": "Being a renter, Jenny missed out on solar boon but that is about to change",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:46:43+00:00",
-      "last_seen": "2026-09-11T08:46:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "climate",
-      "resonance": 0.1896
-    },
-    {
-      "id": "bb58678a82",
-      "title": "Watch: Bangladesh to skip BRICS summit in New Delhi amid diplomatic strain with India",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/videos/watch-bangladesh-to-skip-brics-summit-in-new-delhi-amid-diplomatic-strain-with-india/article71455419.ece",
-          "headline": "Watch: Bangladesh to skip BRICS summit in New Delhi amid diplomatic strain with India",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:44:32+00:00",
-      "last_seen": "2026-09-11T08:44:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1863
-    },
-    {
-      "id": "3eaad0b7b9",
-      "title": "KPCC to seek reconciliation in Keralam MLA Ramya Haridas fracas row, warns workers against public feuds",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/kpcc-to-seek-reconciliation-in-mla-ramya-haridas-fracas-row-warns-workers-against-public-feuds/article71455342.ece",
-          "headline": "KPCC to seek reconciliation in Keralam MLA Ramya Haridas fracas row, warns workers against public feuds",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:43:33+00:00",
-      "last_seen": "2026-09-11T08:43:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1848
-    },
-    {
-      "id": "bbc6f626c6",
-      "title": "India stands in solidarity with efforts to combat terrorism: PM on 9/11 anniversary",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/india-stands-in-solidarity-with-efforts-to-combat-terrorism-pm-on-911-anniversary/article71455347.ece",
-          "headline": "India stands in solidarity with efforts to combat terrorism: PM on 9/11 anniversary",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:42:20+00:00",
-      "last_seen": "2026-09-11T08:42:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.183
-    },
-    {
-      "id": "9a3b0ce3bb",
-      "title": "Former Liberal candidate cautioned over LGBTQIA+ comments",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-11/thomas-brough-cautioned-over-lgbtqia-comments/107142520",
-          "headline": "Former Liberal candidate cautioned over LGBTQIA+ comments",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:31:17+00:00",
-      "last_seen": "2026-09-11T08:31:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1665
-    },
-    {
-      "id": "94693625b8",
-      "title": "MIKE PENCE: Remember the fallen — and the generation that defended America since 9/11",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/opinion/mike-pence-remember-fallen-generation-defended-america-since-9-11",
-          "headline": "MIKE PENCE: Remember the fallen — and the generation that defended America since 9/11",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-09-11T08:30:54+00:00",
-      "last_seen": "2026-09-11T08:30:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.166
-    },
-    {
-      "id": "77249cf4da",
-      "title": "What Ukraine has that Japan and Taiwan lack",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/opinion/world-opinion/article/3366882/what-ukraine-has-japan-and-taiwan-lack?utm_source=rss_feed",
-          "headline": "What Ukraine has that Japan and Taiwan lack",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:30:06+00:00",
-      "last_seen": "2026-09-11T08:30:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1648
-    },
-    {
-      "id": "26cdd60348",
-      "title": "Quake-hit Kumamoto Prefecture to offer travel discounts",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/09/11/japan/kumamoto-travel-discounts/",
-          "headline": "Quake-hit Kumamoto Prefecture to offer travel discounts",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:27:00+00:00",
-      "last_seen": "2026-09-11T08:27:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1603
-    },
-    {
-      "id": "a8024ec268",
-      "title": "Police use of force under review after 63yo woman pushed to ground",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-11/footage-shows-wa-police-pushing-indigenous-woman-to-ground/107142326",
-          "headline": "Police use of force under review after 63yo woman pushed to ground",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:25:31+00:00",
-      "last_seen": "2026-09-11T08:25:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1581
-    },
-    {
-      "id": "9614898063",
-      "title": "Pro-Palestine student suspended by King’s College London returns to campus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/9/11/pro-palestine-student-suspended-by-kings-college-london-returns-to-campus?traffic_source=rss",
-          "headline": "Pro-Palestine student suspended by King’s College London returns to campus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:22:02+00:00",
-      "last_seen": "2026-09-11T08:22:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1531
-    },
-    {
-      "id": "2527562675",
-      "title": "What did 25 years of the “war on terror” leave behind?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/9/11/what-did-25-years-of-the-war-on-terror-leave-behind?traffic_source=rss",
-          "headline": "What did 25 years of the “war on terror” leave behind?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:20:32+00:00",
-      "last_seen": "2026-09-11T08:20:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1509
-    },
-    {
-      "id": "ec40d25317",
-      "title": "Magyar vs. Moscow: Hungary's new tough stance toward Russia",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/magyar-vs-moscow-hungary-s-new-tough-stance-toward-russia/a-79223424?maca=en-rss-en-all-1573-rdf",
-          "headline": "Magyar vs. Moscow: Hungary's new tough stance toward Russia",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:20:00+00:00",
-      "last_seen": "2026-09-11T08:20:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1502
-    },
-    {
-      "id": "68eb2b3c6c",
-      "title": "How 9/11 helped Israel sell its war on Palestinians to America",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/opinions/2026/9/11/how-9-11-helped-israel-sell-its-war-on-palestinians-to?traffic_source=rss",
-          "headline": "How 9/11 helped Israel sell its war on Palestinians to America",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:18:18+00:00",
-      "last_seen": "2026-09-11T08:18:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1477
-    },
-    {
-      "id": "400091737b",
-      "title": "Philippines ferry fire: Search continues for dozens missing",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/philippines-ferry-fire-search-continues-for-dozens-missing/a-79223425?maca=en-rss-en-all-1573-rdf",
-          "headline": "Philippines ferry fire: Search continues for dozens missing",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:18:00+00:00",
-      "last_seen": "2026-09-11T08:18:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1473
-    },
-    {
-      "id": "5102ce5072",
-      "title": "U.S. women arrested over smuggling of $1 million worth of cannabis into Japan",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/09/11/japan/crime-legal/cannabis-us-women-arrest/",
-          "headline": "U.S. women arrested over smuggling of $1 million worth of cannabis into Japan",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:18:00+00:00",
-      "last_seen": "2026-09-11T08:18:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1473
-    },
-    {
-      "id": "3791bff1cd",
-      "title": "India news: Putin, Modi to hold talks ahead of BRICS Summit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/india-news-putin-modi-to-hold-talks-ahead-of-brics-summit/live-79224239?maca=en-rss-en-all-1573-rdf",
-          "headline": "India news: Putin, Modi to hold talks ahead of BRICS Summit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:17:00+00:00",
-      "last_seen": "2026-09-11T08:17:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1459
-    },
-    {
-      "id": "82e7747570",
-      "title": "At GOP convention, Vance keeps silent on Iran and positions himself as Democrats' chief rival",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/11/at-gop-convention-vance-keeps-silent-on-iran-and-positions-himself-as-democrats-chief-rival_6757410_4.html",
-          "headline": "At GOP convention, Vance keeps silent on Iran and positions himself as Democrats' chief rival",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:16:04+00:00",
-      "last_seen": "2026-09-11T08:16:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1446
-    },
-    {
-      "id": "7379e44ef8",
-      "title": "25 years after 9/11: 'Al-Qaida's trap was the long wars that helped bring Trump to power on the promise to end them'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/11/25-years-after-9-11-al-qaida-s-trap-was-the-long-wars-that-helped-bring-trump-to-power-on-the-promise-to-end-them_6757409_4.html",
-          "headline": "25 years after 9/11: 'Al-Qaida's trap was the long wars that helped bring Trump to power on the promise to end them'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:10:09+00:00",
-      "last_seen": "2026-09-11T08:10:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1363
-    },
-    {
-      "id": "3da2863f0a",
-      "title": "Sentiment turns positive among big Japanese firms in July-September",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/business/2026/09/11/economy/japan-big-firms-sentiment/",
-          "headline": "Sentiment turns positive among big Japanese firms in July-September",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:05:00+00:00",
-      "last_seen": "2026-09-11T08:05:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1291
-    },
-    {
-      "id": "6b79768584",
-      "title": "AI boom helps drive surprise UK growth in July",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq5xjlvn71lo?at_medium=RSS&at_campaign=rss",
-          "headline": "AI boom helps drive surprise UK growth in July",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:04:22+00:00",
-      "last_seen": "2026-09-11T08:04:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1282
-    },
-    {
-      "id": "072146d369",
-      "title": "Why AI experts are ‘freaked out’ over safety fears ahead of Xi-Trump summit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/tech/big-tech/article/3367163/why-ai-experts-are-freaked-out-over-safety-fears-ahead-xi-trump-summit?utm_source=rss_feed",
-          "headline": "Why AI experts are ‘freaked out’ over safety fears ahead of Xi-Trump summit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T08:00:10+00:00",
-      "last_seen": "2026-09-11T08:00:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1225
-    },
-    {
-      "id": "d36ef80bb3",
-      "title": "Trump admin's list of US-designated 'foreign terrorist' groups in Latin America expands to 21",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/trumps-list-us-designated-foreign-terrorist-groups-latin-america-expands-21",
-          "headline": "Trump admin's list of US-designated 'foreign terrorist' groups in Latin America expands to 21",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-09-11T07:48:00+00:00",
-      "last_seen": "2026-09-11T07:48:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1061
-    },
-    {
-      "id": "3431e22faa",
-      "title": "China, Iran among countries using AI to spy on dissidents and minorities, Anthropic says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/technology/20260911-anthropic-ai-surveillance-targeting-dissidents-china-iran-west-africa",
-          "headline": "China, Iran among countries using AI to spy on dissidents and minorities, Anthropic says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T07:35:20+00:00",
-      "last_seen": "2026-09-11T07:35:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0896
-    },
-    {
-      "id": "b96f0c96a5",
-      "title": "Why Houthi military gains in Yemen may further increase gas prices",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/09/11/nx-s1-5966379/houthi-gains-gas-prices",
-          "headline": "Why Houthi military gains in Yemen may further increase gas prices",
+          "url": "https://www.nytimes.com/2026/09/11/world/middleeast/blast-lebanon-israel-hezbollah-base.html",
+          "headline": "Israel Destroys Underground Hezbollah Base in Southern Lebanon",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
+        "spread": 0.15,
+        "left": 1,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-11T07:32:27+00:00",
-      "last_seen": "2026-09-11T07:32:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0859
-    },
-    {
-      "id": "d9402b7d40",
-      "title": "Bayeux Tapestry draws flocks in London seeking story 'etched in memory'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/culture/article/2026/09/11/bayeux-tapestry-draws-flocks-in-london-seeking-story-etched-in-memory_6757406_30.html",
-          "headline": "Bayeux Tapestry draws flocks in London seeking story 'etched in memory'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T07:21:12+00:00",
-      "last_seen": "2026-09-11T07:21:12+00:00",
+      "first_seen": "2026-09-11T14:20:30+00:00",
+      "last_seen": "2026-09-11T15:50:23+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0716
+      "resonance": 0.2006
     },
     {
-      "id": "1c091a06c6",
-      "title": "Romania's secret CIA prison: Two decades of denial and unanswered questions",
+      "id": "1a90ff4805",
+      "title": "Yemen: Houthis tighten control of strategic Red Sea towns",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/11/houthis-take-control-of-yemens-entire-red-sea-coast-reports-say?traffic_source=rss",
+          "headline": "Houthis take control of Yemen’s entire Red Sea coast, reports say",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260911-middle-east-live-trump-says-he-has-no-regrets-about-launching-war-on-iran",
+          "headline": "🔴Middle East live: Houthis seize entire Red Sea coast of Yemen",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/9/11/can-the-houthis-close-the-red-sea-after-seizing-the-yemen-coast?traffic_source=rss",
+          "headline": "Can the Houthis close the Red Sea after seizing the Yemen coast?",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/yemen-houthis-tighten-control-of-strategic-red-sea-towns/a-79220628?maca=en-rss-en-all-1573-rdf",
+          "headline": "Yemen: Houthis tighten control of strategic Red Sea towns",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T10:10:00+00:00",
+      "last_seen": "2026-09-11T15:34:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1713
+    },
+    {
+      "id": "b3b82d039f",
+      "title": "UK lawmakers reject bill to legalize assisted dying",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/health/article/2026/09/11/uk-lawmakers-reject-bill-to-legalize-assisted-dying_6757427_14.html",
+          "headline": "UK lawmakers reject bill to legalize assisted dying",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367258/uk-lawmakers-reject-bill-legalise-assisted-dying-england-and-wales?utm_source=rss_feed",
+          "headline": "UK lawmakers reject bill to legalise assisted dying in England and Wales",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.15,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T14:40:04+00:00",
+      "last_seen": "2026-09-11T14:57:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1713
+    },
+    {
+      "id": "2af5766c11",
+      "title": "BRICS Summit 2026: Putin, Modi reaffirm partnership",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/videos/watchmodi-meets-putin-pezeshkian-ahead-of-brics-summit-above-the-fold-sept-11-2026/article71457198.ece",
+          "headline": "Watch:Modi meets Putin, Pezeshkian ahead of BRICS Summit | Above the Fold | Sept 11, 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/brics-summit-2026-putin-modi-reaffirm-partnership/live-79224239?maca=en-rss-en-all-1573-rdf",
+          "headline": "BRICS Summit 2026: Putin, Modi reaffirm partnership",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T12:22:00+00:00",
+      "last_seen": "2026-09-11T15:51:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1216
+    },
+    {
+      "id": "00fe15d43d",
+      "title": "Philippines ferry fire death toll rises to 35 after bodies recovered",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/9/11/philippines-ferry-fire-death-toll-rises-to-35-after-bodies-recovered?traffic_source=rss",
+          "headline": "Philippines ferry fire death toll rises to 35 after bodies recovered",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3367240/philippine-rescuers-find-charred-remains-burned-ferry?utm_source=rss_feed",
+          "headline": "Death toll from Philippine ferry fire jumps to 35",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.15,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T11:41:45+00:00",
+      "last_seen": "2026-09-11T15:41:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0994
+    },
+    {
+      "id": "49ce742f09",
+      "title": "Israeli air strike hits Nabatieh al-Fawqa in southern Lebanon",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/romania-secret-cia-prison-two-decades-denial-and-unanswered-questions",
-          "headline": "Romania's secret CIA prison: Two decades of denial and unanswered questions",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strike-hits-nabatieh-al-fawqa-southern-lebanon",
+          "headline": "Israeli air strike hits Nabatieh al-Fawqa in southern Lebanon",
           "platform": "rss"
         }
       ],
@@ -928,193 +357,741 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-09-11T07:10:51+00:00",
-      "last_seen": "2026-09-11T07:10:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0589
-    },
-    {
-      "id": "66ac42ec0b",
-      "title": "War, sanctions and inflation leave Iran short of hundreds of medicines",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Euronews",
-          "url": "https://www.euronews.com/2026/09/11/war-sanctions-and-inflation-leave-iran-short-of-hundreds-of-medicines",
-          "headline": "War, sanctions and inflation leave Iran short of hundreds of medicines",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T07:10:46+00:00",
-      "last_seen": "2026-09-11T07:10:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0588
-    },
-    {
-      "id": "e59555a25d",
-      "title": "Henry Zeffman: How Burnham got ready to govern with four key moments mapped out",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqxvz2r1qg4o?at_medium=RSS&at_campaign=rss",
-          "headline": "Henry Zeffman: How Burnham got ready to govern with four key moments mapped out",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-11T07:09:24+00:00",
-      "last_seen": "2026-09-11T07:09:24+00:00",
+      "first_seen": "2026-09-11T16:07:01+00:00",
+      "last_seen": "2026-09-11T16:07:01+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0571
+      "resonance": 0.0899
     },
     {
-      "id": "00dd7c2d0f",
-      "title": "Iran-backed Houthi rebels seize strategic Red Sea port in Yemen",
-      "signal_count": 3,
+      "id": "bc20fba926",
+      "title": "‘Trishul’ strategy to help check drug menace, crimes and road accidents in A.P.",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/09/11/g-s1-142822/houthis-red-sea-port",
-          "headline": "Iran-backed Houthi rebels seize strategic Red Sea port in Yemen",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20260910-yemen-houthis-city-red-sea-iran",
-          "headline": "Yemen's Iran-backed Houthi rebels seize strategic Red Sea port city of Mocha",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/09/10/iranian-backed-houthis-fight-block-red-sea-passage-saudi-oil/",
-          "headline": "Houthi rebels take key Red Sea city in Yemen, as Iran’s wartime leverage grows",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/trishul-strategy-to-help-check-drug-menace-crimes-and-road-accidents-in-ap/article71457007.ece",
+          "headline": "‘Trishul’ strategy to help check drug menace, crimes and road accidents in A.P.",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.183,
-        "spread": 0.085,
-        "left": 1,
-        "center": 2,
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-10T21:12:01+00:00",
-      "last_seen": "2026-09-11T05:40:21+00:00",
+      "first_seen": "2026-09-11T16:05:22+00:00",
+      "last_seen": "2026-09-11T16:05:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.0879
+    },
+    {
+      "id": "f4c5aa90be",
+      "title": "Bumrah finds his rhythm against Sooryavanshi",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/cricket/bumrah-finds-his-rhythm-against-sooryavanshi/article71457366.ece",
+          "headline": "Bumrah finds his rhythm against Sooryavanshi",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T16:05:05+00:00",
+      "last_seen": "2026-09-11T16:05:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0875
+    },
+    {
+      "id": "d35335cfba",
+      "title": "Banking services hit as unions strike for five-day workweek",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/videos/banking-services-hit-as-unions-strike-for-five-day-workweek/article71457449.ece",
+          "headline": "Banking services hit as unions strike for five-day workweek",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T16:04:29+00:00",
+      "last_seen": "2026-09-11T16:04:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.0868
+    },
+    {
+      "id": "5e5db64183",
+      "title": "AOC’s ‘modern-day lynchings’ claim torn to shreds online as Black hanging case findings tell a different story",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/aoc-modern-day-lynchings-claim-torn-shreds-online-black-hanging-case-findings-tell-different-story",
+          "headline": "AOC’s ‘modern-day lynchings’ claim torn to shreds online as Black hanging case findings tell a different story",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-09-11T16:04:23+00:00",
+      "last_seen": "2026-09-11T16:04:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0867
+    },
+    {
+      "id": "678f948c82",
+      "title": "Microsoft’s head of comms is leaving after almost 20 years",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/news/993791/microsoft-frank-shaw-leaving-head-of-comms",
+          "headline": "Microsoft’s head of comms is leaving after almost 20 years",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T16:01:34+00:00",
+      "last_seen": "2026-09-11T16:01:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0833
+    },
+    {
+      "id": "e68b2b6384",
+      "title": "U.S. allies in Europe recall trans-Atlantic bonds after the 9/11 attacks.",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/09/11/nyregion/9-11-anniversary-25th/europe-us-allies-sept-11",
+          "headline": "U.S. allies in Europe recall trans-Atlantic bonds after the 9/11 attacks.",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T16:00:49+00:00",
+      "last_seen": "2026-09-11T16:00:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.057
+      "resonance": 0.0824
     },
     {
-      "id": "ee36b1355c",
-      "title": "Vance tries to label Democrats as 'party of hatred' as he seizes MAGA spotlight",
-      "signal_count": 2,
+      "id": "bf8e3ae1f3",
+      "title": "9/11 sent them to war. 25 years later, veterans grapple with what followed",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/americas/20260911-vance-tries-label-democrats-as-party-of-hatred-seizes-maga-spotlight",
-          "headline": "Vance tries to label Democrats as 'party of hatred' as he seizes MAGA spotlight",
-          "platform": "rss"
-        },
-        {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/vance-declares-democrats-party-hatred-says-party-has-moved-beyond-big-government-censorship",
-          "headline": "Vance declares Democrats ‘party of hatred,’ says party has moved beyond big government, censorship",
+          "url": "https://www.foxnews.com/politics/9-11-sent-them-war-25-years-later-veterans-grapple-what-followed",
+          "headline": "9/11 sent them to war. 25 years later, veterans grapple with what followed",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.25,
-        "spread": 0.35,
+        "mean": 0.6,
+        "spread": 0.0,
         "left": 0,
-        "center": 1,
+        "center": 0,
         "right": 1
       },
-      "first_seen": "2026-09-11T01:22:39+00:00",
-      "last_seen": "2026-09-11T06:45:36+00:00",
+      "first_seen": "2026-09-11T16:00:15+00:00",
+      "last_seen": "2026-09-11T16:00:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0817
+    },
+    {
+      "id": "1ce09ce5e2",
+      "title": "The L.A. Novelist Who Doesn’t Get Her Due",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/newsletters/2026/09/the-books-briefing-jackie-collins-la-novelist/688595/?utm_source=feed",
+          "headline": "The L.A. Novelist Who Doesn’t Get Her Due",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T16:00:00+00:00",
+      "last_seen": "2026-09-11T16:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0814
+    },
+    {
+      "id": "cc38be6eb8",
+      "title": "Roblox is making it easier to build games with AI — and play them outside Roblox",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/11/roblox-is-making-it-easier-to-build-games-with-ai-and-play-them-outside-roblox/",
+          "headline": "Roblox is making it easier to build games with AI — and play them outside Roblox",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T16:00:00+00:00",
+      "last_seen": "2026-09-11T16:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0814
+    },
+    {
+      "id": "a04c3e467f",
+      "title": "Ukraine: Russian strike on Kyiv gas station kills 2",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ukraine-russian-strike-on-kyiv-gas-station-kills-2/a-79238219?maca=en-rss-en-all-1573-rdf",
+          "headline": "Ukraine: Russian strike on Kyiv gas station kills 2",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T15:53:00+00:00",
+      "last_seen": "2026-09-11T15:53:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.073
+    },
+    {
+      "id": "deaa01b059",
+      "title": "Norway's Princess Astrid dies aged 94 two days after King's funeral",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-09-11/norway-princess-astrid-dies-aged-94/107145428",
+          "headline": "Norway's Princess Astrid dies aged 94 two days after King's funeral",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Sky News",
+          "url": "https://news.sky.com/story/norways-princess-astrid-dies-two-days-after-funeral-of-her-brother-the-late-king-harald-13584441",
+          "headline": "Norway's Princess Astrid dies two days after funeral of her brother, the late King Harald",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T13:22:00+00:00",
+      "last_seen": "2026-09-11T13:29:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0729
+    },
+    {
+      "id": "8f12c20058",
+      "title": "'Feels like yesterday': 9/11 victim's daughter says families still fighting for justice 25 years later",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/feels-like-yesterday-9-11-victims-daughter-says-families-still-fighting-justice-25-years-later",
+          "headline": "'Feels like yesterday': 9/11 victim's daughter says families still fighting for justice 25 years later",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-09-11T15:52:51+00:00",
+      "last_seen": "2026-09-11T15:52:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0728
+    },
+    {
+      "id": "cc74f5e938",
+      "title": "Sacked Grand Theft Auto worker claims Rockstar staff placed on 'watch list'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cjrx5xlz83jo?at_medium=RSS&at_campaign=rss",
+          "headline": "Sacked Grand Theft Auto worker claims Rockstar staff placed on 'watch list'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T15:52:19+00:00",
+      "last_seen": "2026-09-11T15:52:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0722
+    },
+    {
+      "id": "852426cb59",
+      "title": "Anthropic reveals hacker used Claude to target French far-right organizations",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/politics/article/2026/09/11/anthropic-reveals-hacker-used-claude-to-target-french-far-right-organizations_6757429_5.html",
+          "headline": "Anthropic reveals hacker used Claude to target French far-right organizations",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T15:50:44+00:00",
+      "last_seen": "2026-09-11T15:50:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0704
+    },
+    {
+      "id": "2bb38c448f",
+      "title": "Emma Bonino, Italian Campaigner for Civil Rights, Dies at 78",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/11/world/europe/emma-bonino-italian-campaigner-dies.html",
+          "headline": "Emma Bonino, Italian Campaigner for Civil Rights, Dies at 78",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T15:50:16+00:00",
+      "last_seen": "2026-09-11T15:50:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0698
+    },
+    {
+      "id": "f652f68e5f",
+      "title": "Trump pays tribute to the victims of 9/11 at Pentagon ceremony",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/11/trump-pays-tribute-to-the-victims-of-9-11-at-pentagon?traffic_source=rss",
+          "headline": "Trump pays tribute to the victims of 9/11 at Pentagon ceremony",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T15:45:46+00:00",
+      "last_seen": "2026-09-11T15:45:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0645
+    },
+    {
+      "id": "35fdf339c0",
+      "title": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/11/world/asia/brics-meeting-summit-delhi.html",
+          "headline": "Why Emerging Powers Keep Joining BRICS, Even When They Disagree",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T15:45:13+00:00",
+      "last_seen": "2026-09-11T15:45:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0639
+    },
+    {
+      "id": "2fac34df3c",
+      "title": "Meta may have leaked the first look at its slim &#8216;Project Phoenix&#8217; headset",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/994055/meta-project-phoenix-headset-leak",
+          "headline": "Meta may have leaked the first look at its slim &#8216;Project Phoenix&#8217; headset",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T15:38:31+00:00",
+      "last_seen": "2026-09-11T15:38:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0562
+    },
+    {
+      "id": "79b3fcc365",
+      "title": "Iran says Gulf states to meet in Oman to discuss safe Hormuz shipping routes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-gulf-states-meet-oman-discuss-safe-hormuz-shipping-routes",
+          "headline": "Iran says Gulf states to meet in Oman to discuss safe Hormuz shipping routes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T15:38:18+00:00",
+      "last_seen": "2026-09-11T15:38:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0559
+    },
+    {
+      "id": "cc0a3ab5b7",
+      "title": "Ryanair boss O'Leary defends 'high-fare rapists' airlines remarks",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c5yejw9pjjyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Ryanair boss O'Leary defends 'high-fare rapists' airlines remarks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T15:37:25+00:00",
+      "last_seen": "2026-09-11T15:37:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0549
+    },
+    {
+      "id": "7ad055c9fd",
+      "title": "As diseases loom, CDC's response to measles deaths stirs fears about agency's reliability",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/09/11/nx-s1-5950002/as-diseases-loom-cdcs-response-to-measles-deaths-stirs-fears-about-agencys-reliability",
+          "headline": "As diseases loom, CDC's response to measles deaths stirs fears about agency's reliability",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T15:34:51+00:00",
+      "last_seen": "2026-09-11T15:34:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.052
+    },
+    {
+      "id": "dc16568332",
+      "title": "Trump delivers remarks at Pentagon ceremony to mark 25th anniversary of 9/11",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260911-trump-delivers-remarks-at-pentagon-ceremony-to-mark-25th-anniversary-of-9-11",
+          "headline": "Trump delivers remarks at Pentagon ceremony to mark 25th anniversary of 9/11",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260911-replay-trump-speaks-at-9-11-25th-anniversary-ceremony-at-the-pentagon",
+          "headline": "REPLAY: Trump speaks at 9/11 25th anniversary ceremony at the Pentagon",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20260911-trump-commemorates-the-25th-anniversary-of-the-9-11-attacks-at-the-pentagon",
+          "headline": "Trump commemorates the 25th anniversary of the 9/11 attacks at the Pentagon",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T14:40:41+00:00",
+      "last_seen": "2026-09-11T15:29:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0501
+    },
+    {
+      "id": "fe8bbed981",
+      "title": "Four former US presidents mark 25th anniversary of 9/11 in New York City",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/11/four-former-us-presidents-mark-25th-anniversary-of-9-11-in-new-york?traffic_source=rss",
+          "headline": "Four former US presidents mark 25th anniversary of 9/11 in New York City",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T15:33:07+00:00",
+      "last_seen": "2026-09-11T15:33:07+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "resonance": 0.05
+    },
+    {
+      "id": "7bcdf66ac9",
+      "title": "Buddhist monk arrested in suspected $3m embezzlement scandal",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/sep/11/thai-police-arrest-buddhist-abbot-suspicion-embezzling",
+          "headline": "Buddhist monk arrested in Thailand on suspicion of embezzling $2.8m",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c5yjkxlngjyo?at_medium=RSS&at_campaign=rss",
+          "headline": "Buddhist monk arrested in suspected $3m embezzlement scandal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.15,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-11T10:50:04+00:00",
+      "last_seen": "2026-09-11T15:01:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "2344acc9a0",
-      "target": "cdc1408194",
-      "weight": 0.187,
+      "source": "9383f6e239",
+      "target": "1a90ff4805",
+      "weight": 0.435,
       "type": "thematic"
     },
     {
-      "source": "bb58678a82",
-      "target": "3791bff1cd",
-      "weight": 0.401,
+      "source": "3ff8c01a1f",
+      "target": "4a5d21c891",
+      "weight": 0.237,
       "type": "thematic"
     },
     {
-      "source": "77249cf4da",
-      "target": "5102ce5072",
-      "weight": 0.026,
+      "source": "4a5d21c891",
+      "target": "852426cb59",
+      "weight": 0.067,
       "type": "thematic"
     },
     {
-      "source": "2527562675",
-      "target": "68eb2b3c6c",
-      "weight": 0.07,
+      "source": "f652f68e5f",
+      "target": "dc16568332",
+      "weight": 0.937,
       "type": "thematic"
     },
     {
-      "source": "2527562675",
-      "target": "66ac42ec0b",
-      "weight": 0.565,
-      "type": "thematic"
-    },
-    {
-      "source": "3791bff1cd",
-      "target": "072146d369",
-      "weight": 0.254,
-      "type": "thematic"
-    },
-    {
-      "source": "82e7747570",
-      "target": "ee36b1355c",
-      "weight": 0.118,
-      "type": "thematic"
-    },
-    {
-      "source": "b96f0c96a5",
-      "target": "00dd7c2d0f",
-      "weight": 0.186,
+      "source": "dc16568332",
+      "target": "fe8bbed981",
+      "weight": 0.728,
       "type": "thematic"
     }
   ],
@@ -1141,7 +1118,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 9,
+      "count": 10,
       "error": null
     },
     "The Economist": {
@@ -1161,7 +1138,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 13,
+      "count": 14,
       "error": null
     },
     "The Atlantic": {

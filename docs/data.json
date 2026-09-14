@@ -1,17 +1,51 @@
 {
-  "generated_at": "2026-09-13T22:15:32.076529+00:00",
+  "generated_at": "2026-09-14T04:17:14.320182+00:00",
   "node_count": 35,
-  "edge_count": 5,
+  "edge_count": 2,
   "nodes": [
     {
-      "id": "96f0260704",
-      "title": "Claude Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "id": "e1223e73a7",
+      "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
+          "headline": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/russia-hits-ukrainian-train-shortly-after-boris-johnson-leaves-station?traffic_source=rss",
+          "headline": "Russia hits Ukrainian train shortly after Boris Johnson leaves station",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:37:12+00:00",
+      "last_seen": "2026-09-14T03:38:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.6432
+    },
+    {
+      "id": "aae76e60b6",
+      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
           "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-          "headline": "Claude Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+          "headline": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
           "platform": "hackernews"
         }
       ],
@@ -28,19 +62,155 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "tech",
+      "topic": "world",
       "resonance": 0.28
     },
     {
-      "id": "cbdae0ed0d",
-      "title": "Mark Zuckerberg: \"Cambridge Analytica\" (2017)",
+      "id": "f8aeaa67e2",
+      "title": "North Korea says its recent live-fire drill demonstrated 'huge destructive power'",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/north-korea-says-its-recent-live-fire-drill-demonstrated-huge-destructive-power/article71465327.ece",
+          "headline": "North Korea says its recent live-fire drill demonstrated 'huge destructive power'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/asia/east-asia/article/3367382/north-korea-tests-weapons-capable-striking-south-korea-huge-destructive-power?utm_source=rss_feed",
+          "headline": "North Korea tests weapons capable of striking South Korea: ‘huge destructive power’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T02:59:18+00:00",
+      "last_seen": "2026-09-14T03:07:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.5369
+    },
+    {
+      "id": "98b57f76ba",
+      "title": "Swedish left-wing bloc narrowly ahead with election too close to call",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/sweden-election-very-close-as-left-bloc-claims-tight-lead/a-79248599?maca=en-rss-en-all-1573-rdf",
+          "headline": "Sweden election 'very close' as left bloc claims tight lead",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss",
+          "headline": "Swedish left-wing bloc narrowly ahead with election too close to call",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/13/world/europe/sweden-election-sunday.html",
+          "headline": "Election in Sweden Is Too Close to Call",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/09/13/sweden-s-election-too-close-to-call-as-far-right-loses-ground_6757483_4.html",
+          "headline": "Sweden's election too close to call as far right loses ground",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.112,
+        "left": 1,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-09-13T21:16:11+00:00",
+      "last_seen": "2026-09-14T02:04:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.4329
+    },
+    {
+      "id": "76218c1426",
+      "title": "Peers to debate donations law changes after Reform's £72m windfall",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://twitter.com/TechEmails/status/2099214399840059428",
-          "headline": "Mark Zuckerberg: \"Cambridge Analytica\" (2017)",
-          "platform": "hackernews"
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cvgyjn9pdeeo?at_medium=RSS&at_campaign=rss",
+          "headline": "Peers to debate donations law changes after Reform's £72m windfall",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T04:15:41+00:00",
+      "last_seen": "2026-09-14T04:15:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.28
+    },
+    {
+      "id": "2fd88516fc",
+      "title": "Hong Kong Mark Six jackpot dispute, Brics finds common ground: 5 weekend reads you missed",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/article/3367380/hong-kong-mark-six-jackpot-dispute-brics-finds-common-ground-5-weekend-reads-you-missed?utm_source=rss_feed",
+          "headline": "Hong Kong Mark Six jackpot dispute, Brics finds common ground: 5 weekend reads you missed",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T04:15:08+00:00",
+      "last_seen": "2026-09-14T04:15:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.28
+    },
+    {
+      "id": "2d9246f48d",
+      "title": "The world Sept. 11 set in motion remains broken",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/commentary/2026/09/14/world/broken-world-sept-11-created/",
+          "headline": "The world Sept. 11 set in motion remains broken",
+          "platform": "rss"
         }
       ],
       "bias": {
@@ -50,14 +220,772 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-13T20:08:45+00:00",
-      "last_seen": "2026-09-13T20:08:45+00:00",
+      "first_seen": "2026-09-14T04:12:00+00:00",
+      "last_seen": "2026-09-14T04:12:00+00:00",
       "platforms": [
-        "hackernews"
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.28
+    },
+    {
+      "id": "d3344c4428",
+      "title": "Supermarket competition intensifies in Chugoku with Lopia’s advances",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/business/2026/09/14/companies/chugoku-supermarket-competition/",
+          "headline": "Supermarket competition intensifies in Chugoku with Lopia’s advances",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T04:11:00+00:00",
+      "last_seen": "2026-09-14T04:11:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.28
+    },
+    {
+      "id": "3fd7c54a27",
+      "title": "Israeli minister threatens to revoke filmmakers’ citizenship over Gaza film",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/9/14/israeli-minister-threatens-to-revoke-filmmakers-citizenship-over-gaza-film?traffic_source=rss",
+          "headline": "Israeli minister threatens to revoke filmmakers’ citizenship over Gaza film",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-minister-threatens-strip-gaza-film-directors-citizenship",
+          "headline": "Israeli minister threatens to strip Gaza film directors of citizenship",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.025,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-13T22:42:38+00:00",
+      "last_seen": "2026-09-14T03:50:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2839
+    },
+    {
+      "id": "fe30a3a43e",
+      "title": "Waterlogging, poor drainage have halted industrial activity in West Bengal Panihati municipality for months",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/west-bengal/waterlogging-poor-drainage-have-halted-industrial-activity-in-west-bengal-panihati-municipality-for-months/article71463821.ece",
+          "headline": "Waterlogging, poor drainage have halted industrial activity in West Bengal Panihati municipality for months",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T04:05:43+00:00",
+      "last_seen": "2026-09-14T04:05:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2732
+    },
+    {
+      "id": "98426d3bdb",
+      "title": "Only four vessels exit Hormuz over the weekend",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/only-four-vessels-exit-hormuz-over-weekend",
+          "headline": "Only four vessels exit Hormuz over the weekend",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T04:04:08+00:00",
+      "last_seen": "2026-09-14T04:04:08+00:00",
+      "platforms": [
+        "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.28
+      "resonance": 0.2679
+    },
+    {
+      "id": "a253614f0b",
+      "title": "Watch: Why a Russian strike on train near Ukraine-Poland border could mark an escalation",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/09/14/world/russia-ukraine-poland-diplomatic-train/",
+          "headline": "Russia hits train on Ukraine’s border with Poland, just missing ‘diplomatic train’",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/cx2z5gjj838o?at_medium=RSS&at_campaign=rss",
+          "headline": "Watch: Why a Russian strike on train near Ukraine-Poland border could mark an escalation",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/09/13/poland-ukraine-slam-russian-strikes-near-border-as-escalation_6757480_4.html",
+          "headline": "Poland, Ukraine slam Russian strikes near border as 'escalation'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260913-poland-ukraine-slam-russian-strikes-near-border-as-escalation",
+          "headline": "Ukraine, Poland condemn Russia after drone strikes train near border",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.071,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-09-13T17:59:11+00:00",
+      "last_seen": "2026-09-14T01:31:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.259
+    },
+    {
+      "id": "1a840d984f",
+      "title": "US-led Luzon corridor in Philippines faces growing scrutiny over real local benefits",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/week-asia/economics/article/3367385/us-led-luzon-corridor-philippines-faces-growing-scrutiny-over-real-local-benefits?utm_source=rss_feed",
+          "headline": "US-led Luzon corridor in Philippines faces growing scrutiny over real local benefits",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T04:00:13+00:00",
+      "last_seen": "2026-09-14T04:00:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2549
+    },
+    {
+      "id": "d4fa28d464",
+      "title": "Are Chinese students learning English just to ‘tell China’s story’?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/politics/article/3367366/are-chinese-students-learning-english-just-tell-chinas-story?utm_source=rss_feed",
+          "headline": "Are Chinese students learning English just to ‘tell China’s story’?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T04:00:10+00:00",
+      "last_seen": "2026-09-14T04:00:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2547
+    },
+    {
+      "id": "b6ac4758dd",
+      "title": "United States stalls Spanish investigation into Alejandro Betancourt, its new oil czar in Venezuela",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/international/2026-09-14/united-states-stalls-spanish-investigation-into-alejandro-betancourt-its-new-oil-czar-in-venezuela.html",
+          "headline": "United States stalls Spanish investigation into Alejandro Betancourt, its new oil czar in Venezuela",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T04:00:00+00:00",
+      "last_seen": "2026-09-14T04:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2542
+    },
+    {
+      "id": "825f8c034a",
+      "title": "John Harbaugh's Giants on full display in bruising win over Cowboys to kick off NFL season",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/john-harbaugh-giants-full-display-bruising-win-cowboys-kick-off-nfl-season",
+          "headline": "John Harbaugh's Giants on full display in bruising win over Cowboys to kick off NFL season",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-09-14T03:58:58+00:00",
+      "last_seen": "2026-09-14T03:58:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2508
+    },
+    {
+      "id": "380175e490",
+      "title": "Politics live: petrol prices set to rise ‘even higher’; Labor’s private health reform for over-65s condemned as ‘lazy’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/sep/14/australia-politics-live-question-time-electric-vehicles-auction-rates-housing-crisis-albanese-labor-coalition-one-nation-ntwnfb",
+          "headline": "Politics live: petrol prices set to rise ‘even higher’; Labor’s private health reform for over-65s condemned as ‘lazy’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:56:28+00:00",
+      "last_seen": "2026-09-14T03:56:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.2426
+    },
+    {
+      "id": "724c7d97cf",
+      "title": "Mas 'fulfils his destiny' to win historic Vuelta",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-09-14/enric-mas-wins-vuelta-a-espana/107150480",
+          "headline": "Mas 'fulfils his destiny' to win historic Vuelta",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:50:57+00:00",
+      "last_seen": "2026-09-14T03:50:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2247
+    },
+    {
+      "id": "d6eb3052f1",
+      "title": "Motorcyclist remembered as 'absolute legend' after Western Highway crash",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-09-14/peter-tiki-mason-remembered-after-pothole-death/107150334",
+          "headline": "Motorcyclist remembered as 'absolute legend' after Western Highway crash",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:50:51+00:00",
+      "last_seen": "2026-09-14T03:50:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2243
+    },
+    {
+      "id": "8b08ffd3b2",
+      "title": "Turkish authorities launch anti-LGBTQ raids, detaining dozens",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/9/14/turkish-authorities-launch-anti-lgbtq-raids-detaining-dozens?traffic_source=rss",
+          "headline": "Turkish authorities launch anti-LGBTQ raids, detaining dozens",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:47:00+00:00",
+      "last_seen": "2026-09-14T03:47:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.212
+    },
+    {
+      "id": "2b9a741e3f",
+      "title": "'Not a lot of fighting in Gaza': Trump praises Kushner, Witkoff",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/not-lot-fighting-gaza-trump-praises-kushner-witkoff",
+          "headline": "'Not a lot of fighting in Gaza': Trump praises Kushner, Witkoff",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:45:10+00:00",
+      "last_seen": "2026-09-14T03:45:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2061
+    },
+    {
+      "id": "52a39bd476",
+      "title": "MPSC exam ‚Äėpaper leaks‚Äô: CJP to join protesters demanding resignation of key officials",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/maharashtra/mpsc-exam-paper-leaks-cjp-to-join-protesters-demanding-resignation-of-key-officials/article71465356.ece",
+          "headline": "MPSC exam ‚Äėpaper leaks‚Äô: CJP to join protesters demanding resignation of key officials",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:41:00+00:00",
+      "last_seen": "2026-09-14T03:41:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.1929
+    },
+    {
+      "id": "8de02dd951",
+      "title": "Middle East live: Iran's nuclear chief not expected to attend IAEA General Conference, official says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20260914-middle-east-live-houthis-say-hit-saudi-base-after-renewed-fighting-with-yemeni-forces",
+          "headline": "Middle East live: Iran's nuclear chief not expected to attend IAEA General Conference, official says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:39:12+00:00",
+      "last_seen": "2026-09-14T03:39:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1873
+    },
+    {
+      "id": "55866e70f9",
+      "title": "Japanese PM-backed candidate wins Okinawa gubernatorial election",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/9/14/japanese-pm-backed-candidate-wins-okinawa-gubernatorial-election?traffic_source=rss",
+          "headline": "Japanese PM-backed candidate wins Okinawa gubernatorial election",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:38:56+00:00",
+      "last_seen": "2026-09-14T03:38:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1864
+    },
+    {
+      "id": "b633ca3216",
+      "title": "Trump says he will consider releasing 9/11 records after families request",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/trump-says-he-will-consider-releasing-911-records-after-families-request/article71465334.ece",
+          "headline": "Trump says he will consider releasing 9/11 records after families request",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3367375/trump-consider-releasing-9/11-records-after-families-request?utm_source=rss_feed",
+          "headline": "Trump to consider releasing 9/11 records after families’ request",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-09-13T21:01:21+00:00",
+      "last_seen": "2026-09-14T03:28:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.177
+    },
+    {
+      "id": "7aae71aba1",
+      "title": "9/11¬†report from¬†the ground:¬†Smoke, shock spread over New York",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/911report-fromthe-groundsmoke-shock-spread-over-new-york/article71445626.ece",
+          "headline": "9/11¬†report from¬†the ground:¬†Smoke, shock spread over New York",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:35:01+00:00",
+      "last_seen": "2026-09-14T03:35:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1742
+    },
+    {
+      "id": "6945c39bca",
+      "title": "Trump dismisses report China supplied intel to Iran",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/trump-dismisses-report-china-supplied-intel-to-iran/a-79254419?maca=en-rss-en-all-1573-rdf",
+          "headline": "Trump dismisses report China supplied intel to Iran",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:32:00+00:00",
+      "last_seen": "2026-09-14T03:32:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1648
+    },
+    {
+      "id": "c5b63a6f66",
+      "title": "US officer at heart of daring rescue inside Iran describes 'miracle' escape",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-09-14/dude-44-bravo-speaks-out-about-iranian-rescue/107149282",
+          "headline": "US officer at heart of daring rescue inside Iran describes 'miracle' escape",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:29:16+00:00",
+      "last_seen": "2026-09-14T03:29:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1564
+    },
+    {
+      "id": "0b50cafd1d",
+      "title": "Committee calls for bill to address AI threat to human rights",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwyzvgj70y4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Committee calls for bill to address AI threat to human rights",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:23:54+00:00",
+      "last_seen": "2026-09-14T03:23:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1401
+    },
+    {
+      "id": "7b067147bb",
+      "title": "Suppliers asked to install sensors in enclosed spaces with gas piping",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/09/14/japan/gas-alarms-schools-hospitals/",
+          "headline": "Suppliers asked to install sensors in enclosed spaces with gas piping",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:22:00+00:00",
+      "last_seen": "2026-09-14T03:22:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "resonance": 0.1343
+    },
+    {
+      "id": "8a0e0cf3ac",
+      "title": "Two Palestinians killed, 13 injured in Israeli strike on Gaza",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-palestinians-killed-13-injured-israeli-strike-gaza",
+          "headline": "Two Palestinians killed, 13 injured in Israeli strike on Gaza",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:11:38+00:00",
+      "last_seen": "2026-09-14T03:11:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1034
+    },
+    {
+      "id": "24e798a8f9",
+      "title": "Alan Jones told prominent athlete ‘I would like to be kissing you all night’ after alleged assault, trial hears",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/14/alan-jones-trial-athlete-witness-ntwnfb",
+          "headline": "Alan Jones told prominent athlete ‘I would like to be kissing you all night’ after alleged assault, trial hears",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-14T03:05:55+00:00",
+      "last_seen": "2026-09-14T03:05:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0867
+    },
+    {
+      "id": "769bde0e2c",
+      "title": "La Catalina ends Flammer's 1,128-day reign as AAA Reina de Reinas champion at Triplemania 34",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/la-catalina-ends-flammers-1128-day-reign-aaa-reina-de-reinas-champion-triplemania-34",
+          "headline": "La Catalina ends Flammer's 1,128-day reign as AAA Reina de Reinas champion at Triplemania 34",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-09-14T03:04:58+00:00",
+      "last_seen": "2026-09-14T03:04:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.084
     },
     {
       "id": "0a30b64552",
@@ -85,405 +1013,17 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.28
+      "resonance": 0.0617
     },
     {
-      "id": "13d0ae9449",
-      "title": "Poland, Ukraine slam Russian strikes near border as 'escalation'",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/9/13/poland-ukraine-accuse-russia-of-escalation-after-strikes-near-border?traffic_source=rss",
-          "headline": "Poland, Ukraine accuse Russia of ‘escalation’ after strikes near border",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/13/poland-ukraine-slam-russian-strikes-near-border-as-escalation_6757480_4.html",
-          "headline": "Poland, Ukraine slam Russian strikes near border as 'escalation'",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20260913-poland-ukraine-slam-russian-strikes-near-border-as-escalation",
-          "headline": "Ukraine, Poland condemn Russia after drone strikes train near border",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.167,
-        "spread": 0.047,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T17:59:11+00:00",
-      "last_seen": "2026-09-13T21:10:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2704
-    },
-    {
-      "id": "6c528e4600",
-      "title": "Asia Cup: Indian women's cricket team refuses to accept trophy from ACC head Mohsin Naqvi",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/9/13/india-win-womens-asia-cup-but-do-not-accept-trophy?traffic_source=rss",
-          "headline": "India win Women’s Asia Cup but do not accept trophy",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/cricket/asia-cup-indian-womens-cricket-team-refuses-to-accept-trophy-from-acc-head-mohsin-naqvi/article71464494.ece",
-          "headline": "Asia Cup: Indian women's cricket team refuses to accept trophy from ACC head Mohsin Naqvi",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T19:43:57+00:00",
-      "last_seen": "2026-09-13T20:41:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.234
-    },
-    {
-      "id": "6f322dec5a",
-      "title": "Talks between Iran and Gulf countries in Oman postponed ‘in the interests of consensus’",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/talks-between-iran-and-gulf-countries-in-oman-postponed-in-the-interests-of-consensus/article71464526.ece",
-          "headline": "Talks between Iran and Gulf countries in Oman postponed ‘in the interests of consensus’",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oman-meeting-between-gulf-states-and-iran-postponed-omani-foreign",
-          "headline": "Oman meeting between Gulf states and Iran postponed, Omani foreign minister says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.175,
-        "spread": 0.075,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T19:52:12+00:00",
-      "last_seen": "2026-09-13T20:23:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2042
-    },
-    {
-      "id": "50591f06bc",
-      "title": "Yemeni forces say they recaptured positions from Houthis in Taiz",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-forces-say-they-recaptured-positions-houthis-taiz",
-          "headline": "Yemeni forces say they recaptured positions from Houthis in Taiz",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T22:11:57+00:00",
-      "last_seen": "2026-09-13T22:11:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1534
-    },
-    {
-      "id": "365a42d1a0",
-      "title": "World Athletics stance on Russia ban unchanged: Sebastian Coe",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/athletics/world-athletics-stance-on-russia-ban-unchanged-sebastian-coe/article71464667.ece",
-          "headline": "World Athletics stance on Russia ban unchanged: Sebastian Coe",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T22:11:33+00:00",
-      "last_seen": "2026-09-13T22:11:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1527
-    },
-    {
-      "id": "7b09e4c072",
-      "title": "Working holiday visa pause leaves farms short as harvest season looms",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-14/working-holiday-visa-pause-leaves-farmers-short/107110194",
-          "headline": "Working holiday visa pause leaves farms short as harvest season looms",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T22:05:20+00:00",
-      "last_seen": "2026-09-13T22:05:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1425
-    },
-    {
-      "id": "9f4a958bfa",
-      "title": "Australia's 'incognito' nuclear reactor marks 20 years of innovation",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-14/ansto-opal-nuclear-reactor-celebrates-20-years/107132928",
-          "headline": "Australia's 'incognito' nuclear reactor marks 20 years of innovation",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T22:04:27+00:00",
-      "last_seen": "2026-09-13T22:04:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1411
-    },
-    {
-      "id": "73ea783ba4",
-      "title": "Breaking: Alexander Zverev wins second major crown without even realising",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-14/us-open-final-alexander-zverev-beats-ben-shelton/107135094",
-          "headline": "Breaking: Alexander Zverev wins second major crown without even realising",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T22:03:56+00:00",
-      "last_seen": "2026-09-13T22:03:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1402
-    },
-    {
-      "id": "8820854328",
-      "title": "Fighting in Yemen intensifies, Houthis launch more attacks on Saudi Arabia",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/fighting-in-yemen-intensifies-houthis-launch-more-attacks-on-saudi-arabia/article71464664.ece",
-          "headline": "Fighting in Yemen intensifies, Houthis launch more attacks on Saudi Arabia",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T22:03:54+00:00",
-      "last_seen": "2026-09-13T22:03:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1402
-    },
-    {
-      "id": "a9ec41b45d",
-      "title": "Germany's Zverev wins US Open in golden year",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/germany-s-zverev-wins-us-open-in-golden-year/a-79212706?maca=en-rss-en-all-1573-rdf",
-          "headline": "Germany's Zverev wins US Open in golden year",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T22:03:00+00:00",
-      "last_seen": "2026-09-13T22:03:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1387
-    },
-    {
-      "id": "4c0207b72b",
-      "title": "Politics live: One Nation reveals ‘net-negative’ migration policy; electrifying push for Australians to save $5,000 a year",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/live/2026/sep/14/australia-politics-live-question-time-electric-vehicles-auction-rates-housing-crisis-albanese-labor-coalition-one-nation-ntwnfb",
-          "headline": "Politics live: One Nation reveals ‘net-negative’ migration policy; electrifying push for Australians to save $5,000 a year",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T22:02:12+00:00",
-      "last_seen": "2026-09-13T22:02:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1374
-    },
-    {
-      "id": "9ba002c767",
-      "title": "Veteran investor Fang Fenglei on why the China ‘investibility’ debate is no debate at all",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/business/china-business/article/3367212/veteran-investor-fang-fenglei-why-china-investibility-debate-no-debate-all?utm_source=rss_feed",
-          "headline": "Veteran investor Fang Fenglei on why the China ‘investibility’ debate is no debate at all",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T22:00:12+00:00",
-      "last_seen": "2026-09-13T22:00:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1342
-    },
-    {
-      "id": "4b4b954f35",
-      "title": "Unvaccinated Pennsylvania woman died of measles complications, coroner says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/health/2026/09/unvaccinated-pennsylvania-woman-died-of-measles-complications-coroner-says/",
-          "headline": "Unvaccinated Pennsylvania woman died of measles complications, coroner says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:56:52+00:00",
-      "last_seen": "2026-09-13T21:56:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1288
-    },
-    {
-      "id": "a84028c165",
-      "title": "Trump unloads on AOC, Mamdani for laughing during sacred 9/11 ceremony at Ground Zero",
+      "id": "c4fa185d33",
+      "title": "Giants honor 9/11 heroes before emotional Sunday Night Football opener against Cowboys",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/trump-unloads-aoc-mamdani-laughing-during-sacred-9-11-ceremony-ground-zero",
-          "headline": "Trump unloads on AOC, Mamdani for laughing during sacred 9/11 ceremony at Ground Zero",
+          "url": "https://www.foxnews.com/outkick-sports/giants-honor-911-heroes-emotional-sunday-night-football-opener-against-cowboys",
+          "headline": "Giants honor 9/11 heroes before emotional Sunday Night Football opener against Cowboys",
           "platform": "rss"
         }
       ],
@@ -494,561 +1034,27 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-09-13T21:54:35+00:00",
-      "last_seen": "2026-09-13T21:54:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1252
-    },
-    {
-      "id": "a5be695a37",
-      "title": "Kyler Murray knocked out of Vikings debut after forearm to the helmet and blow to neck by two Packers",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/kyler-murray-knocked-out-vikings-debut-forearm-helmet-blow-neck-packers",
-          "headline": "Kyler Murray knocked out of Vikings debut after forearm to the helmet and blow to neck by two Packers",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-09-13T21:48:39+00:00",
-      "last_seen": "2026-09-13T21:48:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1158
-    },
-    {
-      "id": "01a0d8ed54",
-      "title": "Great to see someone like Shafali take responsibility: Harmanpreet on Asia Cup victory",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/sport/cricket/great-to-see-someone-like-shafali-take-responsibility-harmanpreet-on-asia-cup-victory/article71464659.ece",
-          "headline": "Great to see someone like Shafali take responsibility: Harmanpreet on Asia Cup victory",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:48:11+00:00",
-      "last_seen": "2026-09-13T21:48:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1151
-    },
-    {
-      "id": "60db88d464",
-      "title": "US beats spirited France to win 12th women's basketball World Cup",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/9/13/usa-defeat-france-to-win-12th-fiba-womens-basketball-world-cup?traffic_source=rss",
-          "headline": "USA defeat France to win 12th FIBA Women’s Basketball World Cup",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/sport/20260913-us-beats-spirited-france-to-win-12th-women-s-basketball-world-cup",
-          "headline": "US beats spirited France to win 12th women's basketball World Cup",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T16:29:10+00:00",
-      "last_seen": "2026-09-13T21:12:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.0967
-    },
-    {
-      "id": "eca258d54a",
-      "title": "Lions avoid franchise-worst collapse as defense stops Saints two-point conversion in OT",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/lions-avoid-franchise-worst-collapse-defense-stops-saints-two-point-conversion-ot",
-          "headline": "Lions avoid franchise-worst collapse as defense stops Saints two-point conversion in OT",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-09-13T21:34:55+00:00",
-      "last_seen": "2026-09-13T21:34:55+00:00",
+      "first_seen": "2026-09-14T02:53:05+00:00",
+      "last_seen": "2026-09-14T02:53:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0946
-    },
-    {
-      "id": "b795f48920",
-      "title": "Russian Strikes on Ukraine Hits Near David Petraeus, ex-C.I.A. Chief",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/13/world/europe/ukraine-petraeus-russian-strike.html",
-          "headline": "Russian Strikes on Ukraine Hits Near David Petraeus, ex-C.I.A. Chief",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:34:48+00:00",
-      "last_seen": "2026-09-13T21:34:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0944
-    },
-    {
-      "id": "c25e0dd220",
-      "title": "Explosions reported in Iran’s Hormozgan province",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-reported-irans-hormozgan-province",
-          "headline": "Explosions reported in Iran’s Hormozgan province",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:33:40+00:00",
-      "last_seen": "2026-09-13T21:33:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0927
-    },
-    {
-      "id": "6acbbcbf01",
-      "title": "Uganda buries one-time ‘boy king’ whose death has sparked a succession battle",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/africa/article/3367376/uganda-buries-one-time-boy-king-whose-death-has-sparked-succession-battle?utm_source=rss_feed",
-          "headline": "Uganda buries one-time ‘boy king’ whose death has sparked a succession battle",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:30:47+00:00",
-      "last_seen": "2026-09-13T21:30:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0883
-    },
-    {
-      "id": "5b60761074",
-      "title": "Deep-fried food banned under new school dinner rules in England",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cy4zrepw78eo?at_medium=RSS&at_campaign=rss",
-          "headline": "Deep-fried food banned under new school dinner rules in England",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:30:29+00:00",
-      "last_seen": "2026-09-13T21:30:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0879
-    },
-    {
-      "id": "e65f2de2f5",
-      "title": "'Culture shift' needed in how UK does business, PM urges",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/clyl18x4734o?at_medium=RSS&at_campaign=rss",
-          "headline": "'Culture shift' needed in how UK does business, PM urges",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:30:21+00:00",
-      "last_seen": "2026-09-13T21:30:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0877
-    },
-    {
-      "id": "d2611372ff",
-      "title": "Will Hong Kong’s educators learn from sliding Pisa results?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3367209/will-hong-kongs-educators-learn-sliding-pisa-results?utm_source=rss_feed",
-          "headline": "Will Hong Kong’s educators learn from sliding Pisa results?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:30:07+00:00",
-      "last_seen": "2026-09-13T21:30:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0873
-    },
-    {
-      "id": "b0263f289d",
-      "title": "Insight Partners’ Devin Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
-          "headline": "Insight Partners’ Devin Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:30:00+00:00",
-      "last_seen": "2026-09-13T21:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0872
-    },
-    {
-      "id": "ab09c25d45",
-      "title": "Houthis say Saudi Arabia launched over 50 strikes against them in 24 hours",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-arabia-launched-over-50-strikes-against-them-24-hours",
-          "headline": "Houthis say Saudi Arabia launched over 50 strikes against them in 24 hours",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:26:31+00:00",
-      "last_seen": "2026-09-13T21:26:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.082
-    },
-    {
-      "id": "9bd9089c1f",
-      "title": "Nearly 86,000 people flee fighting in Yemen, UN says",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/nearly-86000-people-flee-fighting-yemen-un-says",
-          "headline": "Nearly 86,000 people flee fighting in Yemen, UN says",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/nearly-86000-people-flee-fighting-yemen-un-says",
-          "headline": "Nearly 86,000 people flee fighting in Yemen, UN says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:03:54+00:00",
-      "last_seen": "2026-09-13T21:20:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0753
-    },
-    {
-      "id": "5bf0dc35f0",
-      "title": "A third person has died of measles in the US, health officials say",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/9/13/a-third-person-has-died-of-measles-in-the-us-health-officials-say?traffic_source=rss",
-          "headline": "A third person has died of measles in the US, health officials say",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:21:32+00:00",
-      "last_seen": "2026-09-13T21:21:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.0746
-    },
-    {
-      "id": "4cb1e74b19",
-      "title": "The 'authenticity' of Celine Dion: 'She appeals to the Boomers and the Zoomers'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/tv-shows/spotlight/20260913-the-authenticity-of-celine-dion-she-appeals-to-the-boomers-and-the-zoomers",
-          "headline": "The 'authenticity' of Celine Dion: 'She appeals to the Boomers and the Zoomers'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:18:29+00:00",
-      "last_seen": "2026-09-13T21:18:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0701
-    },
-    {
-      "id": "043f354a80",
-      "title": "Swedish party blocs tied after Sunday vote, projections say",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss",
-          "headline": "Swedish party blocs tied after Sunday vote, projections say",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:17:15+00:00",
-      "last_seen": "2026-09-13T21:17:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0683
-    },
-    {
-      "id": "8d40724ef1",
-      "title": "Sweden's election too close to call as far right loses ground",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/13/sweden-s-election-too-close-to-call-as-far-right-loses-ground_6757483_4.html",
-          "headline": "Sweden's election too close to call as far right loses ground",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:16:13+00:00",
-      "last_seen": "2026-09-13T21:16:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0668
-    },
-    {
-      "id": "8a64d7b708",
-      "title": "First ministers of Wales, Scotland and Northern Ireland to meet in Cardiff",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c62enegxyl9o?at_medium=RSS&at_campaign=rss",
-          "headline": "First ministers of Wales, Scotland and Northern Ireland to meet in Cardiff",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-13T21:04:31+00:00",
-      "last_seen": "2026-09-13T21:04:31+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "6c528e4600",
-      "target": "60db88d464",
-      "weight": 0.023,
+      "source": "3fd7c54a27",
+      "target": "8a0e0cf3ac",
+      "weight": 0.34,
       "type": "thematic"
     },
     {
-      "source": "73ea783ba4",
-      "target": "a9ec41b45d",
-      "weight": 0.362,
-      "type": "thematic"
-    },
-    {
-      "source": "8820854328",
-      "target": "ab09c25d45",
-      "weight": 0.677,
-      "type": "thematic"
-    },
-    {
-      "source": "8820854328",
-      "target": "9bd9089c1f",
-      "weight": 0.439,
-      "type": "thematic"
-    },
-    {
-      "source": "4b4b954f35",
-      "target": "5bf0dc35f0",
-      "weight": 0.442,
+      "source": "825f8c034a",
+      "target": "c4fa185d33",
+      "weight": 0.053,
       "type": "thematic"
     }
   ],
@@ -1095,7 +1101,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 11,
+      "count": 10,
       "error": null
     },
     "The Atlantic": {

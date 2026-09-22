@@ -1,8 +1,36 @@
 {
-  "generated_at": "2026-09-22T19:39:01.398642+00:00",
+  "generated_at": "2026-09-22T22:49:37.013390+00:00",
   "node_count": 35,
-  "edge_count": 6,
+  "edge_count": 12,
   "nodes": [
+    {
+      "id": "9a480a21df",
+      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://foxscript.org/",
+          "headline": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T21:00:30+00:00",
+      "last_seen": "2026-09-22T21:00:30+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.28
+    },
     {
       "id": "c784929c09",
       "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
@@ -36,17 +64,17 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.8453
+      "resonance": 0.7041
     },
     {
-      "id": "c218068231",
-      "title": "Pentagon: Palantir AI Overreliance Led to Strike Killing 123 Iranian Children",
+      "id": "52cbc30301",
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://gizmodo.com/pentagon-investigators-say-overreliance-on-palantir-ai-tech-contributed-to-u-s-strike-that-killed-123-iranian-children-2000814477",
-          "headline": "Pentagon: Palantir AI Overreliance Led to Strike Killing 123 Iranian Children",
+          "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+          "headline": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
           "platform": "hackernews"
         }
       ],
@@ -63,7 +91,7 @@
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "tech",
+      "topic": "conflict",
       "resonance": 0.28
     },
     {
@@ -98,17 +126,17 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.6643
+      "resonance": 0.5094
     },
     {
-      "id": "bb4e04b80d",
-      "title": "There's a high chance of devices being sold with GrapheneOS preinstalled in 2027",
+      "id": "e362e78855",
+      "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://grapheneos.social/@GrapheneOS/117299954135808210",
-          "headline": "There's a high chance of devices being sold with GrapheneOS preinstalled in 2027",
+          "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+          "headline": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
           "platform": "hackernews"
         }
       ],
@@ -119,200 +147,76 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-22T17:12:51+00:00",
-      "last_seen": "2026-09-22T17:12:51+00:00",
+      "first_seen": "2026-09-22T17:46:02+00:00",
+      "last_seen": "2026-09-22T17:46:02+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "tech",
       "resonance": 0.28
     },
     {
-      "id": "dfc66e67d0",
-      "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
-      "signal_count": 1,
+      "id": "f484a6d86d",
+      "title": "Zelensky says Ukraine is ready for an energy ceasefire with Russia",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
-          "headline": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
-          "platform": "hackernews"
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3368442/zelensky-meets-trump-says-ukraine-ready-energy-truce-russia?utm_source=rss_feed",
+          "headline": "Zelensky meets Trump, says Ukraine ready for energy truce with Russia",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20260922-zelensky-says-ukraine-is-ready-for-an-energy-ceasefire-with-russia",
+          "headline": "Zelensky says Ukraine is ready for an energy ceasefire with Russia",
+          "platform": "rss"
         }
       ],
       "bias": {
         "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T14:30:12+00:00",
-      "last_seen": "2026-09-22T14:30:12+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.28
-    },
-    {
-      "id": "1897230fba",
-      "title": "Man charged over Rwanda genocide in first for U.K.",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/what-led-to-the-1994-tutsi-genocide-in-rwanda?traffic_source=rss",
-          "headline": "What led to the 1994 Tutsi Genocide in Rwanda",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/09/22/man-charged-over-rwanda-genocide-first-uk/",
-          "headline": "Man charged over Rwanda genocide in first for U.K.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.05,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:06:53+00:00",
-      "last_seen": "2026-09-22T19:17:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.256
-    },
-    {
-      "id": "b879b38b3b",
-      "title": "Ukraine anger as EU removes Russian oligarchs from sanctions list",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c6dj4k98107do?at_medium=RSS&at_campaign=rss",
-          "headline": "Ukraine anger as EU removes Russian oligarchs from sanctions list",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-23/brk-eu-sanctions-lifted-on-oligarchs/107183784",
-          "headline": "EU to lift sanctions on two Russian oligarchs",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/09/22/usmanov-and-fridman-two-oligarchs-close-to-putin-are-exempted-from-eu-sanctions_6757821_4.html",
-          "headline": "EU removes two oligarchs reputedly close to Putin from sanctions list",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.082,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T15:28:57+00:00",
-      "last_seen": "2026-09-22T19:06:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.22
-    },
-    {
-      "id": "e70fddbea1",
-      "title": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/22/world/asia/sri-lanka-convictions-easter-2019-bomb-attacks.html",
-          "headline": "Sri Lanka Convicts 15 in Easter 2019 Bomb Attacks",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/features/2026/9/22/fifteen-guilty-in-2019-sri-lanka-easter-bombings-what-the-verdict-says?traffic_source=rss",
-          "headline": "Fifteen guilty in 2019 Sri Lanka Easter bombings: What the verdict says",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cqy7z275yx65o?at_medium=RSS&at_campaign=rss",
-          "headline": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.167,
-        "spread": 0.125,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T14:03:20+00:00",
-      "last_seen": "2026-09-22T19:14:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1992
-    },
-    {
-      "id": "350599906c",
-      "title": "Apple is reportedly working on a Whoop-like fitness tracker",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/22/apple-could-take-on-whoop-with-a-new-fitness-tracker-report-says/",
-          "headline": "Apple could take on Whoop with a new fitness tracker, report says",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/998902/apple-whoop-fitness-tracker",
-          "headline": "Apple is reportedly working on a Whoop-like fitness tracker",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
+        "spread": 0.1,
         "left": 0,
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-09-22T17:04:52+00:00",
-      "last_seen": "2026-09-22T19:27:57+00:00",
+      "first_seen": "2026-09-22T21:38:04+00:00",
+      "last_seen": "2026-09-22T22:34:24+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1731
+      "resonance": 0.3765
     },
     {
-      "id": "f96a53f956",
-      "title": "Trump pledges to open new Arctic military bases as he signs Greenland deal",
-      "signal_count": 2,
+      "id": "6b6792ad9f",
+      "title": "US to build two military bases in Greenland under new deal with Denmark",
+      "signal_count": 5,
       "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+          "headline": "US to build two military bases in Greenland under new deal with Denmark",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/us-signs-tremendous-security-deal-with-denmark-and-greenland?traffic_source=rss",
+          "headline": "US signs ‘tremendous’ security deal with Denmark and Greenland",
+          "platform": "rss"
+        },
         {
           "outlet": "Al Jazeera English",
           "url": "https://www.aljazeera.com/news/2026/9/22/us-signs-tremendous-arctic-security-deal-with-denmark-greenland?traffic_source=rss",
           "headline": "US signs ‘tremendous’ Arctic security deal with Denmark, Greenland",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/09/22/trump-signs-security-deal-with-leaders-of-greenland-denmark-at-the-un_6757826_4.html",
+          "headline": "Trump signs Greenland security deal at the UN",
           "platform": "rss"
         },
         {
@@ -323,54 +227,588 @@
         }
       ],
       "bias": {
+        "mean": -0.18,
+        "spread": 0.098,
+        "left": 1,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T17:18:23+00:00",
+      "last_seen": "2026-09-22T21:36:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.3286
+    },
+    {
+      "id": "86054d1f7c",
+      "title": "Takaichi and Trump discuss China ahead of Xi visit to U.S.",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/09/23/japan/politics/us-japan-trump-takaichi-un-meeting/",
+          "headline": "Takaichi and Trump discuss China ahead of Xi visit to U.S.",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/us/diplomacy/article/3368439/trump-praises-takaichi-doing-tremendous-job-ahead-xis-visit-us?utm_source=rss_feed",
+          "headline": "Trump praises Takaichi for doing ‘tremendous job’ ahead of Xi’s visit to US",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T19:31:34+00:00",
+      "last_seen": "2026-09-22T22:17:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1911
+    },
+    {
+      "id": "b80416701f",
+      "title": "U.S. and Iran had ‘very good meeting’ over ongoing war, Trump says",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/trump-us-iran-meeting-at-un-was-very?traffic_source=rss",
+          "headline": "Trump: US-Iran meeting at UN was ‘very good’",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/09/22/us-iran-had-very-good-meeting-over-ongoing-war-trump-says/",
+          "headline": "U.S. and Iran had ‘very good meeting’ over ongoing war, Trump says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
         "mean": -0.25,
         "spread": 0.05,
         "left": 1,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-22T17:18:23+00:00",
-      "last_seen": "2026-09-22T18:46:32+00:00",
+      "first_seen": "2026-09-22T19:30:00+00:00",
+      "last_seen": "2026-09-22T20:23:48+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1676
+      "resonance": 0.1414
     },
     {
-      "id": "6b6792ad9f",
-      "title": "US to build two military bases in Greenland under new deal with Denmark",
-      "signal_count": 2,
+      "id": "812c8ba433",
+      "title": "Missouri mom who put newborn in oven instead of crib learns fate as murder charge dropped",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
-          "headline": "US to build two military bases in Greenland under new deal with Denmark",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-signs-security-deal-build-two-military-bases-greenland",
-          "headline": "US signs security deal to build two military bases in Greenland",
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/missouri-mom-put-newborn-oven-instead-crib-learns-fate-murder-charge-dropped",
+          "headline": "Missouri mom who put newborn in oven instead of crib learns fate as murder charge dropped",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.125,
-        "spread": 0.125,
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-09-22T22:46:57+00:00",
+      "last_seen": "2026-09-22T22:46:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1403
+    },
+    {
+      "id": "d4b5a15e93",
+      "title": "Bodycam footage captures moments after ICE shooting of Venezuelan migrant in Austin",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/us/bodycam-footage-captures-moments-after-ice-shooting-venezuelan-migrant-austin",
+          "headline": "Bodycam footage captures moments after ICE shooting of Venezuelan migrant in Austin",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-09-22T22:42:04+00:00",
+      "last_seen": "2026-09-22T22:42:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1315
+    },
+    {
+      "id": "d0c4d6618b",
+      "title": "Australia news live: Bragg defends his rogue super proposal as ‘not controversial’; ABC watchdog criticises Four Corners",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/sep/23/anthony-albanese-un-assembly-ai-social-media-labor-coalition-abc-four-corners-ntwnfb",
+          "headline": "Australia news live: Bragg defends his rogue super proposal as ‘not controversial’; ABC watchdog criticises Four Corners",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
         "left": 1,
-        "center": 1,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-09-22T17:04:02+00:00",
-      "last_seen": "2026-09-22T18:43:29+00:00",
+      "first_seen": "2026-09-22T22:40:06+00:00",
+      "last_seen": "2026-09-22T22:40:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1279
+    },
+    {
+      "id": "a70030408a",
+      "title": "U.N. Live Updates: As Trump Threatens Iran, Other Leaders Warn of Deep Divisions",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
+          "headline": "U.N. Live Updates: As Trump Threatens Iran, Other Leaders Warn of Deep Divisions",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T22:39:25+00:00",
+      "last_seen": "2026-09-22T22:39:25+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1495
+      "resonance": 0.1267
+    },
+    {
+      "id": "0e506f2aaf",
+      "title": "Record sheep prices see farmers turn crop paddocks over to stock",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/rural/2026-09-23/record-sheep-prices-have-farmers-running-more-stock/107165564",
+          "headline": "Record sheep prices see farmers turn crop paddocks over to stock",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T22:38:00+00:00",
+      "last_seen": "2026-09-22T22:38:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.1242
+    },
+    {
+      "id": "57798dde98",
+      "title": "Florida woman reaches plea deal after months behind bars for allegedly having drugs fall out of 'jail purse'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-culture/florida-woman-reaches-plea-deal-months-behind-bars-allegedly-drugs-fall-jail-purse",
+          "headline": "Florida woman reaches plea deal after months behind bars for allegedly having drugs fall out of 'jail purse'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-09-22T22:37:53+00:00",
+      "last_seen": "2026-09-22T22:37:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.124
+    },
+    {
+      "id": "a7d0caec6b",
+      "title": "Macron urges world to 'stand firm' against 'abuse of power by empires' in final UN speech",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/macron-urges-countries-stand-firm-face-abuse-power",
+          "headline": "Macron urges countries to 'stand firm' in face of 'abuse of power'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/france/20260922-macron-urges-world-stand-firm-against-abuse-of-power-by-empires-final-un-speech",
+          "headline": "Macron urges world to 'stand firm' against 'abuse of power by empires' in final UN speech",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.175,
+        "spread": 0.075,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T20:08:28+00:00",
+      "last_seen": "2026-09-22T20:13:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.12
+    },
+    {
+      "id": "40a4193f98",
+      "title": "Booker Prize shortlist announced; Marlon James and Douglas Stuart have chance to become 5th multiple winner",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/books/booker-prize-shortlist-announced-marlon-james-and-douglas-stuart-have-chance-to-become-5th-multiple-winner/article71497351.ece",
+          "headline": "Booker Prize shortlist announced; Marlon James and Douglas Stuart have chance to become 5th multiple winner",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T22:34:31+00:00",
+      "last_seen": "2026-09-22T22:34:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.118
+    },
+    {
+      "id": "d2994d011b",
+      "title": "Trump threatens to 'annihilate' Iran in UN speech as officials meet on sidelines",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump threatens to 'annihilate' Iran in UN speech as officials meet on sidelines",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/usa/2026-09-22/trump-threatens-to-annihilate-iran-in-un-speech-with-electoral-slant.html",
+          "headline": "Trump threatens to ‘annihilate’ Iran in UN speech with electoral slant",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T18:19:15+00:00",
+      "last_seen": "2026-09-22T21:50:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1148
+    },
+    {
+      "id": "1132c1cea4",
+      "title": "Japan’s leader aims to highlight her country’s push for a more pivotal global role.",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news/japans-leader-aims-to-highlight-her-countrys-push-for-a-more-pivotal-global-role",
+          "headline": "Japan’s leader aims to highlight her country’s push for a more pivotal global role.",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T22:26:09+00:00",
+      "last_seen": "2026-09-22T22:26:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1034
+    },
+    {
+      "id": "f84d3dd3f1",
+      "title": "Paramount will need to release way more movies to make this merger work",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/entertainment/999056/paramount-warner-bros-discovery-merger-annual-film-quota-guardrails",
+          "headline": "Paramount will need to release way more movies to make this merger work",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T22:26:07+00:00",
+      "last_seen": "2026-09-22T22:26:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1033
+    },
+    {
+      "id": "a46a67af9c",
+      "title": "Trump Threatens Annihilation in Iran in UN Speech and Lays Out Winner-Takes-All Vision",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/22/us/politics/un-trump-speech-iran-venezuela-greenland.html",
+          "headline": "Trump Threatens Annihilation in Iran in UN Speech and Lays Out Winner-Takes-All Vision",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T22:24:28+00:00",
+      "last_seen": "2026-09-22T22:24:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1005
+    },
+    {
+      "id": "8505eeada7",
+      "title": "Trump says he can do business with Burnham but criticises 'terrible' Chagos deal",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq2dwye3r7k4o?at_medium=RSS&at_campaign=rss",
+          "headline": "Trump says he can do business with Burnham but criticises 'terrible' Chagos deal",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368438/trump-criticises-uks-chagos-deal-says-new-british-pm-burnham-will-reconsider?utm_source=rss_feed",
+          "headline": "Trump criticises UK’s Chagos deal, says new British PM Burnham will reconsider",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T18:36:30+00:00",
+      "last_seen": "2026-09-22T21:22:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0979
+    },
+    {
+      "id": "e70fddbea1",
+      "title": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7z275yx65o?at_medium=RSS&at_campaign=rss",
+          "headline": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/09/22/world/asia/sri-lanka-convictions-easter-2019-bomb-attacks.html",
+          "headline": "Sri Lanka Convicts 15 in Easter 2019 Bomb Attacks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.15,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T19:14:00+00:00",
+      "last_seen": "2026-09-22T19:47:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0849
+    },
+    {
+      "id": "e984d2f3ba",
+      "title": "Taylor distances himself from Bragg’s proposal to let homebuyers use super as collateral for mortgages",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/22/angus-taylor-andrew-bragg-first-home-buyers-use-super-offset",
+          "headline": "Taylor distances himself from Bragg’s proposal to let homebuyers use super as collateral for mortgages",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T22:11:39+00:00",
+      "last_seen": "2026-09-22T22:11:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0788
+    },
+    {
+      "id": "c4027bf12f",
+      "title": "Explosion heard near Iran’s Qeshm Island",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosion-heard-near-irans-qeshm-island",
+          "headline": "Explosion heard near Iran’s Qeshm Island",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T22:10:34+00:00",
+      "last_seen": "2026-09-22T22:10:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0769
+    },
+    {
+      "id": "d5b7af7baa",
+      "title": "Celebrities at the Pentagon: How unusual was the Paul brothers’ visit?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/economy/2026/9/22/celebrities-at-the-pentagon-how-unusual-was-the-paul-brothers-visit?traffic_source=rss",
+          "headline": "Celebrities at the Pentagon: How unusual was the Paul brothers’ visit?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T22:10:25+00:00",
+      "last_seen": "2026-09-22T22:10:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0767
     },
     {
       "id": "fea8147aa1",
@@ -378,9 +816,9 @@
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-23/influencer-clavicular-charged-with-rape-and-drugging-woman/107183740",
-          "headline": "Influencer 'Clavicular' charged with rape and drugging woman for sex",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368441/looksmaxxing-influencer-clavicular-charged-raping-us-girl-17?utm_source=rss_feed",
+          "headline": "‘Looksmaxxing’ influencer Clavicular charged with raping US girl, 17",
           "platform": "rss"
         },
         {
@@ -391,300 +829,58 @@
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
+        "mean": 0.0,
+        "spread": 0.1,
         "left": 0,
         "center": 2,
         "right": 0
       },
       "first_seen": "2026-09-22T16:45:14+00:00",
-      "last_seen": "2026-09-22T18:54:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1358
-    },
-    {
-      "id": "79face9765",
-      "title": "Autopsy shows Hayden Panettiere died from a drug overdose",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368436/hayden-panettiere-died-accidental-overdose-involving-fentanyl-coroner-says?utm_source=rss_feed",
-          "headline": "Hayden Panettiere died from accidental overdose involving fentanyl, coroner says",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-23/hayden-panettiere-died-from-accidental-overdose-says-coroner/107183742",
-          "headline": "Hayden Panettiere died from accidental overdose of Fentanyl and other drugs",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/crn45d8dd2wdo?at_medium=RSS&at_campaign=rss",
-          "headline": "Autopsy shows Hayden Panettiere died from a drug overdose",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.082,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T15:17:37+00:00",
-      "last_seen": "2026-09-22T17:10:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1275
-    },
-    {
-      "id": "6ad8ed50ec",
-      "title": "Papua New Guinea police bust alleged human-trafficking ring",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-23/png-police-bust-alleged-human-trafficking-ring/107183426",
-          "headline": "Papua New Guinea police bust alleged human-trafficking ring",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:37:10+00:00",
-      "last_seen": "2026-09-22T19:37:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.0882
-    },
-    {
-      "id": "b0a3b749a2",
-      "title": "Federal judge temporarily blocks deportation of illegal immigrant shot by ICE in Austin, attorney says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/federal-judge-temporarily-blocks-deportation-illegal-immigrant-shot-ice-austin-attorney-says",
-          "headline": "Federal judge temporarily blocks deportation of illegal immigrant shot by ICE in Austin, attorney says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-09-22T19:36:32+00:00",
-      "last_seen": "2026-09-22T19:36:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0873
-    },
-    {
-      "id": "f284185c86",
-      "title": "Scammers impersonate church ministers in nationwide gift card scam",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-23/scammers-target-churches-in-gift-card-scam/107180832",
-          "headline": "Scammers impersonate church ministers in nationwide gift card scam",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:36:13+00:00",
-      "last_seen": "2026-09-22T19:36:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0869
-    },
-    {
-      "id": "3b9e49bd20",
-      "title": "Kristi Noem takes heat after bagging a massive elk & Keely Hodgkinson's sexy new speedsuit is a talker",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/kristi-noem-takes-heat-bagging-massive-elk-keely-hodgkinson-sexy-new-speedsuit-talker",
-          "headline": "Kristi Noem takes heat after bagging a massive elk & Keely Hodgkinson's sexy new speedsuit is a talker",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-09-22T19:35:07+00:00",
-      "last_seen": "2026-09-22T19:35:07+00:00",
+      "last_seen": "2026-09-22T21:50:12+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0854
+      "resonance": 0.0759
     },
     {
-      "id": "5db73dd99c",
-      "title": "Victories by far left and far right show Germans sick of politics as usual",
+      "id": "0387a364dc",
+      "title": "US Republican calls for probe into Donald Trump Jr’s business dealings",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/09/22/victories-by-far-left-far-right-show-germans-sick-politics-usual/",
-          "headline": "Victories by far left and far right show Germans sick of politics as usual",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:34:15+00:00",
-      "last_seen": "2026-09-22T19:34:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0841
-    },
-    {
-      "id": "dc98f35b77",
-      "title": "U.N. Live Updates: Trump Says He Faces Choice to Make a Deal or ‘Annihilate’ Iran",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
-          "headline": "U.N. Live Updates: Trump Says He Faces Choice to Make a Deal or ‘Annihilate’ Iran",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:33:42+00:00",
-      "last_seen": "2026-09-22T19:33:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0834
-    },
-    {
-      "id": "be3ed4324d",
-      "title": "L-G Taranjit Singh Sandhu orders women-centric patrol unit in Delhi; seeks intensified action against harassment",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Delhi/l-g-taranjit-singh-sandhu-orders-women-centric-patrol-unit-in-delhi-seeks-intensified-action-against-harassment/article71496642.ece",
-          "headline": "L-G Taranjit Singh Sandhu orders women-centric patrol unit in Delhi; seeks intensified action against harassment",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:32:27+00:00",
-      "last_seen": "2026-09-22T19:32:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0816
-    },
-    {
-      "id": "bbe7b440fa",
-      "title": "Earl Spencer should pull Diana book from shelves, Piers Morgan says",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cr93e2nz0281o?at_medium=RSS&at_campaign=rss",
-          "headline": "Earl Spencer should pull Diana book from shelves, Piers Morgan says",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/09/22/world/europe/diana-earl-spencer-book.html",
-          "headline": "Earl Spencer Book Blasts Diana’s Treatment by UK Royal Family",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/9/22/us-republican-calls-for-probe-into-donald-trump-jrs-business-dealings?traffic_source=rss",
+          "headline": "US Republican calls for probe into Donald Trump Jr’s business dealings",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.2,
-        "spread": 0.1,
-        "left": 1,
+        "spread": 0.0,
+        "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-22T16:12:39+00:00",
-      "last_seen": "2026-09-22T17:50:13+00:00",
+      "first_seen": "2026-09-22T22:07:50+00:00",
+      "last_seen": "2026-09-22T22:07:50+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.0812
+      "topic": "politics",
+      "resonance": 0.0724
     },
     {
-      "id": "93e1aa3a7d",
-      "title": "FACT foundation day observed; CPI alleges bid to glorify C.P. Ramaswamy Iyer",
+      "id": "2457e87b57",
+      "title": "Macron urges world to choose UN over ‘law of the jungle’",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/fact-foundation-day-observed-cpi-alleges-bid-to-glorify-cp-ramaswamy-iyer/article71496727.ece",
-          "headline": "FACT foundation day observed; CPI alleges bid to glorify C.P. Ramaswamy Iyer",
+          "url": "https://www.thehindu.com/news/international/macron-urges-world-to-choose-un-over-law-of-the-jungle/article71497347.ece",
+          "headline": "Macron urges world to choose UN over ‘law of the jungle’",
           "platform": "rss"
         }
       ],
@@ -695,192 +891,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-22T19:32:10+00:00",
-      "last_seen": "2026-09-22T19:32:10+00:00",
+      "first_seen": "2026-09-22T22:05:57+00:00",
+      "last_seen": "2026-09-22T22:05:57+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0812
+      "topic": "politics",
+      "resonance": 0.0693
     },
     {
-      "id": "19674864aa",
-      "title": "Bryan Kohberger didn't understand what he was doing when he pleaded guilty: unsealed memo",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/bryan-kohberger-didnt-understand-what-he-was-doing-when-he-pleaded-guilty-unsealed-memo",
-          "headline": "Bryan Kohberger didn't understand what he was doing when he pleaded guilty: unsealed memo",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-09-22T19:32:06+00:00",
-      "last_seen": "2026-09-22T19:32:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0811
-    },
-    {
-      "id": "7ec7b6680a",
-      "title": "Safety concerns at Astha Kunj Park not new, say south-east Delhi residents; DDA reviewing security",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Delhi/safety-concerns-at-astha-kunj-park-not-new-say-south-east-delhi-residents-dda-reviewing-security/article71497176.ece",
-          "headline": "Safety concerns at Astha Kunj Park not new, say south-east Delhi residents; DDA reviewing security",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:32:06+00:00",
-      "last_seen": "2026-09-22T19:32:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0811
-    },
-    {
-      "id": "a99f7d9c48",
-      "title": "Trump praises Takaichi for doing ‘tremendous job’ ahead of Xi’s visit to US",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/us/diplomacy/article/3368439/trump-praises-takaichi-doing-tremendous-job-ahead-xis-visit-us?utm_source=rss_feed",
-          "headline": "Trump praises Takaichi for doing ‘tremendous job’ ahead of Xi’s visit to US",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:31:34+00:00",
-      "last_seen": "2026-09-22T19:31:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0804
-    },
-    {
-      "id": "b80416701f",
-      "title": "U.S. and Iran had ‘very good meeting’ over ongoing war, Trump says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/politics/2026/09/22/us-iran-had-very-good-meeting-over-ongoing-war-trump-says/",
-          "headline": "U.S. and Iran had ‘very good meeting’ over ongoing war, Trump says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:30:00+00:00",
-      "last_seen": "2026-09-22T19:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0782
-    },
-    {
-      "id": "159844d4ab",
-      "title": "Score free Pixel Buds 2A when you preorder a Googlebook at Best Buy",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale",
-          "headline": "Score free Pixel Buds 2A when you preorder a Googlebook at Best Buy",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:28:55+00:00",
-      "last_seen": "2026-09-22T19:28:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0767
-    },
-    {
-      "id": "13495c3f1b",
-      "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
-          "headline": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:28:23+00:00",
-      "last_seen": "2026-09-22T19:28:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.076
-    },
-    {
-      "id": "4dd311b021",
-      "title": "High prices could change chocolate-eating habits",
+      "id": "547749a42f",
+      "title": "Purple army heads east for AFL grand final",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-09-23/high-prices-impact-chocolate-eating-habits/107169556",
-          "headline": "High prices could change chocolate-eating habits",
+          "url": "https://www.abc.net.au/news/2026-09-23/army-of-fremantle-dockers-fans-make-journey-across-the-nullarbor/107173756",
+          "headline": "Purple army heads east for AFL grand final",
           "platform": "rss"
         }
       ],
@@ -891,80 +919,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-22T19:28:04+00:00",
-      "last_seen": "2026-09-22T19:28:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0755
-    },
-    {
-      "id": "e22c85e154",
-      "title": "What is the White House pool and why is it in a row with Trump?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c8dx5dy5rzz2o?at_medium=RSS&at_campaign=rss",
-          "headline": "What is the White House pool and why is it in a row with Trump?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:25:16+00:00",
-      "last_seen": "2026-09-22T19:25:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0717
-    },
-    {
-      "id": "56afb0618d",
-      "title": "Trump's D.C. arch is now a military complex. Here's how that complicates things",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/09/22/nx-s1-5977646/trump-dc-arch-military-complex-questions",
-          "headline": "Trump's D.C. arch is now a military complex. Here's how that complicates things",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:25:05+00:00",
-      "last_seen": "2026-09-22T19:25:05+00:00",
+      "first_seen": "2026-09-22T22:05:40+00:00",
+      "last_seen": "2026-09-22T22:05:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0714
+      "resonance": 0.0688
     },
     {
-      "id": "d8f94bb619",
-      "title": "UN General Assembly 2026: War on Iran and Gaza genocide dominate",
+      "id": "fe4a2dfd49",
+      "title": "Israel criticises 'grotesque absurdity' of Macron's speech",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/un-general-assembly-2026-war-iran-and-gaza-genocide-dominate",
-          "headline": "UN General Assembly 2026: War on Iran and Gaza genocide dominate",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-criticises-grotesque-absurdity-macrons-speech",
+          "headline": "Israel criticises 'grotesque absurdity' of Macron's speech",
           "platform": "rss"
         }
       ],
@@ -975,80 +947,80 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-09-22T19:17:38+00:00",
-      "last_seen": "2026-09-22T19:17:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0613
-    },
-    {
-      "id": "baa22f7cca",
-      "title": "Burnham 'gets it' says Trump, as the two leaders meet for first time",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cxly57mv4767o?at_medium=RSS&at_campaign=rss",
-          "headline": "Burnham 'gets it' says Trump, as the two leaders meet for first time",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-09-22T19:15:57+00:00",
-      "last_seen": "2026-09-22T19:15:57+00:00",
+      "first_seen": "2026-09-22T22:05:38+00:00",
+      "last_seen": "2026-09-22T22:05:38+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.059
+      "resonance": 0.0688
     },
     {
-      "id": "da626ef9f9",
-      "title": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
+      "id": "39837943d2",
+      "title": "Can Xi and Trump use their leverage to actually make progress?",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico",
-          "headline": "Hurricane Polo, rapidly intensifying from strong El Niño patterns, rages off coast of Mexico",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3368375/can-xi-and-trump-use-their-leverage-actually-make-progress?utm_source=rss_feed",
+          "headline": "Can Xi and Trump use their leverage to actually make progress?",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T22:00:06+00:00",
+      "last_seen": "2026-09-22T22:00:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0597
+    },
+    {
+      "id": "70fd5b3e80",
+      "title": "Oh, Good, Trump’s Arch Will Store Military-Grade Weapons",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/newsletters/2026/09/normal-places-store-military-grade-weapons-trump-arch/688745/?utm_source=feed",
+          "headline": "Oh, Good, Trump’s Arch Will Store Military-Grade Weapons",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
         "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-09-22T19:09:29+00:00",
-      "last_seen": "2026-09-22T19:09:29+00:00",
+      "first_seen": "2026-09-22T21:59:00+00:00",
+      "last_seen": "2026-09-22T21:59:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0504
+      "topic": "conflict",
+      "resonance": 0.0579
     },
     {
-      "id": "cfaf4ac1eb",
-      "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+      "id": "2e45692e49",
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
-          "headline": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+          "headline": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
           "platform": "rss"
         }
       ],
@@ -1059,51 +1031,115 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-09-22T19:09:11+00:00",
-      "last_seen": "2026-09-22T19:09:11+00:00",
+      "first_seen": "2026-09-22T21:56:43+00:00",
+      "last_seen": "2026-09-22T21:56:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
+      "topic": "tech",
+      "resonance": 0.0542
+    },
+    {
+      "id": "d2cee6aa23",
+      "title": "Cautious farmers embrace renewable energy to boost income streams",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-09-23/farmers-solar-wind-renewables-energy-rural/107180020",
+          "headline": "Cautious farmers embrace renewable energy to boost income streams",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-09-22T21:54:05+00:00",
+      "last_seen": "2026-09-22T21:54:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "1897230fba",
-      "target": "fea8147aa1",
-      "weight": 0.127,
-      "type": "thematic"
-    },
-    {
-      "source": "1897230fba",
-      "target": "d8f94bb619",
-      "weight": 0.059,
-      "type": "thematic"
-    },
-    {
-      "source": "f96a53f956",
-      "target": "dc98f35b77",
-      "weight": 0.014,
-      "type": "thematic"
-    },
-    {
-      "source": "f96a53f956",
-      "target": "56afb0618d",
-      "weight": 0.038,
-      "type": "thematic"
-    },
-    {
-      "source": "dc98f35b77",
-      "target": "b80416701f",
-      "weight": 0.131,
+      "source": "86054d1f7c",
+      "target": "d5b7af7baa",
+      "weight": 0.034,
       "type": "thematic"
     },
     {
       "source": "b80416701f",
-      "target": "d8f94bb619",
-      "weight": 0.384,
+      "target": "d2994d011b",
+      "weight": 0.043,
+      "type": "thematic"
+    },
+    {
+      "source": "b80416701f",
+      "target": "a46a67af9c",
+      "weight": 0.01,
+      "type": "thematic"
+    },
+    {
+      "source": "b80416701f",
+      "target": "70fd5b3e80",
+      "weight": 0.282,
+      "type": "thematic"
+    },
+    {
+      "source": "d0c4d6618b",
+      "target": "e984d2f3ba",
+      "weight": 0.222,
+      "type": "thematic"
+    },
+    {
+      "source": "a70030408a",
+      "target": "d2994d011b",
+      "weight": 0.295,
+      "type": "thematic"
+    },
+    {
+      "source": "a70030408a",
+      "target": "a46a67af9c",
+      "weight": 0.247,
+      "type": "thematic"
+    },
+    {
+      "source": "a7d0caec6b",
+      "target": "2457e87b57",
+      "weight": 0.64,
+      "type": "thematic"
+    },
+    {
+      "source": "a7d0caec6b",
+      "target": "fe4a2dfd49",
+      "weight": 0.151,
+      "type": "thematic"
+    },
+    {
+      "source": "d2994d011b",
+      "target": "a46a67af9c",
+      "weight": 0.642,
+      "type": "thematic"
+    },
+    {
+      "source": "8505eeada7",
+      "target": "0387a364dc",
+      "weight": 0.11,
+      "type": "thematic"
+    },
+    {
+      "source": "8505eeada7",
+      "target": "39837943d2",
+      "weight": 0.128,
       "type": "thematic"
     }
   ],
@@ -1130,7 +1166,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 6,
+      "count": 7,
       "error": null
     },
     "The Economist": {
@@ -1150,7 +1186,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 17,
+      "count": 15,
       "error": null
     },
     "The Atlantic": {

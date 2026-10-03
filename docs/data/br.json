@@ -1,167 +1,26 @@
 {
-  "generated_at": "2026-10-02T22:25:38.488766+00:00",
+  "generated_at": "2026-10-03T12:40:53.355355+00:00",
   "country_code": "br",
   "country_name": "Brasil",
   "language": "pt",
   "node_count": 30,
-  "edge_count": 6,
+  "edge_count": 7,
   "nodes": [
     {
-      "id": "fd9135f19e",
-      "title": "Ministro do TSE determina que votos em Garotinho sejam considerados nulos",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/poder/2026/10/ministro-do-tse-determina-que-votos-em-garotinho-sejam-considerados-nulos.shtml",
-          "headline": "Ministro do TSE determina que votos em Garotinho sejam considerados nulos",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/tse-ministro-derruba-liminar-e-votos-em-garotinho-serao-considerados-nulos",
-          "headline": "TSE: ministro derruba liminar e votos em Garotinho serão considerados nulos",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Veja",
-          "url": "https://veja.abril.com.br/politica/ministro-do-tse-revoga-liminar-que-assegurava-campanha-de-garotinho/",
-          "headline": "Ministro do TSE revoga liminar que assegurava campanha de Garotinho",
-          "platform": "rss"
-        },
-        {
-          "outlet": "G1 Globo",
-          "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/10/02/tse-revoga-liminar-de-garotinho-e-diz-que-votos-serao-considerados-nulos.ghtml",
-          "headline": "TSE revoga liminar de Garotinho e diz que votos serão considerados nulos na eleição ao governo do RJ",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.127,
-        "left": 0,
-        "center": 3,
-        "right": 1
-      },
-      "first_seen": "2026-10-02T21:58:42+00:00",
-      "last_seen": "2026-10-02T22:15:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "pt",
-      "resonance": 0.7432
-    },
-    {
-      "id": "30bc13fff7",
-      "title": "Alcolumbre leva PEC do fim da escala 6x1 ao plenário do Senado na terça-feira",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "UOL Notícias",
-          "url": "https://www1.folha.uol.com.br/mercado/2026/10/alcolumbre-marca-votacao-da-pec-da-escala-6x1-para-terca-feira-6.shtml",
-          "headline": "Alcolumbre marca votação da PEC da escala 6x1 para terça-feira (6)",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Veja",
-          "url": "https://veja.abril.com.br/economia/alcolumbre-marca-para-a-proxima-semana-discussao-da-pec-que-acaba-com-escala-6x1/",
-          "headline": "Alcolumbre marca para a próxima semana discussão da PEC que acaba com escala 6×1",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/10/alcolumbre-marca-votacao-da-pec-da-escala-6x1-para-terca-feira-6.shtml",
-          "headline": "Alcolumbre leva PEC do fim da escala 6x1 ao plenário do Senado na terça-feira",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.147,
-        "left": 0,
-        "center": 2,
-        "right": 1
-      },
-      "first_seen": "2026-10-02T21:40:00+00:00",
-      "last_seen": "2026-10-02T22:25:42.188570+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "pt",
-      "resonance": 0.6206
-    },
-    {
-      "id": "5dfcbcc3cf",
-      "title": "Pesquisa Datafolha mostra como está a disputa Lula x Flávio no Rio a dois dias da eleição",
-      "signal_count": 5,
-      "sources": [
-        {
-          "outlet": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/lula-x-flavio-datafolha-mostra-como-esta-a-disputa-em-sp-rj-df-mg-e-pe",
-          "headline": "Lula x Flávio: Datafolha mostra como está a disputa em SP, RJ, DF, MG e PE",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Veja",
-          "url": "https://veja.abril.com.br/politica/pesquisa-datafolha-mostra-como-esta-a-disputa-lula-x-flavio-no-rio-a-dois-dias-da-eleicao/",
-          "headline": "Pesquisa Datafolha mostra como está a disputa Lula x Flávio no Rio a dois dias da eleição",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Veja",
-          "url": "https://veja.abril.com.br/politica/datafolha-pernambuco-chega-a-reta-final-com-vantagem-de-lula-sobre-flavio/",
-          "headline": "Pesquisa Datafolha mostra como está a disputa Lula x Flávio no segundo maior colégio eleitoral do Nordeste",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Veja",
-          "url": "https://veja.abril.com.br/politica/a-disputa-entre-lula-e-flavio-bolsonaro-no-maior-colegio-eleitoral-do-pais-a-dois-dias-da-eleicao/",
-          "headline": "Pesquisa mostra disputa entre Lula e Flávio no maior colégio eleitoral do país a dois dias da eleição",
-          "platform": "rss"
-        },
-        {
-          "outlet": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/politica/datafolha-como-esta-a-disputa-entre-lula-e-flavio-bolsonaro-em-sp-rj-pe-e-df/",
-          "headline": "Datafolha: como está a disputa entre Lula e Flávio Bolsonaro em SP, MG, RJ, PE e DF",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.07,
-        "spread": 0.271,
-        "left": 1,
-        "center": 1,
-        "right": 3
-      },
-      "first_seen": "2026-10-02T20:43:36+00:00",
-      "last_seen": "2026-10-02T22:08:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "pt",
-      "resonance": 0.5068
-    },
-    {
-      "id": "5266f0e58b",
-      "title": "Brasil teve 547 casos da doença de Creutzfeldt-Jakob de 2005 a 2021",
+      "id": "70e9053868",
+      "title": "Os médicos que não querem ter redes sociais",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "UOL Notícias",
-          "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/10/brasil-teve-547-casos-da-doenca-de-creutzfeldt-jakob-de-2005-a-2021.shtml",
-          "headline": "Brasil teve 547 casos da doença de Creutzfeldt-Jakob de 2005 a 2021",
+          "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/10/os-medicos-que-nao-querem-ter-redes-sociais.shtml",
+          "headline": "Os médicos que não querem ter redes sociais",
           "platform": "rss"
         },
         {
           "outlet": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2026/10/brasil-teve-547-casos-da-doenca-de-creutzfeldt-jakob-de-2005-a-2021.shtml",
-          "headline": "Brasil teve 547 casos da doença de Creutzfeldt-Jakob de 2005 a 2021",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2026/10/os-medicos-que-nao-querem-ter-redes-sociais.shtml",
+          "headline": "Os médicos que não querem ter redes sociais",
           "platform": "rss"
         }
       ],
@@ -172,31 +31,31 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-10-02T21:55:00+00:00",
-      "last_seen": "2026-10-02T22:25:42.188457+00:00",
+      "first_seen": "2026-10-03T11:53:00+00:00",
+      "last_seen": "2026-10-03T12:40:57.081405+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "health",
       "language": "pt",
-      "resonance": 0.4066
+      "resonance": 0.6725
     },
     {
-      "id": "958e86caa5",
-      "title": "Azul registra 47,2 mil cães e gatos em voos e Viracopos lidera movimento",
+      "id": "6ec6a2d98d",
+      "title": "Gilmar revoga decisão de tribunal do Paraná e libera propaganda que insinua que Moro é abortista",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "UOL Notícias",
-          "url": "https://redir.folha.com.br/redir/online/colunas/monicabergamo/rss091/*https://www1.folha.uol.com.br/colunas/monicabergamo/2026/10/azul-registra-472-mil-caes-e-gatos-em-voos-e-viracopos-lidera-movimento.shtml",
-          "headline": "Azul registra 47,2 mil cães e gatos em voos e Viracopos lidera movimento",
+          "url": "https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/10/gilmar-revoga-decisao-de-tribunal-do-parana-e-libera-propaganda-que-insinua-que-moro-e-abortista.shtml",
+          "headline": "Gilmar revoga decisão de tribunal do Paraná e libera propaganda que insinua que Moro é abortista",
           "platform": "rss"
         },
         {
           "outlet": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/monicabergamo/2026/10/azul-registra-472-mil-caes-e-gatos-em-voos-e-viracopos-lidera-movimento.shtml",
-          "headline": "Azul registra 47,2 mil cães e gatos em voos e Viracopos lidera movimento",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/10/gilmar-revoga-decisao-de-tribunal-do-parana-e-libera-propaganda-que-insinua-que-moro-e-abortista.shtml",
+          "headline": "Gilmar revoga decisão de tribunal do Paraná e libera propaganda que insinua que Moro é abortista",
           "platform": "rss"
         }
       ],
@@ -207,107 +66,107 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-10-02T22:00:00+00:00",
-      "last_seen": "2026-10-02T22:25:42.188389+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "pt",
-      "resonance": 0.4057
-    },
-    {
-      "id": "81c6d6af02",
-      "title": "Grupo Folha muda diretoria comercial de publicidade",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "UOL Notícias",
-          "url": "https://www1.folha.uol.com.br/colunas/painelsa/2026/10/grupo-folha-muda-diretoria-comercial-de-publicidade.shtml",
-          "headline": "Grupo Folha muda diretoria comercial de publicidade",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/painelsa/2026/10/grupo-folha-muda-diretoria-comercial-de-publicidade.shtml",
-          "headline": "Grupo Folha muda diretoria comercial de publicidade",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.05,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-10-02T22:07:00+00:00",
-      "last_seen": "2026-10-02T22:25:42.188319+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "pt",
-      "resonance": 0.4046
-    },
-    {
-      "id": "e03bd0d550",
-      "title": "Proibidas, bets ainda possuem R$ 1,45 bilhão não resgatados por apostadores",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/apostadores-tem-ainda-r-14-bilhao-para-sacar-em-bets-apos-suspensao",
-          "headline": "Apostadores têm ainda R$ 1,4 bilhão para sacar em bets após suspensão",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Veja",
-          "url": "https://veja.abril.com.br/economia/proibidas-bets-ainda-possuem-r-145-bilhao-nao-resgatados-por-apostadores/",
-          "headline": "Proibidas, bets ainda possuem R$ 1,45 bilhão não resgatados por apostadores",
-          "platform": "rss"
-        },
-        {
-          "outlet": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/economia/apostadores-ainda-concentram-r-14-bilhao-nas-bets-governo-orienta-retirada/",
-          "headline": "Apostadores ainda concentram R$ 1,4 bilhão nas bets; governo orienta retirada",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.294,
-        "left": 1,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-10-02T19:10:59+00:00",
-      "last_seen": "2026-10-02T21:37:32+00:00",
+      "first_seen": "2026-10-03T11:53:00+00:00",
+      "last_seen": "2026-10-03T12:40:57.081368+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "pt",
-      "resonance": 0.3296
+      "resonance": 0.6725
     },
     {
-      "id": "abebcc8877",
-      "title": "Brasileira é suspeita de assassinar filha e se matar após perder disputa de guarda nos EUA",
+      "id": "97df0807f3",
+      "title": "STJ permite penhora de salário para pagar dívida não alimentar; entenda",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "UOL Notícias",
+          "url": "https://www1.folha.uol.com.br/mercado/2026/10/stj-permite-penhora-de-salario-para-pagar-divida-nao-alimentar-entenda.shtml",
+          "headline": "STJ permite penhora de salário para pagar dívida não alimentar; entenda",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/10/stj-permite-penhora-de-salario-para-pagar-divida-nao-alimentar-entenda.shtml",
+          "headline": "STJ permite penhora de salário para pagar dívida não alimentar; entenda",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:00:00+00:00",
+      "last_seen": "2026-10-03T12:40:57.081331+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "pt",
+      "resonance": 0.6706
+    },
+    {
+      "id": "b05c275387",
+      "title": "Copiloto da Flydubai usou machado para atacar comandante, dizem Emirados",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "UOL Notícias",
+          "url": "https://www1.folha.uol.com.br/mundo/2026/10/copiloto-da-flydubai-usou-machado-para-atacar-comandante-diz-emirados.shtml",
+          "headline": "Copiloto da Flydubai usou machado para atacar comandante, diz Emirados",
+          "platform": "rss"
+        },
+        {
+          "outlet": "UOL Notícias",
+          "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/03/copiloto-atacou-comandante-com-machado-de-emergencia-dizem-emirados.ghtm",
+          "headline": "Copiloto atacou comandante com machado de emergência, dizem Emirados",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mundo/2026/10/copiloto-da-flydubai-usou-machado-para-atacar-comandante-diz-emirados.shtml",
+          "headline": "Copiloto da Flydubai usou machado para atacar comandante, dizem Emirados",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.033,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:11:00+00:00",
+      "last_seen": "2026-10-03T12:40:57.081183+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "pt",
+      "resonance": 0.6677
+    },
+    {
+      "id": "821ca0b30e",
+      "title": "Pesquisa Poder/Aya mostra empate entre Lula e Flávio Bolsonaro na véspera do 1º turno",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "Metrópoles",
-          "url": "https://www.metropoles.com/mundo/brasileira-e-suspeita-de-matar-filha-de-4-anos-e-atirar-em-si-mesma-nos-eua",
-          "headline": "Brasileira é suspeita de matar filha de 4 anos e atirar em si mesma nos EUA",
+          "url": "https://www.metropoles.com/minas-gerais/real-time-em-mg-lula-tem-42-e-flavio-40-no-1o-turno-ha-empate-no-2o",
+          "headline": "Real Time: em MG, Lula tem 42%, e Flávio, 40%, no 1º turno; há empate no 2º",
           "platform": "rss"
         },
         {
           "outlet": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/mundo/brasileira-e-suspeita-de-assassinar-filha-e-se-matar-apos-perder-disputa-de-guarda-nos-eua/",
-          "headline": "Brasileira é suspeita de assassinar filha e se matar após perder disputa de guarda nos EUA",
+          "url": "https://www.cartacapital.com.br/politica/pesquisa-poder-aya-mostra-empate-entre-lula-e-flavio-bolsonaro-na-vespera-do-1o-turno/",
+          "headline": "Pesquisa Poder/Aya mostra empate entre Lula e Flávio Bolsonaro na véspera do 1º turno",
           "platform": "rss"
         }
       ],
@@ -318,72 +177,25 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-02T20:00:09+00:00",
-      "last_seen": "2026-10-02T22:09:21+00:00",
+      "first_seen": "2026-10-03T11:27:36+00:00",
+      "last_seen": "2026-10-03T12:30:29+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
+      "topic": "science",
       "language": "pt",
-      "resonance": 0.2272
+      "resonance": 0.6186
     },
     {
-      "id": "0916f492a0",
-      "title": "PF faz operação em investigação de suposto plano contra embaixada dos EUA no Brasil",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/justica/pf-realiza-operacao-contra-suspeitos-de-planejar-acao-contra-embaixada-dos-eua/",
-          "headline": "PF realiza operação contra suspeitos de planejar ação contra Embaixada dos EUA",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Veja",
-          "url": "https://veja.abril.com.br/mundo/pf-faz-operacao-em-investigacao-de-suposto-plano-contra-embaixada-dos-eua-no-brasil/",
-          "headline": "PF faz operação em investigação de suposto plano contra embaixada dos EUA no Brasil",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.35,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-10-02T20:40:34+00:00",
-      "last_seen": "2026-10-02T21:04:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "pt",
-      "resonance": 0.2132
-    },
-    {
-      "id": "d12e799fe8",
-      "title": "Candidatos a deputado federal em 2026: veja lista atualizada em todo Brasil",
-      "signal_count": 3,
+      "id": "6a1a42c900",
+      "title": "Oktoberfest distribui shorts a mulheres após circulação de vídeos sob saias",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "UOL Notícias",
-          "url": "https://noticias.uol.com.br/eleicoes/2026/10/02/candidatos-a-deputado-federal-em-2026-veja-lista-atualizada-em-todo-brasil.ghtm",
-          "headline": "Candidatos a deputado federal em 2026: veja lista atualizada em todo Brasil",
-          "platform": "rss"
-        },
-        {
-          "outlet": "UOL Notícias",
-          "url": "https://noticias.uol.com.br/eleicoes/2026/10/02/candidatos-a-deputado-estadual-em-2026-veja-lista-atualizada-de-todo-o-brasil.ghtm",
-          "headline": "Candidatos a deputado estadual em 2026: veja lista atualizada de todo o Brasil",
-          "platform": "rss"
-        },
-        {
-          "outlet": "UOL Notícias",
-          "url": "https://noticias.uol.com.br/eleicoes/2026/10/02/candidatos-ao-senado-em-2026-veja-lista-atualizada-em-todo-brasil.ghtm",
-          "headline": "Candidatos ao Senado em 2026: veja lista atualizada em todo Brasil",
+          "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/03/oktoberfest-distribui-shorts-a-mulheres-apos-videos-sob-saias.ghtm",
+          "headline": "Oktoberfest distribui shorts a mulheres após circulação de vídeos sob saias",
           "platform": "rss"
         }
       ],
@@ -391,34 +203,388 @@
         "mean": 0.0,
         "spread": 0.0,
         "left": 0,
-        "center": 3,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-02T22:25:42.188265+00:00",
-      "last_seen": "2026-10-02T22:25:42.188547+00:00",
+      "first_seen": "2026-10-03T12:40:57.081559+00:00",
+      "last_seen": "2026-10-03T12:40:57.081559+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "pt",
+      "resonance": 0.1535
+    },
+    {
+      "id": "95fe1e628c",
+      "title": "Kassio rebate ameaças internacionais à eleição, mas se preocupa com IA e desinformação",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "UOL Notícias",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/03/kassio-rebate-ameacas-internacionais-a-eleicao-mas-se-preocupa-com-ia-e-desinformacao.htm",
+          "headline": "Kassio rebate ameaças internacionais à eleição, mas se preocupa com IA e desinformação",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:40:57.081523+00:00",
+      "last_seen": "2026-10-03T12:40:57.081523+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "pt",
-      "resonance": 0.0826
+      "resonance": 0.1535
     },
     {
-      "id": "601e3a8dac",
-      "title": "Flávio Bolsonaro na pesquisa para presidente no 1º turno: veja números do candidato",
-      "signal_count": 2,
+      "id": "5b3e1789e6",
+      "title": "Milhares protestam na Espanha pelo direito à moradia",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "UOL Notícias",
-          "url": "https://noticias.uol.com.br/eleicoes/2026/10/02/flavio-bolsonaro-na-pesquisa-para-presidente-no-1-turno-veja-numeros-do-candidato.ghtm",
-          "headline": "Flávio Bolsonaro na pesquisa para presidente no 1º turno: veja números do candidato",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/10/03/milhares-protestam-na-espanha-pelo-direito-a-moradia.htm",
+          "headline": "Milhares protestam na Espanha pelo direito à moradia",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:40:57.081485+00:00",
+      "last_seen": "2026-10-03T12:40:57.081485+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "pt",
+      "resonance": 0.1535
+    },
+    {
+      "id": "ed73fdf793",
+      "title": "Mais para o exército, menos para a educação: destaques do orçamento russo para 2027",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "UOL Notícias",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/10/03/mais-para-o-exercito-menos-para-a-educacao-destaques-do-orcamento-russo-para-2027.htm",
+          "headline": "Mais para o exército, menos para a educação: destaques do orçamento russo para 2027",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:40:57.081441+00:00",
+      "last_seen": "2026-10-03T12:40:57.081441+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "pt",
+      "resonance": 0.1535
+    },
+    {
+      "id": "2b03201446",
+      "title": "Proibição de bets ajuda Lula, dizem 43% dos eleitores ao PoderData/AYA",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "UOL Notícias",
+          "url": "https://noticias.uol.com.br/eleicoes/2026/10/03/proibicao-de-bets-ajuda-lula-dizem-43-dos-eleitores.ghtm",
+          "headline": "Proibição de bets ajuda Lula, dizem 43% dos eleitores ao PoderData/AYA",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:40:57.081295+00:00",
+      "last_seen": "2026-10-03T12:40:57.081295+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "pt",
+      "resonance": 0.1535
+    },
+    {
+      "id": "c0ba160dd6",
+      "title": "Gilmar derruba decisão sobre direito de resposta de Moro em caso sobre aborto",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "UOL Notícias",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/03/gilmar-derruba-decisao-sobre-direito-de-resposta-de-moro-em-caso-sobre-aborto.htm",
+          "headline": "Gilmar derruba decisão sobre direito de resposta de Moro em caso sobre aborto",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:40:57.081258+00:00",
+      "last_seen": "2026-10-03T12:40:57.081258+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "pt",
+      "resonance": 0.1535
+    },
+    {
+      "id": "9ba9f9065d",
+      "title": "Copiloto de voo da Flydubai rumo a Israel planejava \"ato terrorista\", segundo Emirados",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "UOL Notícias",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/10/03/copiloto-de-voo-da-flydubai-rumo-a-israel-planejava-ato-terrorista-segundo-emirados.htm",
+          "headline": "Copiloto de voo da Flydubai rumo a Israel planejava \"ato terrorista\", segundo Emirados",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:40:57.081221+00:00",
+      "last_seen": "2026-10-03T12:40:57.081221+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "pt",
+      "resonance": 0.1535
+    },
+    {
+      "id": "81f641e279",
+      "title": "Mulher de 102 morre em enchente na Espanha; 90 pessoas foram resgatadas",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "UOL Notícias",
+          "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/03/enchente-mata-mulher-de-102-anos-e-mobiliza-resgate-na-espanha.ghtm",
+          "headline": "Mulher de 102 morre em enchente na Espanha; 90 pessoas foram resgatadas",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:40:57.081105+00:00",
+      "last_seen": "2026-10-03T12:40:57.081105+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "pt",
+      "resonance": 0.1535
+    },
+    {
+      "id": "e214d637ad",
+      "title": "RealTime Big Data: Cleitinho lidera em todos os cenários em Minas",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "UOL Notícias",
+          "url": "https://noticias.uol.com.br/eleicoes/2026/10/03/realtime-big-data-cleitinho-lidera-em-todos-os-cenarios-em-minas.ghtm",
+          "headline": "RealTime Big Data: Cleitinho lidera em todos os cenários em Minas",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:40:57.081062+00:00",
+      "last_seen": "2026-10-03T12:40:57.081062+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "pt",
+      "resonance": 0.1535
+    },
+    {
+      "id": "445af518f6",
+      "title": "Atriz brasileira é presa pelo ICE no aeroporto de Los Angeles e está detida há mais de um mês",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "UOL Notícias",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/rfi/2026/10/03/atriz-brasileira-e-presa-pelo-ice-no-aeroporto-de-los-angeles-e-esta-detida-ha-mais-de-um-mes.htm",
+          "headline": "Atriz brasileira é presa pelo ICE no aeroporto de Los Angeles e está detida há mais de um mês",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:40:57.081003+00:00",
+      "last_seen": "2026-10-03T12:40:57.081003+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "pt",
+      "resonance": 0.1535
+    },
+    {
+      "id": "090150c71f",
+      "title": "Real Time MG: Cleitinho chega a 50% dos votos válidos na véspera da eleição",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Metrópoles",
+          "url": "https://www.metropoles.com/minas-gerais/real-time-mg-cleitinho-chega-a-50-dos-votos-validos-na-vespera-da-eleicao",
+          "headline": "Real Time MG: Cleitinho chega a 50% dos votos válidos na véspera da eleição",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:30:47+00:00",
+      "last_seen": "2026-10-03T12:30:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "pt",
+      "resonance": 0.1184
+    },
+    {
+      "id": "0b884b87db",
+      "title": "Real Time: Sávio e Viana têm 20% cada, e Marília, 19% para o Senado em MG",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Metrópoles",
+          "url": "https://www.metropoles.com/minas-gerais/real-time-savio-e-viana-tem-20-cada-e-marilia-19-para-o-senado-em-mg",
+          "headline": "Real Time: Sávio e Viana têm 20% cada, e Marília, 19% para o Senado em MG",
           "platform": "rss"
         },
         {
-          "outlet": "UOL Notícias",
-          "url": "https://noticias.uol.com.br/eleicoes/2026/10/02/lula-na-pesquisa-para-presidente-no-2-turno-veja-numeros-do-candidato.ghtm",
-          "headline": "Lula na pesquisa para presidente no 2º turno: veja números do candidato",
+          "outlet": "Metrópoles",
+          "url": "https://www.metropoles.com/minas-gerais/real-time-mg-marilia-lidera-1o-voto-ao-senado-savio-fica-a-frente-no-2o",
+          "headline": "Real Time MG: Marília lidera 1º voto ao Senado; Sávio fica à frente no 2º",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:29:22+00:00",
+      "last_seen": "2026-10-03T12:30:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "pt",
+      "resonance": 0.1183
+    },
+    {
+      "id": "396b98491c",
+      "title": "Nando Moura é condenado após chamar Felipe Neto de \"cão dos infernos\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Metrópoles",
+          "url": "https://www.metropoles.com/celebridades/nando-moura-e-condenado-apos-chamar-felipe-neto-de-cao-dos-infernos",
+          "headline": "Nando Moura é condenado após chamar Felipe Neto de \"cão dos infernos\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:30:34+00:00",
+      "last_seen": "2026-10-03T12:30:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "pt",
+      "resonance": 0.1177
+    },
+    {
+      "id": "9ccbedc32b",
+      "title": "Eleições 2026: cidades do Alto Tietê têm bloqueios e desvios no trânsito",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "G1 Globo",
+          "url": "https://g1.globo.com/sp/mogi-das-cruzes-suzano/eleicoes/2026/noticia/2026/10/03/eleicoes-2026-cidades-do-alto-tiete-tem-bloqueios-e-desvios-no-transito.ghtml",
+          "headline": "Eleições 2026: cidades do Alto Tietê têm bloqueios e desvios no trânsito",
+          "platform": "rss"
+        },
+        {
+          "outlet": "G1 Globo",
+          "url": "https://g1.globo.com/sp/mogi-das-cruzes-suzano/eleicoes/2026/noticia/2026/10/03/eleicoes-2026-cidades-do-alto-tiete-tem-transporte-publico-gratuito-neste-domingo.ghtml",
+          "headline": "Eleições 2026: cidades do Alto Tietê têm transporte público gratuito neste domingo",
           "platform": "rss"
         }
       ],
@@ -429,25 +595,25 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-10-02T22:25:42.188219+00:00",
-      "last_seen": "2026-10-02T22:25:42.188480+00:00",
+      "first_seen": "2026-10-03T12:27:39+00:00",
+      "last_seen": "2026-10-03T12:29:44+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "pt",
-      "resonance": 0.0826
+      "resonance": 0.1153
     },
     {
-      "id": "2848caaf36",
-      "title": "Ordem de voto dos senadores importa? O primeiro que você digitar tem mais peso?",
+      "id": "c19a49245a",
+      "title": "Distribuição de água, filas na saúde e índices da educação marcam discursos na disputa pelo governo em Sergipe",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "UOL Notícias",
-          "url": "https://noticias.uol.com.br/eleicoes/2026/10/02/ordem-de-voto-dos-senadores-importa-o-primeiro-que-voce-digitar-tem-mais-peso.ghtm",
-          "headline": "Ordem de voto dos senadores importa? O primeiro que você digitar tem mais peso?",
+          "outlet": "G1 Globo",
+          "url": "https://g1.globo.com/se/sergipe/eleicoes/2026/noticia/2026/10/03/distribuicao-de-agua-filas-na-saude-e-indices-da-educacao-marcam-discursos-na-disputa-pelo-governo-em-sergipe.ghtml",
+          "headline": "Distribuição de água, filas na saúde e índices da educação marcam discursos na disputa pelo governo em Sergipe",
           "platform": "rss"
         }
       ],
@@ -458,25 +624,25 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-02T22:25:42.188525+00:00",
-      "last_seen": "2026-10-02T22:25:42.188525+00:00",
+      "first_seen": "2026-10-03T12:28:29+00:00",
+      "last_seen": "2026-10-03T12:28:29+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "pt",
-      "resonance": 0.0826
+      "resonance": 0.1105
     },
     {
-      "id": "9a30b27327",
-      "title": "Polícia Civil investiga morte de homem que teria invadido casa no João Paulo",
+      "id": "7b11a66097",
+      "title": "Resultados do 1º turno das Eleições 2026: apuração poderá ser acompanhada em tempo real",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "UOL Notícias",
-          "url": "https://tnonline.uol.com.br/noticias/apucarana/policia-civil-investiga-morte-de-homem-que-teria-invadido-casa-no-joao-paulo-1151533",
-          "headline": "Polícia Civil investiga morte de homem que teria invadido casa no João Paulo",
+          "outlet": "G1 Globo",
+          "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/03/resultados-do-1o-turno-das-eleicoes-2026-apuracao-podera-ser-acompanhada-em-tempo-real.ghtml",
+          "headline": "Resultados do 1º turno das Eleições 2026: apuração poderá ser acompanhada em tempo real",
           "platform": "rss"
         }
       ],
@@ -487,141 +653,25 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-02T22:25:42.188502+00:00",
-      "last_seen": "2026-10-02T22:25:42.188502+00:00",
+      "first_seen": "2026-10-03T12:26:00+00:00",
+      "last_seen": "2026-10-03T12:26:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
+      "topic": "politics",
       "language": "pt",
-      "resonance": 0.0826
+      "resonance": 0.1021
     },
     {
-      "id": "116f611629",
-      "title": "Christa Pike, sobrevivente de execução no Tennessee, respira por aparelho, dizem advogados",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "UOL Notícias",
-          "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/10/02/christa-pike-sobrevivente-de-execucao-no-tennessee-respira-por-aparelho-dizem-advogados.htm",
-          "headline": "Christa Pike, sobrevivente de execução no Tennessee, respira por aparelho, dizem advogados",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-02T22:25:42.188411+00:00",
-      "last_seen": "2026-10-02T22:25:42.188411+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "pt",
-      "resonance": 0.0826
-    },
-    {
-      "id": "fee6fe26b4",
-      "title": "OMS denuncia \"atraso após atraso\" na entrada de ajuda humanitária em Gaza",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "UOL Notícias",
-          "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/10/02/oms-denuncia-atraso-apos-atraso-na-entrada-de-ajuda-humanitaria-em-gaza.htm",
-          "headline": "OMS denuncia \"atraso após atraso\" na entrada de ajuda humanitária em Gaza",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-02T22:25:42.188366+00:00",
-      "last_seen": "2026-10-02T22:25:42.188366+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "pt",
-      "resonance": 0.0826
-    },
-    {
-      "id": "553ba63cda",
-      "title": "Fachin recoloca o óbvio no trilho ao acenar com punição de togas",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "UOL Notícias",
-          "url": "https://noticias.uol.com.br/colunas/josias-de-souza/2026/10/02/fachin-recoloca-o-obvio-no-trilho-ao-acenar-com-punicao-de-togas.htm",
-          "headline": "Fachin recoloca o óbvio no trilho ao acenar com punição de togas",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-02T22:25:42.188343+00:00",
-      "last_seen": "2026-10-02T22:25:42.188343+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "pt",
-      "resonance": 0.0826
-    },
-    {
-      "id": "908b6264a4",
-      "title": "Michelle diz que Bolsonaro vive 'dias mais difíceis' após Damares relatar que ele passou mal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "UOL Notícias",
-          "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/02/michelle-diz-que-bolsonaro-vive-dias-mais-dificeis-apos-damares-relatar-que-ele-passou-mal.htm",
-          "headline": "Michelle diz que Bolsonaro vive 'dias mais difíceis' após Damares relatar que ele passou mal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-02T22:25:42.188294+00:00",
-      "last_seen": "2026-10-02T22:25:42.188294+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "pt",
-      "resonance": 0.0826
-    },
-    {
-      "id": "86b38ac921",
-      "title": "Falsos policiais invadem comitês políticos de Cezinha e de vereador em SP",
+      "id": "e0ae21f8be",
+      "title": "Dois passageiros ficam feridos após ônibus bater em parada no Park Way",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Metrópoles",
-          "url": "https://www.metropoles.com/colunas/demetrio-vecchioli/falsos-policiais-invadem-comites-politicos-de-cezinha-e-de-vereador-em-sp",
-          "headline": "Falsos policiais invadem comitês políticos de Cezinha e de vereador em SP",
+          "url": "https://www.metropoles.com/distrito-federal/dois-passageiros-ficam-feridos-apos-onibus-bater-em-parada-no-park-way",
+          "headline": "Dois passageiros ficam feridos após ônibus bater em parada no Park Way",
           "platform": "rss"
         }
       ],
@@ -632,25 +682,83 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-02T22:21:11+00:00",
-      "last_seen": "2026-10-02T22:21:11+00:00",
+      "first_seen": "2026-10-03T12:25:19+00:00",
+      "last_seen": "2026-10-03T12:25:19+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "pt",
-      "resonance": 0.0728
+      "resonance": 0.0997
     },
     {
-      "id": "7d5ea8f3be",
-      "title": "Brasileirão: São Paulo divulga escalação para clássico contra o Santos",
+      "id": "756281b902",
+      "title": "Trecho da BR-364 entre Várzea Grande e Acorizal (MT) tem bloqueio total para obras em nova ponte",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "G1 Globo",
+          "url": "https://g1.globo.com/mt/mato-grosso/noticia/2026/10/03/trecho-da-br-364-entre-varzea-grande-e-acorizal-mt-tem-bloqueio-total-para-obras-em-nova-ponte.ghtml",
+          "headline": "Trecho da BR-364 entre Várzea Grande e Acorizal (MT) tem bloqueio total para obras em nova ponte",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:25:01+00:00",
+      "last_seen": "2026-10-03T12:25:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "pt",
+      "resonance": 0.0987
+    },
+    {
+      "id": "1462428a51",
+      "title": "Homem é preso e menor apreendido com pistola e drogas em Três Rios",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "G1 Globo",
+          "url": "https://g1.globo.com/rj/sul-do-rio-costa-verde/noticia/2026/10/03/homem-e-preso-e-menor-apreendido-com-pistola-e-drogas-em-tres-rios.ghtml",
+          "headline": "Homem é preso e menor apreendido com pistola e drogas em Três Rios",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:23:06+00:00",
+      "last_seen": "2026-10-03T12:23:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "pt",
+      "resonance": 0.0922
+    },
+    {
+      "id": "c67c6595c8",
+      "title": "Brasil x Índia: onde assistir ao último amistoso da Seleção nesta Data Fifa",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/brasileirao-sao-paulo-divulga-escalacao-para-classico-contra-o-santos",
-          "headline": "Brasileirão: São Paulo divulga escalação para clássico contra o Santos",
+          "url": "https://www.metropoles.com/esportes/brasil-x-india-onde-assistir-ao-ultimo-amistoso-da-selecao-nesta-data-fifa",
+          "headline": "Brasil x Índia: onde assistir ao último amistoso da Seleção nesta Data Fifa",
           "platform": "rss"
         }
       ],
@@ -661,54 +769,25 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-02T22:20:46+00:00",
-      "last_seen": "2026-10-02T22:20:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "pt",
-      "resonance": 0.0718
-    },
-    {
-      "id": "cea25e5cbd",
-      "title": "Corregedoria vê irregularidade na campanha de 24 policiais civis de SP e aciona Promotoria",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/10/corregedoria-ve-irregularidade-na-campanha-de-24-policiais-civis-de-sp-e-aciona-promotoria.shtml",
-          "headline": "Corregedoria vê irregularidade na campanha de 24 policiais civis de SP e aciona Promotoria",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-02T22:20:00+00:00",
-      "last_seen": "2026-10-02T22:20:00+00:00",
+      "first_seen": "2026-10-03T12:18:11+00:00",
+      "last_seen": "2026-10-03T12:18:11+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "pt",
-      "resonance": 0.0702
+      "resonance": 0.0758
     },
     {
-      "id": "359edcf2ac",
-      "title": "Defesa Civil mobiliza equipes para temporais no Sul e Sudeste",
+      "id": "565ba4171a",
+      "title": "Por que a ‘terceira via’ fracassou mais uma vez em 2026?",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/radar-carta/defesa-civil-mobiliza-equipes-para-temporais-no-sul-e-sudeste/",
-          "headline": "Defesa Civil mobiliza equipes para temporais no Sul e Sudeste",
+          "url": "https://www.cartacapital.com.br/politica/por-que-a-terceira-via-fracassou-mais-uma-vez-em-2026/",
+          "headline": "Por que a ‘terceira via’ fracassou mais uma vez em 2026?",
           "platform": "rss"
         }
       ],
@@ -719,170 +798,25 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-10-02T22:18:19+00:00",
-      "last_seen": "2026-10-02T22:18:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "pt",
-      "resonance": 0.0665
-    },
-    {
-      "id": "8eb3d4be3b",
-      "title": "Lula exibe camisa “As Malvinas são argentinas” e repercute no país vizinho",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/lula-exibe-camisa-as-malvinas-sao-argentinas-e-repercute-no-pais-vizinho",
-          "headline": "Lula exibe camisa “As Malvinas são argentinas” e repercute no país vizinho",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-02T22:17:48+00:00",
-      "last_seen": "2026-10-02T22:17:48+00:00",
+      "first_seen": "2026-10-03T12:17:18+00:00",
+      "last_seen": "2026-10-03T12:17:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "pt",
-      "resonance": 0.0654
+      "resonance": 0.0728
     },
     {
-      "id": "f1a3a3bd94",
-      "title": "O estado de saúde de Christa Pike, mulher que sobreviveu a duas injeções letais",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Veja",
-          "url": "https://veja.abril.com.br/mundo/o-estado-de-saude-de-christa-pike-mulher-que-sobreviveu-a-duas-injecoes-letais/",
-          "headline": "O estado de saúde de Christa Pike, mulher que sobreviveu a duas injeções letais",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.25,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-10-02T22:15:56+00:00",
-      "last_seen": "2026-10-02T22:15:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "language": "pt",
-      "resonance": 0.0613
-    },
-    {
-      "id": "29255af8e8",
-      "title": "Filho de Giovanna Ewbank e Bruno Gagliasso estreia em novela da Globo",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://f5.folha.uol.com.br/televisao/2026/10/filho-de-giovanna-ewbank-e-bruno-gagliasso-estreia-em-novela-da-globo.shtml",
-          "headline": "Filho de Giovanna Ewbank e Bruno Gagliasso estreia em novela da Globo",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-02T22:15:00+00:00",
-      "last_seen": "2026-10-02T22:15:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "pt",
-      "resonance": 0.0593
-    },
-    {
-      "id": "f6459a3536",
-      "title": "Com Coutinho no banco, Santos está escalado para o clássico San-São",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/com-coutinho-no-banco-santos-esta-escalado-para-o-classico-san-sao",
-          "headline": "Com Coutinho no banco, Santos está escalado para o clássico San-São",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-02T22:14:59+00:00",
-      "last_seen": "2026-10-02T22:14:59+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "pt",
-      "resonance": 0.0593
-    },
-    {
-      "id": "5177237775",
-      "title": "Ricardo Salles oficializa desistência da candidatura ao Senado de SP",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Metrópoles",
-          "url": "https://www.metropoles.com/sao-paulo/ricardo-salles-oficializa-desistencia-da-candidatura-ao-senado-de-sp",
-          "headline": "Ricardo Salles oficializa desistência da candidatura ao Senado de SP",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-02T22:14:07+00:00",
-      "last_seen": "2026-10-02T22:14:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "pt",
-      "resonance": 0.0574
-    },
-    {
-      "id": "a3907b9045",
-      "title": "Florada Premiada: Rondônia tem 13 das 20 finalistas em concurso nacional de café",
+      "id": "a86b734e95",
+      "title": "Trecho da Avenida Mendonça Furtado será interditado neste sábado em Santarém",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "G1 Globo",
-          "url": "https://g1.globo.com/ro/rondonia/noticia/2026/10/02/rondonia-mulheres-finalistas-concurso-cafe.ghtml",
-          "headline": "Florada Premiada: Rondônia tem 13 das 20 finalistas em concurso nacional de café",
+          "url": "https://g1.globo.com/pa/santarem-regiao/noticia/2026/10/03/trecho-da-avenida-mendonca-furtado-sera-interditado-neste-sabado-em-santarem.ghtml",
+          "headline": "Trecho da Avenida Mendonça Furtado será interditado neste sábado em Santarém",
           "platform": "rss"
         }
       ],
@@ -893,54 +827,25 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-02T22:12:39+00:00",
-      "last_seen": "2026-10-02T22:12:39+00:00",
+      "first_seen": "2026-10-03T12:15:02+00:00",
+      "last_seen": "2026-10-03T12:15:02+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "pt",
-      "resonance": 0.0542
+      "resonance": 0.0653
     },
     {
-      "id": "d4a0a4245e",
-      "title": "Rincon diz que sofreu intolerância política em universidade federal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Metrópoles",
-          "url": "https://www.metropoles.com/colunas/lucas-pasin/rincon-diz-que-sofreu-intolerancia-politica-em-universidade-federal",
-          "headline": "Rincon diz que sofreu intolerância política em universidade federal",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.05,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-02T22:11:17+00:00",
-      "last_seen": "2026-10-02T22:11:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "pt",
-      "resonance": 0.0513
-    },
-    {
-      "id": "bd84df8df0",
-      "title": "Homem é morto a tiros em frente a residência na Zona Sul de Teresina; segundo homicídio em três horas na região",
+      "id": "8785a26f8e",
+      "title": "Crimes eleitorais no Ceará: ações da Polícia Federal apreenderam R$ 1 milhão e cumpriram 36 mandados de busca e apreensão",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "G1 Globo",
-          "url": "https://g1.globo.com/pi/piaui/noticia/2026/10/02/morto-teresina.ghtml",
-          "headline": "Homem é morto a tiros em frente a residência na Zona Sul de Teresina; segundo homicídio em três horas na região",
+          "url": "https://g1.globo.com/ce/ceara/eleicoes/2026/noticia/2026/10/03/crimes-eleitorais-no-ceara-acoes-da-policia-federal-apreenderam-r-1-milhao-e-cumpriram-36-mandados-de-busca-e-apreensao.ghtml",
+          "headline": "Crimes eleitorais no Ceará: ações da Polícia Federal apreenderam R$ 1 milhão e cumpriram 36 mandados de busca e apreensão",
           "platform": "rss"
         }
       ],
@@ -951,31 +856,25 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-02T22:11:06+00:00",
-      "last_seen": "2026-10-02T22:11:06+00:00",
+      "first_seen": "2026-10-03T12:12:41+00:00",
+      "last_seen": "2026-10-03T12:12:41+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "society",
       "language": "pt",
-      "resonance": 0.0509
+      "resonance": 0.0575
     },
     {
-      "id": "d37110e4d4",
-      "title": "Assista ao JRO2 desta sexta-feira, 2",
-      "signal_count": 2,
+      "id": "1ee39d2f52",
+      "title": "Morte precoce de Karina Zeviani tira de cena uma cantora de voz elegante com vivência cosmopolita e internacional",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "G1 Globo",
-          "url": "https://g1.globo.com/ro/rondonia/ao-vivo/assista-ao-jro2-desta-sexta-feira-2.ghtml",
-          "headline": "Assista ao JRO2 desta sexta-feira, 2",
-          "platform": "rss"
-        },
-        {
-          "outlet": "G1 Globo",
-          "url": "https://g1.globo.com/ap/ao-vivo/assista-ao-bdap-desta-quarta-30.ghtml",
-          "headline": "Assista ao JAP2 desta sexta (2)",
+          "url": "https://g1.globo.com/pop-arte/musica/blog/mauro-ferreira/post/2026/10/03/morte-precoce-de-karina-zeviani-tira-de-cena-uma-cantora-de-voz-elegante-com-vivencia-cosmopolita.ghtml",
+          "headline": "Morte precoce de Karina Zeviani tira de cena uma cantora de voz elegante com vivência cosmopolita e internacional",
           "platform": "rss"
         }
       ],
@@ -983,11 +882,40 @@
         "mean": 0.0,
         "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-02T22:09:55+00:00",
-      "last_seen": "2026-10-02T22:10:37+00:00",
+      "first_seen": "2026-10-03T12:10:30+00:00",
+      "last_seen": "2026-10-03T12:10:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "pt",
+      "resonance": 0.0504
+    },
+    {
+      "id": "dba3c5f332",
+      "title": "Motorista perde controle do carro e derruba poste em Osasco, na Grande SP; cinco pessoas ficam feridas",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "G1 Globo",
+          "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/10/03/motorista-perde-controle-do-carro-e-derruba-poste-em-osasco-na-grande-sp-cinco-pessoas-ficam-feridas.ghtml",
+          "headline": "Motorista perde controle do carro e derruba poste em Osasco, na Grande SP; cinco pessoas ficam feridas",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-03T12:10:23+00:00",
+      "last_seen": "2026-10-03T12:10:23+00:00",
       "platforms": [
         "rss"
       ],
@@ -999,39 +927,45 @@
   ],
   "edges": [
     {
-      "source": "30bc13fff7",
-      "target": "5177237775",
-      "weight": 0.068,
+      "source": "6ec6a2d98d",
+      "target": "c0ba160dd6",
+      "weight": 0.595,
       "type": "thematic"
     },
     {
-      "source": "30bc13fff7",
-      "target": "d37110e4d4",
-      "weight": 0.187,
+      "source": "b05c275387",
+      "target": "9ba9f9065d",
+      "weight": 0.579,
       "type": "thematic"
     },
     {
-      "source": "5dfcbcc3cf",
-      "target": "601e3a8dac",
-      "weight": 0.471,
+      "source": "821ca0b30e",
+      "target": "2b03201446",
+      "weight": 0.107,
       "type": "thematic"
     },
     {
-      "source": "116f611629",
-      "target": "f1a3a3bd94",
-      "weight": 0.143,
+      "source": "821ca0b30e",
+      "target": "7b11a66097",
+      "weight": 0.116,
       "type": "thematic"
     },
     {
-      "source": "86b38ac921",
-      "target": "cea25e5cbd",
-      "weight": 0.138,
+      "source": "090150c71f",
+      "target": "0b884b87db",
+      "weight": 0.455,
       "type": "thematic"
     },
     {
-      "source": "7d5ea8f3be",
-      "target": "f6459a3536",
-      "weight": 0.777,
+      "source": "090150c71f",
+      "target": "7b11a66097",
+      "weight": 0.009,
+      "type": "thematic"
+    },
+    {
+      "source": "9ccbedc32b",
+      "target": "7b11a66097",
+      "weight": 0.289,
       "type": "thematic"
     }
   ],

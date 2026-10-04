@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-04T05:13:30.831007+00:00",
+  "generated_at": "2026-10-04T13:50:20.801417+00:00",
   "node_count": 35,
-  "edge_count": 5,
+  "edge_count": 3,
   "nodes": [
     {
-      "id": "68af756530",
-      "title": "We're going to need default hard budget caps on pretty much everything",
+      "id": "799edc0045",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-          "headline": "We're going to need default hard budget caps on pretty much everything",
+          "url": "https://github.com/Niko1221/Strata",
+          "headline": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
           "platform": "hackernews"
         }
       ],
@@ -22,356 +22,82 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-04T00:20:16+00:00",
-      "last_seen": "2026-10-04T00:20:16+00:00",
+      "first_seen": "2026-10-04T12:51:53+00:00",
+      "last_seen": "2026-10-04T12:51:53+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "conflict",
       "resonance": 0.28
     },
     {
-      "id": "77df238335",
-      "title": "Debris found from plane that went missing off US coast",
-      "signal_count": 2,
+      "id": "6b26019057",
+      "title": "Russian strikes hit Kyiv while Germany's Merz visits",
+      "signal_count": 5,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
-          "headline": "Debris found from plane that went missing off US coast",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/10/4/russian-strike-hits-kyiv-bridge-as-german-chancellor-visits-ukraine?traffic_source=rss",
+          "headline": "Russia hits Kyiv bridge as Germany’s Merz visits Ukraine’s capital",
           "platform": "rss"
         },
         {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts",
-          "headline": "US Coast Guard searches for missing air ambulance off coast of Massachusetts",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/europe/article/3369698/russia-strikes-kyiv-bridge-germanys-merz-visits-pledges-aid?utm_source=rss_feed",
+          "headline": "Russia strikes Kyiv bridge as Germany’s Merz visits, pledges aid",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.15,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T03:38:48+00:00",
-      "last_seen": "2026-10-04T03:49:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.3904
-    },
-    {
-      "id": "5177d3f28d",
-      "title": "Germany's Merz arrives in Kyiv to pledge more support",
-      "signal_count": 1,
-      "sources": [
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/04/germany-s-merz-visits-kyiv-as-russia-steps-up-attacks-on-ukrainian-cities_6758230_4.html",
+          "headline": "Russian strikes hit Kyiv while Germany's Merz visits",
+          "platform": "rss"
+        },
         {
           "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/germany-s-merz-arrives-in-kyiv-to-pledge-more-support/a-79534734?maca=en-rss-en-all-1573-rdf",
-          "headline": "Germany's Merz arrives in Kyiv to pledge more support",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T05:07:00+00:00",
-      "last_seen": "2026-10-04T05:07:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2489
-    },
-    {
-      "id": "abfa122fac",
-      "title": "Somalia President: Houthis ‘not in a position’ to bring Yemen peace",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/somalia-president-houthis-not-in-a-position-to-bring-yemen-peace?traffic_source=rss",
-          "headline": "Somalia President: Houthis ‘not in a position’ to bring Yemen peace",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T05:00:40+00:00",
-      "last_seen": "2026-10-04T05:00:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2337
-    },
-    {
-      "id": "b62a0c15a4",
-      "title": "UK car industry faces ‘difficult trade-off’ between Chinese and EU markets",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/business/2026/oct/04/uk-car-industry-trade-off-china-made-in-europe-laws",
-          "headline": "UK car industry faces ‘difficult trade-off’ between Chinese and EU markets",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T05:00:18+00:00",
-      "last_seen": "2026-10-04T05:00:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.2328
-    },
-    {
-      "id": "cfc16e0202",
-      "title": "Bosnia general election 2026 explained in maps and charts",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/10/4/bosnia-general-election-2026-explained-in-maps-and-charts?traffic_source=rss",
-          "headline": "Bosnia general election 2026 explained in maps and charts",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:58:50+00:00",
-      "last_seen": "2026-10-04T04:58:50+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2293
-    },
-    {
-      "id": "3ba6c5853e",
-      "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
-          "headline": "Flydubai co-pilot attacked captain with axe, UAE official says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:57:20+00:00",
-      "last_seen": "2026-10-04T04:57:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2257
-    },
-    {
-      "id": "801bd72e08",
-      "title": "Brewers take Game 1 of NLDS after a controversial call on sure-fire home run ball that hit the stadium roof",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/brewers-take-game-1-nlds-controversial-call-sure-fire-home-run-ball-hit-stadium-roof",
-          "headline": "Brewers take Game 1 of NLDS after a controversial call on sure-fire home run ball that hit the stadium roof",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-10-04T04:55:32+00:00",
-      "last_seen": "2026-10-04T04:55:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2215
-    },
-    {
-      "id": "3810703afb",
-      "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss",
-          "headline": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:53:29+00:00",
-      "last_seen": "2026-10-04T04:53:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2166
-    },
-    {
-      "id": "c1546dcab8",
-      "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
-          "headline": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+          "url": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-all-1573-rdf",
+          "headline": "Germany's Merz visits Kyiv as Russia strikes bridge",
           "platform": "rss"
         },
         {
-          "outlet": "Euronews",
-          "url": "https://www.euronews.com/video/2026/10/03/tens-of-thousands-take-to-madrid-streets-demanding-housing-action",
-          "headline": "Tens of thousands take to Madrid streets demanding housing action",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Sky News",
-          "url": "https://news.sky.com/story/tens-of-thousands-protest-against-spains-housing-crisis-following-eviction-of-87-year-old-woman-13594689",
-          "headline": "Tens of thousands protest against Spain's housing crisis",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.082,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-10-03T13:42:00+00:00",
-      "last_seen": "2026-10-04T03:42:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.2162
-    },
-    {
-      "id": "58202b896b",
-      "title": "Iran opens military centre for citizens, 'training 1,000 battalions'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-opens-military-centre-citizens-training-1000-battalions",
-          "headline": "Iran opens military centre for citizens, 'training 1,000 battalions'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:53:16+00:00",
-      "last_seen": "2026-10-04T04:53:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2161
-    },
-    {
-      "id": "c37b229361",
-      "title": "Five workers dead, one injured in a boiler explosion at a Sri City SEZ facility",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/workers-killed-injured-in-a-boiler-explosion-at-a-sri-city-sez-facility/article71539836.ece",
-          "headline": "Five workers dead, one injured in a boiler explosion at a Sri City SEZ facility",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/germany-s-merz-visits-kyiv-as-russia-steps-up-attacks-on-ukrainian-cities",
+          "headline": "Germany's Merz visits Kyiv as Russia steps up attacks on Ukrainian cities",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.1,
-        "spread": 0.0,
+        "spread": 0.11,
         "left": 0,
-        "center": 1,
+        "center": 5,
         "right": 0
       },
-      "first_seen": "2026-10-04T04:45:05+00:00",
-      "last_seen": "2026-10-04T04:45:05+00:00",
+      "first_seen": "2026-10-04T07:58:36+00:00",
+      "last_seen": "2026-10-04T11:58:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1971
+      "topic": "conflict",
+      "resonance": 0.3791
     },
     {
-      "id": "ed9b1b3aa5",
-      "title": "'Debris field' found in search for missing medical flight from Bermuda",
+      "id": "772722225b",
+      "title": "French high school protests: Up to 500 schools to be totally or partly closed Monday",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-10-04/debris-found-missing-bermuda-boston-medical-flight-search/107227046",
-          "headline": "'Debris field' found in search for missing medical flight from Bermuda",
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/france/article/2026/10/04/french-high-school-protests-up-to-500-schools-to-be-totally-or-partly-closed-monday_6758237_7.html",
+          "headline": "French high school protests: Up to 500 schools to be totally or partly closed Monday",
           "platform": "rss"
         },
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/10/3/air-ambulance-missing-on-flight-from-bermuda-to-boston?traffic_source=rss",
-          "headline": "Debris from missing medical plane found, US coastguard says",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/france/20261004-up-to-500-french-schools-to-be-totally-or-partly-closed-monday-due-to-protests",
+          "headline": "Up to 500 French schools to be totally or partly closed Monday amid student protests",
           "platform": "rss"
         }
       ],
@@ -382,530 +108,32 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-10-03T23:03:44+00:00",
-      "last_seen": "2026-10-04T04:25:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1901
-    },
-    {
-      "id": "1f9aead4ab",
-      "title": "Vithya Ramraj’s record run: How far has India come in the 400m hurdles?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/data/vithya-ramrajs-record-run-how-far-has-india-come-in-the-400m-hurdles/article71541845.ece",
-          "headline": "Vithya Ramraj’s record run: How far has India come in the 400m hurdles?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:39:44+00:00",
-      "last_seen": "2026-10-04T04:39:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1848
-    },
-    {
-      "id": "6ee09dd217",
-      "title": "Latvian Prime Minister Andris Kulbergs wins election held under shadow of Ukraine war",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/10/04/world/politics/andris-kulbergs-latvia-election/",
-          "headline": "Latvian Prime Minister Andris Kulbergs wins election held under shadow of Ukraine war",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:38:00+00:00",
-      "last_seen": "2026-10-04T04:38:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1809
-    },
-    {
-      "id": "91cf2ec3d4",
-      "title": "Japan Protests After U.S. Marine Is Accused of Killing Woman in Okinawa",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/04/world/asia/japan-us-marine-killing-okinawa-woman.html",
-          "headline": "Japan Protests After U.S. Marine Is Accused of Killing Woman in Okinawa",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:35:34+00:00",
-      "last_seen": "2026-10-04T04:35:34+00:00",
+      "first_seen": "2026-10-04T12:50:45+00:00",
+      "last_seen": "2026-10-04T12:56:28+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "society",
-      "resonance": 0.1754
+      "resonance": 0.3242
     },
     {
-      "id": "6a5d558a8f",
-      "title": "3 students arrested in Malaysia over murder of girl found dead at school",
-      "signal_count": 1,
+      "id": "eb46e3945e",
+      "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3369683/3-students-arrested-malaysia-over-murder-girl-found-dead-school?utm_source=rss_feed",
-          "headline": "3 students arrested in Malaysia over murder of girl found dead at school",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:29:43+00:00",
-      "last_seen": "2026-10-04T04:29:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1623
-    },
-    {
-      "id": "88bbaf652e",
-      "title": "Israeli forces, settlers continue campaign of detentions and attacks in West Bank",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-settlers-continue-campaign-detentions-and-attacks-west",
-          "headline": "Israeli forces, settlers continue campaign of detentions and attacks in West Bank",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:29:41+00:00",
-      "last_seen": "2026-10-04T04:29:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1622
-    },
-    {
-      "id": "a20d25babb",
-      "title": "‘There should be some proof’: Delhi Police yet to file FIR over journalist’s sexual harassment claim against ACP",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-police-yet-to-file-fir-over-journalist-sexual-harassment-claim-against-acp-vivek-bhagat/article71542869.ece",
-          "headline": "‘There should be some proof’: Delhi Police yet to file FIR over journalist’s sexual harassment claim against ACP",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:29:30+00:00",
-      "last_seen": "2026-10-04T04:29:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1618
-    },
-    {
-      "id": "3ab0ac25f9",
-      "title": "Ukraine to target Russian refineries as Zelenskyy responds to air strikes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-10-04/ukraine-to-hit-russian-refineries-in-response-to-moscow-strikes/107226904",
-          "headline": "Ukraine to target Russian refineries as Zelenskyy responds to air strikes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:25:14+00:00",
-      "last_seen": "2026-10-04T04:25:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1524
-    },
-    {
-      "id": "239a07b207",
-      "title": "Protest against CEC Gyanesh Kumar: Over 500 protesters detained; AISA, Yogendra Yadav call for citizen's march again today",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/protest-against-cec-gyanesh-kumar-october-4-2026/article71542893.ece",
-          "headline": "Protest against CEC Gyanesh Kumar: Over 500 protesters detained; AISA, Yogendra Yadav call for citizen's march again today",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss",
+          "headline": "Ethiopian rebel forces withdraw from Tigray regional capital",
           "platform": "rss"
         },
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/delhi-protest-against-gyanesh-kumar-october-3-2026/article71539583.ece",
-          "headline": "Protest against CEC Gyanesh Kumar updates: AISA president Neha Bora, Prashant Bhushan among 150 protesters detained in Delhi",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:02:06+00:00",
-      "last_seen": "2026-10-04T04:23:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1512
-    },
-    {
-      "id": "f28aaca97a",
-      "title": "How non-monogamy and mental health shaped Rowena Wise's songwriting",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-10-04/rowena-wise-bad-things-feel-good-album-tour-non-monogamy/107176152",
-          "headline": "How non-monogamy and mental health shaped Rowena Wise's songwriting",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:20:11+00:00",
-      "last_seen": "2026-10-04T04:20:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1413
-    },
-    {
-      "id": "0e2f0baf38",
-      "title": "Rare tornado whips through small Australian town",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/c69qzvggzppro?at_medium=RSS&at_campaign=rss",
-          "headline": "Rare tornado whips through small Australian town",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:15:36+00:00",
-      "last_seen": "2026-10-04T04:15:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1314
-    },
-    {
-      "id": "e9c984015c",
-      "title": "SA government says prior parklands works set precedent for MotoGP circuit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-10-04/sa-government-major-works-motogp-plans/107226950",
-          "headline": "SA government says prior parklands works set precedent for MotoGP circuit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:10:53+00:00",
-      "last_seen": "2026-10-04T04:10:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1213
-    },
-    {
-      "id": "5e5f6bf31c",
-      "title": "Trump defiant about midterm chances as he rallies for Republicans in Ohio",
-      "signal_count": 1,
-      "sources": [
-        {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/10/4/trump-defiant-about-midterm-chances-as-he-rallies-for-republicans-in-ohio?traffic_source=rss",
-          "headline": "Trump defiant about midterm chances as he rallies for Republicans in Ohio",
+          "url": "https://www.aljazeera.com/news/2026/10/4/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels?traffic_source=rss",
+          "headline": "Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:10:17+00:00",
-      "last_seen": "2026-10-04T04:10:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.12
-    },
-    {
-      "id": "bf9980153c",
-      "title": "New Mong Kok bookshop opens amid harsh winter for indie bookstores in Hong Kong",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/society/article/3369680/new-mong-kok-bookshop-opens-amid-harsh-winter-indie-bookstores-hong-kong?utm_source=rss_feed",
-          "headline": "New Mong Kok bookshop opens amid harsh winter for indie bookstores in Hong Kong",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:05:40+00:00",
-      "last_seen": "2026-10-04T04:05:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1103
-    },
-    {
-      "id": "d3438e5179",
-      "title": "New AI laws should target data governance, safety to build public confidence: experts",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3369672/new-ai-laws-should-target-data-governance-safety-build-public-confidence-experts?utm_source=rss_feed",
-          "headline": "New AI laws should target data governance, safety to build public confidence: experts",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:00:15+00:00",
-      "last_seen": "2026-10-04T04:00:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.099
-    },
-    {
-      "id": "3f5fff1100",
-      "title": "Moral panic, evangelical fury and a culture war: The Bolsonaro formula threatens Lula’s re-election bid",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/international/2026-10-04/moral-panic-evangelical-fury-and-a-culture-war-the-bolsonaro-formula-threatens-lulas-re-election-bid.html",
-          "headline": "Moral panic, evangelical fury and a culture war: The Bolsonaro formula threatens Lula’s re-election bid",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:00:00+00:00",
-      "last_seen": "2026-10-04T04:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0984
-    },
-    {
-      "id": "43a3432cba",
-      "title": "Has Trump’s luck run out? Now who will woo the Latino vote...",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/opinion/2026-10-03/has-trumps-luck-run-out-now-who-will-woo-the-latino-vote.html",
-          "headline": "Has Trump’s luck run out? Now who will woo the Latino vote...",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:00:00+00:00",
-      "last_seen": "2026-10-04T04:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0984
-    },
-    {
-      "id": "d5863cea3e",
-      "title": "Shell companies, Kyrgyz firms, and cryptocurrencies: The Kremlin’s phantom network to evade sanctions",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/international/2026-10-03/shell-companies-kyrgyz-firms-and-cryptocurrencies-the-kremlins-phantom-network-to-evade-sanctions.html",
-          "headline": "Shell companies, Kyrgyz firms, and cryptocurrencies: The Kremlin’s phantom network to evade sanctions",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-04T04:00:00+00:00",
-      "last_seen": "2026-10-04T04:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0984
-    },
-    {
-      "id": "41793d199d",
-      "title": "Shooting near Baltimore youth football event leaves 12-year-old girl dead, 3 adults wounded",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/shooting-near-baltimore-youth-football-event-leaves-12-year-old-girl-dead-3-adults-wounded",
-          "headline": "Shooting near Baltimore youth football event leaves 12-year-old girl dead, 3 adults wounded",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-10-04T03:55:32+00:00",
-      "last_seen": "2026-10-04T03:55:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0892
-    },
-    {
-      "id": "b2bf383a36",
-      "title": "In Tigray, Ethiopian government forces have advanced against a northern rebel group, reports indicate",
-      "signal_count": 1,
-      "sources": [
+        },
         {
           "outlet": "Deutsche Welle",
           "url": "https://www.dw.com/en/in-tigray-ethiopian-government-forces-have-advanced-against-a-northern-rebel-group-reports-indicate/a-79534372?maca=en-rss-en-all-1573-rdf",
@@ -915,29 +143,229 @@
       ],
       "bias": {
         "mean": -0.1,
-        "spread": 0.0,
+        "spread": 0.082,
         "left": 0,
-        "center": 1,
+        "center": 3,
         "right": 0
       },
       "first_seen": "2026-10-04T03:48:00+00:00",
-      "last_seen": "2026-10-04T03:48:00+00:00",
+      "last_seen": "2026-10-04T13:33:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.0739
+      "resonance": 0.2821
     },
     {
-      "id": "ebff3e475f",
-      "title": "Iran arrests 31 people linked to 'US-Israel sabotage networks', report says",
+      "id": "0f32e64dd8",
+      "title": "Voting in Brazil's 2026 presidential election has begun, with polls showing Lula and Bolsonaro nearly tied",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/brazil-lula-and-bolsonaro-tied-in-polls",
+          "headline": "Brazil: Lula and Bolsonaro tied in polls",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/voting-in-brazil-s-2026-presidential-election-has-begun-with-polls-showing-lula-and-bolsonaro-nearly-tied/a-79533857?maca=en-rss-en-all-1573-rdf",
+          "headline": "Voting in Brazil's 2026 presidential election has begun, with polls showing Lula and Bolsonaro nearly tied",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20261004-brazilians-start-voting-in-tight-election-between-lula-and-flavio-bolsonaro",
+          "headline": "Brazil heads to the polls for high-stakes election between Lula and Flavio Bolsonaro",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T11:17:45+00:00",
+      "last_seen": "2026-10-04T13:19:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2718
+    },
+    {
+      "id": "eed709721f",
+      "title": "Glastonbury 2027 tickets sell out in 42 minutes",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/culture/article/2026/10/04/uk-s-glastonbury-festival-tickets-sell-out-in-45-minutes_6758238_30.html",
+          "headline": "UK's Glastonbury festival tickets sell out in 45 minutes",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmpd0wev8v38o?at_medium=RSS&at_campaign=rss",
+          "headline": "Glastonbury 2027 tickets sell out in 42 minutes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T11:24:58+00:00",
+      "last_seen": "2026-10-04T13:00:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2716
+    },
+    {
+      "id": "91cf2ec3d4",
+      "title": "Japan Protests After U.S. Marine Is Accused of Killing Woman in Okinawa",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/us-marine-arrested-japan-suspected-killing-woman-tokyo-lodges-strong-protest",
+          "headline": "US Marine arrested in Japan over suspected killing of woman as Tokyo lodges 'strong protest'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/04/us-marine-accused-murder-japan-drawing-official-protest-tokyo/",
+          "headline": "U.S. Marine accused of killing woman in Japan, drawing official protest from Tokyo",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/04/world/asia/japan-us-marine-killing-okinawa-woman.html",
+          "headline": "Japan Protests After U.S. Marine Is Accused of Killing Woman in Okinawa",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.424,
+        "left": 2,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-04T08:38:42+00:00",
+      "last_seen": "2026-10-04T12:38:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.2625
+    },
+    {
+      "id": "3fbc531b95",
+      "title": "Brazil Election: What to Know as Lula and Bolsonaro Face Off in 2026 Presidential Race",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/lula-and-bolsonaro-face-off-in-brazil-presidential-race",
+          "headline": "Lula and Bolsonaro face off in Brazil presidential race",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/4/brazil-elections-live-voters-head-to-polls-for-close-presidential-race?traffic_source=rss",
+          "headline": "Brazil elections live: Lula faces Bolsonaro in close presidential race",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/04/world/americas/brazil-election-2026-president-race-lula-bolsonaro.html",
+          "headline": "Brazil Election: What to Know as Lula and Bolsonaro Face Off in 2026 Presidential Race",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.082,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T09:02:22+00:00",
+      "last_seen": "2026-10-04T11:56:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.231
+    },
+    {
+      "id": "f051869d6b",
+      "title": "Cornell president calls alleged gang rape 'deeply disturbing,' pledges greater transparency",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/cornell-president-breaks-silence-over-alleged-campus-rape",
+          "headline": "Cornell president breaks silence over alleged campus rape",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/10/04/world/crime-legal/cornell-president-review-student-rape/",
+          "headline": "Cornell president vows review in wake of alleged student gang rape",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-10-04/cornell-president-vows-serious-look-at-fraternities-sororities/107227132",
+          "headline": "Cornell president vows 'serious look' at fraternities in wake of gang rape allegations",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/04/cornell-president-calls-alleged-gang-rape-deeply-disturbing-pledges-greater-transparency_6758226_4.html",
+          "headline": "Cornell president calls alleged gang rape 'deeply disturbing,' pledges greater transparency",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.071,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T02:39:51+00:00",
+      "last_seen": "2026-10-04T11:53:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2195
+    },
+    {
+      "id": "d140eb549b",
+      "title": "US reponse to Hormuz proposal currently 'under review' by Tehran",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-arrests-31-people-linked-us-israel-sabotage-networks-report-says",
-          "headline": "Iran arrests 31 people linked to 'US-Israel sabotage networks', report says",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-reponse-hormuz-proposal-currently-under-review-tehran",
+          "headline": "US reponse to Hormuz proposal currently 'under review' by Tehran",
           "platform": "rss"
         }
       ],
@@ -948,24 +376,108 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-10-04T03:41:35+00:00",
-      "last_seen": "2026-10-04T03:41:35+00:00",
+      "first_seen": "2026-10-04T13:49:52+00:00",
+      "last_seen": "2026-10-04T13:49:52+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.061
+      "resonance": 0.1858
     },
     {
-      "id": "452cf7ec48",
-      "title": "Texas mother facing capital murder charges after allegedly shooting her two sons to death",
+      "id": "b86bdcb16e",
+      "title": "British Museum announces changes to ease Bayeux Tapestry queues",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwvgrle6dx2lo?at_medium=RSS&at_campaign=rss",
+          "headline": "British Museum announces changes to ease Bayeux Tapestry queues",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T13:45:24+00:00",
+      "last_seen": "2026-10-04T13:45:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1783
+    },
+    {
+      "id": "e6b6a247dd",
+      "title": "Andhra Pradesh ready for local body polls, awaiting SC verdict on BC quota: Narayana",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-ready-for-local-body-polls-awaiting-sc-verdict-on-bc-quota-narayana/article71543952.ece",
+          "headline": "Andhra Pradesh ready for local body polls, awaiting SC verdict on BC quota: Narayana",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T13:44:09+00:00",
+      "last_seen": "2026-10-04T13:44:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1762
+    },
+    {
+      "id": "18dc63bd2f",
+      "title": "Prisons Department rejects Owaisi’s bribery allegations against Chanchalguda jail Superintendent",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/telangana/prisons-department-rejects-owaisis-bribery-allegations-against-chanchalguda-jail-superintendent/article71543783.ece",
+          "headline": "Prisons Department rejects Owaisi’s bribery allegations against Chanchalguda jail Superintendent",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T13:43:52+00:00",
+      "last_seen": "2026-10-04T13:43:52+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1757
+    },
+    {
+      "id": "b670338cdd",
+      "title": "Cowboys legend Randy White endorses Ken Paxton, warns James Talarico ‘can’t be trusted’",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/texas-mother-facing-capital-murder-charges-after-allegedly-shooting-her-two-sons-death",
-          "headline": "Texas mother facing capital murder charges after allegedly shooting her two sons to death",
+          "url": "https://www.foxnews.com/outkick-sports/cowboys-legend-randy-white-endorses-ken-paxton-warns-james-talarico-cant-be-trusted",
+          "headline": "Cowboys legend Randy White endorses Ken Paxton, warns James Talarico ‘can’t be trusted’",
           "platform": "rss"
         }
       ],
@@ -976,24 +488,614 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-10-04T03:40:27+00:00",
-      "last_seen": "2026-10-04T03:40:27+00:00",
+      "first_seen": "2026-10-04T13:43:09+00:00",
+      "last_seen": "2026-10-04T13:43:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1745
+    },
+    {
+      "id": "505c787ba7",
+      "title": "Two visually impaired cyclists take part in inaugural L’Etape by Tour de France in Mysuru",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/two-visually-impaired-cyclists-take-part-in-inaugural-letape-by-tour-de-france-in-mysuru/article71543988.ece",
+          "headline": "Two visually impaired cyclists take part in inaugural L’Etape by Tour de France in Mysuru",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T13:43:05+00:00",
+      "last_seen": "2026-10-04T13:43:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1744
+    },
+    {
+      "id": "3810703afb",
+      "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/10/4/brazil-votes-in-deeply-polarised-election-pitting-lula-against-bolsonaro?traffic_source=rss",
+          "headline": "Brazil votes in deeply polarised election pitting Lula against Bolsonaro",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss",
+          "headline": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T11:03:20+00:00",
+      "last_seen": "2026-10-04T11:15:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1658
+    },
+    {
+      "id": "1cba32e1ef",
+      "title": "Fever star Sophie Cunningham tells Aces' A'ja Wilson to 'grow up' in response to her playoff meltdown",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/fever-star-sophie-cunningham-tells-aces-aja-wilson-grow-up-response-playoff-meltdown",
+          "headline": "Fever star Sophie Cunningham tells Aces' A'ja Wilson to 'grow up' in response to her playoff meltdown",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-04T13:36:52+00:00",
+      "last_seen": "2026-10-04T13:36:52+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0588
+      "resonance": 0.1641
     },
     {
-      "id": "7961b91389",
-      "title": "Japan delivers ‘strong protest’ to U.S. after marine arrested in Okinawa robbery-murder",
+      "id": "f4e17bb4ff",
+      "title": "The week in pictures: Disaster averted on Flydubai flight, French school protests and Bangkok floods",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261004-the-week-in-pictures-disaster-averted-flydubai-flight-french-school-protests-and-bangkok-floods",
+          "headline": "The week in pictures: Disaster averted on Flydubai flight, French school protests and Bangkok floods",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T13:35:11+00:00",
+      "last_seen": "2026-10-04T13:35:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1614
+    },
+    {
+      "id": "18807e1cad",
+      "title": "Trump names AI czar to head White House task force",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/trump-names-ai-czar-to-head-white-house-task-force/a-79537966?maca=en-rss-en-all-1573-rdf",
+          "headline": "Trump names AI czar to head White House task force",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T13:34:00+00:00",
+      "last_seen": "2026-10-04T13:34:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1594
+    },
+    {
+      "id": "8a64856ade",
+      "title": "Jon Gruden fires up Trump rally crowd in Ohio as if delivering a locker room speech then delivers endorsement",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/jon-gruden-fires-trump-rally-crowd-ohio-locker-room-speech-endorsement",
+          "headline": "Jon Gruden fires up Trump rally crowd in Ohio as if delivering a locker room speech then delivers endorsement",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-04T13:27:43+00:00",
+      "last_seen": "2026-10-04T13:27:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1493
+    },
+    {
+      "id": "3742c762b7",
+      "title": "I'm a classic old school Conservative, says Kemi Badenoch",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cx7vp6d5pgn1o?at_medium=RSS&at_campaign=rss",
+          "headline": "I'm a classic old school Conservative, says Kemi Badenoch",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T13:24:14+00:00",
+      "last_seen": "2026-10-04T13:24:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1437
+    },
+    {
+      "id": "0c01a3e843",
+      "title": "China Eastern reports passenger to police over cabin crew kneeling row",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/article/3369719/china-eastern-reports-passenger-police-over-cabin-crew-kneeling-row?utm_source=rss_feed",
+          "headline": "China Eastern reports passenger to police over cabin crew kneeling row",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T13:20:27+00:00",
+      "last_seen": "2026-10-04T13:20:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.1377
+    },
+    {
+      "id": "58dbb529df",
+      "title": "Lula de Silva: 80-year-old incumbent Brazilian president seeks 4th term",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/lula-de-silva-80-year-old-incumbent-brazilian-president-seeks-4th-term",
+          "headline": "Lula de Silva: 80-year-old incumbent Brazilian president seeks 4th term",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T13:17:55+00:00",
+      "last_seen": "2026-10-04T13:17:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1337
+    },
+    {
+      "id": "57a9d57e44",
+      "title": "What are the five questions being asked regarding the Flydubai attack?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/10/4/what-are-the-five-questions-being-asked-regarding-the-flydubai-attack?traffic_source=rss",
+          "headline": "What are the five questions being asked regarding the Flydubai attack?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T13:11:27+00:00",
+      "last_seen": "2026-10-04T13:11:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1236
+    },
+    {
+      "id": "69b7cc2be5",
+      "title": "Hong Kong issues amber rainstorm warning",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3369718/hong-kong-issues-amber-rainstorm-warning?utm_source=rss_feed",
+          "headline": "Hong Kong issues amber rainstorm warning",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T13:05:38+00:00",
+      "last_seen": "2026-10-04T13:05:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1147
+    },
+    {
+      "id": "14354a8d20",
+      "title": "Did the fall of al-Andalus reshape Europe forever?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/deja-vu-2/2026/10/4/did-the-fall-of-al-andalus-reshape-europe-forever?traffic_source=rss",
+          "headline": "Did the fall of al-Andalus reshape Europe forever?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T13:01:54+00:00",
+      "last_seen": "2026-10-04T13:01:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.109
+    },
+    {
+      "id": "27543a8bae",
+      "title": "Should We Ban AI for Kids?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/podcasts/2026/10/should-we-ban-ai-for-kids/688864/?utm_source=feed",
+          "headline": "Should We Ban AI for Kids?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T13:00:00+00:00",
+      "last_seen": "2026-10-04T13:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1061
+    },
+    {
+      "id": "274eec26c5",
+      "title": "Yemen's leader announces counter-offensive as Houthis cut off supply route to besieged city",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/middle-east/20261004-yemen-leader-announces-counter-offensive-as-houthis-cut-off-supply-route-besieged-city-taiz",
+          "headline": "Yemen's leader announces counter-offensive as Houthis cut off supply route to besieged city",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T12:59:17+00:00",
+      "last_seen": "2026-10-04T12:59:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1051
+    },
+    {
+      "id": "ee52755092",
+      "title": "Amid teen triumph and organisational chaos, Asian Games close in Japan",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/10/4/amid-teen-triumph-and-organisational-chaos-asian-games-close-in-japan?traffic_source=rss",
+          "headline": "Amid teen triumph and organisational chaos, Asian Games close in Japan",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T12:53:33+00:00",
+      "last_seen": "2026-10-04T12:53:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0965
+    },
+    {
+      "id": "fec296b0e9",
+      "title": "Underdog Promo Code FOXNEWS: Play $5, Get $100 on MLB Division Series Padres vs. Brewers",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-betting/underdog-promo-code-foxnews-play-5-get-100-mlb-division-series-padres-vs-brewers",
+          "headline": "Underdog Promo Code FOXNEWS: Play $5, Get $100 on MLB Division Series Padres vs. Brewers",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-betting/underdog-promo-code-foxnews-play-5-get-100-lions-vs-panthers",
+          "headline": "Underdog Promo Code FOXNEWS: Play $5, Get $100 for Lions vs Panthers",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-betting/underdog-promo-code-foxnews-play-5-get-100-eagles-vs-rams",
+          "headline": "Underdog Promo Code FOXNEWS: Play $5, Get $100 on Eagles vs Rams",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 3
+      },
+      "first_seen": "2026-10-04T12:22:20+00:00",
+      "last_seen": "2026-10-04T12:40:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0795
+    },
+    {
+      "id": "12af2eef10",
+      "title": "BetMGM Bonus Code FOXNEWS: Up to $1500 in Bonus Bets Back if Your NFL Sunday Bet Loses",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-betting/betmgm-bonus-code-foxnews-up-1500-bonus-bets-back-your-nfl-sunday-bet-loses",
+          "headline": "BetMGM Bonus Code FOXNEWS: Up to $1500 in Bonus Bets Back if Your NFL Sunday Bet Loses",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-betting/betmgm-bonus-code-foxnews-bet-10-get-150-nfl-sunday-select-states",
+          "headline": "BetMGM Bonus Code FOXNEWS: Bet $10, Get $150 on NFL Sunday in Select States",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 2
+      },
+      "first_seen": "2026-10-04T12:26:37+00:00",
+      "last_seen": "2026-10-04T12:34:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0704
+    },
+    {
+      "id": "db724ed258",
+      "title": "Iran says Hormuz to remain closed until US meets conditions",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions?traffic_source=rss",
+          "headline": "Iran says Hormuz to remain closed until US meets conditions",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-hormuz-strait-remain-closed-until-us-meets-seven-conditions",
+          "headline": "Iran says Hormuz Strait to remain closed until US meets seven conditions",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.225,
+        "spread": 0.025,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T08:55:24+00:00",
+      "last_seen": "2026-10-04T11:11:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0656
+    },
+    {
+      "id": "7f15a48e78",
+      "title": "Ceuta migrant camp being removed ahead of Spanish king's visit",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/04/ceuta-migrant-camp-being-removed-ahead-of-spanish-king-s-visit_6758236_4.html",
+          "headline": "Ceuta migrant camp being removed ahead of Spanish king's visit",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T12:31:53+00:00",
+      "last_seen": "2026-10-04T12:31:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0652
+    },
+    {
+      "id": "1d0bca8240",
+      "title": "How the ‘G2’ effect of Trump-Xi summit is reverberating through Asia",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/opinion/asia-opinion/article/3369358/how-g2-effect-trump-xi-summit-reverberating-through-asia?utm_source=rss_feed",
+          "headline": "How the ‘G2’ effect of Trump-Xi summit is reverberating through Asia",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-04T12:30:06+00:00",
+      "last_seen": "2026-10-04T12:30:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0626
+    },
+    {
+      "id": "8ae684b3ed",
+      "title": "Russia vows to step up strikes and warns diplomats to avoid Kyiv",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/10/04/japan/crime-legal/okinawa-marine-arrest-robbery-murder/",
-          "headline": "Japan delivers ‘strong protest’ to U.S. after marine arrested in Okinawa robbery-murder",
+          "url": "https://www.japantimes.co.jp/news/2026/10/04/world/russia-vows-increased-strikes/",
+          "headline": "Russia vows to step up strikes and warns diplomats to avoid Kyiv",
           "platform": "rss"
         }
       ],
@@ -1004,45 +1106,33 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-04T03:36:00+00:00",
-      "last_seen": "2026-10-04T03:36:00+00:00",
+      "first_seen": "2026-10-04T12:21:00+00:00",
+      "last_seen": "2026-10-04T12:21:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "society",
+      "topic": "conflict",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "77df238335",
-      "target": "ed9b1b3aa5",
-      "weight": 0.724,
+      "source": "6b26019057",
+      "target": "8ae684b3ed",
+      "weight": 0.264,
       "type": "thematic"
     },
     {
-      "source": "3810703afb",
-      "target": "3f5fff1100",
-      "weight": 0.406,
+      "source": "772722225b",
+      "target": "f4e17bb4ff",
+      "weight": 0.359,
       "type": "thematic"
     },
     {
-      "source": "91cf2ec3d4",
-      "target": "7961b91389",
-      "weight": 0.735,
-      "type": "thematic"
-    },
-    {
-      "source": "6a5d558a8f",
-      "target": "41793d199d",
-      "weight": 0.11,
-      "type": "thematic"
-    },
-    {
-      "source": "6a5d558a8f",
-      "target": "7961b91389",
-      "weight": 0.245,
+      "source": "0f32e64dd8",
+      "target": "3810703afb",
+      "weight": 0.682,
       "type": "thematic"
     }
   ],
@@ -1069,7 +1159,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 8,
+      "count": 9,
       "error": null
     },
     "The Economist": {

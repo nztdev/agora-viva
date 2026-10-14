@@ -1,184 +1,114 @@
 {
-  "generated_at": "2026-10-14T13:00:13.852954+00:00",
+  "generated_at": "2026-10-14T21:51:30.044292+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 4,
+  "edge_count": 16,
   "nodes": [
     {
-      "id": "fda51e52d6",
-      "title": "Landtag in Sachsen-Anhalt: Sachsen-Anhalts Landtag beschließt AfD-BSW-Antrag zur Ukraine",
-      "signal_count": 3,
+      "id": "e98827f0b7",
+      "title": "Champions League: Borussia Dortmund verliert bei Bodø/Glimt",
+      "signal_count": 4,
       "sources": [
         {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Landtag-von-Sachsen-Anhalt-fordert-Sieg-Russlands-id31416062.html",
-          "headline": "AfD und BSW triumphieren: Landtag von Sachsen-Anhalt fordert Sieg Russlands",
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/fussball/champions-league-borussia-dortmund-verliert-bei-bodo-glimt-a-b91a4a7c-1ff1-4f63-ac2c-45800669292e#ref=rss",
+          "headline": "Champions League: Borussia Dortmund verliert bei Bodø/Glimt",
           "platform": "rss"
         },
         {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/video6acf697285ec8093bcfbde00/mit-stimmen-von-afd-und-bsw-landtag-von-sachsen-anhalt-fordert-sofortiges-ende-saemtlicher-ukraine-hilfen.html",
-          "headline": "Landtag von Sachsen-Anhalt fordert sofortiges Ende sämtlicher Ukraine-Hilfen",
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/sport/dortmund-champions-league-bodo-glimt-kovac-li.3563768",
+          "headline": "Borussia Dortmund in der Champions League: Auch der BVB macht die leidvolle Bodø-Erfahrung",
           "platform": "rss"
         },
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/tobias-rausch-landtagspraesident-sachsen-anhalt-unparteilichkeit-afd",
-          "headline": "Landtag in Sachsen-Anhalt: Sachsen-Anhalts Landtag beschließt AfD-BSW-Antrag zur Ukraine",
+          "url": "https://www.zeit.de/news/2026-10/14/bvb-wacht-zu-spaet-auf-0-1-bei-bodoe-glimt",
+          "headline": "Fußball-Champions-League: BVB wacht zu spät auf: 0:1 bei Bodö/Glimt",
+          "platform": "rss"
+        },
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/sport/fussball/champions-league/champions-league-borussia-dortmund-verliert-ueberraschend-bei-bodoe-glimt-201305341.html",
+          "headline": "Champions League: BVB wacht zu spät auf und verliert im norwegischen Eiswind",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.245,
+        "mean": -0.112,
+        "spread": 0.188,
         "left": 1,
-        "center": 1,
-        "right": 1
+        "center": 3,
+        "right": 0
       },
-      "first_seen": "2026-10-14T11:45:15+00:00",
-      "last_seen": "2026-10-14T12:44:00+00:00",
+      "first_seen": "2026-10-14T20:52:20+00:00",
+      "last_seen": "2026-10-14T21:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.7373
+    },
+    {
+      "id": "faf3c400b2",
+      "title": "Luftverkehr: Kerosin-Mangel am Flughafen Frankfurt - Lufthansa reagiert",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-10/14/kerosin-mangel-am-flughafen-frankfurt-lufthansa-reagiert",
+          "headline": "Luftverkehr: Kerosin-Mangel am Flughafen Frankfurt - Lufthansa reagiert",
+          "platform": "rss"
+        },
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-kerosin-mangel-am-flughafen-frankfurt-lufthansa-reagiert-faz-200452404.html",
+          "headline": "Business-Ticker: Kerosin-Mangel am Flughafen Frankfurt – Lufthansa reagiert",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/unternehmen/industrie/luftfahrt-kerosin-mangel-am-flughafen-frankfurt-lufthansa-reagiert/100262332.html",
+          "headline": "Luftfahrt: Kerosin-Mangel am Flughafen Frankfurt – Lufthansa reagiert",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.017,
+        "spread": 0.225,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T20:30:58+00:00",
+      "last_seen": "2026-10-14T20:58:46+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.7081
+      "resonance": 0.5493
     },
     {
-      "id": "317a9a56f5",
-      "title": "Bundestag: Live: Friedrich Merz’ Regierungserklärung zum EU-Gipfel",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/friedrich-merz-regierungserklaerung-eu-gipfel-livestream",
-          "headline": "Bundestag: Live: Friedrich Merz’ Regierungserklärung zum EU-Gipfel",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/politik/deutschland/friedrich-merz-regierungserklaerung-des-kanzlers-im-livestream-a-a76e6c74-b6f6-4c3d-b536-50d9c7b5987c#ref=rss",
-          "headline": "Friedrich Merz: Regierungserklärung des Kanzlers im Livestream",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/politik/bundesregierung-news-zuckersteuer-kabinett-li.3529564",
-          "headline": "Newsblog zur Bundespolitik: Regierungserklärung von Merz zum bevorstehenden EU-Gipfel",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.217,
-        "spread": 0.062,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T11:56:59+00:00",
-      "last_seen": "2026-10-14T12:10:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.5948
-    },
-    {
-      "id": "a4a109acf1",
-      "title": "Rot-grün-Rot: Verabredungen mit Extremisten sind nichts wert",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Rot-Gruen-Rot-zerlegt-sich-bevor-es-angefangen-hat-id31416687.html",
-          "headline": "Zoff um Linken-Abgeordnete: Rot-Grün-Rot zerlegt sich, bevor es angefangen hat",
-          "platform": "rss"
-        },
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/inland/sondierung-in-berlin-pausiert-aber-nicht-abgebrochen-worauf-warten-gruene-und-spd-noch-201316181.html",
-          "headline": "Rot-grün-Rot: Verabredungen mit Extremisten sind nichts wert",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/parteien-wie-die-gruenen-um-ihr-verhaeltnis-zur-linkspartei-ringen/100260489.html",
-          "headline": "Parteien: Sehnsucht nach „Rot-Rot-Grün“ trifft auf Berlin-Chaos: Wie die Grünen um ihr Verhältnis zur Linkspartei ringen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.117,
-        "spread": 0.085,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T10:56:43+00:00",
-      "last_seen": "2026-10-14T12:26:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.5606
-    },
-    {
-      "id": "02f68e4663",
-      "title": "Regierungserklärung: Merz: Müssen «schöpferische Kräfte» einsetzen",
+      "id": "b73eba4162",
+      "title": "Champions League: VfB Stuttgart siegt in Bratislava, Real Madrid gewinnt mit Jose Mourinho in Rom",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-merz-will-schoepferische-kraefte-nutzen/100137034.html",
-          "headline": "Bundespolitik: Merz will „schöpferische Kräfte“ nutzen – Chrupalla fordert Schröder als Russland-Verhandler",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-10/14/merz-muessen-schoepferische-kraefte-einsetzen",
-          "headline": "Regierungserklärung: Merz: Müssen «schöpferische Kräfte» einsetzen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.225,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:54:28+00:00",
-      "last_seen": "2026-10-14T13:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.5002
-    },
-    {
-      "id": "08feb232fd",
-      "title": "Fluggesellschaften: Lufthansa erhält Zuschlag für Einstieg bei portugiesischer TAP",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/wirtschaft/2026-10/lufthansa-tap-air-portugal-anteile-teilprivatisierung",
-          "headline": "Fluggesellschaften: Lufthansa erhält Zuschlag für Einstieg bei portugiesischer TAP",
-          "platform": "rss"
-        },
-        {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/wirtschaft/unternehmen/lufthansa-gewinnt-bieterrennen-um-portugiesische-tap-a-94b1fa05-0e14-4f74-9003-57fb08af5dd7#ref=rss",
-          "headline": "Lufthansa erhält Zuschlag für portugiesische TAP",
+          "url": "https://www.spiegel.de/sport/fussball/champions-league-vfb-stuttgart-siegt-in-bratislava-real-madrid-gewinnt-mit-jose-mourinho-in-rom-a-3896e725-4609-485c-9932-a42f8fa9be3c#ref=rss",
+          "headline": "Champions League: VfB Stuttgart siegt in Bratislava, Real Madrid gewinnt mit Jose Mourinho in Rom",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-10/14/undav-trifft-erstmals-stuttgart-gewinnt-auch-in-bratislava",
+          "headline": "Champions League: Undav trifft erstmals – Stuttgart gewinnt auch in Bratislava",
           "platform": "rss"
         }
       ],
@@ -189,466 +119,328 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-14T12:23:00+00:00",
-      "last_seen": "2026-10-14T12:32:42+00:00",
+      "first_seen": "2026-10-14T21:21:47+00:00",
+      "last_seen": "2026-10-14T21:46:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.42
+      "resonance": 0.4825
     },
     {
-      "id": "d38b83a992",
-      "title": "Prozess in Hamburg: Verteidigung: „Nord Stream war von Anfang an eine Waffe“",
-      "signal_count": 2,
+      "id": "6bd0e06647",
+      "title": "Berlin: Linke, Grüne und SPD wollen Sondierungsgespräche wieder aufnehmen",
+      "signal_count": 4,
       "sources": [
         {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/politik/nordstream-prozess-hamburg-pipeline-sprengung-ukraine-li.3563143",
-          "headline": "Prozess in Hamburg: Verteidigung: „Nord Stream war von Anfang an eine Waffe“",
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/berlin-linke-gruene-und-spd-sondieren-nach-verstaendigung-weiter/100262330.html",
+          "headline": "Landesregierung: Linke, Grüne und SPD sondieren in Berlin nach Verständigung weiter",
           "platform": "rss"
         },
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/nord-stream-anschlag-prozess-hamburg-serhii-k-ukraine-oberlandesgericht",
-          "headline": "Nord-Stream-Anschlag: Nord-Stream-Prozess hat in Hamburg begonnen",
+          "url": "https://www.zeit.de/politik/deutschland/2026-10/berliner-erklaerung-antisemitismus-spd-linke-gruene-berlin",
+          "headline": "Berlin: Linke, Grüne und SPD wollen Sondierungsgespräche wieder aufnehmen",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.05,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T11:56:10+00:00",
-      "last_seen": "2026-10-14T12:16:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.375
-    },
-    {
-      "id": "5c8ad37b45",
-      "title": "Vorwurf an junge Männer: Rechtsextremistische Straftaten: Durchsuchungen in Magdeburg",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-10/14/rechtsextremistische-straftaten-durchsuchungen-in-magdeburg",
-          "headline": "Vorwurf an junge Männer: Rechtsextremistische Straftaten: Durchsuchungen in Magdeburg",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:55:18+00:00",
-      "last_seen": "2026-10-14T12:55:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1096
-    },
-    {
-      "id": "51b5a0516a",
-      "title": "Kriminalität: Polizist soll 246.415 Euro aus Kontrollen behalten haben",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-10/14/polizist-soll-246-415-euro-aus-kontrollen-behalten-haben",
-          "headline": "Kriminalität: Polizist soll 246.415 Euro aus Kontrollen behalten haben",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:54:48+00:00",
-      "last_seen": "2026-10-14T12:54:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.1083
-    },
-    {
-      "id": "854aaafc24",
-      "title": "Fußball-Bundesliga: «Brutaler Schlag»: Wagner fürchtet langen Skhiri-Ausfall",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-10/14/brutaler-schlag-wagner-fuerchtet-langen-skhiri-ausfall",
-          "headline": "Fußball-Bundesliga: «Brutaler Schlag»: Wagner fürchtet langen Skhiri-Ausfall",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:53:57+00:00",
-      "last_seen": "2026-10-14T12:53:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1061
-    },
-    {
-      "id": "cfeb7fc96d",
-      "title": "Wie weiter?: Berliner Sondierungen in der Stolperfalle",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-10/14/berliner-gruenen-chefin-erwartet-erklaerung-von-linken",
-          "headline": "Wie weiter?: Berliner Sondierungen in der Stolperfalle",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:52:24+00:00",
-      "last_seen": "2026-10-14T12:52:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1021
-    },
-    {
-      "id": "d091e7178f",
-      "title": "Deutsch-Israelische Gesellschaft: „Boykottiert die Boykotteure!“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Deutsch-Israelische-Gesellschaft/!6221631/",
-          "headline": "Deutsch-Israelische Gesellschaft: „Boykottiert die Boykotteure!“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:52:00+00:00",
-      "last_seen": "2026-10-14T12:52:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1011
-    },
-    {
-      "id": "971b821d1e",
-      "title": "Kriminalität: Zwei Männer verhelfen Häftling zur Flucht",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-10/14/zwei-maenner-verhelfen-haeftling-zur-flucht",
-          "headline": "Kriminalität: Zwei Männer verhelfen Häftling zur Flucht",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:51:37+00:00",
-      "last_seen": "2026-10-14T12:51:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.1001
-    },
-    {
-      "id": "dc8e229bc2",
-      "title": "590 Mitarbeiter im Einsatz: Herbsteinsatz der Stadtreinigung: 20.000 Tonnen Laub sammeln",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-10/14/herbsteinsatz-der-stadtreinigung-20-000-tonnen-laub-sammeln",
-          "headline": "590 Mitarbeiter im Einsatz: Herbsteinsatz der Stadtreinigung: 20.000 Tonnen Laub sammeln",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:50:08+00:00",
-      "last_seen": "2026-10-14T12:50:08+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0963
-    },
-    {
-      "id": "fb704686ce",
-      "title": "Das Motto in Deutschland lautet: Bitte fahren Sie nach Hause, liebe Syrer – also, wenn Sie mögen!",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/debatte/plus6acf3768a36ce71ca4d21431/bamf-briefe-das-motto-in-deutschland-lautet-bitte-fahren-sie-nach-hause-liebe-syrer-also-wenn-sie-moegen.html",
-          "headline": "Das Motto in Deutschland lautet: Bitte fahren Sie nach Hause, liebe Syrer – also, wenn Sie mögen!",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-10-14T12:49:35+00:00",
-      "last_seen": "2026-10-14T12:49:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0949
-    },
-    {
-      "id": "e4d96bbd09",
-      "title": "US-Großbank: Milliardenstrafe zehrt am Gewinn der Bank of America",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-10/13/ueber-1-2-milliarden-dollar-strafe-fuer-bank-of-amerika",
-          "headline": "US-Großbank: Milliardenstrafe zehrt am Gewinn der Bank of America",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:49:17+00:00",
-      "last_seen": "2026-10-14T12:49:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
-      "resonance": 0.0942
-    },
-    {
-      "id": "7056cc891b",
-      "title": "Gewalt der US-Abschiebepolizei: ICE ist jetzt leiser, aber überall",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Gewalt-der-US-Abschiebepolizei/!6221488/",
-          "headline": "Gewalt der US-Abschiebepolizei: ICE ist jetzt leiser, aber überall",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:49:00+00:00",
-      "last_seen": "2026-10-14T12:49:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.0934
-    },
-    {
-      "id": "5c14e5cf9e",
-      "title": "„Alexander Schweitzer muss einen Spagat schaffen“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/video6acf70e5fd6239b19ad413fb/neuer-arbeitsminister-alexander-schweitzer-muss-einen-spagat-schaffen.html",
-          "headline": "„Alexander Schweitzer muss einen Spagat schaffen“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-10-14T12:48:30+00:00",
-      "last_seen": "2026-10-14T12:48:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0922
-    },
-    {
-      "id": "bca77e0bb9",
-      "title": "Evan Gershkovich über seine Festnahme: »Mein Informant drückte mir Papiere in die Hand – und plötzlich fing der Raum an zu schwanken«",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/evan-gershkovich-ueber-seine-festnahme-mein-informant-drueckte-mir-papiere-in-die-hand-und-ploetzlich-fing-der-raum-an-zu-schwanken-a-27862e3a-77f0-4266-aa37-9d066beb7237#ref=rss",
-          "headline": "Evan Gershkovich über seine Festnahme: »Mein Informant drückte mir Papiere in die Hand – und plötzlich fing der Raum an zu schwanken«",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:47:00+00:00",
-      "last_seen": "2026-10-14T12:47:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0883
-    },
-    {
-      "id": "9d5583dbaa",
-      "title": "Deutschland Liveblog: Merz: Gerechtigkeit ist bei uns nicht Enteignung",
-      "signal_count": 1,
-      "sources": [
+        },
         {
           "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-merz-in-regierungserklaerung-gerechtigkeit-ist-bei-uns-nicht-enteignung-faz-110093143.html",
-          "headline": "Deutschland Liveblog: Merz: Gerechtigkeit ist bei uns nicht Enteignung",
+          "url": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-linke-gruene-und-spd-setzen-sondierungsgespraeche-in-berlin-fort-faz-110093143.html",
+          "headline": "Deutschland Liveblog: Linke, Grüne und SPD setzen Sondierungsgespräche in Berlin fort",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:46:25+00:00",
-      "last_seen": "2026-10-14T12:46:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0869
-    },
-    {
-      "id": "744ec4cb17",
-      "title": "Regierungserklärung: Kanzler Merz spricht Ukraine anhaltende Unterstützung aus",
-      "signal_count": 1,
-      "sources": [
+        },
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/politik/regierungserklaerung-kanzler-merz-spricht-ukraine-anhaltende-unterstuetzung-aus-a-a3712550-797e-41b3-aa8d-99eed82701aa#ref=rss",
-          "headline": "Regierungserklärung: Kanzler Merz spricht Ukraine anhaltende Unterstützung aus",
+          "url": "https://www.spiegel.de/politik/deutschland/sondierungen-mit-linke-gehen-weiter-gruene-bundesspitzen-sind-sauer-auf-berliner-gruene-a-9b169450-85b8-4276-a2cf-dcdda0c2ab48#ref=rss",
+          "headline": "Sondierungen mit Linke gehen weiter: Grüne Bundesspitzen sind sauer auf Berliner Grüne",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
+        "mean": -0.025,
+        "spread": 0.208,
+        "left": 1,
+        "center": 3,
         "right": 0
       },
-      "first_seen": "2026-10-14T12:46:00+00:00",
-      "last_seen": "2026-10-14T12:46:00+00:00",
+      "first_seen": "2026-10-14T16:51:00+00:00",
+      "last_seen": "2026-10-14T19:38:55+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.0858
+      "resonance": 0.3779
     },
     {
-      "id": "ea060d42ba",
-      "title": "Mont Blanc \"ständig in Bewegung\": Frankreichs höchster Berg wächst um zwei Meter",
+      "id": "939de88370",
+      "title": "Gesetzliche Krankenversicherung: Zusatzbeitrag für Krankenversicherungen soll 2027 stabil bleiben",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/article6acfc438fd6239b19ad41ae9/gesetzliche-krankenversicherung-zusatzbeitrag-bleibt-laut-linnemann-2027-stabil.html",
+          "headline": "Zusatzbeitrag für gesetzliche Krankenversicherung bleibt laut Linnemann 2027 stabil",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/gesundheit/2026-10/zusatzbeitrag-krankenversicherung-cdu-carsten-linnemann-gkv-schaetzerkreis",
+          "headline": "Gesetzliche Krankenversicherung: Zusatzbeitrag für Krankenversicherungen soll 2027 stabil bleiben",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/wirtschaft/soziales/krankenversicherung-zusatzbeitrag-kann-2027-stabil-bleiben-a-20efc3bb-48e7-469d-8357-16d70bbb12fd#ref=rss",
+          "headline": "Krankenversicherung: Zusatzbeitrag kann 2027 stabil bleiben",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.255,
+        "left": 1,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-10-14T18:26:00+00:00",
+      "last_seen": "2026-10-14T18:39:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.3057
+    },
+    {
+      "id": "aeeb75ccfc",
+      "title": "Linke: Sondierungsgespräche in Berlin werden offenbar fortgesetzt",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/politik/linke-sondierungsgespraeche-in-berlin-werden-offenbar-fortgesetzt-a-1609c605-26e7-409d-8fd3-255249f0a981#ref=rss",
+          "headline": "Linke: Sondierungsgespräche in Berlin werden offenbar fortgesetzt",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/politik/landtagswahlen-deutschland-elif-eralp-berlin-sondierungsgespraeche-linke-gruene-spd-antisemitismus-li.3540501",
+          "headline": "Newsblog zu den Landtagswahlen: Eralp: Sondierungsgespräche in Berlin werden fortgesetzt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.175,
+        "spread": 0.025,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T19:09:25+00:00",
+      "last_seen": "2026-10-14T19:28:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.2416
+    },
+    {
+      "id": "d9199ad738",
+      "title": "PSG mit beeindruckender Machtdemonstration, Rüdiger schießt Real zum Sieg",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/champions-league/article6acfee0ef02d3efff477dc40/zweiter-spieltag-psg-mit-beeindruckender-machtdemonstration-ruediger-schiesst-real-zum-sieg.html",
+          "headline": "PSG mit beeindruckender Machtdemonstration, Rüdiger schießt Real zum Sieg",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-14T21:46:26+00:00",
+      "last_seen": "2026-10-14T21:46:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2308
+    },
+    {
+      "id": "42faadd66c",
+      "title": "Tor-Erlösung für Undav – Stuttgart siegt in Bratislava",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/article6acfe55cf02d3efff477dbda/champions-league-tor-erloesung-fuer-undav-stuttgart-siegt-in-bratislava.html",
+          "headline": "Tor-Erlösung für Undav – Stuttgart siegt in Bratislava",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-14T21:45:43+00:00",
+      "last_seen": "2026-10-14T21:45:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2296
+    },
+    {
+      "id": "9784f915d7",
+      "title": "„Missverständnisse zwischen uns sind ausgeräumt“ – Sondierungen sollen in Berlin fortgesetzt werden",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/article6acfce79f02d3efff477db05/berlin-missverstaendnisse-zwischen-uns-sind-ausgeraeumt-sondierungen-sollen-fortgesetzt-werden.html",
+          "headline": "„Missverständnisse zwischen uns sind ausgeräumt“ – Sondierungen sollen in Berlin fortgesetzt werden",
+          "platform": "rss"
+        },
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Sondierungsgespraeche-in-Berlin-werden-fortgesetzt-id31418895.html",
+          "headline": "\"Missverständnisse ausgeräumt\": Sondierungsgespräche in Berlin werden fortgesetzt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.15,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-10-14T19:05:39+00:00",
+      "last_seen": "2026-10-14T19:05:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.207
+    },
+    {
+      "id": "26a7552789",
+      "title": "Fernsehen: Popstar Ronan Keating bei «Masked Singer» enttarnt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-10/14/popstar-ronan-keating-bei-masked-singer-enttarnt",
+          "headline": "Fernsehen: Popstar Ronan Keating bei «Masked Singer» enttarnt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T21:31:04+00:00",
+      "last_seen": "2026-10-14T21:31:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2048
+    },
+    {
+      "id": "6868d21147",
+      "title": "Champions League: Manchester City unterliegt Paris Saint-Germain",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/fussball/champions-league-manchester-city-unterliegt-paris-saint-germain-a-3cdd5311-497b-4346-b072-e6ce37f8d725#ref=rss",
+          "headline": "Champions League: Manchester City unterliegt Paris Saint-Germain",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T21:30:00+00:00",
+      "last_seen": "2026-10-14T21:30:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.2031
+    },
+    {
+      "id": "d60097f1e3",
+      "title": "Championsleague: BVB verliert in Bodø, Stuttgart gewinnt deutlich",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/sport/2026-10/fussball-championsleague-borussia-dortmund-2-spieltag",
+          "headline": "Championsleague: BVB verliert in Bodø, Stuttgart gewinnt deutlich",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T21:26:17+00:00",
+      "last_seen": "2026-10-14T21:26:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1969
+    },
+    {
+      "id": "f9e939eda5",
+      "title": "Kurzeinsatz für Aston Villa: Leon Goretzka feiert Debüt bei Torspektakel",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "n-tv",
-          "url": "https://www.n-tv.de/wissen/Frankreichs-hoechster-Berg-waechst-um-zwei-Meter-id31417054.html",
-          "headline": "Mont Blanc \"ständig in Bewegung\": Frankreichs höchster Berg wächst um zwei Meter",
+          "url": "https://www.n-tv.de/sport/fussball/Leon-Goretzka-feiert-Debuet-bei-Torspektakel-id31419036.html",
+          "headline": "Kurzeinsatz für Aston Villa: Leon Goretzka feiert Debüt bei Torspektakel",
           "platform": "rss"
         }
       ],
@@ -659,234 +451,54 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-14T12:45:30+00:00",
-      "last_seen": "2026-10-14T12:45:30+00:00",
+      "first_seen": "2026-10-14T21:24:10+00:00",
+      "last_seen": "2026-10-14T21:24:10+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0845
+      "resonance": 0.1935
     },
     {
-      "id": "f023cdd4f9",
-      "title": "Dax aktuell: Dax notiert im Plus – Ölpreis steigt weiter",
+      "id": "a5c616e538",
+      "title": "Champions League: Manchester City wird von PSG vorgeführt – und holt zu spät auf",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-kaum-veraendert-chipwert-groesster-verlierer/100262096.html",
-          "headline": "Dax aktuell: Dax notiert im Plus – Ölpreis steigt weiter",
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/sport/champions-league-spieltag-ergebnisse-manchester-li.3563769",
+          "headline": "Champions League: Manchester City wird von PSG vorgeführt – und holt zu spät auf",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.15,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-14T12:43:22+00:00",
-      "last_seen": "2026-10-14T12:43:22+00:00",
+      "first_seen": "2026-10-14T21:16:40+00:00",
+      "last_seen": "2026-10-14T21:16:40+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0791
+      "resonance": 0.1813
     },
     {
-      "id": "25b28b995a",
-      "title": "Mit dieser Übernahme beschleunigt Lufthansa die Flucht aus Deutschland",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/wirtschaft/plus6acf2c55c8c6305416e42365/geplante-airline-fusion-mit-dieser-uebernahme-beschleunigt-lufthansa-die-flucht-aus-deutschland.html",
-          "headline": "Mit dieser Übernahme beschleunigt Lufthansa die Flucht aus Deutschland",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-10-14T12:39:13+00:00",
-      "last_seen": "2026-10-14T12:39:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0687
-    },
-    {
-      "id": "5ac7c57edc",
-      "title": "Social-Media-Verbot für alle unter 13 und Einschränkungen für ältere Jugendliche",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/article6acf540b879381507294037c/plan-der-regierung-social-media-verbot-fuer-alle-unter-13-und-einschraenkungen-fuer-aeltere-jugendliche.html",
-          "headline": "Social-Media-Verbot für alle unter 13 und Einschränkungen für ältere Jugendliche",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-10-14T12:38:02+00:00",
-      "last_seen": "2026-10-14T12:38:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0658
-    },
-    {
-      "id": "8194ee84ae",
-      "title": "Pflege: Bundesregierung benennt Mitglieder der Pflegekommission",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/pflegestrukturkommission-bundeskabinett-carsten-linnemann-pflegereform",
-          "headline": "Pflege: Bundesregierung benennt Mitglieder der Pflegekommission",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:37:16+00:00",
-      "last_seen": "2026-10-14T12:37:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0639
-    },
-    {
-      "id": "56df5017b6",
-      "title": "Stiller Held in schwerer Zeit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/regionales/hamburg/article6acf6b4285ec8093bcfbde33/literatur-stiller-held-in-schwerer-zeit.html",
-          "headline": "Stiller Held in schwerer Zeit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-10-14T12:37:12+00:00",
-      "last_seen": "2026-10-14T12:37:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0637
-    },
-    {
-      "id": "646f0b32fb",
-      "title": "DFB-Fußballerinnen bezwingen Japan: Neues Können",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/DFB-Fussballerinnen-bezwingen-Japan/!6221521/",
-          "headline": "DFB-Fußballerinnen bezwingen Japan: Neues Können",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-14T12:36:00+00:00",
-      "last_seen": "2026-10-14T12:36:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.0608
-    },
-    {
-      "id": "87b11fed03",
-      "title": "„Es ist mir unbegreiflich … “, sagt Merz zu Linke und AfD",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/video6acf754d77d7df6c69d6bfef/regierungserklaerung-es-ist-mir-unbegreiflich-sagt-merz-zu-linke-und-afd.html",
-          "headline": "„Es ist mir unbegreiflich … “, sagt Merz zu Linke und AfD",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/article6acf6fe38793815072940646/regierungserklaerung-es-ist-mir-unbegreiflich-sagt-merz-zu-linke-und-afd-chrupalla-greift-kanzler-scharf-an.html",
-          "headline": "„Es ist mir unbegreiflich … “, sagt Merz zu Linke und AfD – Chrupalla greift Kanzler scharf an",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 2
-      },
-      "first_seen": "2026-10-14T12:26:01+00:00",
-      "last_seen": "2026-10-14T12:34:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0593
-    },
-    {
-      "id": "6e8e62c519",
-      "title": "Türkei: Forscher entdecken Spuren von ältestem bekannten Schiffswrack der Welt",
+      "id": "875c98f932",
+      "title": "Dagi Bee: Influencerin fahndet via Instagram nach zwei Männern – Polizei kritisiert solche Aktionen",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/wissenschaft/technik/tuerkei-forscher-entdecken-spuren-von-aeltestem-bekannten-schiffswrack-der-welt-a-01c2f22a-d0dd-45bc-b221-ade77370c680#ref=rss",
-          "headline": "Türkei: Forscher entdecken Spuren von ältestem bekannten Schiffswrack der Welt",
+          "url": "https://www.spiegel.de/panorama/dagi-bee-influencerin-fahndet-via-instagram-nach-zwei-maennern-polizei-kritisiert-solche-aktionen-a-93b69bb6-dbb9-4971-a127-f3a386de50a8#ref=rss",
+          "headline": "Dagi Bee: Influencerin fahndet via Instagram nach zwei Männern – Polizei kritisiert solche Aktionen",
           "platform": "rss"
         }
       ],
@@ -897,37 +509,449 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-14T12:35:00+00:00",
-      "last_seen": "2026-10-14T12:35:00+00:00",
+      "first_seen": "2026-10-14T21:10:00+00:00",
+      "last_seen": "2026-10-14T21:10:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "de",
+      "resonance": 0.1707
+    },
+    {
+      "id": "59693c0ded",
+      "title": "Proteste in Albanien: Demonstranten legen Feuer in Bildungsministerium in Albanien",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/proteste-in-albanien-demonstranten-legen-feuer-in-bildungsministerium-in-albanien-a-3e4b870a-e489-4cf5-a2f4-c9d3858526c9#ref=rss",
+          "headline": "Proteste in Albanien: Demonstranten legen Feuer in Bildungsministerium in Albanien",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T21:08:00+00:00",
+      "last_seen": "2026-10-14T21:08:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "language": "de",
+      "resonance": 0.1676
+    },
+    {
+      "id": "80b94dce5e",
+      "title": "Pleite für Haaland und Co.: PSG verzwergt Fußball-Bösewicht Manchester City - Rüdiger-Wahnsinn in Rom",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball/PSG-verzwergt-Fussball-Boesewicht-Manchester-City-Ruediger-Wahnsinn-in-Rom-id31419021.html",
+          "headline": "Pleite für Haaland und Co.: PSG verzwergt Fußball-Bösewicht Manchester City - Rüdiger-Wahnsinn in Rom",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T21:03:57+00:00",
+      "last_seen": "2026-10-14T21:03:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.1612
+    },
+    {
+      "id": "74299debe6",
+      "title": "Bürgerbewegungen: Wie man Babiš beikommen kann",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/ausland/tschechische-kommunalwahlen-wie-lokale-bewegungen-andrej-babis-besiegten-201314096.html",
+          "headline": "Bürgerbewegungen: Wie man Babiš beikommen kann",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T20:57:02+00:00",
+      "last_seen": "2026-10-14T20:57:02+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0583
+      "resonance": 0.1505
     },
     {
-      "id": "2d24d8ce7d",
-      "title": "Geldpolitik: Inflation in den USA springt im September nach oben – Schnelle Reaktion am Anleihemarkt",
+      "id": "184d8a00a4",
+      "title": "Stürmer trifft endlich: Deniz Undav erlöst sich und bringt VfB Stuttgart voll auf Kurs",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-preise-in-den-usa-steigen-im-september-um-37-prozent/100261070.html",
-          "headline": "Geldpolitik: Inflation in den USA springt im September nach oben – Schnelle Reaktion am Anleihemarkt",
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball/Deniz-Undav-erloest-sich-und-bringt-VfB-Stuttgart-voll-auf-Kurs-id31419005.html",
+          "headline": "Stürmer trifft endlich: Deniz Undav erlöst sich und bringt VfB Stuttgart voll auf Kurs",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.15,
+        "mean": 0.0,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-14T12:31:38+00:00",
-      "last_seen": "2026-10-14T12:31:38+00:00",
+      "first_seen": "2026-10-14T20:53:31+00:00",
+      "last_seen": "2026-10-14T20:53:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1451
+    },
+    {
+      "id": "fff7bd4e05",
+      "title": "CL-Pleite am Polarkreis: \"Nicht genug\": BVB rutscht auf norwegischem Kunstrasen aus",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball/Nicht-genug-BVB-rutscht-auf-norwegischem-Kunstrasen-aus-id31418963.html",
+          "headline": "CL-Pleite am Polarkreis: \"Nicht genug\": BVB rutscht auf norwegischem Kunstrasen aus",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T20:49:27+00:00",
+      "last_seen": "2026-10-14T20:49:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.139
+    },
+    {
+      "id": "26477612d6",
+      "title": "Sondierungen in Berlin: Grünen-Fraktionsvorsitzende: Es war ein Knall",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-10/14/gruenen-fraktionsvorsitzende-es-war-ein-knall",
+          "headline": "Sondierungen in Berlin: Grünen-Fraktionsvorsitzende: Es war ein Knall",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T20:31:05+00:00",
+      "last_seen": "2026-10-14T20:31:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1119
+    },
+    {
+      "id": "c7c8984a93",
+      "title": "Handball-Champions-League: SC Magdeburg erreicht Hauptrunde - Melsungen unter Druck",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-10/14/sc-magdeburg-erreicht-hauptrunde-durch-30-27-ueber-kielce",
+          "headline": "Handball-Champions-League: SC Magdeburg erreicht Hauptrunde - Melsungen unter Druck",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T20:29:35+00:00",
+      "last_seen": "2026-10-14T20:29:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1097
+    },
+    {
+      "id": "64d523984d",
+      "title": "Grenzkontrollen: Dänemark verlängert Kontrollen an deutscher Grenze",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-10/grenzkontrollen-daenemark-deutschland-justizminister-sicherheit",
+          "headline": "Grenzkontrollen: Dänemark verlängert Kontrollen an deutscher Grenze",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/article6acfaf89fd6239b19ad419f9/anhaltende-bedrohung-daenemark-verlaengert-kontrollen-an-deutscher-grenze.html",
+          "headline": "„Anhaltende Bedrohung“ – Dänemark verlängert Kontrollen an deutscher Grenze",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.3,
+        "left": 1,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-14T16:54:09+00:00",
+      "last_seen": "2026-10-14T18:10:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1092
+    },
+    {
+      "id": "455723d505",
+      "title": "Bundeswehr: Pistorius verspricht Aufklärung von Vorwürfen gegen Soldaten",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-10/14/pistorius-verspricht-aufklaerung-von-vorwuerfen-gegen-soldaten",
+          "headline": "Bundeswehr: Pistorius verspricht Aufklärung von Vorwürfen gegen Soldaten",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T20:27:35+00:00",
+      "last_seen": "2026-10-14T20:27:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1068
+    },
+    {
+      "id": "888e16fbc6",
+      "title": "Wie weiter in Sachsen-Anhalt?: Siegmund wirbt um CDU - Müller bleibt bei Oppositionskurs",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-10/14/siegmund-wirbt-um-cdu-mueller-bleibt-bei-oppositionskurs",
+          "headline": "Wie weiter in Sachsen-Anhalt?: Siegmund wirbt um CDU - Müller bleibt bei Oppositionskurs",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T20:26:43+00:00",
+      "last_seen": "2026-10-14T20:26:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1056
+    },
+    {
+      "id": "90145de3b5",
+      "title": "Liverpool schießt sechs Tore, Wirtz geht wieder leer aus",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/champions-league/article6acfdd30d6a42ac4cfd107bb/sieg-in-klagenfurt-liverpool-schiesst-sechs-tore-wirtz-geht-wieder-leer-aus.html",
+          "headline": "Liverpool schießt sechs Tore, Wirtz geht wieder leer aus",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-14T20:18:56+00:00",
+      "last_seen": "2026-10-14T20:18:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0946
+    },
+    {
+      "id": "00621addcb",
+      "title": "„Nicht die richtige Seite der Geschichte“ – Selenskyj zeigt sich enttäuscht von Trumps Diesel-Deal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/article6acfd478f02d3efff477db3f/ukraine-krieg-nicht-die-richtige-seite-der-geschichte-selenskyj-zeigt-sich-enttaeuscht-von-trumps-diesel-deal.html",
+          "headline": "„Nicht die richtige Seite der Geschichte“ – Selenskyj zeigt sich enttäuscht von Trumps Diesel-Deal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-14T20:11:25+00:00",
+      "last_seen": "2026-10-14T20:11:25+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0841
+    },
+    {
+      "id": "e7b1fbecad",
+      "title": "Regierungsbildung in Berlin: Parteien sondieren wieder",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Regierungsbildung-in-Berlin/!6221805/",
+          "headline": "Regierungsbildung in Berlin: Parteien sondieren wieder",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.55,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T19:58:00+00:00",
+      "last_seen": "2026-10-14T19:58:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.0658
+    },
+    {
+      "id": "a3bb95fcbf",
+      "title": "Satellitennutzung in der Ukraine: Musk betont »defensive« Beschränkung bei Nutzung von Starlink",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-10/starshield-spacex-elon-musk-ukraine-militaer-satelliten",
+          "headline": "Satellitennutzung in der Ukraine: Musk betont »defensive« Beschränkung bei Nutzung von Starlink",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-14T19:50:56+00:00",
+      "last_seen": "2026-10-14T19:50:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0564
+    },
+    {
+      "id": "852747eae4",
+      "title": "Wirtschaftsministerin Reiche widerspricht Kabinettskollegen Wildberger bei KI-Steuer",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/article6acfd50ecd2437fcbeed0cbd/beim-deutschen-ki-preis-von-welt-wirtschaftsministerin-reiche-widerspricht-kabinettskollegen-wildberger-bei-ki-steuer.html",
+          "headline": "Wirtschaftsministerin Reiche widerspricht Kabinettskollegen Wildberger bei KI-Steuer",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-14T19:46:01+00:00",
+      "last_seen": "2026-10-14T19:46:01+00:00",
       "platforms": [
         "rss"
       ],
@@ -939,27 +963,99 @@
   ],
   "edges": [
     {
-      "source": "317a9a56f5",
-      "target": "02f68e4663",
-      "weight": 0.359,
+      "source": "e98827f0b7",
+      "target": "6868d21147",
+      "weight": 0.107,
       "type": "thematic"
     },
     {
-      "source": "317a9a56f5",
-      "target": "744ec4cb17",
-      "weight": 0.371,
+      "source": "e98827f0b7",
+      "target": "d60097f1e3",
+      "weight": 0.54,
       "type": "thematic"
     },
     {
-      "source": "02f68e4663",
-      "target": "744ec4cb17",
-      "weight": 0.371,
+      "source": "e98827f0b7",
+      "target": "a5c616e538",
+      "weight": 0.076,
       "type": "thematic"
     },
     {
-      "source": "971b821d1e",
-      "target": "25b28b995a",
-      "weight": 0.007,
+      "source": "e98827f0b7",
+      "target": "c7c8984a93",
+      "weight": 0.036,
+      "type": "thematic"
+    },
+    {
+      "source": "b73eba4162",
+      "target": "42faadd66c",
+      "weight": 0.595,
+      "type": "thematic"
+    },
+    {
+      "source": "b73eba4162",
+      "target": "d60097f1e3",
+      "weight": 0.178,
+      "type": "thematic"
+    },
+    {
+      "source": "6bd0e06647",
+      "target": "26477612d6",
+      "weight": 0.225,
+      "type": "thematic"
+    },
+    {
+      "source": "6bd0e06647",
+      "target": "e7b1fbecad",
+      "weight": 0.22,
+      "type": "thematic"
+    },
+    {
+      "source": "aeeb75ccfc",
+      "target": "9784f915d7",
+      "weight": 0.554,
+      "type": "thematic"
+    },
+    {
+      "source": "d9199ad738",
+      "target": "80b94dce5e",
+      "weight": 0.088,
+      "type": "thematic"
+    },
+    {
+      "source": "42faadd66c",
+      "target": "184d8a00a4",
+      "weight": 0.364,
+      "type": "thematic"
+    },
+    {
+      "source": "9784f915d7",
+      "target": "26477612d6",
+      "weight": 0.163,
+      "type": "thematic"
+    },
+    {
+      "source": "6868d21147",
+      "target": "a5c616e538",
+      "weight": 0.807,
+      "type": "thematic"
+    },
+    {
+      "source": "6868d21147",
+      "target": "80b94dce5e",
+      "weight": 0.063,
+      "type": "thematic"
+    },
+    {
+      "source": "6868d21147",
+      "target": "c7c8984a93",
+      "weight": 0.001,
+      "type": "thematic"
+    },
+    {
+      "source": "a5c616e538",
+      "target": "80b94dce5e",
+      "weight": 0.32,
       "type": "thematic"
     }
   ],

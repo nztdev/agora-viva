@@ -1,8 +1,61 @@
 {
-  "generated_at": "2026-10-25T18:48:43.122604+00:00",
+  "generated_at": "2026-10-25T22:23:09.967981+00:00",
   "node_count": 35,
-  "edge_count": 4,
+  "edge_count": 8,
   "nodes": [
+    {
+      "id": "224b3beec3",
+      "title": "Aleksandar Vucic Concedes Defeat in Serbian Election",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/25/world/europe/serbia-vucic-election-defeat.html",
+          "headline": "Aleksandar Vucic Concedes Defeat in Serbian Election",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20261025-serbia-s-vucic-concedes-defeat-in-historic-snap-election-with-record-turnout",
+          "headline": "Serbia's Vucic concedes defeat in historic snap election with record turnout",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/",
+          "headline": "Serbia's Vucic concedes election defeat in historic win for student movement",
+          "platform": "hackernews"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-all-1573-rdf",
+          "headline": "Serbia election: Vucic concedes defeat to student-led movement",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-10-26/serbia-election-vucic-defeat-student-protest/107307808",
+          "headline": "Serbian president concedes defeat to student-led movement in election",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.12,
+        "spread": 0.098,
+        "left": 1,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T21:06:44+00:00",
+      "last_seen": "2026-10-25T22:19:16+00:00",
+      "platforms": [
+        "hackernews",
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.889
+    },
     {
       "id": "651efdf39c",
       "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
@@ -29,104 +82,6 @@
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.28
-    },
-    {
-      "id": "478fe98df0",
-      "title": "Venezuelan opposition leader María Machado returns after months in exile",
-      "signal_count": 8,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
-          "headline": "Venezuelan opposition leader María Machado returns after months in exile",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/10/25/venezuelan-opposition-leader-machado-returns-from-exile_6763924_4.html",
-          "headline": "Venezuelan opposition leader Machado returns from exile",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/world/venezuelan-opposition-leader-maria-corina-machado-surprise-return-home-after-nearly-year-abroad",
-          "headline": "Venezuelan opposition leader María Corina Machado makes surprise return home after nearly a year abroad",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/25/world/americas/machado-venezuela-return.html",
-          "headline": "María Corina Machado Returns to Venezuela",
-          "platform": "rss"
-        },
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
-          "headline": "Exiled opposition leader María Corina Machado returns to Venezuela",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/americas/20261025-opposition-leader-machado-returns-to-venezuela-after-10-months-in-exile",
-          "headline": "Opposition leader Machado returns to Venezuela after 10 months in exile",
-          "platform": "rss"
-        },
-        {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/international/2026-10-25/maria-corina-machado-returns-to-venezuela.html",
-          "headline": "María Corina Machado returns to Venezuela",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
-          "headline": "Venezuela's opposition leader María Corina Machado returns after months in exile",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.081,
-        "spread": 0.274,
-        "left": 2,
-        "center": 5,
-        "right": 1
-      },
-      "first_seen": "2026-10-25T16:18:41+00:00",
-      "last_seen": "2026-10-25T18:29:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.7677
-    },
-    {
-      "id": "e72b00284d",
-      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://lynchlab.net/llm-skin-cancer",
-          "headline": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T17:15:38+00:00",
-      "last_seen": "2026-10-25T17:15:38+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "health",
       "resonance": 0.28
     },
     {
@@ -158,10 +113,56 @@
       "resonance": 0.28
     },
     {
+      "id": "e72b00284d",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://lynchlab.net/llm-skin-cancer",
+          "headline": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T17:15:38+00:00",
+      "last_seen": "2026-10-25T17:15:38+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "resonance": 0.28
+    },
+    {
       "id": "b676f938a0",
       "title": "Marine Le Pen vows to restore 'rule of law' at presidential campaign kickoff",
-      "signal_count": 2,
+      "signal_count": 6,
       "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/marine-le-pen-launches-french-presidential-campaign?traffic_source=rss",
+          "headline": "Marine Le Pen launches French presidential campaign",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20261025-marine-le-pen-launches-presidential-campaign-in-orl%C3%A9ans",
+          "headline": "Marine Le Pen launches presidential campaign in Orléans",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "https://www.euronews.com/2026/10/25/marine-le-pen-launches-presidential-campaign-with-vow-to-restore-rule-of-law",
+          "headline": "Marine Le Pen launches presidential campaign with vow to restore 'rule of law'",
+          "platform": "rss"
+        },
         {
           "outlet": "South China Morning Post",
           "url": "https://www.scmp.com/news/world/europe/article/3372092/frances-le-pen-vows-restore-rule-law-presidential-campaign-launch",
@@ -173,427 +174,237 @@
           "url": "https://www.lemonde.fr/en/france/article/2026/10/25/marine-le-pen-vows-to-restore-rule-of-law-at-presidential-campaign-kickoff_6763891_7.html",
           "headline": "Marine Le Pen vows to restore 'rule of law' at presidential campaign kickoff",
           "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/france-le-pen-launches-presidential-campaign-in-orleans",
+          "headline": "France: Le Pen launches presidential campaign in Orleans",
+          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.05,
-        "spread": 0.15,
+        "mean": -0.1,
+        "spread": 0.1,
         "left": 0,
-        "center": 2,
+        "center": 6,
         "right": 0
       },
-      "first_seen": "2026-10-25T17:42:52+00:00",
-      "last_seen": "2026-10-25T18:01:33+00:00",
+      "first_seen": "2026-10-25T13:46:08+00:00",
+      "last_seen": "2026-10-25T21:39:13+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.345
+      "resonance": 0.3027
     },
     {
-      "id": "dde3f0d073",
-      "title": "Storms batter Europe hitting power supplies, flights and phones",
-      "signal_count": 2,
+      "id": "478fe98df0",
+      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "signal_count": 7,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3372090/storms-batter-northern-europe-hitting-power-supplies-flights-and-phones",
-          "headline": "Storms batter northern Europe, hitting power supplies, flights and phones",
+          "url": "https://www.scmp.com/news/world/americas/article/3372094/venezuelas-opposition-leader-maria-corina-machado-returns-after-months-exile",
+          "headline": "Venezuela opposition leader Machado returns home after fraught year in exile",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/10/25/venezuelas-opposition-leader-maria-corina-machado-returns-from-exile?traffic_source=rss",
+          "headline": "Venezuela’s opposition leader Maria Corina Machado returns from exile",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+          "headline": "Venezuelan opposition leader María Machado returns after months in exile",
           "platform": "rss"
         },
         {
           "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/10/25/storms-batter-europe-hitting-power-supplies-flights-and-phones_6763858_4.html",
-          "headline": "Storms batter Europe hitting power supplies, flights and phones",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/25/venezuelan-opposition-leader-machado-returns-from-exile_6763924_4.html",
+          "headline": "Venezuelan opposition leader Machado returns from exile",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/world/venezuelan-opposition-leader-maria-corina-machado-surprise-return-home-after-nearly-year-abroad",
+          "headline": "Venezuelan opposition leader María Corina Machado makes surprise return home after nearly a year abroad",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20261025-opposition-leader-machado-returns-to-venezuela-after-10-months-in-exile",
+          "headline": "Opposition leader Machado returns to Venezuela after 10 months in exile",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
+          "headline": "Venezuela's opposition leader María Corina Machado returns after months in exile",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.05,
-        "spread": 0.15,
+        "mean": 0.007,
+        "spread": 0.262,
         "left": 0,
-        "center": 2,
-        "right": 0
+        "center": 6,
+        "right": 1
       },
-      "first_seen": "2026-10-25T16:33:14+00:00",
-      "last_seen": "2026-10-25T16:44:37+00:00",
+      "first_seen": "2026-10-25T16:18:41+00:00",
+      "last_seen": "2026-10-25T19:31:04+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2374
+      "resonance": 0.2942
     },
     {
-      "id": "fc61a73cb7",
-      "title": "Israel’s Ben-Gvir boasts of confiscation of Palestinian prisoners’ makeshift cake",
-      "signal_count": 1,
+      "id": "20d56fa5ba",
+      "title": "Who Is María Corina Machado?",
+      "signal_count": 5,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/25/world/americas/who-is-maria-corina-machado.html",
+          "headline": "Who Is María Corina Machado?",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/25/world/americas/machado-venezuela-return.html",
+          "headline": "María Corina Machado Returns to Venezuela",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
+          "headline": "Exiled opposition leader María Corina Machado returns to Venezuela",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "https://www.euronews.com/2026/10/25/maria-corina-machado-back-in-venezuela-after-nearly-10-months-in-exile",
+          "headline": "María Corina Machado back in Venezuela after 10 months in exile",
+          "platform": "rss"
+        },
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/international/2026-10-25/maria-corina-machado-returns-to-venezuela.html",
+          "headline": "María Corina Machado returns to Venezuela",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.24,
+        "spread": 0.08,
+        "left": 3,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T16:46:13+00:00",
+      "last_seen": "2026-10-25T21:05:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2398
+    },
+    {
+      "id": "96dcb1548e",
+      "title": "Israel to close all West Bank land crossings on election day",
+      "signal_count": 3,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israels-ben-gvir-says-he-confiscated-improvised-cake-made-palestinian",
-          "headline": "Israel’s Ben-Gvir boasts of confiscation of Palestinian prisoners’ makeshift cake",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-close-occupied-west-bank-crossings-over-election",
+          "headline": "Israel to close occupied West Bank crossings over election",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-all-1573-rdf",
+          "headline": "Israel to close all West Bank land crossings on election day",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "https://www.euronews.com/2026/10/25/israel-orders-west-bank-crossings-to-close-on-election-day-following-hebron-shooting",
+          "headline": "Israel orders West Bank crossings to close on election day following Hebron shooting",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.071,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T11:21:13+00:00",
+      "last_seen": "2026-10-25T22:19:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2059
+    },
+    {
+      "id": "24fd6a5bd5",
+      "title": "Brazil election 2026: Live second round results",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results",
+          "headline": "Brazil election 2026: Live second round results",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-results-2026-live-polls-close-in-lula-bolsonaro-face-off?traffic_source=rss",
+          "headline": "Brazil election results 2026 live: Lula-Bolsonaro voting extended by 2 hours",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.25,
-        "spread": 0.0,
+        "spread": 0.05,
         "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T18:43:23+00:00",
-      "last_seen": "2026-10-25T18:43:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2095
-    },
-    {
-      "id": "0fde06ed55",
-      "title": "Taika Waititi's latest film sucks the emotion out of a beloved story",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-10-26/what-to-watch-in-cinemas-in-october-verity/107299696",
-          "headline": "Taika Waititi's latest film sucks the emotion out of a beloved story",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-25T18:40:22+00:00",
-      "last_seen": "2026-10-25T18:40:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2052
-    },
-    {
-      "id": "e9ea667fe9",
-      "title": "Delhi govt. to clear ‘Individual Aftercare Plans’, ₹2 Lakh higher education aid for youth leaving care homes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-govt-to-clear-individual-aftercare-plans2-lakh-higher-education-aid-for-youth-leaving-care-homes/article71624219.ece",
-          "headline": "Delhi govt. to clear ‘Individual Aftercare Plans’, ₹2 Lakh higher education aid for youth leaving care homes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T18:39:01+00:00",
-      "last_seen": "2026-10-25T18:39:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2033
-    },
-    {
-      "id": "24efe59114",
-      "title": "Letter making claims about Meghan's father written by his ex-wife, BBC understands",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c60qk44w9wglo?at_medium=RSS&at_campaign=rss",
-          "headline": "Letter making claims about Meghan's father written by his ex-wife, BBC understands",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T18:38:17+00:00",
-      "last_seen": "2026-10-25T18:38:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2023
-    },
-    {
-      "id": "6ac7f790e2",
-      "title": "Childcare worker's 'monstrous' assaults on kids captured on CCTV",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-10-26/cctv-captures-childcare-worker-assaulting-babies-four-corners/107274426",
-          "headline": "Childcare worker's 'monstrous' assaults on kids captured on CCTV",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T18:32:47+00:00",
-      "last_seen": "2026-10-25T18:32:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1946
-    },
-    {
-      "id": "619c9ed992",
-      "title": "Universities urged to embrace continuous learning and innovation in AI era",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/universities-urged-to-embrace-continuous-learning-and-innovation-in-ai-era/article71623743.ece",
-          "headline": "Universities urged to embrace continuous learning and innovation in AI era",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T18:32:32+00:00",
-      "last_seen": "2026-10-25T18:32:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1943
-    },
-    {
-      "id": "12f019a169",
-      "title": "Man jumps from terrace in bid to escape from police, dies",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/chennai/man-jumps-from-terrace-in-bid-to-escape-from-police-dies/article71623860.ece",
-          "headline": "Man jumps from terrace in bid to escape from police, dies",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T18:32:30+00:00",
-      "last_seen": "2026-10-25T18:32:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1942
-    },
-    {
-      "id": "8d9620a3bc",
-      "title": "Wineries, breweries closing down as decline in alcohol consumption starts to bite",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-10-26/global-alcohol-industry-in-decline-impact-on-local-business/106972596",
-          "headline": "Wineries, breweries closing down as decline in alcohol consumption starts to bite",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T18:31:40+00:00",
-      "last_seen": "2026-10-25T18:31:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1931
-    },
-    {
-      "id": "6ac0c0c69d",
-      "title": "Will Michael Carrick be sacked? Man United manager says he doesn’t know",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/10/25/will-michael-carrick-be-sacked-man-united-manager-says-he-doesnt-know?traffic_source=rss",
-          "headline": "Will Michael Carrick be sacked? Man United manager says he doesn’t know",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T18:27:53+00:00",
-      "last_seen": "2026-10-25T18:27:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1879
-    },
-    {
-      "id": "ed0d3b6fe1",
-      "title": "Here’s the latest.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/heres-the-latest",
-          "headline": "Here’s the latest.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T18:27:24+00:00",
-      "last_seen": "2026-10-25T18:27:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1872
-    },
-    {
-      "id": "c3ab69057a",
-      "title": "Uganda orders 21-day Ebola quarantine for citizens returning from DR Congo",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/10/25/uganda-orders-21-day-ebola-quarantine-for-citizens-returning-from-dr-congo?traffic_source=rss",
-          "headline": "Uganda orders 21-day Ebola quarantine for citizens returning from DR Congo",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T18:20:26+00:00",
-      "last_seen": "2026-10-25T18:20:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1778
-    },
-    {
-      "id": "c87524fe86",
-      "title": "MAPPED: The states Trump and top Democrats are targeting before Election Day",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/mapped-states-trump-top-democrats-targeting-election-day",
-          "headline": "MAPPED: The states Trump and top Democrats are targeting before Election Day",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-10-25T18:15:23+00:00",
-      "last_seen": "2026-10-25T18:15:23+00:00",
+      "first_seen": "2026-10-25T20:00:04+00:00",
+      "last_seen": "2026-10-25T22:11:16+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1711
+      "resonance": 0.2013
     },
     {
-      "id": "e76d728928",
-      "title": "Parker McCollum wants his sons to learn the lesson hunting and ranch life taught him growing up",
-      "signal_count": 1,
+      "id": "39a2c064c7",
+      "title": "Israeli strike on Gaza university kills three",
+      "signal_count": 3,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/parker-mccollum-wants-sons-learn-lesson-hunting-ranch-life-taught-growing",
-          "headline": "Parker McCollum wants his sons to learn the lesson hunting and ranch life taught him growing up",
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/25/israeli-strike-on-gaza-university-kills-three_6764023_4.html",
+          "headline": "Israeli strike on Gaza university kills three",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-10-25T18:14:01+00:00",
-      "last_seen": "2026-10-25T18:14:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1692
-    },
-    {
-      "id": "793513bad3",
-      "title": "Israeli air strike on Gaza City university kills three people",
-      "signal_count": 1,
-      "sources": [
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/strike-on-gaza-university-kills-three-staff-hospital/article71624609.ece",
+          "headline": "Strike on Gaza university kills three: staff, hospital",
+          "platform": "rss"
+        },
         {
           "outlet": "Al Jazeera English",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israeli-air-strike-on-gaza-city-university-kills-three-people?traffic_source=rss",
@@ -602,30 +413,64 @@
         }
       ],
       "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
+        "mean": -0.167,
+        "spread": 0.047,
         "left": 0,
-        "center": 1,
+        "center": 3,
         "right": 0
       },
       "first_seen": "2026-10-25T18:12:13+00:00",
-      "last_seen": "2026-10-25T18:12:13+00:00",
+      "last_seen": "2026-10-25T20:28:16+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1669
+      "resonance": 0.1755
     },
     {
-      "id": "3692e950a1",
-      "title": "Board of Deputies of British Jews declares Greens to be racist party",
+      "id": "7370752911",
+      "title": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/10/25/us-attorney-general-todd-blanche-defends-alaska-senate-election-lawsuit?traffic_source=rss",
+          "headline": "US Attorney General Todd Blanche defends Alaska Senate election lawsuit",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016212/blanche-defends-doj-lawsuit-blocking-alaska-senate-results-if-republican-loses",
+          "headline": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.175,
+        "spread": 0.025,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T17:50:35+00:00",
+      "last_seen": "2026-10-25T21:41:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1156
+    },
+    {
+      "id": "9bc7bc44c8",
+      "title": "Brazil elections: Vote counting resumes after extension",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ckx2qyd17eqvo?at_medium=RSS&at_campaign=rss",
-          "headline": "Board of Deputies of British Jews declares Greens to be racist party",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/brazil-elections-vote-counting-resumes-after-extension/live-79755630?maca=en-rss-en-all-1573-rdf",
+          "headline": "Brazil elections: Vote counting resumes after extension",
           "platform": "rss"
         }
       ],
@@ -636,80 +481,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-25T18:05:17+00:00",
-      "last_seen": "2026-10-25T18:05:17+00:00",
+      "first_seen": "2026-10-25T22:15:00+00:00",
+      "last_seen": "2026-10-25T22:15:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1578
+      "resonance": 0.1132
     },
     {
-      "id": "7d585e08ea",
-      "title": "Winless Dolphins end historic drought and they did it against the almost-as-hapless Jets",
+      "id": "36969edead",
+      "title": "Police investigate bullet inscribed with 'RAT' found on Victorian MP's car",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/winless-dolphins-end-historic-drought-against-hapless-jets",
-          "headline": "Winless Dolphins end historic drought and they did it against the almost-as-hapless Jets",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-10-26/paul-edbrooke-labor-mp-threat-bullet/107307762",
+          "headline": "Police investigate bullet inscribed with 'RAT' found on Victorian MP's car",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-10-25T18:02:22+00:00",
-      "last_seen": "2026-10-25T18:02:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.154
-    },
-    {
-      "id": "beb6836e47",
-      "title": "After racist killing in Trappes, Mayor Ali Rabeh declares: 'The French president was not the protector he should have been'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/politics/article/2026/10/25/after-racist-killing-in-trappes-mayor-ali-rabeh-declares-the-french-president-was-not-the-protector-he-should-have-been_6763925_5.html",
-          "headline": "After racist killing in Trappes, Mayor Ali Rabeh declares: 'The French president was not the protector he should have been'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-25T18:00:04+00:00",
-      "last_seen": "2026-10-25T18:00:04+00:00",
+      "first_seen": "2026-10-25T22:14:25+00:00",
+      "last_seen": "2026-10-25T22:14:25+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1511
+      "topic": "society",
+      "resonance": 0.1125
     },
     {
-      "id": "ad6bef4bc6",
-      "title": "A Day After Renewed Street Clashes in France, Relief and Anxiety Mix",
+      "id": "66fc8b818f",
+      "title": "Lula has accused Meta of helping his opponent.",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/25/world/europe/france-protests-macron-lepen.html",
-          "headline": "A Day After Renewed Street Clashes in France, Relief and Anxiety Mix",
+          "url": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/lula-has-accused-meta-of-helping-his-opponent",
+          "headline": "Lula has accused Meta of helping his opponent.",
           "platform": "rss"
         }
       ],
@@ -720,136 +537,226 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-10-25T17:52:46+00:00",
-      "last_seen": "2026-10-25T17:52:46+00:00",
+      "first_seen": "2026-10-25T22:13:15+00:00",
+      "last_seen": "2026-10-25T22:13:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1418
+      "topic": "tech",
+      "resonance": 0.1111
     },
     {
-      "id": "7370752911",
-      "title": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
+      "id": "4ce48e2f0a",
+      "title": "Antonelli wins in US but has to wait to secure title",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/10/25/nx-s1-6016212/blanche-defends-doj-lawsuit-blocking-alaska-senate-results-if-republican-loses",
-          "headline": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/formula1/articles/cm20w8154wn0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Antonelli wins in US but has to wait to secure title",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-25T17:50:35+00:00",
-      "last_seen": "2026-10-25T17:50:35+00:00",
+      "first_seen": "2026-10-25T22:13:05+00:00",
+      "last_seen": "2026-10-25T22:13:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1109
+    },
+    {
+      "id": "0de5b4d16a",
+      "title": "Australia politics live: MPs to pay tribute to Helen Haines as parliament resumes; Hanson says One Nation cartoons ‘not going anywhere’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/live/2026/oct/26/australia-politics-live-helen-haines-tribute-anthony-albanese-labor-liberal-one-nation-pauline-hanson-angus-taylor-question-time-senate-estimates-ntwnfb",
+          "headline": "Australia politics live: MPs to pay tribute to Helen Haines as parliament resumes; Hanson says One Nation cartoons ‘not going anywhere’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T22:12:50+00:00",
+      "last_seen": "2026-10-25T22:12:50+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.1391
+      "resonance": 0.1106
     },
     {
-      "id": "263c963e31",
-      "title": "Sri Lanka rescues 40 Iranian sailors, spokesman says",
+      "id": "9824c0a9d5",
+      "title": "Two men killed by falling trees as Storm Boelo leaves 160,000 properties without power",
       "signal_count": 1,
       "sources": [
         {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cxdd8gr1vje0o?at_medium=RSS&at_campaign=rss",
+          "headline": "Two men killed by falling trees as Storm Boelo leaves 160,000 properties without power",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T22:12:48+00:00",
+      "last_seen": "2026-10-25T22:12:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1106
+    },
+    {
+      "id": "9ecc3fe8a0",
+      "title": "Deeply divided Israel braces for pivotal election",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
+          "headline": "Deeply divided Israel braces for pivotal election",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T22:11:13+00:00",
+      "last_seen": "2026-10-25T22:11:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1087
+    },
+    {
+      "id": "6937c36be5",
+      "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+          "headline": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T22:06:26+00:00",
+      "last_seen": "2026-10-25T22:06:26+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.103
+    },
+    {
+      "id": "fb8ae83f87",
+      "title": "Israeli forces release Palestinian 'doctor of the poor ' with visible signs of abuse",
+      "signal_count": 2,
+      "sources": [
+        {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/sri-lanka-rescues-40-iranian-sailors-spokesman-says",
-          "headline": "Sri Lanka rescues 40 Iranian sailors, spokesman says",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-release-palestinian-doctor-poor-visible-signs-abuse",
+          "headline": "Israeli forces release Palestinian 'doctor of the poor ' with visible signs of abuse",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/israeli-forces-release-palestinian-doctor-poor-visible-signs-abuse",
+          "headline": "Israeli forces release Palestinian 'doctor of the poor ' with visible signs of abuse",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.25,
         "spread": 0.0,
-        "left": 1,
+        "left": 2,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-10-25T17:32:51+00:00",
-      "last_seen": "2026-10-25T17:32:51+00:00",
+      "first_seen": "2026-10-25T21:21:04+00:00",
+      "last_seen": "2026-10-25T22:02:55+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1173
+      "topic": "conflict",
+      "resonance": 0.1027
     },
     {
-      "id": "f247518166",
-      "title": "Netanyahu warns Iran may try to disrupt election, says ‘don’t test us’",
+      "id": "9eff29fe5f",
+      "title": "SA premier refers $15b project to ICAC over bikie 'infiltration' fears",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3372091/netanyahu-warns-iran-may-try-disrupt-election-says-dont-test-us",
-          "headline": "Netanyahu warns Iran may try to disrupt election, says ‘don’t test us’",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-10-26/bikie-infiltration-fears-in-torrens-project-prompt-icac-appeal/107304684",
+          "headline": "SA premier refers $15b project to ICAC over bikie 'infiltration' fears",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.1,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-25T17:29:00+00:00",
-      "last_seen": "2026-10-25T17:29:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1127
-    },
-    {
-      "id": "c8fe65a8fb",
-      "title": "Exiled opposition leader announces shock return to Venezuela",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Sky News",
-          "url": "https://news.sky.com/story/exiled-venezuelan-opposition-leader-announces-shock-return-to-the-country-13603692",
-          "headline": "Exiled opposition leader announces shock return to Venezuela",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T17:03:00+00:00",
-      "last_seen": "2026-10-25T17:03:00+00:00",
+      "first_seen": "2026-10-25T22:01:38+00:00",
+      "last_seen": "2026-10-25T22:01:38+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0826
+      "resonance": 0.0974
     },
     {
-      "id": "d287685093",
-      "title": "This Switch 2 sequel accessory was a few millimeters away from being good",
+      "id": "08ccece3d9",
+      "title": "Remote community devastated over closure of Indigenous youth organisation",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/1017508/crkd-nitro-deck-2-nintendo-switch-2-controller-case-hands-on",
-          "headline": "This Switch 2 sequel accessory was a few millimeters away from being good",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-10-26/wyndham-indigenous-youth-origination-closes/107298036",
+          "headline": "Remote community devastated over closure of Indigenous youth organisation",
           "platform": "rss"
         }
       ],
@@ -860,219 +767,427 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-25T17:00:00+00:00",
-      "last_seen": "2026-10-25T17:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0793
-    },
-    {
-      "id": "74700e7f9f",
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-          "headline": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T16:57:32+00:00",
-      "last_seen": "2026-10-25T16:57:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0765
-    },
-    {
-      "id": "514c1f5c6a",
-      "title": "Carrick future under major threat - can he survive?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/sport/football/articles/crgj9wnpd1lvo?at_medium=RSS&at_campaign=rss",
-          "headline": "Carrick future under major threat - can he survive?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T16:51:48+00:00",
-      "last_seen": "2026-10-25T16:51:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0702
-    },
-    {
-      "id": "9bca0bcf87",
-      "title": "What to Know About Brazil’s Election as Bolsonaro Faces Off With Lula",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/brazil-election-lula-bolsonaro-cast-votes-in-final-bout/live-79755630?maca=en-rss-en-all-1573-rdf",
-          "headline": "Brazil election: Lula, Bolsonaro cast votes in final bout",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/25/world/americas/brazil-election-lula-bolsonaro-what-to-know.html",
-          "headline": "What to Know About Brazil’s Election as Bolsonaro Faces Off With Lula",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.1,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T14:08:52+00:00",
-      "last_seen": "2026-10-25T14:13:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0699
-    },
-    {
-      "id": "7076642048",
-      "title": "French far-right leader Le Pen kicks off presidential campaign",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/french-far-right-leader-le-pen-kicks-off-presidential-campaign",
-          "headline": "French far-right leader Le Pen kicks off presidential campaign",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T16:38:56+00:00",
-      "last_seen": "2026-10-25T16:38:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0563
-    },
-    {
-      "id": "f918660ba2",
-      "title": "AI’s ‘opportunity divide’ could deepen global inequality, UN official warns",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/10/25/ais-opportunity-divide-could-deepen-global-inequality-un-official-warns?traffic_source=rss",
-          "headline": "AI’s ‘opportunity divide’ could deepen global inequality, UN official warns",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/un-official-warns-ai-could-deepen-global-inequality?traffic_source=rss",
-          "headline": "UN official warns AI could ‘deepen’ global inequality",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T15:38:52+00:00",
-      "last_seen": "2026-10-25T17:26:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0537
-    },
-    {
-      "id": "fe7e0449f1",
-      "title": "France: 1.314 arrested during protests across the country",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/france-1-314-arrested-during-protests-across-the-country",
-          "headline": "France: 1.314 arrested during protests across the country",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-25T16:32:57+00:00",
-      "last_seen": "2026-10-25T16:32:57+00:00",
+      "first_seen": "2026-10-25T22:01:02+00:00",
+      "last_seen": "2026-10-25T22:01:02+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "society",
+      "resonance": 0.0967
+    },
+    {
+      "id": "721b686021",
+      "title": "NASCAR's Joey Logano rides on his roof, Riley Herbst nails wall at full speed in dangerous Talladega wreck",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/nascars-joey-logano-rides-roof-riley-herbst-nails-wall-full-speed-dangerous-talladega-wreck",
+          "headline": "NASCAR's Joey Logano rides on his roof, Riley Herbst nails wall at full speed in dangerous Talladega wreck",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-25T22:00:56+00:00",
+      "last_seen": "2026-10-25T22:00:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0966
+    },
+    {
+      "id": "e3246e52d7",
+      "title": "Why cloud computing pioneer Wang Jian thinks space is the next AI frontier",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/tech/tech-trends/article/3371979/why-cloud-computing-pioneer-wang-jian-thinks-space-next-ai-frontier",
+          "headline": "Why cloud computing pioneer Wang Jian thinks space is the next AI frontier",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T22:00:20+00:00",
+      "last_seen": "2026-10-25T22:00:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0959
+    },
+    {
+      "id": "b7aa3b25b4",
+      "title": "Rogers fires back at Welker over El-Sayed's Muslim Brotherhood controversy, 'You are giving him a pass'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/media/rogers-fires-back-welker-over-el-sayeds-muslim-brotherhood-controversy-you-giving-him-pass",
+          "headline": "Rogers fires back at Welker over El-Sayed's Muslim Brotherhood controversy, 'You are giving him a pass'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-25T21:58:57+00:00",
+      "last_seen": "2026-10-25T21:58:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0943
+    },
+    {
+      "id": "d674ece967",
+      "title": "'Who is the Israeli army really fighting in Gaza?'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/25/who-is-the-israeli-army-really-fighting-in-gaza_6764056_4.html",
+          "headline": "'Who is the Israeli army really fighting in Gaza?'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T21:58:32+00:00",
+      "last_seen": "2026-10-25T21:58:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0938
+    },
+    {
+      "id": "a0ff1a3df3",
+      "title": "Dolphins avoid 0-17 crisis, pick up first win of season against struggling Jets on the road",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/dolphins-avoid-0-17-crisis-pick-up-first-win-season-against-struggling-jets-road",
+          "headline": "Dolphins avoid 0-17 crisis, pick up first win of season against struggling Jets on the road",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-25T21:51:15+00:00",
+      "last_seen": "2026-10-25T21:51:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0855
+    },
+    {
+      "id": "1fbe16cbef",
+      "title": "Marine Le Pen vows French ‘renaissance’ as far right eyes seat of power",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/10/25/marine-le-pen-vows-a-french-renaissance-as-far-right-eyes-seat-of-power?traffic_source=rss",
+          "headline": "Marine Le Pen vows French ‘renaissance’ as far right eyes seat of power",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T21:50:36+00:00",
+      "last_seen": "2026-10-25T21:50:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0848
+    },
+    {
+      "id": "dee0bedaf5",
+      "title": "iFixit&#8217;s look inside the iPhone Duo may explain those broken screens and hinges",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge",
+          "headline": "iFixit&#8217;s look inside the iPhone Duo may explain those broken screens and hinges",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T21:40:27+00:00",
+      "last_seen": "2026-10-25T21:40:27+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0734
+    },
+    {
+      "id": "034024a0c1",
+      "title": "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html",
+          "headline": "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T21:39:45+00:00",
+      "last_seen": "2026-10-25T21:39:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0726
+    },
+    {
+      "id": "8aca6dbe35",
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+          "headline": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T21:31:16+00:00",
+      "last_seen": "2026-10-25T21:31:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0634
+    },
+    {
+      "id": "c63b4f035d",
+      "title": "Peak lighting outcry spotlights the trouble with fast-track governance",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3372057/peak-lighting-outcry-spotlights-trouble-fast-track-governance",
+          "headline": "Peak lighting outcry spotlights the trouble with fast-track governance",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T21:30:06+00:00",
+      "last_seen": "2026-10-25T21:30:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0621
+    },
+    {
+      "id": "21826dadfc",
+      "title": "Trump VS California",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-vs-california?traffic_source=rss",
+          "headline": "Trump VS California",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T21:29:23+00:00",
+      "last_seen": "2026-10-25T21:29:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0613
+    },
+    {
+      "id": "8df2a7160f",
+      "title": "End approaching for Carrick but Man Utd owners' problems far bigger",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cwm24jk9743yo?at_medium=RSS&at_campaign=rss",
+          "headline": "End approaching for Carrick but Man Utd owners' problems far bigger",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T21:24:21+00:00",
+      "last_seen": "2026-10-25T21:24:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0559
+    },
+    {
+      "id": "107a66dc6e",
+      "title": "Brazil’s election left hanging as judge extends vote after polls close, sparking chaos",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/americas/article/3372096/brazil-pauses-presidential-vote-count-after-supreme-court-extends-voting-hours",
+          "headline": "Brazil’s election left hanging as judge extends vote after polls close, sparking chaos",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-25T21:18:45+00:00",
+      "last_seen": "2026-10-25T21:18:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "478fe98df0",
-      "target": "c8fe65a8fb",
-      "weight": 0.258,
+      "source": "224b3beec3",
+      "target": "6937c36be5",
+      "weight": 0.184,
       "type": "thematic"
     },
     {
       "source": "b676f938a0",
-      "target": "7076642048",
-      "weight": 0.569,
+      "target": "1fbe16cbef",
+      "weight": 0.488,
       "type": "thematic"
     },
     {
-      "source": "0fde06ed55",
-      "target": "ed0d3b6fe1",
-      "weight": 0.264,
+      "source": "478fe98df0",
+      "target": "20d56fa5ba",
+      "weight": 0.788,
       "type": "thematic"
     },
     {
-      "source": "3692e950a1",
-      "target": "beb6836e47",
-      "weight": 0.178,
+      "source": "96dcb1548e",
+      "target": "9ecc3fe8a0",
+      "weight": 0.298,
+      "type": "thematic"
+    },
+    {
+      "source": "96dcb1548e",
+      "target": "107a66dc6e",
+      "weight": 0.086,
+      "type": "thematic"
+    },
+    {
+      "source": "24fd6a5bd5",
+      "target": "107a66dc6e",
+      "weight": 0.042,
+      "type": "thematic"
+    },
+    {
+      "source": "39a2c064c7",
+      "target": "d674ece967",
+      "weight": 0.679,
+      "type": "thematic"
+    },
+    {
+      "source": "9bc7bc44c8",
+      "target": "107a66dc6e",
+      "weight": 0.236,
       "type": "thematic"
     }
   ],
@@ -1099,7 +1214,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 7,
+      "count": 8,
       "error": null
     },
     "The Economist": {

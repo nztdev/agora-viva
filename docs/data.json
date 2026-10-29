@@ -1,24 +1,92 @@
 {
-  "generated_at": "2026-10-28T20:52:27.946683+00:00",
+  "generated_at": "2026-10-29T05:09:41.908015+00:00",
   "node_count": 35,
   "edge_count": 7,
   "nodes": [
     {
-      "id": "0ed2b0bdef",
-      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
-      "signal_count": 2,
+      "id": "48154724c0",
+      "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
-          "headline": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+          "outlet": "Hacker News",
+          "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+          "headline": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T03:33:42+00:00",
+      "last_seen": "2026-10-29T03:33:42+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.28
+    },
+    {
+      "id": "841c6599d2",
+      "title": "Brewers beat the Rays to win the first World Series title in franchise history",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/10/29/nx-s1-6021953/brewers-win-first-world-series-title",
+          "headline": "Brewers beat the Rays to win the first World Series title in franchise history",
           "platform": "rss"
         },
         {
-          "outlet": "Hacker News",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-          "headline": "Gemini 4 Carbon",
-          "platform": "hackernews"
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/sports/2026/10/29/baseball/milwaukee-brewers-wins-world-series/",
+          "headline": "Brewers beat Rays to capture first World Series title",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/brewers-win-world-series-first-time-franchise-history-game-5-victory-over-rays",
+          "headline": "Brewers win World Series for first time in franchise history with Game 5 victory over Rays",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.324,
+        "left": 0,
+        "center": 2,
+        "right": 1
+      },
+      "first_seen": "2026-10-29T03:14:01+00:00",
+      "last_seen": "2026-10-29T04:49:24+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.5035
+    },
+    {
+      "id": "e6e6a44794",
+      "title": "North Korea fires around 10 ballistic missiles into sea",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/north-korea-fires-around-10-ballistic-missiles-into-sea/a-79791900?maca=en-rss-en-all-1573-rdf",
+          "headline": "North Korea fires around 10 ballistic missiles into sea",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/10/29/asia-pacific/north-korea-ballistic-missile/",
+          "headline": "North Korea fires off apparent ballistic missile",
+          "platform": "rss"
         }
       ],
       "bias": {
@@ -28,413 +96,93 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-10-28T17:01:23+00:00",
-      "last_seen": "2026-10-28T20:03:00+00:00",
-      "platforms": [
-        "rss",
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.8979
-    },
-    {
-      "id": "f862bd1684",
-      "title": "MacBook Pro with PROLED XDR Display and Touch",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
-          "headline": "MacBook Pro with PROLED XDR Display and Touch",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T17:10:37+00:00",
-      "last_seen": "2026-10-28T17:10:37+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
-    },
-    {
-      "id": "e19562aea0",
-      "title": "Why Is This Fingerprinting Script Creating Bioweapons?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://nullpt.rs/fingerprinting-bioweapons",
-          "headline": "Why Is This Fingerprinting Script Creating Bioweapons?",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T17:13:29+00:00",
-      "last_seen": "2026-10-28T17:13:29+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.28
-    },
-    {
-      "id": "ece9d2bd07",
-      "title": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
-      "signal_count": 6,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
-          "headline": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/bolsonaro-flees-brazil-for-us-after-election-defeat",
-          "headline": "Bolsonaro flees Brazil for US after election defeat",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/28/world/americas/flavio-bolsonaro-us-miami-brazil-trump.html",
-          "headline": "Flávio Bolsonaro Lands in Miami After Fleeing Brazil",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/videos/ck4g1xe5xny4o?at_medium=RSS&at_campaign=rss",
-          "headline": "How did Flávio Bolsonaro end up in Miami?",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/video/20261028-defeated-presidential-candidate-bolsonaro-lands-in-miami-after-fleeing-brazil",
-          "headline": "Defeated presidential candidate Bolsonaro lands in Miami after fleeing Brazil",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-miami-after-fleeing-brazil-for-us/a-79788659?maca=en-rss-en-all-1573-rdf",
-          "headline": "Flavio Bolsonaro lands in Miami after fleeing Brazil for US",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.1,
-        "left": 1,
-        "center": 5,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T15:10:00+00:00",
-      "last_seen": "2026-10-28T20:22:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2632
-    },
-    {
-      "id": "aa6fb924b7",
-      "title": "Fed holds interest rates steady even as inflation remains stubborn",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us?traffic_source=rss",
-          "headline": "Fed leaves interest rates unchanged despite inflation in the US",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3372489/us-fed-holds-interest-rates-steady-despite-surging-inflation",
-          "headline": "US Fed holds interest rates steady despite surging inflation",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation",
-          "headline": "Fed holds interest rates steady even as inflation remains stubborn",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.083,
-        "spread": 0.131,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T18:04:42+00:00",
-      "last_seen": "2026-10-28T19:05:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.2368
-    },
-    {
-      "id": "7365250433",
-      "title": "Apple announces touchscreen MacBook Pro with OLED display",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/1021308/apple-touchscreen-macbook-pro-proled-xdr-fully-specced",
-          "headline": "Apple charges $14,549 for a fully specced touchscreen MacBook Pro",
-          "platform": "rss"
-        },
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
-          "headline": "Apple launches its new touchscreen MacBook Pro",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Ars Technica",
-          "url": "https://arstechnica.com/apple/2026/10/apple-announces-touchscreen-macbook-pro-with-oled-display/",
-          "headline": "Apple announces touchscreen MacBook Pro with OLED display",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T17:25:04+00:00",
-      "last_seen": "2026-10-28T20:12:44+00:00",
+      "first_seen": "2026-10-29T04:21:00+00:00",
+      "last_seen": "2026-10-29T04:57:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.2232
+      "resonance": 0.4298
     },
     {
-      "id": "d329a0da9e",
-      "title": "Watch: At the scene of Spain's deadly train crash",
-      "signal_count": 5,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/28/world/europe/spain-train-crash-rescue-victims.html",
-          "headline": "Spain Train Crash Kills at Least 68",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/spain-high-speed-train-crash-kills-68-injures-over-100",
-          "headline": "Spain high-speed train crash kills 68, injures over 100",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/10/28/world/spain-train-crash-toledo",
-          "headline": "At Least 68 Killed in Train Crash in Spain, Officials Say",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: At the scene of Spain's deadly train crash",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
-          "headline": "What we know so far about deadly Spain train crash",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.14,
-        "spread": 0.136,
-        "left": 2,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T15:36:11+00:00",
-      "last_seen": "2026-10-28T20:26:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.194
-    },
-    {
-      "id": "39979c0810",
-      "title": "Clinging on: On Netanyahu and the Israel elections",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/opinion/editorial/clinging-on-on-netanyahu-and-the-israel-elections/article71636497.ece",
-          "headline": "Clinging on: On Netanyahu and the Israel elections",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/10/28/what-are-the-implications-of-israels-elections?traffic_source=rss",
-          "headline": "What are the implications of Israel’s elections?",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/jerusalem-daily-whats-next-after-israels-elections?traffic_source=rss",
-          "headline": "Jerusalem Daily: What’s next after Israel’s elections?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.167,
-        "spread": 0.047,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T18:31:33+00:00",
-      "last_seen": "2026-10-28T19:52:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1624
-    },
-    {
-      "id": "b026a7cf14",
-      "title": "Dolores Huerta, US labor organizer and icon of the left, dies at 96",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/obituaries/article/2026/10/28/dolores-huerta-us-labor-organizer-and-icon-of-the-left-dies-at-96_6766234_15.html",
-          "headline": "Dolores Huerta, US labor organizer and icon of the left, dies at 96",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/americas/20261028-si-se-puede-us-civil-rights-icon-dolores-huerta-dies-96",
-          "headline": "'Si, se puede': US civil rights icon Dolores Huerta dies at 96",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/10/28/nx-s1-6020543/dolores-huerta-dies",
-          "headline": "Dolores Huerta, influential labor leader, feminist and civil rights icon, dies at 96",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.041,
-        "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T16:10:43+00:00",
-      "last_seen": "2026-10-28T18:24:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1135
-    },
-    {
-      "id": "e485a7cdaa",
-      "title": "Historic gains for Arab-majority parties in Israeli election",
+      "id": "b3802e728f",
+      "title": "Evening update",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/historic-gains-for-arab-majority-parties-in-israeli-election",
-          "headline": "Historic gains for Arab-majority parties in Israeli election",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/evening-update-34",
+          "headline": "Evening update",
           "platform": "rss"
         },
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/likud-says-israeli-election-stolen-arab-parties",
-          "headline": "Likud says Israeli election ‘stolen’ by Arab parties",
-          "platform": "rss"
+          "outlet": "Hacker News",
+          "url": "https://furbo.org/2026/10/28/a-health-update/",
+          "headline": "A Health Update",
+          "platform": "hackernews"
         }
       ],
       "bias": {
-        "mean": -0.175,
-        "spread": 0.075,
+        "mean": -0.125,
+        "spread": 0.125,
         "left": 1,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-28T16:28:50+00:00",
-      "last_seen": "2026-10-28T20:32:29+00:00",
+      "first_seen": "2026-10-28T21:13:21+00:00",
+      "last_seen": "2026-10-29T00:06:54+00:00",
       "platforms": [
+        "hackernews",
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1104
+      "topic": "health",
+      "resonance": 0.2889
     },
     {
-      "id": "10b60e2d0d",
-      "title": "Hezbollah leader rules out group's disarmament",
-      "signal_count": 1,
+      "id": "381b7bdfd3",
+      "title": "Hegseth Fires a Top General",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-leader-rules-out-groups-disarmament",
-          "headline": "Hezbollah leader rules out group's disarmament",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3372530/hegseth-fires-pentagons-top-military-planner-trump-weighs-new-iran-strikes",
+          "headline": "Hegseth fires Pentagon’s top military planner as Trump weighs new Iran strikes",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/national-security/2026/10/brett-sylvia-hegseth-general-pentagon/689199/?utm_source=feed",
+          "headline": "Hegseth Fires a Top General",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
+        "mean": -0.075,
+        "spread": 0.175,
         "left": 1,
-        "center": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-28T20:47:43+00:00",
-      "last_seen": "2026-10-28T20:47:43+00:00",
+      "first_seen": "2026-10-29T00:54:24+00:00",
+      "last_seen": "2026-10-29T04:54:53+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0899
+      "topic": "conflict",
+      "resonance": 0.2376
     },
     {
-      "id": "f8a686c785",
-      "title": "Politics live: Chalmers calls social media a ‘business model for hate’; half of young Australians say US a ‘threat’",
+      "id": "9ca51a00ea",
+      "title": "Australian politics live: PM grilled over golf club grant again as five ejected from question time; Bowen says he’s ‘triggered’ opposition",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Guardian World",
           "url": "https://www.theguardian.com/australia-news/live/2026/oct/29/labor-treasurer-jim-chalmers-social-media-anthony-albanese-coalition-one-nation-ntwnfb",
-          "headline": "Politics live: Chalmers calls social media a ‘business model for hate’; half of young Australians say US a ‘threat’",
+          "headline": "Australian politics live: PM grilled over golf club grant again as five ejected from question time; Bowen says he’s ‘triggered’ opposition",
           "platform": "rss"
         }
       ],
@@ -445,136 +193,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-10-28T20:46:51+00:00",
-      "last_seen": "2026-10-28T20:46:51+00:00",
+      "first_seen": "2026-10-29T05:01:08+00:00",
+      "last_seen": "2026-10-29T05:01:08+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0888
+      "resonance": 0.1919
     },
     {
-      "id": "dc6b26e839",
-      "title": "Watch: King dances in the streets of the Bahamas capital",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cm87zwe3ydp1o?at_medium=RSS&at_campaign=rss",
-          "headline": "Watch: King dances in the streets of the Bahamas capital",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T20:44:10+00:00",
-      "last_seen": "2026-10-28T20:44:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0855
-    },
-    {
-      "id": "434375be9d",
-      "title": "What to Make of Israel’s Ambiguous Election",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/28/world/israel-election-results-spain-train.html",
-          "headline": "What to Make of Israel’s Ambiguous Election",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T20:43:33+00:00",
-      "last_seen": "2026-10-28T20:43:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0848
-    },
-    {
-      "id": "adc9209de4",
-      "title": "Railways to turn off charging points in trains during night",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/railways-to-strictly-enforce-overnight-mobile-charging-ban-on-trains/article71637074.ece",
-          "headline": "Railways to turn off charging points in trains during night",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T20:41:32+00:00",
-      "last_seen": "2026-10-28T20:41:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0823
-    },
-    {
-      "id": "67d7c2b9cd",
-      "title": "Israeli army strikes Deir Mimas in southern Lebanon",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-army-strikes-target-deir-mimas-southern-lebanon",
-          "headline": "Israeli army strikes Deir Mimas in southern Lebanon",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T20:40:43+00:00",
-      "last_seen": "2026-10-28T20:40:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0814
-    },
-    {
-      "id": "05174a336c",
-      "title": "Trial starts for man accused of murdering Victorian woman Carlee Smith",
+      "id": "270ec37de2",
+      "title": "Brewers complete underdog story with maiden World Series title",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-10-29/trial-of-man-accused-of-murdering-hamilton-woman-begins/107317610",
-          "headline": "Trial starts for man accused of murdering Victorian woman Carlee Smith",
+          "url": "https://www.abc.net.au/news/2026-10-29/milwaukee-brewers-world-series-victory/107324300",
+          "headline": "Brewers complete underdog story with maiden World Series title",
           "platform": "rss"
         }
       ],
@@ -585,24 +221,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-28T20:37:47+00:00",
-      "last_seen": "2026-10-28T20:37:47+00:00",
+      "first_seen": "2026-10-29T05:00:29+00:00",
+      "last_seen": "2026-10-29T05:00:29+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0778
+      "topic": "tech",
+      "resonance": 0.1908
     },
     {
-      "id": "04a711b7f6",
-      "title": "On a day that could have ended Test careers, a few young ones flourish",
+      "id": "db52d9426b",
+      "title": "Creative project reimagines history from First Nations perspective",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-10-29/australian-batters-take-control-of-cape-town-test-south-africa/107321570",
-          "headline": "On a day that could have ended Test careers, a few young ones flourish",
+          "url": "https://www.abc.net.au/news/2026-10-29/address-to-the-nations-indigenous-perspective-on-history/107319564",
+          "headline": "Creative project reimagines history from First Nations perspective",
           "platform": "rss"
         }
       ],
@@ -613,164 +249,128 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-28T20:36:43+00:00",
-      "last_seen": "2026-10-28T20:36:43+00:00",
+      "first_seen": "2026-10-29T05:00:00+00:00",
+      "last_seen": "2026-10-29T05:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0765
+      "resonance": 0.1899
     },
     {
-      "id": "dbd5b9db72",
-      "title": "Bihar MLC polls: NDA close to win 4 out of 8 seats",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/bihar/bihar-mlc-results-counting-updates/article71632702.ece",
-          "headline": "Bihar MLC polls: NDA close to win 4 out of 8 seats",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T20:36:03+00:00",
-      "last_seen": "2026-10-28T20:36:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0757
-    },
-    {
-      "id": "f5b06ca340",
-      "title": "How André Janones Helped Turbocharge Lula’s Comeback in Brazil’s Election",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/28/world/americas/andre-janones-whatsapp-lula-brazil-election.html",
-          "headline": "How André Janones Helped Turbocharge Lula’s Comeback in Brazil’s Election",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T20:35:54+00:00",
-      "last_seen": "2026-10-28T20:35:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0756
-    },
-    {
-      "id": "d1f586d600",
-      "title": "When Indian gods took shape in European porcelain",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/entertainment/art/anil-relia-porcelain-the-lithographic-mold-indian-lithographs-porcelain-figurines-lalbhai-dalpatbhai-museum/article71606381.ece",
-          "headline": "When Indian gods took shape in European porcelain",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T20:35:48+00:00",
-      "last_seen": "2026-10-28T20:35:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0754
-    },
-    {
-      "id": "0412548a55",
-      "title": "Erdogan tells Trump Turkey making diplomatic efforts on Strait of Hormuz, Yemen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/erdogan-tells-trump-turkey-making-diplomatic-efforts-strait-hormuz-yemen",
-          "headline": "Erdogan tells Trump Turkey making diplomatic efforts on Strait of Hormuz, Yemen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T20:33:28+00:00",
-      "last_seen": "2026-10-28T20:33:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0727
-    },
-    {
-      "id": "5e5cdbf02f",
-      "title": "Japan has mastered the red carpet. Almost.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/culture/2026/10/29/film/japanese-red-carpet-tiff/",
-          "headline": "Japan has mastered the red carpet. Almost.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T20:30:00+00:00",
-      "last_seen": "2026-10-28T20:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0686
-    },
-    {
-      "id": "569aa82fd9",
-      "title": "Most Servers on the Planet Are Vulnerable to This Firmware Code-Execution Flaw",
-      "signal_count": 1,
+      "id": "0e9972b119",
+      "title": "Norton Coupon Codes: Up to 58% Off",
+      "signal_count": 8,
       "sources": [
         {
           "outlet": "WIRED",
-          "url": "https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/",
-          "headline": "Most Servers on the Planet Are Vulnerable to This Firmware Code-Execution Flaw",
+          "url": "https://www.wired.com/story/norton-coupon-code/",
+          "headline": "Norton Coupon Codes: Up to 58% Off",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/hungryroot-promo-code/",
+          "headline": "Hungryroot Coupon Codes: 30% Off This November 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/nzxt-discount-code/",
+          "headline": "NZXT Discount Codes: 50% Off in November 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/govee-discount-code/",
+          "headline": "Govee Discount Codes and Deals: 30% Off",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/loop-earplugs-discount-code/",
+          "headline": "Loop Earplugs Discount Codes: 40% Off",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/tempur-pedic-promo-code/",
+          "headline": "30% Off Tempur-Pedic Promo Codes | November 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/pura-promo-code/",
+          "headline": "Pura Promo Codes: $20 Off November 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/skullcandy-discount-code/",
+          "headline": "Skullcandy Discount Code: 30% Off | November 2026",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 8,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T05:00:00+00:00",
+      "last_seen": "2026-10-29T05:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1899
+    },
+    {
+      "id": "02db518fdd",
+      "title": "Dermstore Coupons: 25% Off for November 2026",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/dermstore-promo-code/",
+          "headline": "Dermstore Coupons: 25% Off for November 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/petlibro-discount-code/",
+          "headline": "Petlibro Offers: 30% Off in November 2026",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T05:00:00+00:00",
+      "last_seen": "2026-10-29T05:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1899
+    },
+    {
+      "id": "8bae778dd6",
+      "title": "Keralam teacher arrested for alleging worms found in food at State Sports Meet; Minister alleges conspiracy",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/keralam-teacher-arrested-for-alleging-worms-found-in-food-at-state-sports-meet-minister-alleges-conspiracy/article71639027.ece",
+          "headline": "Keralam teacher arrested for alleging worms found in food at State Sports Meet; Minister alleges conspiracy",
           "platform": "rss"
         }
       ],
@@ -781,24 +381,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-28T20:30:00+00:00",
-      "last_seen": "2026-10-28T20:30:00+00:00",
+      "first_seen": "2026-10-29T04:59:19+00:00",
+      "last_seen": "2026-10-29T04:59:19+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.0686
+      "resonance": 0.1888
     },
     {
-      "id": "a1cce1ad06",
-      "title": "Live: Tax office boss concedes consultation failures on credit card ban",
+      "id": "365bb76ef9",
+      "title": "Disinvestment as key economic strategy",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-10-29/federal-politics-live-blog-oct-29/107320104",
-          "headline": "Live: Tax office boss concedes consultation failures on credit card ban",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/opinion/op-ed/disinvestment-as-key-economic-strategy/article71637709.ece",
+          "headline": "Disinvestment as key economic strategy",
           "platform": "rss"
         }
       ],
@@ -809,24 +409,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-28T20:29:46+00:00",
-      "last_seen": "2026-10-28T20:29:46+00:00",
+      "first_seen": "2026-10-29T04:58:24+00:00",
+      "last_seen": "2026-10-29T04:58:24+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0683
+      "topic": "economy",
+      "resonance": 0.1872
     },
     {
-      "id": "88698e6676",
-      "title": "Huawei opens defence in US criminal trial, touting its record of innovation",
+      "id": "111c11ff33",
+      "title": "Hong Kong teen jailed for 8 years for acid attack on Singaporean tourist",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/us/article/3372491/huawei-opens-defence-us-criminal-trial-touting-its-record-innovation",
-          "headline": "Huawei opens defence in US criminal trial, touting its record of innovation",
+          "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3372525/hong-kong-teen-jailed-8-years-acid-attack-singaporean-tourist",
+          "headline": "Hong Kong teen jailed for 8 years for acid attack on Singaporean tourist",
           "platform": "rss"
         }
       ],
@@ -837,24 +437,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-28T20:26:16+00:00",
-      "last_seen": "2026-10-28T20:26:16+00:00",
+      "first_seen": "2026-10-29T04:58:22+00:00",
+      "last_seen": "2026-10-29T04:58:22+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0642
+      "topic": "tech",
+      "resonance": 0.1872
     },
     {
-      "id": "6edfab2f67",
-      "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+      "id": "e1b16c49d0",
+      "title": "Chiefs add kicker Justin Tucker to practice squad as Harrison Butker struggles",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-          "headline": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/sports/2026/10/29/more-sports/chiefs-sign-justin-tucker/",
+          "headline": "Chiefs add kicker Justin Tucker to practice squad as Harrison Butker struggles",
           "platform": "rss"
         }
       ],
@@ -865,108 +465,76 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-28T20:24:39+00:00",
-      "last_seen": "2026-10-28T20:24:39+00:00",
+      "first_seen": "2026-10-29T04:56:00+00:00",
+      "last_seen": "2026-10-29T04:56:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0623
+      "topic": "world",
+      "resonance": 0.1832
     },
     {
-      "id": "860c287f9c",
-      "title": "Google says its investments in AI are driving more searches",
-      "signal_count": 1,
+      "id": "b6d8c4580e",
+      "title": "Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil",
+      "signal_count": 5,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026",
-          "headline": "Google says its investments in AI are driving more searches",
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/10/29/world/politics/flavio-bolsonaro-us-brazil-election/",
+          "headline": "From U.S., Bolsonaro declares himself rightful leader of Brazil after election loss",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T20:22:26+00:00",
-      "last_seen": "2026-10-28T20:22:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0597
-    },
-    {
-      "id": "fb935b4ef8",
-      "title": "UN votes to condemn embargo of Cuba despite US lobbying push",
-      "signal_count": 1,
-      "sources": [
+        },
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/10/28/un-votes-to-condemn-embargo-of-cuba-despite-us-lobbying-push?traffic_source=rss",
-          "headline": "UN votes to condemn embargo of Cuba despite US lobbying push",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-leader-of-brazil/a-79788659?maca=en-rss-en-all-1573-rdf",
+          "headline": "Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T20:22:16+00:00",
-      "last_seen": "2026-10-28T20:22:16+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0595
-    },
-    {
-      "id": "84dac91804",
-      "title": "Top US federal judge who handled 9/11, Trump, Maduro cases dies aged 92",
-      "signal_count": 1,
-      "sources": [
+        },
         {
           "outlet": "France 24",
-          "url": "https://www.france24.com/en/americas/20261028-top-us-federal-judge-who-handled-9-11-trump-maduro-cases-dies-aged-92",
-          "headline": "Top US federal judge who handled 9/11, Trump, Maduro cases dies aged 92",
+          "url": "https://www.france24.com/en/tv-shows/a-propos/20261028-flavio-bolsonaro-claims-he-is-brazil-s-true-leader-after-fleeing-to-us",
+          "headline": "Flavio Bolsonaro claims he is Brazil's true leader after fleeing to US",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/flavio-bolsonaro-claims-he-is-brazil-s-true-leader-after-fleeing-to-us",
+          "headline": "Flavio Bolsonaro claims he is Brazil's true leader after fleeing to US",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/10/28/whats-next-for-brazils-flavio-bolsonaro-after-election-defeat?traffic_source=rss",
+          "headline": "What’s next for Brazil’s Flavio Bolsonaro after election defeat?",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.1,
-        "spread": 0.0,
+        "spread": 0.063,
         "left": 0,
-        "center": 1,
+        "center": 5,
         "right": 0
       },
-      "first_seen": "2026-10-28T20:22:05+00:00",
-      "last_seen": "2026-10-28T20:22:05+00:00",
+      "first_seen": "2026-10-28T20:38:01+00:00",
+      "last_seen": "2026-10-29T02:07:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.0593
+      "topic": "politics",
+      "resonance": 0.1813
     },
     {
-      "id": "7b719b80b7",
-      "title": "Microsoft reveals strong cloud growth amid financial reporting overhaul",
+      "id": "98073215a1",
+      "title": "How the humble salt marsh softens the ocean’s fury",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/1020785/microsoft-earnings-revenue-q1-2027",
-          "headline": "Microsoft reveals strong cloud growth amid financial reporting overhaul",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sci-tech/science/science-for-all-newsletter-how-the-humble-salt-marsh-softens-the-oceans-fury/article71630237.ece",
+          "headline": "How the humble salt marsh softens the ocean’s fury",
           "platform": "rss"
         }
       ],
@@ -977,24 +545,226 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-28T20:20:00+00:00",
-      "last_seen": "2026-10-28T20:20:00+00:00",
+      "first_seen": "2026-10-29T04:47:59+00:00",
+      "last_seen": "2026-10-29T04:47:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1697
+    },
+    {
+      "id": "3cd42f14fd",
+      "title": "Motor racing-Perez brings Formula One to Mexico City streets before home milestone",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/sports/2026/10/29/more-sports/sergio-perez-mexico-city-run/",
+          "headline": "Motor racing-Perez brings Formula One to Mexico City streets before home milestone",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T04:46:00+00:00",
+      "last_seen": "2026-10-29T04:46:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1665
+    },
+    {
+      "id": "13d2456c74",
+      "title": "‘Hey hun’: police colleague messaged Beau Lamarre-Condon on Instagram after alleged murders, court hears",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/29/beau-lamarre-condon-trial-police-colleague-instagram-message-court-hears-ntwnfb",
+          "headline": "‘Hey hun’: police colleague messaged Beau Lamarre-Condon on Instagram after alleged murders, court hears",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T04:44:11+00:00",
+      "last_seen": "2026-10-29T04:44:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1635
+    },
+    {
+      "id": "777958ee91",
+      "title": "Why US allies in Middle East are accelerating direct talks with Iran",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/week-asia/politics/article/3372527/why-us-allies-middle-east-are-accelerating-direct-talks-iran",
+          "headline": "Why US allies in Middle East are accelerating direct talks with Iran",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T04:42:58+00:00",
+      "last_seen": "2026-10-29T04:42:58+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1615
+    },
+    {
+      "id": "f291f4a280",
+      "title": "High-speed train crash kills at least 68 people in Spain",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/10/29/world/spain-second-train-crash-dead/",
+          "headline": "At least 68 people dead in Spain’s second major train crash this year",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
+          "headline": "High-speed train crash kills at least 68 people in Spain",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-28T21:38:54+00:00",
+      "last_seen": "2026-10-29T04:38:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0569
+      "resonance": 0.1599
     },
     {
-      "id": "67ea898272",
-      "title": "Dem AG’s ‘too many golf courses’ remark goes viral as critics tee off",
+      "id": "12968f2202",
+      "title": "Outcry after Call of Duty maker uses real footage of deadly Seoul crowd crush in new video game",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/oct/29/call-of-duty-seoul-crowd-crush-video-footage",
+          "headline": "Outcry after Call of Duty maker uses real footage of deadly Seoul crowd crush in new video game",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T04:41:41+00:00",
+      "last_seen": "2026-10-29T04:41:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1594
+    },
+    {
+      "id": "df1dfb110b",
+      "title": "Highly invasive weed threatening native flora and fauna at Uluru",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-10-29/uluru-threatened-by-buffel-grass-spread-flora-and-fauna/107320004",
+          "headline": "Highly invasive weed threatening native flora and fauna at Uluru",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T04:41:21+00:00",
+      "last_seen": "2026-10-29T04:41:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1588
+    },
+    {
+      "id": "3fed871c6c",
+      "title": "Hello Kitty owner Sanrio scraps Japanese TV show Vivant deal over China backlash",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3372526/hello-kitty-owner-sanrio-scraps-japanese-tv-show-vivant-deal-over-china-backlash",
+          "headline": "Hello Kitty owner Sanrio scraps Japanese TV show Vivant deal over China backlash",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T04:41:20+00:00",
+      "last_seen": "2026-10-29T04:41:20+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1588
+    },
+    {
+      "id": "638da8d48c",
+      "title": "DHS investigates massive data breach exposing 40,000 employees, including ICE and Border Patrol agents",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/dem-ag-too-many-golf-courses-remark-goes-viral-critics-tee-off",
-          "headline": "Dem AG’s ‘too many golf courses’ remark goes viral as critics tee off",
+          "url": "https://www.foxnews.com/us/dhs-investigates-massive-data-breach-exposing-40000-employees-including-ice-border-patrol-agents",
+          "headline": "DHS investigates massive data breach exposing 40,000 employees, including ICE and Border Patrol agents",
           "platform": "rss"
         }
       ],
@@ -1005,52 +775,24 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-10-28T20:16:57+00:00",
-      "last_seen": "2026-10-28T20:16:57+00:00",
+      "first_seen": "2026-10-29T04:31:13+00:00",
+      "last_seen": "2026-10-29T04:31:13+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0534
+      "topic": "tech",
+      "resonance": 0.1425
     },
     {
-      "id": "a158478e5f",
-      "title": "US ambassador suggests Trump could blame Canada if midterms don’t go his way",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms",
-          "headline": "US ambassador suggests Trump could blame Canada if midterms don’t go his way",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-28T20:15:07+00:00",
-      "last_seen": "2026-10-28T20:15:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0513
-    },
-    {
-      "id": "f83c6f2b0a",
-      "title": "Rwanda’s milk bars",
+      "id": "f8b9fd7628",
+      "title": "Obama mocks Trump team’s Cheesecake Factory response",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/rwandas-milk-bars?traffic_source=rss",
-          "headline": "Rwanda’s milk bars",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/obama-mocks-trump-teams-cheesecake-factory-response?traffic_source=rss",
+          "headline": "Obama mocks Trump team’s Cheesecake Factory response",
           "platform": "rss"
         }
       ],
@@ -1061,24 +803,52 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-28T20:14:13+00:00",
-      "last_seen": "2026-10-28T20:14:13+00:00",
+      "first_seen": "2026-10-29T04:30:04+00:00",
+      "last_seen": "2026-10-29T04:30:04+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0503
+      "topic": "sport",
+      "resonance": 0.1407
     },
     {
-      "id": "2ce13b322f",
-      "title": "Israel’s Parties Gird for Wrangling to Form a Government, With No Clear Path",
+      "id": "3937311571",
+      "title": "Hawks complete sweep against BayStars to repeat as Japan Series champions",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/sports/2026/10/29/baseball/hawks-sweep-japan-series/",
+          "headline": "Hawks complete sweep against BayStars to repeat as Japan Series champions",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T04:27:00+00:00",
+      "last_seen": "2026-10-29T04:27:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1358
+    },
+    {
+      "id": "a89a57e6d9",
+      "title": "Cuauhtémoc Cárdenas, Who Helped End One-Party Rule in Mexico, Dies at 92",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/28/world/middleeast/israel-government-formation-negotiation.html",
-          "headline": "Israel’s Parties Gird for Wrangling to Form a Government, With No Clear Path",
+          "url": "https://www.nytimes.com/2026/10/28/world/americas/cuauhtemoc-cardenas-dead.html",
+          "headline": "Cuauhtémoc Cárdenas, Who Helped End One-Party Rule in Mexico, Dies at 92",
           "platform": "rss"
         }
       ],
@@ -1089,57 +859,299 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-10-28T20:13:57+00:00",
-      "last_seen": "2026-10-28T20:13:57+00:00",
+      "first_seen": "2026-10-29T04:08:43+00:00",
+      "last_seen": "2026-10-29T04:08:43+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
+      "resonance": 0.1076
+    },
+    {
+      "id": "c391b144ed",
+      "title": "Obama slams Trump's handling of war on Iran and its toll on the US",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/obama-slams-trumps-handling-war-iran-and-its-toll-us",
+          "headline": "Obama slams Trump's handling of war on Iran and its toll on the US",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T04:08:32+00:00",
+      "last_seen": "2026-10-29T04:08:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1073
+    },
+    {
+      "id": "a1c8cbc006",
+      "title": "A Ukrainian City in the Kill Zone Relishes a Moment of Peace",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/29/world/europe/a-ukrainian-city-in-the-kill-zone-relishes-a-moment-of-peace.html",
+          "headline": "A Ukrainian City in the Kill Zone Relishes a Moment of Peace",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T04:01:08+00:00",
+      "last_seen": "2026-10-29T04:01:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0962
+    },
+    {
+      "id": "280f50abfb",
+      "title": "Spain begins three days of mourning after train crash kills dozens",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
+          "headline": "Spain begins three days of mourning after train crash kills dozens",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T03:51:05+00:00",
+      "last_seen": "2026-10-29T03:51:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0815
+    },
+    {
+      "id": "d9a3d1d3bb",
+      "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+          "headline": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/28/world/americas/flavio-bolsonaro-us-miami-brazil-trump.html",
+          "headline": "Flávio Bolsonaro Lands in Miami After Fleeing Brazil",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
+          "headline": "Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.141,
+        "left": 2,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-28T22:06:46+00:00",
+      "last_seen": "2026-10-29T01:14:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0735
+    },
+    {
+      "id": "0bd27d9e63",
+      "title": "Incredible celebrations as last patient leaves a DRC Ebola centre",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/incredible-celebrations-as-last-patient-leaves-a-drc-ebola-centre?traffic_source=rss",
+          "headline": "Incredible celebrations as last patient leaves a DRC Ebola centre",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T03:39:02+00:00",
+      "last_seen": "2026-10-29T03:39:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0642
+    },
+    {
+      "id": "c0caffae5b",
+      "title": "Bluesky Is Blocking Links to a Major Leak of DHS Employee Records",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/",
+          "headline": "Bluesky Is Blocking Links to a Major Leak of DHS Employee Records",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T03:34:46+00:00",
+      "last_seen": "2026-10-29T03:34:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0582
+    },
+    {
+      "id": "7c4c96ec82",
+      "title": "EU countries block Canada's 'associate membership' plan",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20261029-canada-and-eu-drop-associate-membership-plan-in-bid-to-deepen-ties",
+          "headline": "Canada and EU drop associate membership plan in bid to deepen ties",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/eu-countries-block-canada-s-associate-membership-plan/a-79791601?maca=en-rss-en-all-1573-rdf",
+          "headline": "EU countries block Canada's 'associate membership' plan",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T00:49:00+00:00",
+      "last_seen": "2026-10-29T00:56:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0547
+    },
+    {
+      "id": "92b75dc7a9",
+      "title": "Hackers expose the identities of more than 40,000 DHS employees",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6021497/dhs-hack-ice",
+          "headline": "Hackers expose the identities of more than 40,000 DHS employees",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-29T03:28:50+00:00",
+      "last_seen": "2026-10-29T03:28:50+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "0ed2b0bdef",
-      "target": "860c287f9c",
-      "weight": 0.063,
+      "source": "841c6599d2",
+      "target": "270ec37de2",
+      "weight": 0.994,
       "type": "thematic"
     },
     {
-      "source": "f862bd1684",
-      "target": "7365250433",
-      "weight": 0.961,
+      "source": "e6e6a44794",
+      "target": "381b7bdfd3",
+      "weight": 0.026,
       "type": "thematic"
     },
     {
-      "source": "ece9d2bd07",
-      "target": "f5b06ca340",
-      "weight": 0.143,
+      "source": "270ec37de2",
+      "target": "3937311571",
+      "weight": 0.191,
       "type": "thematic"
     },
     {
-      "source": "39979c0810",
-      "target": "434375be9d",
-      "weight": 0.144,
+      "source": "0e9972b119",
+      "target": "02db518fdd",
+      "weight": 0.171,
       "type": "thematic"
     },
     {
-      "source": "39979c0810",
-      "target": "6edfab2f67",
-      "weight": 0.47,
+      "source": "b6d8c4580e",
+      "target": "d9a3d1d3bb",
+      "weight": 0.368,
       "type": "thematic"
     },
     {
-      "source": "e485a7cdaa",
-      "target": "6edfab2f67",
-      "weight": 0.197,
+      "source": "638da8d48c",
+      "target": "92b75dc7a9",
+      "weight": 0.511,
       "type": "thematic"
     },
     {
-      "source": "434375be9d",
-      "target": "6edfab2f67",
-      "weight": 0.304,
+      "source": "f8b9fd7628",
+      "target": "c391b144ed",
+      "weight": 0.381,
       "type": "thematic"
     }
   ],

@@ -1,17 +1,51 @@
 {
-  "generated_at": "2026-10-31T19:48:55.759496+00:00",
+  "generated_at": "2026-10-31T23:13:34.042614+00:00",
   "node_count": 35,
-  "edge_count": 9,
+  "edge_count": 1,
   "nodes": [
     {
-      "id": "a593bae9b0",
-      "title": "UK Green party drops longstanding opposition to nuclear power",
+      "id": "afdbb512c8",
+      "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+          "headline": "Anthropic takes steps to block Claude from reverse-engineering video games",
+          "platform": "hackernews"
+        },
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+          "headline": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T13:25:00+00:00",
+      "last_seen": "2026-10-31T21:07:58+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.7467
+    },
+    {
+      "id": "3bb6ac09e1",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://www.theguardian.com/politics/2026/oct/05/green-party-nuclear-power-policy",
-          "headline": "UK Green party drops longstanding opposition to nuclear power",
+          "url": "https://karpathy.bearblog.dev/hacker-tube/",
+          "headline": "HackerTube: YouTube built from videos recommended by HN",
           "platform": "hackernews"
         }
       ],
@@ -22,14 +56,446 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-31T17:37:22+00:00",
-      "last_seen": "2026-10-31T17:37:22+00:00",
+      "first_seen": "2026-10-31T19:56:53+00:00",
+      "last_seen": "2026-10-31T19:56:53+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "politics",
+      "topic": "tech",
       "resonance": 0.28
+    },
+    {
+      "id": "d2f16048e1",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Hacker News",
+          "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+          "headline": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+          "platform": "hackernews"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T19:16:30+00:00",
+      "last_seen": "2026-10-31T19:16:30+00:00",
+      "platforms": [
+        "hackernews"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.28
+    },
+    {
+      "id": "0309245618",
+      "title": "Virginia and D.C. sue to block construction of Trump arch",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/10/31/nx-s1-6024694/virginia-dc-sue-trump-arch",
+          "headline": "Virginia and D.C. sue to block construction of Trump arch",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/10/31/district-of-columbia-and-virginia-sue-to-block-trumps-triumphal-arch-plans?traffic_source=rss",
+          "headline": "District of Columbia and Virginia sue to block Trump’s triumphal arch plans",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.175,
+        "spread": 0.025,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T20:30:35+00:00",
+      "last_seen": "2026-10-31T22:48:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.2827
+    },
+    {
+      "id": "1b48bbb4ca",
+      "title": "Trump loses legal battle over Epstein-linked Wall Street Journal case",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/10/31/trump-loses-legal-battle-over-epstein-linked-wall-street-journal-case?traffic_source=rss",
+          "headline": "Trump loses legal battle over Epstein-linked Wall Street Journal case",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3372857/judge-throws-out-trump-lawsuit-against-wall-street-journal-over-epstein-birthday-letter",
+          "headline": "Judge throws out Trump lawsuit against Wall Street Journal over Epstein birthday letter",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.15,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T20:24:33+00:00",
+      "last_seen": "2026-10-31T22:36:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.2677
+    },
+    {
+      "id": "4362336d18",
+      "title": "North Korean Hackers Stole Billions, the F.B.I. Says. It’s Not Their First Heist.",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/31/world/asia/north-korea-hacking.html",
+          "headline": "North Korean Hackers Stole Billions, the F.B.I. Says. It’s Not Their First Heist.",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T23:05:42+00:00",
+      "last_seen": "2026-10-31T23:05:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1905
+    },
+    {
+      "id": "babe8c463b",
+      "title": "Fine ‘omakase’ dining, with a twist, at Saki",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/life/2026/11/01/food-drink/saki-jw-marriott-restaurant-japanese-cuisine-kappo-counter-omakase/",
+          "headline": "Fine ‘omakase’ dining, with a twist, at Saki",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T23:05:00+00:00",
+      "last_seen": "2026-10-31T23:05:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1893
+    },
+    {
+      "id": "8f9b4f611f",
+      "title": "‘Moonlit Golden-Gai’: A director’s love letter to Shinjuku’s bar district",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/culture/2026/11/01/film/moonlit-golden-gai/",
+          "headline": "‘Moonlit Golden-Gai’: A director’s love letter to Shinjuku’s bar district",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T23:00:00+00:00",
+      "last_seen": "2026-10-31T23:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.181
+    },
+    {
+      "id": "3ffab38543",
+      "title": "Japan Times 2001: Ichiro is American League MVP",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/01/japan/history/japan-times-gone-by-november-2026/",
+          "headline": "Japan Times 2001: Ichiro is American League MVP",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T23:00:00+00:00",
+      "last_seen": "2026-10-31T23:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.181
+    },
+    {
+      "id": "fb197728ae",
+      "title": "Losing our baby shaped us in ways we never expected",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-01/love-story-robert-yeomans-heidy-perez-stillbirth/107288004",
+          "headline": "Losing our baby shaped us in ways we never expected",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T23:00:00+00:00",
+      "last_seen": "2026-10-31T23:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.181
+    },
+    {
+      "id": "5649396a5a",
+      "title": "Changing tastes, warming climate push winemakers to extinct volcano",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-01/orange-wineries-export-grapes-amid-changing-tastes-climate/107246582",
+          "headline": "Changing tastes, warming climate push winemakers to extinct volcano",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T22:58:13+00:00",
+      "last_seen": "2026-10-31T22:58:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "resonance": 0.1781
+    },
+    {
+      "id": "6a59aad04e",
+      "title": "How Democrats moved away from 'woke' themes in the midterm campaign",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/31/how-democrats-moved-away-from-woke-themes-in-the-midterm-campaign_6768379_4.html",
+          "headline": "How Democrats moved away from 'woke' themes in the midterm campaign",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T22:57:01+00:00",
+      "last_seen": "2026-10-31T22:57:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1761
+    },
+    {
+      "id": "9b0682e7b8",
+      "title": "IIT Bombay student death: Parents seek CBI investigation",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/mumbai/iit-student-death-sahil-wakodes-parents-move-bombay-hc-seeking-cbi-sit-probe/article71649160.ece",
+          "headline": "IIT Bombay student death: Parents seek CBI investigation",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T22:56:18+00:00",
+      "last_seen": "2026-10-31T22:56:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.175
+    },
+    {
+      "id": "f2b6ce20fa",
+      "title": "King to address slavery during Commonwealth speech in Antigua on final leg of Caribbean tour",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq398y0zj9rpo?at_medium=RSS&at_campaign=rss",
+          "headline": "King to address slavery during Commonwealth speech in Antigua on final leg of Caribbean tour",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T22:56:15+00:00",
+      "last_seen": "2026-10-31T22:56:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1749
+    },
+    {
+      "id": "f72a185fe7",
+      "title": "Head of In-N-Out burger chain addresses expansion to 3 more states",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/food-drink/head-in-n-out-burger-chain-addresses-expansion-3-more-states",
+          "headline": "Head of In-N-Out burger chain addresses expansion to 3 more states",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-31T22:54:03+00:00",
+      "last_seen": "2026-10-31T22:54:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1713
+    },
+    {
+      "id": "c8007e2391",
+      "title": "Sindhu makes short work of Anmol in final",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/sindhu-makes-short-work-of-anmol-in-final/article71650936.ece",
+          "headline": "Sindhu makes short work of Anmol in final",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T22:50:46+00:00",
+      "last_seen": "2026-10-31T22:50:46+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.166
+    },
+    {
+      "id": "4cfc85ff27",
+      "title": "Jurel and Padikkal lift India-A on the opening day",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sport/cricket/jurel-and-padikkal-lift-india-a-on-the-opening-day/article71650933.ece",
+          "headline": "Jurel and Padikkal lift India-A on the opening day",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T22:45:23+00:00",
+      "last_seen": "2026-10-31T22:45:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1574
     },
     {
       "id": "f373927441",
@@ -64,339 +530,79 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.4196
+      "resonance": 0.1559
     },
     {
-      "id": "09cdbf4499",
-      "title": "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
-      "signal_count": 5,
+      "id": "1a50fed684",
+      "title": "Dutch authorities rescue 38 people adrift in rubber boat",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_evacuees-from-oleshky-reunite-w-families-in-ukraine-311026?traffic_source=rss",
-          "headline": "Evacuees of Russian-occupied Oleshky reunited with families",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-all-1573-rdf",
-          "headline": "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-01/evacuees-from-russian-occupied-oleshky-arrive-in-ukraine/107332470",
-          "headline": "Evacuees from Russian-occupied Oleshky reach Ukraine amid ceasefire",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20261031-evacuees-from-russian-occupied-oleshky-arrive-in-ukraine",
-          "headline": "Residents from Russian-occupied Oleshky reunite with families after evacuation operation",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "https://www.euronews.com/2026/10/31/oleshky-evacuees-arrive-in-belarus-amid-localised-truce-between-kyiv-and-moscow",
-          "headline": "Evacuees from Russian-occupied Oleshky arrive in Ukraine amid localised truce between Kyiv and Moscow",
+          "url": "https://www.aljazeera.com/news/2026/10/31/dutch-authorities-rescue-38-people-adrift-in-rubber-boat?traffic_source=rss",
+          "headline": "Dutch authorities rescue 38 people adrift in rubber boat",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.12,
-        "spread": 0.04,
+        "mean": -0.2,
+        "spread": 0.0,
         "left": 0,
-        "center": 5,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-31T12:05:48+00:00",
-      "last_seen": "2026-10-31T18:32:20+00:00",
+      "first_seen": "2026-10-31T22:38:03+00:00",
+      "last_seen": "2026-10-31T22:38:03+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.3763
+      "topic": "world",
+      "resonance": 0.1458
     },
     {
-      "id": "f10dd8e2ed",
-      "title": "Tension and clashes as hundreds of thousands protest again in France",
+      "id": "8f5fea2401",
+      "title": "Clashes Erupt Again in France, After Festive Start to Day of Protest",
       "signal_count": 2,
       "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/31/world/europe/france-protests-clashes.html",
+          "headline": "Clashes Erupt Again in France, After Festive Start to Day of Protest",
+          "platform": "rss"
+        },
         {
           "outlet": "Al Jazeera English",
           "url": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
           "headline": "Tension and clashes as hundreds of thousands protest again in France",
           "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
-          "headline": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.05,
-        "spread": 0.15,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T18:23:31+00:00",
-      "last_seen": "2026-10-31T18:28:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2711
-    },
-    {
-      "id": "10d605408e",
-      "title": "At least four Palestinians killed in Gaza as Israeli attacks continue",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/least-four-palestinians-killed-israeli-strikes-and-shelling-across-gaza",
-          "headline": "At least four Palestinians killed, several wounded in Israeli strikes across Gaza",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/10/31/at-least-four-palestinians-killed-in-gaza-as-israeli-attacks-continue?traffic_source=rss",
-          "headline": "At least four Palestinians killed in Gaza as Israeli attacks continue",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T17:49:23+00:00",
-      "last_seen": "2026-10-31T18:07:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.241
-    },
-    {
-      "id": "e8e442bc88",
-      "title": "London police arrest 139 as hundreds protest Palestine Action ban",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
-          "headline": "London police arrest 139 as hundreds protest Palestine Action ban",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/london-police-arrest-dozens-days-supreme-court-hearing-palestine-action",
-          "headline": "London police arrest dozens days before Supreme Court hearing on Palestine Action ban",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.025,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T16:48:22+00:00",
-      "last_seen": "2026-10-31T18:48:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.2207
-    },
-    {
-      "id": "460de6e04d",
-      "title": "Live Updates: Hundreds of Thousands Join Another Round of Protests in France",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/10/31/world/france-student-protests-halloween",
-          "headline": "Live Updates: Hundreds of Thousands Join Another Round of Protests in France",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T19:46:21+00:00",
-      "last_seen": "2026-10-31T19:46:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1826
-    },
-    {
-      "id": "ed10f72649",
-      "title": "Here is the latest.",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/live/2026/10/31/world/france-student-protests-halloween/france-student-protests-halloween",
-          "headline": "Here is the latest.",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T19:46:20+00:00",
-      "last_seen": "2026-10-31T19:46:20+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1825
-    },
-    {
-      "id": "cc5aa9643e",
-      "title": "UN demands probe into death of staff member in Houthi custody",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-demands-probe-death-staff-member-houthi-custody",
-          "headline": "UN demands probe into death of staff member in Houthi custody",
-          "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.25,
-        "spread": 0.0,
+        "spread": 0.05,
         "left": 1,
-        "center": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-31T19:44:22+00:00",
-      "last_seen": "2026-10-31T19:44:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1795
-    },
-    {
-      "id": "0f7aeec50a",
-      "title": "Evacuees Arrive to Safety From Besieged Ukrainian City of Oleshky",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/10/26/world/europe/ukraine-oleshky-ceasefire-russia-war.html",
-          "headline": "Evacuees Arrive to Safety From Besieged Ukrainian City of Oleshky",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T19:44:20+00:00",
-      "last_seen": "2026-10-31T19:44:20+00:00",
+      "first_seen": "2026-10-31T18:28:14+00:00",
+      "last_seen": "2026-10-31T21:50:29+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1794
+      "resonance": 0.1439
     },
     {
-      "id": "4378ed0395",
-      "title": "Serbia just elected the world's brainiest parliament",
+      "id": "1b0fe90e5e",
+      "title": "Time to make lopsided international women's rugby league a fair fight",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Hacker News",
-          "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
-          "headline": "Serbia just elected the world's brainiest parliament",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T10:21:30+00:00",
-      "last_seen": "2026-10-31T10:21:30+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1769
-    },
-    {
-      "id": "80b6558cab",
-      "title": "Clashes erupt between police and protesters in Paris",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
-          "headline": "Clashes erupt between police and protesters in Paris",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T19:37:43+00:00",
-      "last_seen": "2026-10-31T19:37:43+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1693
-    },
-    {
-      "id": "f9fe41271f",
-      "title": "Rahul Gandhi appeals to Delhi rally goers to do festival shopping from local traders",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/rahul-gandhi-appeals-to-delhi-rally-goers-to-do-festival-shopping-from-local-traders/article71650790.ece",
-          "headline": "Rahul Gandhi appeals to Delhi rally goers to do festival shopping from local traders",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-01/rugby-league-world-cup-jillaroos-dominance/107328024",
+          "headline": "Time to make lopsided international women's rugby league a fair fight",
           "platform": "rss"
         }
       ],
@@ -407,24 +613,164 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-31T19:34:33+00:00",
-      "last_seen": "2026-10-31T19:34:33+00:00",
+      "first_seen": "2026-10-31T22:28:00+00:00",
+      "last_seen": "2026-10-31T22:28:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1645
+      "resonance": 0.1303
     },
     {
-      "id": "ef2f607d14",
-      "title": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
+      "id": "744234407c",
+      "title": "Jonathan Taylor trade talks 'active and ongoing' as Colts now fielding calls on All-Pro running back: report",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/jonathan-taylor-trade-talks-active-ongoing-colts-fielding-calls-all-pro-running-back-report",
+          "headline": "Jonathan Taylor trade talks 'active and ongoing' as Colts now fielding calls on All-Pro running back: report",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-31T22:27:36+00:00",
+      "last_seen": "2026-10-31T22:27:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "resonance": 0.1297
+    },
+    {
+      "id": "db2cd64499",
+      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+          "headline": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T22:11:45+00:00",
+      "last_seen": "2026-10-31T22:11:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.106
+    },
+    {
+      "id": "051bd4ca1c",
+      "title": "Palestine Action supporters arrested outside US embassy in London",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss",
+          "headline": "Palestine Action supporters arrested outside US embassy in London",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T22:10:53+00:00",
+      "last_seen": "2026-10-31T22:10:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1047
+    },
+    {
+      "id": "6eb1d98b87",
+      "title": "Why did this Korean content creator throw a divorce ceremony?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/c51kd2jyjr1eo?at_medium=RSS&at_campaign=rss",
+          "headline": "Why did this Korean content creator throw a divorce ceremony?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T22:01:39+00:00",
+      "last_seen": "2026-10-31T22:01:39+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0913
+    },
+    {
+      "id": "19e4165c2a",
+      "title": "Jessie James Decker sets internet ablaze after spraying passenger’s bare foot on her armrest during flight",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/jessie-james-decker-sets-internet-ablaze-spraying-passengers-bare-foot-armrest-during-flight",
+          "headline": "Jessie James Decker sets internet ablaze after spraying passenger’s bare foot on her armrest during flight",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-10-31T22:00:15+00:00",
+      "last_seen": "2026-10-31T22:00:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0893
+    },
+    {
+      "id": "9bb3f2da8a",
+      "title": "How the Zhuhai air show charted China’s path from catching up to flying high",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3372855/g20-foreign-ministers-end-atlanta-meeting-without-consensus-key-issues",
-          "headline": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
+          "url": "https://www.scmp.com/news/china/military/article/3372822/how-zhuhai-air-show-charted-chinas-path-catching-flying-high",
+          "headline": "How the Zhuhai air show charted China’s path from catching up to flying high",
           "platform": "rss"
         }
       ],
@@ -435,332 +781,58 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-31T19:32:58+00:00",
-      "last_seen": "2026-10-31T19:32:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1621
-    },
-    {
-      "id": "bb2c66fbe8",
-      "title": "US election officials brace for violence and intimidation at polling booths",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-01/us-midterm-election-officials-prepare-ice-agents-trump-meddling/107322620",
-          "headline": "US election officials brace for violence and intimidation at polling booths",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T19:32:46+00:00",
-      "last_seen": "2026-10-31T19:32:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1618
-    },
-    {
-      "id": "1adbdb89e8",
-      "title": "France seethes again as youth-led protests sweep Europe",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
-          "headline": "France seethes again as youth-led protests sweep Europe",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T19:30:19+00:00",
-      "last_seen": "2026-10-31T19:30:19+00:00",
+      "first_seen": "2026-10-31T22:00:15+00:00",
+      "last_seen": "2026-10-31T22:00:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1581
+      "resonance": 0.0893
     },
     {
-      "id": "2258b0f184",
-      "title": "Keyboards of The Verge",
-      "signal_count": 1,
+      "id": "ca1f440cd1",
+      "title": "Syria Weighs Joining Saudi Mutual Defense Pact as Yemen War Rages",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1017979/keyboards-of-the-verge-staff-picks",
-          "headline": "Keyboards of The Verge",
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-weighs-joining-mecca-defence-pact-foreign-minister-says",
+          "headline": "Syria weighs joining Mecca defence pact, foreign minister says",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/31/world/middleeast/syria-saudi-defense-pact.html",
+          "headline": "Syria Weighs Joining Saudi Mutual Defense Pact as Yemen War Rages",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T19:30:00+00:00",
-      "last_seen": "2026-10-31T19:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1577
-    },
-    {
-      "id": "1faad69be5",
-      "title": "Devotees worried over conduct of Kandasashti festival at Kandakottam temple",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/chennai/devotees-worried-over-conduct-of-kandasashti-festival-at-kandakottam-temple/article71650165.ece",
-          "headline": "Devotees worried over conduct of Kandasashti festival at Kandakottam temple",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T19:27:36+00:00",
-      "last_seen": "2026-10-31T19:27:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1541
-    },
-    {
-      "id": "c9942d8180",
-      "title": "SRIHER hosts national conference on qualitative nursing research",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/chennai/sriher-hosts-national-conference-on-qualitative-nursing-research/article71649634.ece",
-          "headline": "SRIHER hosts national conference on qualitative nursing research",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T19:26:18+00:00",
-      "last_seen": "2026-10-31T19:26:18+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.1522
-    },
-    {
-      "id": "3c946803d7",
-      "title": "'We came back from hell', say Ukrainians after years in Russia-occupied frontline city",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
-          "headline": "'We came back from hell', say Ukrainians after years in Russia-occupied frontline city",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T19:22:26+00:00",
-      "last_seen": "2026-10-31T19:22:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1465
-    },
-    {
-      "id": "975cfe5053",
-      "title": "How vulnerable are cryptocurrency platforms?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/10/31/how-vulnerable-are-cryptocurrency-platforms?traffic_source=rss",
-          "headline": "How vulnerable are cryptocurrency platforms?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T19:19:29+00:00",
-      "last_seen": "2026-10-31T19:19:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1422
-    },
-    {
-      "id": "18f2be107f",
-      "title": "Palestinians ‘Stealing their own olives’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/palestinians-stealing-their-own?traffic_source=rss",
-          "headline": "Palestinians ‘Stealing their own olives’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T19:18:32+00:00",
-      "last_seen": "2026-10-31T19:18:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1408
-    },
-    {
-      "id": "fff87deebb",
-      "title": "🔴Senegal kicks off Africa's first ever Olympics with Youth Games",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/africa/20261031-senegal-hosts-africa-s-first-ever-youth-olympic-games",
-          "headline": "🔴Senegal kicks off Africa's first ever Olympics with Youth Games",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T19:15:21+00:00",
-      "last_seen": "2026-10-31T19:15:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1362
-    },
-    {
-      "id": "3b3aa2acce",
-      "title": "Trump prosecutions under Biden set precedent for DOJ’s Alaska ‘Decoy Dan’ probe, ex-FEC chair says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/trump-prosecutions-biden-set-precedent-doj-alaska-decoy-dan-probe-ex-fec-chair-says",
-          "headline": "Trump prosecutions under Biden set precedent for DOJ’s Alaska ‘Decoy Dan’ probe, ex-FEC chair says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
+        "mean": -0.275,
+        "spread": 0.025,
+        "left": 2,
         "center": 0,
-        "right": 1
+        "right": 0
       },
-      "first_seen": "2026-10-31T19:09:02+00:00",
-      "last_seen": "2026-10-31T19:09:02+00:00",
+      "first_seen": "2026-10-31T17:56:18+00:00",
+      "last_seen": "2026-10-31T20:41:20+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1271
+      "topic": "conflict",
+      "resonance": 0.0699
     },
     {
-      "id": "3c1ea47e7e",
-      "title": "Maine school official raises Muslim religious objections to classroom dogs as district weighs policy changes",
+      "id": "2019ad0c2f",
+      "title": "‘We Are Coming From Hell’: A Ukrainian City’s Evacuees Tell Survival Stories",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/media/maine-school-official-raises-muslim-religious-objections-classroom-dogs-district-weighs-policy-changes",
-          "headline": "Maine school official raises Muslim religious objections to classroom dogs as district weighs policy changes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-10-31T19:00:53+00:00",
-      "last_seen": "2026-10-31T19:00:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1156
-    },
-    {
-      "id": "4c74740d9e",
-      "title": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west",
-          "headline": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/10/31/todayspaper/we-are-coming-from-hell-a-ukrainian-citys-evacuees-tell-survival-stories.html",
+          "headline": "‘We Are Coming From Hell’: A Ukrainian City’s Evacuees Tell Survival Stories",
           "platform": "rss"
         }
       ],
@@ -771,52 +843,52 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-10-31T19:00:52+00:00",
-      "last_seen": "2026-10-31T19:00:52+00:00",
+      "first_seen": "2026-10-31T21:43:34+00:00",
+      "last_seen": "2026-10-31T21:43:34+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1156
+      "resonance": 0.0659
     },
     {
-      "id": "5227d1a35d",
-      "title": "Heidi Klum leads celebs with over-the-top couples' Halloween costumes through the years",
+      "id": "5fae58eb8f",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/entertainment/heidi-klum-leads-celebs-over-the-top-couples-halloween-costumes-through-years",
-          "headline": "Heidi Klum leads celebs with over-the-top couples' Halloween costumes through the years",
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+          "headline": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-10-31T19:00:51+00:00",
-      "last_seen": "2026-10-31T19:00:51+00:00",
+      "first_seen": "2026-10-31T21:41:00+00:00",
+      "last_seen": "2026-10-31T21:41:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1156
+      "topic": "tech",
+      "resonance": 0.0623
     },
     {
-      "id": "c441472b16",
-      "title": "Who is Arafat Minhas, Pakistan cricket’s rising star all-rounder?",
+      "id": "16bfec4606",
+      "title": "Legal filing questions Trump’s claims of non-citizen voting in California",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/sports/2026/10/31/who-is-arafat-minhas-pakistan-crickets-rising-star-all-rounder?traffic_source=rss",
-          "headline": "Who is Arafat Minhas, Pakistan cricket’s rising star all-rounder?",
+          "url": "https://www.aljazeera.com/news/2026/10/31/legal-filing-questions-trumps-claims-of-non-citizen-voting-in-california?traffic_source=rss",
+          "headline": "Legal filing questions Trump’s claims of non-citizen voting in California",
           "platform": "rss"
         }
       ],
@@ -827,24 +899,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-31T18:50:25+00:00",
-      "last_seen": "2026-10-31T18:50:25+00:00",
+      "first_seen": "2026-10-31T21:38:54+00:00",
+      "last_seen": "2026-10-31T21:38:54+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1012
+      "topic": "tech",
+      "resonance": 0.0595
     },
     {
-      "id": "08624e2c2b",
-      "title": "More than 290 arrested in France as some weekend protests turn violent",
+      "id": "288410bafe",
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/more-than-290-arrested-in-france-as-some-weekend-protests-turn-violent/a-79818138?maca=en-rss-en-all-1573-rdf",
-          "headline": "More than 290 arrested in France as some weekend protests turn violent",
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+          "headline": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
           "platform": "rss"
         }
       ],
@@ -855,80 +927,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-31T18:49:00+00:00",
-      "last_seen": "2026-10-31T18:49:00+00:00",
+      "first_seen": "2026-10-31T21:36:07+00:00",
+      "last_seen": "2026-10-31T21:36:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0557
+    },
+    {
+      "id": "b1d881b124",
+      "title": "Some 320,000 demonstrators take part in largely peaceful protests across France",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/france/20261031-some-320-000-demonstrators-take-part-in-largely-peaceful-protests-across-france",
+          "headline": "Some 320,000 demonstrators take part in largely peaceful protests across France",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-10-31T21:34:15+00:00",
+      "last_seen": "2026-10-31T21:34:15+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "society",
-      "resonance": 0.0993
+      "resonance": 0.0532
     },
     {
-      "id": "2489554509",
-      "title": "Anti-corruption and party discipline: takeaways from from this week's key political meeting in Beijing",
+      "id": "b38b304301",
+      "title": "Thousands of Germans join Europe's 'Gen-Z' protests",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/10/31/nx-s1-6024695/political-meeting-beijing-takeaways",
-          "headline": "Anti-corruption and party discipline: takeaways from from this week's key political meeting in Beijing",
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/31/thousands-of-germans-join-europe-s-gen-z-protests_6768346_4.html",
+          "headline": "Thousands of Germans join Europe's 'Gen-Z' protests",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-10-31T18:42:33+00:00",
-      "last_seen": "2026-10-31T18:42:33+00:00",
+      "first_seen": "2026-10-31T21:32:10+00:00",
+      "last_seen": "2026-10-31T21:32:10+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0906
+      "topic": "society",
+      "resonance": 0.0504
     },
     {
-      "id": "e86d209c93",
-      "title": "Binance CEO says 90 percent of stolen assets have been ‘replenished’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto",
-          "headline": "Binance CEO says 90 percent of stolen assets have been ‘replenished’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T18:40:32+00:00",
-      "last_seen": "2026-10-31T18:40:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0879
-    },
-    {
-      "id": "2b372dd952",
-      "title": "Iran could revisit nuclear weapons ban if war resumes, security chief says",
+      "id": "d51b024843",
+      "title": "Israeli forces and settlers injure four Palestinians in West Bank attacks",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-could-revisit-nuclear-weapons-ban-if-war-resumes-security-chief",
-          "headline": "Iran could revisit nuclear weapons ban if war resumes, security chief says",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/settlers-and-israeli-forces-injure-four-palestinians-west-bank-attacks",
+          "headline": "Israeli forces and settlers injure four Palestinians in West Bank attacks",
           "platform": "rss"
         }
       ],
@@ -939,153 +1011,21 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-10-31T18:40:18+00:00",
-      "last_seen": "2026-10-31T18:40:18+00:00",
+      "first_seen": "2026-10-31T21:31:54+00:00",
+      "last_seen": "2026-10-31T21:31:54+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.0876
-    },
-    {
-      "id": "0f51aa116e",
-      "title": "Show must go on for Melbourne theatre company catfished over ticket sales",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-01/upstage-theatre-company-ticket-scam/107297404",
-          "headline": "Show must go on for Melbourne theatre company catfished over ticket sales",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T18:30:00+00:00",
-      "last_seen": "2026-10-31T18:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0741
-    },
-    {
-      "id": "22ec880e32",
-      "title": "ABC Wordage quiz: Let's splash some cash",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-01/wordage-quiz-cash-money/107292050",
-          "headline": "ABC Wordage quiz: Let's splash some cash",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T18:30:00+00:00",
-      "last_seen": "2026-10-31T18:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0741
-    },
-    {
-      "id": "42d21d4a7a",
-      "title": "A simple explainer of the massive $6.3 billion crypto heist at Binance",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/10/31/nx-s1-6024426/binance-crypto-heist-cyber-criminals-north-korea",
-          "headline": "A simple explainer of the massive $6.3 billion crypto heist at Binance",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-10-31T18:11:02+00:00",
-      "last_seen": "2026-10-31T18:11:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "09cdbf4499",
-      "target": "0f7aeec50a",
-      "weight": 0.238,
-      "type": "thematic"
-    },
-    {
-      "source": "f10dd8e2ed",
-      "target": "e8e442bc88",
-      "weight": 0.294,
-      "type": "thematic"
-    },
-    {
-      "source": "f10dd8e2ed",
-      "target": "460de6e04d",
-      "weight": 0.632,
-      "type": "thematic"
-    },
-    {
-      "source": "f10dd8e2ed",
-      "target": "80b6558cab",
-      "weight": 0.018,
-      "type": "thematic"
-    },
-    {
-      "source": "f10dd8e2ed",
-      "target": "1adbdb89e8",
-      "weight": 0.308,
-      "type": "thematic"
-    },
-    {
-      "source": "460de6e04d",
-      "target": "1adbdb89e8",
-      "weight": 0.117,
-      "type": "thematic"
-    },
-    {
-      "source": "460de6e04d",
-      "target": "08624e2c2b",
-      "weight": 0.146,
-      "type": "thematic"
-    },
-    {
-      "source": "ef2f607d14",
-      "target": "2489554509",
-      "weight": 0.138,
-      "type": "thematic"
-    },
-    {
-      "source": "1adbdb89e8",
-      "target": "08624e2c2b",
-      "weight": 0.186,
+      "source": "1b48bbb4ca",
+      "target": "16bfec4606",
+      "weight": 0.089,
       "type": "thematic"
     }
   ],
@@ -1112,7 +1052,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 7,
+      "count": 6,
       "error": null
     },
     "The Economist": {

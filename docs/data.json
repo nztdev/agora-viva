@@ -1,45 +1,304 @@
 {
-  "generated_at": "2026-11-11T22:36:54.488665+00:00",
+  "generated_at": "2026-11-12T06:39:05.718903+00:00",
   "node_count": 35,
-  "edge_count": 5,
+  "edge_count": 12,
   "nodes": [
     {
-      "id": "10aea7f91c",
-      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
-      "signal_count": 1,
+      "id": "85aaf148c3",
+      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "signal_count": 2,
       "sources": [
         {
+          "outlet": "The Verge",
+          "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+          "headline": "Nvidia is reportedly preparing to fire Jensen Huang",
+          "platform": "rss"
+        },
+        {
           "outlet": "Hacker News",
-          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-          "headline": "United Airlines bans AI agents from booking flights on behalf of travelers",
+          "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+          "headline": "Nvidia is preparing to oust Jensen Huang",
           "platform": "hackernews"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
+        "mean": -0.05,
+        "spread": 0.05,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-11-11T21:24:35+00:00",
-      "last_seen": "2026-11-11T21:24:35+00:00",
+      "first_seen": "2026-11-11T22:31:06+00:00",
+      "last_seen": "2026-11-11T22:44:36+00:00",
       "platforms": [
+        "rss",
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.28
+      "topic": "world",
+      "resonance": 0.6688
     },
     {
-      "id": "884572bca5",
-      "title": "Jensen Huang Said to Have Had Relationship with Nvidia Executive",
+      "id": "f263c665e3",
+      "title": "Indonesia's Vice President resigns as eligibility and academic credentials are questioned",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/indonesias-vice-president-resigns-as-eligibility-and-academic-credentials-are-questioned/article71692540.ece",
+          "headline": "Indonesia's Vice President resigns as eligibility and academic credentials are questioned",
+          "platform": "rss"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374164/gibran-officially-resigns-indonesias-vice-president-after-degree-scandal",
+          "headline": "Gibran officially resigns as Indonesia’s vice-president after degree scandal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.1,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T05:26:19+00:00",
+      "last_seen": "2026-11-12T06:16:28+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.5655
+    },
+    {
+      "id": "fdf47135b5",
+      "title": "Pope Leo XIV Goes Home to Peru, Meeting Ghosts of His Past",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/11/pope-leo-returns-peru-his-adopted-homeland/",
+          "headline": "Mammoth crowds greet Pope Leo on return to Peru, his adopted homeland",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/pope-leo-xiv-returns-to-peru-to-a-big-welcome-calls-it-his-homeland/a-79925466?maca=en-rss-en-all-1573-rdf",
+          "headline": "Pope Leo XIV returns to Peru to a big welcome, calls it his 'homeland'",
+          "platform": "rss"
+        },
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/11/world/europe/pope-leo-peru-visit-lima.html",
+          "headline": "Pope Leo XIV Goes Home to Peru, Meeting Ghosts of His Past",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20261111-pope-leo-xiv-returns-to-second-homeland-peru-to-a-nationwide-welcome",
+          "headline": "Pope Leo XIV returns to second homeland Peru and a nationwide welcome",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 2,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-11T23:43:24+00:00",
+      "last_seen": "2026-11-12T05:32:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.4766
+    },
+    {
+      "id": "66db95e636",
+      "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+          "headline": "Strike on Gaza Hospital Kills at Least 6 and Injures 20, Rescuers Say",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+          "headline": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-south-gazas-nasser-hospital-kills-least-six-palestinians",
+          "headline": "Israeli strike on south Gaza's Nasser Hospital kills at least six Palestinians",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.183,
+        "spread": 0.131,
+        "left": 2,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T01:26:10+00:00",
+      "last_seen": "2026-11-12T06:20:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.4706
+    },
+    {
+      "id": "62a9cd6819",
+      "title": "New York building collapse kills at least two, officials say",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
+          "headline": "New York building collapse kills at least two, officials say",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
+          "headline": "At least two dead while others are trapped in the rubble after a building collapse in New York City",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+          "headline": "Survivor pulled from rubble of deadly building collapse in New York",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.067,
+        "spread": 0.047,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T02:33:12+00:00",
+      "last_seen": "2026-11-12T05:12:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.3841
+    },
+    {
+      "id": "7564781d9a",
+      "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+      "signal_count": 6,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+          "headline": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/americas/20261111-democrat-scott-colom-wins-historic-senate-race-in-mississippi",
+          "headline": "Democrat Scott Colom wins historic Senate race in Mississippi",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/11/11/nx-s1-6037840/democrat-scott-colom-wins-the-closest-senate-race-in-the-country",
+          "headline": "Democrat Scott Colom wins the closest Senate race in the country",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/mississippi-senate-race-democrat-scott-colom-defeats-republican-cindy-hyde-smith/a-79924938?maca=en-rss-en-all-1573-rdf",
+          "headline": "Mississippi Senate race: Democrat Scott Colom defeats Republican Cindy Hyde-Smith",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/12/mississippi-elects-democrat-scott-colom-as-state-s-first-black-us-senator-since-reconstruction_6778148_4.html",
+          "headline": "Democrat Scott Colom flips Mississippi Senate seat, becomes state's first Black senator since Reconstruction",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom",
+          "headline": "Democrat Scott Colom wins Mississippi Senate race",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.117,
+        "spread": 0.062,
+        "left": 0,
+        "center": 6,
+        "right": 0
+      },
+      "first_seen": "2026-11-11T23:04:51+00:00",
+      "last_seen": "2026-11-12T04:00:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.3759
+    },
+    {
+      "id": "b1075bd371",
+      "title": "Ukraine peace talks: US envoys arrive in Russia to meet with Putin",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/ukraine-peace-talks-us-envoys-arrive-in-russia-to-meet-with-putin/live-79925580?maca=en-rss-en-all-1573-rdf",
+          "headline": "Ukraine peace talks: US envoys arrive in Russia to meet with Putin",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/europe/20261112-live-us-envoys-to-meet-putin-and-zelensky-after-abu-dhabi-talks",
+          "headline": "Ukraine live: US envoys Witkoff and Kushner arrive in Russia to meet Putin",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T02:31:55+00:00",
+      "last_seen": "2026-11-12T06:35:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.2903
+    },
+    {
+      "id": "cd0fcebfcd",
+      "title": "Jensen Huang said to have had relationship with executive who reports to him",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
           "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
-          "headline": "Jensen Huang Said to Have Had Relationship with Nvidia Executive",
+          "headline": "Jensen Huang said to have had relationship with executive who reports to him",
           "platform": "hackernews"
         }
       ],
@@ -57,267 +316,51 @@
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.28
+      "resonance": 0.2354
     },
     {
-      "id": "a0835ab306",
-      "title": "AWS emulator",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://github.com/aws/aws-emulator",
-          "headline": "AWS emulator",
-          "platform": "hackernews"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T18:21:38+00:00",
-      "last_seen": "2026-11-11T18:21:38+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
-    },
-    {
-      "id": "8187b39801",
-      "title": "Judge Allows Trump’s Defamation Lawsuit Against the BBC to Proceed",
+      "id": "0a65fef086",
+      "title": "Famed ship SS United States sunk off coast of Florida",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/11/11/judge-rules-trumps-10bn-bbc-defamation-suit-can-proceed?traffic_source=rss",
-          "headline": "Judge rules Trump’s $10bn BBC defamation suit can proceed",
-          "platform": "rss"
-        },
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/11/world/europe/trump-bbc-lawsuit.html",
-          "headline": "Judge Allows Trump’s Defamation Lawsuit Against the BBC to Proceed",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.05,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T21:14:46+00:00",
-      "last_seen": "2026-11-11T22:10:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.326
-    },
-    {
-      "id": "65b9abf060",
-      "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/hoax-bomb-threats-target-schools-across-italy-uk-and-ireland?traffic_source=rss",
-          "headline": "Hoax bomb threats target schools across Italy, UK and Ireland",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/schools-evacuated-across-italy-after-bomb-threats",
-          "headline": "Schools evacuated across Italy after bomb threats",
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/cm0rkwyynjxlo?at_medium=RSS&at_campaign=rss",
+          "headline": "Watch: Moment historic ship sinks off the coast of Florida",
           "platform": "rss"
         },
         {
           "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
-          "headline": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
+          "url": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o?at_medium=RSS&at_campaign=rss",
+          "headline": "Famed ship SS United States sunk off coast of Florida",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.1,
-        "spread": 0.082,
+        "mean": -0.05,
+        "spread": 0.05,
         "left": 0,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T18:38:45+00:00",
-      "last_seen": "2026-11-11T21:01:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2463
-    },
-    {
-      "id": "136740fab0",
-      "title": "Alexander Darchiev, Russia’s Ambassador to the U.S., Dies at 66",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/11/world/europe/russian-ambassador-darchiev-dead.html",
-          "headline": "Alexander Darchiev, Russia’s Ambassador to the U.S., Dies at 66",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/11/11/russia-s-ambassador-to-the-us-alexander-darchiev-dies-suddenly-in-moscow_6778081_4.html",
-          "headline": "Russia's ambassador to the US Alexander Darchiev dies 'suddenly' in Moscow",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/11/11/russias-ambassador-to-the-us-alexander-darchiev-dies-at-66?traffic_source=rss",
-          "headline": "Russia’s ambassador to US, Alexander Darchiev, dies at 66",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.233,
-        "spread": 0.047,
-        "left": 1,
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-11-11T18:13:10+00:00",
-      "last_seen": "2026-11-11T21:14:46+00:00",
+      "first_seen": "2026-11-12T04:03:13+00:00",
+      "last_seen": "2026-11-12T04:24:57+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.2399
+      "resonance": 0.2231
     },
     {
-      "id": "6c257f53be",
-      "title": "Human torso found in sofa in Sydney bushland prompts homicide investigation",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/12/human-torso-found-sydneys-lower-north-shore-ntwnfb",
-          "headline": "Human torso found in sofa in Sydney bushland prompts homicide investigation",
-          "platform": "rss"
-        },
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-12/human-remains-torso-found-in-sofa-in-sydney-bushland-lane-cove/107376074",
-          "headline": "Human remains found inside sofa dumped in Sydney bushland",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.1,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T20:58:49+00:00",
-      "last_seen": "2026-11-11T21:09:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2329
-    },
-    {
-      "id": "d064ef08df",
-      "title": "Russian ambassador to U.S. dies in Moscow of ‘chronic illness,’ foreign ministry says",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/11/11/russian-ambassador-us-dies-moscow-chronic-illness-foreign-ministry-says/",
-          "headline": "Russian ambassador to U.S. dies in Moscow of ‘chronic illness,’ foreign ministry says",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374121/russias-ambassador-us-dies-suddenly-foreign-ministry-says",
-          "headline": "Russia’s ambassador to the US dies ‘suddenly’, foreign ministry says",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "https://www.euronews.com/2026/11/11/russian-ambassador-to-the-us-dies-russias-foreign-ministry-announced",
-          "headline": "Russian ambassador to the US dies, Russia's foreign ministry announced",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.163,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T17:09:10+00:00",
-      "last_seen": "2026-11-11T21:30:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2269
-    },
-    {
-      "id": "05b934130c",
-      "title": "Court in UK Decriminalizes Same-Sex Relations in Trinidad and Tobago",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/11/world/americas/trinidad-same-sex-ruling.html",
-          "headline": "Court in UK Decriminalizes Same-Sex Relations in Trinidad and Tobago",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Euronews",
-          "url": "https://www.euronews.com/2026/11/11/trinidad-and-tobago-highest-court-overturns-gay-sex-ban",
-          "headline": "Trinidad and Tobago highest court overturns gay sex ban",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.1,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T16:27:15+00:00",
-      "last_seen": "2026-11-11T22:28:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1658
-    },
-    {
-      "id": "c2b90942b3",
-      "title": "Iran's security chief warns Western bases will be targets for retaliation",
+      "id": "3aa6a51112",
+      "title": "Iran updates military target list to include no geographical restrictions on retaliatory strikes",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-security-chief-warns-western-bases-will-be-targets-retaliation",
-          "headline": "Iran's security chief warns Western bases will be targets for retaliation",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-updates-military-target-list-include-no-geographical-restrictions",
+          "headline": "Iran updates military target list to include no geographical restrictions on retaliatory strikes",
           "platform": "rss"
         }
       ],
@@ -328,24 +371,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-11T22:35:57+00:00",
-      "last_seen": "2026-11-11T22:35:57+00:00",
+      "first_seen": "2026-11-12T06:38:00+00:00",
+      "last_seen": "2026-11-12T06:38:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1624
+      "resonance": 0.2015
     },
     {
-      "id": "c2fee309a1",
-      "title": "Superhuman AI bots will not steal this man's job",
+      "id": "aa0e3e7ffd",
+      "title": "Bulldozer reaches outside Abhishek Banerjee’s house: Tin shade, boundary gate removed",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-12/ai-impact-on-regional-queensland/107357772",
-          "headline": "Superhuman AI bots will not steal this man's job",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/cities/kolkata/bulldozer-reaches-outside-abhishek-banerjees-house-tin-shade-boundary-gate-removed/article71692467.ece",
+          "headline": "Bulldozer reaches outside Abhishek Banerjee’s house: Tin shade, boundary gate removed",
           "platform": "rss"
         }
       ],
@@ -356,24 +399,80 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-11T22:33:35+00:00",
-      "last_seen": "2026-11-11T22:33:35+00:00",
+      "first_seen": "2026-11-12T06:31:53+00:00",
+      "last_seen": "2026-11-12T06:31:53+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.159
+      "topic": "world",
+      "resonance": 0.1829
     },
     {
-      "id": "a5c368c2ce",
-      "title": "China backs Cuba as Havana raises US fuel pressure in Beijing",
+      "id": "d40f9f80b3",
+      "title": "The Hindu Sunday crossword no. 82",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/entertainment/the-hindu-sunday-crossword-no-82/article71685182.ece",
+          "headline": "The Hindu Sunday crossword no. 82",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T06:31:36+00:00",
+      "last_seen": "2026-11-12T06:31:36+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1821
+    },
+    {
+      "id": "78647f88e4",
+      "title": "Owaisi, Azad likely to announce alliance on November 12 for Uttar Pradesh elections",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/owaisi-azad-alliance-for-uttar-pradesh-elections/article71692358.ece",
+          "headline": "Owaisi, Azad likely to announce alliance on November 12 for Uttar Pradesh elections",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T06:30:31+00:00",
+      "last_seen": "2026-11-12T06:30:31+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1788
+    },
+    {
+      "id": "67daa2679c",
+      "title": "Nexperia’s China unit claims supply chain ‘localisation’ as rift with Dutch parent deepens",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3374127/china-backs-cuba-havana-raises-us-fuel-pressure-beijing",
-          "headline": "China backs Cuba as Havana raises US fuel pressure in Beijing",
+          "url": "https://www.scmp.com/tech/tech-war/article/3374170/nexperias-china-unit-claims-supply-chain-localisation-rift-dutch-parent-deepens",
+          "headline": "Nexperia’s China unit claims supply chain ‘localisation’ as rift with Dutch parent deepens",
           "platform": "rss"
         }
       ],
@@ -384,164 +483,142 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-11T22:28:30+00:00",
-      "last_seen": "2026-11-11T22:28:30+00:00",
+      "first_seen": "2026-11-12T06:30:07+00:00",
+      "last_seen": "2026-11-12T06:30:07+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1518
+      "resonance": 0.1776
     },
     {
-      "id": "5ff4306c47",
-      "title": "Lindsey Vonn gives health update as she undergoes ninth surgery following brutal Olympic crash",
+      "id": "a2605b1eec",
+      "title": "It is time for a change of leadership in the Democratic Party in the US",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/lindsey-vonn-health-update-9th-surgery-following-brutal-olympic-crash",
-          "headline": "Lindsey Vonn gives health update as she undergoes ninth surgery following brutal Olympic crash",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/opinions/2026/11/12/it-is-time-for-a-change-of-leadership-in-the-democratic-party-in-the-us?traffic_source=rss",
+          "headline": "It is time for a change of leadership in the Democratic Party in the US",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-11T22:24:42+00:00",
-      "last_seen": "2026-11-11T22:24:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "resonance": 0.1465
-    },
-    {
-      "id": "d991a51f7e",
-      "title": "Stephen A Smith says white players are not good enough to win NBA championships",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/stephen-a-smith-says-white-players-not-good-enough-win-nba-championships",
-          "headline": "Stephen A Smith says white players are not good enough to win NBA championships",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-11T22:23:48+00:00",
-      "last_seen": "2026-11-11T22:23:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "resonance": 0.1453
-    },
-    {
-      "id": "e0b4ff7b87",
-      "title": "US taxpayer group calls on ICC to investigate Trump, Rubio for 'aiding' Gaza genocide",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/us-taxpayer-group-calls-icc-investigate-trump-rubio-aiding-gaza-genocide",
-          "headline": "US taxpayer group calls on ICC to investigate Trump, Rubio for 'aiding' Gaza genocide",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T22:15:30+00:00",
-      "last_seen": "2026-11-11T22:15:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1339
-    },
-    {
-      "id": "87f70d50dc",
-      "title": "Hezbollah chief says Trump's midterm defeat is 'an opportunity'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-chief-says-trumps-midterm-defeat-opportunity",
-          "headline": "Hezbollah chief says Trump's midterm defeat is 'an opportunity'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T22:12:39+00:00",
-      "last_seen": "2026-11-11T22:12:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1301
-    },
-    {
-      "id": "e67a3dc26c",
-      "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-          "headline": "Poundland set for more time to secure a rescue deal as emergency talks continue",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-11T22:08:56+00:00",
-      "last_seen": "2026-11-11T22:08:56+00:00",
+      "first_seen": "2026-11-12T06:26:01+00:00",
+      "last_seen": "2026-11-12T06:26:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1654
+    },
+    {
+      "id": "a9f8b838cc",
+      "title": "Vance reportedly considers direct talks with Iran’s top security chief Rezaei",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/vance-reportedly-considers-direct-talks-irans-top-security-chief-rezaei",
+          "headline": "Vance reportedly considers direct talks with Iran’s top security chief Rezaei",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T06:25:28+00:00",
+      "last_seen": "2026-11-12T06:25:28+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1251
+      "resonance": 0.1638
     },
     {
-      "id": "54b4c6ee5b",
-      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+      "id": "c8fa243a7f",
+      "title": "Hong Kong passes bill to speed up development of Northern Metropolis megaproject",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-          "headline": "Clashes erupt in Barcelona after thousands join Spain general strike",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/hong-kong/society/article/3374173/hong-kong-passes-bill-speed-development-northern-metropolis-megaproject",
+          "headline": "Hong Kong passes bill to speed up development of Northern Metropolis megaproject",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T06:25:14+00:00",
+      "last_seen": "2026-11-12T06:25:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1631
+    },
+    {
+      "id": "bc35c22dc8",
+      "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374147/famed-ocean-liner-sunk-become-worlds-biggest-artificial-reef",
+          "headline": "Famed ocean liner sunk to become world’s biggest artificial reef",
+          "platform": "rss"
+        },
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/11/11/nx-s1-6030853/ss-united-states-artificial-reef-sinking",
+          "headline": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.025,
+        "spread": 0.125,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T03:10:32+00:00",
+      "last_seen": "2026-11-12T03:55:51+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1522
+    },
+    {
+      "id": "fca752e2ad",
+      "title": "LDP, JIP and DPP submit Lower House seat-cut bill, driving contentious reform",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/12/japan/politics/seat-reduction-bill-submitted/",
+          "headline": "LDP, JIP and DPP submit Lower House seat-cut bill, driving contentious reform",
           "platform": "rss"
         }
       ],
@@ -552,52 +629,58 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-11T22:07:37+00:00",
-      "last_seen": "2026-11-11T22:07:37+00:00",
+      "first_seen": "2026-11-12T06:18:00+00:00",
+      "last_seen": "2026-11-12T06:18:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1233
+      "topic": "politics",
+      "resonance": 0.1418
     },
     {
-      "id": "dec35898f3",
-      "title": "Two pulled from rubble after NYC building collapses, search underway for others feared trapped: FDNY",
+      "id": "1679d77225",
+      "title": "From Pong to GTA VI: Play your way through 50 years of video games",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/two-pulled-from-rubble-after-nyc-building-collapses-search-underway-others-feared-trapped-fdny",
-          "headline": "Two pulled from rubble after NYC building collapses, search underway for others feared trapped: FDNY",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/features/longform/2026/11/12/from-pong-to-gta-vi-play-your-way-through-50-years-of-video-games?traffic_source=rss",
+          "headline": "From Pong to GTA VI: Play your way through 50 years of video games",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.6,
+        "mean": -0.2,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-11-11T22:06:40+00:00",
-      "last_seen": "2026-11-11T22:06:40+00:00",
+      "first_seen": "2026-11-12T06:17:48+00:00",
+      "last_seen": "2026-11-12T06:17:48+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1221
+      "topic": "world",
+      "resonance": 0.1412
     },
     {
-      "id": "b9702de039",
-      "title": "Developer says gigantic WA data centre will not use fracked gas",
-      "signal_count": 1,
+      "id": "3fac536d0d",
+      "title": "HC directs Malkajgiri Police Commissioner to ‘ensure presence’ of Medchal Malkajgiri Collector before bench in contempt case",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-12/gingerah-concerns-data-centre-fracked-gas/107364340",
-          "headline": "Developer says gigantic WA data centre will not use fracked gas",
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/telangana/hc-directs-malkajgiri-police-commissioner-to-ensure-presence-of-medchal-malkajgiri-collector-before-bench-in-contempt-case/article71690917.ece",
+          "headline": "HC directs Malkajgiri Police Commissioner to ‘ensure presence’ of Medchal Malkajgiri Collector before bench in contempt case",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/telangana/ensure-hydraa-chiefs-presence-before-bench-in-contempt-case-hc-to-dgp/article71691035.ece",
+          "headline": "Ensure HYDRAA chief’s presence before Bench in contempt case: HC to DGP",
           "platform": "rss"
         }
       ],
@@ -605,27 +688,117 @@
         "mean": -0.1,
         "spread": 0.0,
         "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T06:14:39+00:00",
+      "last_seen": "2026-11-12T06:17:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "resonance": 0.1406
+    },
+    {
+      "id": "cb9f8c02c9",
+      "title": "‘The Master and Margarita’ demolishes the fourth wall",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/culture/2026/11/12/stage/japanese-theater-master-and-margarita/",
+          "headline": "‘The Master and Margarita’ demolishes the fourth wall",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-11T22:02:16+00:00",
-      "last_seen": "2026-11-11T22:02:16+00:00",
+      "first_seen": "2026-11-12T06:11:00+00:00",
+      "last_seen": "2026-11-12T06:11:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1216
+    },
+    {
+      "id": "f227b0c719",
+      "title": "Australian teen missing in bush for six days rescued alive",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/asia/australasia/article/3374155/autistic-teen-missing-australian-bushland-6-days-rescued-alive",
+          "headline": "Autistic teen missing in Australian bushland for 6 days rescued alive",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&at_campaign=rss",
+          "headline": "Australian teen missing in bush for six days rescued alive",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T02:40:18+00:00",
+      "last_seen": "2026-11-12T04:51:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1208
+    },
+    {
+      "id": "b041a30ee1",
+      "title": "Teenager in critical condition after likely ‘train surfing’ on Sydney Harbour Bridge, police say",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/12/teenager-in-critical-condition-after-likely-train-surfing-on-sydney-harbour-bridge-police-say",
+          "headline": "Teenager in critical condition after likely ‘train surfing’ on Sydney Harbour Bridge, police say",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T06:09:21+00:00",
+      "last_seen": "2026-11-12T06:09:21+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1162
+      "resonance": 0.1169
     },
     {
-      "id": "fff01404ba",
-      "title": "Under higher scrutiny, will Singapore remain Chinese firms’ first overseas port of call?",
+      "id": "077563e45d",
+      "title": "Silk Road in orbit: China to build 20-satellite ‘space AI’ system for Oman",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/economy/china-economy/article/3373856/under-higher-scrutiny-will-singapore-remain-chinese-firms-first-overseas-port-call",
-          "headline": "Under higher scrutiny, will Singapore remain Chinese firms’ first overseas port of call?",
+          "url": "https://www.scmp.com/news/china/science/article/3374157/silk-road-orbit-china-build-20-satellite-space-ai-system-oman",
+          "headline": "Silk Road in orbit: China to build 20-satellite ‘space AI’ system for Oman",
           "platform": "rss"
         }
       ],
@@ -636,24 +809,30 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-11T22:00:10+00:00",
-      "last_seen": "2026-11-11T22:00:10+00:00",
+      "first_seen": "2026-11-12T06:00:06+00:00",
+      "last_seen": "2026-11-12T06:00:06+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1135
+      "resonance": 0.0908
     },
     {
-      "id": "25920083af",
-      "title": "Breaking: Commonwealth Bank allegedly overcharged business customers",
-      "signal_count": 1,
+      "id": "9e240a5b4d",
+      "title": "TurboTax Full Service Coupons This November 2026",
+      "signal_count": 2,
       "sources": [
         {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-12/asic-sues-commonwealth-bank-alleges-overcharged-millions-in-fees/107376156",
-          "headline": "Breaking: Commonwealth Bank allegedly overcharged business customers",
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/turbotax-coupon/",
+          "headline": "TurboTax Full Service Coupons This November 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/wayfair-promo-code/",
+          "headline": "Wayfair Coupons: Up to 80% Off November 2026",
           "platform": "rss"
         }
       ],
@@ -661,55 +840,27 @@
         "mean": -0.1,
         "spread": 0.0,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-11-11T22:00:02+00:00",
-      "last_seen": "2026-11-11T22:00:02+00:00",
+      "first_seen": "2026-11-12T06:00:00+00:00",
+      "last_seen": "2026-11-12T06:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.1133
+      "topic": "tech",
+      "resonance": 0.0905
     },
     {
-      "id": "2bfe660909",
-      "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
-          "headline": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T22:00:00+00:00",
-      "last_seen": "2026-11-11T22:00:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1133
-    },
-    {
-      "id": "720b9333e5",
-      "title": "Pete Hegseth Is About to Get His Ass Kicked",
+      "id": "057e9fb7be",
+      "title": "Lovehoney Coupon Offers: 70% Off",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "WIRED",
-          "url": "https://www.wired.com/story/pete-hegseth-is-about-to-get-his-ass-kicked/",
-          "headline": "Pete Hegseth Is About to Get His Ass Kicked",
+          "url": "https://www.wired.com/story/lovehoney-discount-code/",
+          "headline": "Lovehoney Coupon Offers: 70% Off",
           "platform": "rss"
         }
       ],
@@ -720,316 +871,240 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-11T22:00:00+00:00",
-      "last_seen": "2026-11-11T22:00:00+00:00",
+      "first_seen": "2026-11-12T06:00:00+00:00",
+      "last_seen": "2026-11-12T06:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1133
+      "resonance": 0.0905
     },
     {
-      "id": "43e0314824",
-      "title": "Spain: Housing crisis prompts general strike, mass nighttime protests",
-      "signal_count": 1,
+      "id": "f86c4bf8a5",
+      "title": "Lenovo Coupon Codes: 15% Off in November 2026",
+      "signal_count": 5,
       "sources": [
         {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike-mass-nighttime-protests/a-79915208?maca=en-rss-en-all-1573-rdf",
-          "headline": "Spain: Housing crisis prompts general strike, mass nighttime protests",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T21:58:00+00:00",
-      "last_seen": "2026-11-11T21:58:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "resonance": 0.1107
-    },
-    {
-      "id": "7d8a886d85",
-      "title": "United won’t let your AI agent book your flight",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-          "headline": "United won’t let your AI agent book your flight",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T21:54:21+00:00",
-      "last_seen": "2026-11-11T21:54:21+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1059
-    },
-    {
-      "id": "1fe241af7f",
-      "title": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html",
-          "headline": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T21:53:34+00:00",
-      "last_seen": "2026-11-11T21:53:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1049
-    },
-    {
-      "id": "c51bae6340",
-      "title": "Russia and Ukraine agree to major prisoner swap as peace talks end",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/europe/20261111-russia-and-ukraine-agree-to-major-prisoner-swap-as-peace-talks-end",
-          "headline": "Russia and Ukraine agree to major prisoner swap as peace talks end",
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/lenovo-coupon-code/",
+          "headline": "Lenovo Coupon Codes: 15% Off in November 2026",
           "platform": "rss"
         },
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3374117/russia-ukraine-agree-prisoner-exchange-talks-end-without-major-breakthrough",
-          "headline": "Russia, Ukraine agree on prisoner exchange as talks end without major breakthrough",
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/airdoctor-coupon-code/",
+          "headline": "AirDoctor Coupon Codes: 40% Off | November 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/hellofresh-coupon/",
+          "headline": "HelloFresh Promo Codes: 55% Off for November 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/nike-promo-code/",
+          "headline": "Nike Promo Codes and Discounts: 30% for November 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/design-within-reach-promo-code/",
+          "headline": "Design Within Reach Promo Codes: 30% Off | November 2026",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 5,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T06:00:00+00:00",
+      "last_seen": "2026-11-12T06:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0905
+    },
+    {
+      "id": "1f9026353f",
+      "title": "Hydrow Discount Code: Save Up to $150 | November 2026",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/hydrow-discount-code/",
+          "headline": "Hydrow Discount Code: Save Up to $150 | November 2026",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/ruggable-discount-code/",
+          "headline": "Ruggable Discount Code: 30% Off Rugs | November 2026",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T06:00:00+00:00",
+      "last_seen": "2026-11-12T06:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0905
+    },
+    {
+      "id": "2f207e3b08",
+      "title": "Ring Promo Code: 50% Off",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/ring-promo-code/",
+          "headline": "Ring Promo Code: 50% Off",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T06:00:00+00:00",
+      "last_seen": "2026-11-12T06:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0905
+    },
+    {
+      "id": "fd7573f98d",
+      "title": "L.L.Bean Promo Codes and Coupons: 75% Off",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/ll-bean-promo-code/",
+          "headline": "L.L.Bean Promo Codes and Coupons: 75% Off",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/acer-promo-code/",
+          "headline": "Acer Promo Codes: 40% Off",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/vitamix-promo-code/",
+          "headline": "Vitamix Promo Codes and Deals: $25 Off + Free Shipping",
+          "platform": "rss"
+        },
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/select-blinds-promo-code/",
+          "headline": "SelectBlinds Promo Codes & Coupons: 10% Off",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 4,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T06:00:00+00:00",
+      "last_seen": "2026-11-12T06:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0905
+    },
+    {
+      "id": "ddf2c81d59",
+      "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
+          "headline": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": 0.0,
-        "spread": 0.1,
+        "spread": 0.0,
         "left": 0,
-        "center": 2,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-11T14:54:11+00:00",
-      "last_seen": "2026-11-11T21:46:12+00:00",
+      "first_seen": "2026-11-12T05:59:18+00:00",
+      "last_seen": "2026-11-12T05:59:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1016
+      "resonance": 0.0886
     },
     {
-      "id": "f352ecd67d",
-      "title": "Saudi Arabia faces liquidity crunch even as oil exports rebound to pre-war levels",
-      "signal_count": 2,
+      "id": "3a50547ef3",
+      "title": "UAE's Ras Al Khaimah reopens a number of beaches after oil spill from tanker",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-faces-liquidity-crunch-even-oil-exports-rebound-pre-war",
-          "headline": "Saudi Arabia faces liquidity crunch even as oil exports rebound to pre-war levels",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/news/saudi-arabia-feels-liquidity-crunch-even-oil-exports-rebound",
-          "headline": "Saudi Arabia faces liquidity crunch even as oil exports rebound to pre-war levels",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uaes-ras-al-khaimah-reopens-number-beaches-after-oil-spill-tanker",
+          "headline": "UAE's Ras Al Khaimah reopens a number of beaches after oil spill from tanker",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.25,
         "spread": 0.0,
-        "left": 2,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T21:39:52+00:00",
-      "last_seen": "2026-11-11T21:44:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0944
-    },
-    {
-      "id": "be9a00e809",
-      "title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_medium=RSS&at_campaign=rss",
-          "headline": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T21:43:35+00:00",
-      "last_seen": "2026-11-11T21:43:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0922
-    },
-    {
-      "id": "21548280ba",
-      "title": "Tshisekedi paves way for constitutional change",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/tshisekedi-paves-way-for-constitutional-change",
-          "headline": "Tshisekedi paves way for constitutional change",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T21:39:46+00:00",
-      "last_seen": "2026-11-11T21:39:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0874
-    },
-    {
-      "id": "90e9e7b59a",
-      "title": "Low-hanging fruit for Xi and Trump to pluck at Shenzhen Apec summit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/opinion/china-opinion/article/3373661/low-hanging-fruit-xi-and-trump-pluck-shenzhen-apec-summit",
-          "headline": "Low-hanging fruit for Xi and Trump to pluck at Shenzhen Apec summit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T21:30:05+00:00",
-      "last_seen": "2026-11-11T21:30:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0755
-    },
-    {
-      "id": "772c020e4d",
-      "title": "Nvidia Scandal Unveils a Fierce Spy War Raging Behind Trump and Xi’s Diplomacy",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/11/world/asia/china-us-nvidia.html",
-          "headline": "Nvidia Scandal Unveils a Fierce Spy War Raging Behind Trump and Xi’s Diplomacy",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-11T21:24:12+00:00",
-      "last_seen": "2026-11-11T21:24:12+00:00",
+      "first_seen": "2026-11-12T05:53:29+00:00",
+      "last_seen": "2026-11-12T05:53:29+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0684
+      "topic": "tech",
+      "resonance": 0.0725
     },
     {
-      "id": "fc9f77599b",
-      "title": "This Defense Makes Drones (and GPS) Think They’re in Peru",
+      "id": "cacb8d9a5b",
+      "title": "Where the US's war with Iran stands after the midterms",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/11/world/europe/ukraine-lima-electronic-warefare-gps.html",
-          "headline": "This Defense Makes Drones (and GPS) Think They’re in Peru",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T21:20:06+00:00",
-      "last_seen": "2026-11-11T21:20:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0634
-    },
-    {
-      "id": "02bb97b5ba",
-      "title": "France's 11 November ceremonies: Macron, Le Pen, Mélenchon between memory and pacifism",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Euronews",
-          "url": "https://www.euronews.com/2026/11/11/frances-11-november-ceremonies-macron-le-pen-melenchon-between-memory-and-pacifism",
-          "headline": "France's 11 November ceremonies: Macron, Le Pen, Mélenchon between memory and pacifism",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/where-the-us-s-war-with-iran-stands-after-the-midterms/a-79918176?maca=en-rss-en-all-1573-rdf",
+          "headline": "Where the US's war with Iran stands after the midterms",
           "platform": "rss"
         }
       ],
@@ -1040,8 +1115,36 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-11T21:08:40+00:00",
-      "last_seen": "2026-11-11T21:08:40+00:00",
+      "first_seen": "2026-11-12T05:50:00+00:00",
+      "last_seen": "2026-11-12T05:50:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0629
+    },
+    {
+      "id": "d1707bd8ce",
+      "title": "What went wrong for Indonesia's VP Gibran Rakabuming Raka?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-12/why-did-indonesia-vp-gibran-rakabuming-raka-resign/107377964",
+          "headline": "What went wrong for Indonesia's VP Gibran Rakabuming Raka?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T05:45:14+00:00",
+      "last_seen": "2026-11-12T05:45:14+00:00",
       "platforms": [
         "rss"
       ],
@@ -1052,33 +1155,75 @@
   ],
   "edges": [
     {
-      "source": "136740fab0",
-      "target": "d064ef08df",
-      "weight": 0.49,
+      "source": "85aaf148c3",
+      "target": "cd0fcebfcd",
+      "weight": 0.541,
       "type": "thematic"
     },
     {
-      "source": "54b4c6ee5b",
-      "target": "43e0314824",
-      "weight": 0.476,
+      "source": "66db95e636",
+      "target": "62a9cd6819",
+      "weight": 0.243,
       "type": "thematic"
     },
     {
-      "source": "54b4c6ee5b",
-      "target": "1fe241af7f",
-      "weight": 0.742,
+      "source": "9e240a5b4d",
+      "target": "f86c4bf8a5",
+      "weight": 0.456,
       "type": "thematic"
     },
     {
-      "source": "720b9333e5",
-      "target": "be9a00e809",
-      "weight": 0.001,
+      "source": "9e240a5b4d",
+      "target": "1f9026353f",
+      "weight": 0.312,
       "type": "thematic"
     },
     {
-      "source": "43e0314824",
-      "target": "1fe241af7f",
-      "weight": 0.677,
+      "source": "9e240a5b4d",
+      "target": "fd7573f98d",
+      "weight": 0.143,
+      "type": "thematic"
+    },
+    {
+      "source": "057e9fb7be",
+      "target": "f86c4bf8a5",
+      "weight": 0.734,
+      "type": "thematic"
+    },
+    {
+      "source": "057e9fb7be",
+      "target": "2f207e3b08",
+      "weight": 0.072,
+      "type": "thematic"
+    },
+    {
+      "source": "057e9fb7be",
+      "target": "fd7573f98d",
+      "weight": 0.01,
+      "type": "thematic"
+    },
+    {
+      "source": "f86c4bf8a5",
+      "target": "1f9026353f",
+      "weight": 0.373,
+      "type": "thematic"
+    },
+    {
+      "source": "f86c4bf8a5",
+      "target": "fd7573f98d",
+      "weight": 0.635,
+      "type": "thematic"
+    },
+    {
+      "source": "1f9026353f",
+      "target": "2f207e3b08",
+      "weight": 0.159,
+      "type": "thematic"
+    },
+    {
+      "source": "2f207e3b08",
+      "target": "fd7573f98d",
+      "weight": 0.845,
       "type": "thematic"
     }
   ],
@@ -1105,7 +1250,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 10,
+      "count": 9,
       "error": null
     },
     "The Economist": {
@@ -1125,7 +1270,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 14,
+      "count": 12,
       "error": null
     },
     "The Atlantic": {

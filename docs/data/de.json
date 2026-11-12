@@ -1,28 +1,202 @@
 {
-  "generated_at": "2026-11-12T16:08:40.934782+00:00",
+  "generated_at": "2026-11-12T23:44:55.405878+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 6,
+  "edge_count": 16,
   "nodes": [
     {
-      "id": "feba4628f0",
-      "title": "Chip-Konzern: Nvidia-Chef Huang tritt zurück",
-      "signal_count": 6,
+      "id": "0399ebd719",
+      "title": "Putin bereit für Europäer am Verhandlungstisch – Selenskyj sieht das als Fortschritt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6af64bb850175c81de7a47da/us-unterhaendler-putin-bereit-fuer-europaeer-am-verhandlungstisch-selenskyj-sieht-das-als-fortschritt.html",
+          "headline": "Putin bereit für Europäer am Verhandlungstisch – Selenskyj sieht das als Fortschritt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-11-12T23:40:02+00:00",
+      "last_seen": "2026-11-12T23:40:02+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "f919a4425a",
+      "title": "Krieg gegen die Ukraine: Rutte sieht Einigkeit von USA und EU bei Ukraine-Sicherheitsgarantien",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+          "headline": "Krieg gegen die Ukraine: Rutte sieht Einigkeit von USA und EU bei Ukraine-Sicherheitsgarantien",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T23:35:41+00:00",
+      "last_seen": "2026-11-12T23:35:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "c24ce52706",
+      "title": "Wall Street: Wall Street schließt im Minus – Nvidia-Turbulenzen belasten",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/wirtschaft/Nvidia-Turbulenzen-belasten-die-Wall-Street-id31528491.html",
+          "headline": "KI-Werte unter Druck: Nvidia-Turbulenzen belasten die Wall Street",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-im-minus-nvidia-turbulenzen-belasten/100269457.html",
+          "headline": "Wall Street: Wall Street schließt im Minus – Nvidia-Turbulenzen belasten",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.075,
+        "spread": 0.075,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T18:51:14+00:00",
+      "last_seen": "2026-11-12T22:38:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.5259
+    },
+    {
+      "id": "dd571c1c6c",
+      "title": "Weltklimakonferenz: António Guterres kritisiert Milliarden-Gewinne von Energiekonzernen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/wirtschaft/2026-11/antonio-guterres-oelkonzerne-gewinne-klimakrise",
+          "headline": "Weltklimakonferenz: António Guterres kritisiert Milliarden-Gewinne von Energiekonzernen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T23:20:15+00:00",
+      "last_seen": "2026-11-12T23:20:15+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "d52a6a274c",
+      "title": "Massiver Cyberangriff auf deutschen Drohnenhersteller Quantum Systems",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/technik/ki/nvidia-jensen-huang-tritt-nach-mehreren-affaeren-zurueck/100269321.html",
-          "headline": "KI-Chipkonzern: Nvidia-Chef Huang tritt nach Spionageaffäre zurück",
+          "url": "https://www.handelsblatt.com/technik/forschung-innovation/quantum-systems-drohnenhersteller-meldet-massiven-cyberangriff/100269533.html",
+          "headline": "Rüstungs-Start-up: Drohnenhersteller Quantum Systems meldet massiven Cyberangriff",
           "platform": "rss"
         },
         {
-          "outlet": "taz",
-          "url": "https://taz.de/Nvidia-Chef-tritt-zurueck/!6229653/",
-          "headline": "Nvidia-Chef tritt zurück: Ende einer Affäre",
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/politik/massiver-cyberangriff-auf-drohnenhersteller-quantum-systems-a-354b0289-2281-4af6-a532-ee03b45d8b30#ref=rss",
+          "headline": "Massiver Cyberangriff auf deutschen Drohnenhersteller Quantum Systems",
           "platform": "rss"
-        },
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.15,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T20:05:00+00:00",
+      "last_seen": "2026-11-12T20:46:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.5101
+    },
+    {
+      "id": "431bd23114",
+      "title": "Kalenderblatt: Was geschah am 13. November?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-11/12/was-geschah-am-13-november",
+          "headline": "Kalenderblatt: Was geschah am 13. November?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T22:55:04+00:00",
+      "last_seen": "2026-11-12T22:55:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "feba4628f0",
+      "title": "Chip-Konzern: Nvidia-Chef Huang tritt zurück",
+      "signal_count": 4,
+      "sources": [
         {
           "outlet": "Süddeutsche",
           "url": "https://www.sueddeutsche.de/wirtschaft/nvidia-huang-affaere-aktie-absturz-nachfolgerin-li.3579215",
@@ -30,9 +204,15 @@
           "platform": "rss"
         },
         {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/nvidia-chef-jensen-huang-tritt-nach-spionageaffaere-zurueck-201677697.html",
-          "headline": "Skandal im Chip-Giganten: Nvidia-Chef Huang tritt nach Spionageaffäre zurück",
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/politik/deutschland/news-des-tages-nvidia-chef-jensen-huang-tritt-zurueck-startchancengesetz-fuer-kitakinder-hype-um-grand-theft-auto-6-a-0b48fa44-e908-4c2c-a96b-b8e54d42e674#ref=rss",
+          "headline": "News des Tages: Nvidia-Chef Jensen Huang tritt zurück, Startchancengesetz für Kitakinder, Hype um Grand Theft Auto 6",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/technik/ki/nvidia-jensen-huang-tritt-nach-mehreren-affaeren-zurueck/100269321.html",
+          "headline": "KI-Chipkonzern: Nvidia-Chef Huang tritt nach Spionageaffäre zurück",
           "platform": "rss"
         },
         {
@@ -40,46 +220,162 @@
           "url": "https://www.sueddeutsche.de/wirtschaft/nvidia-jensen-huang-ruecktritt-spionage-li.3579274",
           "headline": "Nach Spionageaffäre: Nvidia-Chef Huang tritt zurück",
           "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/wirtschaft/jensen-huang-nvidia-chef-tritt-nach-spionageaffaere-zurueck-a-776bb012-48a6-4c08-9939-a77fad020e47#ref=rss",
-          "headline": "Nvidia: Jensen Huang tritt nach Spionageaffäre zurück",
-          "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.125,
-        "spread": 0.25,
-        "left": 1,
-        "center": 5,
+        "mean": -0.1,
+        "spread": 0.146,
+        "left": 0,
+        "center": 4,
         "right": 0
       },
-      "first_seen": "2026-11-12T13:57:00+00:00",
-      "last_seen": "2026-11-12T15:49:02+00:00",
+      "first_seen": "2026-11-12T14:13:26+00:00",
+      "last_seen": "2026-11-12T21:10:46+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "tech",
+      "topic": "politics",
       "language": "de",
-      "resonance": 0.7395
+      "resonance": 0.4179
     },
     {
-      "id": "67c1069582",
-      "title": "VW verdient offenbar nur noch zwölf Euro pro verkauftem Auto",
-      "signal_count": 2,
+      "id": "7adba851a0",
+      "title": "Duran Duran: Drummer Roger Taylor hört wegen Tinnitus auf",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/wirtschaft/unternehmen/vw-verdient-offenbar-nur-noch-zwoelf-euro-pro-verkauftem-auto-a-0ac7334b-310b-4179-9a69-4ba1d62ddf7b#ref=rss",
-          "headline": "VW verdient offenbar nur noch zwölf Euro pro verkauftem Auto",
+          "url": "https://www.spiegel.de/panorama/duran-duran-drummer-roger-taylor-hoert-wegen-tinnitus-auf-a-9e25d38f-fb35-4672-96e4-50a715f26e0f#ref=rss",
+          "headline": "Duran Duran: Drummer Roger Taylor hört wegen Tinnitus auf",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T22:50:00+00:00",
+      "last_seen": "2026-11-12T22:50:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "a5cd7f7be1",
+      "title": "Liveblog Ukrainekrieg: Witkoff: Europäer könnten bei nächstem Ukraine-Treffen dabei sein",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-witkoff-europaeer-koennten-bei-naechstem-ukraine-treffen-dabei-sein-faz-110683325.html",
+          "headline": "Liveblog Ukrainekrieg: Witkoff: Europäer könnten bei nächstem Ukraine-Treffen dabei sein",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T22:43:45+00:00",
+      "last_seen": "2026-11-12T22:43:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "c973dbfa0f",
+      "title": "Jürgen Klopp zu Felix Nmecha: „Deswegen wird er so nicht mehr jubeln“",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/sport/klopp-nmecha-gespraech-serbien-deutschland-li.3579648",
+          "headline": "Jürgen Klopp zu Felix Nmecha: „Deswegen wird er so nicht mehr jubeln“",
           "platform": "rss"
         },
         {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/sport/fussball/article6af606c450175c81de7a44f3/juergen-klopp-enthuellt-entscheidung-bei-felix-nmecha-er-will-so-nicht-mehr-jubeln.html",
+          "headline": "„Er will so nicht mehr jubeln“ – Klopp enthüllt Nmecha-Entscheidung",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.25,
+        "left": 0,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-11-12T19:07:24+00:00",
+      "last_seen": "2026-11-12T20:59:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.3728
+    },
+    {
+      "id": "1bb4632bc9",
+      "title": "Spionage-Affäre: Nvidia-Aktien büßen nach Jensen Huangs Rücktritt an Wert ein",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/wirtschaft/spionage-affaere-nvidia-aktien-buessen-nach-jensen-huangs-ruecktritt-an-wert-ein-a-a7155d5a-d0f2-43d4-b287-1f89bcb863ea#ref=rss",
+          "headline": "Spionage-Affäre: Nvidia-Aktien büßen nach Jensen Huangs Rücktritt an Wert ein",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T22:39:00+00:00",
+      "last_seen": "2026-11-12T22:39:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.28
+    },
+    {
+      "id": "b7c0219c0b",
+      "title": "USA: Hegseth zeichnet Soldaten aus, der ihn anbrüllte",
+      "signal_count": 2,
+      "sources": [
+        {
           "outlet": "n-tv",
-          "url": "https://www.n-tv.de/wirtschaft/VW-soll-pro-verkauftem-Auto-nur-Mini-Betrag-verdienen-id31527106.html",
-          "headline": "Wegen hoher Sonderbelastungen: VW soll pro verkauftem Auto nur Mini-Betrag verdienen",
+          "url": "https://www.n-tv.de/politik/Hegseth-zeichnet-Soldaten-aus-der-ihn-angeschnauzt-hat-id31528221.html",
+          "headline": "Schlechtes Benehmen auf Friedhof: Hegseth zeichnet Soldaten aus, der ihn angeschnauzt hat",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/ausland/usa-hegseth-zeichnet-soldaten-aus-der-ihn-anbruellte-a-b0079820-bb3e-4068-921a-035f59f0f56a#ref=rss",
+          "headline": "USA: Hegseth zeichnet Soldaten aus, der ihn anbrüllte",
           "platform": "rss"
         }
       ],
@@ -90,212 +386,25 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-11-12T15:56:23+00:00",
-      "last_seen": "2026-11-12T15:59:00+00:00",
+      "first_seen": "2026-11-12T18:47:00+00:00",
+      "last_seen": "2026-11-12T19:55:01+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.3932
+      "resonance": 0.3152
     },
     {
-      "id": "836db0c8ac",
-      "title": "Krieg gegen die Ukraine: Putin schlägt offenbar Evakuierung von Kostjantyniwka vor",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-          "headline": "Krieg gegen die Ukraine: Putin schlägt offenbar Evakuierung von Kostjantyniwka vor",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/ausland/article6af5cc00c45061d752ba87a8/ukraine-krieg-putin-zeigt-sich-unnachgiebig-bei-gebietsfragen-und-schlaegt-neue-hilfsaktion-vor.html",
-          "headline": "Putin zeigt sich unnachgiebig bei Gebietsfragen im Ukraine-Krieg – und schlägt neue Hilfsaktion vor",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.3,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-12T14:44:53+00:00",
-      "last_seen": "2026-11-12T15:54:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.3624
-    },
-    {
-      "id": "059745e071",
-      "title": "Konflikt zwischen Trump und Vance: Trump fordert Vance auf, sich auf die USA statt Iran zu konzentrieren",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-11/usa-iran-donald-trump-jd-vance-strasse-von-hormus",
-          "headline": "Konflikt zwischen Trump und Vance: Trump fordert Vance auf, sich auf die USA statt Iran zu konzentrieren",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Trump-pfeift-Vance-zurueck-und-fordert-Fokus-auf-USA-id31526858.html",
-          "headline": "\"Brauchen kein Iran-Abkommen\": Trump pfeift Vance zurück und fordert Fokus auf USA",
-          "platform": "rss"
-        },
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-trump-weist-vance-zurecht-aufmerksamkeit-nicht-auf-iran-richten-faz-19444916.html",
-          "headline": "USA unter Trump: Trump weist Vance zurecht: Aufmerksamkeit nicht auf Iran richten",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-sieht-keinen-bedarf-fuer-ein-iran-abkommen/100136895.html",
-          "headline": "+++ Iran-Krieg +++: Trump: „Wir brauchen kein Abkommen mit dem Iran“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.013,
-        "spread": 0.195,
-        "left": 1,
-        "center": 3,
-        "right": 0
-      },
-      "first_seen": "2026-11-11T17:28:46+00:00",
-      "last_seen": "2026-11-12T15:38:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.3536
-    },
-    {
-      "id": "4e3e9cedfe",
-      "title": "Wintersport: Finnland verschärft Einreiseregeln für russische Athleten",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-11/finnland-einreise-russische-sportler-athleten-elina-valtonen",
-          "headline": "Wintersport: Finnland verschärft Einreiseregeln für russische Athleten",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/wintersport/article6af5d135c45061d752ba8867/russland-einreise-wuerde-eine-gefahr-darstellen-finnland-schliesst-russische-sportler-aus.html",
-          "headline": "„Einreise würde eine Gefahr darstellen“ – Finnland verschärft Beschränkungen für russische Sportler",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.3,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-12T15:15:16+00:00",
-      "last_seen": "2026-11-12T15:25:47+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.3139
-    },
-    {
-      "id": "3db1aa85ed",
-      "title": "Dax knackt erstmals 27.000-Punkte-Marke - Jahresendrally in Sicht",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/video/2026-11/dax-knackt-erstmals-27-000-punkte-marke-jahresendrally-in-sicht",
-          "headline": "Dax knackt erstmals 27.000-Punkte-Marke - Jahresendrally in Sicht",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-ueberschreitet-erstmals-27.000-punkte-marke/100269311.html",
-          "headline": "Börse: Dax überschreitet erstmals 27.000‑Punkte-Marke – Trump-Post verringert Gewinne",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.225,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T13:26:03+00:00",
-      "last_seen": "2026-11-12T15:52:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
-      "resonance": 0.2239
-    },
-    {
-      "id": "112baae3ac",
-      "title": "Nvidia-Chef Jensen Huang gibt Posten auf",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/ausland/video6af5c8be5596369bf0edd464/nvidia-jensen-huang-gibt-nach-affaere-seinen-posten-auf.html",
-          "headline": "Nvidia-Chef Jensen Huang gibt Posten auf",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/wirtschaft/Nvidia-Chef-Huang-gibt-wegen-Spionageaffaere-seinen-Posten-auf-id31526637.html",
-          "headline": "Finanzchefin übernimmt: Nvidia-Chef Huang gibt wegen Spionageaffäre seinen Posten auf",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.15,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-11-12T13:56:16+00:00",
-      "last_seen": "2026-11-12T14:14:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1594
-    },
-    {
-      "id": "6a5d2a288f",
-      "title": "»Dornröschen« an der Hamburgischen Staatsoper: Kann ruhig weiterschlafen",
+      "id": "4f01eb756f",
+      "title": "Wohlbehalten zurück: Vermisste Zwölfjährige aus Kreis Euskirchen wiedergefunden",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/2026/49/dornroeschen-hamburgische-staatsoper-engelbert-humperdinck-anna-bergmann",
-          "headline": "»Dornröschen« an der Hamburgischen Staatsoper: Kann ruhig weiterschlafen",
+          "url": "https://www.zeit.de/news/2026-11/12/vermisste-zwoelfjaehrige-aus-kreis-euskirchen-wiedergefunden",
+          "headline": "Wohlbehalten zurück: Vermisste Zwölfjährige aus Kreis Euskirchen wiedergefunden",
           "platform": "rss"
         }
       ],
@@ -306,25 +415,25 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-12T16:05:19+00:00",
-      "last_seen": "2026-11-12T16:05:19+00:00",
+      "first_seen": "2026-11-12T22:22:09+00:00",
+      "last_seen": "2026-11-12T22:22:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "tech",
       "language": "de",
-      "resonance": 0.0932
+      "resonance": 0.28
     },
     {
-      "id": "41569887a9",
-      "title": "„Günstig wie nie zum Einstieg“ – Was nach Huangs Rücktritt für den Chip-Giganten spricht",
+      "id": "14be0b6c59",
+      "title": "Kane hat jetzt eine Bestmarke für sich allein – Italien stürzt Frankreich von der Spitze",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/wirtschaft/video6af5d7b1c45061d752ba894c/nvidia-aktie-guenstig-wie-nie-zum-einstieg-was-nach-huangs-ruecktritt-fuer-den-chip-giganten-spricht.html",
-          "headline": "„Günstig wie nie zum Einstieg“ – Was nach Huangs Rücktritt für den Chip-Giganten spricht",
+          "url": "https://www.welt.de/sport/fussball/article6af637cec45061d752ba918b/nations-league-kane-hat-jetzt-eine-bestmarke-fuer-sich-allein-italien-stuerzt-frankreich-von-der-spitze.html",
+          "headline": "Kane hat jetzt eine Bestmarke für sich allein – Italien stürzt Frankreich von der Spitze",
           "platform": "rss"
         }
       ],
@@ -335,141 +444,25 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-11-12T16:03:03+00:00",
-      "last_seen": "2026-11-12T16:03:03+00:00",
+      "first_seen": "2026-11-12T22:11:33+00:00",
+      "last_seen": "2026-11-12T22:11:33+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0883
+      "resonance": 0.2716
     },
     {
-      "id": "b4226ece2c",
-      "title": "Quiz des Tages beim SPIEGEL: 7 Fragen zum Allgemeinwissen pro Tag",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/games/taegliches-quiz-beim-spiegel-7-fragen-zum-allgemeinwissen-pro-tag-a-8a9692b2-4462-4192-942c-fd7809c7519c#ref=rss",
-          "headline": "Quiz des Tages beim SPIEGEL: 7 Fragen zum Allgemeinwissen pro Tag",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T16:03:00+00:00",
-      "last_seen": "2026-11-12T16:03:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0882
-    },
-    {
-      "id": "bf98f378c6",
-      "title": "Trotz ungewisser Zukunft: Volkswagen startet Produktion des ID. Tiguan in Emden",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/wirtschaft/Volkswagen-startet-Produktion-des-ID-Tiguan-in-Emden-id31527432.html",
-          "headline": "Trotz ungewisser Zukunft: Volkswagen startet Produktion des ID. Tiguan in Emden",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T16:01:53+00:00",
-      "last_seen": "2026-11-12T16:01:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0857
-    },
-    {
-      "id": "395ba815e4",
-      "title": "Wiederholt Einsätze: Wiederholt Jugendkriminalität in Neubrandenburg - Festnahmen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/12/wiederholt-jugendkriminalitaet-in-neubrandenburg-festnahmen",
-          "headline": "Wiederholt Einsätze: Wiederholt Jugendkriminalität in Neubrandenburg - Festnahmen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T16:01:19+00:00",
-      "last_seen": "2026-11-12T16:01:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.0845
-    },
-    {
-      "id": "71738296e6",
-      "title": "Mallorca: Steuern in Millionenhöhe hinterzogen – von deutschen Behörden gesuchtes Paar gefasst",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/panorama/justiz/mallorca-steuern-in-millionenhoehe-hinterzogen-von-deutschen-behoerden-gesuchtes-paar-gefasst-a-2e225cf4-a270-4df2-bf6e-117d27cdc6d9#ref=rss",
-          "headline": "Mallorca: Steuern in Millionenhöhe hinterzogen – von deutschen Behörden gesuchtes Paar gefasst",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T16:01:00+00:00",
-      "last_seen": "2026-11-12T16:01:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
-      "resonance": 0.0838
-    },
-    {
-      "id": "31038224e0",
-      "title": "Notfälle: Polizei: Eine tote Person nach Schüssen in Washington",
+      "id": "c76c66c1db",
+      "title": "Mindestens ein Toter: Tödliche Schüsse in Fitnessstudio in Washington",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
           "url": "https://www.zeit.de/news/2026-11/12/medien-mehrere-menschen-in-washington-angeschossen",
-          "headline": "Notfälle: Polizei: Eine tote Person nach Schüssen in Washington",
+          "headline": "Mindestens ein Toter: Tödliche Schüsse in Fitnessstudio in Washington",
           "platform": "rss"
         }
       ],
@@ -480,199 +473,83 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-12T16:00:15+00:00",
-      "last_seen": "2026-11-12T16:00:15+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.0822
-    },
-    {
-      "id": "cd57b67976",
-      "title": "Unfälle: Krankentransport endet für Fahrer selbst im Krankenhaus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/12/krankentransport-endet-fuer-fahrer-selbst-im-krankenhaus",
-          "headline": "Unfälle: Krankentransport endet für Fahrer selbst im Krankenhaus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T16:00:06+00:00",
-      "last_seen": "2026-11-12T16:00:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "health",
-      "language": "de",
-      "resonance": 0.0819
-    },
-    {
-      "id": "1887e96e80",
-      "title": "Kehrtwende bei Steuerpolitik: Schwarz-Rot schwimmt gegen den Strom",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Kehrtwende-bei-Steuerpolitik/!6229581/",
-          "headline": "Kehrtwende bei Steuerpolitik: Schwarz-Rot schwimmt gegen den Strom",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T15:58:00+00:00",
-      "last_seen": "2026-11-12T15:58:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0774
-    },
-    {
-      "id": "2c64de74d8",
-      "title": "Kriminalität: Polizei ermittelt nach Fund einer Leiche",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/12/polizei-ermittelt-nach-fund-einer-leiche",
-          "headline": "Kriminalität: Polizei ermittelt nach Fund einer Leiche",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T15:57:42+00:00",
-      "last_seen": "2026-11-12T15:57:42+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.0767
-    },
-    {
-      "id": "3d5d408518",
-      "title": "Gesetzesentwürfe: Wohnraum leichter bauen - Landtag debattiert neue Regeln",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/12/schleswig-holstein-streitet-ueber-wege-zu-mehr-wohnraum",
-          "headline": "Gesetzesentwürfe: Wohnraum leichter bauen - Landtag debattiert neue Regeln",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T15:56:09+00:00",
-      "last_seen": "2026-11-12T15:56:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0734
-    },
-    {
-      "id": "08b6ee0b24",
-      "title": "Einkommensgrenze bei Unterhaltsvorschuss: Ab 4.500 Euro gibt's nix mehr",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "taz",
-          "url": "https://taz.de/Einkommensgrenze-bei-Unterhaltsvorschuss/!6229502/",
-          "headline": "Einkommensgrenze bei Unterhaltsvorschuss: Ab 4.500 Euro gibt's nix mehr",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T15:56:00+00:00",
-      "last_seen": "2026-11-12T15:56:00+00:00",
+      "first_seen": "2026-11-12T22:05:10+00:00",
+      "last_seen": "2026-11-12T22:05:10+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0731
+      "resonance": 0.2504
     },
     {
-      "id": "e92985e6e7",
-      "title": "„Das wollen wir nicht in unserem Wohnzimmer“ – Watzke berichtet von Gespräch mit Nmecha",
+      "id": "a9149c5354",
+      "title": "Spionageaffäre: Jensen Huang soll vor US-Kongress zu Spionageaffäre aussagen",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/bundesliga/borussia-dortmund/article6af5dad35596369bf0edd6c9/felix-nmecha-watzke-fordert-verzicht-auf-jubel-wollen-wir-nicht-in-unserem-wohnzimmer.html",
-          "headline": "„Das wollen wir nicht in unserem Wohnzimmer“ – Watzke berichtet von Gespräch mit Nmecha",
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/wirtschaft/2026-11/jensen-huang-nvidia-ausschuss-brian-mast-china-spionage",
+          "headline": "Spionageaffäre: Jensen Huang soll vor US-Kongress zu Spionageaffäre aussagen",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.3,
+        "mean": -0.3,
         "spread": 0.0,
-        "left": 0,
+        "left": 1,
         "center": 0,
-        "right": 1
+        "right": 0
       },
-      "first_seen": "2026-11-12T15:55:25+00:00",
-      "last_seen": "2026-11-12T15:55:25+00:00",
+      "first_seen": "2026-11-12T21:56:53+00:00",
+      "last_seen": "2026-11-12T21:56:53+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0718
+      "resonance": 0.2233
     },
     {
-      "id": "217bb252ed",
-      "title": "Frankreich: Zwei Gardisten brechen fast zeitgleich vor dem Élyséepalast zusammen",
+      "id": "ef7fbda96d",
+      "title": "Nations League: Harry Kane trifft bei Rekordspiel: England im Viertelfinale",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-11/12/harry-kane-trifft-bei-rekordspiel-england-im-viertelfinale",
+          "headline": "Nations League: Harry Kane trifft bei Rekordspiel: England im Viertelfinale",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T21:49:57+00:00",
+      "last_seen": "2026-11-12T21:49:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.2009
+    },
+    {
+      "id": "27e055e4b4",
+      "title": "Ukrainekrieg: Witkoff kündigt Beteiligung Europas an Verhandlungen an",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/frankreich-zwei-gardisten-brechen-fast-zeitgleich-vor-dem-elyseepalast-zusammen-a-ae865acb-0b01-450a-a7f2-f9184b7b4f93#ref=rss",
-          "headline": "Frankreich: Zwei Gardisten brechen fast zeitgleich vor dem Élyséepalast zusammen",
+          "url": "https://www.spiegel.de/ausland/ukrainekrieg-witkoff-kuendigt-beteiligung-europas-an-verhandlungen-an-a-aa8619e7-7ea6-4b1d-bf03-3bf4cf42e0a1#ref=rss",
+          "headline": "Ukrainekrieg: Witkoff kündigt Beteiligung Europas an Verhandlungen an",
           "platform": "rss"
         }
       ],
@@ -683,141 +560,83 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-12T15:55:00+00:00",
-      "last_seen": "2026-11-12T15:55:00+00:00",
+      "first_seen": "2026-11-12T21:46:00+00:00",
+      "last_seen": "2026-11-12T21:46:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "conflict",
       "language": "de",
-      "resonance": 0.071
+      "resonance": 0.1884
     },
     {
-      "id": "17f4a52e01",
-      "title": "Berichterstattung über Pädokriminalität: Gerechtigkeit für Lisa T.",
+      "id": "3a85919529",
+      "title": "Wildes Italien düpiert Franzosen: Superstürmer Harry Kane krönt seinen historischen Abend",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "taz",
-          "url": "https://taz.de/Berichterstattung-ueber-Paedokriminalitaet/!6224383/",
-          "headline": "Berichterstattung über Pädokriminalität: Gerechtigkeit für Lisa T.",
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball/Superstuermer-Harry-Kane-kroent-seinen-historischen-Abend-id31528441.html",
+          "headline": "Wildes Italien düpiert Franzosen: Superstürmer Harry Kane krönt seinen historischen Abend",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.55,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T15:55:00+00:00",
-      "last_seen": "2026-11-12T15:55:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.071
-    },
-    {
-      "id": "d5de289ac3",
-      "title": "Bryson DeChambeau: Ein Treppenwitz der Golfgeschichte",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/sport/mehr-sport/bryson-dechambeau-und-ein-treppenwitz-der-golfgeschichte-kommentar-201677242.html",
-          "headline": "Bryson DeChambeau: Ein Treppenwitz der Golfgeschichte",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
+        "mean": 0.0,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-12T15:54:41+00:00",
-      "last_seen": "2026-11-12T15:54:41+00:00",
+      "first_seen": "2026-11-12T21:43:16+00:00",
+      "last_seen": "2026-11-12T21:43:16+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0703
+      "resonance": 0.1798
     },
     {
-      "id": "2e939cb9c9",
-      "title": "Geheimdienstreform der Bundesregierung: Lizenz zum Zugreifen",
+      "id": "a345fe8a25",
+      "title": "Energiepolitik: Bund steigt bei britischem Brennelemente-Hersteller ein",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "taz",
-          "url": "https://taz.de/Geheimdienstreform-der-Bundesregierung/!6229500/",
-          "headline": "Geheimdienstreform der Bundesregierung: Lizenz zum Zugreifen",
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/deutschland/energiepolitik-bund-steigt-bei-britischem-brennelemente-hersteller-ein/100269531.html",
+          "headline": "Energiepolitik: Bund steigt bei britischem Brennelemente-Hersteller ein",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.55,
+        "mean": 0.15,
         "spread": 0.0,
-        "left": 1,
-        "center": 0,
+        "left": 0,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-12T15:54:00+00:00",
-      "last_seen": "2026-11-12T15:54:00+00:00",
+      "first_seen": "2026-11-12T21:35:55+00:00",
+      "last_seen": "2026-11-12T21:35:55+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
       "language": "de",
-      "resonance": 0.0688
+      "resonance": 0.1568
     },
     {
-      "id": "5333ef929d",
-      "title": "Memes zu Jensen Huang: „Warum sollte ich dich täuschen?“",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/das-netz-macht-sich-mit-ki-videos-ueber-jensen-huang-lustig-201339356.html",
-          "headline": "Memes zu Jensen Huang: „Warum sollte ich dich täuschen?“",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T15:53:53+00:00",
-      "last_seen": "2026-11-12T15:53:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0686
-    },
-    {
-      "id": "bb6298788c",
-      "title": "Anpassung Gesetz: Wahlkreise für Wahlen 2028 sollen angepasst werden",
+      "id": "742d635584",
+      "title": "Notfälle: Nadel in Schokoriegel bei Martinsumzug gefunden",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/12/wahlkreise-fuer-wahlen-2028-sollen-angepasst-werden",
-          "headline": "Anpassung Gesetz: Wahlkreise für Wahlen 2028 sollen angepasst werden",
+          "url": "https://www.zeit.de/news/2026-11/12/nadel-in-schokoriegel-bei-martinsumzug-gefunden",
+          "headline": "Notfälle: Nadel in Schokoriegel bei Martinsumzug gefunden",
           "platform": "rss"
         }
       ],
@@ -828,54 +647,83 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-12T15:52:40+00:00",
-      "last_seen": "2026-11-12T15:52:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.066
-    },
-    {
-      "id": "6aba87088a",
-      "title": "NS-Raubgut: Noch ist kein einziger Restitutionsfall abgeschlossen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/feuilleton/debatten/schiedsgerichtsbarkeit-ns-raubgut-hat-bisher-nichts-vorzuweisen-201665518.html",
-          "headline": "NS-Raubgut: Noch ist kein einziger Restitutionsfall abgeschlossen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T15:52:27+00:00",
-      "last_seen": "2026-11-12T15:52:27+00:00",
+      "first_seen": "2026-11-12T21:35:03+00:00",
+      "last_seen": "2026-11-12T21:35:03+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0655
+      "resonance": 0.1541
     },
     {
-      "id": "cae8140dc3",
-      "title": "Hafenlogistik: HHLA schlägt deutlich weniger Container um",
+      "id": "6b840ad9a1",
+      "title": "Unter anderem Outlook betroffen: Störung legt Microsofts Cloud-Dienste lahm",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/technik/Stoerung-legt-Microsofts-Cloud-Dienste-lahm-id31528456.html",
+          "headline": "Unter anderem Outlook betroffen: Störung legt Microsofts Cloud-Dienste lahm",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T21:34:12+00:00",
+      "last_seen": "2026-11-12T21:34:12+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1515
+    },
+    {
+      "id": "e1699dffea",
+      "title": "Insider berichten von dritter Affäre Jensen Huangs – wieder mit einer Nvidia-Mitarbeiterin",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/wirtschaft/article6af62a7550175c81de7a4694/nvidia-insider-berichten-von-dritter-affaere-jensen-huangs-wieder-mit-einer-nvidia-mitarbeiterin.html",
+          "headline": "Insider berichten von dritter Affäre Jensen Huangs – wieder mit einer Nvidia-Mitarbeiterin",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-11-12T21:33:08+00:00",
+      "last_seen": "2026-11-12T21:33:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1482
+    },
+    {
+      "id": "28657ba009",
+      "title": "E-Mail-Probleme: Störung bei Microsofts Cloud-E-Mail",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/12/hhla-schlaegt-deutlich-weniger-container-um",
-          "headline": "Hafenlogistik: HHLA schlägt deutlich weniger Container um",
+          "url": "https://www.zeit.de/news/2026-11/12/stoerung-bei-microsofts-cloud-e-mail",
+          "headline": "E-Mail-Probleme: Störung bei Microsofts Cloud-E-Mail",
           "platform": "rss"
         }
       ],
@@ -886,25 +734,118 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-12T15:50:33+00:00",
-      "last_seen": "2026-11-12T15:50:33+00:00",
+      "first_seen": "2026-11-12T21:32:38+00:00",
+      "last_seen": "2026-11-12T21:32:38+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0615
+      "resonance": 0.1467
     },
     {
-      "id": "eab124db37",
-      "title": "Atmosphärenphysik: Polarwirbel jetzt schon zusammengebrochen: Was ist da los?",
+      "id": "8fd93e40d9",
+      "title": "Nvidia-Chef: Der tiefe Fall des Jensen Huang",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/wirtschaft/2026-11/nvidia-chef-ruecktritt-jensen-huang-affaere-spionage-wall-street",
+          "headline": "Nvidia-Chef: Der tiefe Fall des Jensen Huang",
+          "platform": "rss"
+        },
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/jensen-huang-geht-ein-schock-fuer-nvidia-aber-keine-katastrophe-201677508.html",
+          "headline": "Nvidia-Affäre: Der jähe Fall von Jensen Huang",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.05,
+        "spread": 0.25,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T17:39:58+00:00",
+      "last_seen": "2026-11-12T19:58:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1341
+    },
+    {
+      "id": "ce98c03ce1",
+      "title": "Musk-Konzern: Musk könnte offenbar noch im Dezember Fusion SpaceX und Tesla ankündigen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/technik/it-internet/musk-konzern-musk-koennte-offenbar-noch-im-dezember-fusion-spacex-und-tesla-ankuendigen/100269540.html",
+          "headline": "Musk-Konzern: Musk könnte offenbar noch im Dezember Fusion SpaceX und Tesla ankündigen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T21:27:47+00:00",
+      "last_seen": "2026-11-12T21:27:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1319
+    },
+    {
+      "id": "f017341722",
+      "title": "Nvidia-Skandal: Singapur verbietet mutmaßlicher Spionin Alice Huang die Wiedereinreise",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/2026-11/alice-huang-singapur-megaspeed-einreiseverbot-server-nvidia-jensen-huang",
+          "headline": "Nvidia-Skandal: Singapur verbietet mutmaßlicher Spionin Alice Huang die Wiedereinreise",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T21:20:34+00:00",
+      "last_seen": "2026-11-12T21:20:34+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1101
+    },
+    {
+      "id": "c2f8742a96",
+      "title": "Rechtsstreit um Investorendeal: Niederlage für Fifa vor US-Gericht",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/wissen/polarwirbel-nordpol-stratosphaere-kaelteeinbruch-atmosphaerenphysik-winter-li.3578700",
-          "headline": "Atmosphärenphysik: Polarwirbel jetzt schon zusammengebrochen: Was ist da los?",
+          "url": "https://www.sueddeutsche.de/sport/fifa-uefa-infantino-li.3579745",
+          "headline": "Rechtsstreit um Investorendeal: Niederlage für Fifa vor US-Gericht",
           "platform": "rss"
         }
       ],
@@ -915,81 +856,170 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-12T15:46:01+00:00",
-      "last_seen": "2026-11-12T15:46:01+00:00",
+      "first_seen": "2026-11-12T21:07:17+00:00",
+      "last_seen": "2026-11-12T21:07:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.071
+    },
+    {
+      "id": "bb7679392e",
+      "title": "Werke von Sexualstraftäter ausgestellt – Wiener Aktionismus Museum schließt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/kultur/werke-von-sexualstraftaeter-ausgestellt-wiener-aktionismus-museum-schliesst-a-5348639d-9deb-47bb-bfc1-96298f8d7a7e#ref=rss",
+          "headline": "Werke von Sexualstraftäter ausgestellt – Wiener Aktionismus Museum schließt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-12T21:04:00+00:00",
+      "last_seen": "2026-11-12T21:04:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.052
+      "resonance": 0.0615
     },
     {
-      "id": "3478dfb3f9",
-      "title": "Neues Medikament schlägt nicht richtig an – Rückschlag für krebskranke Diekmeier-Tochter",
+      "id": "6f3bf258b0",
+      "title": "\"Völlig am Thema vorbei\": Jürgen Klopp ärgert sich über \"Quatsch\"-Schlagzeile",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/article6af5d13dc45061d752ba886c/dennis-diekmeier-neues-medikament-schlaegt-nicht-richtig-an-rueckschlag-fuer-krebskranke-delani-15.html",
-          "headline": "Neues Medikament schlägt nicht richtig an – Rückschlag für krebskranke Diekmeier-Tochter",
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/fussball/Juergen-Klopp-aergert-sich-ueber-Quatsch-Schlagzeile-id31528252.html",
+          "headline": "\"Völlig am Thema vorbei\": Jürgen Klopp ärgert sich über \"Quatsch\"-Schlagzeile",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.3,
+        "mean": 0.0,
         "spread": 0.0,
         "left": 0,
-        "center": 0,
-        "right": 1
+        "center": 1,
+        "right": 0
       },
-      "first_seen": "2026-11-12T15:45:03+00:00",
-      "last_seen": "2026-11-12T15:45:03+00:00",
+      "first_seen": "2026-11-12T21:00:00+00:00",
+      "last_seen": "2026-11-12T21:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "health",
+      "topic": "world",
       "language": "de",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
+      "source": "0399ebd719",
+      "target": "a5cd7f7be1",
+      "weight": 0.132,
+      "type": "thematic"
+    },
+    {
+      "source": "f919a4425a",
+      "target": "a5cd7f7be1",
+      "weight": 0.088,
+      "type": "thematic"
+    },
+    {
       "source": "feba4628f0",
-      "target": "112baae3ac",
-      "weight": 0.945,
+      "target": "4f01eb756f",
+      "weight": 0.255,
       "type": "thematic"
     },
     {
-      "source": "836db0c8ac",
-      "target": "cae8140dc3",
-      "weight": 0.149,
+      "source": "feba4628f0",
+      "target": "8fd93e40d9",
+      "weight": 0.797,
       "type": "thematic"
     },
     {
-      "source": "836db0c8ac",
-      "target": "3478dfb3f9",
-      "weight": 0.034,
+      "source": "a5cd7f7be1",
+      "target": "27e055e4b4",
+      "weight": 0.331,
       "type": "thematic"
     },
     {
-      "source": "112baae3ac",
-      "target": "08b6ee0b24",
-      "weight": 0.003,
+      "source": "c973dbfa0f",
+      "target": "6f3bf258b0",
+      "weight": 0.133,
       "type": "thematic"
     },
     {
-      "source": "112baae3ac",
-      "target": "5333ef929d",
-      "weight": 0.465,
+      "source": "1bb4632bc9",
+      "target": "a9149c5354",
+      "weight": 0.183,
       "type": "thematic"
     },
     {
-      "source": "cae8140dc3",
-      "target": "3478dfb3f9",
-      "weight": 0.134,
+      "source": "1bb4632bc9",
+      "target": "e1699dffea",
+      "weight": 0.981,
+      "type": "thematic"
+    },
+    {
+      "source": "1bb4632bc9",
+      "target": "8fd93e40d9",
+      "weight": 0.109,
+      "type": "thematic"
+    },
+    {
+      "source": "a9149c5354",
+      "target": "e1699dffea",
+      "weight": 0.183,
+      "type": "thematic"
+    },
+    {
+      "source": "a9149c5354",
+      "target": "8fd93e40d9",
+      "weight": 0.057,
+      "type": "thematic"
+    },
+    {
+      "source": "a9149c5354",
+      "target": "c2f8742a96",
+      "weight": 0.138,
+      "type": "thematic"
+    },
+    {
+      "source": "ef7fbda96d",
+      "target": "3a85919529",
+      "weight": 0.024,
+      "type": "thematic"
+    },
+    {
+      "source": "6b840ad9a1",
+      "target": "28657ba009",
+      "weight": 0.836,
+      "type": "thematic"
+    },
+    {
+      "source": "e1699dffea",
+      "target": "8fd93e40d9",
+      "weight": 0.109,
+      "type": "thematic"
+    },
+    {
+      "source": "8fd93e40d9",
+      "target": "f017341722",
+      "weight": 0.082,
       "type": "thematic"
     }
   ],

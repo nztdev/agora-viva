@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-13T00:57:34.252526+00:00",
+  "generated_at": "2026-11-13T11:59:35.151275+00:00",
   "node_count": 35,
-  "edge_count": 8,
+  "edge_count": 18,
   "nodes": [
     {
-      "id": "e8ba9f5415",
-      "title": "Gemini 4 Hydrogen",
+      "id": "7acdcb7def",
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
       "signal_count": 2,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
-          "headline": "Gemini 4 Hydrogen and Orchestrator",
+          "url": "https://status.claude.com/history",
+          "headline": "Claude Is Down",
           "platform": "hackernews"
         },
         {
           "outlet": "Hacker News",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-          "headline": "Gemini 4 Hydrogen",
+          "url": "https://status.claude.com/incidents/nn11wk485zfn",
+          "headline": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
           "platform": "hackernews"
         }
       ],
@@ -28,93 +28,65 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-11-12T18:01:48+00:00",
-      "last_seen": "2026-11-12T18:52:01+00:00",
+      "first_seen": "2026-11-13T10:18:13+00:00",
+      "last_seen": "2026-11-13T10:20:09+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.6639
+      "topic": "tech",
+      "resonance": 0.8078
     },
     {
-      "id": "8f0220cb30",
-      "title": "Service degradation on Microsoft 365",
-      "signal_count": 1,
+      "id": "7154aac185",
+      "title": "What we know about the global Microsoft outage",
+      "signal_count": 3,
       "sources": [
         {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+          "headline": "What we know about the global Microsoft outage",
+          "platform": "rss"
+        },
+        {
           "outlet": "Hacker News",
-          "url": "https://status.cloud.microsoft/",
-          "headline": "Service degradation on Microsoft 365",
+          "url": "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
+          "headline": "Global Microsoft Outage",
+          "platform": "hackernews"
+        },
+        {
+          "outlet": "Hacker News",
+          "url": "https://www.bbc.com/news/live/cq5y10ge3dp3t",
+          "headline": "Microsoft says attempts to fix global outage not going 'as expected'",
           "platform": "hackernews"
         }
       ],
       "bias": {
         "mean": 0.0,
         "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T18:20:48+00:00",
-      "last_seen": "2026-11-12T18:20:48+00:00",
-      "platforms": [
-        "hackernews"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.28
-    },
-    {
-      "id": "130999c9e9",
-      "title": "Jensen Huang’s $470 Billion Affair",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Hacker News",
-          "url": "https://www.forbes.com/sites/alisondurkee/2026/11/12/jensen-huang-had-a-third-affair-with-another-nvidia-employee-report-says/",
-          "headline": "Jensen Huang Third Affair Allegations Revealed",
-          "platform": "hackernews"
-        },
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
-          "headline": "Jensen Huang was having a third affair, Reuters reports",
-          "platform": "rss"
-        },
-        {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair/",
-          "headline": "Jensen Huang’s $470 Billion Affair",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.067,
-        "spread": 0.047,
         "left": 0,
         "center": 3,
         "right": 0
       },
-      "first_seen": "2026-11-12T18:59:58+00:00",
-      "last_seen": "2026-11-12T20:36:59+00:00",
+      "first_seen": "2026-11-13T06:12:02+00:00",
+      "last_seen": "2026-11-13T10:53:40+00:00",
       "platforms": [
-        "hackernews",
-        "rss"
+        "rss",
+        "hackernews"
       ],
       "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.5453
+      "topic": "tech",
+      "resonance": 0.7909
     },
     {
-      "id": "11e320c548",
-      "title": "Rust 1.100",
+      "id": "5d2a3cf3eb",
+      "title": "Microsoft Outlook/365 still down after 12 hours",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Hacker News",
-          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-          "headline": "Rust 1.100",
+          "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
+          "headline": "Microsoft Outlook/365 still down after 12 hours",
           "platform": "hackernews"
         }
       ],
@@ -125,430 +97,58 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-12T18:39:05+00:00",
-      "last_seen": "2026-11-12T18:39:05+00:00",
+      "first_seen": "2026-11-13T05:08:23+00:00",
+      "last_seen": "2026-11-13T05:08:23+00:00",
       "platforms": [
         "hackernews"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.28
-    },
-    {
-      "id": "1e4a4dbf7c",
-      "title": "Cindy Holscher wins in Kansas, holding governor's office for Democrats",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/11/12/g-s1-151239/kansas-governor-midterms-holscher-masterson",
-          "headline": "Cindy Holscher wins in Kansas, holding governor's office for Democrats",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/politics/democrat-cindy-holscher-wins-kansas-governors-race-extending-partys-hold-governors-mansion",
-          "headline": "Democrat Cindy Holscher wins Kansas governor's race, extending party's hold on governor's mansion",
-          "platform": "rss"
-        },
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/11/12/g-s1-151187/holscher-kansas-masterson-governor-midterms",
-          "headline": "Cindy Holscher wins in Kansas, holding governor's office for Democrats",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.354,
-        "left": 0,
-        "center": 2,
-        "right": 1
-      },
-      "first_seen": "2026-11-12T22:52:49+00:00",
-      "last_seen": "2026-11-12T23:36:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.4165
-    },
-    {
-      "id": "d6b0ffaa6f",
-      "title": "US and Ukraine say Europe will join next round of talks with Russia as Putin sticks to hardline stance",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/11/13/us-and-ukraine-say-europe-will-join-next-round-of-talks-with-russia-as-putin-sticks-to-hardline-stance_6779236_4.html",
-          "headline": "US and Ukraine say Europe will join next round of talks with Russia as Putin sticks to hardline stance",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Washington Post",
-          "url": "https://www.washingtonpost.com/world/2026/11/12/after-meeting-putin-us-envoys-say-europe-join-talks-ending-ukraine-war/",
-          "headline": "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374265/putin-indicates-he-will-not-compromise-ukraine-meeting-us-envoys",
-          "headline": "Putin indicates he will not compromise on Ukraine in meeting with US envoys",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.133,
-        "spread": 0.17,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T19:05:17+00:00",
-      "last_seen": "2026-11-12T23:58:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.3823
+      "resonance": 0.244
     },
     {
-      "id": "65c13f8ec2",
-      "title": "Trump demands Japan triple American troop hosting costs to US$19 billion",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/asia/east-asia/article/3374275/trump-demands-japan-triple-american-troop-hosting-costs-us19-billion",
-          "headline": "Trump demands Japan triple American troop hosting costs to US$19 billion",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:53:52+00:00",
-      "last_seen": "2026-11-13T00:53:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.2413
-    },
-    {
-      "id": "0941c83e13",
-      "title": "Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html",
-          "headline": "Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:46:55+00:00",
-      "last_seen": "2026-11-13T00:46:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2214
-    },
-    {
-      "id": "b52c0e67df",
-      "title": "Donald Trump really wants Tim Cook to run Nvidia",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
-          "headline": "Donald Trump really wants Tim Cook to run Nvidia",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:46:07+00:00",
-      "last_seen": "2026-11-13T00:46:07+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2191
-    },
-    {
-      "id": "5ce5153638",
-      "title": "Pat Cummins press conference live updates: Australian cricket captain speaks about Usman Khawaja’s ‘sandpapergate’ claims",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/sport/live/2026/nov/13/pat-cummins-press-conference-usman-khawaja-sandpapergate-australia-cricket-captain-statement-ntwnfb",
-          "headline": "Pat Cummins press conference live updates: Australian cricket captain speaks about Usman Khawaja’s ‘sandpapergate’ claims",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:44:53+00:00",
-      "last_seen": "2026-11-13T00:44:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2156
-    },
-    {
-      "id": "3f3b260a2f",
-      "title": "Super Bowl champion Kyle Van Noy details what really happens when a player gets traded at the deadline",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/super-bowl-champion-kyle-van-noy-details-what-really-happens-when-player-gets-traded-deadline",
-          "headline": "Super Bowl champion Kyle Van Noy details what really happens when a player gets traded at the deadline",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-13T00:41:53+00:00",
-      "last_seen": "2026-11-13T00:41:53+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2071
-    },
-    {
-      "id": "1d4be37ea8",
-      "title": "Cummins hits out at Khawaja in passionate hour-long press conference",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-13/pat-cummins-says-usman-khawaja-casual-with-peoples-lives/107381770",
-          "headline": "Cummins hits out at Khawaja in passionate hour-long press conference",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:39:48+00:00",
-      "last_seen": "2026-11-13T00:39:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2013
-    },
-    {
-      "id": "873f612c1b",
-      "title": "Former F1 grid girl wants Sydney Sweeney to bring the models back to the track ahead of Las Vegas Grand Prix",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/former-f1-grid-girl-wants-sydney-sweeney-bring-models-back-track-ahead-las-vegas-grand-prix",
-          "headline": "Former F1 grid girl wants Sydney Sweeney to bring the models back to the track ahead of Las Vegas Grand Prix",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-13T00:37:38+00:00",
-      "last_seen": "2026-11-13T00:37:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1952
-    },
-    {
-      "id": "263fe4e648",
-      "title": "Israel says it will ban French leftist leader Mélenchon from entry",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/france-calls-israels-entry-ban-left-wing-leader-demagogic",
-          "headline": "France calls Israel’s entry ban on left-wing leader ‘demagogic’",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/11/12/israel-says-it-will-ban-french-leftist-leader-melenchon-from-entry_6778873_4.html",
-          "headline": "Israel says it will ban French leftist leader Mélenchon from entry",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20261112-israel-to-ban-far-left-french-politician-jean-luc-m%C3%A9lenchon-from-entry",
-          "headline": "Israel to ban far-left French politician Jean-Luc Mélenchon from entry",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.183,
-        "spread": 0.062,
-        "left": 1,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T17:43:03+00:00",
-      "last_seen": "2026-11-12T22:50:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1937
-    },
-    {
-      "id": "2bfdcce637",
-      "title": "Beau Lamarre-Condon bought sim card under pseudonym a month before alleged murders, trial hears",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/13/beau-lamarre-condon-trial-sim-card-pseudonym-ntwnfb",
-          "headline": "Beau Lamarre-Condon bought sim card under pseudonym a month before alleged murders, trial hears",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:34:23+00:00",
-      "last_seen": "2026-11-13T00:34:23+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1862
-    },
-    {
-      "id": "d3b347b364",
-      "title": "Jensen Huang Is Out. Will Nvidia’s Rivals Cash In?",
+      "id": "a6006e9db8",
+      "title": "Microsoft fails to restore services after more than 12 hours of global disruption",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "WIRED",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huang-is-out-will-nvidias-rivals-cash-in/",
-          "headline": "Jensen Huang Is Out. Will Nvidia’s Rivals Cash In?",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users?traffic_source=rss",
+          "headline": "Live: Microsoft struggles to restore services as outage hits global users",
           "platform": "rss"
         },
         {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3374268/nvidias-hunt-jensen-huangs-successor-insiders-rivals-and-trump-pick",
-          "headline": "Nvidia’s hunt for Jensen Huang’s successor: insiders, rivals and a Trump pick",
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/technology/2026-11-13/microsoft-fails-to-restore-services-after-more-than-12-hours-of-global-disruption.html",
+          "headline": "Microsoft fails to restore services after more than 12 hours of global disruption",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.1,
+        "mean": -0.2,
+        "spread": 0.0,
         "left": 0,
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-11-12T21:08:47+00:00",
-      "last_seen": "2026-11-12T22:14:41+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1848
-    },
-    {
-      "id": "fa777de433",
-      "title": "Cricket sandpaper scandal claims '100% wrong', Australia captain says",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/sport/cricket/articles/cwq6e4y9525mo?at_medium=RSS&at_campaign=rss",
-          "headline": "Cricket sandpaper scandal claims '100% wrong', Australia captain says",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:33:43+00:00",
-      "last_seen": "2026-11-13T00:33:43+00:00",
+      "first_seen": "2026-11-13T08:43:51+00:00",
+      "last_seen": "2026-11-13T11:18:01+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1843
+      "resonance": 0.1664
     },
     {
-      "id": "ac03e126da",
-      "title": "How Western media framed the Israeli attack on Nasser Hospital",
+      "id": "019b004356",
+      "title": "Yemeni forces say they repelled large-scale Houthi attack in Taiz",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/how-western-media-framed-israeli-attack-nasser-hospital",
-          "headline": "How Western media framed the Israeli attack on Nasser Hospital",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-forces-say-they-repelled-large-scale-houthi-attack-taiz",
+          "headline": "Yemeni forces say they repelled large-scale Houthi attack in Taiz",
           "platform": "rss"
         }
       ],
@@ -559,86 +159,24 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-13T00:30:54+00:00",
-      "last_seen": "2026-11-13T00:30:54+00:00",
+      "first_seen": "2026-11-13T11:59:10+00:00",
+      "last_seen": "2026-11-13T11:59:10+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
-      "resonance": 0.1766
+      "resonance": 0.1337
     },
     {
-      "id": "405bdb6328",
-      "title": "Pro-Palestinian group seeks ban on Israeli property fair in Paris",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pro-palestinian-group-seeks-ban-israeli-real-estate-fair-paris",
-          "headline": "Pro-Palestinian group seeks ban on Israeli real estate fair in Paris",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/europe/article/3374269/pro-palestinian-group-seeks-ban-israeli-property-fair-paris",
-          "headline": "Pro-Palestinian group seeks ban on Israeli property fair in Paris",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.075,
-        "spread": 0.175,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T21:26:51+00:00",
-      "last_seen": "2026-11-12T22:03:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1744
-    },
-    {
-      "id": "24fbdfafdf",
-      "title": "Why Hong Kong is losing ground in AI data centre race as Malaysia, Singapore advance",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374262/why-hong-kong-losing-ground-ai-data-centre-race-malaysia-singapore-advance",
-          "headline": "Why Hong Kong is losing ground in AI data centre race as Malaysia, Singapore advance",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:30:05+00:00",
-      "last_seen": "2026-11-13T00:30:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1743
-    },
-    {
-      "id": "e03dc27b9c",
-      "title": "Choosing faith over fear",
+      "id": "eeb768e650",
+      "title": "“There are always tourists in politics”: Akhilesh reacts to Owaisi-Aazad alliance ahead of UP polls",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/west-bengal/choosing-faith-over-fear/article71693306.ece",
-          "headline": "Choosing faith over fear",
+          "url": "https://www.thehindu.com/videos/shorts/fix-the-date-of-the-election-bjp-will-lose-that-very-day-akhilesh-yadav-asserts-india-blocs-readiness/article71697796.ece",
+          "headline": "“There are always tourists in politics”: Akhilesh reacts to Owaisi-Aazad alliance ahead of UP polls",
           "platform": "rss"
         }
       ],
@@ -649,24 +187,136 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-13T00:26:05+00:00",
-      "last_seen": "2026-11-13T00:26:05+00:00",
+      "first_seen": "2026-11-13T11:55:50+00:00",
+      "last_seen": "2026-11-13T11:55:50+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.1635
+      "resonance": 0.1288
     },
     {
-      "id": "1ec9c45409",
-      "title": "Paul Barril, French ‘Supergendarme’ Turned Mercenary, Has Died",
+      "id": "192678b6df",
+      "title": "Microsoft Outage LIVE: Microsoft extends mail timeout to 48 hours as outage hits governments, organisations worldwide",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece",
+          "headline": "Microsoft Outage LIVE: Microsoft extends mail timeout to 48 hours as outage hits governments, organisations worldwide",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:55:06+00:00",
+      "last_seen": "2026-11-13T11:55:06+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1277
+    },
+    {
+      "id": "1e765498ed",
+      "title": "Modi in Mysuru: COSMOS Planetarium a new chapter in India’s scientific journey, says PM | LIVE",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/pm-modi-karnataka-visit-namma-metro-pink-line-vande-bharat-train-inaugurations-prashanti-kutiram-celebrations-live-updates/article71696485.ece",
+          "headline": "Modi in Mysuru: COSMOS Planetarium a new chapter in India’s scientific journey, says PM | LIVE",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:53:11+00:00",
+      "last_seen": "2026-11-13T11:53:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1249
+    },
+    {
+      "id": "3c92ebaefc",
+      "title": "Trial of French policemen's beating of Black man: 'Since the assault, he has lost the ability to move forward'",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/france/article/2026/11/13/trial-of-french-policemen-s-beating-of-black-man-since-the-assault-he-has-lost-the-ability-to-move-forward_6779830_7.html",
+          "headline": "Trial of French policemen's beating of Black man: 'Since the assault, he has lost the ability to move forward'",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:52:33+00:00",
+      "last_seen": "2026-11-13T11:52:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1239
+    },
+    {
+      "id": "94c4d64379",
+      "title": "Specialized’s Tarmac SL9 S-Level is built to wreck your Zone 2 ride",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/",
+          "headline": "Specialized’s Tarmac SL9 S-Level is built to wreck your Zone 2 ride",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:50:38+00:00",
+      "last_seen": "2026-11-13T11:50:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1211
+    },
+    {
+      "id": "26a3afb587",
+      "title": "Europe Haggles Over Who Will Represent It in Talks With Russia",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/12/world/europe/paul-barril-dead.html",
-          "headline": "Paul Barril, French ‘Supergendarme’ Turned Mercenary, Has Died",
+          "url": "https://www.nytimes.com/2026/11/13/world/europe/europe-ukraine-talks-russia.html",
+          "headline": "Europe Haggles Over Who Will Represent It in Talks With Russia",
           "platform": "rss"
         }
       ],
@@ -677,24 +327,288 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-13T00:23:46+00:00",
-      "last_seen": "2026-11-13T00:23:46+00:00",
+      "first_seen": "2026-11-13T11:49:07+00:00",
+      "last_seen": "2026-11-13T11:49:07+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1572
+      "resonance": 0.1189
     },
     {
-      "id": "a13989257c",
-      "title": "Ex-NBA player Gilbert Arenas responds to Steph Curry, stands by calling wife Ayesha a family 'blemish'",
+      "id": "c32d1a9a2a",
+      "title": "Israeli police deploy rooftop snipers in Bedouin city of Rahat",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-police-deploy-rooftop-snipers-bedouin-city-rahat",
+          "headline": "Israeli police deploy rooftop snipers in Bedouin city of Rahat",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:46:09+00:00",
+      "last_seen": "2026-11-13T11:46:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "society",
+      "resonance": 0.1146
+    },
+    {
+      "id": "ef366098dc",
+      "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+          "headline": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:45:00+00:00",
+      "last_seen": "2026-11-13T11:45:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.113
+    },
+    {
+      "id": "bf2f78ee74",
+      "title": "A toy, an energy drink or a hair oil: the unusual places where you can encounter a severe allergic reaction",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/health/2026-11-13/a-toy-an-energy-drink-or-a-hair-oil-the-unusual-places-where-you-can-encounter-a-severe-allergic-reaction.html",
+          "headline": "A toy, an energy drink or a hair oil: the unusual places where you can encounter a severe allergic reaction",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:44:33+00:00",
+      "last_seen": "2026-11-13T11:44:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1123
+    },
+    {
+      "id": "9783c7df6d",
+      "title": "Beijing clarifies offshore trust tax rules, exempting Hong Kong MPF accounts",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/business/china-business/article/3374374/beijing-clarifies-offshore-trust-tax-rules-exempting-hong-kong-mpf-accounts",
+          "headline": "Beijing clarifies offshore trust tax rules, exempting Hong Kong MPF accounts",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:40:40+00:00",
+      "last_seen": "2026-11-13T11:40:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1067
+    },
+    {
+      "id": "5ff72ddd13",
+      "title": "Rosalía scoops historic third best album award at Latin Grammys",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cr3eg97eqde1o?at_medium=RSS&at_campaign=rss",
+          "headline": "Rosalía scoops historic third best album award at Latin Grammys",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:38:54+00:00",
+      "last_seen": "2026-11-13T11:38:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1042
+    },
+    {
+      "id": "98b137887f",
+      "title": "Norway's top court rules oil licenses invalid in landmark ruling",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/13/norway-s-top-court-rules-oil-licences-invalid-in-landmark-ruling_6779764_4.html",
+          "headline": "Norway's top court rules oil licenses invalid in landmark ruling",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:36:32+00:00",
+      "last_seen": "2026-11-13T11:36:32+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1009
+    },
+    {
+      "id": "a8da54e490",
+      "title": "Congress demands answers over Nvidia espionage allegations and Jensen Huang scandal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "El País (EN)",
+          "url": "https://english.elpais.com/usa/2026-11-13/congress-demands-answers-over-nvidia-espionage-allegations-and-jensen-huang-scandal.html",
+          "headline": "Congress demands answers over Nvidia espionage allegations and Jensen Huang scandal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:34:07+00:00",
+      "last_seen": "2026-11-13T11:34:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0975
+    },
+    {
+      "id": "1e9d32f976",
+      "title": "US, Ukraine say Europe to join peace talks as Putin sticks to hardline stance",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20261113-us-ukraine-say-europe-to-join-peace-talks-as-putin-sticks-to-hardline-stance",
+          "headline": "US, Ukraine say Europe to join peace talks as Putin sticks to hardline stance",
+          "platform": "rss"
+        },
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20261113-big-development-in-peace-talks-as-ukraine-says-europe-to-join-russia-negotiations",
+          "headline": "'Big development' in peace talks as Ukraine says Europe to join Russia negotiations",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Euronews",
+          "url": "https://www.euronews.com/2026/11/13/europe-today-us-envoys-meet-putin-as-europe-pushes-to-join-ukraine-talks",
+          "headline": "Europe Today: US envoys meet Putin as Europe pushes to join Ukraine talks",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T07:02:00+00:00",
+      "last_seen": "2026-11-13T10:59:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0972
+    },
+    {
+      "id": "834c33a79c",
+      "title": "What’s behind Australia’s surge in teen extremism?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/13/australia-surge-in-teen-extremism-ntwnfb",
+          "headline": "What’s behind Australia’s surge in teen extremism?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:33:57+00:00",
+      "last_seen": "2026-11-13T11:33:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0972
+    },
+    {
+      "id": "19510b0edb",
+      "title": "Which NFL teams can actually win the Super Bowl? Ranking all 32 at the season’s halfway point",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/ex-nba-player-gilbert-arenas-responds-steph-curry-stands-calling-wife-ayesha-family-blemish",
-          "headline": "Ex-NBA player Gilbert Arenas responds to Steph Curry, stands by calling wife Ayesha a family 'blemish'",
+          "url": "https://www.foxnews.com/outkick-sports/nfl-teams-win-super-bowl-ranking-32-seasons-halfway-point",
+          "headline": "Which NFL teams can actually win the Super Bowl? Ranking all 32 at the season’s halfway point",
           "platform": "rss"
         }
       ],
@@ -705,52 +619,24 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-11-13T00:21:28+00:00",
-      "last_seen": "2026-11-13T00:21:28+00:00",
+      "first_seen": "2026-11-13T11:33:18+00:00",
+      "last_seen": "2026-11-13T11:33:18+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
-      "resonance": 0.151
+      "resonance": 0.0963
     },
     {
-      "id": "1d1aa28cdf",
-      "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
+      "id": "71fbd6d710",
+      "title": "Even Black Friday Will Be More Expensive Than Usual",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
-          "headline": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:20:24+00:00",
-      "last_seen": "2026-11-13T00:20:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1481
-    },
-    {
-      "id": "9331c288df",
-      "title": "Xbox announces Wolfenstein 3",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
-          "headline": "Xbox announces Wolfenstein 3",
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/even-black-friday-2026-will-be-more-expensive-than-usual/",
+          "headline": "Even Black Friday Will Be More Expensive Than Usual",
           "platform": "rss"
         }
       ],
@@ -761,282 +647,24 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-13T00:11:44+00:00",
-      "last_seen": "2026-11-13T00:11:44+00:00",
+      "first_seen": "2026-11-13T11:30:00+00:00",
+      "last_seen": "2026-11-13T11:30:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.1252
+      "resonance": 0.0917
     },
     {
-      "id": "ef0b2d2f80",
-      "title": "The Jensen Huang Scandal Should Change Everything",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "The Atlantic",
-          "url": "https://www.theatlantic.com/international/2026/11/nvidia-affair-chips-china/689417/?utm_source=feed",
-          "headline": "The Jensen Huang Scandal Should Change Everything",
-          "platform": "rss"
-        },
-        {
-          "outlet": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-          "headline": "The unfolding Jensen Huang scandal: a timeline",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.175,
-        "spread": 0.075,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T21:35:00+00:00",
-      "last_seen": "2026-11-12T21:35:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1035
-    },
-    {
-      "id": "89613b2186",
-      "title": "Advocates warn FIFO standards are slipping on mine sites",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-13/fifo-bare-minimum-standards-not-being-enforced/107341422",
-          "headline": "Advocates warn FIFO standards are slipping on mine sites",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:02:12+00:00",
-      "last_seen": "2026-11-13T00:02:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1005
-    },
-    {
-      "id": "f79e393625",
-      "title": "Race to Australia's first green steel entering final stages",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-13/australian-green-steel-race/107378754",
-          "headline": "Race to Australia's first green steel entering final stages",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:02:01+00:00",
-      "last_seen": "2026-11-13T00:02:01+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1
-    },
-    {
-      "id": "987106c500",
-      "title": "FIFA loses bid to block UEFA evidence gathering against Infantino",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/fifa-loses-bid-to-block-uefa-evidence-gathering-against-infantino/a-79935807?maca=en-rss-en-all-1573-rdf",
-          "headline": "FIFA loses bid to block UEFA evidence gathering against Infantino",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:02:00+00:00",
-      "last_seen": "2026-11-13T00:02:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1
-    },
-    {
-      "id": "1393335832",
-      "title": "Iran war live: Trump says Gulf allies urged pause in Iran strikes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
-          "headline": "Iran war live: Trump says Gulf allies urged pause in Iran strikes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:00:26+00:00",
-      "last_seen": "2026-11-13T00:00:26+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.096
-    },
-    {
-      "id": "86292f7557",
-      "title": "Is Indonesia’s new aircraft carrier worth its US$98,700 a day fuel cost?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/week-asia/economics/article/3374221/indonesias-new-aircraft-carrier-worth-its-us98700-day-fuel-cost",
-          "headline": "Is Indonesia’s new aircraft carrier worth its US$98,700 a day fuel cost?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-13T00:00:19+00:00",
-      "last_seen": "2026-11-13T00:00:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.0957
-    },
-    {
-      "id": "d51d43269a",
-      "title": "Tourists Brave a Muddy Jungle Trek to See a Famed World War II Wreck",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/12/world/asia/yamamoto-pearl-harbor-plane-bougainville-tourism.html",
-          "headline": "Tourists Brave a Muddy Jungle Trek to See a Famed World War II Wreck",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T23:58:37+00:00",
-      "last_seen": "2026-11-12T23:58:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.0913
-    },
-    {
-      "id": "0ef74a53e1",
-      "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
-          "headline": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T23:52:38+00:00",
-      "last_seen": "2026-11-12T23:52:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.0762
-    },
-    {
-      "id": "5be121f29f",
-      "title": "Whoop launched a social network where every user has a ‘verified heartbeat’",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
-          "headline": "Whoop launched a social network where every user has a ‘verified heartbeat’",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-12T23:43:22+00:00",
-      "last_seen": "2026-11-12T23:43:22+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.0532
-    },
-    {
-      "id": "0863e91d03",
-      "title": "UN Security Council renews Yemen sanctions",
+      "id": "4d3c95dd87",
+      "title": "French government condemns Israel entry ban on Jean-Luc Melenchon",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/security-council-renews-yemen-sanctio",
-          "headline": "UN Security Council renews Yemen sanctions",
+          "url": "https://www.middleeasteye.net/news/french-government-condemns-israel-entry-ban-jean-luc-melenchon",
+          "headline": "French government condemns Israel entry ban on Jean-Luc Melenchon",
           "platform": "rss"
         }
       ],
@@ -1047,63 +675,483 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-12T23:42:03+00:00",
-      "last_seen": "2026-11-12T23:42:03+00:00",
+      "first_seen": "2026-11-13T11:25:39+00:00",
+      "last_seen": "2026-11-13T11:25:39+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
+      "resonance": 0.0857
+    },
+    {
+      "id": "0d1e26717f",
+      "title": "Spectacular try helps England to Wheelchair Rugby League World Cup glory",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-13/england-beats-france-in-wheelchair-rugby-league-final/107384352",
+          "headline": "Spectacular try helps England to Wheelchair Rugby League World Cup glory",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:21:43+00:00",
+      "last_seen": "2026-11-13T11:21:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "resonance": 0.0803
+    },
+    {
+      "id": "f64db1ea03",
+      "title": "US Senate asks Huang, Lutnick to testify on Nvidia",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/11/13/nvidias-huang-lutnick-summoned-to-testify-to-us-senate?traffic_source=rss",
+          "headline": "US Senate summons Nvidia’s Huang, Lutnick to testify",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/us-senate-asks-huang-lutnick-to-testify-on-nvidia/a-79936707?maca=en-rss-en-all-1573-rdf",
+          "headline": "US Senate asks Huang, Lutnick to testify on Nvidia",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.05,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T08:02:00+00:00",
+      "last_seen": "2026-11-13T08:49:59+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0774
+    },
+    {
+      "id": "d0a075219a",
+      "title": "‘A Servant Class, Not a Working Class’: Stephen Miller’s Biographer on What Comes Next",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "WIRED",
+          "url": "https://www.wired.com/story/a-servant-class-not-a-working-class-stephen-millers-biographer-on-what-comes-next/",
+          "headline": "‘A Servant Class, Not a Working Class’: Stephen Miller’s Biographer on What Comes Next",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:15:00+00:00",
+      "last_seen": "2026-11-13T11:15:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0712
+    },
+    {
+      "id": "d0df2a2592",
+      "title": "Former NSW Liberal MP Rory Amon found guilty of raping 13-year-old boy",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/13/former-nsw-liberal-mp-rory-amon-found-guilty-of-raping-13-year-old-boy",
+          "headline": "Former NSW Liberal MP Rory Amon found guilty of raping 13-year-old boy",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-13/ex-nsw-liberal-mp-rory-amon-guilty-sexual-assault-13yo-boy/107384336",
+          "headline": "Ex-NSW Liberal MP guilty of raping 13yo boy",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T06:15:59+00:00",
+      "last_seen": "2026-11-13T10:45:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0686
+    },
+    {
+      "id": "c5a7f7a7a7",
+      "title": "Microsoft rules out 'malicious activity' as cause for global outage",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/technology/20261113-major-microsoft-outlook-outage-disrupts-services-in-74-countries",
+          "headline": "🔴 Live: Microsoft 'not aware of any malicious activity' behind global Outlook outage",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/microsoft-rules-out-malicious-activity-as-cause-for-global-outage/a-79935611?maca=en-rss-en-all-1573-rdf",
+          "headline": "Microsoft rules out 'malicious activity' as cause for global outage",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T07:46:00+00:00",
+      "last_seen": "2026-11-13T09:18:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0649
+    },
+    {
+      "id": "d8c5cdc47c",
+      "title": "Sen Bernie Sanders supports Chris Van Hollen's bid to challenge Schumer for Senate Democratic leader post",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/sen-bernie-sanders-supports-chris-van-hollen-bid-challenge-schumer-senate-democratic-leader-post",
+          "headline": "Sen Bernie Sanders supports Chris Van Hollen's bid to challenge Schumer for Senate Democratic leader post",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-11-13T11:06:30+00:00",
+      "last_seen": "2026-11-13T11:06:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.0599
+    },
+    {
+      "id": "4266c1e736",
+      "title": "Malaysia turns to Turkey for warship missiles after Norway’s export freeze",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/week-asia/politics/article/3374373/malaysia-turns-turkey-warship-missiles-after-norways-export-freeze",
+          "headline": "Malaysia turns to Turkey for warship missiles after Norway’s export freeze",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:06:13+00:00",
+      "last_seen": "2026-11-13T11:06:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.0595
+    },
+    {
+      "id": "39aee8e3ed",
+      "title": "Germany's Nmecha won't repeat controversial goal celebration",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/germany-s-nmecha-won-t-repeat-controversial-goal-celebration/a-79937994?maca=en-rss-en-all-1573-rdf",
+          "headline": "Germany's Nmecha won't repeat controversial goal celebration",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:04:00+00:00",
+      "last_seen": "2026-11-13T11:04:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0566
+    },
+    {
+      "id": "051affcb46",
+      "title": "Fox News Digital's News Quiz: November 13, 2026",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/lifestyle/fox-news-digital-news-quiz-november-13-2026",
+          "headline": "Fox News Digital's News Quiz: November 13, 2026",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-11-13T11:00:43+00:00",
+      "last_seen": "2026-11-13T11:00:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0523
+    },
+    {
+      "id": "1968e37593",
+      "title": "Jensen Huang’s exit tests Nvidia’s supply chain clout, ability to bankroll AI buildout",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/tech/big-tech/article/3374357/jensen-huangs-exit-tests-nvidias-supply-chain-clout-ability-bankroll-ai-buildout",
+          "headline": "Jensen Huang’s exit tests Nvidia’s supply chain clout, ability to bankroll AI buildout",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:00:10+00:00",
+      "last_seen": "2026-11-13T11:00:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0516
+    },
+    {
+      "id": "98564b607c",
+      "title": "Kratom and 7-OH can feel like 'a miracle.' They can also be addictive",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "NPR News",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6039203/kratom-7-oh-dea-addiction-opioid",
+          "headline": "Kratom and 7-OH can feel like 'a miracle.' They can also be addictive",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T11:00:00+00:00",
+      "last_seen": "2026-11-13T11:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0514
+    },
+    {
+      "id": "c6af538bcb",
+      "title": "Microsoft scrambles to fix global outage affecting Teams and Outlook",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+          "headline": "Microsoft scrambles to fix global outage affecting Teams and Outlook",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outlook-outage-australians-hit/107381378",
+          "headline": "How the Microsoft outage is affecting Australia",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.1,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-13T06:41:57+00:00",
+      "last_seen": "2026-11-13T10:15:13+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "130999c9e9",
-      "target": "d3b347b364",
-      "weight": 0.68,
+      "source": "7154aac185",
+      "target": "a6006e9db8",
+      "weight": 0.462,
       "type": "thematic"
     },
     {
-      "source": "130999c9e9",
-      "target": "ef0b2d2f80",
-      "weight": 0.662,
+      "source": "7154aac185",
+      "target": "192678b6df",
+      "weight": 0.793,
       "type": "thematic"
     },
     {
-      "source": "11e320c548",
-      "target": "fa777de433",
-      "weight": 0.318,
+      "source": "7154aac185",
+      "target": "c6af538bcb",
+      "weight": 0.937,
       "type": "thematic"
     },
     {
-      "source": "5ce5153638",
-      "target": "1d4be37ea8",
-      "weight": 0.711,
+      "source": "5d2a3cf3eb",
+      "target": "a6006e9db8",
+      "weight": 0.263,
       "type": "thematic"
     },
     {
-      "source": "5ce5153638",
-      "target": "fa777de433",
-      "weight": 0.435,
+      "source": "5d2a3cf3eb",
+      "target": "192678b6df",
+      "weight": 0.221,
       "type": "thematic"
     },
     {
-      "source": "d3b347b364",
-      "target": "ef0b2d2f80",
-      "weight": 0.68,
+      "source": "5d2a3cf3eb",
+      "target": "c6af538bcb",
+      "weight": 0.312,
       "type": "thematic"
     },
     {
-      "source": "fa777de433",
-      "target": "ef0b2d2f80",
-      "weight": 0.039,
+      "source": "a6006e9db8",
+      "target": "192678b6df",
+      "weight": 0.169,
       "type": "thematic"
     },
     {
-      "source": "0ef74a53e1",
-      "target": "0863e91d03",
-      "weight": 0.421,
+      "source": "a6006e9db8",
+      "target": "c5a7f7a7a7",
+      "weight": 0.177,
+      "type": "thematic"
+    },
+    {
+      "source": "a6006e9db8",
+      "target": "c6af538bcb",
+      "weight": 0.125,
+      "type": "thematic"
+    },
+    {
+      "source": "192678b6df",
+      "target": "c5a7f7a7a7",
+      "weight": 0.41,
+      "type": "thematic"
+    },
+    {
+      "source": "192678b6df",
+      "target": "c6af538bcb",
+      "weight": 0.34,
+      "type": "thematic"
+    },
+    {
+      "source": "26a3afb587",
+      "target": "1e9d32f976",
+      "weight": 0.411,
+      "type": "thematic"
+    },
+    {
+      "source": "bf2f78ee74",
+      "target": "98564b607c",
+      "weight": 0.013,
+      "type": "thematic"
+    },
+    {
+      "source": "a8da54e490",
+      "target": "f64db1ea03",
+      "weight": 0.244,
+      "type": "thematic"
+    },
+    {
+      "source": "a8da54e490",
+      "target": "1968e37593",
+      "weight": 0.354,
+      "type": "thematic"
+    },
+    {
+      "source": "19510b0edb",
+      "target": "98564b607c",
+      "weight": 0.037,
+      "type": "thematic"
+    },
+    {
+      "source": "f64db1ea03",
+      "target": "1968e37593",
+      "weight": 0.174,
+      "type": "thematic"
+    },
+    {
+      "source": "c5a7f7a7a7",
+      "target": "c6af538bcb",
+      "weight": 0.512,
       "type": "thematic"
     }
   ],
@@ -1130,7 +1178,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 5,
+      "count": 6,
       "error": null
     },
     "The Economist": {
@@ -1150,7 +1198,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 14,
+      "count": 12,
       "error": null
     },
     "The Atlantic": {

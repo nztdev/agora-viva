@@ -1,666 +1,79 @@
 {
-  "generated_at": "2026-11-15T05:44:58.164505+00:00",
+  "generated_at": "2026-11-15T15:30:02.739751+00:00",
   "node_count": 35,
-  "edge_count": 3,
+  "edge_count": 2,
   "nodes": [
     {
-      "id": "f309005de4",
-      "title": "SpaceX successfully catches Starship and makes history",
-      "signal_count": 2,
+      "id": "14049a64ca",
+      "title": "All AI-generated code should be Open Source",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
-          "headline": "SpaceX successfully catches Starship and makes history",
-          "platform": "rss"
-        },
-        {
           "outlet": "Hacker News",
-          "url": "https://www.spacex.com/launches/starship-flight-15",
-          "headline": "SpaceX catches the Starship to end Flight 15",
+          "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+          "headline": "All AI-generated code should be Open Source",
           "platform": "hackernews"
         }
       ],
       "bias": {
-        "mean": -0.075,
-        "spread": 0.075,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-11-14T21:22:24+00:00",
-      "last_seen": "2026-11-14T21:42:41+00:00",
-      "platforms": [
-        "hackernews",
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.657
-    },
-    {
-      "id": "86da497085",
-      "title": "Netanyahu renews call for Israeli unity government as Eisenkot dismisses 'tricks'",
-      "signal_count": 5,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/benjamin-netanyahu-calls-for-israeli-unity-government-eisenkot-dismisses-tricks/article71704005.ece",
-          "headline": "Benjamin Netanyahu calls for Israeli unity government, Eisenkot dismisses ‘tricks’",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/netanyahu-sends-plea-to-eisenkot-for-unity-government?traffic_source=rss",
-          "headline": "Netanyahu sends plea to Eisenkot for unity government",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eisenkot-calls-netanyahus-unity-government-call-yet-another-spin-move",
-          "headline": "Eisenkot calls Netanyahu's unity government call 'yet another spin move'",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security?traffic_source=rss",
-          "headline": "Netanyahu says only a unity government can guarantee Israel’s security",
-          "platform": "rss"
-        },
-        {
-          "outlet": "France 24",
-          "url": "https://www.france24.com/en/middle-east/20261114-netanyahu-renews-call-for-israeli-government-unity-as-eisenkot-dismisses-tricks",
-          "headline": "Netanyahu renews call for Israeli unity government as Eisenkot dismisses 'tricks'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.17,
-        "spread": 0.06,
-        "left": 1,
-        "center": 4,
-        "right": 0
-      },
-      "first_seen": "2026-11-14T20:35:22+00:00",
-      "last_seen": "2026-11-15T05:21:13+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.625
-    },
-    {
-      "id": "7822bdb25b",
-      "title": "Judge temporarily blocks Trump from closing Washington DC golf course for renovation",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "NPR News",
-          "url": "https://www.npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks",
-          "headline": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
-          "platform": "rss"
-        },
-        {
-          "outlet": "BBC World Service",
-          "url": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
-          "headline": "Judge temporarily blocks Trump from closing Washington DC golf course for renovation",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/federal-judge-blocks-trumps-renovations-dc-golf-course-hours-before-closure",
-          "headline": "Federal judge blocks Trump's renovations of DC golf course hours before its closure",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.324,
-        "left": 0,
-        "center": 2,
-        "right": 1
-      },
-      "first_seen": "2026-11-15T03:00:05+00:00",
-      "last_seen": "2026-11-15T04:28:45+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "resonance": 0.6241
-    },
-    {
-      "id": "208ab95b65",
-      "title": "Bahrain’s Interior Ministry issues alerts of potential threats",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/bahrain-interior-ministry-potential-threats-us-navys-fifth-fleet-attack-on-november-15/article71704092.ece",
-          "headline": "Bahrain’s Interior Ministry issues alerts of potential threats",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bahrains-ministry-interior-issues-second-alert-potential-danger",
-          "headline": "Bahrain's ministry of interior issues second alert of potential danger",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bahrains-ministry-interior-issues-hazard-alert-urges-citizens-stay-calm",
-          "headline": "Bahrain's ministry of interior issues 'hazard' alert, urges citizens to stay calm",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.071,
-        "left": 2,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T02:07:28+00:00",
-      "last_seen": "2026-11-15T05:33:14+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.3934
-    },
-    {
-      "id": "f9936997a6",
-      "title": "How a Delhi extortion plot led police to Mad Sandhu murder accused who was planning attack on Amitabh Bachchan",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/shooter-wanted-in-murder-of-influencer-mad-sandhu-among-2-arrested-were-planning-attack-on-amitabh-bachchan/article71704007.ece",
-          "headline": "How a Delhi extortion plot led police to Mad Sandhu murder accused who was planning attack on Amitabh Bachchan",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
+        "mean": 0.0,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-15T05:37:58+00:00",
-      "last_seen": "2026-11-15T05:37:58+00:00",
+      "first_seen": "2026-11-15T14:46:58+00:00",
+      "last_seen": "2026-11-15T14:46:58+00:00",
       "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.28
-    },
-    {
-      "id": "fd36f25d02",
-      "title": "Could universal basic income be part of the solution in an AI economy?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/could-universal-basic-income-be-part-of-the-solution-in-an-ai-economy/a-79941597?maca=en-rss-en-all-1573-rdf",
-          "headline": "Could universal basic income be part of the solution in an AI economy?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:36:00+00:00",
-      "last_seen": "2026-11-15T05:36:00+00:00",
-      "platforms": [
-        "rss"
+        "hackernews"
       ],
       "geo_regions": [],
       "topic": "tech",
       "resonance": 0.28
     },
     {
-      "id": "16768e8581",
-      "title": "Air quality very poor in city; IIT Delhi records highest AQI of 428",
+      "id": "08916a156e",
+      "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/cities/Delhi/air-quality-very-poor-in-city-iit-delhi-records-highest-aqi-of-428/article71704084.ece",
-          "headline": "Air quality very poor in city; IIT Delhi records highest AQI of 428",
-          "platform": "rss"
+          "outlet": "Hacker News",
+          "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+          "headline": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
+          "platform": "hackernews"
         }
       ],
       "bias": {
-        "mean": -0.1,
+        "mean": 0.0,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-15T05:34:27+00:00",
-      "last_seen": "2026-11-15T05:34:27+00:00",
+      "first_seen": "2026-11-15T13:15:22+00:00",
+      "last_seen": "2026-11-15T13:15:22+00:00",
       "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2789
-    },
-    {
-      "id": "fe463dec8e",
-      "title": "Depression to turn severe cyclonic storm over Bay of Bengal by November 17",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/depression-to-turn-severe-cyclonic-storm-over-bay-of-bengal-by-november-17/article71704137.ece",
-          "headline": "Depression to turn severe cyclonic storm over Bay of Bengal by November 17",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:33:24+00:00",
-      "last_seen": "2026-11-15T05:33:24+00:00",
-      "platforms": [
-        "rss"
+        "hackernews"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.276
+      "resonance": 0.28
     },
     {
-      "id": "bc215392d2",
-      "title": "Federal Court rules Lorella Springs Wilderness Park tourism permit invalid",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-15/lorella-springs-wilderness-park-tourism-permit-invalid/107385958",
-          "headline": "Federal Court rules Lorella Springs Wilderness Park tourism permit invalid",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:29:40+00:00",
-      "last_seen": "2026-11-15T05:29:40+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.266
-    },
-    {
-      "id": "0cdb138e30",
-      "title": "Australia bowls first as rising star Beardman is rested following stunning debut",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-15/australia-vs-england-second-odi-at-adelaide-oval/107387540",
-          "headline": "Australia bowls first as rising star Beardman is rested following stunning debut",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:28:36+00:00",
-      "last_seen": "2026-11-15T05:28:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2632
-    },
-    {
-      "id": "1c0e1121b4",
-      "title": "Hong Kong must expand trade, not wait for ‘luck’ as AI exports could slow: commerce chief",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374472/hong-kong-must-expand-trade-not-wait-luck-ai-exports-could-slow-commerce-chief",
-          "headline": "Hong Kong must expand trade, not wait for ‘luck’ as AI exports could slow: commerce chief",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:20:11+00:00",
-      "last_seen": "2026-11-15T05:20:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.241
-    },
-    {
-      "id": "4ecb652009",
-      "title": "UK papers: 'I was only 16' says alleged Brand victim, as disgraced comedian 'moved to soft jail'",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ckq6elm8lj2zo?at_medium=RSS&at_campaign=rss",
-          "headline": "UK papers: 'I was only 16' says alleged Brand victim, as disgraced comedian 'moved to soft jail'",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:16:44+00:00",
-      "last_seen": "2026-11-15T05:16:44+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.232
-    },
-    {
-      "id": "17c00941d5",
-      "title": "Mia Latter alleges Russell Brand raped her as a 16-year-old",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-15/russell-brand-alleged-victim-speaks-out/107387312",
-          "headline": "Mia Latter alleges Russell Brand raped her as a 16-year-old",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:08:06+00:00",
-      "last_seen": "2026-11-15T05:08:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2099
-    },
-    {
-      "id": "9c9031c15d",
-      "title": "US radar facility at Bahrain base attacked with six drones, IRGC claims",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-radar-facility-bahrain-base-attacked-six-drones-irgc-claims",
-          "headline": "US radar facility at Bahrain base attacked with six drones, IRGC claims",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.25,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:05:33+00:00",
-      "last_seen": "2026-11-15T05:05:33+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.2034
-    },
-    {
-      "id": "f7aeacdf02",
-      "title": "Francophone summit opens in Cambodia amid Rwanda-DR Congo rift",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/11/15/francophone-summit-opens-in-cambodia-amid-rwanda-dr-congo-rift?traffic_source=rss",
-          "headline": "Francophone summit opens in Cambodia amid Rwanda-DR Congo rift",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:05:02+00:00",
-      "last_seen": "2026-11-15T05:05:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.2021
-    },
-    {
-      "id": "8077c4aabc",
-      "title": "Is Italy the Model for Europe’s Future?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/15/world/europe/italy-italianization-europe-horowitz.html",
-          "headline": "Is Italy the Model for Europe’s Future?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:01:24+00:00",
-      "last_seen": "2026-11-15T05:01:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.193
-    },
-    {
-      "id": "0152576891",
-      "title": "In Europe, an Emboldened Iran Contributes to a Sense of Anxiety",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/15/world/europe/in-europe-an-emboldened-iran-contributes-to-a-sense-of-anxiety.html",
-          "headline": "In Europe, an Emboldened Iran Contributes to a Sense of Anxiety",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:01:19+00:00",
-      "last_seen": "2026-11-15T05:01:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1928
-    },
-    {
-      "id": "1824e5f266",
-      "title": "In Banff, a Grizzly Bear Known as ‘the Boss’ Rules the National Park",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "New York Times",
-          "url": "https://www.nytimes.com/2026/11/15/world/canada/grizzly-bear-boss-banff-national-park-alberta.html",
-          "headline": "In Banff, a Grizzly Bear Known as ‘the Boss’ Rules the National Park",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:01:10+00:00",
-      "last_seen": "2026-11-15T05:01:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1924
-    },
-    {
-      "id": "7f7bafb7ae",
-      "title": "Malaysian plan to let refugees work spurs advocates’ call for safeguards",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/week-asia/economics/article/3374464/malaysian-plan-let-refugees-work-spurs-advocates-call-safeguards",
-          "headline": "Malaysian plan to let refugees work spurs advocates’ call for safeguards",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:00:09+00:00",
-      "last_seen": "2026-11-15T05:00:09+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1899
-    },
-    {
-      "id": "d5f742d92b",
-      "title": "No actors, no crew, no ticket sales: ‘So obviously AI’ film flops at China’s box office",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/economy/china-economy/article/3374358/no-actors-no-crew-no-ticket-sales-so-obviously-ai-film-flops-chinas-box-office",
-          "headline": "No actors, no crew, no ticket sales: ‘So obviously AI’ film flops at China’s box office",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.1,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T05:00:06+00:00",
-      "last_seen": "2026-11-15T05:00:06+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "tech",
-      "resonance": 0.1897
-    },
-    {
-      "id": "ed708305a9",
-      "title": "Arch Manning turns Death Valley into LSU’s funeral as Texas buries Lane Kiffin’s CFP hopes",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/arch-manning-overcomes-sloppy-performance-clutch-td-pass-lift-texas-lsu-crucial-matchup",
-          "headline": "Arch Manning turns Death Valley into LSU’s funeral as Texas buries Lane Kiffin’s CFP hopes",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-15T04:57:46+00:00",
-      "last_seen": "2026-11-15T04:57:46+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1839
-    },
-    {
-      "id": "f578c17c21",
-      "title": "Israeli military says it struck senior armed Hamas commander",
+      "id": "e58c1af3ec",
+      "title": "Record immigration day in El Hierro as 1,488 arrive in Canary Islands",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/israeli-military-says-it-struck-senior-armed-hamas-commander/article71704070.ece",
-          "headline": "Israeli military says it struck senior armed Hamas commander",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/11/15/record-number-of-migrants-arrive-in-spains-canary-islands?traffic_source=rss",
+          "headline": "Record number of migrants arrive in Spain’s Canary Islands",
           "platform": "rss"
         },
         {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
-          "headline": "Israeli air strike kills senior Hamas commander in Gaza",
+          "outlet": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/record-immigration-day-in-el-hierro-as-1488-arrive-in-canary-islands",
+          "headline": "Record immigration day in El Hierro as 1,488 arrive in Canary Islands",
           "platform": "rss"
         }
       ],
@@ -671,198 +84,58 @@
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-11-15T01:00:42+00:00",
-      "last_seen": "2026-11-15T04:02:00+00:00",
+      "first_seen": "2026-11-15T13:38:03+00:00",
+      "last_seen": "2026-11-15T15:16:29+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1823
+      "topic": "tech",
+      "resonance": 0.3219
     },
     {
-      "id": "1ff46a673b",
-      "title": "Masked dirt bike riders swarm SUV in brazen NYC street attack, sparking police crackdown",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/us/masked-dirt-bike-riders-swarm-suv-brazen-nyc-street-attack-sparking-police-crackdown",
-          "headline": "Masked dirt bike riders swarm SUV in brazen NYC street attack, sparking police crackdown",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-15T04:55:51+00:00",
-      "last_seen": "2026-11-15T04:55:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "resonance": 0.1792
-    },
-    {
-      "id": "ca2a70c24d",
-      "title": "Preserve legacy, build prosperous Jharkhand: CM on State foundation day, Birsa Munda birth anniversary",
+      "id": "e2d5b63a38",
+      "title": "Iran targets US military base in Bahrain with drone attack",
       "signal_count": 2,
       "sources": [
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/jharkhand/preserve-legacy-build-prosperous-jharkhand-cm-on-state-foundation-day-birsa-munda-birth-anniversary/article71704123.ece",
-          "headline": "Preserve legacy, build prosperous Jharkhand: CM on State foundation day, Birsa Munda birth anniversary",
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+          "headline": "Iran targets US military base in Bahrain with drone attack",
           "platform": "rss"
         },
         {
-          "outlet": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/pm-modi-pays-tribute-to-birsa-munda-on-birth-anniversary/article71704060.ece",
-          "headline": "PM Modi pays tribute to Birsa Munda on birth anniversary",
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/iran-targets-us-military-radar-in-bahrain-in-retaliatory-drone-strikes?traffic_source=rss",
+          "headline": "Iran targets US military radar in Bahrain in ‘retaliatory’ drone strikes",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": -0.1,
-        "spread": 0.0,
+        "spread": 0.1,
         "left": 0,
         "center": 2,
         "right": 0
       },
-      "first_seen": "2026-11-15T03:51:39+00:00",
-      "last_seen": "2026-11-15T05:27:13+00:00",
+      "first_seen": "2026-11-15T12:15:51+00:00",
+      "last_seen": "2026-11-15T13:42:58+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1679
+      "topic": "conflict",
+      "resonance": 0.1879
     },
     {
-      "id": "091ae9bc9b",
-      "title": "New York Democratic Socialists urge Ocasio-Cortez to run for US president",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/11/15/new-york-democratic-socialists-urge-ocasio-cortez-to-run-for-us-president?traffic_source=rss",
-          "headline": "New York Democratic Socialists urge Ocasio-Cortez to run for US president",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T04:44:57+00:00",
-      "last_seen": "2026-11-15T04:44:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "resonance": 0.1527
-    },
-    {
-      "id": "29440175d0",
-      "title": "Benches clear in chaotic postgame brawl after Louisville Cardinals top North Carolina Tar Heels",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/benches-clear-chaotic-postgame-brawl-louisville-cardinals-top-north-carolina-tar-heels",
-          "headline": "Benches clear in chaotic postgame brawl after Louisville Cardinals top North Carolina Tar Heels",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.6,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-15T04:42:25+00:00",
-      "last_seen": "2026-11-15T04:42:25+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1466
-    },
-    {
-      "id": "37f305bbb8",
-      "title": "Video shows moment of Brooklyn building collapse from inside",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/video-shows-moment-of-brooklyn-building-collapse-from-inside?traffic_source=rss",
-          "headline": "Video shows moment of Brooklyn building collapse from inside",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T04:31:55+00:00",
-      "last_seen": "2026-11-15T04:31:55+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.1218
-    },
-    {
-      "id": "2a1cffd4d1",
-      "title": "Moscow confirms Trump, Xi and Putin to meet in China",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/international/article/2026/11/15/moscow-confirms-trump-xi-and-putin-to-meet-in-china_6781216_4.html",
-          "headline": "Moscow confirms Trump, Xi and Putin to meet in China",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-15T04:18:30+00:00",
-      "last_seen": "2026-11-15T04:18:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "resonance": 0.091
-    },
-    {
-      "id": "5db21d4f34",
-      "title": "West Bank: Israeli forces detain Palestinian journalist, conduct raids",
+      "id": "a86217b565",
+      "title": "Two oil tankers ablaze after striking naval mines in the Strait of Hormuz",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Middle East Eye",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/west-bank-israeli-forces-detain-palestinian-journalist-conduct-raids",
-          "headline": "West Bank: Israeli forces detain Palestinian journalist, conduct raids",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-oil-tankers-ablaze-after-striking-naval-mines-strait-hormuz",
+          "headline": "Two oil tankers ablaze after striking naval mines in the Strait of Hormuz",
           "platform": "rss"
         }
       ],
@@ -873,70 +146,204 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-15T04:09:54+00:00",
-      "last_seen": "2026-11-15T04:09:54+00:00",
+      "first_seen": "2026-11-15T15:30:14+00:00",
+      "last_seen": "2026-11-15T15:30:14+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.0717
+      "resonance": 0.1824
     },
     {
-      "id": "baa680badc",
-      "title": "SpaceX pulls off first-ever spaceship 'catch'",
-      "signal_count": 4,
+      "id": "1202e9d01d",
+      "title": "Canaries urge government action after 2,200 migrants reach the islands in 48h",
+      "signal_count": 1,
       "sources": [
         {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/science-health/spacex-first-spaceship-catch/",
-          "headline": "SpaceX pulls off first-ever spaceship ‘catch’",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/science/article/2026/11/15/spacex-pulls-off-first-ever-spaceship-catch_6781084_10.html",
-          "headline": "SpaceX pulls off first-ever spaceship 'catch'",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Deutsche Welle",
-          "url": "https://www.dw.com/en/spacex-carries-out-first-ever-spaceship-capture/a-79950275?maca=en-rss-en-all-1573-rdf",
-          "headline": "SpaceX carries out first-ever spaceship capture",
-          "platform": "rss"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374463/spacex-successfully-carries-out-first-ever-spaceship-catch",
-          "headline": "SpaceX successfully carries out first-ever spaceship catch",
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/video/20261115-canaries-urge-government-action-after-2-200-migrants-reach-the-islands-in-48h-1",
+          "headline": "Canaries urge government action after 2,200 migrants reach the islands in 48h",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.05,
-        "spread": 0.112,
+        "mean": -0.1,
+        "spread": 0.0,
         "left": 0,
-        "center": 4,
+        "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-14T21:32:46+00:00",
-      "last_seen": "2026-11-14T23:52:00+00:00",
+      "first_seen": "2026-11-15T15:24:58+00:00",
+      "last_seen": "2026-11-15T15:24:58+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "science",
-      "resonance": 0.0595
+      "topic": "politics",
+      "resonance": 0.1741
     },
     {
-      "id": "d2a74e1890",
-      "title": "The unlikely story of how a young group of Scots created 'GTA' 30 years ago",
+      "id": "ab26d766cf",
+      "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
+          "headline": "Jordan sentences 3 men to death over deadly church attack",
+          "platform": "rss"
+        },
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
+          "headline": "Three men sentenced to death in Jordan over fatal church mass shooting",
+          "platform": "rss"
+        },
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-15/israel-kills-top-hamas-commander/107388044",
+          "headline": "Jordan sentences three men to death over deadly church attack",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.082,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T10:33:50+00:00",
+      "last_seen": "2026-11-15T12:13:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1727
+    },
+    {
+      "id": "46bc3fd821",
+      "title": "Pope Leo heads to high Andes on final leg of South America tour",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Le Monde (EN)",
-          "url": "https://www.lemonde.fr/en/m-le-mag/article/2026/11/15/the-unlikely-story-of-how-a-young-group-of-scots-created-gta-30-years-ago_6781183_117.html",
-          "headline": "The unlikely story of how a young group of Scots created 'GTA' 30 years ago",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/pope-leo-heads-to-high-andes-on-final-leg-of-south-america-tour/a-79952884?maca=en-rss-en-all-1573-rdf",
+          "headline": "Pope Leo heads to high Andes on final leg of South America tour",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T15:23:00+00:00",
+      "last_seen": "2026-11-15T15:23:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.171
+    },
+    {
+      "id": "a96be0582f",
+      "title": "NITI Aayog to hold five workshops on Modi’s 25 years in office",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/niti-aayog-to-hold-five-workshops-on-modis-25-years-in-office/article71705223.ece",
+          "headline": "NITI Aayog to hold five workshops on Modi’s 25 years in office",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T15:22:54+00:00",
+      "last_seen": "2026-11-15T15:22:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1708
+    },
+    {
+      "id": "2ec4498082",
+      "title": "Ten-day Aadi Bazaar exhibition opens in Visakhapatnam",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/ten-day-aadi-bazaar-exhibition-opens-in-visakhapatnam/article71705203.ece",
+          "headline": "Ten-day Aadi Bazaar exhibition opens in Visakhapatnam",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T15:22:44+00:00",
+      "last_seen": "2026-11-15T15:22:44+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1706
+    },
+    {
+      "id": "d074c622df",
+      "title": "Bengaluru Skydeck cost estimate rises to ₹800 crore from ₹500 crore",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/bengaluru-skydeck-cost-estimate-rises-to-800-crore-from-500-crore/article71705252.ece",
+          "headline": "Bengaluru Skydeck cost estimate rises to ₹800 crore from ₹500 crore",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T15:22:38+00:00",
+      "last_seen": "2026-11-15T15:22:38+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1704
+    },
+    {
+      "id": "15f7aac371",
+      "title": "Will Iraq’s oil smuggling crackdown disarm militias without a conflict?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/11/15/will-iraqs-oil-smuggllng-crackdown-disarm-militias-without-a-conflict?traffic_source=rss",
+          "headline": "Will Iraq’s oil smuggling crackdown disarm militias without a conflict?",
           "platform": "rss"
         }
       ],
@@ -947,52 +354,344 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-15T04:00:11+00:00",
-      "last_seen": "2026-11-15T04:00:11+00:00",
+      "first_seen": "2026-11-15T15:21:21+00:00",
+      "last_seen": "2026-11-15T15:21:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "resonance": 0.1683
+    },
+    {
+      "id": "4962f21587",
+      "title": "20 years of Al Jazeera English: Our story is still being written",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/opinions/2026/11/15/20-years-of-al-jazeera-english-our-story-is-still-being-written?traffic_source=rss",
+          "headline": "20 years of Al Jazeera English: Our story is still being written",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T15:21:12+00:00",
+      "last_seen": "2026-11-15T15:21:12+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0504
+      "resonance": 0.1681
     },
     {
-      "id": "2922e06335",
-      "title": "World leaders head to Asia for back-to-back diplomatic summits",
+      "id": "face145528",
+      "title": "UNRWA, facing possible closure, keeps low profile and prepares drastic cuts",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "The Guardian World",
-          "url": "https://www.theguardian.com/world/2026/nov/15/asia-diplomatic-summits-trump-xi-putin-apec-asean",
-          "headline": "World leaders head to Asia for back-to-back diplomatic summits",
+          "outlet": "Le Monde (EN)",
+          "url": "https://www.lemonde.fr/en/international/article/2026/11/15/unrwa-facing-possible-closure-keeps-low-profile-and-prepares-drastic-cuts_6781447_4.html",
+          "headline": "UNRWA, facing possible closure, keeps low profile and prepares drastic cuts",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.3,
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T15:12:04+00:00",
+      "last_seen": "2026-11-15T15:12:04+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1537
+    },
+    {
+      "id": "978c41e57d",
+      "title": "South Korea's top scorer in tax accountancy exam admits cheating",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
+          "headline": "South Korea's top scorer in tax accountancy exam admits cheating",
+          "platform": "rss"
+        },
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
+          "headline": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/south-korea-ai-test-cheating/",
+          "headline": "South Korea probes top exam scorer after AI cheating confession",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.141,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T06:55:00+00:00",
+      "last_seen": "2026-11-15T13:37:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1493
+    },
+    {
+      "id": "7283615ac4",
+      "title": "Staggered age of consent to be discussed after Brand case, minister says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
+          "headline": "Staggered age of consent to be discussed after Brand case, minister says",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T15:08:30+00:00",
+      "last_seen": "2026-11-15T15:08:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1481
+    },
+    {
+      "id": "724ba6a991",
+      "title": "Jensen Huang: The French Connection",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/tv-shows/spotlight/20261115-jensen-huang-the-french-connection",
+          "headline": "Jensen Huang: The French Connection",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T15:03:56+00:00",
+      "last_seen": "2026-11-15T15:03:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1411
+    },
+    {
+      "id": "390f5b8acb",
+      "title": "Golf influencer Claire Hogle from the bunker, Caroline Wozniacki's ladies night & McConaughey-Manning beat LSU",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/golf-influencer-claire-hogle-bunker-caroline-wozniacki-ladies-night-mcconaughey-manning-beat-lsu",
+          "headline": "Golf influencer Claire Hogle from the bunker, Caroline Wozniacki's ladies night & McConaughey-Manning beat LSU",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-11-15T15:02:17+00:00",
+      "last_seen": "2026-11-15T15:02:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1385
+    },
+    {
+      "id": "4047e7c53e",
+      "title": "Jerusalem Daily: Mass funeral in Gaza as Netanyahu clings to power",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/jerusalem-daily-mass-funeral-in-gaza-as-netanyahu-clings-to-power?traffic_source=rss",
+          "headline": "Jerusalem Daily: Mass funeral in Gaza as Netanyahu clings to power",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T15:01:54+00:00",
+      "last_seen": "2026-11-15T15:01:54+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.138
+    },
+    {
+      "id": "3ccc6632bc",
+      "title": "Israel's data shows it allowed half of the promised aid trucks into Gaza",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/news/israels-data-shows-allowed-half-promised-aid-trucks-gaza",
+          "headline": "Israel's data shows it allowed half of the promised aid trucks into Gaza",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
         "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-15T04:00:02+00:00",
-      "last_seen": "2026-11-15T04:00:02+00:00",
+      "first_seen": "2026-11-15T15:01:42+00:00",
+      "last_seen": "2026-11-15T15:01:42+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.1377
+    },
+    {
+      "id": "2e78877a10",
+      "title": "Congress' incoming wealthiest member vows to crack down on politicians getting rich in office",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/politics/congress-incoming-wealthiest-member-vows-crack-down-politicians-getting-rich-office",
+          "headline": "Congress' incoming wealthiest member vows to crack down on politicians getting rich in office",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-11-15T15:00:17+00:00",
+      "last_seen": "2026-11-15T15:00:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1355
+    },
+    {
+      "id": "fa705a0392",
+      "title": "Loch Ness Monster sightings jump in 2026 as scientist drills into legendary mystery",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "url": "https://www.foxnews.com/travel/loch-ness-monster-sightings-jump-2026-scientist-drills-legendary-mystery",
+          "headline": "Loch Ness Monster sightings jump in 2026 as scientist drills into legendary mystery",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.6,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-11-15T15:00:00+00:00",
+      "last_seen": "2026-11-15T15:00:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
-      "resonance": 0.0501
+      "resonance": 0.1351
     },
     {
-      "id": "5b5ea21ec2",
-      "title": "Victor Wembanyama and why we crave sports villains",
+      "id": "17f6441bad",
+      "title": "Trump breaks silence on US ground stop, demands more money from Congress",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Japan Times",
-          "url": "https://www.japantimes.co.jp/sports/2026/11/15/basketball/nba/victor-wembanyama-sports-villans/",
-          "headline": "Victor Wembanyama and why we crave sports villains",
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374509/trump-breaks-silence-us-ground-stop-demands-more-money-congress",
+          "headline": "Trump breaks silence on US ground stop, demands more money from Congress",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T15:00:00+00:00",
+      "last_seen": "2026-11-15T15:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "resonance": 0.1351
+    },
+    {
+      "id": "093be1c4a2",
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+          "headline": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
           "platform": "rss"
         }
       ],
@@ -1003,24 +702,114 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-15T04:00:00+00:00",
-      "last_seen": "2026-11-15T04:00:00+00:00",
+      "first_seen": "2026-11-15T14:56:21+00:00",
+      "last_seen": "2026-11-15T14:56:21+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1295
+    },
+    {
+      "id": "f4b7f281de",
+      "title": "Inside the Pentagon’s Failure to Shield U.S. Troops From Iranian Drones",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/national-security/2026/11/pentagon-drones-iran-war-hegseth/689425/?utm_source=feed",
+          "headline": "Inside the Pentagon’s Failure to Shield U.S. Troops From Iranian Drones",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T14:52:46+00:00",
+      "last_seen": "2026-11-15T14:52:46+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "tech",
-      "resonance": 0.05
+      "resonance": 0.1242
     },
     {
-      "id": "eaa32662a8",
-      "title": "How the Democrats’ midterm victory could reshape the rules for electing a US president",
+      "id": "0b314c2063",
+      "title": "Polish activists face opposition as they make abortion more accessible",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/usa/2026-11-15/how-the-democrats-midterm-victory-could-reshape-the-rules-for-electing-a-us-president.html",
-          "headline": "How the Democrats’ midterm victory could reshape the rules for electing a US president",
+          "outlet": "Deutsche Welle",
+          "url": "https://www.dw.com/en/polish-activists-face-opposition-as-they-make-abortion-more-accessible/a-79943914?maca=en-rss-en-all-1573-rdf",
+          "headline": "Polish activists face opposition as they make abortion more accessible",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T14:40:00+00:00",
+      "last_seen": "2026-11-15T14:40:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.1054
+    },
+    {
+      "id": "98498dbfd0",
+      "title": "Santa school in full swing in London ahead of Christmas celebrations",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "France 24",
+          "url": "https://www.france24.com/en/santa-school-in-full-swing-in-london-ahead-of-christmas-celebrations",
+          "headline": "Santa school in full swing in London ahead of Christmas celebrations",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T14:35:33+00:00",
+      "last_seen": "2026-11-15T14:35:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.099
+    },
+    {
+      "id": "d4208a8dcc",
+      "title": "Twenty Years of Al Jazeera English: The Counternarrative",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/featured-documentaries/2026/11/15/twenty-years-of-al-jazeera-english-the?traffic_source=rss",
+          "headline": "Twenty Years of Al Jazeera English: The Counternarrative",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/al-jazeera-english-celebrates-20-years-on-air?traffic_source=rss",
+          "headline": "Al Jazeera English celebrates 20 years on air",
           "platform": "rss"
         }
       ],
@@ -1028,64 +817,226 @@
         "mean": -0.2,
         "spread": 0.0,
         "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T13:36:46+00:00",
+      "last_seen": "2026-11-15T14:29:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0967
+    },
+    {
+      "id": "07e486f061",
+      "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "BBC World Service",
+          "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+          "headline": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-15T04:00:00+00:00",
-      "last_seen": "2026-11-15T04:00:00+00:00",
+      "first_seen": "2026-11-15T14:33:59+00:00",
+      "last_seen": "2026-11-15T14:33:59+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "politics",
-      "resonance": 0.05
+      "resonance": 0.0967
     },
     {
-      "id": "d41f1987c6",
-      "title": "How Colombia is losing the war on drones",
+      "id": "49a03806ab",
+      "title": "Alleged Chinese spy left Megaspeed last year, company says",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "El País (EN)",
-          "url": "https://english.elpais.com/international/2026-11-15/how-colombia-is-losing-the-war-on-drones.html",
-          "headline": "How Colombia is losing the war on drones",
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-16/alice-huang-megaspeed-departure/107388304",
+          "headline": "Alleged Chinese spy left Megaspeed last year, company says",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.2,
+        "mean": -0.1,
         "spread": 0.0,
         "left": 0,
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-15T04:00:00+00:00",
-      "last_seen": "2026-11-15T04:00:00+00:00",
+      "first_seen": "2026-11-15T14:31:29+00:00",
+      "last_seen": "2026-11-15T14:31:29+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0932
+    },
+    {
+      "id": "2ba00cd1e6",
+      "title": "Hundreds attend mass for Tai Po fire victims as bishop dismisses talk of pressure",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/hong-kong/society/article/3374508/hundreds-attend-mass-tai-po-fire-victims-bishop-dismisses-talk-pressure",
+          "headline": "Hundreds attend mass for Tai Po fire victims as bishop dismisses talk of pressure",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T14:17:07+00:00",
+      "last_seen": "2026-11-15T14:17:07+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0731
+    },
+    {
+      "id": "fb0a492f86",
+      "title": "Live: Scotland leap into early lead despite late withdrawal of skipper",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-16/wallabies-live-updates-scotland-vs-australia-murrayfield/107385882",
+          "headline": "Live: Scotland leap into early lead despite late withdrawal of skipper",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T14:03:14+00:00",
+      "last_seen": "2026-11-15T14:03:14+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "resonance": 0.0543
+    },
+    {
+      "id": "f229914a2a",
+      "title": "Gender-diverse Australian sailors barred from US submarines despite Aukus deal, documents reveal",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Guardian World",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/16/gender-diverse-australian-sailors-barred-from-us-submarines-despite-aukus-deal-documents-reveal-ntwnfb",
+          "headline": "Gender-diverse Australian sailors barred from US submarines despite Aukus deal, documents reveal",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T14:00:19+00:00",
+      "last_seen": "2026-11-15T14:00:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "resonance": 0.0504
+    },
+    {
+      "id": "656fab9710",
+      "title": "US, China seek common ground on military crisis pact as Washington weighs terms: sources",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/military/article/3374503/us-china-seek-common-ground-military-crisis-pact-washington-weighs-terms-sources",
+          "headline": "US, China seek common ground on military crisis pact as Washington weighs terms: sources",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.1,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T14:00:13+00:00",
+      "last_seen": "2026-11-15T14:00:13+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
+      "resonance": 0.0503
+    },
+    {
+      "id": "877bdb0a39",
+      "title": "What Are the Masculine Virtues?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "The Atlantic",
+          "url": "https://www.theatlantic.com/podcasts/2026/11/what-are-masculine-virtues/689379/?utm_source=feed",
+          "headline": "What Are the Masculine Virtues?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.25,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-15T14:00:00+00:00",
+      "last_seen": "2026-11-15T14:00:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
       "resonance": 0.05
     }
   ],
   "edges": [
     {
-      "source": "bc215392d2",
-      "target": "1824e5f266",
-      "weight": 0.127,
+      "source": "4962f21587",
+      "target": "d4208a8dcc",
+      "weight": 0.675,
       "type": "thematic"
     },
     {
-      "source": "9c9031c15d",
-      "target": "d41f1987c6",
-      "weight": 0.001,
-      "type": "thematic"
-    },
-    {
-      "source": "8077c4aabc",
-      "target": "0152576891",
-      "weight": 0.11,
+      "source": "093be1c4a2",
+      "target": "49a03806ab",
+      "weight": 0.79,
       "type": "thematic"
     }
   ],
@@ -1112,7 +1063,7 @@
     },
     "Sky News": {
       "ok": true,
-      "count": 6,
+      "count": 7,
       "error": null
     },
     "The Economist": {
@@ -1132,7 +1083,7 @@
     },
     "Washington Post": {
       "ok": true,
-      "count": 10,
+      "count": 12,
       "error": null
     },
     "The Atlantic": {

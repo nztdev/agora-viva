@@ -1,434 +1,688 @@
 {
-  "generated_at": "2026-11-22T23:42:39.643433+00:00",
+  "generated_at": "2026-11-23T19:25:46.673395+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 3,
+  "edge_count": 4,
   "nodes": [
     {
-      "id": "ffc78246ad",
-      "title": "Krieg gegen die Ukraine: Russisches Kriegsschiff sinkt in libyschem Hafen",
-      "signal_count": 4,
+      "id": "64f5a073d1",
+      "title": "Tech-Konzern: Nvidia holt Jensen Huang als Chef zurück",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/nvidia-beruft-ex-chef-huang-zurueck-an-die-firmenspitze-accg-201709972.html",
+          "headline": "Tech-Konzern: Nvidia holt Jensen Huang als Chef zurück",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/technik/ki/nvidia-huang-kehrt-als-konzernchef-zurueck-aktie-legt-um-30-prozent-zu/100272106.html",
+          "headline": "Chipkonzern: Jensen Huang kehrt als Nvidia-Chef zurück – Aktie steigt um 30 Prozent",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/wirtschaft/nvidia-jensen-huang-rueckkehr-chef-aktien-auswirkung-li.3584897",
+          "headline": "Spionageaffäre: Nvidia beruft Ex-Chef Huang zurück an die Firmenspitze",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.05,
+        "spread": 0.178,
+        "left": 0,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T15:48:14+00:00",
+      "last_seen": "2026-11-23T18:47:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.6536
+    },
+    {
+      "id": "2118203ffb",
+      "title": "Greta Thunberg: Greta Thunberg wegen Hausfriedensbruchs in Dänemark verurteilt",
+      "signal_count": 3,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/greta-thunberg-hausfriedensbruch-daenemark-kopenhagen-protest-gxe",
+          "headline": "Greta Thunberg: Greta Thunberg wegen Hausfriedensbruchs in Dänemark verurteilt",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/justiz/greta-thunberg-daenisches-gericht-verurteilt-greta-thunberg-zu-geldstrafe-a-db2139f4-03a0-4dba-849f-bf485a84d1bb#ref=rss",
+          "headline": "Greta Thunberg: Dänisches Gericht verurteilt Greta Thunberg zu Geldstrafe",
+          "platform": "rss"
+        },
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/panorama/Aktivistin-Greta-Thunberg-zu-Geldstrafe-verurteilt-id31568144.html",
+          "headline": "Hausfriedensbruch in Kopenhagen: Aktivistin Greta Thunberg zu Geldstrafe verurteilt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.122,
+        "left": 1,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T15:44:31+00:00",
+      "last_seen": "2026-11-23T18:25:35+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.5897
+    },
+    {
+      "id": "fc248f1d76",
+      "title": "Ukraine-Krieg: Russland und Ukraine weiten Krieg aus: Baut Putin die Atomwaffe im All?",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Ukraine-greift-russische-Schiffe-an/!6227614/",
+          "headline": "Ukraine greift russische Schiffe an: So sieht „Krieg dem Krieg“ aus",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Handelsblatt",
+          "url": "https://www.handelsblatt.com/politik/international/ukraine-krieg-krieg-ueber-grenzen-hinaus-baut-putin-die-atomwaffe-im-all/100271957.html",
+          "headline": "Ukraine-Krieg: Russland und Ukraine weiten Krieg aus: Baut Putin die Atomwaffe im All?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.35,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T16:25:01+00:00",
+      "last_seen": "2026-11-23T18:42:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.3496
+    },
+    {
+      "id": "005fa6be25",
+      "title": "„Eigentlich überlegt man sich das, bevor man jemanden aufstellt, ob der da reinpasst“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/videos/video6b0482d939a3e8110f0e938e/ausschlussverfahren-gegen-emde-eigentlich-ueberlegt-man-sich-das-bevor-man-jemanden-aufstellt-ob-der-da-reinpasst.html",
+          "headline": "„Eigentlich überlegt man sich das, bevor man jemanden aufstellt, ob der da reinpasst“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-11-23T19:21:00+00:00",
+      "last_seen": "2026-11-23T19:21:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1966
+    },
+    {
+      "id": "593221c6c5",
+      "title": "Drohnenangriff auf die »Sparta II«: Boris Pistorius warnt vor Ausweitung des Ukrainekriegs auf die Ostsee",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/deutschland/2026-11/drohnenangriff-finnischer-meerbusen-russischer-frachter-ostsee-ukraine",
+          "headline": "Drohnenangriff auf die »Sparta II«: Boris Pistorius warnt vor Ausweitung des Ukrainekriegs auf die Ostsee",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T19:20:22+00:00",
+      "last_seen": "2026-11-23T19:20:22+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.194
+    },
+    {
+      "id": "9d9599d4c0",
+      "title": "Teil von \"Frauenschutzpaket\": Union will Femizide als Mord einstufen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Union-will-Femizide-als-Mord-einstufen-id31568895.html",
+          "headline": "Teil von \"Frauenschutzpaket\": Union will Femizide als Mord einstufen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T19:15:30+00:00",
+      "last_seen": "2026-11-23T19:15:30+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1745
+    },
+    {
+      "id": "0dbb40597a",
+      "title": "\"Milliardärsfreunde\": US-Demokraten werfen Trump bei Huang-Comeback Interessenkonflikt vor",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/US-Demokraten-werfen-Trump-bei-Huang-Comeback-Interessenkonflikt-vor-id31569035.html",
+          "headline": "\"Milliardärsfreunde\": US-Demokraten werfen Trump bei Huang-Comeback Interessenkonflikt vor",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T19:14:56+00:00",
+      "last_seen": "2026-11-23T19:14:56+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1723
+    },
+    {
+      "id": "9418f79b5c",
+      "title": "\"Ein großartiger Erfolg\": Genveränderte Tabakpflanze kann Mittel gegen Krebs herstellen",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/wissen/Genveraenderte-Tabakpflanze-kann-Mittel-gegen-Krebs-herstellen-id31568183.html",
+          "headline": "\"Ein großartiger Erfolg\": Genveränderte Tabakpflanze kann Mittel gegen Krebs herstellen",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T19:10:33+00:00",
+      "last_seen": "2026-11-23T19:10:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "health",
+      "language": "de",
+      "resonance": 0.1549
+    },
+    {
+      "id": "19aa773789",
+      "title": "Vom Alpha zum Beta: Donald Trump ist jetzt „Low-T“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/usa-unter-trump/nicht-laenger-ein-alpha-podcast-bros-wenden-sich-gegen-trump-201693931.html",
+          "headline": "Vom Alpha zum Beta: Donald Trump ist jetzt „Low-T“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T19:08:17+00:00",
+      "last_seen": "2026-11-23T19:08:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.146
+    },
+    {
+      "id": "a76f5df20e",
+      "title": "Plötzlich bittet Kanadas Premier ein Trump-Double auf die Bühne",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/ausland/article6b04845c39a3e8110f0e93a7/po-sprueche-und-ymca-tanz-ploetzlich-bittet-kanadas-premier-ein-trump-double-auf-die-buehne.html",
+          "headline": "Plötzlich bittet Kanadas Premier ein Trump-Double auf die Bühne",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-11-23T19:07:17+00:00",
+      "last_seen": "2026-11-23T19:07:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1421
+    },
+    {
+      "id": "e2b6e4b292",
+      "title": "Jüdischer Terrorismus im Fokus: Israels Präsident nennt Siedlergewalt Angriff \"auf Gott selbst\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Israels-Praesident-nennt-Siedlergewalt-Angriff-auf-Gott-selbst-id31568907.html",
+          "headline": "Jüdischer Terrorismus im Fokus: Israels Präsident nennt Siedlergewalt Angriff \"auf Gott selbst\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T19:06:55+00:00",
+      "last_seen": "2026-11-23T19:06:55+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.1407
+    },
+    {
+      "id": "7c0b7d65c8",
+      "title": "Unionsfraktionschef Frei gegen Aufweichung der Rentenpläne – SPD kritisiert Haushaltsverfahren",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/deutschland/article6b0483645842ff528b9e6375/schwarz-rot-unionsfraktionschef-frei-gegen-aufweichung-der-rentenplaene-spd-kritisiert-haushaltsverfahren.html",
+          "headline": "Unionsfraktionschef Frei gegen Aufweichung der Rentenpläne – SPD kritisiert Haushaltsverfahren",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-11-23T19:05:23+00:00",
+      "last_seen": "2026-11-23T19:05:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.1347
+    },
+    {
+      "id": "38849c09bd",
+      "title": "\"Lebendige Version der Hölle\": Box-Superstar Tyson Fury leidet an Schizophrenie",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/Box-Superstar-Tyson-Fury-leidet-an-Schizophrenie-id31569014.html",
+          "headline": "\"Lebendige Version der Hölle\": Box-Superstar Tyson Fury leidet an Schizophrenie",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T19:05:01+00:00",
+      "last_seen": "2026-11-23T19:05:01+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1333
+    },
+    {
+      "id": "b0d70dc83f",
+      "title": "Champions League: BVB mit Guirassy gegen Arsenal? Kovac gibt ein Update",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-11/23/bvb-mit-guirassy-gegen-arsenal-kovac-gibt-ein-update",
+          "headline": "Champions League: BVB mit Guirassy gegen Arsenal? Kovac gibt ein Update",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T19:01:47+00:00",
+      "last_seen": "2026-11-23T19:01:47+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1208
+    },
+    {
+      "id": "e284c128fc",
+      "title": "Frauenfußball-Bundesliga: Männer-Rekord eingestellt: Bayern-Frauen besiegen Hoffenheim",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-11/23/maenner-rekord-eingestellt-bayern-frauen-besiegen-hoffenheim",
+          "headline": "Frauenfußball-Bundesliga: Männer-Rekord eingestellt: Bayern-Frauen besiegen Hoffenheim",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T18:59:10+00:00",
+      "last_seen": "2026-11-23T18:59:10+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "sport",
+      "language": "de",
+      "resonance": 0.1108
+    },
+    {
+      "id": "7df84a62a8",
+      "title": "Abhängigkeit von USA: Kann Europa im Weltraum autonom werden?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/ausland/wie-autonom-kann-europa-im-all-sein-201651904.html",
+          "headline": "Abhängigkeit von USA: Kann Europa im Weltraum autonom werden?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T18:58:48+00:00",
+      "last_seen": "2026-11-23T18:58:48+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "science",
+      "language": "de",
+      "resonance": 0.1094
+    },
+    {
+      "id": "c0a43461f6",
+      "title": "Atombombe ins All?: Das wäre Putins nächste Aggression",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/ausland/atomwaffen-im-all-russlands-naechste-aggression-gegen-das-voelkerrecht-201709146.html",
+          "headline": "Atombombe ins All?: Das wäre Putins nächste Aggression",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T18:58:40+00:00",
+      "last_seen": "2026-11-23T18:58:40+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1088
+    },
+    {
+      "id": "e5fe8973d9",
+      "title": "Bergung „Sparta II“: Die erstaunlich reibungslose Kooperation zwischen Finnland und Russland",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/ausland/russisches-frachtschiff-sparta-ii-warum-finnland-es-nicht-beschlagnahmte-201708325.html",
+          "headline": "Bergung „Sparta II“: Die erstaunlich reibungslose Kooperation zwischen Finnland und Russland",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T18:58:08+00:00",
+      "last_seen": "2026-11-23T18:58:08+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1068
+    },
+    {
+      "id": "f36b31316f",
+      "title": "Deutschland beteiligt sich an Plänen für Abschiebezentrum in Ruanda ab 2027",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/politik/video6b048c0939a3e8110f0e93e8/migration-deutschland-beteiligt-sich-an-plaenen-fuer-abschiebezentrum-in-ruanda-ab-2027.html",
+          "headline": "Deutschland beteiligt sich an Plänen für Abschiebezentrum in Ruanda ab 2027",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.3,
+        "spread": 0.0,
+        "left": 0,
+        "center": 0,
+        "right": 1
+      },
+      "first_seen": "2026-11-23T18:55:41+00:00",
+      "last_seen": "2026-11-23T18:55:41+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0975
+    },
+    {
+      "id": "7608701729",
+      "title": "Adventszeit: Bekannte große Weihnachtsmärkte öffnen - Einzelhandel hofft",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-11/23/einzelhaendler-hoffen-auf-gutes-weihnachtsgeschaeft",
+          "headline": "Adventszeit: Bekannte große Weihnachtsmärkte öffnen - Einzelhandel hofft",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T18:53:18+00:00",
+      "last_seen": "2026-11-23T18:53:18+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.0884
+    },
+    {
+      "id": "271db551e4",
+      "title": "Anschlag auf den CSD: Mein arabisches Coming-out",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/gesellschaft/2026-11/anschlag-csd-berlin-queerness-arabisch-familie",
+          "headline": "Anschlag auf den CSD: Mein arabisches Coming-out",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T18:51:05+00:00",
+      "last_seen": "2026-11-23T18:51:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0801
+    },
+    {
+      "id": "49c9c1d738",
+      "title": "Krieg gegen die Ukraine: Nato verstärkt Kontrolle von Polens Luftraum",
+      "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
           "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-          "headline": "Krieg gegen die Ukraine: Russisches Kriegsschiff sinkt in libyschem Hafen",
-          "platform": "rss"
-        },
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Russisches-Kriegsschiff-sinkt-nach-Explosion-in-libyschem-Hafen-id31564737.html",
-          "headline": "Ukrainischer Drohnenangriff?: Russisches Kriegsschiff sinkt nach Explosion in libyschem Hafen",
-          "platform": "rss"
-        },
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-russisches-kriegsschiff-nach-explosion-in-libyschem-hafen-gesunken-faz-110683325.html",
-          "headline": "Liveblog Ukrainekrieg: Russisches Kriegsschiff sinkt nach Explosion in libyschem Hafen",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-drohne-libyen-explosion-schiff-russland-li.3571967",
-          "headline": "Krieg in der Ukraine: Russisches Kriegsschiff sinkt nach Explosion in libyschem Hafen",
+          "headline": "Krieg gegen die Ukraine: Nato verstärkt Kontrolle von Polens Luftraum",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.075,
-        "spread": 0.192,
+        "mean": -0.3,
+        "spread": 0.0,
         "left": 1,
-        "center": 3,
+        "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-22T21:19:41+00:00",
-      "last_seen": "2026-11-22T23:15:16+00:00",
+      "first_seen": "2026-11-23T18:46:09+00:00",
+      "last_seen": "2026-11-23T18:46:09+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "conflict",
       "language": "de",
-      "resonance": 0.7075
+      "resonance": 0.0617
     },
     {
-      "id": "1bb23eae9a",
-      "title": "Lisa Baum: Fußballnationalspielerin Baum bricht im Spiel zusammen",
-      "signal_count": 4,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/sport/2026-11/lisa-baum-fc-arsenal-zusammenbruch-west-ham-united",
-          "headline": "Lisa Baum: Fußballnationalspielerin Baum bricht im Spiel zusammen",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/fc-arsenal-lisa-baum-bricht-im-spiel-mit-atemnot-zusammen-a-f95f7696-4847-4505-9f22-ff09f760bee4#ref=rss",
-          "headline": "FC Arsenal: Lisa Baum bricht im Spiel mit Atemnot zusammen",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/article6b032cfd39a3e8110f0e6f2f/fc-arsenal-mitten-im-spiel-bricht-nationalspielerin-lisa-baum-ploetzlich-zusammen.html",
-          "headline": "Mitten im Spiel bricht Nationalspielerin Lisa Baum plötzlich zusammen",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/sport/lisa-baum-frauenfussball-zusammenbruch-li.3584471",
-          "headline": "Women’s Super League: Nationalspielerin Lisa Baum bricht auf dem Platz zusammen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.087,
-        "spread": 0.23,
-        "left": 1,
-        "center": 2,
-        "right": 1
-      },
-      "first_seen": "2026-11-22T18:10:25+00:00",
-      "last_seen": "2026-11-22T23:13:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.582
-    },
-    {
-      "id": "4105db7da3",
-      "title": "Markus Söder: Hendrik Wüst lehnt Forderung zur kalten Progression ab",
-      "signal_count": 3,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/wirtschaft/markus-soeder-hendrik-wuest-lehnt-forderung-zur-kalten-progression-ab-a-fe4d16ef-8ba6-485a-9e27-fa42a09f1cb5#ref=rss",
-          "headline": "Markus Söder: Hendrik Wüst lehnt Forderung zur kalten Progression ab",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-wuest-soeder-kalte-progression-li.3580621",
-          "headline": "Bundespolitik: Wüst weist Söders Forderung zur kalten Progression zurück",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/article6b0342633b1a22514b912f88/berlin-direkt-nrw-ministerpraesident-wuest-weist-soeders-forderung-zur-kalten-progression-zurueck.html",
-          "headline": "NRW-Ministerpräsident Wüst weist Söders Forderung zur kalten Progression zurück",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.017,
-        "spread": 0.225,
-        "left": 0,
-        "center": 2,
-        "right": 1
-      },
-      "first_seen": "2026-11-22T19:34:45+00:00",
-      "last_seen": "2026-11-22T21:33:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.4082
-    },
-    {
-      "id": "681ca88367",
-      "title": "Antisemitismus: Israels Botschafter würdigt Mut von verletzter Aktivistin",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/kriminalitaet/article6b035c170e350969f7b71391/ron-prosor-israels-botschafter-wuerdigt-mut-von-verletzter-aktivistin-und-fdppolitikerin-preisler.html",
-          "headline": "Israels Botschafter würdigt Mut von verletzter Aktivistin und FDP‑Politikerin Preisler",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/22/israels-botschafter-wuerdigt-mut-von-verletzter-aktivistin",
-          "headline": "Antisemitismus: Israels Botschafter würdigt Mut von verletzter Aktivistin",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.3,
-        "left": 1,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-22T20:12:25+00:00",
-      "last_seen": "2026-11-22T21:30:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.3185
-    },
-    {
-      "id": "33ebae32f5",
-      "title": "Notfallversorgung: Olaf Lies mahnt Nachbesserungen bei Notfallversorgung an",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/gesundheit/2026-11/notfallversorgung-reform-olaf-lies-rettungsdienst-finanzierung",
-          "headline": "Notfallversorgung: Olaf Lies mahnt Nachbesserungen bei Notfallversorgung an",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T23:11:02+00:00",
-      "last_seen": "2026-11-22T23:11:02+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2776
-    },
-    {
-      "id": "a0329525b4",
-      "title": "\"SPD braucht Politikwechsel\": Gabriel stärkt Klingbeil und gibt Heil einen mit",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Gabriel-staerkt-Klingbeil-und-gibt-Heil-einen-mit-id31564676.html",
-          "headline": "\"SPD braucht Politikwechsel\": Gabriel stärkt Klingbeil und gibt Heil einen mit",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T23:01:10+00:00",
-      "last_seen": "2026-11-22T23:01:10+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.2622
-    },
-    {
-      "id": "3c3f773542",
-      "title": "Kalenderblatt: Was geschah am 23. November?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/22/was-geschah-am-23-november",
-          "headline": "Kalenderblatt: Was geschah am 23. November?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T22:55:04+00:00",
-      "last_seen": "2026-11-22T22:55:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2529
-    },
-    {
-      "id": "886856a41b",
-      "title": "Krieg in Sudan: Uno-Gebäude bei Drohnenangriff beschädigt",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/krieg-in-sudan-uno-gebaeude-bei-drohnenangriff-beschaedigt-a-c4b398b9-f7f6-40a0-a92c-3377e276a67a#ref=rss",
-          "headline": "Krieg in Sudan: Uno-Gebäude bei Drohnenangriff beschädigt",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/article6b03283739a3e8110f0e6ee8/konflikt-im-sudan-inakzeptabel-ungebaeude-bei-drohnenangriff-beschaedigt.html",
-          "headline": "„Inakzeptabel“ – UN‑Gebäude bei Drohnenangriff beschädigt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.075,
-        "spread": 0.225,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-11-22T18:05:35+00:00",
-      "last_seen": "2026-11-22T22:14:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.249
-    },
-    {
-      "id": "d86e771e2a",
-      "title": "Verkehr: Fußgänger stirbt bei Verkehrsunfall in Cloppenburg",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/22/fussgaenger-stirbt-bei-verkehrsunfall-in-cloppenburg",
-          "headline": "Verkehr: Fußgänger stirbt bei Verkehrsunfall in Cloppenburg",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T22:48:28+00:00",
-      "last_seen": "2026-11-22T22:48:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2429
-    },
-    {
-      "id": "d414811b37",
-      "title": "ATP Finals im Tennis: Keine Krönung: Zverev mit Final-Pleite gegen Alcaraz",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/22/keine-kroenung-zverev-mit-final-pleite-gegen-alcaraz",
-          "headline": "ATP Finals im Tennis: Keine Krönung: Zverev mit Final-Pleite gegen Alcaraz",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/tennis/atp-finals-alexander-zverev-verpasst-kroenung-seines-traumjahres-gegen-carlos-alcaraz-a-8eff0478-ee60-4c90-bba6-7c36949c79ae#ref=rss",
-          "headline": "ATP Finals: Alexander Zverev verpasst Krönung seines Traumjahres gegen Carlos Alcaraz",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.225,
-        "spread": 0.075,
-        "left": 1,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T19:48:00+00:00",
-      "last_seen": "2026-11-22T19:56:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2194
-    },
-    {
-      "id": "7e472ebc69",
-      "title": "Fußball-Bundesliga: Pyro und Brände: Polizei nach Nordderby dennoch zufrieden",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/22/pyro-und-braende-polizei-nach-nordderby-dennoch-zufrieden",
-          "headline": "Fußball-Bundesliga: Pyro und Brände: Polizei nach Nordderby dennoch zufrieden",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T22:30:27+00:00",
-      "last_seen": "2026-11-22T22:30:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.2165
-    },
-    {
-      "id": "81cabb350f",
-      "title": "Für seine Zeit als König: Will Prinz William seinem Bruder Harry den Titel streichen?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/leute/Will-Prinz-William-seinem-Bruder-Harry-den-Titel-streichen-id31564728.html",
-          "headline": "Für seine Zeit als König: Will Prinz William seinem Bruder Harry den Titel streichen?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T22:18:49+00:00",
-      "last_seen": "2026-11-22T22:18:49+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2
-    },
-    {
-      "id": "18061728ea",
-      "title": "Gerwyn Price gewinnt den Grand Slam und setzt eine Spitze gegen Littler und Humphries",
+      "id": "b6cd2aff03",
+      "title": "„Der KI-Hype fährt Achterbahn“",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/sport/darts/article6b03451839a3e8110f0e70ca/darts-gerwyn-price-gewinnt-den-grand-slam-und-setzt-eine-spitze-gegen-littler-und-humphries.html",
-          "headline": "Gerwyn Price gewinnt den Grand Slam und setzt eine Spitze gegen Littler und Humphries",
+          "url": "https://www.welt.de/videos/video6b0482065842ff528b9e636d/nvidia-chef-huang-ist-zurueck-der-ki-hype-faehrt-achterbahn.html",
+          "headline": "„Der KI-Hype fährt Achterbahn“",
           "platform": "rss"
         }
       ],
@@ -439,147 +693,112 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-11-22T21:41:44+00:00",
-      "last_seen": "2026-11-22T21:41:44+00:00",
+      "first_seen": "2026-11-23T18:45:26+00:00",
+      "last_seen": "2026-11-23T18:45:26+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "tech",
       "language": "de",
-      "resonance": 0.1502
+      "resonance": 0.059
     },
     {
-      "id": "3c090f4d66",
-      "title": "Bundesliga: Werder Bremen überrollt HSV und wird zur Überraschung der Saison",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/sport/fussball/bundesliga-werder-bremen-ueberrollt-hsv-und-wird-zur-ueberraschung-der-saison-a-1d8dcdf8-3ee2-4a58-a22a-895efe064dd9#ref=rss",
-          "headline": "Bundesliga: Werder Bremen überrollt HSV und wird zur Überraschung der Saison",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Süddeutsche",
-          "url": "https://www.sueddeutsche.de/sport/werder-bremen-hsv-nordderby-bundesliga-li.3584474",
-          "headline": "Bundesliga: Bremen überrollt den HSV, Augsburg feiert Gregoritsch",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.175,
-        "spread": 0.025,
-        "left": 0,
-        "center": 2,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T18:41:18+00:00",
-      "last_seen": "2026-11-22T18:54:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.1462
-    },
-    {
-      "id": "97d8c15fa5",
-      "title": "Hodges sieht Lücken: Ex-US-General hält Nato nicht gewappnet für russischen Luftkrieg",
+      "id": "21fb491465",
+      "title": "Alternativen zur COP: Nicht der einzige Ort für Klimaschutz",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Ex-US-General-haelt-Nato-nicht-gewappnet-fuer-russischen-Luftkrieg-id31564659.html",
-          "headline": "Hodges sieht Lücken: Ex-US-General hält Nato nicht gewappnet für russischen Luftkrieg",
+          "outlet": "taz",
+          "url": "https://taz.de/Alternativen-zur-COP/!6232460/",
+          "headline": "Alternativen zur COP: Nicht der einzige Ort für Klimaschutz",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T21:36:19+00:00",
-      "last_seen": "2026-11-22T21:36:19+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.1433
-    },
-    {
-      "id": "e2affad131",
-      "title": "Claus-Dieter Wollitz: Man kann noch immer alles erzählen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/sport/fussball/dfb-ausruester-claus-dieter-wollitz-die-klopp-kappe-und-der-adidas-protest-201706422.html",
-          "headline": "Claus-Dieter Wollitz: Man kann noch immer alles erzählen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T21:29:51+00:00",
-      "last_seen": "2026-11-22T21:29:51+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1351
-    },
-    {
-      "id": "5cb9abde1c",
-      "title": "Unfall auf B26: 93-jähriger Fußgänger von Auto erfasst und schwer verletzt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/22/93-jaehriger-fussgaenger-von-auto-erfasst-und-schwer-verletzt",
-          "headline": "Unfall auf B26: 93-jähriger Fußgänger von Auto erfasst und schwer verletzt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
+        "mean": -0.55,
         "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-22T21:28:01+00:00",
-      "last_seen": "2026-11-22T21:28:01+00:00",
+      "first_seen": "2026-11-23T18:45:00+00:00",
+      "last_seen": "2026-11-23T18:45:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "de",
+      "resonance": 0.0574
+    },
+    {
+      "id": "6776935371",
+      "title": "Nach der Weltklimakonferenz in Antalya: Bündnisse geben Hoffnung",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Nach-der-Weltklimakonferenz-in-Antalya/!6232456/",
+          "headline": "Nach der Weltklimakonferenz in Antalya: Bündnisse geben Hoffnung",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.55,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T18:45:00+00:00",
+      "last_seen": "2026-11-23T18:45:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "climate",
+      "language": "de",
+      "resonance": 0.0574
+    },
+    {
+      "id": "06c86abd1d",
+      "title": "Nvidia: „Ich habe den Deal abgeschlossen“",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/politik/jensen-huang-donald-trump-nvidia-rueckkehr-usa-aktien-li.3584998",
+          "headline": "Nvidia: „Ich habe den Deal abgeschlossen“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-23T18:44:05+00:00",
+      "last_seen": "2026-11-23T18:44:05+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1328
+      "resonance": 0.054
     },
     {
-      "id": "d447e22ca6",
-      "title": "Midterms in den USA: Demokraten erreichen im Repräsentantenhaus historisch starke Mehrheit",
+      "id": "03fd8e1538",
+      "title": "Jamal Musiala: Experte widerspricht Hoeneß und Rummenigge im Gehaltsstreit",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/midterms-in-den-usa-demokraten-erreichen-im-repraesentantenhaus-historisch-starke-mehrheit-a-6b42898d-ee86-41e7-a545-8275e28ea40d#ref=rss",
-          "headline": "Midterms in den USA: Demokraten erreichen im Repräsentantenhaus historisch starke Mehrheit",
+          "url": "https://www.spiegel.de/sport/fussball/jamal-musiala-experte-widerspricht-hoeness-und-rummenigge-im-gehaltsstreit-a-1dbe4b48-7717-4e39-aaf2-2eeb8d3a8633#ref=rss",
+          "headline": "Jamal Musiala: Experte widerspricht Hoeneß und Rummenigge im Gehaltsstreit",
           "platform": "rss"
         }
       ],
@@ -590,362 +809,95 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-22T21:27:00+00:00",
-      "last_seen": "2026-11-22T21:27:00+00:00",
+      "first_seen": "2026-11-23T18:44:00+00:00",
+      "last_seen": "2026-11-23T18:44:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1315
+      "resonance": 0.0537
     },
     {
-      "id": "57af46da0d",
-      "title": "Finnland: »Sparta II« nach Brand in russische Gewässer geschleppt",
+      "id": "67cd3de2f4",
+      "title": "Haushaltsberatungen: Milliarden für die Falschen",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/finnland-sparta-ii-nach-brand-in-russische-gewaesser-geschleppt-a-3b64d5c4-f5b2-4c52-929a-d8dd06f0ddf3#ref=rss",
-          "headline": "Finnland: »Sparta II« nach Brand in russische Gewässer geschleppt",
+          "outlet": "taz",
+          "url": "https://taz.de/Haushaltsberatungen/!6232444/",
+          "headline": "Haushaltsberatungen: Milliarden für die Falschen",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T21:19:00+00:00",
-      "last_seen": "2026-11-22T21:19:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.1217
-    },
-    {
-      "id": "ba3ce00b8c",
-      "title": "Wie Freuding die Bundeswehr für den modernen Krieg rüsten will",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/plus6afee42bc1e8003ef73c43e7/designierter-generalinspekteur-wie-freuding-die-bundeswehr-fuer-den-modernen-krieg-ruesten-will.html",
-          "headline": "Wie Freuding die Bundeswehr für den modernen Krieg rüsten will",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-22T21:17:56+00:00",
-      "last_seen": "2026-11-22T21:17:56+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.1204
-    },
-    {
-      "id": "121dcee0fd",
-      "title": "„Der Glaube, dass der Markt es richtet, ist empirisch gescheitert“, sagt Linken-Politikerin Lay",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/vermischtes/article6b0346135842ff528b9e43ae/keine-talkshow-eingesperrt-mit-jan-fleischhauer-der-glaube-dass-der-markt-es-richtet-ist-empirisch-gescheitert-sagt-linken-politikerin-lay.html",
-          "headline": "„Der Glaube, dass der Markt es richtet, ist empirisch gescheitert“, sagt Linken-Politikerin Lay",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-22T21:06:52+00:00",
-      "last_seen": "2026-11-22T21:06:52+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.107
-    },
-    {
-      "id": "614e1849c6",
-      "title": "Captagon, Cannabis, Betäubungsmittel: Syrische Behörden vernichten tonnenweise konfiszierte Drogen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-11/syrien-drogen-captagon-baschar-al-assad",
-          "headline": "Captagon, Cannabis, Betäubungsmittel: Syrische Behörden vernichten tonnenweise konfiszierte Drogen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
+        "mean": -0.55,
         "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-22T20:58:16+00:00",
-      "last_seen": "2026-11-22T20:58:16+00:00",
+      "first_seen": "2026-11-23T18:44:00+00:00",
+      "last_seen": "2026-11-23T18:44:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
-      "topic": "world",
+      "topic": "economy",
       "language": "de",
-      "resonance": 0.0969
+      "resonance": 0.0537
     },
     {
-      "id": "669980b057",
-      "title": "Streit um Mineralbrunnen: Der Kulturkampf ums Trinkwasser",
+      "id": "c630f12817",
+      "title": "Debatte um Vanessa Emde: Ende für Emde?",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/wirtschaft/mineralwasser-in-deutschland-ein-kulturgut-unter-druck-201275604.html",
-          "headline": "Streit um Mineralbrunnen: Der Kulturkampf ums Trinkwasser",
+          "outlet": "taz",
+          "url": "https://taz.de/Debatte-um-Linken-Abgeordnete-Ende-fuer-Emde-in-dieser-Woche/!6232078/",
+          "headline": "Debatte um Vanessa Emde: Ende für Emde?",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T20:53:39+00:00",
-      "last_seen": "2026-11-22T20:53:39+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0915
-    },
-    {
-      "id": "4f51e1d51b",
-      "title": "Pochettino geht beim Debüt in Liverpool unter – starker Wirtz trifft",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/internationale-ligen/article6b0345af5842ff528b9e43a3/manchester-united-pochettino-geht-beim-debuet-in-liverpool-unter-starker-wirtz-trifft.html",
-          "headline": "Pochettino geht beim Debüt in Liverpool unter – starker Wirtz trifft",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-22T20:49:58+00:00",
-      "last_seen": "2026-11-22T20:49:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0873
-    },
-    {
-      "id": "bf0901d159",
-      "title": "\"Tatort\": Die ganze Wahrheit: Schon wieder ein heißer Cold Case aus Frankfurt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/leute/tv/Schon-wieder-ein-heisser-Cold-Case-aus-Frankfurt-id31547797.html",
-          "headline": "\"Tatort\": Die ganze Wahrheit: Schon wieder ein heißer Cold Case aus Frankfurt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T20:45:35+00:00",
-      "last_seen": "2026-11-22T20:45:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0823
-    },
-    {
-      "id": "5fa72b4731",
-      "title": "»Tatort« Frankfurt am Main: Ich dachte, ich sehe einen Geist",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/feuilleton/film/2026-11/tatort-frankfurt-ard-4-finger-azadi-kulina-iran",
-          "headline": "»Tatort« Frankfurt am Main: Ich dachte, ich sehe einen Geist",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
+        "mean": -0.55,
         "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-22T20:45:06+00:00",
-      "last_seen": "2026-11-22T20:45:06+00:00",
+      "first_seen": "2026-11-23T18:43:00+00:00",
+      "last_seen": "2026-11-23T18:43:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0817
+      "resonance": 0.05
     },
     {
-      "id": "974e3eab4d",
-      "title": "Libyen: Explosion auf russischem Schiff – ukrainischer Angriff vermutet",
+      "id": "6405364cb7",
+      "title": "Ukrainische Drohnen auf Nato-Gebiet: Nato verteidigt die Ostsee",
       "signal_count": 1,
       "sources": [
         {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/libyen-explosion-auf-russischem-schiff-ukrainischer-angriff-vermutet-a-bc74e064-fd7a-4770-aebd-0d742578cfeb#ref=rss",
-          "headline": "Libyen: Explosion auf russischem Schiff – ukrainischer Angriff vermutet",
+          "outlet": "taz",
+          "url": "https://taz.de/Ukrainische-Drohnen-auf-Nato-Gebiet/!6232448/",
+          "headline": "Ukrainische Drohnen auf Nato-Gebiet: Nato verteidigt die Ostsee",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T20:41:00+00:00",
-      "last_seen": "2026-11-22T20:41:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.0771
-    },
-    {
-      "id": "c9d9ede73d",
-      "title": "0:1 beim MSV Duisburg: Nach Unterbrechung: Hansa verliert Topspiel in Unterzahl",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/22/nach-unterbrechung-hansa-verliert-topspiel-in-unterzahl",
-          "headline": "0:1 beim MSV Duisburg: Nach Unterbrechung: Hansa verliert Topspiel in Unterzahl",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
+        "mean": -0.55,
         "spread": 0.0,
         "left": 1,
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-22T20:38:48+00:00",
-      "last_seen": "2026-11-22T20:38:48+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "sport",
-      "language": "de",
-      "resonance": 0.0746
-    },
-    {
-      "id": "c18d84115e",
-      "title": "Drohnenangriffe im Sudan: UN melden Angriff auf Wohngebiet in sudanesischer Hauptstadt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-11/sudan-drohnenangriffe-khartum-armee-rsf-un",
-          "headline": "Drohnenangriffe im Sudan: UN melden Angriff auf Wohngebiet in sudanesischer Hauptstadt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-22T20:32:04+00:00",
-      "last_seen": "2026-11-22T20:32:04+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.0671
-    },
-    {
-      "id": "98ace3380e",
-      "title": "Füllkrug liefert die Zugabe – Werder schießt den HSV im Nordderby ab",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/sport/fussball/HSV-geht-im-Nordderby-furchtbar-unter-id31564559.html",
-          "headline": "Werder feiert: HSV geht im Nordderby furchtbar unter",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/sport/fussball/bundesliga/article6b02f86025b618a0b5d5bf62/fuellkrug-liefert-die-zugabe-werder-schiesst-den-hsv-im-nordderby-ab.html",
-          "headline": "Füllkrug liefert die Zugabe – Werder schießt den HSV im Nordderby ab",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.15,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-11-22T16:23:29+00:00",
-      "last_seen": "2026-11-22T18:35:10+00:00",
+      "first_seen": "2026-11-23T18:43:00+00:00",
+      "last_seen": "2026-11-23T18:43:00+00:00",
       "platforms": [
         "rss"
       ],
@@ -957,21 +909,27 @@
   ],
   "edges": [
     {
-      "source": "d86e771e2a",
-      "target": "5cb9abde1c",
-      "weight": 0.202,
+      "source": "64f5a073d1",
+      "target": "06c86abd1d",
+      "weight": 0.004,
       "type": "thematic"
     },
     {
-      "source": "3c090f4d66",
-      "target": "98ace3380e",
-      "weight": 0.285,
+      "source": "fc248f1d76",
+      "target": "49c9c1d738",
+      "weight": 0.687,
       "type": "thematic"
     },
     {
-      "source": "bf0901d159",
-      "target": "5fa72b4731",
-      "weight": 0.287,
+      "source": "593221c6c5",
+      "target": "e5fe8973d9",
+      "weight": 0.159,
+      "type": "thematic"
+    },
+    {
+      "source": "49c9c1d738",
+      "target": "6405364cb7",
+      "weight": 0.229,
       "type": "thematic"
     }
   ],

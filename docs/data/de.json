@@ -1,757 +1,271 @@
 {
-  "generated_at": "2026-11-24T04:00:43.154812+00:00",
+  "generated_at": "2026-11-24T19:01:29.173349+00:00",
   "country_code": "de",
   "country_name": "Deutschland",
   "language": "de",
   "node_count": 30,
-  "edge_count": 15,
+  "edge_count": 4,
   "nodes": [
     {
-      "id": "f246ee15bd",
-      "title": "Chipexporte nach China: USA setzen Nvidia-Kunden Megaspeed auf schwarze Liste",
-      "signal_count": 3,
+      "id": "da79d7e9e3",
+      "title": "Berliner Linkenfraktion: Vanessa Emde ausgeschlossen",
+      "signal_count": 4,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/wirtschaft/2026-11/usa-handelssperre-schwarze-liste-megaspeed-nvidia-skandal-alice-huang-china-exportverbot",
-          "headline": "Chipexporte nach China: USA setzen Nvidia-Kunden Megaspeed auf schwarze Liste",
+          "url": "https://www.zeit.de/video/2026-11/berliner-linkenfraktion-vanessa-emde-ausgeschlossen",
+          "headline": "Berliner Linkenfraktion: Vanessa Emde ausgeschlossen",
+          "platform": "rss"
+        },
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Vanessa-Emde-aus-Fraktion-ausgeschlossen/!6232973/",
+          "headline": "Berliner Linke hat entschieden: Vanessa Emde aus Fraktion ausgeschlossen",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/politik/deutschland/vanessa-emde-berliner-linke-schliesst-umstrittene-politikerin-aus-fraktion-aus-a-d376bd08-93e1-46d3-86ec-a3f81025d59f#ref=rss",
+          "headline": "Vanessa Emde: Berliner Linke schließt umstrittene Politikerin aus Fraktion aus",
           "platform": "rss"
         },
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/politik/ausland/article6b04e6bd39a3e8110f0e96ce/megaspeed-usa-setzen-firma-in-nvidia-kontroverse-auf-schwarze-liste.html",
-          "headline": "USA setzen Firma in Nvidia-Kontroverse auf schwarze Liste",
+          "url": "https://www.welt.de/politik/deutschland/article6b05bc84460ead0fdbd80e7e/interne-abstimmung-vanessa-emde-wird-aus-berliner-linke-fraktion-ausgeschlossen-und-kritisiert-mediale-hetzkampagne.html",
+          "headline": "Vanessa Emde wird aus Berliner Linke-Fraktion ausgeschlossen – und kritisiert „mediale Hetzkampagne“",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.175,
+        "spread": 0.309,
+        "left": 2,
+        "center": 1,
+        "right": 1
+      },
+      "first_seen": "2026-11-24T16:35:46+00:00",
+      "last_seen": "2026-11-24T18:37:16+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.7074
+    },
+    {
+      "id": "0b50026ee5",
+      "title": "Regierungsbildung in Berlin: Abgeordnete Emde fliegt aus Berliner Linke-Fraktion",
+      "signal_count": 4,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-11/24/fraktionsausschluss-von-emde-berliner-linke-entscheidet",
+          "headline": "Regierungsbildung in Berlin: Abgeordnete Emde fliegt aus Berliner Linke-Fraktion",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/politik/linke-berlin-koalitionsverhandlungen-vanessa-emde-elif-eralp-li.3585338",
+          "headline": "Regierungsbildung in Berlin: Ende für Emde – Linksfraktion schließt Abgeordnete aus",
           "platform": "rss"
         },
         {
           "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/international/nvidia-skandal-usa-setzen-chip-firma-megaspeed-wegen-spionageverdachts-auf-sperrliste/100272205.html",
-          "headline": "Nvidia-Skandal: USA setzen Chip-Firma Megaspeed wegen Spionageverdachts auf Sperrliste",
+          "url": "https://www.handelsblatt.com/politik/deutschland/vanessa-emde-berliner-linke-fraktion-schliesst-umstrittene-abgeordnete-aus/100271178.html",
+          "headline": "Abgeordnetenhaus: Berliner Linke schließt umstrittene Abgeordnete Emde aus Fraktion aus",
+          "platform": "rss"
+        },
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Umstrittene-Abgeordnete-Emde-aus-Berliner-Linksfraktion-ausgeschlossen-id31573134.html",
+          "headline": "Klare Mehrheit gegen Abgeordnete: Berliner Linksfraktion schließt umstrittene Vanessa Emde aus",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.087,
+        "spread": 0.175,
+        "left": 1,
+        "center": 3,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T16:34:01+00:00",
+      "last_seen": "2026-11-24T18:16:19+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.681
+    },
+    {
+      "id": "bd5e9ee877",
+      "title": "Berlin: Links ist an Vanessa Emde nichts",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/meinung/vanessa-emde-linke-berlin-kommentar-li.3585568",
+          "headline": "Berlin: Links ist an Vanessa Emde nichts",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Welt",
+          "url": "https://www.welt.de/videos/video6b05c120d4a4a3142c571f76/ausschlussverfahren-gegen-emde-emde-fliegt-aus-links-fraktion.html",
+          "headline": "Emde fliegt aus Links-Fraktion",
           "platform": "rss"
         }
       ],
       "bias": {
         "mean": 0.05,
-        "spread": 0.255,
-        "left": 1,
+        "spread": 0.25,
+        "left": 0,
         "center": 1,
         "right": 1
       },
-      "first_seen": "2026-11-23T23:16:27+00:00",
-      "last_seen": "2026-11-24T01:54:37+00:00",
+      "first_seen": "2026-11-24T17:00:08+00:00",
+      "last_seen": "2026-11-24T18:28:04+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.6168
+      "resonance": 0.3615
     },
     {
-      "id": "b98f5cdaf2",
-      "title": "Fronten verhärtet: IG Metall und VW starten Tarifverhandlungen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/24/ig-metall-und-vw-starten-tarifverhandlungen",
-          "headline": "Fronten verhärtet: IG Metall und VW starten Tarifverhandlungen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:45:05+00:00",
-      "last_seen": "2026-11-24T03:45:05+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "9474892db1",
-      "title": "Deutsche wollen mehr Diplomatie: Umfrage: Mehrheit gegen militärische Ukraine-Unterstützung",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Umfrage-Mehrheit-gegen-militaerische-Ukraine-Unterstuetzung-id31569373.html",
-          "headline": "Deutsche wollen mehr Diplomatie: Umfrage: Mehrheit gegen militärische Ukraine-Unterstützung",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.0,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:37:32+00:00",
-      "last_seen": "2026-11-24T03:37:32+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "e79836f2ee",
-      "title": "Krieg gegen die Ukraine: Polen bittet Visegrád-Staaten um Unterstützung",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-          "headline": "Krieg gegen die Ukraine: Polen bittet Visegrád-Staaten um Unterstützung",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:32:37+00:00",
-      "last_seen": "2026-11-24T03:32:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "conflict",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "0208e71878",
-      "title": "Selbstzweifel: Ich bin halt keine zehn von zehn. Und jetzt?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/besser-leben/psychologie/ich-bin-halt-keine-zehn-von-zehn-wie-man-mit-mangelnder-selbstliebe-umgeht-accg-201623271.html",
-          "headline": "Selbstzweifel: Ich bin halt keine zehn von zehn. Und jetzt?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:31:58+00:00",
-      "last_seen": "2026-11-24T03:31:58+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "6b228ad4fc",
-      "title": "Autodiebstahl: Weniger Autodiebstähle in Sachsen-Anhalt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/24/weniger-autodiebstaehle-in-sachsen-anhalt",
-          "headline": "Autodiebstahl: Weniger Autodiebstähle in Sachsen-Anhalt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:30:37+00:00",
-      "last_seen": "2026-11-24T03:30:37+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "8a88357e5d",
-      "title": "Kriminalität: Hamburg hat zweithöchste Autodiebstahl-Rate",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/24/hamburg-hat-zweithoechste-autodiebstahl-rate",
-          "headline": "Kriminalität: Hamburg hat zweithöchste Autodiebstahl-Rate",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:30:36+00:00",
-      "last_seen": "2026-11-24T03:30:36+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "society",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "8385f9daa6",
-      "title": "Diebstahlreport: Wo die Zahl der Autodiebstähle entgegen dem Trend steigt",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/24/wo-die-zahl-der-autodiebstaehle-entgegen-dem-trend-steigt",
-          "headline": "Diebstahlreport: Wo die Zahl der Autodiebstähle entgegen dem Trend steigt",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:30:34+00:00",
-      "last_seen": "2026-11-24T03:30:34+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "c4ea030658",
-      "title": "Autodiebe: Versicherer: Zahl der Autodiebstähle in Hessen geht zurück",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/24/versicherer-zahl-der-autodiebstaehle-in-hessen-geht-zurueck",
-          "headline": "Autodiebe: Versicherer: Zahl der Autodiebstähle in Hessen geht zurück",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:30:30+00:00",
-      "last_seen": "2026-11-24T03:30:30+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "e1843008a8",
-      "title": "Regierungsbildung in Berlin: Fraktionsausschluss von Emde? – Berliner Linke entscheidet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/24/fraktionsausschluss-von-emde-berliner-linke-entscheidet",
-          "headline": "Regierungsbildung in Berlin: Fraktionsausschluss von Emde? – Berliner Linke entscheidet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:30:29+00:00",
-      "last_seen": "2026-11-24T03:30:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "c270c9b47b",
-      "title": "Statistik der Versicherer: Deshalb werden in Baden-Württemberg weniger Autos geklaut",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/24/deshalb-werden-in-baden-wuerttemberg-weniger-autos-geklaut",
-          "headline": "Statistik der Versicherer: Deshalb werden in Baden-Württemberg weniger Autos geklaut",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:30:28+00:00",
-      "last_seen": "2026-11-24T03:30:28+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "e942d0e261",
-      "title": "Autodiebstähle: Viel weniger Autos in Deutschland gestohlen",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/news/2026-11/24/viel-weniger-autos-in-deutschland-gestohlen",
-          "headline": "Autodiebstähle: Viel weniger Autos in Deutschland gestohlen",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:30:27+00:00",
-      "last_seen": "2026-11-24T03:30:27+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "f92375bf00",
-      "title": "Internationaler Gerichtshof: Großbritannien verhängt Sanktionen gegen Myanmar nach Völkermordurteil",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/ausland/2026-11/igh-myanmar-rohingya-voelkermord-urteil",
-          "headline": "Internationaler Gerichtshof: Großbritannien verhängt Sanktionen gegen Myanmar nach Völkermordurteil",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.3,
-        "spread": 0.0,
-        "left": 1,
-        "center": 0,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:29:29+00:00",
-      "last_seen": "2026-11-24T03:29:29+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "946f4a9b91",
-      "title": "Sicherheit: Sorge um Tarnkonten verdeckter Ermittler – Datenleck bei Deutscher Bank hat Nachspiel im Bundestag",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/sicherheit-datenleck-bei-deutscher-bank-hat-parlamentarisches-nachspiel/100271859.html",
-          "headline": "Sicherheit: Sorge um Tarnkonten verdeckter Ermittler – Datenleck bei Deutscher Bank hat Nachspiel im Bundestag",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:09:12+00:00",
-      "last_seen": "2026-11-24T03:09:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "161969e2f2",
-      "title": "Bundeshaushalt: Rechnung mit Risiken: Beim Haushalt 2027 wird Klingbeil zum Schulden-Trickser",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/politik/deutschland/bundeshaushalt-beim-haushalt-2027-wird-klingbeil-zum-schulden-trickser/100270651.html",
-          "headline": "Bundeshaushalt: Rechnung mit Risiken: Beim Haushalt 2027 wird Klingbeil zum Schulden-Trickser",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:07:35+00:00",
-      "last_seen": "2026-11-24T03:07:35+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "3fbb6c4a3f",
-      "title": "Riester-Reform: Altersvorsorgedepot: Kunden wollen Sicherheit, Lebensversicherer setzen auf Risiko",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/altersvorsorgedepot-kunden-wollen-sicherheit-versicherer-setzen-auf-risiko/100270328.html",
-          "headline": "Riester-Reform: Altersvorsorgedepot: Kunden wollen Sicherheit, Lebensversicherer setzen auf Risiko",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:05:11+00:00",
-      "last_seen": "2026-11-24T03:05:11+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "bfe0a30f85",
-      "title": "Volkswagen: VW will frühere Lohnzusagen kassieren – was jetzt im Tarifkampf droht",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-vw-will-fruehere-lohnzusagen-kassieren-was-jetzt-im-tarifkampf-droht/100270475.html",
-          "headline": "Volkswagen: VW will frühere Lohnzusagen kassieren – was jetzt im Tarifkampf droht",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:02:54+00:00",
-      "last_seen": "2026-11-24T03:02:54+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "63152c98fa",
-      "title": "M&A-Markt: Amerikas Griff nach deutschen Konzernen – droht der Ausverkauf?",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/industrie-amerikas-griff-nach-deutschen-konzernen-droht-der-ausverkauf/100270590.html",
-          "headline": "M&A-Markt: Amerikas Griff nach deutschen Konzernen – droht der Ausverkauf?",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T03:01:17+00:00",
-      "last_seen": "2026-11-24T03:01:17+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "economy",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "6d5cfca25b",
-      "title": "Kommentar: Der „Trump-Put“ ist zurück",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/meinung/kommentar-der-trump-put-ist-zurueck/100272213.html",
-          "headline": "Kommentar: Der „Trump-Put“ ist zurück",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T02:58:03+00:00",
-      "last_seen": "2026-11-24T02:58:03+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "786b48c6dc",
-      "title": "USA: Zurück bei Nvidia, bald vor dem Kongress – Jensen Huangs heikle Tage in Washington",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Handelsblatt",
-          "url": "https://www.handelsblatt.com/technik/ki/usa-zurueck-bei-nvidia-bald-vor-dem-kongress-huangs-heikle-tage-in-washington/100272147.html",
-          "headline": "USA: Zurück bei Nvidia, bald vor dem Kongress – Jensen Huangs heikle Tage in Washington",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T02:55:12+00:00",
-      "last_seen": "2026-11-24T02:55:12+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "c80c376beb",
-      "title": "USA: Donald Trump und Gavin Newsom streiten über Todesstrafe",
-      "signal_count": 1,
+      "id": "c54439df80",
+      "title": "Gewalt gegen Frauen: Diese Gesellschaft ist zu abgestumpft",
+      "signal_count": 2,
       "sources": [
         {
           "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/usa-donald-trump-und-gavin-newsom-streiten-ueber-todesstrafe-a-f9799628-f33a-4ec5-b6d7-85587a82a2e4#ref=rss",
-          "headline": "USA: Donald Trump und Gavin Newsom streiten über Todesstrafe",
+          "url": "https://www.spiegel.de/panorama/gewalt-gegen-frauen-diese-gesellschaft-ist-zu-abgestumpft-a-9631b2b7-4c13-49d2-85b5-885fde313f92#ref=rss",
+          "headline": "Gewalt gegen Frauen: Diese Gesellschaft ist zu abgestumpft",
           "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T02:42:00+00:00",
-      "last_seen": "2026-11-24T02:42:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "a93ef09e37",
-      "title": "Deutsche Doku über gestohlenen Film mit Emmy ausgezeichnet",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/kultur/article6b04f21439a3e8110f0e96f4/new-york-deutsche-doku-ueber-gestohlenen-film-mit-emmy-ausgezeichnet.html",
-          "headline": "Deutsche Doku über gestohlenen Film mit Emmy ausgezeichnet",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-24T02:37:38+00:00",
-      "last_seen": "2026-11-24T02:37:38+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.28
-    },
-    {
-      "id": "87429c3c4e",
-      "title": "Südkorea: Russische Flugzeuge lösen Evakuierungswarnung auf Insel aus",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/suedkorea-russische-flugzeuge-loesen-evakuierungswarnung-auf-insel-aus-a-3cbbbe29-0c01-4678-8af4-26f97a9f33db#ref=rss",
-          "headline": "Südkorea: Russische Flugzeuge lösen Evakuierungswarnung auf Insel aus",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": -0.15,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T02:17:00+00:00",
-      "last_seen": "2026-11-24T02:17:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.2781
-    },
-    {
-      "id": "332bfa8e07",
-      "title": "Rede im Justizministerium: Trumps Mitleid für die Opfer von „Newsoms Monstern“",
-      "signal_count": 1,
-      "sources": [
+        },
         {
           "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/politik/usa-unter-trump/wie-trump-gavin-newsom-wegen-der-todesstrafe-attackierte-accg-201710960.html",
-          "headline": "Rede im Justizministerium: Trumps Mitleid für die Opfer von „Newsoms Monstern“",
+          "url": "https://www.faz.net/aktuell/politik/inland/anstieg-der-gewalt-gegen-frauen-gleichstellung-ist-kein-nullsummenspiel-201712963.html",
+          "headline": "Gewalt gegen Frauen: Gleichstellung ist kein Nullsummenspiel",
           "platform": "rss"
         }
       ],
       "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
+        "mean": 0.025,
+        "spread": 0.175,
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0
       },
-      "first_seen": "2026-11-24T01:14:00+00:00",
-      "last_seen": "2026-11-24T01:14:00+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.1488
-    },
-    {
-      "id": "57f91d991f",
-      "title": "Steven Spielberg dreht zum ersten Mal einen Western – mit hochkarätiger Besetzung",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/kultur/article6b04db4a5842ff528b9e663c/hollywood-steven-spielberg-dreht-zum-ersten-mal-einen-western-mit-hochkaraetiger-besetzung.html",
-          "headline": "Steven Spielberg dreht zum ersten Mal einen Western – mit hochkarätiger Besetzung",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.3,
-        "spread": 0.0,
-        "left": 0,
-        "center": 0,
-        "right": 1
-      },
-      "first_seen": "2026-11-24T00:55:43+00:00",
-      "last_seen": "2026-11-24T00:55:43+00:00",
+      "first_seen": "2026-11-24T16:20:46+00:00",
+      "last_seen": "2026-11-24T17:37:00+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "sport",
       "language": "de",
-      "resonance": 0.1146
+      "resonance": 0.2661
     },
     {
-      "id": "95fb4b0cc7",
-      "title": "Putins Armee der Toten: Was Russlands Sterbeakten verraten",
+      "id": "8f9e68802f",
+      "title": "Finale Haushaltswoche im Bundestag: Im nächsten Jahr soll wirklich gespart werden …",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Finale-Haushaltswoche-im-Bundestag/!6232740/",
+          "headline": "Finale Haushaltswoche im Bundestag: Im nächsten Jahr soll wirklich gespart werden …",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.55,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:58:00+00:00",
+      "last_seen": "2026-11-24T18:58:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.1647
+    },
+    {
+      "id": "6f9e045087",
+      "title": "Entwicklungszusammenarbeit: Gefährliche Lücken",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Entwicklungszusammenarbeit/!6232764/",
+          "headline": "Entwicklungszusammenarbeit: Gefährliche Lücken",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.55,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:57:00+00:00",
+      "last_seen": "2026-11-24T18:57:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1623
+    },
+    {
+      "id": "354e749ada",
+      "title": "Sylvester-Stallone-Film „I Play Rocky“: Er will gesehen werden",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Sylvester-Stallone-Making-Of-Film-I-Play-Rocky-Der-muehsame-Aufstieg-zum-Hollywoodstar/!6232403/",
+          "headline": "Sylvester-Stallone-Film „I Play Rocky“: Er will gesehen werden",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.55,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:56:00+00:00",
+      "last_seen": "2026-11-24T18:56:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.16
+    },
+    {
+      "id": "6609fd2293",
+      "title": "1946 in Travemünde gebaut: Schiff aus ARD-Krimiserie sinkt auf Fehmarn",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "n-tv",
-          "url": "https://www.n-tv.de/politik/Tod-in-der-Ukraine-Was-die-Rosstat-Daten-verraten-id31569126.html",
-          "headline": "Putins Armee der Toten: Was Russlands Sterbeakten verraten",
+          "url": "https://www.n-tv.de/leute/Schiff-aus-ARD-Krimiserie-sinkt-auf-Fehmarn-id31573455.html",
+          "headline": "1946 in Travemünde gebaut: Schiff aus ARD-Krimiserie sinkt auf Fehmarn",
           "platform": "rss"
         }
       ],
@@ -762,54 +276,25 @@
         "center": 1,
         "right": 0
       },
-      "first_seen": "2026-11-24T00:49:44+00:00",
-      "last_seen": "2026-11-24T00:49:44+00:00",
+      "first_seen": "2026-11-24T18:53:49+00:00",
+      "last_seen": "2026-11-24T18:53:49+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.1037
+      "resonance": 0.1548
     },
     {
-      "id": "927143969d",
-      "title": "Business-Ticker: Trump postet bizarre Fotomontage zu Huang-Rückkehr",
-      "signal_count": 1,
-      "sources": [
-        {
-          "outlet": "FAZ",
-          "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-trump-postet-bizarre-fotomontage-zu-huang-rueckkehr-faz-200452404.html",
-          "headline": "Business-Ticker: Trump postet bizarre Fotomontage zu Huang-Rückkehr",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.2,
-        "spread": 0.0,
-        "left": 0,
-        "center": 1,
-        "right": 0
-      },
-      "first_seen": "2026-11-24T00:43:24+00:00",
-      "last_seen": "2026-11-24T00:43:24+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "world",
-      "language": "de",
-      "resonance": 0.0923
-    },
-    {
-      "id": "dd28897c0d",
-      "title": "Sexismus in Bundesbehörden: Bundesinnenminister lehnt Dunkelfeldstudie für Polizei ab",
+      "id": "4b9107630f",
+      "title": "Rudy Giuliani: Trump verleiht Rudy Giuliani höchste zivile Auszeichnung der USA",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Die Zeit",
-          "url": "https://www.zeit.de/politik/deutschland/2026-11/sexismus-bundeskriminalamt-bka-bundespolizei-polizei",
-          "headline": "Sexismus in Bundesbehörden: Bundesinnenminister lehnt Dunkelfeldstudie für Polizei ab",
+          "url": "https://www.zeit.de/politik/ausland/2026-11/rudy-giuliani-freiheitsmedaille-donald-trump-9-11",
+          "headline": "Rudy Giuliani: Trump verleiht Rudy Giuliani höchste zivile Auszeichnung der USA",
           "platform": "rss"
         }
       ],
@@ -820,60 +305,292 @@
         "center": 0,
         "right": 0
       },
-      "first_seen": "2026-11-24T00:30:57+00:00",
-      "last_seen": "2026-11-24T00:30:57+00:00",
-      "platforms": [
-        "rss"
-      ],
-      "geo_regions": [],
-      "topic": "politics",
-      "language": "de",
-      "resonance": 0.0703
-    },
-    {
-      "id": "6b47e085f7",
-      "title": "Nato verstärkt Kontrolle von Polens Luftraum - verlegt Awacs-Frühwarnflugzeug",
-      "signal_count": 2,
-      "sources": [
-        {
-          "outlet": "Der Spiegel",
-          "url": "https://www.spiegel.de/ausland/nato-verstaerkt-kontrolle-von-polens-luftraum-verlegt-awacs-fruehwarnflugzeug-a-a1541387-9b0d-4e4f-a179-60f84dd226cf#ref=rss",
-          "headline": "Nato verstärkt Kontrolle von Polens Luftraum - verlegt Awacs-Frühwarnflugzeug",
-          "platform": "rss"
-        },
-        {
-          "outlet": "Welt",
-          "url": "https://www.welt.de/politik/ausland/article6b049f56619e3d0ef1eedca6/nato-ostflanke-nato-verlegt-awacs-flugzeug-nach-polen-und-verstaerkt-luftraumueberwachung.html",
-          "headline": "Nato verlegt Awacs-Flugzeug nach Polen und verstärkt Luftraumüberwachung",
-          "platform": "rss"
-        }
-      ],
-      "bias": {
-        "mean": 0.075,
-        "spread": 0.225,
-        "left": 0,
-        "center": 1,
-        "right": 1
-      },
-      "first_seen": "2026-11-23T20:24:54+00:00",
-      "last_seen": "2026-11-23T21:35:00+00:00",
+      "first_seen": "2026-11-24T18:48:41+00:00",
+      "last_seen": "2026-11-24T18:48:41+00:00",
       "platforms": [
         "rss"
       ],
       "geo_regions": [],
       "topic": "world",
       "language": "de",
-      "resonance": 0.0551
+      "resonance": 0.1427
     },
     {
-      "id": "3973072dfd",
-      "title": "Brantner sieht Kenia-Koalition skeptisch und fordert Ausschluss von Emde aus Linke-Fraktion",
+      "id": "132ccc7d59",
+      "title": "Lücken bei der Abwehr: Kreml-Raketen über Polen: \"Die Eskalation ist klar erkennbar\"",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Kreml-Raketen-ueber-Polen-Die-Eskalation-ist-klar-erkennbar-id31571704.html",
+          "headline": "Lücken bei der Abwehr: Kreml-Raketen über Polen: \"Die Eskalation ist klar erkennbar\"",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:47:09+00:00",
+      "last_seen": "2026-11-24T18:47:09+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.1391
+    },
+    {
+      "id": "cf1e0cea2f",
+      "title": "Feuerwehreinsatz: Bagger beschädigt Gasleitung",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-11/24/bagger-beschaedigt-gasleitung",
+          "headline": "Feuerwehreinsatz: Bagger beschädigt Gasleitung",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:41:00+00:00",
+      "last_seen": "2026-11-24T18:41:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.1249
+    },
+    {
+      "id": "ee48136c26",
+      "title": "EU-Kommission: EU fordert von Deutschland Nachbesserungen beim Bundeshaushalt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/2026-11/eu-kommission-deutschland-nettoausgaben-bundeshaushalt-2027",
+          "headline": "EU-Kommission: EU fordert von Deutschland Nachbesserungen beim Bundeshaushalt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:39:49+00:00",
+      "last_seen": "2026-11-24T18:39:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "economy",
+      "language": "de",
+      "resonance": 0.1222
+    },
+    {
+      "id": "c27e93b236",
+      "title": "Feuer in Lagerhalle: Lagerhalle von Düngemittelwerk in Poppendorf brennt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-11/24/lagerhalle-von-duengemittelwerk-in-poppendorf-brennt",
+          "headline": "Feuer in Lagerhalle: Lagerhalle von Düngemittelwerk in Poppendorf brennt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:33:33+00:00",
+      "last_seen": "2026-11-24T18:33:33+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.108
+    },
+    {
+      "id": "63e8a34bad",
+      "title": "Schwerte: Acht Verletzte nach Angriff auf Grünen-Büro mit Pfefferspray",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/panorama/justiz/schwerte-acht-verletzte-nach-angriff-auf-gruenen-buero-mit-pfefferspray-a-f2dc573c-07c7-42b8-a5bb-75de5e000e7e#ref=rss",
+          "headline": "Schwerte: Acht Verletzte nach Angriff auf Grünen-Büro mit Pfefferspray",
+          "platform": "rss"
+        },
+        {
+          "outlet": "taz",
+          "url": "https://taz.de/Anschlag-auf-Parteibuero-in-Schwerte/!6232806/",
+          "headline": "Anschlag auf Parteibüro in Schwerte: Acht Verletzte bei Angriff auf Grüne",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.35,
+        "spread": 0.2,
+        "left": 1,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T15:01:00+00:00",
+      "last_seen": "2026-11-24T16:45:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "politics",
+      "language": "de",
+      "resonance": 0.0982
+    },
+    {
+      "id": "c9971299c6",
+      "title": "Krieg gegen die Ukraine: Ukraine benötigt 2027 Finanzhilfen in Höhe von 115 Milliarden Euro",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+          "headline": "Krieg gegen die Ukraine: Ukraine benötigt 2027 Finanzhilfen in Höhe von 115 Milliarden Euro",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:28:43+00:00",
+      "last_seen": "2026-11-24T18:28:43+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.0971
+    },
+    {
+      "id": "b648783802",
+      "title": "Schach-WM: Weltmeister Gukesh zieht gegen Sindarovs Angriffe die Berliner Verteidigung hoch",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Der Spiegel",
+          "url": "https://www.spiegel.de/sport/schach/schach-wm-weltmeister-gukesh-zieht-gegen-sindarovs-angriffe-die-berliner-verteidigung-hoch-a-1736af5a-6811-4b0a-afc9-3373ecc7cf1f#ref=rss",
+          "headline": "Schach-WM: Weltmeister Gukesh zieht gegen Sindarovs Angriffe die Berliner Verteidigung hoch",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.15,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:28:00+00:00",
+      "last_seen": "2026-11-24T18:28:00+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.0955
+    },
+    {
+      "id": "8032701b7e",
+      "title": "Deutsche Arznei: Bayer probt den Medikamenten-Boykott",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/deutsche-arznei-nicht-fuer-den-deutschen-markt-bayer-probt-den-medikamenten-boykott-201712417.html",
+          "headline": "Deutsche Arznei: Bayer probt den Medikamenten-Boykott",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:26:03+00:00",
+      "last_seen": "2026-11-24T18:26:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0912
+    },
+    {
+      "id": "9625da55cd",
+      "title": "Raketen und Feuerleitstände: Deutschland verstärkt seine Luftverteidigung",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/politik/Deutschland-verstaerkt-seine-Luftverteidigung-id31573218.html",
+          "headline": "Raketen und Feuerleitstände: Deutschland verstärkt seine Luftverteidigung",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:25:23+00:00",
+      "last_seen": "2026-11-24T18:25:23+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "conflict",
+      "language": "de",
+      "resonance": 0.0897
+    },
+    {
+      "id": "ffc3a2e876",
+      "title": "„Liegt vor allem daran, dass der Bund viele kleine Ideen hatte, die die Stadt mitfinanzieren musste“",
       "signal_count": 1,
       "sources": [
         {
           "outlet": "Welt",
-          "url": "https://www.welt.de/politik/deutschland/article6b04d3d339a3e8110f0e96b0/berlin-brantner-sieht-kenia-koalition-skeptisch-und-fordert-ausschluss-von-emde-aus-linke-fraktion.html",
-          "headline": "Brantner sieht Kenia-Koalition skeptisch und fordert Ausschluss von Emde aus Linke-Fraktion",
+          "url": "https://www.welt.de/videos/video6b05cfcdcd4642ba2eb1767a/muenchen-ist-fast-pleite-liegt-vor-allem-daran-dass-der-bund-viele-kleine-ideen-hatte-die-die-stadt-mitfinanzieren-musste.html",
+          "headline": "„Liegt vor allem daran, dass der Bund viele kleine Ideen hatte, die die Stadt mitfinanzieren musste“",
           "platform": "rss"
         }
       ],
@@ -884,8 +601,333 @@
         "center": 0,
         "right": 1
       },
-      "first_seen": "2026-11-24T00:19:08+00:00",
-      "last_seen": "2026-11-24T00:19:08+00:00",
+      "first_seen": "2026-11-24T18:25:17+00:00",
+      "last_seen": "2026-11-24T18:25:17+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0895
+    },
+    {
+      "id": "14135fba0f",
+      "title": "Unfall: Verkehr stockt wegen Baumfällarbeiten – Mann fährt auf",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-11/24/verkehr-stockt-wegen-baumfaellarbeiten-mann-faehrt-auf",
+          "headline": "Unfall: Verkehr stockt wegen Baumfällarbeiten – Mann fährt auf",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:25:03+00:00",
+      "last_seen": "2026-11-24T18:25:03+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.089
+    },
+    {
+      "id": "7a99dbf004",
+      "title": "Deutschland Liveblog: Emde: Mediale Hetzkampagne hat Wirkung gezeigt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-emde-mediale-hetzkampagne-hat-wirkung-gezeigt-faz-110093143.html",
+          "headline": "Deutschland Liveblog: Emde: Mediale Hetzkampagne hat Wirkung gezeigt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:24:11+00:00",
+      "last_seen": "2026-11-24T18:24:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0871
+    },
+    {
+      "id": "072a80a6d3",
+      "title": "Neue Namen für alte Klassiker: Twix, Capri-Sun, Fairy: Diese Produkte hießen früher anders",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/ratgeber/Twix-Capri-Sun-Fairy-Diese-Produkte-hiessen-frueher-anders-id31571205.html",
+          "headline": "Neue Namen für alte Klassiker: Twix, Capri-Sun, Fairy: Diese Produkte hießen früher anders",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:17:45+00:00",
+      "last_seen": "2026-11-24T18:17:45+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.073
+    },
+    {
+      "id": "2dd96c1e22",
+      "title": "Lebenserfahrungen: Was haben Sie über sich selbst gelernt, was Ihr Leben verändert hat?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/gesundheit/2026-11/lebenserfahrungen-veraenderung-entwicklung-zufriedenheit-aufruf",
+          "headline": "Lebenserfahrungen: Was haben Sie über sich selbst gelernt, was Ihr Leben verändert hat?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:12:53+00:00",
+      "last_seen": "2026-11-24T18:12:53+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0625
+    },
+    {
+      "id": "09cd629b81",
+      "title": "Genesung \"nicht wie erhofft\": Jannik Sinner verkündet erfolgreiche Operation am Knie",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/tennis/Jannik-Sinner-verkuendet-erfolgreiche-Operation-am-Knie-id31573314.html",
+          "headline": "Genesung \"nicht wie erhofft\": Jannik Sinner verkündet erfolgreiche Operation am Knie",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:12:49+00:00",
+      "last_seen": "2026-11-24T18:12:49+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0623
+    },
+    {
+      "id": "09899fbcfa",
+      "title": "Poulet de Bresse: Ein Huhn und 97 Jahre Sterne",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/zeit-magazin/2026/50/poulet-de-bresse-sahne-georges-blanc-rezept",
+          "headline": "Poulet de Bresse: Ein Huhn und 97 Jahre Sterne",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:12:37+00:00",
+      "last_seen": "2026-11-24T18:12:37+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0619
+    },
+    {
+      "id": "59ed42218c",
+      "title": "Jensen Huang: Warum braucht es ihn so dringend?",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/digital/internet/2026-11/jensen-huang-nvidia-ceo-aktienmarkt",
+          "headline": "Jensen Huang: Warum braucht es ihn so dringend?",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:11:11+00:00",
+      "last_seen": "2026-11-24T18:11:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0588
+    },
+    {
+      "id": "bfffc355bb",
+      "title": "Champions League: «Unglaubliche Geschichte»: Hoeneß schwärmt vom San Siro",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "Die Zeit",
+          "url": "https://www.zeit.de/news/2026-11/24/unglaubliche-geschichte-hoeness-schwaermt-vom-san-siro",
+          "headline": "Champions League: «Unglaubliche Geschichte»: Hoeneß schwärmt vom San Siro",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": -0.3,
+        "spread": 0.0,
+        "left": 1,
+        "center": 0,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:10:11+00:00",
+      "last_seen": "2026-11-24T18:10:11+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0567
+    },
+    {
+      "id": "7dd50bc765",
+      "title": "Liveblog Ukrainekrieg: Selenskyj: USA wollen Frieden bis Januar erreichen",
+      "signal_count": 2,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-selenskyj-usa-wollen-frieden-bis-januar-erreichen-faz-110683325.html",
+          "headline": "Liveblog Ukrainekrieg: Selenskyj: USA wollen Frieden bis Januar erreichen",
+          "platform": "rss"
+        },
+        {
+          "outlet": "Süddeutsche",
+          "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-selenskij-frieden-russland-usa-forderungen-li.3571967",
+          "headline": "Krieg in der Ukraine: Selenskij: USA wollen Friedensschluss mit Russland bis Januar",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.2,
+        "left": 0,
+        "center": 2,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T15:15:00+00:00",
+      "last_seen": "2026-11-24T15:35:57+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "tech",
+      "language": "de",
+      "resonance": 0.0552
+    },
+    {
+      "id": "3305140601",
+      "title": "Davis-Cup-Finals in Bologna: Wie das Tennis seinen größten Team-Wettbewerb zerstörte",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "n-tv",
+          "url": "https://www.n-tv.de/sport/Wie-das-Tennis-seinen-groessten-Team-Wettbewerb-zerstoerte-id31571024.html",
+          "headline": "Davis-Cup-Finals in Bologna: Wie das Tennis seinen größten Team-Wettbewerb zerstörte",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.0,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:09:05+00:00",
+      "last_seen": "2026-11-24T18:09:05+00:00",
+      "platforms": [
+        "rss"
+      ],
+      "geo_regions": [],
+      "topic": "world",
+      "language": "de",
+      "resonance": 0.0544
+    },
+    {
+      "id": "2ac837a9bf",
+      "title": "Fraktionsausschluss: Emde ist raus, der Extremismus bleibt",
+      "signal_count": 1,
+      "sources": [
+        {
+          "outlet": "FAZ",
+          "url": "https://www.faz.net/aktuell/politik/inland/emdes-ausschluss-aus-der-linksfraktion-loest-das-problem-nicht-201714240.html",
+          "headline": "Fraktionsausschluss: Emde ist raus, der Extremismus bleibt",
+          "platform": "rss"
+        }
+      ],
+      "bias": {
+        "mean": 0.2,
+        "spread": 0.0,
+        "left": 0,
+        "center": 1,
+        "right": 0
+      },
+      "first_seen": "2026-11-24T18:07:02+00:00",
+      "last_seen": "2026-11-24T18:07:02+00:00",
       "platforms": [
         "rss"
       ],
@@ -897,93 +939,27 @@
   ],
   "edges": [
     {
-      "source": "f246ee15bd",
-      "target": "3fbb6c4a3f",
-      "weight": 0.215,
+      "source": "da79d7e9e3",
+      "target": "0b50026ee5",
+      "weight": 0.314,
       "type": "thematic"
     },
     {
-      "source": "f246ee15bd",
-      "target": "786b48c6dc",
-      "weight": 0.064,
+      "source": "da79d7e9e3",
+      "target": "bd5e9ee877",
+      "weight": 0.699,
       "type": "thematic"
     },
     {
-      "source": "9474892db1",
-      "target": "e79836f2ee",
-      "weight": 0.793,
+      "source": "0b50026ee5",
+      "target": "bd5e9ee877",
+      "weight": 0.395,
       "type": "thematic"
     },
     {
-      "source": "6b228ad4fc",
-      "target": "8a88357e5d",
-      "weight": 0.054,
-      "type": "thematic"
-    },
-    {
-      "source": "6b228ad4fc",
-      "target": "8385f9daa6",
-      "weight": 0.238,
-      "type": "thematic"
-    },
-    {
-      "source": "6b228ad4fc",
-      "target": "c4ea030658",
-      "weight": 0.231,
-      "type": "thematic"
-    },
-    {
-      "source": "6b228ad4fc",
-      "target": "e942d0e261",
-      "weight": 0.829,
-      "type": "thematic"
-    },
-    {
-      "source": "8385f9daa6",
-      "target": "c4ea030658",
-      "weight": 0.525,
-      "type": "thematic"
-    },
-    {
-      "source": "8385f9daa6",
-      "target": "e942d0e261",
-      "weight": 0.165,
-      "type": "thematic"
-    },
-    {
-      "source": "c4ea030658",
-      "target": "e942d0e261",
-      "weight": 0.159,
-      "type": "thematic"
-    },
-    {
-      "source": "c4ea030658",
-      "target": "6d5cfca25b",
-      "weight": 0.424,
-      "type": "thematic"
-    },
-    {
-      "source": "c4ea030658",
-      "target": "786b48c6dc",
-      "weight": 0.047,
-      "type": "thematic"
-    },
-    {
-      "source": "e1843008a8",
-      "target": "3973072dfd",
-      "weight": 0.231,
-      "type": "thematic"
-    },
-    {
-      "source": "c270c9b47b",
-      "target": "e942d0e261",
-      "weight": 0.287,
-      "type": "thematic"
-    },
-    {
-      "source": "6d5cfca25b",
-      "target": "786b48c6dc",
-      "weight": 0.24,
+      "source": "6f9e045087",
+      "target": "132ccc7d59",
+      "weight": 0.004,
       "type": "thematic"
     }
   ],
